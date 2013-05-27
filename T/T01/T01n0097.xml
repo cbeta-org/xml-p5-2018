@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T01n0097">
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>Taisho Tripitaka, Electronic version, No. 0097 廣義法門經</title>
+			<author>陳 真諦譯</author>
+			<respStmt>
+				<resp>Electronic Version by</resp>
+				<name>CBETA</name>
+			</respStmt>
+		</titleStmt>
+	<editionStmt>
+		<edition>$Revision: 1.16 $<date>$Date: 2012/08/27 03:13:55 $</date>新式標點版</edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp10"><resp>corrections</resp><name>Edition</name></respStmt>
+		<respStmt xml:id="resp11"><resp>corrections</resp><name>of</name></respStmt>
+		<respStmt xml:id="resp12"><resp>corrections</resp><name>the</name></respStmt>
+		<respStmt xml:id="resp13"><resp>corrections</resp><name>Canon</name></respStmt>
+		<respStmt xml:id="resp14"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp15"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp16"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
+		<respStmt xml:id="resp17"><resp>corrections</resp><name>楊郁文老師</name></respStmt>
+		<respStmt xml:id="resp18"><resp>corrections</resp><name>CBETA.grace</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
+		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
+		<respStmt xml:id="resp6"><resp>corrections</resp><name>Dudoucheng</name></respStmt>
+		<respStmt xml:id="resp7"><resp>corrections</resp><name>ihp</name></respStmt>
+		<respStmt xml:id="resp8"><resp>corrections</resp><name>Northern</name></respStmt>
+		<respStmt xml:id="resp9"><resp>corrections</resp><name>Yongle</name></respStmt>
+	</editionStmt>
+	<extent>1卷</extent>
+	<publicationStmt>
+		<distributor>
+			<name>中華電子佛典協會 (CBETA)</name>
+			<address>
+				<addrLine>service@cbeta.org</addrLine>
+			</address>
+		</distributor>
+		<availability>
+			<p>Available for non-commercial use when distributed with this header intact.</p>
+		</availability>
+		<date>$Date: 2012/08/27 03:13:55 $</date>
+	</publicationStmt>
+	<sourceDesc>
+		<bibl>Taisho Tripitaka Vol. 1, No. 097 </bibl>
+	<listWit>
+		<witness xml:id="wit1">【 CBETA】</witness>
+		<witness xml:id="wit10">【宋】</witness>
+		<witness xml:id="wit11">【元】</witness>
+		<witness xml:id="wit12">【明】</witness>
+		<witness xml:id="wit13">【聖】</witness>
+		<witness xml:id="wit14">【unknown】</witness>
+		<witness xml:id="wit15">【磧砂】</witness>
+		<witness xml:id="wit16">【知】</witness>
+		<witness xml:id="wit17">【醍】</witness>
+		<witness xml:id="wit18">【北藏】</witness>
+		<witness xml:id="wit19">【万】</witness>
+		<witness xml:id="wit2">【補編】</witness>
+		<witness xml:id="wit20">【德】</witness>
+		<witness xml:id="wit3">【CBETA】</witness>
+		<witness xml:id="wit4">【大】</witness>
+		<witness xml:id="wit5">【史】</witness>
+		<witness xml:id="wit6">【原】</witness>
+		<witness xml:id="wit7">【卍續】</witness>
+		<witness xml:id="wit8">【麗】</witness>
+		<witness xml:id="wit9">【嘉興】</witness>
+	</listWit>
+	</sourceDesc>
+</fileDesc>
+<encodingDesc>
+	<projectDesc>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Mr. Chang Wen-Ming, Text as provided by Anonymous, USA, Punctuated text as provided by Dhammavassarama</p>
+		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，張文明大德提供，北美某大德提供，法雨道場提供新式標點</p>
+	</projectDesc>
+</encodingDesc>
+<profileDesc>
+		<langUsage>
+			<language ident="en">English</language>
+			<language ident="zh">Chinese</language>
+		</langUsage>
+	</profileDesc>
+	<revisionDesc>
+		<change when="2013-05-20">
+			<name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+		</change>
+	<change when="1999-08-10T22:32:34">CW (ed.) Created initial TEI XML version with BASICX.BAT (99/8/10)</change>
+<!--
+$Log: T01n0097.xml,v $
+Revision 1.16  2012/08/27 03:13:55  maha
+修訂新標小圓點及著重號
+
+Revision 1.15  2010/02/26 08:57:26  eva
+modified: encoding="cp950"
+
+Revision 1.14  2010/02/10 11:23:41  eva
+modified: 新式標點版
+
+Revision 1.13  2010/01/18 10:29:03  eva
+modified: pushsign 作業經文用字修訂
+
+Revision 1.12  2009/04/23 07:54:21  amtbgrace
+modified: 檔頭編碼由 big5 改為 cp950。
+
+Revision 1.11  2006/04/12 15:27:12  saywhat
+lem 加 wit 屬性，p, lg, item 第二次加 id 屬性
+
+Revision 1.9  2004/11/14 03:16:54  maha
+將八個M碼(M024261 M040426 M034294 M005505 M010528 M010527 M026945 M006710) 取代為 Big5 系統字(碁 銹 裏 墻 恒 恒 粧 嫺)
+
+Revision 1.8  2004/10/07 04:49:35  saywhat
+執行圈點程式
+
+Revision 1.7  2004/04/20 08:36:49  maha
+「版本日期」標記修訂
+
+Revision 1.6  2004/03/16 02:17:37  ray
+resp 屬性 統一格式為 CBETA.xxx
+
+Revision 1.5  2004/01/02 05:52:38  maha
+<note mod>裡的corr2app
+
+Revision 1.4  2003/06/26 02:41:22  saywhat
+<corr>→<app>
+
+Revision 1.3  2003/06/23 05:31:46  saywhat
+[＊]校勘插入XML
+
+Revision 1.2  2003/06/09 03:38:15  saywhat
+修訂「疑似對應的＊校勘」
+
+Revision 1.1.1.1  2003/05/05 04:08:21  ray
+recover cvs
+
+Revision 1.20  2002/12/25 08:25:18  saywhat
+【三】＊取代
+
+Revision 1.19  2002/11/27 11:14:03  saywhat
+校勘插入處理
+
+Revision 1.18  2002/11/04 10:30:57  ray
+tei.2 => TEI.2
+
+Revision 1.17  2002/10/07 13:04:40  moved
+modified
+
+Revision 1.16  2002/07/29 09:43:01  vinking
+modified lang
+
+Revision 1.15  2002/04/03 03:37:27  ray
+xml:stylesheet => xml-stylesheet
+
+Revision 1.14  2001/11/05 04:00:55  ray
+<note type="foot"> => <note place="foot">
+<note type="inline"> => <note place="inline">
+
+Revision 1.13  2001/07/24 06:47:16  ray
+add 作者、譯者 <author> 卷數 <extent>
+
+Revision 1.12  2001/05/25 08:41:18  ray
+經號統一為四碼
+
+Revision 1.11  2001/04/01 08:10:23  ray
+CB00380 => CB00308
+
+Revision 1.10  2001/04/01 05:53:54  ray
+heaven 重新加入 <milestone>
+
+Revision 1.9  2001/03/30 03:01:48  ray
+缺字碼取代
+
+Revision 1.8  2001/03/30 00:35:25  ray
+缺字CB碼由四碼增長為五碼
+
+Revision 1.7  2001/02/07 06:39:42  chris
+Fixed problem with comment in the previous checkin
+
+Revision 1.6  2001/02/03 07:28:26  chris
+Added keywords $Revision: 1.16 $, $Date: 2012/08/27 03:13:55 $ and $Log.
+Added comment  for Emacs
+
+-->
+ </revisionDesc>
+</teiHeader>
+<text><body>
+<lb n="0919b19" ed="T"/>
+<milestone n="1" unit="juan"/>
+<lb n="0919b20" ed="T"/>
+<lb n="0919b21" ed="T"/><cb:docNumber>No. 97 [No. 98]</cb:docNumber><cb:div type="jing">
+<lb n="0919b22" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0919011" n="0919011"/><anchor xml:id="nkr_note_mod_0919011" n="0919011"/><anchor xml:id="beg0919011" n="0919011"/>廣<anchor xml:id="end0919011"/>義法門經<anchor xml:id="nkr_note_orig_0919012" n="0919012"/><anchor xml:id="nkr_note_mod_0919012" n="0919012"/><anchor xml:id="beg0919012" n="0919012"/>一卷<anchor xml:id="end0919012"/><note place="inline"><anchor xml:id="nkr_note_orig_0919013" n="0919013"/><anchor xml:id="beg0919013" n="0919013"/>出<anchor xml:id="end0919013"/>中阿含經一品</note></cb:jhead></cb:juan>
+<lb n="0919b23" ed="T"/>
+<lb n="0919b24" ed="T"/><byline cb:type="Translator">陳<anchor xml:id="nkr_note_orig_0919014" n="0919014"/><anchor xml:id="nkr_note_mod_0919014" n="0919014"/><anchor xml:id="beg0919014" n="0919014"/>天竺三藏<anchor xml:id="end0919014"/>真諦譯</byline>
+<lb n="0919b25" ed="T"/><p xml:id="pT01p0919b2501">如是我聞：</p><p xml:id="pT01p0919b2505" rend="inline">一時，淨命舍利弗住舍衛國，祇陀
+<lb n="0919b26" ed="T"/>樹林給孤獨園，與大比丘眾俱。是時，淨命舍
+<lb n="0919b27" ed="T"/>利弗語：「諸比丘！」諸比丘言：「大德舍利弗！」舍利
+<lb n="0919b28" ed="T"/>弗言：「長老！我今為長老說法，初善中善後善，
+<lb n="0919b29" ed="T"/>義善語善，純一無雜，圓滿清淨。今為汝等，顯
+<pb n="0919c" ed="T" xml:id="T01.0097.0919c"/>
+<lb n="0919c01" ed="T"/>示梵行，謂廣義法<anchor xml:id="nkr_note_orig_0919015" n="0919015"/><anchor xml:id="beg0919015" n="0919015"/>門<anchor xml:id="end0919015"/>。是故汝等！今當諦聽，
+<lb n="0919c02" ed="T"/>一心恭敬，善思念之。此廣義法門，長老！有十
+<lb n="0919c03" ed="T"/>二種，離難隨順道時，能起方便，為證得聖法。
+<lb n="0919c04" ed="T"/>何等十二？一自勝得，二他勝得，三生人道，四
+<lb n="0919c05" ed="T"/>生聖地，五性得利根，六得成正見，七善作資
+<lb n="0919c06" ed="T"/>業，八善處生信，九值佛出世，十佛正轉法輪，
+<lb n="0919c07" ed="T"/>十一正法在世未滅，十二依佛教。於正法中，
+<lb n="0919c08" ed="T"/>如理修行。長老！是十二種，離難隨順道時，能
+<lb n="0919c09" ed="T"/>起方便，為證得聖法。長老！能說比丘，若欲為
+<lb n="0919c10" ed="T"/>他說於正法，與法及義相應，此語應說，謂恭
+<lb n="0919c11" ed="T"/>敬次第相攝相應，生他歡喜及以欲樂，滿足
+<lb n="0919c12" ed="T"/>正勤，不損惱他，所說如理相應無雜，隨順聽
+<lb n="0919c13" ed="T"/>眾，此言應說。有慈悲心，有利益心，有隨樂
+<lb n="0919c14" ed="T"/>心，不著利養，恭敬讚歎，若正說法陰時，不得
+<lb n="0919c15" ed="T"/>自讚自高，不得毀呰他人。</p><p xml:id="pT01p0919c1511" rend="inline">「長老！若人欲聽正
+<lb n="0919c16" ed="T"/>法，具十六相，乃可聽受。何等十六？一隨時
+<lb n="0919c17" ed="T"/>聽，二恭敬，三欲樂，四無執著，五如聞隨行，
+<lb n="0919c18" ed="T"/>六不為破難，七於法起尊重心，八於說者起
+<lb n="0919c19" ed="T"/>尊重心，九不輕撥正法，十不輕撥說者，十一
+<lb n="0919c20" ed="T"/>不輕己身，十二一心不散，十三欲求解心，十
+<lb n="0919c21" ed="T"/>四<anchor xml:id="nkr_note_orig_0919016" n="0919016"/><anchor xml:id="beg0919016" n="0919016"/>一心<anchor xml:id="end0919016"/>諦聽，十五依理正思，十六憶持前
+<lb n="0919c22" ed="T"/>後，而聽正法。佛聖弟子，若能如此，恭敬諦
+<lb n="0919c23" ed="T"/>聽，信根生長，於正法中，心得澄淨；以此為
+<lb n="0919c24" ed="T"/>先，則於涅槃，生歡喜心，及求得心；以此為
+<lb n="0919c25" ed="T"/>先，則於涅槃，生喜樂心，離於愛著；以此為
+<lb n="0919c26" ed="T"/>先，則於涅槃，滅除惑障，得一定心；以此為
+<lb n="0919c27" ed="T"/>先，則於涅槃，捨離疑惑，生正直見；以此為
+<lb n="0919c28" ed="T"/>先，則於涅槃，起迴向心，為修觀行，為熾然
+<lb n="0919c29" ed="T"/>修，為應隨道法，為滅助道障法，為得安住
+<pb n="0920a" ed="T" xml:id="T01.0097.0920a"/>
+<lb n="0920a01" ed="T"/>心，為得第一義；以此為先，於一切行法寂滅，
+<lb n="0920a02" ed="T"/>證得真空，愛滅離欲，於無生涅槃，得入成住
+<lb n="0920a03" ed="T"/>信樂之心；以此為先，則於涅槃及陰無常，得
+<lb n="0920a04" ed="T"/>入成住信樂之心；以此為先，則於涅槃及四
+<lb n="0920a05" ed="T"/>聖諦，法眼清淨，為生慧眼；以此為先，則於涅
+<lb n="0920a06" ed="T"/>槃，而得解脫；以此為先，則於涅槃解脫知見，
+<lb n="0920a07" ed="T"/>皆得圓滿。長老！由能如此如理一心，諦聽正
+<lb n="0920a08" ed="T"/>法，諸聖弟子，則不損惱；能說法者，已能了別
+<lb n="0920a09" ed="T"/>正說言味，即是依法供養大師，證得己利及
+<lb n="0920a10" ed="T"/>以涅槃。</p><p xml:id="pT01p0920a1004" rend="inline">「是聽法人，有十種法生起，能成熟般
+<lb n="0920a11" ed="T"/>若。何等為十？一親近善友，二能淨持戒，三心
+<lb n="0920a12" ed="T"/>欲求解，四樂受善教，五樂供養說者，六依時
+<lb n="0920a13" ed="T"/>難問，七諦聽正法，八恒修正法，九於可厭惡，
+<lb n="0920a14" ed="T"/>恒生厭心，十已起厭心如理能起四種正勤。
+<lb n="0920a15" ed="T"/>何等名為依理正勤？謂於善法，心無懈怠，恒
+<lb n="0920a16" ed="T"/>練治心，淨諸惡法。若心未得定，令得自在，若
+<lb n="0920a17" ed="T"/>心未通達，令得了達，如此則名依理正勤。</p><p xml:id="pT01p0920a1717" rend="inline">「長
+<lb n="0920a18" ed="T"/>老！若聖弟子，自如此依於道理而起正勤，有
+<lb n="0920a19" ed="T"/>十種相應法修行。何等為十？一不淨想，二無常
+<lb n="0920a20" ed="T"/>想，三於無常觀於苦想，四於苦法中觀無我
+<lb n="0920a21" ed="T"/>想，五厭惡食想，六於一切世間無安樂想，七生
+<lb n="0920a22" ed="T"/>光明想，八觀離欲想，九觀滅離想，十觀死想。</p>
+<lb n="0920a23" ed="T"/><p xml:id="pT01p0920a2301">「長老！有十四法，能違能障此不淨想。何等十
+<lb n="0920a24" ed="T"/>四？一共女人一處住，二失念心觀視女人，三恒起
+<lb n="0920a25" ed="T"/>放逸，四生重欲心，五數習淨想，六不數習不
+<lb n="0920a26" ed="T"/>淨想，七恒共作務人聚集而住，八隨彼所行，
+<lb n="0920a27" ed="T"/>九不樂聽正法，十不問正法，十一不能守護六
+<lb n="0920a28" ed="T"/>種根門，十二食不節量，十三獨住空處不得安
+<lb n="0920a29" ed="T"/>心，十四不能如實觀<anchor xml:id="nkr_note_orig_0920001" n="0920001"/><anchor xml:id="nkr_note_mod_0920001" n="0920001"/><anchor xml:id="beg0920001" n="0920001"/>察<anchor xml:id="end0920001"/>。</p><p xml:id="pT01p0920a2910" rend="inline">「二無常想者，謂愛著
+<pb n="0920b" ed="T" xml:id="T01.0097.0920b"/>
+<lb n="0920b01" ed="T"/>行法為障。</p><p xml:id="pT01p0920b0105" rend="inline">「三於無常苦想者，有六法為障。何
+<lb n="0920b02" ed="T"/>等為六？<anchor xml:id="beg_1" type="cb-app"/>一<anchor xml:id="end_1"/>懈怠，二懶惰，三恒樂住息，四放逸，
+<lb n="0920b03" ed="T"/>五不能隨行，六不能如實觀察。</p><p xml:id="pT01p0920b0313" rend="inline">「四於苦無我
+<lb n="0920b04" ed="T"/>想者，我見為障。</p><p xml:id="pT01p0920b0407" rend="inline">「五厭惡食想者，貪味為障。</p><p xml:id="pT01p0920b0417" rend="inline">「六
+<lb n="0920b05" ed="T"/>於一切世間無安樂想者，於世間希愛欲為
+<lb n="0920b06" ed="T"/>障。</p><p xml:id="pT01p0920b0602" rend="inline">「七生光明想者，有十一法為障。何等十一？
+<lb n="0920b07" ed="T"/>一疑惑，二不能思量，三身麁重，四睡弱，五正
+<lb n="0920b08" ed="T"/>精勤<anchor xml:id="nkr_note_orig_0920002" n="0920002"/><anchor xml:id="nkr_note_mod_0920002" n="0920002"/><anchor xml:id="beg0920002" n="0920002"/>大<anchor xml:id="end0920002"/>過，六正精勤下劣，七心濁，八心驚，
+<lb n="0920b09" ed="T"/>九生種種想，十多言說，十一於色起最極瞻
+<lb n="0920b10" ed="T"/>視。</p><p xml:id="pT01p0920b1002" rend="inline">「八觀離欲想者，有欲為障。</p><p xml:id="pT01p0920b1012" rend="inline">「九觀滅離想者，
+<lb n="0920b11" ed="T"/>隨法執<anchor xml:id="nkr_note_orig_0920003" n="0920003"/><anchor xml:id="beg0920003" n="0920003"/>相<anchor xml:id="end0920003"/>為障。</p><p xml:id="pT01p0920b1107" rend="inline">「十觀死想者，愛壽為障。</p><p xml:id="pT01p0920b1116" rend="inline">「如
+<lb n="0920b12" ed="T"/>此等障，未曾伏滅，為滅此障，有三種法，最多
+<lb n="0920b13" ed="T"/>恩德。何等為三？一樂修，二滅離，三多住前
+<lb n="0920b14" ed="T"/>二。</p><p xml:id="pT01p0920b1402" rend="inline">「長老！有十四法，於不淨觀，最多恩德：一
+<lb n="0920b15" ed="T"/>不共女人一處住，二不失念心觀視女人，三
+<lb n="0920b16" ed="T"/>恒不放逸，四不生重欲心，五數習不淨想，六
+<lb n="0920b17" ed="T"/>不數習淨想，七不共作務人住，八不隨其所
+<lb n="0920b18" ed="T"/>行，九樂聽正法，十樂聞正法，十一守護六根
+<lb n="0920b19" ed="T"/>門，十二節量食，十三獨處心得安住，十四能
+<lb n="0920b20" ed="T"/>如實觀察。</p><p xml:id="pT01p0920b2005" rend="inline">「長老！一不淨想者，若事修習，則能
+<lb n="0920b21" ed="T"/>滅除欲塵愛欲。二無常想者，若事修習，能滅
+<lb n="0920b22" ed="T"/>一切行法愛著。三於無常觀苦想者，若事修
+<lb n="0920b23" ed="T"/>習，能除懈怠及懶墮心。四於苦法中，觀無我
+<lb n="0920b24" ed="T"/>想者，若事修習，能除我見。五厭惡食想者，若
+<lb n="0920b25" ed="T"/>事修習，能滅貪味。六於一切世間無安樂想
+<lb n="0920b26" ed="T"/>者，若事修習，能滅世間希有愛欲。七生光明
+<lb n="0920b27" ed="T"/>想者，若事修習，則能生長智慧及見。八觀離
+<lb n="0920b28" ed="T"/>欲想者，若事修習，能除有欲。九觀滅離想者，
+<lb n="0920b29" ed="T"/>若事修習，能滅一切有為法攝。十觀死想者，
+<pb n="0920c" ed="T" xml:id="T01.0097.0920c"/>
+<lb n="0920c01" ed="T"/>若事修習，能除壽命貪愛。</p><p xml:id="pT01p0920c0111" rend="inline">「長老！若聖弟子，如
+<lb n="0920c02" ed="T"/>此如理正修正勤，有二十法，是勤修障。何等
+<lb n="0920c03" ed="T"/>二十？一與不修觀人共住，二不樂聽<anchor xml:id="nkr_note_orig_0920004" n="0920004"/><anchor xml:id="nkr_note_mod_0920004" n="0920004"/><anchor xml:id="beg0920004" n="0920004"/>聞<anchor xml:id="end0920004"/>，三
+<lb n="0920c04" ed="T"/>不<anchor xml:id="nkr_note_orig_0920005" n="0920005"/><anchor xml:id="nkr_note_mod_0920005" n="0920005"/><anchor xml:id="beg0920005" n="0920005"/>得<anchor xml:id="end0920005"/><anchor xml:id="nkr_note_orig_0920006" n="0920006"/>隨順教，四自成聾瘂，五有多求欲，六
+<lb n="0920c05" ed="T"/>多事，七不如法立資生，八捨荷負善法，九值
+<lb n="0920c06" ed="T"/>八種難，十隨流散動，十一高慢，十二不受善
+<lb n="0920c07" ed="T"/>教，十三失念，十四放逸，十五不住正<anchor xml:id="nkr_note_orig_0920007" n="0920007"/><anchor xml:id="nkr_note_mod_0920007" n="0920007"/><anchor xml:id="beg0920007" n="0920007"/>土<anchor xml:id="end0920007"/>，十
+<lb n="0920c08" ed="T"/>六不守根門，十七不節量食，十八初夜後夜
+<lb n="0920c09" ed="T"/>不覺悟修行，十九獨住空處不得安心，二十
+<lb n="0920c10" ed="T"/>不能如實觀察。</p><p xml:id="pT01p0920c1007" rend="inline">「長老！如此二十種障，未曾伏
+<lb n="0920c11" ed="T"/>滅此障，有十一法，於伏滅此障，有多恩德。何
+<lb n="0920c12" ed="T"/>等十一？一信樂修行，二觀修功德，三能行難
+<lb n="0920c13" ed="T"/>行，四能制伏自心，五心無退墮，六了達正法
+<lb n="0920c14" ed="T"/>實相，七不輕己身，八樂聽無厭，九問難決疑，
+<lb n="0920c15" ed="T"/>十獨處空閑心得安住，十一能如實觀察。</p><p xml:id="pT01p0920c1517" rend="inline">「長
+<lb n="0920c16" ed="T"/>老！諸聖弟子，若能如此修習正勤，有二十法，
+<lb n="0920c17" ed="T"/>最多恩德。何等二十？一與修觀人共住，二樂
+<lb n="0920c18" ed="T"/>聽<anchor xml:id="beg_2" type="star"/>聞<anchor xml:id="end_2"/>正法，三得隨順教，四自不聾瘂，五無
+<lb n="0920c19" ed="T"/>多求欲，六無多事，七如法立資生，八不捨荷
+<lb n="0920c20" ed="T"/>負善法，九不遭八難，十不隨流散動，十一心
+<lb n="0920c21" ed="T"/>無高憍，十二能受善教，十三不失正念，十四
+<lb n="0920c22" ed="T"/>心無放逸，十五住在正<anchor xml:id="beg_3" type="star"/>土<anchor xml:id="end_3"/>，十六能守護根
+<lb n="0920c23" ed="T"/>門，十七能節量食，十八初夜後夜恒覺悟修
+<lb n="0920c24" ed="T"/>行，十九獨處空閑心得安住，二十如實觀察。</p>
+<lb n="0920c25" ed="T"/><p xml:id="pT01p0920c2501">「長老！有二十二處，出家之人，應數數觀察。何
+<lb n="0920c26" ed="T"/>等二十二？一自念我今色形醜陋，已捨在家
+<lb n="0920c27" ed="T"/>可愛等相，此第一事，出家之人，應數觀察；二
+<lb n="0920c28" ed="T"/>自念我今已著壞好色衣；三自念我身裝飾
+<lb n="0920c29" ed="T"/>異於世間；四自念我資生繫屬四輩；五自念
+<pb n="0921a" ed="T" xml:id="T01.0097.0921a"/>
+<lb n="0921a01" ed="T"/>我今依他恒時應須求覔資生，謂衣服飲食
+<lb n="0921a02" ed="T"/>臥具治病藥具；六自念我今盡形壽，於人間
+<lb n="0921a03" ed="T"/>欲塵已受禁制；七自念我今盡形壽，於人間
+<lb n="0921a04" ed="T"/>遊戲喜樂等事，永受遮制；八自念我今依戒，
+<lb n="0921a05" ed="T"/>為當呵責自身為當得不；九自念我同行善
+<lb n="0921a06" ed="T"/>友，為當於法<anchor xml:id="nkr_note_orig_0921001" n="0921001"/><anchor xml:id="nkr_note_mod_0921001" n="0921001"/><anchor xml:id="beg0921001" n="0921001"/>然<anchor xml:id="end0921001"/>中不呵責我耶；十自念我今
+<lb n="0921a07" ed="T"/>將持此身，為當得不被傷害不；十一自念我
+<lb n="0921a08" ed="T"/>今受用國土飲食，得不空果不；十二自念我
+<lb n="0921a09" ed="T"/>今獨處空閑，得安心住不；十三自念我今何
+<lb n="0921a10" ed="T"/>所得，此日夜得過度；十四自念我今於一切
+<lb n="0921a11" ed="T"/>行寂滅處，證得空處及愛滅處，離欲滅無生
+<lb n="0921a12" ed="T"/>涅槃，得入成住信樂之心；十五自念我今於
+<lb n="0921a13" ed="T"/>陰無常<anchor xml:id="nkr_note_orig_0921002" n="0921002"/><anchor xml:id="nkr_note_mod_0921002" n="0921002"/><anchor xml:id="beg0921002" n="0921002"/>相<anchor xml:id="end0921002"/>陰無所有相，於陰虛相，於陰無實
+<lb n="0921a14" ed="T"/>相，於陰壞相，得入成住信樂之心；十六自念
+<lb n="0921a15" ed="T"/>我今於四沙門果中，為當已證得隨一沙門
+<lb n="0921a16" ed="T"/>果，由此證得，臨命終時，聰明同行善友來責
+<lb n="0921a17" ed="T"/>問時，我以無疑畏心，生喜樂心，應當記自所
+<lb n="0921a18" ed="T"/>得，若自記時為如理不；十七自念我今未離
+<lb n="0921a19" ed="T"/>生法，於未來世未度，隨處託生；十八自念我
+<lb n="0921a20" ed="T"/>今未離老相；十九自念我今未離病災；二十
+<lb n="0921a21" ed="T"/>自念我今未離死災，未度死法；二十一自念
+<lb n="0921a22" ed="T"/>我今與一切所愛念樂惜別離各處，不相應
+<lb n="0921a23" ed="T"/>不相聚、不相知，決定應有；二十二自念我今
+<lb n="0921a24" ed="T"/>屬業，受業控制，由業為因，以業為依，我所作
+<lb n="0921a25" ed="T"/>業若善若惡，隨自有業決定受報。如此等
+<lb n="0921a26" ed="T"/>處，出家之人，應數數觀察。若出家人，數數觀
+<lb n="0921a27" ed="T"/>察二十二處，於沙門名，則得圓滿。若沙門名，
+<lb n="0921a28" ed="T"/>得<anchor xml:id="beg_4" type="cb-app"/>圓滿<anchor xml:id="end_4"/>已，於七種相，則得圓滿。何等為七？一
+<lb n="0921a29" ed="T"/>恒修不息相，二得恒教他，不疲厭相，三得無
+<pb n="0921b" ed="T" xml:id="T01.0097.0921b"/>
+<lb n="0921b01" ed="T"/>貪著相，四得無瞋恚相，五得正念相，六得無
+<lb n="0921b02" ed="T"/>增上慢相，七得一切資生。為成就此故能得
+<lb n="0921b03" ed="T"/>定，如此七相，皆得圓滿。</p><p xml:id="pT01p0921b0310" rend="inline">「長老！此心意識，長
+<lb n="0921b04" ed="T"/>時於色遊戲，聲香味觸，亦復如是。色聲香味
+<lb n="0921b05" ed="T"/>觸之所生長<anchor xml:id="nkr_note_orig_0921003" n="0921003"/><anchor xml:id="beg0921003" n="0921003"/>如<anchor xml:id="end0921003"/>此之心，由不正思惟，於甘露
+<lb n="0921b06" ed="T"/>界，不可安立。</p><p xml:id="pT01p0921b0606" rend="inline">「長老！有二十相，凡夫之人，以
+<lb n="0921b07" ed="T"/>此諸相，數數應須怖厭自心。何等二十？一我
+<lb n="0921b08" ed="T"/>今空虛，無有勝德；二我今應當死，無制伏
+<lb n="0921b09" ed="T"/>死；三我<anchor xml:id="nkr_note_orig_0921004" n="0921004"/><anchor xml:id="nkr_note_mod_0921004" n="0921004"/><anchor xml:id="beg0921004" n="0921004"/>今<anchor xml:id="end0921004"/>當墮最底下；四我今應行有怖難
+<lb n="0921b10" ed="T"/>方；五我今不識無怖畏方；六我今不了光等
+<lb n="0921b11" ed="T"/>直路；七我今不得離散定心；八我當來受生
+<lb n="0921b12" ed="T"/>苦不可忍；九善緣聚集，不可恒得；十能殺害
+<lb n="0921b13" ed="T"/>者，恒隨逐我；十一六道對我，無有遮蔽；十二
+<lb n="0921b14" ed="T"/>我今未得解脫四趣；十三我今未離無量見
+<lb n="0921b15" ed="T"/>類；十四我今未作堤塘，為遮未來無間業流；
+<lb n="0921b16" ed="T"/>十五我今未作，無始生死相續後際；十六若
+<lb n="0921b17" ed="T"/>不故心造諸善業，終不成作；十七無有他人
+<lb n="0921b18" ed="T"/>為他造業；十八若不造作則無安吉；十九若
+<lb n="0921b19" ed="T"/>已作業此業無<anchor xml:id="nkr_note_orig_0921005" n="0921005"/><anchor xml:id="nkr_note_mod_0921005" n="0921005"/><anchor xml:id="beg0921005" n="0921005"/>不<anchor xml:id="end0921005"/>必有果報；二十我今無知
+<lb n="0921b20" ed="T"/>無明所覆，必有死災。以是義故，凡夫之人，以
+<lb n="0921b21" ed="T"/>此諸相，數數應須厭怖自心。</p><p xml:id="pT01p0921b2112" rend="inline">「若凡夫人，以此
+<lb n="0921b22" ed="T"/>二十相，厭惡怖畏，遮制自心，復於二十種法，
+<lb n="0921b23" ed="T"/>速得依住。何等二十？一正思修心相心疾得
+<lb n="0921b24" ed="T"/>住，二思心次第相，三思一心住相，四入三摩
+<lb n="0921b25" ed="T"/>提相，五出三摩提相，六得抑下心相，七得拔
+<lb n="0921b26" ed="T"/>起心相，八得捨置心相，九得遠離不應行處，
+<lb n="0921b27" ed="T"/>十得正事行處，十一正受正教，十二多習厭
+<lb n="0921b28" ed="T"/>惡相，十三多習喜樂相，十四能得法門勝智，
+<lb n="0921b29" ed="T"/>十五正依止師尊，十六正修善行心疾得住，
+<pb n="0921c" ed="T" xml:id="T01.0097.0921c"/>
+<lb n="0921c01" ed="T"/>十七正修阿那波那念，十八正修不淨觀，十
+<lb n="0921c02" ed="T"/>九正修四念處，二十正修四聖諦觀，於此實
+<lb n="0921c03" ed="T"/>相中心疾依住。</p><p xml:id="pT01p0921c0307" rend="inline">「長老！諸聖弟子，若能如理修
+<lb n="0921c04" ed="T"/>習正勤，復應知有十一種障礙法為難。何等
+<lb n="0921c05" ed="T"/>十一？一數數集眾，二愛重飲食，三<anchor xml:id="nkr_note_orig_0921006" n="0921006"/><anchor xml:id="nkr_note_mod_0921006" n="0921006"/><anchor xml:id="beg0921006" n="0921006"/>恒喜<anchor xml:id="end0921006"/>起
+<lb n="0921c06" ed="T"/>造作，四<anchor xml:id="beg_5" type="star"/>恒喜<anchor xml:id="end_5"/>言說，五<anchor xml:id="beg_6" type="star"/>恒喜<anchor xml:id="end_6"/>眠臥，六<anchor xml:id="beg_7" type="star"/>恒喜<anchor xml:id="end_7"/>
+<lb n="0921c07" ed="T"/>雜話，七<anchor xml:id="beg_8" type="star"/>恒喜<anchor xml:id="end_8"/>不獨離，八愛惜己身，九心恒
+<lb n="0921c08" ed="T"/>散動，十心恒放逸不樂修行，十一住非<anchor xml:id="beg_9" type="star"/>土<anchor xml:id="end_9"/>
+<lb n="0921c09" ed="T"/>處。</p><p xml:id="pT01p0921c0902" rend="inline">「長老！此十一種，名障礙法，未曾伏滅，為
+<lb n="0921c10" ed="T"/>滅除故，有十勝智，決應修學。何等為十？一三
+<lb n="0921c11" ed="T"/>摩提勝智，二住定勝智，三出定勝智，四抑下
+<lb n="0921c12" ed="T"/>勝智，五拔起勝智，六捨置勝智，七善進勝智，
+<lb n="0921c13" ed="T"/>八善退勝智，九方便勝智，十引攝勝智。</p><p xml:id="pT01p0921c1316" rend="inline">「長老！
+<lb n="0921c14" ed="T"/>諸聖弟子，若能得此十種勝智，復有十三喜
+<lb n="0921c15" ed="T"/>樂依止法，依內生起。何等十三？一若有信心
+<lb n="0921c16" ed="T"/>人，正思大師，爾時喜樂，即依內起，是名第一
+<lb n="0921c17" ed="T"/>有信心人喜樂依止；二正思正法，三正思惟
+<lb n="0921c18" ed="T"/>僧，四正思惟自他清淨戒，五正思惟自他捨
+<lb n="0921c19" ed="T"/>施善法，六正思惟自他修道所證得法，爾時
+<lb n="0921c20" ed="T"/>依內，即生喜樂；七應作是念，世尊為我滅眾
+<lb n="0921c21" ed="T"/>苦法，依此正念，爾時依內，即生喜樂；八應作
+<lb n="0921c22" ed="T"/>是念，世尊為我，生長眾多安樂利益法；九應
+<lb n="0921c23" ed="T"/>作是念，世尊為我，遮制斷隔無量有礙惡法；
+<lb n="0921c24" ed="T"/>十復作是念，世尊為我，生長無量助道善法；
+<lb n="0921c25" ed="T"/>有信心人，由此四念，爾時於即生喜樂。</p><p xml:id="pT01p0921c2516" rend="inline">「長
+<lb n="0921c26" ed="T"/>老！諸聖弟子，若能數得十三喜樂，依止四法，
+<lb n="0921c27" ed="T"/>復有五法，至修圓滿。何等為依止四法？一信
+<lb n="0921c28" ed="T"/>樂，二精進，三獨處空閑心得安住，四於修及
+<lb n="0921c29" ed="T"/>滅心無厭極。何等五法至修圓滿？一心安，二
+<pb n="0922a" ed="T" xml:id="T01.0097.0922a"/>
+<lb n="0922a01" ed="T"/>心喜，<anchor xml:id="nkr_note_orig_0922001" n="0922001"/><anchor xml:id="nkr_note_mod_0922001" n="0922001"/><anchor xml:id="beg0922001" n="0922001"/>二心猗<anchor xml:id="end0922001"/>，四心樂，五心定。長老！如此五
+<lb n="0922a02" ed="T"/>法生長圓滿故，復有八刺，即離滅壞。何等為
+<lb n="0922a03" ed="T"/>八？一欲刺，二瞋刺，三癡刺，四慢刺，五愛刺，
+<lb n="0922a04" ed="T"/>六見刺，七無明刺，八疑刺。由此八刺，離滅壞
+<lb n="0922a05" ed="T"/>故，諸聖弟子，則得十種無學聖法。何等為
+<lb n="0922a06" ed="T"/>十？一無學正見，二無學正覺，三無學正言，四
+<lb n="0922a07" ed="T"/>無學正業，五無學正命，六無學正精進，七無
+<lb n="0922a08" ed="T"/>學正念，八無學正定，九無學正解脫，十無學
+<lb n="0922a09" ed="T"/>正解脫知見。長老！諸聖弟子，由能證得十無
+<lb n="0922a10" ed="T"/>學法，恒得相應，無有退失。是聖弟子，五分所
+<lb n="0922a11" ed="T"/>離，六分應相，一法守護，得四依止，捨一諦偏
+<lb n="0922a12" ed="T"/>執，出過尋覓，無濁思惟，寂靜身行，善解脫
+<lb n="0922a13" ed="T"/>心，善解脫慧，獨住清淨，所作已辦，如此則說
+<lb n="0922a14" ed="T"/>名勝丈夫。</p><p xml:id="pT01p0922a1405" rend="inline">「長老！是最後心意識，非色聲等所
+<lb n="0922a15" ed="T"/>資生長，緣無所有，是時託後受生，悉皆永斷，
+<lb n="0922a16" ed="T"/>是名苦<anchor xml:id="nkr_note_orig_0922002" n="0922002"/><anchor xml:id="nkr_note_mod_0922002" n="0922002"/><anchor xml:id="beg0922002" n="0922002"/>永<anchor xml:id="end0922002"/>後際。由此說義故，所以說名廣義
+<lb n="0922a17" ed="T"/>法門。</p><p xml:id="pT01p0922a1703" rend="inline">「長老！我已為汝等說法，謂初善中善後
+<lb n="0922a18" ed="T"/>善，義善語善，純一無雜，圓滿清淨。已為汝
+<lb n="0922a19" ed="T"/>等，顯示梵行，所謂廣義法門，我先許說。如此
+<lb n="0922a20" ed="T"/>等言，即今已說。」</p><p xml:id="pT01p0922a2007" rend="inline">時淨命舍利弗，說此經已。時，
+<lb n="0922a21" ed="T"/>聰慧同行，無量徒眾，未證真義今得證，未得
+<lb n="0922a22" ed="T"/>沙門道果，今皆已得，歡喜踊躍，信受奉行。大
+<lb n="0922a23" ed="T"/>德舍利弗，如此正說。</p>
+<lb n="0922a24" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><anchor xml:id="nkr_note_orig_0922003" n="0922003"/><anchor xml:id="beg0922003" n="0922003"/>廣<anchor xml:id="end0922003"/>義法門經<anchor xml:id="beg_a" type="star"/>一卷<anchor xml:id="end_a"/></cb:jhead></cb:juan>
+<lb n="0922a25" ed="T"/><p cb:type="W" xml:id="pT01p0922a2501"><anchor xml:id="nkr_note_orig_0922004" n="0922004"/>此經出《中阿含》一品。</p>
+<lb n="0922a26" ed="T"/><p cb:type="W" xml:id="pT01p0922a2601">陳天嘉四年歲次癸未十一月十日，於廣
+<lb n="0922a27" ed="T"/>州制旨寺，請真諦三藏闍梨為譯。</p>
+</cb:div></body>
+<back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg0919011" to="#end0919011"><lem wit="#wit4">廣</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">佛說廣</rdg></app>
+<app from="#beg0919012" to="#end0919012"><lem wit="#wit4">一卷</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12"><space quantity="0"/></rdg></app>
+<app from="#beg0919013" to="#end0919013"><lem wit="#wit4">出</lem><rdg resp="#resp14" wit="#wit12">此經出</rdg></app>
+<app from="#beg0919014" to="#end0919014"><lem wit="#wit4">天竺三藏</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">三藏法師</rdg></app>
+<app from="#beg0919015" to="#end0919015"><lem wit="#wit4">門</lem><rdg resp="#resp14" wit="#wit10">如</rdg></app>
+<app from="#beg0919016" to="#end0919016"><lem wit="#wit4">一心</lem><rdg resp="#resp14" wit="#wit10">注心</rdg></app>
+<app from="#beg0920001" to="#end0920001"><lem wit="#wit4">察</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">察一不淨想者</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>一</corr><sic><space quantity="0"/></sic></choice>
+<app from="#beg0920002" to="#end0920002"><lem wit="#wit4">大</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">太</rdg></app>
+<app from="#beg0920003" to="#end0920003"><lem wit="#wit4">相</lem><rdg resp="#resp14" wit="#wit11 #wit12">想</rdg></app>
+<app from="#beg0920004" to="#end0920004"><lem wit="#wit4">聞</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">問</rdg></app>
+<app from="#beg0920005" to="#end0920005"><lem wit="#wit4">得</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">得非</rdg></app>
+<app from="#beg0920007" to="#end0920007"><lem wit="#wit4">土</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">士</rdg></app>
+<app from="#beg_2" to="#end_2" corresp="#0920004"><lem wit="#wit4">聞</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">問</rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0920007"><lem wit="#wit4">土</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">士</rdg></app>
+<app from="#beg0921001" to="#end0921001"><lem wit="#wit4">然</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">律</rdg></app>
+<app from="#beg0921002" to="#end0921002"><lem wit="#wit4">相</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">想</rdg></app>
+<choice cb:from="#beg_4" cb:to="#end_4"><corr>圓滿</corr><sic>滿圓</sic></choice>
+<app from="#beg0921003" to="#end0921003"><lem wit="#wit4">如</lem><rdg resp="#resp14" wit="#wit11 #wit12">老</rdg></app>
+<app from="#beg0921004" to="#end0921004"><lem wit="#wit4">今</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12"><space quantity="0"/></rdg></app>
+<app from="#beg0921005" to="#end0921005"><lem wit="#wit4">不</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12"><space quantity="0"/></rdg></app>
+<app from="#beg0921006" to="#end0921006"><lem wit="#wit4">恒喜</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">恒戲</rdg></app>
+<app from="#beg_5" to="#end_5" corresp="#0921006"><lem wit="#wit4">恒喜</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">恒戲</rdg></app>
+<app from="#beg_6" to="#end_6" corresp="#0921006"><lem wit="#wit4">恒喜</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">恒戲</rdg></app>
+<app from="#beg_7" to="#end_7" corresp="#0921006"><lem wit="#wit4">恒喜</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">恒戲</rdg></app>
+<app from="#beg_8" to="#end_8" corresp="#0921006"><lem wit="#wit4">恒喜</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">恒戲</rdg></app>
+<app from="#beg_9" to="#end_9" corresp="#0920007"><lem wit="#wit4">土</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">士</rdg></app>
+<app from="#beg0922001" to="#end0922001"><lem wit="#wit4">二心猗</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">三心猗</rdg></app>
+<app from="#beg0922002" to="#end0922002"><lem wit="#wit4">永</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">永斷</rdg></app>
+<app from="#beg0922003" to="#end0922003"><lem wit="#wit4">廣</lem><rdg resp="#resp14" wit="#wit12">佛說廣</rdg></app>
+<app from="#beg_a" to="#end_a" corresp="#0919012"><lem wit="#wit4">一卷</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0919011" resp="#resp3" type="mod" target="#nkr_note_mod_0919011">（佛說）＋廣【宋】【元】【明】</note>
+<note n="0919012" resp="#resp3" type="mod" target="#nkr_note_mod_0919012">〔一卷〕－【宋】【元】【明】<choice cb:resp="#resp15"><corr>＊</corr><sic></sic></choice></note>
+<note n="0919014" resp="#resp3" type="mod" target="#nkr_note_mod_0919014">天竺三藏＝三藏法師【宋】【元】【明】</note>
+<note n="0920001" resp="#resp3" type="mod" target="#nkr_note_mod_0920001">察＋（一不淨想者）五字【宋】【元】【明】</note>
+<note n="0920002" resp="#resp3" type="mod" target="#nkr_note_mod_0920002">大＝太【宋】【元】【明】</note>
+<note n="0920004" resp="#resp3" type="mod" target="#nkr_note_mod_0920004">聞＝問【宋】＊【元】＊【明】＊</note>
+<note n="0920005" resp="#resp3" type="mod" target="#nkr_note_mod_0920005">得＋（非）【宋】【元】【明】</note>
+<note n="0920007" resp="#resp3" type="mod" target="#nkr_note_mod_0920007">土＝士【宋】＊【元】＊【明】＊</note>
+<note n="0921001" resp="#resp3" type="mod" target="#nkr_note_mod_0921001">然＝律【宋】【元】【明】</note>
+<note n="0921002" resp="#resp3" type="mod" target="#nkr_note_mod_0921002">相＝想【宋】【元】【明】</note>
+<note n="0921004" resp="#resp3" type="mod" target="#nkr_note_mod_0921004">〔今〕－【宋】【元】【明】</note>
+<note n="0921005" resp="#resp3" type="mod" target="#nkr_note_mod_0921005">〔不〕－【宋】【元】【明】</note>
+<note n="0921006" resp="#resp3" type="mod" target="#nkr_note_mod_0921006">恒喜＝恒戲【宋】＊【元】＊【明】＊</note>
+<note n="0922001" resp="#resp3" type="mod" target="#nkr_note_mod_0922001">二心猗＝三心猗【宋】【元】【明】</note>
+<note n="0922002" resp="#resp3" type="mod" target="#nkr_note_mod_0922002">永＋（斷）【宋】【元】【明】</note>
+</p>
+</cb:div>
+<cb:div type="taisho-notes">
+<head>大正 校勘記</head>
+<p>
+<note n="0919011" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919011">（佛說）＋廣【三】</note>
+<note n="0919012" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919012">〔一卷〕－【三】</note>
+<note n="0919013" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919013">（此經）＋出【明】</note>
+<note n="0919014" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919014">天竺三藏＝三藏法師【三】</note>
+<note n="0919015" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919015">門＝如【宋】</note>
+<note n="0919016" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919016">一心＝注心【宋】</note>
+<note n="0920001" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0920001">察＋（一不淨想者）五字【三】</note>
+<note n="0920002" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0920002">大＝太【三】</note>
+<note n="0920003" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0920003">相＝想【元】【明】</note>
+<note n="0920004" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0920004">聞＝問【三】＊</note>
+<note n="0920005" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0920005">得＋（非）【三】</note>
+<note n="0920006" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0920006">隨上麗本字闕</note>
+<note n="0920007" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0920007">土＝士【三】＊</note>
+<note n="0921001" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0921001">然＝律【三】</note>
+<note n="0921002" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0921002">相＝想【三】</note>
+<note n="0921003" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0921003">如＝老【元】【明】</note>
+<note n="0921004" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0921004">〔今〕－【三】</note>
+<note n="0921005" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0921005">〔不〕－【三】</note>
+<note n="0921006" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0921006">恒喜＝恒戲【三】＊</note>
+<note n="0922001" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0922001">二心猗＝三心猗【三】</note>
+<note n="0922002" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0922002">永＋（斷）【三】</note>
+<note n="0922003" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0922003">（佛說）＋廣【明】</note>
+<note n="0922004" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0922004">此經…為譯三十七字在於末題前行【宋】【元】</note>
+</p>
+</cb:div>
+</back></text></TEI>
