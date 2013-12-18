@@ -12,22 +12,10 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2012/08/27 03:13:51 $</date>新式標點版</edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp10"><resp>corrections</resp><name>Edition</name></respStmt>
-		<respStmt xml:id="resp11"><resp>corrections</resp><name>of</name></respStmt>
-		<respStmt xml:id="resp12"><resp>corrections</resp><name>the</name></respStmt>
-		<respStmt xml:id="resp13"><resp>corrections</resp><name>Canon</name></respStmt>
-		<respStmt xml:id="resp14"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp15"><resp>corrections</resp><name>CBETA.say</name></respStmt>
-		<respStmt xml:id="resp16"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
-		<respStmt xml:id="resp6"><resp>corrections</resp><name>Dudoucheng</name></respStmt>
-		<respStmt xml:id="resp7"><resp>corrections</resp><name>ihp</name></respStmt>
-		<respStmt xml:id="resp8"><resp>corrections</resp><name>Northern</name></respStmt>
-		<respStmt xml:id="resp9"><resp>corrections</resp><name>Yongle</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -45,27 +33,18 @@
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 1, No. 010 </bibl>
 	<listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit10">【宋】</witness>
-		<witness xml:id="wit11">【元】</witness>
-		<witness xml:id="wit12">【明】</witness>
-		<witness xml:id="wit13">【聖】</witness>
-		<witness xml:id="wit14">【unknown】</witness>
-		<witness xml:id="wit15">【磧砂】</witness>
-		<witness xml:id="wit2">【補編】</witness>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【明】</witness>
 		<witness xml:id="wit3">【CBETA】</witness>
-		<witness xml:id="wit4">【大】</witness>
-		<witness xml:id="wit5">【史】</witness>
-		<witness xml:id="wit6">【原】</witness>
-		<witness xml:id="wit7">【卍續】</witness>
-		<witness xml:id="wit8">【麗】</witness>
-		<witness xml:id="wit9">【嘉興】</witness>
+		<witness xml:id="wit4">【麗】</witness>
+		<witness xml:id="wit5">【宋】</witness>
+		<witness xml:id="wit6">【元】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Mr. Chang Wen-Ming, Text as provided by Anonymous, USA, Punctuated text as provided by Dhammavassarama</p>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Mr. Chang Wen-Ming, Text as provided by Anonymous from USA, Punctuated text as provided by Dhammavassarama</p>
 		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，張文明大德提供，北美某大德提供，法雨道場提供新式標點</p>
 	</projectDesc>
 </encodingDesc>
@@ -684,58 +663,58 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校勘記</head>
 <p>
-<app from="#beg0216001" to="#end0216001"><lem wit="#wit4">西天譯經</lem><rdg resp="#resp14" wit="#wit12">宋西天</rdg></app>
-<app from="#beg0216002" to="#end0216002"><lem wit="#wit4">賜紫沙門臣施護等</lem><rdg resp="#resp14" wit="#wit12">施護</rdg></app>
-<app from="beg_1" to="end_1"><lem resp="#resp1 resp15" wit="#wit3 #wit8"><space quantity="0"/><note type="cf1">K40n1464_p0617c24</note></lem><rdg wit="#wit4">悉</rdg></app>
-<app from="#beg0216003" to="#end0216003"><lem wit="#wit4">若</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">苦</rdg></app>
-<app from="#beg0216004" to="#end0216004"><lem wit="#wit4">邪</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">耶</rdg></app>
-<app from="beg_2" to="end_2"><lem resp="#resp1 resp15" wit="#wit3 #wit8">此是<note type="cf1">K40n1464_p0619a12</note><note type="cf2">T01n0010_p0217b01</note></lem><rdg wit="#wit4">是此</rdg></app>
-<app from="#beg_3" to="#end_3" corresp="#0216004"><lem wit="#wit4">邪</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">耶</rdg></app>
-<app from="#beg_4" to="#end_4" corresp="#0216004"><lem wit="#wit4">邪</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">耶</rdg></app>
-<app from="#beg_5" to="#end_5" corresp="#0216004"><lem wit="#wit4">邪</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">耶</rdg></app>
-<app from="#beg0218001" to="#end0218001"><lem wit="#wit4">西天譯經</lem><rdg resp="#resp14" wit="#wit12">宋西天</rdg></app>
-<app from="#beg0218002" to="#end0218002"><lem wit="#wit4">賜紫沙門臣施護等</lem><rdg resp="#resp14" wit="#wit12">施護</rdg></app>
-<app from="#beg0218003" to="#end0218003"><lem wit="#wit4">之</lem><rdg resp="#resp14" wit="#wit10">沒</rdg></app>
-<app from="#beg0219001" to="#end0219001"><lem wit="#wit4">邪</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">耶</rdg></app>
-<app from="beg_6" to="end_6"><lem resp="#resp1 resp15" wit="#wit3 #wit8">但<note type="cf1">K40n1464_p0622a16</note><note type="cf2">T01n0010_p0219b03</note></lem><rdg wit="#wit4">怛</rdg></app>
-<app from="#beg0219002" to="#end0219002"><lem wit="#wit4">一</lem><rdg resp="#resp14" wit="#wit12">亦</rdg></app>
-<app from="#beg0220001" to="#end0220001"><lem wit="#wit4">密</lem><rdg resp="#resp14" wit="#wit12">蜜</rdg></app>
-<app from="#beg_7" to="#end_7" corresp="#0220001"><lem wit="#wit4">密</lem><rdg resp="#resp14" wit="#wit12">蜜</rdg></app>
-<app from="#beg0220002" to="#end0220002"><lem wit="#wit4">主</lem><rdg resp="#resp14" wit="#wit11">王</rdg></app>
-<app from="#beg0220003" to="#end0220003"><lem wit="#wit4">西天譯經三藏朝奉大夫試光祿卿傳法大師賜紫沙門臣施護等奉　詔譯</lem><rdg resp="#resp14" wit="#wit12">宋西天三藏朝奉大夫試光祿卿傳法大師施護奉詔譯</rdg></app>
-<app from="beg_8" to="end_8"><lem resp="#resp1 resp15" wit="#wit3 #wit8">由<note type="cf1">K40n1464_p0625a03</note><note type="cf2">T01n0010_p0221a13</note></lem><rdg wit="#wit4">山</rdg></app>
-<app from="#beg0221001" to="#end0221001"><lem wit="#wit4">一</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12"><space quantity="0"/></rdg></app>
-<app from="beg_9" to="end_9"><lem resp="#resp1 resp15" wit="#wit3 #wit8">正<note type="cf1">K40n1464_p0626a09</note><note type="cf2">T30n1582_p0983a04</note></lem><rdg wit="#wit4"><space quantity="0"/></rdg></app>
-<app from="#beg0222001" to="#end0222001"><lem wit="#wit4">正知</lem><rdg resp="#resp14" wit="#wit12">知正</rdg></app>
+<app from="#beg0216001" to="#end0216001"><lem wit="#wit1">西天譯經</lem><rdg resp="#resp1" wit="#wit2">宋西天</rdg></app>
+<app from="#beg0216002" to="#end0216002"><lem wit="#wit1">賜紫沙門臣施護等</lem><rdg resp="#resp1" wit="#wit2">施護</rdg></app>
+<app from="#beg_1" to="#end_1"><lem resp="#resp2 resp3" wit="#wit3 #wit4"><space quantity="0"/><note type="cf1">K40n1464_p0617c24</note></lem><rdg wit="#wit1">悉</rdg></app>
+<app from="#beg0216003" to="#end0216003"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2">苦</rdg></app>
+<app from="#beg0216004" to="#end0216004"><lem wit="#wit1">邪</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2">耶</rdg></app>
+<app from="#beg_2" to="#end_2"><lem resp="#resp2 resp3" wit="#wit3 #wit4">此是<note type="cf1">K40n1464_p0619a12</note><note type="cf2">T01n0010_p0217b01</note></lem><rdg wit="#wit1">是此</rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0216004"><lem wit="#wit1">邪</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2">耶</rdg></app>
+<app from="#beg_4" to="#end_4" corresp="#0216004"><lem wit="#wit1">邪</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2">耶</rdg></app>
+<app from="#beg_5" to="#end_5" corresp="#0216004"><lem wit="#wit1">邪</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2">耶</rdg></app>
+<app from="#beg0218001" to="#end0218001"><lem wit="#wit1">西天譯經</lem><rdg resp="#resp1" wit="#wit2">宋西天</rdg></app>
+<app from="#beg0218002" to="#end0218002"><lem wit="#wit1">賜紫沙門臣施護等</lem><rdg resp="#resp1" wit="#wit2">施護</rdg></app>
+<app from="#beg0218003" to="#end0218003"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit5">沒</rdg></app>
+<app from="#beg0219001" to="#end0219001"><lem wit="#wit1">邪</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2">耶</rdg></app>
+<app from="#beg_6" to="#end_6"><lem resp="#resp2 resp3" wit="#wit3 #wit4">但<note type="cf1">K40n1464_p0622a16</note><note type="cf2">T01n0010_p0219b03</note></lem><rdg wit="#wit1">怛</rdg></app>
+<app from="#beg0219002" to="#end0219002"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2">亦</rdg></app>
+<app from="#beg0220001" to="#end0220001"><lem wit="#wit1">密</lem><rdg resp="#resp1" wit="#wit2">蜜</rdg></app>
+<app from="#beg_7" to="#end_7" corresp="#0220001"><lem wit="#wit1">密</lem><rdg resp="#resp1" wit="#wit2">蜜</rdg></app>
+<app from="#beg0220002" to="#end0220002"><lem wit="#wit1">主</lem><rdg resp="#resp1" wit="#wit6">王</rdg></app>
+<app from="#beg0220003" to="#end0220003"><lem wit="#wit1">西天譯經三藏朝奉大夫試光祿卿傳法大師賜紫沙門臣施護等奉　詔譯</lem><rdg resp="#resp1" wit="#wit2">宋西天三藏朝奉大夫試光祿卿傳法大師施護奉詔譯</rdg></app>
+<app from="#beg_8" to="#end_8"><lem resp="#resp2 resp3" wit="#wit3 #wit4">由<note type="cf1">K40n1464_p0625a03</note><note type="cf2">T01n0010_p0221a13</note></lem><rdg wit="#wit1">山</rdg></app>
+<app from="#beg0221001" to="#end0221001"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_9" to="#end_9"><lem resp="#resp2 resp3" wit="#wit3 #wit4">正<note type="cf1">K40n1464_p0626a09</note><note type="cf2">T30n1582_p0983a04</note></lem><rdg wit="#wit1"><space quantity="0"/></rdg></app>
+<app from="#beg0222001" to="#end0222001"><lem wit="#wit1">正知</lem><rdg resp="#resp1" wit="#wit2">知正</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校勘記</head>
 <p>
-<note n="0216003" resp="#resp3" type="mod" target="#nkr_note_mod_0216003">若＝苦【宋】【元】【明】</note>
-<note n="0216004" resp="#resp3" type="mod" target="#nkr_note_mod_0216004">邪＝耶【宋】＊【元】＊【明】＊</note>
-<note n="0219001" resp="#resp3" type="mod" target="#nkr_note_mod_0219001">邪＝耶【宋】【元】【明】</note>
-<note n="0220003" resp="#resp3" type="mod" target="#nkr_note_mod_0220003">西天譯經三藏朝奉大夫試光祿卿傳法大師賜紫沙門臣施護等奉詔譯＝宋西天三藏朝奉大夫試光祿卿傳法大師施護奉詔譯【明】</note>
-<note n="0221001" resp="#resp3" type="mod" target="#nkr_note_mod_0221001">〔一〕－【宋】【元】【明】</note>
+<note n="0216003" resp="#resp4" type="mod" target="#nkr_note_mod_0216003">若＝苦【宋】【元】【明】</note>
+<note n="0216004" resp="#resp4" type="mod" target="#nkr_note_mod_0216004">邪＝耶【宋】＊【元】＊【明】＊</note>
+<note n="0219001" resp="#resp4" type="mod" target="#nkr_note_mod_0219001">邪＝耶【宋】【元】【明】</note>
+<note n="0220003" resp="#resp4" type="mod" target="#nkr_note_mod_0220003">西天譯經三藏朝奉大夫試光祿卿傳法大師賜紫沙門臣施護等奉詔譯＝宋西天三藏朝奉大夫試光祿卿傳法大師施護奉詔譯【明】</note>
+<note n="0221001" resp="#resp4" type="mod" target="#nkr_note_mod_0221001">〔一〕－【宋】【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校勘記</head>
 <p>
-<note n="0216001" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0216001">西天譯經＝宋西天【明】</note>
-<note n="0216002" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0216002">賜紫沙門臣施護等＝施護【明】</note>
-<note n="0216003" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0216003">若＝苦【三】</note>
-<note n="0216004" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0216004">邪＝耶【三】＊</note>
-<note n="0218001" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0218001">譯號（西天譯經）＝（宋西天）【明】</note>
-<note n="0218002" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0218002">賜紫沙門臣施護等＝施護【明】</note>
-<note n="0218003" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0218003">之＝沒【宋】</note>
-<note n="0219001" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0219001">邪＝耶【三】</note>
-<note n="0219002" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0219002">一＝亦【明】</note>
-<note n="0220001" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0220001">密＝蜜【明】＊</note>
-<note n="0220002" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0220002">主＝王【元】</note>
-<note n="0220003" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0220003">譯號同異如卷第一【明】</note>
-<note n="0221001" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0221001">〔一〕－【三】</note>
-<note n="0222001" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0222001">正知＝知正【明】</note>
+<note n="0216001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0216001">西天譯經＝宋西天【明】</note>
+<note n="0216002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0216002">賜紫沙門臣施護等＝施護【明】</note>
+<note n="0216003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0216003">若＝苦【三】</note>
+<note n="0216004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0216004">邪＝耶【三】＊</note>
+<note n="0218001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0218001">譯號（西天譯經）＝（宋西天）【明】</note>
+<note n="0218002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0218002">賜紫沙門臣施護等＝施護【明】</note>
+<note n="0218003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0218003">之＝沒【宋】</note>
+<note n="0219001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0219001">邪＝耶【三】</note>
+<note n="0219002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0219002">一＝亦【明】</note>
+<note n="0220001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0220001">密＝蜜【明】＊</note>
+<note n="0220002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0220002">主＝王【元】</note>
+<note n="0220003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0220003">譯號同異如卷第一【明】</note>
+<note n="0221001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0221001">〔一〕－【三】</note>
+<note n="0222001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0222001">正知＝知正【明】</note>
 </p>
 </cb:div>
 </back></text></TEI>

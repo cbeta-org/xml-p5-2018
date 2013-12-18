@@ -12,24 +12,10 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2012/08/27 03:13:55 $</date>新式標點版</edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp10"><resp>corrections</resp><name>Edition</name></respStmt>
-		<respStmt xml:id="resp11"><resp>corrections</resp><name>of</name></respStmt>
-		<respStmt xml:id="resp12"><resp>corrections</resp><name>the</name></respStmt>
-		<respStmt xml:id="resp13"><resp>corrections</resp><name>Canon</name></respStmt>
-		<respStmt xml:id="resp14"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp15"><resp>corrections</resp><name>CBETA.say</name></respStmt>
-		<respStmt xml:id="resp16"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
-		<respStmt xml:id="resp17"><resp>corrections</resp><name>楊郁文老師</name></respStmt>
-		<respStmt xml:id="resp18"><resp>corrections</resp><name>CBETA.grace</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>楊郁文老師</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
-		<respStmt xml:id="resp6"><resp>corrections</resp><name>Dudoucheng</name></respStmt>
-		<respStmt xml:id="resp7"><resp>corrections</resp><name>ihp</name></respStmt>
-		<respStmt xml:id="resp8"><resp>corrections</resp><name>Northern</name></respStmt>
-		<respStmt xml:id="resp9"><resp>corrections</resp><name>Yongle</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -47,32 +33,18 @@
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 1, No. 096 </bibl>
 	<listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit10">【宋】</witness>
-		<witness xml:id="wit11">【元】</witness>
-		<witness xml:id="wit12">【明】</witness>
-		<witness xml:id="wit13">【聖】</witness>
-		<witness xml:id="wit14">【unknown】</witness>
-		<witness xml:id="wit15">【磧砂】</witness>
-		<witness xml:id="wit16">【知】</witness>
-		<witness xml:id="wit17">【醍】</witness>
-		<witness xml:id="wit18">【北藏】</witness>
-		<witness xml:id="wit19">【万】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-		<witness xml:id="wit20">【德】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
-		<witness xml:id="wit4">【大】</witness>
-		<witness xml:id="wit5">【史】</witness>
-		<witness xml:id="wit6">【原】</witness>
-		<witness xml:id="wit7">【卍續】</witness>
-		<witness xml:id="wit8">【麗】</witness>
-		<witness xml:id="wit9">【嘉興】</witness>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【明】</witness>
+		<witness xml:id="wit3">【宋】</witness>
+		<witness xml:id="wit4">【元】</witness>
+		<witness xml:id="wit5">【CBETA】</witness>
+		<witness xml:id="wit6">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
-		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Mr. Chang Wen-Ming, Text as provided by Anonymous, USA, Punctuated text as provided by Dhammavassarama</p>
+		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Mr. Chang Wen-Ming, Text as provided by Anonymous from USA, Punctuated text as provided by Dhammavassarama</p>
 		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，張文明大德提供，北美某大德提供，法雨道場提供新式標點</p>
 	</projectDesc>
 </encodingDesc>
@@ -190,18 +162,18 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校勘記</head>
 <p>
-<choice cb:resp="#resp17" cb:from="#beg_1" cb:to="#end_1"><corr>8</corr><sic>5</sic></choice>
-<app from="#beg0919001" to="#end0919001"><lem wit="#wit4">佛說</lem><rdg resp="#resp14" wit="#wit12"><space quantity="0"/></rdg></app>
-<app from="#beg0919002" to="#end0919002"><lem wit="#wit4">人名</lem><rdg resp="#resp14" wit="#wit10 #wit11"><space quantity="0"/></rdg></app>
-<app from="#beg0919003" to="#end0919003"><lem wit="#wit4">如</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12"><space quantity="0"/></rdg></app>
-<app from="beg_2" to="end_2"><lem wit="#wit3 #wit8" resp="#resp1">便<note type="cf1">K30n0999_p0169a12</note></lem><rdg wit="#wit4">使</rdg></app>
-<app from="#beg0919004" to="#end0919004"><lem wit="#wit4">驚</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12"><unclear/></rdg></app>
-<app from="#beg0919005" to="#end0919005"><lem wit="#wit4">學</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">覺</rdg></app>
-<app from="#beg0919006" to="#end0919006"><lem wit="#wit4">苦</lem><rdg resp="#resp14" wit="#wit11 #wit12">若</rdg></app>
-<app from="#beg0919007" to="#end0919007"><lem wit="#wit4">中</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">中夜</rdg></app>
-<app from="#beg0919008" to="#end0919008"><lem wit="#wit4">泥</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">泥洹</rdg></app>
-<app from="#beg0919009" to="#end0919009"><lem wit="#wit4">今</lem><rdg resp="#resp14" wit="#wit10 #wit11 #wit12">爾</rdg></app>
-<app from="#beg0919010" to="#end0919010"><lem wit="#wit4">治</lem><rdg resp="#resp14" wit="#wit10 #wit11">佛治</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>8</corr><sic>5</sic></choice>
+<app from="#beg0919001" to="#end0919001"><lem wit="#wit1">佛說</lem><rdg resp="#resp2" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0919002" to="#end0919002"><lem wit="#wit1">人名</lem><rdg resp="#resp2" wit="#wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg0919003" to="#end0919003"><lem wit="#wit1">如</lem><rdg resp="#resp2" wit="#wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_2" to="#end_2"><lem wit="#wit5 #wit6" resp="#resp4">便<note type="cf1">K30n0999_p0169a12</note></lem><rdg wit="#wit1">使</rdg></app>
+<app from="#beg0919004" to="#end0919004"><lem wit="#wit1">驚</lem><rdg resp="#resp2" wit="#wit3 #wit4 #wit2"><unclear/></rdg></app>
+<app from="#beg0919005" to="#end0919005"><lem wit="#wit1">學</lem><rdg resp="#resp2" wit="#wit3 #wit4 #wit2">覺</rdg></app>
+<app from="#beg0919006" to="#end0919006"><lem wit="#wit1">苦</lem><rdg resp="#resp2" wit="#wit4 #wit2">若</rdg></app>
+<app from="#beg0919007" to="#end0919007"><lem wit="#wit1">中</lem><rdg resp="#resp2" wit="#wit3 #wit4 #wit2">中夜</rdg></app>
+<app from="#beg0919008" to="#end0919008"><lem wit="#wit1">泥</lem><rdg resp="#resp2" wit="#wit3 #wit4 #wit2">泥洹</rdg></app>
+<app from="#beg0919009" to="#end0919009"><lem wit="#wit1">今</lem><rdg resp="#resp2" wit="#wit3 #wit4 #wit2">爾</rdg></app>
+<app from="#beg0919010" to="#end0919010"><lem wit="#wit1">治</lem><rdg resp="#resp2" wit="#wit3 #wit4">佛治</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
@@ -218,16 +190,16 @@ Added comment  for Emacs
 <cb:div type="taisho-notes">
 <head>大正 校勘記</head>
 <p>
-<note n="0919001" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919001">〔佛說〕－【明】</note>
-<note n="0919002" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919002">〔人名〕－【宋】【元】</note>
-<note n="0919003" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919003">〔如〕－【三】</note>
-<note n="0919004" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919004">驚＝<unclear/>【三】</note>
-<note n="0919005" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919005">學＝覺【三】</note>
-<note n="0919006" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919006">苦＝若【元】【明】</note>
-<note n="0919007" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919007">中＋（夜）【三】</note>
-<note n="0919008" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919008">泥＋（洹）【三】</note>
-<note n="0919009" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919009">今＝爾【三】</note>
-<note n="0919010" resp="#resp14" type="orig" place="foot text" target="#nkr_note_orig_0919010">（佛）＋治【宋】【元】</note>
+<note n="0919001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0919001">〔佛說〕－【明】</note>
+<note n="0919002" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0919002">〔人名〕－【宋】【元】</note>
+<note n="0919003" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0919003">〔如〕－【三】</note>
+<note n="0919004" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0919004">驚＝<unclear/>【三】</note>
+<note n="0919005" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0919005">學＝覺【三】</note>
+<note n="0919006" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0919006">苦＝若【元】【明】</note>
+<note n="0919007" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0919007">中＋（夜）【三】</note>
+<note n="0919008" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0919008">泥＋（洹）【三】</note>
+<note n="0919009" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0919009">今＝爾【三】</note>
+<note n="0919010" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0919010">（佛）＋治【宋】【元】</note>
 </p>
 </cb:div>
 </back></text></TEI>
