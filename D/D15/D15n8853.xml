@@ -12,10 +12,6 @@
 	<editionStmt>
 		<edition>$Revision: 1.4 $<date>$Date: 2012/04/23 08:03:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
 	</editionStmt>
 	<extent>8卷</extent>
 	<publicationStmt>
@@ -39,11 +35,7 @@
 				<idno>Vol. 15, No. 8853</idno>
 			</msIdentifier>
 		</msDesc>
-<listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-	</listWit>
-	</sourceDesc>
+</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
@@ -82,6 +74,7 @@
 		<localName>composition</localName>
 		<value>[少/免]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+3779</mapping>
 	<mapping cb:dec="983184" type="PUA">U+F0090</mapping>
 </char>
 <char xml:id="CB00145">
@@ -238,6 +231,7 @@
 		<localName>normalized form</localName>
 		<value>呵</value>
 	</charProp>
+	<mapping type="normal_unicode">U+5475</mapping>
 	<mapping cb:dec="984279" type="PUA">U+F04D7</mapping>
 </char>
 <char xml:id="CB01240">
@@ -320,6 +314,7 @@
 		<localName>normalized form</localName>
 		<value>懶</value>
 	</charProp>
+	<mapping type="normal_unicode">U+61F6</mapping>
 	<mapping cb:dec="984940" type="PUA">U+F076C</mapping>
 </char>
 <char xml:id="CB01926">
@@ -332,6 +327,7 @@
 		<localName>normalized form</localName>
 		<value>灰</value>
 	</charProp>
+	<mapping type="normal_unicode">U+7070</mapping>
 	<mapping cb:dec="984966" type="PUA">U+F0786</mapping>
 </char>
 <char xml:id="CB01942">
@@ -550,6 +546,7 @@
 		<localName>normalized form</localName>
 		<value>恭</value>
 	</charProp>
+	<mapping type="normal_unicode">U+3CDF</mapping>
 	<mapping cb:dec="986043" type="PUA">U+F0BBB</mapping>
 </char>
 <char xml:id="CB03033">
@@ -660,6 +657,7 @@
 		<localName>normalized form</localName>
 		<value>臾</value>
 	</charProp>
+	<mapping type="normal_unicode">U+3B30</mapping>
 	<mapping cb:dec="987496" type="PUA">U+F1168</mapping>
 </char>
 <char xml:id="CB04465">
@@ -919,6 +917,7 @@
 		<localName>normalized form</localName>
 		<value>珍</value>
 	</charProp>
+	<mapping type="normal_unicode">U+73CE</mapping>
 	<mapping cb:dec="990230" type="PUA">U+F1C16</mapping>
 </char>
 <char xml:id="CB07424">
@@ -1508,6 +1507,7 @@
 		<localName>normalized form</localName>
 		<value>捐</value>
 	</charProp>
+	<mapping type="normal_unicode">U+6350</mapping>
 	<mapping cb:dec="996418" type="PUA">U+F3442</mapping>
 </char>
 <char xml:id="CB13415">
@@ -1612,6 +1612,7 @@
 		<localName>normalized form</localName>
 		<value>拔</value>
 	</charProp>
+	<mapping type="normal_unicode">U+39DE</mapping>
 	<mapping cb:dec="998112" type="PUA">U+F3AE0</mapping>
 </char>
 <char xml:id="CB15081">
@@ -2190,6 +2191,7 @@
 		<localName>normalized form</localName>
 		<value>捨</value>
 	</charProp>
+	<mapping type="normal_unicode">U+6368</mapping>
 	<mapping cb:dec="1005097" type="PUA">U+F5629</mapping>
 </char>
 <char xml:id="CB22072">
@@ -3683,6 +3685,7 @@
 		<localName>normalized form</localName>
 		<value>寶</value>
 	</charProp>
+	<mapping type="normal_unicode">U+5BF3</mapping>
 	<mapping cb:dec="1014028" type="PUA">U+F790C</mapping>
 </char>
 <char xml:id="CB31131">
@@ -7019,7 +7022,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="D" xml:id="D15.8853.0223b" n="0223b"/>
 <lb ed="D" n="0223b01"/><p xml:id="pD15p0223b0101">二何下失出<g ref="#CB30735">𠀍</g>之大乗果二　初<g ref="#CB30106">𢝰</g>明失。</p><p xml:id="pD15p0223b0116" rend="inline"><note place="inline">如文</note>。</p><p xml:id="pD15p0223b0118" rend="inline">二言下略釋文。</p>
 <lb ed="D" n="0223b02"/><p xml:id="pD15p0223b0201"><note place="inline">佛性常住（云云）莊嚴論<g ref="#CB22072">󵘸</g>常有三種一本性常謂法身此身本來性常住故二不断常謂受用身恒受法樂
-<lb ed="D" n="0223b03"/>無間断故三相續常謂反化身沒已復現化無盡故如是法身雖離一切分別[虚*戉]論而無生滅故<g ref="#CB22072">󵘸</g>名常
+<lb ed="D" n="0223b03"/>無間断故三相續常謂反化身沒已復現化無盡故如是法身雖離一切分別<g ref="#CB29933">󷓭</g>論而無生滅故<g ref="#CB22072">󵘸</g>名常
 <lb ed="D" n="0223b04"/>二身雖有念<g ref="#CB29911">󷓗</g>生滅而依常身無間断故恒相續故<g ref="#CB22072">󵘸</g>名為常（文）通餘二身（云云）報身化身也（云云）</note>。</p>
 <lb ed="D" n="0223b05"/><p xml:id="pD15p0223b0501">三不下惣結於二<g ref="#CB30735">𠀍</g>無救。</p><p xml:id="pD15p0223b0511" rend="inline"><note place="inline"><g ref="#CB30735">𠀍</g>間及出<g ref="#CB30735">𠀍</g>間（云云）二刧三刧間在三<g ref="#CB08891">𢙣</g>道中
 <lb ed="D" n="0223b06"/>不被<g ref="#CB30735">𠀍</g>間父母救濟及出<g ref="#CB30735">𠀍</g>三宝加被故云無能救也（云云）</note>。</p>
@@ -8527,7 +8530,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0328b02"/>作之用卜知吉<g ref="#CB04552">󱇈</g>今時人擲之為戱名摴<g ref="#CB03265">󰳁</g><g ref="#CB29911">󷓗</g><g ref="#CB29911">󷓗</g>形貌者有五掘木子各長四寸上各有刻一有四刻二
 <lb ed="D" n="0328b03"/>有三刻三有二刻四有一刻五者無刻用以擲卜若擲得多刻者吉封若得一刻及無刻者<g ref="#CB08891">𢙣</g>封木既有
 <lb ed="D" n="0328b04"/>五還有五名（文）圍基者進云圍基者以黑白石相乗被<g ref="#CB17715">󴔳</g>得他者名為勝（文）</note>。</p>
-<lb ed="D" n="0328b05"/><p xml:id="pD15p0328b0501">二波下釋制<g ref="#CB29933">󷓭</g>勝屓文。</p><p xml:id="pD15p0328b0510" rend="inline"><note place="inline">波羅塞[虚*戈]與减云釈音云梵語波羅塞此翻
+<lb ed="D" n="0328b05"/><p xml:id="pD15p0328b0501">二波下釋制<g ref="#CB29933">󷓭</g>勝屓文。</p><p xml:id="pD15p0328b0510" rend="inline"><note place="inline">波羅塞戯與减云釈音云梵語波羅塞此翻
 <lb ed="D" n="0328b06"/>兵即兵<g ref="#CB29933">󷓭</g>也（文）法藏師云等者即當今少將基書象馬等作軍陳効也撲揚<g ref="#CB29931">󷓫</g>云波羅塞<g ref="#CB29933">󷓭</g>者此<g ref="#CB30227">󷘓</g>象馬
 <pb ed="D" xml:id="D15.8853.0329a" n="0329a"/>
 <lb ed="D" n="0329a01"/>闘是西國象馬<g ref="#CB29933">󷓭</g>法（文）彈基者進云以人手指彈基子得上高頂住者方名勝也（文）魏宮者魏代宮中出

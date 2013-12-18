@@ -11,11 +11,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2011/06/15 01:20:44 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -39,11 +36,7 @@
 				<idno>Vol. 12, No. 8820</idno>
 			</msIdentifier>
 		</msDesc>
-<listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-	</listWit>
-	</sourceDesc>
+</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
@@ -87,6 +80,7 @@
 		<localName>normalized form</localName>
 		<value>彌</value>
 	</charProp>
+	<mapping type="normal_unicode">U+5F25</mapping>
 	<mapping cb:dec="995792" type="PUA">U+F31D0</mapping>
 </char>
 <char xml:id="CB14426">
@@ -168,14 +162,14 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校勘記</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr><g ref="#CB15756">𠬧</g></corr><sic><unclear/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>鳴</corr><sic>明</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr><g ref="#CB15756">𠬧</g></corr><sic><unclear/></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>鳴</corr><sic>明</sic></choice>
 </p>
 </cb:div>
 <cb:div type="ncl-notes">
 <head>國家圖書館善本佛典 校勘記</head>
 <p>
-<note n="0001001" resp="#resp5" place="foot text" type="orig" target="#nkr_note_orig_0001001">國圖按：按：此經舊藏經未錄,大正藏係據英倫敦煌本斯坦因136號﹑622號排印.以館藏此卷校之,大異;捨略有訛脫外,顯較大正所錄兩本優勝. ( 經文對照：大正藏第八十五卷疑似部,號2917A﹑2917B,頁1462.) </note>
+<note n="0001001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0001001">國圖按：按：此經舊藏經未錄,大正藏係據英倫敦煌本斯坦因136號﹑622號排印.以館藏此卷校之,大異;捨略有訛脫外,顯較大正所錄兩本優勝. ( 經文對照：大正藏第八十五卷疑似部,號2917A﹑2917B,頁1462.) </note>
 </p>
 </cb:div>
 </back></text></TEI>

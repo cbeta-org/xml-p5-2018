@@ -12,13 +12,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>$Revision: 1.5 $<date>$Date: 2011/04/19 06:12:14 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
-		<respStmt xml:id="resp6"><resp>corrections</resp><name>Dudoucheng</name></respStmt>
-		<respStmt xml:id="resp7"><resp>corrections</resp><name>ihp</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>ihp</name></respStmt>
             </editionStmt>
             <extent>1卷</extent>
             <publicationStmt>
@@ -36,12 +30,8 @@
             <sourceDesc>
       	      <bibl>Selections of Buddhist Stone Rubbings from the Northern Dynasties Vol. 1, No. 080 </bibl>
             <listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
-		<witness xml:id="wit4">【大】</witness>
-		<witness xml:id="wit5">【史】</witness>
-		<witness xml:id="wit6">【原】</witness>
+		<witness xml:id="wit1">【史】</witness>
+		<witness xml:id="wit2">【原】</witness>
 	</listWit>
 	</sourceDesc>
         </fileDesc>
@@ -191,6 +181,7 @@
 		<localName>normalized form</localName>
 		<value>示</value>
 	</charProp>
+	<mapping type="normal_unicode">U+25605</mapping>
 	<mapping cb:dec="1014078" type="PUA">U+F793E</mapping>
 </char>
 <char xml:id="CB31039">
@@ -272,45 +263,45 @@
 <cb:div type="apparatus">
 <head>校勘記</head>
 <p>
-<app from="#beg0217001" to="#end0217001"><lem resp="#resp7" wit="#wit5">廓</lem><rdg wit="#wit6"><g ref="#CB31035">󷤻</g></rdg></app>
-<app from="#beg0217002" to="#end0217002"><lem resp="#resp7" wit="#wit5">詮</lem><rdg wit="#wit6"><g ref="#CB30304">󷙠</g></rdg></app>
-<app from="#beg0217003" to="#end0217003"><lem resp="#resp7" wit="#wit5">邦</lem><rdg wit="#wit6"><g ref="#CB31036">󷤼</g></rdg></app>
-<app from="#beg0217004" to="#end0217004"><lem resp="#resp7" wit="#wit5">彌</lem><rdg wit="#wit6"><g ref="#CB02793">󰫩</g></rdg></app>
-<app from="#beg0217005" to="#end0217005"><lem resp="#resp7" wit="#wit5">再</lem><rdg wit="#wit6"><g ref="#CB31037">𠕂</g></rdg></app>
-<app from="#beg0217006" to="#end0217006"><lem resp="#resp7" wit="#wit5">軌</lem><rdg wit="#wit6"><g ref="#CB12017">䡄</g></rdg></app>
-<app from="#beg0217007" to="#end0217007"><lem resp="#resp7" wit="#wit5">整</lem><rdg wit="#wit6"><g ref="#CB30602">𠢫</g></rdg></app>
-<app from="#beg0217008" to="#end0217008"><lem resp="#resp7" wit="#wit5">示</lem><rdg wit="#wit6"><g ref="#CB31038">󷤾</g></rdg></app>
-<app from="#beg_1" to="#end_1" corresp="#0217003"><lem resp="#resp7" wit="#wit5">邦</lem><rdg wit="#wit6"><g ref="#CB31036">󷤼</g></rdg></app>
-<app from="#beg0217009" to="#end0217009"><lem resp="#resp7" wit="#wit5">傑</lem><rdg wit="#wit6">桀</rdg></app>
-<app from="#beg0217010" to="#end0217010"><lem resp="#resp7" wit="#wit5">規</lem><rdg wit="#wit6"><g ref="#CB30896">󷢰</g></rdg></app>
-<app from="#beg0217011" to="#end0217011"><lem resp="#resp7" wit="#wit5">雙</lem><rdg wit="#wit6"><g ref="#CB00450">䨥</g></rdg></app>
-<app from="#beg0217012" to="#end0217012"><lem resp="#resp7" wit="#wit5">瑞</lem><rdg wit="#wit6"><g ref="#CB31040">󷥀</g></rdg></app>
-<app from="#beg0217013" to="#end0217013"><lem resp="#resp7" wit="#wit5">憂</lem><rdg wit="#wit6"><g ref="#CB31041">𢟜</g></rdg></app>
-<app from="#beg0217014" to="#end0217014"><lem resp="#resp7" wit="#wit5">皎</lem><rdg wit="#wit6"><g ref="#CB31039">󷤿</g></rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0217014"><lem resp="#resp7" wit="#wit5">皎</lem><rdg wit="#wit6"><g ref="#CB31039">󷤿</g></rdg></app>
-<app from="#beg0217015" to="#end0217015"><lem resp="#resp7" wit="#wit5">昔</lem><rdg wit="#wit6"><g ref="#CB30136">㫺</g></rdg></app>
-<app from="#beg0217016" to="#end0217016"><lem resp="#resp7" wit="#wit5">競</lem><rdg wit="#wit6"><g ref="#CB15137">𥪰</g></rdg></app>
+<app from="#beg0217001" to="#end0217001"><lem resp="#resp1" wit="#wit1">廓</lem><rdg wit="#wit2"><g ref="#CB31035">󷤻</g></rdg></app>
+<app from="#beg0217002" to="#end0217002"><lem resp="#resp1" wit="#wit1">詮</lem><rdg wit="#wit2"><g ref="#CB30304">󷙠</g></rdg></app>
+<app from="#beg0217003" to="#end0217003"><lem resp="#resp1" wit="#wit1">邦</lem><rdg wit="#wit2"><g ref="#CB31036">󷤼</g></rdg></app>
+<app from="#beg0217004" to="#end0217004"><lem resp="#resp1" wit="#wit1">彌</lem><rdg wit="#wit2"><g ref="#CB02793">󰫩</g></rdg></app>
+<app from="#beg0217005" to="#end0217005"><lem resp="#resp1" wit="#wit1">再</lem><rdg wit="#wit2"><g ref="#CB31037">𠕂</g></rdg></app>
+<app from="#beg0217006" to="#end0217006"><lem resp="#resp1" wit="#wit1">軌</lem><rdg wit="#wit2"><g ref="#CB12017">䡄</g></rdg></app>
+<app from="#beg0217007" to="#end0217007"><lem resp="#resp1" wit="#wit1">整</lem><rdg wit="#wit2"><g ref="#CB30602">𠢫</g></rdg></app>
+<app from="#beg0217008" to="#end0217008"><lem resp="#resp1" wit="#wit1">示</lem><rdg wit="#wit2"><g ref="#CB31038">󷤾</g></rdg></app>
+<app from="#beg_1" to="#end_1" corresp="#0217003"><lem resp="#resp1" wit="#wit1">邦</lem><rdg wit="#wit2"><g ref="#CB31036">󷤼</g></rdg></app>
+<app from="#beg0217009" to="#end0217009"><lem resp="#resp1" wit="#wit1">傑</lem><rdg wit="#wit2">桀</rdg></app>
+<app from="#beg0217010" to="#end0217010"><lem resp="#resp1" wit="#wit1">規</lem><rdg wit="#wit2"><g ref="#CB30896">󷢰</g></rdg></app>
+<app from="#beg0217011" to="#end0217011"><lem resp="#resp1" wit="#wit1">雙</lem><rdg wit="#wit2"><g ref="#CB00450">䨥</g></rdg></app>
+<app from="#beg0217012" to="#end0217012"><lem resp="#resp1" wit="#wit1">瑞</lem><rdg wit="#wit2"><g ref="#CB31040">󷥀</g></rdg></app>
+<app from="#beg0217013" to="#end0217013"><lem resp="#resp1" wit="#wit1">憂</lem><rdg wit="#wit2"><g ref="#CB31041">𢟜</g></rdg></app>
+<app from="#beg0217014" to="#end0217014"><lem resp="#resp1" wit="#wit1">皎</lem><rdg wit="#wit2"><g ref="#CB31039">󷤿</g></rdg></app>
+<app from="#beg_2" to="#end_2" corresp="#0217014"><lem resp="#resp1" wit="#wit1">皎</lem><rdg wit="#wit2"><g ref="#CB31039">󷤿</g></rdg></app>
+<app from="#beg0217015" to="#end0217015"><lem resp="#resp1" wit="#wit1">昔</lem><rdg wit="#wit2"><g ref="#CB30136">㫺</g></rdg></app>
+<app from="#beg0217016" to="#end0217016"><lem resp="#resp1" wit="#wit1">競</lem><rdg wit="#wit2"><g ref="#CB15137">𥪰</g></rdg></app>
 </p>
 </cb:div>
 <cb:div type="ihp-notes">
 <head>中央研究院歷史語言研究所 校勘記</head>
 <p>
-<note n="0217001" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217001"><g ref="#CB31035">󷤻</g>＝廓【史】</note>
-<note n="0217002" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217002"><g ref="#CB30304">󷙠</g>＝詮【史】</note>
-<note n="0217003" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217003"><g ref="#CB31036">󷤼</g>＝邦【史】</note>
-<note n="0217004" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217004"><g ref="#CB02793">󰫩</g>＝彌【史】</note>
-<note n="0217005" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217005"><g ref="#CB31037">𠕂</g>＝再【史】</note>
-<note n="0217006" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217006"><g ref="#CB12017">䡄</g>＝軌【史】</note>
-<note n="0217007" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217007"><g ref="#CB30602">𠢫</g>＝整【史】</note>
-<note n="0217008" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217008"><g ref="#CB31038">󷤾</g>＝示【史】</note>
-<note n="0217009" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217009">桀＝傑【史】</note>
-<note n="0217010" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217010"><g ref="#CB30896">󷢰</g>＝規【史】</note>
-<note n="0217011" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217011"><g ref="#CB00450">䨥</g>＝雙【史】</note>
-<note n="0217012" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217012"><g ref="#CB31040">󷥀</g>＝瑞【史】</note>
-<note n="0217013" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217013"><g ref="#CB31041">𢟜</g>＝憂【史】</note>
-<note n="0217014" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217014"><g ref="#CB31039">󷤿</g>＝皎【史】</note>
-<note n="0217015" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217015"><g ref="#CB30136">㫺</g>＝昔【史】</note>
-<note n="0217016" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0217016"><g ref="#CB15137">𥪰</g>＝競【史】</note>
+<note n="0217001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217001"><g ref="#CB31035">󷤻</g>＝廓【史】</note>
+<note n="0217002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217002"><g ref="#CB30304">󷙠</g>＝詮【史】</note>
+<note n="0217003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217003"><g ref="#CB31036">󷤼</g>＝邦【史】</note>
+<note n="0217004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217004"><g ref="#CB02793">󰫩</g>＝彌【史】</note>
+<note n="0217005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217005"><g ref="#CB31037">𠕂</g>＝再【史】</note>
+<note n="0217006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217006"><g ref="#CB12017">䡄</g>＝軌【史】</note>
+<note n="0217007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217007"><g ref="#CB30602">𠢫</g>＝整【史】</note>
+<note n="0217008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217008"><g ref="#CB31038">󷤾</g>＝示【史】</note>
+<note n="0217009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217009">桀＝傑【史】</note>
+<note n="0217010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217010"><g ref="#CB30896">󷢰</g>＝規【史】</note>
+<note n="0217011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217011"><g ref="#CB00450">䨥</g>＝雙【史】</note>
+<note n="0217012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217012"><g ref="#CB31040">󷥀</g>＝瑞【史】</note>
+<note n="0217013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217013"><g ref="#CB31041">𢟜</g>＝憂【史】</note>
+<note n="0217014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217014"><g ref="#CB31039">󷤿</g>＝皎【史】</note>
+<note n="0217015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217015"><g ref="#CB30136">㫺</g>＝昔【史】</note>
+<note n="0217016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0217016"><g ref="#CB15137">𥪰</g>＝競【史】</note>
 </p>
 </cb:div>
 </back></text>

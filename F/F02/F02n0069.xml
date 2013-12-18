@@ -13,10 +13,6 @@
 	<editionStmt>
 		<edition>$Revision: 1.4 $<date>$Date: 2010/10/14 03:43:19 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,10 +29,6 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Fangshan shijing Vol. 02, No. 069 </bibl>
-	<listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -179,6 +171,7 @@
 		<localName>normalized form</localName>
 		<value>彌</value>
 	</charProp>
+	<mapping type="normal_unicode">U+5F25</mapping>
 	<mapping cb:dec="995792" type="PUA">U+F31D0</mapping>
 </char>
 <char xml:id="CB12985">
@@ -239,7 +232,21 @@
 		<localName>normalized form</localName>
 		<value>哉</value>
 	</charProp>
+	<mapping type="normal_unicode">U+38A4</mapping>
 	<mapping cb:dec="1005025" type="PUA">U+F55E1</mapping>
+</char>
+<char xml:id="CB30072">
+	<charName>CBETA CHARACTER CB30072</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[(〦/米)*力]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>敕</value>
+	</charProp>
+	<mapping type="unicode">U+20860</mapping>
+	<mapping cb:dec="1013112" type="PUA">U+F7578</mapping>
 </char>
 <char xml:id="CB30379">
 	<charName>CBETA CHARACTER CB30379</charName>
@@ -314,8 +321,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="F" n="0476a09"/><p xml:id="pF02p0476a0901">是時太子在於後宮為夫人婇女說種種法太子年至<anchor xml:id="beg_14" type="cb-app"/>二萬九千嵗捨轉輪王位啟其<anchor xml:id="end_14"/>父母求欲出家<anchor xml:id="beg_15" type="cb-app"/>既不聽已<anchor xml:id="end_15"/>乃至三請猶尚不許太子慈悲志存拯濟忍其小違以成大順即便往詣山林樹下剃除<g ref="#CB21899">󵖋</g><g ref="#CB12985">󳊹</g>披著法服勤脩苦行滿
 <lb ed="F" n="0476a10"/>六千嵗成阿耨多羅三藐三菩提為諸天人及八部眾轉於法輪此輪<anchor xml:id="beg_16" type="cb-app"/>微妙一切世間天人魔<anchor xml:id="end_16"/>梵所不能轉以三乘法教化眾生所可利益不可稱數尒時父王及其夫人後宮綵女聞太子普光成阿耨多羅三藐三菩提心大歡喜
 <lb ed="F" n="0476a11"/>踊躍无量尒時羣臣國內人民婆羅門等聞太子道成心各念言太子普光<anchor xml:id="beg_17" type="cb-app"/>捨轉輪王位<anchor xml:id="end_17"/>剃除<anchor xml:id="beg_18" type="cb-app"/><g ref="#CB21899">󵖋</g><g ref="#CB12985">󳊹</g><anchor xml:id="end_18"/>被著法服出家脩道得成正覺我等今者亦當出家作此念<anchor xml:id="beg_19" type="cb-app"/>已<anchor xml:id="end_19"/><g ref="#CB17575">󴒧</g>皆往詣普光佛所尒時普光如来即觀其心隨其因緣而為說法
-<lb ed="F" n="0476a12"/>大臣婆羅門等有四千人成阿羅漢國中人民及餘四方諸来會眾有八萬<anchor xml:id="beg_1a" type="cb-app"/>人亦得<anchor xml:id="end_1a"/>无著法<anchor xml:id="beg_1b" type="cb-app"/>忍<anchor xml:id="end_1b"/>。</p><p xml:id="pF02p0476a1237" rend="inline">尒時普光如来與八萬四千諸阿羅漢往詣國界遊行教化父王<anchor xml:id="beg_1c" type="cb-app"/>聞<anchor xml:id="end_1c"/><anchor xml:id="beg_1d" type="cb-app"/>已<anchor xml:id="end_1d"/>心大歡喜即[来*力]國中平治道路香水灑地懸諸繒綵寶幢<anchor xml:id="beg_1e" type="cb-app"/>幡盖<anchor xml:id="end_1e"/>散
-<lb ed="F" n="0476a13"/>眾名華如是<g ref="#CB30505">󷜩</g>嚴滿十二踰闍那又復擊<anchor xml:id="beg_1f" type="cb-app"/>鼓<anchor xml:id="end_1f"/>唱令國內諸有華者不得私賣<anchor xml:id="beg_20" type="cb-app"/><g ref="#CB17575">󴒧</g>輸<anchor xml:id="end_20"/>與王并[来*力]人民不得先我供養於佛即遣大臣并作伎樂燒香散華而往請彼普光如来。</p><p xml:id="pF02p0476a1370" rend="inline">尒時善惠仙人在於山中得五奇特夢一者夢臥大海二者
+<lb ed="F" n="0476a12"/>大臣婆羅門等有四千人成阿羅漢國中人民及餘四方諸来會眾有八萬<anchor xml:id="beg_1a" type="cb-app"/>人亦得<anchor xml:id="end_1a"/>无著法<anchor xml:id="beg_1b" type="cb-app"/>忍<anchor xml:id="end_1b"/>。</p><p xml:id="pF02p0476a1237" rend="inline">尒時普光如来與八萬四千諸阿羅漢往詣國界遊行教化父王<anchor xml:id="beg_1c" type="cb-app"/>聞<anchor xml:id="end_1c"/><anchor xml:id="beg_1d" type="cb-app"/>已<anchor xml:id="end_1d"/>心大歡喜即<g ref="#CB30072">𠡠</g>國中平治道路香水灑地懸諸繒綵寶幢<anchor xml:id="beg_1e" type="cb-app"/>幡盖<anchor xml:id="end_1e"/>散
+<lb ed="F" n="0476a13"/>眾名華如是<g ref="#CB30505">󷜩</g>嚴滿十二踰闍那又復擊<anchor xml:id="beg_1f" type="cb-app"/>鼓<anchor xml:id="end_1f"/>唱令國內諸有華者不得私賣<anchor xml:id="beg_20" type="cb-app"/><g ref="#CB17575">󴒧</g>輸<anchor xml:id="end_20"/>與王并<g ref="#CB30072">𠡠</g>人民不得先我供養於佛即遣大臣并作伎樂燒香散華而往請彼普光如来。</p><p xml:id="pF02p0476a1370" rend="inline">尒時善惠仙人在於山中得五奇特夢一者夢臥大海二者
 <lb ed="F" n="0476a14"/>夢枕湏<g ref="#CB12752">󳇐</g>三者夢海中一切眾生入其身內四者夢手執<anchor xml:id="beg_21" type="cb-app"/>日五者夢<anchor xml:id="end_21"/>手執月得此夢已即大驚悟心自念言我今此夢非為小緣當以問誰宜入城內問諸智者作是念已披鹿皮衣手執水瓶及杖傘盖行入城邑路過外道<anchor xml:id="beg_22" type="cb-app"/>所<anchor xml:id="end_22"/>止住
 <lb ed="F" n="0476a15"/><g ref="#CB21871">󵕯</g>有五百人而為上首善惠念言我今當以所夢問<anchor xml:id="beg_23" type="cb-app"/>之并得觀其所修之業即<anchor xml:id="end_23"/>共<anchor xml:id="beg_24" type="cb-app"/>諸<anchor xml:id="end_24"/>人講論道義破其異<anchor xml:id="beg_25" type="cb-app"/>見時<anchor xml:id="end_25"/>五百人即便受屈求為弟子於善惠所深生恭敬各以銀錢一枚而以上之復有五百外道既見善惠辯才聡明亦生隨
 <lb ed="F" n="0476a16"/>喜時諸外道自共議言今普光如来出<anchor xml:id="beg_26" type="cb-app"/>興<anchor xml:id="end_26"/>于世善惠仙<anchor xml:id="beg_27" type="cb-app"/>人聞斯語已舉體毛竪心大歡喜踊躍無量<anchor xml:id="end_27"/>便與外道分別而去外道問言師何所趣荅言我今欲往普光佛所欲施供養外道白言師若去者願樂隨<g ref="#CB30379">󷚫</g>善惠荅言我<anchor xml:id="beg_28" type="cb-app"/>今<anchor xml:id="end_28"/>有緣

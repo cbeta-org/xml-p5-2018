@@ -12,13 +12,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>$Revision: 1.5 $<date>$Date: 2011/04/19 06:12:14 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
-		<respStmt xml:id="resp6"><resp>corrections</resp><name>Dudoucheng</name></respStmt>
-		<respStmt xml:id="resp7"><resp>corrections</resp><name>ihp</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>ihp</name></respStmt>
             </editionStmt>
             <extent>1卷</extent>
             <publicationStmt>
@@ -36,12 +30,8 @@
             <sourceDesc>
       	      <bibl>Selections of Buddhist Stone Rubbings from the Northern Dynasties Vol. 1, No. 079 </bibl>
             <listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
-		<witness xml:id="wit4">【大】</witness>
-		<witness xml:id="wit5">【史】</witness>
-		<witness xml:id="wit6">【原】</witness>
+		<witness xml:id="wit1">【史】</witness>
+		<witness xml:id="wit2">【原】</witness>
 	</listWit>
 	</sourceDesc>
         </fileDesc>
@@ -126,20 +116,20 @@
 <cb:div type="apparatus">
 <head>校勘記</head>
 <p>
-<app from="#beg0215001" to="#end0215001"><lem resp="#resp7" wit="#wit5">遠</lem><rdg wit="#wit6"><g ref="#CB30558">󷝞</g></rdg></app>
-<app from="#beg0215002" to="#end0215002"><lem resp="#resp7" wit="#wit5">希</lem><rdg wit="#wit6"><g ref="#CB31032">󷤸</g></rdg></app>
-<app from="#beg0215003" to="#end0215003"><lem resp="#resp7" wit="#wit5">英</lem><rdg wit="#wit6"><g ref="#CB31033">󷤹</g></rdg></app>
-<app from="#beg_1" to="#end_1" corresp="#0215001"><lem resp="#resp7" wit="#wit5">遠</lem><rdg wit="#wit6"><g ref="#CB30558">󷝞</g></rdg></app>
-<app from="#beg0215004" to="#end0215004"><lem resp="#resp7" wit="#wit5">冏</lem><rdg wit="#wit6"><g ref="#CB20040">𡆾</g></rdg></app>
+<app from="#beg0215001" to="#end0215001"><lem resp="#resp1" wit="#wit1">遠</lem><rdg wit="#wit2"><g ref="#CB30558">󷝞</g></rdg></app>
+<app from="#beg0215002" to="#end0215002"><lem resp="#resp1" wit="#wit1">希</lem><rdg wit="#wit2"><g ref="#CB31032">󷤸</g></rdg></app>
+<app from="#beg0215003" to="#end0215003"><lem resp="#resp1" wit="#wit1">英</lem><rdg wit="#wit2"><g ref="#CB31033">󷤹</g></rdg></app>
+<app from="#beg_1" to="#end_1" corresp="#0215001"><lem resp="#resp1" wit="#wit1">遠</lem><rdg wit="#wit2"><g ref="#CB30558">󷝞</g></rdg></app>
+<app from="#beg0215004" to="#end0215004"><lem resp="#resp1" wit="#wit1">冏</lem><rdg wit="#wit2"><g ref="#CB20040">𡆾</g></rdg></app>
 </p>
 </cb:div>
 <cb:div type="ihp-notes">
 <head>中央研究院歷史語言研究所 校勘記</head>
 <p>
-<note n="0215001" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0215001"><g ref="#CB30558">󷝞</g>＝遠【史】</note>
-<note n="0215002" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0215002"><g ref="#CB31032">󷤸</g>＝希【史】</note>
-<note n="0215003" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0215003"><g ref="#CB31033">󷤹</g>＝英【史】</note>
-<note n="0215004" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0215004"><g ref="#CB20040">𡆾</g>＝冏【史】</note>
+<note n="0215001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0215001"><g ref="#CB30558">󷝞</g>＝遠【史】</note>
+<note n="0215002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0215002"><g ref="#CB31032">󷤸</g>＝希【史】</note>
+<note n="0215003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0215003"><g ref="#CB31033">󷤹</g>＝英【史】</note>
+<note n="0215004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0215004"><g ref="#CB20040">𡆾</g>＝冏【史】</note>
 </p>
 </cb:div>
 </back></text>

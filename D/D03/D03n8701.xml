@@ -11,11 +11,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2011/06/14 01:42:41 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -39,11 +36,7 @@
 				<idno>Vol. 03, No. 8701</idno>
 			</msIdentifier>
 		</msDesc>
-<listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-	</listWit>
-	</sourceDesc>
+</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
@@ -235,6 +228,7 @@
 		<localName>normalized form</localName>
 		<value>珍</value>
 	</charProp>
+	<mapping type="normal_unicode">U+73CE</mapping>
 	<mapping cb:dec="996291" type="PUA">U+F33C3</mapping>
 </char>
 <char xml:id="CB16765">
@@ -496,30 +490,30 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校勘記</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>脩</corr><sic><unclear/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>須</corr><sic><unclear/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>行</corr><sic>他</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>猛</corr><sic><unclear/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>住</corr><sic><unclear/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>多</corr><sic></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>處</corr><sic>支</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr></corr><sic>義</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>忽</corr><sic>怱</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>晝</corr><sic><unclear/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>乃</corr><sic><unclear/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr></corr><sic>不</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>列</corr><sic>烈</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>目</corr><sic></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr><g ref="#CB08221">㱕</g></corr><sic><unclear/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>者</corr><sic><unclear/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_12" cb:to="#end_12"><corr>會裏</corr><sic><unclear/><unclear/></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>脩</corr><sic><unclear/></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>須</corr><sic><unclear/></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>行</corr><sic>他</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>猛</corr><sic><unclear/></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>住</corr><sic><unclear/></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>多</corr><sic></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>處</corr><sic>支</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr></corr><sic>義</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>忽</corr><sic>怱</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr>晝</corr><sic><unclear/></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_b" cb:to="#end_b"><corr>乃</corr><sic><unclear/></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_c" cb:to="#end_c"><corr>第</corr><sic>弟</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_d" cb:to="#end_d"><corr></corr><sic>不</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_e" cb:to="#end_e"><corr>列</corr><sic>烈</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_f" cb:to="#end_f"><corr>目</corr><sic></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_10" cb:to="#end_10"><corr><g ref="#CB08221">㱕</g></corr><sic><unclear/></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_11" cb:to="#end_11"><corr>者</corr><sic><unclear/></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_12" cb:to="#end_12"><corr>會裏</corr><sic><unclear/><unclear/></sic></choice>
 </p>
 </cb:div>
 <cb:div type="ncl-notes">
 <head>國家圖書館善本佛典 校勘記</head>
 <p>
-<note n="0001001" resp="#resp5" place="foot text" type="orig" target="#nkr_note_orig_0001001">國圖按：此卷子並非竺法護譯之「孟蘭盆經」原文，而為演繹該經之一種韻散來雜之講經文。其韻文每七字一句首釋經名意旨，云「願我慈親領受之，因茲息苦得停酸，免受倒懸三<g ref="#CB08891">𢙣</g>道，離<g ref="#CB08891">𢙣</g>鬼前休<g ref="#CB08891">𢙣</g>趣，得向<g ref="#CB29788">󷑜</g>園礼世尊」。篇中每引一句經文，即加以講唱，並已有催唱經文之吟詞，如「大眾須生敬重心.....經文次苐唱將来」，均合於俗講之儀式與體裁，惜祇演繹首數句經文，至「目連欲度父母報乳哺之恩」止。此卷子之抄寫年代從上述紙墨狀況，及唱文中有「自出分憂佐大唐」之語，或在晚唐時期。</note>
+<note n="0001001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0001001">國圖按：此卷子並非竺法護譯之「孟蘭盆經」原文，而為演繹該經之一種韻散來雜之講經文。其韻文每七字一句首釋經名意旨，云「願我慈親領受之，因茲息苦得停酸，免受倒懸三<g ref="#CB08891">𢙣</g>道，離<g ref="#CB08891">𢙣</g>鬼前休<g ref="#CB08891">𢙣</g>趣，得向<g ref="#CB29788">󷑜</g>園礼世尊」。篇中每引一句經文，即加以講唱，並已有催唱經文之吟詞，如「大眾須生敬重心.....經文次苐唱將来」，均合於俗講之儀式與體裁，惜祇演繹首數句經文，至「目連欲度父母報乳哺之恩」止。此卷子之抄寫年代從上述紙墨狀況，及唱文中有「自出分憂佐大唐」之語，或在晚唐時期。</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -12,13 +12,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>$Revision: 1.6 $<date>$Date: 2011/04/19 06:12:14 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
-		<respStmt xml:id="resp6"><resp>corrections</resp><name>Dudoucheng</name></respStmt>
-		<respStmt xml:id="resp7"><resp>corrections</resp><name>ihp</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>ihp</name></respStmt>
             </editionStmt>
             <extent>1卷</extent>
             <publicationStmt>
@@ -36,12 +30,8 @@
             <sourceDesc>
       	      <bibl>Selections of Buddhist Stone Rubbings from the Northern Dynasties Vol. 1, No. 068 </bibl>
             <listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
-		<witness xml:id="wit4">【大】</witness>
-		<witness xml:id="wit5">【史】</witness>
-		<witness xml:id="wit6">【原】</witness>
+		<witness xml:id="wit1">【史】</witness>
+		<witness xml:id="wit2">【原】</witness>
 	</listWit>
 	</sourceDesc>
         </fileDesc>
@@ -142,7 +132,7 @@
 <lb ed="I" n="0173b09" type="honorific"/>剟觀音經於下□。願使　皇道竄<unclear cert="low" reason="damage"/>興。父師常<unclear cert="low" reason="damage"/>樂。邑
 <lb ed="I" n="0173b10" type="honorific"/>儀諸人。龍華初會。法界有形。等成正覺。其頌曰。
 <lb ed="I" n="0173b11" type="honorific"/>真趣幽微。弗可言宣。大慈垂訓。以教流傳。初演鹿
-<lb ed="I" n="0173b12" type="honorific"/>菀。靈鷲陳章。摧魔伏道。如日<anchor xml:id="beg_1" type="star"/>照<anchor xml:id="end_1"/>霜。敬<unclear cert="low" reason="damage"/>造□形。<anchor xml:id="beg_2" type="star"/>置<anchor xml:id="end_2"/>于
+<lb ed="I" n="0173b12" type="honorific"/>菀。靈鷲陳章。摧魔伏道。如日<anchor xml:id="beg_1" type="star"/>照<anchor xml:id="end_1"/>霜。敬<unclear cert="low" reason="damage"/>造□形。<anchor xml:id="nkr_note_orig_0173006" n="0173006"/><anchor xml:id="beg0173006" n="0173006"/>置<anchor xml:id="end0173006"/>于
 <lb ed="I" n="0173b13" type="honorific"/>巖壑。刊經揚義。法流枯<unclear cert="low" reason="damage"/>涸。
 <lb ed="I" n="0173b14" type="honorific"/>大齊皇建元年庚辰□九月己酉朔三日辛亥造經碑</p>
 </cb:div>
@@ -153,23 +143,24 @@
 <cb:div type="apparatus">
 <head>校勘記</head>
 <p>
-<app from="#beg0173001" to="#end0173001"><lem resp="#resp7" wit="#wit5">淵</lem><rdg wit="#wit6"><g ref="#CB30966">𣷬</g></rdg></app>
-<app from="#beg0173002" to="#end0173002"><lem resp="#resp7" wit="#wit5">戒</lem><rdg wit="#wit6"><g ref="#CB30967">󷣷</g></rdg></app>
-<app from="#beg0173003" to="#end0173003"><lem resp="#resp7" wit="#wit5">照</lem><rdg wit="#wit6"><g ref="#CB30334">𤋜</g></rdg></app>
-<app from="#beg0173004" to="#end0173004"><lem resp="#resp7" wit="#wit5">剛</lem><rdg wit="#wit6"><g ref="#CB30369">㓻</g></rdg></app>
-<app from="#beg0173005" to="#end0173005"><lem resp="#resp7" wit="#wit5">置</lem><rdg wit="#wit6"><g ref="#CB30968">󷣸</g></rdg></app>
-<app from="#beg_1" to="#end_1" corresp="#0173003"><lem resp="#resp7" wit="#wit5">照</lem><rdg wit="#wit6"><g ref="#CB30334">𤋜</g></rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0173005"><lem resp="#resp7" wit="#wit5">置</lem><rdg wit="#wit6"><g ref="#CB31167">󷦿</g></rdg></app>
+<app from="#beg0173001" to="#end0173001"><lem resp="#resp1" wit="#wit1">淵</lem><rdg wit="#wit2"><g ref="#CB30966">𣷬</g></rdg></app>
+<app from="#beg0173002" to="#end0173002"><lem resp="#resp1" wit="#wit1">戒</lem><rdg wit="#wit2"><g ref="#CB30967">󷣷</g></rdg></app>
+<app from="#beg0173003" to="#end0173003"><lem resp="#resp1" wit="#wit1">照</lem><rdg wit="#wit2"><g ref="#CB30334">𤋜</g></rdg></app>
+<app from="#beg0173004" to="#end0173004"><lem resp="#resp1" wit="#wit1">剛</lem><rdg wit="#wit2"><g ref="#CB30369">㓻</g></rdg></app>
+<app from="#beg0173005" to="#end0173005"><lem resp="#resp1" wit="#wit1">置</lem><rdg wit="#wit2"><g ref="#CB30968">󷣸</g></rdg></app>
+<app from="#beg_1" to="#end_1" corresp="#0173003"><lem resp="#resp1" wit="#wit1">照</lem><rdg wit="#wit2"><g ref="#CB30334">𤋜</g></rdg></app>
+<app from="#beg0173006" to="#end0173006"><lem resp="#resp1" wit="#wit1">置</lem><rdg wit="#wit2"><g ref="#CB31167">󷦿</g></rdg></app>
 </p>
 </cb:div>
 <cb:div type="ihp-notes">
 <head>中央研究院歷史語言研究所 校勘記</head>
 <p>
-<note n="0173001" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0173001"><g ref="#CB30966">𣷬</g>＝淵【史】</note>
-<note n="0173002" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0173002"><g ref="#CB30967">󷣷</g>＝戒【史】</note>
-<note n="0173003" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0173003"><g ref="#CB30334">𤋜</g>＝照【史】</note>
-<note n="0173004" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0173004"><g ref="#CB30369">㓻</g>＝剛【史】</note>
-<note n="0173005" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0173005"><g ref="#CB30968">󷣸</g>＝置【史】</note>
+<note n="0173001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0173001"><g ref="#CB30966">𣷬</g>＝淵【史】</note>
+<note n="0173002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0173002"><g ref="#CB30967">󷣷</g>＝戒【史】</note>
+<note n="0173003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0173003"><g ref="#CB30334">𤋜</g>＝照【史】</note>
+<note n="0173004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0173004"><g ref="#CB30369">㓻</g>＝剛【史】</note>
+<note n="0173005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0173005"><g ref="#CB30968">󷣸</g>＝置【史】</note>
+<note n="0173006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0173006"><g ref="#CB31167">󷦿</g>＝置【史】</note>
 </p>
 </cb:div>
 </back></text>

@@ -12,13 +12,7 @@
             </titleStmt>
             <editionStmt>
                 <edition>$Revision: 1.5 $<date>$Date: 2011/04/19 06:12:14 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
-		<respStmt xml:id="resp6"><resp>corrections</resp><name>Dudoucheng</name></respStmt>
-		<respStmt xml:id="resp7"><resp>corrections</resp><name>ihp</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>ihp</name></respStmt>
             </editionStmt>
             <extent>1卷</extent>
             <publicationStmt>
@@ -36,12 +30,8 @@
             <sourceDesc>
       	      <bibl>Selections of Buddhist Stone Rubbings from the Northern Dynasties Vol. 1, No. 061 </bibl>
             <listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
-		<witness xml:id="wit4">【大】</witness>
-		<witness xml:id="wit5">【史】</witness>
-		<witness xml:id="wit6">【原】</witness>
+		<witness xml:id="wit1">【史】</witness>
+		<witness xml:id="wit2">【原】</witness>
 	</listWit>
 	</sourceDesc>
         </fileDesc>
@@ -133,21 +123,21 @@
 <cb:div type="apparatus">
 <head>校勘記</head>
 <p>
-<app from="#beg0156001" to="#end0156001"><lem resp="#resp7" wit="#wit5">獻</lem><rdg wit="#wit6"><g ref="#CB30482">󷜒</g></rdg></app>
-<app from="#beg0156002" to="#end0156002"><lem resp="#resp7" wit="#wit5">虯</lem><rdg wit="#wit6">虬</rdg></app>
-<app from="#beg0156003" to="#end0156003"><lem resp="#resp7" wit="#wit5">構</lem><rdg wit="#wit6"><g ref="#CB30930">󷣒</g></rdg></app>
-<app from="#beg0156004" to="#end0156004"><lem resp="#resp7" wit="#wit5">寡</lem><rdg wit="#wit6"><g ref="#CB30931">󷣓</g></rdg></app>
-<app from="#beg0156005" to="#end0156005"><lem resp="#resp7" wit="#wit5">裔</lem><rdg wit="#wit6"><g ref="#CB30932">𧛨</g></rdg></app>
+<app from="#beg0156001" to="#end0156001"><lem resp="#resp1" wit="#wit1">獻</lem><rdg wit="#wit2"><g ref="#CB30482">󷜒</g></rdg></app>
+<app from="#beg0156002" to="#end0156002"><lem resp="#resp1" wit="#wit1">虯</lem><rdg wit="#wit2">虬</rdg></app>
+<app from="#beg0156003" to="#end0156003"><lem resp="#resp1" wit="#wit1">構</lem><rdg wit="#wit2"><g ref="#CB30930">󷣒</g></rdg></app>
+<app from="#beg0156004" to="#end0156004"><lem resp="#resp1" wit="#wit1">寡</lem><rdg wit="#wit2"><g ref="#CB30931">󷣓</g></rdg></app>
+<app from="#beg0156005" to="#end0156005"><lem resp="#resp1" wit="#wit1">裔</lem><rdg wit="#wit2"><g ref="#CB30932">𧛨</g></rdg></app>
 </p>
 </cb:div>
 <cb:div type="ihp-notes">
 <head>中央研究院歷史語言研究所 校勘記</head>
 <p>
-<note n="0156001" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0156001"><g ref="#CB30482">󷜒</g>＝獻【史】</note>
-<note n="0156002" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0156002">虬＝虯【史】</note>
-<note n="0156003" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0156003"><g ref="#CB30930">󷣒</g>＝構【史】</note>
-<note n="0156004" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0156004"><g ref="#CB30931">󷣓</g>＝寡【史】</note>
-<note n="0156005" resp="#resp7" place="foot text" type="orig" target="#nkr_note_orig_0156005"><g ref="#CB30932">𧛨</g>＝裔【史】</note>
+<note n="0156001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0156001"><g ref="#CB30482">󷜒</g>＝獻【史】</note>
+<note n="0156002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0156002">虬＝虯【史】</note>
+<note n="0156003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0156003"><g ref="#CB30930">󷣒</g>＝構【史】</note>
+<note n="0156004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0156004"><g ref="#CB30931">󷣓</g>＝寡【史】</note>
+<note n="0156005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0156005"><g ref="#CB30932">𧛨</g>＝裔【史】</note>
 </p>
 </cb:div>
 </back></text>

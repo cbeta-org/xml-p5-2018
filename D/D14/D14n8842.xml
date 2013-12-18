@@ -13,10 +13,6 @@
 	<editionStmt>
 		<edition>$Revision: 1.1 $<date>$Date: 2011/06/30 02:19:40 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -40,11 +36,7 @@
 				<idno>Vol. 14, No. 8842</idno>
 			</msIdentifier>
 		</msDesc>
-<listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-	</listWit>
-	</sourceDesc>
+</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
@@ -62,6 +54,7 @@
 		<localName>normalized form</localName>
 		<value>冀</value>
 	</charProp>
+	<mapping type="normal_unicode">U+517E</mapping>
 	<mapping cb:dec="983082" type="PUA">U+F002A</mapping>
 </char>
 <char xml:id="CB00112">
@@ -171,6 +164,7 @@
 		<localName>normalized form</localName>
 		<value>捨</value>
 	</charProp>
+	<mapping type="normal_unicode">U+6368</mapping>
 	<mapping cb:dec="1005097" type="PUA">U+F5629</mapping>
 </char>
 <char xml:id="CB22072">
@@ -249,6 +243,7 @@
 		<localName>normalized form</localName>
 		<value>寶</value>
 	</charProp>
+	<mapping type="normal_unicode">U+5BF3</mapping>
 	<mapping cb:dec="1014028" type="PUA">U+F790C</mapping>
 </char>
 </charDecl>

@@ -11,11 +11,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2011/10/07 03:06:40 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -39,11 +36,7 @@
 				<idno>Vol. 20, No. 8869</idno>
 			</msIdentifier>
 		</msDesc>
-<listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-	</listWit>
-	</sourceDesc>
+</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
@@ -174,6 +167,7 @@
 		<localName>normalized form</localName>
 		<value>稷</value>
 	</charProp>
+	<mapping type="normal_unicode">U+799D</mapping>
 	<mapping cb:dec="984182" type="PUA">U+F0476</mapping>
 </char>
 <char xml:id="CB01153">
@@ -215,6 +209,7 @@
 		<localName>normalized form</localName>
 		<value>臾</value>
 	</charProp>
+	<mapping type="normal_unicode">U+3B30</mapping>
 	<mapping cb:dec="987496" type="PUA">U+F1168</mapping>
 </char>
 <char xml:id="CB04780">
@@ -260,6 +255,7 @@
 		<localName>normalized form</localName>
 		<value>額</value>
 	</charProp>
+	<mapping type="normal_unicode">U+981F</mapping>
 	<mapping cb:dec="989571" type="PUA">U+F1983</mapping>
 </char>
 <char xml:id="CB06924">
@@ -285,6 +281,7 @@
 		<localName>normalized form</localName>
 		<value>珍</value>
 	</charProp>
+	<mapping type="normal_unicode">U+73CE</mapping>
 	<mapping cb:dec="990230" type="PUA">U+F1C16</mapping>
 </char>
 <char xml:id="CB07669">
@@ -344,6 +341,7 @@
 		<localName>normalized form</localName>
 		<value>曹</value>
 	</charProp>
+	<mapping type="normal_unicode">U+66FA</mapping>
 	<mapping cb:dec="991710" type="PUA">U+F21DE</mapping>
 </char>
 <char xml:id="CB08760">
@@ -499,6 +497,7 @@
 		<localName>normalized form</localName>
 		<value>珍</value>
 	</charProp>
+	<mapping type="normal_unicode">U+73CE</mapping>
 	<mapping cb:dec="996291" type="PUA">U+F33C3</mapping>
 </char>
 <char xml:id="CB13463">
@@ -605,6 +604,7 @@
 		<localName>normalized form</localName>
 		<value>等</value>
 	</charProp>
+	<mapping type="normal_unicode">U+44C1</mapping>
 	<mapping cb:dec="1004757" type="PUA">U+F54D5</mapping>
 </char>
 <char xml:id="CB21868">
@@ -678,6 +678,7 @@
 		<localName>normalized form</localName>
 		<value>捨</value>
 	</charProp>
+	<mapping type="normal_unicode">U+6368</mapping>
 	<mapping cb:dec="1005097" type="PUA">U+F5629</mapping>
 </char>
 <char xml:id="CB22072">
@@ -734,6 +735,7 @@
 		<localName>normalized form</localName>
 		<value>燥</value>
 	</charProp>
+	<mapping type="normal_unicode">U+243DF</mapping>
 	<mapping cb:dec="1006287" type="PUA">U+F5ACF</mapping>
 </char>
 <char xml:id="CB23936">
@@ -1578,47 +1580,47 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校勘記</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>開</corr><sic><unclear/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>妄</corr><sic>忘</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>妄</corr><sic>忘</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_12" cb:to="#end_12"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_14" cb:to="#end_14"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_15" cb:to="#end_15"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_16" cb:to="#end_16"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_17" cb:to="#end_17"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_18" cb:to="#end_18"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_19" cb:to="#end_19"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1a" cb:to="#end_1a"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1b" cb:to="#end_1b"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1c" cb:to="#end_1c"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1d" cb:to="#end_1d"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1e" cb:to="#end_1e"><corr>垢</corr><sic>沰</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1f" cb:to="#end_1f"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_20" cb:to="#end_20"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_21" cb:to="#end_21"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_22" cb:to="#end_22"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_23" cb:to="#end_23"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>開</corr><sic><unclear/></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>妄</corr><sic>忘</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>妄</corr><sic>忘</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_b" cb:to="#end_b"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_c" cb:to="#end_c"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_d" cb:to="#end_d"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_e" cb:to="#end_e"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_f" cb:to="#end_f"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_10" cb:to="#end_10"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_11" cb:to="#end_11"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_12" cb:to="#end_12"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_13" cb:to="#end_13"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_14" cb:to="#end_14"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_15" cb:to="#end_15"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_16" cb:to="#end_16"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_17" cb:to="#end_17"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_18" cb:to="#end_18"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_19" cb:to="#end_19"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1a" cb:to="#end_1a"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1b" cb:to="#end_1b"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1c" cb:to="#end_1c"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1d" cb:to="#end_1d"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1e" cb:to="#end_1e"><corr>垢</corr><sic>沰</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1f" cb:to="#end_1f"><corr>間</corr><sic>閒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_20" cb:to="#end_20"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_21" cb:to="#end_21"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_22" cb:to="#end_22"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_23" cb:to="#end_23"><corr>間</corr><sic>閒</sic></choice>
 </p>
 </cb:div>
 <cb:div type="ncl-notes">
 <head>國家圖書館善本佛典 校勘記</head>
 <p>
-<note n="0001001" resp="#resp5" place="foot text" type="orig" target="#nkr_note_orig_0001001">國圖按：此經諸藏未見收錄，敦煌遺書總目索引亦未收。查隋法經等撰「眾經目錄」卷第二眾經疑惑五中，著錄有「惟無三昧經一卷」( 下夾注一名惟務三昧)，則此卷尾題之「教」字，或為「務」「無」字之訛？待考。審此卷運筆有法,稍帶隸意...；字畫之間架已近平正之唐楷；別體俗書觸目皆是；以及紙質、行款、「一校」等特徵，推測此卷為南北朝後期迄隋朝間之寫本，存卷下。 </note>
+<note n="0001001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0001001">國圖按：此經諸藏未見收錄，敦煌遺書總目索引亦未收。查隋法經等撰「眾經目錄」卷第二眾經疑惑五中，著錄有「惟無三昧經一卷」( 下夾注一名惟務三昧)，則此卷尾題之「教」字，或為「務」「無」字之訛？待考。審此卷運筆有法,稍帶隸意...；字畫之間架已近平正之唐楷；別體俗書觸目皆是；以及紙質、行款、「一校」等特徵，推測此卷為南北朝後期迄隋朝間之寫本，存卷下。 </note>
 </p>
 </cb:div>
 </back></text></TEI>
