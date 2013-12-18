@@ -13,12 +13,6 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2012/06/27 08:15:57 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
-		<respStmt xml:id="resp6"><resp>corrections</resp><name>Dudoucheng</name></respStmt>
-		<respStmt xml:id="resp7"><resp>corrections</resp><name>ihp</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,15 +30,8 @@
 	<sourceDesc>
 		<bibl>Jiaxing Canon Vol. 37, No. B396 </bibl>
 	<listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
-		<witness xml:id="wit4">【大】</witness>
-		<witness xml:id="wit5">【史】</witness>
-		<witness xml:id="wit6">【原】</witness>
-		<witness xml:id="wit7">【卍續】</witness>
-		<witness xml:id="wit8">【麗】</witness>
-		<witness xml:id="wit9">【嘉興】</witness>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -1209,7 +1196,7 @@ modified: BM轉 XML
 <choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>佛</corr><sic>拂</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>已</corr><sic>巳</sic></choice>
-<app from="beg_8" to="end_8"><lem wit="#wit3" resp="#resp1">烏</lem><rdg wit="#wit7">鳥</rdg></app>
+<app from="#beg_8" to="#end_8"><lem wit="#wit1" resp="#resp1">烏</lem><rdg wit="#wit2">鳥</rdg></app>
 <choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>母</corr><sic>毋</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>加</corr><sic><unclear/></sic></choice>

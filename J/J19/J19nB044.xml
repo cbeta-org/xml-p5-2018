@@ -13,12 +13,6 @@
 	<editionStmt>
 		<edition>$Revision: 1.16 $<date>$Date: 2012/06/27 08:12:26 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
-		<respStmt xml:id="resp6"><resp>corrections</resp><name>Dudoucheng</name></respStmt>
-		<respStmt xml:id="resp7"><resp>corrections</resp><name>ihp</name></respStmt>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -36,13 +30,8 @@
 	<sourceDesc>
 		<bibl>Jiaxing Canon Vol. 19, No. B044 </bibl>
 	<listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
-		<witness xml:id="wit4">【大】</witness>
-		<witness xml:id="wit5">【史】</witness>
-		<witness xml:id="wit6">【原】</witness>
-		<witness xml:id="wit7">【卍續】</witness>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -85,6 +74,7 @@
 		<localName>composition</localName>
 		<value>[曰/月]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+5190</mapping>
 	<mapping cb:dec="983195" type="PUA">U+F009B</mapping>
 </char>
 <char xml:id="CB00292">
@@ -278,6 +268,7 @@
 		<localName>composition</localName>
 		<value>[穀-(一/禾)+卵]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+3C89</mapping>
 	<mapping cb:dec="991056" type="PUA">U+F1F50</mapping>
 </char>
 <char xml:id="CB12187">
@@ -5282,7 +5273,7 @@ modified: 重轉 xml
 <choice cb:resp="#resp1" cb:from="#beg_4c" cb:to="#end_4c"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_4d" cb:to="#end_4d"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_4e" cb:to="#end_4e"><corr>已</corr><sic>巳</sic></choice>
-<app from="beg_4f" to="end_4f"><lem wit="#wit3" resp="#resp1">形</lem><rdg wit="#wit7">行</rdg></app>
+<app from="#beg_4f" to="#end_4f"><lem wit="#wit1" resp="#resp1">形</lem><rdg wit="#wit2">行</rdg></app>
 <choice cb:resp="#resp1" cb:from="#beg_50" cb:to="#end_50"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_51" cb:to="#end_51"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_52" cb:to="#end_52"><corr>已</corr><sic>巳</sic></choice>

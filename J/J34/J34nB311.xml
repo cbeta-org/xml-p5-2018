@@ -13,12 +13,6 @@
 	<editionStmt>
 		<edition>$Revision: 1.19 $<date>$Date: 2012/06/27 08:15:05 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>NCLRareBook</name></respStmt>
-		<respStmt xml:id="resp6"><resp>corrections</resp><name>Dudoucheng</name></respStmt>
-		<respStmt xml:id="resp7"><resp>corrections</resp><name>ihp</name></respStmt>
 	</editionStmt>
 	<extent>33卷</extent>
 	<publicationStmt>
@@ -36,15 +30,8 @@
 	<sourceDesc>
 		<bibl>Jiaxing Canon Vol. 34, No. B311 </bibl>
 	<listWit>
-		<witness xml:id="wit1">【 CBETA】</witness>
-		<witness xml:id="wit2">【補編】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
-		<witness xml:id="wit4">【大】</witness>
-		<witness xml:id="wit5">【史】</witness>
-		<witness xml:id="wit6">【原】</witness>
-		<witness xml:id="wit7">【卍續】</witness>
-		<witness xml:id="wit8">【麗】</witness>
-		<witness xml:id="wit9">【嘉興】</witness>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【大】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -365,6 +352,7 @@
 		<localName>composition</localName>
 		<value>[示*虎]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+2569A</mapping>
 	<mapping cb:dec="1004438" type="PUA">U+F5396</mapping>
 </char>
 <char xml:id="CB21400">
@@ -20688,7 +20676,7 @@ modified: BM 轉出 XML
 <choice cb:resp="#resp1" cb:from="#beg_130" cb:to="#end_130"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_131" cb:to="#end_131"><corr>己</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_132" cb:to="#end_132"><corr>已</corr><sic>巳</sic></choice>
-<app from="beg_133" to="end_133"><lem wit="#wit3" resp="#resp1">爪<note type="cf1">按前後文義當作「爪」</note></lem><rdg wit="#wit4">瓜</rdg></app>
+<app from="#beg_133" to="#end_133"><lem wit="#wit1" resp="#resp1">爪<note type="cf1">按前後文義當作「爪」</note></lem><rdg wit="#wit2">瓜</rdg></app>
 <choice cb:resp="#resp1" cb:from="#beg_134" cb:to="#end_134"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_135" cb:to="#end_135"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_136" cb:to="#end_136"><corr>已</corr><sic>巳</sic></choice>
