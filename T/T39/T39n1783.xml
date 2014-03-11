@@ -53,15 +53,6 @@
 	<mapping type="unicode">U+27090</mapping>
 	<mapping cb:dec="983076" type="PUA">U+F0024</mapping>
 </char>
-<char xml:id="CB02728">
-	<charName>CBETA CHARACTER CB02728</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[?夕]</value>
-	</charProp>
-	<mapping type="unicode">U+206A4</mapping>
-	<mapping cb:dec="985768" type="PUA">U+F0AA8</mapping>
-</char>
 </charDecl>
 </encodingDesc>
 <profileDesc>
@@ -1429,7 +1420,7 @@ Added comment  for Emacs
 <app from="#beg0006008" to="#end0006008"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0006009" to="#end0006009"><lem wit="#wit1">溥照</lem><rdg resp="#resp1" wit="#wit2">光曜</rdg></app>
 <app from="#beg0006010" to="#end0006010"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit2">說云云</rdg></app>
-<app from="#beg0006011" to="#end0006011"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit2">中虛<g ref="#CB02728">𠚤</g></rdg></app>
+<app from="#beg0006011" to="#end0006011"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit2">中虛々</rdg></app>
 <app from="#beg0006012" to="#end0006012"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit2">說</rdg></app>
 <app from="#beg0006013" to="#end0006013"><lem wit="#wit1">擎</lem><rdg resp="#resp1" wit="#wit2">取</rdg></app>
 <app from="#beg0006014" to="#end0006014"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit2">乃</rdg></app>
@@ -1741,8 +1732,8 @@ Added comment  for Emacs
 <note n="0006039" resp="#resp2" type="mod" target="#nkr_note_mod_0006039"><!--CBETA todo type: a-->不分卷【甲】</note>
 <note n="0006040" resp="#resp2" type="mod" target="#nkr_note_mod_0006040"><!--CBETA todo type: a-->不分卷【甲】</note>
 <note n="0007007" resp="#resp2" type="mod" target="#nkr_note_mod_0007007"><!--CBETA todo type: ＊-->豎＝竪【甲】＊</note>
-<note n="0007013" resp="#resp2" type="mod" target="#nkr_note_mod_0007013">〔起〕－【甲】<choice cb:resp="#resp4"><corr>＊</corr><sic></sic></choice></note>
-<note n="0007017" resp="#resp2" type="mod" target="#nkr_note_mod_0007017">〔死壞復受<choice cb:resp="#resp3"><corr>一</corr><sic></sic></choice>身〕－【甲】</note>
+<note n="0007013" resp="#resp2" type="mod" target="#nkr_note_mod_0007013">〔起〕－【甲】<choice cb:resp="#resp4"><corr>＊</corr><sic><space quantity="0"/></sic></choice></note>
+<note n="0007017" resp="#resp2" type="mod" target="#nkr_note_mod_0007017">〔死壞復受<choice cb:resp="#resp3"><corr>一</corr><sic><space quantity="0"/></sic></choice>身〕－【甲】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -1981,7 +1972,7 @@ Added comment  for Emacs
 <note n="0006008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0006008">〔大〕－【甲】</note>
 <note n="0006009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0006009">溥照＝光曜【甲】</note>
 <note n="0006010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0006010">說＋（云云）【甲】</note>
-<note n="0006011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0006011">中＋（虛<g ref="#CB02728">𠚤</g>）【甲】</note>
+<note n="0006011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0006011">中＋（虛々）【甲】</note>
 <note n="0006012" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0006012">明＝說【甲】</note>
 <note n="0006013" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0006013">擎＝取【甲】</note>
 <note n="0006014" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0006014">亦＝乃【甲】</note>

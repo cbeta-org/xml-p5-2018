@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.13 $<date>$Date: 2009/04/23 08:12:08 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -142,15 +143,6 @@
 	</charProp>
 	<mapping type="unicode">U+26B14</mapping>
 	<mapping cb:dec="985291" type="PUA">U+F08CB</mapping>
-</char>
-<char xml:id="CB02728">
-	<charName>CBETA CHARACTER CB02728</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[?夕]</value>
-	</charProp>
-	<mapping type="unicode">U+206A4</mapping>
-	<mapping cb:dec="985768" type="PUA">U+F0AA8</mapping>
 </char>
 <char xml:id="CB04636">
 	<charName>CBETA CHARACTER CB04636</charName>
@@ -2776,7 +2768,7 @@ Added comment  for Emacs
 <lb n="0188a09" ed="T"/>無是定有也。如東西中三處相望。言中非東。
 <lb n="0188a10" ed="T"/>不言即是西也。言中非西。不言即是東也。准
 <lb n="0188a11" ed="T"/>前作語。應云言其非東者。言其非是東。非謂
-<lb n="0188a12" ed="T"/>是非<anchor xml:id="nkr_note_orig_0188001" n="0188001"/><anchor xml:id="nkr_note_mod_0188001" n="0188001"/>非東。東是定西也。言其非西者。言其
+<lb n="0188a12" ed="T"/>是非<anchor xml:id="nkr_note_orig_0188001" n="0188001"/><anchor xml:id="beg0188001" n="0188001"/>非東<anchor xml:id="end0188001"/>。東是定西也。言其非西者。言其
 <lb n="0188a13" ed="T"/>非是西。非謂是非西。非西是定東也。問曰。言
 <lb n="0188a14" ed="T"/>其非有者。可言非是有。何得非非有。言其
 <lb n="0188a15" ed="T"/>非無者。言其非是無。何得非非無。以非有非
@@ -2929,7 +2921,7 @@ Added comment  for Emacs
 <lb n="0189c12" ed="T"/><cb:div type="w"><p xml:id="pT45p0189c1201"><anchor xml:id="nkr_note_orig_0189013" n="0189013"/><note place="inline">東南院本記云</note>。</p>
 <lb n="0189c13" ed="T"/><p xml:id="pT45p0189c1301">保安元年十一月十一日。於太宰府點了。
 <lb n="0189c14" ed="T"/>疏本草書。仍有不定。後者正之云云。</p>
-<lb n="0189c15" ed="T"/><p xml:id="pT45p0189c1501">令同法寫點之。□移點敷<g ref="#CB02728">𠚤</g>。重以正本。可
+<lb n="0189c15" ed="T"/><p xml:id="pT45p0189c1501">令同法寫點之。□移點敷々。重以正本。可
 <lb n="0189c16" ed="T"/>挍合而已。如本記云。覺樹僧都御點也。尤
 <lb n="0189c17" ed="T"/>可沈思<note place="inline">云云</note>。</p>
 <lb n="0189c18" ed="T"/><p xml:id="pT45p0189c1801">　　　　　　　　　　　　　　沙門聖然</p></cb:div>
@@ -3540,7 +3532,7 @@ Added comment  for Emacs
 <lb n="0196b22" ed="T"/>之教止于六境耳。有無之數。但在六塵境界
 <lb n="0196b23" ed="T"/>也。六境之內非涅槃之宅故借出以祛之耳。
 <lb n="0196b24" ed="T"/>六境既非涅槃。故云涅槃出有無耳。云言也。
-<lb n="0196b25" ed="T"/>庶希道之流。庶冀望也。希冀慕也。<anchor xml:id="beg_24" type="cb-app"/>髣髴<anchor xml:id="end_24"/>謂近
+<lb n="0196b25" ed="T"/>庶希道之流。庶冀望也。希冀慕也。髣髴謂近
 <lb n="0196b26" ed="T"/>真而非真也。幽途謂玄道也。託情謂安心也。
 <lb n="0196b27" ed="T"/>絕域謂至理也。得意亡言。取意棄言也。言者
 <lb n="0196b28" ed="T"/>所以在意。得意亡言。吾安得亡言之人。與之
@@ -3586,7 +3578,7 @@ Added comment  for Emacs
 <lb n="0197a08" ed="T"/>然則玄道存於妙悟。若然者。妙悟即見道也。
 <lb n="0197a09" ed="T"/>妙悟存於即真。知即俗是真是。謂妙悟也。即
 <lb n="0197a10" ed="T"/>真則有無齊觀。既知即俗即真。即有無齊一
-<lb n="0197a11" ed="T"/>同實相也。齊觀即彼已莫二。既能齊觀。則此
+<lb n="0197a11" ed="T"/>同實相也。齊觀即彼<anchor xml:id="beg_24" type="cb-app"/>己<anchor xml:id="end_24"/>莫二。既能齊觀。則此
 <lb n="0197a12" ed="T"/>彼何別。已是此也。所以天地與我同根。同一
 <lb n="0197a13" ed="T"/>道根也。萬物與我一體。同一道體也。同我
 <lb n="0197a14" ed="T"/>則非復有無。既知同矣。更無有無之別也。異
@@ -4125,6 +4117,7 @@ Added comment  for Emacs
 <app from="#beg0187013" to="#end0187013"><lem wit="#wit1">智</lem><rdg resp="#resp1" wit="#wit3">知</rdg></app>
 <app from="#beg0187014" to="#end0187014"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit3">以</rdg></app>
 <app from="#beg0187015" to="#end0187015"><lem wit="#wit1">則</lem><rdg resp="#resp1" wit="#wit3">即</rdg></app>
+<app from="#beg0188001" to="#end0188001"><lem resp="#resp1" wit="#wit1">非東</lem><rdg resp="#resp1" wit="#wit3" type="correctionRemark">東非</rdg></app>
 <app from="#beg0188002" to="#end0188002"><lem wit="#wit1">直非西</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0188003" to="#end0188003"><lem wit="#wit1">色即</lem><rdg resp="#resp1" wit="#wit3">即色</rdg></app>
 <app from="#beg0188004" to="#end0188004"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
@@ -4161,7 +4154,7 @@ Added comment  for Emacs
 <app from="#beg0195001" to="#end0195001"><lem wit="#wit1">動</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">勤</rdg></app>
 <app from="#beg0196001" to="#end0196001"><lem wit="#wit1">無因有耳</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">因於有</rdg></app>
 <app from="#beg0196002" to="#end0196002"><lem wit="#wit1">誠</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">以</rdg></app>
-<choice cb:from="#beg_24" cb:to="#end_24"><orig>髣髴</orig><reg type="通用詞">彷彿</reg></choice>
+<choice cb:resp="#resp3" cb:from="#beg_24" cb:to="#end_24"><corr>己</corr><sic>已</sic></choice>
 <app from="#beg0197001" to="#end0197001"><lem wit="#wit1">昔我</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">我昔</rdg></app>
 <app from="#beg0198001" to="#end0198001"><lem wit="#wit1">我</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">乘</rdg></app>
 <app from="#beg_25" to="#end_25" corresp="#0198001"><lem wit="#wit1">我</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">乘</rdg></app>
@@ -4180,7 +4173,6 @@ Added comment  for Emacs
 <note n="0185014" resp="#resp2" type="mod" target="#nkr_note_mod_0185014">世＝時ィ【原】，＝時【聖】</note>
 <note n="0187004" resp="#resp2" type="mod" target="#nkr_note_mod_0187004">謂有＝真ィ【原】，＝有謂【聖】</note>
 <note n="0187008" resp="#resp2" type="mod" target="#nkr_note_mod_0187008">〔以標玄也而言前識〕八字－【聖】，〔以標玄〕ィ－【原】</note>
-<note n="0188001" resp="#resp2" type="mod" target="#nkr_note_mod_0188001"><!--CBETA todo type: a-->非東＝東非【聖】？</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

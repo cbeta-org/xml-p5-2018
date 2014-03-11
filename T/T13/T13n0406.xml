@@ -85,15 +85,6 @@
 	</charProp>
 	<mapping cb:dec="985764" type="PUA">U+F0AA4</mapping>
 </char>
-<char xml:id="CB02728">
-	<charName>CBETA CHARACTER CB02728</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[?夕]</value>
-	</charProp>
-	<mapping type="unicode">U+206A4</mapping>
-	<mapping cb:dec="985768" type="PUA">U+F0AA8</mapping>
-</char>
 <char xml:id="CB02731">
 	<charName>CBETA CHARACTER CB02731</charName>
 	<charProp>
@@ -778,14 +769,14 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校勘記</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>種</corr><sic><g ref="#CB02728">𠚤</g></sic></choice>
+<choice cb:from="#beg_1" cb:to="#end_1"><corr>種</corr><sic>々</sic></choice>
 <choice cb:from="#beg_2" cb:to="#end_2"><corr>婇</corr><sic>綵</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>壞</corr><sic>懷</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>邪<note type="cf1">《佛教大藏經》第58冊p0701a05</note></corr><sic>耶</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>若出<note type="cf1">TW13n0406_p0659c05</note></corr><sic>　　</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>今</corr><sic>令</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>妄<note type="cf1">T32n1636_p0088a08</note></corr><sic>忘</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>薩</corr><sic></sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>薩</corr><sic><space quantity="0"/></sic></choice>
 </p>
 </cb:div>
 </back></text></TEI>
