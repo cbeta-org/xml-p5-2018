@@ -15,6 +15,7 @@
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -292,7 +293,7 @@ Added comment  for Emacs
 <lb n="0159a17" ed="T"/>快樂；五根莊嚴故，深信堅固，精勤匪懈，常
 <lb n="0159a18" ed="T"/>無迷<anchor xml:id="nkr_note_orig_0159001" n="0159001"/><anchor xml:id="nkr_note_mod_0159001" n="0159001"/><anchor xml:id="beg0159001" n="0159001"/>忘<anchor xml:id="end0159001"/>，寂然調順，斷諸煩惱；力莊嚴故，眾
 <lb n="0159a19" ed="T"/>怨盡滅，無能壞者；覺支莊嚴故，常善覺悟一
-<lb n="0159a20" ed="T"/>切諸法；正道莊嚴故，得正智慧常現在前；正
+<lb n="0159a20" ed="T"/>切諸法；正道莊嚴故，得正智慧常現在前；<anchor xml:id="beg_1" type="cb-app"/>止<anchor xml:id="end_1"/>
 <lb n="0159a21" ed="T"/>莊嚴故，悉能滌除一切結使；觀莊嚴故，能
 <lb n="0159a22" ed="T"/>如實知諸法自性；方便莊嚴故，速得成滿為、
 <lb n="0159a23" ed="T"/>無為樂。</p><p xml:id="pT15p0159a2304" rend="inline">「龍王！當知此十善業，乃至能令十
@@ -305,7 +306,7 @@ Added comment  for Emacs
 <pb n="0159b" ed="T" xml:id="T15.0600.0159b"/>
 <lb n="0159b01" ed="T"/><p xml:id="pT15p0159b0101">佛說此經已，娑竭羅龍王及諸大眾，一切世
 <lb n="0159b02" ed="T"/>間天、人、阿修羅等，皆大歡喜，信受奉行。</p></cb:div>
-<lb n="0159b03" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title><anchor xml:id="beg_1" type="star"/>十<anchor xml:id="end_1"/>善業道經</title></cb:jhead></cb:juan>
+<lb n="0159b03" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title><anchor xml:id="beg_2" type="star"/>十<anchor xml:id="end_2"/>善業道經</title></cb:jhead></cb:juan>
 </body>
 <back>
 <cb:div type="apparatus">
@@ -329,13 +330,14 @@ Added comment  for Emacs
 <app from="#beg0158009" to="#end0158009"><lem wit="#wit1">直</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">貞</rdg></app>
 <app from="#beg0158010" to="#end0158010"><lem wit="#wit1">慧</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惠</rdg></app>
 <app from="#beg0159001" to="#end0159001"><lem wit="#wit1">忘</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">妄</rdg></app>
-<app from="#beg_1" to="#end_1" corresp="#0157020"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit2">佛說十</rdg></app>
+<choice cb:resp="#resp4" cb:from="#beg_1" cb:to="#end_1"><corr>止<note type="cf1">X60n1123_p0457b17</note></corr><sic>正</sic></choice>
+<app from="#beg_2" to="#end_2" corresp="#0157020"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit2">佛說十</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校勘記</head>
 <p>
-<note n="0157020" resp="#resp2" type="mod" target="#nkr_note_mod_0157020">（佛說）＋十【明】<choice cb:resp="#resp3"><corr>＊</corr><sic></sic></choice></note>
+<note n="0157020" resp="#resp2" type="mod" target="#nkr_note_mod_0157020">（佛說）＋十【明】<choice cb:resp="#resp3"><corr>＊</corr><sic><space quantity="0"/></sic></choice></note>
 <note n="0157021" resp="#resp2" type="mod" target="#nkr_note_mod_0157021">〔大〕－【宋】【元】【明】【宮】</note>
 <note n="0157022" resp="#resp2" type="mod" target="#nkr_note_mod_0157022">藏＋（法師）【宋】【元】【明】【宮】</note>
 <note n="0157023" resp="#resp2" type="mod" target="#nkr_note_mod_0157023">〔奉制〕－【宋】【元】【明】【宮】</note>

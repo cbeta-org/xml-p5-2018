@@ -12,6 +12,7 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2012/08/27 03:14:45 $</date>新式標點版</edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,6 +29,11 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 13, No. 417 </bibl>
+	<listWit>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit3">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -468,7 +474,7 @@ Added comment  for Emacs
 <lb n="0901b25" ed="T"/><l>不得諛諂有邪婬，</l><l>常當卑謙勿自大；</l>
 <lb n="0901b26" ed="T"/><l>敬事比丘比丘尼，</l><l>如是行者得三昧。」</l></lg></cb:div>
 <lb n="0901b27" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="6" type="品">6 擁護品</cb:mulu><head>擁護品第六</head>
-<lb n="0901b28" ed="T"/><p xml:id="pT13p0901b2801">颰陀和菩薩、羅隣那竭菩薩、憍日兜菩薩、那
+<lb n="0901b28" ed="T"/><p xml:id="pT13p0901b2801">颰陀和菩薩、羅隣那竭菩薩、憍<anchor xml:id="beg_1" type="cb-app"/>曰<anchor xml:id="end_1"/>兜菩薩、那
 <lb n="0901b29" ed="T"/>羅達菩薩、須深菩薩、摩訶須薩和菩薩、因坻
 <pb n="0901c" ed="T" xml:id="T13.0417.0901c"/>
 <lb n="0901c01" ed="T"/>達菩薩、和輪調菩薩，是八菩薩見佛所說皆
@@ -582,4 +588,10 @@ Added comment  for Emacs
 <lb n="0902c19" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title>佛說般舟三昧經</title></cb:jhead></cb:juan></cb:div>
 </body>
 <back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg_1" to="#end_1"><lem wit="#wit1 #wit2" resp="#resp1">曰<note type="cf1">K34n1257_p0695a05</note><note type="cf2">K34n1257_p0858c06</note><note type="cf3">T13n0418_p0911a14</note></lem><rdg wit="#wit3">日</rdg></app>
+</p>
+</cb:div>
 </back></text></TEI>

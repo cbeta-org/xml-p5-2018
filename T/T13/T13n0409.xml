@@ -37,6 +37,8 @@
 		<witness xml:id="wit3">【明】</witness>
 		<witness xml:id="wit4">【宋】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -434,7 +436,7 @@ Added comment  for Emacs
 <lb n="0679b21" ed="T"/><p xml:id="pT13p0679b2101">東方<anchor xml:id="nkr_note_orig_0679006" n="0679006"/><anchor xml:id="beg0679006" n="0679006"/>空<anchor xml:id="end0679006"/>無菩薩、南方善思議菩薩、西
 <lb n="0679b22" ed="T"/>方喜<anchor xml:id="nkr_note_orig_0679007" n="0679007"/><anchor xml:id="beg0679007" n="0679007"/>信淨<anchor xml:id="end0679007"/>菩薩、北方神通華菩薩。</p>
 <lb n="0679b23" ed="T"/><p xml:id="pT13p0679b2301">念禮四菩薩，得三世福，經趣佛道。</p></cb:div>
-<lb n="0679b24" ed="T"/><cb:div type="other"><p xml:id="pT13p0679b2401">跋陀和菩薩、羅隣那竭菩薩、憍<anchor xml:id="nkr_note_orig_0679008" n="0679008"/><anchor xml:id="beg0679008" n="0679008"/>目<anchor xml:id="end0679008"/><g ref="#CB02783">󰫟</g>
+<lb n="0679b24" ed="T"/><cb:div type="other"><p xml:id="pT13p0679b2401">跋陀和菩薩、羅隣那竭菩薩、憍<anchor xml:id="nkr_note_orig_0679008" n="0679008"/><anchor xml:id="nkr_note_mod_0679008" n="0679008"/><anchor xml:id="beg0679008" n="0679008"/>曰<anchor xml:id="end0679008"/><g ref="#CB02783">󰫟</g>
 <lb n="0679b25" ed="T"/>菩薩、那羅達菩薩、須深彌菩薩、
 <lb n="0679b26" ed="T"/>摩訶須薩和菩薩、因坘達菩薩、和倫
 <lb n="0679b27" ed="T"/>調菩薩。</p>
@@ -580,7 +582,7 @@ Added comment  for Emacs
 <app from="#beg0679005" to="#end0679005"><lem wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit4">行行</rdg></app>
 <app from="#beg0679006" to="#end0679006"><lem wit="#wit1">空</lem><rdg resp="#resp1" wit="#wit4">虛</rdg></app>
 <app from="#beg0679007" to="#end0679007"><lem wit="#wit1">信淨</lem><rdg resp="#resp1" wit="#wit4">淨信</rdg></app>
-<app from="#beg0679008" to="#end0679008"><lem wit="#wit1">目</lem><rdg resp="#resp1" wit="#wit4">日</rdg></app>
+<app from="#beg0679008" to="#end0679008"><lem wit="#wit6 #wit7" resp="#resp3">曰<note type="cf1">K34n1257_p0695a05</note><note type="cf2">K34n1257_p0858c06</note><note type="cf3">T13n0418_p0911a14</note></lem><rdg wit="#wit1">目</rdg><rdg resp="#resp1" wit="#wit4">日</rdg></app>
 <app from="#beg0679009" to="#end0679009"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit4">陀</rdg></app>
 <app from="#beg0679010" to="#end0679010"><lem wit="#wit1"><g ref="#CB00178">㮈</g></lem><rdg resp="#resp1" wit="#wit4">捺</rdg></app>
 <app from="#beg0680001" to="#end0680001"><lem wit="#wit1">國</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
@@ -616,6 +618,7 @@ Added comment  for Emacs
 <note n="0678001" resp="#resp2" type="mod" target="#nkr_note_mod_0678001">〔目〕－【宋】【元】【明】【宮】</note>
 <note n="0678002" resp="#resp2" type="mod" target="#nkr_note_mod_0678002"><!--CBETA todo type: a-->（觀虛空藏菩薩經）終【元】【明】【宮】</note>
 <note n="0678004" resp="#resp2" type="mod" target="#nkr_note_mod_0678004"><!--CBETA todo type: a-->〔阿彌隸以下至經末〕－【元】【明】【宮】</note>
+<note n="0679008" resp="#resp2" type="mod" target="#nkr_note_mod_0679008">目＝日【宋】，=曰【麗-CB】【CB】</note>
 <note n="0680004" resp="#resp2" type="mod" target="#nkr_note_mod_0680004">〔<choice cb:resp="#resp3"><corr>經</corr><sic>俓</sic></choice>〕－【宋】</note>
 </p>
 </cb:div>

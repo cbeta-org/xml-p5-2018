@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.12 $<date>$Date: 2009/04/23 08:08:01 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>7卷</extent>
 	<publicationStmt>
@@ -2175,7 +2176,7 @@ Added comment  for Emacs
 <lb n="0685b17" ed="T"/>他及毘鉢舍那。此類奢摩他毘鉢舍那二道
 <lb n="0685b18" ed="T"/>和合平等雙轉。</p>
 <lb n="0685b19" ed="T"/><p xml:id="pT31p0685b1901">三根者。謂未知當知根已知根具知根。云何
-<lb n="0685b20" ed="T"/>末知當知根。謂於加行道及於見道十五心
+<lb n="0685b20" ed="T"/><anchor xml:id="beg_a" type="cb-app"/>未<anchor xml:id="end_a"/>知當知根。謂於加行道及於見道十五心
 <lb n="0685b21" ed="T"/>剎那中所有諸根。云何已知根。謂從第十六
 <lb n="0685b22" ed="T"/>見道心剎那已上。於一切有學道中所有諸
 <lb n="0685b23" ed="T"/>根。云何具知根。謂於無學道所有諸根。</p>
@@ -2620,7 +2621,7 @@ Added comment  for Emacs
 <lb n="0690b16" ed="T"/>所有聖道。又見道中得現觀邊。安立諦世俗
 <lb n="0690b17" ed="T"/>智不現在前。於修道位此世俗智方可現前。
 <lb n="0690b18" ed="T"/>何等後現觀。謂一切修道。</p>
-<lb n="0690b19" ed="T"/><p xml:id="pT31p0690b1901">何等<anchor xml:id="beg_a" type="star"/>寶<anchor xml:id="end_a"/>現觀。謂於佛證淨。於法證淨。於僧
+<lb n="0690b19" ed="T"/><p xml:id="pT31p0690b1901">何等<anchor xml:id="beg_b" type="star"/>寶<anchor xml:id="end_b"/>現觀。謂於佛證淨。於法證淨。於僧
 <lb n="0690b20" ed="T"/>證淨。何等不行現觀。謂已證得無作律儀。雖
 <lb n="0690b21" ed="T"/>居學位而謂我今已盡那落迦。已盡傍生。已
 <lb n="0690b22" ed="T"/>盡餓鬼。已盡顛墜惡趣。我不復造惡趣業感
@@ -3102,6 +3103,7 @@ Added comment  for Emacs
 <app from="#beg0685001" to="#end0685001"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit2">二</rdg></app>
 <app from="#beg0685002" to="#end0685002"><lem wit="#wit1">注</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">住</rdg></app>
 <app from="#beg0685003" to="#end0685003"><lem wit="#wit1">周</lem><rdg resp="#resp1" wit="#wit3">同</rdg></app>
+<choice cb:resp="#resp3" cb:from="#beg_a" cb:to="#end_a"><corr>未<note type="cf1">T31n1605_p0685b19</note></corr><sic>末</sic></choice>
 <app from="#beg0685004" to="#end0685004"><lem wit="#wit1">麁</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">上</rdg></app>
 <app from="#beg0686001" to="#end0686001"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">一者</rdg></app>
 <app from="#beg0686002" to="#end0686002"><lem wit="#wit1">記莂</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">記別</rdg></app>
@@ -3122,7 +3124,7 @@ Added comment  for Emacs
 <app from="#beg0689003" to="#end0689003"><lem wit="#wit1">淨</lem><rdg resp="#resp1" wit="#wit2">靜</rdg></app>
 <app from="#beg0690001" to="#end0690001"><lem wit="#wit1">滅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">減</rdg></app>
 <app from="#beg0690002" to="#end0690002"><lem wit="#wit1">寶</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">實</rdg></app>
-<app from="#beg_a" to="#end_a" corresp="#0690002"><lem wit="#wit1">寶</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">實</rdg></app>
+<app from="#beg_b" to="#end_b" corresp="#0690002"><lem wit="#wit1">寶</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">實</rdg></app>
 <app from="#beg0690003" to="#end0690003"><lem wit="#wit1">利</lem><rdg resp="#resp1" wit="#wit5">離</rdg></app>
 <app from="#beg0690004" to="#end0690004"><lem wit="#wit1">現</lem><rdg resp="#resp1" wit="#wit2">想</rdg></app>
 <app from="#beg0691001" to="#end0691001"><lem wit="#wit1">智</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">智慧</rdg></app>

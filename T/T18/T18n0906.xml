@@ -13,6 +13,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 07:59:47 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -320,7 +321,7 @@ Added comment  for Emacs
 <lb n="0914b05" ed="T"/>傳教者。功德不可思議。各以清淨信心滿五
 <lb n="0914b06" ed="T"/>十萬遍。身中無數億劫無始以來無量惡業
 <lb n="0914b07" ed="T"/>罪永滅除。隨願命終之後生蓮華臺藏世界
-<lb n="0914b08" ed="T"/>中。<anchor xml:id="nkr_note_orig_0914001" n="0914001"/>常本覺阿字本佛。奉見毘盧遮那如來妙
+<lb n="0914b08" ed="T"/>中。<anchor xml:id="nkr_note_orig_0914001" n="0914001"/><anchor xml:id="nkr_note_mod_0914001" n="0914001"/><anchor xml:id="beg0439026" n="0439026"/>常<anchor xml:id="end0439026"/>本覺阿字本佛。奉見毘盧遮那如來妙
 <lb n="0914b09" ed="T"/>體身。常彼世界自受法樂。是毘盧遮那如來
 <lb n="0914b10" ed="T"/>金口說也。五智如來者出生阿字中。化無量
 <lb n="0914b11" ed="T"/>身。昔聞阿字一文者。今毘盧遮那如來是也。</p>
@@ -370,6 +371,13 @@ Added comment  for Emacs
 <app from="#beg0913004" to="#end0913004"><lem wit="#wit1">穀</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">縠</rdg></app>
 <app from="#beg0913005" to="#end0913005"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">身</rdg></app>
 <app from="#beg0913006" to="#end0913006"><lem resp="#resp1" wit="#wit1">在</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">有</rdg></app>
+<app from="#beg0439026" to="#end0439026"><lem resp="#resp1" wit="#wit1">常</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">常覺</rdg><rdg resp="#resp1" wit="#wit2" type="correctionRemark">常照</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校勘記</head>
+<p>
+<note n="0914001" resp="#resp2" type="mod" target="#nkr_note_mod_0914001">常＋（覺）ヵ【原】，常＋（照）ヵ【原】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

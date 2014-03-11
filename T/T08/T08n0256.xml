@@ -15,7 +15,12 @@
 </distributor>
 <availability><p>Available for non-commercial use when distributed with this header intact.</p></availability>
 <date>$Date: 2012/08/27 03:14:22 $</date></publicationStmt>
-<sourceDesc><bibl>Taisho Tripitaka Vol. 08, No. 256</bibl></sourceDesc></fileDesc>
+<sourceDesc><bibl>Taisho Tripitaka Vol. 08, No. 256</bibl><listWit>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【房山】</witness>
+		<witness xml:id="wit3">【大】</witness>
+	</listWit>
+	</sourceDesc></fileDesc>
 <encodingDesc><projectDesc>
 <p xml:lang="en" cb:type="ly">CBETA OCR Group, Punctuated text as provided by CBETA, Others</p>
 <p xml:lang="zh" cb:type="ly">CBETA 自行掃瞄辨識，CBETA 提供新式標點，其他</p>
@@ -380,7 +385,7 @@ add cvs log
 <lb n="0852a18" ed="T"/><p xml:id="pT08p0852a1801">怛囉<note place="inline">呪</note><note place="inline">五十九</note>　薩<note place="inline">一</note><cb:fan><cb:zi>嚩</cb:zi><cb:yin><note place="inline">切</note></cb:yin></cb:fan><g ref="#CB00803">䅶</g>佉<note place="inline">苦</note>鉢囉<note place="inline">二合</note>捨<note place="inline">止</note>曩<note place="inline">息卒</note>娑<note place="inline">真</note>
 <lb n="0852a19" ed="T"/>底也<note place="inline">實</note>麼弭<note place="inline">不</note>贊哩也<note place="inline">二合</note>怛嚩<note place="inline">虛</note><note place="inline">二合</note><note place="inline">六十一</note>　鉢囉<note place="inline">二合</note><note place="inline">般</note>
 <lb n="0852a20" ed="T"/>誐攘<note place="inline">若</note>播<note place="inline">波</note>囉<note place="inline">羅</note>弭<note place="inline">蜜</note>哆<note place="inline">多</note><note place="inline">六十二</note>　目訖姤<note place="inline">說</note>滿怛囉<note place="inline">呪</note><note place="inline">二
-<lb n="0852a21" ed="T"/>合</note>怛儞<anchor xml:id="beg_9" type="cb-app"/>也<anchor xml:id="end_9"/>他<note place="inline">二合</note><note place="inline">曰</note><anchor xml:id="beg_a" type="cb-app"/><note place="inline">六十三</note><anchor xml:id="end_a"/>　誐諦　諦諦<note place="inline">六十四</note>　播囉誐諦<note place="inline">六十五</note>　播
+<lb n="0852a21" ed="T"/>合</note>怛儞<anchor xml:id="beg_9" type="cb-app"/>也<anchor xml:id="end_9"/>他<note place="inline">二合</note><note place="inline">曰</note><anchor xml:id="beg_a" type="cb-app"/><note place="inline">六十三</note><anchor xml:id="end_a"/>　誐諦　<anchor xml:id="beg_b" type="cb-app"/>誐<anchor xml:id="end_b"/>諦<note place="inline">六十四</note>　播囉誐諦<note place="inline">六十五</note>　播
 <lb n="0852a22" ed="T"/>囉僧誐諦<note place="inline">六十六</note>　冒地<note place="inline">引</note>　娑嚩賀<note place="inline">六十七</note></p></cb:div><cb:juan n="001" fun="close" place="inline"><cb:jhead>梵語般若波
 <lb n="0852a23" ed="T"/>羅蜜多心經一卷<note place="inline">僧□□之</note></cb:jhead></cb:juan>
 </body>
@@ -397,7 +402,8 @@ add cvs log
 <choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>卅</corr><sic><space quantity="0"/></sic></choice>
 <choice cb:resp="#resp3" cb:from="#beg_8" cb:to="#end_8"><corr>罣</corr><sic>早</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>也</corr><sic><note place="inline">也</note></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr><note place="inline">六十三</note></corr><sic></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr><note place="inline">六十三</note></corr><sic><space quantity="0"/></sic></choice>
+<app from="#beg_b" to="#end_b"><lem wit="#wit1 #wit2" resp="#resp1">誐<note type="cf1">F27n1056_p0430b20</note><note type="cf2">T08n0254_p0850b06</note></lem><rdg wit="#wit3">諦</rdg></app>
 </p>
 </cb:div>
 </back></text></TEI>
