@@ -1278,16 +1278,18 @@ tei_sic =
   ## (latin for thus or so
   ##     ) contains text reproduced although apparently incorrect or inaccurate.
   element sic { tei_macro.paraContent, att.global.attributes, empty }
-tei_corr =
-  
+
+# 2014.3.14 CBETA 修改, corr 下允許 head, l, p
+tei_corr =  
   ## (correction) contains the correct form of a passage apparently erroneous in the copy text.
   element corr {
-    tei_macro.paraContent,
+    (tei_macro.paraContent | tei_head | tei_l | tei_p)*,
     att.global.attributes,
     att.editLike.attributes,
     att.typed.attributes,
     empty
   }
+
 tei_choice =
   
   ## groups a number of alternative encodings for the same point in
@@ -4213,8 +4215,12 @@ tei_variantEncoding =
     },
     empty
   }
+
+# 2014.3.11 周邦信: CBETA 決定允許 lem, rdg 下可以有 head, note, app, choice, p, cb:div, lg, l , lb, list
 tei_model.rdgPart =
-  tei_wit | tei_witStart | tei_witEnd | tei_lacunaStart | tei_lacunaEnd
+  # tei_wit | tei_witStart | tei_witEnd | tei_lacunaStart | tei_lacunaEnd
+  tei_wit | tei_witStart | tei_witEnd | tei_lacunaStart | tei_lacunaEnd | tei_lg | tei_model.divLike | tei_head | tei_item | tei_l | tei_p
+  
 att.rdgPart.attributes = att.rdgPart.attribute.wit
 att.rdgPart.attribute.wit =
   
@@ -6228,12 +6234,13 @@ tei_tt =
     attribute place { text }?,
     empty
   }
-tei_t =
-  
+
+# 2014.3.14 CBETA 修改, 允許 t 下有 l
+tei_t =  
   ## Element for parallel t elements (used to mark parallel Chinese and
   ##                             Sanskrit passages)
   element ns1:t {
-    tei_macro.paraContent,
+    (tei_macro.paraContent | tei_l)*,
     att.global.attributes,
     tei_yin*,
     
