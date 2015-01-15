@@ -4605,7 +4605,7 @@ tei_formula =
   
   ## contains a mathematical or other formula.
   element formula {
-    (text | tei_model.graphicLike | tei_model.hiLike)*,
+    (text | tei_model.graphicLike | tei_model.hiLike | tei_lb)*,
     att.global.attributes,
     
     ## supplies the name of a previously defined notation used for the content of the element.
