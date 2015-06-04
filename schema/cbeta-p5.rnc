@@ -1527,7 +1527,7 @@ tei_date =
   
   ## contains a date in any format.
   element date {
-    (text | tei_model.gLike | tei_model.phrase | tei_model.global)*,
+    (text | tei_model.gLike | tei_model.phrase | tei_model.global | tei_p)*,
     att.global.attributes,
     att.datable.attributes,
     att.editLike.attributes,
