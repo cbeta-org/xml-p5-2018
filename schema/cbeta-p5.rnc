@@ -5591,13 +5591,13 @@ tei_event =
      (tei_model.global
       | tei_model.pLike
       | tei_model.noteLike
-      | tei_model.biblLike)*,
+      | tei_model.biblLike | tei_list)*,
      tei_event*),
     (tei_model.headLike*,
      (tei_model.pLike
       | tei_model.labelLike
       | tei_model.noteLike
-      | tei_model.biblLike)*,
+      | tei_model.biblLike | tei_list )*,
      tei_event*),
     
     ## indicates the location of an event by pointing to a place element
