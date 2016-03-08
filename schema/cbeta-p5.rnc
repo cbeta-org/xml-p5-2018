@@ -4599,6 +4599,7 @@ tei_cell =
     tei_macro.paraContent,
     att.global.attributes,
     att.tableDecoration.attributes,
+    (text | tei_p)+,
     empty
   }
 tei_formula =
