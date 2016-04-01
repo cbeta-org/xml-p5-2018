@@ -5608,6 +5608,7 @@ tei_event =
     att.editLike.attributes,
     att.typed.attributes,
     att.naming.attributes,
+   (tei_date | tei_p | tei_lg | tei_lb | tei_pb | tei_byline)*,
     empty
   }
 tei_faith =
