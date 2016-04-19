@@ -4587,7 +4587,7 @@ tei_row =
   
   ## contains one row of a table. 
   element row {
-    tei_cell+,
+   (tei_cell | tei_lb | tei_pb)+,
     att.global.attributes,
     att.tableDecoration.attributes,
     empty
