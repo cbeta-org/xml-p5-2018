@@ -13,6 +13,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:10:04 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -477,7 +478,7 @@ Added comment  for Emacs
 <lb n="0129a29" ed="T"/>為十念相續者。什公說言。譬如有人於曠野
 <pb n="0129b" xml:id="T37.1747.0129b" ed="T"/>
 <lb n="0129b01" ed="T"/>中。值遇惡賊。揮戈拔劍。直來欲殺。其人勤
-<lb n="0129b02" ed="T"/>走。視度一河。若得度河。首領難全。爾時但
+<lb n="0129b02" ed="T"/>走。視度一河。若<anchor xml:id="beg_1" type="cb-app"/>不<anchor xml:id="end_1"/>度河。首領難全。爾時但
 <lb n="0129b03" ed="T"/>念。渡河方便。我至河岸。為著衣度。為脫衣
 <lb n="0129b04" ed="T"/>度。若著衣衲。恐不得過。若脫衣衲。恐不得
 <lb n="0129b05" ed="T"/>暇。但有此念。更無他意。當念度河。即是一
@@ -690,14 +691,15 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0126001" to="#end0126001"><lem resp="#resp1" wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">謂一向淨</rdg></app>
 <app from="#beg0127001" to="#end0127001"><lem resp="#resp1" wit="#wit1">漏</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">漏非無漏</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>不</corr><sic>得</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0125002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0125002">【原】寶永八年刊大谷大學藏本</note>
 <note n="0126001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0126001">謂＋（一向淨）？</note>

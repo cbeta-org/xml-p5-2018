@@ -847,6 +847,10 @@
 		<localName>composition</localName>
 		<value>[穴/悟]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>寤</value>
+	</charProp>
 	<mapping type="unicode">U+259DD</mapping>
 	<mapping cb:dec="983936" type="PUA">U+F0380</mapping>
 </char>
@@ -2725,6 +2729,10 @@
 	<charProp>
 		<localName>composition</localName>
 		<value>[簐-欠+几]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>範</value>
 	</charProp>
 	<mapping cb:dec="986006" type="PUA">U+F0B96</mapping>
 </char>
@@ -5906,6 +5914,7 @@
 		<localName>normalized form</localName>
 		<value>你</value>
 	</charProp>
+	<mapping type="unicode">U+2F804</mapping>
 	<mapping cb:dec="991899" type="PUA">U+F229B</mapping>
 </char>
 <char xml:id="CB08860">
@@ -6600,6 +6609,10 @@
 	<charProp>
 		<localName>composition</localName>
 		<value>[虛*(前-刖+ㄅ)]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>虧</value>
 	</charProp>
 	<mapping cb:dec="992742" type="PUA">U+F25E6</mapping>
 </char>
@@ -8659,6 +8672,10 @@
 	<charProp>
 		<localName>composition</localName>
 		<value>[(凵@又)/月]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>胸</value>
 	</charProp>
 	<mapping cb:dec="995691" type="PUA">U+F316B</mapping>
 </char>
@@ -12280,6 +12297,10 @@
 		<localName>composition</localName>
 		<value>[(口*〡*人)/大]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>哭</value>
+	</charProp>
 	<mapping cb:dec="1005918" type="PUA">U+F595E</mapping>
 </char>
 <char xml:id="CB22879">
@@ -12470,8 +12491,13 @@
 	<charName>CBETA CHARACTER CB22914</charName>
 	<charProp>
 		<localName>composition</localName>
-		<value>[女*(乏-之+犮)]</value>
+		<value>[妖-大+犮]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>妖</value>
+	</charProp>
+	<mapping type="normal_unicode">U+2A972</mapping>
 	<mapping cb:dec="1005954" type="PUA">U+F5982</mapping>
 </char>
 <char xml:id="CB22916">
@@ -12647,6 +12673,10 @@
 	<charProp>
 		<localName>composition</localName>
 		<value>[車*(乞-乙+小)]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>軫</value>
 	</charProp>
 	<mapping cb:dec="1005998" type="PUA">U+F59AE</mapping>
 </char>
@@ -12939,6 +12969,10 @@
 	<charProp>
 		<localName>composition</localName>
 		<value>[贏-口+(罩-卓)]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>贏</value>
 	</charProp>
 	<mapping cb:dec="1006064" type="PUA">U+F59F0</mapping>
 </char>
@@ -23228,7 +23262,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>鍛</corr><sic>鍜</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>沫</corr><sic>沬</sic></choice>

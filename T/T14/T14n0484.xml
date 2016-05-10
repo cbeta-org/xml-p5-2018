@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.13 $<date>$Date: 2012/08/27 03:14:51 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -205,7 +208,7 @@ Added comment  for Emacs
 <lb n="0669b05" ed="T"/>見多人眾往來空處，知而故問，告阿難言：「汝
 <lb n="0669b06" ed="T"/>可往彼，看是諸人往來空處，何所作為？」</p><p xml:id="pT14p0669b0616" rend="inline">阿難
 <lb n="0669b07" ed="T"/>白言：「如是。世尊！」大德阿難即往空處，見是嬰
-<lb n="0669b08" ed="T"/>兒容貌端嚴自嗽右指，諦視眾人其目不瞬。
+<lb n="0669b08" ed="T"/>兒容貌端嚴自<anchor xml:id="beg_1" type="cb-app"/><g ref="#CB00063">𠲿</g><anchor xml:id="end_1"/>右指，諦視眾人其目不瞬。
 <lb n="0669b09" ed="T"/>阿難見已便還佛所，如見而說：「世尊！此空閑
 <lb n="0669b10" ed="T"/>處有棄嬰兒，容貌端嚴甚可敬愛猶如寶像；
 <lb n="0669b11" ed="T"/>觀視諸人其目不瞬。」</p><p xml:id="pT14p0669b1109" rend="inline">于時世尊於<anchor xml:id="nkr_note_orig_0669003" n="0669003"/><anchor xml:id="beg0669003" n="0669003"/>彼<anchor xml:id="end0669003"/>嬰兒起
@@ -460,7 +463,7 @@ Added comment  for Emacs
 <lb n="0672a20" ed="T"/>尊！彼賢天菩薩，為已得成於一切智？為故修
 <lb n="0672a21" ed="T"/><anchor xml:id="nkr_note_orig_0672004" n="0672004"/><anchor xml:id="beg0672004" n="0672004"/>集<anchor xml:id="end0672004"/>菩薩行耶？」</p>
 <lb n="0672a22" ed="T"/><p xml:id="pT14p0672a2201">佛言：「大王！彼賢天菩薩，今者在彼阿閦佛土
-<lb n="0672a23" ed="T"/>修菩薩行，名曰德藏。」</p><p xml:id="pT14p0672a2309" rend="inline">爾時<anchor xml:id="beg_1" type="cb-app"/>波<anchor xml:id="end_1"/>斯匿王白言：「世
+<lb n="0672a23" ed="T"/>修菩薩行，名曰德藏。」</p><p xml:id="pT14p0672a2309" rend="inline">爾時<anchor xml:id="beg_2" type="cb-app"/>波<anchor xml:id="end_2"/>斯匿王白言：「世
 <lb n="0672a24" ed="T"/>尊！若善男子、善女人，常應當親於善知識、近
 <lb n="0672a25" ed="T"/>善知識。何以故？世尊！近善知識，恭敬圍繞聽
 <lb n="0672a26" ed="T"/>聞善法，聞善法已得於善心，已有善心則修
@@ -549,7 +552,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0668024" to="#end0668024"><lem wit="#wit1">一卷</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0668025" to="#end0668025"><lem wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">姚</rdg></app>
@@ -559,6 +562,7 @@ Added comment  for Emacs
 <app from="#beg0668029" to="#end0668029"><lem wit="#wit1">鮮</lem><rdg resp="#resp1" wit="#wit5">解</rdg></app>
 <app from="#beg0669001" to="#end0669001"><lem wit="#wit1">俱出</lem><rdg resp="#resp1" wit="#wit2 #wit5">佛出</rdg><rdg resp="#resp1" wit="#wit3 #wit4">出佛</rdg></app>
 <app from="#beg0669002" to="#end0669002"><lem wit="#wit1">往</lem><rdg resp="#resp1" wit="#wit2 #wit3">住</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7" resp="#resp3"><g ref="#CB00063">𠲿</g><note type="cf1">K12n0381_p0337c06</note></lem><rdg wit="#wit1">嗽</rdg></app>
 <app from="#beg0669003" to="#end0669003"><lem wit="#wit1">彼</lem><rdg resp="#resp1" wit="#wit2 #wit5">是</rdg></app>
 <app from="#beg0669004" to="#end0669004"><lem wit="#wit1">答</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">言</rdg></app>
 <app from="#beg0669005" to="#end0669005"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">滅</rdg></app>
@@ -583,7 +587,7 @@ Added comment  for Emacs
 <app from="#beg0672002" to="#end0672002"><lem wit="#wit1">噉食</lem><rdg resp="#resp1" wit="#wit5">餧食</rdg></app>
 <app from="#beg0672003" to="#end0672003"><lem wit="#wit1">緣</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">因</rdg></app>
 <app from="#beg0672004" to="#end0672004"><lem wit="#wit1">集</lem><rdg resp="#resp1" wit="#wit3 #wit4">習</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>波</corr><sic>彼</sic></choice>
+<choice cb:from="#beg_2" cb:to="#end_2"><corr>波</corr><sic>彼</sic></choice>
 <app from="#beg0672005" to="#end0672005"><lem wit="#wit1">來</lem><rdg resp="#resp1" wit="#wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0672006" to="#end0672006"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">為</rdg></app>
 <app from="#beg0673001" to="#end0673001"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">粖</rdg></app>
@@ -594,7 +598,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0668024" resp="#resp2" type="mod" target="#nkr_note_mod_0668024">〔一卷〕－【宋】【元】【明】【宮】</note>
 <note n="0668025" resp="#resp2" type="mod" target="#nkr_note_mod_0668025">後＝姚【宋】【元】【明】【宮】</note>
@@ -621,7 +625,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0668024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0668024">〔一卷〕－【三】【宮】</note>
 <note n="0668025" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0668025">後＝姚【三】【宮】</note>

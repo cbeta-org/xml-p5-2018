@@ -596,6 +596,10 @@
 		<localName>composition</localName>
 		<value>[簐-欠+几]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>範</value>
+	</charProp>
 	<mapping cb:dec="986006" type="PUA">U+F0B96</mapping>
 </char>
 <char xml:id="CB03033">
@@ -1316,6 +1320,7 @@
 		<localName>normalized form</localName>
 		<value>你</value>
 	</charProp>
+	<mapping type="unicode">U+2F804</mapping>
 	<mapping cb:dec="991899" type="PUA">U+F229B</mapping>
 </char>
 <char xml:id="CB08866">
@@ -1473,6 +1478,10 @@
 		<localName>composition</localName>
 		<value>[(來*力)/正]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>整</value>
+	</charProp>
 	<mapping cb:dec="992240" type="PUA">U+F23F0</mapping>
 </char>
 <char xml:id="CB09238">
@@ -1621,6 +1630,11 @@
 		<localName>composition</localName>
 		<value>[冠-元+示]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>冠</value>
+	</charProp>
+	<mapping type="normal_unicode">U+2058C</mapping>
 	<mapping cb:dec="993160" type="PUA">U+F2788</mapping>
 </char>
 <char xml:id="CB10258">
@@ -2494,6 +2508,11 @@
 		<localName>composition</localName>
 		<value>[冰-水+絜]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>潔</value>
+	</charProp>
+	<mapping type="unicode">U+34D7</mapping>
 	<mapping cb:dec="1005600" type="PUA">U+F5820</mapping>
 </char>
 <char xml:id="CB22570">
@@ -2502,6 +2521,11 @@
 		<localName>composition</localName>
 		<value>[孝-子+工]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>老</value>
+	</charProp>
+	<mapping type="unicode">U+264B3</mapping>
 	<mapping cb:dec="1005610" type="PUA">U+F582A</mapping>
 </char>
 <char xml:id="CB22623">
@@ -2538,6 +2562,10 @@
 	<charProp>
 		<localName>composition</localName>
 		<value>[車*(乞-乙+小)]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>軫</value>
 	</charProp>
 	<mapping cb:dec="1005998" type="PUA">U+F59AE</mapping>
 </char>
@@ -11871,7 +11899,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>

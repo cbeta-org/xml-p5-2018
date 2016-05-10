@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.11 $<date>$Date: 2012/09/28 08:51:56 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【宋】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -191,7 +194,7 @@ Added comment  for Emacs
 <lb n="0878c25" ed="T"/>不得其便。</p><p xml:id="pT17p0878c2505" rend="inline">「復次善男子！言菩薩者，若色無
 <lb n="0878c26" ed="T"/>我，亦不分別非是我所，如是受、想、行、識無我，
 <lb n="0878c27" ed="T"/>亦不分別非我所者，名為菩薩」。</p><p xml:id="pT17p0878c2713" rend="inline">時龍威德上
-<lb n="0878c28" ed="T"/>王菩薩面白佛言：「世尊！以何義故而有言
+<lb n="0878c28" ed="T"/>王菩薩<anchor xml:id="beg_2" type="cb-app"/>而<anchor xml:id="end_2"/>白佛言：「世尊！以何義故而有言
 <lb n="0878c29" ed="T"/>說？何者言說？」</p><p xml:id="pT17p0878c2906" rend="inline">佛言：「善男子！魔波<anchor xml:id="nkr_note_orig_0878013" n="0878013"/><anchor xml:id="beg0878013" n="0878013"/>卑<anchor xml:id="end0878013"/>掾。復次
 <pb n="0879a" ed="T" xml:id="T17.0832.0879a"/>
 <lb n="0879a01" ed="T"/>善男子！若菩薩色不作念我當如是，受、想、行、
@@ -225,7 +228,7 @@ Added comment  for Emacs
 <lb n="0879a29" ed="T"/>諸大眾天、人、阿修羅、迦樓羅、緊那羅、摩睺羅伽
 <pb n="0879b" ed="T" xml:id="T17.0832.0879b"/>
 <lb n="0879b01" ed="T"/>等，一切大眾聞佛所說，皆大歡喜，信受奉行。</p></cb:div>
-<lb n="0879b02" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title><anchor xml:id="beg_2" type="star"/>佛語<anchor xml:id="end_2"/>經</title></cb:jhead></cb:juan>
+<lb n="0879b02" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title><anchor xml:id="beg_3" type="star"/>佛語<anchor xml:id="end_3"/>經</title></cb:jhead></cb:juan>
 </body>
 <back>
 <cb:div type="apparatus">
@@ -242,11 +245,12 @@ Added comment  for Emacs
 <app from="#beg0878011" to="#end0878011"><lem wit="#wit1">悕</lem><rdg resp="#resp1" wit="#wit2">布</rdg></app>
 <app from="#beg0878012" to="#end0878012"><lem wit="#wit1">分別</lem><rdg resp="#resp1" wit="#wit4 #wit3 #wit2">分別而</rdg></app>
 <app from="#beg_1" to="#end_1" corresp="#0878012"><lem wit="#wit1">分別</lem><rdg resp="#resp1" wit="#wit4 #wit3 #wit2">分別而</rdg></app>
+<app from="#beg_2" to="#end_2"><lem wit="#wit6 #wit7" resp="#resp3">而<note type="cf1">K12n0368_p0160c17</note></lem><rdg wit="#wit1">面</rdg></app>
 <app from="#beg0878013" to="#end0878013"><lem wit="#wit1">卑</lem><rdg resp="#resp1" wit="#wit5">卑旬</rdg></app>
 <app from="#beg0879001" to="#end0879001"><lem wit="#wit1">開發</lem><rdg resp="#resp1" wit="#wit2">開悟</rdg></app>
 <app from="#beg0879002" to="#end0879002"><lem wit="#wit1">遍</lem><rdg resp="#resp1" wit="#wit2">逼</rdg></app>
 <app from="#beg0879003" to="#end0879003"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit3 #wit2">知</rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0878003"><lem wit="#wit1">佛語</lem><rdg resp="#resp1" wit="#wit2">佛語法門</rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0878003"><lem wit="#wit1">佛語</lem><rdg resp="#resp1" wit="#wit2">佛語法門</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">

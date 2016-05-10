@@ -13,6 +13,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2012/08/27 03:15:22 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -329,7 +330,7 @@ Added comment  for Emacs
 <lb n="0652c17" ed="T"/>見色，無障無礙為一味法。思之可見。</p><p xml:id="pT45p0652c1715" rend="inline">第四泯
 <lb n="0652c18" ed="T"/>絕無寄觀者，謂此所觀真空，不可言即色、不
 <lb n="0652c19" ed="T"/>即色，亦不可言即空、不即空。一切法皆不可，
-<lb n="0652c20" ed="T"/>不可亦不可，此語亦不受，迴絕無寄，非言所
+<lb n="0652c20" ed="T"/>不可亦不可，此語亦不受，<anchor xml:id="beg_1" type="cb-app"/>迥<anchor xml:id="end_1"/>絕無寄，非言所
 <lb n="0652c21" ed="T"/>及，非解所到，是謂行境。何以故？以生心動念，
 <lb n="0652c22" ed="T"/>即乖法體，失正念故。</p><p xml:id="pT45p0652c2209" rend="inline">又於前四句中，初二句
 <lb n="0652c23" ed="T"/>八門，皆揀情顯解。第三句一門，解終趣行。第
@@ -623,7 +624,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0651001" to="#end0651001"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit2 #wit3" type="variantRemark">滿</rdg></app>
 <app from="#beg0651002" to="#end0651002"><lem wit="#wit1">乘</lem><rdg resp="#resp1" wit="#wit2 #wit3" type="variantRemark">我</rdg></app>
@@ -633,6 +634,7 @@ Added comment  for Emacs
 <app cb:word-count="37" from="#beg0652001" to="#end0652001"><lem wit="#wit1">經》曰：『成就第一誠諦<lb n="0652a02" ed="T"/>之語，如說能行，如行能說，乃至學三世諸佛<lb n="0652a03" ed="T"/>無二語，隨順如來一切智慧』等</lem><rdg resp="#resp1" wit="#wit2 #wit3" type="variantRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0652002" to="#end0652002"><lem wit="#wit1">依</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">體</rdg></app>
 <app from="#beg0652003" to="#end0652003"><lem wit="#wit1">盡色之</lem><rdg resp="#resp1" wit="#wit2 #wit3" type="variantRemark"><space quantity="0"/></rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>迥<note type="cf1">X09n0248_p0900a21</note></corr><sic>迴</sic></choice>
 <app from="#beg0654001" to="#end0654001"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit2 #wit3" type="variantRemark">四</rdg></app>
 <app from="#beg0655001" to="#end0655001"><lem wit="#wit1">各</lem><rdg resp="#resp1" wit="#wit2 #wit3" type="variantRemark">名</rdg></app>
 <app from="#beg0655002" to="#end0655002"><lem wit="#wit1">多</lem><rdg resp="#resp1" wit="#wit2 #wit3" type="variantRemark">一</rdg></app>
@@ -640,7 +642,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0650002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0650002">【原】日本續藏經，【甲】德川時代刊宗教大學藏本，此凡例文甲本缺</note>
 <note n="0651001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0651001">明＝滿ィ【原】【甲】</note>

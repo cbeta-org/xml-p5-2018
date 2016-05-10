@@ -13,6 +13,7 @@
         <editionStmt>
                 <edition>$Revision: 1.15 $<date>$Date: 2012/10/08 08:17:38 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>3卷</extent>
         <publicationStmt>
@@ -33,6 +34,8 @@
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【明】</witness>
 		<witness xml:id="wit3">【元】</witness>
+		<witness xml:id="wit4">【CBETA】</witness>
+		<witness xml:id="wit5">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -764,7 +767,7 @@ Added comment  for Emacs
 <lb n="0598a16" ed="T"/>乃至，盡生死道，後不復生。</p>
 <lb n="0598a17" ed="T"/><p xml:id="pT17p0598a1701">「又舍利子！世有一類婆羅門者，作如是言：『我
 <lb n="0598a18" ed="T"/>以艱苦而求，難所得食，計為清淨。』舍利子！我
-<lb n="0598a19" ed="T"/>知是時，亦同彼行。何等是為難所求食？謂我
+<lb n="0598a19" ed="T"/>知是<anchor xml:id="beg_1" type="cb-app"/>事<anchor xml:id="end_1"/>，亦同彼行。何等是為難所求食？謂我
 <lb n="0598a20" ed="T"/>專詣曠野之中群牛聚處，於彼求乞犢子之
 <lb n="0598a21" ed="T"/>乳，隨其所得而用食之，此即是為難所求食。
 <lb n="0598a22" ed="T"/>舍利子！雖如是行，求之少分人中上法尚不
@@ -785,7 +788,7 @@ Added comment  for Emacs
 <lb n="0598b07" ed="T"/>其骨，或窊、或凸猶如累石，高下不等；又如露
 <lb n="0598b08" ed="T"/>地空閑草舍，兩面透徹，椓木踈離，中復開敞，
 <lb n="0598b09" ed="T"/>互可窺視。我之兩脇，骨節踈露，中復開敞，亦
-<lb n="0598b10" ed="T"/>可互見。又如暑月，日光炎熾所<anchor xml:id="beg_1" type="cb-app"/>曝<anchor xml:id="end_1"/>之水，至夕
+<lb n="0598b10" ed="T"/>可互見。又如暑月，日光炎熾所<anchor xml:id="beg_2" type="cb-app"/>曝<anchor xml:id="end_2"/>之水，至夕
 <lb n="0598b11" ed="T"/>有人，於其水中，覆觀星宿，極深極遠，微微映
 <lb n="0598b12" ed="T"/>現。我之兩目，瘦極深遠，似有所見，亦復如
 <lb n="0598b13" ed="T"/>是！又如苦瓠，青未成熟，人所斷取，而彼枝
@@ -807,7 +810,7 @@ Added comment  for Emacs
 <lb n="0598b29" ed="T"/><p xml:id="pT17p0598b2901">「又舍利子！世有一類婆羅門者，但食其米，計
 <pb n="0598c" ed="T" xml:id="T17.0757.0598c"/>
 <lb n="0598c01" ed="T"/>為清淨，作如是言：『若但食米，如是修行，而得
-<lb n="0598c02" ed="T"/>清淨。』彼取米已，或碎其末；或<anchor xml:id="beg_2" type="star"/><g ref="#CB03074">󰰂</g><anchor xml:id="end_2"/>其水；或以
+<lb n="0598c02" ed="T"/>清淨。』彼取米已，或碎其末；或<anchor xml:id="beg_3" type="star"/><g ref="#CB03074">󰰂</g><anchor xml:id="end_3"/>其水；或以
 <lb n="0598c03" ed="T"/>多種治事而食，為其資養。舍利子！我知是事，
 <lb n="0598c04" ed="T"/>亦同彼行。何等是我取米為食？舍利子！我唯
 <lb n="0598c05" ed="T"/>取其一粒而食，無復加二。後於異時，由食米
@@ -820,7 +823,7 @@ Added comment  for Emacs
 <lb n="0598c12" ed="T"/>證？廣說乃至，盡生死道，後不復生。</p>
 <lb n="0598c13" ed="T"/><p xml:id="pT17p0598c1301">「又舍利子！世有一類婆羅門者，但食其麻，計
 <lb n="0598c14" ed="T"/>為清淨，作如是言：『若但食麻，如是修行，而得
-<lb n="0598c15" ed="T"/>清淨。』彼取麻已，或碎其末；或<anchor xml:id="beg_3" type="star"/><g ref="#CB03074">󰰂</g><anchor xml:id="end_3"/>其水；或以
+<lb n="0598c15" ed="T"/>清淨。』彼取麻已，或碎其末；或<anchor xml:id="beg_4" type="star"/><g ref="#CB03074">󰰂</g><anchor xml:id="end_4"/>其水；或以
 <lb n="0598c16" ed="T"/>多種治事而食，為其資養。舍利子！我知是事，
 <lb n="0598c17" ed="T"/>亦同彼行。何等是我取麻為食？舍利子！我唯
 <lb n="0598c18" ed="T"/>取其一粒而食，無復加二。後於異時，由食麻
@@ -975,13 +978,14 @@ Added comment  for Emacs
 <app from="#beg0596001" to="#end0596001"><lem wit="#wit1">擔</lem><rdg resp="#resp1" wit="#wit2">檐</rdg></app>
 <app from="#beg0597001" to="#end0597001"><lem wit="#wit1">飡</lem><rdg resp="#resp1" wit="#wit3 #wit2">食</rdg></app>
 <app from="#beg0597002" to="#end0597002"><lem wit="#wit1">此即</lem><rdg resp="#resp1" wit="#wit2">即此</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit4 #wit5" resp="#resp2">事<note type="cf1">K41n1477_p0012a03</note></lem><rdg wit="#wit1">時</rdg></app>
 <app from="#beg0598001" to="#end0598001"><lem wit="#wit1"><g ref="#CB03074">󰰂</g></lem><rdg resp="#resp1" wit="#wit3 #wit2">淘</rdg></app>
 <app from="#beg0598002" to="#end0598002"><lem wit="#wit1">亦我</lem><rdg resp="#resp1" wit="#wit3 #wit2">我亦</rdg></app>
 <app from="#beg0598003" to="#end0598003"><lem wit="#wit1">項</lem><rdg resp="#resp1" wit="#wit3 #wit2">頂</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>曝</corr><sic><g ref="#CB02720">󰪠</g></sic></choice>
+<choice cb:from="#beg_2" cb:to="#end_2"><corr>曝</corr><sic><g ref="#CB02720">󰪠</g></sic></choice>
 <app from="#beg0598004" to="#end0598004"><lem wit="#wit1">憔</lem><rdg resp="#resp1" wit="#wit3">惟</rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0598001"><lem wit="#wit1"><g ref="#CB03074">󰰂</g></lem><rdg resp="#resp1" wit="#wit3 #wit2">淘</rdg></app>
 <app from="#beg_3" to="#end_3" corresp="#0598001"><lem wit="#wit1"><g ref="#CB03074">󰰂</g></lem><rdg resp="#resp1" wit="#wit3 #wit2">淘</rdg></app>
+<app from="#beg_4" to="#end_4" corresp="#0598001"><lem wit="#wit1"><g ref="#CB03074">󰰂</g></lem><rdg resp="#resp1" wit="#wit3 #wit2">淘</rdg></app>
 <app from="#beg0599001" to="#end0599001"><lem wit="#wit1">加</lem><rdg resp="#resp1" wit="#wit2">跏</rdg></app>
 <app from="#beg0600001" to="#end0600001"><lem wit="#wit1">今我</lem><rdg resp="#resp1" wit="#wit2">我今</rdg></app>
 </p>

@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.13 $<date>$Date: 2012/08/27 03:14:48 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【宮】</witness>
 		<witness xml:id="wit5">【明】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -202,17 +205,17 @@ Added comment  for Emacs
 <lb n="0418c28" ed="T"/>百億諸天寶女，一一寶女住立樹下，執百億
 <lb n="0418c29" ed="T"/>寶無數瓔珞，出妙音樂，時樂音中演說不退
 <pb n="0419a" ed="T" xml:id="T14.0452.0419a"/>
-<lb n="0419a01" ed="T"/>轉地法輪之行。其樹生果如頗黎色，一切眾
+<lb n="0419a01" ed="T"/>轉地法輪之行。其樹生果如頗<anchor xml:id="beg_2" type="cb-app"/>梨<anchor xml:id="end_2"/>色，一切眾
 <lb n="0419a02" ed="T"/>色入頗梨色中，是諸光明右旋<anchor xml:id="nkr_note_orig_0419001" n="0419001"/><anchor xml:id="beg0419001" n="0419001"/>婉<anchor xml:id="end0419001"/>轉流出
 <lb n="0419a03" ed="T"/>眾音，眾音演說大慈大悲法。一一垣牆高六
 <lb n="0419a04" ed="T"/>十二由旬、厚十四由旬，五百億龍王圍繞此
 <lb n="0419a05" ed="T"/>垣，一一龍王雨<anchor xml:id="nkr_note_orig_0419002" n="0419002"/><anchor xml:id="nkr_note_mod_0419002" n="0419002"/><anchor xml:id="beg0419002" n="0419002"/>五<anchor xml:id="end0419002"/>百億七寶行樹，莊嚴垣
-<lb n="0419a06" ed="T"/>上，自然有風吹動此樹，樹相振觸，演說苦、
+<lb n="0419a06" ed="T"/>上，自然有風吹動此樹，樹相<anchor xml:id="beg_3" type="cb-app"/>掁<anchor xml:id="end_3"/>觸，演說苦、
 <lb n="0419a07" ed="T"/>空、無常、無我、諸波羅蜜。</p><p xml:id="pT14p0419a0710" rend="inline">「爾時此宮有一大神，
 <lb n="0419a08" ed="T"/>名牢度跋提，即從座起遍禮十方佛，發
 <lb n="0419a09" ed="T"/>弘誓願：『若我福德應為彌勒菩薩造善法
 <lb n="0419a10" ed="T"/>堂，令我額上自然出珠。』既發願已，額上自
-<lb n="0419a11" ed="T"/>然出<anchor xml:id="nkr_note_orig_0419003" n="0419003"/><anchor xml:id="beg0419003" n="0419003"/>五<anchor xml:id="end0419003"/>百億寶珠，瑠璃<anchor xml:id="beg_2" type="cb-app"/>頗<anchor xml:id="end_2"/>梨一切眾色無
+<lb n="0419a11" ed="T"/>然出<anchor xml:id="nkr_note_orig_0419003" n="0419003"/><anchor xml:id="beg0419003" n="0419003"/>五<anchor xml:id="end0419003"/>百億寶珠，瑠璃<anchor xml:id="beg_4" type="cb-app"/>頗<anchor xml:id="end_4"/>梨一切眾色無
 <lb n="0419a12" ed="T"/>不具足，如紫紺摩尼表裏暎徹。此摩尼
 <lb n="0419a13" ed="T"/><anchor xml:id="nkr_note_orig_0419004" n="0419004"/><anchor xml:id="beg0419004" n="0419004"/>光<anchor xml:id="end0419004"/>迴旋空中，化為四十九重微妙寶宮，一
 <lb n="0419a14" ed="T"/>一欄楯萬億梵摩尼寶所共合成。諸欄楯間
@@ -379,7 +382,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0418006" to="#end0418006"><lem wit="#wit1">佛說</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0418007" to="#end0418007"><lem wit="#wit1">率</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">率陀</rdg></app>
@@ -390,10 +393,12 @@ Added comment  for Emacs
 <app from="#beg0418011" to="#end0418011"><lem wit="#wit1">陀</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0418012" to="#end0418012"><lem wit="#wit1">萬</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0418013" to="#end0418013"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">是</rdg></app>
+<app from="#beg_2" to="#end_2"><lem wit="#wit6 #wit7" resp="#resp3">梨<note type="cf1">K11n0194_p0195c19</note></lem><rdg wit="#wit1">黎</rdg></app>
 <app from="#beg0419001" to="#end0419001"><lem wit="#wit1">婉</lem><rdg resp="#resp1" wit="#wit3 #wit5">宛</rdg></app>
 <app from="#beg0419002" to="#end0419002"><lem wit="#wit1">五</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg_3" to="#end_3"><lem wit="#wit6 #wit7" resp="#resp3">掁<note type="cf1">K11n0194_p0196a0</note></lem><rdg wit="#wit1">振</rdg></app>
 <app from="#beg0419003" to="#end0419003"><lem wit="#wit1">五</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>頗</corr><sic>頊</sic></choice>
+<choice cb:from="#beg_4" cb:to="#end_4"><corr>頗</corr><sic>頊</sic></choice>
 <app from="#beg0419004" to="#end0419004"><lem wit="#wit1">光</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">珠</rdg></app>
 <app from="#beg0419005" to="#end0419005"><lem wit="#wit1">園</lem><rdg resp="#resp1" wit="#wit5">垣</rdg></app>
 <app from="#beg0419006" to="#end0419006"><lem wit="#wit1">游</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">遶</rdg></app>
@@ -421,7 +426,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0418007" resp="#resp2" type="mod" target="#nkr_note_mod_0418007">率＋（陀）【宋】【元】【明】【宮】</note>
 <note n="0418011" resp="#resp2" type="mod" target="#nkr_note_mod_0418011">〔陀〕－【宋】【元】【明】【宮】</note>
@@ -449,7 +454,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0418006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0418006">〔佛說〕－【宋】【元】【宮】</note>
 <note n="0418007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0418007">率＋（陀）【三】【宮】</note>

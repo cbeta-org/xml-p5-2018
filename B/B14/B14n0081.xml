@@ -1482,6 +1482,10 @@
 		<localName>composition</localName>
 		<value>[車*(乞-乙+小)]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>軫</value>
+	</charProp>
 	<mapping cb:dec="1005998" type="PUA">U+F59AE</mapping>
 </char>
 <char xml:id="CB23290">
@@ -1522,6 +1526,11 @@
 		<localName>composition</localName>
 		<value>[自*反]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>皈</value>
+	</charProp>
+	<mapping type="unicode">U+26907</mapping>
 	<mapping cb:dec="1007278" type="PUA">U+F5EAE</mapping>
 </char>
 <char xml:id="CB25091">
@@ -1562,6 +1571,11 @@
 		<localName>composition</localName>
 		<value>[女*(卣-├)]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>姻</value>
+	</charProp>
+	<mapping type="unicode">U+216F8</mapping>
 	<mapping cb:dec="1009489" type="PUA">U+F6751</mapping>
 </char>
 <char xml:id="CB27727">
@@ -4587,7 +4601,7 @@ $Log:$
 <lb ed="B" n="0085b09"/>
 <lb ed="B" n="0085b10"/><cb:juan fun="close" n="4"><cb:jhead>寶林傳卷第四</cb:jhead></cb:juan>
 <pb ed="B" xml:id="B14.0081.0086a" n="0086a"/>
-<lb ed="B" n="0086a01"/><milestone unit="juan" n="5"/><cb:mulu type="卷" n="5"></cb:mulu><cb:juan fun="open" n="5"><cb:jhead></cb:jhead></cb:juan>
+<lb ed="B" n="0086a01"/><milestone unit="juan" n="5"/><cb:mulu type="卷" n="5"></cb:mulu>
 <lb ed="B" n="0086a02"/><cb:div type="other"><cb:mulu type="其他" level="1"><unclear></unclear>…<unclear></unclear>品第二十七</cb:mulu>
 <lb ed="B" n="0086a03"/>
 <lb ed="B" n="0086a04"/>
@@ -7087,7 +7101,7 @@ $Log:$
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>諡</corr><sic>謚</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>

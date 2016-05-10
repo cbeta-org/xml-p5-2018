@@ -962,6 +962,7 @@
 		<localName>composition</localName>
 		<value>[打-丁+(敲-高)]</value>
 	</charProp>
+	<mapping type="unicode">U+233FD</mapping>
 	<mapping cb:dec="1010097" type="PUA">U+F69B1</mapping>
 </char>
 <char xml:id="CB27476">
@@ -1106,6 +1107,7 @@
 		<localName>normalized form</localName>
 		<value>卻</value>
 	</charProp>
+	<mapping type="unicode">U+286AB</mapping>
 	<mapping cb:dec="1013077" type="PUA">U+F7555</mapping>
 </char>
 <char xml:id="CB30039">
@@ -1114,6 +1116,11 @@
 		<localName>composition</localName>
 		<value>[烈-列+執]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>熱</value>
+	</charProp>
+	<mapping type="unicode">U+24360</mapping>
 	<mapping cb:dec="1013079" type="PUA">U+F7557</mapping>
 </char>
 <char xml:id="CB30042">
@@ -1130,6 +1137,11 @@
 		<localName>composition</localName>
 		<value>[尋-口+凡]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>尋</value>
+	</charProp>
+	<mapping type="normal_unicode">U+21B36</mapping>
 	<mapping cb:dec="1013092" type="PUA">U+F7564</mapping>
 </char>
 <char xml:id="CB30054">
@@ -23814,7 +23826,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>己</corr><sic>巳</sic></choice>

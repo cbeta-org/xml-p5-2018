@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.12 $<date>$Date: 2012/09/28 08:51:56 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -247,7 +250,7 @@ Added comment  for Emacs
 <pb n="0872a" ed="T" xml:id="T17.0828.0872a"/>
 <lb n="0872a01" ed="T"/><p xml:id="pT17p0872a0101">「善男子！我亦復說一切諸法如幻如焰，是佛
 <lb n="0872a02" ed="T"/>所覺。性相一味解脫之法，是佛所覺。所有性
-<lb n="0872a03" ed="T"/>相一味解脫，是一切法廣博嚴<anchor xml:id="nkr_note_orig_0872001" n="0872001"/><anchor xml:id="nkr_note_mod_0872001" n="0872001"/><anchor xml:id="beg0872001" n="0872001"/>莊<anchor xml:id="end0872001"/>。</p>
+<lb n="0872a03" ed="T"/>相一味解脫，是一切法廣博嚴<anchor xml:id="nkr_note_orig_0872001" n="0872001"/><anchor xml:id="nkr_note_mod_0872001" n="0872001"/><anchor xml:id="beg0872001" n="0872001"/>藏<anchor xml:id="end0872001"/>。</p>
 <lb n="0872a04" ed="T"/><p xml:id="pT17p0872a0401">「善男子！若善男子、善女人，復有一法，是佛所
 <lb n="0872a05" ed="T"/>覺。善男子！所謂：諸法不去不來、無因無緣、無
 <lb n="0872a06" ed="T"/>生無滅、無思不思、無增無減。善男子！若法
@@ -311,7 +314,7 @@ Added comment  for Emacs
 <app from="#beg0871002" to="#end0871002"><lem wit="#wit1">犍</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">揵</rdg></app>
 <app from="#beg0871003" to="#end0871003"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">當</rdg></app>
 <app from="#beg0871004" to="#end0871004"><lem wit="#wit1">證</lem><rdg resp="#resp1" wit="#wit4">說</rdg></app>
-<app from="#beg0872001" to="#end0872001"><lem wit="#wit1">莊</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">藏</rdg></app>
+<app from="#beg0872001" to="#end0872001"><lem wit="#wit6 #wit7" resp="#resp3">藏<note type="cf1">K11n0213_p0382c15</note></lem><rdg wit="#wit1">莊</rdg><rdg resp="#resp3" wit="#wit7">蔵<note type="cf1">K11n0213_p0382c15</note></rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">藏</rdg></app>
 <app from="#beg0872002" to="#end0872002"><lem wit="#wit1">億</lem><rdg resp="#resp1" wit="#wit3">意</rdg></app>
 <app from="#beg0872003" to="#end0872003"><lem wit="#wit1">庫</lem><rdg resp="#resp1" wit="#wit4">寶</rdg></app>
 <app from="#beg0872004" to="#end0872004"><lem wit="#wit1">經</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
@@ -328,7 +331,7 @@ Added comment  for Emacs
 <note n="0871001" resp="#resp2" type="mod" target="#nkr_note_mod_0871001">治＝持【宋】【元】【明】【宮】＊</note>
 <note n="0871002" resp="#resp2" type="mod" target="#nkr_note_mod_0871002">犍＝揵【宋】【元】【明】</note>
 <note n="0871003" resp="#resp2" type="mod" target="#nkr_note_mod_0871003">為＝當【宋】【元】【明】【宮】</note>
-<note n="0872001" resp="#resp2" type="mod" target="#nkr_note_mod_0872001">莊＝藏【宋】【元】【明】【宮】</note>
+<note n="0872001" resp="#resp2" type="mod" target="#nkr_note_mod_0872001">莊＝藏【宋】【元】【明】【宮】【CB】，＝蔵【麗-CB】</note>
 <note n="0872004" resp="#resp2" type="mod" target="#nkr_note_mod_0872004">〔經〕－【宋】【元】【明】【宮】</note>
 </p>
 </cb:div>

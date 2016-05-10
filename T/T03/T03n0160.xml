@@ -31,6 +31,11 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 3, No. 160 </bibl>
+	<listWit>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【磧砂】</witness>
+		<witness xml:id="wit3">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -5103,7 +5108,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:from="#beg_1" cb:to="#end_1"><corr>嫩</corr><sic>嫰</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>入</corr><sic>人</sic></choice>
@@ -5114,7 +5119,7 @@ Added comment  for Emacs
 <choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>兔</corr><sic>免</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>兔</corr><sic>免</sic></choice>
 <choice cb:from="#beg_9" cb:to="#end_9"><corr>窣</corr><sic><g ref="#CB02443">𡨧</g></sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_a" cb:to="#end_a"><corr>生</corr><sic>恐</sic></choice>
+<app from="#beg_a" to="#end_a"><lem resp="#resp3 resp1" wit="#wit1 #wit2">生<note type="cf1">Q36_p0726b16</note></lem><rdg wit="#wit3">恐</rdg></app>
 <choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>髓</corr><sic>隨</sic></choice>
 <choice cb:resp="#resp3" cb:from="#beg_c" cb:to="#end_c"><corr>倒</corr><sic>到</sic></choice>
 <choice cb:resp="#resp3" cb:from="#beg_d" cb:to="#end_d"><corr>上</corr><sic>土</sic></choice>

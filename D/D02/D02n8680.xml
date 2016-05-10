@@ -562,6 +562,19 @@
 	<mapping type="unicode">U+3F5E</mapping>
 	<mapping cb:dec="1005667" type="PUA">U+F5863</mapping>
 </char>
+<char xml:id="CB22914">
+	<charName>CBETA CHARACTER CB22914</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[妖-大+犮]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>妖</value>
+	</charProp>
+	<mapping type="normal_unicode">U+2A972</mapping>
+	<mapping cb:dec="1005954" type="PUA">U+F5982</mapping>
+</char>
 <char xml:id="CB23133">
 	<charName>CBETA CHARACTER CB23133</charName>
 	<charProp>
@@ -635,19 +648,6 @@
 		<value>覆</value>
 	</charProp>
 	<mapping cb:dec="1012821" type="PUA">U+F7455</mapping>
-</char>
-<char xml:id="CB29782">
-	<charName>CBETA CHARACTER CB29782</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[妖-大+犮]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>妖</value>
-	</charProp>
-	<mapping type="normal_unicode">U+2A972</mapping>
-	<mapping cb:dec="1012822" type="PUA">U+F7456</mapping>
 </char>
 <char xml:id="CB29783">
 	<charName>CBETA CHARACTER CB29783</charName>
@@ -1162,7 +1162,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0029a05"/>床廗不能<g ref="#CB22137">𧺫</g>居罪報懺悔人間冬溫夏疫毒厲傷
 <lb ed="D" n="0029a06"/>寒罪報懺悔人間賊風腫滿否寒罪報懺悔人間
 <lb ed="D" n="0029a07"/>為諸<g ref="#CB08891">𢙣</g>神伺求其便欲作禍崇罪報懺悔人間有
-<lb ed="D" n="0029a08"/>鳥鳴百恠飛屍耶鬼為作<g ref="#CB29782">󷑖</g>異罪報懺悔人間為
+<lb ed="D" n="0029a08"/>鳥鳴百恠飛屍耶鬼為作<g ref="#CB22914">󵦂</g>異罪報懺悔人間為
 <lb ed="D" n="0029a09"/><g ref="#CB23133">󵩝</g>豹犲狼水陸一切諸<g ref="#CB08891">𢙣</g>禽獸所傷罪報懺悔人間
 <lb ed="D" n="0029a10"/>自經自<g ref="#CB02863">㓨</g>自煞罪報懺悔人間投巖赴火自沈自墜
 <pb ed="D" xml:id="D02.8680.0030a" n="0030a"/>
@@ -1570,7 +1570,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>佛</corr><sic><space quantity="0"/></sic></choice>

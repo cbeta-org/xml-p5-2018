@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.11 $<date>$Date: 2012/09/28 08:51:52 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【宮】</witness>
 		<witness xml:id="wit5">【明】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -169,7 +172,7 @@ Added comment  for Emacs
 <lb n="0528c03" ed="T"/>此犁中，相見即欲鬪，乎中無兵而自有兵，相
 <lb n="0528c04" ed="T"/>傷殺無歲數又不死。有人來語起不死，以風
 <lb n="0528c05" ed="T"/>來吹即愈。如是無歲數，<anchor xml:id="nkr_note_orig_0528018" n="0528018"/><anchor xml:id="nkr_note_mod_0528018" n="0528018"/><anchor xml:id="beg0528018" n="0528018"/>已<anchor xml:id="end0528018"/>復持熱鐵劍相
-<lb n="0528c06" ed="T"/>傷殺，<anchor xml:id="beg_1" type="star"/>已<anchor xml:id="end_1"/>復<anchor xml:id="nkr_note_orig_0528019" n="0528019"/><anchor xml:id="beg0528019" n="0528019"/>有<anchor xml:id="end0528019"/>鐵椎相殺，以手拳極利相傷，
+<lb n="0528c06" ed="T"/>傷殺，<anchor xml:id="beg_1" type="star"/>已<anchor xml:id="end_1"/>復<anchor xml:id="nkr_note_orig_0528019" n="0528019"/><anchor xml:id="nkr_note_mod_0528019" n="0528019"/><anchor xml:id="beg0528019" n="0528019"/>用<anchor xml:id="end0528019"/>鐵椎相殺，以手拳極利相傷，
 <lb n="0528c07" ed="T"/>久久無歲數，是其類。其人長<anchor xml:id="nkr_note_orig_0528020" n="0528020"/><anchor xml:id="nkr_note_mod_0528020" n="0528020"/><anchor xml:id="beg0528020" n="0528020"/>且<anchor xml:id="end0528020"/>大，壽人間
 <lb n="0528c08" ed="T"/>三千七百五十歲為一日，三十日為一月，十
 <lb n="0528c09" ed="T"/>二月為一歲，萬歲為人間百三十五億歲。</p>
@@ -317,7 +320,7 @@ Added comment  for Emacs
 <app from="#beg0528017" to="#end0528017"><lem wit="#wit1">先</lem><rdg resp="#resp1" wit="#wit4">光</rdg></app>
 <app from="#beg0528018" to="#end0528018"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">以</rdg></app>
 <app from="#beg_1" to="#end_1" corresp="#0528018"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">以</rdg></app>
-<app from="#beg0528019" to="#end0528019"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit4">用</rdg></app>
+<app from="#beg0528019" to="#end0528019"><lem wit="#wit6 #wit7" resp="#resp3">用<note type="cf1">K20n0812_p1117b03</note></lem><rdg wit="#wit1">有</rdg><rdg resp="#resp1" wit="#wit4">用</rdg></app>
 <app from="#beg0528020" to="#end0528020"><lem wit="#wit1">且</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0528021" to="#end0528021"><lem wit="#wit1">圓</lem><rdg resp="#resp1" wit="#wit4">員</rdg></app>
 <app from="#beg_2" to="#end_2" corresp="#0528018"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">以</rdg></app>
@@ -391,6 +394,7 @@ Added comment  for Emacs
 <note n="0528012" resp="#resp2" type="mod" target="#nkr_note_mod_0528012">火＝大【宋】【元】【明】【宮】</note>
 <note n="0528016" resp="#resp2" type="mod" target="#nkr_note_mod_0528016">人＋（疾）【宋】【元】【明】【宮】</note>
 <note n="0528018" resp="#resp2" type="mod" target="#nkr_note_mod_0528018">已＝以【宋】【元】【明】【宮】＊</note>
+<note n="0528019" resp="#resp2" type="mod" target="#nkr_note_mod_0528019">有＝用【宮】【麗-CB】【CB】</note>
 <note n="0528020" resp="#resp2" type="mod" target="#nkr_note_mod_0528020">〔且〕－【宋】【元】【明】【宮】＊</note>
 <note n="0528022" resp="#resp2" type="mod" target="#nkr_note_mod_0528022">千＝十【宋】【元】【明】【宮】</note>
 <note n="0528023" resp="#resp2" type="mod" target="#nkr_note_mod_0528023">乘＝桑【宋】【元】【明】【宮】＊</note>

@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 07:58:51 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -34,8 +35,10 @@
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【明】</witness>
 		<witness xml:id="wit3">【元】</witness>
-		<witness xml:id="wit4">【宮】</witness>
-		<witness xml:id="wit5">【宋】</witness>
+		<witness xml:id="wit4">【CBETA】</witness>
+		<witness xml:id="wit5">【麗】</witness>
+		<witness xml:id="wit6">【宮】</witness>
+		<witness xml:id="wit7">【宋】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -296,7 +299,7 @@ Added comment  for Emacs
 <lb n="0128c15" ed="T"/>欲樂心識聰利。』爾時，魯支頭髻殊妙髮長赤
 <lb n="0128c16" ed="T"/>色，遂解頭髻布於道路，告世尊言：『願佛慈
 <lb n="0128c17" ed="T"/>悲踏我髮過，佛之兩足於三界中得未曾有，
-<lb n="0128c18" ed="T"/>千幅網<anchor xml:id="nkr_note_orig_0128006" n="0128006"/><anchor xml:id="beg0128006" n="0128006"/>鞔<anchor xml:id="end0128006"/>，有幢印、幡印、金剛杵印，如是印
+<lb n="0128c18" ed="T"/>千<anchor xml:id="beg_2" type="cb-app"/>輻<anchor xml:id="end_2"/>網<anchor xml:id="nkr_note_orig_0128006" n="0128006"/><anchor xml:id="beg0128006" n="0128006"/>鞔<anchor xml:id="end0128006"/>，有幢印、幡印、金剛杵印，如是印
 <lb n="0128c19" ed="T"/>相紋同綺畫妙善莊嚴。』佛遂踏過，而發願言：
 <lb n="0128c20" ed="T"/>『以我此善，當得成佛，救諸輪迴一切眾生。』</p><p xml:id="pT15p0128c2017" rend="inline">「如
 <lb n="0128c21" ed="T"/>是四人各發願後，其老婆羅門所修眾善，獲
@@ -304,7 +307,7 @@ Added comment  for Emacs
 <lb n="0128c23" ed="T"/>感手持天拂。<anchor xml:id="nkr_note_orig_0128007" n="0128007"/><anchor xml:id="beg0128007" n="0128007"/>若<anchor xml:id="end0128007"/>次修行者，所修善根得無
 <lb n="0128c24" ed="T"/>邊福，獲那羅延天身，施鐵供養感手持輪寶，
 <lb n="0128c25" ed="T"/>名曰妙現，能破一切修羅。第三商迦仙人，
-<lb n="0128c26" ed="T"/><anchor xml:id="beg_2" type="star"/>若<anchor xml:id="end_2"/>施三燈感面生三目，施於三針感得三股
+<lb n="0128c26" ed="T"/><anchor xml:id="beg_3" type="star"/>若<anchor xml:id="end_3"/>施三燈感面生三目，施於三針感得三股
 <lb n="0128c27" ed="T"/>叉，若旋繞世尊，得世間愛敬八種自在，為
 <lb n="0128c28" ed="T"/>其主宰能生滅世間。第四魯支者，布髮供養
 <lb n="0128c29" ed="T"/>以願力故，當得離欲出過三界，成一切智智，
@@ -347,7 +350,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0127001" to="#end0127001"><lem wit="#wit1">西</lem><rdg resp="#resp1" wit="#wit2">宋西</rdg></app>
 <app from="#beg0127002" to="#end0127002"><lem wit="#wit1">譯經</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
@@ -363,20 +366,21 @@ Added comment  for Emacs
 <app from="#beg0128004" to="#end0128004"><lem wit="#wit1">臾</lem><rdg resp="#resp1" wit="#wit3">更</rdg><rdg resp="#resp1" wit="#wit2">庾</rdg></app>
 <app from="#beg_1" to="#end_1" corresp="#0127007"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit3 #wit2">至</rdg></app>
 <app from="#beg0128005" to="#end0128005"><lem wit="#wit1">叉</lem><rdg resp="#resp1" wit="#wit3">又</rdg></app>
+<app from="#beg_2" to="#end_2"><lem wit="#wit4 #wit5" resp="#resp3">輻<note type="cf1">K33n1147_p1192c17</note></lem><rdg wit="#wit1">幅</rdg></app>
 <app from="#beg0128006" to="#end0128006"><lem wit="#wit1">鞔</lem><rdg resp="#resp1" wit="#wit3 #wit2">縵</rdg></app>
-<app from="#beg0128007" to="#end0128007"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0128007"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
-<app from="#beg0129001" to="#end0129001"><lem wit="#wit1">面</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit2 #wit4">而</rdg></app>
+<app from="#beg0128007" to="#end0128007"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0128007"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0129001" to="#end0129001"><lem wit="#wit1">面</lem><rdg resp="#resp1" wit="#wit7 #wit3 #wit2 #wit6">而</rdg></app>
 <app from="#beg0129002" to="#end0129002"><lem wit="#wit1">執</lem><rdg resp="#resp1" wit="#wit2">持</rdg></app>
-<app from="#beg0129003" to="#end0129003"><lem wit="#wit1">女鬼</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit2 #wit4">鬼女</rdg></app>
-<app from="#beg0129004" to="#end0129004"><lem wit="#wit1">一切</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit2 #wit4">時一切</rdg></app>
+<app from="#beg0129003" to="#end0129003"><lem wit="#wit1">女鬼</lem><rdg resp="#resp1" wit="#wit7 #wit3 #wit2 #wit6">鬼女</rdg></app>
+<app from="#beg0129004" to="#end0129004"><lem wit="#wit1">一切</lem><rdg resp="#resp1" wit="#wit7 #wit3 #wit2 #wit6">時一切</rdg></app>
 <app from="#beg0129005" to="#end0129005"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit2">女</rdg></app>
 <app from="#beg0129006" to="#end0129006"><lem wit="#wit1">天</lem><rdg resp="#resp1" wit="#wit3">大</rdg></app>
-<app from="#beg0129007" to="#end0129007"><lem wit="#wit1">天</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit2 #wit4">天子</rdg></app>
+<app from="#beg0129007" to="#end0129007"><lem wit="#wit1">天</lem><rdg resp="#resp1" wit="#wit7 #wit3 #wit2 #wit6">天子</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0128004" resp="#resp2" type="mod" target="#nkr_note_mod_0128004">臾＝更【元】，＝庾【明】</note>
 <note n="0129001" resp="#resp2" type="mod" target="#nkr_note_mod_0129001">面＝而【宋】【元】【明】【宮】</note>
@@ -386,7 +390,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0127001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0127001">（宋）＋西【明】</note>
 <note n="0127002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0127002">〔譯經〕－【明】</note>

@@ -234,16 +234,8 @@
 		<localName>composition</localName>
 		<value>[○@八]</value>
 	</charProp>
+	<mapping type="unicode">U+3287</mapping>
 	<mapping cb:dec="1004192" type="PUA">U+F52A0</mapping>
-</char>
-<char xml:id="CB21281">
-	<charName>CBETA CHARACTER CB21281</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[(虎-儿+几)*(兔-?+?)]</value>
-	</charProp>
-	<mapping type="unicode">U+4598</mapping>
-	<mapping cb:dec="1004321" type="PUA">U+F5321</mapping>
 </char>
 <char xml:id="CB21310">
 	<charName>CBETA CHARACTER CB21310</charName>
@@ -311,6 +303,15 @@
 	</charProp>
 	<mapping type="unicode">U+274CB</mapping>
 	<mapping cb:dec="1004402" type="PUA">U+F5372</mapping>
+</char>
+<char xml:id="CB32867">
+	<charName>CBETA CHARACTER CB32867</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[虎*兔]</value>
+	</charProp>
+	<mapping type="unicode">U+4598</mapping>
+	<mapping cb:dec="1015907" type="PUA">U+F8063</mapping>
 </char>
 </charDecl>
 </encodingDesc>
@@ -5153,7 +5154,7 @@ modified: BM 轉 XML
 <lb ed="J" n="0623b23"/>隆藏主柔易若此何能為哉悟曰瞌睡虎耳後歸鄉
 <lb ed="J" n="0623b24"/>邑出世住開聖建炎亂乃結廬銅峰之下郡守李公
 <lb ed="J" n="0623b25"/>光延居彰教徙虎丘眾盛道大顯著。</p></cb:div>
-<lb ed="J" n="0623b26"/><cb:div type="commentary"><p xml:id="pJ29p0623b2601" rend="margin-left:1em">頌<g ref="#CB21336">󵍘</g><g ref="#CB21281">䖘</g>瞌睡未曾眠潛伏爪牙藏教前柔易有時
+<lb ed="J" n="0623b26"/><cb:div type="commentary"><p xml:id="pJ29p0623b2601" rend="margin-left:1em">頌<g ref="#CB21336">󵍘</g><g ref="#CB32867">䖘</g>瞌睡未曾眠潛伏爪牙藏教前柔易有時
 <lb ed="J" n="0623b27"/>雄一步人天膽膻虎丘山。</p></cb:div>
 <lb ed="J" n="0623b28"/><cb:div type="orig"><p xml:id="pJ29p0623b2801">舉明州天童應庵華禪師住歸宗日大慧在梅陽有
 <lb ed="J" n="0623b29"/>僧傳庵垂示語句慧見之極口稱歎後以偈寄曰坐
@@ -8921,7 +8922,7 @@ modified: BM 轉 XML
 <lb ed="J" n="0664c18"/>
 <lb ed="J" n="0664c19"/>
 <lb ed="J" n="0664c20"/><cb:juan fun="close" n="20"><cb:jhead>慶忠鐵壁機禪師語錄卷之二十終</cb:jhead></cb:juan>
-<lb ed="J" n="0664c21"/><cb:div type="w"></cb:div>
+<lb ed="J" n="0664c21"/><cb:div type="w">
 <lb ed="J" n="0664c22"/>
 <lb ed="J" n="0664c23"/>
 <lb ed="J" n="0664c24"/>
@@ -8932,7 +8933,7 @@ modified: BM 轉 XML
 <lb ed="J" n="0664c29"/>
 <lb ed="J" n="0664c30"/>
 <pb ed="J" xml:id="J29.B241.0665a" n="0665a"/>
-<lb ed="J" n="0665a01"/><cb:div type="w"><cb:mulu type="附文" level="1">年譜</cb:mulu><cb:div type="w"><cb:mulu type="附文" level="2">序</cb:mulu><head>慶忠機和尚年譜序</head>
+<lb ed="J" n="0665a01"/><cb:mulu type="附文" level="1">年譜</cb:mulu><cb:div type="w"><cb:mulu type="附文" level="2">序</cb:mulu><head>慶忠機和尚年譜序</head>
 <lb ed="J" n="0665a02"/><p xml:id="pJ29p0665a0201">世尊未離兜率已降王宮則誕
 <lb ed="J" n="0665a03"/>生何年未出母胎度人已畢則
 <lb ed="J" n="0665a04"/>行道何歲末後曰吾四十九年
@@ -10078,7 +10079,7 @@ modified: BM 轉 XML
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>

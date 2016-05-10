@@ -37,6 +37,9 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【宮】</witness>
 		<witness xml:id="wit5">【明】</witness>
+		<witness xml:id="wit6">【磧砂】</witness>
+		<witness xml:id="wit7">【CBETA】</witness>
+		<witness xml:id="wit8">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -45,6 +48,17 @@
                 <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Jasmine</p>
                 <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jasmine 提供新式標點</p>
         </projectDesc>
+<charDecl>
+<char xml:id="CB00719">
+	<charName>CBETA CHARACTER CB00719</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[竺-二+韋]</value>
+	</charProp>
+	<mapping type="unicode">U+25BE4</mapping>
+	<mapping cb:dec="983759" type="PUA">U+F02CF</mapping>
+</char>
+</charDecl>
 </encodingDesc>
 <profileDesc>
                 <langUsage>
@@ -222,7 +236,7 @@ Added comment  for Emacs
 <lb n="0784b22" ed="T"/>一，乃至算數譬喻所不能及。」</p>
 <lb n="0784b23" ed="T"/><p xml:id="pT16p0784b2301">爾時，世尊復告阿難：「且置閻浮提、瞿陀尼、弗
 <lb n="0784b24" ed="T"/>婆提、欝單羅越。假使遍四天下，滿中辟支
-<lb n="0784b25" ed="T"/>佛獨覺，譬如竹葦、甘蔗、稻麻。若有善男子、善
+<lb n="0784b25" ed="T"/>佛獨覺，譬如竹<anchor xml:id="beg_1" type="cb-app"/>葦<anchor xml:id="end_1"/>、甘蔗、稻麻。若有善男子、善
 <lb n="0784b26" ed="T"/>女人滿十千年，復以四事供養恭敬，一切
 <lb n="0784b27" ed="T"/>樂具給足如前，乃至滅度之後，收其舍利起
 <lb n="0784b28" ed="T"/>七寶塔，一一寶塔，皆以華香、伎樂、燈燭、繒蓋、
@@ -246,7 +260,7 @@ Added comment  for Emacs
 <lb n="0784c16" ed="T"/>世界。阿難！從中千世界，復一一數還滿一
 <lb n="0784c17" ed="T"/>千，是名大千世界。阿難！如是合數總名三
 <lb n="0784c18" ed="T"/>千大千世界。假使滿三千大千世界中諸佛
-<lb n="0784c19" ed="T"/>如來，譬如竹葦、甘蔗、稻麻，彼等諸佛、世尊、至
+<lb n="0784c19" ed="T"/>如來，譬如竹<anchor xml:id="beg_2" type="cb-app"/>葦<anchor xml:id="end_2"/>、甘蔗、稻麻，彼等諸佛、世尊、至
 <lb n="0784c20" ed="T"/>真、等正覺。若有善男子、善女人二萬歲中，常
 <lb n="0784c21" ed="T"/>以一切娛樂之具，衣服、飲食、床臥、湯藥，種種
 <lb n="0784c22" ed="T"/>奉施，乃至滅度之後，收其舍利起七寶塔，一
@@ -295,11 +309,11 @@ Added comment  for Emacs
 <lb n="0785b05" ed="T"/>希有之法，所演勝法一切世間難聞，故名希
 <lb n="0785b06" ed="T"/>有。」</p><p xml:id="pT16p0785b0602" rend="inline">佛說是經已，長老阿難，聞佛所說，歡喜
 <lb n="0785b07" ed="T"/>奉行。</p></cb:div>
-<lb n="0785b08" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title><anchor xml:id="beg_1" type="star"/>佛說<anchor xml:id="end_1"/>希有挍量功德經</title></cb:jhead></cb:juan>
+<lb n="0785b08" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title><anchor xml:id="beg_3" type="star"/>佛說<anchor xml:id="end_3"/>希有挍量功德經</title></cb:jhead></cb:juan>
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0783010" to="#end0783010"><lem wit="#wit1">佛說</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0783011" to="#end0783011"><lem wit="#wit1">隋</lem><rdg resp="#resp1" wit="#wit3 #wit5">隋北</rdg></app>
@@ -315,15 +329,17 @@ Added comment  for Emacs
 <app from="#beg0783021" to="#end0783021"><lem wit="#wit1">狹</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">陿</rdg></app>
 <app from="#beg0784001" to="#end0784001"><lem wit="#wit1">蘇</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">酥</rdg></app>
 <app from="#beg0784002" to="#end0784002"><lem wit="#wit1">伎樂</lem><rdg resp="#resp1" wit="#wit3 #wit5">妓樂</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit1">葦</lem><rdg resp="#resp3" wit="#wit6 #wit7">葦<note type="cf1">Q11_p0190b24</note></rdg><rdg resp="#resp3" wit="#wit8"><g ref="#CB00719">𥯤</g><note type="cf1">K11n0249_p0534b03</note></rdg></app>
 <app from="#beg0784003" to="#end0784003"><lem wit="#wit1">珊</lem><rdg resp="#resp1" wit="#wit4">那</rdg></app>
+<app from="#beg_2" to="#end_2"><lem wit="#wit1">葦</lem><rdg resp="#resp3" wit="#wit6 #wit7">葦<note type="cf1">Q11_p0190c16</note></rdg><rdg resp="#resp3" wit="#wit8"><g ref="#CB00719">𥯤</g><note type="cf1">K11n0249_p0534c07</note></rdg></app>
 <app from="#beg0784004" to="#end0784004"><lem wit="#wit1">滿</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">供滿</rdg></app>
 <app from="#beg0785001" to="#end0785001"><lem wit="#wit1">悉</lem><rdg resp="#resp1" wit="#wit2 #wit3">受</rdg></app>
 <app from="#beg0785002" to="#end0785002"><lem wit="#wit1">校</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">格</rdg></app>
-<app from="#beg_1" to="#end_1" corresp="#0783010"><lem wit="#wit1">佛說</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0783010"><lem wit="#wit1">佛說</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0783013" resp="#resp2" type="mod" target="#nkr_note_mod_0783013">藏＋（法師）【宋】【元】【明】【宮】</note>
 <note n="0783015" resp="#resp2" type="mod" target="#nkr_note_mod_0783015">詳＝庠【宋】【元】【明】【宮】</note>
@@ -335,7 +351,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0783010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0783010">〔佛說〕－【宋】【元】【宮】＊</note>
 <note n="0783011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0783011">隋＋（北）【元】【明】</note>

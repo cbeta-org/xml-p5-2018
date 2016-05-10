@@ -15,6 +15,7 @@
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>2卷</extent>
         <publicationStmt>
@@ -37,6 +38,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -200,7 +203,7 @@ Added comment  for Emacs
 <lb n="0825c04" ed="T"/>貪樂。作是事已，往詣女所當路而住。光照女
 <lb n="0825c05" ed="T"/>身及長者子、駟馬寶車所有光明皆悉闇蔽，
 <lb n="0825c06" ed="T"/>猶如聚墨比於真金無有光明。</p><p xml:id="pT17p0825c0613" rend="inline">彼金色女，見
-<lb n="0825c07" ed="T"/>文殊師利眾寶莊嚴衣服<anchor xml:id="nkr_note_orig_0825010" n="0825010"/><anchor xml:id="nkr_note_mod_0825010" n="0825010"/><anchor xml:id="beg0825010" n="0825010"/>清<anchor xml:id="end0825010"/>潔光明遠照，謂
+<lb n="0825c07" ed="T"/>文殊師利眾寶莊嚴衣服<anchor xml:id="nkr_note_orig_0825010" n="0825010"/><anchor xml:id="nkr_note_mod_0825010" n="0825010"/><anchor xml:id="beg0825010" n="0825010"/>淨<anchor xml:id="end0825010"/>潔光明遠照，謂
 <lb n="0825c08" ed="T"/>是天童，自於己身及長者子而生鄙惡不復
 <lb n="0825c09" ed="T"/>愛樂，於文殊身及以衣服起貪著心，默自念
 <lb n="0825c10" ed="T"/>言：「我當就彼共為嬉戲，<anchor xml:id="nkr_note_orig_0825011" n="0825011"/><anchor xml:id="nkr_note_mod_0825011" n="0825011"/><anchor xml:id="beg0825011" n="0825011"/>從<anchor xml:id="end0825011"/>心欲樂求索彼
@@ -267,7 +270,7 @@ Added comment  for Emacs
 <lb n="0826b11" ed="T"/>不生。如是夢平等故五陰平等，夢平等故菩
 <lb n="0826b12" ed="T"/>提平等，是故我說汝身即是菩提。</p>
 <lb n="0826b13" ed="T"/><p xml:id="pT17p0826b1301">「復次五陰如陽炎，以業緣故生；菩提亦如陽
-<lb n="0826b14" ed="T"/>焰無業無報。如是陽炎平等故五陰平等，陽
+<lb n="0826b14" ed="T"/><anchor xml:id="beg_1" type="cb-app"/>炎<anchor xml:id="end_1"/>無業無報。如是陽炎平等故五陰平等，陽
 <lb n="0826b15" ed="T"/>炎平等故菩提平等，是故我說汝身即是菩
 <lb n="0826b16" ed="T"/>提。</p>
 <lb n="0826b17" ed="T"/><p xml:id="pT17p0826b1701">「復次五陰如鏡中像，體性空無、不去不來；菩
@@ -286,7 +289,7 @@ Added comment  for Emacs
 <pb n="0826c" ed="T" xml:id="T17.0818.0826c"/>
 <lb n="0826c01" ed="T"/>陰無家離家義，是菩提五陰無去來無去來
 <lb n="0826c02" ed="T"/>義，是菩提五陰聖人法<anchor xml:id="nkr_note_orig_0826004" n="0826004"/><anchor xml:id="beg0826004" n="0826004"/>論<anchor xml:id="end0826004"/>，菩提亦聖人法
-<lb n="0826c03" ed="T"/><anchor xml:id="beg_1" type="star"/>論<anchor xml:id="end_1"/>，如是<anchor xml:id="beg_2" type="star"/>論<anchor xml:id="end_2"/>非<anchor xml:id="beg_3" type="star"/>論<anchor xml:id="end_3"/>法五陰體性，如來一切
+<lb n="0826c03" ed="T"/><anchor xml:id="beg_2" type="star"/>論<anchor xml:id="end_2"/>，如是<anchor xml:id="beg_3" type="star"/>論<anchor xml:id="end_3"/>非<anchor xml:id="beg_4" type="star"/>論<anchor xml:id="end_4"/>法五陰體性，如來一切
 <lb n="0826c04" ed="T"/>覺故，是名菩提。如是五陰體性即是菩提體
 <lb n="0826c05" ed="T"/>性，菩提體性即是一切諸佛體性；如汝身中
 <lb n="0826c06" ed="T"/>五陰體性即是一切諸佛體性，諸佛體性即
@@ -933,15 +936,16 @@ Added comment  for Emacs
 <app from="#beg0825007" to="#end0825007"><lem wit="#wit1">提</lem><rdg resp="#resp1" wit="#wit3 #wit4">提黎</rdg></app>
 <app from="#beg0825008" to="#end0825008"><lem wit="#wit1">譯</lem><rdg resp="#resp1" wit="#wit3">第三譯</rdg></app>
 <app from="#beg0825009" to="#end0825009"><lem wit="#wit1">駟</lem><rdg resp="#resp1" wit="#wit2 #wit5">四</rdg></app>
-<app from="#beg0825010" to="#end0825010"><lem wit="#wit1">清</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">淨</rdg></app>
+<app from="#beg0825010" to="#end0825010"><lem wit="#wit6 #wit7" resp="#resp4">淨<note type="cf1">K11n0187_p0137c03</note></lem><rdg wit="#wit1">清</rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">淨</rdg></app>
 <app from="#beg0825011" to="#end0825011"><lem wit="#wit1">從</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">縱</rdg></app>
 <app from="#beg0826001" to="#end0826001"><lem wit="#wit1">頗梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">玻瓈</rdg></app>
 <app from="#beg0826002" to="#end0826002"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7" resp="#resp4">炎<note type="cf1">K11n0187_p0138c11</note></lem><rdg wit="#wit1">焰</rdg></app>
 <app from="#beg0826003" to="#end0826003"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">本</rdg></app>
 <app from="#beg0826004" to="#end0826004"><lem wit="#wit1">論</lem><rdg resp="#resp1" wit="#wit2 #wit5">輪</rdg></app>
-<app from="#beg_1" to="#end_1" corresp="#0826004"><lem wit="#wit1">論</lem><rdg resp="#resp1" wit="#wit2 #wit5">輪</rdg></app>
 <app from="#beg_2" to="#end_2" corresp="#0826004"><lem wit="#wit1">論</lem><rdg resp="#resp1" wit="#wit2 #wit5">輪</rdg></app>
 <app from="#beg_3" to="#end_3" corresp="#0826004"><lem wit="#wit1">論</lem><rdg resp="#resp1" wit="#wit2 #wit5">輪</rdg></app>
+<app from="#beg_4" to="#end_4" corresp="#0826004"><lem wit="#wit1">論</lem><rdg resp="#resp1" wit="#wit2 #wit5">輪</rdg></app>
 <app from="#beg0827001" to="#end0827001"><lem wit="#wit1">體</lem><rdg resp="#resp1" wit="#wit3 #wit4">體性</rdg></app>
 <app from="#beg0827002" to="#end0827002"><lem wit="#wit1">猶</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">由</rdg></app>
 <app from="#beg0827003" to="#end0827003"><lem wit="#wit1">撅</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">橛</rdg></app>
@@ -978,7 +982,7 @@ Added comment  for Emacs
 <note n="0825005" resp="#resp2" type="mod" target="#nkr_note_mod_0825005">〔亦名…女經〕二十字－【宋】【元】【明】【宮】＊</note>
 <note n="0825006" resp="#resp2" type="mod" target="#nkr_note_mod_0825006">三藏＋（法師）【宋】【元】【明】【宮】<choice cb:resp="#resp3"><corr>＊</corr><sic><space quantity="0"/></sic></choice></note>
 <note n="0825007" resp="#resp2" type="mod" target="#nkr_note_mod_0825007">提＋（黎）【元】【明】<choice cb:resp="#resp3"><corr>＊</corr><sic><space quantity="0"/></sic></choice></note>
-<note n="0825010" resp="#resp2" type="mod" target="#nkr_note_mod_0825010">清＝淨【宋】【元】【明】【宮】</note>
+<note n="0825010" resp="#resp2" type="mod" target="#nkr_note_mod_0825010">清＝淨【宋】【元】【明】【宮】【麗-CB】【CB】</note>
 <note n="0825011" resp="#resp2" type="mod" target="#nkr_note_mod_0825011">從＝縱【宋】【元】【明】【宮】</note>
 <note n="0826001" resp="#resp2" type="mod" target="#nkr_note_mod_0826001">頗梨＝玻瓈【宋】【元】【明】【宮】下同</note>
 <note n="0826002" resp="#resp2" type="mod" target="#nkr_note_mod_0826002">〔亦〕－【宋】【元】【明】【宮】</note>

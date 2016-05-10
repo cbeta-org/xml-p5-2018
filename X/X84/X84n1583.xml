@@ -1525,7 +1525,7 @@
 	<charName>CBETA CHARACTER CB15290</charName>
 	<charProp>
 		<localName>composition</localName>
-		<value>[竺-二+(羌-儿+(鬼-((白-日)/田)))]</value>
+		<value>[竺-二+(羌-儿+(鬼-(白-日+田)))]</value>
 	</charProp>
 	<mapping type="unicode">U+25C51</mapping>
 	<mapping cb:dec="998330" type="PUA">U+F3BBA</mapping>
@@ -1709,6 +1709,7 @@
 		<localName>composition</localName>
 		<value>[○@三]</value>
 	</charProp>
+	<mapping type="unicode">U+3282</mapping>
 	<mapping cb:dec="998572" type="PUA">U+F3CAC</mapping>
 </char>
 <char xml:id="CB15533">
@@ -1918,6 +1919,7 @@
 		<localName>normalized form</localName>
 		<value>濬</value>
 	</charProp>
+	<mapping type="unicode">U+240D2</mapping>
 	<mapping cb:dec="998628" type="PUA">U+F3CE4</mapping>
 </char>
 <char xml:id="CB15593">
@@ -20351,7 +20353,7 @@ new from basicx
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
@@ -20944,7 +20946,7 @@ new from basicx
 </p>
 </cb:div>
 <cb:div type="xuzang-notes">
-<head>卍續藏 校勘記</head>
+<head>卍續藏 校註</head>
 <p>
 <note n="0442001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0442001">入或作八</note>
 <note n="0442002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0442002">反疑及</note>

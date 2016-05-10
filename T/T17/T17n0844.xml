@@ -13,6 +13,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2012/09/28 08:51:56 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,7 +33,9 @@
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【明】</witness>
-		<witness xml:id="wit3">【元】</witness>
+		<witness xml:id="wit3">【CBETA】</witness>
+		<witness xml:id="wit4">【麗】</witness>
+		<witness xml:id="wit5">【元】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -41,6 +44,21 @@
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Mao Pei-Jun and Liao Yu-An and Liao Yu-Ci</p>
 		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，毛佩君、廖予安、廖予慈大德提供新式標點</p>
 	</projectDesc>
+<charDecl>
+<char xml:id="CB21932">
+	<charName>CBETA CHARACTER CB21932</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[日*(宴-女+六)]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>暝</value>
+	</charProp>
+	<mapping type="normal_unicode">U+669D</mapping>
+	<mapping cb:dec="1004972" type="PUA">U+F55AC</mapping>
+</char>
+</charDecl>
 </encodingDesc>
 <profileDesc>
 		<langUsage>
@@ -154,7 +172,7 @@ Added comment  for Emacs
 <lb n="0931b06" ed="T"/>最上戒香，具足一切樂具，皆得如意。』</p><p xml:id="pT17p0931b0615" rend="inline">「若施一
 <lb n="0931b07" ed="T"/>華，普願一切眾生當於天上人間平等受大
 <lb n="0931b08" ed="T"/>供養。</p><p xml:id="pT17p0931b0803" rend="inline">「若施一燈，普願一切眾生開諸盲目，消
-<lb n="0931b09" ed="T"/>除瞑暗，得大明照，如日月光。</p><p xml:id="pT17p0931b0912" rend="inline">「若施塗香而用
+<lb n="0931b09" ed="T"/>除<anchor xml:id="beg_1" type="cb-app"/>暝<anchor xml:id="end_1"/>暗，得大明照，如日月光。</p><p xml:id="pT17p0931b0912" rend="inline">「若施塗香而用
 <lb n="0931b10" ed="T"/>塗飾，普願一切眾生當得真金色相、天香塗
 <lb n="0931b11" ed="T"/>飾。</p><p xml:id="pT17p0931b1102" rend="inline">「若施衣服，普願一切眾生慚愧具足，離諸
 <lb n="0931b12" ed="T"/>過失。</p><p xml:id="pT17p0931b1203" rend="inline">「若施摶食，普願一切眾生得天甘露
@@ -247,7 +265,8 @@ Added comment  for Emacs
 <app from="#beg0931001" to="#end0931001"><lem wit="#wit1">西天</lem><rdg resp="#resp1" wit="#wit2">宋西天</rdg></app>
 <app from="#beg0931002" to="#end0931002"><lem wit="#wit1">譯經</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0931003" to="#end0931003"><lem wit="#wit1">臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0931004" to="#end0931004"><lem wit="#wit1">定</lem><rdg resp="#resp1" wit="#wit3 #wit2">食</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit3 #wit4" resp="#resp2">暝<note type="cf1">K40n1421_p0153b23</note></lem><rdg wit="#wit1">瞑</rdg><rdg resp="#resp2" wit="#wit4"><g ref="#CB21932">󵖬</g><note type="cf1">K40n1421_p0153b23</note></rdg></app>
+<app from="#beg0931004" to="#end0931004"><lem wit="#wit1">定</lem><rdg resp="#resp1" wit="#wit5 #wit2">食</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

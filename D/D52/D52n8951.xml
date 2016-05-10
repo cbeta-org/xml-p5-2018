@@ -2295,7 +2295,6 @@
 		<localName>normalized form</localName>
 		<value>罹</value>
 	</charProp>
-	<mapping type="normal_unicode">U+26310</mapping>
 	<mapping cb:dec="996600" type="PUA">U+F34F8</mapping>
 </char>
 <char xml:id="CB13580">
@@ -3459,6 +3458,11 @@
 		<localName>composition</localName>
 		<value>[冰-水+絜]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>潔</value>
+	</charProp>
+	<mapping type="unicode">U+34D7</mapping>
 	<mapping cb:dec="1005600" type="PUA">U+F5820</mapping>
 </char>
 <char xml:id="CB23001">
@@ -3615,6 +3619,11 @@
 		<localName>composition</localName>
 		<value>[烈-列+執]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>熱</value>
+	</charProp>
+	<mapping type="unicode">U+24360</mapping>
 	<mapping cb:dec="1013079" type="PUA">U+F7557</mapping>
 </char>
 <char xml:id="CB30042">
@@ -3680,6 +3689,11 @@
 		<localName>composition</localName>
 		<value>[僊-(厄-厂)+山]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>僊</value>
+	</charProp>
+	<mapping type="unicode">U+203A3</mapping>
 	<mapping cb:dec="1013142" type="PUA">U+F7596</mapping>
 </char>
 <char xml:id="CB30133">
@@ -4150,6 +4164,10 @@
 		<localName>composition</localName>
 		<value>[(上/矢)*欠]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>款</value>
+	</charProp>
 	<mapping cb:dec="1015079" type="PUA">U+F7D27</mapping>
 </char>
 <char xml:id="CB32263">
@@ -4565,6 +4583,11 @@
 		<localName>composition</localName>
 		<value>[羔/大]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>羹</value>
+	</charProp>
+	<mapping type="unicode">U+21661</mapping>
 	<mapping cb:dec="1015769" type="PUA">U+F7FD9</mapping>
 </char>
 </charDecl>
@@ -31034,7 +31057,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>淨</corr><sic>凈</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>淨</corr><sic>凈</sic></choice>

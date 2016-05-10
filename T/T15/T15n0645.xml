@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.12 $<date>$Date: 2012/08/27 03:15:01 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,9 @@
 		<witness xml:id="wit3">【宋】</witness>
 		<witness xml:id="wit4">【元】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
+		<witness xml:id="wit8">【磧砂】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -289,7 +293,7 @@ Added comment  for Emacs
 <lb n="0700c26" ed="T"/>說大乘乃至一偈。文殊師利！此是<anchor xml:id="beg_4" type="star"/>月日<anchor xml:id="end_4"/>神
 <lb n="0700c27" ed="T"/>通乘行菩薩應知。</p><p xml:id="pT15p0700c2708" rend="inline">「文殊師利！譬如有大<anchor xml:id="nkr_note_orig_0700012" n="0700012"/><anchor xml:id="nkr_note_mod_0700012" n="0700012"/><anchor xml:id="beg0700012" n="0700012"/>迦<anchor xml:id="end0700012"/>
 <lb n="0700c28" ed="T"/>樓羅王大力少壯，隨意所念須彌山頂能到異
-<lb n="0700c29" ed="T"/>處。如是如是。<anchor xml:id="nkr_note_orig_0700013" n="0700013"/><anchor xml:id="beg0700013" n="0700013"/>文殊師則<anchor xml:id="end0700013"/>！<anchor xml:id="beg_5" type="star"/>月日<anchor xml:id="end_5"/>神通乘行
+<lb n="0700c29" ed="T"/>處。如是如是。<anchor xml:id="nkr_note_orig_0700013" n="0700013"/><anchor xml:id="nkr_note_mod_0700013" n="0700013"/><anchor xml:id="beg0700013" n="0700013"/>文殊師利<anchor xml:id="end0700013"/>！<anchor xml:id="beg_5" type="star"/>月日<anchor xml:id="end_5"/>神通乘行
 <pb n="0701a" ed="T" xml:id="T15.0645.0701a"/>
 <lb n="0701a01" ed="T"/>菩薩，戒聞深心大力少壯，勇健能得，隨心所
 <lb n="0701a02" ed="T"/>念佛佛世界皆能過到，於諸如來眾會輪中
@@ -641,7 +645,7 @@ Added comment  for Emacs
 <lb n="0704c18" ed="T"/>廣增上寬大。如是，如是。文殊師利！極細微
 <lb n="0704c19" ed="T"/>少如來善根，諸餘一切善根中勝，有多光明
 <lb n="0704c20" ed="T"/>其體圓滿，所謂高廣增上寬大。文殊師利！
-<lb n="0704c21" ed="T"/>如是如來、正遍知不可思議功德成就。</p><p xml:id="pT15p0704c2116" rend="inline">「文殊
+<lb n="0704c21" ed="T"/>如是如來、<anchor xml:id="beg_16" type="cb-app"/>應<anchor xml:id="end_16"/>、正遍知不可思議功德成就。</p><p xml:id="pT15p0704c2116" rend="inline">「文殊
 <lb n="0704c22" ed="T"/>師利！若善男子若善女人，能以天衣、天百
 <lb n="0704c23" ed="T"/>味食，於日日中施與十方一切世界微塵等
 <lb n="0704c24" ed="T"/>數，一切諸佛、一切菩薩、一切聲聞，如是乃至
@@ -737,7 +741,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0699005" to="#end0699005"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0699006" to="#end0699006"><lem wit="#wit1">採</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">采</rdg></app>
@@ -760,7 +764,7 @@ Added comment  for Emacs
 <app from="#beg_3" to="#end_3" corresp="#0700011"><lem wit="#wit1">月日</lem><rdg resp="#resp1" wit="#wit5">日月</rdg></app>
 <app from="#beg_4" to="#end_4" corresp="#0700011"><lem wit="#wit1">月日</lem><rdg resp="#resp1" wit="#wit5">日月</rdg></app>
 <app from="#beg0700012" to="#end0700012"><lem wit="#wit1">迦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">伽</rdg></app>
-<app from="#beg0700013" to="#end0700013"><lem wit="#wit1">文殊師則</lem><rdg resp="#resp1" wit="#wit5">文殊師利</rdg></app>
+<app from="#beg0700013" to="#end0700013"><lem wit="#wit6 #wit7" resp="#resp3">文殊師利<note type="cf1">K10n0138_p0311b03</note></lem><rdg wit="#wit1">文殊師則</rdg><rdg resp="#resp1" wit="#wit5">文殊師利</rdg></app>
 <app from="#beg_5" to="#end_5" corresp="#0700011"><lem wit="#wit1">月日</lem><rdg resp="#resp1" wit="#wit5">日月</rdg></app>
 <app from="#beg0701001" to="#end0701001"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">想</rdg></app>
 <app from="#beg0702001" to="#end0702001"><lem wit="#wit1">焰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惔</rdg></app>
@@ -785,12 +789,13 @@ Added comment  for Emacs
 <app from="#beg0704003" to="#end0704003"><lem wit="#wit1">一渧</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">一滴</rdg></app>
 <app from="#beg0704004" to="#end0704004"><lem wit="#wit1">減</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">滅</rdg></app>
 <app from="#beg_15" to="#end_15" corresp="#0704004"><lem wit="#wit1">減</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">滅</rdg></app>
+<app from="#beg_16" to="#end_16"><lem wit="#wit6 #wit7 #wit8" resp="#resp3">應<note type="cf1">K10n0138_p0317b12</note><note type="cf2">Q10_p0062c23</note></lem><rdg wit="#wit1"><space quantity="0"/></rdg></app>
 <app from="#beg0705001" to="#end0705001"><lem wit="#wit1">開</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">闇</rdg></app>
 <app from="#beg0705002" to="#end0705002"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">陀</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0699006" resp="#resp2" type="mod" target="#nkr_note_mod_0699006">採＝采【宋】【元】【明】【宮】</note>
 <note n="0700003" resp="#resp2" type="mod" target="#nkr_note_mod_0700003">瞑＝冥【宋】【元】【明】【宮】</note>
@@ -801,6 +806,7 @@ Added comment  for Emacs
 <note n="0700009" resp="#resp2" type="mod" target="#nkr_note_mod_0700009">渡＝度【宋】【元】【明】【宮】</note>
 <note n="0700010" resp="#resp2" type="mod" target="#nkr_note_mod_0700010">能＝於【宋】【元】【明】【宮】</note>
 <note n="0700012" resp="#resp2" type="mod" target="#nkr_note_mod_0700012">迦＝伽【宋】【元】【明】【宮】＊</note>
+<note n="0700013" resp="#resp2" type="mod" target="#nkr_note_mod_0700013">文殊師則＝文殊師利【宮】【麗-CB】【CB】</note>
 <note n="0701001" resp="#resp2" type="mod" target="#nkr_note_mod_0701001">心＝想【宋】【元】【明】【宮】</note>
 <note n="0702001" resp="#resp2" type="mod" target="#nkr_note_mod_0702001">焰＝惔【宋】【元】【明】【宮】</note>
 <note n="0704001" resp="#resp2" type="mod" target="#nkr_note_mod_0704001">闇翳＝翳闇【宋】【元】【明】【宮】</note>
@@ -812,7 +818,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0699005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0699005">〔之〕－【明】</note>
 <note n="0699006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0699006">採＝采【三】【宮】</note>

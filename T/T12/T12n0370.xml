@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.14 $<date>$Date: 2012/08/27 03:14:38 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -37,6 +38,8 @@
 		<witness xml:id="wit4">【宋】</witness>
 		<witness xml:id="wit5">【元】</witness>
 		<witness xml:id="wit6">【明】</witness>
+		<witness xml:id="wit7">【CBETA】</witness>
+		<witness xml:id="wit8">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -176,7 +179,7 @@ add cvs log
 <lb n="0353a04" ed="T"/>啼<note place="inline">四十八</note>　修波羅啼癡啼<note place="inline">四十九</note>　修離<note place="inline">五十</note>　修目<anchor xml:id="nkr_note_orig_0353003" n="0353003"/><anchor xml:id="beg0353003" n="0353003"/>企<anchor xml:id="end0353003"/>
 <lb n="0353a05" ed="T"/><note place="inline">五十一</note>　達咩<note place="inline">五十二</note>　達達<anchor xml:id="nkr_note_orig_0353004" n="0353004"/><anchor xml:id="nkr_note_mod_0353004" n="0353004"/><anchor xml:id="beg0353004" n="0353004"/>啼<anchor xml:id="end0353004"/><note place="inline">五十三</note>　離婆<note place="inline">五十四</note>　遮婆
 <lb n="0353a06" ed="T"/>離<note place="inline">五十五</note>　阿<g ref="#CB00145">㝹</g>舍婆離<note place="inline">五十六</note>　佛陀迦舍昵<anchor xml:id="nkr_note_orig_0353005" n="0353005"/><anchor xml:id="nkr_note_mod_0353005" n="0353005"/><anchor xml:id="beg0353005" n="0353005"/>裘<anchor xml:id="end0353005"/><anchor xml:id="nkr_note_orig_0353006" n="0353006"/><anchor xml:id="nkr_note_mod_0353006" n="0353006"/><anchor xml:id="beg0353006" n="0353006"/>禰<anchor xml:id="end0353006"/>
-<lb n="0353a07" ed="T"/>佛陀迦舍裘禰<note place="inline">五十七</note>　娑婆呵<anchor xml:id="nkr_note_orig_0353007" n="0353007"/><anchor xml:id="nkr_note_mod_0353007" n="0353007"/><anchor xml:id="beg0353007" n="0353007"/><note place="inline">五十八</note><anchor xml:id="end0353007"/></p>
+<lb n="0353a07" ed="T"/>佛陀迦舍裘禰<note place="inline">五十七</note>　<anchor xml:id="beg_1" type="cb-app"/>沙<anchor xml:id="end_1"/>婆呵<anchor xml:id="nkr_note_orig_0353007" n="0353007"/><anchor xml:id="nkr_note_mod_0353007" n="0353007"/><anchor xml:id="beg0353007" n="0353007"/><note place="inline">五十八</note><anchor xml:id="end0353007"/></p>
 <lb n="0353a08" ed="T"/><p xml:id="pT12p0353a0801">「此是阿彌陀鼓音聲王大陀羅尼。若有比丘、
 <lb n="0353a09" ed="T"/>比丘尼、清信士女，常應至誠受持讀誦，如說
 <lb n="0353a10" ed="T"/>修行，行此持法。當處閑寂，洗浴其身，著新淨
@@ -205,7 +208,7 @@ add cvs log
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0352008" to="#end0352008"><lem wit="#wit1">阿</lem><rdg resp="#resp1" wit="#wit2 #wit3">佛說阿</rdg></app>
 <app from="#beg0352009" to="#end0352009"><lem wit="#wit1">失譯人名今附梁錄</lem><rdg resp="#resp1" wit="#wit4 #wit2">失譯</rdg><rdg resp="#resp1" wit="#wit5">開元附梁錄失譯人名</rdg><rdg resp="#resp1" wit="#wit6">失譯人名開元附梁錄</rdg><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
@@ -241,6 +244,7 @@ add cvs log
 <app from="#beg0353004" to="#end0353004"><lem wit="#wit1">啼</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6 #wit2">咩</rdg></app>
 <app from="#beg0353005" to="#end0353005"><lem wit="#wit1">裘</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6 #wit2">求</rdg></app>
 <app from="#beg0353006" to="#end0353006"><lem wit="#wit1">禰</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6 #wit2 #wit3">禰<note place="inline">五十六</note></rdg></app>
+<app from="#beg_1" to="#end_1"><lem resp="#resp3" wit="#wit7 #wit8">沙<note type="cf1">K13n0443_p1160a22</note></lem><rdg wit="#wit1">娑</rdg></app>
 <app from="#beg0353007" to="#end0353007"><lem wit="#wit1"><note place="inline">五十八</note></lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6 #wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0353008" to="#end0353008"><lem wit="#wit1">馥</lem><rdg resp="#resp1" wit="#wit3"><g ref="#CB03228">󰲜</g></rdg></app>
 <app from="#beg0353009" to="#end0353009"><lem wit="#wit1">雅</lem><rdg resp="#resp1" wit="#wit3">邪</rdg></app>
@@ -251,7 +255,7 @@ add cvs log
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0352009" resp="#resp2" type="mod" target="#nkr_note_mod_0352009">失譯人名今附梁錄＝失譯【宋】【宮】，＝開元附梁錄失譯人名【元】，＝失譯人名開元附梁錄【明】，－【福】</note>
 <note n="0352010" resp="#resp2" type="mod" target="#nkr_note_mod_0352010">陀＋（佛）【宋】【元】【明】【宮】【福】</note>
@@ -285,7 +289,7 @@ add cvs log
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0352008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0352008">（佛說）＋阿【宮】【福】</note>
 <note n="0352009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0352009">失譯人名今附梁錄＝失譯【宋】【宮】，開元附梁錄失譯人名【元】，失譯人名開元附梁錄【明】，缺【福】</note>

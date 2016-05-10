@@ -37,6 +37,8 @@
 		<witness xml:id="wit3">【宋】</witness>
 		<witness xml:id="wit4">【元】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -327,7 +329,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0821007" to="#end0821007"><lem wit="#wit1">西天譯經</lem><rdg resp="#resp1" wit="#wit2">宋西天</rdg></app>
 <app from="#beg0821009" to="#end0821009"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit3 #wit4">教</rdg></app>
@@ -341,17 +343,17 @@ Added comment  for Emacs
 <app from="#beg0822003" to="#end0822003"><lem wit="#wit1">緣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0822004" to="#end0822004"><lem wit="#wit1">鐶</lem><rdg resp="#resp1" wit="#wit2">環</rdg></app>
 <app from="#beg0822005" to="#end0822005"><lem wit="#wit1">慾</lem><rdg resp="#resp1" wit="#wit2">欲</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_1" cb:to="#end_1"><corr>正</corr><sic>五</sic></choice>
+<app from="#beg_1" to="#end_1"><lem resp="#resp3" wit="#wit6 #wit7">正<note type="cf1">K34n1191_p0220b14</note></lem><rdg wit="#wit1">五</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0821012" resp="#resp2" type="mod" target="#nkr_note_mod_0821012">盤＝槃【宋】【元】【明】【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0821007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0821007">西天譯經＝宋西天【明】</note>
 <note n="0821008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0821008">傳法＝明教【宮】</note>

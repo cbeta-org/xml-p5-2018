@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.13 $<date>$Date: 2012/08/27 03:14:37 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -37,6 +38,8 @@
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
 		<witness xml:id="wit6">【聖】</witness>
+		<witness xml:id="wit7">【CBETA】</witness>
+		<witness xml:id="wit8">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -308,7 +311,7 @@ add cvs log
 <lb n="0190c02" ed="T"/>薩如是，發心成薩芸若。譬如樹蔭却雨；菩
 <lb n="0190c03" ed="T"/>薩如是，持極大慈雨於經道。譬如國王得傍
 <lb n="0190c04" ed="T"/>臣共治，則好漚<anchor xml:id="beg_3" type="star"/>惒<anchor xml:id="end_3"/>拘舍羅；如是菩薩，所作
-<lb n="0190c05" ed="T"/>為如佛。譬如天<anchor xml:id="nkr_note_orig_0190017" n="0190017"/><anchor xml:id="nkr_note_mod_0190017" n="0190017"/><anchor xml:id="beg0190017" n="0190017"/><g ref="#CB02300">𩄆</g><anchor xml:id="end0190017"/>欲索雨不能得也；菩薩
+<lb n="0190c05" ed="T"/>為如佛。譬如天<anchor xml:id="nkr_note_orig_0190017" n="0190017"/><anchor xml:id="nkr_note_mod_0190017" n="0190017"/><anchor xml:id="beg0190017" n="0190017"/>晴<anchor xml:id="end0190017"/>欲索雨不能得也；菩薩
 <lb n="0190c06" ed="T"/>如是，不學經道，豫知不高明也。譬如遮迦越
 <lb n="0190c07" ed="T"/>羅<anchor xml:id="nkr_note_orig_0190018" n="0190018"/><anchor xml:id="nkr_note_mod_0190018" n="0190018"/><anchor xml:id="beg0190018" n="0190018"/>王<anchor xml:id="end0190018"/>之所處，自然<anchor xml:id="nkr_note_orig_0190019" n="0190019"/><anchor xml:id="nkr_note_mod_0190019" n="0190019"/><anchor xml:id="beg0190019" n="0190019"/>後<anchor xml:id="end0190019"/>七寶自然來生；菩薩
 <lb n="0190c08" ed="T"/>如是，初生薩芸若意，然後自然生三十七品
@@ -583,7 +586,7 @@ add cvs log
 <lb n="0193c07" ed="T"/>諦議不戲也，不爭者是為比丘法也。何因為
 <lb n="0193c08" ed="T"/>泥洹身中，有我有神有命有人有意耶？當有
 <lb n="0193c09" ed="T"/>至泥洹處者耶？」五百人報言：「是身亦無人亦
-<lb n="0193c10" ed="T"/>無我亦無<anchor xml:id="nkr_note_orig_0193012" n="0193012"/><anchor xml:id="beg0193012" n="0193012"/>名<anchor xml:id="end0193012"/>亦無意亦無有，行至泥洹處者
+<lb n="0193c10" ed="T"/>無我亦無<anchor xml:id="nkr_note_orig_0193012" n="0193012"/><anchor xml:id="nkr_note_mod_0559008" n="0559008"/><anchor xml:id="beg0193012" n="0193012"/>命<anchor xml:id="end0193012"/>亦無意亦無有，行至泥洹處者
 <lb n="0193c11" ed="T"/>也。」兩比丘復報言：「何等盡，當得泥洹者？」五百
 <lb n="0193c12" ed="T"/>人復報言：「盡婬盡怒盡癡，是為泥洹。」兩比丘
 <lb n="0193c13" ed="T"/>復問言：「卿曹婬怒癡悉盡未？」五百人復報言：
@@ -626,7 +629,7 @@ add cvs log
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0189009" to="#end0189009"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app cb:word-count="9" from="#beg0189010" to="#end0189010"><lem wit="#wit1">月支國三藏支婁迦讖</lem><rdg resp="#resp1" wit="#wit2 #wit5">光和年支讖</rdg><rdg resp="#resp1" wit="#wit3 #wit4">月支沙門支婁迦讖</rdg></app>
@@ -659,7 +662,7 @@ add cvs log
 <app from="#beg0190015" to="#end0190015"><lem wit="#wit1">天下</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5 #wit6">天下人</rdg></app>
 <app from="#beg0190016" to="#end0190016"><lem wit="#wit1">戒</lem><rdg resp="#resp1" wit="#wit3 #wit4">威</rdg></app>
 <app from="#beg_3" to="#end_3" corresp="#0190009"><lem wit="#wit1">惒</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit6">和</rdg></app>
-<app from="#beg0190017" to="#end0190017"><lem wit="#wit1"><g ref="#CB02300">𩄆</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">晴</rdg></app>
+<app from="#beg0190017" to="#end0190017"><lem wit="#wit7 #wit8" resp="#resp3">晴<note type="cf1">T54n2128_p0412b05</note><note type="cf2">T12n0350_p0190c05 校勘17</note></lem><rdg wit="#wit1"><g ref="#CB02300">𩄆</g></rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">晴</rdg></app>
 <app from="#beg0190018" to="#end0190018"><lem wit="#wit1">王</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
 <app from="#beg0190019" to="#end0190019"><lem wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">有</rdg></app>
 <app from="#beg0190020" to="#end0190020"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5 #wit6">二</rdg></app>
@@ -730,7 +733,7 @@ add cvs log
 <app from="#beg0193009" to="#end0193009"><lem wit="#wit1">佛</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
 <app from="#beg0193010" to="#end0193010"><lem wit="#wit1">使</lem><rdg resp="#resp1" wit="#wit6">駚</rdg></app>
 <app from="#beg0193011" to="#end0193011"><lem wit="#wit1">湊</lem><rdg resp="#resp1" wit="#wit6">奏</rdg></app>
-<app from="#beg0193012" to="#end0193012"><lem wit="#wit1">名</lem><rdg resp="#resp1" wit="#wit5 #wit6">命</rdg></app>
+<app from="#beg0193012" to="#end0193012"><lem wit="#wit7 #wit8" resp="#resp3">命<note type="cf1">K06n0052_p1349b24</note></lem><rdg wit="#wit1">名</rdg><rdg resp="#resp1" wit="#wit5 #wit6">命</rdg></app>
 <app from="#beg0193013" to="#end0193013"><lem wit="#wit1">痒</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">癢</rdg></app>
 <app from="#beg_18" to="#end_18" corresp="#0193013"><lem wit="#wit1">痒</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">癢</rdg></app>
 <app from="#beg0193014" to="#end0193014"><lem wit="#wit1">所</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
@@ -742,7 +745,7 @@ add cvs log
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0189009" resp="#resp2" type="mod" target="#nkr_note_mod_0189009">〔說〕－【宋】【元】【明】【宮】</note>
 <note n="0189010" resp="#resp2" type="mod" target="#nkr_note_mod_0189010">（（月支…迦讖））＝光和年支讖【宋】【宮】，＝月支沙門支婁迦讖【元】【明】</note>
@@ -758,7 +761,7 @@ add cvs log
 <note n="0190013" resp="#resp2" type="mod" target="#nkr_note_mod_0190013">煖＝暖【宋】【元】【明】【宮】</note>
 <note n="0190014" resp="#resp2" type="mod" target="#nkr_note_mod_0190014">〔人〕－【宋】【元】【明】【宮】</note>
 <note n="0190015" resp="#resp2" type="mod" target="#nkr_note_mod_0190015">天下＋（人）【宋】【元】【明】【宮】【聖】</note>
-<note n="0190017" resp="#resp2" type="mod" target="#nkr_note_mod_0190017"><g ref="#CB02300">𩄆</g>＝晴【宋】【元】【明】【宮】</note>
+<note n="0190017" resp="#resp2" type="mod" target="#nkr_note_mod_0190017"><g ref="#CB02300">𩄆</g>＝晴【宋】【元】【明】【宮】【麗-CB】【CB】</note>
 <note n="0190018" resp="#resp2" type="mod" target="#nkr_note_mod_0190018">〔王〕－【宋】【元】【明】【宮】【聖】</note>
 <note n="0190019" resp="#resp2" type="mod" target="#nkr_note_mod_0190019">後＝有【宋】【元】【明】【宮】</note>
 <note n="0190020" resp="#resp2" type="mod" target="#nkr_note_mod_0190020">一＝二【宋】【元】【明】【宮】【聖】</note>
@@ -789,6 +792,7 @@ add cvs log
 <note n="0193003" resp="#resp2" type="mod" target="#nkr_note_mod_0193003">譬＋（如）【宋】【元】【明】【宮】【聖】</note>
 <note n="0193006" resp="#resp2" type="mod" target="#nkr_note_mod_0193006">避＝辟【宋】【元】【明】【宮】</note>
 <note n="0193008" resp="#resp2" type="mod" target="#nkr_note_mod_0193008">訶＝何【宋】【元】【明】【宮】【聖】</note>
+<note n="0559008" resp="#resp2" type="mod" target="#nkr_note_mod_0559008">名＝命【宮】【聖】【麗-CB】【CB】</note>
 <note n="0193013" resp="#resp2" type="mod" target="#nkr_note_mod_0193013">痒＝癢【宋】【元】【明】【宮】＊</note>
 <note n="0193014" resp="#resp2" type="mod" target="#nkr_note_mod_0193014">〔所〕－【宋】【元】【明】【宮】</note>
 <note n="0193015" resp="#resp2" type="mod" target="#nkr_note_mod_0193015">（復）＋問【宋】【元】【明】【宮】【聖】</note>
@@ -798,7 +802,7 @@ add cvs log
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0189009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0189009">〔說〕－【三】【宮】</note>
 <note n="0189010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0189010">（（月支…迦讖））＝光和年支讖【宋】【宮】，月支沙門支婁迦讖【元】【明】</note>

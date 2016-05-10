@@ -38,6 +38,7 @@
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
 		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -230,7 +231,7 @@ Added comment  for Emacs
 <lb n="0740c28" ed="T"/>父母，便有六繫<anchor xml:id="nkr_note_orig_0740017" n="0740017"/><anchor xml:id="beg0740017" n="0740017"/>閉<anchor xml:id="end0740017"/>：一者、住在中陰，不得復
 <lb n="0740c29" ed="T"/>還；二者、隨所受身胞內；三者、初生迫痛，忘故
 <pb n="0741a" ed="T" xml:id="T17.0796.0741a"/>
-<lb n="0741a01" ed="T"/>識<anchor xml:id="nkr_note_orig_0741001" n="0741001"/><anchor xml:id="beg0741001" n="0741001"/>相<anchor xml:id="end0741001"/>；四者、墮地故所識念滅，更起<anchor xml:id="nkr_note_orig_0741002" n="0741002"/><anchor xml:id="beg0741002" n="0741002"/>新<anchor xml:id="end0741002"/>見想；
+<lb n="0741a01" ed="T"/>識<anchor xml:id="nkr_note_orig_0741001" n="0741001"/><anchor xml:id="nkr_note_mod_0741001" n="0741001"/><anchor xml:id="beg0741001" n="0741001"/>想<anchor xml:id="end0741001"/>；四者、墮地故所識念滅，更起<anchor xml:id="nkr_note_orig_0741002" n="0741002"/><anchor xml:id="beg0741002" n="0741002"/>新<anchor xml:id="end0741002"/>見想；
 <lb n="0741a02" ed="T"/>五者、已生便著食，貪念故識念斷；六者、從生
 <lb n="0741a03" ed="T"/>日長大，習所新見，識滅無復宿識。</p><p xml:id="pT17p0741a0314" rend="inline">「諸弟子！譬
 <lb n="0741a04" ed="T"/>如賈客周遊四方國，具見苦樂，便意思念東
@@ -393,7 +394,7 @@ Added comment  for Emacs
 <app from="#beg0740016" to="#end0740016"><lem wit="#wit1">洋</lem><rdg resp="#resp1" wit="#wit4">烊</rdg></app>
 <app from="#beg_1" to="#end_1" corresp="#0740016"><lem wit="#wit1">洋</lem><rdg resp="#resp1" wit="#wit4">烊</rdg></app>
 <app from="#beg0740017" to="#end0740017"><lem wit="#wit1">閉</lem><rdg resp="#resp1" wit="#wit4">蔽</rdg></app>
-<app from="#beg0741001" to="#end0741001"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit5">想</rdg></app>
+<app from="#beg0741001" to="#end0741001"><lem wit="#wit6 #wit7" resp="#resp3">想<note type="cf1">K20n0835_p1171a22</note></lem><rdg wit="#wit1">相</rdg><rdg resp="#resp1" wit="#wit5">想</rdg></app>
 <app from="#beg0741002" to="#end0741002"><lem wit="#wit1">新</lem><rdg resp="#resp1" wit="#wit5">雜</rdg></app>
 <app from="#beg0741003" to="#end0741003"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0741004" to="#end0741004"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">唯</rdg></app>
@@ -426,7 +427,7 @@ Added comment  for Emacs
 <app from="#beg_5" to="#end_5" corresp="#0742003"><lem wit="#wit1">福</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">禍</rdg></app>
 <app from="#beg0742006" to="#end0742006"><lem wit="#wit1">況</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">沈</rdg></app>
 <app from="#beg0742007" to="#end0742007"><lem wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">所行</rdg></app>
-<app from="#beg0742008" to="#end0742008"><lem resp="#resp3" wit="#wit6">今</lem><rdg wit="#wit1">令</rdg><rdg resp="#resp1" wit="#wit5">今</rdg></app>
+<app from="#beg0742008" to="#end0742008"><lem resp="#resp3" wit="#wit6">今<note type="cf1">K20n0835_p1173a21</note></lem><rdg wit="#wit1">令</rdg><rdg resp="#resp1" wit="#wit5">今</rdg></app>
 <app from="#beg0742009" to="#end0742009"><lem wit="#wit1">本</lem><rdg resp="#resp1" wit="#wit2 #wit5">教</rdg></app>
 <app from="#beg0742010" to="#end0742010"><lem wit="#wit1">至</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">對至</rdg></app>
 <app from="#beg_6" to="#end_6" corresp="#0740007"><lem wit="#wit1"><note place="inline">亦名生死變識經</note></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
@@ -440,6 +441,7 @@ Added comment  for Emacs
 <note n="0740009" resp="#resp2" type="mod" target="#nkr_note_mod_0740009">羅閱＋（國）【宋】【元】【明】【宮】</note>
 <note n="0740010" resp="#resp2" type="mod" target="#nkr_note_mod_0740010">祇國＝祇洹【宋】【元】【明】【宮】，＝祇園【CB】</note>
 <note n="0740012" resp="#resp2" type="mod" target="#nkr_note_mod_0740012">〔知〕－【宋】【元】【明】【宮】</note>
+<note n="0741001" resp="#resp2" type="mod" target="#nkr_note_mod_0741001">相＝想【宮】【麗-CB】【CB】</note>
 <note n="0741003" resp="#resp2" type="mod" target="#nkr_note_mod_0741003">〔受〕－【宋】【元】【明】【宮】</note>
 <note n="0741004" resp="#resp2" type="mod" target="#nkr_note_mod_0741004">惟＝唯【宋】【元】【明】</note>
 <note n="0741007" resp="#resp2" type="mod" target="#nkr_note_mod_0741007"><g ref="#CB00550">𣃆</g>＝斫【宋】【元】【明】【宮】＊</note>
@@ -457,7 +459,7 @@ Added comment  for Emacs
 <note n="0742005" resp="#resp2" type="mod" target="#nkr_note_mod_0742005">思＝畏【宋】【元】【明】【宮】</note>
 <note n="0742006" resp="#resp2" type="mod" target="#nkr_note_mod_0742006">況＝沈【宋】【元】【明】【宮】</note>
 <note n="0742007" resp="#resp2" type="mod" target="#nkr_note_mod_0742007">（所）＋行【宋】【元】【明】【宮】</note>
-<note n="0742008" resp="#resp2" type="mod" target="#nkr_note_mod_0742008">令＝今【宮】【CB】</note>
+<note n="0742008" resp="#resp2" type="mod" target="#nkr_note_mod_0742008">令＝今【宮】【麗-CB】【CB】</note>
 <note n="0742010" resp="#resp2" type="mod" target="#nkr_note_mod_0742010">（對）＋至【宋】【元】【明】【宮】</note>
 </p>
 </cb:div>

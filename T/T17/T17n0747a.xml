@@ -13,6 +13,7 @@
         <editionStmt>
                 <edition>$Revision: 1.12 $<date>$Date: 2012/10/08 08:17:37 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -29,7 +30,12 @@
         </publicationStmt>
         <sourceDesc>
                 <bibl>Taisho Tripitaka Vol. 17, No. 747a </bibl>
-        </sourceDesc>
+        <listWit>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit3">【大】</witness>
+	</listWit>
+	</sourceDesc>
 </fileDesc>
 <encodingDesc>
         <projectDesc>
@@ -173,7 +179,7 @@ Added comment  for Emacs
 <lb n="0562c09" ed="T"/>不視經法不聽經故；為人奴婢，負債不償故；
 <lb n="0562c10" ed="T"/>為人卑賤，不禮三尊故；為人醜黑，遮佛前光
 <lb n="0562c11" ed="T"/>明故；生在裸國，輕衣搪揬佛精舍故；生馬蹄
-<lb n="0562c12" ed="T"/>人國，屐躡佛前故；生穿胸人國，布施作福悔
+<lb n="0562c12" ed="T"/>人國，<anchor xml:id="beg_2" type="cb-app"/>著<anchor xml:id="end_2"/>屐躡佛前故；生穿胸人國，布施作福悔
 <lb n="0562c13" ed="T"/>惜心故；生麞鹿麋塵中，憙驚怖人故；生墮
 <lb n="0562c14" ed="T"/>龍中，憙調戲故；身生惡瘡治護難差，憙鞭榜
 <lb n="0562c15" ed="T"/>眾生故；人見歡喜，前生見人歡悅故；人見不
@@ -244,6 +250,7 @@ Added comment  for Emacs
 <head>校勘記</head>
 <p>
 <choice cb:from="#beg_1" cb:to="#end_1"><corr>孤</corr><sic>狐</sic></choice>
+<app from="#beg_2" to="#end_2"><lem wit="#wit1 #wit2" resp="#resp2">著<note type="cf1">K20n0838_p1176b15</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

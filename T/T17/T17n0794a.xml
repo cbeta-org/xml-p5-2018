@@ -13,6 +13,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2012/09/28 08:51:55 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,6 +30,11 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 17, No. 794a </bibl>
+	<listWit>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit3">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -166,12 +172,18 @@ Added comment  for Emacs
 <lb n="0738c28" ed="T"/><l>不善觀因緣，</l><l>身壞入惡道。」</l></lg>
 <lb n="0738c29" ed="T"/><p xml:id="pT17p0738c2901">外國法師若羅嚴，手執胡本，口自宣譯。涼州
 <pb n="0739a" ed="T" xml:id="T17.0794a.0739a"/>
-<lb n="0739a01" ed="T"/>道人，干填城中寫訖。</p>
+<lb n="0739a01" ed="T"/>道人，<anchor xml:id="beg_1" type="cb-app"/>于<anchor xml:id="end_1"/>填城中寫訖。</p>
 <lb n="0739a02" ed="T"/><p xml:id="pT17p0739a0201">被褐懷玉，深智作愚；外如夷人，內懷明珠；千
 <lb n="0739a03" ed="T"/>億萬劫，與道同體。</p></cb:div>
 <lb n="0739a04" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title>佛說時非時經</title></cb:jhead></cb:juan>
 </body>
 <back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg_1" to="#end_1"><lem wit="#wit1 #wit2" resp="#resp2">于<note type="cf1">K20n0857_p1207c11</note></lem><rdg wit="#wit3">干</rdg></app>
+</p>
+</cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校勘記</head>
 <p>

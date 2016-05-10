@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.14 $<date>$Date: 2012/08/27 03:14:39 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -35,6 +36,8 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【CBETA】</witness>
+		<witness xml:id="wit6">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -111,7 +114,7 @@ add cvs log
 <lb n="0364c01" ed="T"/><l>不疑生<anchor xml:id="nkr_note_orig_0364006" n="0364006"/><anchor xml:id="beg0364006" n="0364006"/>基<anchor xml:id="end0364006"/>坐，</l><l>叉手無量前，</l>
 <lb n="0364c02" ed="T"/><l>願欲遍十方，</l><l>須臾則旋還。</l>
 <lb n="0364c03" ed="T"/><l>惟念彼菩薩，</l><l>姟劫作功勤，</l>
-<lb n="0364c04" ed="T"/><l>本行如此致，</l><l>得號<anchor xml:id="beg_1" type="cb-app"/>會<anchor xml:id="end_1"/>世尊！</l>
+<lb n="0364c04" ed="T"/><l>本行如此致，</l><l>得號<anchor xml:id="beg_1" type="cb-app"/>懀<anchor xml:id="end_1"/>世尊！</l>
 <lb n="0364c05" ed="T"/><l>佛興難得值，</l><l>須臾會難聞，</l>
 <lb n="0364c06" ed="T"/><l>講說<anchor xml:id="nkr_note_orig_0364007" n="0364007"/><anchor xml:id="beg0364007" n="0364007"/>士<anchor xml:id="end0364007"/>難遇，</l><l>受學人難得。</l>
 <lb n="0364c07" ed="T"/><l>若後遭末世，</l><l>法欲衰微時，</l>
@@ -122,14 +125,14 @@ add cvs log
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0364002" to="#end0364002"><lem wit="#wit1">偈</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">偈經</rdg></app>
 <app cb:word-count="13" from="#beg0364003" to="#end0364003"><lem wit="#wit1">古舊錄云闕譯人名，今紀後漢錄</lem><rdg resp="#resp1" wit="#wit2">後漢失譯</rdg><rdg resp="#resp1" wit="#wit3 #wit4">後漢失譯師名</rdg></app>
 <app from="#beg0364004" to="#end0364004"><lem wit="#wit1">姟</lem><rdg resp="#resp1" wit="#wit2">垓</rdg></app>
 <app from="#beg0364005" to="#end0364005"><lem wit="#wit1">忘</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">望</rdg></app>
 <app from="#beg0364006" to="#end0364006"><lem wit="#wit1">基</lem><rdg resp="#resp1" wit="#wit3 #wit4">臺</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>會</corr><sic>憎</sic></choice>
+<app from="#beg_1" to="#end_1"><lem resp="#resp3" wit="#wit5 #wit6">懀<note type="cf1">K11n0190_p0175a17</note><note type="cf2">K35n1257_p0405a13-14</note></lem><rdg wit="#wit1">憎</rdg></app>
 <app from="#beg0364007" to="#end0364007"><lem wit="#wit1">士</lem><rdg resp="#resp1" wit="#wit2 #wit3">大</rdg></app>
 <app from="#beg0364008" to="#end0364008"><lem wit="#wit1">各各</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">各當</rdg></app>
 <app from="#beg0364009" to="#end0364009"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">弘</rdg></app>
@@ -138,7 +141,7 @@ add cvs log
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0364002" resp="#resp2" type="mod" target="#nkr_note_mod_0364002">偈＋（經）【宋】＊【元】＊【明】＊</note>
 <note n="0364005" resp="#resp2" type="mod" target="#nkr_note_mod_0364005">忘＝望【宋】【元】【明】</note>
@@ -148,7 +151,7 @@ add cvs log
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0364002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0364002">偈＋（經）【三】＊</note>
 <note n="0364003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0364003">（（古舊…錄））十三字＝（（後漢失譯））【宋】，（（後漢失譯師名））【元】【明】</note>

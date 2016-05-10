@@ -15,6 +15,7 @@
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -37,6 +38,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -239,7 +242,7 @@ Added comment  for Emacs
 <lb n="0838a25" ed="T"/>八萬四千寶樹，華果茂盛；一一樹下皆悉化
 <lb n="0838a26" ed="T"/>作寶師子座，眾寶廁填，皆悉敷置百千妙衣。
 <lb n="0838a27" ed="T"/>是諸座上皆見佛坐，形色相貌如釋迦牟尼！
-<lb n="0838a28" ed="T"/>是無量志莊嚴王菩薩現是化已，化虛空中
+<lb n="0838a28" ed="T"/>是無量志莊嚴王菩薩現是化已，<anchor xml:id="beg_1" type="cb-app"/>於<anchor xml:id="end_1"/>虛空中
 <lb n="0838a29" ed="T"/>化作寶蓋，縱廣正等百千由旬，垂懸繒綵鈴
 <pb n="0838b" ed="T" xml:id="T17.0821.0838b"/>
 <lb n="0838b01" ed="T"/>網<anchor xml:id="nkr_note_orig_0838003" n="0838003"/><anchor xml:id="beg0838003" n="0838003"/>莊<anchor xml:id="end0838003"/>飾，風吹鈴網出柔和微妙可愛軟音，
@@ -426,7 +429,7 @@ Added comment  for Emacs
 <lb n="0840b02" ed="T"/><p xml:id="pT17p0840b0201">「善男子！菩薩有四法，教修菩提心。何等四？謂
 <lb n="0840b03" ed="T"/>不麁<anchor xml:id="nkr_note_orig_0840003" n="0840003"/><anchor xml:id="beg0840003" n="0840003"/>穬<anchor xml:id="end0840003"/>、言說柔軟、無有麁澁、顏色和悅。是
 <lb n="0840b04" ed="T"/>為四。」而說偈言：</p>
-<lb n="0840b05" ed="T"/><lg xml:id="lgT17p0840b0501" rend="margin-left:1em;text-indent:-1em"><l>「柔軟解說義，</l><l>常無有麁<anchor xml:id="beg_1" type="star"/>穬<anchor xml:id="end_1"/>；</l>
+<lb n="0840b05" ed="T"/><lg xml:id="lgT17p0840b0501" rend="margin-left:1em;text-indent:-1em"><l>「柔軟解說義，</l><l>常無有麁<anchor xml:id="beg_2" type="star"/>穬<anchor xml:id="end_2"/>；</l>
 <lb n="0840b06" ed="T"/><l>和顏住是法，</l><l>彼教菩提心。</l></lg>
 <lb n="0840b07" ed="T"/><p xml:id="pT17p0840b0701">「善男子！菩薩有四法，菩提之心善根為首。何
 <lb n="0840b08" ed="T"/>等四？成滿相好開門大施、修淨佛土行種種
@@ -462,7 +465,7 @@ Added comment  for Emacs
 <lb n="0840c08" ed="T"/>說如住、如作而說、於諸眾生其心平等、生極
 <lb n="0840c09" ed="T"/>欲心<anchor xml:id="nkr_note_orig_0840006" n="0840006"/><anchor xml:id="nkr_note_mod_0840006" n="0840006"/><anchor xml:id="beg0840006" n="0840006"/>謂<anchor xml:id="end0840006"/>於善法。是為四。」而說頌曰：</p>
 <lb n="0840c10" ed="T"/><lg xml:id="lgT17p0840c1001" rend="margin-left:1em;text-indent:-1em"><l>「如說如住如作說，</l><l>等心眾生極欲道；</l>
-<lb n="0840c11" ed="T"/><l>善住於是四勝法，</l><l>常護道心不<anchor xml:id="beg_2" type="cb-app"/>忘<anchor xml:id="end_2"/>失。</l></lg>
+<lb n="0840c11" ed="T"/><l>善住於是四勝法，</l><l>常護道心不<anchor xml:id="beg_3" type="cb-app"/>忘<anchor xml:id="end_3"/>失。</l></lg>
 <lb n="0840c12" ed="T"/><p xml:id="pT17p0840c1201">「善男子！菩薩有四法，是所應作。何等四？修集
 <lb n="0840c13" ed="T"/>多聞、思念多聞、說於所聞、不退寂靜。是為
 <lb n="0840c14" ed="T"/>四。」而說頌曰：</p>
@@ -565,7 +568,7 @@ Added comment  for Emacs
 <lb n="0841c20" ed="T"/>四。」而說頌曰：</p>
 <lb n="0841c21" ed="T"/><lg xml:id="lgT17p0841c2101" rend="margin-left:1em;text-indent:-1em"><l>「菩提心有四，</l><l>說<anchor xml:id="nkr_note_orig_0841006" n="0841006"/><anchor xml:id="beg0841006" n="0841006"/>示<anchor xml:id="end0841006"/>名障礙；</l>
 <lb n="0841c22" ed="T"/><l>菩薩應覺知，</l><l>應數數遠離。</l>
-<lb n="0841c23" ed="T"/><l>毀<anchor xml:id="nkr_note_orig_0841007" n="0841007"/><anchor xml:id="nkr_note_mod_0841007" n="0841007"/><anchor xml:id="beg0841007" n="0841007"/>誹<anchor xml:id="end0841007"/>於正法，</l><l>多聞懷悋惜；</l>
+<lb n="0841c23" ed="T"/><l>毀<anchor xml:id="nkr_note_orig_0841007" n="0841007"/><anchor xml:id="nkr_note_mod_0841007" n="0841007"/><anchor xml:id="beg0841007" n="0841007"/>謗<anchor xml:id="end0841007"/>於正法，</l><l>多聞懷悋惜；</l>
 <lb n="0841c24" ed="T"/><l>增上慢貢高，</l><l>不善起禪定。</l>
 <lb n="0841c25" ed="T"/><l>是故護正法，</l><l>聞已廣流布；</l>
 <lb n="0841c26" ed="T"/><l>捨慢無貢高，</l><l>遠離不禪定。</l></lg>
@@ -575,14 +578,14 @@ Added comment  for Emacs
 <pb n="0842a" ed="T" xml:id="T17.0821.0842a"/>
 <lb n="0842a01" ed="T"/>化於眾生；晝夜三時常修三分，滅過惡業、未
 <lb n="0842a02" ed="T"/>來不造。是為四。」而說頌曰：</p>
-<lb n="0842a03" ed="T"/><lg xml:id="lgT17p0842a0301" rend="margin-left:1em;text-indent:-1em"><l>「所造以智不以慢，</l><l>迴善上道非下<anchor xml:id="nkr_note_orig_0842001" n="0842001"/><anchor xml:id="nkr_note_mod_0842001" n="0842001"/><anchor xml:id="beg0842001" n="0842001"/>眾<anchor xml:id="end0842001"/>；</l>
+<lb n="0842a03" ed="T"/><lg xml:id="lgT17p0842a0301" rend="margin-left:1em;text-indent:-1em"><l>「所造以智不以慢，</l><l>迴善上道非下<anchor xml:id="nkr_note_orig_0842001" n="0842001"/><anchor xml:id="nkr_note_mod_0842001" n="0842001"/><anchor xml:id="beg0842001" n="0842001"/>乘<anchor xml:id="end0842001"/>；</l>
 <lb n="0842a04" ed="T"/><l>慧者不信於諸有，</l><l>發心為利諸眾生。</l>
 <lb n="0842a05" ed="T"/><l>晝日三時夜亦爾！</l><l>三分悔過滅先惡；</l>
 <lb n="0842a06" ed="T"/><l>不造眾惡集諸<anchor xml:id="nkr_note_orig_0842002" n="0842002"/><anchor xml:id="nkr_note_mod_0842002" n="0842002"/><anchor xml:id="beg0842002" n="0842002"/>善<anchor xml:id="end0842002"/>，</l><l>慧者如是集善業。</l></lg>
 <lb n="0842a07" ed="T"/><p xml:id="pT17p0842a0701">「善男子！菩薩有四法極好。何等四？不自稱
 <lb n="0842a08" ed="T"/><anchor xml:id="nkr_note_orig_0842003" n="0842003"/><anchor xml:id="beg0842003" n="0842003"/>舉<anchor xml:id="end0842003"/>、不輕於他、遠離諸惡、捨除諸慢。是為四。」
 <lb n="0842a09" ed="T"/>而說頌曰：</p>
-<lb n="0842a10" ed="T"/><lg xml:id="lgT17p0842a1001" rend="margin-left:1em;text-indent:-1em"><l>「不自稱<anchor xml:id="beg_3" type="star"/>舉<anchor xml:id="end_3"/>不輕他，</l><l>所造諸惡悔不作；</l>
+<lb n="0842a10" ed="T"/><lg xml:id="lgT17p0842a1001" rend="margin-left:1em;text-indent:-1em"><l>「不自稱<anchor xml:id="beg_4" type="star"/>舉<anchor xml:id="end_4"/>不輕他，</l><l>所造諸惡悔不作；</l>
 <lb n="0842a11" ed="T"/><l>不生憍慢及慢慢，</l><l>其心端直修善行。</l></lg>
 <lb n="0842a12" ed="T"/><p xml:id="pT17p0842a1201">「善男子！菩薩有二法，端直速疾。何等二？若有
 <lb n="0842a13" ed="T"/>所問如實而答、先所見事無所覆藏。是為二。」
@@ -592,7 +595,7 @@ Added comment  for Emacs
 <lb n="0842a17" ed="T"/><l>正直於是法，</l><l>是為賢善根；</l>
 <lb n="0842a18" ed="T"/><l>彼得於質直，</l><l>疾覺勝菩提。</l></lg>
 <lb n="0842a19" ed="T"/><p xml:id="pT17p0842a1901">「善男子！菩薩有二法，無有諂偽。何等二？雖多
-<lb n="0842a20" ed="T"/>獲利不欲歎德、不得利養不自稱<anchor xml:id="beg_4" type="star"/>舉<anchor xml:id="end_4"/>。是為
+<lb n="0842a20" ed="T"/>獲利不欲歎德、不得利養不自稱<anchor xml:id="beg_5" type="star"/>舉<anchor xml:id="end_5"/>。是為
 <lb n="0842a21" ed="T"/>二。」而說頌曰：</p>
 <lb n="0842a22" ed="T"/><lg xml:id="lgT17p0842a2201" rend="margin-left:1em;text-indent:-1em"><l>「雖多獲利養，</l><l>不歎示己德；</l>
 <lb n="0842a23" ed="T"/><l>大智所不欲，</l><l>是不諂者得。</l>
@@ -767,7 +770,7 @@ Added comment  for Emacs
 <lb n="0844a12" ed="T"/><anchor xml:id="nkr_note_orig_0844004" n="0844004"/><anchor xml:id="beg0844004" n="0844004"/>而<anchor xml:id="end0844004"/>是火者，為當增長，為當漸滅？」</p><p xml:id="pT17p0844a1213" rend="inline">迦葉白言：
 <lb n="0844a13" ed="T"/>「是火當滅，更不增長。」</p><p xml:id="pT17p0844a1309" rend="inline">佛言：「迦葉！不實妄想諸
 <lb n="0844a14" ed="T"/>煩惱等，若更不起，若更不著、更不妄想、更不
-<lb n="0844a15" ed="T"/><anchor xml:id="beg_5" type="star"/>嬉<anchor xml:id="end_5"/>樂、更不分別，此當漸滅而不增長。迦葉！
+<lb n="0844a15" ed="T"/><anchor xml:id="beg_6" type="star"/>嬉<anchor xml:id="end_6"/>樂、更不分別，此當漸滅而不增長。迦葉！
 <lb n="0844a16" ed="T"/>以是事故，應當解知羸劣不實妄想煩惱是
 <lb n="0844a17" ed="T"/>不真實。迦葉！猶如有人至毒家舍，竟不服毒，
 <lb n="0844a18" ed="T"/>自生驚怖受大苦痛發聲大呼：『我今遇毒，
@@ -868,7 +871,7 @@ Added comment  for Emacs
 <lb n="0845a23" ed="T"/><p xml:id="pT17p0845a2301">時諸華<anchor xml:id="nkr_note_orig_0845002" n="0845002"/><anchor xml:id="beg0845002" n="0845002"/>臺<anchor xml:id="end0845002"/>所有菩薩，頂禮佛足說如是言：「世
 <lb n="0845a24" ed="T"/>尊！我等若至此大地時，是無量志莊嚴王菩
 <lb n="0845a25" ed="T"/>薩乃當得成阿耨多羅三藐三菩提。」</p><p xml:id="pT17p0845a2515" rend="inline">是時阿
-<lb n="0845a26" ed="T"/>難白言：「世尊！是諸華<anchor xml:id="beg_6" type="star"/>臺<anchor xml:id="end_6"/>眾菩薩等，幾時當
+<lb n="0845a26" ed="T"/>難白言：「世尊！是諸華<anchor xml:id="beg_7" type="star"/>臺<anchor xml:id="end_7"/>眾菩薩等，幾時當
 <lb n="0845a27" ed="T"/>至於此大地？」</p>
 <lb n="0845a28" ed="T"/><p xml:id="pT17p0845a2801">佛告阿難：「是諸菩薩於下方界分恒河沙等
 <lb n="0845a29" ed="T"/>諸佛如來所，諮受請問於是如來祕密藏法，
@@ -881,7 +884,7 @@ Added comment  for Emacs
 <lb n="0845b06" ed="T"/>來乃當授是無量志莊嚴王菩薩無上道記，
 <lb n="0845b07" ed="T"/>云：『無量志莊嚴王菩薩過九十八劫，當得成
 <lb n="0845b08" ed="T"/>佛，號莊嚴王，亦於是界得無上道。』是莊嚴王
-<lb n="0845b09" ed="T"/>如來坐此地時，是華<anchor xml:id="beg_7" type="star"/>臺<anchor xml:id="end_7"/>中諸菩薩等爾乃至
+<lb n="0845b09" ed="T"/>如來坐此地時，是華<anchor xml:id="beg_8" type="star"/>臺<anchor xml:id="end_8"/>中諸菩薩等爾乃至
 <lb n="0845b10" ed="T"/>地，復當聞此如來密藏法。阿難！爾時是莊嚴
 <lb n="0845b11" ed="T"/>王如來世界，名作無量功德莊嚴。阿難！一切
 <lb n="0845b12" ed="T"/>欲界諸天宮殿，等彼莊嚴王佛國土中一寶
@@ -922,6 +925,7 @@ Added comment  for Emacs
 <app from="#beg0837027" to="#end0837027"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">天</rdg></app>
 <app from="#beg0838001" to="#end0838001"><lem wit="#wit1">知</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0838002" to="#end0838002"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit3 #wit4">而</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7" resp="#resp4">於<note type="cf1">K13n0413_p0546a08</note></lem><rdg wit="#wit1">化</rdg></app>
 <app from="#beg0838003" to="#end0838003"><lem wit="#wit1">莊</lem><rdg resp="#resp1" wit="#wit3 #wit4">裝</rdg></app>
 <app from="#beg0838004" to="#end0838004"><lem wit="#wit1">臺</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0838005" to="#end0838005"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4">惟</rdg></app>
@@ -949,11 +953,11 @@ Added comment  for Emacs
 <app from="#beg0840001" to="#end0840001"><lem wit="#wit1">勢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">慧</rdg></app>
 <app from="#beg0840002" to="#end0840002"><lem wit="#wit1">達</lem><rdg resp="#resp1" wit="#wit5">進</rdg></app>
 <app from="#beg0840003" to="#end0840003"><lem wit="#wit1">穬</lem><rdg resp="#resp1" wit="#wit3 #wit4">獷</rdg></app>
-<app from="#beg_1" to="#end_1" corresp="#0840003"><lem wit="#wit1">穬</lem><rdg resp="#resp1" wit="#wit3 #wit4">獷</rdg></app>
+<app from="#beg_2" to="#end_2" corresp="#0840003"><lem wit="#wit1">穬</lem><rdg resp="#resp1" wit="#wit3 #wit4">獷</rdg></app>
 <app from="#beg0840004" to="#end0840004"><lem wit="#wit1">授</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">受</rdg></app>
 <app from="#beg0840005" to="#end0840005"><lem wit="#wit1">起何</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">趣向</rdg></app>
 <app from="#beg0840006" to="#end0840006"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">護</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>忘</corr><sic>妄</sic></choice>
+<choice cb:from="#beg_3" cb:to="#end_3"><corr>忘</corr><sic>妄</sic></choice>
 <app from="#beg0840007" to="#end0840007"><lem wit="#wit1">侵</lem><rdg resp="#resp1" wit="#wit5">已</rdg></app>
 <app from="#beg0841001" to="#end0841001"><lem wit="#wit1">道</lem><rdg resp="#resp1" wit="#wit3 #wit4">首</rdg></app>
 <app from="#beg0841002" to="#end0841002"><lem wit="#wit1">減</lem><rdg resp="#resp1" wit="#wit4">滅</rdg></app>
@@ -961,13 +965,13 @@ Added comment  for Emacs
 <app from="#beg0841004" to="#end0841004"><lem wit="#wit1">定</lem><rdg resp="#resp1" wit="#wit2">空</rdg><rdg resp="#resp1" wit="#wit5">實</rdg></app>
 <app from="#beg0841005" to="#end0841005"><lem wit="#wit1">道</lem><rdg resp="#resp1" wit="#wit4">途</rdg></app>
 <app from="#beg0841006" to="#end0841006"><lem wit="#wit1">示</lem><rdg resp="#resp1" wit="#wit4">是</rdg></app>
-<app from="#beg0841007" to="#end0841007"><lem wit="#wit1">誹</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">謗</rdg></app>
+<app from="#beg0841007" to="#end0841007"><lem wit="#wit6 #wit7" resp="#resp4">謗<note type="cf1">K13n0413_p0550c07</note></lem><rdg wit="#wit1">誹</rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">謗</rdg></app>
 <app from="#beg0841008" to="#end0841008"><lem wit="#wit1">智</lem><rdg resp="#resp1" wit="#wit5">知</rdg></app>
-<app from="#beg0842001" to="#end0842001"><lem wit="#wit1">眾</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">乘</rdg></app>
+<app from="#beg0842001" to="#end0842001"><lem wit="#wit6 #wit7" resp="#resp4">乘<note type="cf1">K13n0413_p0550c16</note></lem><rdg wit="#wit1">眾</rdg><rdg resp="#resp4" wit="#wit7">乗<note type="cf1"></note></rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">乘</rdg></app>
 <app from="#beg0842002" to="#end0842002"><lem wit="#wit1">善</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">惡</rdg></app>
 <app from="#beg0842003" to="#end0842003"><lem wit="#wit1">舉</lem><rdg resp="#resp1" wit="#wit3 #wit4">譽</rdg></app>
-<app from="#beg_3" to="#end_3" corresp="#0842003"><lem wit="#wit1">舉</lem><rdg resp="#resp1" wit="#wit3 #wit4">譽</rdg></app>
 <app from="#beg_4" to="#end_4" corresp="#0842003"><lem wit="#wit1">舉</lem><rdg resp="#resp1" wit="#wit3 #wit4">譽</rdg></app>
+<app from="#beg_5" to="#end_5" corresp="#0842003"><lem wit="#wit1">舉</lem><rdg resp="#resp1" wit="#wit3 #wit4">譽</rdg></app>
 <app from="#beg0842004" to="#end0842004"><lem wit="#wit1">稱</lem><rdg resp="#resp1" wit="#wit2 #wit5">種</rdg></app>
 <app from="#beg0842005" to="#end0842005"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0842006" to="#end0842006"><lem wit="#wit1">獨</lem><rdg resp="#resp1" wit="#wit3 #wit4">徧</rdg></app>
@@ -986,7 +990,7 @@ Added comment  for Emacs
 <app from="#beg0844002" to="#end0844002"><lem wit="#wit1">持</lem><rdg resp="#resp1" wit="#wit2 #wit5">持齋</rdg></app>
 <app from="#beg0844003" to="#end0844003"><lem wit="#wit1">妄</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">想</rdg></app>
 <app from="#beg0844004" to="#end0844004"><lem wit="#wit1">而</lem><rdg resp="#resp1" wit="#wit3 #wit4">如</rdg></app>
-<app from="#beg_5" to="#end_5" corresp="#0843003"><lem wit="#wit1">嬉</lem><rdg resp="#resp1" wit="#wit3 #wit4">喜</rdg></app>
+<app from="#beg_6" to="#end_6" corresp="#0843003"><lem wit="#wit1">嬉</lem><rdg resp="#resp1" wit="#wit3 #wit4">喜</rdg></app>
 <app from="#beg0844005" to="#end0844005"><lem wit="#wit1">善</lem><rdg resp="#resp1" wit="#wit3 #wit4">義</rdg></app>
 <app from="#beg0844006" to="#end0844006"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0844007" to="#end0844007"><lem wit="#wit1">觀</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">觀若慈是實即不能除不實瞋恚亦非瞋恚生於慈觀</rdg></app>
@@ -996,8 +1000,8 @@ Added comment  for Emacs
 <app from="#beg0844011" to="#end0844011"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0845001" to="#end0845001"><lem wit="#wit1">臺</lem><rdg resp="#resp1" wit="#wit5">室</rdg></app>
 <app from="#beg0845002" to="#end0845002"><lem wit="#wit1">臺</lem><rdg resp="#resp1" wit="#wit2 #wit5">室</rdg></app>
-<app from="#beg_6" to="#end_6" corresp="#0845002"><lem wit="#wit1">臺</lem><rdg resp="#resp1" wit="#wit2 #wit5">室</rdg></app>
 <app from="#beg_7" to="#end_7" corresp="#0845002"><lem wit="#wit1">臺</lem><rdg resp="#resp1" wit="#wit2 #wit5">室</rdg></app>
+<app from="#beg_8" to="#end_8" corresp="#0845002"><lem wit="#wit1">臺</lem><rdg resp="#resp1" wit="#wit2 #wit5">室</rdg></app>
 <app from="#beg0845003" to="#end0845003"><lem wit="#wit1">土</lem><rdg resp="#resp1" wit="#wit3 #wit4">上</rdg></app>
 <app from="#beg0845004" to="#end0845004"><lem wit="#wit1">所</lem><rdg resp="#resp1" wit="#wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0845005" to="#end0845005"><lem wit="#wit1">左</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">右</rdg></app>
@@ -1026,8 +1030,8 @@ Added comment  for Emacs
 <note n="0840005" resp="#resp2" type="mod" target="#nkr_note_mod_0840005">起何＝趣向【宋】【元】【明】【宮】</note>
 <note n="0840006" resp="#resp2" type="mod" target="#nkr_note_mod_0840006">謂＝護【宋】【元】【明】【宮】</note>
 <note n="0841004" resp="#resp2" type="mod" target="#nkr_note_mod_0841004">定＝空【宋】，＝實【宮】</note>
-<note n="0841007" resp="#resp2" type="mod" target="#nkr_note_mod_0841007">誹＝謗【宋】【元】【明】【宮】</note>
-<note n="0842001" resp="#resp2" type="mod" target="#nkr_note_mod_0842001">眾＝乘【宋】【元】【明】【宮】</note>
+<note n="0841007" resp="#resp2" type="mod" target="#nkr_note_mod_0841007">誹＝謗【宋】【元】【明】【宮】【麗-CB】【CB】</note>
+<note n="0842001" resp="#resp2" type="mod" target="#nkr_note_mod_0842001">眾＝乘【宋】【元】【明】【宮】【CB】，＝乗【麗-CB】</note>
 <note n="0842002" resp="#resp2" type="mod" target="#nkr_note_mod_0842002">善＝惡【宋】【元】【明】【宮】</note>
 <note n="0842005" resp="#resp2" type="mod" target="#nkr_note_mod_0842005">〔法〕－【宋】【元】【明】【宮】</note>
 <note n="0842007" resp="#resp2" type="mod" target="#nkr_note_mod_0842007">踊＝勇【宋】【宮】，＝湧【元】【明】</note>

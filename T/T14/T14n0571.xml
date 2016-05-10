@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.11 $<date>$Date: 2012/08/27 03:14:55 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -149,12 +152,12 @@ Added comment  for Emacs
 <lb n="0944a16" ed="T"/>居，婦迫日冥，懼為賊所劫，棄車將二子到
 <lb n="0944a17" ed="T"/>水畔，留大子著水邊，抱小子<anchor xml:id="nkr_note_orig_0944005" n="0944005"/><anchor xml:id="nkr_note_mod_0944005" n="0944005"/><anchor xml:id="beg0944005" n="0944005"/>渡<anchor xml:id="end0944005"/>水。適到水
 <lb n="0944a18" ed="T"/>半，狼食其子，子叫呼母，母時還顧見子，為
-<lb n="0944a19" ed="T"/>狼所噉，驚惶怖懼，失抱中子，隨水墮流。母
+<lb n="0944a19" ed="T"/>狼所噉，驚惶怖懼，失抱中子，<anchor xml:id="beg_1" type="cb-app"/>墮水隨流<anchor xml:id="end_1"/>。母
 <lb n="0944a20" ed="T"/>益懊惱，迷惑失志頓躓水中，墮所懷子。遂
-<lb n="0944a21" ed="T"/>便<anchor xml:id="beg_1" type="star"/>渡<anchor xml:id="end_1"/>水，問道行人：「我家父母，為安隱不？」</p><p xml:id="pT14p0944a2116" rend="inline">行
+<lb n="0944a21" ed="T"/>便<anchor xml:id="beg_2" type="star"/>渡<anchor xml:id="end_2"/>水，問道行人：「我家父母，為安隱不？」</p><p xml:id="pT14p0944a2116" rend="inline">行
 <lb n="0944a22" ed="T"/>人答曰：「<anchor xml:id="nkr_note_orig_0944006" n="0944006"/><anchor xml:id="nkr_note_mod_0944006" n="0944006"/><anchor xml:id="beg0944006" n="0944006"/>昨家<anchor xml:id="end0944006"/>失火，皆燒父母，悉盡無餘。」</p><p xml:id="pT14p0944a2216" rend="inline">又
 <lb n="0944a23" ed="T"/>問行人：「我夫家姑<anchor xml:id="nkr_note_orig_0944007" n="0944007"/><anchor xml:id="beg0944007" n="0944007"/>妐<anchor xml:id="end0944007"/>為安隱不？」</p><p xml:id="pT14p0944a2313" rend="inline">行人答曰：
-<lb n="0944a24" ed="T"/>「昨有劇賊，傷害其家，姑<anchor xml:id="beg_2" type="star"/>妐<anchor xml:id="end_2"/>皆死，無完在者。」</p>
+<lb n="0944a24" ed="T"/>「昨有劇賊，傷害其家，姑<anchor xml:id="beg_3" type="star"/>妐<anchor xml:id="end_3"/>皆死，無完在者。」</p>
 <lb n="0944a25" ed="T"/><p xml:id="pT14p0944a2501">其<anchor xml:id="nkr_note_orig_0944008" n="0944008"/><anchor xml:id="nkr_note_mod_0944008" n="0944008"/><anchor xml:id="beg0944008" n="0944008"/>母<anchor xml:id="end0944008"/>聞之，愁憂怖懼，心迷意惑，不識東西，
 <lb n="0944a26" ed="T"/>脫衣裸形，迷惑狂走。道中行人，見大怪之，
 <lb n="0944a27" ed="T"/>謂得邪病，鬼神所嬈乎，或謂愁憂迷惑失志，
@@ -179,17 +182,18 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0944001" to="#end0944001"><lem wit="#wit1">沙門</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">釋</rdg></app>
 <app from="#beg0944002" to="#end0944002"><lem wit="#wit1">國</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0944003" to="#end0944003"><lem wit="#wit1">圈</lem><rdg resp="#resp1" wit="#wit2">絭</rdg><rdg resp="#resp1" wit="#wit3 #wit4">桊</rdg><rdg resp="#resp1" wit="#wit5">棬</rdg></app>
 <app from="#beg0944004" to="#end0944004"><lem wit="#wit1">碓</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">對</rdg></app>
 <app from="#beg0944005" to="#end0944005"><lem wit="#wit1">渡</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">度</rdg></app>
-<app from="#beg_1" to="#end_1" corresp="#0944005"><lem wit="#wit1">渡</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">度</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7" resp="#resp3">墮水隨流<note type="cf1">K20n0837_p1175a18</note></lem><rdg wit="#wit1">隨水墮流</rdg></app>
+<app from="#beg_2" to="#end_2" corresp="#0944005"><lem wit="#wit1">渡</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">度</rdg></app>
 <app from="#beg0944006" to="#end0944006"><lem wit="#wit1">昨家</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">家作</rdg><rdg resp="#resp1" wit="#wit5">家昨</rdg></app>
 <app from="#beg0944007" to="#end0944007"><lem wit="#wit1">妐</lem><rdg resp="#resp1" wit="#wit4">公</rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0944007"><lem wit="#wit1">妐</lem><rdg resp="#resp1" wit="#wit4">公</rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0944007"><lem wit="#wit1">妐</lem><rdg resp="#resp1" wit="#wit4">公</rdg></app>
 <app from="#beg0944008" to="#end0944008"><lem wit="#wit1">母</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">婦</rdg></app>
 <app from="#beg0944009" to="#end0944009"><lem wit="#wit1">賤</lem><rdg resp="#resp1" wit="#wit2 #wit5">湔</rdg><rdg resp="#resp1" wit="#wit3 #wit4">濺</rdg></app>
 <app from="#beg0944010" to="#end0944010"><lem wit="#wit1">啞</lem><rdg resp="#resp1" wit="#wit5">瘂</rdg></app>
@@ -197,7 +201,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0944001" resp="#resp2" type="mod" target="#nkr_note_mod_0944001">沙門＝釋【宋】【元】【明】【宮】</note>
 <note n="0944002" resp="#resp2" type="mod" target="#nkr_note_mod_0944002">〔國〕－【宋】【元】【明】【宮】</note>
@@ -211,7 +215,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0944001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0944001">沙門＝釋【三】【宮】</note>
 <note n="0944002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0944002">〔國〕－【三】【宮】</note>

@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.12 $<date>$Date: 2012/08/27 03:14:54 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【宮】</witness>
 		<witness xml:id="wit5">【明】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -185,7 +188,7 @@ Added comment  for Emacs
 <pb n="0851a" ed="T" xml:id="T14.0546.0851a"/>
 <lb n="0851a01" ed="T"/>持寶歸舍；汝得吉祥面前而來，却乃執棒打
 <lb n="0851a02" ed="T"/>退。」童子對已便往祇樹。</p><p xml:id="pT14p0851a0210" rend="inline">到世尊所，作禮佛足，
-<lb n="0851a03" ed="T"/>於面前坐，而為聽法本生適意，天妙蓮華生
+<lb n="0851a03" ed="T"/>於面前坐，而為聽法。本生適意天妙蓮華，生
 <lb n="0851a04" ed="T"/>彼祇樹園中，其香芬馥遍滿一切，智慧忽生：
 <lb n="0851a05" ed="T"/>「我今持此蓮華供養世尊。」而復思惟：「我先生
 <lb n="0851a06" ed="T"/><anchor xml:id="nkr_note_orig_0851001" n="0851001"/><anchor xml:id="beg0851001" n="0851001"/>時<anchor xml:id="end0851001"/>，瞻蔔迦樹世所希有。」於發心時，瞻蔔迦樹
@@ -281,12 +284,12 @@ Added comment  for Emacs
 <lb n="0852a06" ed="T"/>四智圓明，三密不共念處大悲。若我等往昔
 <lb n="0852a07" ed="T"/>發心，亦為行此法施。」</p><p xml:id="pT14p0852a0709" rend="inline">爾時，波斯匿王問：「世尊！
 <lb n="0852a08" ed="T"/>此童子，作何行業，得如是富貴？」</p><p xml:id="pT14p0852a0813" rend="inline">世尊答言：「此
-<lb n="0852a09" ed="T"/>童子，往於昔過去生中，廣作福業之因，於
+<lb n="0852a09" ed="T"/>童子，<anchor xml:id="beg_d" type="cb-app"/>於往<anchor xml:id="end_d"/>昔過去生中，廣作福業之因，於
 <lb n="0852a10" ed="T"/>今世中得獲斯報。又此童子，昔種業因之時
 <lb n="0852a11" ed="T"/><anchor xml:id="nkr_note_orig_0852001" n="0852001"/><anchor xml:id="nkr_note_mod_0852001" n="0852001"/><anchor xml:id="beg0852001" n="0852001"/>志<anchor xml:id="end0852001"/>心不退，於今世中誰免斯報？大王！所作
 <lb n="0852a12" ed="T"/>之業得受報時，如地界無盡，水界無盡，火
 <lb n="0852a13" ed="T"/>界無盡，風界無盡，如是等蘊界六塵，作業
-<lb n="0852a14" ed="T"/>獲報無有窮盡。童子<anchor xml:id="beg_d" type="star"/>志<anchor xml:id="end_d"/>心昔種福因，今生得
+<lb n="0852a14" ed="T"/>獲報無有窮盡。童子<anchor xml:id="beg_e" type="star"/>志<anchor xml:id="end_e"/>心昔種福因，今生得
 <lb n="0852a15" ed="T"/>報無盡，乃至善惡二業業報無盡，假使經於
 <lb n="0852a16" ed="T"/>百劫業至須受其報。</p><p xml:id="pT14p0852a1609" rend="inline">「大王！過去世時，波羅奈
 <lb n="0852a17" ed="T"/>國有王名曰聞軍，彼有太子名吉祥密，彼時
@@ -364,7 +367,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app cb:word-count="30" from="#beg0850009" to="#end0850009"><lem wit="#wit1">西天中印度惹爛馱囉國<lb n="0850b19" ed="T"/>密林寺三藏明教大師賜紫<lb n="0850b20" ed="T"/>沙門臣天息災奉　詔譯</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">西天譯經三藏朝散大夫試鴻臚卿明教大師臣天息災奉詔譯</rdg><rdg resp="#resp1" wit="#wit5">宋西天三藏朝散大夫試鴻臚卿明教大師天息災奉詔譯</rdg></app>
 <app from="#beg0850010" to="#end0850010"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2 #wit3">比</rdg></app>
@@ -386,14 +389,15 @@ Added comment  for Emacs
 <app from="#beg_a" to="#end_a" corresp="#0851004"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit3 #wit5">授</rdg></app>
 <app from="#beg_b" to="#end_b" corresp="#0851004"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit3 #wit5">授</rdg></app>
 <app from="#beg_c" to="#end_c" corresp="#0851004"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit3 #wit5">授</rdg></app>
+<app from="#beg_d" to="#end_d"><lem wit="#wit6 #wit7" resp="#resp3">於往<note type="cf1">K33n1103_p0892a12</note></lem><rdg wit="#wit1">往於</rdg></app>
 <app from="#beg0852001" to="#end0852001"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">至</rdg></app>
-<app from="#beg_d" to="#end_d" corresp="#0852001"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">至</rdg></app>
+<app from="#beg_e" to="#end_e" corresp="#0852001"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">至</rdg></app>
 <app from="#beg0852002" to="#end0852002"><lem wit="#wit1">于</lem><rdg resp="#resp1" wit="#wit5">子</rdg></app>
 <app from="#beg0852003" to="#end0852003"><lem wit="#wit1">告</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">佛告</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0850009" resp="#resp2" type="mod" target="#nkr_note_mod_0850009">（西天…詔譯）三十字＝西天譯經三藏朝散大夫試鴻臚卿明教大師臣天息災奉詔譯【宋】【元】【宮】，＝宋西天三藏朝散大夫試鴻臚卿明教大師天息災奉詔譯【明】</note>
 <note n="0852001" resp="#resp2" type="mod" target="#nkr_note_mod_0852001">志＝至【宋】＊【元】＊【明】＊</note>
@@ -401,7 +405,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0850009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0850009">（西天…詔譯）三十字＝西天譯經三藏朝散大夫試鴻臚卿明教大師臣天息災奉詔譯【宋】【元】【宮】，宋西天三藏朝散大夫試鴻臚卿明教大師天息災奉詔譯【明】</note>
 <note n="0850010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0850010">此＝比【宋】【元】</note>

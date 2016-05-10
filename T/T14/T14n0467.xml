@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.10 $<date>$Date: 2012/08/27 03:14:49 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -145,7 +148,7 @@ Added comment  for Emacs
 <lb n="0490a08" ed="T"/>木、牆壁、瓦石，從於四大父母所生，無常敗壞
 <lb n="0490a09" ed="T"/>散滅之法，必假塗、洗、衣、食等緣而得存立。若
 <lb n="0490a10" ed="T"/>心證者，心如幻化，無相、無形，無所依處、無所
-<lb n="0490a11" ed="T"/>容受。又菩薩者，隨於世間而立名字，無音響、
+<lb n="0490a11" ed="T"/>容受。又菩<anchor xml:id="beg_1" type="cb-app"/>提<anchor xml:id="end_1"/>者，隨於世間而立名字，無音響、
 <lb n="0490a12" ed="T"/>無形色，無成實、無相狀，無來、無去，不出、不入。
 <lb n="0490a13" ed="T"/>過於三界無有處所，不可見聞、不可憶念；離
 <lb n="0490a14" ed="T"/>攀緣處非戲論境，無所入、無文字，不可動搖、
@@ -365,13 +368,14 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0489005" to="#end0489005"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0489006" to="#end0489006"><lem wit="#wit1">天竺三藏</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">南天竺國三藏法師</rdg></app>
 <app from="#beg0489007" to="#end0489007"><lem wit="#wit1">流</lem><rdg resp="#resp1" wit="#wit2 #wit5">留</rdg></app>
 <app from="#beg0489008" to="#end0489008"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">志等</rdg></app>
 <app from="#beg0489009" to="#end0489009"><lem wit="#wit1">譯</lem><rdg resp="#resp1" wit="#wit3 #wit4">第四譯</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7" resp="#resp3">提<note type="cf1">K11n0225_p0435b02</note></lem><rdg wit="#wit1">薩</rdg></app>
 <app from="#beg0490001" to="#end0490001"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit3 #wit4">唯</rdg></app>
 <app from="#beg0490002" to="#end0490002"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit2">又</rdg></app>
 <app from="#beg0490003" to="#end0490003"><lem wit="#wit1">爾</lem><rdg resp="#resp1" wit="#wit2">又爾</rdg></app>
@@ -383,7 +387,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0489005" resp="#resp2" type="mod" target="#nkr_note_mod_0489005">〔大〕－【宋】【元】【明】【宮】</note>
 <note n="0489006" resp="#resp2" type="mod" target="#nkr_note_mod_0489006">天竺三藏＝南天竺國三藏法師【宋】【元】【明】【宮】</note>
@@ -394,7 +398,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0489005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0489005">〔大〕－【三】【宮】</note>
 <note n="0489006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0489006">天竺三藏＝南天竺國三藏法師【三】【宮】</note>

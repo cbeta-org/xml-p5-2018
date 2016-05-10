@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.12 $<date>$Date: 2012/08/27 03:14:58 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -234,13 +237,13 @@ Added comment  for Emacs
 <lb n="0238b28" ed="T"/><l rend="text-indent:1em">智者所棄遠，</l><l>如人捨廁去。</l>
 <lb n="0238b29" ed="T"/><l rend="text-indent:1em">若人知汝身，</l><l>如我所惡厭，</l>
 <pb n="0238c" ed="T" xml:id="T15.0609.0238c"/>
-<lb n="0238c01" ed="T"/><l rend="text-indent:1em">一切皆遠離，</l><l>知人避屎坑。</l>
+<lb n="0238c01" ed="T"/><l rend="text-indent:1em">一切皆遠離，</l><l><anchor xml:id="beg_3" type="cb-app"/>如<anchor xml:id="end_3"/>人避屎坑。</l>
 <lb n="0238c02" ed="T"/><l rend="text-indent:1em">汝身自嚴飾，</l><l>香花以瓔珞，</l>
 <lb n="0238c03" ed="T"/><l rend="text-indent:1em">凡愚所貪愛，</l><l>智者所不惑。</l>
 <lb n="0238c04" ed="T"/><l rend="text-indent:1em">汝是不淨聚，</l><l>集諸穢惡物，</l>
 <lb n="0238c05" ed="T"/><l rend="text-indent:1em">雖服珍妙衣，</l><l>如莊嚴廁舍。</l>
 <lb n="0238c06" ed="T"/><l rend="text-indent:1em">汝脇肋著脊，</l><l>如椽依梁棟，</l>
-<lb n="0238c07" ed="T"/><l rend="text-indent:1em">五藏在復內，</l><l>不淨如屎篋。</l>
+<lb n="0238c07" ed="T"/><l rend="text-indent:1em">五藏在<anchor xml:id="beg_4" type="cb-app"/>腹<anchor xml:id="end_4"/>內，</l><l>不淨如屎篋。</l>
 <lb n="0238c08" ed="T"/><l rend="text-indent:1em">我觀汝不淨，</l><l>猶如五色糞，</l>
 <lb n="0238c09" ed="T"/><l rend="text-indent:1em">飾以珠瓔珞，</l><l>外好如畫瓶。</l>
 <lb n="0238c10" ed="T"/><l rend="text-indent:1em">若人欲染空，</l><l>終始不可著，</l>
@@ -275,14 +278,14 @@ Added comment  for Emacs
 <lb n="0239a09" ed="T"/><l rend="text-indent:1em">俗人樂恩愛，</l><l>道以為怨家，</l>
 <lb n="0239a10" ed="T"/><l rend="text-indent:1em">富貴是苦本，</l><l>如鳥墮網羅。</l>
 <lb n="0239a11" ed="T"/><l rend="text-indent:1em">人命甚速駛，</l><l>五馬不能追，</l>
-<lb n="0239a12" ed="T"/><l rend="text-indent:1em">殘命日滅盡，</l><l>各各自思惟。</l>
+<lb n="0239a12" ed="T"/><l rend="text-indent:1em">殘命日<anchor xml:id="beg_5" type="cb-app"/>減<anchor xml:id="end_5"/>盡，</l><l>各各自思惟。</l>
 <lb n="0239a13" ed="T"/><l rend="text-indent:1em">恩愛正合會，</l><l>夫盛當有衰，</l>
 <lb n="0239a14" ed="T"/><l rend="text-indent:1em">是故自拔出，</l><l>得道當來歸。」</l></lg></cb:div>
-<lb n="0239a15" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title>禪<anchor xml:id="beg_3" type="star"/>要<anchor xml:id="end_3"/><anchor xml:id="beg_4" type="star"/>經<anchor xml:id="end_4"/></title></cb:jhead></cb:juan>
+<lb n="0239a15" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title>禪<anchor xml:id="beg_6" type="star"/>要<anchor xml:id="end_6"/><anchor xml:id="beg_7" type="star"/>經<anchor xml:id="end_7"/></title></cb:jhead></cb:juan>
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0237014" to="#end0237014"><lem wit="#wit1">要</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">要訶欲</rdg></app>
 <app from="#beg0237015" to="#end0237015"><lem wit="#wit1">經</lem><rdg resp="#resp1" wit="#wit2 #wit5">經一卷</rdg></app>
@@ -304,15 +307,18 @@ Added comment  for Emacs
 <app from="#beg0238010" to="#end0238010"><lem wit="#wit1">弊</lem><rdg resp="#resp1" wit="#wit5">蔽</rdg></app>
 <app from="#beg0238011" to="#end0238011"><lem wit="#wit1">目連</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0238012" to="#end0238012"><lem wit="#wit1">幹</lem><rdg resp="#resp1" wit="#wit5">體</rdg></app>
+<app from="#beg_3" to="#end_3"><lem wit="#wit6 #wit7" resp="#resp3">如<note type="cf1">K30n1012_p0346c13</note></lem><rdg wit="#wit1">知</rdg></app>
+<app from="#beg_4" to="#end_4"><lem wit="#wit6 #wit7" resp="#resp3">腹<note type="cf1">K30n1012_p0346c16</note></lem><rdg wit="#wit1">復</rdg></app>
 <app from="#beg0238013" to="#end0238013"><lem wit="#wit1">吹</lem><rdg resp="#resp1" wit="#wit5">呼</rdg></app>
 <app from="#beg0238014" to="#end0238014"><lem wit="#wit1">唐</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">盧</rdg></app>
 <app from="#beg0239001" to="#end0239001"><lem wit="#wit1">太</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">大</rdg></app>
-<app from="#beg_3" to="#end_3" corresp="#0237014"><lem wit="#wit1">要</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">要訶欲</rdg></app>
-<app from="#beg_4" to="#end_4" corresp="#0237015"><lem wit="#wit1">經</lem><rdg resp="#resp1" wit="#wit2 #wit5">經一卷</rdg></app>
+<app from="#beg_5" to="#end_5"><lem wit="#wit6 #wit7" resp="#resp3">減<note type="cf1">K30n1012_p0346c16</note></lem><rdg wit="#wit1">滅</rdg></app>
+<app from="#beg_6" to="#end_6" corresp="#0237014"><lem wit="#wit1">要</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">要訶欲</rdg></app>
+<app from="#beg_7" to="#end_7" corresp="#0237015"><lem wit="#wit1">經</lem><rdg resp="#resp1" wit="#wit2 #wit5">經一卷</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0237014" resp="#resp2" type="mod" target="#nkr_note_mod_0237014">要＋（訶欲）【宋】【元】【明】【宮】＊</note>
 <note n="0237016" resp="#resp2" type="mod" target="#nkr_note_mod_0237016">〔人名〕－【宮】，人＝師【元】【明】</note>
@@ -331,7 +337,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0237014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0237014">要＋（訶欲）【三】【宮】＊</note>
 <note n="0237015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0237015">經＋（一卷）【宋】【宮】＊</note>

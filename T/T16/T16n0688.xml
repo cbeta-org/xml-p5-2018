@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.12 $<date>$Date: 2012/08/27 03:15:09 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,9 @@
 		<witness xml:id="wit3">【宮】</witness>
 		<witness xml:id="wit4">【元】</witness>
 		<witness xml:id="wit5">【明】</witness>
+		<witness xml:id="wit6">【磧砂】</witness>
+		<witness xml:id="wit7">【CBETA】</witness>
+		<witness xml:id="wit8">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -45,6 +49,15 @@
                 <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jasmine 提供新式標點</p>
         </projectDesc>
 <charDecl>
+<char xml:id="CB00719">
+	<charName>CBETA CHARACTER CB00719</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[竺-二+韋]</value>
+	</charProp>
+	<mapping type="unicode">U+25BE4</mapping>
+	<mapping cb:dec="983759" type="PUA">U+F02CF</mapping>
+</char>
 <char xml:id="CB00931">
 	<charName>CBETA CHARACTER CB00931</charName>
 	<charProp>
@@ -173,7 +186,7 @@ Added comment  for Emacs
 <lb n="0781b06" ed="T"/>故、為多饒益天人故，乃以是義問於如來。阿
 <lb n="0781b07" ed="T"/>難！諦聽，善思念之！閻浮提地廣七千由延，北
 <lb n="0781b08" ed="T"/>闊南狹，其中人面似如車形，如是地上滿中
-<lb n="0781b09" ed="T"/>甘蔗、竹葦、稻麻、叢林，無空缺處猶如一體。阿
+<lb n="0781b09" ed="T"/>甘蔗、竹<anchor xml:id="beg_1" type="cb-app"/>葦<anchor xml:id="end_1"/>、稻麻、叢林，無空缺處猶如一體。阿
 <lb n="0781b10" ed="T"/>難！是諸草木皆悉為人，得須陀洹、斯陀含、阿
 <lb n="0781b11" ed="T"/>那含、阿羅漢、辟支佛。若有一人，盡壽供養衣
 <lb n="0781b12" ed="T"/>鉢、飲食、床座、醫藥、房舍所須，具足供給，至滅度
@@ -192,7 +205,7 @@ Added comment  for Emacs
 <lb n="0781b25" ed="T"/>以天<anchor xml:id="nkr_note_orig_0781013" n="0781013"/><anchor xml:id="beg0781013" n="0781013"/>青<anchor xml:id="end0781013"/>琉璃間廁黃金，以為羅網彌覆其上，
 <lb n="0781b26" ed="T"/>金沙布地，奇妙栴檀以為欄楯。</p><p xml:id="pT16p0781b2613" rend="inline">「復次，阿難！是
 <lb n="0781b27" ed="T"/>天帝釋大莊嚴殿，復有八萬四千寶窓，亦以
-<lb n="0781b28" ed="T"/>天<anchor xml:id="beg_1" type="star"/>青<anchor xml:id="end_1"/>琉璃間廁黃金，以為羅網彌覆其上，布
+<lb n="0781b28" ed="T"/>天<anchor xml:id="beg_2" type="star"/>青<anchor xml:id="end_2"/>琉璃間廁黃金，以為羅網彌覆其上，布
 <lb n="0781b29" ed="T"/>以金沙，栴檀欄楯。</p><p xml:id="pT16p0781b2908" rend="inline">「復次，阿難！是天帝釋大莊
 <pb n="0781c" ed="T" xml:id="T16.0688.0781c"/>
 <lb n="0781c01" ed="T"/>嚴殿，復有八萬四千天<anchor xml:id="nkr_note_orig_0781014" n="0781014"/><anchor xml:id="beg0781014" n="0781014"/>紺<anchor xml:id="end0781014"/>寶窓，微妙嚴麗挍
@@ -219,7 +232,7 @@ Added comment  for Emacs
 <lb n="0781c22" ed="T"/>白佛言：「受教。世尊！此名何法？我等如來法中
 <lb n="0781c23" ed="T"/>當云何受持？」</p><p xml:id="pT16p0781c2306" rend="inline">佛告阿難：「此名『未曾有法』，是一
 <lb n="0781c24" ed="T"/>切清淨妙法方便。我以是故慇懃囑<anchor xml:id="nkr_note_orig_0781019" n="0781019"/><anchor xml:id="beg0781019" n="0781019"/>汝<anchor xml:id="end0781019"/>，<anchor xml:id="nkr_note_orig_0781020" n="0781020"/><anchor xml:id="nkr_note_mod_0781020" n="0781020"/><anchor xml:id="beg0781020" n="0781020"/>當<anchor xml:id="end0781020"/>
-<lb n="0781c25" ed="T"/>數數廣為諸天、人、<anchor xml:id="beg_2" type="cb-app"/>阿<anchor xml:id="end_2"/>修羅、龍、夜叉、乾闥婆、伽
+<lb n="0781c25" ed="T"/>數數廣為諸天、人、<anchor xml:id="beg_3" type="cb-app"/>阿<anchor xml:id="end_3"/>修羅、龍、夜叉、乾闥婆、伽
 <lb n="0781c26" ed="T"/>留羅、緊那羅、摩睺羅伽、人非人等，分別說之，
 <lb n="0781c27" ed="T"/>當作如來善根功德種子，一切眾生聞者，得
 <lb n="0781c28" ed="T"/>入如來善根功德。以是因緣故，離諸煩惱，悉
@@ -231,17 +244,18 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app cb:word-count="6" from="#beg0781006" to="#end0781006"><lem wit="#wit1">人名出古舊錄</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit4 #wit5">師名</rdg></app>
 <app from="#beg0781007" to="#end0781007"><lem wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit5">在</rdg></app>
 <app from="#beg0781008" to="#end0781008"><lem wit="#wit1">復</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">若</rdg></app>
 <app from="#beg0781009" to="#end0781009"><lem wit="#wit1">坐</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">坐坐</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit1">葦</lem><rdg resp="#resp3" wit="#wit6 #wit7">葦<note type="cf1">Q11_p0155b01</note></rdg><rdg resp="#resp3" wit="#wit8"><g ref="#CB00719">𥯤</g><note type="cf1">K11n0237_p0489b13</note></rdg></app>
 <app from="#beg0781010" to="#end0781010"><lem wit="#wit1">伎</lem><rdg resp="#resp1" wit="#wit4 #wit5">妓</rdg></app>
 <app from="#beg0781011" to="#end0781011"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit3">粖</rdg></app>
 <app from="#beg0781012" to="#end0781012"><lem wit="#wit1">人中</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">中人</rdg></app>
 <app from="#beg0781013" to="#end0781013"><lem wit="#wit1">青</lem><rdg resp="#resp1" wit="#wit2 #wit3">清</rdg></app>
-<app from="#beg_1" to="#end_1" corresp="#0781013"><lem wit="#wit1">青</lem><rdg resp="#resp1" wit="#wit2 #wit3">清</rdg></app>
+<app from="#beg_2" to="#end_2" corresp="#0781013"><lem wit="#wit1">青</lem><rdg resp="#resp1" wit="#wit2 #wit3">清</rdg></app>
 <app from="#beg0781014" to="#end0781014"><lem wit="#wit1">紺</lem><rdg resp="#resp1" wit="#wit4 #wit3">井</rdg></app>
 <app from="#beg0781015" to="#end0781015"><lem wit="#wit1">復</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0781016" to="#end0781016"><lem wit="#wit1">億</lem><rdg resp="#resp1" wit="#wit2 #wit3">億萬</rdg></app>
@@ -249,12 +263,12 @@ Added comment  for Emacs
 <app from="#beg0781018" to="#end0781018"><lem wit="#wit1">經</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">法</rdg></app>
 <app from="#beg0781019" to="#end0781019"><lem wit="#wit1">汝</lem><rdg resp="#resp1" wit="#wit4">法</rdg></app>
 <app from="#beg0781020" to="#end0781020"><lem wit="#wit1">當</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">此法當</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>阿</corr><sic>何</sic></choice>
+<choice cb:from="#beg_3" cb:to="#end_3"><corr>阿</corr><sic>何</sic></choice>
 <app cb:word-count="16" from="#beg0782001" to="#end0782001"><lem wit="#wit1">藥王佛　藥王菩薩　藥上菩薩　最上天<lb n="0782a02" ed="T"/>王佛</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0781008" resp="#resp2" type="mod" target="#nkr_note_mod_0781008">復＝若【宋】【元】【明】【宮】</note>
 <note n="0781009" resp="#resp2" type="mod" target="#nkr_note_mod_0781009">坐＋（坐）【宋】【元】【明】【宮】</note>
@@ -267,7 +281,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0781006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0781006">〔人名…錄〕六字－【宋】【宮】，（（人名…錄））六字＝師名【元】【明】</note>
 <note n="0781007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0781007">住＝在【明】</note>

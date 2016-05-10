@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.10 $<date>$Date: 2012/08/27 03:15:02 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【宮】</witness>
 		<witness xml:id="wit5">【宋】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -207,7 +210,7 @@ Added comment  for Emacs
 <lb n="0806b07" ed="T"/>增語。石下有種種寶光者，是有所得分別相
 <lb n="0806b08" ed="T"/>增語。念求大寶者，即是樂入無分別界。</p><p xml:id="pT15p0806b0816" rend="inline">「善男
 <lb n="0806b09" ed="T"/>子，是義云何？若菩薩如所說能如實觀者，即
-<lb n="0806b10" ed="T"/>入無分別界。及善男子！諸菩薩當於無分別
+<lb n="0806b10" ed="T"/>入無分別界。<anchor xml:id="beg_1" type="cb-app"/>又<anchor xml:id="end_1"/>善男子！諸菩薩當於無分別
 <lb n="0806b11" ed="T"/>界，如虛空界住。何以故？若色自性，若分別自
 <lb n="0806b12" ed="T"/>性，如是觀時相不現前。若行我有色，是行分
 <lb n="0806b13" ed="T"/>別相；若行他有色，是行分別相；若行色有生
@@ -250,7 +253,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0805009" to="#end0805009"><lem wit="#wit1">西</lem><rdg resp="#resp1" wit="#wit2">宋西</rdg></app>
 <app from="#beg0805010" to="#end0805010"><lem wit="#wit1">譯經</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
@@ -261,12 +264,13 @@ Added comment  for Emacs
 <app from="#beg0806003" to="#end0806003"><lem wit="#wit1">知</lem><rdg resp="#resp1" wit="#wit2">如</rdg></app>
 <app from="#beg0806004" to="#end0806004"><lem wit="#wit1">藏</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit2 #wit4">藏者</rdg></app>
 <app from="#beg0806005" to="#end0806005"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit2 #wit4">是</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7" resp="#resp3">又<note type="cf1">K40n1438_p0449a20</note></lem><rdg wit="#wit1">及</rdg></app>
 <app from="#beg0806006" to="#end0806006"><lem wit="#wit1">自</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit2 #wit4">此</rdg></app>
 <app from="#beg0806007" to="#end0806007"><lem wit="#wit1">信</lem><rdg resp="#resp1" wit="#wit5 #wit3 #wit2 #wit4">言</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0806004" resp="#resp2" type="mod" target="#nkr_note_mod_0806004">藏＋（者）【宋】【元】【明】【宮】</note>
 <note n="0806005" resp="#resp2" type="mod" target="#nkr_note_mod_0806005">無＝是【宋】【元】【明】【宮】</note>
@@ -275,7 +279,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0805008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0805008">此經增上寺元本缺</note>
 <note n="0805009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0805009">（宋）＋西【明】</note>

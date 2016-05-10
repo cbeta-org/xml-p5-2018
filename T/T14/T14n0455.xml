@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.11 $<date>$Date: 2012/08/27 03:14:48 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【宮】</witness>
 		<witness xml:id="wit4">【元】</witness>
 		<witness xml:id="wit5">【明】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -293,7 +296,7 @@ Added comment  for Emacs
 <lb n="0427c10" ed="T"/><l rend="text-indent:1em">或欝金沈水，</l><l>香泥用塗拭；</l>
 <lb n="0427c11" ed="T"/><l rend="text-indent:1em">供養牟尼塔，</l><l>來生我法中。</l>
 <lb n="0427c12" ed="T"/><l rend="text-indent:1em">或歸佛法僧，</l><l>恭敬常親近；</l>
-<lb n="0427c13" ed="T"/><l rend="text-indent:1em">當修諸善行，</l><l>來生我法中。</l>
+<lb n="0427c13" ed="T"/><l rend="text-indent:1em"><anchor xml:id="beg_2" type="cb-app"/>常<anchor xml:id="end_2"/>修諸善行，</l><l>來生我法中。</l>
 <lb n="0427c14" ed="T"/><l rend="text-indent:1em">或於佛法中，</l><l>受持諸學處；</l>
 <lb n="0427c15" ed="T"/><l rend="text-indent:1em">善護無缺犯，</l><l>來生我法中。</l>
 <lb n="0427c16" ed="T"/><l rend="text-indent:1em">或於四方僧，</l><l>施衣服飲食；</l>
@@ -364,7 +367,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0426001" to="#end0426001"><lem wit="#wit1">唐</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit4 #wit5">唐武周</rdg></app>
 <app from="#beg0426002" to="#end0426002"><lem wit="#wit1">制</lem><rdg resp="#resp1" wit="#wit4 #wit5">制第六</rdg></app>
@@ -389,6 +392,7 @@ Added comment  for Emacs
 <app from="#beg0427007" to="#end0427007"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">妙</rdg></app>
 <app from="#beg0427008" to="#end0427008"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">止</rdg></app>
 <app from="#beg0427009" to="#end0427009"><lem wit="#wit1">天</lem><rdg resp="#resp1" wit="#wit3">無</rdg></app>
+<app from="#beg_2" to="#end_2"><lem wit="#wit6 #wit7" resp="#resp3">常<note type="cf1">K11n0199_p0218b14</note></lem><rdg wit="#wit1">當</rdg></app>
 <app from="#beg0427010" to="#end0427010"><lem wit="#wit1">道</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">導</rdg></app>
 <app from="#beg0428001" to="#end0428001"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit4">三</rdg></app>
 <app from="#beg0428002" to="#end0428002"><lem wit="#wit1">佛說</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
@@ -396,7 +400,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0426003" resp="#resp2" type="mod" target="#nkr_note_mod_0426003">芻＋（菩薩）【宋】【元】【明】【宮】</note>
 <note n="0426004" resp="#resp2" type="mod" target="#nkr_note_mod_0426004">弗＝子【宋】【元】【明】【宮】</note>
@@ -415,7 +419,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0426001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0426001">〔唐〕－【宋】【宮】，唐＋（武周）【元】【明】</note>
 <note n="0426002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0426002">制＋（第六）【元】【明】</note>

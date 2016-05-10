@@ -37,6 +37,8 @@
 		<witness xml:id="wit3">【宋】</witness>
 		<witness xml:id="wit4">【元】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -301,6 +303,14 @@
 	</charProp>
 	<mapping cb:dec="996552" type="PUA">U+F34C8</mapping>
 </char>
+<char xml:id="CB28333">
+	<charName>CBETA CHARACTER CB28333</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[(草-日+口)*(栗-木+凡)]</value>
+	</charProp>
+	<mapping cb:dec="1011373" type="PUA">U+F6EAD</mapping>
+</char>
 </charDecl>
 </encodingDesc>
 <profileDesc>
@@ -539,18 +549,18 @@ Added comment  for Emacs
 <lb n="0232a22" ed="T"/>有，當稽首聽。</p><p xml:id="pT15p0232a2206" rend="inline">佛言：「行道者當知，五陰出入成
 <lb n="0232a23" ed="T"/>敗。譬如人命欲盡在呼吸，欲死便四百四病
 <lb n="0232a24" ed="T"/>中前後次第稍發；便見想生恐畏怖，夢中見
-<lb n="0232a25" ed="T"/>蜂啄木，<anchor xml:id="nkr_note_orig_0232009" n="0232009"/><anchor xml:id="beg0232009" n="0232009"/>烏鵶<anchor xml:id="end0232009"/>啄頂腦。一柱樓上自樂見著衣，
+<lb n="0232a25" ed="T"/>蜂啄木，<anchor xml:id="nkr_note_orig_0232009" n="0232009"/><anchor xml:id="nkr_note_mod_0232009" n="0232009"/><anchor xml:id="beg0232009" n="0232009"/>烏鵄<anchor xml:id="end0232009"/>啄頂腦。一柱樓上自樂見著衣，
 <lb n="0232a26" ed="T"/>青黃赤白自身著，見騎馬人<anchor xml:id="nkr_note_orig_0232010" n="0232010"/><anchor xml:id="nkr_note_mod_0232010" n="0232010"/><anchor xml:id="beg0232010" n="0232010"/>牧<g ref="#CB02570">䭷</g><anchor xml:id="end0232010"/>有聲。持<g ref="#CB02953">󰮉</g>
 <lb n="0232a27" ed="T"/>作<anchor xml:id="nkr_note_orig_0232011" n="0232011"/><anchor xml:id="beg0232011" n="0232011"/>枕<anchor xml:id="end0232011"/>，聚土中臥。死人亦擔死人，亦除溷人，共
 <lb n="0232a28" ed="T"/>一器中食；亦見是人共載車行，麻油污泥污足
 <lb n="0232a29" ed="T"/>亦塗身；亦見是時時<anchor xml:id="nkr_note_orig_0232012" n="0232012"/><anchor xml:id="nkr_note_mod_0232012" n="0232012"/><anchor xml:id="beg0232012" n="0232012"/>飲<anchor xml:id="end0232012"/>；亦見墮網中獵家牽
 <pb n="0232b" ed="T" xml:id="T15.0607.0232b"/>
-<lb n="0232b01" ed="T"/>去。或見自身嘻喜觀喜咷；或見道積蟇子自
+<lb n="0232b01" ed="T"/>去。或見自身嘻喜<anchor xml:id="beg_5" type="cb-app"/>歡<anchor xml:id="end_5"/>喜咷；或見道積蟇子自
 <lb n="0232b02" ed="T"/>過上；或見<anchor xml:id="nkr_note_orig_0232013" n="0232013"/><anchor xml:id="beg0232013" n="0232013"/>斂<anchor xml:id="end0232013"/>鹵鹽錢；或見被髮<anchor xml:id="nkr_note_orig_0232014" n="0232014"/><anchor xml:id="nkr_note_mod_0232014" n="0232014"/><anchor xml:id="beg0232014" n="0232014"/>胆<anchor xml:id="end0232014"/>裸女人，
 <lb n="0232b03" ed="T"/>自身相牽；或有灰傅身亦食；或見狗亦獼猴
 <lb n="0232b04" ed="T"/>相逐恐；或見自身滅欲娶嫁。或時見人家中
 <lb n="0232b05" ed="T"/>神壞；或時見馬來狧鬚髮；或時見齒墮地；或
-<lb n="0232b06" ed="T"/>時見擔死人衣，自著身；或時自身<anchor xml:id="beg_5" type="star"/>胆<anchor xml:id="end_5"/>裸為塗
+<lb n="0232b06" ed="T"/>時見擔死人衣，自著身；或時自身<anchor xml:id="beg_6" type="star"/>胆<anchor xml:id="end_6"/>裸為塗
 <lb n="0232b07" ed="T"/>膩；<anchor xml:id="nkr_note_orig_0232015" n="0232015"/><anchor xml:id="nkr_note_mod_0232015" n="0232015"/><anchor xml:id="beg0232015" n="0232015"/>或<anchor xml:id="end0232015"/>見聚土自身轉；或時見革及旃著衣
 <lb n="0232b08" ed="T"/>行；或時自見家中門，弊壞車來到，多載油花
 <lb n="0232b09" ed="T"/>香。亦見昆弟近自身，嚴先祖人現麁恐顏色，
@@ -563,7 +573,7 @@ Added comment  for Emacs
 <lb n="0232b16" ed="T"/>上山嶄巖悲大哭；或時鳥梲吞足亦蹈；或時
 <lb n="0232b17" ed="T"/><anchor xml:id="nkr_note_orig_0232020" n="0232020"/><anchor xml:id="nkr_note_mod_0232020" n="0232020"/><anchor xml:id="beg0232020" n="0232020"/>塵<anchor xml:id="end0232020"/>坌頭；或時虎遮斷，亦狗猴亦驢，南方行
 <lb n="0232b18" ed="T"/>入塚間，見聚炭髮毛分骨擣碎幹華，自身見
-<lb n="0232b19" ed="T"/>入<anchor xml:id="nkr_note_orig_0232021" n="0232021"/><anchor xml:id="nkr_note_mod_0232021" n="0232021"/><anchor xml:id="beg0232021" n="0232021"/>鹽<anchor xml:id="end0232021"/>王。見<anchor xml:id="beg_6" type="star"/>鹽<anchor xml:id="end_6"/>王使問，從後現說：『世間已得
+<lb n="0232b19" ed="T"/>入<anchor xml:id="nkr_note_orig_0232021" n="0232021"/><anchor xml:id="nkr_note_mod_0232021" n="0232021"/><anchor xml:id="beg0232021" n="0232021"/>鹽<anchor xml:id="end0232021"/>王。見<anchor xml:id="beg_7" type="star"/>鹽<anchor xml:id="end_7"/>王使問，從後現說：『世間已得
 <lb n="0232b20" ed="T"/>多樂，根墮或身墮，畏命欲去，不得自在，病追
 <lb n="0232b21" ed="T"/>促病已<anchor xml:id="nkr_note_orig_0232022" n="0232022"/><anchor xml:id="nkr_note_mod_0232022" n="0232022"/><anchor xml:id="beg0232022" n="0232022"/>促<anchor xml:id="end0232022"/>，意便動，命盡憂近，便見夢令<anchor xml:id="nkr_note_orig_0232023" n="0232023"/><anchor xml:id="nkr_note_mod_0232023" n="0232023"/><anchor xml:id="beg0232023" n="0232023"/>入<anchor xml:id="end0232023"/>
 <lb n="0232b22" ed="T"/>大怖。』</p><p xml:id="pT15p0232b2203" rend="inline">「人便意中計：『我命欲盡，如是夢，身所見。』
@@ -578,11 +588,11 @@ Added comment  for Emacs
 <lb n="0232c01" ed="T"/>痛不<anchor xml:id="nkr_note_orig_0232026" n="0232026"/><anchor xml:id="nkr_note_mod_0232026" n="0232026"/><anchor xml:id="beg0232026" n="0232026"/>得復<anchor xml:id="end0232026"/>活。何以故？趣使得相有如是像，跓
 <lb n="0232c02" ed="T"/>被服、語言、車蓋、鬚髮衣；亦如是諱<anchor xml:id="nkr_note_orig_0232027" n="0232027"/><anchor xml:id="beg0232027" n="0232027"/>日<anchor xml:id="end0232027"/>來呼，若
 <lb n="0232c03" ed="T"/>四、若六、若九、若十二、若十四來至到，復觸忌諱
-<lb n="0232c04" ed="T"/><anchor xml:id="beg_7" type="star"/>日<anchor xml:id="end_7"/>，人所不喜醫，復何血忌上相四激反支來
+<lb n="0232c04" ed="T"/><anchor xml:id="beg_8" type="star"/>日<anchor xml:id="end_8"/>，人所不喜醫，復何血忌上相四激反支來
 <lb n="0232c05" ed="T"/><anchor xml:id="nkr_note_orig_0232028" n="0232028"/><anchor xml:id="nkr_note_mod_0232028" n="0232028"/><anchor xml:id="beg0232028" n="0232028"/>喚<anchor xml:id="end0232028"/>？是亦不必日時漏<anchor xml:id="nkr_note_orig_0232029" n="0232029"/><anchor xml:id="nkr_note_mod_0232029" n="0232029"/><anchor xml:id="beg0232029" n="0232029"/>刻<anchor xml:id="end0232029"/>星宿。須臾疑人取
-<lb n="0232c06" ed="T"/>相。何以故？或時是惡日時漏<anchor xml:id="beg_8" type="star"/>刻<anchor xml:id="end_8"/>，有是人行
-<lb n="0232c07" ed="T"/>方便，能<anchor xml:id="nkr_note_orig_0232030" n="0232030"/><anchor xml:id="beg0232030" n="0232030"/>治<anchor xml:id="end0232030"/>病痛，病痛有時不能得<anchor xml:id="beg_9" type="star"/>治<anchor xml:id="end_9"/>，是故
-<lb n="0232c08" ed="T"/>不必在時日漏<anchor xml:id="beg_a" type="star"/>刻<anchor xml:id="end_a"/>。故慧人不亦喜用<anchor xml:id="nkr_note_orig_0232031" n="0232031"/><anchor xml:id="nkr_note_mod_0232031" n="0232031"/><anchor xml:id="beg0232031" n="0232031"/>歷<anchor xml:id="end0232031"/>日。
+<lb n="0232c06" ed="T"/>相。何以故？或時是惡日時漏<anchor xml:id="beg_9" type="star"/>刻<anchor xml:id="end_9"/>，有是人行
+<lb n="0232c07" ed="T"/>方便，能<anchor xml:id="nkr_note_orig_0232030" n="0232030"/><anchor xml:id="beg0232030" n="0232030"/>治<anchor xml:id="end0232030"/>病痛，病痛有時不能得<anchor xml:id="beg_a" type="star"/>治<anchor xml:id="end_a"/>，是故
+<lb n="0232c08" ed="T"/>不必在時日漏<anchor xml:id="beg_b" type="star"/>刻<anchor xml:id="end_b"/>。故慧人不亦喜用<anchor xml:id="nkr_note_orig_0232031" n="0232031"/><anchor xml:id="nkr_note_mod_0232031" n="0232031"/><anchor xml:id="beg0232031" n="0232031"/>歷<anchor xml:id="end0232031"/>日。
 <lb n="0232c09" ed="T"/>仙人常勸：「當為求方便治，至死若病痛橫有病，
 <lb n="0232c10" ed="T"/>可能得活，若命盡但說去。計如是可至病痛
 <lb n="0232c11" ed="T"/>舍，從後<anchor xml:id="nkr_note_orig_0232032" n="0232032"/><anchor xml:id="nkr_note_mod_0232032" n="0232032"/><anchor xml:id="beg0232032" n="0232032"/>束<anchor xml:id="end0232032"/>結；說俱入海水，或到或中壞，病
@@ -590,7 +600,7 @@ Added comment  for Emacs
 <lb n="0232c13" ed="T"/>可意，亡燒斷破刺撥刮刷，出殺去發滅蝕，燒
 <lb n="0232c14" ed="T"/>斷破刺撥刮刷，出殺去發滅蝕不可治已死，
 <lb n="0232c15" ed="T"/>視南方，復見烏<anchor xml:id="nkr_note_orig_0232033" n="0232033"/><anchor xml:id="nkr_note_mod_0232033" n="0232033"/><anchor xml:id="beg0232033" n="0232033"/>鵄<anchor xml:id="end0232033"/>巢有聲；復見小兒俱相坌
-<lb n="0232c16" ed="T"/>土；復<anchor xml:id="beg_b" type="star"/>胆<anchor xml:id="end_b"/>裸相<anchor xml:id="nkr_note_orig_0232034" n="0232034"/><anchor xml:id="beg0232034" n="0232034"/>挽<anchor xml:id="end0232034"/>頭髮，破瓶<anchor xml:id="nkr_note_orig_0232035" n="0232035"/><anchor xml:id="nkr_note_mod_0232035" n="0232035"/><anchor xml:id="beg0232035" n="0232035"/>盆<anchor xml:id="end0232035"/><anchor xml:id="nkr_note_orig_0232036" n="0232036"/><anchor xml:id="beg0232036" n="0232036"/>瓦<anchor xml:id="end0232036"/><anchor xml:id="nkr_note_orig_0232037" n="0232037"/><anchor xml:id="nkr_note_mod_0232037" n="0232037"/><anchor xml:id="beg0232037" n="0232037"/>甌<anchor xml:id="end0232037"/>；亦
+<lb n="0232c16" ed="T"/>土；復<anchor xml:id="beg_c" type="star"/>胆<anchor xml:id="end_c"/>裸相<anchor xml:id="nkr_note_orig_0232034" n="0232034"/><anchor xml:id="beg0232034" n="0232034"/>挽<anchor xml:id="end0232034"/>頭髮，破瓶<anchor xml:id="nkr_note_orig_0232035" n="0232035"/><anchor xml:id="nkr_note_mod_0232035" n="0232035"/><anchor xml:id="beg0232035" n="0232035"/>盆<anchor xml:id="end0232035"/><anchor xml:id="nkr_note_orig_0232036" n="0232036"/><anchor xml:id="beg0232036" n="0232036"/>瓦<anchor xml:id="end0232036"/><anchor xml:id="nkr_note_orig_0232037" n="0232037"/><anchor xml:id="nkr_note_mod_0232037" n="0232037"/><anchor xml:id="beg0232037" n="0232037"/>甌<anchor xml:id="end0232037"/>；亦
 <lb n="0232c17" ed="T"/>見空器舍不著意。</p><p xml:id="pT15p0232c1708" rend="inline">「行至病者舍，入見病著人，
 <lb n="0232c18" ed="T"/>病更惱。從彼舍來說，醫便視病，相遽驚怖驚
 <lb n="0232c19" ed="T"/>坐起，著病無有力，不得自在。見如是，便念：『如
@@ -623,7 +633,7 @@ Added comment  for Emacs
 <lb n="0233a16" ed="T"/>藥，所事方便便止。親屬知識比隣共會，<anchor xml:id="nkr_note_orig_0233014" n="0233014"/><anchor xml:id="nkr_note_mod_0233014" n="0233014"/><anchor xml:id="beg0233014" n="0233014"/>還<anchor xml:id="end0233014"/>繞
 <lb n="0233a17" ed="T"/>病困者，悲哀哭視，譬如牛為屠家所殺，餘牛
 <lb n="0233a18" ed="T"/>見死牛恐自<anchor xml:id="nkr_note_orig_0233015" n="0233015"/><anchor xml:id="beg0233015" n="0233015"/>及<anchor xml:id="end0233015"/>，跳場驚怖走入山樹<anchor xml:id="nkr_note_orig_0233016" n="0233016"/><anchor xml:id="nkr_note_mod_0233016" n="0233016"/><anchor xml:id="beg0233016" n="0233016"/>間<anchor xml:id="end0233016"/>呌
-<lb n="0233a19" ed="T"/><anchor xml:id="beg_c" type="star"/>喚<anchor xml:id="end_c"/>；復譬如猪為屠家所殺，餘猪見驚怖畏効
+<lb n="0233a19" ed="T"/><anchor xml:id="beg_d" type="star"/>喚<anchor xml:id="end_d"/>；復譬如猪為屠家所殺，餘猪見驚怖畏効
 <lb n="0233a20" ed="T"/>死，便聳耳直視；復如魚<anchor xml:id="nkr_note_orig_0233017" n="0233017"/><anchor xml:id="nkr_note_mod_0233017" n="0233017"/><anchor xml:id="beg0233017" n="0233017"/>為<anchor xml:id="end0233017"/>捕魚墮網者，餘
 <lb n="0233a21" ed="T"/>魚見驚怖，沈走入沙石間<g ref="#CB02942">𣝆</g>藻中藏；復譬如
 <lb n="0233a22" ed="T"/>飛鳥聚行，一鳥為鷹鷂所得，餘鳥驚分散分
@@ -657,7 +667,7 @@ Added comment  for Emacs
 <lb n="0233b20" ed="T"/>苦惱不可意，自責：『今我墮惡處為無有<anchor xml:id="nkr_note_orig_0233032" n="0233032"/><anchor xml:id="beg0233032" n="0233032"/>疑<anchor xml:id="end0233032"/>。』若
 <lb n="0233b21" ed="T"/>如行者行三好，若干守行願，最好行者多好，
 <lb n="0233b22" ed="T"/>即時喜多喜意可自喜：『我今上天亦好處。』譬
-<lb n="0233b23" ed="T"/>如賈客，從<anchor xml:id="beg_d" type="star"/>澁<anchor xml:id="end_d"/>道得脫出，得多利，歸家到門喜；
+<lb n="0233b23" ed="T"/>如賈客，從<anchor xml:id="beg_e" type="star"/>澁<anchor xml:id="end_e"/>道得脫出，得多利，歸家到門喜；
 <lb n="0233b24" ed="T"/>亦譬如田家願，獲五穀著舍中；亦如病痛得
 <lb n="0233b25" ed="T"/>愈安隱；亦如負債已償；素行好亦如是合好
 <lb n="0233b26" ed="T"/>行；譬如蜜蜂便意生我已到好處。</p><p xml:id="pT15p0233b2614" rend="inline">「即時，身精
@@ -667,12 +677,12 @@ Added comment  for Emacs
 <pb n="0233c" ed="T" xml:id="T15.0607.0233c"/>
 <lb n="0233c01" ed="T"/>往，亦不離死五陰，為有中五陰。<anchor xml:id="nkr_note_orig_0233034" n="0233034"/><anchor xml:id="nkr_note_mod_0233034" n="0233034"/><anchor xml:id="beg0233034" n="0233034"/>有但<anchor xml:id="end0233034"/>死五陰，
 <lb n="0233c02" ed="T"/>故中五陰生。譬如人持印，印好<anchor xml:id="nkr_note_orig_0233035" n="0233035"/><anchor xml:id="beg0233035" n="0233035"/>埿，埿<anchor xml:id="end0233035"/>中便有
-<lb n="0233c03" ed="T"/>印，像印亦不往至<anchor xml:id="beg_e" type="star"/>埿，埿<anchor xml:id="end_e"/>亦不離印像。譬如
+<lb n="0233c03" ed="T"/>印，像印亦不往至<anchor xml:id="beg_f" type="star"/>埿，埿<anchor xml:id="end_f"/>亦不離印像。譬如
 <lb n="0233c04" ed="T"/>種生根，種亦非根，根亦不離種；人神亦如是，
 <lb n="0233c05" ed="T"/>小大如法，從生往至中，從是本會有。</p><p xml:id="pT15p0233c0515" rend="inline">「好行者
 <lb n="0233c06" ed="T"/>中得好五陰，惡行者得惡中，得陰者為天眼
 <lb n="0233c07" ed="T"/>行，中止者為三食：樂、念、識。中止者或<anchor xml:id="nkr_note_orig_0233036" n="0233036"/><anchor xml:id="nkr_note_mod_0233036" n="0233036"/><anchor xml:id="beg0233036" n="0233036"/>住<anchor xml:id="end0233036"/>一
-<lb n="0233c08" ed="T"/>日，或<anchor xml:id="beg_f" type="star"/>住<anchor xml:id="end_f"/>七日止，到父母會，亦所墮處從中止。
+<lb n="0233c08" ed="T"/>日，或<anchor xml:id="beg_10" type="star"/>住<anchor xml:id="end_10"/>七日止，到父母會，亦所墮處從中止。
 <lb n="0233c09" ed="T"/>當到所墮即死時，已生中陰，便生千思，或見
 <lb n="0233c10" ed="T"/>念便癡生。</p><p xml:id="pT15p0233c1005" rend="inline">「最惡行者便自然大火邊；亦若<anchor xml:id="nkr_note_orig_0233037" n="0233037"/><anchor xml:id="beg0233037" n="0233037"/>干<anchor xml:id="end0233037"/>
 <lb n="0233c11" ed="T"/>百千<anchor xml:id="nkr_note_orig_0233038" n="0233038"/><anchor xml:id="nkr_note_mod_0233038" n="0233038"/><anchor xml:id="beg0233038" n="0233038"/>烏<anchor xml:id="end0233038"/>鵶鷹鷂共會；亦見人惡爪面齒被服
@@ -699,10 +709,10 @@ Added comment  for Emacs
 <lb n="0234a02" ed="T"/>不離法是為墮天種。</p><p xml:id="pT15p0234a0209" rend="inline">「若墮人中，從本行受殃
 <lb n="0234a03" ed="T"/>福，父母亦聚會，夙行應男從生，福亦止等。同
 <lb n="0234a04" ed="T"/>時父母收精胞門不堅，從風熱寒，亦不染亦
-<lb n="0234a05" ed="T"/>不邪曲；亦不屢亦不<anchor xml:id="beg_10" type="star"/>澁<anchor xml:id="end_10"/>；亦不汁思飯、不起、不
+<lb n="0234a05" ed="T"/>不邪曲；亦不屢亦不<anchor xml:id="beg_11" type="star"/>澁<anchor xml:id="end_11"/>；亦不汁思飯、不起、不
 <lb n="0234a06" ed="T"/>慢、不殺胞門；亦不像栗、不像輪；亦不像狸亦
 <lb n="0234a07" ed="T"/>不像麥；中央亦不像<anchor xml:id="nkr_note_orig_0234002" n="0234002"/><anchor xml:id="nkr_note_mod_0234002" n="0234002"/><anchor xml:id="beg0234002" n="0234002"/>自<anchor xml:id="end0234002"/>剛鐵，中央亦不像錫，
-<lb n="0234a08" ed="T"/>中央一切門無有惡精；亦不薄亦不厚；不亦
+<lb n="0234a08" ed="T"/>中央一切門無有惡精；亦不薄亦不厚；<anchor xml:id="beg_12" type="cb-app"/>亦不<anchor xml:id="end_12"/>
 <lb n="0234a09" ed="T"/>腐亦不黑，亦不赤亦不<anchor xml:id="nkr_note_orig_0234003" n="0234003"/><anchor xml:id="beg0234003" n="0234003"/>黃<anchor xml:id="end0234003"/>，乘色亦不散；亦不
 <lb n="0234a10" ed="T"/>風血寒熱雜，亦不小便合精。神已止精，神念
 <lb n="0234a11" ed="T"/>往意生欲，却男自身代共樂羸人。羸人便惡
@@ -718,10 +728,10 @@ Added comment  for Emacs
 <lb n="0234a21" ed="T"/>酪上酥<anchor xml:id="nkr_note_orig_0234007" n="0234007"/><anchor xml:id="nkr_note_mod_0234007" n="0234007"/><anchor xml:id="beg0234007" n="0234007"/>肥<anchor xml:id="end0234007"/>。三七日精凝，如久酪在器中。四七
 <lb n="0234a22" ed="T"/>日精稍堅，如酪成。五七日精變化，如酪酥。六
 <lb n="0234a23" ed="T"/>七日如酪酥，變化聚堅。七七日變化聚堅藏，
-<lb n="0234a24" ed="T"/>譬如熟<anchor xml:id="nkr_note_orig_0234008" n="0234008"/><anchor xml:id="nkr_note_mod_0234008" n="0234008"/><anchor xml:id="beg0234008" n="0234008"/>烏<anchor xml:id="end0234008"/>麮。八七日變化滅<anchor xml:id="beg_11" type="star"/>烏<anchor xml:id="end_11"/>麮，譬如<anchor xml:id="nkr_note_orig_0234009" n="0234009"/><anchor xml:id="nkr_note_mod_0234009" n="0234009"/><anchor xml:id="beg0234009" n="0234009"/>磨<anchor xml:id="end0234009"/>
-<lb n="0234a25" ed="T"/>石子。九七日在<anchor xml:id="beg_12" type="star"/>磨<anchor xml:id="end_12"/>石子上生五<anchor xml:id="nkr_note_orig_0234010" n="0234010"/><anchor xml:id="beg0234010" n="0234010"/>腄<anchor xml:id="end0234010"/>：兩肩相、
-<lb n="0234a26" ed="T"/>兩臏相、一頭相。十七日亦在<anchor xml:id="beg_13" type="star"/>磨<anchor xml:id="end_13"/>石子上生四
-<lb n="0234a27" ed="T"/>肘：兩手相、兩足相。十一七日亦在<anchor xml:id="beg_14" type="star"/>磨<anchor xml:id="end_14"/>石子上
+<lb n="0234a24" ed="T"/>譬如熟<anchor xml:id="nkr_note_orig_0234008" n="0234008"/><anchor xml:id="nkr_note_mod_0234008" n="0234008"/><anchor xml:id="beg0234008" n="0234008"/>烏<anchor xml:id="end0234008"/>麮。八七日變化滅<anchor xml:id="beg_13" type="star"/>烏<anchor xml:id="end_13"/>麮，譬如<anchor xml:id="nkr_note_orig_0234009" n="0234009"/><anchor xml:id="nkr_note_mod_0234009" n="0234009"/><anchor xml:id="beg0234009" n="0234009"/>磨<anchor xml:id="end0234009"/>
+<lb n="0234a25" ed="T"/>石子。九七日在<anchor xml:id="beg_14" type="star"/>磨<anchor xml:id="end_14"/>石子上生五<anchor xml:id="nkr_note_orig_0234010" n="0234010"/><anchor xml:id="beg0234010" n="0234010"/>腄<anchor xml:id="end0234010"/>：兩肩相、
+<lb n="0234a26" ed="T"/>兩臏相、一頭相。十七日亦在<anchor xml:id="beg_15" type="star"/>磨<anchor xml:id="end_15"/>石子上生四
+<lb n="0234a27" ed="T"/>肘：兩手相、兩足相。十一七日亦在<anchor xml:id="beg_16" type="star"/>磨<anchor xml:id="end_16"/>石子上
 <lb n="0234a28" ed="T"/>生二十四肘：十在手指相，十在足指相，四在
 <lb n="0234a29" ed="T"/>耳、目、鼻、口止處相。十二七日是肘為正。十三
 <pb n="0234b" ed="T" xml:id="T15.0607.0234b"/>
@@ -738,7 +748,7 @@ Added comment  for Emacs
 <lb n="0234b11" ed="T"/>堅，譬如龜甲。二十三七日精復堅，譬如厚皮
 <lb n="0234b12" ed="T"/>胡桃。是為三百節連相著，足骨連腨腸，腨腸
 <lb n="0234b13" ed="T"/>連臗骨，臗骨連背，脊腰骨連肩，肩連頸<anchor xml:id="nkr_note_orig_0234012" n="0234012"/><anchor xml:id="nkr_note_mod_0234012" n="0234012"/><anchor xml:id="beg0234012" n="0234012"/>脰<anchor xml:id="end0234012"/>，頸
-<lb n="0234b14" ed="T"/><anchor xml:id="beg_15" type="star"/>脰<anchor xml:id="end_15"/>連頭<anchor xml:id="nkr_note_orig_0234013" n="0234013"/><anchor xml:id="nkr_note_mod_0234013" n="0234013"/><anchor xml:id="beg0234013" n="0234013"/>頤<anchor xml:id="end0234013"/>，頭<anchor xml:id="beg_16" type="star"/>頤<anchor xml:id="end_16"/>連齒。如是<anchor xml:id="nkr_note_orig_0234014" n="0234014"/><anchor xml:id="nkr_note_mod_0234014" n="0234014"/><anchor xml:id="beg0234014" n="0234014"/>是<anchor xml:id="end0234014"/>骨聚磈礧
+<lb n="0234b14" ed="T"/><anchor xml:id="beg_17" type="star"/>脰<anchor xml:id="end_17"/>連頭<anchor xml:id="nkr_note_orig_0234013" n="0234013"/><anchor xml:id="nkr_note_mod_0234013" n="0234013"/><anchor xml:id="beg0234013" n="0234013"/>頤<anchor xml:id="end0234013"/>，頭<anchor xml:id="beg_18" type="star"/>頤<anchor xml:id="end_18"/>連齒。如是<anchor xml:id="nkr_note_orig_0234014" n="0234014"/><anchor xml:id="nkr_note_mod_0234014" n="0234014"/><anchor xml:id="beg0234014" n="0234014"/>是<anchor xml:id="end0234014"/>骨聚磈礧
 <lb n="0234b15" ed="T"/>骨城，筋纏、血澆、肉塗革覆，福從是受，<anchor xml:id="nkr_note_orig_0234015" n="0234015"/><anchor xml:id="nkr_note_mod_0234015" n="0234015"/><anchor xml:id="beg0234015" n="0234015"/>靡<anchor xml:id="end0234015"/>不知
 <lb n="0234b16" ed="T"/>痛痒，隨意隨風作俳掣。二十四七日為七千
 <lb n="0234b17" ed="T"/>筋纏身。二十五七日<anchor xml:id="nkr_note_orig_0234016" n="0234016"/><anchor xml:id="nkr_note_mod_0234016" n="0234016"/><anchor xml:id="beg0234016" n="0234016"/>生七千脈，尚未具成。二
@@ -759,18 +769,18 @@ Added comment  for Emacs
 <lb n="0234c02" ed="T"/>身意令端正可人；惡行者令臭風起，<anchor xml:id="nkr_note_orig_0234023" n="0234023"/><anchor xml:id="nkr_note_mod_0234023" n="0234023"/><anchor xml:id="beg0234023" n="0234023"/>使<anchor xml:id="end0234023"/>身意
 <lb n="0234c03" ed="T"/>不安不可<anchor xml:id="nkr_note_orig_0234024" n="0234024"/><anchor xml:id="nkr_note_mod_0234024" n="0234024"/><anchor xml:id="beg0234024" n="0234024"/>人<anchor xml:id="end0234024"/>，骨節不端正，或<anchor xml:id="nkr_note_orig_0234025" n="0234025"/><anchor xml:id="nkr_note_mod_0234025" n="0234025"/><anchor xml:id="beg0234025" n="0234025"/><g ref="#CB02971">󰮛</g><g ref="#CB02923">𦜏</g><anchor xml:id="end0234025"/>或僂或
 <lb n="0234c04" ed="T"/><g ref="#CB02937">𨉝</g>或魋，人見可是。三十八七日為九月不滿
-<lb n="0234c05" ed="T"/>四日，骨節皆具足。</p><p xml:id="pT15p0234c0508" rend="inline">「兒生<anchor xml:id="beg_17" type="star"/>宿<anchor xml:id="end_17"/>行有二分：一分從
+<lb n="0234c05" ed="T"/>四日，骨節皆具足。</p><p xml:id="pT15p0234c0508" rend="inline">「兒生<anchor xml:id="beg_19" type="star"/>宿<anchor xml:id="end_19"/>行有二分：一分從
 <lb n="0234c06" ed="T"/>父，一分從母。或時毛髮舌咽臍心肝脾眼尻血
 <lb n="0234c07" ed="T"/>從母；或爪甲骨大小便脈精，若餘骨節從父。
 <lb n="0234c08" ed="T"/>宿行從母受生，熟在下、<anchor xml:id="nkr_note_orig_0234026" n="0234026"/><anchor xml:id="nkr_note_mod_0234026" n="0234026"/><anchor xml:id="beg0234026" n="0234026"/>生<anchor xml:id="end0234026"/>在上。兒在<anchor xml:id="nkr_note_orig_0234027" n="0234027"/><anchor xml:id="nkr_note_mod_0234027" n="0234027"/><anchor xml:id="beg0234027" n="0234027"/>左<anchor xml:id="end0234027"/>脇，
 <lb n="0234c09" ed="T"/>背向前，腹向後；<anchor xml:id="nkr_note_orig_0234028" n="0234028"/><anchor xml:id="nkr_note_mod_0234028" n="0234028"/><anchor xml:id="beg0234028" n="0234028"/>女在右脇，腹向前，背向後<anchor xml:id="end0234028"/>。止
 <lb n="0234c10" ed="T"/>處臭惡露，一切骨節卷縮在革囊，在腹內血著
 <lb n="0234c11" ed="T"/>身，在<anchor xml:id="nkr_note_orig_0234029" n="0234029"/><anchor xml:id="nkr_note_mod_0234029" n="0234029"/><anchor xml:id="beg0234029" n="0234029"/>外<anchor xml:id="end0234029"/>處大便肥長。</p><p xml:id="pT15p0234c1109" rend="inline">「九月餘有四日，一日二
-<lb n="0234c12" ed="T"/>日中，若<anchor xml:id="beg_18" type="star"/>宿<anchor xml:id="end_18"/>行好，便意生我在園中，意計若在
+<lb n="0234c12" ed="T"/>日中，若<anchor xml:id="beg_1a" type="star"/>宿<anchor xml:id="end_1a"/>行好，便意生我在園中，意計若在
 <lb n="0234c13" ed="T"/>天上；若惡行者，意生我在獄止。二日意在三
 <lb n="0234c14" ed="T"/>日中，即腹中樂。三日意在四日中，一日一夜
 <lb n="0234c15" ed="T"/>母腹中上下風起，兒從是風倒頭向下，足在
-<lb n="0234c16" ed="T"/>上，墮母胞門中。<anchor xml:id="beg_19" type="star"/>宿<anchor xml:id="end_19"/>行好，於母胞門中意生墮
+<lb n="0234c16" ed="T"/>上，墮母胞門中。<anchor xml:id="beg_1b" type="star"/>宿<anchor xml:id="end_1b"/>行好，於母胞門中意生墮
 <lb n="0234c17" ed="T"/>池水，池水中戲，復意生在高床上，若香華中；
 <lb n="0234c18" ed="T"/>宿命行惡者，意生從山墮樹上、墮岸上、墮坑
 <lb n="0234c19" ed="T"/>中、墮溷中、墮蒺<g ref="#CB01420">䔧</g>中、墮<anchor xml:id="nkr_note_orig_0234030" n="0234030"/><anchor xml:id="nkr_note_mod_0234030" n="0234030"/><anchor xml:id="beg0234030" n="0234030"/>網<anchor xml:id="end0234030"/>中、墮<anchor xml:id="nkr_note_orig_0234031" n="0234031"/><anchor xml:id="nkr_note_mod_0234031" n="0234031"/><anchor xml:id="beg0234031" n="0234031"/>茅<anchor xml:id="end0234031"/>中、墮刀
@@ -779,9 +789,9 @@ Added comment  for Emacs
 <lb n="0234c22" ed="T"/>門所纏裹，產戶急<anchor xml:id="nkr_note_orig_0234033" n="0234033"/><anchor xml:id="nkr_note_mod_0234033" n="0234033"/><anchor xml:id="beg0234033" n="0234033"/>笮<anchor xml:id="end0234033"/>墮地中風，復為人溫
 <lb n="0234c23" ed="T"/>湯所<anchor xml:id="nkr_note_orig_0234034" n="0234034"/><anchor xml:id="beg0234034" n="0234034"/>洗<anchor xml:id="end0234034"/>，手麁身<anchor xml:id="nkr_note_orig_0234035" n="0234035"/><anchor xml:id="nkr_note_mod_0234035" n="0234035"/><anchor xml:id="beg0234035" n="0234035"/>遍<anchor xml:id="end0234035"/>痛如瘡，從是便忘宿行、腹
 <lb n="0234c24" ed="T"/>中所更。已生，從血臭故，便聚為邪鬼<anchor xml:id="nkr_note_orig_0234036" n="0234036"/><anchor xml:id="nkr_note_mod_0234036" n="0234036"/><anchor xml:id="beg0234036" n="0234036"/><g ref="#CB02931">𩲶</g><anchor xml:id="end0234036"/>飛屍，
-<lb n="0234c25" ed="T"/>各<g ref="#CB02960">󰮐</g>魃，蠱鬽魖行，父亦如是。譬如四街有一
+<lb n="0234c25" ed="T"/>各<g ref="#CB02960">󰮐</g><anchor xml:id="beg_1c" type="cb-app"/>鬾<anchor xml:id="end_1c"/>，蠱鬽魖行，父亦如是。譬如四街有一
 <lb n="0234c26" ed="T"/>臠肉，為鴟鳶<anchor xml:id="nkr_note_orig_0234037" n="0234037"/><anchor xml:id="nkr_note_mod_0234037" n="0234037"/><anchor xml:id="beg0234037" n="0234037"/>烏<anchor xml:id="end0234037"/>鵲眾鳥所爭，各自欲得<anchor xml:id="nkr_note_orig_0234038" n="0234038"/><anchor xml:id="nkr_note_mod_0234038" n="0234038"/><anchor xml:id="beg0234038" n="0234038"/>耶<anchor xml:id="end0234038"/>！
-<lb n="0234c27" ed="T"/>環繞嬈人如是。<anchor xml:id="nkr_note_orig_0234039" n="0234039"/><anchor xml:id="nkr_note_mod_0234039" n="0234039"/><anchor xml:id="beg0234039" n="0234039"/>有<anchor xml:id="end0234039"/><anchor xml:id="beg_1a" type="star"/>宿<anchor xml:id="end_1a"/>行好耶，不能得著；<anchor xml:id="beg_1b" type="star"/>宿<anchor xml:id="end_1b"/>
+<lb n="0234c27" ed="T"/>環繞嬈人如是。<anchor xml:id="nkr_note_orig_0234039" n="0234039"/><anchor xml:id="nkr_note_mod_0234039" n="0234039"/><anchor xml:id="beg0234039" n="0234039"/>有<anchor xml:id="end0234039"/><anchor xml:id="beg_1d" type="star"/>宿<anchor xml:id="end_1d"/>行好耶，不能得著；<anchor xml:id="beg_1e" type="star"/>宿<anchor xml:id="end_1e"/>
 <lb n="0234c28" ed="T"/>行惡耶，能得著。</p><p xml:id="pT15p0234c2807" rend="inline">「生<anchor xml:id="nkr_note_orig_0234040" n="0234040"/><anchor xml:id="nkr_note_mod_0234040" n="0234040"/><anchor xml:id="beg0234040" n="0234040"/>未<anchor xml:id="end0234040"/>久，母便養乳，稍<anchor xml:id="nkr_note_orig_0234041" n="0234041"/><anchor xml:id="nkr_note_mod_0234041" n="0234041"/><anchor xml:id="beg0234041" n="0234041"/>稍<anchor xml:id="end0234041"/>大，
 <lb n="0234c29" ed="T"/>便飲食，已能飲食，八十種蟲生身中：二種髮
 <pb n="0235a" ed="T" xml:id="T15.0607.0235a"/>
@@ -796,7 +806,7 @@ Added comment  for Emacs
 <lb n="0235a09" ed="T"/>著骨，五種著髓，二種著大腸，二種著小腸，一
 <lb n="0235a10" ed="T"/>種在熱處，一種在寒處，一種在大便道，三種
 <lb n="0235a11" ed="T"/>在大腸根，二種著臗根，五種著陰根，一種著
-<lb n="0235a12" ed="T"/>指節約，一種在脛，一種在膝頭，一種在足<anchor xml:id="beg_1c" type="cb-app"/><g ref="#CB00567">󰈷</g><anchor xml:id="end_1c"/>。</p>
+<lb n="0235a12" ed="T"/>指節約，一種在脛，一種在膝頭，一種在足<anchor xml:id="beg_1f" type="cb-app"/><g ref="#CB00567">󰈷</g><anchor xml:id="end_1f"/>。</p>
 <lb n="0235a13" ed="T"/><p xml:id="pT15p0235a1301">「如是八十種蟲著身中，日夜食身，身便生寒
 <lb n="0235a14" ed="T"/>熱風病各百一，雜餘病復<anchor xml:id="nkr_note_orig_0235007" n="0235007"/><anchor xml:id="nkr_note_mod_0235007" n="0235007"/><anchor xml:id="beg0235007" n="0235007"/>有<anchor xml:id="end0235007"/><anchor xml:id="nkr_note_orig_0235008" n="0235008"/><anchor xml:id="beg0235008" n="0235008"/>百<anchor xml:id="end0235008"/>一，如是并
 <lb n="0235a15" ed="T"/>四百四病在身中。譬如木中出火還燒木，病
@@ -809,13 +819,13 @@ Added comment  for Emacs
 <lb n="0235a22" ed="T"/>是酸棗肌。癡不聞者，世間人得調身，自壞墮
 <lb n="0235a23" ed="T"/>惱，譬如魚但見餌，不見鈎不見網；復譬如小
 <lb n="0235a24" ed="T"/>兒舐利刀蜜，但嗜甜不見刀刃；復譬如金錯
-<lb n="0235a25" ed="T"/>塗銅賣，欺人，癡人不覺，以為鈍金故，買為自
+<lb n="0235a25" ed="T"/>塗銅賣，欺人，癡人不覺，以為<anchor xml:id="beg_20" type="cb-app"/>純<anchor xml:id="end_20"/>金故，買為自
 <lb n="0235a26" ed="T"/>侵。如是世間人，或見如酸棗肌裹身，從受若
 <lb n="0235a27" ed="T"/>干惱不覺。如是酸棗肌發去，但有肉骨血在，
 <lb n="0235a28" ed="T"/>人足踐蹋常惡不敢視，誰敢抱持者？</p><p xml:id="pT15p0235a2815" rend="inline">「素行殃
 <lb n="0235a29" ed="T"/>福已盡，或時橫命盡。如陶家作器，或時在拘；
 <pb n="0235b" ed="T" xml:id="T15.0607.0235b"/>
-<lb n="0235b01" ed="T"/>或從<g ref="#CB02967">󰮗</g>；或從行輪；或已行；或<anchor xml:id="nkr_note_orig_0235012" n="0235012"/><anchor xml:id="nkr_note_mod_0235012" n="0235012"/><anchor xml:id="beg0235012" n="0235012"/>在<anchor xml:id="end0235012"/>幹流時，入
+<lb n="0235b01" ed="T"/>或從<anchor xml:id="beg_21" type="cb-app"/><g ref="#CB28333">󶺭</g><anchor xml:id="end_21"/>；或從行輪；或已行；或<anchor xml:id="nkr_note_orig_0235012" n="0235012"/><anchor xml:id="nkr_note_mod_0235012" n="0235012"/><anchor xml:id="beg0235012" n="0235012"/>在<anchor xml:id="end0235012"/>幹流時，入
 <lb n="0235b02" ed="T"/><anchor xml:id="nkr_note_orig_0235013" n="0235013"/><anchor xml:id="beg0235013" n="0235013"/>竈<anchor xml:id="end0235013"/>火<anchor xml:id="nkr_note_orig_0235014" n="0235014"/><anchor xml:id="nkr_note_mod_0235014" n="0235014"/><anchor xml:id="beg0235014" n="0235014"/>燒<anchor xml:id="end0235014"/>時；或已熟出時；或給用時，要會當
 <lb n="0235b03" ed="T"/>壞。人身亦如是，或從墮腹中；或不成根去；或
 <lb n="0235b04" ed="T"/>不具根去；或臨生時去；或<anchor xml:id="nkr_note_orig_0235015" n="0235015"/><anchor xml:id="nkr_note_mod_0235015" n="0235015"/><anchor xml:id="beg0235015" n="0235015"/>適<anchor xml:id="end0235015"/>生去，<anchor xml:id="nkr_note_orig_0235016" n="0235016"/><anchor xml:id="nkr_note_mod_0235016" n="0235016"/><anchor xml:id="beg0235016" n="0235016"/>在<anchor xml:id="end0235016"/>學業
@@ -837,7 +847,7 @@ Added comment  for Emacs
 <lb n="0235b20" ed="T"/>病死？生死如流水，不行生死業便<anchor xml:id="nkr_note_orig_0235021" n="0235021"/><anchor xml:id="nkr_note_mod_0235021" n="0235021"/><anchor xml:id="beg0235021" n="0235021"/>止。行道<anchor xml:id="end0235021"/>
 <lb n="0235b21" ed="T"/>者當知，是五陰本從生滅。」</p><p xml:id="pT15p0235b2111" rend="inline">道地五種名為成
 <lb n="0235b22" ed="T"/>壞章<anchor xml:id="nkr_note_orig_0235022" n="0235022"/><anchor xml:id="nkr_note_mod_0235022" n="0235022"/><anchor xml:id="beg0235022" n="0235022"/>也<anchor xml:id="end0235022"/>。</p></cb:div>
-<lb n="0235b23" ed="T"/><cb:div type="other"><cb:mulu level="1" n="6" type="其他">6 神足行章</cb:mulu><head><anchor xml:id="beg_1d" type="star"/><title>道地經</title><anchor xml:id="end_1d"/>神足行章第六</head>
+<lb n="0235b23" ed="T"/><cb:div type="other"><cb:mulu level="1" n="6" type="其他">6 神足行章</cb:mulu><head><anchor xml:id="beg_22" type="star"/><title>道地經</title><anchor xml:id="end_22"/>神足行章第六</head>
 <lb n="0235b24" ed="T"/><p xml:id="pT15p0235b2401">慧<anchor xml:id="nkr_note_orig_0235023" n="0235023"/><anchor xml:id="nkr_note_mod_0235023" n="0235023"/><anchor xml:id="beg0235023" n="0235023"/>清<anchor xml:id="end0235023"/>入心，如水破惡、從樹離種花，度世樂功
 <lb n="0235b25" ed="T"/>德聚，涼風可樂無有過，自歸一心<anchor xml:id="nkr_note_orig_0235024" n="0235024"/><anchor xml:id="nkr_note_mod_0235024" n="0235024"/><anchor xml:id="beg0235024" n="0235024"/>何<anchor xml:id="end0235024"/>在？在不
 <lb n="0235b26" ed="T"/>中止觀意。如稱攝鈎牽，聞經中止觀世間明，
@@ -877,7 +887,7 @@ Added comment  for Emacs
 <pb n="0236a" ed="T" xml:id="T15.0607.0236a"/>
 <lb n="0236a01" ed="T"/>離，念常在前；若行者意敷因緣，出入遠行常
 <lb n="0236a02" ed="T"/>在意<anchor xml:id="nkr_note_orig_0236001" n="0236001"/><anchor xml:id="nkr_note_mod_0236001" n="0236001"/><anchor xml:id="beg0236001" n="0236001"/>止<anchor xml:id="end0236001"/>不遠離已，晝夜在心，令半月、一月、一
-<lb n="0236a03" ed="T"/>歲，復不<anchor xml:id="beg_1e" type="star"/>啻<anchor xml:id="end_1e"/>令行不失行。令行時、止時、坐獨
+<lb n="0236a03" ed="T"/>歲，復不<anchor xml:id="beg_23" type="star"/>啻<anchor xml:id="end_23"/>令行不失行。令行時、止時、坐獨
 <lb n="0236a04" ed="T"/>坐時，多眾中共坐時、病疲時、有力時，連<anchor xml:id="nkr_note_orig_0236002" n="0236002"/><anchor xml:id="nkr_note_mod_0236002" n="0236002"/><anchor xml:id="beg0236002" n="0236002"/>隨<anchor xml:id="end0236002"/>
 <lb n="0236a05" ed="T"/>常念敷意因緣在前<anchor xml:id="nkr_note_orig_0236003" n="0236003"/><anchor xml:id="nkr_note_mod_0236003" n="0236003"/><anchor xml:id="beg0236003" n="0236003"/>住<anchor xml:id="end0236003"/>，令敷因緣<anchor xml:id="nkr_note_orig_0236004" n="0236004"/><anchor xml:id="nkr_note_mod_0236004" n="0236004"/><anchor xml:id="beg0236004" n="0236004"/>念<anchor xml:id="end0236004"/>，如是
 <lb n="0236a06" ed="T"/>非常<anchor xml:id="nkr_note_orig_0236005" n="0236005"/><anchor xml:id="beg0236005" n="0236005"/>若<anchor xml:id="end0236005"/>空非身不淨無所有，<anchor xml:id="nkr_note_orig_0236006" n="0236006"/><anchor xml:id="nkr_note_mod_0236006" n="0236006"/><anchor xml:id="beg0236006" n="0236006"/>令如<anchor xml:id="end0236006"/>本因緣
@@ -888,7 +898,7 @@ Added comment  for Emacs
 <lb n="0236a11" ed="T"/>敷念處。若意念所在，所在一切無有異，便已
 <lb n="0236a12" ed="T"/>應從念惡露得止意。是時意隨行，念不離，行
 <lb n="0236a13" ed="T"/>增滿，譬如河入海。</p></cb:div>
-<lb n="0236a14" ed="T"/><cb:div type="other"><cb:mulu level="1" n="7" type="其他">7 五十五觀章</cb:mulu><head><anchor xml:id="beg_1f" type="star"/><title>道地經</title><anchor xml:id="end_1f"/>五十五觀章第七</head>
+<lb n="0236a14" ed="T"/><cb:div type="other"><cb:mulu level="1" n="7" type="其他">7 五十五觀章</cb:mulu><head><anchor xml:id="beg_24" type="star"/><title>道地經</title><anchor xml:id="end_24"/>五十五觀章第七</head>
 <lb n="0236a15" ed="T"/><p xml:id="pT15p0236a1501">行道者當為五十五因緣自觀身：是身為譬
 <lb n="0236a16" ed="T"/>如沫不能捉；是身為譬如大海，不厭不足五
 <lb n="0236a17" ed="T"/>樂；是身為譬如大河，<anchor xml:id="nkr_note_orig_0236008" n="0236008"/><anchor xml:id="beg0236008" n="0236008"/>日<anchor xml:id="end0236008"/>願至死海；是身為譬
@@ -934,7 +944,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0230022" to="#end0230022"><lem wit="#wit1">一卷</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0230023" to="#end0230023"><lem wit="#wit1">天竺須賴拏國三藏僧伽羅剎漢言<lb n="0230c10" ed="T"/>眾護造</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">天竺三藏僧伽剎造</rdg><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
@@ -986,13 +996,14 @@ Added comment  for Emacs
 <app from="#beg0232006" to="#end0232006"><lem wit="#wit1">當要</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0232007" to="#end0232007"><lem wit="#wit1">名</lem><rdg resp="#resp1" wit="#wit4 #wit2">多</rdg></app>
 <app from="#beg0232008" to="#end0232008"><lem wit="#wit1">腦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惱</rdg></app>
-<app from="#beg0232009" to="#end0232009"><lem wit="#wit1">烏鵶</lem><rdg resp="#resp1" wit="#wit5">鳥鵛</rdg></app>
+<app from="#beg0232009" to="#end0232009"><lem wit="#wit6 #wit7" resp="#resp3">烏鵄<note type="cf1">K29n0986_p1234a14</note></lem><rdg wit="#wit1">烏鵶</rdg><rdg resp="#resp1" wit="#wit5">鳥鵛</rdg></app>
 <app from="#beg0232010" to="#end0232010"><lem wit="#wit1">牧<g ref="#CB02570">䭷</g></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">抆髦</rdg></app>
 <app from="#beg0232011" to="#end0232011"><lem wit="#wit1">枕</lem><rdg resp="#resp1" wit="#wit5">杭</rdg></app>
 <app from="#beg0232012" to="#end0232012"><lem wit="#wit1">飲</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">欲</rdg></app>
+<app from="#beg_5" to="#end_5"><lem wit="#wit6 #wit7" resp="#resp3">歡<note type="cf1">K29n0986_p1234a20</note></lem><rdg wit="#wit1">觀</rdg></app>
 <app from="#beg0232013" to="#end0232013"><lem wit="#wit1">斂</lem><rdg resp="#resp1" wit="#wit4">歛</rdg></app>
 <app from="#beg0232014" to="#end0232014"><lem wit="#wit1">胆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">袓</rdg></app>
-<app from="#beg_5" to="#end_5" corresp="#0232014"><lem wit="#wit1">胆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">袓</rdg></app>
+<app from="#beg_6" to="#end_6" corresp="#0232014"><lem wit="#wit1">胆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">袓</rdg></app>
 <app from="#beg0232015" to="#end0232015"><lem wit="#wit1">或</lem><rdg resp="#resp1" wit="#wit3">或時</rdg><rdg resp="#resp1" wit="#wit4 #wit2">時</rdg></app>
 <app from="#beg0232016" to="#end0232016"><lem wit="#wit1">間</lem><rdg resp="#resp1" wit="#wit5">聞</rdg></app>
 <app from="#beg0232017" to="#end0232017"><lem wit="#wit1">水</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">氷</rdg></app>
@@ -1000,24 +1011,24 @@ Added comment  for Emacs
 <app from="#beg0232019" to="#end0232019"><lem wit="#wit1">美</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">芬菼</rdg></app>
 <app from="#beg0232020" to="#end0232020"><lem wit="#wit1">塵</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">塵塵</rdg></app>
 <app from="#beg0232021" to="#end0232021"><lem wit="#wit1">鹽</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">檻</rdg></app>
-<app from="#beg_6" to="#end_6" corresp="#0232021"><lem wit="#wit1">鹽</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">檻</rdg></app>
+<app from="#beg_7" to="#end_7" corresp="#0232021"><lem wit="#wit1">鹽</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">檻</rdg></app>
 <app from="#beg0232022" to="#end0232022"><lem wit="#wit1">促</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">從</rdg></app>
 <app from="#beg0232023" to="#end0232023"><lem wit="#wit1">入</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">人</rdg></app>
 <app from="#beg0232024" to="#end0232024"><lem wit="#wit1">著</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">者</rdg></app>
 <app from="#beg0232025" to="#end0232025"><lem wit="#wit1">抆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">拔</rdg></app>
 <app from="#beg0232026" to="#end0232026"><lem wit="#wit1">得復</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">復得</rdg></app>
 <app from="#beg0232027" to="#end0232027"><lem wit="#wit1">日</lem><rdg resp="#resp1" wit="#wit5">曰</rdg></app>
-<app from="#beg_7" to="#end_7" corresp="#0232027"><lem wit="#wit1">日</lem><rdg resp="#resp1" wit="#wit5">曰</rdg></app>
+<app from="#beg_8" to="#end_8" corresp="#0232027"><lem wit="#wit1">日</lem><rdg resp="#resp1" wit="#wit5">曰</rdg></app>
 <app from="#beg0232028" to="#end0232028"><lem wit="#wit1">喚</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">呼</rdg></app>
 <app from="#beg0232029" to="#end0232029"><lem wit="#wit1">刻</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">剋</rdg></app>
-<app from="#beg_8" to="#end_8" corresp="#0232029"><lem wit="#wit1">刻</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">剋</rdg></app>
+<app from="#beg_9" to="#end_9" corresp="#0232029"><lem wit="#wit1">刻</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">剋</rdg></app>
 <app from="#beg0232030" to="#end0232030"><lem wit="#wit1">治</lem><rdg resp="#resp1" wit="#wit5">活</rdg></app>
-<app from="#beg_9" to="#end_9" corresp="#0232030"><lem wit="#wit1">治</lem><rdg resp="#resp1" wit="#wit5">活</rdg></app>
-<app from="#beg_a" to="#end_a" corresp="#0232029"><lem wit="#wit1">刻</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">剋</rdg></app>
+<app from="#beg_a" to="#end_a" corresp="#0232030"><lem wit="#wit1">治</lem><rdg resp="#resp1" wit="#wit5">活</rdg></app>
+<app from="#beg_b" to="#end_b" corresp="#0232029"><lem wit="#wit1">刻</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">剋</rdg></app>
 <app from="#beg0232031" to="#end0232031"><lem wit="#wit1">歷</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">曆</rdg></app>
 <app from="#beg0232032" to="#end0232032"><lem wit="#wit1">束</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">來</rdg></app>
 <app from="#beg0232033" to="#end0232033"><lem wit="#wit1">鵄</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">鵶</rdg><rdg resp="#resp1" wit="#wit5">鵛</rdg></app>
-<app from="#beg_b" to="#end_b" corresp="#0232014"><lem wit="#wit1">胆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">袓</rdg></app>
+<app from="#beg_c" to="#end_c" corresp="#0232014"><lem wit="#wit1">胆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">袓</rdg></app>
 <app from="#beg0232034" to="#end0232034"><lem wit="#wit1">挽</lem><rdg resp="#resp1" wit="#wit5">勉</rdg></app>
 <app from="#beg0232035" to="#end0232035"><lem wit="#wit1">盆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">瓮</rdg></app>
 <app from="#beg0232036" to="#end0232036"><lem wit="#wit1">瓦</lem><rdg resp="#resp1" wit="#wit5">見</rdg></app>
@@ -1044,7 +1055,7 @@ Added comment  for Emacs
 <app from="#beg0233014" to="#end0233014"><lem wit="#wit1">還</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">環</rdg></app>
 <app from="#beg0233015" to="#end0233015"><lem wit="#wit1">及</lem><rdg resp="#resp1" wit="#wit5">反</rdg></app>
 <app from="#beg0233016" to="#end0233016"><lem wit="#wit1">間</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">聞</rdg></app>
-<app from="#beg_c" to="#end_c" corresp="#0232028"><lem wit="#wit1">喚</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">呼</rdg></app>
+<app from="#beg_d" to="#end_d" corresp="#0232028"><lem wit="#wit1">喚</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">呼</rdg></app>
 <app from="#beg0233017" to="#end0233017"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0233018" to="#end0233018"><lem wit="#wit1">視</lem><rdg resp="#resp1" wit="#wit2">親</rdg></app>
 <app from="#beg0233019" to="#end0233019"><lem wit="#wit1">收</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">牧</rdg></app>
@@ -1061,13 +1072,13 @@ Added comment  for Emacs
 <app from="#beg0233030" to="#end0233030"><lem wit="#wit1">塵</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2"><g ref="#CB13490">𪙽</g></rdg></app>
 <app from="#beg0233031" to="#end0233031"><lem wit="#wit1">便</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">彼</rdg></app>
 <app from="#beg0233032" to="#end0233032"><lem wit="#wit1">疑</lem><rdg resp="#resp1" wit="#wit5">我</rdg></app>
-<app from="#beg_d" to="#end_d" corresp="#0233003"><lem wit="#wit1">澁</lem><rdg resp="#resp1" wit="#wit5">忽</rdg></app>
+<app from="#beg_e" to="#end_e" corresp="#0233003"><lem wit="#wit1">澁</lem><rdg resp="#resp1" wit="#wit5">忽</rdg></app>
 <app from="#beg0233033" to="#end0233033"><lem wit="#wit1">稱</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">秤</rdg></app>
 <app from="#beg0233034" to="#end0233034"><lem wit="#wit1">有但</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">但有</rdg></app>
 <app from="#beg0233035" to="#end0233035"><lem wit="#wit1">埿，埿</lem><rdg resp="#resp1" wit="#wit3 #wit5">泥泥</rdg></app>
-<app from="#beg_e" to="#end_e" corresp="#0233035"><lem wit="#wit1">埿，埿</lem><rdg resp="#resp1" wit="#wit3 #wit5">泥泥</rdg></app>
+<app from="#beg_f" to="#end_f" corresp="#0233035"><lem wit="#wit1">埿，埿</lem><rdg resp="#resp1" wit="#wit3 #wit5">泥泥</rdg></app>
 <app from="#beg0233036" to="#end0233036"><lem wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">跓</rdg></app>
-<app from="#beg_f" to="#end_f" corresp="#0233036"><lem wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">跓</rdg></app>
+<app from="#beg_10" to="#end_10" corresp="#0233036"><lem wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">跓</rdg></app>
 <app from="#beg0233037" to="#end0233037"><lem wit="#wit1">干</lem><rdg resp="#resp1" wit="#wit3 #wit4">千</rdg></app>
 <app from="#beg0233038" to="#end0233038"><lem wit="#wit1">烏</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit5">亦若干百千烏</rdg></app>
 <app from="#beg0233039" to="#end0233039"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">生生</rdg></app>
@@ -1076,25 +1087,26 @@ Added comment  for Emacs
 <app from="#beg0233042" to="#end0233042"><lem wit="#wit1">禮</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">祀</rdg></app>
 <app from="#beg0233043" to="#end0233043"><lem wit="#wit1">上天</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">天上</rdg></app>
 <app from="#beg0234001" to="#end0234001"><lem wit="#wit1">墮</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">隨</rdg></app>
-<app from="#beg_10" to="#end_10" corresp="#0233003"><lem wit="#wit1">澁</lem><rdg resp="#resp1" wit="#wit5">忽</rdg></app>
+<app from="#beg_11" to="#end_11" corresp="#0233003"><lem wit="#wit1">澁</lem><rdg resp="#resp1" wit="#wit5">忽</rdg></app>
 <app from="#beg0234002" to="#end0234002"><lem wit="#wit1">自</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">百</rdg></app>
+<app from="#beg_12" to="#end_12"><lem wit="#wit6 #wit7" resp="#resp3">亦不<note type="cf1">K29n0986_p1236c19</note></lem><rdg wit="#wit1">不亦</rdg></app>
 <app from="#beg0234003" to="#end0234003"><lem wit="#wit1">黃</lem><rdg resp="#resp1" wit="#wit5">重</rdg></app>
 <app from="#beg0234004" to="#end0234004"><lem wit="#wit1">跓</lem><rdg resp="#resp1" wit="#wit5">胞</rdg></app>
 <app from="#beg0234005" to="#end0234005"><lem wit="#wit1">跡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">跓</rdg></app>
 <app from="#beg0234006" to="#end0234006"><lem wit="#wit1">所</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">所成</rdg></app>
 <app from="#beg0234007" to="#end0234007"><lem wit="#wit1">肥</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">胞</rdg></app>
 <app from="#beg0234008" to="#end0234008"><lem wit="#wit1">烏</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">鳥</rdg></app>
-<app from="#beg_11" to="#end_11" corresp="#0234008"><lem wit="#wit1">烏</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">鳥</rdg></app>
+<app from="#beg_13" to="#end_13" corresp="#0234008"><lem wit="#wit1">烏</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">鳥</rdg></app>
 <app from="#beg0234009" to="#end0234009"><lem wit="#wit1">磨</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">摩</rdg></app>
-<app from="#beg_12" to="#end_12" corresp="#0234009"><lem wit="#wit1">磨</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">摩</rdg></app>
-<app from="#beg0234010" to="#end0234010"><lem wit="#wit1">腄</lem><rdg resp="#resp1" wit="#wit2 #wit5">睡</rdg></app>
-<app from="#beg_13" to="#end_13" corresp="#0234009"><lem wit="#wit1">磨</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">摩</rdg></app>
 <app from="#beg_14" to="#end_14" corresp="#0234009"><lem wit="#wit1">磨</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">摩</rdg></app>
+<app from="#beg0234010" to="#end0234010"><lem wit="#wit1">腄</lem><rdg resp="#resp1" wit="#wit2 #wit5">睡</rdg></app>
+<app from="#beg_15" to="#end_15" corresp="#0234009"><lem wit="#wit1">磨</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">摩</rdg></app>
+<app from="#beg_16" to="#end_16" corresp="#0234009"><lem wit="#wit1">磨</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">摩</rdg></app>
 <app from="#beg0234011" to="#end0234011"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit4 #wit2">二</rdg></app>
 <app from="#beg0234012" to="#end0234012"><lem wit="#wit1">脰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">頭</rdg></app>
-<app from="#beg_15" to="#end_15" corresp="#0234012"><lem wit="#wit1">脰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">頭</rdg></app>
+<app from="#beg_17" to="#end_17" corresp="#0234012"><lem wit="#wit1">脰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">頭</rdg></app>
 <app from="#beg0234013" to="#end0234013"><lem wit="#wit1">頤</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">項</rdg></app>
-<app from="#beg_16" to="#end_16" corresp="#0234013"><lem wit="#wit1">頤</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">項</rdg></app>
+<app from="#beg_18" to="#end_18" corresp="#0234013"><lem wit="#wit1">頤</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">項</rdg></app>
 <app from="#beg0234014" to="#end0234014"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0234015" to="#end0234015"><lem wit="#wit1">靡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">痱</rdg></app>
 <app cb:word-count="31" from="#beg0234016" to="#end0234016"><lem wit="#wit1">生七千脈，尚未具成。二<lb n="0234b18" ed="T"/>十六七日諸脈悉徹具足成就，如蓮花根孔；二<lb n="0234b19" ed="T"/>十七七日</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
@@ -1107,13 +1119,13 @@ Added comment  for Emacs
 <app from="#beg0234023" to="#end0234023"><lem wit="#wit1">使</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">便</rdg></app>
 <app from="#beg0234024" to="#end0234024"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">令</rdg></app>
 <app from="#beg0234025" to="#end0234025"><lem wit="#wit1"><g ref="#CB02971">󰮛</g><g ref="#CB02923">𦜏</g></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><g ref="#CB13512">󳓈</g>睙</rdg></app>
-<app from="#beg_17" to="#end_17" corresp="#0234022"><lem wit="#wit1">宿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">夙</rdg></app>
+<app from="#beg_19" to="#end_19" corresp="#0234022"><lem wit="#wit1">宿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">夙</rdg></app>
 <app from="#beg0234026" to="#end0234026"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">熟</rdg></app>
 <app from="#beg0234027" to="#end0234027"><lem wit="#wit1">左</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">右</rdg></app>
 <app cb:word-count="10" from="#beg0234028" to="#end0234028"><lem wit="#wit1">女在右脇，腹向前，背向後</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0234029" to="#end0234029"><lem wit="#wit1">外</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">裹</rdg></app>
-<app from="#beg_18" to="#end_18" corresp="#0234022"><lem wit="#wit1">宿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">夙</rdg></app>
-<app from="#beg_19" to="#end_19" corresp="#0234022"><lem wit="#wit1">宿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">夙</rdg></app>
+<app from="#beg_1a" to="#end_1a" corresp="#0234022"><lem wit="#wit1">宿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">夙</rdg></app>
+<app from="#beg_1b" to="#end_1b" corresp="#0234022"><lem wit="#wit1">宿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">夙</rdg></app>
 <app from="#beg0234030" to="#end0234030"><lem wit="#wit1">網</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">茅</rdg></app>
 <app from="#beg0234031" to="#end0234031"><lem wit="#wit1">茅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">網</rdg></app>
 <app from="#beg0234032" to="#end0234032"><lem wit="#wit1">欄</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">蘭</rdg></app>
@@ -1121,11 +1133,12 @@ Added comment  for Emacs
 <app from="#beg0234034" to="#end0234034"><lem wit="#wit1">洗</lem><rdg resp="#resp1" wit="#wit2">澆</rdg></app>
 <app from="#beg0234035" to="#end0234035"><lem wit="#wit1">遍</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">逼</rdg></app>
 <app from="#beg0234036" to="#end0234036"><lem wit="#wit1"><g ref="#CB02931">𩲶</g></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">魂</rdg></app>
+<app from="#beg_1c" to="#end_1c"><lem wit="#wit6 #wit7" resp="#resp3">鬾<note type="cf1">K29n0986_p1238a13</note><note type="cf2">T54n2128_p0792b14</note><note type="cf3">K35n1257_p0332a08</note></lem><rdg wit="#wit1">魃</rdg></app>
 <app from="#beg0234037" to="#end0234037"><lem wit="#wit1">烏</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">鳥</rdg></app>
 <app from="#beg0234038" to="#end0234038"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">邪</rdg></app>
 <app from="#beg0234039" to="#end0234039"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg_1a" to="#end_1a" corresp="#0234022"><lem wit="#wit1">宿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">夙</rdg></app>
-<app from="#beg_1b" to="#end_1b" corresp="#0234022"><lem wit="#wit1">宿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">夙</rdg></app>
+<app from="#beg_1d" to="#end_1d" corresp="#0234022"><lem wit="#wit1">宿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">夙</rdg></app>
+<app from="#beg_1e" to="#end_1e" corresp="#0234022"><lem wit="#wit1">宿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">夙</rdg></app>
 <app from="#beg0234040" to="#end0234040"><lem wit="#wit1">未</lem><rdg resp="#resp1" wit="#wit3">末</rdg><rdg resp="#resp1" wit="#wit4 #wit2">不</rdg></app>
 <app from="#beg0234041" to="#end0234041"><lem wit="#wit1">稍</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0235001" to="#end0235001"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">三</rdg></app>
@@ -1134,12 +1147,14 @@ Added comment  for Emacs
 <app from="#beg0235004" to="#end0235004"><lem wit="#wit1">手</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">羊夫</rdg></app>
 <app from="#beg0235005" to="#end0235005"><lem wit="#wit1">脊</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">臍</rdg></app>
 <app from="#beg0235006" to="#end0235006"><lem wit="#wit1">臍</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">脊</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_1c" cb:to="#end_1c"><corr><g ref="#CB00567">󰈷</g></corr><sic><g ref="#CB00571">󰈻</g></sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_1f" cb:to="#end_1f"><corr><g ref="#CB00567">󰈷</g></corr><sic><g ref="#CB00571">󰈻</g></sic></choice>
 <app from="#beg0235007" to="#end0235007"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0235008" to="#end0235008"><lem wit="#wit1">百</lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0235009" to="#end0235009"><lem wit="#wit1"><g ref="#CB02947">󰮃</g></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">樂</rdg></app>
 <app from="#beg0235010" to="#end0235010"><lem wit="#wit1">清</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">精</rdg></app>
 <app from="#beg0235011" to="#end0235011"><lem wit="#wit1">著</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">者</rdg></app>
+<app from="#beg_20" to="#end_20"><lem wit="#wit6 #wit7" resp="#resp3">純<note type="cf1">K29n0986_p1238c02</note></lem><rdg wit="#wit1">鈍</rdg></app>
+<app from="#beg_21" to="#end_21"><lem wit="#wit6 #wit7" resp="#resp3"><g ref="#CB28333">󶺭</g><note type="cf1">K29n0986_p1238c08</note></lem><rdg wit="#wit1"><g ref="#CB02967">󰮗</g></rdg></app>
 <app from="#beg0235012" to="#end0235012"><lem wit="#wit1">在</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">作</rdg></app>
 <app from="#beg0235013" to="#end0235013"><lem wit="#wit1">竈</lem><rdg resp="#resp1" wit="#wit5">電</rdg></app>
 <app from="#beg0235014" to="#end0235014"><lem wit="#wit1">燒</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">燒燒</rdg></app>
@@ -1151,7 +1166,7 @@ Added comment  for Emacs
 <app from="#beg0235020" to="#end0235020"><lem wit="#wit1">延</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">旋</rdg></app>
 <app from="#beg0235021" to="#end0235021"><lem wit="#wit1">止。行道</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">正道行</rdg></app>
 <app from="#beg0235022" to="#end0235022"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg_1d" to="#end_1d" corresp="#0231019"><lem wit="#wit1"><title>道地經</title></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_22" to="#end_22" corresp="#0231019"><lem wit="#wit1"><title>道地經</title></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0235023" to="#end0235023"><lem wit="#wit1">清</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">情</rdg></app>
 <app from="#beg0235024" to="#end0235024"><lem wit="#wit1">何</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">向</rdg></app>
 <app from="#beg0235025" to="#end0235025"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">若</rdg></app>
@@ -1170,14 +1185,14 @@ Added comment  for Emacs
 <app from="#beg0235038" to="#end0235038"><lem wit="#wit1">又</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">父</rdg></app>
 <app from="#beg0235039" to="#end0235039"><lem wit="#wit1">久</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">父</rdg></app>
 <app from="#beg0236001" to="#end0236001"><lem wit="#wit1">止</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">心</rdg></app>
-<app from="#beg_1e" to="#end_1e" corresp="#0235018"><lem wit="#wit1">啻</lem><rdg resp="#resp1" wit="#wit5">翅</rdg></app>
+<app from="#beg_23" to="#end_23" corresp="#0235018"><lem wit="#wit1">啻</lem><rdg resp="#resp1" wit="#wit5">翅</rdg></app>
 <app from="#beg0236002" to="#end0236002"><lem wit="#wit1">隨</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">墮</rdg></app>
 <app from="#beg0236003" to="#end0236003"><lem wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">跓</rdg></app>
 <app from="#beg0236004" to="#end0236004"><lem wit="#wit1">念</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">令</rdg></app>
 <app from="#beg0236005" to="#end0236005"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit5">苦</rdg></app>
 <app from="#beg0236006" to="#end0236006"><lem wit="#wit1">令如</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">知</rdg><rdg resp="#resp1" wit="#wit5">令</rdg></app>
 <app from="#beg0236007" to="#end0236007"><lem wit="#wit1">響</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">嚮</rdg></app>
-<app from="#beg_1f" to="#end_1f" corresp="#0231019"><lem wit="#wit1"><title>道地經</title></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_24" to="#end_24" corresp="#0231019"><lem wit="#wit1"><title>道地經</title></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0236008" to="#end0236008"><lem wit="#wit1">日</lem><rdg resp="#resp1" wit="#wit5">甘</rdg></app>
 <app from="#beg0236009" to="#end0236009"><lem wit="#wit1">關</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">闕</rdg><rdg resp="#resp1" wit="#wit5">開</rdg></app>
 <app from="#beg0236010" to="#end0236010"><lem wit="#wit1">猫</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">猶</rdg></app>
@@ -1196,7 +1211,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0230023" resp="#resp2" type="mod" target="#nkr_note_mod_0230023">天竺須賴拏國三藏僧伽羅剎漢言眾護造＝天竺三藏僧伽剎造【宋】【元】【明】，－【宮】</note>
 <note n="0230024" resp="#resp2" type="mod" target="#nkr_note_mod_0230024">〔國〕－【宋】【元】【明】【宮】</note>
@@ -1235,6 +1250,7 @@ Added comment  for Emacs
 <note n="0232005" resp="#resp2" type="mod" target="#nkr_note_mod_0232005">〔說〕－【宋】【元】【明】【宮】</note>
 <note n="0232006" resp="#resp2" type="mod" target="#nkr_note_mod_0232006">〔當要〕－【宋】【元】【明】【宮】</note>
 <note n="0232008" resp="#resp2" type="mod" target="#nkr_note_mod_0232008">腦＝惱【宋】【元】【明】【宮】</note>
+<note n="0232009" resp="#resp2" type="mod" target="#nkr_note_mod_0232009">烏鵶＝鳥鵛【宮】，＝烏鵄【麗-CB】【CB】</note>
 <note n="0232010" resp="#resp2" type="mod" target="#nkr_note_mod_0232010">牧<g ref="#CB02570">䭷</g>＝抆髦【宋】【元】【明】【宮】</note>
 <note n="0232012" resp="#resp2" type="mod" target="#nkr_note_mod_0232012">飲＝欲【宋】【元】【明】【宮】</note>
 <note n="0232014" resp="#resp2" type="mod" target="#nkr_note_mod_0232014">胆＝袓【宋】【元】【明】【宮】＊</note>
@@ -1377,7 +1393,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0230022" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0230022">〔一卷〕－【明】</note>
 <note n="0230023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0230023">天竺…造（撰號）＝天竺三藏僧伽剎造【三】，〔天竺…造〕十七字－【宮】</note>

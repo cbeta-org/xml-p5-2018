@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.11 $<date>$Date: 2012/10/08 08:17:38 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,9 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【磧砂】</witness>
+		<witness xml:id="wit8">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -177,7 +181,7 @@ Added comment  for Emacs
 <lb n="0770c08" ed="T"/>有一菩薩名無怯行，致得總持，從無數劫成
 <lb n="0770c09" ed="T"/>就法忍，逮無從生無有顛倒，辯才無量入一
 <lb n="0770c10" ed="T"/>切智，正慧道力分別隨順，度無極行，曉無思
-<lb n="0770c11" ed="T"/>議總持門品，普見一切眾生志性根<anchor xml:id="nkr_note_orig_0770023" n="0770023"/><anchor xml:id="nkr_note_mod_0770023" n="0770023"/><anchor xml:id="beg0770023" n="0770023"/>元<anchor xml:id="end0770023"/>所趣，
+<lb n="0770c11" ed="T"/>議總持門品，普見一切眾生志性根<anchor xml:id="nkr_note_orig_0770023" n="0770023"/><anchor xml:id="nkr_note_mod_0770023" n="0770023"/><anchor xml:id="beg0770023" n="0770023"/>無<anchor xml:id="end0770023"/>所趣，
 <lb n="0770c12" ed="T"/>應可化者而為說法不失其本。即從座起偏
 <lb n="0770c13" ed="T"/>露右肩，右膝著地，叉手白佛：「惟，天中天！此族
 <lb n="0770c14" ed="T"/>姓子等類十人出家修道，夙夜精進七歲不
@@ -408,7 +412,7 @@ Added comment  for Emacs
 <app from="#beg0770020" to="#end0770020"><lem wit="#wit1">雨</lem><rdg resp="#resp1" wit="#wit5">雨十方</rdg></app>
 <app from="#beg0770021" to="#end0770021"><lem wit="#wit1">止足</lem><rdg resp="#resp1" wit="#wit5">心定</rdg></app>
 <app from="#beg0770022" to="#end0770022"><lem wit="#wit1">誦</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">進</rdg></app>
-<app from="#beg0770023" to="#end0770023"><lem wit="#wit1">元</lem><rdg resp="#resp1" wit="#wit2">旡</rdg><rdg resp="#resp1" wit="#wit3 #wit4">源</rdg></app>
+<app from="#beg0770023" to="#end0770023"><lem wit="#wit6 #wit7" resp="#resp3">無<note type="cf1">Q11_p0177c18</note></lem><rdg wit="#wit1">元</rdg><rdg resp="#resp3" wit="#wit8">无<note type="cf1">K11n0238_p0491c10</note></rdg><rdg resp="#resp1" wit="#wit2">旡</rdg><rdg resp="#resp1" wit="#wit3 #wit4">源</rdg></app>
 <app from="#beg0770024" to="#end0770024"><lem wit="#wit1">則</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0770025" to="#end0770025"><lem wit="#wit1">央</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">殃</rdg></app>
 <app from="#beg0770026" to="#end0770026"><lem wit="#wit1">處</lem><rdg resp="#resp1" wit="#wit2 #wit5">劇</rdg></app>
@@ -481,7 +485,7 @@ Added comment  for Emacs
 <note n="0770016" resp="#resp2" type="mod" target="#nkr_note_mod_0770016">拔＝濟【宋】【元】【明】【宮】</note>
 <note n="0770019" resp="#resp2" type="mod" target="#nkr_note_mod_0770019">磨＝摩【宋】【元】【明】【宮】</note>
 <note n="0770022" resp="#resp2" type="mod" target="#nkr_note_mod_0770022">誦＝進【宋】【元】【明】【宮】</note>
-<note n="0770023" resp="#resp2" type="mod" target="#nkr_note_mod_0770023">元＝旡【宋】，＝源【元】【明】</note>
+<note n="0770023" resp="#resp2" type="mod" target="#nkr_note_mod_0770023">元＝旡【宋】【麗-CB】，＝源【元】【明】，＝無【磧砂-CB】【CB】</note>
 <note n="0770024" resp="#resp2" type="mod" target="#nkr_note_mod_0770024">〔則〕－【宋】【元】【明】</note>
 <note n="0770025" resp="#resp2" type="mod" target="#nkr_note_mod_0770025">央＝殃【宋】【元】【明】【宮】</note>
 <note n="0771001" resp="#resp2" type="mod" target="#nkr_note_mod_0771001">訓＝詠【宋】【元】【明】【宮】</note>

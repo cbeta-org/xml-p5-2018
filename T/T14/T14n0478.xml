@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.13 $<date>$Date: 2012/08/27 03:14:50 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -222,7 +225,7 @@ Added comment  for Emacs
 <lb n="0598a21" ed="T"/>以此善根，願我得成阿耨多羅三藐三菩提，
 <lb n="0598a22" ed="T"/>為諸眾生分別解說無凡夫法、無聲聞法。」</p><p xml:id="pT14p0598a2217" rend="inline">爾
 <lb n="0598a23" ed="T"/>時，慧命舍利弗在大眾中語善思惟童子言：
-<lb n="0598a24" ed="T"/>「汝學何法為眾生說？」</p><p xml:id="pT14p0598a2409" rend="inline">爾時，善思惟童子以偈
+<lb n="0598a24" ed="T"/>「汝<anchor xml:id="beg_1" type="cb-app"/>覺<anchor xml:id="end_1"/>何法為眾生說？」</p><p xml:id="pT14p0598a2409" rend="inline">爾時，善思惟童子以偈
 <lb n="0598a25" ed="T"/>答言：</p>
 <lb n="0598a26" ed="T"/><lg xml:id="lgT14p0598a2601" rend="margin-left:1em;text-indent:-1em"><l>「諸佛及聲聞，</l><l>一切無得者，</l>
 <lb n="0598a27" ed="T"/><l>我<anchor xml:id="nkr_note_orig_0598005" n="0598005"/><anchor xml:id="nkr_note_mod_0598005" n="0598005"/><anchor xml:id="beg0598005" n="0598005"/>覺<anchor xml:id="end0598005"/>如是法，</l><l>為諸眾生說。</l>
@@ -292,7 +295,7 @@ Added comment  for Emacs
 <lb n="0599a01" ed="T"/><l>所說實際法，</l><l>非世間境界。</l>
 <lb n="0599a02" ed="T"/><l>如是言說時，</l><l>不生驚怖心。</l>
 <lb n="0599a03" ed="T"/><l>汝今為我說，</l><l>云何如是知？」</l></lg>
-<lb n="0599a04" ed="T"/><p xml:id="pT14p0599a0401">爾時，童子<anchor xml:id="beg_1" type="cb-app"/>而<anchor xml:id="end_1"/>說偈言：</p>
+<lb n="0599a04" ed="T"/><p xml:id="pT14p0599a0401">爾時，童子<anchor xml:id="beg_2" type="cb-app"/>而<anchor xml:id="end_2"/>說偈言：</p>
 <lb n="0599a05" ed="T"/><lg xml:id="lgT14p0599a0501" rend="margin-left:1em;text-indent:-1em"><l>「我不顧身命，</l><l>求法無所著，</l>
 <lb n="0599a06" ed="T"/><l>如是求菩提，</l><l>多聞應當知。</l>
 <lb n="0599a07" ed="T"/><l>因欲墮憒閙，</l><l>世間受諸苦，</l>
@@ -469,7 +472,7 @@ Added comment  for Emacs
 <lb n="0600c28" ed="T"/><l>以下劣凡夫，</l><l>故說有生法。</l>
 <lb n="0600c29" ed="T"/><l>法若有生者，</l><l>是則應有滅，</l>
 <pb n="0601a" ed="T" xml:id="T14.0478.0601a"/>
-<lb n="0601a01" ed="T"/><l>生法<anchor xml:id="beg_2" type="cb-app"/>及<anchor xml:id="end_2"/>滅法，</l><l>此二不可得。</l>
+<lb n="0601a01" ed="T"/><l>生法<anchor xml:id="beg_3" type="cb-app"/>及<anchor xml:id="end_3"/>滅法，</l><l>此二不可得。</l>
 <lb n="0601a02" ed="T"/><l>一切法悉空，</l><l>無法而可得，</l>
 <lb n="0601a03" ed="T"/><l>汝應如是知，</l><l>我所說深法。</l>
 <lb n="0601a04" ed="T"/><l>菩提無言說，</l><l>亦無有作者，</l>
@@ -879,7 +882,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0597002" to="#end0597002"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">二</rdg></app>
 <app from="#beg0597003" to="#end0597003"><lem wit="#wit1">蹈</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">躡</rdg></app>
@@ -889,11 +892,12 @@ Added comment  for Emacs
 <app from="#beg0598002" to="#end0598002"><lem wit="#wit1">以何</lem><rdg resp="#resp1" wit="#wit5">何以</rdg></app>
 <app from="#beg0598003" to="#end0598003"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">曰</rdg></app>
 <app from="#beg0598004" to="#end0598004"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">惟</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7" resp="#resp3">覺<note type="cf1">K09n0123_p1092a09</note></lem><rdg wit="#wit1">學</rdg></app>
 <app from="#beg0598005" to="#end0598005"><lem wit="#wit1">覺</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">學</rdg></app>
 <app from="#beg0598006" to="#end0598006"><lem wit="#wit1">誰</lem><rdg resp="#resp1" wit="#wit5">諸</rdg></app>
 <app from="#beg0598007" to="#end0598007"><lem wit="#wit1">捲</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">拳</rdg></app>
 <app from="#beg0598008" to="#end0598008"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">老</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>而</corr><sic>面</sic></choice>
+<choice cb:from="#beg_2" cb:to="#end_2"><corr>而</corr><sic>面</sic></choice>
 <app from="#beg0599001" to="#end0599001"><lem wit="#wit1">智</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">知</rdg></app>
 <app from="#beg0600001" to="#end0600001"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0600002" to="#end0600002"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit3 #wit4">無</rdg></app>
@@ -902,7 +906,7 @@ Added comment  for Emacs
 <app from="#beg0600005" to="#end0600005"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">性</rdg></app>
 <app from="#beg0600006" to="#end0600006"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">異</rdg></app>
 <app from="#beg0600007" to="#end0600007"><lem wit="#wit1">說此</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">此說</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>及</corr><sic>又</sic></choice>
+<choice cb:from="#beg_3" cb:to="#end_3"><corr>及</corr><sic>又</sic></choice>
 <app from="#beg0601001" to="#end0601001"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">想</rdg></app>
 <app from="#beg0601002" to="#end0601002"><lem wit="#wit1">惱熱</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">熱惱</rdg></app>
 <app from="#beg0601003" to="#end0601003"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit5">想</rdg></app>
@@ -923,7 +927,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0597002" resp="#resp2" type="mod" target="#nkr_note_mod_0597002">亦＝二【宋】【元】【明】【宮】</note>
 <note n="0597003" resp="#resp2" type="mod" target="#nkr_note_mod_0597003">蹈＝躡【宋】【元】【明】【宮】</note>
@@ -960,7 +964,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0597002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0597002">亦＝二【三】【宮】</note>
 <note n="0597003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0597003">蹈＝躡【三】【宮】</note>

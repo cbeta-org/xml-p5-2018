@@ -273,6 +273,10 @@
 		<localName>composition</localName>
 		<value>[簐-欠+几]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>範</value>
+	</charProp>
 	<mapping cb:dec="986006" type="PUA">U+F0B96</mapping>
 </char>
 <char xml:id="CB04118">
@@ -1124,6 +1128,7 @@
 		<localName>normalized form</localName>
 		<value>錄</value>
 	</charProp>
+	<mapping type="unicode">U+9332</mapping>
 	<mapping cb:dec="1011286" type="PUA">U+F6E56</mapping>
 </char>
 <char xml:id="CB28933">
@@ -1377,6 +1382,11 @@
 		<localName>composition</localName>
 		<value>[烈-列+執]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>熱</value>
+	</charProp>
+	<mapping type="unicode">U+24360</mapping>
 	<mapping cb:dec="1013079" type="PUA">U+F7557</mapping>
 </char>
 <char xml:id="CB30106">
@@ -2150,14 +2160,6 @@
 	</charProp>
 	<mapping cb:dec="1015197" type="PUA">U+F7D9D</mapping>
 </char>
-<char xml:id="CB32158">
-	<charName>CBETA CHARACTER CB32158</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[鬃-示+(尸@貝)]</value>
-	</charProp>
-	<mapping cb:dec="1015198" type="PUA">U+F7D9E</mapping>
-</char>
 <char xml:id="CB32159">
 	<charName>CBETA CHARACTER CB32159</charName>
 	<charProp>
@@ -2221,6 +2223,18 @@
 		<value>[仁-二+(((既-旡)-日+口)*殳)]</value>
 	</charProp>
 	<mapping cb:dec="1015206" type="PUA">U+F7DA6</mapping>
+</char>
+<char xml:id="CB34029">
+	<charName>CBETA CHARACTER CB34029</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[鬃-示+(尸@貝)]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>鬢</value>
+	</charProp>
+	<mapping cb:dec="1017069" type="PUA">U+F84ED</mapping>
 </char>
 </charDecl>
 </encodingDesc>
@@ -4103,7 +4117,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0113a02"/><p xml:id="pD29p0113a0201">二唯下章主解釋</p><p xml:id="pD29p0113a0208" rend="inline"><note place="inline">聽聞鈔云唯佛自作者開宗記云具二義故唯佛秉一惑
 <lb ed="D" n="0113a03"/>盡智圎威德力大能令眾生受法成道故二善議根性應器授藥謂於此身必證無學故諸弟子等闕此
 <lb ed="D" n="0113a04"/>二義故不能作也問善來度人既通弟子何言唯佛自作等付法傳中阿難恒河邊入<g ref="#CB29810">𣵀</g>槃時從雪山五
-<lb ed="D" n="0113a05"/>百仙人來至尒時阿難秉善來<g ref="#CB32158">󷶞</g>髮自落執持應器<g ref="#CB01559">󰘗</g>如世尊秉即證第四果與阿難共入圎寂（云云）若尒
+<lb ed="D" n="0113a05"/>百仙人來至尒時阿難秉善來<g ref="#CB34029">󸓭</g>髮自落執持應器<g ref="#CB01559">󰘗</g>如世尊秉即證第四果與阿難共入圎寂（云云）若尒
 <lb ed="D" n="0113a06"/>何言不通弟子佛獨秉哉答開宗記云彼且據別緣異<g ref="#CB22072">󵘸</g>既非本文不繁會釋或阿難是法藏主替佛處
 <lb ed="D" n="0113a07"/>故得秉善來或仙人根<g ref="#CB29846">𤎼</g>守此為緣等（文）更有餘釋廣可見彼文言滿道者佛断二障證二空故名滿道
 <pb ed="D" xml:id="D29.8888.0113b" n="0113b"/>
@@ -6486,7 +6500,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>但</corr><sic>伹</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>但</corr><sic>伹</sic></choice>

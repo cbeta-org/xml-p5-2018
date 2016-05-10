@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.9 $<date>$Date: 2012/08/27 03:15:10 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【明】</witness>
 		<witness xml:id="wit4">【宋】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -214,7 +217,7 @@ Added comment  for Emacs
 <lb n="0828b18" ed="T"/>隨滅；由取滅故有亦隨滅；由有滅故生亦隨
 <lb n="0828b19" ed="T"/>滅；由生滅故老死、愁、歎、憂、苦、擾、惱皆亦隨滅。
 <lb n="0828b20" ed="T"/>如是永滅純大苦聚。』</p>
-<lb n="0828b21" ed="T"/><p xml:id="pT16p0828b2101">「我復惟：『我今證得舊道、舊徑、舊所行跡、古
+<lb n="0828b21" ed="T"/><p xml:id="pT16p0828b2101">「我復<anchor xml:id="beg_1" type="cb-app"/>思<anchor xml:id="end_1"/>惟：『我今證得舊道、舊徑、舊所行跡、古
 <lb n="0828b22" ed="T"/>昔諸仙之所遊履。』</p>
 <lb n="0828b23" ed="T"/><p xml:id="pT16p0828b2301">「譬如有人遊行曠野、嶮穢、稠林，歘然值遇舊
 <lb n="0828b24" ed="T"/>道、舊徑、舊所行跡、古昔諸人甞所遊履。彼即
@@ -254,12 +257,13 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0827008" to="#end0827008"><lem wit="#wit1">緣起</lem><rdg resp="#resp1" wit="#wit2 #wit3">佛說緣起</rdg></app>
 <app from="#beg0827009" to="#end0827009"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit4 #wit3 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0827010" to="#end0827010"><lem wit="#wit1">國</lem><rdg resp="#resp1" wit="#wit5">城國</rdg></app>
 <app from="#beg0828001" to="#end0828001"><lem wit="#wit1">由</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3 #wit5">有</rdg></app>
+<app from="#beg_1" to="#end_1"><lem resp="#resp3" wit="#wit6 #wit7">思<note type="cf1">K11n0259_p0570b10</note></lem><rdg wit="#wit1"><space quantity="0"/></rdg></app>
 <app from="#beg0828002" to="#end0828002"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3 #wit5">唯</rdg></app>
 <app from="#beg0828003" to="#end0828003"><lem wit="#wit1">正修</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3 #wit5">修正</rdg></app>
 <app from="#beg0828004" to="#end0828004"><lem wit="#wit1">苾芻</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3"><space quantity="0"/></rdg></app>
@@ -267,7 +271,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0828001" resp="#resp2" type="mod" target="#nkr_note_mod_0828001">由＝有【宋】【元】【明】【宮】</note>
 <note n="0828002" resp="#resp2" type="mod" target="#nkr_note_mod_0828002">惟＝唯【宋】【元】【明】【宮】</note>
@@ -277,7 +281,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0827008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0827008">（佛說）＋緣起【元】【明】</note>
 <note n="0827009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0827009">〔大〕－【宋】【明】【宮】</note>

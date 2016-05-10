@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.11 $<date>$Date: 2012/08/27 03:14:55 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -248,14 +251,14 @@ Added comment  for Emacs
 <lb n="0948a11" ed="T"/>來得。所以說有過去、未來、現在諸佛者，此但
 <lb n="0948a12" ed="T"/>假名說有三世，非謂諸佛有去來今。」</p><p xml:id="pT14p0948a1215" rend="inline">爾時堅
 <lb n="0948a13" ed="T"/>固女白佛言：「世尊！以此法自覺自知，不從
-<lb n="0948a14" ed="T"/>地聞因緣故，須發阿耨多羅三藐三菩提心。」</p>
+<lb n="0948a14" ed="T"/><anchor xml:id="beg_4" type="cb-app"/>他<anchor xml:id="end_4"/>聞因緣故，須發阿耨多羅三藐三菩提心。」</p>
 <lb n="0948a15" ed="T"/><p xml:id="pT14p0948a1501">佛言：「善哉！善哉！能如是知，未來當得阿耨
 <lb n="0948a16" ed="T"/>多羅三藐三菩提。」</p><p xml:id="pT14p0948a1608" rend="inline">女言：「世尊！無有見如是
 <lb n="0948a17" ed="T"/>法不得菩提者，是故我今必定當得阿耨多
 <lb n="0948a18" ed="T"/>羅三藐三菩提。」</p><p xml:id="pT14p0948a1807" rend="inline">佛言：「妹！汝未來世教化眾生
 <lb n="0948a19" ed="T"/><anchor xml:id="nkr_note_orig_0948001" n="0948001"/><anchor xml:id="beg0948001" n="0948001"/>耶<anchor xml:id="end0948001"/>？」</p><p xml:id="pT14p0948a1902" rend="inline">女言：「世尊！無有見如是法不教化者，
 <lb n="0948a20" ed="T"/>是故我今必定當能教化眾生。」</p><p xml:id="pT14p0948a2013" rend="inline">佛言：「汝於來
-<lb n="0948a21" ed="T"/>世作大導師<anchor xml:id="beg_4" type="star"/>耶<anchor xml:id="end_4"/>？」</p><p xml:id="pT14p0948a2107" rend="inline">女言：「世尊！無有見如是法
+<lb n="0948a21" ed="T"/>世作大導師<anchor xml:id="beg_5" type="star"/>耶<anchor xml:id="end_5"/>？」</p><p xml:id="pT14p0948a2107" rend="inline">女言：「世尊！無有見如是法
 <lb n="0948a22" ed="T"/>不作導師，是故我今必定當得作大導師。」</p><p xml:id="pT14p0948a2217" rend="inline">爾
 <lb n="0948a23" ed="T"/>時，天帝釋持曼陀羅花於佛前立，以所持花
 <lb n="0948a24" ed="T"/>與堅固女，作如是言：「汝持此花以散佛上。」
@@ -288,7 +291,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0946005" to="#end0946005"><lem wit="#wit1">北印度</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0946006" to="#end0946006"><lem wit="#wit1">藏</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">藏法師</rdg></app>
@@ -301,8 +304,9 @@ Added comment  for Emacs
 <app from="#beg0947005" to="#end0947005"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">惟</rdg></app>
 <app from="#beg_2" to="#end_2" corresp="#0947005"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">惟</rdg></app>
 <app from="#beg_3" to="#end_3" corresp="#0947005"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">惟</rdg></app>
+<app from="#beg_4" to="#end_4"><lem wit="#wit6 #wit7" resp="#resp3">他<note type="cf1">K13n0487_p1303c19</note></lem><rdg wit="#wit1">地</rdg></app>
 <app from="#beg0948001" to="#end0948001"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit5">那</rdg></app>
-<app from="#beg_4" to="#end_4" corresp="#0948001"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit5">那</rdg></app>
+<app from="#beg_5" to="#end_5" corresp="#0948001"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit5">那</rdg></app>
 <app from="#beg0948002" to="#end0948002"><lem wit="#wit1">頗梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">玻瓈</rdg></app>
 <app from="#beg0948003" to="#end0948003"><lem wit="#wit1">乎</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">于</rdg></app>
 <app from="#beg0948004" to="#end0948004"><lem wit="#wit1">五</lem><rdg resp="#resp1" wit="#wit3">二</rdg></app>
@@ -312,7 +316,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0946005" resp="#resp2" type="mod" target="#nkr_note_mod_0946005">〔北印度〕－【宋】【元】【明】【宮】</note>
 <note n="0946006" resp="#resp2" type="mod" target="#nkr_note_mod_0946006">藏＋（法師）【宋】【元】【明】【宮】</note>
@@ -325,7 +329,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0946005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0946005">〔北印度〕－【三】【宮】</note>
 <note n="0946006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0946006">藏＋（法師）【三】【宮】</note>

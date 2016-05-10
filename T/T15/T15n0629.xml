@@ -38,7 +38,8 @@
 		<witness xml:id="wit4">【元】</witness>
 		<witness xml:id="wit5">【明】</witness>
 		<witness xml:id="wit6">【CBETA】</witness>
-		<witness xml:id="wit7">【磧砂】</witness>
+		<witness xml:id="wit7">【麗】</witness>
+		<witness xml:id="wit8">【磧砂】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -158,7 +159,7 @@ Added comment  for Emacs
 <lb n="0449b07" ed="T"/>人，端正無比，令持百味飯至佛所，前長跪叉
 <lb n="0449b08" ed="T"/>手作禮，白佛言：「願佛哀我，受此飯。」佛便受之。</p>
 <lb n="0449b09" ed="T"/><p xml:id="pT15p0449b0901">坐中有菩薩在佛前坐，字文殊師利，白佛言：
-<lb n="0449b10" ed="T"/>「當念故恩。」座中諸菩薩悉聞，展轉相問：「文殊
+<lb n="0449b10" ed="T"/>「當念故恩。」<anchor xml:id="beg_1" type="cb-app"/>坐<anchor xml:id="end_1"/>中諸菩薩悉聞，展轉相問：「文殊
 <lb n="0449b11" ed="T"/>師利！前世有何等恩施於佛，而復欲得佛飯？」
 <lb n="0449b12" ed="T"/>佛即捨鉢于地，便下入地中，乃至賴毘羅耶
 <lb n="0449b13" ed="T"/>佛剎，剎名波陀沙，鉢懸止空中現。彼剎中諸
@@ -252,7 +253,7 @@ Added comment  for Emacs
 <lb n="0450b11" ed="T"/>除宿命之殃惡。若復遙聞遠方有師高明智
 <lb n="0450b12" ed="T"/>慧通達，欲往從受經學，身體病瘦手足拘攣
 <lb n="0450b13" ed="T"/>不可動搖，錢用乏少又無伴侶便不可行，念
-<lb n="0450b14" ed="T"/>之<anchor xml:id="nkr_note_orig_0450005" n="0450005"/><anchor xml:id="beg0450005" n="0450005"/>愁憂<anchor xml:id="end0450005"/>，用是故復除宿命之殃惡。若有人行
+<lb n="0450b14" ed="T"/>之<anchor xml:id="nkr_note_orig_0450005" n="0450005"/><anchor xml:id="nkr_note_mod_0450005" n="0450005"/><anchor xml:id="beg0450005" n="0450005"/>憂愁<anchor xml:id="end0450005"/>，用是故復除宿命之殃惡。若有人行
 <lb n="0450b15" ed="T"/>求善師，欲從學受經，道師大明達皆知道要，
 <lb n="0450b16" ed="T"/>弟子愚癡無慧意不開解，便自愁憂，用是故
 <lb n="0450b17" ed="T"/>復除宿命之殃惡。若有善師欲教弟子世間
@@ -330,11 +331,12 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0449001" to="#end0449001"><lem wit="#wit1">經</lem><rdg resp="#resp1" wit="#wit2 #wit3">經<note place="inline">是普超經別品殊譯</note></rdg><rdg resp="#resp1" wit="#wit4">經是普超經第三品別譯</rdg><rdg resp="#resp1" wit="#wit5">經<note place="inline">即普超經第二品別譯</note></rdg></app>
 <app from="#beg0449002" to="#end0449002"><lem wit="#wit1">安公云元闕譯人今附西晉錄</lem><rdg resp="#resp1" wit="#wit2">安公云失譯</rdg><rdg resp="#resp1" wit="#wit4">安公錄失譯人開元附西晉初出</rdg><rdg resp="#resp1" wit="#wit5">安公錄失譯人名開元附西晉錄</rdg><rdg resp="#resp1" wit="#wit3">安公失譯</rdg></app>
-<app from="#beg0449003" to="#end0449003"><lem resp="#resp3" wit="#wit6 #wit7">如<note type="cf1">Q10_p0749c02 </note></lem><rdg wit="#wit1">知</rdg><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">如</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7" resp="#resp3">坐<note type="cf1">K10n0180_p1395a17</note></lem><rdg wit="#wit1">座</rdg></app>
+<app from="#beg0449003" to="#end0449003"><lem resp="#resp3" wit="#wit6 #wit8">如<note type="cf1">Q10_p0749c02 </note></lem><rdg wit="#wit1">知</rdg><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">如</rdg></app>
 <app from="#beg0449004" to="#end0449004"><lem wit="#wit1">剎</lem><rdg resp="#resp1" wit="#wit5">利</rdg></app>
 <app from="#beg0449005" to="#end0449005"><lem wit="#wit1">剎</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0449006" to="#end0449006"><lem wit="#wit1">字</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">號</rdg></app>
@@ -343,13 +345,13 @@ Added comment  for Emacs
 <app from="#beg0449009" to="#end0449009"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit2">火</rdg></app>
 <app from="#beg0449010" to="#end0449010"><lem wit="#wit1">火</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">大</rdg></app>
 <app from="#beg0449011" to="#end0449011"><lem wit="#wit1">妷</lem><rdg resp="#resp1" wit="#wit4 #wit5">泆</rdg></app>
-<app from="#beg0449012" to="#end0449012"><lem resp="#resp3" wit="#wit6 #wit7">易<note type="cf1">Q10_p0749c30</note></lem><rdg wit="#wit1">是</rdg><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">易</rdg></app>
+<app from="#beg0449012" to="#end0449012"><lem resp="#resp3" wit="#wit6 #wit8">易<note type="cf1">Q10_p0749c30</note></lem><rdg wit="#wit1">是</rdg><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">易</rdg></app>
 <app from="#beg0449013" to="#end0449013"><lem wit="#wit1">加</lem><rdg resp="#resp1" wit="#wit2 #wit3">知</rdg></app>
 <app from="#beg0450001" to="#end0450001"><lem wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit3">有</rdg></app>
 <app from="#beg0450002" to="#end0450002"><lem wit="#wit1">涕</lem><rdg resp="#resp1" wit="#wit3">洟</rdg></app>
 <app from="#beg0450003" to="#end0450003"><lem wit="#wit1">唾</lem><rdg resp="#resp1" wit="#wit5">吐</rdg></app>
 <app from="#beg0450004" to="#end0450004"><lem wit="#wit1">殃</lem><rdg resp="#resp1" wit="#wit3">惡</rdg></app>
-<app from="#beg0450005" to="#end0450005"><lem wit="#wit1">愁憂</lem><rdg resp="#resp1" wit="#wit3">憂愁</rdg></app>
+<app from="#beg0450005" to="#end0450005"><lem wit="#wit6 #wit7" resp="#resp3">憂愁<note type="cf1">K10n0180_p1396c14</note><note type="cf2">Q10_p0750b15</note></lem><rdg wit="#wit1">愁憂</rdg><rdg resp="#resp1" wit="#wit3">憂愁</rdg></app>
 <app from="#beg0450006" to="#end0450006"><lem wit="#wit1">辱</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">受</rdg></app>
 <app from="#beg0450007" to="#end0450007"><lem wit="#wit1">出</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">坐</rdg></app>
 <app from="#beg0450008" to="#end0450008"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">之殃</rdg></app>
@@ -357,8 +359,8 @@ Added comment  for Emacs
 <app from="#beg0450010" to="#end0450010"><lem wit="#wit1">過</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">過一日一夜各三時經戒不復作惡</rdg></app>
 <app from="#beg0450011" to="#end0450011"><lem wit="#wit1">今以</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0450012" to="#end0450012"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit5">維</rdg></app>
-<app from="#beg0450013" to="#end0450013"><lem resp="#resp3" wit="#wit6 #wit7">見<note type="cf1">Q10_p0750c29</note></lem><rdg wit="#wit1">息</rdg><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">見</rdg></app>
-<app from="#beg0451001" to="#end0451001"><lem resp="#resp3" wit="#wit6 #wit7">顧<note type="cf1">Q10_p0751a02</note></lem><rdg wit="#wit1">故</rdg><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">顧</rdg></app>
+<app from="#beg0450013" to="#end0450013"><lem resp="#resp3" wit="#wit6 #wit8">見<note type="cf1">Q10_p0750c29</note></lem><rdg wit="#wit1">息</rdg><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">見</rdg></app>
+<app from="#beg0451001" to="#end0451001"><lem resp="#resp3" wit="#wit6 #wit8">顧<note type="cf1">Q10_p0751a02</note></lem><rdg wit="#wit1">故</rdg><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">顧</rdg></app>
 <app from="#beg0451002" to="#end0451002"><lem wit="#wit1">取授</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">即受</rdg></app>
 <app from="#beg0451003" to="#end0451003"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0451004" to="#end0451004"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit5">諸大</rdg></app>
@@ -366,7 +368,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0449002" resp="#resp2" type="mod" target="#nkr_note_mod_0449002">安公云元闕譯人今附西晉錄＝安公云失譯【宋】，＝安公錄失譯人開元附西晉初出【元】，＝安公錄失譯人名開元附西晉錄【明】，＝安公失譯【宮】</note>
 <note n="0449003" resp="#resp2" type="mod" target="#nkr_note_mod_0449003">知＝如【宋】【元】【明】【宮】【CB】</note>
@@ -375,6 +377,7 @@ Added comment  for Emacs
 <note n="0449008" resp="#resp2" type="mod" target="#nkr_note_mod_0449008">〔佛〕－【宋】【元】【明】【宮】</note>
 <note n="0449010" resp="#resp2" type="mod" target="#nkr_note_mod_0449010">火＝大【宋】【元】【明】【宮】</note>
 <note n="0449012" resp="#resp2" type="mod" target="#nkr_note_mod_0449012">是＝易【宋】【元】【明】【宮】【CB】</note>
+<note n="0450005" resp="#resp2" type="mod" target="#nkr_note_mod_0450005">愁憂＝憂愁【宮】【麗-CB】【磧砂-CB】【CB】</note>
 <note n="0450006" resp="#resp2" type="mod" target="#nkr_note_mod_0450006">辱＝受【宋】【元】【明】【宮】</note>
 <note n="0450007" resp="#resp2" type="mod" target="#nkr_note_mod_0450007">出＝坐【宋】【元】【明】【宮】</note>
 <note n="0450008" resp="#resp2" type="mod" target="#nkr_note_mod_0450008">之＋（殃）【宋】【元】【明】【宮】</note>
@@ -387,7 +390,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0449001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0449001">經＋（是普超經別品殊譯）夾註【宋】【宮】，（是普超經第三品別譯）【元】，（即普超經第二品別譯）夾註【明】</note>
 <note n="0449002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0449002">安公…錄（十二字）＝安公云失譯【宋】，安公錄失譯人開元附西晉初出【元】，安公錄失譯人名開元附西晉錄【明】，安公失譯【宮】</note>

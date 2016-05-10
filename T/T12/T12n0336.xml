@@ -12,6 +12,7 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.12 $<date>$Date: 2012/08/27 03:14:35 $</date>新式標點版</edition>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,6 +29,11 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 12, No. 336 </bibl>
+	<listWit>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit3">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -83,7 +89,7 @@ add cvs log
 <lb n="0081c08" ed="T"/><cb:docNumber>No. 336 [Nos. 310(30), 334, 335]</cb:docNumber>
 <lb n="0081c09" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead>須摩提經<note place="inline">按《開元錄》云妙慧童女經，流志後譯</note></cb:jhead></cb:juan>
 <lb n="0081c10" ed="T"/>
-<lb n="0081c11" ed="T"/><byline cb:type="Translator">大唐三藏法師菩提流支奉　詔譯</byline>
+<lb n="0081c11" ed="T"/><byline cb:type="Translator">大唐三藏法師菩提流<anchor xml:id="beg_1" type="cb-app"/>志<anchor xml:id="end_1"/><anchor xml:id="nkr_2"/>奉　詔譯</byline>
 <lb n="0081c12" ed="T"/><cb:div type="jing"><p xml:id="pT12p0081c1201">如是我聞：</p><p xml:id="pT12p0081c1205" rend="inline">一時佛在王舍城耆闍崛山中，與
 <lb n="0081c13" ed="T"/>比丘眾千二百五十人、菩薩摩訶薩十千人
 <lb n="0081c14" ed="T"/>俱。</p><p xml:id="pT12p0081c1402" rend="inline">時王舍城有長者女名為妙慧，年始八歲，
@@ -263,7 +269,7 @@ add cvs log
 <lb n="0083c08" ed="T"/>為人解說。譬如轉輪聖王出現於世，所有七
 <lb n="0083c09" ed="T"/>寶皆悉在前；王滅之後，寶皆隱沒。如是微妙
 <lb n="0083c10" ed="T"/>法門流行於世，即諸如來七菩提分等法明
-<lb n="0083c11" ed="T"/>不滅；若不流行，正法常滅。</p>
+<lb n="0083c11" ed="T"/>不滅；若不流行，正法<anchor xml:id="beg_3" type="cb-app"/>當<anchor xml:id="end_3"/>滅。</p>
 <lb n="0083c12" ed="T"/><p xml:id="pT12p0083c1201">「是故，文殊師利！若善男子、善女人等為求菩
 <lb n="0083c13" ed="T"/>提，應當發起精進，書寫此經、受持讀誦、為人
 <lb n="0083c14" ed="T"/>演說。此是我教，勿於後世生悔恨心。」</p><p xml:id="pT12p0083c1415" rend="inline">佛說此
@@ -273,4 +279,17 @@ add cvs log
 <lb n="0083c18" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>須摩提經</cb:jhead></cb:juan>
 </body>
 <back>
+<cb:div type="apparatus">
+<head>校註</head>
+<p>
+<app from="#beg_1" to="#end_1"><lem wit="#wit1 #wit2" resp="#resp1">志<note type="cf1">K06n0036_p1171a02</note></lem><rdg wit="#wit3">支</rdg></app>
+<app from="#beg_3" to="#end_3"><lem wit="#wit1 #wit2" resp="#resp1">當<note type="cf1">K06n0036_p1173c13</note></lem><rdg wit="#wit3">常</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note resp="#resp1" target="#nkr_2">CBETA按：菩提流支 是在元魏時代，本經是在唐朝譯出，所以 菩提流志 為正確，故依麗本修訂。</note>
+</p>
+</cb:div>
 </back></text></TEI>

@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 07:59:26 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -233,7 +236,7 @@ Added comment  for Emacs
 <lb n="0707b04" ed="T"/>不犯四過、意不念三惡，初中竟善也。又身口
 <lb n="0707b05" ed="T"/>意和而歸三寶，除于三毒，入空無相不願之
 <lb n="0707b06" ed="T"/>法，向三脫門，是初中竟善之德也。三界皆
-<lb n="0707b07" ed="T"/>苦，生老病死視身如<anchor xml:id="nkr_note_orig_0707010" n="0707010"/><anchor xml:id="nkr_note_mod_0707010" n="0707010"/><anchor xml:id="beg0707010" n="0707010"/>怨<anchor xml:id="end0707010"/>，行于四等悲慈喜
+<lb n="0707b07" ed="T"/>苦，生老病死視身如<anchor xml:id="nkr_note_orig_0707010" n="0707010"/><anchor xml:id="nkr_note_mod_0707010" n="0707010"/><anchor xml:id="beg0707010" n="0707010"/>怨<anchor xml:id="end0707010"/>，行于四等<anchor xml:id="beg_1" type="cb-app"/>慈悲<anchor xml:id="end_1"/>喜
 <lb n="0707b08" ed="T"/>護，不遵大慈無極之哀，趣欲免身至于泥洹，
 <lb n="0707b09" ed="T"/>不念一切，便得羅漢，不及十方。雖得免於四
 <lb n="0707b10" ed="T"/>患，猶有限礙。」</p>
@@ -301,6 +304,7 @@ Added comment  for Emacs
 <app from="#beg0707008" to="#end0707008"><lem wit="#wit1">恍惚</lem><rdg resp="#resp1" wit="#wit2">慌忽</rdg><rdg resp="#resp1" wit="#wit5">恾忽</rdg></app>
 <app from="#beg0707009" to="#end0707009"><lem wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">四苦</rdg></app>
 <app from="#beg0707010" to="#end0707010"><lem wit="#wit1">怨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><g ref="#CB04799">󱊿</g></rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7" resp="#resp3">慈悲<note type="cf1">K12n0357_p0108b14</note></lem><rdg wit="#wit1">悲慈</rdg></app>
 <app from="#beg0707011" to="#end0707011"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0707012" to="#end0707012"><lem wit="#wit1">在</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">存</rdg></app>
 <app from="#beg0707013" to="#end0707013"><lem wit="#wit1">倚</lem><rdg resp="#resp1" wit="#wit2 #wit5">猗</rdg></app>

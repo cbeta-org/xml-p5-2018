@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.10 $<date>$Date: 2012/08/27 03:15:04 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【宋】</witness>
 		<witness xml:id="wit4">【宮】</witness>
 		<witness xml:id="wit5">【元】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -255,9 +258,9 @@ Added comment  for Emacs
 <lb n="0331c02" ed="T"/><p xml:id="pT16p0331c0201">「文殊師利！如是如來身諸隨好，略說其數有
 <lb n="0331c03" ed="T"/>八十種。何謂八十？一者首分圓滿、二者髮際
 <lb n="0331c04" ed="T"/>嚴好、三者髮色青紺、四者髮香芬馥、五者髮
-<lb n="0331c05" ed="T"/>甚柔軟、六者髮不紛亂、七者髮不稀概、八者
+<lb n="0331c05" ed="T"/>甚柔軟、六者髮不紛亂、七者髮不稀<anchor xml:id="beg_1" type="cb-app"/>穊<anchor xml:id="end_1"/>、八者
 <lb n="0331c06" ed="T"/>髮常增長、九者髮本波委、十者髮端螺旋、十
-<lb n="0331c07" ed="T"/>一者髮<anchor xml:id="nkr_note_orig_0331005" n="0331005"/><anchor xml:id="beg0331005" n="0331005"/>狀<anchor xml:id="end0331005"/>華輪、十二者髮如德字、十三者面
+<lb n="0331c07" ed="T"/>一者髮<anchor xml:id="nkr_note_orig_0331005" n="0331005"/><anchor xml:id="beg0331005" n="0331005"/>狀<anchor xml:id="end0331005"/><anchor xml:id="beg_2" type="cb-app"/>花<anchor xml:id="end_2"/>輪、十二者髮如德字、十三者面
 <lb n="0331c08" ed="T"/>部平正、十四者毫分充足、十五者眉色青紺、
 <lb n="0331c09" ed="T"/>十六者眉不雜亂、十七者兩目美好、十八者
 <lb n="0331c10" ed="T"/>兩目修廣、十九者兩目清淨、二十者兩目明
@@ -315,7 +318,7 @@ Added comment  for Emacs
 <lb n="0332b02" ed="T"/>七者矛矟像、三十八者鉞斧像、三十九者羂
 <lb n="0332b03" ed="T"/>索像、四十者長鉤像、四十一者<anchor xml:id="nkr_note_orig_0332001" n="0332001"/><anchor xml:id="beg0332001" n="0332001"/><g ref="#CB02144">䡴</g><anchor xml:id="end0332001"/>刃像、四
 <lb n="0332b04" ed="T"/>十二者金<anchor xml:id="nkr_note_orig_0332002" n="0332002"/><anchor xml:id="nkr_note_mod_0332002" n="0332002"/><anchor xml:id="beg0332002" n="0332002"/>鎚<anchor xml:id="end0332002"/>像、四十三者天棒像、四十四
-<lb n="0332b05" ed="T"/>者天鼓像、四十五者金螺像、四十六者腰鼓
+<lb n="0332b05" ed="T"/>者天鼓像、四十五者<anchor xml:id="beg_3" type="cb-app"/>天<anchor xml:id="end_3"/>螺像、四十六者腰鼓
 <lb n="0332b06" ed="T"/>像、四十七者花輪像、四十八者宮殿像、四十
 <lb n="0332b07" ed="T"/>九者寶座像、五十者浴池像、五十一者蓮花
 <lb n="0332b08" ed="T"/>像、五十二者粉米像、五十三者麰麥像、五十
@@ -413,11 +416,11 @@ Added comment  for Emacs
 <lb n="0333b10" ed="T"/>猶如虛空，難遇難遭我今得見。」</p><p xml:id="pT16p0333b1013" rend="inline">佛說是經已，
 <lb n="0333b11" ed="T"/>彼諸比丘及諸菩薩摩訶薩等，歡喜合掌，信
 <lb n="0333b12" ed="T"/>受奉行。</p></cb:div>
-<lb n="0333b13" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title><anchor xml:id="beg_1" type="star"/>大乘<anchor xml:id="end_1"/>百福莊嚴相經</title></cb:jhead></cb:juan>
+<lb n="0333b13" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title><anchor xml:id="beg_4" type="star"/>大乘<anchor xml:id="end_4"/>百福莊嚴相經</title></cb:jhead></cb:juan>
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0330005" to="#end0330005"><lem wit="#wit1">大乘</lem><rdg resp="#resp1" wit="#wit2">佛說大乘</rdg></app>
 <app cb:word-count="12" from="#beg0330006" to="#end0330006"><lem wit="#wit1">大唐天竺三藏地婆訶羅再譯</lem><rdg resp="#resp1" wit="#wit3 #wit4">大唐三藏地婆訶羅等奉詔譯</rdg><rdg resp="#resp1" wit="#wit5 #wit2">唐中天竺三藏法師地婆訶羅等奉詔再譯</rdg></app>
@@ -425,22 +428,25 @@ Added comment  for Emacs
 <app from="#beg0331002" to="#end0331002"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">授</rdg></app>
 <app from="#beg0331003" to="#end0331003"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">世界</rdg></app>
 <app from="#beg0331004" to="#end0331004"><lem wit="#wit1">渧</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">滴</rdg></app>
+<app from="#beg_1" to="#end_1"><lem resp="#resp3" wit="#wit6 #wit7">穊<note type="cf1">K11n0245_p0522a187</note></lem><rdg wit="#wit1">概</rdg></app>
 <app from="#beg0331005" to="#end0331005"><lem wit="#wit1">狀</lem><rdg resp="#resp1" wit="#wit4">拔</rdg></app>
+<app from="#beg_2" to="#end_2"><lem resp="#resp3" wit="#wit6 #wit7">花<note type="cf1">K11n0245_p0522a20</note></lem><rdg wit="#wit1">華</rdg></app>
 <app from="#beg0331006" to="#end0331006"><lem wit="#wit1">花</lem><rdg resp="#resp1" wit="#wit5 #wit2">葉</rdg><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0331007" to="#end0331007"><lem wit="#wit1">潔</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">淨</rdg></app>
 <app from="#beg0331008" to="#end0331008"><lem wit="#wit1">端嚴</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">嚴好</rdg></app>
 <app from="#beg0332001" to="#end0332001"><lem wit="#wit1"><g ref="#CB02144">䡴</g></lem><rdg resp="#resp1" wit="#wit5 #wit2"><g ref="#CB00965">䂌</g></rdg></app>
 <app from="#beg0332002" to="#end0332002"><lem wit="#wit1">鎚</lem><rdg resp="#resp1" wit="#wit3 #wit2 #wit4">鉅</rdg><rdg resp="#resp1" wit="#wit5">銀</rdg></app>
+<app from="#beg_3" to="#end_3"><lem resp="#resp3" wit="#wit6 #wit7">天<note type="cf1">K11n0245_p0523a18</note><note type="cf2">Q11_p0188a14</note></lem><rdg wit="#wit1">金</rdg></app>
 <app from="#beg0332003" to="#end0332003"><lem wit="#wit1">其頷</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">頷類</rdg></app>
 <app from="#beg0332004" to="#end0332004"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">有</rdg></app>
 <app from="#beg0332005" to="#end0332005"><lem wit="#wit1">鞔</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">縵</rdg></app>
 <app from="#beg0333001" to="#end0333001"><lem wit="#wit1">最</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4">無量</rdg></app>
 <app from="#beg0333002" to="#end0333002"><lem wit="#wit1">佛</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit2 #wit4"><space quantity="0"/></rdg></app>
-<app from="#beg_1" to="#end_1" corresp="#0330005"><lem wit="#wit1">大乘</lem><rdg resp="#resp1" wit="#wit2">佛說大乘</rdg></app>
+<app from="#beg_4" to="#end_4" corresp="#0330005"><lem wit="#wit1">大乘</lem><rdg resp="#resp1" wit="#wit2">佛說大乘</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0330006" resp="#resp2" type="mod" target="#nkr_note_mod_0330006">（（大唐…譯））十二字＝大唐三藏地婆訶羅等奉詔譯【宋】【宮】，＝唐中天竺三藏法師地婆訶羅等奉詔再譯【元】【明】</note>
 <note n="0331001" resp="#resp2" type="mod" target="#nkr_note_mod_0331001">惟＝唯【宋】【元】【明】【宮】</note>
@@ -458,7 +464,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0330005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0330005">（佛說）＋大乘【明】＊</note>
 <note n="0330006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0330006">（（大唐…譯））十二字＝大唐三藏地婆訶羅等奉詔譯【宋】【宮】，唐中天竺三藏法師地婆訶羅等奉詔再譯【元】【明】</note>

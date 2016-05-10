@@ -209,6 +209,10 @@
 		<localName>composition</localName>
 		<value>[簐-欠+几]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>範</value>
+	</charProp>
 	<mapping cb:dec="986006" type="PUA">U+F0B96</mapping>
 </char>
 <char xml:id="CB03485">
@@ -783,6 +787,10 @@
 		<localName>composition</localName>
 		<value>[一/力]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>万</value>
+	</charProp>
 	<mapping cb:dec="1001976" type="PUA">U+F49F8</mapping>
 </char>
 <char xml:id="CB21179">
@@ -931,6 +939,10 @@
 	<charProp>
 		<localName>composition</localName>
 		<value>[泥-匕+工]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>泥</value>
 	</charProp>
 	<mapping cb:dec="1008505" type="PUA">U+F6379</mapping>
 </char>
@@ -1196,6 +1208,11 @@
 		<localName>composition</localName>
 		<value>[烈-列+執]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>熱</value>
+	</charProp>
+	<mapping type="unicode">U+24360</mapping>
 	<mapping cb:dec="1013079" type="PUA">U+F7557</mapping>
 </char>
 <char xml:id="CB30070">
@@ -1276,6 +1293,7 @@
 		<localName>normalized form</localName>
 		<value>降</value>
 	</charProp>
+	<mapping type="unicode">U+49CF</mapping>
 	<mapping cb:dec="1013248" type="PUA">U+F7600</mapping>
 </char>
 <char xml:id="CB30213">
@@ -1616,6 +1634,11 @@
 		<localName>composition</localName>
 		<value>[社-土+卑]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>裨</value>
+	</charProp>
+	<mapping type="unicode">U+7986</mapping>
 	<mapping cb:dec="1015461" type="PUA">U+F7EA5</mapping>
 </char>
 <char xml:id="CB32422">
@@ -4870,7 +4893,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>釈</corr><sic>尺</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>論</corr><sic>侖</sic></choice>

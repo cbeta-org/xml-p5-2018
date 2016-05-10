@@ -13,6 +13,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2012/09/28 08:51:54 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,6 +30,11 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 17, No. 751a </bibl>
+	<listWit>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit3">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -36,6 +42,21 @@
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Po-Luo</p>
 		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，波羅提供新式標點</p>
 	</projectDesc>
+<charDecl>
+<char xml:id="CB21906">
+	<charName>CBETA CHARACTER CB21906</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[辟-口+言]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>譬</value>
+	</charProp>
+	<mapping type="unicode">U+2842B</mapping>
+	<mapping cb:dec="1004946" type="PUA">U+F5592</mapping>
+</char>
+</charDecl>
 </encodingDesc>
 <profileDesc>
 		<langUsage>
@@ -153,7 +174,7 @@ Added comment  for Emacs
 <lb n="0573b04" ed="T"/>自飛去行求飲食；有緣則合無緣則離，我之
 <lb n="0573b05" ed="T"/>夫婦亦復如是，去住進止非我之力，隨其本
 <lb n="0573b06" ed="T"/>行不能得留，愁憂啼哭何益死者！」</p><p xml:id="pT17p0573b0614" rend="inline">復語其
-<lb n="0573b07" ed="T"/>奴：「大家已死，何不啼哭？」</p><p xml:id="pT17p0573b0710" rend="inline">奴為梵志說喻言：「我
+<lb n="0573b07" ed="T"/>奴：「大家已死，何不啼哭？」</p><p xml:id="pT17p0573b0710" rend="inline">奴為梵志說<anchor xml:id="beg_1" type="cb-app"/>譬<anchor xml:id="end_1"/>喻言：「我
 <lb n="0573b08" ed="T"/>之大家因緣和會，我如犢子隨逐大牛，人殺
 <lb n="0573b09" ed="T"/>大牛犢子在邊，不能救護大牛之命，憂愁不
 <lb n="0573b10" ed="T"/>樂，啼哭懊惱，何益死者！」</p><p xml:id="pT17p0573b1010" rend="inline">梵志聞之，心惑目冥
@@ -177,12 +198,19 @@ Added comment  for Emacs
 <lb n="0573b28" ed="T"/>愈、如盲得視、如闇遇明。」於是梵志即得道
 <lb n="0573b29" ed="T"/>跡。</p><p xml:id="pT17p0573b2902" rend="inline">「一切死亡不足啼哭，欲為亡者請佛及
 <pb n="0573c" ed="T" xml:id="T17.0751a.0573c"/>
-<lb n="0573c01" ed="T"/>僧，燒香供養、續誦經典，能日日作禮，復至心
+<lb n="0573c01" ed="T"/>僧，燒香供養、<anchor xml:id="beg_2" type="cb-app"/>讀<anchor xml:id="end_2"/>誦經典，能日日作禮，復至心
 <lb n="0573c02" ed="T"/>供養三寶，最是為要。」</p><p xml:id="pT17p0573c0209" rend="inline">於是梵志，稽首作禮，受
 <lb n="0573c03" ed="T"/>教而去。</p></cb:div>
 <lb n="0573c04" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title>佛說五無反復經</title></cb:jhead></cb:juan>
 </body>
 <back>
+<cb:div type="apparatus">
+<head>校勘記</head>
+<p>
+<app from="#beg_1" to="#end_1"><lem wit="#wit1 #wit2" resp="#resp2">譬<note type="cf1">K20n0847_p1191c19</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg><rdg resp="#resp2" wit="#wit2"><g ref="#CB21906">𨐫</g><note type="cf1">K20n0847_p1191c19</note></rdg></app>
+<app from="#beg_2" to="#end_2"><lem wit="#wit1 #wit2" resp="#resp2">讀<note type="cf1">K20n0847_p1192a24</note></lem><rdg wit="#wit3">續</rdg></app>
+</p>
+</cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校勘記</head>
 <p>

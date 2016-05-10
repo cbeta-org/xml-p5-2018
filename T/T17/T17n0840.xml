@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 07:59:27 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【明】</witness>
 		<witness xml:id="wit4">【宮】</witness>
 		<witness xml:id="wit5">【元】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -79,6 +82,19 @@
 		<value>[并*氐]</value>
 	</charProp>
 	<mapping cb:dec="986087" type="PUA">U+F0BE7</mapping>
+</char>
+<char xml:id="CB04447">
+	<charName>CBETA CHARACTER CB04447</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[月*互]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>胝</value>
+	</charProp>
+	<mapping type="unicode">U+26641</mapping>
+	<mapping cb:dec="987487" type="PUA">U+F115F</mapping>
 </char>
 </charDecl>
 </encodingDesc>
@@ -276,7 +292,7 @@ Added comment  for Emacs
 <lb n="0912a08" ed="T"/>此三千大千世界六種震動，空中天樂百千
 <lb n="0912a09" ed="T"/>萬類不鼓自嗚，諸妙天花繽紛亂<anchor xml:id="nkr_note_orig_0912002" n="0912002"/><anchor xml:id="nkr_note_mod_0912002" n="0912002"/><anchor xml:id="beg0912002" n="0912002"/>墮<anchor xml:id="end0912002"/>，無量
 <lb n="0912a10" ed="T"/>天子無數聲聞，聞此法音覩斯瑞應，皆發阿
-<lb n="0912a11" ed="T"/>耨多羅三藐三菩提心，百千俱<g ref="#CB03047">󰯧</g>新學菩薩，
+<lb n="0912a11" ed="T"/>耨多羅三藐三菩提心，百千俱<anchor xml:id="beg_1" type="cb-app"/>胝<anchor xml:id="end_1"/>新學菩薩，
 <lb n="0912a12" ed="T"/>同時證得無生法忍。</p>
 <lb n="0912a13" ed="T"/><p xml:id="pT17p0912a1301">爾時阿難即從座起，合掌恭敬而白佛言：「今
 <lb n="0912a14" ed="T"/>此法門甚為希有，能普利樂一切有情，當以
@@ -303,6 +319,7 @@ Added comment  for Emacs
 <app from="#beg0911009" to="#end0911009"><lem wit="#wit1">進學</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit3 #wit4">增進</rdg></app>
 <app from="#beg0912001" to="#end0912001"><lem wit="#wit1">翫</lem><rdg resp="#resp1" wit="#wit5 #wit3">玩</rdg></app>
 <app from="#beg0912002" to="#end0912002"><lem wit="#wit1">墮</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit3">墜</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7" resp="#resp3">胝<note type="cf1">K11n0256_p0560c20</note></lem><rdg wit="#wit1"><g ref="#CB03047">󰯧</g></rdg><rdg resp="#resp3" wit="#wit7"><g ref="#CB04447">𦙁</g><note type="cf1">K11n0256_p0560c20</note></rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">

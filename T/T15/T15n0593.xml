@@ -39,6 +39,7 @@
 		<witness xml:id="wit5">【宮】</witness>
 		<witness xml:id="wit6">【CBETA】</witness>
 		<witness xml:id="wit7">【麗】</witness>
+		<witness xml:id="wit8">【磧砂】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -274,7 +275,7 @@ Added comment  for Emacs
 <lb n="0126a25" ed="T"/>中能為善伴，共相救護。大王善聽！我今為說。
 <lb n="0126a26" ed="T"/>呪曰：</p>
 <lb n="0126a27" ed="T"/><p cb:type="dharani" xml:id="pT15p0126a2701">「南謨釋迦牟奈曳　怛他揭多也　阿羅<g ref="#CB01231">𠿒</g>帝
-<lb n="0126a28" ed="T"/>三藐三勃陀也　怛姪他唵　苫<anchor xml:id="nkr_note_orig_0126007" n="0126007"/><anchor xml:id="nkr_note_mod_0126007" n="0126007"/><anchor xml:id="beg0126007" n="0126007"/><g ref="#CB00734">䜝</g><anchor xml:id="end0126007"/>苫<anchor xml:id="beg_1" type="star"/><g ref="#CB00734">䜝</g><anchor xml:id="end_1"/>
+<lb n="0126a28" ed="T"/>三藐三勃陀也　怛姪他唵　苫<anchor xml:id="nkr_note_orig_0126007" n="0126007"/><anchor xml:id="nkr_note_mod_0126007" n="0126007"/><anchor xml:id="beg0126007" n="0126007"/>	謎<anchor xml:id="end0126007"/>苫<anchor xml:id="beg_1" type="star"/>謎<anchor xml:id="end_1"/>
 <lb n="0126a29" ed="T"/>　薩婆波跛　鉢羅苫末泥<note place="inline">去</note>莎訶」</p>
 <pb n="0126b" ed="T" xml:id="T15.0593.0126b"/>
 <lb n="0126b01" ed="T"/><p xml:id="pT15p0126b0101">佛告大王：「此陀羅尼諸佛所說，於日日中清
@@ -346,7 +347,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0125002" to="#end0125002"><lem wit="#wit1">大唐沙門釋</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">唐三藏法師</rdg></app>
 <app from="#beg0125003" to="#end0125003"><lem wit="#wit1">髻</lem><rdg resp="#resp1" wit="#wit5">髮</rdg></app>
@@ -364,8 +365,8 @@ Added comment  for Emacs
 <app from="#beg0126004" to="#end0126004"><lem wit="#wit1">間</lem><rdg resp="#resp1" wit="#wit2 #wit3">門</rdg></app>
 <app from="#beg0126005" to="#end0126005"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">唯</rdg></app>
 <app from="#beg0126006" to="#end0126006"><lem wit="#wit1">厄</lem><rdg resp="#resp1" wit="#wit4">危</rdg></app>
-<app from="#beg0126007" to="#end0126007"><lem wit="#wit1"><g ref="#CB00734">䜝</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">謎</rdg></app>
-<app from="#beg_1" to="#end_1" corresp="#0126007"><lem wit="#wit1"><g ref="#CB00734">䜝</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">謎</rdg></app>
+<app from="#beg0126007" to="#end0126007">	<lem wit="#wit6 #wit7 #wit8" resp="#resp3">謎<note type="cf1">K11n0261_p0576c08</note><note type="cf2">Q11_p0228a26</note></lem><rdg wit="#wit1"><g ref="#CB00734">䜝</g></rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">謎</rdg></app>
+<app from="#beg_1" to="#end_1" corresp="#0126007"><lem wit="#wit6 #wit7 #wit8" resp="#resp3">謎<note type="cf1">K11n0261_p0576c08</note><note type="cf2">Q11_p0228a26</note></lem><rdg wit="#wit1"><g ref="#CB00734">䜝</g></rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">謎</rdg></app>
 <app from="#beg_2" to="#end_2" corresp="#0126005"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">唯</rdg></app>
 <app from="#beg0126008" to="#end0126008"><lem wit="#wit1">居</lem><rdg resp="#resp1" wit="#wit2 #wit3">內</rdg></app>
 <app from="#beg0126009" to="#end0126009"><lem wit="#wit1">鵄</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">鴟</rdg></app>
@@ -378,7 +379,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0125002" resp="#resp2" type="mod" target="#nkr_note_mod_0125002">大唐沙門釋＝唐三藏法師【宋】【元】【明】【宮】</note>
 <note n="0125006" resp="#resp2" type="mod" target="#nkr_note_mod_0125006">後＝復【宋】【元】【明】【宮】</note>
@@ -386,7 +387,7 @@ Added comment  for Emacs
 <note n="0125008" resp="#resp2" type="mod" target="#nkr_note_mod_0125008">能除＝除惡【宋】【元】【明】【宮】</note>
 <note n="0125010" resp="#resp2" type="mod" target="#nkr_note_mod_0125010">某＝其【宋】【元】【明】【宮】</note>
 <note n="0126005" resp="#resp2" type="mod" target="#nkr_note_mod_0126005">惟＝唯【宋】【元】【明】【宮】＊</note>
-<note n="0126007" resp="#resp2" type="mod" target="#nkr_note_mod_0126007"><g ref="#CB00734">䜝</g>＝謎【宋】【元】【明】【宮】＊</note>
+<note n="0126007" resp="#resp2" type="mod" target="#nkr_note_mod_0126007"><g ref="#CB00734">䜝</g>＝謎【宋】【元】【明】【宮】＊【麗-CB】＊【磧砂-CB】＊【CB】＊</note>
 <note n="0126009" resp="#resp2" type="mod" target="#nkr_note_mod_0126009">鵄＝鴟【宋】【元】【明】</note>
 <note n="0126010" resp="#resp2" type="mod" target="#nkr_note_mod_0126010">雉＝羽【宋】【元】【明】【宮】</note>
 <note n="0126011" resp="#resp2" type="mod" target="#nkr_note_mod_0126011">分判斷＝業分判【宋】【元】【明】【宮】</note>
@@ -395,7 +396,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0125002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0125002">大唐沙門釋＝唐三藏法師【三】【宮】</note>
 <note n="0125003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0125003">髻＝髮【宮】</note>

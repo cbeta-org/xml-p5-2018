@@ -961,7 +961,7 @@
 	<charName>CBETA CHARACTER CB04762</charName>
 	<charProp>
 		<localName>composition</localName>
-		<value>[蜣-儿+(鬼-((白-日)/田))]</value>
+		<value>[蜣-儿+(鬼-(白-日+田))]</value>
 	</charProp>
 	<charProp>
 		<localName>normalized form</localName>
@@ -1408,10 +1408,10 @@ add cvs log
 <lb n="0001b01" ed="T"/><item xml:id="itemT54p0001b0101">唄讚部</item><item xml:id="itemT54p0001b0104">香燈部</item><item xml:id="itemT54p0001b0107">受請部</item><item xml:id="itemT54p0001b0110">受齋部</item>
 <lb n="0001b02" ed="T"/><item xml:id="itemT54p0001b0201">破齋部</item><item xml:id="itemT54p0001b0204">富貴部</item><item xml:id="itemT54p0001b0207">貧賤部</item><item xml:id="itemT54p0001b0210">獎導部</item>
 <lb n="0001b03" ed="T"/><item xml:id="itemT54p0001b0301">報恩部</item><item xml:id="itemT54p0001b0304">放生部</item><item xml:id="itemT54p0001b0307">興福部</item><item xml:id="itemT54p0001b0310"><anchor xml:id="nkr_note_orig_0001017" n="0001017"/><anchor xml:id="nkr_note_mod_0001017" n="0001017"/><anchor xml:id="beg0001017" n="0001017"/>擇交部<anchor xml:id="end0001017"/></item>
-<lb n="0001b04" ed="T"/><anchor xml:id="nkr_note_orig_0001018" n="0001018"/><anchor xml:id="nkr_note_mod_0001018" n="0001018"/><anchor xml:id="beg0001018" n="0001018"/><item xml:id="itemT54p0001b0401">思慎部</item><item xml:id="itemT54p0001b0404">六度部</item><item xml:id="itemT54p0001b0407">業因部</item><item xml:id="itemT54p0001b0410">欲蓋部</item>
+<lb n="0001b04" ed="T"/><item xml:id="itemT54p0001b0401"><anchor xml:id="nkr_note_orig_0001018" n="0001018"/><anchor xml:id="nkr_note_mod_0001018" n="0001018"/><anchor xml:id="beg0001018" n="0001018"/>思慎部<anchor xml:id="end0001018"/></item><item xml:id="itemT54p0001b0404">六度部</item><item xml:id="itemT54p0001b0407">業因部</item><item xml:id="itemT54p0001b0410">欲蓋部</item>
 <lb n="0001b05" ed="T"/><item xml:id="itemT54p0001b0501">四生部</item><item xml:id="itemT54p0001b0504">受報部</item><item xml:id="itemT54p0001b0507">十惡部</item><item xml:id="itemT54p0001b0510">詐偽部</item>
 <lb n="0001b06" ed="T"/><item xml:id="itemT54p0001b0601">惰慢部</item><item xml:id="itemT54p0001b0604">酒宍部</item><item xml:id="itemT54p0001b0607">占相部</item><item xml:id="itemT54p0001b0610">地獄部</item>
-<lb n="0001b07" ed="T"/><item xml:id="itemT54p0001b0701">送終部</item><item xml:id="itemT54p0001b0704">雜要部</item><anchor xml:id="end0001018"/></list></cb:div>
+<lb n="0001b07" ed="T"/><item xml:id="itemT54p0001b0701">送終部</item><item xml:id="itemT54p0001b0704">雜要部</item></list></cb:div>
 <lb n="0001b08" ed="T"/>
 <lb n="0001b09" ed="T"/>
 <lb n="0001b10" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead>諸經要集卷第一</cb:jhead></cb:juan>
@@ -17211,7 +17211,7 @@ add cvs log
 <lb n="0177a16" ed="T"/><l>念佛三昧必見佛</l><l>命終之後生佛前</l>
 <lb n="0177a17" ed="T"/><l><anchor xml:id="nkr_note_orig_0177007" n="0177007"/><anchor xml:id="nkr_note_mod_0177007" n="0177007"/><anchor xml:id="beg0177007" n="0177007"/>令<anchor xml:id="end0177007"/>彼臨終勸念善</l><l>又示尊像令瞻敬</l>
 <lb n="0177a18" ed="T"/><l>又復勸令歸依佛</l><l>因是得成見佛光</l></lg>
-<lb n="0177a19" ed="T"/><anchor xml:id="nkr_dc"/><p xml:id="pT54p0177a19101">述曰如前教已。復將經像至病人所。題其經
+<lb n="0177a19" ed="T"/><p xml:id="pT54p0177a1901"><anchor xml:id="nkr_dc"/>述曰如前教已。復將經像至病人所。題其經
 <lb n="0177a20" ed="T"/>名像名。告語示之。使開目覩見。令其惺悟。兼
 <lb n="0177a21" ed="T"/>請有德智人。讀誦大乘。助揚讚唄。幡花亂墜
 <lb n="0177a22" ed="T"/>宛轉目前。香氣<g ref="#CB00645">𣱦</g>氳常注鼻根。恒與善語勿
@@ -18737,7 +18737,7 @@ add cvs log
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0001002" to="#end0001002"><lem wit="#wit1">西</lem><rdg resp="#resp1" wit="#wit2">大唐西</rdg><rdg resp="#resp1" wit="#wit3">唐西</rdg></app>
 <app from="#beg0001003" to="#end0001003"><lem wit="#wit1">釋</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3"><space quantity="0"/></rdg></app>
@@ -18755,10 +18755,7 @@ add cvs log
 <app from="#beg0001015" to="#end0001015"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3 #wit5">辨</rdg></app>
 <app from="#beg0001016" to="#end0001016"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit3">諸經要集目錄三</rdg></app>
 <app from="#beg0001017" to="#end0001017"><lem wit="#wit1">擇交部</lem><rdg resp="#resp1" wit="#wit5">思慎部六度部業因部欲蓋部四生部受報部十惡部詐偽部惰慢部酒宍部占相部地獄部送終部雜要部</rdg></app>
-<app from="#beg0001018" to="#end0001018"><lem wit="#wit1"><item>思慎部</item><item>六度部</item><item>業因部</item><item>欲蓋部</item>
-<lb n="0001b05" ed="T"/><item>四生部</item><item>受報部</item><item>十惡部</item><item>詐偽部</item>
-<lb n="0001b06" ed="T"/><item>惰慢部</item><item>酒宍部</item><item>占相部</item><item>地獄部</item>
-<lb n="0001b07" ed="T"/><item>送終部</item><item>雜要部</item></lem><rdg resp="#resp1" wit="#wit5">擇交部</rdg></app>
+<app from="#beg0001018" to="#end0001018"><lem wit="#wit1">思慎部</lem><rdg resp="#resp1" wit="#wit5">思慎部六度部業因部欲蓋部四生部受報部十惡部詐偽部惰慢部酒宍部占相部地獄部送終部雜要部</rdg></app>
 <app from="#beg0001019" to="#end0001019"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit3">一中</rdg></app>
 <app from="#beg0001020" to="#end0001020"><lem wit="#wit1">別</lem><rdg resp="#resp1" wit="#wit3">有</rdg></app>
 <app from="#beg0001021" to="#end0001021"><lem wit="#wit1">精</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3 #wit5">洞</rdg></app>
@@ -22086,7 +22083,7 @@ add cvs log
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0001003" resp="#resp2" type="mod" target="#nkr_note_mod_0001003">〔釋〕－【宋】＊【元】＊【明】＊</note>
 <note n="0001005" resp="#resp2" type="mod" target="#nkr_note_mod_0001005">集＝撰【宋】＊【元】＊【明】＊【宮】</note>
@@ -23997,7 +23994,7 @@ add cvs log
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0001001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0001001">【原】麗本</note>
 <note n="0001002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0001002">（大唐）＋西【元】，（唐）＋西【明】＊</note>
@@ -27125,7 +27122,7 @@ add cvs log
 </p>
 </cb:div>
 <cb:div type="rest-notes">
-<head>其他註解</head>
+<head>其他校註</head>
 <p>
 <note n="0101012" type="rest" place="foot" target="#nkr_note_rest_0101012"><g ref="#CB07537">󱵱</g><g ref="#CB07537">󱵱</g>二字宮本作割註</note>
 </p>

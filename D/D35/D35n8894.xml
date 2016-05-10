@@ -919,6 +919,10 @@
 		<localName>composition</localName>
 		<value>[一/力]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>万</value>
+	</charProp>
 	<mapping cb:dec="1001976" type="PUA">U+F49F8</mapping>
 </char>
 <char xml:id="CB21180">
@@ -1248,6 +1252,10 @@
 	<charProp>
 		<localName>composition</localName>
 		<value>[差-工+匕]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>差</value>
 	</charProp>
 	<mapping cb:dec="1008649" type="PUA">U+F6409</mapping>
 </char>
@@ -1600,6 +1608,7 @@
 		<localName>normalized form</localName>
 		<value>卻</value>
 	</charProp>
+	<mapping type="unicode">U+286AB</mapping>
 	<mapping cb:dec="1013077" type="PUA">U+F7555</mapping>
 </char>
 <char xml:id="CB30039">
@@ -1608,6 +1617,11 @@
 		<localName>composition</localName>
 		<value>[烈-列+執]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>熱</value>
+	</charProp>
+	<mapping type="unicode">U+24360</mapping>
 	<mapping cb:dec="1013079" type="PUA">U+F7557</mapping>
 </char>
 <char xml:id="CB30070">
@@ -9453,7 +9467,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr><space quantity="0"/></corr><sic>一</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr><space quantity="0"/></corr><sic>一</sic></choice>

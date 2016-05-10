@@ -37,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -175,7 +177,7 @@ Added comment  for Emacs
 <lb n="0242a24" ed="T"/><cb:docNumber>No. 612</cb:docNumber>
 <lb n="0242a25" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title><anchor xml:id="nkr_note_orig_0242004" n="0242004"/><anchor xml:id="nkr_note_mod_0242004" n="0242004"/><anchor xml:id="beg0242004" n="0242004"/>身<anchor xml:id="end0242004"/>觀經</title></cb:jhead></cb:juan>
 <lb n="0242a26" ed="T"/>
-<lb n="0242a27" ed="T"/><byline cb:type="Translator">西晉<anchor xml:id="nkr_note_orig_0242005" n="0242005"/><anchor xml:id="nkr_note_mod_0242005" n="0242005"/><anchor xml:id="beg0242005" n="0242005"/>月支國<anchor xml:id="end0242005"/><anchor xml:id="nkr_note_orig_0242006" n="0242006"/><anchor xml:id="nkr_note_mod_0242006" n="0242006"/><anchor xml:id="beg0242006" n="0242006"/>三藏<anchor xml:id="end0242006"/>竺法護譯</byline>
+<lb n="0242a27" ed="T"/><byline cb:type="Translator">西晉<anchor xml:id="nkr_note_orig_0242005" n="0242005"/><anchor xml:id="nkr_note_mod_0242005" n="0242005"/><anchor xml:id="beg0242005" n="0242005"/>月氏國<anchor xml:id="end0242005"/><anchor xml:id="nkr_note_orig_0242006" n="0242006"/><anchor xml:id="nkr_note_mod_0242006" n="0242006"/><anchor xml:id="beg0242006" n="0242006"/>三藏<anchor xml:id="end0242006"/>竺法護譯</byline>
 <lb n="0242a28" ed="T"/><cb:div type="jing"><p xml:id="pT15p0242a2801">聞如是：</p><p xml:id="pT15p0242a2804" rend="inline">一時，佛在舍衛國祇樹給孤獨園。是
 <lb n="0242a29" ed="T"/>時佛告諸比丘：「是身有肌膚<anchor xml:id="nkr_note_orig_0242007" n="0242007"/><anchor xml:id="beg0242007" n="0242007"/>髓<anchor xml:id="end0242007"/>血<anchor xml:id="nkr_note_orig_0242008" n="0242008"/><anchor xml:id="nkr_note_mod_0242008" n="0242008"/><anchor xml:id="beg0242008" n="0242008"/>肉<anchor xml:id="end0242008"/>，含滿
 <pb n="0242b" ed="T" xml:id="T15.0612.0242b"/>
@@ -230,10 +232,10 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0242004" to="#end0242004"><lem wit="#wit1">身</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">佛說身</rdg></app>
-<app from="#beg0242005" to="#end0242005"><lem wit="#wit1">月支國</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg0242005" to="#end0242005"><lem wit="#wit6 #wit7" resp="#resp3">月氏國<note type="cf1">K20n0874_p1246b02</note></lem><rdg wit="#wit1">月支國</rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0242006" to="#end0242006"><lem wit="#wit1">三藏</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">三藏法師</rdg></app>
 <app from="#beg0242007" to="#end0242007"><lem wit="#wit1">髓</lem><rdg resp="#resp1" wit="#wit5">體</rdg></app>
 <app from="#beg0242008" to="#end0242008"><lem wit="#wit1">肉</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">生肉</rdg></app>
@@ -262,10 +264,10 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0242004" resp="#resp2" type="mod" target="#nkr_note_mod_0242004">（佛說）＋身【宋】【元】【明】【宮】＊</note>
-<note n="0242005" resp="#resp2" type="mod" target="#nkr_note_mod_0242005">〔月<choice cb:resp="#resp3"><corr>支</corr><sic>氏</sic></choice>國〕－【宋】【元】【明】【宮】</note>
+<note n="0242005" resp="#resp2" type="mod" target="#nkr_note_mod_0242005">〔月<choice cb:resp="#resp3"><corr>支</corr><sic>氏</sic></choice>國〕－【宋】【元】【明】【宮】，＝月氏國【麗-CB】【CB】</note>
 <note n="0242006" resp="#resp2" type="mod" target="#nkr_note_mod_0242006">三藏＋（法師）【宋】【元】【明】</note>
 <note n="0242008" resp="#resp2" type="mod" target="#nkr_note_mod_0242008">（生）＋肉【宋】【元】【明】【宮】</note>
 <note n="0242009" resp="#resp2" type="mod" target="#nkr_note_mod_0242009"><g ref="#CB01424">𡱁</g>溺＝屎尿【宋】【元】【明】【宮】</note>
@@ -287,7 +289,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0242004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0242004">（佛說）＋身【三】【宮】＊</note>
 <note n="0242005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0242005">〔月氏國〕－【三】【宮】</note>

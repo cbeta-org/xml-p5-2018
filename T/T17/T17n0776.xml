@@ -13,6 +13,7 @@
         <editionStmt>
                 <edition>$Revision: 1.11 $<date>$Date: 2012/10/08 08:17:38 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -32,6 +33,8 @@
         <listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【明】</witness>
+		<witness xml:id="wit3">【CBETA】</witness>
+		<witness xml:id="wit4">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -229,7 +232,7 @@ Added comment  for Emacs
 <lb n="0713b20" ed="T"/>是處。一輪王出，斯有是處。如是若有女人，為
 <lb n="0713b21" ed="T"/>轉輪王，治化世間，乃至為彼四<anchor xml:id="nkr_note_orig_0713003" n="0713003"/><anchor xml:id="beg0713003" n="0713003"/>王天<anchor xml:id="end0713003"/>主、忉
 <lb n="0713b22" ed="T"/>利天主、大梵天王，及成緣覺無上菩提者，如
-<lb n="0713b23" ed="T"/>是等事，無有是處。若有善男子，具大人相，福
+<lb n="0713b23" ed="T"/>是等事，無有是處。若有<anchor xml:id="beg_2" type="cb-app"/><space quantity="0"/><anchor xml:id="end_2"/>男子，具大人相，福
 <lb n="0713b24" ed="T"/>慧莊嚴，為轉輪王，出於世間，乃至得成無上
 <lb n="0713b25" ed="T"/>菩提，斯有是處。</p>
 <lb n="0713b26" ed="T"/><p xml:id="pT17p0713b2601">「又復，阿難！若正見人，殺父、害母、殺阿羅漢、破
@@ -252,7 +255,7 @@ Added comment  for Emacs
 <lb n="0713c13" ed="T"/>處法，求趣涅盤者，斯有是處<anchor xml:id="end0713004"/>。</p>
 <lb n="0713c14" ed="T"/><p xml:id="pT17p0713c1401">「<anchor xml:id="nkr_note_orig_0713005" n="0713005"/><anchor xml:id="beg0713005" n="0713005"/>又復，阿難！若人不斷煩惱，善了四念處，能
 <lb n="0713c15" ed="T"/>證七覺支，趣向涅盤者，無有是處。若人斷除
-<lb n="0713c16" ed="T"/>煩惱法已，了四念處，證七覺支，趣向涅槃者，
+<lb n="0713c16" ed="T"/>煩惱法已，了四念處，證七覺支，趣向涅<anchor xml:id="beg_3" type="cb-app"/>盤<anchor xml:id="end_3"/>者，
 <lb n="0713c17" ed="T"/>斯有是處<anchor xml:id="end0713005"/>。</p>
 <lb n="0713c18" ed="T"/><p xml:id="pT17p0713c1801">「又復，阿難！若人不斷煩惱，而了四念處，證
 <lb n="0713c19" ed="T"/>七覺支，盡苦邊際，趣向涅盤，成緣覺菩提，乃
@@ -284,8 +287,10 @@ Added comment  for Emacs
 <app from="#beg0713002" to="#end0713002"><lem wit="#wit1">六處</lem><rdg resp="#resp1" wit="#wit2">六入</rdg></app>
 <app from="#beg_1" to="#end_1" corresp="#0713002"><lem wit="#wit1">六處</lem><rdg resp="#resp1" wit="#wit2">六入</rdg></app>
 <app from="#beg0713003" to="#end0713003"><lem wit="#wit1">王天</lem><rdg resp="#resp1" wit="#wit2">天王</rdg></app>
+<app from="#beg_2" to="#end_2"><lem wit="#wit3 #wit4" resp="#resp2"><space quantity="0"/><note type="cf1">K34n1254_p0572a01</note></lem><rdg wit="#wit1">善</rdg></app>
 <app cb:word-count="65" from="#beg0713004" to="#end0713004"><lem wit="#wit1">及隨煩惱，<lb n="0713c10" ed="T"/>由煩惱故損減善根，障礙智慧，覆蓋涅盤真<lb n="0713c11" ed="T"/>寂靜法。彼人若了四念處者，無有是處。若<lb n="0713c12" ed="T"/>人斷除根本煩惱及隨煩惱，善能了解四念<lb n="0713c13" ed="T"/>處法，求趣涅盤者，斯有是處</lem><rdg resp="#resp1" wit="#wit2">善了四念處能證七覺支趣向涅槃者無有是處若人斷除煩惱法已了四念處證七覺支趣向涅槃者斯有是處</rdg></app>
-<app cb:word-count="54" from="#beg0713005" to="#end0713005"><lem wit="#wit1">又復，阿難！若人不斷煩惱，善了四念處，能<lb n="0713c15" ed="T"/>證七覺支，趣向涅盤者，無有是處。若人斷除<lb n="0713c16" ed="T"/>煩惱法已，了四念處，證七覺支，趣向涅槃者，<lb n="0713c17" ed="T"/>斯有是處</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_3" to="#end_3"><lem wit="#wit3 #wit4" resp="#resp2">盤<note type="cf1">K34n1254_p0572b03</note></lem><rdg wit="#wit1">槃</rdg></app>
+<app cb:word-count="54" from="#beg0713005" to="#end0713005"><lem wit="#wit1">又復，阿難！若人不斷煩惱，善了四念處，能<lb n="0713c15" ed="T"/>證七覺支，趣向涅盤者，無有是處。若人斷除<lb n="0713c16" ed="T"/>煩惱法已，了四念處，證七覺支，趣向涅<app><lem wit="#wit3 #wit4" resp="#resp2">盤<note type="cf1">K34n1254_p0572b03</note></lem><rdg wit="#wit1">槃</rdg></app>者，<lb n="0713c17" ed="T"/>斯有是處</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

@@ -111,6 +111,10 @@
 		<localName>composition</localName>
 		<value>[穴/悟]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>寤</value>
+	</charProp>
 	<mapping type="unicode">U+259DD</mapping>
 	<mapping cb:dec="983936" type="PUA">U+F0380</mapping>
 </char>
@@ -1185,6 +1189,10 @@
 		<localName>composition</localName>
 		<value>[泥-匕+工]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>泥</value>
+	</charProp>
 	<mapping cb:dec="1008505" type="PUA">U+F6379</mapping>
 </char>
 <char xml:id="CB25542">
@@ -1200,6 +1208,10 @@
 	<charProp>
 		<localName>composition</localName>
 		<value>[差-工+匕]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>差</value>
 	</charProp>
 	<mapping cb:dec="1008649" type="PUA">U+F6409</mapping>
 </char>
@@ -1261,6 +1273,7 @@
 		<localName>normalized form</localName>
 		<value>錄</value>
 	</charProp>
+	<mapping type="unicode">U+9332</mapping>
 	<mapping cb:dec="1011286" type="PUA">U+F6E56</mapping>
 </char>
 <char xml:id="CB28283">
@@ -1435,6 +1448,11 @@
 		<localName>composition</localName>
 		<value>[烈-列+執]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>熱</value>
+	</charProp>
+	<mapping type="unicode">U+24360</mapping>
 	<mapping cb:dec="1013079" type="PUA">U+F7557</mapping>
 </char>
 <char xml:id="CB30042">
@@ -1876,6 +1894,11 @@
 		<localName>composition</localName>
 		<value>[玉-王+土]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>土</value>
+	</charProp>
+	<mapping type="unicode">U+5721</mapping>
 	<mapping cb:dec="1014993" type="PUA">U+F7CD1</mapping>
 </char>
 <char xml:id="CB31954">
@@ -3405,7 +3428,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>杭</corr><sic><g ref="#CB31948">󷳌</g></sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>博</corr><sic>慱</sic></choice>

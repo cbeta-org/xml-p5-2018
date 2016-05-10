@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.9 $<date>$Date: 2012/08/27 03:14:48 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -203,7 +206,7 @@ Added comment  for Emacs
 <lb n="0424b06" ed="T"/>眾生，為此寶故，共相殘害，更相偷劫、欺誑、妄
 <lb n="0424b07" ed="T"/>語，令生死罪緣，展轉增長。翅頭末城，眾寶
 <lb n="0424b08" ed="T"/>羅網，彌覆其上，寶鈴莊嚴，微風吹動，其聲
-<lb n="0424b09" ed="T"/>和雅，如扣鐘<anchor xml:id="nkr_note_orig_0424009" n="0424009"/><anchor xml:id="beg0424009" n="0424009"/>罄<anchor xml:id="end0424009"/>。</p>
+<lb n="0424b09" ed="T"/>和雅，如扣鐘<anchor xml:id="nkr_note_orig_0424009" n="0424009"/><anchor xml:id="nkr_note_mod_0424009" n="0424009"/><anchor xml:id="beg0424009" n="0424009"/>磬<anchor xml:id="end0424009"/>。</p>
 <lb n="0424b10" ed="T"/><p xml:id="pT14p0424b1001">「其城中有大婆羅門主，名曰妙梵；婆羅門女，
 <lb n="0424b11" ed="T"/>名曰梵摩波提；彌勒託生，以為父母，身紫
 <lb n="0424b12" ed="T"/>金色，三十二相，眾生視之，無有厭足，身力
@@ -341,7 +344,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0423023" to="#end0423023"><lem wit="#wit1">成佛</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0423024" to="#end0423024"><lem wit="#wit1">經</lem><rdg resp="#resp1" wit="#wit3 #wit4">經<note place="inline">一名彌勒當來成佛</note></rdg></app>
@@ -358,7 +361,7 @@ Added comment  for Emacs
 <app from="#beg0424006" to="#end0424006"><lem wit="#wit1">緹</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">提</rdg></app>
 <app from="#beg0424007" to="#end0424007"><lem wit="#wit1">王</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0424008" to="#end0424008"><lem wit="#wit1">踊</lem><rdg resp="#resp1" wit="#wit3 #wit4">湧</rdg></app>
-<app from="#beg0424009" to="#end0424009"><lem wit="#wit1">罄</lem><rdg resp="#resp1" wit="#wit3 #wit5">磬</rdg></app>
+<app from="#beg0424009" to="#end0424009"><lem wit="#wit6 #wit7" resp="#resp3">磬<note type="cf1">K11n0198_p0214a04</note></lem><rdg wit="#wit1">罄</rdg><rdg resp="#resp1" wit="#wit3 #wit5">磬</rdg></app>
 <app from="#beg0424010" to="#end0424010"><lem wit="#wit1">礙</lem><rdg resp="#resp1" wit="#wit3 #wit5">閡</rdg></app>
 <app from="#beg0424011" to="#end0424011"><lem wit="#wit1">微</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">殊</rdg></app>
 <app from="#beg0424012" to="#end0424012"><lem wit="#wit1">出光</lem><rdg resp="#resp1" wit="#wit3 #wit4">光明</rdg></app>
@@ -376,7 +379,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0423023" resp="#resp2" type="mod" target="#nkr_note_mod_0423023">〔成佛〕－【宋】【元】【明】【宮】</note>
 <note n="0423026" resp="#resp2" type="mod" target="#nkr_note_mod_0423026">嚴＝飾【宋】【元】【明】【宮】</note>
@@ -388,6 +391,7 @@ Added comment  for Emacs
 <note n="0424005" resp="#resp2" type="mod" target="#nkr_note_mod_0424005">蠰佉＝儴佉【宋】【元】【明】【宮】下同</note>
 <note n="0424006" resp="#resp2" type="mod" target="#nkr_note_mod_0424006">緹＝提【宋】【元】【明】【宮】</note>
 <note n="0424007" resp="#resp2" type="mod" target="#nkr_note_mod_0424007">〔王〕－【宋】【元】【明】【宮】</note>
+<note n="0424009" resp="#resp2" type="mod" target="#nkr_note_mod_0424009">罄＝磬【元】【宮】【麗-CB】【CB】</note>
 <note n="0424011" resp="#resp2" type="mod" target="#nkr_note_mod_0424011">微＝殊【宋】【元】【明】【宮】</note>
 <note n="0424013" resp="#resp2" type="mod" target="#nkr_note_mod_0424013">〔婆〕－【宋】【元】【明】【宮】</note>
 <note n="0425002" resp="#resp2" type="mod" target="#nkr_note_mod_0425002">能於其＝而能於【宋】【元】【明】【宮】</note>
@@ -398,7 +402,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0423023" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0423023">〔成佛〕－【三】【宮】</note>
 <note n="0423024" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0423024">經＋（一名彌勒當來成佛）夾註【元】【明】</note>

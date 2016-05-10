@@ -15,6 +15,7 @@
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.march</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>2卷</extent>
         <publicationStmt>
@@ -34,8 +35,10 @@
         <listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【明】</witness>
-		<witness xml:id="wit3">【元】</witness>
-		<witness xml:id="wit4">【宋】</witness>
+		<witness xml:id="wit3">【CBETA】</witness>
+		<witness xml:id="wit4">【麗】</witness>
+		<witness xml:id="wit5">【元】</witness>
+		<witness xml:id="wit6">【宋】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -233,7 +236,7 @@ Added comment  for Emacs
 <lb n="0111a08" ed="T"/>稱念受持者，是人於彼如是行相所求皆得。</p>
 <lb n="0111a09" ed="T"/><p xml:id="pT14p0111a0901">「復次，迦葉！東方去此佛剎，過六殑伽沙數等
 <lb n="0111a10" ed="T"/>世界，有世界名寶莊嚴，其土有佛，號寶輪光
-<lb n="0111a11" ed="T"/>明高勝吉祥王如來、應供、正等正覺，今現在
+<lb n="0111a11" ed="T"/>明高勝吉祥王如來、應供、正等正覺，今現<anchor xml:id="beg_1" type="cb-app"/>住<anchor xml:id="end_1"/>
 <lb n="0111a12" ed="T"/>彼教化利益。</p>
 <lb n="0111a13" ed="T"/><p xml:id="pT14p0111a1301">「迦葉！若有住菩薩乘諸善男子及善女人，聞
 <lb n="0111a14" ed="T"/>是寶輪光明高勝吉祥王如來、應供、正等正覺
@@ -390,19 +393,20 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0110001" to="#end0110001"><lem wit="#wit1">西天譯經</lem><rdg resp="#resp1" wit="#wit2">宋西天</rdg></app>
 <app from="#beg0110002" to="#end0110002"><lem wit="#wit1">賜紫沙門臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0110003" to="#end0110003"><lem wit="#wit1">怖</lem><rdg resp="#resp1" wit="#wit2">佈</rdg></app>
-<app from="#beg0112001" to="#end0112001"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit3 #wit2">至</rdg></app>
+<app from="#beg_1" to="#end_1"><lem resp="#resp4" wit="#wit3 #wit4">住<note type="cf1">K41n1479_p0022c23</note></lem><rdg wit="#wit1">在</rdg></app>
+<app from="#beg0112001" to="#end0112001"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit5 #wit2">至</rdg></app>
 <app from="#beg0112002" to="#end0112002"><lem wit="#wit1">常</lem><rdg resp="#resp1" wit="#wit2">當</rdg></app>
-<app from="#beg0112003" to="#end0112003"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit4 #wit3 #wit2">三</rdg></app>
+<app from="#beg0112003" to="#end0112003"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit6 #wit5 #wit2">三</rdg></app>
 <app from="#beg0112004" to="#end0112004"><lem wit="#wit1">端</lem><rdg resp="#resp1" wit="#wit2">莊</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0110001" resp="#resp2" type="mod" target="#nkr_note_mod_0110001">西天譯經＝宋西天【明】<choice cb:resp="#resp3"><corr>＊</corr><sic><space quantity="0"/></sic></choice></note>
 <note n="0110002" resp="#resp2" type="mod" target="#nkr_note_mod_0110002">〔賜紫沙門臣〕－【明】<choice cb:resp="#resp3"><corr>＊</corr><sic><space quantity="0"/></sic></choice></note>
@@ -410,7 +414,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0110001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0110001">西天譯經＝宋西天【明】</note>
 <note n="0110002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0110002">〔賜紫沙門臣〕－【明】</note>

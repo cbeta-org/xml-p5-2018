@@ -38,6 +38,7 @@
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
 		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -47,6 +48,15 @@
 		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，林政賜提供新式標點</p>
 	</projectDesc>
 <charDecl>
+<char xml:id="CB00995">
+	<charName>CBETA CHARACTER CB00995</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[月*寧]</value>
+	</charProp>
+	<mapping type="unicode">U+26872</mapping>
+	<mapping cb:dec="984035" type="PUA">U+F03E3</mapping>
+</char>
 <char xml:id="CB05097">
 	<charName>CBETA CHARACTER CB05097</charName>
 	<charProp>
@@ -224,7 +234,7 @@ Added comment  for Emacs
 <lb n="0298b29" ed="T"/>別<anchor xml:id="nkr_note_orig_0298011" n="0298011"/><anchor xml:id="beg0298011" n="0298011"/>知<anchor xml:id="end0298011"/>麻米豆麥等。行者以心<anchor xml:id="nkr_note_orig_0298012" n="0298012"/><anchor xml:id="beg0298012" n="0298012"/>眼<anchor xml:id="end0298012"/>開是身倉，
 <pb n="0298c" ed="T" xml:id="T15.0617.0298c"/>
 <lb n="0298c01" ed="T"/>見種種惡露肝肺腸胃諸蟲動食，九孔流出
-<lb n="0298c02" ed="T"/>不淨，常無休<anchor xml:id="nkr_note_orig_0298013" n="0298013"/><anchor xml:id="nkr_note_mod_0298013" n="0298013"/><anchor xml:id="beg0298013" n="0298013"/>止<anchor xml:id="end0298013"/>。眼流眵淚、耳出<anchor xml:id="nkr_note_orig_0298014" n="0298014"/><anchor xml:id="nkr_note_mod_0298014" n="0298014"/><anchor xml:id="beg0298014" n="0298014"/>結矃<anchor xml:id="end0298014"/>、鼻中
+<lb n="0298c02" ed="T"/>不淨，常無休<anchor xml:id="nkr_note_orig_0298013" n="0298013"/><anchor xml:id="nkr_note_mod_0298013" n="0298013"/><anchor xml:id="beg0298013" n="0298013"/>止<anchor xml:id="end0298013"/>。眼流眵淚、耳出<anchor xml:id="nkr_note_orig_0298014" n="0298014"/><anchor xml:id="nkr_note_mod_0298014" n="0298014"/><anchor xml:id="beg0298014" n="0298014"/>結<g ref="#CB00995">𦡲</g><anchor xml:id="end0298014"/>、鼻中
 <lb n="0298c03" ed="T"/><anchor xml:id="beg_2" type="star"/>涕<anchor xml:id="end_2"/>流、口出唌吐、大小便孔常出屎尿，雖復衣
 <lb n="0298c04" ed="T"/>食障覆，實是行廁。身狀如此，何由是淨？又觀
 <lb n="0298c05" ed="T"/>此身假名為人，四大和合譬之如屋，脊骨如
@@ -373,7 +383,7 @@ Added comment  for Emacs
 <lb n="0300a28" ed="T"/>雜業無有厭足，馳逐世樂不覺為苦，一切世
 <lb n="0300a29" ed="T"/>間貪樂致患，隨業因緣受生五道，皆心所為，
 <pb n="0300b" ed="T" xml:id="T15.0617.0300b"/>
-<lb n="0300b01" ed="T"/>誰使<anchor xml:id="nkr_note_orig_0300001" n="0300001"/><anchor xml:id="beg0300001" n="0300001"/>爾<anchor xml:id="end0300001"/>者？汝如狂象，蹈籍殘害無有<anchor xml:id="nkr_note_orig_0300002" n="0300002"/><anchor xml:id="nkr_note_mod_0300002" n="0300002"/><anchor xml:id="beg0300002" n="0300002"/>物<anchor xml:id="end0300002"/>制，
+<lb n="0300b01" ed="T"/>誰使<anchor xml:id="nkr_note_orig_0300001" n="0300001"/><anchor xml:id="beg0300001" n="0300001"/>爾<anchor xml:id="end0300001"/>者？汝如狂象，蹈<anchor xml:id="beg_3" type="cb-app"/>藉<anchor xml:id="end_3"/>殘害無有<anchor xml:id="nkr_note_orig_0300002" n="0300002"/><anchor xml:id="nkr_note_mod_0300002" n="0300002"/><anchor xml:id="beg0300002" n="0300002"/>物<anchor xml:id="end0300002"/>制，
 <lb n="0300b02" ed="T"/>誰調汝者？若得善調則離世患。當知處胎不
 <lb n="0300b03" ed="T"/>淨，苦厄逼迮切身猶如地獄。既生在世，老病
 <lb n="0300b04" ed="T"/>死苦憂悲萬端不得自在；若生天上，當復墮
@@ -420,7 +430,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0297010" to="#end0297010"><lem wit="#wit1">畧要</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">要畧</rdg></app>
 <app from="#beg0297011" to="#end0297011"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit4">法<note place="inline">二般同卷</note></rdg></app>
@@ -445,7 +455,7 @@ Added comment  for Emacs
 <app from="#beg0298011" to="#end0298011"><lem wit="#wit1">知</lem><rdg resp="#resp1" wit="#wit2 #wit5">加</rdg></app>
 <app from="#beg0298012" to="#end0298012"><lem wit="#wit1">眼</lem><rdg resp="#resp1" wit="#wit5">明</rdg></app>
 <app from="#beg0298013" to="#end0298013"><lem wit="#wit1">止</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">息</rdg></app>
-<app from="#beg0298014" to="#end0298014"><lem wit="#wit1">結矃</lem><rdg resp="#resp1" wit="#wit5">盯矃</rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">盯矃</rdg></app>
+<app from="#beg0298014" to="#end0298014"><lem wit="#wit6 #wit7" resp="#resp3">結<g ref="#CB00995">𦡲</g><note type="cf1">K30n1010_p0340c18</note></lem><rdg wit="#wit1">結矃</rdg><rdg resp="#resp1" wit="#wit5">盯矃</rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">盯矃</rdg></app>
 <app from="#beg_2" to="#end_2" corresp="#0298010"><lem wit="#wit1">涕</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">洟</rdg></app>
 <app from="#beg0298015" to="#end0298015"><lem wit="#wit1">人為</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">為人</rdg></app>
 <app from="#beg0298016" to="#end0298016"><lem wit="#wit1">脛</lem><rdg resp="#resp1" wit="#wit2 #wit5">髀</rdg></app>
@@ -476,6 +486,7 @@ Added comment  for Emacs
 <app from="#beg0299018" to="#end0299018"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0299019" to="#end0299019"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">惟</rdg></app>
 <app from="#beg0300001" to="#end0300001"><lem wit="#wit1">爾</lem><rdg resp="#resp1" wit="#wit3 #wit4">汝</rdg></app>
+<app from="#beg_3" to="#end_3"><lem wit="#wit6 #wit7" resp="#resp3">藉<note type="cf1">K30n1010_p0343b05</note></lem><rdg wit="#wit1">籍</rdg></app>
 <app from="#beg0300002" to="#end0300002"><lem wit="#wit1">物</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">拘</rdg></app>
 <app from="#beg0300003" to="#end0300003"><lem wit="#wit1">觀</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">視</rdg></app>
 <app from="#beg0300004" to="#end0300004"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit5">想</rdg></app>
@@ -485,7 +496,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0297010" resp="#resp2" type="mod" target="#nkr_note_mod_0297010"><!--CBETA todo type: ＊-->畧要＝要畧【宋】【元】【明】【宮】＊</note>
 <note n="0297013" resp="#resp2" type="mod" target="#nkr_note_mod_0297013">〔法師〕－【宋】【元】【明】【宮】</note>
@@ -498,7 +509,7 @@ Added comment  for Emacs
 <note n="0298008" resp="#resp2" type="mod" target="#nkr_note_mod_0298008">浮＝淨【宋】【元】【明】【宮】</note>
 <note n="0298010" resp="#resp2" type="mod" target="#nkr_note_mod_0298010">涕＝洟【宋】【元】【明】【宮】＊</note>
 <note n="0298013" resp="#resp2" type="mod" target="#nkr_note_mod_0298013">止＝息【宋】【元】【明】【宮】</note>
-<note n="0298014" resp="#resp2" type="mod" target="#nkr_note_mod_0298014">結矃＝盯矃【宮】，結＝盯【宋】【元】【明】</note>
+<note n="0298014" resp="#resp2" type="mod" target="#nkr_note_mod_0298014">結矃＝盯矃【宮】，結＝盯【宋】【元】【明】，＝結<g ref="#CB00995">𦡲</g>【麗-CB】【CB】</note>
 <note n="0298015" resp="#resp2" type="mod" target="#nkr_note_mod_0298015">人為＝為人【宋】【元】【明】【宮】</note>
 <note n="0298018" resp="#resp2" type="mod" target="#nkr_note_mod_0298018">厭惡＝惡厭【宋】【元】【明】【宮】</note>
 <note n="0298019" resp="#resp2" type="mod" target="#nkr_note_mod_0298019">差＝瘥【宋】【元】【明】【宮】下同</note>
@@ -519,7 +530,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0297010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0297010">畧要＝要畧【三】【宮】＊</note>
 <note n="0297011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0297011">法＋（二般同卷）夾註【明】</note>

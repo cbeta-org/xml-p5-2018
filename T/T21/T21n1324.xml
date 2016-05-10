@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:01:47 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,7 @@
 		<witness xml:id="wit3">【甲】</witness>
 		<witness xml:id="wit4">【宋】</witness>
 		<witness xml:id="wit5">【元】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -161,14 +163,14 @@ Added comment  for Emacs
 <lb n="0490b13" ed="T"/>阿難陀汝今受此陀羅尼。將往釋種聚落。<anchor xml:id="nkr_note_orig_0490022" n="0490022"/><anchor xml:id="beg0490022" n="0490022"/>授<anchor xml:id="end0490022"/>
 <lb n="0490b14" ed="T"/>與乞曬麼迦。傳我語令晝三時夜三時誦持此
 <lb n="0490b15" ed="T"/>陀羅尼。<anchor xml:id="nkr_note_orig_0490023" n="0490023"/><anchor xml:id="beg0490023" n="0490023"/>其<anchor xml:id="end0490023"/>阿難<anchor xml:id="nkr_note_orig_0490024" n="0490024"/><anchor xml:id="nkr_note_mod_0490024" n="0490024"/><anchor xml:id="beg0490024" n="0490024"/>陀<anchor xml:id="end0490024"/>至彼授與乞曬麼迦。乞
-<lb n="0490b16" ed="T"/>曬麼迦纔聞此陀羅尼已。其眼脈已淨。眼<anchor xml:id="nkr_note_orig_0490025" n="0490025"/><anchor xml:id="beg0490025" n="0490025"/>耳<anchor xml:id="end0490025"/>
+<lb n="0490b16" ed="T"/>曬麼迦纔聞此陀羅尼已。其眼脈已淨。眼<anchor xml:id="nkr_note_orig_0490025" n="0490025"/><anchor xml:id="nkr_note_mod_0490025" n="0490025"/><anchor xml:id="beg0490025" n="0490025"/>目<anchor xml:id="end0490025"/>
 <lb n="0490b17" ed="T"/>得見離一切諸垢。爾時世尊說是經已。天人
 <lb n="0490b18" ed="T"/>阿修羅乾闥婆等。聞佛所說歡喜奉行。</p>
 <lb n="0490b19" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><anchor xml:id="beg_1" type="star"/>能<anchor xml:id="end_1"/>淨一切眼疾病陀羅尼<anchor xml:id="nkr_note_orig_0490026" n="0490026"/>經</cb:jhead></cb:juan></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0490002" to="#end0490002"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit2 #wit3">佛說能</rdg></app>
 <app cb:word-count="41" from="#beg0490003" to="#end0490003"><lem wit="#wit1">開府儀同三司特進試鴻臚卿肅國<lb n="0490a09" ed="T"/>公食邑三千戶賜紫贈司空諡大鑒<lb n="0490a10" ed="T"/>正號大廣智大興善寺三藏沙門</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit3">大興善寺三藏沙門大廣智</rdg><rdg resp="#resp1" wit="#wit2">唐三藏沙門大廣智</rdg></app>
@@ -193,12 +195,12 @@ Added comment  for Emacs
 <app from="#beg0490022" to="#end0490022"><lem wit="#wit1">授</lem><rdg resp="#resp1" wit="#wit4 #wit5">受</rdg></app>
 <app from="#beg0490023" to="#end0490023"><lem resp="#resp1" wit="#wit1">其</lem><rdg resp="#resp1" wit="#wit3" type="correctionRemark">其時</rdg></app>
 <app from="#beg0490024" to="#end0490024"><lem wit="#wit1">陀</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit2 #wit3"><space quantity="0"/></rdg></app>
-<app from="#beg0490025" to="#end0490025"><lem wit="#wit1">耳</lem><rdg resp="#resp1" wit="#wit2 #wit3">目</rdg></app>
+<app from="#beg0490025" to="#end0490025"><lem resp="#resp3" wit="#wit6">目</lem><rdg resp="#resp1" wit="#wit2 #wit3">目</rdg><rdg wit="#wit1">耳</rdg></app>
 <app from="#beg_1" to="#end_1" corresp="#0490002"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit2 #wit3">佛說能</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0490003" resp="#resp2" type="mod" target="#nkr_note_mod_0490003">（（開府…門））四十一字＝（（大興善寺三藏沙門大廣智））十一字【宋】【元】【甲】，＝（（唐三藏沙門大廣智））八字【明】</note>
 <note n="0490004" resp="#resp2" type="mod" target="#nkr_note_mod_0490004">〔如〕－【宋】【元】【明】【甲】</note>
@@ -218,10 +220,11 @@ Added comment  for Emacs
 <note n="0490018" resp="#resp2" type="mod" target="#nkr_note_mod_0490018">羅漢＝尸羅【宋】【元】【明】【甲】</note>
 <note n="0490021" resp="#resp2" type="mod" target="#nkr_note_mod_0490021">支＋（作必舍支）【宋】【元】【明】【甲】</note>
 <note n="0490024" resp="#resp2" type="mod" target="#nkr_note_mod_0490024">〔陀〕－【宋】【元】【明】【甲】</note>
+<note n="0490025" resp="#resp2" type="mod" target="#nkr_note_mod_0490025">耳＝目【明】【甲】【CB】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0490002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0490002">【原】麗本，【甲】黃檗版淨嚴等加筆本，（佛說）＋能【明】【甲】＊</note>
 <note n="0490003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0490003">（（開府…門））四十一字＝（（大興善寺三藏沙門大廣智））十一字【宋】【元】【甲】，（（唐三藏沙門大廣智））八字【明】</note>
@@ -251,7 +254,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="rest-notes">
-<head>其他註解</head>
+<head>其他校註</head>
 <p>
 <note n="0490002" type="rest" place="foot" target="#nkr_note_rest_0490002">【原】麗本，【甲】黃檗版淨嚴等加筆本</note>
 </p>

@@ -13,6 +13,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2012/08/27 03:15:10 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,6 +33,8 @@
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【明】</witness>
+		<witness xml:id="wit3">【CBETA】</witness>
+		<witness xml:id="wit4">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -151,7 +154,7 @@ Added comment  for Emacs
 <lb n="0844b25" ed="T"/>之所覆閉，是為無明。從無明緣而生於行，行
 <lb n="0844b26" ed="T"/>有三種，謂身、口、意。復從行緣而生於識，識
 <lb n="0844b27" ed="T"/>有六種，謂眼識、耳識、鼻識、舌識、身識、意識。從
-<lb n="0844b28" ed="T"/>於識緣而生名色，名者除色，各有四種，謂
+<lb n="0844b28" ed="T"/>於識緣而生名色，名者除色，<anchor xml:id="beg_1" type="cb-app"/>名<anchor xml:id="end_1"/>有四種，謂
 <lb n="0844b29" ed="T"/>受、想、行、識；色者所謂四大，一切色法，由四
 <pb n="0844c" ed="T" xml:id="T16.0718.0844c"/>
 <lb n="0844c01" ed="T"/>大生。如是色蘊、名蘊二種，是為名色。從名
@@ -180,14 +183,15 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0844003" to="#end0844003"><lem wit="#wit1">西</lem><rdg resp="#resp1" wit="#wit2">宋西</rdg></app>
 <app from="#beg0844004" to="#end0844004"><lem wit="#wit1">臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_1" to="#end_1"><lem resp="#resp2" wit="#wit3 #wit4">名<note type="cf1">K40n1409_p0038a05</note></lem><rdg wit="#wit1">各</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0844003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0844003">（宋）＋西【明】</note>
 <note n="0844004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0844004">〔臣〕－【明】</note>

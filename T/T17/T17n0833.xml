@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.18 $<date>$Date: 2012/10/08 08:17:39 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,9 @@
 		<witness xml:id="wit3">【宋】</witness>
 		<witness xml:id="wit4">【元】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
+		<witness xml:id="wit8">【磧砂】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -262,7 +266,7 @@ Added comment  for Emacs
 <lb n="0880b04" ed="T"/>能清淨。」</p>
 <lb n="0880b05" ed="T"/><p xml:id="pT17p0880b0501">爾時，大仙光明炬言：「我問瞿曇，瞿曇為我一
 <lb n="0880b06" ed="T"/>一解說：一切眾生從何處生？何者眾生？何
-<lb n="0880b07" ed="T"/>因緣故，劫盡熾燃？眾生過去何處和合而生
+<lb n="0880b07" ed="T"/>因緣故，劫盡<anchor xml:id="beg_1" type="cb-app"/>燒<anchor xml:id="end_1"/>燃？眾生過去何處和合而生
 <lb n="0880b08" ed="T"/>人中？何相得知眾生身中微細內我，為一肘
 <lb n="0880b09" ed="T"/>量、為二肘量，為二指量、為一指量，為如大
 <lb n="0880b10" ed="T"/>麥、為如小麥、為當如豆、為如胡麻、為如芥
@@ -507,10 +511,10 @@ Added comment  for Emacs
 <lb n="0883a09" ed="T"/>三菩提心。</p><p xml:id="pT17p0883a0905" rend="inline">「須菩提！見是因緣，如來放此毘
 <lb n="0883a10" ed="T"/>尼婆帝光明普照。」</p>
 <lb n="0883a11" ed="T"/><p xml:id="pT17p0883a1101">爾時，世尊怡然微笑，出自舌根遍覆<anchor xml:id="nkr_note_orig_0883001" n="0883001"/><anchor xml:id="beg0883001" n="0883001"/>己<anchor xml:id="end0883001"/>面。
-<lb n="0883a12" ed="T"/><anchor xml:id="nkr_note_orig_0883002" n="0883002"/><anchor xml:id="beg0883002" n="0883002"/>彼<anchor xml:id="end0883002"/>舌根中出無量色、出種種色——所謂青、<anchor xml:id="beg_1" type="cb-app"/>黃<anchor xml:id="end_1"/>、赤、
+<lb n="0883a12" ed="T"/><anchor xml:id="nkr_note_orig_0883002" n="0883002"/><anchor xml:id="beg0883002" n="0883002"/>彼<anchor xml:id="end0883002"/>舌根中出無量色、出種種色——所謂青、<anchor xml:id="beg_2" type="cb-app"/>黃<anchor xml:id="end_2"/>、赤、
 <lb n="0883a13" ed="T"/>白等色、紫<anchor xml:id="nkr_note_orig_0883003" n="0883003"/><anchor xml:id="beg0883003" n="0883003"/>頗梨<anchor xml:id="end0883003"/>色——遍至無量無邊世界，然
 <lb n="0883a14" ed="T"/>後還來入世尊足。</p><p xml:id="pT17p0883a1408" rend="inline">爾時，無盡意菩薩從座而
-<lb n="0883a15" ed="T"/>起，整服一<anchor xml:id="beg_2" type="star"/>廂<anchor xml:id="end_2"/>，右膝著地，合掌向佛白言：「世
+<lb n="0883a15" ed="T"/>起，整服一<anchor xml:id="beg_3" type="star"/>廂<anchor xml:id="end_3"/>，右膝著地，合掌向佛白言：「世
 <lb n="0883a16" ed="T"/>尊！若無因緣，如來不笑。今者世尊何因緣
 <lb n="0883a17" ed="T"/>笑？」</p><p xml:id="pT17p0883a1702" rend="inline">爾時，世尊告無盡意菩薩言：「善男子！我
 <lb n="0883a18" ed="T"/>為饒益不信眾生出舌而笑，非妄語人有如
@@ -590,6 +594,7 @@ Added comment  for Emacs
 <app from="#beg0880002" to="#end0880002"><lem wit="#wit1">未</lem><rdg resp="#resp1" wit="#wit3">來</rdg></app>
 <app from="#beg0880003" to="#end0880003"><lem wit="#wit1">老</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">尼</rdg></app>
 <app from="#beg0880004" to="#end0880004"><lem wit="#wit1">嚮</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">響</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7 #wit8" resp="#resp3">燒<note type="cf1">K11n0202_p0242b03</note><note type="cf2">Q11_p0022c17</note></lem><rdg wit="#wit1">熾</rdg></app>
 <app from="#beg0880005" to="#end0880005"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">似</rdg></app>
 <app from="#beg0880006" to="#end0880006"><lem wit="#wit1">逕</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">經</rdg></app>
 <app from="#beg0880007" to="#end0880007"><lem wit="#wit1">狗</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">垢</rdg></app>
@@ -602,9 +607,9 @@ Added comment  for Emacs
 <app from="#beg0882005" to="#end0882005"><lem wit="#wit1">陀</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">他</rdg></app>
 <app from="#beg0883001" to="#end0883001"><lem wit="#wit1">己</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0883002" to="#end0883002"><lem wit="#wit1">彼</lem><rdg resp="#resp1" wit="#wit2">從</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>黃</corr><sic>廣</sic></choice>
+<choice cb:from="#beg_2" cb:to="#end_2"><corr>黃</corr><sic>廣</sic></choice>
 <app from="#beg0883003" to="#end0883003"><lem wit="#wit1">頗梨</lem><rdg resp="#resp1" wit="#wit2">玻<g ref="#CB01763">󰛣</g></rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0880001"><lem wit="#wit1">廂</lem><rdg resp="#resp1" wit="#wit5">箱</rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0880001"><lem wit="#wit1">廂</lem><rdg resp="#resp1" wit="#wit5">箱</rdg></app>
 <app from="#beg0883004" to="#end0883004"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0883005" to="#end0883005"><lem wit="#wit1">逕</lem><rdg resp="#resp1" wit="#wit4 #wit2">經</rdg></app>
 <app from="#beg0883006" to="#end0883006"><lem wit="#wit1">第</lem><rdg resp="#resp1" wit="#wit2">佛說第</rdg></app>

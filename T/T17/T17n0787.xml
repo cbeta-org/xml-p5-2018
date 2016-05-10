@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.9 $<date>$Date: 2012/09/28 08:51:55 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【明】</witness>
 		<witness xml:id="wit4">【宮】</witness>
 		<witness xml:id="wit5">【元】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -137,16 +140,16 @@ Added comment  for Emacs
 <lb n="0726b26" ed="T"/>人有能誦<anchor xml:id="nkr_note_orig_0726045" n="0726045"/><anchor xml:id="nkr_note_mod_0726045" n="0726045"/><anchor xml:id="beg0726045" n="0726045"/>念<anchor xml:id="end0726045"/>諸陀羅尼及佛名者，為欲自利
 <lb n="0726b27" ed="T"/>及護他人，速成諸法而得驗者，其數珠法應
 <lb n="0726b28" ed="T"/>當如是作意受持。然其珠體種種不同，若以
-<lb n="0726b29" ed="T"/>鐵為數珠者，誦搯一遍得福五倍；若用赤銅
+<lb n="0726b29" ed="T"/>鐵為數珠者，誦<anchor xml:id="beg_1" type="cb-app"/>掐<anchor xml:id="end_1"/>一遍得福五倍；若用赤銅
 <pb n="0726c" ed="T" xml:id="T17.0787.0726c"/>
-<lb n="0726c01" ed="T"/>為數珠者，誦搯一遍得福十倍；若用真珠、珊
-<lb n="0726c02" ed="T"/>瑚等寶為數珠者，誦搯一遍得福百倍；若用
-<lb n="0726c03" ed="T"/>槵子為數珠者，誦搯一遍得福千倍；若用蓮
-<lb n="0726c04" ed="T"/>子為數珠者，誦搯一遍得福萬倍；若用因陀
-<lb n="0726c05" ed="T"/>囉佉叉為數珠者，誦搯一遍得福百萬倍；若
-<lb n="0726c06" ed="T"/>用烏嚧陀囉佉叉為數珠者，誦搯一遍得福
-<lb n="0726c07" ed="T"/>百億倍；若用水精為數珠者，誦搯一遍得福
-<lb n="0726c08" ed="T"/>千億倍；若用菩提子為數珠者，或<anchor xml:id="nkr_note_orig_0726046" n="0726046"/><anchor xml:id="beg0726046" n="0726046"/>時<anchor xml:id="end0726046"/>搯念或
+<lb n="0726c01" ed="T"/>為數珠者，誦<anchor xml:id="beg_2" type="cb-app"/>掐<anchor xml:id="end_2"/>一遍得福十倍；若用真珠、珊
+<lb n="0726c02" ed="T"/>瑚等寶為數珠者，誦<anchor xml:id="beg_3" type="cb-app"/>掐<anchor xml:id="end_3"/>一遍得福百倍；若用
+<lb n="0726c03" ed="T"/>槵子為數珠者，誦<anchor xml:id="beg_4" type="cb-app"/>掐<anchor xml:id="end_4"/>一遍得福千倍；若用蓮
+<lb n="0726c04" ed="T"/>子為數珠者，誦<anchor xml:id="beg_5" type="cb-app"/>掐<anchor xml:id="end_5"/>一遍得福萬倍；若用因陀
+<lb n="0726c05" ed="T"/>囉佉叉為數珠者，誦<anchor xml:id="beg_6" type="cb-app"/>掐<anchor xml:id="end_6"/>一遍得福百萬倍；若
+<lb n="0726c06" ed="T"/>用烏嚧陀囉佉叉為數珠者，誦<anchor xml:id="beg_7" type="cb-app"/>掐<anchor xml:id="end_7"/>一遍得福
+<lb n="0726c07" ed="T"/>百億倍；若用水精為數珠者，誦<anchor xml:id="beg_8" type="cb-app"/>掐<anchor xml:id="end_8"/>一遍得福
+<lb n="0726c08" ed="T"/>千億倍；若用菩提子為數珠者，或<anchor xml:id="nkr_note_orig_0726046" n="0726046"/><anchor xml:id="beg0726046" n="0726046"/>時<anchor xml:id="end0726046"/><anchor xml:id="beg_9" type="cb-app"/>掐<anchor xml:id="end_9"/>念或
 <lb n="0726c09" ed="T"/>但手持，誦數一遍其福無量不可算計難可
 <lb n="0726c10" ed="T"/>校量。若欲願生諸佛淨土者，應當依法受持
 <lb n="0726c11" ed="T"/>此珠。」</p><p xml:id="pT17p0726c1103" rend="inline">曼殊室利菩薩言：「菩提子者，若復有人
@@ -183,7 +186,16 @@ Added comment  for Emacs
 <app from="#beg0726043" to="#end0726043"><lem wit="#wit1">沙門釋義淨</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit3 #wit4">法師義淨奉詔</rdg></app>
 <app from="#beg0726044" to="#end0726044"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit5 #wit3">惟</rdg></app>
 <app from="#beg0726045" to="#end0726045"><lem wit="#wit1">念</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit3 #wit4">持</rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7" resp="#resp3">掐<note type="cf1">K11n0263_p0581a14</note></lem><rdg wit="#wit1">搯</rdg></app>
+<app from="#beg_2" to="#end_2"><lem wit="#wit6 #wit7" resp="#resp3">掐<note type="cf1">K11n0263_p0581a15</note></lem><rdg wit="#wit1">搯</rdg></app>
+<app from="#beg_3" to="#end_3"><lem wit="#wit6 #wit7" resp="#resp3">掐<note type="cf1">K11n0263_p0581a16</note></lem><rdg wit="#wit1">搯</rdg></app>
+<app from="#beg_4" to="#end_4"><lem wit="#wit6 #wit7" resp="#resp3">掐<note type="cf1">K11n0263_p0581a18</note></lem><rdg wit="#wit1">搯</rdg></app>
+<app from="#beg_5" to="#end_5"><lem wit="#wit6 #wit7" resp="#resp3">掐<note type="cf1">K11n0263_p0581a19</note></lem><rdg wit="#wit1">搯</rdg></app>
+<app from="#beg_6" to="#end_6"><lem wit="#wit6 #wit7" resp="#resp3">掐<note type="cf1">K11n0263_p0581a20</note></lem><rdg wit="#wit1">搯</rdg></app>
+<app from="#beg_7" to="#end_7"><lem wit="#wit6 #wit7" resp="#resp3">掐<note type="cf1">K11n0263_p0581a22</note></lem><rdg wit="#wit1">搯</rdg></app>
+<app from="#beg_8" to="#end_8"><lem wit="#wit6 #wit7" resp="#resp3">掐<note type="cf1">K11n0263_p0581b01</note></lem><rdg wit="#wit1">搯</rdg></app>
 <app from="#beg0726046" to="#end0726046"><lem wit="#wit1">時</lem><rdg resp="#resp1" wit="#wit5 #wit3">用</rdg></app>
+<app from="#beg_9" to="#end_9"><lem wit="#wit6 #wit7" resp="#resp3">掐<note type="cf1">K11n0263_p0581b02</note></lem><rdg wit="#wit1">搯</rdg></app>
 <app from="#beg0726047" to="#end0726047"><lem wit="#wit1">壞</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit3 #wit4">懷</rdg></app>
 <app from="#beg0727001" to="#end0727001"><lem wit="#wit1">利</lem><rdg resp="#resp1" wit="#wit2 #wit5 #wit3 #wit4">利呪藏中</rdg></app>
 </p>

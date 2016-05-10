@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.15 $<date>$Date: 2012/08/27 03:14:37 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【明】</witness>
 		<witness xml:id="wit4">【宋】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -358,13 +361,13 @@ add cvs log
 <lb n="0237a10" ed="T"/>思惟，如行當得無生法忍；若為生他善根，若
 <lb n="0237a11" ed="T"/>少讀誦已，而能為他多說法義，當得不斷辯
 <lb n="0237a12" ed="T"/>才。」</p><p xml:id="pT12p0237a1202" rend="inline">佛說此經時，文殊師利童子及餘菩薩摩
-<lb n="0237a13" ed="T"/>訶薩，上坐舍利弗及餘諸比丘，并諸天眾、揵
+<lb n="0237a13" ed="T"/>訶薩，上坐舍利弗及餘諸比丘，并諸天眾、<anchor xml:id="beg_4" type="cb-app"/>犍<anchor xml:id="end_4"/>
 <lb n="0237a14" ed="T"/>闥婆、人、阿修羅等，聞佛所說，皆大歡喜。</p></cb:div>
 <lb n="0237a15" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>入法界體性經</cb:jhead></cb:juan>
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0234002" to="#end0234002"><lem wit="#wit1">天</lem><rdg resp="#resp1" wit="#wit2 #wit3">北天</rdg></app>
 <app from="#beg0234003" to="#end0234003"><lem wit="#wit1">藏</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3 #wit5">藏法師</rdg></app>
@@ -383,10 +386,11 @@ add cvs log
 <app from="#beg0236003" to="#end0236003"><lem wit="#wit1">證</lem><rdg resp="#resp1" wit="#wit5">取</rdg></app>
 <app from="#beg0236004" to="#end0236004"><lem wit="#wit1">弗</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0237001" to="#end0237001"><lem wit="#wit1">尊</lem><rdg resp="#resp1" wit="#wit3">尊弗</rdg></app>
+<app from="#beg_4" to="#end_4"><lem wit="#wit6 #wit7" resp="#resp3">犍<note type="cf1">K11n0241_p0507b08</note></lem><rdg wit="#wit1">揵</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0234003" resp="#resp2" type="mod" target="#nkr_note_mod_0234003">藏＋（法師）【宋】【元】【明】【宮】</note>
 <note n="0234004" resp="#resp2" type="mod" target="#nkr_note_mod_0234004">寶＝實【宋】【元】【明】【宮】</note>
@@ -396,7 +400,7 @@ add cvs log
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0234002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0234002">（北）＋天【元】【明】</note>
 <note n="0234003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0234003">藏＋（法師）【三】【宮】</note>

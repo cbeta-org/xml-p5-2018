@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 07:59:08 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【宋】</witness>
 		<witness xml:id="wit4">【元】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -330,7 +333,7 @@ Added comment  for Emacs
 <lb n="0330b02" ed="T"/><p xml:id="pT16p0330b0201">「文殊師利！如上所說，名為如來隨相福德。積
 <lb n="0330b03" ed="T"/>數滿足無量無邊億百千倍，合成如來身之一
 <lb n="0330b04" ed="T"/>相。如來身相有三十二：一者足下安平；二者
-<lb n="0330b05" ed="T"/>手足千輻輪網；三者手足指纖長；四者手足
+<lb n="0330b05" ed="T"/>手足千輻輪<anchor xml:id="beg_1" type="cb-app"/>輞<anchor xml:id="end_1"/>；三者手足指纖長；四者手足
 <lb n="0330b06" ed="T"/>柔軟如兜羅綿；五者足跟滿好；六者手足指
 <lb n="0330b07" ed="T"/>網縵；七者足<anchor xml:id="nkr_note_orig_0330003" n="0330003"/><anchor xml:id="beg0330003" n="0330003"/>趺<anchor xml:id="end0330003"/>高平與跟相稱；八者<anchor xml:id="nkr_note_orig_0330004" n="0330004"/><anchor xml:id="beg0330004" n="0330004"/><g ref="#CB13416">𨄔</g><anchor xml:id="end0330004"/><g ref="#CB00166">𦟛</g>
 <lb n="0330b08" ed="T"/>長如伊尼鹿王；九者平身端立垂手過膝；十
@@ -376,7 +379,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0328010" to="#end0328010"><lem wit="#wit1">大乘</lem><rdg resp="#resp1" wit="#wit2">佛說大乘</rdg></app>
 <app from="#beg0328011" to="#end0328011"><lem wit="#wit1">大唐</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">唐中</rdg></app>
@@ -392,12 +395,13 @@ Added comment  for Emacs
 <app from="#beg0329008" to="#end0329008"><lem wit="#wit1">逶迤</lem><rdg resp="#resp1" wit="#wit3">萎傴</rdg><rdg resp="#resp1" wit="#wit5">萎陀</rdg></app>
 <app from="#beg0330001" to="#end0330001"><lem wit="#wit1">聖</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0330002" to="#end0330002"><lem wit="#wit1"><g ref="#CB02144">䡴</g></lem><rdg resp="#resp1" wit="#wit4 #wit2"><g ref="#CB00965">䂌</g></rdg></app>
+<app from="#beg_1" to="#end_1"><lem resp="#resp3" wit="#wit6 #wit7">輞<note type="cf1">K11n0244_p0519b07</note></lem><rdg wit="#wit1">網</rdg></app>
 <app from="#beg0330003" to="#end0330003"><lem wit="#wit1">趺</lem><rdg resp="#resp1" wit="#wit5">跗</rdg></app>
 <app from="#beg0330004" to="#end0330004"><lem wit="#wit1"><g ref="#CB13416">𨄔</g></lem><rdg resp="#resp1" wit="#wit5"><g ref="#CB00571">󰈻</g></rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0328011" resp="#resp2" type="mod" target="#nkr_note_mod_0328011">大唐＝唐中【宋】【元】【明】【宮】</note>
 <note n="0328013" resp="#resp2" type="mod" target="#nkr_note_mod_0328013">（奉勅）＋譯【宋】【元】【明】【宮】</note>
@@ -410,7 +414,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0328010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0328010">（佛說）＋大乘【明】</note>
 <note n="0328011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0328011">大唐＝唐中【三】【宮】</note>

@@ -30,6 +30,11 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 17, No. 797a </bibl>
+	<listWit>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit3">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -59,6 +64,14 @@
 	</charProp>
 	<mapping type="unicode">U+23ACD</mapping>
 	<mapping cb:dec="983906" type="PUA">U+F0362</mapping>
+</char>
+<char xml:id="CB15164">
+	<charName>CBETA CHARACTER CB15164</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[(厂@((既-旡)-日+口))*頁]</value>
+	</charProp>
+	<mapping cb:dec="998204" type="PUA">U+F3B3C</mapping>
 </char>
 </charDecl>
 </encodingDesc>
@@ -226,7 +239,7 @@ Added comment  for Emacs
 <lb n="0743b13" ed="T"/><l>永離慳貪心，</l><l>長受智慧根，</l>
 <lb n="0743b14" ed="T"/><l>世世侍佛邊，</l><l>保壽萬劫存。」</l></lg>
 <lb n="0743b15" ed="T"/><p xml:id="pT17p0743b1501">於是，老公比丘聞經歡喜，為佛作禮。</p><p xml:id="pT17p0743b1515" rend="inline">爾時，世
-<lb n="0743b16" ed="T"/><anchor xml:id="nkr_note_orig_0743001" n="0743001"/>尊語阿難：「若有誦斯經者，當見賢劫千佛。
+<lb n="0743b16" ed="T"/><anchor xml:id="nkr_note_orig_0743001" n="0743001"/>尊<anchor xml:id="beg_4" type="cb-app"/>顧<anchor xml:id="end_4"/>語阿難：「若有誦斯經者，當見賢劫千佛。
 <lb n="0743b17" ed="T"/>行斯經者，令後世宣傳，當從彌勒佛受決。如
 <lb n="0743b18" ed="T"/>來廣長舌，所語無有異。」</p><p xml:id="pT17p0743b1810" rend="inline">一切大眾聞佛說已，
 <lb n="0743b19" ed="T"/>歡喜受持為佛作禮。</p></cb:div>
@@ -239,6 +252,7 @@ Added comment  for Emacs
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>罹</corr><sic>羅</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>罹</corr><sic>羅</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>罹</corr><sic>羅</sic></choice>
+<app from="#beg_4" to="#end_4"><lem wit="#wit1 #wit2" resp="#resp2">顧<note type="cf1">K19n0792_p0905b13</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg><rdg resp="#resp2" wit="#wit2"><g ref="#CB15164">󳬼</g><note type="cf1">K19n0792_p0905b13</note></rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
