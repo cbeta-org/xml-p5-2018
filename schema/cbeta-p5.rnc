@@ -6184,7 +6184,7 @@ tei_juan =
   
   ##
   element ns1:juan {
-    (tei_mulu | tei_note | tei_jhead | tei_macro.phraseSeq)*,
+    (tei_mulu | tei_note | tei_jhead | tei_macro.phraseSeq | tei_figure)*,
     att.global.attributes,
     
     ##  ((function) of the element here, that is at the beginning or the end of the juan) 
