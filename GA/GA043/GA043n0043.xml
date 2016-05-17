@@ -156,6 +156,18 @@
 	<mapping type="normal_unicode">U+7C34</mapping>
 	<mapping cb:dec="988318" type="PUA">U+F149E</mapping>
 </char>
+<char xml:id="CB05791">
+	<charName>CBETA CHARACTER CB05791</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[貞-、]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>貞</value>
+	</charProp>
+	<mapping cb:dec="988831" type="PUA">U+F169F</mapping>
+</char>
 <char xml:id="CB07986">
 	<charName>CBETA CHARACTER CB07986</charName>
 	<charProp>
@@ -352,6 +364,18 @@
 	</charProp>
 	<mapping type="unicode">U+21477</mapping>
 	<mapping cb:dec="1017253" type="PUA">U+F85A5</mapping>
+</char>
+<char xml:id="CB34395">
+	<charName>CBETA CHARACTER CB34395</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[玄-ㄙ+ㄥ]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>玄</value>
+	</charProp>
+	<mapping cb:dec="1017435" type="PUA">U+F865B</mapping>
 </char>
 </charDecl>
 </encodingDesc>	
@@ -2839,10 +2863,10 @@ $Log:$
 <lb ed="GA" n="0208a05"/><cb:div type="other"><cb:mulu type="其他" level="2">日本澁江全善、森立之：經籍訪古志</cb:mulu><head>日本澁江全善、森立之：經籍訪古志</head>
 <lb ed="GA" n="0208a06"/><p xml:id="pGA043p0208a0601" rend="margin-left:0em;text-indent:2em">《寒山子詩集》（附《豐干拾得詩》一卷），宋槧本，姬路河合元昇藏。</p>
 <lb ed="GA" n="0208a07"/><p xml:id="pGA043p0208a0701" rend="margin-left:0em;text-indent:2em">卷首題「寒山詩集」，下記「豐干、拾得詩附」。每半板八行，行十
-<lb ed="GA" n="0208a08"/>四字，界長六寸七分，幅四寸九分，左右雙邊。「<g ref="#CB30027">󷕋</g>」、「貞」、「玄」等字欠
+<lb ed="GA" n="0208a08"/>四字，界長六寸七分，幅四寸九分，左右雙邊。「<g ref="#CB30027">󷕋</g>」、「<anchor xml:id="beg_38" type="cb-app"/><g ref="#CB05791">󱚟</g><anchor xml:id="end_38"/>」、「<g ref="#CB34395">󸙛</g>」等字欠
 <lb ed="GA" n="0208a09"/>末筆，字畫端楷，宋槧之佳者。首有觀音比丘無我慧身記一
 <lb ed="GA" n="0208a10"/>篇，閭邱<g ref="#CB30027">󷕋</g>序并讚，又有朱晦庵〈與南老帖〉、陸放翁〈與明老帖〉，
-<lb ed="GA" n="0208a11"/>皆從真蹟摹入。末有<anchor xml:id="beg_38" type="cb-app"/>淳<anchor xml:id="end_38"/>熙十六年沙門志南記及可明跋，卷
+<lb ed="GA" n="0208a11"/>皆從真蹟摹入。末有<anchor xml:id="beg_39" type="cb-app"/>淳<anchor xml:id="end_39"/>熙十六年沙門志南記及可明跋，卷
 <pb ed="GA" xml:id="GA043.0043.0209a" n="0209a"/>
 <lb ed="GA" n="0209a01"/>首有「慶福院」及「無範」印。</p></cb:div>
 <lb ed="GA" n="0209a02"/><cb:div type="other"><cb:mulu type="其他" level="2">島田翰：刻宋本《寒山詩集》序</cb:mulu><head>島田翰：刻宋本《寒山詩集》序<note place="inline">節錄</note></head>
@@ -2874,7 +2898,7 @@ $Log:$
 <lb ed="GA" n="0211a04"/>十二字，末云：「曩閱東皋寺《寒山集》缺此一篇，適獲聖制古文，
 <lb ed="GA" n="0211a05"/>命工刊梓，以全其璧。觀音比丘無我慧身敬書。」次閭邱<g ref="#CB30027">󷕋</g>〈序〉，
 <lb ed="GA" n="0211a06"/>九行，行十五字。次晦翁〈與南老帖〉，次放翁〈與明老帖〉，並從真
-<lb ed="GA" n="0211a07"/>蹟刻入。卷尾有<anchor xml:id="beg_39" type="cb-app"/>淳<anchor xml:id="end_39"/>熙己酉沙門志南〈三隱集記〉，又有紹定己
+<lb ed="GA" n="0211a07"/>蹟刻入。卷尾有<anchor xml:id="beg_3a" type="cb-app"/>淳<anchor xml:id="end_3a"/>熙己酉沙門志南〈三隱集記〉，又有紹定己
 <lb ed="GA" n="0211a08"/>丑可明〈跋〉，捺「慶福院」、「無範」、「植村書屋」、「霞亭珍藏」、「暢春堂圖書
 <lb ed="GA" n="0211a09"/>記」五印。寒山詩云：「五言五百篇，七字七十九，三字二十一，都
 <lb ed="GA" n="0211a10"/>來六百首。一例書巖石……」今檢是本，寒山詩三百四首，而次之
@@ -2885,7 +2909,7 @@ $Log:$
 <lb ed="GA" n="0212a03"/>得於土地堂壁上書言偈，并纂集成卷。」葢其書竹木石壁，故
 <lb ed="GA" n="0212a04"/>多遺佚歟？抑三僧蹤蹟極怪，莫得而考證也。其詩，《唐書．藝文
 <lb ed="GA" n="0212a05"/>志》七卷，徐靈府所序本則分為三卷，又別稱〈三隱集〉，見於志
-<lb ed="GA" n="0212a06"/>南〈記〉。宋時國清南老一刻於<anchor xml:id="beg_3a" type="cb-app"/>淳<anchor xml:id="end_3a"/>熙己酉。南老即與朱子友善，
+<lb ed="GA" n="0212a06"/>南〈記〉。宋時國清南老一刻於<anchor xml:id="beg_3b" type="cb-app"/>淳<anchor xml:id="end_3b"/>熙己酉。南老即與朱子友善，
 <lb ed="GA" n="0212a07"/>晦翁《文集》中引其「沾衣欲溼杏花雨，吹面不寒楊柳風」二句，
 <lb ed="GA" n="0212a08"/>以為清麗有餘，絕無蔬筍氣者。朱子使之稍大於字畫，便於
 <lb ed="GA" n="0212a09"/>觀覽。然其所刻，竄改易置最多。東皋無隱再刻於紹定己丑，
@@ -2906,8 +2930,8 @@ $Log:$
 <pb ed="GA" xml:id="GA043.0043.0214a" n="0214a"/>
 <lb ed="GA" n="0214a01"/>有「杭州錢塘門裏車橋南大街郭宅□鋪印行」一條，云：「分七
 <lb ed="GA" n="0214a02"/>言於五言之外，洋版所獨。」洋板豈出於寶祐本乎？又有正中、
-<lb ed="GA" n="0214a03"/>元和、寬永、正保、延<anchor xml:id="beg_3b" type="cb-app"/>享<anchor xml:id="end_3b"/>數次雕本。依是乃知今之所傳，實原於
-<lb ed="GA" n="0214a04"/><anchor xml:id="beg_3c" type="cb-app"/>淳<anchor xml:id="end_3c"/>熙、寶祐二本，而二書次序，全不相同也。然據宋樊汝霖《唐
+<lb ed="GA" n="0214a03"/>元和、寬永、正保、延<anchor xml:id="beg_3c" type="cb-app"/>享<anchor xml:id="end_3c"/>數次雕本。依是乃知今之所傳，實原於
+<lb ed="GA" n="0214a04"/><anchor xml:id="beg_3d" type="cb-app"/>淳<anchor xml:id="end_3d"/>熙、寶祐二本，而二書次序，全不相同也。然據宋樊汝霖《唐
 <lb ed="GA" n="0214a05"/>文藝補》引〈城中蛾眉女〉一首在前，〈鸚鵡宅西國〉一首、〈去年春
 <lb ed="GA" n="0214a06"/>鳥鳴〉一首、〈丹邱迴聳與雲齊〉一首、〈千年石上古人蹤〉一首，次
 <lb ed="GA" n="0214a07"/>第排列，而正與是本符，是邱<g ref="#CB30027">󷕋</g>之原第即如此。葢輇材小生，
@@ -2999,11 +3023,12 @@ $Log:$
 <choice cb:resp="#resp1" cb:from="#beg_35" cb:to="#end_35"><corr>谿</corr><sic><space quantity="1" unit="chars"/></sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_36" cb:to="#end_36"><corr>知</corr><sic><space quantity="1" unit="chars"/></sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_37" cb:to="#end_37"><corr>惠</corr><sic>智</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_38" cb:to="#end_38"><corr>淳</corr><sic>涥</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_38" cb:to="#end_38"><corr><g ref="#CB05791">󱚟</g></corr><sic>貞</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_39" cb:to="#end_39"><corr>淳</corr><sic>涥</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_3a" cb:to="#end_3a"><corr>淳</corr><sic>涥</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3b" cb:to="#end_3b"><corr>享</corr><sic>亨</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3c" cb:to="#end_3c"><corr>淳</corr><sic>涥</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3b" cb:to="#end_3b"><corr>淳</corr><sic>涥</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_3c" cb:to="#end_3c"><corr>享</corr><sic>亨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3d" cb:to="#end_3d"><corr>淳</corr><sic>涥</sic></choice>
 </p>
 </cb:div>
 <cb:div type="dila-notes">

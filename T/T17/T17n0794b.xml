@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.10 $<date>$Date: 2012/09/28 08:51:55 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,7 @@
 		<witness xml:id="wit3">【宮】</witness>
 		<witness xml:id="wit4">【宋】</witness>
 		<witness xml:id="wit5">【元】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -207,7 +209,7 @@ Added comment  for Emacs
 <lb n="0739c07" ed="T"/><p xml:id="pT17p0739c0701">「從八月一日至十五日。</p>
 <lb n="0739c08" ed="T"/><p xml:id="pT17p0739c0801">「如是，諸比丘！我已說十二月時非時，為諸
 <lb n="0739c09" ed="T"/>聲聞<anchor xml:id="nkr_note_orig_0739023" n="0739023"/><anchor xml:id="beg0739023" n="0739023"/>之<anchor xml:id="end0739023"/>所應<anchor xml:id="nkr_note_orig_0739024" n="0739024"/><anchor xml:id="beg0739024" n="0739024"/>行<anchor xml:id="end0739024"/>，憐愍利益故說。我所應
-<lb n="0739c10" ed="T"/><anchor xml:id="nkr_note_orig_0739025" n="0739025"/><anchor xml:id="beg0739025" n="0739025"/>作<anchor xml:id="end0739025"/><anchor xml:id="fxT17p0739c01"/>已竟，汝等當行。若樹<anchor xml:id="nkr_note_orig_0739026" n="0739026"/><anchor xml:id="beg0739026" n="0739026"/>上<anchor xml:id="end0739026"/>空處，露坐
+<lb n="0739c10" ed="T"/><anchor xml:id="nkr_note_orig_0739025" n="0739025"/><anchor xml:id="beg0739025" n="0739025"/>作<anchor xml:id="end0739025"/><anchor xml:id="fxT17p0739c01"/>已竟，汝等當行。若樹<anchor xml:id="nkr_note_orig_0739026" n="0739026"/><anchor xml:id="nkr_note_mod_0739026" n="0739026"/><anchor xml:id="beg0739026" n="0739026"/>下<anchor xml:id="end0739026"/>空處，露坐
 <lb n="0739c11" ed="T"/>思惟。諸比丘！莫為放逸，後致悔恨，是我所
 <lb n="0739c12" ed="T"/>教戒。」佛說<anchor xml:id="nkr_note_orig_0739027" n="0739027"/><anchor xml:id="beg0739027" n="0739027"/>經竟<anchor xml:id="end0739027"/>。</p><p xml:id="pT17p0739c1207" rend="inline">時諸比丘，皆大歡喜，<anchor xml:id="nkr_note_orig_0739028" n="0739028"/><anchor xml:id="beg0739028" n="0739028"/>勸
 <lb n="0739c13" ed="T"/>助<anchor xml:id="end0739028"/><anchor xml:id="nkr_note_orig_0739029" n="0739029"/><anchor xml:id="beg0739029" n="0739029"/>受持<anchor xml:id="end0739029"/>。</p></cb:div>
@@ -223,7 +225,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app cb:word-count="6" from="#beg0739001" to="#end0739001"><lem wit="#wit1"><title>佛說時非時經</title></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0739002" to="#end0739002"><lem wit="#wit1">天竺三藏法師若羅嚴譯</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit3">外國法師若羅嚴譯</rdg></app>
@@ -254,7 +256,7 @@ Added comment  for Emacs
 <app from="#beg0739023" to="#end0739023"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0739024" to="#end0739024"><lem wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit2">作</rdg></app>
 <app from="#beg0739025" to="#end0739025"><lem wit="#wit1">作</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0739026" to="#end0739026"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit3">下</rdg></app>
+<app from="#beg0739026" to="#end0739026"><lem resp="#resp3" wit="#wit6">下<note type="cf1">T17n0794ap0738c22</note></lem><rdg resp="#resp1" wit="#wit3">下</rdg><rdg wit="#wit1">上</rdg></app>
 <app from="#beg0739027" to="#end0739027"><lem wit="#wit1">經竟</lem><rdg resp="#resp1" wit="#wit2">是法</rdg></app>
 <app from="#beg0739028" to="#end0739028"><lem wit="#wit1">勸<lb n="0739c13" ed="T"/>助</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0739029" to="#end0739029"><lem wit="#wit1">受持</lem><rdg resp="#resp1" wit="#wit2">奉行</rdg></app>
@@ -266,14 +268,15 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0739002" resp="#resp2" type="mod" target="#nkr_note_mod_0739002">〔天竺三藏法師若羅嚴譯〕十字－【知】，天竺三藏＝外國【宮】</note>
+<note n="0739026" resp="#resp2" type="mod" target="#nkr_note_mod_0739026">上＝下【宮】【CB】</note>
 <note n="0739032" resp="#resp2" type="mod" target="#nkr_note_mod_0739032">〔天竺三藏法師若羅嚴手執梵本口自宣譯涼州道人于闐城中寫訖〕二十七字－【知】，天竺三藏＝外國【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0739001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0739001">此經明本也以宋本元本宮本知本對校，〔佛說…經〕六字－【知】</note>
 <note n="0739002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0739002">天竺三藏＝外國【宮】，〔天竺…譯〕十字－【知】</note>
@@ -313,7 +316,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="rest-notes">
-<head>其他註解</head>
+<head>其他校註</head>
 <p>
 <note n="0739001" place="foot" type="rest" target="#nkr_note_rest_0739001">此經明本也以宋本元本宮本知本對校</note>
 <note n="0739012" place="foot" type="rest" target="#nkr_note_rest_0739012">以下知恩院本非時下總無從乃至　等期日</note>

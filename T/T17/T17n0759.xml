@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.10 $<date>$Date: 2012/09/28 08:51:54 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -310,7 +311,7 @@ Added comment  for Emacs
 <lb n="0602c04" ed="T"/>以彼天壽二千歲為眾合大地獄中成一晝
 <lb n="0602c05" ed="T"/>夜，以彼三十晝夜成彼一月，以彼十二月成
 <lb n="0602c06" ed="T"/>彼一年，彼眾合大地獄中壽命二千歲，較量
-<lb n="0602c07" ed="T"/>彼處算數即當人間計三萬二千四百俱胝
+<lb n="0602c07" ed="T"/>彼處算數即當人間計<anchor xml:id="beg_1" type="cb-app"/>六萬四千八百<anchor xml:id="end_1"/>俱胝
 <lb n="0602c08" ed="T"/>年，彼地獄中然後命終。」</p><p xml:id="pT17p0602c0810" rend="inline">爾時，世尊即說頌
 <lb n="0602c09" ed="T"/>曰：</p>
 <lb n="0602c10" ed="T"/><lg xml:id="lgT17p0602c1001" rend="margin-left:1em;text-indent:-1em"><l>「三種不善業，</l><l>眾合地獄生；</l>
@@ -449,7 +450,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0601001" to="#end0601001"><lem wit="#wit1">西天</lem><rdg resp="#resp1" wit="#wit2">宋西天</rdg></app>
 <app cb:word-count="8" from="#beg0601002" to="#end0601002"><lem wit="#wit1">惹爛駄囉國<lb n="0601a06" ed="T"/>密林寺</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
@@ -457,6 +458,7 @@ Added comment  for Emacs
 <app from="#beg0601004" to="#end0601004"><lem wit="#wit1">臣</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0601005" to="#end0601005"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2">惟</rdg></app>
 <app from="#beg0601006" to="#end0601006"><lem wit="#wit1">玉</lem><rdg resp="#resp1" wit="#wit2">王</rdg></app>
+<choice cb:resp="#resp3" cb:from="#beg_1" cb:to="#end_1"><corr>六萬四千八百<note type="cf1">X57n0972_p0449c17</note><note type="cf2">J21nB109_p0529b09-10</note></corr><sic>三萬二千四百</sic></choice>
 <app from="#beg0603001" to="#end0603001"><lem wit="#wit1">天</lem><rdg resp="#resp1" wit="#wit2">大</rdg></app>
 <app from="#beg0603002" to="#end0603002"><lem wit="#wit1">健</lem><rdg resp="#resp1" wit="#wit4">揵</rdg><rdg resp="#resp1" wit="#wit2">犍</rdg></app>
 <app from="#beg0603003" to="#end0603003"><lem wit="#wit1">覺</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">學</rdg></app>
@@ -466,7 +468,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0601004" resp="#resp2" type="mod" target="#nkr_note_mod_0601004">〔臣〕－【宋】【元】【明】【宮】</note>
 <note n="0603002" resp="#resp2" type="mod" target="#nkr_note_mod_0603002">健＝揵【元】，＝犍【明】</note>
@@ -475,7 +477,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0601001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0601001">（宋）＋西天【明】</note>
 <note n="0601002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0601002">〔惹爛…寺〕八字－【明】</note>

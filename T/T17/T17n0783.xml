@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.11 $<date>$Date: 2012/10/08 08:17:38 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,9 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【宮】</witness>
 		<witness xml:id="wit5">【明】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
+		<witness xml:id="wit8">【磧砂】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -53,6 +57,15 @@
 	</charProp>
 	<mapping type="unicode">U+277A3</mapping>
 	<mapping cb:dec="985523" type="PUA">U+F09B3</mapping>
+</char>
+<char xml:id="CB21804">
+	<charName>CBETA CHARACTER CB21804</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[社-土+厭]</value>
+	</charProp>
+	<mapping type="unicode">U+25712</mapping>
+	<mapping cb:dec="1004844" type="PUA">U+F552C</mapping>
 </char>
 </charDecl>
 </encodingDesc>
@@ -176,7 +189,7 @@ Added comment  for Emacs
 <lb n="0720c10" ed="T"/>下止；十一者、露地坐；十二者、但坐不臥。</p>
 <lb n="0720c11" ed="T"/><p xml:id="pT17p0720c1101">「一者、阿蘭若比丘行頭陀時，應作是念：『我今
 <lb n="0720c12" ed="T"/>在此空閑之處，為無上道捨身命財，修三堅
-<lb n="0720c13" ed="T"/>法，死當如<anchor xml:id="nkr_note_orig_0720012" n="0720012"/><anchor xml:id="nkr_note_mod_0720012" n="0720012"/><anchor xml:id="beg0720012" n="0720012"/><g ref="#CB02483">𧞣</g><anchor xml:id="end0720012"/>死，不生顧戀。』若至病苦須人
+<lb n="0720c13" ed="T"/>法，死當如<anchor xml:id="nkr_note_orig_0720012" n="0720012"/><anchor xml:id="nkr_note_mod_0720012" n="0720012"/><anchor xml:id="beg0720012" n="0720012"/><g ref="#CB21804">𥜒</g><anchor xml:id="end0720012"/>死，不生顧戀。』若至病苦須人
 <lb n="0720c14" ed="T"/>之時，當作是念：『我今一身為法出家，法為我
 <lb n="0720c15" ed="T"/>伴，若勤行法者即是救護，是為阿蘭若法。』行
 <lb n="0720c16" ed="T"/>者本以居家多惱，捨父母妻子出家行道，
@@ -294,7 +307,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0720003" to="#end0720003"><lem wit="#wit1">佛說</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0720004" to="#end0720004"><lem wit="#wit1">經</lem><rdg resp="#resp1" wit="#wit3 #wit5">經一名沙門頭陀經</rdg></app>
@@ -306,7 +319,7 @@ Added comment  for Emacs
 <app from="#beg0720010" to="#end0720010"><lem wit="#wit1">聽</lem><rdg resp="#resp1" wit="#wit3 #wit5">聽諦聽</rdg></app>
 <app from="#beg0720011" to="#end0720011"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg_1" to="#end_1" corresp="#0720011"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4"><space quantity="0"/></rdg></app>
-<app from="#beg0720012" to="#end0720012"><lem wit="#wit1"><g ref="#CB02483">𧞣</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">厭</rdg></app>
+<app from="#beg0720012" to="#end0720012"><lem wit="#wit6 #wit7" resp="#resp3"><g ref="#CB21804">𥜒</g><note type="cf1">K37n1386_p0026b10</note></lem><rdg wit="#wit1"><g ref="#CB02483">𧞣</g></rdg><rdg resp="#resp3" wit="#wit8">猒<note type="cf1">Q13_p0830b01</note></rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">厭</rdg></app>
 <app from="#beg0721001" to="#end0721001"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">憂</rdg></app>
 <app from="#beg0721002" to="#end0721002"><lem wit="#wit1">料</lem><rdg resp="#resp1" wit="#wit2 #wit4">撩</rdg></app>
 <app from="#beg0721003" to="#end0721003"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">味</rdg></app>
@@ -332,13 +345,13 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0720006" resp="#resp2" type="mod" target="#nkr_note_mod_0720006">于闐國＝天竺【宋】【元】【明】【宮】</note>
 <note n="0720007" resp="#resp2" type="mod" target="#nkr_note_mod_0720007">（我）＋見【宋】【元】【明】【宮】</note>
 <note n="0720008" resp="#resp2" type="mod" target="#nkr_note_mod_0720008">唯＝惟【宋】【元】【明】【宮】</note>
 <note n="0720011" resp="#resp2" type="mod" target="#nkr_note_mod_0720011">〔者〕－【宋】【元】【明】【宮】＊</note>
-<note n="0720012" resp="#resp2" type="mod" target="#nkr_note_mod_0720012"><g ref="#CB02483">𧞣</g>＝厭【宋】【元】【明】【宮】</note>
+<note n="0720012" resp="#resp2" type="mod" target="#nkr_note_mod_0720012"><g ref="#CB02483">𧞣</g>＝厭【宋】【元】【明】【宮】，＝猒【磧砂-CB】，＝<g ref="#CB21804">𥜒</g>【麗-CB】【CB】</note>
 <note n="0721001" resp="#resp2" type="mod" target="#nkr_note_mod_0721001">愛＝憂【宋】【元】【明】【宮】</note>
 <note n="0721003" resp="#resp2" type="mod" target="#nkr_note_mod_0721003">色＝味【宋】【元】【明】</note>
 <note n="0721008" resp="#resp2" type="mod" target="#nkr_note_mod_0721008">叚＝摶食【宋】【元】【明】</note>
@@ -350,7 +363,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0720003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0720003">〔佛說〕－【宋】【元】【宮】</note>
 <note n="0720004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0720004">經＋（一名沙門頭陀經）七字【元】【明】</note>

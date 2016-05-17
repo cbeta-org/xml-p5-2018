@@ -77,6 +77,10 @@
 		<localName>composition</localName>
 		<value>[穴/悟]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>寤</value>
+	</charProp>
 	<mapping type="unicode">U+259DD</mapping>
 	<mapping cb:dec="983936" type="PUA">U+F0380</mapping>
 </char>
@@ -337,7 +341,7 @@ Added comment  for Emacs
 <lb n="0725b29" ed="T"/><l>第二應須彌山，</l><l>中央木應於空，</l>
 <pb n="0725c" ed="T" xml:id="T17.0785.0725c"/>
 <lb n="0725c01" ed="T"/><l>下錯應須彌根。</l></lg>
-<lb n="0725c02" ed="T"/><p xml:id="pT17p0725c0201">沙門之法，解空得道，執此<anchor xml:id="nkr_note_orig_0725036" n="0725036"/><anchor xml:id="nkr_note_mod_0725036" n="0725036"/><anchor xml:id="beg0725036" n="0725036"/>惺<g ref="#CB00322">𡩺</g> <anchor xml:id="end0725036"/>世間一切
+<lb n="0725c02" ed="T"/><p xml:id="pT17p0725c0201">沙門之法，解空得道，執此<anchor xml:id="nkr_note_orig_0725036" n="0725036"/><anchor xml:id="nkr_note_mod_0725036" n="0725036"/><anchor xml:id="beg0725036" n="0725036"/>惺<g ref="#CB00322">𡩺</g><anchor xml:id="end0725036"/>世間一切
 <lb n="0725c03" ed="T"/>眾生。諸比丘等！至心奉行。</p></cb:div>
 <lb n="0725c04" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title><anchor xml:id="nkr_note_orig_0725037" n="0725037"/><anchor xml:id="beg0725037" n="0725037"/>得道梯橙錫杖經<anchor xml:id="end0725037"/></title></cb:jhead></cb:juan>
 <lb n="0725c05" ed="T"/>
@@ -368,7 +372,7 @@ Added comment  for Emacs
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <app from="#beg0724010" to="#end0724010"><lem wit="#wit1">橙</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">隥</rdg></app>
 <app from="#beg0724009" to="#end0724009"><lem wit="#wit1">得道梯<note n="0724010" resp="#resp1" type="orig" place="foot text">橙＝隥【三】</note><note n="0724010" resp="#resp2" type="mod">橙＝隥【宋】【元】【明】</note><app n="0724010"><lem wit="#wit1">橙</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">隥</rdg></app></lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit4">佛說得道梯橙</rdg></app>
@@ -463,14 +467,14 @@ Added comment  for Emacs
 <app from="#beg0725032" to="#end0725032"><lem wit="#wit1">出</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0725034" to="#end0725034"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0725035" to="#end0725035"><lem wit="#wit1">杖過中不</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">不得持杖過中</rdg></app>
-<app from="#beg0725036" to="#end0725036"><lem wit="#wit6 #wit7" resp="#resp3">惺<g ref="#CB00322">𡩺</g><note type="cf1">K19n0793_p0907c22</note></lem> <rdg wit="#wit1">惺<g ref="#CB00896">𥧝</g></rdg><rdg resp="#resp1" wit="#wit3 #wit4">醒悟</rdg><rdg resp="#resp1" wit="#wit2"><g ref="#CB13541">𥨕</g><g ref="#CB00896">𥧝</g></rdg></app>
+<app from="#beg0725036" to="#end0725036"><lem wit="#wit6 #wit7" resp="#resp3">惺<g ref="#CB00322">𡩺</g><note type="cf1">K19n0793_p0907c22</note></lem><rdg wit="#wit1">惺<g ref="#CB00896">𥧝</g></rdg><rdg resp="#resp1" wit="#wit3 #wit4">醒悟</rdg><rdg resp="#resp1" wit="#wit2"><g ref="#CB13541">𥨕</g><g ref="#CB00896">𥧝</g></rdg></app>
 <app from="#beg0725037" to="#end0725037"><lem wit="#wit1">得道梯橙錫杖經</lem><rdg resp="#resp1" wit="#wit3 #wit4"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit5">錫杖經</rdg></app>
 <app from="#beg0725038" to="#end0725038"><lem wit="#wit1">又</lem><rdg resp="#resp1" wit="#wit3">佛說</rdg></app>
 <app from="#beg0726001" to="#end0726001"><lem wit="#wit1">持錫杖法</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
-<head>CBETA 校勘記</head>
+<head>CBETA 校註</head>
 <p>
 <note n="0724009" resp="#resp2" type="mod" target="#nkr_note_mod_0724009">〔得道梯橙〕－【宮】，（佛說）＋得【明】</note>
 <note n="0724010" resp="#resp2" type="mod" target="#nkr_note_mod_0724010">橙＝隥【宋】【元】【明】</note>
@@ -538,7 +542,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
-<head>大正 校勘記</head>
+<head>大正 校註</head>
 <p>
 <note n="0724009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0724009">（佛說）＋得【明】，〔得道梯橙〕－【宮】</note>
 <note n="0724010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0724010">橙＝隥【三】</note>
@@ -628,7 +632,7 @@ Added comment  for Emacs
 </p>
 </cb:div>
 <cb:div type="rest-notes">
-<head>其他註解</head>
+<head>其他校註</head>
 <p>
 <note n="0725038" place="foot" type="rest" target="#nkr_note_rest_0725038">又持錫杖法麗本宋本宮本無今依明本採錄與元本對挍</note>
 </p>

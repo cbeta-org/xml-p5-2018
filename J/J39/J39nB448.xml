@@ -82,6 +82,19 @@
 	<mapping type="unicode">U+23CA7</mapping>
 	<mapping cb:dec="999666" type="PUA">U+F40F2</mapping>
 </char>
+<char xml:id="CB34398">
+	<charName>CBETA CHARACTER CB34398</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[燕/日]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>曣</value>
+	</charProp>
+	<mapping type="unicode">U+3B2B</mapping>
+	<mapping cb:dec="1017438" type="PUA">U+F865E</mapping>
+</char>
 </charDecl>
 </encodingDesc>
 <revisionDesc>
@@ -1761,7 +1774,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="J" n="0440c20"/><cb:juan fun="close" n="3"><cb:jhead>靈機觀禪師語錄卷三</cb:jhead></cb:juan>
 <pb ed="J" xml:id="J39.B448.0441a" n="0441a"/>
 <lb ed="J" n="0441a01"/><milestone unit="juan" n="4"/><cb:mulu type="卷" n="4"></cb:mulu><cb:juan fun="open" n="4"><cb:jhead>靈機觀禪師語錄卷四</cb:jhead></cb:juan>
-<lb ed="J" n="0441a02"/><byline cb:type="editor">嗣法門人　如章　寂智　超薺　超楹　等編</byline>
+<lb ed="J" n="0441a02"/><byline cb:type="editor">嗣法門人　如章　寂智　超<g ref="#CB34398">󸙞</g>　超鑑　等編</byline>
 <lb ed="J" n="0441a03"/>
 <lb ed="J" n="0441a04"/><cb:div type="other"><cb:mulu type="其他" level="1">落堂</cb:mulu><p xml:id="pJ39p0441a0401">落堂師問眾云若是赤臉毒蛇開口便咬冤家債主
 <lb ed="J" n="0441a05"/>出眾理論眾許久無語師云資福與麼人艸求人語
@@ -3399,7 +3412,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </body>
 <back>
 <cb:div type="apparatus">
-<head>校勘記</head>
+<head>校註</head>
 <p>
 <choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>己</corr><sic>巳</sic></choice>
