@@ -33,13 +33,15 @@
 		<bibl>Taisho Tripitaka Vol. 24, No. 1452</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit10">【磧砂】</witness>
 		<witness xml:id="wit2">【久】</witness>
 		<witness xml:id="wit3">【宋】</witness>
 		<witness xml:id="wit4">【元】</witness>
 		<witness xml:id="wit5">【明】</witness>
 		<witness xml:id="wit6">【宮】</witness>
-		<witness xml:id="wit7">【聖】</witness>
-		<witness xml:id="wit8">【CBETA】</witness>
+		<witness xml:id="wit7">【CBETA】</witness>
+		<witness xml:id="wit8">【麗】</witness>
+		<witness xml:id="wit9">【聖】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -113,6 +115,19 @@
 		<value>幀</value>
 	</charProp>
 	<mapping cb:dec="983990" type="PUA">U+F03B6</mapping>
+</char>
+<char xml:id="CB01007">
+	<charName>CBETA CHARACTER CB01007</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[葉-世+ㄊ]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>葉</value>
+	</charProp>
+	<mapping type="unicode">U+26C27</mapping>
+	<mapping cb:dec="984047" type="PUA">U+F03EF</mapping>
 </char>
 <char xml:id="CB01067">
 	<charName>CBETA CHARACTER CB01067</charName>
@@ -265,6 +280,18 @@
 	</charProp>
 	<mapping type="unicode">U+20BA7</mapping>
 	<mapping cb:dec="985225" type="PUA">U+F0889</mapping>
+</char>
+<char xml:id="CB11601">
+	<charName>CBETA CHARACTER CB11601</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[木*(土*(└@土))]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>桃</value>
+	</charProp>
+	<mapping cb:dec="994641" type="PUA">U+F2D51</mapping>
 </char>
 </charDecl>
 </encodingDesc>
@@ -649,10 +676,10 @@ Added comment  for Emacs
 <lb n="0417c19" ed="T"/>於其處別置三人。時秉法者，或席、或床、或板、
 <lb n="0417c20" ed="T"/>或薦，<anchor xml:id="nkr_note_orig_0417006" n="0417006"/><anchor xml:id="beg0417006" n="0417006"/>壓<anchor xml:id="end0417006"/>四界上而秉羯磨。以秉法者添彼四
 <lb n="0417c21" ed="T"/>數，咸成作法。如是若於四界，有別事起，作七
-<lb n="0417c22" ed="T"/>羯磨等，謂驅擯羯磨、今怖羯磨、折伏羯磨、求
+<lb n="0417c22" ed="T"/>羯磨等，謂驅擯羯磨、<anchor xml:id="beg_6" type="cb-app"/>令<anchor xml:id="end_6"/>怖羯磨、折伏羯磨、求
 <lb n="0417c23" ed="T"/>謝羯磨、不見罪羯磨、不如法悔羯磨、不捨惡
 <lb n="0417c24" ed="T"/>見羯磨。若作此等羯磨之時，其秉法人，在彼
-<lb n="0417c25" ed="T"/>四界角相近處，若以席板床薦總<anchor xml:id="beg_6" type="star"/>壓<anchor xml:id="end_6"/>而坐，秉
+<lb n="0417c25" ed="T"/>四界角相近處，若以席板床薦總<anchor xml:id="beg_7" type="star"/>壓<anchor xml:id="end_7"/>而坐，秉
 <lb n="0417c26" ed="T"/>法皆成。」</p>
 <lb n="0417c27" ed="T"/><p xml:id="pT24p0417c2701">第六子攝頌曰：</p>
 <lb n="0417c28" ed="T"/><lg xml:id="lgT24p0417c2801"><l>大界兩驛半，</l><l>下水上山巔，</l>
@@ -666,7 +693,7 @@ Added comment  for Emacs
 <lb n="0418a06" ed="T"/>名為大界。」「兩踰膳那半外方至水者，此之剩
 <lb n="0418a07" ed="T"/>處得名界不？」佛言：「不是。」「向上齊何名為大界？」
 <lb n="0418a08" ed="T"/>佛言：「上至樹<anchor xml:id="nkr_note_orig_0418002" n="0418002"/><anchor xml:id="beg0418002" n="0418002"/>抄<anchor xml:id="end0418002"/>或齊牆頭，名為界分。」「大德！
-<lb n="0418a09" ed="T"/>兩踰膳那半外方至<anchor xml:id="beg_7" type="star"/>抄<anchor xml:id="end_7"/>頭，斯之剩處得名界
+<lb n="0418a09" ed="T"/>兩踰膳那半外方至<anchor xml:id="beg_8" type="star"/>抄<anchor xml:id="end_8"/>頭，斯之剩處得名界
 <lb n="0418a10" ed="T"/>不？」佛言：「不是。」「若上山巔，齊何名界？」佛言：「齊
 <lb n="0418a11" ed="T"/>其水處。」「兩驛半外方至其水，亦名界不？」佛言：
 <lb n="0418a12" ed="T"/>「不是。」「世尊！若於夏中僧伽破壞。時有苾芻故
@@ -697,7 +724,7 @@ Added comment  for Emacs
 <lb n="0418b07" ed="T"/>圮裂穿壞，當修補之。我於今夏在此安居。』第
 <lb n="0418b08" ed="T"/>二、第三亦如是說，或前或後隨意應作應知。
 <lb n="0418b09" ed="T"/>尼亦對尼，准苾芻作。其求寂應對苾芻，正學
-<lb n="0418b10" ed="T"/>女、求寂女對尼應作。」「如世尊說：『苾芻坐夏之
+<lb n="0418b10" ed="T"/>女<anchor xml:id="beg_9" type="cb-app"/>及<anchor xml:id="end_9"/>求寂女對尼應作。」「如世尊說：『苾芻坐夏之
 <lb n="0418b11" ed="T"/>時，若有鄔波索迦等請喚之事，守持七日去。』
 <lb n="0418b12" ed="T"/>者，若有外道及親族等請喚，亦得去不？」佛言：
 <lb n="0418b13" ed="T"/>「此亦應去。」「若於三藏有疑須欲諮問，亦得去
@@ -721,7 +748,7 @@ Added comment  for Emacs
 <lb n="0418c01" ed="T"/><p xml:id="pT24p0418c0101">翻經沙門大薦福寺大德勝<anchor xml:id="nkr_note_orig_0418008" n="0418008"/><anchor xml:id="beg0418008" n="0418008"/>莊<anchor xml:id="end0418008"/>證義</p>
 <lb n="0418c02" ed="T"/><p xml:id="pT24p0418c0201">翻經沙門相州禪河寺大德玄傘證義筆受</p>
 <lb n="0418c03" ed="T"/><p xml:id="pT24p0418c0301">翻經沙門大薦福寺大德智積證義正字</p>
-<lb n="0418c04" ed="T"/><p xml:id="pT24p0418c0401">翻經沙門德州大雲寺<anchor xml:id="beg_8" type="star"/>主<anchor xml:id="end_8"/>慧傘證義</p>
+<lb n="0418c04" ed="T"/><p xml:id="pT24p0418c0401">翻經沙門德州大雲寺<anchor xml:id="beg_a" type="star"/>主<anchor xml:id="end_a"/>慧傘證義</p>
 <lb n="0418c05" ed="T"/><p xml:id="pT24p0418c0501">翻經沙門西涼州白塔寺<anchor xml:id="nkr_note_orig_0418009" n="0418009"/><anchor xml:id="beg0418009" n="0418009"/>大<anchor xml:id="end0418009"/>德慧積讀梵本</p>
 <lb n="0418c06" ed="T"/><p xml:id="pT24p0418c0601">翻經婆羅<anchor xml:id="nkr_note_orig_0418010" n="0418010"/><anchor xml:id="beg0418010" n="0418010"/>門<anchor xml:id="end0418010"/>右驍衛翊府中郎將員外置宿
 <lb n="0418c07" ed="T"/>衛臣李釋迦讀梵本</p>
@@ -735,12 +762,12 @@ Added comment  for Emacs
 <lb n="0418c15" ed="T"/>省臣頗具讀梵本</p>
 <lb n="0418c16" ed="T"/><p xml:id="pT24p0418c1601">翻經婆羅門龍播國大達官准五品臣李輸羅
 <lb n="0418c17" ed="T"/>證譯</p>
-<lb n="0418c18" ed="T"/><p xml:id="pT24p0418c1801">金紫光祿大夫守尚書<anchor xml:id="beg_9" type="star"/>左<anchor xml:id="end_9"/>僕射同中書門下
+<lb n="0418c18" ed="T"/><p xml:id="pT24p0418c1801">金紫光祿大夫守尚書<anchor xml:id="beg_b" type="star"/>左<anchor xml:id="end_b"/>僕射同中書門下
 <lb n="0418c19" ed="T"/>三品上柱國史舒國公臣韋<anchor xml:id="nkr_note_orig_0418014" n="0418014"/><anchor xml:id="beg0418014" n="0418014"/>臣<anchor xml:id="end0418014"/>源<anchor xml:id="nkr_note_orig_0418015" n="0418015"/><anchor xml:id="beg0418015" n="0418015"/>監<anchor xml:id="end0418015"/>譯</p>
 <lb n="0418c20" ed="T"/><p xml:id="pT24p0418c2001">尚書右僕射同中書門下三品上柱國許國公
 <lb n="0418c21" ed="T"/>臣蘇環監譯</p>
 <lb n="0418c22" ed="T"/><p xml:id="pT24p0418c2201">特進行太子<anchor xml:id="nkr_note_orig_0418016" n="0418016"/><anchor xml:id="beg0418016" n="0418016"/>少<anchor xml:id="end0418016"/>師同中書門下三品上柱國
-<lb n="0418c23" ed="T"/><anchor xml:id="nkr_note_orig_0418017" n="0418017"/><anchor xml:id="beg0418017" n="0418017"/>宋國<anchor xml:id="end0418017"/>公臣唐休璟<anchor xml:id="beg_a" type="star"/>監<anchor xml:id="end_a"/>譯</p>
+<lb n="0418c23" ed="T"/><anchor xml:id="nkr_note_orig_0418017" n="0418017"/><anchor xml:id="beg0418017" n="0418017"/>宋國<anchor xml:id="end0418017"/>公臣唐休璟<anchor xml:id="beg_c" type="star"/>監<anchor xml:id="end_c"/>譯</p>
 <lb n="0418c24" ed="T"/><p xml:id="pT24p0418c2401">特進太子少保兼揚州大都督同中書門下三
 <lb n="0418c25" ed="T"/>品監修國史上柱國彭國公臣韋溫監譯</p>
 <lb n="0418c26" ed="T"/><p xml:id="pT24p0418c2601">特進同中書門下三品修文館大學士監修國
@@ -750,10 +777,10 @@ Added comment  for Emacs
 <pb n="0419a" ed="T" xml:id="T24.1452.0419a"/>
 <lb n="0419a01" ed="T"/><p xml:id="pT24p0419a0101">侍中監修國史上柱國越國公臣紀處訥監譯
 <lb n="0419a02" ed="T"/>光祿大夫行中書令修文館大學士監國史上
-<lb n="0419a03" ed="T"/>柱國郢國公臣宗楚客<anchor xml:id="beg_b" type="star"/>監<anchor xml:id="end_b"/>譯</p>
+<lb n="0419a03" ed="T"/>柱國郢國公臣宗楚客<anchor xml:id="beg_d" type="star"/>監<anchor xml:id="end_d"/>譯</p>
 <lb n="0419a04" ed="T"/><p xml:id="pT24p0419a0401">中書令監修國史上柱國<anchor xml:id="nkr_note_orig_0419001" n="0419001"/><anchor xml:id="beg0419001" n="0419001"/>酇<anchor xml:id="end0419001"/>國公臣蕭至忠
 <lb n="0419a05" ed="T"/>監譯</p>
-<lb n="0419a06" ed="T"/><p xml:id="pT24p0419a0601">翻經學<anchor xml:id="beg_c" type="cb-app"/>士<anchor xml:id="end_c"/>銀青光祿大夫守兵部尚書門下三
+<lb n="0419a06" ed="T"/><p xml:id="pT24p0419a0601">翻經學<anchor xml:id="beg_e" type="cb-app"/>士<anchor xml:id="end_e"/>銀青光祿大夫守兵部尚書門下三
 <lb n="0419a07" ed="T"/>品修文館大學士上柱國逍遙公臣韋嗣立</p>
 <lb n="0419a08" ed="T"/><p xml:id="pT24p0419a0801">翻經學士中散大夫守中書侍郎同中書門下
 <lb n="0419a09" ed="T"/>三品<anchor xml:id="nkr_note_orig_0419002" n="0419002"/><anchor xml:id="beg0419002" n="0419002"/>著紫佩金魚<anchor xml:id="end0419002"/>修文館學士上柱國臣趙
@@ -782,7 +809,7 @@ Added comment  for Emacs
 <lb n="0419b02" ed="T"/><p xml:id="pT24p0419b0201">翻經學士中大夫行中書舍人修文館學士上
 <lb n="0419b03" ed="T"/>柱國臣李<anchor xml:id="nkr_note_orig_0419009" n="0419009"/><anchor xml:id="beg0419009" n="0419009"/>乂<anchor xml:id="end0419009"/></p>
 <lb n="0419b04" ed="T"/><p xml:id="pT24p0419b0401">翻經學士中書舍人修文館學士上柱國金鄉
-<lb n="0419b05" ed="T"/>縣開國<anchor xml:id="beg_d" type="star"/>男<anchor xml:id="end_d"/><anchor xml:id="nkr_note_orig_0419010" n="0419010"/><anchor xml:id="beg0419010" n="0419010"/>韋<anchor xml:id="end0419010"/>元亘</p>
+<lb n="0419b05" ed="T"/>縣開國<anchor xml:id="beg_f" type="star"/>男<anchor xml:id="end_f"/><anchor xml:id="nkr_note_orig_0419010" n="0419010"/><anchor xml:id="beg0419010" n="0419010"/>韋<anchor xml:id="end0419010"/>元亘</p>
 <lb n="0419b06" ed="T"/><p xml:id="pT24p0419b0601">翻經學士中大夫行中書舍人修文館<anchor xml:id="nkr_note_orig_0419011" n="0419011"/><anchor xml:id="beg0419011" n="0419011"/>學<anchor xml:id="end0419011"/>士
 <lb n="0419b07" ed="T"/>上柱國臣馬懷素</p>
 <lb n="0419b08" ed="T"/><p xml:id="pT24p0419b0801">翻經學士朝請大夫守給事中修文館學士上
@@ -849,12 +876,12 @@ Added comment  for Emacs
 <lb n="0420a12" ed="T"/>佛言：「還遣信人。」</p><p xml:id="pT24p0420a1207" rend="inline">於此城中時有苾芻身遭疾
 <lb n="0420a13" ed="T"/>苦，詣醫人所問曰：「我有痟渴病。賢首！願為處
 <lb n="0420a14" ed="T"/>方。」醫人答言：「宜可服<anchor xml:id="nkr_note_orig_0420001" n="0420001"/><anchor xml:id="beg0420001" n="0420001"/>酥<anchor xml:id="end0420001"/>，必當平復。」苾芻報
-<lb n="0420a15" ed="T"/>曰：「佛未聽許為病服<anchor xml:id="beg_e" type="star"/>酥<anchor xml:id="end_e"/>。」醫人答曰：「世尊大
+<lb n="0420a15" ed="T"/>曰：「佛未聽許為病服<anchor xml:id="beg_10" type="star"/>酥<anchor xml:id="end_10"/>。」醫人答曰：「世尊大
 <lb n="0420a16" ed="T"/>悲，為病所須亦應開服。」時諸苾芻以緣白佛，
-<lb n="0420a17" ed="T"/>佛言：「苾芻為病醫遣服<anchor xml:id="beg_f" type="star"/>酥<anchor xml:id="end_f"/>者，應可服之。」時
-<lb n="0420a18" ed="T"/>病苾芻雖已服<anchor xml:id="beg_10" type="star"/>酥<anchor xml:id="end_10"/>仍患渴逼，醫人問曰：「尊
-<lb n="0420a19" ed="T"/>者，服<anchor xml:id="beg_11" type="star"/>酥<anchor xml:id="end_11"/>氣力何似？」苾芻答曰：「猶被渴逼。」醫
-<lb n="0420a20" ed="T"/>人報曰：「<anchor xml:id="beg_12" type="star"/>酥<anchor xml:id="end_12"/>不差者，酸漿諸醋何不飲之？」苾
+<lb n="0420a17" ed="T"/>佛言：「苾芻為病醫遣服<anchor xml:id="beg_11" type="star"/>酥<anchor xml:id="end_11"/>者，應可服之。」時
+<lb n="0420a18" ed="T"/>病苾芻雖已服<anchor xml:id="beg_12" type="star"/>酥<anchor xml:id="end_12"/>仍患渴逼，醫人問曰：「尊
+<lb n="0420a19" ed="T"/>者，服<anchor xml:id="beg_13" type="star"/>酥<anchor xml:id="end_13"/>氣力何似？」苾芻答曰：「猶被渴逼。」醫
+<lb n="0420a20" ed="T"/>人報曰：「<anchor xml:id="beg_14" type="star"/>酥<anchor xml:id="end_14"/>不差者，酸漿諸醋何不飲之？」苾
 <lb n="0420a21" ed="T"/>芻答曰：「世尊不許非時而飲，云何得服？」醫人
 <lb n="0420a22" ed="T"/>報曰：「世尊慈悲，為病所須亦應聽服。」時諸苾
 <lb n="0420a23" ed="T"/>芻以緣白佛，佛言：「我今開許，應飲醋漿。」時諸
@@ -887,7 +914,7 @@ Added comment  for Emacs
 <lb n="0420b20" ed="T"/>法罪。」</p>
 <lb n="0420b21" ed="T"/><p xml:id="pT24p0420b2101">爾時世尊告諸苾芻曰：「此痔病經，我於餘處
 <lb n="0420b22" ed="T"/>已曾宣說，今為汝等更復說之，若誦持者必
-<lb n="0420b23" ed="T"/>得除差。若有誦者，乃至盡形終無痔病共相
+<lb n="0420b23" ed="T"/>得除差。若有誦者，乃至盡形終無痔病<anchor xml:id="beg_15" type="cb-app"/>苦<anchor xml:id="end_15"/>相
 <lb n="0420b24" ed="T"/>逼惱，亦得宿命智，能憶過去世時七生之事。」
 <lb n="0420b25" ed="T"/>即說呪曰：</p>
 <lb n="0420b26" ed="T"/><p cb:type="dharani" xml:id="pT24p0420b2601">「怛姪他　阿魯泥<note place="inline">去</note>　末魯泥鼻泥　俱麗婆
@@ -1229,13 +1256,13 @@ Added comment  for Emacs
 <lb n="0424b01" ed="T"/>「所損柱門誰合料理？」佛言：「大眾或可教化共
 <lb n="0424b02" ed="T"/>俗修營。」「若苾芻尼為合鬪者，此欲如何？」佛言：
 <lb n="0424b03" ed="T"/>「作法驅擯一准苾芻。二眾求寂及正學女，若
-<lb n="0424b04" ed="T"/>眾為作驅<anchor xml:id="beg_13" type="star"/>擯<anchor xml:id="end_13"/>羯磨，不肯去者並可同前。」「大
+<lb n="0424b04" ed="T"/>眾為作驅<anchor xml:id="beg_16" type="star"/>擯<anchor xml:id="end_16"/>羯磨，不肯去者並可同前。」「大
 <lb n="0424b05" ed="T"/>德！若苾芻、若苾芻尼行污家時，亦應為作驅
 <lb n="0424b06" ed="T"/>擯法耶？」佛言：「應作。二眾求寂及正學女，皆同
 <lb n="0424b07" ed="T"/>如是。」</p>
 <lb n="0424b08" ed="T"/><p xml:id="pT24p0424b0801">第七子攝頌曰：</p>
 <lb n="0424b09" ed="T"/><lg xml:id="lgT24p0424b0901"><l>破戒應驅逐，</l><l>伏處亦皆除，</l>
-<lb n="0424b10" ed="T"/><l>惱俗願收謝，</l><l>餘眾咸同此。</l></lg>
+<lb n="0424b10" ed="T"/><l>惱俗<anchor xml:id="beg_17" type="cb-app"/>應<anchor xml:id="end_17"/>收謝，</l><l>餘眾咸同此。</l></lg>
 <lb n="0424b11" ed="T"/><p xml:id="pT24p0424b1101">緣處同前。鄔波離請世尊曰：「如世尊說：『破戒
 <lb n="0424b12" ed="T"/>苾芻應驅擯。』者，誰當作擯？」佛言：「僧伽若不伏
 <lb n="0424b13" ed="T"/>時，為持衣物驅之令出，抱柱門框並悉同前。」
@@ -1268,7 +1295,7 @@ Added comment  for Emacs
 <lb n="0424c10" ed="T"/><l>有覆無覆殊，</l><l>名一種便異。</l></lg>
 <lb n="0424c11" ed="T"/><p xml:id="pT24p0424c1101">具壽鄔波離請世尊曰：「如大德說：『有同分罪、
 <lb n="0424c12" ed="T"/>非同分罪。』何者是耶？」佛言：「同分罪者，謂波
-<lb n="0424c13" ed="T"/>羅市伽望波羅市迦，名為同分；若望餘部，名
+<lb n="0424c13" ed="T"/>羅市<anchor xml:id="beg_18" type="cb-app"/>迦<anchor xml:id="end_18"/>望波羅市迦，名為同分；若望餘部，名
 <lb n="0424c14" ed="T"/>非同分。下之四部同分亦然。」「如世尊說：『有齊
 <lb n="0424c15" ed="T"/>限罪、無齊限罪。』何者是耶？」佛言：「若有苾芻，不
 <lb n="0424c16" ed="T"/>能記憶罪及夜數，名無齊限。若有能憶知罪
@@ -1332,15 +1359,15 @@ Added comment  for Emacs
 <lb n="0425b14" ed="T"/>諸天神勿為敬事。」時有苾芻於天神處便生
 <lb n="0425b15" ed="T"/>輕賤，彼天神曰：「我等於仁有何過失而見欺
 <lb n="0425b16" ed="T"/><anchor xml:id="nkr_note_orig_0425010" n="0425010"/><anchor xml:id="nkr_note_mod_0425010" n="0425010"/><anchor xml:id="beg0425010" n="0425010"/>倰<anchor xml:id="end0425010"/>？」時諸苾芻以緣白佛，佛言：「汝等從今於天
-<lb n="0425b17" ed="T"/>神處，不應供養亦勿欺<anchor xml:id="beg_14" type="star"/>倰<anchor xml:id="end_14"/>。」時有苾芻，後於餘
+<lb n="0425b17" ed="T"/>神處，不應供養亦勿欺<anchor xml:id="beg_19" type="star"/>倰<anchor xml:id="end_19"/>。」時有苾芻，後於餘
 <lb n="0425b18" ed="T"/>處見羯吒布呾那，及摩登伽瞿利<anchor xml:id="nkr_note_orig_0425011" n="0425011"/><anchor xml:id="nkr_note_mod_0425011" n="0425011"/><anchor xml:id="beg0425011" n="0425011"/>伽<anchor xml:id="end0425011"/>像即便
 <lb n="0425b19" ed="T"/>打破。時諸居士作如是言：「此天神像無有心
 <lb n="0425b20" ed="T"/>識，聖者何故輒毀破耶？」時諸苾芻以緣白佛，
 <lb n="0425b21" ed="T"/>佛言：「汝等苾芻！於天神像不應毀壞。」有諸苾
 <lb n="0425b22" ed="T"/>芻隨處遊行，時彼路便右繞天廟，佛言：「苾芻
-<lb n="0425b23" ed="T"/>不應右繞天廟。」遂即避路，便為棘刺之所傷
+<lb n="0425b23" ed="T"/>不應右繞天廟。」遂即避路，便為棘<anchor xml:id="beg_1a" type="cb-app"/>刺<anchor xml:id="end_1a"/>之所傷
 <lb n="0425b24" ed="T"/>損，佛言：「應取舊路。若因道便而右繞者，誦聖
-<lb n="0425b25" ed="T"/>伽<anchor xml:id="beg_15" type="star"/>他<anchor xml:id="end_15"/>謦欬彈指令其警覺。」</p><p xml:id="pT24p0425b2511" rend="inline">具壽鄔波離白佛
+<lb n="0425b25" ed="T"/>伽<anchor xml:id="beg_1b" type="star"/>他<anchor xml:id="end_1b"/>謦欬彈指令其警覺。」</p><p xml:id="pT24p0425b2511" rend="inline">具壽鄔波離白佛
 <lb n="0425b26" ed="T"/>言：「世尊！如說大界極兩驛半，令諸弟子於親
 <lb n="0425b27" ed="T"/>教師軌範師處每日三時請教白事，是佛親
 <lb n="0425b28" ed="T"/>制。彼諸弟子去親教師及軌範師有兩驛半，
@@ -1365,7 +1392,7 @@ Added comment  for Emacs
 <lb n="0425c17" ed="T"/>有私通事，遂遣使人報婬女曰：「我於今日請
 <lb n="0425c18" ed="T"/>佛及僧，明日就家謹設供養，汝可來此手自
 <lb n="0425c19" ed="T"/>奉食。」是時婬女遇有他緣，不及親往。佛及僧
-<lb n="0425c20" ed="T"/>伽至時赴請，<anchor xml:id="nkr_note_orig_0425012" n="0425012"/><anchor xml:id="nkr_note_mod_0425012" n="0425012"/><anchor xml:id="beg0425012" n="0425012"/>餅<anchor xml:id="end0425012"/>食已訖，說施伽<anchor xml:id="beg_16" type="star"/>他<anchor xml:id="end_16"/>從座而
+<lb n="0425c20" ed="T"/>伽至時赴請，<anchor xml:id="nkr_note_orig_0425012" n="0425012"/><anchor xml:id="nkr_note_mod_0425012" n="0425012"/><anchor xml:id="beg0425012" n="0425012"/>餅<anchor xml:id="end0425012"/>食已訖，說施伽<anchor xml:id="beg_1c" type="star"/>他<anchor xml:id="end_1c"/>從座而
 <lb n="0425c21" ed="T"/>去。時彼長者是阿尼盧馱弟子知識，佛僧去
 <lb n="0425c22" ed="T"/>已，唯彼弟子未出其舍，是時長者白言：「大德！
 <lb n="0425c23" ed="T"/>願以此鉢暫時相借，以所餘食欲寄與人。」苾
@@ -1564,7 +1591,7 @@ Added comment  for Emacs
 <lb n="0428a05" ed="T"/>「又許畜眼藥椎及小藥合，不知以何物作？」佛
 <lb n="0428a06" ed="T"/>言：「除寶。餘皆應畜。」</p>
 <lb n="0428a07" ed="T"/><p xml:id="pT24p0428a0701">第五子攝頌曰：</p>
-<lb n="0428a08" ed="T"/><lg xml:id="lgT24p0428a0801"><l>藥器及<g ref="#CB01071">𣰽</g>毺、</l><l>承足枯瀉藥，</l>
+<lb n="0428a08" ed="T"/><lg xml:id="lgT24p0428a0801"><l>藥器及<g ref="#CB01071">𣰽</g>毺、</l><l>承足<anchor xml:id="beg_1d" type="cb-app"/>枮<anchor xml:id="end_1d"/>瀉藥，</l>
 <lb n="0428a09" ed="T"/><l>苾芻不應<anchor xml:id="nkr_note_orig_0428002" n="0428002"/><anchor xml:id="nkr_note_mod_0428002" n="0428002"/><anchor xml:id="beg0428002" n="0428002"/>作<anchor xml:id="end0428002"/>，</l><l>當擇死人衣。</l></lg>
 <lb n="0428a10" ed="T"/><p xml:id="pT24p0428a1001">緣處同前。具壽鄔波離白世尊言：「如世尊說：
 <lb n="0428a11" ed="T"/>『開諸苾芻畜貯藥器。』當用何物？」佛言：「除諸寶
@@ -1631,7 +1658,7 @@ Added comment  for Emacs
 <lb n="0428c12" ed="T"/>父母處應須供給。」時彼不知何物應與？佛言：
 <lb n="0428c13" ed="T"/>「應除衣鉢餘物供給。若無餘物，可從施主隨
 <lb n="0428c14" ed="T"/>時乞求。若乞求難得，應以僧常所得利物共
-<lb n="0428c15" ed="T"/>相供結。若無利物，應以僧常所食之分減取
+<lb n="0428c15" ed="T"/>相供<anchor xml:id="beg_1e" type="cb-app"/>給<anchor xml:id="end_1e"/>。若無利物，應以僧常所食之分減取
 <lb n="0428c16" ed="T"/>其半而為供濟。若常乞食隨他活者，以己
 <lb n="0428c17" ed="T"/>所須滿腹食內，應取其半濟於父母。」</p>
 <lb n="0428c18" ed="T"/><p xml:id="pT24p0428c1801">緣處同前。時有施主，於聚落中造立住處供
@@ -1687,7 +1714,7 @@ Added comment  for Emacs
 <lb n="0429b08" ed="T"/>言：「世尊！唯願許我於彼髮爪窣覩波上，以鮮
 <lb n="0429b09" ed="T"/>白物而為塗拭，復於其處行<anchor xml:id="nkr_note_orig_0429004" n="0429004"/><anchor xml:id="beg0429004" n="0429004"/>列<anchor xml:id="end0429004"/>然燈而為供
 <lb n="0429b10" ed="T"/>養。」佛言：「皆隨意作。」長者以燈安在級上，油下
-<lb n="0429b11" ed="T"/>污塔，佛言：「可於級下行<anchor xml:id="beg_17" type="star"/>列<anchor xml:id="end_17"/>然燈。」有犬食油
+<lb n="0429b11" ed="T"/>污塔，佛言：「可於級下行<anchor xml:id="beg_1f" type="star"/>列<anchor xml:id="end_1f"/>然燈。」有犬食油
 <lb n="0429b12" ed="T"/>墜損油器，長者白佛：「請造燈樹。」佛言：「隨作。」
 <lb n="0429b13" ed="T"/>牛來觸破，長者白佛：「請為燈架。」佛言：「應作。」
 <lb n="0429b14" ed="T"/>四面安燈便非顯望，長者白佛：「請作高簷。」佛
@@ -1705,7 +1732,7 @@ Added comment  for Emacs
 <lb n="0429b26" ed="T"/><p xml:id="pT24p0429b2601">爾時佛在室羅伐城。諸苾芻眾於供養時，欲
 <lb n="0429b27" ed="T"/>以花鬘<anchor xml:id="nkr_note_orig_0429006" n="0429006"/><anchor xml:id="nkr_note_mod_0429006" n="0429006"/><anchor xml:id="beg0429006" n="0429006"/>挂<anchor xml:id="end0429006"/>於塔上，即便登躡，以釘釘塔挂諸
 <lb n="0429b28" ed="T"/>花鬘。時婆羅門居士咸作是言：「仁等大師久
-<lb n="0429b29" ed="T"/>除<anchor xml:id="nkr_note_orig_0429007" n="0429007"/><anchor xml:id="beg0429007" n="0429007"/>釘<anchor xml:id="end0429007"/>刺，何故今者以<anchor xml:id="beg_18" type="star"/>釘<anchor xml:id="end_18"/>釘之？」時諸苾芻以
+<lb n="0429b29" ed="T"/>除<anchor xml:id="nkr_note_orig_0429007" n="0429007"/><anchor xml:id="beg0429007" n="0429007"/>釘<anchor xml:id="end0429007"/>刺，何故今者以<anchor xml:id="beg_20" type="star"/>釘<anchor xml:id="end_20"/>釘之？」時諸苾芻以
 <pb n="0429c" ed="T" xml:id="T24.1452.0429c"/>
 <lb n="0429c01" ed="T"/>緣白佛，佛言：「不<anchor xml:id="nkr_note_orig_0429008" n="0429008"/><anchor xml:id="beg0429008" n="0429008"/>應<anchor xml:id="end0429008"/>於窣覩波上尖刺釘之，
 <lb n="0429c02" ed="T"/>若有犯者得惡作罪。然於剏始造塔之時，應
@@ -1720,8 +1747,8 @@ Added comment  for Emacs
 <lb n="0429c11" ed="T"/>作罪。若窣覩波形高大者，應可以繩繫相
 <lb n="0429c12" ed="T"/>輪下攀緣而上。」有婆羅門居士，咸來詣髮爪
 <lb n="0429c13" ed="T"/>窣覩波處，各持花鬘奉獻供養，所有乾花而
-<lb n="0429c14" ed="T"/>不<anchor xml:id="nkr_note_orig_0429010" n="0429010"/><anchor xml:id="nkr_note_mod_0429010" n="0429010"/><anchor xml:id="beg0429010" n="0429010"/>摒<anchor xml:id="end0429010"/>除，不能淨<anchor xml:id="nkr_note_orig_0429011" n="0429011"/><anchor xml:id="beg0429011" n="0429011"/>潔<anchor xml:id="end0429011"/>，佛言：「<anchor xml:id="beg_19" type="star"/>摒<anchor xml:id="end_19"/>除。」時給孤獨
-<lb n="0429c15" ed="T"/>長者請世尊白：「我今願以金銀花鬘供養髮
+<lb n="0429c14" ed="T"/>不<anchor xml:id="nkr_note_orig_0429010" n="0429010"/><anchor xml:id="nkr_note_mod_0429010" n="0429010"/><anchor xml:id="beg0429010" n="0429010"/>摒<anchor xml:id="end0429010"/>除，不能淨<anchor xml:id="nkr_note_orig_0429011" n="0429011"/><anchor xml:id="beg0429011" n="0429011"/>潔<anchor xml:id="end0429011"/>，佛言：「<anchor xml:id="beg_21" type="star"/>摒<anchor xml:id="end_21"/>除。」時給孤獨
+<lb n="0429c15" ed="T"/>長者請世尊<anchor xml:id="beg_22" type="cb-app"/>曰<anchor xml:id="end_22"/>：「我今願以金銀花鬘供養髮
 <lb n="0429c16" ed="T"/>爪窣覩波。」佛言：「隨作。」塔上鳥栖不淨穢污，欲
 <lb n="0429c17" ed="T"/>於其上造立覆舍，佛言：「應作。」復為無門，室闇
 <lb n="0429c18" ed="T"/>損壞，佛言：「隨意開門。」</p>
@@ -1902,8 +1929,8 @@ Added comment  for Emacs
 <lb n="0431c13" ed="T"/><p xml:id="pT24p0431c1301">第六子攝頌曰：</p>
 <lb n="0431c14" ed="T"/><lg xml:id="lgT24p0431c1401"><l>羯恥那衣<anchor xml:id="nkr_note_orig_0431003" n="0431003"/><anchor xml:id="nkr_note_mod_0431003" n="0431003"/><anchor xml:id="beg0431003" n="0431003"/><g ref="#CB00950">󰎶</g><anchor xml:id="end0431003"/>，</l><l>絣線正縫時，</l>
 <lb n="0431c15" ed="T"/><l>染汁雜物等，</l><l>用時不應奪。</l></lg>
-<lb n="0431c16" ed="T"/><p xml:id="pT24p0431c1601">緣處同前。是時大眾有羯恥那衣<anchor xml:id="beg_1a" type="star"/><g ref="#CB00950">󰎶</g><anchor xml:id="end_1a"/>。有一苾
-<lb n="0431c17" ed="T"/>芻，用此衣<anchor xml:id="beg_1b" type="star"/><g ref="#CB00950">󰎶</g><anchor xml:id="end_1b"/>張僧伽胝等，作衣纔半，六眾
+<lb n="0431c16" ed="T"/><p xml:id="pT24p0431c1601">緣處同前。是時大眾有羯恥那衣<anchor xml:id="beg_23" type="star"/><g ref="#CB00950">󰎶</g><anchor xml:id="end_23"/>。有一苾
+<lb n="0431c17" ed="T"/>芻，用此衣<anchor xml:id="beg_24" type="star"/><g ref="#CB00950">󰎶</g><anchor xml:id="end_24"/>張僧伽胝等，作衣纔半，六眾
 <lb n="0431c18" ed="T"/>來見即便強奪：「我是耆宿，理應先用。」時諸苾
 <lb n="0431c19" ed="T"/>芻以緣白佛，佛言：「他用未了不應輒奪，待彼
 <lb n="0431c20" ed="T"/>事畢方可取之。如其奪者得越法罪，如是應
@@ -1922,7 +1949,7 @@ Added comment  for Emacs
 <lb n="0432a07" ed="T"/><l>有五種親友，</l><l>得法獨應行。</l></lg>
 <lb n="0432a08" ed="T"/><p xml:id="pT24p0432a0801">爾時佛在王舍城住竹林園。時摩<anchor xml:id="nkr_note_orig_0432001" n="0432001"/><anchor xml:id="nkr_note_mod_0432001" n="0432001"/><anchor xml:id="beg0432001" n="0432001"/>揭<anchor xml:id="end0432001"/>陀主影
 <lb n="0432a09" ed="T"/>勝大王，聞說妙法得見諦已，遂與八萬諸天
-<lb n="0432a10" ed="T"/>子眾，并摩<anchor xml:id="beg_1c" type="star"/>揭<anchor xml:id="end_1c"/>陀國長者、居士婆羅門等過百
+<lb n="0432a10" ed="T"/>子眾，并摩<anchor xml:id="beg_25" type="star"/>揭<anchor xml:id="end_25"/>陀國長者、居士婆羅門等過百
 <lb n="0432a11" ed="T"/>千數，於大眾中制立嚴教，擊鼓宣令普告國
 <lb n="0432a12" ed="T"/>人：「不得有人輒為竊盜。若有犯者驅令出國，
 <lb n="0432a13" ed="T"/>所有家資庫藏財物，悉皆給與被賊之人。」是
@@ -1930,7 +1957,7 @@ Added comment  for Emacs
 <lb n="0432a15" ed="T"/>調伏已，亦於國界作其嚴制：「於我國中不得
 <lb n="0432a16" ed="T"/>有人輒行竊盜，如有犯者斷其命根，所有家
 <lb n="0432a17" ed="T"/>資庫藏財物，悉皆給與被賊之人。」爾時群賊
-<lb n="0432a18" ed="T"/>咸悉逃竄，二國中間屯營而住。摩<anchor xml:id="beg_1d" type="star"/>揭<anchor xml:id="end_1d"/>陀國有
+<lb n="0432a18" ed="T"/>咸悉逃竄，二國中間屯營而住。摩<anchor xml:id="beg_26" type="star"/>揭<anchor xml:id="end_26"/>陀國有
 <lb n="0432a19" ed="T"/>諸商人，相隨而往憍薩羅國。到彼界已，時諸
 <lb n="0432a20" ed="T"/>商主告其伴曰：「我今平安，仁可歸去。」從者去
 <lb n="0432a21" ed="T"/>已，賊便遙見知無護者，便共劫奪。時諸商人
@@ -2035,14 +2062,14 @@ Added comment  for Emacs
 <pb n="0433b" ed="T" xml:id="T24.1452.0433b"/>
 <lb n="0433b01" ed="T"/>二居士共為交易，一人問曰：「此衣幾價？」衣主
 <lb n="0433b02" ed="T"/>答曰：「二十迦利<anchor xml:id="nkr_note_orig_0433003" n="0433003"/><anchor xml:id="nkr_note_mod_0433003" n="0433003"/><anchor xml:id="beg0433003" n="0433003"/>沙波<anchor xml:id="end0433003"/>拏。」買衣人曰：「我今酬
-<lb n="0433b03" ed="T"/>汝十迦利<anchor xml:id="beg_1e" type="star"/>沙波<anchor xml:id="end_1e"/>拏。」時鄔波難陀來至其所，彼
+<lb n="0433b03" ed="T"/>汝十迦利<anchor xml:id="beg_27" type="star"/>沙波<anchor xml:id="end_27"/>拏。」時鄔波難陀來至其所，彼
 <lb n="0433b04" ed="T"/>之二人作如是念：「諸大苾芻出言決定，我等
 <lb n="0433b05" ed="T"/>宜應請斷其價。」二人共問鄔波難陀：「大德！此
 <lb n="0433b06" ed="T"/>之衣物價直幾多？」是時鄔波難陀私問一人：
 <lb n="0433b07" ed="T"/>「汝欲買衣？為當賣衣？」答言：「我買。」鄔波難陀報
-<lb n="0433b08" ed="T"/>曰：「此衣價直二十迦利<anchor xml:id="beg_1f" type="star"/>沙波<anchor xml:id="end_1f"/>拏。」又問<anchor xml:id="nkr_note_orig_0433004" n="0433004"/><anchor xml:id="beg0433004" n="0433004"/>第<anchor xml:id="end0433004"/>二：
+<lb n="0433b08" ed="T"/>曰：「此衣價直二十迦利<anchor xml:id="beg_28" type="star"/>沙波<anchor xml:id="end_28"/>拏。」又問<anchor xml:id="nkr_note_orig_0433004" n="0433004"/><anchor xml:id="beg0433004" n="0433004"/>第<anchor xml:id="end0433004"/>二：
 <lb n="0433b09" ed="T"/>「汝欲賣衣？」報言：「我賣。」鄔波難陀報曰：「此衣可
-<lb n="0433b10" ed="T"/>直四十迦利<anchor xml:id="beg_20" type="star"/>沙波<anchor xml:id="end_20"/>拏。」二人交易，賣索四十，
+<lb n="0433b10" ed="T"/>直四十迦利<anchor xml:id="beg_29" type="star"/>沙波<anchor xml:id="end_29"/>拏。」二人交易，賣索四十，
 <lb n="0433b11" ed="T"/>買酬二十，因致紛諍。買衣人曰：「我於和市人
 <lb n="0433b12" ed="T"/>邊聞直二十。」衣主復云：「我於和市人邊聞直
 <lb n="0433b13" ed="T"/>四十。」<anchor xml:id="nkr_note_orig_0433005" n="0433005"/><anchor xml:id="beg0433005" n="0433005"/>互<anchor xml:id="end0433005"/>相謂曰：「我等二人共於一處聽其斷
@@ -2061,7 +2088,7 @@ Added comment  for Emacs
 <lb n="0433b26" ed="T"/><p xml:id="pT24p0433b2601">爾時佛在王舍城。時頻毘娑羅王，以一千
 <lb n="0433b27" ed="T"/>根菴沒羅<anchor xml:id="nkr_note_orig_0433006" n="0433006"/><anchor xml:id="nkr_note_mod_0433006" n="0433006"/><anchor xml:id="beg0433006" n="0433006"/>林<anchor xml:id="end0433006"/>施與僧伽。時諸苾芻雖取果食
 <lb n="0433b28" ed="T"/>不令看守，遂致摧折而便荒穢。頻毘娑羅王
-<lb n="0433b29" ed="T"/>見<anchor xml:id="beg_21" type="star"/>林<anchor xml:id="end_21"/>摧折，問左右曰：「此菴沒羅林是誰園樹？」
+<lb n="0433b29" ed="T"/>見<anchor xml:id="beg_2a" type="star"/>林<anchor xml:id="end_2a"/>摧折，問左右曰：「此菴沒羅林是誰園樹？」
 <pb n="0433c" ed="T" xml:id="T24.1452.0433c"/>
 <lb n="0433c01" ed="T"/>大臣答曰：「此是大王先以千株菴沒羅樹施
 <lb n="0433c02" ed="T"/>與苾芻僧伽，僧伽食已而不看守，因即摧殘
@@ -2529,7 +2556,7 @@ Added comment  for Emacs
 <lb n="0438c14" ed="T"/><p xml:id="pT24p0438c1401">緣處同前。時憍薩羅國勝光王邊隅反叛，王
 <lb n="0438c15" ed="T"/>令一將持兵討<anchor xml:id="nkr_note_orig_0438004" n="0438004"/><anchor xml:id="nkr_note_mod_0438004" n="0438004"/><anchor xml:id="beg0438004" n="0438004"/>罰<anchor xml:id="end0438004"/>，遂被他敗振旅而歸，如是
 <lb n="0438c16" ed="T"/>至三被降歸國。時執政大臣遂白王曰：「賊兵
-<lb n="0438c17" ed="T"/>強盛軍將無功，自非大王親臨討<anchor xml:id="beg_22" type="star"/>罰<anchor xml:id="end_22"/>，無由降
+<lb n="0438c17" ed="T"/>強盛軍將無功，自非大王親臨討<anchor xml:id="beg_2b" type="star"/>罰<anchor xml:id="end_2b"/>，無由降
 <lb n="0438c18" ed="T"/>伏。」時勝光王擊鼓宣令遍告諸人：「但於國內
 <lb n="0438c19" ed="T"/>解執刀者，咸可從征。」時王親自嚴整四兵罰
 <lb n="0438c20" ed="T"/>彼不臣，固守而住，其城恃險卒難降伏。是時
@@ -2643,7 +2670,7 @@ Added comment  for Emacs
 <lb n="0440a07" ed="T"/>言：「王厩上馬仁等偷殺。」報言：「此非我殺，是賊
 <lb n="0440a08" ed="T"/>偷來殺而取肉，頭蹄及尾棄地而去。我等將
 <lb n="0440a09" ed="T"/>作糞掃物取。」馬主譏曰：「此實可愛糞掃之物。」
-<lb n="0440a10" ed="T"/>以緣白佛，佛言：「汝等苾芻，諸有<anchor xml:id="beg_23" type="star"/>同<anchor xml:id="end_23"/>蹄之畜
+<lb n="0440a10" ed="T"/>以緣白佛，佛言：「汝等苾芻，諸有<anchor xml:id="beg_2c" type="star"/>同<anchor xml:id="end_2c"/>蹄之畜
 <lb n="0440a11" ed="T"/><anchor xml:id="nkr_note_orig_0440003" n="0440003"/><anchor xml:id="nkr_note_mod_0440003" n="0440003"/><anchor xml:id="beg0440003" n="0440003"/>狐狢<anchor xml:id="end0440003"/>等類並不應食。若有食者得惡作罪。」時
 <lb n="0440a12" ed="T"/>有獼猴攀條遠躑忽然墮地，因即命終。六眾
 <lb n="0440a13" ed="T"/>見已持還住處，置於釜內自煮。時有女人失
@@ -2708,7 +2735,7 @@ Added comment  for Emacs
 <lb n="0440c12" ed="T"/>營辦<anchor xml:id="nkr_note_orig_0440012" n="0440012"/><anchor xml:id="nkr_note_mod_0440012" n="0440012"/><anchor xml:id="beg0440012" n="0440012"/>粆<anchor xml:id="end0440012"/>糖等漿奉佛及僧。諸苾芻等以其
 <lb n="0440c13" ed="T"/>過甜不能多飲，以<anchor xml:id="nkr_note_orig_0440013" n="0440013"/><anchor xml:id="beg0440013" n="0440013"/>緣<anchor xml:id="end0440013"/>白佛，佛言：「<anchor xml:id="nkr_note_orig_0440014" n="0440014"/><anchor xml:id="nkr_note_mod_0440014" n="0440014"/><anchor xml:id="beg0440014" n="0440014"/>葡<anchor xml:id="end0440014"/>萄石榴
 <lb n="0440c14" ed="T"/>及橘柚等，捼使破碎以物淨濾，勿令稠濁和
-<lb n="0440c15" ed="T"/>攪而飲。」時具壽鄔波離，白佛言：「其<anchor xml:id="beg_24" type="star"/>粆<anchor xml:id="end_24"/>糖飲，
+<lb n="0440c15" ed="T"/>攪而飲。」時具壽鄔波離，白佛言：「其<anchor xml:id="beg_2d" type="star"/>粆<anchor xml:id="end_2d"/>糖飲，
 <lb n="0440c16" ed="T"/>頗得守持經七日不？」佛言：「得，齊何應飲乃至
 <lb n="0440c17" ed="T"/>澄清，未醋已來體未變者，隨意當飲。」</p>
 <lb n="0440c18" ed="T"/><p xml:id="pT24p0440c1801">爾時佛在室羅伐城，時有長者請具壽阿
@@ -2737,14 +2764,14 @@ Added comment  for Emacs
 <lb n="0441a11" ed="T"/><lg xml:id="lgT24p0441a1101"><l>醫教應服<anchor xml:id="nkr_note_orig_0441004" n="0441004"/><anchor xml:id="beg0441004" n="0441004"/>酥<anchor xml:id="end0441004"/>、</l><l>油及餘殘觸、</l>
 <lb n="0441a12" ed="T"/><l>并開<anchor xml:id="nkr_note_orig_0441005" n="0441005"/><anchor xml:id="nkr_note_mod_0441005" n="0441005"/><anchor xml:id="beg0441005" n="0441005"/>服<anchor xml:id="end0441005"/>藥合、</l><l>除十為淨厨。</l></lg>
 <lb n="0441a13" ed="T"/><p xml:id="pT24p0441a1301">緣處同前。有一苾芻身嬰重病，問彼醫人。
-<lb n="0441a14" ed="T"/>醫人報曰：「應可服<anchor xml:id="beg_25" type="star"/>酥<anchor xml:id="end_25"/>，病當除差。」以緣白佛，
+<lb n="0441a14" ed="T"/>醫人報曰：「應可服<anchor xml:id="beg_2e" type="star"/>酥<anchor xml:id="end_2e"/>，病當除差。」以緣白佛，
 <lb n="0441a15" ed="T"/>佛言：「醫人處方隨意應服。」時病苾芻，於其
 <lb n="0441a16" ed="T"/>夜分將欲食酥，無人為授，佛言：「應自取服，
 <lb n="0441a17" ed="T"/>若酥難得，應可服油。」油<anchor xml:id="nkr_note_orig_0441006" n="0441006"/><anchor xml:id="beg0441006" n="0441006"/>更<anchor xml:id="end0441006"/>難得，遂便廢闕。
-<lb n="0441a18" ed="T"/>時餘苾芻有殘觸<anchor xml:id="beg_26" type="star"/>酥<anchor xml:id="end_26"/>油，彼作是言：「我有酥
+<lb n="0441a18" ed="T"/>時餘苾芻有殘觸<anchor xml:id="beg_2f" type="star"/>酥<anchor xml:id="end_2f"/>油，彼作是言：「我有酥
 <lb n="0441a19" ed="T"/>油，然是殘觸。佛若開者汝當取服。」以緣白佛，
 <lb n="0441a20" ed="T"/>佛言：「病者貧無，設是殘觸服之無犯。」具壽鄔
-<lb n="0441a21" ed="T"/>波離白佛言：「如世尊說：『汝諸苾芻應持<anchor xml:id="beg_27" type="star"/>服<anchor xml:id="end_27"/>
+<lb n="0441a21" ed="T"/>波離白佛言：「如世尊說：『汝諸苾芻應持<anchor xml:id="beg_30" type="star"/>服<anchor xml:id="end_30"/>
 <lb n="0441a22" ed="T"/>藥合。』者，其事如何？」佛言：「除四寶已，餘皆得
 <lb n="0441a23" ed="T"/>畜。」</p>
 <lb n="0441a24" ed="T"/><p xml:id="pT24p0441a2401">爾時世尊在薜舍離，告諸苾芻：「有十種地，
@@ -2763,7 +2790,7 @@ Added comment  for Emacs
 <lb n="0441b07" ed="T"/>造酒之物，所謂根莖葉花果等，並屑為<anchor xml:id="nkr_note_orig_0441009" n="0441009"/><anchor xml:id="nkr_note_mod_0441009" n="0441009"/><anchor xml:id="beg0441009" n="0441009"/>末<anchor xml:id="end0441009"/>以
 <lb n="0441b08" ed="T"/>白布裹，可於無力不醉淡酒中而為浸漬，勿
 <lb n="0441b09" ed="T"/>令器滿而封蓋之。後以清水投中攪飲，或以
-<lb n="0441b10" ed="T"/>麴及樹皮并諸香藥，擣簁為<anchor xml:id="beg_28" type="star"/>末<anchor xml:id="end_28"/>，布帛裹之。
+<lb n="0441b10" ed="T"/>麴及樹皮并諸香藥，擣簁為<anchor xml:id="beg_31" type="star"/>末<anchor xml:id="end_31"/>，布帛裹之。
 <lb n="0441b11" ed="T"/>用杖橫繫，懸於新熟酒瓮內，勿令霑酒，經
 <lb n="0441b12" ed="T"/>一二宿以水攪用。斯之二種：時與非時，隨飲
 <lb n="0441b13" ed="T"/>無犯。
@@ -2915,17 +2942,17 @@ Added comment  for Emacs
 <lb n="0443a09" ed="T"/>至赴食，唯獨世尊不赴其請，令使請食寺內
 <lb n="0443a10" ed="T"/>而住。佛有五因緣不往赴請，廣說如常，今
 <lb n="0443a11" ed="T"/>欲為諸弟子制其學處。時彼長者敬重耆宿，
-<lb n="0443a12" ed="T"/>行與上<anchor xml:id="nkr_note_orig_0443003" n="0443003"/><anchor xml:id="nkr_note_mod_0443003" n="0443003"/><anchor xml:id="beg0443003" n="0443003"/>酥<anchor xml:id="end0443003"/>并<anchor xml:id="beg_29" type="star"/>酥<anchor xml:id="end_29"/>煮餅，中年行油煮餅，至於
+<lb n="0443a12" ed="T"/>行與上<anchor xml:id="nkr_note_orig_0443003" n="0443003"/><anchor xml:id="nkr_note_mod_0443003" n="0443003"/><anchor xml:id="beg0443003" n="0443003"/>酥<anchor xml:id="end0443003"/>并<anchor xml:id="beg_32" type="star"/>酥<anchor xml:id="end_32"/>煮餅，中年行油煮餅，至於
 <lb n="0443a13" ed="T"/>下行，與油麻滓并麻滓煮菜。時具壽羅<anchor xml:id="nkr_note_orig_0443004" n="0443004"/><anchor xml:id="beg0443004" n="0443004"/>怙<anchor xml:id="end0443004"/>羅
 <lb n="0443a14" ed="T"/>親為世尊取其鉢食，持至佛所，禮雙足已於
 <lb n="0443a15" ed="T"/>一面坐。諸佛常法於取<anchor xml:id="nkr_note_orig_0443005" n="0443005"/><anchor xml:id="beg0443005" n="0443005"/>食<anchor xml:id="end0443005"/>者<anchor xml:id="nkr_note_orig_0443006" n="0443006"/><anchor xml:id="nkr_note_mod_0443006" n="0443006"/><anchor xml:id="beg0443006" n="0443006"/>歡<anchor xml:id="end0443006"/>言慰問：「彼
-<lb n="0443a16" ed="T"/>苾芻等得美好食不？」羅<anchor xml:id="beg_2a" type="star"/>怙<anchor xml:id="end_2a"/>羅白佛言：「諸僧
+<lb n="0443a16" ed="T"/>苾芻等得美好食不？」羅<anchor xml:id="beg_33" type="star"/>怙<anchor xml:id="end_33"/>羅白佛言：「諸僧
 <lb n="0443a17" ed="T"/>伽等得好美食，極是豐足。」世尊告曰：「汝今何
-<lb n="0443a18" ed="T"/>故身形羸瘦？」時羅<anchor xml:id="beg_2b" type="star"/>怙<anchor xml:id="end_2b"/>羅說伽<anchor xml:id="nkr_note_orig_0443007" n="0443007"/><anchor xml:id="beg0443007" n="0443007"/>他<anchor xml:id="end0443007"/>曰：</p>
+<lb n="0443a18" ed="T"/>故身形羸瘦？」時羅<anchor xml:id="beg_34" type="star"/>怙<anchor xml:id="end_34"/>羅說伽<anchor xml:id="nkr_note_orig_0443007" n="0443007"/><anchor xml:id="beg0443007" n="0443007"/>他<anchor xml:id="end0443007"/>曰：</p>
 <lb n="0443a19" ed="T"/><lg xml:id="lgT24p0443a1901" rend="margin-left:1em;text-indent:-1em"><l>「食油能有力，</l><l><anchor xml:id="nkr_note_orig_0443008" n="0443008"/><anchor xml:id="beg0443008" n="0443008"/>酥<anchor xml:id="end0443008"/>乃足光<anchor xml:id="nkr_note_orig_0443009" n="0443009"/><anchor xml:id="beg0443009" n="0443009"/>暉<anchor xml:id="end0443009"/>；</l>
 <lb n="0443a20" ed="T"/><l>麻滓及菜蔬，</l><l>何能有色力？」</l></lg>
 <lb n="0443a21" ed="T"/><p xml:id="pT24p0443a2101">佛告羅怙羅：「問汝身瘦，因何便以食事答我？」
-<lb n="0443a22" ed="T"/>羅<anchor xml:id="beg_2c" type="star"/>怙<anchor xml:id="end_2c"/>羅具以上事而白世尊，佛言：「誰為僧
+<lb n="0443a22" ed="T"/>羅<anchor xml:id="beg_35" type="star"/>怙<anchor xml:id="end_35"/>羅具以上事而白世尊，佛言：「誰為僧
 <lb n="0443a23" ed="T"/>伽上座？」答言：「是我鄔波馱耶。」佛告羅怙羅：「汝
 <lb n="0443a24" ed="T"/>師舍利子，此是惡食不名善食，何不觀察中
 <lb n="0443a25" ed="T"/>下座食。」佛告諸苾芻：「僧伽上座所有行法，我
@@ -2969,19 +2996,19 @@ Added comment  for Emacs
 <lb n="0443c03" ed="T"/>念：「我今若其不見許者，遂令彼人於勝福田
 <lb n="0443c04" ed="T"/>有大損失，普施一切此復何違。」即許為請。時
 <lb n="0443c05" ed="T"/>室利笈多復生是念：「我若先請沙門喬答摩
-<lb n="0443c06" ed="T"/>就舍食者，彼聚底色迦後不肯請<anchor xml:id="beg_2d" type="star"/>晡<anchor xml:id="end_2d"/><g ref="#CB01836">㘓</g>拏及
-<lb n="0443c07" ed="T"/>諸弟子而設其食。」遂報彼曰：「爾可先請<anchor xml:id="beg_2e" type="star"/>晡<anchor xml:id="end_2e"/>
+<lb n="0443c06" ed="T"/>就舍食者，彼聚底色迦後不肯請<anchor xml:id="beg_36" type="star"/>晡<anchor xml:id="end_36"/><g ref="#CB01836">㘓</g>拏及
+<lb n="0443c07" ed="T"/>諸弟子而設其食。」遂報彼曰：「爾可先請<anchor xml:id="beg_37" type="star"/>晡<anchor xml:id="end_37"/>
 <lb n="0443c08" ed="T"/><g ref="#CB01836">㘓</g>拏等就舍而食，我於次後請佛僧伽而申
-<lb n="0443c09" ed="T"/>供養。」即便許之，尋往<anchor xml:id="beg_2f" type="star"/>晡<anchor xml:id="end_2f"/><g ref="#CB01836">㘓</g>拏處，廣申言論
-<lb n="0443c10" ed="T"/>情歡喜已，遂便告曰：「仁者<anchor xml:id="beg_30" type="star"/>晡<anchor xml:id="end_30"/><g ref="#CB01836">㘓</g>拏及諸弟
-<lb n="0443c11" ed="T"/>子，願至明日就我舍食。」時<anchor xml:id="beg_31" type="star"/>晡<anchor xml:id="end_31"/><g ref="#CB01836">㘓</g>拏便生是
+<lb n="0443c09" ed="T"/>供養。」即便許之，尋往<anchor xml:id="beg_38" type="star"/>晡<anchor xml:id="end_38"/><g ref="#CB01836">㘓</g>拏處，廣申言論
+<lb n="0443c10" ed="T"/>情歡喜已，遂便告曰：「仁者<anchor xml:id="beg_39" type="star"/>晡<anchor xml:id="end_39"/><g ref="#CB01836">㘓</g>拏及諸弟
+<lb n="0443c11" ed="T"/>子，願至明日就我舍食。」時<anchor xml:id="beg_3a" type="star"/>晡<anchor xml:id="end_3a"/><g ref="#CB01836">㘓</g>拏便生是
 <lb n="0443c12" ed="T"/>念：「豈非此人於沙門喬答摩處，見有過失情
 <lb n="0443c13" ed="T"/>不信樂，今於我所起慇重心。我於今<anchor xml:id="nkr_note_orig_0443019" n="0443019"/><anchor xml:id="nkr_note_mod_0443019" n="0443019"/><anchor xml:id="beg0443019" n="0443019"/>者<anchor xml:id="end0443019"/>獲
 <lb n="0443c14" ed="T"/>大利益，又此先祖是我施主，今復歸向正
 <lb n="0443c15" ed="T"/>是其宜。」即便受請。時聚底色迦即於其夜
 <lb n="0443c16" ed="T"/>營辦飲食，敷設座席安置水盆。晨朝遣使。往
-<lb n="0443c17" ed="T"/><anchor xml:id="beg_32" type="star"/>晡<anchor xml:id="end_32"/><g ref="#CB01836">㘓</g>拏處白言：「時至飲食已辦，唯願知時。」
-<lb n="0443c18" ed="T"/>時室利笈多告<anchor xml:id="beg_33" type="star"/>晡<anchor xml:id="end_33"/><g ref="#CB01836">㘓</g>拏曰：「聖者知不？然沙門
+<lb n="0443c17" ed="T"/><anchor xml:id="beg_3b" type="star"/>晡<anchor xml:id="end_3b"/><g ref="#CB01836">㘓</g>拏處白言：「時至飲食已辦，唯願知時。」
+<lb n="0443c18" ed="T"/>時室利笈多告<anchor xml:id="beg_3c" type="star"/>晡<anchor xml:id="end_3c"/><g ref="#CB01836">㘓</g>拏曰：「聖者知不？然沙門
 <lb n="0443c19" ed="T"/>喬答摩，但有俗舍來請命時，創到彼門，先
 <lb n="0443c20" ed="T"/>以右脚蹈其門閫便現微笑。<anchor xml:id="nkr_note_orig_0443020" n="0443020"/><anchor xml:id="nkr_note_mod_0443020" n="0443020"/><anchor xml:id="beg0443020" n="0443020"/>有<anchor xml:id="end0443020"/>侍者阿難陀
 <lb n="0443c21" ed="T"/>即偏袒右肩、右膝著地、合掌請<anchor xml:id="nkr_note_orig_0443021" n="0443021"/><anchor xml:id="beg0443021" n="0443021"/>曰<anchor xml:id="end0443021"/>：『大德！大聖
@@ -2990,7 +3017,7 @@ Added comment  for Emacs
 <lb n="0443c24" ed="T"/>因緣輒便微笑，然佛所至之處皆為授記，能
 <lb n="0443c25" ed="T"/>令大眾發敬信心。仁等今往聚底色迦處入
 <lb n="0443c26" ed="T"/>彼舍時，應如是作，亦復能令大眾生敬信心。』」
-<lb n="0443c27" ed="T"/>即然其事。時<anchor xml:id="beg_34" type="star"/>晡<anchor xml:id="end_34"/><g ref="#CB01836">㘓</g>拏及諸弟子圍繞而去，詣
+<lb n="0443c27" ed="T"/>即然其事。時<anchor xml:id="beg_3d" type="star"/>晡<anchor xml:id="end_3d"/><g ref="#CB01836">㘓</g>拏及諸弟子圍繞而去，詣
 <lb n="0443c28" ed="T"/>聚底色迦住處，既至彼已到其門閫，遂開口
 <lb n="0443c29" ed="T"/>大笑，時露形弟子頂禮其足，合掌問曰：「大德！
 <pb n="0444a" ed="T" xml:id="T24.1452.0444a"/>
@@ -3000,20 +3027,20 @@ Added comment  for Emacs
 <lb n="0444a04" ed="T"/>脚跌從樹顛墮，因即命終。今我念曰：『如此
 <lb n="0444a05" ed="T"/>之畜無識有情，為鄙欲故受大憂苦。』」時聚底
 <lb n="0444a06" ed="T"/>色迦聞此語已，遂作是念：「此婬女兒，向針行
-<lb n="0444a07" ed="T"/>裏更欲賣針。我今折挫令其改肅。」即為<anchor xml:id="beg_35" type="star"/>晡<anchor xml:id="end_35"/>
+<lb n="0444a07" ed="T"/>裏更欲賣針。我今折挫令其改肅。」即為<anchor xml:id="beg_3e" type="star"/>晡<anchor xml:id="end_3e"/>
 <lb n="0444a08" ed="T"/><g ref="#CB01836">㘓</g>拏及諸弟子敷設妙座，以上妙飲食滿盛
 <lb n="0444a09" ed="T"/>銅鉢，置<anchor xml:id="nkr_note_orig_0444001" n="0444001"/><anchor xml:id="nkr_note_mod_0444001" n="0444001"/><anchor xml:id="beg0444001" n="0444001"/>餅<anchor xml:id="end0444001"/>於<anchor xml:id="nkr_note_orig_0444002" n="0444002"/><anchor xml:id="nkr_note_mod_0444002" n="0444002"/><anchor xml:id="beg0444002" n="0444002"/>上，下<anchor xml:id="end0444002"/>安雜味，奉露形眾；於
-<lb n="0444a10" ed="T"/><anchor xml:id="beg_36" type="star"/>晡<anchor xml:id="end_36"/><g ref="#CB01836">㘓</g>拏器，下安諸雜味，上以<anchor xml:id="beg_37" type="star"/>餅<anchor xml:id="end_37"/>覆，而授與
+<lb n="0444a10" ed="T"/><anchor xml:id="beg_3f" type="star"/>晡<anchor xml:id="end_3f"/><g ref="#CB01836">㘓</g>拏器，下安諸雜味，上以<anchor xml:id="beg_40" type="star"/>餅<anchor xml:id="end_40"/>覆，而授與
 <lb n="0444a11" ed="T"/>之。彼便念曰：「我是教主合受好食，如何長者
 <lb n="0444a12" ed="T"/>而不見與？」長者請曰：「何不食耶？」彼便告曰：
-<lb n="0444a13" ed="T"/>「此但有<anchor xml:id="beg_38" type="star"/>餅<anchor xml:id="end_38"/><anchor xml:id="nkr_note_orig_0444003" n="0444003"/><anchor xml:id="nkr_note_mod_0444003" n="0444003"/><anchor xml:id="beg0444003" n="0444003"/>無<anchor xml:id="end0444003"/>雜味，宜可將來。」是時聚底色
-<lb n="0444a14" ed="T"/>迦<note place="inline">舊云樹提伽者，訛也</note>長者即於其前，說伽<anchor xml:id="beg_39" type="star"/>他<anchor xml:id="end_39"/>曰：</p>
+<lb n="0444a13" ed="T"/>「此但有<anchor xml:id="beg_41" type="star"/>餅<anchor xml:id="end_41"/><anchor xml:id="nkr_note_orig_0444003" n="0444003"/><anchor xml:id="nkr_note_mod_0444003" n="0444003"/><anchor xml:id="beg0444003" n="0444003"/>無<anchor xml:id="end0444003"/>雜味，宜可將來。」是時聚底色
+<lb n="0444a14" ed="T"/>迦<note place="inline">舊云樹提伽者，訛也</note>長者即於其前，說伽<anchor xml:id="beg_42" type="star"/>他<anchor xml:id="end_42"/>曰：</p>
 <lb n="0444a15" ed="T"/><lg xml:id="lgT24p0444a1501" rend="margin-left:1em;text-indent:-1em"><l>「應合見者不能見，</l><l>不合見者詐言明；</l>
 <lb n="0444a16" ed="T"/><l>尚覩池側獼猴死，</l><l>如何不見椀中羹？」</l></lg>
-<lb n="0444a17" ed="T"/><p xml:id="pT24p0444a1701">是時長者，於鉢<anchor xml:id="beg_3a" type="star"/>餅<anchor xml:id="end_3a"/>下示其雜味。時彼羞愧
+<lb n="0444a17" ed="T"/><p xml:id="pT24p0444a1701">是時長者，於鉢<anchor xml:id="beg_43" type="star"/>餅<anchor xml:id="end_43"/>下示其雜味。時彼羞愧
 <lb n="0444a18" ed="T"/>即自念言：「我被挫折，待少食訖，我為呪願，
 <lb n="0444a19" ed="T"/>令現在未來所設福業空無果利。」彼既食罷，
-<lb n="0444a20" ed="T"/>即為呪願，說伽<anchor xml:id="beg_3b" type="star"/>他<anchor xml:id="end_3b"/>曰：</p>
+<lb n="0444a20" ed="T"/>即為呪願，說伽<anchor xml:id="beg_44" type="star"/>他<anchor xml:id="end_44"/>曰：</p>
 <lb n="0444a21" ed="T"/><lg xml:id="lgT24p0444a2101" rend="margin-left:1em;text-indent:-1em"><l>「若人少行惠施時，</l><l>及以供養設食時；</l>
 <lb n="0444a22" ed="T"/><l>此非言難詰責時，</l><l>令其善福皆無報。」</l></lg>
 <lb n="0444a23" ed="T"/><p xml:id="pT24p0444a2301">時聚底色迦長者有守門人，既聞事已便作
@@ -3021,11 +3048,11 @@ Added comment  for Emacs
 <lb n="0444a25" ed="T"/>報。此婬女兒，我<anchor xml:id="nkr_note_orig_0444004" n="0444004"/><anchor xml:id="beg0444004" n="0444004"/>今料<anchor xml:id="end0444004"/>理令其落節。」彼遂當
 <lb n="0444a26" ed="T"/>門傾穢水瓨，復拽門關令其半出。時晡<g ref="#CB01836">㘓</g>拏
 <lb n="0444a27" ed="T"/>尋並出門，俱被泥澾遂便倒地，頭觸門關打
-<lb n="0444a28" ed="T"/>破流血。時守門人說伽<anchor xml:id="beg_3c" type="star"/>他<anchor xml:id="end_3c"/>曰：</p>
+<lb n="0444a28" ed="T"/>破流血。時守門人說伽<anchor xml:id="beg_45" type="star"/>他<anchor xml:id="end_45"/>曰：</p>
 <lb n="0444a29" ed="T"/><lg xml:id="lgT24p0444a2901" rend="margin-left:1em;text-indent:-1em"><l>「正是門關抽出時，</l><l>及以穢瓨傾水時；</l>
 <pb n="0444b" ed="T" xml:id="T24.1452.0444b"/>
 <lb n="0444b01" ed="T"/><l>打破其頭血流時，</l><l>此時善福還無報。」</l></lg>
-<lb n="0444b02" ed="T"/><p xml:id="pT24p0444b0201">時<anchor xml:id="beg_3d" type="star"/>晡<anchor xml:id="end_3d"/><g ref="#CB01836">㘓</g>拏持其流血，詣室利笈多處。時彼見
+<lb n="0444b02" ed="T"/><p xml:id="pT24p0444b0201">時<anchor xml:id="beg_46" type="star"/>晡<anchor xml:id="end_46"/><g ref="#CB01836">㘓</g>拏持其流血，詣室利笈多處。時彼見
 <lb n="0444b03" ed="T"/>已問言：「大德！何意頭破流血若斯？」答曰：「被
 <lb n="0444b04" ed="T"/>聚底色迦長者躓頓於我。」即便告曰：「仁大有
 <lb n="0444b05" ed="T"/>幸存命出來，我今作計，令彼喬答摩及僧伽
@@ -3096,9 +3123,9 @@ Added comment  for Emacs
 <lb n="0445a09" ed="T"/>多說苦辭迷悶而住。是時世尊既至中門方
 <lb n="0445a10" ed="T"/>欲舉足，鉢頭摩花從坑<anchor xml:id="nkr_note_orig_0445002" n="0445002"/><anchor xml:id="beg0445002" n="0445002"/>踊<anchor xml:id="end0445002"/>出，時正遍知安
 <lb n="0445a11" ed="T"/><anchor xml:id="nkr_note_orig_0445003" n="0445003"/><anchor xml:id="nkr_note_mod_0445003" n="0445003"/><anchor xml:id="beg0445003" n="0445003"/>庠<anchor xml:id="end0445003"/>舉足，蹈彼蓮花入笈多宅內。是時笈多見
-<lb n="0445a12" ed="T"/>是事已生希有心，即便告彼<anchor xml:id="beg_3e" type="star"/>脯<anchor xml:id="end_3e"/><g ref="#CB01836">㘓</g>拏曰：「請
+<lb n="0445a12" ed="T"/>是事已生希有心，即便告彼<anchor xml:id="beg_47" type="star"/>脯<anchor xml:id="end_47"/><g ref="#CB01836">㘓</g>拏曰：「請
 <lb n="0445a13" ed="T"/>觀世尊神通變現。」彼告長者曰：「汝<anchor xml:id="nkr_note_orig_0445004" n="0445004"/><anchor xml:id="beg0445004" n="0445004"/>今<anchor xml:id="end0445004"/>隨順
-<lb n="0445a14" ed="T"/>喬答摩所為幻術。」長者曰：「縱今幻術，仁等
+<lb n="0445a14" ed="T"/>喬答摩所為幻術。」長者曰：「縱<anchor xml:id="beg_48" type="cb-app"/>令<anchor xml:id="end_48"/>幻術，仁等
 <lb n="0445a15" ed="T"/>若具一切智者，亦可試作如是幻耶？」時彼露
 <lb n="0445a16" ed="T"/>形外道，懷羞帶怖俯面視地曲躬而出。是時
 <lb n="0445a17" ed="T"/>長者深懷愧<g ref="#CB00718">𧹞</g>，不能見佛，便詣妻處告言：「賢
@@ -3124,7 +3151,7 @@ Added comment  for Emacs
 <lb n="0445b07" ed="T"/>告具壽阿難陀曰：「汝可遍語諸苾芻等：『若未
 <lb n="0445b08" ed="T"/>唱三鉢羅<anchor xml:id="nkr_note_orig_0445006" n="0445006"/><anchor xml:id="beg0445006" n="0445006"/>佉<anchor xml:id="end0445006"/>多已來，不應一人輒先受食。』」時
 <lb n="0445b09" ed="T"/>具壽阿難陀如佛所勅，告諸苾芻：「次遣一人
-<lb n="0445b10" ed="T"/>於上座前，唱三鉢羅<anchor xml:id="beg_3f" type="star"/>佉<anchor xml:id="end_3f"/>多。」由是力故，於飲
+<lb n="0445b10" ed="T"/>於上座前，唱三鉢羅<anchor xml:id="beg_49" type="star"/>佉<anchor xml:id="end_49"/>多。」由是力故，於飲
 <lb n="0445b11" ed="T"/>食內諸毒皆除。是時長者便自行食，初從上
 <lb n="0445b12" ed="T"/>座終至下行，周遍觀察作如是念：「奈何今日
 <lb n="0445b13" ed="T"/>從老至少，被毒所中悶絕于地，唯有世尊少
@@ -3141,7 +3168,7 @@ Added comment  for Emacs
 <lb n="0445b24" ed="T"/>住處安<anchor xml:id="nkr_note_orig_0445007" n="0445007"/><anchor xml:id="nkr_note_mod_0445007" n="0445007"/><anchor xml:id="beg0445007" n="0445007"/>庠<anchor xml:id="end0445007"/>而坐告諸苾芻：「僧伽上座所有行
 <lb n="0445b25" ed="T"/>法，我今制之：凡於眾首為上座者，所有供食
 <lb n="0445b26" ed="T"/>置在眾前，先令一人執持飲食，或先行鹽在
-<lb n="0445b27" ed="T"/>上座前曲身恭敬，唱三鉢羅<anchor xml:id="beg_40" type="star"/>佉<anchor xml:id="end_40"/>多，未唱已
+<lb n="0445b27" ed="T"/>上座前曲身恭敬，唱三鉢羅<anchor xml:id="beg_4a" type="star"/>佉<anchor xml:id="end_4a"/>多，未唱已
 <lb n="0445b28" ed="T"/>來不得受食。當知此言有大威力，輒違受食
 <lb n="0445b29" ed="T"/>得惡作罪。<note place="inline">三鉢羅佉多，譯為正至，或為時至，或是密語神呪，能除毒故。昔云僧<anchor xml:id="nkr_note_orig_0445008" n="0445008"/><anchor xml:id="beg0445008" n="0445008"/>跋<anchor xml:id="end0445008"/>者，訛也。佛教遣唱食
 <pb n="0445c" ed="T" xml:id="T24.1452.0445c"/>
@@ -3157,14 +3184,14 @@ Added comment  for Emacs
 <lb n="0445c10" ed="T"/>子言：「我愛宏壯，若聽大者我當為作。」佛言：「隨
 <lb n="0445c11" ed="T"/>情大作。」復有長者，造小窣<anchor xml:id="nkr_note_orig_0445009" n="0445009"/><anchor xml:id="nkr_note_mod_0445009" n="0445009"/><anchor xml:id="beg0445009" n="0445009"/>覩<anchor xml:id="end0445009"/>波造半命終，
 <lb n="0445c12" ed="T"/>子知家業，時諸苾芻往詣宅所告其子言：「賢
-<lb n="0445c13" ed="T"/>首！汝父先造窣<anchor xml:id="beg_41" type="star"/>覩<anchor xml:id="end_41"/>波，功已半訖遂便命終，
+<lb n="0445c13" ed="T"/>首！汝父先造窣<anchor xml:id="beg_4b" type="star"/>覩<anchor xml:id="end_4b"/>波，功已半訖遂便命終，
 <lb n="0445c14" ed="T"/>所有殘功汝宜修造。」彼便告曰：「聖者！我愛壯
 <lb n="0445c15" ed="T"/>麗，此塔形小，若佛見聽增大作者，我當修造。」
 <lb n="0445c16" ed="T"/>以緣白佛，佛言：「如樂大者隨意大作。」
-<lb n="0445c17" ed="T"/>復有長者，造大窣<anchor xml:id="beg_42" type="star"/>覩<anchor xml:id="end_42"/>波，其功已半忽然命
+<lb n="0445c17" ed="T"/>復有長者，造大窣<anchor xml:id="beg_4c" type="star"/>覩<anchor xml:id="end_4c"/>波，其功已半忽然命
 <lb n="0445c18" ed="T"/>過，同前告子，子言：「我今貧乏不能大作，若
 <lb n="0445c19" ed="T"/>聽小者我當作之。」佛言：「隨情小作。
-<lb n="0445c20" ed="T"/>然造窣<anchor xml:id="beg_43" type="star"/>覩<anchor xml:id="end_43"/>波，小者得增大，大者不應減小。
+<lb n="0445c20" ed="T"/>然造窣<anchor xml:id="beg_4d" type="star"/>覩<anchor xml:id="end_4d"/>波，小者得增大，大者不應減小。
 <lb n="0445c21" ed="T"/>若有俗人能大作者善，如不能辦，苾芻應可
 <lb n="0445c22" ed="T"/>勸化助造。」若塔相輪久故破壞，佛言：「應可修
 <lb n="0445c23" ed="T"/>營。」時有先下故輪更造新者，時久不成，佛言：
@@ -3222,7 +3249,7 @@ Added comment  for Emacs
 <lb n="0446b15" ed="T"/>德僧伽聽！此某甲苾芻，樂與大眾作掌衣
 <lb n="0446b16" ed="T"/>物人。若僧伽時至聽者，僧伽應許僧伽今
 <lb n="0446b17" ed="T"/>差苾芻某甲當與大眾作掌衣物人。白如是。』
-<lb n="0446b18" ed="T"/>次作羯磨，準白應知。」</p>
+<lb n="0446b18" ed="T"/>次作羯磨，<anchor xml:id="beg_4e" type="cb-app"/>准<anchor xml:id="end_4e"/>白應知。」</p>
 <lb n="0446b19" ed="T"/><p xml:id="pT24p0446b1901">是時苾芻多獲施物，苾芻尼眾作如是言：「大
 <lb n="0446b20" ed="T"/>德！今獲施物，應分與我。若不與者，我等尼眾
 <lb n="0446b21" ed="T"/>別作朋行。」苾芻聞已遮不許作，尼於異時，遂
@@ -3285,8 +3312,8 @@ Added comment  for Emacs
 <lb n="0447a18" ed="T"/><p xml:id="pT24p0447a1801">爾時佛在室羅伐城，給孤獨長者請世尊曰：
 <lb n="0447a19" ed="T"/>「我欲於逝多林設大法會，願見聽許。」佛言：「今
 <lb n="0447a20" ed="T"/>正是時。」於設會日，六大都城諸苾芻等咸悉
-<lb n="0447a21" ed="T"/>來集，人眾既多遂失時<anchor xml:id="nkr_note_orig_0447004" n="0447004"/><anchor xml:id="beg0447004" n="0447004"/>候<anchor xml:id="end0447004"/>，佛言：「應打<anchor xml:id="beg_44" type="star"/>揵稚<anchor xml:id="end_44"/>。」
-<lb n="0447a22" ed="T"/>雖打<anchor xml:id="beg_45" type="star"/>揵稚<anchor xml:id="end_45"/>眾鬧不聞，佛言：「應擊大鼓。」聞鼓
+<lb n="0447a21" ed="T"/>來集，人眾既多遂失時<anchor xml:id="nkr_note_orig_0447004" n="0447004"/><anchor xml:id="beg0447004" n="0447004"/>候<anchor xml:id="end0447004"/>，佛言：「應打<anchor xml:id="beg_4f" type="star"/>揵稚<anchor xml:id="end_4f"/>。」
+<lb n="0447a22" ed="T"/>雖打<anchor xml:id="beg_50" type="star"/>揵稚<anchor xml:id="end_50"/>眾鬧不聞，佛言：「應擊大鼓。」聞鼓
 <lb n="0447a23" ed="T"/>聲時，應集食處，時諸苾芻可隨大小依次而
 <lb n="0447a24" ed="T"/>坐。行飲食時未至行<anchor xml:id="nkr_note_orig_0447005" n="0447005"/><anchor xml:id="beg0447005" n="0447005"/>末<anchor xml:id="end0447005"/>，日遂過午，時諸苾
 <lb n="0447a25" ed="T"/>芻多有絕食。佛言：「人眾若多，應須量准別作
@@ -3331,7 +3358,7 @@ Added comment  for Emacs
 <lb n="0447c04" ed="T"/>隨施主敬信淨心，所論酬直當為受取。」</p>
 <lb n="0447c05" ed="T"/><p xml:id="pT24p0447c0501">目得迦第三別門總攝頌曰：</p>
 <lb n="0447c06" ed="T"/><lg xml:id="lgT24p0447c0601"><l>資具衣愚癡，</l><l>若差不用俗；</l>
-<lb n="0447c07" ed="T"/><l>正作長者施，</l><l>剃刀窣<anchor xml:id="beg_46" type="star"/>覩<anchor xml:id="end_46"/>波。</l>
+<lb n="0447c07" ed="T"/><l>正作長者施，</l><l>剃刀窣<anchor xml:id="beg_51" type="star"/>覩<anchor xml:id="end_51"/>波。</l>
 <lb n="0447c08" ed="T"/><l>餅酪葉承水，</l><l>及洗鉢等事；</l>
 <lb n="0447c09" ed="T"/><l>此之<anchor xml:id="nkr_note_orig_0447011" n="0447011"/><anchor xml:id="nkr_note_mod_0447011" n="0447011"/><anchor xml:id="beg0447011" n="0447011"/>千<anchor xml:id="end0447011"/>二頌，</l><l>總攝要應知。</l></lg>
 <lb n="0447c10" ed="T"/><p xml:id="pT24p0447c1001">第一子攝頌曰：</p>
@@ -3350,12 +3377,12 @@ Added comment  for Emacs
 <lb n="0447c23" ed="T"/>佛言：「我今開許諸苾芻等得畜十三資具衣。」
 <lb n="0447c24" ed="T"/>苾芻不知何者是十三資具衣？佛言：「一、僧伽
 <lb n="0447c25" ed="T"/>胝，二、嗢呾羅僧伽，三、安呾婆，娑，四、尼師但
-<lb n="0447c26" ed="T"/>那，五、裙，六、副裙，七、僧脚<anchor xml:id="nkr_note_orig_0447014" n="0447014"/><anchor xml:id="nkr_note_mod_0447014" n="0447014"/><anchor xml:id="beg0447014" n="0447014"/>敧<anchor xml:id="end0447014"/>，八、副僧脚<anchor xml:id="beg_47" type="star"/>敧<anchor xml:id="end_47"/>
+<lb n="0447c26" ed="T"/>那，五、裙，六、副裙，七、僧脚<anchor xml:id="nkr_note_orig_0447014" n="0447014"/><anchor xml:id="nkr_note_mod_0447014" n="0447014"/><anchor xml:id="beg0447014" n="0447014"/>敧<anchor xml:id="end0447014"/>，八、副僧脚<anchor xml:id="beg_52" type="star"/>敧<anchor xml:id="end_52"/>
 <lb n="0447c27" ed="T"/>九、拭面巾，十、拭身巾，十一、覆瘡衣，十二、剃髮
 <lb n="0447c28" ed="T"/>衣，十三、藥直衣。是名十三資具衣。」時具壽鄔
 <lb n="0447c29" ed="T"/>波離白佛言：「如世尊說：『苾芻應畜十三資具
 <pb n="0448a" ed="T" xml:id="T24.1452.0448a"/>
-<lb n="0448a01" ed="T"/>衣。』者，云何守持？」佛言：「隨一一衣各別<anchor xml:id="beg_48" type="star"/>牒<anchor xml:id="end_48"/>名
+<lb n="0448a01" ed="T"/>衣。』者，云何守持？」佛言：「隨一一衣各別<anchor xml:id="beg_53" type="star"/>牒<anchor xml:id="end_53"/>名
 <lb n="0448a02" ed="T"/>而為守持，應如是說。對一苾芻，『具壽存念！此
 <lb n="0448a03" ed="T"/>僧伽胝衣我今守持，已作成衣是所受用。』三
 <lb n="0448a04" ed="T"/>說。餘衣守持准此應作，其藥直衣應加為病
@@ -3442,7 +3469,7 @@ Added comment  for Emacs
 <lb n="0448c24" ed="T"/><p xml:id="pT24p0448c2401">爾時佛在王舍城。具壽說籠拏二十億苾芻，
 <lb n="0448c25" ed="T"/>從小以粥長養，由出家後遂不得粥，身體羸
 <lb n="0448c26" ed="T"/>瘦<anchor xml:id="nkr_note_orig_0448009" n="0448009"/><anchor xml:id="nkr_note_mod_0448009" n="0448009"/><anchor xml:id="beg0448009" n="0448009"/>痿<anchor xml:id="end0448009"/>黃無力。是時世尊知而故問阿難陀曰：
-<lb n="0448c27" ed="T"/>「何故說籠拏二十億身極<anchor xml:id="beg_49" type="star"/>痿<anchor xml:id="end_49"/>黃羸瘦無力？」時
+<lb n="0448c27" ed="T"/>「何故說籠拏二十億身極<anchor xml:id="beg_54" type="star"/>痿<anchor xml:id="end_54"/>黃羸瘦無力？」時
 <lb n="0448c28" ed="T"/>阿難陀以緣白佛，佛言：「從今聽許說籠拏二
 <lb n="0448c29" ed="T"/>十億苾芻隨意食粥。」時阿難陀即傳佛教，告
 <pb n="0449a" ed="T" xml:id="T24.1452.0449a"/>
@@ -3566,7 +3593,7 @@ Added comment  for Emacs
 <lb n="0450a28" ed="T"/><l>濁水隨應飲，</l><l>若醎分別知。</l></lg>
 <lb n="0450a29" ed="T"/><p xml:id="pT24p0450a2901">爾時給孤獨長者請世尊曰：「我於如來髮爪
 <pb n="0450b" ed="T" xml:id="T24.1452.0450b"/>
-<lb n="0450b01" ed="T"/>窣<anchor xml:id="beg_4a" type="star"/>覩<anchor xml:id="end_4a"/>波處欲為莊嚴，若佛聽者我當營造。」
+<lb n="0450b01" ed="T"/>窣<anchor xml:id="beg_55" type="star"/>覩<anchor xml:id="end_55"/>波處欲為莊嚴，若佛聽者我當營造。」
 <lb n="0450b02" ed="T"/>佛告長者：「隨意應作。」長者不知云何而作？
 <lb n="0450b03" ed="T"/>佛言：「始從覩史多天下生贍部，化導有情乃
 <lb n="0450b04" ed="T"/>至涅槃，本生聖跡隨意應作。」時諸苾芻隨路
@@ -3589,11 +3616,11 @@ Added comment  for Emacs
 <lb n="0450b21" ed="T"/>諸殘食棄在井中。時諸苾芻欲取水用，以羅
 <lb n="0450b22" ed="T"/>濾漉，於水羅中見有飯粒。苾芻生疑不用。并
 <lb n="0450b23" ed="T"/>貯水瓨亦生疑念，以緣白佛，佛言：「不由彼緣
-<lb n="0450b24" ed="T"/>便成不淨。<anchor xml:id="beg_4b" type="cb-app"/>濾<anchor xml:id="end_4b"/>即成淨，不應棄水。」又諸苾芻池
+<lb n="0450b24" ed="T"/>便成不淨。<anchor xml:id="beg_56" type="cb-app"/>濾<anchor xml:id="end_56"/>即成淨，不應棄水。」又諸苾芻池
 <lb n="0450b25" ed="T"/>中取水，遂見有人洗酥油瓨及以酪瓶。復有
 <lb n="0450b26" ed="T"/>苾芻手執膩鉢亦於此洗，膩浮水上漂汎而
 <lb n="0450b27" ed="T"/>住，酪瓶餘滓片片下沈。時彼苾芻疑不敢用，
-<lb n="0450b28" ed="T"/>以緣白佛，佛言：「非彼能令水成不淨，<anchor xml:id="beg_4c" type="cb-app"/>濾<anchor xml:id="end_4c"/>即是
+<lb n="0450b28" ed="T"/>以緣白佛，佛言：「非彼能令水成不淨，<anchor xml:id="beg_57" type="cb-app"/>濾<anchor xml:id="end_57"/>即是
 <lb n="0450b29" ed="T"/>淨，用之無犯。」時諸苾芻隨路行時水極難得，
 <pb n="0450c" ed="T" xml:id="T24.1452.0450c"/>
 <lb n="0450c01" ed="T"/>至汲水輪所欲取其水，心疑不淨，因此闕
@@ -3638,7 +3665,7 @@ Added comment  for Emacs
 <lb n="0451a10" ed="T"/>又復苾芻應作盛君持籠，時彼不知以何物
 <lb n="0451a11" ed="T"/>作？佛言：「應用版木或以<anchor xml:id="nkr_note_orig_0451002" n="0451002"/><anchor xml:id="beg0451002" n="0451002"/>塼<anchor xml:id="end0451002"/>石安置水瓶不令
 <lb n="0451a12" ed="T"/>虫入。」如世尊說：「先淨<anchor xml:id="nkr_note_orig_0451003" n="0451003"/><anchor xml:id="nkr_note_mod_0451003" n="0451003"/><anchor xml:id="beg0451003" n="0451003"/>漱<anchor xml:id="end0451003"/>手方飲水。」者，道路
-<lb n="0451a13" ed="T"/>行時有少許水，佛言：「可於<anchor xml:id="nkr_note_orig_0451004" n="0451004"/><anchor xml:id="beg0451004" n="0451004"/>棄<anchor xml:id="end0451004"/>中飲。」見是青
+<lb n="0451a13" ed="T"/>行時有少許水，佛言：「可於<anchor xml:id="nkr_note_orig_0451004" n="0451004"/><anchor xml:id="nkr_note_mod_0451004" n="0451004"/><anchor xml:id="beg0451004" n="0451004"/>葉<anchor xml:id="end0451004"/>中飲。」見是青
 <lb n="0451a14" ed="T"/>葉無人摘授，佛言：「枯黃落葉自取飲水。」或時
 <lb n="0451a15" ed="T"/>落葉求亦不得，就枝以葉承水飲用，或連條
 <lb n="0451a16" ed="T"/>葉轉更難求，佛言：「應就屏處淨漱口已，以瓶
@@ -3740,7 +3767,7 @@ Added comment  for Emacs
 <lb n="0452a22" ed="T"/>相助共我推船。」時諸苾芻以是僧船不敢相
 <lb n="0452a23" ed="T"/>助，佛言：「應可助推。」時諸苾芻陸路而去，極生
 <lb n="0452a24" ed="T"/>疲困，是時船主告苾芻言：「可共乘船。」時諸苾
-<lb n="0452a25" ed="T"/>芻疑不敢上，佛言：「除其柁處，隨意乘船。」或時
+<lb n="0452a25" ed="T"/>芻疑不敢上，佛言：「除其<anchor xml:id="beg_58" type="cb-app"/>柂<anchor xml:id="end_58"/>處，隨意乘船。」或時
 <lb n="0452a26" ed="T"/>以擔而摙其分欲暫停息，告苾芻曰：「我欲
 <lb n="0452a27" ed="T"/>歇息暫來下擔。」苾芻生疑不敢為下，佛言：「應
 <lb n="0452a28" ed="T"/>可為下。」復有擔人中途疲困，欲求止息告苾
@@ -3825,13 +3852,13 @@ Added comment  for Emacs
 <lb n="0453a16" ed="T"/>言：「不應披僧衣帔於空露處冒雨經行，若
 <lb n="0453a17" ed="T"/>有用者得惡作罪。」又六眾苾芻，披僧臥具來
 <lb n="0453a18" ed="T"/>至厨<anchor xml:id="nkr_note_orig_0453001" n="0453001"/><anchor xml:id="nkr_note_mod_0453001" n="0453001"/><anchor xml:id="beg0453001" n="0453001"/>中<anchor xml:id="end0453001"/>煙熏損壞。時諸苾芻以緣白佛，佛
-<lb n="0453a19" ed="T"/>言：「不應披僧臥具來向厨<anchor xml:id="beg_4d" type="star"/>中<anchor xml:id="end_4d"/>，若有用者得惡
+<lb n="0453a19" ed="T"/>言：「不應披僧臥具來向厨<anchor xml:id="beg_59" type="star"/>中<anchor xml:id="end_59"/>，若有用者得惡
 <lb n="0453a20" ed="T"/>作罪。」時有苾芻，著向大小便處，苾芻以緣白
 <lb n="0453a21" ed="T"/>佛，佛言：「不應披僧臥具入大小便室，披去者
 <lb n="0453a22" ed="T"/>得惡作罪。」時諸苾芻見有破壞僧祇臥具被
 <lb n="0453a23" ed="T"/>帔，遂共除棄，以緣白佛，佛言：「不應除棄，若
 <lb n="0453a24" ed="T"/>衣欲破應以長<anchor xml:id="nkr_note_orig_0453002" n="0453002"/><anchor xml:id="beg0453002" n="0453002"/>線<anchor xml:id="end0453002"/>而縫絡之。若見有孔應可
-<lb n="0453a25" ed="T"/>補帖，若在內爛兩重幅疊，如總爛壞不堪料
+<lb n="0453a25" ed="T"/>補<anchor xml:id="beg_5a" type="cb-app"/>帖<anchor xml:id="end_5a"/>，若在內爛兩重幅疊，如總爛壞不堪料
 <lb n="0453a26" ed="T"/>理者，應作燈炷，或可斬碎和牛糞作泥，用塞
 <lb n="0453a27" ed="T"/>柱孔，或泥牆壁。如是用時，能令施主所捨福
 <lb n="0453a28" ed="T"/>田任運增長。若三衣破爛，事亦同此。」</p>
@@ -3855,7 +3882,7 @@ Added comment  for Emacs
 <lb n="0453b16" ed="T"/>都盡？」時諸苾芻即以上緣具告施主，長者
 <lb n="0453b17" ed="T"/>曰：「我豈與彼外寺苾芻耶？」長者嫌恨。以緣
 <lb n="0453b18" ed="T"/>白佛，佛言：「苾芻不應於別處住，將此寺食而
-<lb n="0453b19" ed="T"/>向餘處，亦復不應將此寺物以供餘處。<anchor xml:id="beg_4e" type="star"/>飯<anchor xml:id="end_4e"/>
+<lb n="0453b19" ed="T"/>向餘處，亦復不應將此寺物以供餘處。<anchor xml:id="beg_5b" type="star"/>飯<anchor xml:id="end_5b"/>
 <lb n="0453b20" ed="T"/>及燈油乃至花果，若施主本意，唯供此處住
 <lb n="0453b21" ed="T"/>寺之人不通餘人者，若有來食，並須計物酬
 <lb n="0453b22" ed="T"/>其價直。」</p>
@@ -3901,7 +3928,7 @@ Added comment  for Emacs
 <lb n="0454a02" ed="T"/>等宜應還我債直。」苾芻白佛，佛言：「若知苾芻
 <lb n="0454a03" ed="T"/>為僧伽事者，應將眾物以酬前價。我今為諸
 <lb n="0454a04" ed="T"/>營作苾芻制其行法。凡諸營作撿挍苾芻，先
-<lb n="0454a05" ed="T"/>報寺中所有耆宿，方可貸人，或為券記保證
+<lb n="0454a05" ed="T"/>報寺中所有耆宿，方可貸人，或為<anchor xml:id="beg_5c" type="cb-app"/>券<anchor xml:id="end_5c"/>記保證
 <lb n="0454a06" ed="T"/>分明。營作苾芻不依制法，咸得惡作罪。」</p>
 <lb n="0454a07" ed="T"/><p xml:id="pT24p0454a0701">第七子攝頌曰：</p>
 <lb n="0454a08" ed="T"/><lg xml:id="lgT24p0454a0801"><l>甘蔗等平分，</l><l>不應分口腹；</l>
@@ -3960,7 +3987,7 @@ Added comment  for Emacs
 <lb n="0454b30" ed="T"/>北方果木口味尤多，幸願隨喜助成功德。」時
 <pb n="0454c" ed="T" xml:id="T24.1452.0454c"/>
 <lb n="0454c01" ed="T"/>彼藥叉既承信已，即送<anchor xml:id="nkr_note_orig_0454008" n="0454008"/><anchor xml:id="nkr_note_mod_0454008" n="0454008"/><anchor xml:id="beg0454008" n="0454008"/>葡<anchor xml:id="end0454008"/><anchor xml:id="nkr_note_orig_0454009" n="0454009"/><anchor xml:id="beg0454009" n="0454009"/>萄<anchor xml:id="end0454009"/>、石榴、甘橘、甘
-<lb n="0454c02" ed="T"/>蔗、胡挑、渴樹羅等<anchor xml:id="nkr_note_orig_0454010" n="0454010"/><anchor xml:id="nkr_note_mod_0454010" n="0454010"/><anchor xml:id="beg0454010" n="0454010"/>成<anchor xml:id="end0454010"/>滿筐籠，命餘藥叉送彼
+<lb n="0454c02" ed="T"/>蔗、胡<anchor xml:id="beg_5d" type="cb-app"/>桃<anchor xml:id="end_5d"/>、渴樹羅等<anchor xml:id="nkr_note_orig_0454010" n="0454010"/><anchor xml:id="nkr_note_mod_0454010" n="0454010"/><anchor xml:id="beg0454010" n="0454010"/>成<anchor xml:id="end0454010"/>滿筐籠，命餘藥叉送彼
 <lb n="0454c03" ed="T"/>庭中令持供養。諸苾芻見而白佛言：「此北方
 <lb n="0454c04" ed="T"/>果，不知如何？」佛言：「以火作淨然後應食。」時
 <lb n="0454c05" ed="T"/>諸苾芻一一別淨，佛言：「應為一聚，但三四處
@@ -4009,7 +4036,7 @@ Added comment  for Emacs
 <lb n="0455a18" ed="T"/>言：「若客苾芻囑與者，設令偷去亦不應陪，然
 <lb n="0455a19" ed="T"/>須明作記驗方與。」遂作顯露囑授之言，傍人
 <lb n="0455a20" ed="T"/>既聞詐來索物，因此失財，佛言：「宜應屏處為
-<lb n="0455a21" ed="T"/>說記驗，分明顯示寄物之狀，然後與衣。」時有
+<lb n="0455a21" ed="T"/>說記驗，分<anchor xml:id="beg_5e" type="cb-app"/>別<anchor xml:id="end_5e"/>顯示寄物之狀，然後與衣。」時有
 <lb n="0455a22" ed="T"/>苾芻隨路而行，既至河津乘船欲去，語其伴
 <lb n="0455a23" ed="T"/>曰：「過衣袋來。」彼便授與，授受不<anchor xml:id="nkr_note_orig_0455002" n="0455002"/><anchor xml:id="beg0455002" n="0455002"/>牢<anchor xml:id="end0455002"/>，衣便墮
 <lb n="0455a24" ed="T"/>水。苾芻告曰：「還我衣袋來。」彼便不伏。時諸苾
@@ -4032,8 +4059,8 @@ Added comment  for Emacs
 <lb n="0455b11" ed="T"/><lg xml:id="lgT24p0455b1101"><l>裙及僧脚<anchor xml:id="nkr_note_orig_0455005" n="0455005"/><anchor xml:id="nkr_note_mod_0455005" n="0455005"/><anchor xml:id="beg0455005" n="0455005"/>敧<anchor xml:id="end0455005"/>，</l><l>香泥污衣洗，</l>
 <lb n="0455b12" ed="T"/><l>取食除多分，</l><l>須知十種塵。</l></lg>
 <lb n="0455b13" ed="T"/><p xml:id="pT24p0455b1301">時諸苾芻裙被油污，遂令氣臭。時諸苾芻以
-<lb n="0455b14" ed="T"/>緣白佛，佛言：「應畜副裙。」乃至僧脚<anchor xml:id="beg_4f" type="star"/>敧<anchor xml:id="end_4f"/>污，
-<lb n="0455b15" ed="T"/><anchor xml:id="nkr_note_orig_0455006" n="0455006"/><anchor xml:id="nkr_note_mod_0455006" n="0455006"/><anchor xml:id="beg0455006" n="0455006"/>污<anchor xml:id="end0455006"/>亦流徹濕污大衣，佛言：「應畜副僧脚<anchor xml:id="beg_50" type="star"/>敧<anchor xml:id="end_50"/>。」
+<lb n="0455b14" ed="T"/>緣白佛，佛言：「應畜副裙。」乃至僧脚<anchor xml:id="beg_5f" type="star"/>敧<anchor xml:id="end_5f"/>，<anchor xml:id="beg_60" type="cb-app"/>汗<anchor xml:id="end_60"/>
+<lb n="0455b15" ed="T"/><anchor xml:id="nkr_note_orig_0455006" n="0455006"/><anchor xml:id="nkr_note_mod_0455006" n="0455006"/><anchor xml:id="beg0455006" n="0455006"/>污<anchor xml:id="end0455006"/>亦流徹濕污大衣，佛言：「應畜副僧脚<anchor xml:id="beg_61" type="star"/>敧<anchor xml:id="end_61"/>。」
 <lb n="0455b16" ed="T"/>時諸苾芻設大供養，被諸香泥末香及油<anchor xml:id="nkr_note_orig_0455007" n="0455007"/><anchor xml:id="beg0455007" n="0455007"/>沾<anchor xml:id="end0455007"/>
 <lb n="0455b17" ed="T"/>壞衣服，以緣白佛，佛言：「若末香損者應須
 <lb n="0455b18" ed="T"/>抖擻然後方披，香泥污者洗已應披。若被油
@@ -4061,7 +4088,7 @@ Added comment  for Emacs
 <app from="#beg0415003" to="#end0415003"><lem wit="#wit1">戶</lem><rdg resp="#resp1" wit="#wit2">尸</rdg></app>
 <app from="#beg0415004" to="#end0415004"><lem wit="#wit1">自言</lem><rdg resp="#resp1" wit="#wit6">白言</rdg></app>
 <app from="#beg_1" to="#end_1" corresp="#0415004"><lem wit="#wit1">自言</lem><rdg resp="#resp1" wit="#wit6">白言</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>而</corr><sic>面</sic></choice>
+<app from="#beg_2" to="#end_2"><lem resp="#resp3" wit="#wit7 #wit8">而<note type="cf1">K22n0894_p0911a11</note></lem><rdg wit="#wit1">面</rdg></app>
 <app from="#beg0415005" to="#end0415005"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">不能</rdg></app>
 <app from="#beg0415006" to="#end0415006"><lem wit="#wit1">數</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0415007" to="#end0415007"><lem wit="#wit1">枚</lem><rdg resp="#resp1" wit="#wit2">牧</rdg></app>
@@ -4086,31 +4113,33 @@ Added comment  for Emacs
 <app from="#beg0417004" to="#end0417004"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0417005" to="#end0417005"><lem wit="#wit1">持</lem><rdg resp="#resp1" wit="#wit2">於</rdg></app>
 <app from="#beg0417006" to="#end0417006"><lem wit="#wit1">壓</lem><rdg resp="#resp1" wit="#wit2">押</rdg></app>
-<app from="#beg_6" to="#end_6" corresp="#0417006"><lem wit="#wit1">壓</lem><rdg resp="#resp1" wit="#wit2">押</rdg></app>
+<app from="#beg_6" to="#end_6"><lem resp="#resp3" wit="#wit7 #wit8">令<note type="cf1">K22n0894_p0914c02</note></lem><rdg wit="#wit1">今</rdg></app>
+<app from="#beg_7" to="#end_7" corresp="#0417006"><lem wit="#wit1">壓</lem><rdg resp="#resp1" wit="#wit2">押</rdg></app>
 <app from="#beg0418001" to="#end0418001"><lem wit="#wit1">由</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">言由</rdg></app>
 <app from="#beg0418002" to="#end0418002"><lem wit="#wit1">抄</lem><rdg resp="#resp1" wit="#wit4 #wit5">杪</rdg></app>
-<app from="#beg_7" to="#end_7" corresp="#0418002"><lem wit="#wit1">抄</lem><rdg resp="#resp1" wit="#wit4 #wit5">杪</rdg></app>
+<app from="#beg_8" to="#end_8" corresp="#0418002"><lem wit="#wit1">抄</lem><rdg resp="#resp1" wit="#wit4 #wit5">杪</rdg></app>
 <app from="#beg0418003" to="#end0418003"><lem wit="#wit1">坐</lem><rdg resp="#resp1" wit="#wit2">生</rdg></app>
 <app from="#beg0418004" to="#end0418004"><lem wit="#wit1">踞</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit6">居</rdg></app>
+<app from="#beg_9" to="#end_9"><lem resp="#resp3" wit="#wit7 #wit8">及<note type="cf1">K22n0894_p0915b09</note></lem><rdg wit="#wit1"><space quantity="0"/></rdg></app>
 <app from="#beg0418006" to="#end0418006"><lem wit="#wit1">主</lem><rdg resp="#resp1" wit="#wit2">寺主</rdg></app>
 <app from="#beg0418007" to="#end0418007"><lem wit="#wit1">渭</lem><rdg resp="#resp1" wit="#wit6 #wit2">洛</rdg></app>
 <app from="#beg0418008" to="#end0418008"><lem wit="#wit1">莊</lem><rdg resp="#resp1" wit="#wit2">在</rdg></app>
-<app from="#beg_8" to="#end_8" corresp="#0418006"><lem wit="#wit1">主</lem><rdg resp="#resp1" wit="#wit2">寺主</rdg></app>
+<app from="#beg_a" to="#end_a" corresp="#0418006"><lem wit="#wit1">主</lem><rdg resp="#resp1" wit="#wit2">寺主</rdg></app>
 <app from="#beg0418009" to="#end0418009"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0418010" to="#end0418010"><lem wit="#wit1">門</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app cb:word-count="29" from="#beg0418011" to="#end0418011"><lem wit="#wit1">翻經婆羅門東天竺國左屯衛翊府中郎將<lb n="0418c09" ed="T"/>員外置同正員臣翟金剛證義</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0418012" to="#end0418012"><lem wit="#wit1">左</lem><rdg resp="#resp1" wit="#wit2">右</rdg></app>
 <app from="#beg0418013" to="#end0418013"><lem wit="#wit1">何</lem><rdg resp="#resp1" wit="#wit2">阿</rdg></app>
-<app from="#beg_9" to="#end_9" corresp="#0418012"><lem wit="#wit1">左</lem><rdg resp="#resp1" wit="#wit2">右</rdg></app>
+<app from="#beg_b" to="#end_b" corresp="#0418012"><lem wit="#wit1">左</lem><rdg resp="#resp1" wit="#wit2">右</rdg></app>
 <app from="#beg0418014" to="#end0418014"><lem wit="#wit1">臣</lem><rdg resp="#resp1" wit="#wit3">巨</rdg></app>
 <app from="#beg0418015" to="#end0418015"><lem wit="#wit1">監</lem><rdg resp="#resp1" wit="#wit2">濫</rdg></app>
 <app from="#beg0418016" to="#end0418016"><lem wit="#wit1">少</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0418017" to="#end0418017"><lem wit="#wit1">宋國</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg_a" to="#end_a" corresp="#0418015"><lem wit="#wit1">監</lem><rdg resp="#resp1" wit="#wit2">濫</rdg></app>
+<app from="#beg_c" to="#end_c" corresp="#0418015"><lem wit="#wit1">監</lem><rdg resp="#resp1" wit="#wit2">濫</rdg></app>
 <app from="#beg0418018" to="#end0418018"><lem wit="#wit1">臣</lem><rdg resp="#resp1" wit="#wit3 #wit6 #wit2"><space quantity="0"/></rdg></app>
-<app from="#beg_b" to="#end_b" corresp="#0418015"><lem wit="#wit1">監</lem><rdg resp="#resp1" wit="#wit2">濫</rdg></app>
+<app from="#beg_d" to="#end_d" corresp="#0418015"><lem wit="#wit1">監</lem><rdg resp="#resp1" wit="#wit2">濫</rdg></app>
 <app from="#beg0419001" to="#end0419001"><lem wit="#wit1">酇</lem><rdg resp="#resp1" wit="#wit2">鄧</rdg></app>
-<choice cb:from="#beg_c" cb:to="#end_c"><corr>士</corr><sic>土</sic></choice>
+<choice cb:from="#beg_e" cb:to="#end_e"><corr>士</corr><sic>土</sic></choice>
 <app from="#beg0419002" to="#end0419002"><lem wit="#wit1">著紫佩金魚</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app cb:word-count="68" from="#beg0419003" to="#end0419003"><lem wit="#wit1"><p>翻經學士太中大夫守祕書監員外置同正<lb n="0419a12" ed="T"/>員修國史修文館學士上柱國臣劉憲</p>
 <lb n="0419a13" ed="T"/><p>翻經學士銀青光祿大夫行中書侍郎修文館<lb n="0419a14" ed="T"/>學士兼修國史上柱國朝陽縣開國子臣岑義</p></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
@@ -4120,7 +4149,7 @@ Added comment  for Emacs
 <app from="#beg0419007" to="#end0419007"><lem wit="#wit1">蒲</lem><rdg resp="#resp1" wit="#wit2"><g ref="#CB02152">󰡨</g></rdg></app>
 <app from="#beg0419008" to="#end0419008"><lem wit="#wit1">平</lem><rdg resp="#resp1" wit="#wit2">羊</rdg></app>
 <app from="#beg0419009" to="#end0419009"><lem wit="#wit1">乂</lem><rdg resp="#resp1" wit="#wit2">叉</rdg></app>
-<app from="#beg_d" to="#end_d" corresp="#0419006"><lem wit="#wit1">男</lem><rdg resp="#resp1" wit="#wit2">界</rdg></app>
+<app from="#beg_f" to="#end_f" corresp="#0419006"><lem wit="#wit1">男</lem><rdg resp="#resp1" wit="#wit2">界</rdg></app>
 <app from="#beg0419010" to="#end0419010"><lem wit="#wit1">韋</lem><rdg resp="#resp1" wit="#wit2">臣韋</rdg></app>
 <app from="#beg0419011" to="#end0419011"><lem wit="#wit1">學</lem><rdg resp="#resp1" wit="#wit2">直學</rdg></app>
 <app from="#beg0419012" to="#end0419012"><lem wit="#wit1">頲</lem><rdg resp="#resp1" wit="#wit2">頊</rdg></app>
@@ -4134,15 +4163,16 @@ Added comment  for Emacs
 <app from="#beg0419020" to="#end0419020"><lem wit="#wit1">述</lem><rdg resp="#resp1" wit="#wit3 #wit4">迷</rdg></app>
 <app from="#beg0419021" to="#end0419021"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">應譯</rdg></app>
 <app from="#beg0420001" to="#end0420001"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit6">蘇</rdg></app>
-<app from="#beg_e" to="#end_e" corresp="#0420001"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit6">蘇</rdg></app>
-<app from="#beg_f" to="#end_f" corresp="#0420001"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit6">蘇</rdg></app>
 <app from="#beg_10" to="#end_10" corresp="#0420001"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit6">蘇</rdg></app>
 <app from="#beg_11" to="#end_11" corresp="#0420001"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit6">蘇</rdg></app>
 <app from="#beg_12" to="#end_12" corresp="#0420001"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit6">蘇</rdg></app>
+<app from="#beg_13" to="#end_13" corresp="#0420001"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit6">蘇</rdg></app>
+<app from="#beg_14" to="#end_14" corresp="#0420001"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit6">蘇</rdg></app>
 <app from="#beg0420002" to="#end0420002"><lem wit="#wit1">酸</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">醋</rdg></app>
 <app from="#beg0420003" to="#end0420003"><lem wit="#wit1">渧</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">滴</rdg></app>
 <app from="#beg0420004" to="#end0420004"><lem wit="#wit1">桃</lem><rdg resp="#resp1" wit="#wit5">萄</rdg></app>
 <app from="#beg0420005" to="#end0420005"><lem wit="#wit1">榓</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">蜜</rdg></app>
+<app from="#beg_15" to="#end_15"><lem resp="#resp3" wit="#wit7 #wit8">苦<note type="cf1">K22n0894_p0917a01</note></lem><rdg wit="#wit1">共</rdg></app>
 <app from="#beg0420006" to="#end0420006"><lem wit="#wit1">侍</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">持</rdg></app>
 <app from="#beg0421001" to="#end0421001"><lem wit="#wit1">則</lem><rdg resp="#resp1" wit="#wit4 #wit5">別</rdg></app>
 <app from="#beg0421002" to="#end0421002"><lem wit="#wit1">主</lem><rdg resp="#resp1" wit="#wit6">三</rdg></app>
@@ -4164,85 +4194,91 @@ Added comment  for Emacs
 <app from="#beg0423006" to="#end0423006"><lem wit="#wit1">有！若</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">若有</rdg></app>
 <app from="#beg0423007" to="#end0423007"><lem wit="#wit1">宅</lem><rdg resp="#resp1" wit="#wit5">擇</rdg></app>
 <app from="#beg0424001" to="#end0424001"><lem wit="#wit1">來</lem><rdg resp="#resp1" wit="#wit5">求</rdg></app>
-<app from="#beg0424002" to="#end0424002"><lem wit="#wit1">擯</lem><rdg resp="#resp1" wit="#wit7">檳</rdg></app>
+<app from="#beg0424002" to="#end0424002"><lem wit="#wit1">擯</lem><rdg resp="#resp1" wit="#wit9">檳</rdg></app>
 <app from="#beg0424003" to="#end0424003"><lem wit="#wit1">解</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">觸</rdg></app>
-<app from="#beg0424004" to="#end0424004"><lem wit="#wit1">相伏</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">伏相</rdg></app>
-<app from="#beg_13" to="#end_13" corresp="#0424002"><lem wit="#wit1">擯</lem><rdg resp="#resp1" wit="#wit7">檳</rdg></app>
-<app from="#beg0424005" to="#end0424005"><lem wit="#wit1">五</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
+<app from="#beg0424004" to="#end0424004"><lem wit="#wit1">相伏</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">伏相</rdg></app>
+<app from="#beg_16" to="#end_16" corresp="#0424002"><lem wit="#wit1">擯</lem><rdg resp="#resp1" wit="#wit9">檳</rdg></app>
+<app from="#beg_17" to="#end_17"><lem resp="#resp3" wit="#wit7 #wit8">應<note type="cf1">K22n0894_p0922c16</note></lem><rdg wit="#wit1">願</rdg></app>
+<app from="#beg0424005" to="#end0424005"><lem wit="#wit1">五</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg></app>
+<app from="#beg_18" to="#end_18"><lem resp="#resp3" wit="#wit7 #wit8">迦<note type="cf1">K22n0894_p0923b07</note></lem><rdg wit="#wit1">伽</rdg></app>
 <app from="#beg0425001" to="#end0425001"><lem wit="#wit1">乃</lem><rdg resp="#resp1" wit="#wit3 #wit6">及</rdg></app>
 <app cb:word-count="14" from="#beg0425002" to="#end0425002"><lem wit="#wit1">不應於四波利婆娑人處作其行法</lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
-<app from="#beg0425003" to="#end0425003"><lem wit="#wit1">尼陀那</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0425004" to="#end0425004"><lem wit="#wit1">椎</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit6">柱</rdg><rdg resp="#resp1" wit="#wit7">推</rdg></app>
+<app from="#beg0425003" to="#end0425003"><lem wit="#wit1">尼陀那</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0425004" to="#end0425004"><lem wit="#wit1">椎</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit6">柱</rdg><rdg resp="#resp1" wit="#wit9">推</rdg></app>
 <app from="#beg0425005" to="#end0425005"><lem wit="#wit1">檀</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">壇</rdg></app>
 <app from="#beg0425006" to="#end0425006"><lem wit="#wit1">揭</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit6">竭</rdg></app>
-<app from="#beg0425007" to="#end0425007"><lem wit="#wit1">雨</lem><rdg resp="#resp1" wit="#wit7">兩</rdg></app>
+<app from="#beg0425007" to="#end0425007"><lem wit="#wit1">雨</lem><rdg resp="#resp1" wit="#wit9">兩</rdg></app>
 <app from="#beg0425008" to="#end0425008"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit5">陀</rdg></app>
 <app from="#beg0425009" to="#end0425009"><lem wit="#wit1">丈夫</lem><rdg resp="#resp1" wit="#wit6">大夫</rdg></app>
-<app from="#beg0425010" to="#end0425010"><lem wit="#wit1">倰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">凌</rdg><rdg resp="#resp1" wit="#wit7">陵</rdg></app>
-<app from="#beg_14" to="#end_14" corresp="#0425010"><lem wit="#wit1">倰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">凌</rdg><rdg resp="#resp1" wit="#wit7">陵</rdg></app>
+<app from="#beg0425010" to="#end0425010"><lem wit="#wit1">倰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">凌</rdg><rdg resp="#resp1" wit="#wit9">陵</rdg></app>
+<app from="#beg_19" to="#end_19" corresp="#0425010"><lem wit="#wit1">倰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">凌</rdg><rdg resp="#resp1" wit="#wit9">陵</rdg></app>
 <app from="#beg0425011" to="#end0425011"><lem wit="#wit1">伽</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">迦</rdg></app>
-<app from="#beg_15" to="#end_15" corresp="#0425008"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit5">陀</rdg></app>
+<app from="#beg_1a" to="#end_1a"><lem wit="#wit1">刺</lem><rdg resp="#resp3" wit="#wit8 #wit10">剌<note type="cf1">K22n0894_p0924b19</note><note type="cf2">Q21_p0610b22</note></rdg></app>
+<app from="#beg_1b" to="#end_1b" corresp="#0425008"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit5">陀</rdg></app>
 <app from="#beg0425012" to="#end0425012"><lem wit="#wit1">餅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">飯</rdg></app>
-<app from="#beg_16" to="#end_16" corresp="#0425008"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit5">陀</rdg></app>
-<app from="#beg0425013" to="#end0425013"><lem wit="#wit1">盛</lem><rdg resp="#resp1" wit="#wit7">成</rdg></app>
+<app from="#beg_1c" to="#end_1c" corresp="#0425008"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit5">陀</rdg></app>
+<app from="#beg0425013" to="#end0425013"><lem wit="#wit1">盛</lem><rdg resp="#resp1" wit="#wit9">成</rdg></app>
 <app from="#beg0425014" to="#end0425014"><lem wit="#wit1">見</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">是</rdg></app>
-<app from="#beg0426001" to="#end0426001"><lem wit="#wit1">重</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">熏</rdg></app>
+<app from="#beg0426001" to="#end0426001"><lem wit="#wit1">重</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">熏</rdg></app>
 <app from="#beg0426002" to="#end0426002"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">諸</rdg></app>
-<app from="#beg0426003" to="#end0426003"><lem wit="#wit1">釘</lem><rdg resp="#resp1" wit="#wit7">丁</rdg></app>
+<app from="#beg0426003" to="#end0426003"><lem wit="#wit1">釘</lem><rdg resp="#resp1" wit="#wit9">丁</rdg></app>
 <app from="#beg0426004" to="#end0426004"><lem wit="#wit1">別</lem><rdg resp="#resp1" wit="#wit5">他</rdg></app>
-<app from="#beg0426005" to="#end0426005"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">云</rdg></app>
-<app from="#beg0426006" to="#end0426006"><lem wit="#wit1">緣</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0426007" to="#end0426007"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit7"><g ref="#CB02099">𢂽</g></rdg></app>
+<app from="#beg0426005" to="#end0426005"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">云</rdg></app>
+<app from="#beg0426006" to="#end0426006"><lem wit="#wit1">緣</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0426007" to="#end0426007"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit9"><g ref="#CB02099">𢂽</g></rdg></app>
 <app from="#beg0426008" to="#end0426008"><lem wit="#wit1">教</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">交</rdg></app>
-<app from="#beg0426009" to="#end0426009"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0427001" to="#end0427001"><lem wit="#wit1">五</lem><rdg resp="#resp1" wit="#wit7">立</rdg></app>
+<app from="#beg0426009" to="#end0426009"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0427001" to="#end0427001"><lem wit="#wit1">五</lem><rdg resp="#resp1" wit="#wit9">立</rdg></app>
 <app from="#beg0427002" to="#end0427002"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">是</rdg></app>
-<app from="#beg0427003" to="#end0427003"><lem wit="#wit1">剃</lem><rdg resp="#resp1" wit="#wit7">制</rdg></app>
-<app from="#beg0427004" to="#end0427004"><lem wit="#wit1">蘭</lem><rdg resp="#resp1" wit="#wit7">闌</rdg></app>
-<app from="#beg0427005" to="#end0427005"><lem wit="#wit1">團</lem><rdg resp="#resp1" wit="#wit7">圓</rdg></app>
-<app from="#beg0427006" to="#end0427006"><lem wit="#wit1">我</lem><rdg resp="#resp1" wit="#wit7">我我</rdg></app>
-<app from="#beg0427007" to="#end0427007"><lem wit="#wit1">開</lem><rdg resp="#resp1" wit="#wit7">聞</rdg></app>
+<app from="#beg0427003" to="#end0427003"><lem wit="#wit1">剃</lem><rdg resp="#resp1" wit="#wit9">制</rdg></app>
+<app from="#beg0427004" to="#end0427004"><lem wit="#wit1">蘭</lem><rdg resp="#resp1" wit="#wit9">闌</rdg></app>
+<app from="#beg0427005" to="#end0427005"><lem wit="#wit1">團</lem><rdg resp="#resp1" wit="#wit9">圓</rdg></app>
+<app from="#beg0427006" to="#end0427006"><lem wit="#wit1">我</lem><rdg resp="#resp1" wit="#wit9">我我</rdg></app>
+<app from="#beg0427007" to="#end0427007"><lem wit="#wit1">開</lem><rdg resp="#resp1" wit="#wit9">聞</rdg></app>
 <app from="#beg0428001" to="#end0428001"><lem wit="#wit1">意</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">喜</rdg></app>
+<app from="#beg_1d" to="#end_1d"><lem resp="#resp3" wit="#wit7 #wit8">枮<note type="cf1">K22n0894_p0928b19</note></lem><rdg wit="#wit1">枯</rdg></app>
 <app from="#beg0428002" to="#end0428002"><lem wit="#wit1">作</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">畜</rdg></app>
 <app from="#beg0428003" to="#end0428003"><lem wit="#wit1">膩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit6"><g ref="#CB01882">𧸐</g></rdg></app>
 <app from="#beg0428004" to="#end0428004"><lem wit="#wit1">利</lem><rdg resp="#resp1" wit="#wit6"><g ref="#CB02185">𠮧</g></rdg></app>
 <app from="#beg0428005" to="#end0428005"><lem wit="#wit1">雇</lem><rdg resp="#resp1" wit="#wit5">顧</rdg></app>
 <app from="#beg0428006" to="#end0428006"><lem wit="#wit1">時</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">得</rdg></app>
-<app from="#beg0429001" to="#end0429001"><lem wit="#wit1">揵</lem><rdg resp="#resp1" wit="#wit3 #wit7">健</rdg><rdg resp="#resp1" wit="#wit4 #wit5">犍</rdg></app>
-<app from="#beg0429002" to="#end0429002"><lem wit="#wit1">椎</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit6 #wit7">稚</rdg></app>
+<app from="#beg_1e" to="#end_1e"><lem resp="#resp3" wit="#wit7 #wit8">給<note type="cf1">K22n0894_p0929c04</note></lem><rdg wit="#wit1">結</rdg></app>
+<app from="#beg0429001" to="#end0429001"><lem wit="#wit1">揵</lem><rdg resp="#resp1" wit="#wit3 #wit9">健</rdg><rdg resp="#resp1" wit="#wit4 #wit5">犍</rdg></app>
+<app from="#beg0429002" to="#end0429002"><lem wit="#wit1">椎</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit6 #wit9">稚</rdg></app>
 <app from="#beg0429003" to="#end0429003"><lem wit="#wit1">覩波</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵波</rdg></app>
-<app from="#beg0429004" to="#end0429004"><lem wit="#wit1">列</lem><rdg resp="#resp1" wit="#wit7">到</rdg></app>
-<app from="#beg_17" to="#end_17" corresp="#0429004"><lem wit="#wit1">列</lem><rdg resp="#resp1" wit="#wit7">到</rdg></app>
-<app from="#beg0429005" to="#end0429005"><lem wit="#wit1">礦</lem><rdg resp="#resp1" wit="#wit7">獷</rdg></app>
-<app from="#beg0429006" to="#end0429006"><lem wit="#wit1">挂</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit6">掛</rdg><rdg resp="#resp1" wit="#wit7">桂</rdg></app>
-<app from="#beg0429007" to="#end0429007"><lem wit="#wit1">釘</lem><rdg resp="#resp1" wit="#wit7">丁</rdg></app>
-<app from="#beg_18" to="#end_18" corresp="#0429007"><lem wit="#wit1">釘</lem><rdg resp="#resp1" wit="#wit7">丁</rdg></app>
-<app from="#beg0429008" to="#end0429008"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
+<app from="#beg0429004" to="#end0429004"><lem wit="#wit1">列</lem><rdg resp="#resp1" wit="#wit9">到</rdg></app>
+<app from="#beg_1f" to="#end_1f" corresp="#0429004"><lem wit="#wit1">列</lem><rdg resp="#resp1" wit="#wit9">到</rdg></app>
+<app from="#beg0429005" to="#end0429005"><lem wit="#wit1">礦</lem><rdg resp="#resp1" wit="#wit9">獷</rdg></app>
+<app from="#beg0429006" to="#end0429006"><lem wit="#wit1">挂</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit6">掛</rdg><rdg resp="#resp1" wit="#wit9">桂</rdg></app>
+<app from="#beg0429007" to="#end0429007"><lem wit="#wit1">釘</lem><rdg resp="#resp1" wit="#wit9">丁</rdg></app>
+<app from="#beg_20" to="#end_20" corresp="#0429007"><lem wit="#wit1">釘</lem><rdg resp="#resp1" wit="#wit9">丁</rdg></app>
+<app from="#beg0429008" to="#end0429008"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg></app>
 <app from="#beg0429009" to="#end0429009"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">不應</rdg></app>
-<app from="#beg0429010" to="#end0429010"><lem wit="#wit1">摒</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">屏</rdg></app>
-<app from="#beg0429011" to="#end0429011"><lem wit="#wit1">潔</lem><rdg resp="#resp1" wit="#wit7">繫</rdg></app>
-<app from="#beg_19" to="#end_19" corresp="#0429010"><lem wit="#wit1">摒</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">屏</rdg></app>
-<app from="#beg0429012" to="#end0429012"><lem wit="#wit1">先</lem><rdg resp="#resp1" wit="#wit7">無</rdg></app>
+<app from="#beg0429010" to="#end0429010"><lem wit="#wit1">摒</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">屏</rdg></app>
+<app from="#beg0429011" to="#end0429011"><lem wit="#wit1">潔</lem><rdg resp="#resp1" wit="#wit9">繫</rdg></app>
+<app from="#beg_21" to="#end_21" corresp="#0429010"><lem wit="#wit1">摒</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">屏</rdg></app>
+<app from="#beg_22" to="#end_22"><lem resp="#resp3" wit="#wit7 #wit8">曰<note type="cf1">K22n0894_p0931a12</note></lem><rdg wit="#wit1">白</rdg></app>
+<app from="#beg0429012" to="#end0429012"><lem wit="#wit1">先</lem><rdg resp="#resp1" wit="#wit9">無</rdg></app>
 <app from="#beg0429013" to="#end0429013"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit3 #wit6">此</rdg></app>
-<app from="#beg0430001" to="#end0430001"><lem wit="#wit1">尼陀那</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7"><space quantity="0"/></rdg></app>
+<app from="#beg0430001" to="#end0430001"><lem wit="#wit1">尼陀那</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9"><space quantity="0"/></rdg></app>
 <app from="#beg0430002" to="#end0430002"><lem wit="#wit1">損</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">揁</rdg></app>
 <app from="#beg0430003" to="#end0430003"><lem wit="#wit1">鈕</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit6">紐</rdg><rdg resp="#resp1" wit="#wit5">細</rdg></app>
-<app from="#beg0430004" to="#end0430004"><lem wit="#wit1">乏</lem><rdg resp="#resp1" wit="#wit7">之</rdg></app>
+<app from="#beg0430004" to="#end0430004"><lem wit="#wit1">乏</lem><rdg resp="#resp1" wit="#wit9">之</rdg></app>
 <app from="#beg0430005" to="#end0430005"><lem wit="#wit1">恚</lem><rdg resp="#resp1" wit="#wit5">苾</rdg></app>
-<app from="#beg0430006" to="#end0430006"><lem wit="#wit1">凌</lem><rdg resp="#resp1" wit="#wit7">陵</rdg></app>
-<app from="#beg0430007" to="#end0430007"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit7">詣</rdg></app>
-<app from="#beg0430008" to="#end0430008"><lem wit="#wit1">禾</lem><rdg resp="#resp1" wit="#wit7">來</rdg></app>
+<app from="#beg0430006" to="#end0430006"><lem wit="#wit1">凌</lem><rdg resp="#resp1" wit="#wit9">陵</rdg></app>
+<app from="#beg0430007" to="#end0430007"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit9">詣</rdg></app>
+<app from="#beg0430008" to="#end0430008"><lem wit="#wit1">禾</lem><rdg resp="#resp1" wit="#wit9">來</rdg></app>
 <app from="#beg0430009" to="#end0430009"><lem wit="#wit1">伽</lem><rdg resp="#resp1" wit="#wit3 #wit6">迦</rdg></app>
 <app from="#beg0430010" to="#end0430010"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit6">共</rdg></app>
 <app from="#beg0431001" to="#end0431001"><lem wit="#wit1">准</lem><rdg resp="#resp1" wit="#wit3">唯</rdg></app>
 <app from="#beg0431002" to="#end0431002"><lem wit="#wit1">剃</lem><rdg resp="#resp1" wit="#wit6">削</rdg></app>
-<app from="#beg0431003" to="#end0431003"><lem wit="#wit1"><g ref="#CB00950">󰎶</g></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">揁</rdg></app>
-<app from="#beg_1a" to="#end_1a" corresp="#0431003"><lem wit="#wit1"><g ref="#CB00950">󰎶</g></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">揁</rdg></app>
-<app from="#beg_1b" to="#end_1b" corresp="#0431003"><lem wit="#wit1"><g ref="#CB00950">󰎶</g></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">揁</rdg></app>
-<app from="#beg0431005" to="#end0431005"><lem wit="#wit1">部</lem><rdg resp="#resp1" wit="#wit7">部律</rdg></app>
+<app from="#beg0431003" to="#end0431003"><lem wit="#wit1"><g ref="#CB00950">󰎶</g></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">揁</rdg></app>
+<app from="#beg_23" to="#end_23" corresp="#0431003"><lem wit="#wit1"><g ref="#CB00950">󰎶</g></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">揁</rdg></app>
+<app from="#beg_24" to="#end_24" corresp="#0431003"><lem wit="#wit1"><g ref="#CB00950">󰎶</g></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">揁</rdg></app>
+<app from="#beg0431005" to="#end0431005"><lem wit="#wit1">部</lem><rdg resp="#resp1" wit="#wit9">部律</rdg></app>
 <app from="#beg0432001" to="#end0432001"><lem wit="#wit1">揭</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">竭</rdg></app>
-<app from="#beg_1c" to="#end_1c" corresp="#0432001"><lem wit="#wit1">揭</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">竭</rdg></app>
-<app from="#beg_1d" to="#end_1d" corresp="#0432001"><lem wit="#wit1">揭</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">竭</rdg></app>
+<app from="#beg_25" to="#end_25" corresp="#0432001"><lem wit="#wit1">揭</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">竭</rdg></app>
+<app from="#beg_26" to="#end_26" corresp="#0432001"><lem wit="#wit1">揭</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">竭</rdg></app>
 <app from="#beg0432002" to="#end0432002"><lem wit="#wit1">懾</lem><rdg resp="#resp1" wit="#wit6">讋</rdg></app>
 <app from="#beg0432003" to="#end0432003"><lem wit="#wit1">紐</lem><rdg resp="#resp1" wit="#wit6">細</rdg></app>
 <app from="#beg0432004" to="#end0432004"><lem wit="#wit1">揵</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">犍</rdg></app>
@@ -4250,13 +4286,13 @@ Added comment  for Emacs
 <app from="#beg0433001" to="#end0433001"><lem wit="#wit1">准</lem><rdg resp="#resp1" wit="#wit6">唯</rdg></app>
 <app from="#beg0433002" to="#end0433002"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit5">已</rdg></app>
 <app from="#beg0433003" to="#end0433003"><lem wit="#wit1">沙波</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">波沙</rdg></app>
-<app from="#beg_1e" to="#end_1e" corresp="#0433003"><lem wit="#wit1">沙波</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">波沙</rdg></app>
-<app from="#beg_1f" to="#end_1f" corresp="#0433003"><lem wit="#wit1">沙波</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">波沙</rdg></app>
+<app from="#beg_27" to="#end_27" corresp="#0433003"><lem wit="#wit1">沙波</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">波沙</rdg></app>
+<app from="#beg_28" to="#end_28" corresp="#0433003"><lem wit="#wit1">沙波</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">波沙</rdg></app>
 <app from="#beg0433004" to="#end0433004"><lem wit="#wit1">第</lem><rdg resp="#resp1" wit="#wit6">弟</rdg></app>
-<app from="#beg_20" to="#end_20" corresp="#0433003"><lem wit="#wit1">沙波</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">波沙</rdg></app>
+<app from="#beg_29" to="#end_29" corresp="#0433003"><lem wit="#wit1">沙波</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">波沙</rdg></app>
 <app from="#beg0433005" to="#end0433005"><lem wit="#wit1">互</lem><rdg resp="#resp1" wit="#wit6">牙</rdg></app>
 <app from="#beg0433006" to="#end0433006"><lem wit="#wit1">林</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">樹</rdg></app>
-<app from="#beg_21" to="#end_21" corresp="#0433006"><lem wit="#wit1">林</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">樹</rdg></app>
+<app from="#beg_2a" to="#end_2a" corresp="#0433006"><lem wit="#wit1">林</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">樹</rdg></app>
 <app from="#beg0433007" to="#end0433007"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
 <app from="#beg0434001" to="#end0434001"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit4">特</rdg></app>
 <app from="#beg0434002" to="#end0434002"><lem wit="#wit1">尼陀那</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
@@ -4285,7 +4321,7 @@ Added comment  for Emacs
 <app from="#beg0438002" to="#end0438002"><lem wit="#wit1">痿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">萎</rdg></app>
 <app from="#beg0438003" to="#end0438003"><lem wit="#wit1">爾</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
 <app from="#beg0438004" to="#end0438004"><lem wit="#wit1">罰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">伐</rdg></app>
-<app from="#beg_22" to="#end_22" corresp="#0438004"><lem wit="#wit1">罰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">伐</rdg></app>
+<app from="#beg_2b" to="#end_2b" corresp="#0438004"><lem wit="#wit1">罰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">伐</rdg></app>
 <app from="#beg0438005" to="#end0438005"><lem wit="#wit1">處</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">家</rdg></app>
 <app from="#beg0439001" to="#end0439001"><lem wit="#wit1">蓆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">席</rdg></app>
 <app from="#beg0439002" to="#end0439002"><lem wit="#wit1">揵</lem><rdg resp="#resp1" wit="#wit3">健</rdg><rdg resp="#resp1" wit="#wit5">犍</rdg></app>
@@ -4294,160 +4330,162 @@ Added comment  for Emacs
 <app from="#beg0439005" to="#end0439005"><lem wit="#wit1">抂</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">枉</rdg></app>
 <app from="#beg0439006" to="#end0439006"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit6">田</rdg></app>
 <app from="#beg0439007" to="#end0439007"><lem wit="#wit1">娑</lem><rdg resp="#resp1" wit="#wit6">婆</rdg></app>
-<app from="#beg0439008" to="#end0439008"><lem wit="#wit1">大唐</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">唐</rdg></app>
+<app from="#beg0439008" to="#end0439008"><lem wit="#wit1">大唐</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">唐</rdg></app>
 <app from="#beg0439009" to="#end0439009"><lem wit="#wit1">同</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">銅</rdg></app>
 <app from="#beg0439010" to="#end0439010"><lem wit="#wit1">既</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">即</rdg></app>
 <app from="#beg0439011" to="#end0439011"><lem wit="#wit1">號</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">嘷</rdg></app>
-<app from="#beg0439012" to="#end0439012"><lem wit="#wit1">惡</lem><rdg resp="#resp1" wit="#wit7">罪</rdg></app>
-<app from="#beg0440001" to="#end0440001"><lem wit="#wit1">肉</lem><rdg resp="#resp1" wit="#wit7">內</rdg></app>
-<app from="#beg0440002" to="#end0440002"><lem wit="#wit1">烏</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">鳥</rdg></app>
-<app from="#beg_23" to="#end_23" corresp="#0439009"><lem wit="#wit1">同</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">銅</rdg></app>
-<app from="#beg0440003" to="#end0440003"><lem wit="#wit1">狐狢</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">及狐貉</rdg></app>
+<app from="#beg0439012" to="#end0439012"><lem wit="#wit1">惡</lem><rdg resp="#resp1" wit="#wit9">罪</rdg></app>
+<app from="#beg0440001" to="#end0440001"><lem wit="#wit1">肉</lem><rdg resp="#resp1" wit="#wit9">內</rdg></app>
+<app from="#beg0440002" to="#end0440002"><lem wit="#wit1">烏</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">鳥</rdg></app>
+<app from="#beg_2c" to="#end_2c" corresp="#0439009"><lem wit="#wit1">同</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">銅</rdg></app>
+<app from="#beg0440003" to="#end0440003"><lem wit="#wit1">狐狢</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">及狐貉</rdg></app>
 <app from="#beg0440004" to="#end0440004"><lem wit="#wit1">搥</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">椎</rdg></app>
-<app from="#beg0440005" to="#end0440005"><lem wit="#wit1">報</lem><rdg resp="#resp1" wit="#wit7">執</rdg></app>
+<app from="#beg0440005" to="#end0440005"><lem wit="#wit1">報</lem><rdg resp="#resp1" wit="#wit9">執</rdg></app>
 <app from="#beg0440006" to="#end0440006"><lem wit="#wit1">喰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">食</rdg></app>
 <app from="#beg0440007" to="#end0440007"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3">蘇</rdg></app>
 <app from="#beg0440008" to="#end0440008"><lem wit="#wit1">藥</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit6">攝</rdg></app>
 <app from="#beg0440009" to="#end0440009"><lem wit="#wit1">肉</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">害</rdg></app>
 <app from="#beg0440010" to="#end0440010"><lem wit="#wit1">粆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">沙</rdg></app>
-<app from="#beg0440011" to="#end0440011"><lem wit="#wit1">眠</lem><rdg resp="#resp1" wit="#wit7">眼</rdg></app>
-<app from="#beg0440012" to="#end0440012"><lem wit="#wit1">粆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">沙</rdg></app>
-<app from="#beg0440013" to="#end0440013"><lem wit="#wit1">緣</lem><rdg resp="#resp1" wit="#wit7">以</rdg></app>
+<app from="#beg0440011" to="#end0440011"><lem wit="#wit1">眠</lem><rdg resp="#resp1" wit="#wit9">眼</rdg></app>
+<app from="#beg0440012" to="#end0440012"><lem wit="#wit1">粆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">沙</rdg></app>
+<app from="#beg0440013" to="#end0440013"><lem wit="#wit1">緣</lem><rdg resp="#resp1" wit="#wit9">以</rdg></app>
 <app from="#beg0440014" to="#end0440014"><lem wit="#wit1">葡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">蒱</rdg></app>
-<app from="#beg_24" to="#end_24" corresp="#0440010"><lem wit="#wit1">粆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">沙</rdg></app>
-<app from="#beg0441001" to="#end0441001"><lem wit="#wit1">咸</lem><rdg resp="#resp1" wit="#wit7">成</rdg></app>
-<app from="#beg0441002" to="#end0441002"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0441003" to="#end0441003"><lem wit="#wit1">自飽<lb n="0441a09" ed="T"/>食</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0441004" to="#end0441004"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit7">蘇</rdg></app>
+<app from="#beg_2d" to="#end_2d" corresp="#0440010"><lem wit="#wit1">粆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">沙</rdg></app>
+<app from="#beg0441001" to="#end0441001"><lem wit="#wit1">咸</lem><rdg resp="#resp1" wit="#wit9">成</rdg></app>
+<app from="#beg0441002" to="#end0441002"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0441003" to="#end0441003"><lem wit="#wit1">自飽<lb n="0441a09" ed="T"/>食</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0441004" to="#end0441004"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit9">蘇</rdg></app>
 <app from="#beg0441005" to="#end0441005"><lem wit="#wit1">服</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">眼</rdg></app>
-<app from="#beg_25" to="#end_25" corresp="#0441004"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit7">蘇</rdg></app>
-<app from="#beg0441006" to="#end0441006"><lem wit="#wit1">更</lem><rdg resp="#resp1" wit="#wit7">受</rdg></app>
-<app from="#beg_26" to="#end_26" corresp="#0441004"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit7">蘇</rdg></app>
-<app from="#beg_27" to="#end_27" corresp="#0441005"><lem wit="#wit1">服</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">眼</rdg></app>
-<app from="#beg0441007" to="#end0441007"><lem wit="#wit1">慣</lem><rdg resp="#resp1" wit="#wit7">串</rdg></app>
+<app from="#beg_2e" to="#end_2e" corresp="#0441004"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit9">蘇</rdg></app>
+<app from="#beg0441006" to="#end0441006"><lem wit="#wit1">更</lem><rdg resp="#resp1" wit="#wit9">受</rdg></app>
+<app from="#beg_2f" to="#end_2f" corresp="#0441004"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit9">蘇</rdg></app>
+<app from="#beg_30" to="#end_30" corresp="#0441005"><lem wit="#wit1">服</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">眼</rdg></app>
+<app from="#beg0441007" to="#end0441007"><lem wit="#wit1">慣</lem><rdg resp="#resp1" wit="#wit9">串</rdg></app>
 <app from="#beg0441008" to="#end0441008"><lem wit="#wit1">痿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">萎</rdg></app>
 <app from="#beg0441009" to="#end0441009"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">粖</rdg></app>
-<app from="#beg_28" to="#end_28" corresp="#0441009"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">粖</rdg></app>
+<app from="#beg_31" to="#end_31" corresp="#0441009"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">粖</rdg></app>
 <app from="#beg0441010" to="#end0441010"><lem wit="#wit1">渧</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">滴</rdg></app>
-<app from="#beg0441011" to="#end0441011"><lem wit="#wit1">宵</lem><rdg resp="#resp1" wit="#wit7">霄</rdg></app>
+<app from="#beg0441011" to="#end0441011"><lem wit="#wit1">宵</lem><rdg resp="#resp1" wit="#wit9">霄</rdg></app>
 <app from="#beg0441012" to="#end0441012"><lem wit="#wit1">彼</lem><rdg resp="#resp1" wit="#wit6">處</rdg></app>
 <app from="#beg0442001" to="#end0442001"><lem wit="#wit1">收</lem><rdg resp="#resp1" wit="#wit3 #wit4">牧</rdg></app>
 <app from="#beg0442002" to="#end0442002"><lem wit="#wit1">樵</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">薪</rdg></app>
-<app from="#beg0442003" to="#end0442003"><lem wit="#wit1">踏</lem><rdg resp="#resp1" wit="#wit7">還</rdg></app>
+<app from="#beg0442003" to="#end0442003"><lem wit="#wit1">踏</lem><rdg resp="#resp1" wit="#wit9">還</rdg></app>
 <app from="#beg0442004" to="#end0442004"><lem wit="#wit1">資</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">貲</rdg></app>
-<app from="#beg0442005" to="#end0442005"><lem wit="#wit1">拳</lem><rdg resp="#resp1" wit="#wit7">捲</rdg></app>
-<app from="#beg0442006" to="#end0442006"><lem wit="#wit1">資</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">貲</rdg></app>
-<app from="#beg0442007" to="#end0442007"><lem wit="#wit1">重</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0442008" to="#end0442008"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit7">土</rdg></app>
+<app from="#beg0442005" to="#end0442005"><lem wit="#wit1">拳</lem><rdg resp="#resp1" wit="#wit9">捲</rdg></app>
+<app from="#beg0442006" to="#end0442006"><lem wit="#wit1">資</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">貲</rdg></app>
+<app from="#beg0442007" to="#end0442007"><lem wit="#wit1">重</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0442008" to="#end0442008"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit9">土</rdg></app>
 <app from="#beg0442009" to="#end0442009"><lem wit="#wit1">處</lem><rdg resp="#resp1" wit="#wit5">分</rdg></app>
 <app from="#beg0442010" to="#end0442010"><lem wit="#wit1">披</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">被</rdg></app>
-<app from="#beg0443001" to="#end0443001"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit7">入</rdg></app>
-<app from="#beg0443002" to="#end0443002"><lem wit="#wit1">物</lem><rdg resp="#resp1" wit="#wit7">施</rdg></app>
-<app from="#beg0443003" to="#end0443003"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">蘇</rdg></app>
-<app from="#beg_29" to="#end_29" corresp="#0443003"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">蘇</rdg></app>
-<app from="#beg0443004" to="#end0443004"><lem wit="#wit1">怙</lem><rdg resp="#resp1" wit="#wit7">怗</rdg></app>
+<app from="#beg0443001" to="#end0443001"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit9">入</rdg></app>
+<app from="#beg0443002" to="#end0443002"><lem wit="#wit1">物</lem><rdg resp="#resp1" wit="#wit9">施</rdg></app>
+<app from="#beg0443003" to="#end0443003"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">蘇</rdg></app>
+<app from="#beg_32" to="#end_32" corresp="#0443003"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">蘇</rdg></app>
+<app from="#beg0443004" to="#end0443004"><lem wit="#wit1">怙</lem><rdg resp="#resp1" wit="#wit9">怗</rdg></app>
 <app from="#beg0443005" to="#end0443005"><lem wit="#wit1">食</lem><rdg resp="#resp1" wit="#wit6">捨</rdg></app>
 <app from="#beg0443006" to="#end0443006"><lem wit="#wit1">歡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">歎</rdg></app>
-<app from="#beg_2a" to="#end_2a" corresp="#0443004"><lem wit="#wit1">怙</lem><rdg resp="#resp1" wit="#wit7">怗</rdg></app>
-<app from="#beg_2b" to="#end_2b" corresp="#0443004"><lem wit="#wit1">怙</lem><rdg resp="#resp1" wit="#wit7">怗</rdg></app>
+<app from="#beg_33" to="#end_33" corresp="#0443004"><lem wit="#wit1">怙</lem><rdg resp="#resp1" wit="#wit9">怗</rdg></app>
+<app from="#beg_34" to="#end_34" corresp="#0443004"><lem wit="#wit1">怙</lem><rdg resp="#resp1" wit="#wit9">怗</rdg></app>
 <app from="#beg0443007" to="#end0443007"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit5">陀</rdg></app>
 <app from="#beg0443008" to="#end0443008"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit6">蘇</rdg></app>
 <app from="#beg0443009" to="#end0443009"><lem wit="#wit1">暉</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit6">輝</rdg></app>
-<app from="#beg_2c" to="#end_2c" corresp="#0443004"><lem wit="#wit1">怙</lem><rdg resp="#resp1" wit="#wit7">怗</rdg></app>
-<app from="#beg0443010" to="#end0443010"><lem wit="#wit1">佉</lem><rdg resp="#resp1" wit="#wit6 #wit7">法</rdg></app>
-<app from="#beg0443011" to="#end0443011"><lem wit="#wit1">嘔</lem><rdg resp="#resp1" wit="#wit7">歐</rdg></app>
+<app from="#beg_35" to="#end_35" corresp="#0443004"><lem wit="#wit1">怙</lem><rdg resp="#resp1" wit="#wit9">怗</rdg></app>
+<app from="#beg0443010" to="#end0443010"><lem wit="#wit1">佉</lem><rdg resp="#resp1" wit="#wit6 #wit9">法</rdg></app>
+<app from="#beg0443011" to="#end0443011"><lem wit="#wit1">嘔</lem><rdg resp="#resp1" wit="#wit9">歐</rdg></app>
 <app from="#beg0443012" to="#end0443012"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">自</rdg></app>
-<app from="#beg0443013" to="#end0443013"><lem wit="#wit1">子</lem><rdg resp="#resp1" wit="#wit6 #wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0443014" to="#end0443014"><lem wit="#wit1">潤</lem><rdg resp="#resp1" wit="#wit7"><g ref="#CB00589">㵎</g></rdg></app>
+<app from="#beg0443013" to="#end0443013"><lem wit="#wit1">子</lem><rdg resp="#resp1" wit="#wit6 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0443014" to="#end0443014"><lem wit="#wit1">潤</lem><rdg resp="#resp1" wit="#wit9"><g ref="#CB00589">㵎</g></rdg></app>
 <app from="#beg0443015" to="#end0443015"><lem wit="#wit1"><g ref="#CB00595">󰉓</g></lem><rdg resp="#resp1" wit="#wit5">鈔</rdg></app>
-<app from="#beg0443016" to="#end0443016"><lem wit="#wit1">讀</lem><rdg resp="#resp1" wit="#wit7">讚</rdg></app>
+<app from="#beg0443016" to="#end0443016"><lem wit="#wit1">讀</lem><rdg resp="#resp1" wit="#wit9">讚</rdg></app>
 <app from="#beg0443017" to="#end0443017"><lem wit="#wit1">闌</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><g ref="#CB01836">㘓</g></rdg></app>
 <app from="#beg0443018" to="#end0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
-<app from="#beg_2d" to="#end_2d" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
-<app from="#beg_2e" to="#end_2e" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
-<app from="#beg_2f" to="#end_2f" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
-<app from="#beg_30" to="#end_30" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
-<app from="#beg_31" to="#end_31" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
+<app from="#beg_36" to="#end_36" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
+<app from="#beg_37" to="#end_37" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
+<app from="#beg_38" to="#end_38" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
+<app from="#beg_39" to="#end_39" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
+<app from="#beg_3a" to="#end_3a" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
 <app from="#beg0443019" to="#end0443019"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">日</rdg></app>
-<app from="#beg_32" to="#end_32" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
-<app from="#beg_33" to="#end_33" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
+<app from="#beg_3b" to="#end_3b" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
+<app from="#beg_3c" to="#end_3c" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
 <app from="#beg0443020" to="#end0443020"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
 <app from="#beg0443021" to="#end0443021"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit3">白</rdg></app>
-<app from="#beg_34" to="#end_34" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
-<app from="#beg_35" to="#end_35" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
-<app from="#beg0444001" to="#end0444001"><lem wit="#wit1">餅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">飯</rdg></app>
-<app from="#beg0444002" to="#end0444002"><lem wit="#wit1">上，下</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">下上</rdg></app>
-<app from="#beg_36" to="#end_36" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
-<app from="#beg_37" to="#end_37" corresp="#0444001"><lem wit="#wit1">餅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">飯</rdg></app>
-<app from="#beg_38" to="#end_38" corresp="#0444001"><lem wit="#wit1">餅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">飯</rdg></app>
-<app from="#beg0444003" to="#end0444003"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">更無</rdg></app>
-<app from="#beg_39" to="#end_39" corresp="#0443007"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit5">陀</rdg></app>
-<app from="#beg_3a" to="#end_3a" corresp="#0444001"><lem wit="#wit1">餅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">飯</rdg></app>
-<app from="#beg_3b" to="#end_3b" corresp="#0443007"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit5">陀</rdg></app>
-<app from="#beg0444004" to="#end0444004"><lem wit="#wit1">今料</lem><rdg resp="#resp1" wit="#wit7">令<g ref="#CB02129">䉼</g></rdg></app>
-<app from="#beg_3c" to="#end_3c" corresp="#0443007"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit5">陀</rdg></app>
 <app from="#beg_3d" to="#end_3d" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
-<app from="#beg0444005" to="#end0444005"><lem wit="#wit1">障</lem><rdg resp="#resp1" wit="#wit7">部</rdg></app>
+<app from="#beg_3e" to="#end_3e" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
+<app from="#beg0444001" to="#end0444001"><lem wit="#wit1">餅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">飯</rdg></app>
+<app from="#beg0444002" to="#end0444002"><lem wit="#wit1">上，下</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">下上</rdg></app>
+<app from="#beg_3f" to="#end_3f" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
+<app from="#beg_40" to="#end_40" corresp="#0444001"><lem wit="#wit1">餅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">飯</rdg></app>
+<app from="#beg_41" to="#end_41" corresp="#0444001"><lem wit="#wit1">餅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">飯</rdg></app>
+<app from="#beg0444003" to="#end0444003"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">更無</rdg></app>
+<app from="#beg_42" to="#end_42" corresp="#0443007"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit5">陀</rdg></app>
+<app from="#beg_43" to="#end_43" corresp="#0444001"><lem wit="#wit1">餅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">飯</rdg></app>
+<app from="#beg_44" to="#end_44" corresp="#0443007"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit5">陀</rdg></app>
+<app from="#beg0444004" to="#end0444004"><lem wit="#wit1">今料</lem><rdg resp="#resp1" wit="#wit9">令<g ref="#CB02129">䉼</g></rdg></app>
+<app from="#beg_45" to="#end_45" corresp="#0443007"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit5">陀</rdg></app>
+<app from="#beg_46" to="#end_46" corresp="#0443018"><lem wit="#wit1">晡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
+<app from="#beg0444005" to="#end0444005"><lem wit="#wit1">障</lem><rdg resp="#resp1" wit="#wit9">部</rdg></app>
 <app from="#beg0444006" to="#end0444006"><lem wit="#wit1">內</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">中</rdg></app>
 <app from="#beg0444007" to="#end0444007"><lem wit="#wit1">脯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
 <app from="#beg0444008" to="#end0444008"><lem wit="#wit1">笈</lem><rdg resp="#resp1" wit="#wit5">岌</rdg></app>
-<app from="#beg0444009" to="#end0444009"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit5">令</rdg><rdg resp="#resp1" wit="#wit6">分</rdg><rdg resp="#resp1" wit="#wit7">久</rdg></app>
-<app from="#beg0444010" to="#end0444010"><lem wit="#wit1">火</lem><rdg resp="#resp1" wit="#wit7">大</rdg></app>
+<app from="#beg0444009" to="#end0444009"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit5">令</rdg><rdg resp="#resp1" wit="#wit6">分</rdg><rdg resp="#resp1" wit="#wit9">久</rdg></app>
+<app from="#beg0444010" to="#end0444010"><lem wit="#wit1">火</lem><rdg resp="#resp1" wit="#wit9">大</rdg></app>
 <app from="#beg0445001" to="#end0445001"><lem wit="#wit1">准</lem><rdg resp="#resp1" wit="#wit5">唯</rdg></app>
 <app from="#beg0445002" to="#end0445002"><lem wit="#wit1">踊</lem><rdg resp="#resp1" wit="#wit5">涌</rdg></app>
-<app from="#beg0445003" to="#end0445003"><lem wit="#wit1">庠</lem><rdg resp="#resp1" wit="#wit5">詳</rdg><rdg resp="#resp1" wit="#wit7">祥</rdg></app>
-<app from="#beg_3e" to="#end_3e" corresp="#0444007"><lem wit="#wit1">脯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
-<app from="#beg0445004" to="#end0445004"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
+<app from="#beg0445003" to="#end0445003"><lem wit="#wit1">庠</lem><rdg resp="#resp1" wit="#wit5">詳</rdg><rdg resp="#resp1" wit="#wit9">祥</rdg></app>
+<app from="#beg_47" to="#end_47" corresp="#0444007"><lem wit="#wit1">脯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">哺</rdg></app>
+<app from="#beg0445004" to="#end0445004"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg></app>
+<app from="#beg_48" to="#end_48"><lem resp="#resp3" wit="#wit7 #wit8">令<note type="cf1">K22n0894_p0954b01</note></lem><rdg wit="#wit1">今</rdg></app>
 <app from="#beg0445005" to="#end0445005"><lem wit="#wit1">穌</lem><rdg resp="#resp1" wit="#wit4">酥</rdg></app>
-<app from="#beg0445006" to="#end0445006"><lem wit="#wit1">佉</lem><rdg resp="#resp1" wit="#wit7">法</rdg></app>
-<app from="#beg_3f" to="#end_3f" corresp="#0445006"><lem wit="#wit1">佉</lem><rdg resp="#resp1" wit="#wit7">法</rdg></app>
-<app from="#beg0445007" to="#end0445007"><lem wit="#wit1">庠</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">詳</rdg><rdg resp="#resp1" wit="#wit7">祥</rdg></app>
-<app from="#beg_40" to="#end_40" corresp="#0445006"><lem wit="#wit1">佉</lem><rdg resp="#resp1" wit="#wit7">法</rdg></app>
+<app from="#beg0445006" to="#end0445006"><lem wit="#wit1">佉</lem><rdg resp="#resp1" wit="#wit9">法</rdg></app>
+<app from="#beg_49" to="#end_49" corresp="#0445006"><lem wit="#wit1">佉</lem><rdg resp="#resp1" wit="#wit9">法</rdg></app>
+<app from="#beg0445007" to="#end0445007"><lem wit="#wit1">庠</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">詳</rdg><rdg resp="#resp1" wit="#wit9">祥</rdg></app>
+<app from="#beg_4a" to="#end_4a" corresp="#0445006"><lem wit="#wit1">佉</lem><rdg resp="#resp1" wit="#wit9">法</rdg></app>
 <app from="#beg0445008" to="#end0445008"><lem wit="#wit1">跋</lem><rdg resp="#resp1" wit="#wit6">跛</rdg></app>
 <app from="#beg0445009" to="#end0445009"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
-<app from="#beg_41" to="#end_41" corresp="#0445009"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
-<app from="#beg_42" to="#end_42" corresp="#0445009"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
-<app from="#beg_43" to="#end_43" corresp="#0445009"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
-<app from="#beg0445010" to="#end0445010"><lem wit="#wit1">塐</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit6 #wit7">素</rdg></app>
+<app from="#beg_4b" to="#end_4b" corresp="#0445009"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
+<app from="#beg_4c" to="#end_4c" corresp="#0445009"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
+<app from="#beg_4d" to="#end_4d" corresp="#0445009"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
+<app from="#beg0445010" to="#end0445010"><lem wit="#wit1">塐</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit6 #wit9">素</rdg></app>
 <app from="#beg0445011" to="#end0445011"><lem wit="#wit1">營</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">瑩</rdg></app>
-<app from="#beg0446001" to="#end0446001"><lem wit="#wit1">作</lem><rdg resp="#resp1" wit="#wit7">仁</rdg></app>
+<app from="#beg0446001" to="#end0446001"><lem wit="#wit1">作</lem><rdg resp="#resp1" wit="#wit9">仁</rdg></app>
 <app from="#beg0446002" to="#end0446002"><lem wit="#wit1">己力</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">力已</rdg></app>
 <app from="#beg0446003" to="#end0446003"><lem wit="#wit1">聞</lem><rdg resp="#resp1" wit="#wit6">闕</rdg></app>
-<app from="#beg0446004" to="#end0446004"><lem wit="#wit1"><g ref="#CB00626">㲲</g></lem><rdg resp="#resp1" wit="#wit7">疊</rdg></app>
+<app from="#beg0446004" to="#end0446004"><lem wit="#wit1"><g ref="#CB00626">㲲</g></lem><rdg resp="#resp1" wit="#wit9">疊</rdg></app>
+<app from="#beg_4e" to="#end_4e"><lem resp="#resp3" wit="#wit7 #wit8">准<note type="cf1">K22n0894_p0956b04</note></lem><rdg wit="#wit1">準</rdg></app>
 <app from="#beg0446005" to="#end0446005"><lem wit="#wit1">直</lem><rdg resp="#resp1" wit="#wit6">真</rdg></app>
 <app from="#beg0446006" to="#end0446006"><lem wit="#wit1">揵稚</lem><rdg resp="#resp1" wit="#wit5">犍椎</rdg></app>
-<app from="#beg0446007" to="#end0446007"><lem wit="#wit1">止</lem><rdg resp="#resp1" wit="#wit7">心</rdg></app>
+<app from="#beg0446007" to="#end0446007"><lem wit="#wit1">止</lem><rdg resp="#resp1" wit="#wit9">心</rdg></app>
 <app from="#beg0446008" to="#end0446008"><lem wit="#wit1">祇</lem><rdg resp="#resp1" wit="#wit3">衣</rdg></app>
-<app from="#beg0446009" to="#end0446009"><lem wit="#wit1">頹</lem><rdg resp="#resp1" wit="#wit7">願</rdg></app>
-<app from="#beg0447001" to="#end0447001"><lem wit="#wit1">祇</lem><rdg resp="#resp1" wit="#wit7">衣</rdg></app>
+<app from="#beg0446009" to="#end0446009"><lem wit="#wit1">頹</lem><rdg resp="#resp1" wit="#wit9">願</rdg></app>
+<app from="#beg0447001" to="#end0447001"><lem wit="#wit1">祇</lem><rdg resp="#resp1" wit="#wit9">衣</rdg></app>
 <app from="#beg0447002" to="#end0447002"><lem wit="#wit1">座</lem><rdg resp="#resp1" wit="#wit6">至</rdg></app>
 <app from="#beg0447003" to="#end0447003"><lem wit="#wit1">據</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">懅</rdg></app>
-<app from="#beg0447004" to="#end0447004"><lem wit="#wit1">候</lem><rdg resp="#resp1" wit="#wit7">佛</rdg></app>
-<app from="#beg_44" to="#end_44" corresp="#0446006"><lem wit="#wit1">揵稚</lem><rdg resp="#resp1" wit="#wit5">犍椎</rdg></app>
-<app from="#beg_45" to="#end_45" corresp="#0446006"><lem wit="#wit1">揵稚</lem><rdg resp="#resp1" wit="#wit5">犍椎</rdg></app>
-<app from="#beg0447005" to="#end0447005"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit7">未</rdg></app>
-<app from="#beg0447006" to="#end0447006"><lem wit="#wit1">果</lem><rdg resp="#resp1" wit="#wit7">異</rdg></app>
+<app from="#beg0447004" to="#end0447004"><lem wit="#wit1">候</lem><rdg resp="#resp1" wit="#wit9">佛</rdg></app>
+<app from="#beg_4f" to="#end_4f" corresp="#0446006"><lem wit="#wit1">揵稚</lem><rdg resp="#resp1" wit="#wit5">犍椎</rdg></app>
+<app from="#beg_50" to="#end_50" corresp="#0446006"><lem wit="#wit1">揵稚</lem><rdg resp="#resp1" wit="#wit5">犍椎</rdg></app>
+<app from="#beg0447005" to="#end0447005"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit9">未</rdg></app>
+<app from="#beg0447006" to="#end0447006"><lem wit="#wit1">果</lem><rdg resp="#resp1" wit="#wit9">異</rdg></app>
 <app from="#beg0447007" to="#end0447007"><lem wit="#wit1">其</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">自</rdg></app>
-<app from="#beg0447008" to="#end0447008"><lem wit="#wit1">情</lem><rdg resp="#resp1" wit="#wit7">懷</rdg></app>
-<app from="#beg0447009" to="#end0447009"><lem wit="#wit1">遂</lem><rdg resp="#resp1" wit="#wit7">還</rdg></app>
-<app from="#beg0447010" to="#end0447010"><lem wit="#wit1">倰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">凌</rdg></app>
-<app from="#beg_46" to="#end_46" corresp="#0445009"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
-<app from="#beg0447011" to="#end0447011"><lem wit="#wit1">千</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit7">十</rdg></app>
+<app from="#beg0447008" to="#end0447008"><lem wit="#wit1">情</lem><rdg resp="#resp1" wit="#wit9">懷</rdg></app>
+<app from="#beg0447009" to="#end0447009"><lem wit="#wit1">遂</lem><rdg resp="#resp1" wit="#wit9">還</rdg></app>
+<app from="#beg0447010" to="#end0447010"><lem wit="#wit1">倰</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">凌</rdg></app>
+<app from="#beg_51" to="#end_51" corresp="#0445009"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
+<app from="#beg0447011" to="#end0447011"><lem wit="#wit1">千</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6 #wit9">十</rdg></app>
 <app from="#beg0447012" to="#end0447012"><lem wit="#wit1">牒</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">疊</rdg></app>
-<app from="#beg0447013" to="#end0447013"><lem wit="#wit1">乏</lem><rdg resp="#resp1" wit="#wit7">之</rdg></app>
+<app from="#beg0447013" to="#end0447013"><lem wit="#wit1">乏</lem><rdg resp="#resp1" wit="#wit9">之</rdg></app>
 <app from="#beg0447014" to="#end0447014"><lem wit="#wit1">敧</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">欹</rdg></app>
-<app from="#beg_47" to="#end_47" corresp="#0447014"><lem wit="#wit1">敧</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">欹</rdg></app>
-<app from="#beg_48" to="#end_48" corresp="#0447012"><lem wit="#wit1">牒</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">疊</rdg></app>
+<app from="#beg_52" to="#end_52" corresp="#0447014"><lem wit="#wit1">敧</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">欹</rdg></app>
+<app from="#beg_53" to="#end_53" corresp="#0447012"><lem wit="#wit1">牒</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">疊</rdg></app>
 <app from="#beg0448001" to="#end0448001"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit6">二</rdg></app>
 <app from="#beg0448002" to="#end0448002"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit6">三</rdg></app>
 <app from="#beg0448003" to="#end0448003"><lem wit="#wit1">瑕</lem><rdg resp="#resp1" wit="#wit6">假</rdg></app>
-<app from="#beg0448004" to="#end0448004"><lem resp="#resp3" wit="#wit8">獷</lem><rdg wit="#wit1">礦</rdg><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">獷</rdg></app>
+<app from="#beg0448004" to="#end0448004"><lem resp="#resp3" wit="#wit7">獷</lem><rdg wit="#wit1">礦</rdg><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">獷</rdg></app>
 <app from="#beg0448005" to="#end0448005"><lem wit="#wit1">本</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">其本</rdg></app>
 <app from="#beg0448006" to="#end0448006"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">授</rdg></app>
 <app from="#beg0448007" to="#end0448007"><lem wit="#wit1">遣</lem><rdg resp="#resp1" wit="#wit6">違</rdg></app>
 <app from="#beg0448008" to="#end0448008"><lem wit="#wit1">佛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">他</rdg></app>
 <app from="#beg0448009" to="#end0448009"><lem wit="#wit1">痿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">萎</rdg></app>
-<app from="#beg_49" to="#end_49" corresp="#0448009"><lem wit="#wit1">痿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">萎</rdg></app>
+<app from="#beg_54" to="#end_54" corresp="#0448009"><lem wit="#wit1">痿</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">萎</rdg></app>
 <app from="#beg0449001" to="#end0449001"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">是</rdg></app>
 <app from="#beg0449002" to="#end0449002"><lem wit="#wit1">莫</lem><rdg resp="#resp1" wit="#wit4">草</rdg></app>
 <app from="#beg0449003" to="#end0449003"><lem wit="#wit1">煖</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit6">暖</rdg></app>
@@ -4456,32 +4494,35 @@ Added comment  for Emacs
 <app from="#beg0450003" to="#end0450003"><lem wit="#wit1">便</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">更</rdg></app>
 <app from="#beg0450004" to="#end0450004"><lem wit="#wit1">石</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">名</rdg></app>
 <app from="#beg0450005" to="#end0450005"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
-<app from="#beg_4a" to="#end_4a" corresp="#0450005"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
+<app from="#beg_55" to="#end_55" corresp="#0450005"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
 <app from="#beg0450006" to="#end0450006"><lem wit="#wit1">葡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">蒲</rdg></app>
 <app from="#beg0450007" to="#end0450007"><lem wit="#wit1">萄</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit6">桃</rdg></app>
 <app from="#beg0450008" to="#end0450008"><lem wit="#wit1">口</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">曰</rdg></app>
 <app from="#beg0450009" to="#end0450009"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">便</rdg></app>
 <app from="#beg0450010" to="#end0450010"><lem wit="#wit1">讌</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">宴</rdg></app>
-<choice cb:from="#beg_4b" cb:to="#end_4b"><corr>濾</corr><sic>瀘</sic></choice>
-<choice cb:from="#beg_4c" cb:to="#end_4c"><corr>濾</corr><sic>瀘</sic></choice>
+<choice cb:from="#beg_56" cb:to="#end_56"><corr>濾</corr><sic>瀘</sic></choice>
+<choice cb:from="#beg_57" cb:to="#end_57"><corr>濾</corr><sic>瀘</sic></choice>
 <app from="#beg0451001" to="#end0451001"><lem wit="#wit1">螫</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit6">蜇</rdg></app>
 <app from="#beg0451002" to="#end0451002"><lem wit="#wit1">塼</lem><rdg resp="#resp1" wit="#wit6">甎</rdg></app>
 <app from="#beg0451003" to="#end0451003"><lem wit="#wit1">漱</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">洗</rdg></app>
-<app from="#beg0451004" to="#end0451004"><lem wit="#wit1">棄</lem><rdg resp="#resp1" wit="#wit6">葉</rdg></app>
+<app from="#beg0451004" to="#end0451004"><lem resp="#resp3" wit="#wit7 #wit10">葉<note type="cf1">Q21_p0635c09</note></lem><rdg wit="#wit1">棄</rdg><rdg resp="#resp3" wit="#wit8"><g ref="#CB01007">𦰧</g><note type="cf1">K22n0894_p0963a07</note></rdg><rdg resp="#resp1" wit="#wit6">葉</rdg></app>
 <app from="#beg0451005" to="#end0451005"><lem wit="#wit1">振</lem><rdg resp="#resp1" wit="#wit6">攝</rdg></app>
 <app from="#beg0451006" to="#end0451006"><lem wit="#wit1">目得迦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg_58" to="#end_58"><lem resp="#resp3" wit="#wit7 #wit10">柂<note type="cf1">Q21_p0636c17</note></lem><rdg wit="#wit1">柁</rdg><rdg resp="#resp3" wit="#wit8">拖<note type="cf1">K22n0894_p0964c09</note></rdg></app>
 <app from="#beg0452001" to="#end0452001"><lem wit="#wit1">忘</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">妄</rdg></app>
 <app from="#beg0452002" to="#end0452002"><lem wit="#wit1">元</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">無</rdg></app>
 <app from="#beg0452003" to="#end0452003"><lem wit="#wit1">謗</lem><rdg resp="#resp1" wit="#wit6">談</rdg></app>
 <app from="#beg0453001" to="#end0453001"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">內</rdg></app>
-<app from="#beg_4d" to="#end_4d" corresp="#0453001"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">內</rdg></app>
+<app from="#beg_59" to="#end_59" corresp="#0453001"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">內</rdg></app>
 <app from="#beg0453002" to="#end0453002"><lem wit="#wit1">線</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit6">綎</rdg></app>
+<app from="#beg_5a" to="#end_5a"><lem wit="#wit1">帖</lem><rdg resp="#resp3" wit="#wit10 #wit7">帖<note type="cf1">Q21_p0638a05</note></rdg><rdg resp="#resp3" wit="#wit8">怗<note type="cf1">K22n0894_p0966b08</note></rdg></app>
 <app from="#beg0453003" to="#end0453003"><lem wit="#wit1">飯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">餅</rdg></app>
 <app from="#beg0453004" to="#end0453004"><lem wit="#wit1">蓋</lem><rdg resp="#resp1" wit="#wit3">盡</rdg></app>
 <app from="#beg0453005" to="#end0453005"><lem wit="#wit1">摙</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">輦</rdg></app>
-<app from="#beg_4e" to="#end_4e" corresp="#0453003"><lem wit="#wit1">飯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">餅</rdg></app>
+<app from="#beg_5b" to="#end_5b" corresp="#0453003"><lem wit="#wit1">飯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">餅</rdg></app>
 <app from="#beg0453006" to="#end0453006"><lem wit="#wit1">兄弟二</lem><rdg resp="#resp1" wit="#wit5">二兄弟</rdg></app>
 <app from="#beg0453007" to="#end0453007"><lem wit="#wit1"><g ref="#CB00626">㲲</g></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">疊</rdg></app>
+<app from="#beg_5c" to="#end_5c"><lem wit="#wit1">券</lem><rdg resp="#resp3" wit="#wit8 #wit10">劵<note type="cf1">K22n0894_p0967b18</note><note type="cf2">Q21_p0638c12</note></rdg></app>
 <app from="#beg0454001" to="#end0454001"><lem wit="#wit1">未</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">來</rdg></app>
 <app from="#beg0454002" to="#end0454002"><lem wit="#wit1">主</lem><rdg resp="#resp1" wit="#wit4">王</rdg></app>
 <app from="#beg0454003" to="#end0454003"><lem wit="#wit1">覩</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">堵</rdg></app>
@@ -4491,16 +4532,19 @@ Added comment  for Emacs
 <app from="#beg0454007" to="#end0454007"><lem wit="#wit1">名</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">名日</rdg></app>
 <app from="#beg0454008" to="#end0454008"><lem wit="#wit1">葡</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">蒲</rdg></app>
 <app from="#beg0454009" to="#end0454009"><lem wit="#wit1">萄</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit6">桃</rdg></app>
+<app from="#beg_5d" to="#end_5d"><lem resp="#resp3" wit="#wit7 #wit10">桃<note type="cf1">Q21_p0639b08</note></lem><rdg wit="#wit1">挑</rdg><rdg resp="#resp3" wit="#wit8"><g ref="#CB11601">󲵑</g><note type="cf1">K22n0894_p0968b16</note></rdg></app>
 <app from="#beg0454010" to="#end0454010"><lem wit="#wit1">成</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">盛</rdg></app>
 <app from="#beg0454011" to="#end0454011"><lem wit="#wit1">瓨</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">瓶</rdg></app>
 <app from="#beg0455001" to="#end0455001"><lem wit="#wit1">取</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">收</rdg></app>
+<app from="#beg_5e" to="#end_5e"><lem resp="#resp3" wit="#wit7 #wit8">別<note type="cf1">K22n0894_p0969b04</note></lem><rdg wit="#wit1">明</rdg></app>
 <app from="#beg0455002" to="#end0455002"><lem wit="#wit1">牢</lem><rdg resp="#resp1" wit="#wit6">雲</rdg></app>
 <app from="#beg0455003" to="#end0455003"><lem wit="#wit1">墮</lem><rdg resp="#resp1" wit="#wit6">陪</rdg></app>
 <app from="#beg0455004" to="#end0455004"><lem wit="#wit1">凡</lem><rdg resp="#resp1" wit="#wit6">足</rdg></app>
 <app from="#beg0455005" to="#end0455005"><lem wit="#wit1">敧</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">欹</rdg></app>
-<app from="#beg_4f" to="#end_4f" corresp="#0455005"><lem wit="#wit1">敧</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">欹</rdg></app>
+<app from="#beg_5f" to="#end_5f" corresp="#0455005"><lem wit="#wit1">敧</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">欹</rdg></app>
+<app from="#beg_60" to="#end_60"><lem resp="#resp3" wit="#wit7 #wit8">汗<note type="cf1">K22n0894_p0969c08</note></lem><rdg wit="#wit1">污</rdg></app>
 <app from="#beg0455006" to="#end0455006"><lem wit="#wit1">污</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
-<app from="#beg_50" to="#end_50" corresp="#0455005"><lem wit="#wit1">敧</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">欹</rdg></app>
+<app from="#beg_61" to="#end_61" corresp="#0455005"><lem wit="#wit1">敧</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5 #wit6">欹</rdg></app>
 <app from="#beg0455007" to="#end0455007"><lem wit="#wit1">沾</lem><rdg resp="#resp1" wit="#wit5">霑</rdg></app>
 </p>
 </cb:div>
@@ -4640,6 +4684,7 @@ Added comment  for Emacs
 <note n="0450009" resp="#resp2" type="mod" target="#nkr_note_mod_0450009">受＝便【宋】【元】【明】【宮】</note>
 <note n="0450010" resp="#resp2" type="mod" target="#nkr_note_mod_0450010">讌＝宴【宋】【元】【明】【宮】</note>
 <note n="0451003" resp="#resp2" type="mod" target="#nkr_note_mod_0451003">漱＝洗【宋】【元】【明】【宮】</note>
+<note n="0451004" resp="#resp2" type="mod" target="#nkr_note_mod_0451004">棄＝葉【宮】【磧砂-CB】【CB】，＝<g ref="#CB01007">𦰧</g>【麗-CB】</note>
 <note n="0451006" resp="#resp2" type="mod" target="#nkr_note_mod_0451006">〔目得迦〕－【宋】【元】【明】【宮】</note>
 <note n="0452001" resp="#resp2" type="mod" target="#nkr_note_mod_0452001">忘＝妄【宋】【元】【明】【宮】</note>
 <note n="0452002" resp="#resp2" type="mod" target="#nkr_note_mod_0452002">元＝無【宋】【元】【明】【宮】</note>

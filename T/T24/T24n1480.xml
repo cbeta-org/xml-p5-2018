@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:02:39 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【宮】</witness>
 		<witness xml:id="wit5">【明】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -156,10 +159,10 @@ Added comment  for Emacs
 <lb n="0957a01" ed="T"/>聞知毘奈<anchor xml:id="beg_8" type="star"/>邪<anchor xml:id="end_8"/>。</p>
 <lb n="0957a02" ed="T"/><p xml:id="pT24p0957a0201">「云何苾芻得力正行，犯生戒依法依毘奈<anchor xml:id="beg_9" type="star"/>邪<anchor xml:id="end_9"/>
 <lb n="0957a03" ed="T"/>正行？謂苾芻知阿鉢<anchor xml:id="beg_a" type="star"/>底<anchor xml:id="end_a"/>、知非阿鉢<anchor xml:id="beg_b" type="star"/>底<anchor xml:id="end_b"/>，知輕
-<lb n="0957a04" ed="T"/>阿鉢<anchor xml:id="beg_c" type="star"/>底<anchor xml:id="end_c"/>、知重阿鉢<anchor xml:id="nkr_note_orig_0957001" n="0957001"/><anchor xml:id="beg0957001" n="0957001"/>帝<anchor xml:id="end0957001"/>，知因業阿鉢<anchor xml:id="beg_d" type="star"/>底<anchor xml:id="end_d"/>、知
+<lb n="0957a04" ed="T"/>阿鉢<anchor xml:id="beg_c" type="star"/>底<anchor xml:id="end_c"/>、知重阿鉢<anchor xml:id="nkr_note_orig_0957001" n="0957001"/><anchor xml:id="nkr_note_mod_0957001" n="0957001"/><anchor xml:id="beg0957001" n="0957001"/>底<anchor xml:id="end0957001"/>，知因業阿鉢<anchor xml:id="beg_d" type="star"/>底<anchor xml:id="end_d"/>、知
 <lb n="0957a05" ed="T"/>非因業阿鉢<anchor xml:id="beg_e" type="star"/>底<anchor xml:id="end_e"/>，知中阿鉢<anchor xml:id="beg_f" type="star"/>底<anchor xml:id="end_f"/>、知前阿鉢
 <lb n="0957a06" ed="T"/><anchor xml:id="beg_10" type="star"/>底<anchor xml:id="end_10"/>、知後阿鉢<anchor xml:id="beg_11" type="star"/>底<anchor xml:id="end_11"/>，知已起阿鉢<anchor xml:id="beg_12" type="star"/>底<anchor xml:id="end_12"/>、知未起
-<lb n="0957a07" ed="T"/>阿鉢<anchor xml:id="beg_13" type="star"/>帝<anchor xml:id="end_13"/>。阿鉢<anchor xml:id="beg_14" type="star"/>底<anchor xml:id="end_14"/>起已，一一能知。苾芻！是為
+<lb n="0957a07" ed="T"/>阿鉢<anchor xml:id="beg_13" type="star"/>底<anchor xml:id="end_13"/>。阿鉢<anchor xml:id="beg_14" type="star"/>底<anchor xml:id="end_14"/>起已，一一能知。苾芻！是為
 <lb n="0957a08" ed="T"/>得力正行，依法依毘奈<anchor xml:id="beg_15" type="star"/>邪<anchor xml:id="end_15"/>正行。</p>
 <lb n="0957a09" ed="T"/><p xml:id="pT24p0957a0901">「云何苾芻得力正行，犯生罪邪行邪見，依法依
 <lb n="0957a10" ed="T"/>毘奈<anchor xml:id="beg_16" type="star"/>邪<anchor xml:id="end_16"/>正行？苾芻！此得力正行，謂周緣生
@@ -226,14 +229,14 @@ Added comment  for Emacs
 <app from="#beg_a" to="#end_a" corresp="#0956008"><lem wit="#wit1">底</lem><rdg resp="#resp1" wit="#wit5">帝</rdg></app>
 <app from="#beg_b" to="#end_b" corresp="#0956008"><lem wit="#wit1">底</lem><rdg resp="#resp1" wit="#wit5">帝</rdg></app>
 <app from="#beg_c" to="#end_c" corresp="#0956008"><lem wit="#wit1">底</lem><rdg resp="#resp1" wit="#wit5">帝</rdg></app>
-<app from="#beg0957001" to="#end0957001"><lem wit="#wit1">帝</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">底</rdg></app>
+<app from="#beg0957001" to="#end0957001"><lem resp="#resp3" wit="#wit6 #wit7">底<note type="cf1">K33n1129_p1055b10</note></lem><rdg wit="#wit1">帝</rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">底</rdg></app>
 <app from="#beg_d" to="#end_d" corresp="#0956008"><lem wit="#wit1">底</lem><rdg resp="#resp1" wit="#wit5">帝</rdg></app>
 <app from="#beg_e" to="#end_e" corresp="#0956008"><lem wit="#wit1">底</lem><rdg resp="#resp1" wit="#wit5">帝</rdg></app>
 <app from="#beg_f" to="#end_f" corresp="#0956008"><lem wit="#wit1">底</lem><rdg resp="#resp1" wit="#wit5">帝</rdg></app>
 <app from="#beg_10" to="#end_10" corresp="#0956008"><lem wit="#wit1">底</lem><rdg resp="#resp1" wit="#wit5">帝</rdg></app>
 <app from="#beg_11" to="#end_11" corresp="#0956008"><lem wit="#wit1">底</lem><rdg resp="#resp1" wit="#wit5">帝</rdg></app>
 <app from="#beg_12" to="#end_12" corresp="#0956008"><lem wit="#wit1">底</lem><rdg resp="#resp1" wit="#wit5">帝</rdg></app>
-<app from="#beg_13" to="#end_13" corresp="#0957001"><lem wit="#wit1">帝</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">底</rdg></app>
+<app from="#beg_13" to="#end_13" corresp="#0957001"><lem resp="#resp3" wit="#wit6 #wit7">底<note type="cf1">K33n1129_p1055b10</note></lem><rdg wit="#wit1">帝</rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">底</rdg></app>
 <app from="#beg_14" to="#end_14" corresp="#0956008"><lem wit="#wit1">底</lem><rdg resp="#resp1" wit="#wit5">帝</rdg></app>
 <app from="#beg_15" to="#end_15" corresp="#0956007"><lem wit="#wit1">邪</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">耶</rdg></app>
 <app from="#beg_16" to="#end_16" corresp="#0956007"><lem wit="#wit1">邪</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">耶</rdg></app>
@@ -253,6 +256,7 @@ Added comment  for Emacs
 <note n="0956006" resp="#resp2" type="mod" target="#nkr_note_mod_0956006">〔臣〕－【宋】【元】【明】【宮】</note>
 <note n="0956007" resp="#resp2" type="mod" target="#nkr_note_mod_0956007">邪＝耶【宋】【元】【明】【宮】＊</note>
 <note n="0956009" resp="#resp2" type="mod" target="#nkr_note_mod_0956009">解脫＝解解說【宋】【元】【明】【宮】</note>
+<note n="0957001" resp="#resp2" type="mod" target="#nkr_note_mod_0957001">帝＝底【宋】【元】【宮】＊【麗-CB】＊【CB】＊</note>
 <note n="0957002" resp="#resp2" type="mod" target="#nkr_note_mod_0957002">行＝得【宋】【元】【明】【宮】</note>
 <note n="0957003" resp="#resp2" type="mod" target="#nkr_note_mod_0957003">病＝痛【宋】【元】【明】【宮】</note>
 </p>
