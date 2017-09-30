@@ -14,7 +14,8 @@
 		<edition>$Revision: 1.12 $<date>$Date: 2009/04/23 08:06:26 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,7 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【CBETA】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -215,7 +217,7 @@ Added comment  for Emacs
 <lb n="0311b28" ed="T"/><l>除香味二識</l><l>無色繫後三</l>
 <lb n="0311b29" ed="T"/><l>意法意識通</l><l>所餘唯有漏</l>
 <pb n="0311c" xml:id="T29.1560.0311c" ed="T"/>
-<lb n="0311c01" ed="T"/><l>五識<anchor xml:id="nkr_note_orig_0311003" n="0311003"/><anchor xml:id="nkr_note_mod_0311003" n="0311003"/><anchor xml:id="beg0311003" n="0311003"/>唯<anchor xml:id="end0311003"/>尋伺</l><l>後三<anchor xml:id="nkr_note_orig_0311004" n="0311004"/><anchor xml:id="nkr_note_mod_0311004" n="0311004"/><anchor xml:id="beg0311004" n="0311004"/>二<anchor xml:id="end0311004"/>餘無</l>
+<lb n="0311c01" ed="T"/><l>五識<anchor xml:id="nkr_note_orig_0311003" n="0311003"/><anchor xml:id="nkr_note_mod_0311003" n="0311003"/><anchor xml:id="beg0311003" n="0311003"/>唯<anchor xml:id="end0311003"/>尋伺</l><l>後三<anchor xml:id="nkr_note_orig_0311004" n="0311004"/><anchor xml:id="nkr_note_mod_0311004" n="0311004"/><anchor xml:id="beg0311004" n="0311004"/>三<anchor xml:id="end0311004"/>餘無</l>
 <lb n="0311c02" ed="T"/><l>說五無分別</l><l>由計度隨念</l>
 <lb n="0311c03" ed="T"/><l>以意地散慧</l><l>意<anchor xml:id="nkr_note_orig_0311005" n="0311005"/><anchor xml:id="nkr_note_mod_0311005" n="0311005"/><anchor xml:id="beg0311005" n="0311005"/>諸<anchor xml:id="end0311005"/>念為體</l>
 <lb n="0311c04" ed="T"/><l>七心法界半</l><l>有所緣餘無</l>
@@ -1429,7 +1431,7 @@ Added comment  for Emacs
 <app from="#beg0311001" to="#end0311001"><lem wit="#wit1">攝</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">說</rdg></app>
 <app from="#beg0311002" to="#end0311002"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">光</rdg></app>
 <app from="#beg0311003" to="#end0311003"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">有</rdg></app>
-<app from="#beg0311004" to="#end0311004"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">三</rdg></app>
+<app from="#beg0311004" to="#end0311004"><lem resp="#resp3" wit="#wit5">三<note type="cf1">T29n1558_p0008a11</note></lem><rdg wit="#wit1">二</rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">三</rdg></app>
 <app from="#beg0311005" to="#end0311005"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">識</rdg></app>
 <app from="#beg0312001" to="#end0312001"><lem wit="#wit1">身</lem><rdg resp="#resp1" wit="#wit4">根</rdg></app>
 <app from="#beg0312002" to="#end0312002"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2 #wit3">惟</rdg></app>
@@ -1489,7 +1491,7 @@ Added comment  for Emacs
 <app from="#beg0320008" to="#end0320008"><lem wit="#wit1">諦修</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">修道</rdg></app>
 <app from="#beg0320009" to="#end0320009"><lem wit="#wit1">唯無漏</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">見聖諦</rdg></app>
 <app from="#beg0320010" to="#end0320010"><lem wit="#wit1">通二種</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">修九品</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr></corr><sic>[01]</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_2" cb:to="#end_2"><corr></corr><sic>[01]</sic></choice>
 <app from="#beg0322001" to="#end0322001"><lem wit="#wit1">本</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">四</rdg></app>
 <app from="#beg0322002" to="#end0322002"><lem wit="#wit1">四</lem><rdg resp="#resp1" wit="#wit4">由</rdg></app>
 <app from="#beg0322003" to="#end0322003"><lem wit="#wit1">辦</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">辨</rdg></app>
@@ -1511,7 +1513,7 @@ Added comment  for Emacs
 <note n="0311001" resp="#resp2" type="mod" target="#nkr_note_mod_0311001">攝＝說【宋】【元】【明】</note>
 <note n="0311002" resp="#resp2" type="mod" target="#nkr_note_mod_0311002">明＝光【宋】【元】【明】</note>
 <note n="0311003" resp="#resp2" type="mod" target="#nkr_note_mod_0311003">唯＝有【宋】【元】【明】</note>
-<note n="0311004" resp="#resp2" type="mod" target="#nkr_note_mod_0311004">二＝三【宋】【元】【明】</note>
+<note n="0311004" resp="#resp2" type="mod" target="#nkr_note_mod_0311004">二＝三【宋】【元】【明】【CB】</note>
 <note n="0311005" resp="#resp2" type="mod" target="#nkr_note_mod_0311005">諸＝識【宋】【元】【明】</note>
 <note n="0313001" resp="#resp2" type="mod" target="#nkr_note_mod_0313001">第＝等【宋】【元】【明】</note>
 <note n="0313002" resp="#resp2" type="mod" target="#nkr_note_mod_0313002">生從七＝從七生【宋】【元】【明】</note>

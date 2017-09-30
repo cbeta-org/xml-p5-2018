@@ -2068,6 +2068,8 @@ tei_biblScope =
   element biblScope {
     tei_macro.phraseSeq,
     att.global.attributes,
+    attribute from { text }?,
+    attribute to { text }?,
     
     ## identifies the type of information conveyed by the element, e.g.
     ##                 columns, pages, volume.
@@ -2109,6 +2111,7 @@ tei_bibl =
   ##     not be explicitly tagged. 
   element bibl {
     (text
+     | tei_bibl
      | tei_model.gLike
      | tei_model.highlighted
      | tei_model.pPart.data
