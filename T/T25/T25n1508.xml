@@ -15,6 +15,7 @@
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -37,6 +38,9 @@
 		<witness xml:id="wit3">【明】</witness>
 		<witness xml:id="wit4">【宋】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【磧砂】</witness>
+		<witness xml:id="wit7">【CBETA】</witness>
+		<witness xml:id="wit8">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -337,7 +341,7 @@ Added comment  for Emacs
 <lb n="0055a18" ed="T"/>三者師巫種；四者田家種。生者有四種：一者
 <lb n="0055a19" ed="T"/>腹生；二者謂寒熱和生；三者化生；四者卵生。
 <lb n="0055a20" ed="T"/>腹生者，謂人及畜生。寒熱和生者，謂虫蛾蚤
-<lb n="0055a21" ed="T"/>虱。化生者，謂天及地獄。卵生者，謂飛鳥魚
+<lb n="0055a21" ed="T"/><anchor xml:id="beg_4" type="cb-app"/>虱<anchor xml:id="end_4"/>。化生者，謂天及地獄。卵生者，謂飛鳥魚
 <lb n="0055a22" ed="T"/>鼈。</p>
 <lb n="0055a23" ed="T"/><p xml:id="pT25p0055a2301">人頭有四十五骨，從腰<anchor xml:id="nkr_note_orig_0055006" n="0055006"/><anchor xml:id="nkr_note_mod_0055006" n="0055006"/><anchor xml:id="beg0055006" n="0055006"/>以<anchor xml:id="end0055006"/>上五十一骨，四
 <lb n="0055a24" ed="T"/><anchor xml:id="nkr_note_orig_0055007" n="0055007"/><anchor xml:id="beg0055007" n="0055007"/>支<anchor xml:id="end0055007"/>百四骨，合二百骨。人身有七十萬脈，九
@@ -393,6 +397,7 @@ Added comment  for Emacs
 <app from="#beg0055003" to="#end0055003"><lem wit="#wit1">辛</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">辣</rdg></app>
 <app from="#beg0055004" to="#end0055004"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit3">今</rdg></app>
 <app from="#beg0055005" to="#end0055005"><lem wit="#wit1">薄厚</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3 #wit5">厚薄</rdg></app>
+<app from="#beg_4" to="#end_4"><lem wit="#wit1">虱</lem><rdg resp="#resp4" wit="#wit6 #wit7">虱<note type="cf1">Q28_p0488b23</note></rdg><rdg resp="#resp4" wit="#wit8">風<note type="cf1">K30n1023_p0586b21</note></rdg></app>
 <app from="#beg0055006" to="#end0055006"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3 #wit5">已</rdg></app>
 <app from="#beg0055007" to="#end0055007"><lem wit="#wit1">支</lem><rdg resp="#resp1" wit="#wit2 #wit3">肢</rdg></app>
 </p>

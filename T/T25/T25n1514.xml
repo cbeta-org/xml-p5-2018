@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:02:55 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -232,7 +235,7 @@ Added comment  for Emacs
 <lb n="0886a19" ed="T"/><l>種種心流轉，</l><l>離於念處故，</l>
 <lb n="0886a20" ed="T"/><l>彼無持常轉，</l><l>故說為虛妄。</l>
 <lb n="0886a21" ed="T"/><l>應知是智持，</l><l>福乃非虛妄，</l>
-<lb n="0886a22" ed="T"/><l>顯此福因故，</l><l>重陳共喻言。</l>
+<lb n="0886a22" ed="T"/><l>顯此福因故，</l><l>重陳<anchor xml:id="beg_1" type="cb-app"/>其<anchor xml:id="end_1"/>喻言。</l>
 <lb n="0886a23" ed="T"/><l>謂於真法身，</l><l>無隨好圓滿，</l>
 <lb n="0886a24" ed="T"/><l>亦非是具相，</l><l>非身性應知。</l>
 <lb n="0886a25" ed="T"/><l>於法身無別，</l><l>非如來無二，</l>
@@ -305,6 +308,7 @@ Added comment  for Emacs
 <app from="#beg0885010" to="#end0885010"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">地</rdg></app>
 <app from="#beg0885011" to="#end0885011"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit5">諸</rdg></app>
 <app from="#beg0886001" to="#end0886001"><lem wit="#wit1">菩薩</lem><rdg resp="#resp1" wit="#wit4">菩提</rdg></app>
+<app from="#beg_1" to="#end_1"><lem resp="#resp3" wit="#wit6 #wit7">其<note type="cf1">K15n0556_p0300a03</note></lem><rdg wit="#wit1">共</rdg></app>
 <app from="#beg0886002" to="#end0886002"><lem wit="#wit1">許</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">計</rdg></app>
 </p>
 </cb:div>

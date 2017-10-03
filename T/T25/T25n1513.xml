@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:02:55 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【明】</witness>
 		<witness xml:id="wit4">【宋】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -775,7 +778,7 @@ Added comment  for Emacs
 <lb n="0881c28" ed="T"/>所顯，如何如來說有諸好及眾相耶？為除此
 <pb n="0882a" ed="T" xml:id="T25.1513.0882a"/>
 <lb n="0882a01" ed="T"/>難，故云「不應色身圓滿及相具足觀於如來」。
-<lb n="0882a02" ed="T"/>言「色身」者，是墮好義故。</p>
+<lb n="0882a02" ed="T"/>言「色身」者，是<anchor xml:id="beg_2" type="cb-app"/>隨<anchor xml:id="end_2"/>好義故。</p>
 <lb n="0882a03" ed="T"/><cb:juan n="002" fun="close"><cb:jhead><title>能斷金剛般若波羅蜜多經論釋</title>卷中</cb:jhead></cb:juan>
 <lb n="0882a04" ed="T"/>
 <milestone unit="juan" n="3"/>
@@ -848,7 +851,7 @@ Added comment  for Emacs
 <lb n="0882c11" ed="T"/>獲菩提，是無記性故。為遮此難，更言差別之
 <lb n="0882c12" ed="T"/>福，答所說法縱令無記終有所得。頌曰：</p>
 <lb n="0882c13" ed="T"/><lg xml:id="lgT25p0882c1301"><l>說法雖無記，</l><l>非不得應知。</l></lg>
-<lb n="0882c14" ed="T"/><p xml:id="pT25p0882c1401">由非離此能得菩提，故知籍斯菩提方契。頌
+<lb n="0882c14" ed="T"/><p xml:id="pT25p0882c1401">由非離此能得菩提，故知<anchor xml:id="beg_3" type="cb-app"/>藉<anchor xml:id="end_3"/>斯菩提方契。頌
 <lb n="0882c15" ed="T"/>曰：</p>
 <lb n="0882c16" ed="T"/><lg xml:id="lgT25p0882c1601"><l>由斯一法寶，</l><l>勝彼寶無量。</l></lg>
 <lb n="0882c17" ed="T"/><p xml:id="pT25p0882c1701">故此宣說法寶，望前無數妙高無邊之寶，顯
@@ -1084,7 +1087,9 @@ Added comment  for Emacs
 <app from="#beg0881008" to="#end0881008"><lem wit="#wit1">波</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3 #wit5">般</rdg></app>
 <app from="#beg0881009" to="#end0881009"><lem wit="#wit1">存</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3 #wit5">好</rdg></app>
 <app from="#beg0881010" to="#end0881010"><lem wit="#wit1">乃</lem><rdg resp="#resp1" wit="#wit3">力</rdg></app>
+<app from="#beg_2" to="#end_2"><lem resp="#resp3" wit="#wit6 #wit7">隨<note type="cf1">K15n0557_p0311a13</note></lem><rdg wit="#wit1">墮</rdg></app>
 <app from="#beg0882001" to="#end0882001"><lem wit="#wit1">自</lem><rdg resp="#resp1" wit="#wit5">身</rdg></app>
+<app from="#beg_3" to="#end_3"><lem resp="#resp3" wit="#wit6 #wit7">藉<note type="cf1">K15n0557_p0312b03</note></lem><rdg wit="#wit1">籍</rdg></app>
 <app from="#beg0883001" to="#end0883001"><lem wit="#wit1">種</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3 #wit5">種植</rdg></app>
 <app from="#beg0883002" to="#end0883002"><lem wit="#wit1">柏</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3 #wit5">柏也</rdg></app>
 <app from="#beg0883003" to="#end0883003"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
