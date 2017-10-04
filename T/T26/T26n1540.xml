@@ -14,7 +14,8 @@
 		<edition>$Revision: 1.13 $<date>$Date: 2009/04/23 08:03:11 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>【明】</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>【明】</name></respStmt>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -34,10 +35,12 @@
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【明】</witness>
-		<witness xml:id="wit3">【宋】</witness>
-		<witness xml:id="wit4">【元】</witness>
-		<witness xml:id="wit5">【宮】</witness>
-		<witness xml:id="wit6">【南藏】</witness>
+		<witness xml:id="wit3">【CBETA】</witness>
+		<witness xml:id="wit4">【麗】</witness>
+		<witness xml:id="wit5">【宋】</witness>
+		<witness xml:id="wit6">【元】</witness>
+		<witness xml:id="wit7">【宮】</witness>
+		<witness xml:id="wit8">【南藏】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -84,6 +87,18 @@
 		<value>夢</value>
 	</charProp>
 	<mapping cb:dec="985167" type="PUA">U+F084F</mapping>
+</char>
+<char xml:id="CB03870">
+	<charName>CBETA CHARACTER CB03870</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[薜/子]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>孽</value>
+	</charProp>
+	<mapping cb:dec="986910" type="PUA">U+F0F1E</mapping>
 </char>
 </charDecl>
 </encodingDesc>
@@ -201,7 +216,7 @@ Added comment  for Emacs
 <lb n="0614b26" ed="T"/>四、憂根；五、捨根。五法云何？一、尋；二、伺；三、識；
 <lb n="0614b27" ed="T"/>四、無慚；五、無愧。六識身云何？一、眼識；二、耳
 <lb n="0614b28" ed="T"/>識；三、鼻識；四、舌識；五、身識；六、意識。六觸身
-<lb n="0614b29" ed="T"/>云何？一、眼觸；二、耳觸；三、鼻觸；四、舌識；五、身
+<lb n="0614b29" ed="T"/>云何？一、眼觸；二、耳觸；三、鼻觸；四、舌<anchor xml:id="beg_1" type="cb-app"/>觸<anchor xml:id="end_1"/>；五、身
 <pb n="0614c" ed="T" xml:id="T26.1540.0614c"/>
 <lb n="0614c01" ed="T"/>觸；六、意觸。六受身云何？一、眼觸所生受；二、耳
 <lb n="0614c02" ed="T"/>觸所生受；三、鼻觸所生受；四、舌觸所生受；五、
@@ -250,17 +265,17 @@ Added comment  for Emacs
 <lb n="0615a15" ed="T"/>心怨結性，是名恨。覆云何？謂隱所作罪。惱云
 <lb n="0615a16" ed="T"/>何？謂心憤惱，堅執尤蛆，心<anchor xml:id="nkr_note_orig_0615002" n="0615002"/><anchor xml:id="nkr_note_mod_0615002" n="0615002"/><anchor xml:id="beg0615002" n="0615002"/>俍<anchor xml:id="end0615002"/>戾性，是名惱。
 <lb n="0615a17" ed="T"/>嫉云何？謂心不忍他之榮利。慳云何？謂於財
-<lb n="0615a18" ed="T"/>法心著不捨。誑云何？謂矯惑他。<anchor xml:id="beg_1" type="star"/>諂<anchor xml:id="end_1"/>云何？謂
+<lb n="0615a18" ed="T"/>法心著不捨。誑云何？謂矯惑他。<anchor xml:id="beg_2" type="star"/>諂<anchor xml:id="end_2"/>云何？謂
 <lb n="0615a19" ed="T"/>心曲。憍云何？謂如有一作如是念：「我具妙色
 <lb n="0615a20" ed="T"/>財位<anchor xml:id="nkr_note_orig_0615003" n="0615003"/><anchor xml:id="nkr_note_mod_0615003" n="0615003"/><anchor xml:id="beg0615003" n="0615003"/>技<anchor xml:id="end0615003"/>藝淨命功德，形貌端嚴眾所樂見。」由
 <lb n="0615a21" ed="T"/>此因緣便起憍傲極憍傲、醉悶等醉悶、<anchor xml:id="nkr_note_orig_0615004" n="0615004"/><anchor xml:id="beg0615004" n="0615004"/><g ref="#CB01036">𥈅</g><anchor xml:id="end0615004"/>眩
-<lb n="0615a22" ed="T"/>等<anchor xml:id="beg_2" type="star"/><g ref="#CB01036">𥈅</g><anchor xml:id="end_2"/>眩，心<anchor xml:id="nkr_note_orig_0615005" n="0615005"/><anchor xml:id="beg0615005" n="0615005"/>踞<anchor xml:id="end0615005"/>傲性，是名憍。害云何？謂於有
+<lb n="0615a22" ed="T"/>等<anchor xml:id="beg_3" type="star"/><g ref="#CB01036">𥈅</g><anchor xml:id="end_3"/>眩，心<anchor xml:id="nkr_note_orig_0615005" n="0615005"/><anchor xml:id="beg0615005" n="0615005"/>踞<anchor xml:id="end0615005"/>傲性，是名憍。害云何？謂於有
 <lb n="0615a23" ed="T"/>情樂為捶撻諸損惱事，是名害。</p><p xml:id="pT26p0615a2313" rend="inline">欲貪云何？謂
 <lb n="0615a24" ed="T"/>於諸欲起貪等貪，執藏防護愛樂耽著，是名
 <lb n="0615a25" ed="T"/>欲貪。色貪云何？謂於諸色起貪等貪，執藏防
 <lb n="0615a26" ed="T"/>護愛樂耽著，是名色貪。無色貪云何？謂於諸
 <lb n="0615a27" ed="T"/>無色起貪等貪，執藏防護愛樂耽著，是名無
-<lb n="0615a28" ed="T"/>色貪。瞋云何？謂於有情欲為逼害，內懷栽蘗，
+<lb n="0615a28" ed="T"/>色貪。瞋云何？謂於有情欲為逼害，內懷栽<anchor xml:id="beg_4" type="cb-app"/><g ref="#CB03870">󰼞</g><anchor xml:id="end_4"/>，
 <lb n="0615a29" ed="T"/>極瞋恚遍瞋恚<anchor xml:id="nkr_note_orig_0615006" n="0615006"/><anchor xml:id="beg0615006" n="0615006"/>等<anchor xml:id="end0615006"/>瞋恚、瞋極瞋意憤恚、現瞋
 <pb n="0615b" ed="T" xml:id="T26.1540.0615b"/>
 <lb n="0615b01" ed="T"/>恚已瞋恚當瞋恚，是名瞋。疑云何？謂於諸諦
@@ -365,7 +380,7 @@ Added comment  for Emacs
 <lb n="0616b10" ed="T"/>欲、勝解、念、三摩地、慧亦爾。不信五受根，五根
 <lb n="0616b11" ed="T"/>相應，五根不相應。如不信，餘大煩惱地法亦
 <lb n="0616b12" ed="T"/>爾。忿、恨、惱、嫉、害，二根相應，謂憂、捨，五根不相
-<lb n="0616b13" ed="T"/>應。覆、誑、<anchor xml:id="beg_3" type="star"/>諂<anchor xml:id="end_3"/>三根相應除樂、苦，五根不相應。
+<lb n="0616b13" ed="T"/>應。覆、誑、<anchor xml:id="beg_5" type="star"/>諂<anchor xml:id="end_5"/>三根相應除樂、苦，五根不相應。
 <lb n="0616b14" ed="T"/>憍，四根相應除苦，五根不相應。慳，二根相應
 <lb n="0616b15" ed="T"/>謂喜、捨，五根不相應。欲貪、色貪，三根相應除
 <lb n="0616b16" ed="T"/>苦、憂，五根不相應。無色貪，一根相應，謂捨，五
@@ -415,18 +430,18 @@ Added comment  for Emacs
 <pb n="0617a" ed="T" xml:id="T26.1540.0617a"/>
 <lb n="0617a01" ed="T"/>亦爾。如六觸身，六受身、六想身、六思身亦爾。
 <lb n="0617a02" ed="T"/>眼觸所生<anchor xml:id="nkr_note_orig_0617001" n="0617001"/><anchor xml:id="nkr_note_mod_0617001" n="0617001"/><anchor xml:id="beg0617001" n="0617001"/>愛<anchor xml:id="end0617001"/>，一識相應謂眼，六識不相應。
-<lb n="0617a03" ed="T"/>如眼觸所生<anchor xml:id="beg_4" type="star"/>愛<anchor xml:id="end_4"/>，耳鼻舌身意觸所生<anchor xml:id="nkr_note_orig_0617002" n="0617002"/><anchor xml:id="nkr_note_mod_0617002" n="0617002"/><anchor xml:id="beg0617002" n="0617002"/>愛<anchor xml:id="end0617002"/>隨
+<lb n="0617a03" ed="T"/>如眼觸所生<anchor xml:id="beg_6" type="star"/>愛<anchor xml:id="end_6"/>，耳鼻舌身意觸所生<anchor xml:id="nkr_note_orig_0617002" n="0617002"/><anchor xml:id="nkr_note_mod_0617002" n="0617002"/><anchor xml:id="beg0617002" n="0617002"/>愛<anchor xml:id="end0617002"/>隨
 <lb n="0617a04" ed="T"/>所應亦爾。</p></cb:div>
 <lb n="0617a05" ed="T"/><cb:div type="other"><cb:mulu n="3" level="2" type="其他">第三門</cb:mulu><head>分別品第二中第三門</head>
 <lb n="0617a06" ed="T"/><p xml:id="pT26p0617a0601">二法，謂無慚、無愧。大地法受與此二法，幾相
-<lb n="0617a07" ed="T"/>應、幾不相應？乃至意觸所生<anchor xml:id="beg_5" type="star"/>愛<anchor xml:id="end_5"/>與此二法，
+<lb n="0617a07" ed="T"/>應、幾不相應？乃至意觸所生<anchor xml:id="beg_7" type="star"/>愛<anchor xml:id="end_7"/>與此二法，
 <lb n="0617a08" ed="T"/>幾相應、幾不相應？大地法受，諸不善者，二法
 <lb n="0617a09" ed="T"/>相應，無不相應者；餘受無相應者，皆不相應。
 <lb n="0617a10" ed="T"/>如大地法受，餘大地法亦爾。不信諸不善者，
 <lb n="0617a11" ed="T"/>二法相應，無不相應者；餘不信無相應者，皆
 <lb n="0617a12" ed="T"/>不相應。如不信，餘大煩惱地法亦爾。忿、恨、覆、
-<lb n="0617a13" ed="T"/>惱、嫉、慳、害，皆二法相應，無不相應者。誑、<anchor xml:id="beg_6" type="star"/>諂<anchor xml:id="end_6"/>、憍
-<lb n="0617a14" ed="T"/>諸不善者，二法相應，無不相應者；餘誑、<anchor xml:id="beg_7" type="star"/>諂<anchor xml:id="end_7"/>、憍，
+<lb n="0617a13" ed="T"/>惱、嫉、慳、害，皆二法相應，無不相應者。誑、<anchor xml:id="beg_8" type="star"/>諂<anchor xml:id="end_8"/>、憍
+<lb n="0617a14" ed="T"/>諸不善者，二法相應，無不相應者；餘誑、<anchor xml:id="beg_9" type="star"/>諂<anchor xml:id="end_9"/>、憍，
 <lb n="0617a15" ed="T"/>無相應者，皆不相應。欲貪、瞋恚，俱二法相應，
 <lb n="0617a16" ed="T"/>無不相應者。色貪、無色貪，無相應者，俱不相
 <lb n="0617a17" ed="T"/>應。疑，諸不善者，二法相應，無不相應者；餘疑，
@@ -812,7 +827,7 @@ Added comment  for Emacs
 <lb n="0621b06" ed="T"/>法：十八界、十二處、五蘊。如以思對忿，對餘小
 <lb n="0621b07" ed="T"/>煩惱地法、無色貪、疑、五見、明觸、六<anchor xml:id="nkr_note_orig_0621004" n="0621004"/><anchor xml:id="beg0621004" n="0621004"/>愛<anchor xml:id="end0621004"/>身亦爾。</p>
 <lb n="0621b08" ed="T"/><p xml:id="pT26p0621b0801">思相應、色貪不相應十八界、十二處、五蘊。思
-<lb n="0621b09" ed="T"/>相應，何所攝？謂心、心所<anchor xml:id="beg_8" type="star"/>法<anchor xml:id="end_8"/>八界、二處、四蘊。
+<lb n="0621b09" ed="T"/>相應，何所攝？謂心、心所<anchor xml:id="beg_a" type="star"/>法<anchor xml:id="end_a"/>八界、二處、四蘊。
 <lb n="0621b10" ed="T"/>此何為餘？謂思自性、色、無為、心不相應行十
 <lb n="0621b11" ed="T"/>一界、十一處、二蘊。色貪不相應，何所攝？謂
 <lb n="0621b12" ed="T"/>色貪自性、色、無為、心不相應行十八界、十二
@@ -897,7 +912,7 @@ Added comment  for Emacs
 <pb n="0622b" ed="T" xml:id="T26.1540.0622b"/>
 <lb n="0622b01" ed="T"/>應，隨所應當廣說。如以作意對不信，對餘大
 <lb n="0622b02" ed="T"/>煩惱地法、欲貪、瞋、無明觸、非明非無明觸、無
-<lb n="0622b03" ed="T"/><anchor xml:id="beg_9" type="cb-app"/>慚<anchor xml:id="end_9"/>、無愧亦爾。作意相應、忿不相應，忿相應、作
+<lb n="0622b03" ed="T"/><anchor xml:id="beg_b" type="cb-app"/>慚<anchor xml:id="end_b"/>、無愧亦爾。作意相應、忿不相應，忿相應、作
 <lb n="0622b04" ed="T"/>意不相應，隨所應當廣說。如以作意對忿，對
 <lb n="0622b05" ed="T"/>餘小煩惱地法、無色貪、疑、五見、明觸、六愛身亦
 <lb n="0622b06" ed="T"/>爾。作意相應、色貪不相應，色貪相應、作意不
@@ -1116,20 +1131,20 @@ Added comment  for Emacs
 <lb n="0624c09" ed="T"/>二處、五蘊。眼識相應，何所攝？謂心所法一
 <lb n="0624c10" ed="T"/>界、一處、<anchor xml:id="nkr_note_orig_0624003" n="0624003"/><anchor xml:id="nkr_note_mod_0624003" n="0624003"/><anchor xml:id="beg0624003" n="0624003"/>三<anchor xml:id="end0624003"/>蘊。此何為餘？謂眼識自性、色、
 <lb n="0624c11" ed="T"/>無為、心不相應行十八界、十二處、五蘊。眼
-<lb n="0624c12" ed="T"/>觸所生<anchor xml:id="beg_a" type="star"/>愛<anchor xml:id="end_a"/>不相應，何所攝？謂眼觸所生
-<lb n="0624c13" ed="T"/><anchor xml:id="beg_b" type="star"/>愛<anchor xml:id="end_b"/>自性、色、無為、心不相應行十八界、十
+<lb n="0624c12" ed="T"/>觸所生<anchor xml:id="beg_c" type="star"/>愛<anchor xml:id="end_c"/>不相應，何所攝？謂眼觸所生
+<lb n="0624c13" ed="T"/><anchor xml:id="beg_d" type="star"/>愛<anchor xml:id="end_d"/>自性、色、無為、心不相應行十八界、十
 <lb n="0624c14" ed="T"/>二處、五蘊。此何所問？謂除眼<anchor xml:id="nkr_note_orig_0624004" n="0624004"/><anchor xml:id="nkr_note_mod_0624004" n="0624004"/><anchor xml:id="beg0624004" n="0624004"/>識<anchor xml:id="end0624004"/>相應及眼
-<lb n="0624c15" ed="T"/>觸所生<anchor xml:id="beg_c" type="star"/>愛<anchor xml:id="end_c"/>不相應法，即除一切法：十八界、十
-<lb n="0624c16" ed="T"/>二處、五蘊。眼觸所生<anchor xml:id="beg_d" type="star"/>愛<anchor xml:id="end_d"/>相應、眼識不相應
-<lb n="0624c17" ed="T"/>十八界、十二處、五蘊。眼觸所生<anchor xml:id="beg_e" type="star"/>愛<anchor xml:id="end_e"/>相應，何
+<lb n="0624c15" ed="T"/>觸所生<anchor xml:id="beg_e" type="star"/>愛<anchor xml:id="end_e"/>不相應法，即除一切法：十八界、十
+<lb n="0624c16" ed="T"/>二處、五蘊。眼觸所生<anchor xml:id="beg_f" type="star"/>愛<anchor xml:id="end_f"/>相應、眼識不相應
+<lb n="0624c17" ed="T"/>十八界、十二處、五蘊。眼觸所生<anchor xml:id="beg_10" type="star"/>愛<anchor xml:id="end_10"/>相應，何
 <lb n="0624c18" ed="T"/>所攝？謂心、心所法三界、二處、四蘊。此何為餘？
-<lb n="0624c19" ed="T"/>謂眼觸所生<anchor xml:id="beg_f" type="star"/>愛<anchor xml:id="end_f"/>自性、色、無為、心不相應行
+<lb n="0624c19" ed="T"/>謂眼觸所生<anchor xml:id="beg_11" type="star"/>愛<anchor xml:id="end_11"/>自性、色、無為、心不相應行
 <lb n="0624c20" ed="T"/>十<anchor xml:id="nkr_note_orig_0624005" n="0624005"/><anchor xml:id="nkr_note_mod_0624005" n="0624005"/><anchor xml:id="beg0624005" n="0624005"/>八<anchor xml:id="end0624005"/>界、十二處、五蘊。眼識不相應，何所攝？
 <lb n="0624c21" ed="T"/>謂眼識自性、色、無為、心不相應行十八界、十
-<lb n="0624c22" ed="T"/>二處、五蘊。此何所問？謂除眼觸所生<anchor xml:id="beg_10" type="star"/>愛<anchor xml:id="end_10"/>相
+<lb n="0624c22" ed="T"/>二處、五蘊。此何所問？謂除眼觸所生<anchor xml:id="beg_12" type="star"/>愛<anchor xml:id="end_12"/>相
 <lb n="0624c23" ed="T"/>應及眼識不相應法，即除一切法：十八界、十
-<lb n="0624c24" ed="T"/>二處、五蘊。如以眼識對眼觸所生<anchor xml:id="beg_11" type="star"/>愛<anchor xml:id="end_11"/>，乃至對
-<lb n="0624c25" ed="T"/>意觸所生<anchor xml:id="beg_12" type="star"/>愛<anchor xml:id="end_12"/>亦爾。</p></cb:div>
+<lb n="0624c24" ed="T"/>二處、五蘊。如以眼識對眼觸所生<anchor xml:id="beg_13" type="star"/>愛<anchor xml:id="end_13"/>，乃至對
+<lb n="0624c25" ed="T"/>意觸所生<anchor xml:id="beg_14" type="star"/>愛<anchor xml:id="end_14"/>亦爾。</p></cb:div>
 <lb n="0624c26" ed="T"/><cb:div type="other"><cb:mulu n="16" level="2" type="其他">第十六門</cb:mulu><head>分別品第二中第十六門</head>
 <lb n="0624c27" ed="T"/><p xml:id="pT26p0624c2701">如眼識門，如是乃至意識五門，隨所應當廣
 <lb n="0624c28" ed="T"/>說。如六識身六門，六觸身六門，隨所應當廣
@@ -1173,25 +1188,25 @@ Added comment  for Emacs
 <lb n="0625b06" ed="T"/>受不相應法，即除一切法：十八界、十二處、五
 <lb n="0625b07" ed="T"/>蘊。如以眼觸所生受對眼觸所生思，乃至對
 <lb n="0625b08" ed="T"/>意觸所生思亦爾。</p><p xml:id="pT26p0625b0808" rend="inline">眼觸所生受相應、眼觸
-<lb n="0625b09" ed="T"/>所生<anchor xml:id="beg_13" type="star"/>愛<anchor xml:id="end_13"/>不相應十八界、十二處、五蘊。眼觸
+<lb n="0625b09" ed="T"/>所生<anchor xml:id="beg_15" type="star"/>愛<anchor xml:id="end_15"/>不相應十八界、十二處、五蘊。眼觸
 <lb n="0625b10" ed="T"/>所生受相應，何所攝？謂心、心所法三界、二
 <lb n="0625b11" ed="T"/>處、三蘊。此何為餘？謂眼觸所生受自性、色、
 <lb n="0625b12" ed="T"/>無為、心不相應行十七界、十二處、五蘊。眼觸
-<lb n="0625b13" ed="T"/>所生受不相應，何所攝？謂眼觸所生<anchor xml:id="beg_14" type="star"/>愛<anchor xml:id="end_14"/>自
+<lb n="0625b13" ed="T"/>所生受不相應，何所攝？謂眼觸所生<anchor xml:id="beg_16" type="star"/>愛<anchor xml:id="end_16"/>自
 <lb n="0625b14" ed="T"/>性、色、無為、心不相應行十八界、十二處、五
-<lb n="0625b15" ed="T"/>蘊。此何所問？謂除眼觸所生<anchor xml:id="beg_15" type="star"/>愛<anchor xml:id="end_15"/>相應及眼
-<lb n="0625b16" ed="T"/>觸所生<anchor xml:id="beg_16" type="star"/>愛<anchor xml:id="end_16"/>不相應法，即除一切法：十八界、十
-<lb n="0625b17" ed="T"/>二處、五蘊。眼觸所生<anchor xml:id="beg_17" type="star"/>愛<anchor xml:id="end_17"/>相應、眼觸所生受
-<lb n="0625b18" ed="T"/>不相應十八界、十二處、五蘊。眼觸所生<anchor xml:id="beg_18" type="star"/>愛<anchor xml:id="end_18"/>
+<lb n="0625b15" ed="T"/>蘊。此何所問？謂除眼觸所生<anchor xml:id="beg_17" type="star"/>愛<anchor xml:id="end_17"/>相應及眼
+<lb n="0625b16" ed="T"/>觸所生<anchor xml:id="beg_18" type="star"/>愛<anchor xml:id="end_18"/>不相應法，即除一切法：十八界、十
+<lb n="0625b17" ed="T"/>二處、五蘊。眼觸所生<anchor xml:id="beg_19" type="star"/>愛<anchor xml:id="end_19"/>相應、眼觸所生受
+<lb n="0625b18" ed="T"/>不相應十八界、十二處、五蘊。眼觸所生<anchor xml:id="beg_1a" type="star"/>愛<anchor xml:id="end_1a"/>
 <lb n="0625b19" ed="T"/>相應，何所攝？謂心、心所法三界、二處、四蘊。
-<lb n="0625b20" ed="T"/>此何為餘？謂眼觸所生<anchor xml:id="beg_19" type="star"/>愛<anchor xml:id="end_19"/>自性、色、無為、心
+<lb n="0625b20" ed="T"/>此何為餘？謂眼觸所生<anchor xml:id="beg_1b" type="star"/>愛<anchor xml:id="end_1b"/>自性、色、無為、心
 <lb n="0625b21" ed="T"/>不相應行十八界、十二處、五蘊。眼觸所生受
 <lb n="0625b22" ed="T"/>不相應，何所攝？謂眼觸所生受自性、色、無
 <lb n="0625b23" ed="T"/>為、心不相應行十七界、十二處、五蘊。此何
-<lb n="0625b24" ed="T"/>所問？謂除眼觸所生<anchor xml:id="beg_1a" type="star"/>愛<anchor xml:id="end_1a"/>相應及眼觸所生
+<lb n="0625b24" ed="T"/>所問？謂除眼觸所生<anchor xml:id="beg_1c" type="star"/>愛<anchor xml:id="end_1c"/>相應及眼觸所生
 <lb n="0625b25" ed="T"/>受不相應法，即除一切法：十八界、十二處、五
-<lb n="0625b26" ed="T"/>蘊。如以眼觸所生受對眼觸所生<anchor xml:id="beg_1b" type="star"/>愛<anchor xml:id="end_1b"/>，乃
-<lb n="0625b27" ed="T"/>至對意觸所生<anchor xml:id="beg_1c" type="star"/>愛<anchor xml:id="end_1c"/>亦爾。如眼觸所生受門，
+<lb n="0625b26" ed="T"/>蘊。如以眼觸所生受對眼觸所生<anchor xml:id="beg_1d" type="star"/>愛<anchor xml:id="end_1d"/>，乃
+<lb n="0625b27" ed="T"/>至對意觸所生<anchor xml:id="beg_1e" type="star"/>愛<anchor xml:id="end_1e"/>亦爾。如眼觸所生受門，
 <lb n="0625b28" ed="T"/>如是乃至意觸所生受五門，隨所應當廣說。
 <lb n="0625b29" ed="T"/>如六受身六門，六想身六門、六思身六門，隨
 <pb n="0625c" ed="T" xml:id="T26.1540.0625c"/>
@@ -1229,87 +1244,89 @@ Added comment  for Emacs
 <p>
 <app from="#beg0614003" to="#end0614003"><lem wit="#wit1">三藏</lem><rdg resp="#resp1" wit="#wit2">唐三藏</rdg></app>
 <app from="#beg0614004" to="#end0614004"><lem wit="#wit1">諂</lem><rdg resp="#resp1" wit="#wit2">謟</rdg></app>
-<app from="#beg0615001" to="#end0615001"><lem wit="#wit1">邪</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">耶</rdg></app>
-<app from="#beg0615002" to="#end0615002"><lem wit="#wit1">俍</lem><rdg resp="#resp1" wit="#wit3 #wit5">佷</rdg><rdg resp="#resp1" wit="#wit4">憤</rdg><rdg resp="#resp1" wit="#wit2">很</rdg></app>
-<app from="#beg_1" to="#end_1" corresp="#0614004"><lem wit="#wit1">諂</lem><rdg resp="#resp1" wit="#wit2">謟</rdg></app>
-<app from="#beg0615003" to="#end0615003"><lem wit="#wit1">技</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">伎</rdg></app>
+<app from="#beg_1" to="#end_1"><lem resp="#resp3" wit="#wit3 #wit4">觸<note type="cf1">K25n0947_p0131c16</note></lem><rdg wit="#wit1">識</rdg></app>
+<app from="#beg0615001" to="#end0615001"><lem wit="#wit1">邪</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">耶</rdg></app>
+<app from="#beg0615002" to="#end0615002"><lem wit="#wit1">俍</lem><rdg resp="#resp1" wit="#wit5 #wit7">佷</rdg><rdg resp="#resp1" wit="#wit6">憤</rdg><rdg resp="#resp1" wit="#wit2">很</rdg></app>
+<app from="#beg_2" to="#end_2" corresp="#0614004"><lem wit="#wit1">諂</lem><rdg resp="#resp1" wit="#wit2">謟</rdg></app>
+<app from="#beg0615003" to="#end0615003"><lem wit="#wit1">技</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">伎</rdg></app>
 <app from="#beg0615004" to="#end0615004"><lem wit="#wit1"><g ref="#CB01036">𥈅</g></lem><rdg resp="#resp1" wit="#wit2">瞑</rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0615004"><lem wit="#wit1"><g ref="#CB01036">𥈅</g></lem><rdg resp="#resp1" wit="#wit2">瞑</rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0615004"><lem wit="#wit1"><g ref="#CB01036">𥈅</g></lem><rdg resp="#resp1" wit="#wit2">瞑</rdg></app>
 <app from="#beg0615005" to="#end0615005"><lem wit="#wit1">踞</lem><rdg resp="#resp1" wit="#wit2">倨</rdg></app>
+<app from="#beg_4" to="#end_4"><lem resp="#resp3" wit="#wit3 #wit4"><g ref="#CB03870">󰼞</g><note type="cf1">K25n0947_p0132c15</note></lem><rdg wit="#wit1">蘗</rdg></app>
 <app from="#beg0615006" to="#end0615006"><lem wit="#wit1">等</lem><rdg resp="#resp1" wit="#wit2">瞋</rdg></app>
-<app from="#beg0615007" to="#end0615007"><lem wit="#wit1">忍</lem><rdg resp="#resp1" wit="#wit3">思</rdg></app>
-<app from="#beg0615008" to="#end0615008"><lem wit="#wit1">順</lem><rdg resp="#resp1" wit="#wit5">頻</rdg></app>
-<app from="#beg0616001" to="#end0616001"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">識</rdg></app>
-<app from="#beg0616002" to="#end0616002"><lem wit="#wit1">根</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">樂</rdg></app>
-<app from="#beg_3" to="#end_3" corresp="#0614004"><lem wit="#wit1">諂</lem><rdg resp="#resp1" wit="#wit2">謟</rdg></app>
-<app from="#beg0617001" to="#end0617001"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_4" to="#end_4" corresp="#0617001"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg0617002" to="#end0617002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">受</rdg></app>
-<app from="#beg_5" to="#end_5" corresp="#0617001"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_6" to="#end_6" corresp="#0614004"><lem wit="#wit1">諂</lem><rdg resp="#resp1" wit="#wit2">謟</rdg></app>
-<app from="#beg_7" to="#end_7" corresp="#0614004"><lem wit="#wit1">諂</lem><rdg resp="#resp1" wit="#wit2">謟</rdg></app>
-<app from="#beg0617005" to="#end0617005"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit5">三</rdg></app>
+<app from="#beg0615007" to="#end0615007"><lem wit="#wit1">忍</lem><rdg resp="#resp1" wit="#wit5">思</rdg></app>
+<app from="#beg0615008" to="#end0615008"><lem wit="#wit1">順</lem><rdg resp="#resp1" wit="#wit7">頻</rdg></app>
+<app from="#beg0616001" to="#end0616001"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">識</rdg></app>
+<app from="#beg0616002" to="#end0616002"><lem wit="#wit1">根</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">樂</rdg></app>
+<app from="#beg_5" to="#end_5" corresp="#0614004"><lem wit="#wit1">諂</lem><rdg resp="#resp1" wit="#wit2">謟</rdg></app>
+<app from="#beg0617001" to="#end0617001"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_6" to="#end_6" corresp="#0617001"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg0617002" to="#end0617002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2">受</rdg></app>
+<app from="#beg_7" to="#end_7" corresp="#0617001"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_8" to="#end_8" corresp="#0614004"><lem wit="#wit1">諂</lem><rdg resp="#resp1" wit="#wit2">謟</rdg></app>
+<app from="#beg_9" to="#end_9" corresp="#0614004"><lem wit="#wit1">諂</lem><rdg resp="#resp1" wit="#wit2">謟</rdg></app>
+<app from="#beg0617005" to="#end0617005"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit7">三</rdg></app>
 <app from="#beg0617006" to="#end0617006"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2">比</rdg></app>
-<app from="#beg0617007" to="#end0617007"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit5">行</rdg></app>
-<app from="#beg0617009" to="#end0617009"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit5">歷</rdg></app>
-<app from="#beg0617008" to="#end0617008"><lem wit="#wit1">此下二事<lb n="0617b23" ed="T"/>雖各除一，而文影略顯各除二，不爾不<note resp="#resp1" n="0617009" place="foot text" type="orig">應＝歷【宮】</note><app n="0617009"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit5">歷</rdg></app>除<lb n="0617b24" ed="T"/>一切法，受等自體不被除故</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><note place="inline">此下二事雖各除一而文影略顯各除二不爾不應除一切法受等自體不被除故</note></rdg></app>
-<app from="#beg0617010" to="#end0617010"><lem wit="#wit1">餘</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">除</rdg></app>
-<app from="#beg0618001" to="#end0618001"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit4 #wit2">一</rdg></app>
-<app from="#beg0619001" to="#end0619001"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">十二</rdg></app>
-<app from="#beg0619004" to="#end0619004"><lem wit="#wit1">想相應、思</lem><rdg resp="#resp3" wit="#wit6">受相應想</rdg></app>
-<app from="#beg0619005" to="#end0619005"><lem wit="#wit1">謂想自性</lem><rdg resp="#resp3" wit="#wit6">謂受自性</rdg></app>
+<app from="#beg0617007" to="#end0617007"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit7">行</rdg></app>
+<app from="#beg0617009" to="#end0617009"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit7">歷</rdg></app>
+<app from="#beg0617008" to="#end0617008"><lem wit="#wit1">此下二事<lb n="0617b23" ed="T"/>雖各除一，而文影略顯各除二，不爾不<note resp="#resp1" n="0617009" place="foot text" type="orig">應＝歷【宮】</note><app n="0617009"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit7">歷</rdg></app>除<lb n="0617b24" ed="T"/>一切法，受等自體不被除故</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7"><note place="inline">此下二事雖各除一而文影略顯各除二不爾不應除一切法受等自體不被除故</note></rdg></app>
+<app from="#beg0617010" to="#end0617010"><lem wit="#wit1">餘</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">除</rdg></app>
+<app from="#beg0618001" to="#end0618001"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit6 #wit2">一</rdg></app>
+<app from="#beg0619001" to="#end0619001"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">十二</rdg></app>
+<app from="#beg0619004" to="#end0619004"><lem wit="#wit1">想相應、思</lem><rdg resp="#resp4" wit="#wit8">受相應想</rdg></app>
+<app from="#beg0619005" to="#end0619005"><lem wit="#wit1">謂想自性</lem><rdg resp="#resp4" wit="#wit8">謂受自性</rdg></app>
 <app from="#beg0619006" to="#end0619006"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit2">想</rdg></app>
-<app from="#beg0619007" to="#end0619007"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5">受</rdg></app>
-<app from="#beg0619008" to="#end0619008"><lem wit="#wit1">三蘊</lem><rdg resp="#resp1" wit="#wit4 #wit2">二蘊</rdg></app>
-<app from="#beg0619009" to="#end0619009"><lem wit="#wit1">不相應，何所<lb n="0619c21" ed="T"/>攝？謂有對</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg0620001" to="#end0620001"><lem wit="#wit1">想相應、樂根</lem><rdg resp="#resp3" wit="#wit6">受相應尋</rdg></app>
-<app from="#beg0620002" to="#end0620002"><lem wit="#wit1">三蘊。樂根</lem><rdg resp="#resp3" wit="#wit6">三蘊尋</rdg></app>
-<app from="#beg0620003" to="#end0620003"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit4 #wit2">三</rdg></app>
-<app from="#beg0620004" to="#end0620004"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">三</rdg></app>
+<app from="#beg0619007" to="#end0619007"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit7">受</rdg></app>
+<app from="#beg0619008" to="#end0619008"><lem wit="#wit1">三蘊</lem><rdg resp="#resp1" wit="#wit6 #wit2">二蘊</rdg></app>
+<app from="#beg0619009" to="#end0619009"><lem wit="#wit1">不相應，何所<lb n="0619c21" ed="T"/>攝？謂有對</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7"><space quantity="0"/></rdg></app>
+<app from="#beg0620001" to="#end0620001"><lem wit="#wit1">想相應、樂根</lem><rdg resp="#resp4" wit="#wit8">受相應尋</rdg></app>
+<app from="#beg0620002" to="#end0620002"><lem wit="#wit1">三蘊。樂根</lem><rdg resp="#resp4" wit="#wit8">三蘊尋</rdg></app>
+<app from="#beg0620003" to="#end0620003"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit6 #wit2">三</rdg></app>
+<app from="#beg0620004" to="#end0620004"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">三</rdg></app>
 <app from="#beg0620005" to="#end0620005"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit2">五</rdg></app>
-<app from="#beg0620006" to="#end0620006"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg0621001" to="#end0621001"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit4 #wit2">一</rdg></app>
-<app from="#beg0621002" to="#end0621002"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">攝</rdg></app>
-<app from="#beg0621003" to="#end0621003"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg0621004" to="#end0621004"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5">受</rdg></app>
-<app from="#beg_8" to="#end_8" corresp="#0621002"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">攝</rdg></app>
-<app from="#beg0622001" to="#end0622001"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit5">一</rdg></app>
-<choice cb:from="#beg_9" cb:to="#end_9"><corr>慚</corr><sic>漸</sic></choice>
+<app from="#beg0620006" to="#end0620006"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7"><space quantity="0"/></rdg></app>
+<app from="#beg0621001" to="#end0621001"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit6 #wit2">一</rdg></app>
+<app from="#beg0621002" to="#end0621002"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">攝</rdg></app>
+<app from="#beg0621003" to="#end0621003"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7"><space quantity="0"/></rdg></app>
+<app from="#beg0621004" to="#end0621004"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit7">受</rdg></app>
+<app from="#beg_a" to="#end_a" corresp="#0621002"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">攝</rdg></app>
+<app from="#beg0622001" to="#end0622001"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit7">一</rdg></app>
+<choice cb:from="#beg_b" cb:to="#end_b"><corr>慚</corr><sic>漸</sic></choice>
 <app from="#beg0622002" to="#end0622002"><lem wit="#wit1">解</lem><rdg resp="#resp1" wit="#wit2">觸</rdg></app>
 <app from="#beg0623001" to="#end0623001"><lem wit="#wit1">相<lb n="0623a23" ed="T"/>應</lem><rdg resp="#resp1" wit="#wit2">應相</rdg></app>
 <app from="#beg0623002" to="#end0623002"><lem wit="#wit1">當</lem><rdg resp="#resp1" wit="#wit2">廣</rdg></app>
-<app from="#beg0623003" to="#end0623003"><lem wit="#wit1">餘</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">對餘</rdg></app>
-<app from="#beg0624001" to="#end0624001"><lem wit="#wit1">十二</lem><rdg resp="#resp1" wit="#wit5">十一</rdg></app>
-<app from="#beg0624002" to="#end0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg0624003" to="#end0624003"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">二</rdg></app>
-<app from="#beg_a" to="#end_a" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_b" to="#end_b" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg0624004" to="#end0624004"><lem wit="#wit1">識</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">觸</rdg></app>
-<app from="#beg_c" to="#end_c" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_d" to="#end_d" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_e" to="#end_e" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_f" to="#end_f" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg0624005" to="#end0624005"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">七</rdg></app>
-<app from="#beg_10" to="#end_10" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_11" to="#end_11" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_12" to="#end_12" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg0625001" to="#end0625001"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">所</rdg></app>
-<app from="#beg0625002" to="#end0625002"><lem wit="#wit1">問</lem><rdg resp="#resp1" wit="#wit5">間</rdg></app>
-<app from="#beg_13" to="#end_13" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_14" to="#end_14" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_15" to="#end_15" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_16" to="#end_16" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_17" to="#end_17" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_18" to="#end_18" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_19" to="#end_19" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_1a" to="#end_1a" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_1b" to="#end_1b" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
-<app from="#beg_1c" to="#end_1c" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">受</rdg></app>
+<app from="#beg0623003" to="#end0623003"><lem wit="#wit1">餘</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">對餘</rdg></app>
+<app from="#beg0624001" to="#end0624001"><lem wit="#wit1">十二</lem><rdg resp="#resp1" wit="#wit7">十一</rdg></app>
+<app from="#beg0624002" to="#end0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg0624003" to="#end0624003"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">二</rdg></app>
+<app from="#beg_c" to="#end_c" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_d" to="#end_d" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg0624004" to="#end0624004"><lem wit="#wit1">識</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">觸</rdg></app>
+<app from="#beg_e" to="#end_e" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_f" to="#end_f" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_10" to="#end_10" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_11" to="#end_11" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg0624005" to="#end0624005"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">七</rdg></app>
+<app from="#beg_12" to="#end_12" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_13" to="#end_13" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_14" to="#end_14" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg0625001" to="#end0625001"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">所</rdg></app>
+<app from="#beg0625002" to="#end0625002"><lem wit="#wit1">問</lem><rdg resp="#resp1" wit="#wit7">間</rdg></app>
+<app from="#beg_15" to="#end_15" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_16" to="#end_16" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_17" to="#end_17" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_18" to="#end_18" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_19" to="#end_19" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_1a" to="#end_1a" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_1b" to="#end_1b" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_1c" to="#end_1c" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_1d" to="#end_1d" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
+<app from="#beg_1e" to="#end_1e" corresp="#0624002"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7">受</rdg></app>
 <app from="#beg0625003" to="#end0625003"><lem wit="#wit1">說一切有部</lem><rdg resp="#resp1" wit="#wit2">阿毘達磨</rdg></app>
-<app from="#beg0625004" to="#end0625004"><lem wit="#wit1"><g ref="#CB00895">𥧌</g></lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><g ref="#CB02127">󰡏</g></rdg></app>
-<app from="#beg0625005" to="#end0625005"><lem wit="#wit1">綆</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">硬</rdg></app>
-<app from="#beg0625006" to="#end0625006"><lem wit="#wit1">殫</lem><rdg resp="#resp1" wit="#wit5">彈</rdg></app>
-<app from="#beg0625007" to="#end0625007"><lem wit="#wit1">淪</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">論</rdg></app>
+<app from="#beg0625004" to="#end0625004"><lem wit="#wit1"><g ref="#CB00895">𥧌</g></lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit2 #wit7"><g ref="#CB02127">󰡏</g></rdg></app>
+<app from="#beg0625005" to="#end0625005"><lem wit="#wit1">綆</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit7">硬</rdg></app>
+<app from="#beg0625006" to="#end0625006"><lem wit="#wit1">殫</lem><rdg resp="#resp1" wit="#wit7">彈</rdg></app>
+<app from="#beg0625007" to="#end0625007"><lem wit="#wit1">淪</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit7">論</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">

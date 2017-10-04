@@ -34,12 +34,15 @@
 		<bibl>Taisho Tripitaka Vol. 26, No. 1539</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit10">【聖】</witness>
 		<witness xml:id="wit2">【明】</witness>
 		<witness xml:id="wit3">【宋】</witness>
 		<witness xml:id="wit4">【元】</witness>
 		<witness xml:id="wit5">【宮】</witness>
 		<witness xml:id="wit6">【南藏】</witness>
-		<witness xml:id="wit7">【聖】</witness>
+		<witness xml:id="wit7">【CBETA】</witness>
+		<witness xml:id="wit8">【麗】</witness>
+		<witness xml:id="wit9">【磧砂】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -57,6 +60,15 @@
 	</charProp>
 	<mapping type="unicode">U+3B88</mapping>
 	<mapping cb:dec="983218" type="PUA">U+F00B2</mapping>
+</char>
+<char xml:id="CB34544">
+	<charName>CBETA CHARACTER CB34544</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>|[怡-台+吏]</value>
+	</charProp>
+	<mapping type="unicode">U+3926</mapping>
+	<mapping cb:dec="1017584" type="PUA">U+F86F0</mapping>
 </char>
 </charDecl>
 </encodingDesc>
@@ -803,7 +815,7 @@ Added comment  for Emacs
 <lb n="0538a15" ed="T"/>則不應說彼即是彼；言彼即是彼，不應道理。
 <lb n="0538a16" ed="T"/>又若作是言：彼即是彼。應問彼言：汝然此
 <lb n="0538a17" ed="T"/>不？<g ref="#CB00178">㮈</g>落迦趣於生無漏根、力、覺支無所堪能，
-<lb n="0538a18" ed="T"/>入趣有所堪能。彼答言爾。復問彼言：汝然
+<lb n="0538a18" ed="T"/><anchor xml:id="beg_8" type="cb-app"/>人<anchor xml:id="end_8"/>趣有所堪能。彼答言爾。復問彼言：汝然
 <lb n="0538a19" ed="T"/>此不？彼無堪能即有堪能。答言：不爾。汝聽墮
 <lb n="0538a20" ed="T"/>負。若彼即是彼，是則應說彼無堪能即有堪
 <lb n="0538a21" ed="T"/>能，汝作是言不應道理。若汝不說彼無堪能
@@ -1309,12 +1321,12 @@ Added comment  for Emacs
 <lb n="0543c10" ed="T"/>於此義中慈緣執受諸蘊相續。彼問：汝說慈
 <lb n="0543c11" ed="T"/>緣執受蘊相續耶？此答言：爾。彼復問言：汝
 <lb n="0543c12" ed="T"/>然此不？謂契經中世尊善語善詞善說，當使
-<lb n="0543c13" ed="T"/>有情具諸快樂，如是思惟入慈等至。此答言：
+<lb n="0543c13" ed="T"/>有情具諸<anchor xml:id="beg_9" type="cb-app"/>快<anchor xml:id="end_9"/>樂，如是思惟入慈等至。此答言：
 <lb n="0543c14" ed="T"/>爾。彼作是言：汝聽墮負。若慈緣執受諸蘊相
 <lb n="0543c15" ed="T"/>續，則不應言謂契經中世尊善語善詞善說，
 <lb n="0543c16" ed="T"/>當使有情具諸快樂，如是思惟入慈等至，汝
 <lb n="0543c17" ed="T"/>作是言不應道理。汝今若說謂契經中世尊
-<lb n="0543c18" ed="T"/>善語善<anchor xml:id="beg_8" type="star"/>詞<anchor xml:id="end_8"/>善說，當使有情<anchor xml:id="nkr_note_orig_0543007" n="0543007"/><anchor xml:id="beg0543007" n="0543007"/>具<anchor xml:id="end0543007"/>諸快樂，如是
+<lb n="0543c18" ed="T"/>善語善<anchor xml:id="beg_a" type="star"/>詞<anchor xml:id="end_a"/>善說，當使有情<anchor xml:id="nkr_note_orig_0543007" n="0543007"/><anchor xml:id="beg0543007" n="0543007"/>具<anchor xml:id="end0543007"/>諸快樂，如是
 <lb n="0543c19" ed="T"/>思惟入慈等至，則不應言慈緣執受諸蘊相
 <lb n="0543c20" ed="T"/>續；言慈緣執受諸蘊相續，不應道理。應問
 <lb n="0543c21" ed="T"/>彼言：汝然此不？謂契經中世尊善語善詞善
@@ -1420,7 +1432,7 @@ Added comment  for Emacs
 <lb n="0545a01" ed="T"/>不應言謂契經中世尊善語善詞善說，當使
 <lb n="0545a02" ed="T"/>有情具諸快樂，如是思惟入慈等至，汝作是
 <lb n="0545a03" ed="T"/>言不應道理。汝今若說謂契經中世尊善語
-<lb n="0545a04" ed="T"/>善<anchor xml:id="beg_9" type="star"/>詞<anchor xml:id="end_9"/>善說，當使有情具諸快樂，如是思惟
+<lb n="0545a04" ed="T"/>善<anchor xml:id="beg_b" type="star"/>詞<anchor xml:id="end_b"/>善說，當使有情具諸快樂，如是思惟
 <lb n="0545a05" ed="T"/>入慈等至，則不應言慈緣執受諸蘊相續；言
 <lb n="0545a06" ed="T"/>慈緣執受諸蘊相續，不應道理。應問彼言：汝
 <lb n="0545a07" ed="T"/>然此不？謂契經中世尊善語善詞善說，有七
@@ -1466,7 +1478,7 @@ Added comment  for Emacs
 <lb n="0545b17" ed="T"/>無為可施設無生滅住異。具壽！世尊為諸苾
 <lb n="0545b18" ed="T"/>芻說有二物：一者有為：二者無為。<anchor xml:id="nkr_note_orig_0545003" n="0545003"/><anchor xml:id="nkr_note_mod_0545003" n="0545003"/><anchor xml:id="beg0545003" n="0545003"/>為<anchor xml:id="end0545003"/>無為外
 <lb n="0545b19" ed="T"/>無別有物，是故無有補特伽羅。</p></cb:div>
-<lb n="0545b20" ed="T"/><cb:div type="other"><cb:mulu n="1" level="3" type="其他">3 嗢拕南頌</cb:mulu><head><anchor xml:id="beg_a" type="star"/><title>識身足論</title><anchor xml:id="end_a"/>補特伽羅蘊第二<anchor xml:id="nkr_note_orig_0545004" n="0545004"/><anchor xml:id="beg0545004" n="0545004"/>中<anchor xml:id="end0545004"/>第三嗢<anchor xml:id="nkr_note_orig_0545005" n="0545005"/><anchor xml:id="nkr_note_mod_0545005" n="0545005"/><anchor xml:id="beg0545005" n="0545005"/>拕<anchor xml:id="end0545005"/>
+<lb n="0545b20" ed="T"/><cb:div type="other"><cb:mulu n="1" level="3" type="其他">3 嗢拕南頌</cb:mulu><head><anchor xml:id="beg_c" type="star"/><title>識身足論</title><anchor xml:id="end_c"/>補特伽羅蘊第二<anchor xml:id="nkr_note_orig_0545004" n="0545004"/><anchor xml:id="beg0545004" n="0545004"/>中<anchor xml:id="end0545004"/>第三嗢<anchor xml:id="nkr_note_orig_0545005" n="0545005"/><anchor xml:id="nkr_note_mod_0545005" n="0545005"/><anchor xml:id="beg0545005" n="0545005"/>拕<anchor xml:id="end0545005"/>
 <lb n="0545b21" ed="T"/>南頌</head>
 <lb n="0545b22" ed="T"/><lg xml:id="lgT26p0545b2201"><l>補特伽羅無有空，</l><l>諸法和合各所作，</l>
 <lb n="0545b23" ed="T"/><l>了知由幾俱生二，</l><l>心性無常明愛緣。</l></lg>
@@ -1495,7 +1507,7 @@ Added comment  for Emacs
 <lb n="0545c16" ed="T"/>觸所生思。由此諸法觸為第五補特伽羅，非
 <lb n="0545c17" ed="T"/>可得、非可證、非現有、非等有，是故無有補特
 <lb n="0545c18" ed="T"/>伽羅。如眼識，耳鼻舌身意識亦爾。</p>
-<lb n="0545c19" ed="T"/><p xml:id="pT26p0545c1901">有六識身，<anchor xml:id="beg_b" type="star"/>為<anchor xml:id="end_b"/>眼識耳鼻舌身意識。眼色為緣
+<lb n="0545c19" ed="T"/><p xml:id="pT26p0545c1901">有六識身，<anchor xml:id="beg_d" type="star"/>為<anchor xml:id="end_d"/>眼識耳鼻舌身意識。眼色為緣
 <lb n="0545c20" ed="T"/>生眼識，此中若眼若色若眼識，皆非補特伽
 <lb n="0545c21" ed="T"/>羅，唯有眼色為緣生眼識。又眼色為緣生眼
 <lb n="0545c22" ed="T"/>識，三和合故有觸，此中若眼若色若眼識若
@@ -1604,8 +1616,8 @@ Added comment  for Emacs
 <lb n="0547a05" ed="T"/>俱四蘊即是名色，名色依根即是六處，六處
 <lb n="0547a06" ed="T"/>和合即是其觸，此中領納即是其受，受生欣
 <lb n="0547a07" ed="T"/>喜即是其愛，此愛增廣即名為取，能生後有
-<lb n="0547a08" ed="T"/>業即名有，諸蘊現起則名為生，諸蘊成熟即
-<lb n="0547a09" ed="T"/>名為老，諸蘊棄捨即名為死，於內<anchor xml:id="beg_c" type="cb-app"/>熱<anchor xml:id="end_c"/>惱即名
+<lb n="0547a08" ed="T"/>業即名有，諸蘊現起<anchor xml:id="beg_e" type="cb-app"/>即<anchor xml:id="end_e"/>名為生，諸蘊成熟即
+<lb n="0547a09" ed="T"/>名為老，諸蘊棄捨即名為死，於內<anchor xml:id="beg_f" type="cb-app"/>熱<anchor xml:id="end_f"/>惱即名
 <lb n="0547a10" ed="T"/>為愁，發言怨嗟即名為歎，五識相應不平安
 <lb n="0547a11" ed="T"/>受說名為苦，意識相應不平安受說名為
 <lb n="0547a12" ed="T"/>憂，其心熱惱擾惱燋惱說名擾惱，等起謂生。
@@ -2042,7 +2054,7 @@ Added comment  for Emacs
 <lb n="0551c22" ed="T"/>所斷隨眠所感諸異熟心。若見圓滿世尊弟
 <lb n="0551c23" ed="T"/>子，未離欲界貪，修所斷隨眠所感諸異熟
 <lb n="0551c24" ed="T"/>心，是名體未斷，未斷為因。其體未斷，已斷為
-<lb n="0551c25" ed="T"/>因及未斷為因者，謂未離欲界貪。<anchor xml:id="beg_d" type="star"/>苦<anchor xml:id="end_d"/>智已
+<lb n="0551c25" ed="T"/>因及未斷為因者，謂未離欲界貪。<anchor xml:id="beg_10" type="star"/>苦<anchor xml:id="end_10"/>智已
 <lb n="0551c26" ed="T"/>生、集智未生，見苦所斷隨眠所感諸異熟心，
 <lb n="0551c27" ed="T"/>何等未斷因？謂此俱有相應等法。何等已斷
 <lb n="0551c28" ed="T"/>因？謂見苦所斷諸隨眠等，能感如是諸異
@@ -2367,7 +2379,7 @@ Added comment  for Emacs
 <lb n="0555b16" ed="T"/>未斷為因其體已斷。已斷為因及未斷為因
 <lb n="0555b17" ed="T"/>其體未斷者，謂苦類智已生、集類智未生，
 <lb n="0555b18" ed="T"/>諸無色界繫見集滅道及修所斷有覆無記
-<lb n="0555b19" ed="T"/>心。何等未斷因？謂無俱有相應等法。何等
+<lb n="0555b19" ed="T"/>心。何等未斷因？謂<anchor xml:id="beg_11" type="cb-app"/>此<anchor xml:id="end_11"/>俱有相應等法。何等
 <lb n="0555b20" ed="T"/>已斷因？謂無色界繫見苦所斷遍行隨眠及
 <lb n="0555b21" ed="T"/>彼相應等法。集類智已生、滅類智未生，諸無
 <lb n="0555b22" ed="T"/>色界繫見滅道修所斷有覆無記心。何等未
@@ -2615,7 +2627,7 @@ Added comment  for Emacs
 <lb n="0558a24" ed="T"/>皆不相應。如眼識，耳鼻舌身識亦爾。此中差
 <lb n="0558a25" ed="T"/>別者，鼻識舌識不應說有有覆無記。於善
 <lb n="0558a26" ed="T"/>意識，一切結、縛、隨眠、隨煩惱、纏，當言皆不相
-<lb n="0558a27" ed="T"/>應。於不善意識，有七結、七縛、三十四隨眠、
+<lb n="0558a27" ed="T"/>應。於不善意識，有七結、七縛、<anchor xml:id="beg_12" type="cb-app"/>三<anchor xml:id="end_12"/>十四隨眠、
 <lb n="0558a28" ed="T"/>三十九隨煩惱纏，當言相應。一心耶？曰：不
 <lb n="0558a29" ed="T"/>爾。於見苦所斷邪見隨眠相應不善意識，有
 <pb n="0558b" ed="T" xml:id="T26.1539.0558b"/>
@@ -2742,17 +2754,17 @@ Added comment  for Emacs
 <pb n="0559c" ed="T" xml:id="T26.1539.0559c"/>
 <lb n="0559c01" ed="T"/>是青色；若能了別其名，爾時亦能了別青色，
 <lb n="0559c02" ed="T"/>亦能了別此是青色。如青色，黃赤白等色亦
-<lb n="0559c03" ed="T"/>爾。耳識<anchor xml:id="beg_e" type="star"/>唯<anchor xml:id="end_e"/>能了別聲，不能了別此是聲。
+<lb n="0559c03" ed="T"/>爾。耳識<anchor xml:id="beg_13" type="star"/>唯<anchor xml:id="end_13"/>能了別聲，不能了別此是聲。
 <lb n="0559c04" ed="T"/>意識亦能了別聲，乃至未能了別其名，不能
 <lb n="0559c05" ed="T"/>了別此是聲；若能了別其名，爾時亦能了別
-<lb n="0559c06" ed="T"/>聲，亦能了別此是聲。鼻識<anchor xml:id="beg_f" type="star"/>唯<anchor xml:id="end_f"/>能了別香，
+<lb n="0559c06" ed="T"/>聲，亦能了別此是聲。鼻識<anchor xml:id="beg_14" type="star"/>唯<anchor xml:id="end_14"/>能了別香，
 <lb n="0559c07" ed="T"/>不能了別此是香。意識亦能了別香，乃至未
 <lb n="0559c08" ed="T"/>能了別其名，不能了別此是香；若能了別其
 <lb n="0559c09" ed="T"/>名，爾時亦能了別香，亦能了別此是香。舌
-<lb n="0559c10" ed="T"/>識<anchor xml:id="beg_10" type="star"/>唯<anchor xml:id="end_10"/>能了別味，不能了別此是味。意識亦
+<lb n="0559c10" ed="T"/>識<anchor xml:id="beg_15" type="star"/>唯<anchor xml:id="end_15"/>能了別味，不能了別此是味。意識亦
 <lb n="0559c11" ed="T"/>能了別味，乃至未能了別其名，不能了別此
 <lb n="0559c12" ed="T"/>是味；若能了別其名，爾時亦能了別味，亦
-<lb n="0559c13" ed="T"/>能了別此是味。身識<anchor xml:id="beg_11" type="star"/>唯<anchor xml:id="end_11"/>能了別觸，不能了
+<lb n="0559c13" ed="T"/>能了別此是味。身識<anchor xml:id="beg_16" type="star"/>唯<anchor xml:id="end_16"/>能了別觸，不能了
 <lb n="0559c14" ed="T"/>別此是觸。意識亦能了別觸，乃至未能了別
 <lb n="0559c15" ed="T"/>其名，不能了別此是觸；若能了別其名，爾
 <lb n="0559c16" ed="T"/>時亦能了別觸，亦能了別此是觸。意識亦能
@@ -2825,7 +2837,7 @@ Added comment  for Emacs
 <lb n="0560b23" ed="T"/>若苦若空若無我，若於因謂因謂集謂生謂
 <lb n="0560b24" ed="T"/>緣，若有因、若有起、若有是處、若有是事，若如
 <lb n="0560b25" ed="T"/>理所引了別。有能了別欲界繫不繫法耶？曰：
-<lb n="0560b26" ed="T"/>能了別。謂若無常若<anchor xml:id="nkr_note_orig_0560002" n="0560002"/><anchor xml:id="nkr_note_mod_0560002" n="0560002"/><anchor xml:id="beg0560002" n="0560002"/>苦<anchor xml:id="end0560002"/>若無我，若有因、若
+<lb n="0560b26" ed="T"/>能了別。謂若無常若<anchor xml:id="nkr_note_orig_0560002" n="0560002"/><anchor xml:id="nkr_note_mod_0560002" n="0560002"/><anchor xml:id="beg0560002" n="0560002"/>空<anchor xml:id="end0560002"/>若無我，若有因、若
 <lb n="0560b27" ed="T"/>有起、若有是處、若有是事，若如理所引
 <lb n="0560b28" ed="T"/>了別。有能了別色界繫無色界繫法耶？曰：
 <lb n="0560b29" ed="T"/>能了別。謂或撥無因、或撥無作、或復損
@@ -3051,14 +3063,14 @@ Added comment  for Emacs
 <lb n="0563a09" ed="T"/>因謂集謂生謂緣，若有因、若有起、若有是處、
 <lb n="0563a10" ed="T"/>若有是事，若如理所引了別。有能了別欲界
 <lb n="0563a11" ed="T"/>繫無色界繫法耶？曰：能了別。謂若麁若苦
-<lb n="0563a12" ed="T"/><anchor xml:id="beg_12" type="star"/>若<anchor xml:id="end_12"/>障、若如病若如癰若如箭若惱害、若
+<lb n="0563a12" ed="T"/><anchor xml:id="beg_17" type="star"/>若<anchor xml:id="end_17"/>障、若如病若如癰若如箭若惱害、若
 <lb n="0563a13" ed="T"/>無常若苦若空若無我，若於因謂因謂集謂
 <lb n="0563a14" ed="T"/>生謂緣，若有因、若有起、若有是處、若有是事，
 <lb n="0563a15" ed="T"/>若如理所引了別。有能了別欲界繫不繫法
 <lb n="0563a16" ed="T"/>耶？曰：能了別。若無常若空若無我，若有因、
 <lb n="0563a17" ed="T"/>若有起、若有是處、若有是事，若如理所引了
 <lb n="0563a18" ed="T"/>別。有能了別色界繫無色界繫法耶？曰：能了
-<lb n="0563a19" ed="T"/>別。謂若麁<anchor xml:id="beg_13" type="star"/>若<anchor xml:id="end_13"/>苦若障、若靜若妙若離、若
+<lb n="0563a19" ed="T"/>別。謂若麁<anchor xml:id="beg_18" type="star"/>若<anchor xml:id="end_18"/>苦若障、若靜若妙若離、若
 <lb n="0563a20" ed="T"/>如病若如癰若如箭若惱害、若無常若苦若
 <lb n="0563a21" ed="T"/>空若無我，若於因謂因謂集謂生謂緣，若有
 <lb n="0563a22" ed="T"/>因、若有起、若有是處、若有是事，若如理所引
@@ -3152,7 +3164,7 @@ Added comment  for Emacs
 <lb n="0564a19" ed="T"/>若無常若苦若空若無我，若於因謂因謂集
 <lb n="0564a20" ed="T"/>謂生謂緣，若有因、若有起、若有是處、若有是
 <lb n="0564a21" ed="T"/>事，若如理所引了別。有能了別欲界繫不繫
-<lb n="0564a22" ed="T"/>法耶？曰：能了別。謂若無常<anchor xml:id="beg_14" type="star"/>若苦<anchor xml:id="end_14"/>若空若無
+<lb n="0564a22" ed="T"/>法耶？曰：能了別。謂若無常<anchor xml:id="beg_19" type="star"/>若苦<anchor xml:id="end_19"/>若空若無
 <lb n="0564a23" ed="T"/>我，若有因、若有起、若有是處、若有是事，若如
 <lb n="0564a24" ed="T"/>理所引了別。有能了別色界繫無色界繫法
 <lb n="0564a25" ed="T"/>耶？曰：能了別。謂若麁若苦若障、若靜若妙若
@@ -3161,10 +3173,10 @@ Added comment  for Emacs
 <lb n="0564a28" ed="T"/>緣，若有因、若有起、若有是處、若有是事，若
 <lb n="0564a29" ed="T"/>如理所引了別。有能了別色界繫不繫法耶？
 <pb n="0564b" ed="T" xml:id="T26.1539.0564b"/>
-<lb n="0564b01" ed="T"/>曰：能了別。謂若無常<anchor xml:id="beg_15" type="star"/>若苦<anchor xml:id="end_15"/>若空若無我，若
+<lb n="0564b01" ed="T"/>曰：能了別。謂若無常<anchor xml:id="beg_1a" type="star"/>若苦<anchor xml:id="end_1a"/>若空若無我，若
 <lb n="0564b02" ed="T"/>有因、若有起、若有是處、若有是事，若如理所
 <lb n="0564b03" ed="T"/>引了別。有能了別無色界繫不繫法耶？曰：能
-<lb n="0564b04" ed="T"/>了別。謂若無常<anchor xml:id="beg_16" type="star"/>若苦<anchor xml:id="end_16"/>若空若無我，若有因、
+<lb n="0564b04" ed="T"/>了別。謂若無常<anchor xml:id="beg_1b" type="star"/>若苦<anchor xml:id="end_1b"/>若空若無我，若有因、
 <lb n="0564b05" ed="T"/>若有起、若有是處、若有是事，若如理所引了
 <lb n="0564b06" ed="T"/>別。有能了別欲界繫色界繫無色界繫法耶？
 <lb n="0564b07" ed="T"/>曰：能了別。謂若麁若苦若障、若如病若如癰
@@ -3172,16 +3184,16 @@ Added comment  for Emacs
 <lb n="0564b09" ed="T"/>於因謂因謂集謂生謂緣，若有因、若有起、若
 <lb n="0564b10" ed="T"/>有是處、若有是事，若如理所引了別。有能了
 <lb n="0564b11" ed="T"/>別欲界繫色界繫不繫法耶？曰：能了別。謂若
-<lb n="0564b12" ed="T"/>無常<anchor xml:id="beg_17" type="star"/>若苦<anchor xml:id="end_17"/>若空若無我，若有因、若有起、若
+<lb n="0564b12" ed="T"/>無常<anchor xml:id="beg_1c" type="star"/>若苦<anchor xml:id="end_1c"/>若空若無我，若有因、若有起、若
 <lb n="0564b13" ed="T"/>有是處、若有是事，若如理所引了別。有能了
 <lb n="0564b14" ed="T"/>別欲界繫無色界繫不繫法耶？曰：能了別。謂
-<lb n="0564b15" ed="T"/>若無常<anchor xml:id="beg_18" type="star"/>若苦<anchor xml:id="end_18"/>若空若無我，若有因、若有起、
+<lb n="0564b15" ed="T"/>若無常<anchor xml:id="beg_1d" type="star"/>若苦<anchor xml:id="end_1d"/>若空若無我，若有因、若有起、
 <lb n="0564b16" ed="T"/>若有是處、若有是事，若如理所引了別。有能
 <lb n="0564b17" ed="T"/>了別色界繫無色界繫不繫法耶？曰：能了別。
-<lb n="0564b18" ed="T"/>謂若無常<anchor xml:id="beg_19" type="star"/>若苦<anchor xml:id="end_19"/>若空若無我，若有因、若有起、
+<lb n="0564b18" ed="T"/>謂若無常<anchor xml:id="beg_1e" type="star"/>若苦<anchor xml:id="end_1e"/>若空若無我，若有因、若有起、
 <lb n="0564b19" ed="T"/>若有是處、若有是事，若如理所引了別。有能
 <lb n="0564b20" ed="T"/>了別欲界繫色界繫無色界繫不繫法耶？曰：
-<lb n="0564b21" ed="T"/>能了別。謂若無常<anchor xml:id="beg_1a" type="star"/>若苦<anchor xml:id="end_1a"/>若空若無我，若有因、
+<lb n="0564b21" ed="T"/>能了別。謂若無常<anchor xml:id="beg_1f" type="star"/>若苦<anchor xml:id="end_1f"/>若空若無我，若有因、
 <lb n="0564b22" ed="T"/>若有起、若有是處、若有是事，若如理所引了
 <lb n="0564b23" ed="T"/>別。</p>
 <lb n="0564b24" ed="T"/><p xml:id="pT26p0564b2401">諸色界繫有覆無記心有能了別色界繫法
@@ -3217,11 +3229,11 @@ Added comment  for Emacs
 <lb n="0564c24" ed="T"/>謂若麁若苦若障，若如理所引了別。有能了
 <lb n="0564c25" ed="T"/>別不繫法耶？曰：能了別。謂若於滅謂滅謂靜
 <lb n="0564c26" ed="T"/>謂妙謂離、若於道謂道謂如謂行謂出，若無
-<lb n="0564c27" ed="T"/>常<anchor xml:id="beg_1b" type="star"/>若苦<anchor xml:id="end_1b"/>若空若無我，若有因、若有起、若有是
+<lb n="0564c27" ed="T"/>常<anchor xml:id="beg_20" type="star"/>若苦<anchor xml:id="end_20"/>若空若無我，若有因、若有起、若有是
 <lb n="0564c28" ed="T"/>處、若有是事，若如理所引了別。有能了別無
-<lb n="0564c29" ed="T"/>色界繫不繫法耶？曰：能了別。謂若無常<anchor xml:id="beg_1c" type="star"/>若
+<lb n="0564c29" ed="T"/>色界繫不繫法耶？曰：能了別。謂若無常<anchor xml:id="beg_21" type="star"/>若
 <pb n="0565a" ed="T" xml:id="T26.1539.0565a"/>
-<lb n="0565a01" ed="T"/>苦<anchor xml:id="end_1c"/>若空若無我，若有因、若有起、若有是處、若
+<lb n="0565a01" ed="T"/>苦<anchor xml:id="end_21"/>若空若無我，若有因、若有起、若有是處、若
 <lb n="0565a02" ed="T"/>有是事，若如理所引了別。如是了別，餘不了
 <lb n="0565a03" ed="T"/>別。</p>
 <lb n="0565a04" ed="T"/><p xml:id="pT26p0565a0401">諸無色界繫有覆無記心有能了別無色界
@@ -3277,7 +3289,7 @@ Added comment  for Emacs
 <lb n="0565b24" ed="T"/>欲纏二部隨眠是所隨增。諸欲界繫有覆無
 <lb n="0565b25" ed="T"/>記心<anchor xml:id="nkr_note_orig_0565004" n="0565004"/><anchor xml:id="nkr_note_mod_0565004" n="0565004"/><anchor xml:id="beg0565004" n="0565004"/>唯<anchor xml:id="end0565004"/>能了別欲界繫法，此中有欲纏見
 <lb n="0565b26" ed="T"/>苦所斷一切隨眠及見集所斷遍行隨眠是
-<lb n="0565b27" ed="T"/>所隨增。諸欲界繫無覆無記心<anchor xml:id="beg_1d" type="star"/>唯<anchor xml:id="end_1d"/>能了別
+<lb n="0565b27" ed="T"/>所隨增。諸欲界繫無覆無記心<anchor xml:id="beg_22" type="star"/>唯<anchor xml:id="end_22"/>能了別
 <lb n="0565b28" ed="T"/>欲界繫法，此中有欲纏遍行隨眠及修所斷
 <lb n="0565b29" ed="T"/>隨眠是所隨增。諸色界繫善心若能了別色
 <pb n="0565c" ed="T" xml:id="T26.1539.0565c"/>
@@ -3301,7 +3313,7 @@ Added comment  for Emacs
 <lb n="0565c18" ed="T"/>心若能了別無色界繫法，此中有無色纏有
 <lb n="0565c19" ed="T"/>漏緣隨眠是所隨增。若能了別不繫法，此中
 <lb n="0565c20" ed="T"/>有無色纏二部隨眠及遍行隨眠是所隨增。
-<lb n="0565c21" ed="T"/>諸無色界繫無覆無記心<anchor xml:id="beg_1e" type="star"/>唯<anchor xml:id="end_1e"/>能了別無色界
+<lb n="0565c21" ed="T"/>諸無色界繫無覆無記心<anchor xml:id="beg_23" type="star"/>唯<anchor xml:id="end_23"/>能了別無色界
 <lb n="0565c22" ed="T"/>繫法，此中有無色纏遍行隨眠及修所斷隨
 <lb n="0565c23" ed="T"/>眠是所隨增。諸學心若能了別不繫法，此中
 <lb n="0565c24" ed="T"/>無有隨眠是所隨增。若能了別所餘諸法，此
@@ -3333,7 +3345,7 @@ Added comment  for Emacs
 <lb n="0566a20" ed="T"/>集智未生，諸欲界繫善心，緣見苦所斷。集智
 <lb n="0566a21" ed="T"/>已生、滅智未生，諸欲界繫善心，緣見苦集所
 <lb n="0566a22" ed="T"/>斷。滅智已生、道智未生，諸欲界繫善心，緣見
-<lb n="0566a23" ed="T"/>苦集滅所斷。<anchor xml:id="nkr_note_orig_0566003" n="0566003"/><anchor xml:id="nkr_note_mod_0566003" n="0566003"/><anchor xml:id="beg0566003" n="0566003"/>苦<anchor xml:id="end0566003"/>見圓滿世尊弟子，未離欲
+<lb n="0566a23" ed="T"/>苦集滅所斷。<anchor xml:id="nkr_note_orig_0566003" n="0566003"/><anchor xml:id="nkr_note_mod_0566003" n="0566003"/><anchor xml:id="beg0566003" n="0566003"/>若<anchor xml:id="end0566003"/>見圓滿世尊弟子，未離欲
 <lb n="0566a24" ed="T"/>界貪，諸欲界繫善心緣見所<anchor xml:id="nkr_note_orig_0566004" n="0566004"/><anchor xml:id="nkr_note_mod_0566004" n="0566004"/><anchor xml:id="beg0566004" n="0566004"/>緣<anchor xml:id="end0566004"/>。是名體未斷
 <lb n="0566a25" ed="T"/>所緣已斷。其體未斷所緣已斷及所緣未斷
 <lb n="0566a26" ed="T"/>者，謂未離欲界貪，苦智已生、集智未生，諸
@@ -3764,9 +3776,9 @@ Added comment  for Emacs
 <lb n="0571a07" ed="T"/>色界貪，苦類智未生，諸無色界繫善心，緣非
 <lb n="0571a08" ed="T"/>所斷。已離色界貪，苦類智未生，諸無色界繫
 <lb n="0571a09" ed="T"/>善心，緣非所斷。苦類智已生、集類智未生，諸
-<lb n="0571a10" ed="T"/>無<anchor xml:id="beg_1f" type="star"/>色<anchor xml:id="end_1f"/>繫善心，緣非所斷。集類智已生、滅類
-<lb n="0571a11" ed="T"/>智未生，諸無色界繫善心，緣非所斷。滅<anchor xml:id="beg_20" type="star"/>類
-<lb n="0571a12" ed="T"/>智<anchor xml:id="end_20"/>已生、道類智未生，諸無色界繫善心，緣非
+<lb n="0571a10" ed="T"/>無<anchor xml:id="beg_24" type="star"/>色<anchor xml:id="end_24"/>繫善心，緣非所斷。集類智已生、滅類
+<lb n="0571a11" ed="T"/>智未生，諸無色界繫善心，緣非所斷。滅<anchor xml:id="beg_25" type="star"/>類
+<lb n="0571a12" ed="T"/>智<anchor xml:id="end_25"/>已生、道類智未生，諸無色界繫善心，緣非
 <lb n="0571a13" ed="T"/>所斷。若見圓滿世尊弟子，未離無色界貪，諸
 <lb n="0571a14" ed="T"/>無色界繫善心，緣非所斷。是名體未斷不可
 <lb n="0571a15" ed="T"/>分別此心所緣已斷未斷。設所緣未斷，其體
@@ -3779,7 +3791,7 @@ Added comment  for Emacs
 <lb n="0571a22" ed="T"/>已離欲界貪，未離色界貪，苦類智未生，諸無
 <lb n="0571a23" ed="T"/>色界繫有覆無記心，緣無色界繫。已離色界
 <lb n="0571a24" ed="T"/>貪，苦類智未生，諸無色界繫有覆無記心，緣
-<lb n="0571a25" ed="T"/>無色界繫。苦類智已生、集<anchor xml:id="beg_21" type="cb-app"/>類<anchor xml:id="end_21"/>智未生，諸無色
+<lb n="0571a25" ed="T"/>無色界繫。苦類智已生、集<anchor xml:id="beg_26" type="cb-app"/>類<anchor xml:id="end_26"/>智未生，諸無色
 <lb n="0571a26" ed="T"/>界繫見集所斷有覆無記心，緣見集滅道及
 <lb n="0571a27" ed="T"/>修所斷。見集所斷有覆無記心，緣見集所斷。
 <lb n="0571a28" ed="T"/>見滅所斷有覆無記心，緣見滅所斷。見道所
@@ -4281,7 +4293,7 @@ Added comment  for Emacs
 <lb n="0576c16" ed="T"/>諸色界繫無覆無記心，緣見苦集滅道及修
 <lb n="0576c17" ed="T"/>所斷。滅類智已生、道類智未生，諸色界繫
 <lb n="0576c18" ed="T"/>無覆無記心，緣見苦集滅道及修所斷。若見
-<lb n="0576c19" ed="T"/>圓滿世尊弟子，未離色界貪，諸色界繫無
+<lb n="0576c19" ed="T"/>圓滿世尊弟子，未離色界貪，諸色界繫<anchor xml:id="beg_27" type="cb-app"/>無<anchor xml:id="end_27"/>
 <lb n="0576c20" ed="T"/>覆無記心，緣見修所斷。是名所緣已斷及所
 <lb n="0576c21" ed="T"/>緣未斷其體未斷。</p></cb:div>
 <lb n="0576c22" ed="T"/><cb:juan n="009" fun="close"><cb:jhead><title><anchor xml:id="fxT26p0576c01"/>說一切有部識身足論</title><anchor xml:id="fxT26p0576c02"/>卷第九</cb:jhead></cb:juan>
@@ -4447,7 +4459,7 @@ Added comment  for Emacs
 <lb n="0578c01" ed="T"/>或所隨增亦是能緣，或非所隨增非是能緣。
 <lb n="0578c02" ed="T"/>是所隨增非是能緣者，謂彼隨眠此心相應。
 <lb n="0578c03" ed="T"/>是其能緣非所隨增者，謂彼隨眠能緣此心
-<lb n="0578c04" ed="T"/>已斷。是所隨增亦是能緣者，謂彼隨眠<anchor xml:id="beg_22" type="cb-app"/>能<anchor xml:id="end_22"/>緣
+<lb n="0578c04" ed="T"/>已斷。是所隨增亦是能緣者，謂彼隨眠<anchor xml:id="beg_28" type="cb-app"/>能<anchor xml:id="end_28"/>緣
 <lb n="0578c05" ed="T"/>此心未斷。非所隨增亦非能緣者，謂彼隨眠，
 <lb n="0578c06" ed="T"/>若所餘緣、若他隨眠、若不同界遍行隨眠。如
 <lb n="0578c07" ed="T"/>欲界繫見苦所斷心，見集滅道及修所斷染
@@ -4765,7 +4777,7 @@ Added comment  for Emacs
 <lb n="0582a19" ed="T"/>不善、無覆無記，亦無此心能緣之識，唯有有
 <lb n="0582a20" ed="T"/>覆無記。此能緣識，有欲界繫及色界繫三部
 <lb n="0582a21" ed="T"/>隨眠、色界繫見道所斷有漏緣隨眠、無色界繫
-<lb n="0582a22" ed="T"/>遍行隨眠、修所斷隨眠，是所斷增。諸色界繫
+<lb n="0582a22" ed="T"/>遍行隨眠、修所斷隨眠，是所<anchor xml:id="beg_29" type="cb-app"/>隨<anchor xml:id="end_29"/>增。諸色界繫
 <lb n="0582a23" ed="T"/>修所斷心，無有不善，亦無此心能緣之識，有
 <lb n="0582a24" ed="T"/>善、有覆無記、無覆無記。此能緣識，有欲界繫
 <lb n="0582a25" ed="T"/>及色界繫三部隨眠、無色界繫遍行隨眠、修所
@@ -5566,7 +5578,7 @@ Added comment  for Emacs
 <lb n="0591a12" ed="T"/>不當了別，或非已了別今了別當了別。非已
 <lb n="0591a13" ed="T"/>了別非今了別非當了別者，謂先未曾得定
 <lb n="0591a14" ed="T"/>不當得。非已了別非今了別當了別者，謂先
-<lb n="0591a15" ed="T"/>未曾得決定當<anchor xml:id="beg_23" type="cb-app"/>得<anchor xml:id="end_23"/>。非已了別非今了別或
+<lb n="0591a15" ed="T"/>未曾得決定當<anchor xml:id="beg_2a" type="cb-app"/>得<anchor xml:id="end_2a"/>。非已了別非今了別或
 <lb n="0591a16" ed="T"/>當了別或不當了別者，謂先未曾得或當得
 <lb n="0591a17" ed="T"/>或不當得。非已了別今了<anchor xml:id="nkr_note_orig_0591001" n="0591001"/><anchor xml:id="beg0591001" n="0591001"/>別<anchor xml:id="end0591001"/>當了別者，謂
 <lb n="0591a18" ed="T"/>先未曾得最初現前。現在色界繫善心有三
@@ -5642,7 +5654,7 @@ Added comment  for Emacs
 <lb n="0591c28" ed="T"/>了別者，謂先未曾得，最初現前。現在無色
 <lb n="0591c29" ed="T"/>界繫善心有二句：或非已了別今了別當了
 <pb n="0592a" ed="T" xml:id="T26.1539.0592a"/>
-<lb n="0592a01" ed="T"/>已別，或了別今了別當了別。非已了別今了
+<lb n="0592a01" ed="T"/><anchor xml:id="beg_2b" type="cb-app"/>別，或已<anchor xml:id="end_2b"/>了別今了別當了別。非已了別今了
 <lb n="0592a02" ed="T"/>別當了別者，謂先未曾得，最初現前。已了別
 <lb n="0592a03" ed="T"/>今了別當了別者，謂先曾得，今現在前。過去
 <lb n="0592a04" ed="T"/>無色界繫有覆無記心有七句：或已了別非
@@ -5926,7 +5938,7 @@ Added comment  for Emacs
 <lb n="0595a14" ed="T"/>記心。若成就色界繫無覆無記心，定不成就
 <lb n="0595a15" ed="T"/>不善心。若成就不善心亦成就無色<anchor xml:id="nkr_note_orig_0595001" n="0595001"/><anchor xml:id="beg0595001" n="0595001"/>界<anchor xml:id="end0595001"/>繫
 <lb n="0595a16" ed="T"/>善心耶？若成<anchor xml:id="nkr_note_orig_0595002" n="0595002"/><anchor xml:id="beg0595002" n="0595002"/>就<anchor xml:id="end0595002"/>不善心，定不成就無色界
-<lb n="0595a17" ed="T"/>繫善心。若成就無色<anchor xml:id="beg_24" type="star"/>界<anchor xml:id="end_24"/>繫善心，定不成就
+<lb n="0595a17" ed="T"/>繫善心。若成就無色<anchor xml:id="beg_2c" type="star"/>界<anchor xml:id="end_2c"/>繫善心，定不成就
 <lb n="0595a18" ed="T"/>不善心。若成就不善心，亦成就無色界繫有
 <lb n="0595a19" ed="T"/>覆無記心耶？若成就不善心，定成就無色界
 <lb n="0595a20" ed="T"/>繫有覆無記心。或成就無色界繫有覆無記
@@ -6009,10 +6021,10 @@ Added comment  for Emacs
 <lb n="0596a07" ed="T"/>記心耶？若成就色界繫無覆無記心，定成就
 <lb n="0596a08" ed="T"/>欲界繫無覆無記心。或成就欲界繫無覆無
 <lb n="0596a09" ed="T"/>記心非色界繫無覆無記心，謂欲界生長未
-<lb n="0596a10" ed="T"/>離欲界貪補特伽羅。若成就欲<anchor xml:id="beg_25" type="star"/>界<anchor xml:id="end_25"/>繫無覆無
+<lb n="0596a10" ed="T"/>離欲界貪補特伽羅。若成就欲<anchor xml:id="beg_2d" type="star"/>界<anchor xml:id="end_2d"/>繫無覆無
 <lb n="0596a11" ed="T"/>記心，亦成就無色界繫善心耶？或成就欲界
 <lb n="0596a12" ed="T"/>繫無覆無記心非無色界繫善心，或成就無
-<lb n="0596a13" ed="T"/>色<anchor xml:id="beg_26" type="star"/>界<anchor xml:id="end_26"/>繫善心非欲界繫無覆無記心，或成就
+<lb n="0596a13" ed="T"/>色<anchor xml:id="beg_2e" type="star"/>界<anchor xml:id="end_2e"/>繫善心非欲界繫無覆無記心，或成就
 <lb n="0596a14" ed="T"/>欲界繫無覆無記心亦無色界繫善心，或非
 <lb n="0596a15" ed="T"/>成就欲界繫無覆無記心亦非無色界繫善
 <lb n="0596a16" ed="T"/>心。成就欲界繫無覆無記心非無色界繫善
@@ -6054,7 +6066,7 @@ Added comment  for Emacs
 <lb n="0596b22" ed="T"/>長阿羅漢，及諸異生。若成就欲界繫無覆無
 <lb n="0596b23" ed="T"/>記心，亦成就無學心耶？或成就欲界繫無覆
 <lb n="0596b24" ed="T"/>無記心非無學心，廣說四句。成就欲界繫
-<lb n="0596b25" ed="T"/>無覆無記心非無學心者，謂欲界色界生長
+<lb n="0596b25" ed="T"/>無覆無記心<anchor xml:id="beg_2f" type="cb-app"/>亦<anchor xml:id="end_2f"/>非無學心者，謂欲界色界生長
 <lb n="0596b26" ed="T"/>有學，及諸異生。成就無學心非欲界繫無覆
 <lb n="0596b27" ed="T"/>無記心者，謂無色界生長諸阿羅漢。成就欲
 <lb n="0596b28" ed="T"/>界繫無覆無記心亦無學心者，謂欲界色界
@@ -6117,7 +6129,7 @@ Added comment  for Emacs
 <lb n="0597a25" ed="T"/>色界生長有學異生。成就無學心非色界
 <lb n="0597a26" ed="T"/>繫善心者，謂無色界生長諸阿羅漢。成就色
 <lb n="0597a27" ed="T"/>界繫善心亦無學心者，謂欲界色界生長諸
-<lb n="0597a28" ed="T"/>阿<anchor xml:id="beg_27" type="cb-app"/>羅<anchor xml:id="end_27"/>漢。非成就色界繫善心亦非無學心者，
+<lb n="0597a28" ed="T"/>阿<anchor xml:id="beg_30" type="cb-app"/>羅<anchor xml:id="end_30"/>漢。非成就色界繫善心亦非無學心者，
 <lb n="0597a29" ed="T"/>謂欲界生長未得色界善心，及無色界生長
 <pb n="0597b" ed="T" xml:id="T26.1539.0597b"/>
 <lb n="0597b01" ed="T"/>有學異生。若成就色界繫有覆無記心，亦成
@@ -6448,7 +6460,7 @@ Added comment  for Emacs
 <lb n="0600c25" ed="T"/>非色界繫無覆無記心者，無有此句。若不成
 <lb n="0600c26" ed="T"/>就不善心，亦不成就無色界繫善心耶？或不
 <lb n="0600c27" ed="T"/>成就不善心非無色界繫善心，廣說四句。
-<lb n="0600c28" ed="T"/>不成就不善心非無色界繫善心者，<anchor xml:id="beg_28" type="star"/>謂<anchor xml:id="end_28"/>欲界
+<lb n="0600c28" ed="T"/>不成就不善心非無色界繫善心者，<anchor xml:id="beg_31" type="star"/>謂<anchor xml:id="end_31"/>欲界
 <lb n="0600c29" ed="T"/>色界生長已得無色界善心，及無色界生
 <pb n="0601a" ed="T" xml:id="T26.1539.0601a"/>
 <lb n="0601a01" ed="T"/>長補特伽羅。不成就無色界繫善心非不善
@@ -6981,7 +6993,7 @@ Added comment  for Emacs
 <lb n="0606c17" ed="T"/>繫有覆無記心捨成就得不成就，定非欲界
 <lb n="0606c18" ed="T"/>繫無覆無記心。若欲界繫無覆無記心捨成
 <lb n="0606c19" ed="T"/>就得不成就，定非欲界繫有覆無記心。從此
-<lb n="0606c20" ed="T"/><anchor xml:id="beg_29" type="star"/>已<anchor xml:id="end_29"/>後亦都無有。若欲界繫無覆無記心捨
+<lb n="0606c20" ed="T"/><anchor xml:id="beg_32" type="star"/>已<anchor xml:id="end_32"/>後亦都無有。若欲界繫無覆無記心捨
 <lb n="0606c21" ed="T"/>成就得不成就，色界繫善心亦爾耶？若欲界
 <lb n="0606c22" ed="T"/>繫無覆無記心捨成就得不成就，色界繫善
 <lb n="0606c23" ed="T"/>心定爾。或色界繫善心捨成就得不成就
@@ -7065,7 +7077,7 @@ Added comment  for Emacs
 <lb n="0607c11" ed="T"/>貪有學異生，從離欲貪復還退時，及色界
 <lb n="0607c12" ed="T"/>沒或欲界或無色界生時，若欲界沒無色界
 <lb n="0607c13" ed="T"/>生時。無學心捨成就得不成就非色界繫無
-<lb n="0607c14" ed="T"/>覆無記心者，謂阿羅漢起色<anchor xml:id="beg_2a" type="star"/>無色<anchor xml:id="end_2a"/>纏復還
+<lb n="0607c14" ed="T"/>覆無記心者，謂阿羅漢起色<anchor xml:id="beg_33" type="star"/>無色<anchor xml:id="end_33"/>纏復還
 <lb n="0607c15" ed="T"/>退時。色界繫無覆無記心捨成就得不成就
 <lb n="0607c16" ed="T"/>亦無學心者，謂阿羅漢起欲界纏復還退時。
 <lb n="0607c17" ed="T"/>非色界繫無覆無記心捨成就得不成就亦
@@ -7096,7 +7108,7 @@ Added comment  for Emacs
 <lb n="0608a12" ed="T"/>已得無色界善心，從無色界善心復還退時，
 <lb n="0608a13" ed="T"/>及無色界沒或欲界或色界生時。無學心捨
 <lb n="0608a14" ed="T"/>成就得不成就非無色界繫善心者，謂阿羅
-<lb n="0608a15" ed="T"/>漢起<anchor xml:id="beg_2b" type="star"/>無色<anchor xml:id="end_2b"/>纏復還退時。無色界繫善心捨
+<lb n="0608a15" ed="T"/>漢起<anchor xml:id="beg_34" type="star"/>無色<anchor xml:id="end_34"/>纏復還退時。無色界繫善心捨
 <lb n="0608a16" ed="T"/>成就得不成就亦無學心者，謂阿羅漢起
 <lb n="0608a17" ed="T"/><anchor xml:id="nkr_note_orig_0608001" n="0608001"/><anchor xml:id="nkr_note_mod_0608001" n="0608001"/><anchor xml:id="beg0608001" n="0608001"/>欲<anchor xml:id="end0608001"/>色界纏復還退時。非無色界繫善心捨
 <lb n="0608a18" ed="T"/>成就得不成就亦非無學心者，除上爾所相。
@@ -7306,7 +7318,7 @@ Added comment  for Emacs
 <lb n="0610b15" ed="T"/>成就得成就非色界繫有覆無記心者，謂修
 <lb n="0610b16" ed="T"/>加行，色界善心初現前時。色界繫有覆無記
 <lb n="0610b17" ed="T"/>心捨不成就得成就非色界繫善心者，謂已
-<lb n="0610b18" ed="T"/>離色界貪，從離<anchor xml:id="beg_2c" type="star"/>色<anchor xml:id="end_2c"/>貪復還退時，及無色界
+<lb n="0610b18" ed="T"/>離色界貪，從離<anchor xml:id="beg_35" type="star"/>色<anchor xml:id="end_35"/>貪復還退時，及無色界
 <lb n="0610b19" ed="T"/>沒欲界生時。色界繫善心捨不成就得成就
 <lb n="0610b20" ed="T"/>亦色界繫有覆無記心者，謂無色界沒色界
 <lb n="0610b21" ed="T"/>生時。非色界繫善心捨不成就得成就亦非
@@ -7346,7 +7358,7 @@ Added comment  for Emacs
 <lb n="0610c25" ed="T"/>非無色界繫有覆無記心，廣說四句。色界繫
 <lb n="0610c26" ed="T"/>有覆無記心捨不成就得成就非無色界繫
 <lb n="0610c27" ed="T"/>有覆無記心者，謂已離色界貪有學異生，
-<lb n="0610c28" ed="T"/>從離<anchor xml:id="beg_2d" type="star"/>色<anchor xml:id="end_2d"/>貪復還退時，及無色界沒欲界
+<lb n="0610c28" ed="T"/>從離<anchor xml:id="beg_36" type="star"/>色<anchor xml:id="end_36"/>貪復還退時，及無色界沒欲界
 <lb n="0610c29" ed="T"/>生時。無色界繫有覆無記心捨不成就得成
 <pb n="0611a" ed="T" xml:id="T26.1539.0611a"/>
 <lb n="0611a01" ed="T"/>就非色界繫有覆無記心者，謂阿羅漢起無
@@ -7362,7 +7374,7 @@ Added comment  for Emacs
 <lb n="0611a11" ed="T"/>不成就得成就，學心亦爾耶？或色界繫有
 <lb n="0611a12" ed="T"/>覆無記心捨不成就得成就非學心，廣說四
 <lb n="0611a13" ed="T"/>句。色界繫有覆無記心捨不成就得成就非
-<lb n="0611a14" ed="T"/>學心者，謂已離色界貪有學異生，從離<anchor xml:id="beg_2e" type="star"/>色<anchor xml:id="end_2e"/>
+<lb n="0611a14" ed="T"/>學心者，謂已離色界貪有學異生，從離<anchor xml:id="beg_37" type="star"/>色<anchor xml:id="end_37"/>
 <lb n="0611a15" ed="T"/>貪復還退時，及無色界沒欲界色界生時。學
 <lb n="0611a16" ed="T"/>心捨不成就得成就非色界繫有覆無記心
 <lb n="0611a17" ed="T"/>者，謂阿羅漢起無色界纏復還退時，及修加
@@ -7613,9 +7625,9 @@ Added comment  for Emacs
 <lb n="0613c22" ed="T"/>梵世上沒生梵世中，彼最初梵世繫善心現
 <lb n="0613c23" ed="T"/>在前。乃至若最初無所有處繫善心現在前，
 <lb n="0613c24" ed="T"/>一切識無<anchor xml:id="nkr_note_orig_0613002" n="0613002"/><anchor xml:id="nkr_note_mod_0613002" n="0613002"/><anchor xml:id="beg0613002" n="0613002"/>邊<anchor xml:id="end0613002"/>處繫善心等無間耶？若最初修
-<lb n="0613c25" ed="T"/>加行無所有處繫善心現在前，一切識無<anchor xml:id="beg_2f" type="star"/>邊<anchor xml:id="end_2f"/>
+<lb n="0613c25" ed="T"/>加行無所有處繫善心現在前，一切識無<anchor xml:id="beg_38" type="star"/>邊<anchor xml:id="end_38"/>
 <lb n="0613c26" ed="T"/>處繫善心等無間。或最初無所有處繫善心
-<lb n="0613c27" ed="T"/>現在前非識無<anchor xml:id="beg_30" type="star"/>邊<anchor xml:id="end_30"/>處繫善心等無間，謂從
+<lb n="0613c27" ed="T"/>現在前非識無<anchor xml:id="beg_39" type="star"/>邊<anchor xml:id="end_39"/>處繫善心等無間，謂從
 <lb n="0613c28" ed="T"/>非想非非想處沒生無所有處，彼最初無所
 <lb n="0613c29" ed="T"/>有處繫善心現在前。</p>
 <pb n="0614a" ed="T" xml:id="T26.1539.0614a"/>
@@ -7701,6 +7713,7 @@ Added comment  for Emacs
 <app from="#beg0537008" to="#end0537008"><lem wit="#wit1"><g ref="#CB00178">㮈</g>落</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2"><g ref="#CB00178">㮈</g>洛</rdg></app>
 <app from="#beg0537009" to="#end0537009"><lem wit="#wit1"><g ref="#CB00178">㮈</g>落</lem><rdg resp="#resp1" wit="#wit2">捺歿</rdg></app>
 <app from="#beg0537010" to="#end0537010"><lem wit="#wit1">或</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">彼或</rdg></app>
+<app from="#beg_8" to="#end_8"><lem resp="#resp4" wit="#wit7 #wit8">人<note type="cf1">K25n0947_p0013a16</note></lem><rdg wit="#wit1">入</rdg></app>
 <app from="#beg0538001" to="#end0538001"><lem wit="#wit1">聽</lem><rdg resp="#resp1" wit="#wit2">應</rdg></app>
 <app from="#beg0539001" to="#end0539001"><lem wit="#wit1">異</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">果</rdg></app>
 <app from="#beg0540001" to="#end0540001"><lem wit="#wit1">若汝</lem><rdg resp="#resp1" wit="#wit2">汝若</rdg></app>
@@ -7720,27 +7733,29 @@ Added comment  for Emacs
 <app from="#beg0543004" to="#end0543004"><lem wit="#wit1"><title>識身足論</title></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0543005" to="#end0543005"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit2">之三</rdg></app>
 <app from="#beg0543006" to="#end0543006"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">柁</rdg></app>
-<app from="#beg_8" to="#end_8" corresp="#0543003"><lem wit="#wit1">詞</lem><rdg resp="#resp1" wit="#wit2">語</rdg></app>
+<app from="#beg_9" to="#end_9"><lem wit="#wit1">快</lem><rdg resp="#resp4" wit="#wit9 #wit7">快<note type="cf1">Q23_p0680b27</note></rdg><rdg resp="#resp4" wit="#wit8"><g ref="#CB34544">㤦</g><note type="cf1">K25n0947_p0021b17</note></rdg></app>
+<app from="#beg_a" to="#end_a" corresp="#0543003"><lem wit="#wit1">詞</lem><rdg resp="#resp1" wit="#wit2">語</rdg></app>
 <app from="#beg0543007" to="#end0543007"><lem wit="#wit1">具</lem><rdg resp="#resp1" wit="#wit2">足</rdg></app>
 <app from="#beg0543008" to="#end0543008"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
 <app from="#beg0544001" to="#end0544001"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit2">識</rdg></app>
 <app from="#beg0544002" to="#end0544002"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit2">與</rdg></app>
 <app from="#beg0544003" to="#end0544003"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit2">知</rdg></app>
-<app from="#beg_9" to="#end_9" corresp="#0543003"><lem wit="#wit1">詞</lem><rdg resp="#resp1" wit="#wit2">語</rdg></app>
+<app from="#beg_b" to="#end_b" corresp="#0543003"><lem wit="#wit1">詞</lem><rdg resp="#resp1" wit="#wit2">語</rdg></app>
 <app from="#beg0545001" to="#end0545001"><lem wit="#wit1">精</lem><rdg resp="#resp1" wit="#wit3 #wit4">情</rdg></app>
 <app from="#beg0545002" to="#end0545002"><lem wit="#wit1">曾</lem><rdg resp="#resp1" wit="#wit2">尊</rdg></app>
 <app from="#beg0545003" to="#end0545003"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">謂</rdg></app>
-<app from="#beg_a" to="#end_a" corresp="#0543004"><lem wit="#wit1"><title>識身足論</title></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_c" to="#end_c" corresp="#0543004"><lem wit="#wit1"><title>識身足論</title></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0545004" to="#end0545004"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit2">之四</rdg></app>
 <app from="#beg0545005" to="#end0545005"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">柁</rdg></app>
 <app from="#beg0545006" to="#end0545006"><lem wit="#wit1">觸</lem><rdg resp="#resp1" wit="#wit2">識</rdg></app>
-<app from="#beg_b" to="#end_b" corresp="#0545003"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">謂</rdg></app>
+<app from="#beg_d" to="#end_d" corresp="#0545003"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">謂</rdg></app>
 <app from="#beg0546001" to="#end0546001"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">想</rdg></app>
 <app from="#beg0546002" to="#end0546002"><lem wit="#wit1">思</lem><rdg resp="#resp1" wit="#wit5">想</rdg></app>
 <app from="#beg0546003" to="#end0546003"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit5">想</rdg></app>
 <app from="#beg0546004" to="#end0546004"><lem wit="#wit1">眼</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">諸法眼</rdg></app>
 <app from="#beg0546005" to="#end0546005"><lem wit="#wit1">識法</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">諸法</rdg></app>
-<choice cb:from="#beg_c" cb:to="#end_c"><corr>熱</corr><sic>熟</sic></choice>
+<app from="#beg_e" to="#end_e"><lem resp="#resp4" wit="#wit7 #wit8">即<note type="cf1">K25n0947_p0026b11</note></lem><rdg wit="#wit1">則</rdg></app>
+<choice cb:from="#beg_f" cb:to="#end_f"><corr>熱</corr><sic>熟</sic></choice>
 <app from="#beg0547001" to="#end0547001"><lem wit="#wit1">爾</lem><rdg resp="#resp1" wit="#wit2">爾<note place="inline">補特伽羅蘊竟</note></rdg></app>
 <app from="#beg0547002" to="#end0547002"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">柁</rdg></app>
 <app from="#beg0548001" to="#end0548001"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit2">謂</rdg></app>
@@ -7749,7 +7764,7 @@ Added comment  for Emacs
 <app from="#beg0551001" to="#end0551001"><lem wit="#wit1">斷</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">斷未斷</rdg></app>
 <app from="#beg0551002" to="#end0551002"><lem wit="#wit1">羅</lem><rdg resp="#resp1" wit="#wit3">離</rdg></app>
 <app from="#beg0551003" to="#end0551003"><lem wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit3">若</rdg></app>
-<app from="#beg_d" to="#end_d" corresp="#0551003"><lem wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit3">若</rdg></app>
+<app from="#beg_10" to="#end_10" corresp="#0551003"><lem wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit3">若</rdg></app>
 <app from="#beg0552001" to="#end0552001"><lem wit="#wit1">法。若</lem><rdg resp="#resp3" wit="#wit6">及非</rdg></app>
 <app from="#beg0553001" to="#end0553001"><lem wit="#wit1">繫</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">繫修所斷</rdg></app>
 <app from="#beg0553002" to="#end0553002"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit5">耶曰如是</rdg></app>
@@ -7757,51 +7772,53 @@ Added comment  for Emacs
 <app from="#beg0553004" to="#end0553004"><lem wit="#wit1">滅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">集滅</rdg></app>
 <app from="#beg0555001" to="#end0555001"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">未</rdg></app>
 <app from="#beg0555002" to="#end0555002"><lem wit="#wit1">或</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">曰</rdg></app>
+<app from="#beg_11" to="#end_11"><lem resp="#resp4" wit="#wit7 #wit8">此<note type="cf1">K25n0947_p0039b14</note></lem><rdg wit="#wit1">無</rdg></app>
 <app from="#beg0556001" to="#end0556001"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">謂</rdg></app>
 <app from="#beg0556002" to="#end0556002"><lem wit="#wit1">非</lem><rdg resp="#resp1" wit="#wit2">若</rdg></app>
 <app from="#beg0557001" to="#end0557001"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">於無</rdg></app>
 <app from="#beg0557002" to="#end0557002"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit2">如</rdg></app>
 <app from="#beg0557003" to="#end0557003"><lem wit="#wit1">滅</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">集</rdg></app>
 <app from="#beg0558001" to="#end0558001"><lem wit="#wit1">識</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">識癡相應不善眼識</rdg></app>
+<app from="#beg_12" to="#end_12"><lem wit="#wit1">三</lem><rdg resp="#resp4" wit="#wit9 #wit7">三<note type="cf1">Q23_p0694c28</note></rdg><rdg resp="#resp4" wit="#wit8">四<note type="cf1">K25n0947_p0043c04</note></rdg></app>
 <app from="#beg0559001" to="#end0559001"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit2">應<note place="inline">因緣蘊竟</note></rdg></app>
 <app from="#beg0559002" to="#end0559002"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">柁</rdg></app>
 <app from="#beg0559003" to="#end0559003"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
 <app from="#beg0559004" to="#end0559004"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit2 #wit5">惟</rdg></app>
-<app from="#beg_e" to="#end_e" corresp="#0559003"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
-<app from="#beg_f" to="#end_f" corresp="#0559003"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
-<app from="#beg_10" to="#end_10" corresp="#0559003"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
-<app from="#beg_11" to="#end_11" corresp="#0559003"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
+<app from="#beg_13" to="#end_13" corresp="#0559003"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
+<app from="#beg_14" to="#end_14" corresp="#0559003"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
+<app from="#beg_15" to="#end_15" corresp="#0559003"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
+<app from="#beg_16" to="#end_16" corresp="#0559003"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
 <app from="#beg0559005" to="#end0559005"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0560001" to="#end0560001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg0560002" to="#end0560002"><lem wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">空</rdg></app>
+<app from="#beg0560002" to="#end0560002"><lem resp="#resp4" wit="#wit7 #wit8">空<note type="cf1">K25n0947_p0047b02</note></lem><rdg wit="#wit1">苦</rdg><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">空</rdg></app>
 <app from="#beg0560003" to="#end0560003"><lem wit="#wit1">減</lem><rdg resp="#resp1" wit="#wit3 #wit4">滅</rdg></app>
 <app from="#beg0561001" to="#end0561001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0562001" to="#end0562001"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">於</rdg></app>
 <app from="#beg0562002" to="#end0562002"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2">苦</rdg></app>
-<app from="#beg_12" to="#end_12" corresp="#0562002"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2">苦</rdg></app>
-<app from="#beg_13" to="#end_13" corresp="#0562002"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2">苦</rdg></app>
+<app from="#beg_17" to="#end_17" corresp="#0562002"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2">苦</rdg></app>
+<app from="#beg_18" to="#end_18" corresp="#0562002"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2">苦</rdg></app>
 <app from="#beg0563001" to="#end0563001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0563002" to="#end0563002"><lem wit="#wit1">了</lem><rdg resp="#resp1" wit="#wit3">孑</rdg></app>
 <app from="#beg0563003" to="#end0563003"><lem wit="#wit1">理</lem><rdg resp="#resp1" wit="#wit3">是</rdg></app>
 <app from="#beg0564001" to="#end0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg_14" to="#end_14" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg_15" to="#end_15" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg_16" to="#end_16" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg_17" to="#end_17" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg_18" to="#end_18" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg_19" to="#end_19" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg_1a" to="#end_1a" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg_1b" to="#end_1b" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg_1c" to="#end_1c" corresp="#0564001"><lem wit="#wit1">若<lb n="0565a01" ed="T"/>苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg_1c" to="#end_1c" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg_1d" to="#end_1d" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg_1e" to="#end_1e" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg_1f" to="#end_1f" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg_20" to="#end_20" corresp="#0564001"><lem wit="#wit1">若苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg_21" to="#end_21" corresp="#0564001"><lem wit="#wit1">若<lb n="0565a01" ed="T"/>苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0565001" to="#end0565001"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2">苦</rdg></app>
 <app from="#beg0565002" to="#end0565002"><lem wit="#wit1">幾</lem><rdg resp="#resp1" wit="#wit2">已</rdg></app>
 <app from="#beg0565003" to="#end0565003"><lem wit="#wit1">所</lem><rdg resp="#resp1" wit="#wit2">有</rdg></app>
 <app from="#beg0565004" to="#end0565004"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
-<app from="#beg_1d" to="#end_1d" corresp="#0565004"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
-<app from="#beg_1e" to="#end_1e" corresp="#0565004"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
+<app from="#beg_22" to="#end_22" corresp="#0565004"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
+<app from="#beg_23" to="#end_23" corresp="#0565004"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
 <app from="#beg0566001" to="#end0566001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit2">界繫</rdg></app>
 <app from="#beg0566002" to="#end0566002"><lem wit="#wit1">善</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">繫</rdg></app>
-<app from="#beg0566003" to="#end0566003"><lem wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">若</rdg></app>
+<app from="#beg0566003" to="#end0566003"><lem resp="#resp4" wit="#wit7 #wit8">若<note type="cf1">K25n0947_p0055c17</note></lem><rdg wit="#wit1">苦</rdg><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">若</rdg></app>
 <app from="#beg0566004" to="#end0566004"><lem wit="#wit1">緣</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">斷</rdg></app>
 <app from="#beg0566005" to="#end0566005"><lem wit="#wit1">非</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">未斷非</rdg></app>
 <app from="#beg0566006" to="#end0566006"><lem wit="#wit1">未斷</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
@@ -7809,9 +7826,9 @@ Added comment  for Emacs
 <app from="#beg0570001" to="#end0570001"><lem wit="#wit1">苦類智<lb n="0570b13" ed="T"/>未生</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0570002" to="#end0570002"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">色界</rdg></app>
 <app from="#beg0570003" to="#end0570003"><lem wit="#wit1">未</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">已</rdg></app>
-<app from="#beg_1f" to="#end_1f" corresp="#0570002"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">色界</rdg></app>
-<app from="#beg_20" to="#end_20" corresp="#0569001"><lem wit="#wit1">類<lb n="0571a12" ed="T"/>智</lem><rdg resp="#resp1" wit="#wit2">智類</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_21" cb:to="#end_21"><corr>類</corr><sic>願</sic></choice>
+<app from="#beg_24" to="#end_24" corresp="#0570002"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">色界</rdg></app>
+<app from="#beg_25" to="#end_25" corresp="#0569001"><lem wit="#wit1">類<lb n="0571a12" ed="T"/>智</lem><rdg resp="#resp1" wit="#wit2">智類</rdg></app>
+<app from="#beg_26" to="#end_26"><lem resp="#resp4" wit="#wit7 #wit8">類<note type="cf1">K25n0947_p0063b07</note></lem><rdg wit="#wit1">願</rdg></app>
 <app from="#beg0571001" to="#end0571001"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0572001" to="#end0572001"><lem wit="#wit1">設</lem><rdg resp="#resp1" wit="#wit2">達</rdg></app>
 <app from="#beg0573001" to="#end0573001"><lem wit="#wit1">斷</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">斷者謂未離欲界貪滅智已生道智未生諸見滅所斷不善心緣非所斷若見圓滿世尊弟子未離欲界貪諸見所斷不善心緣非所斷已離欲界貪未離色界貪諸不善心緣非所斷已離色界貪未離無色界貪諸不善心緣非所斷已離無色界貪諸不善心緣非所斷是名體已斷不可分別此心所緣已斷未斷</rdg></app>
@@ -7819,109 +7836,113 @@ Added comment  for Emacs
 <app from="#beg0575001" to="#end0575001"><lem wit="#wit1">緣</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">緣欲界</rdg></app>
 <app from="#beg0575002" to="#end0575002"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">繫</rdg></app>
 <app from="#beg0575003" to="#end0575003"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">未</rdg></app>
+<app from="#beg_27" to="#end_27"><lem wit="#wit1">無</lem><rdg resp="#resp4" wit="#wit9 #wit7">無<note type="cf1">Q23_p0712c17</note></rdg><rdg resp="#resp4" wit="#wit8">有<note type="cf1">K25n0947_0072a12</note></rdg></app>
 <app from="#beg0578001" to="#end0578001"><lem wit="#wit1">眠</lem><rdg resp="#resp1" wit="#wit2">緣</rdg></app>
-<choice cb:from="#beg_22" cb:to="#end_22"><corr>能</corr><sic><space quantity="0"/></sic></choice>
+<choice cb:from="#beg_28" cb:to="#end_28"><corr>能</corr><sic><space quantity="0"/></sic></choice>
 <app from="#beg0579001" to="#end0579001"><lem wit="#wit1">或<lb n="0579a16" ed="T"/>非</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">非是</rdg></app>
 <app from="#beg0579002" to="#end0579002"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0580001" to="#end0580001"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2">苦</rdg></app>
 <app from="#beg0582001" to="#end0582001"><lem wit="#wit1">漏緣</lem><rdg resp="#resp1" wit="#wit2">緣漏</rdg></app>
+<app from="#beg_29" to="#end_29"><lem resp="#resp4" wit="#wit7 #wit8">隨<note type="cf1">K25n0947_p0080a22</note></lem><rdg wit="#wit1">斷</rdg></app>
 <app from="#beg0582002" to="#end0582002"><lem wit="#wit1">增</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">增<note place="inline">所緣緣蘊竟</note></rdg></app>
 <app from="#beg0582004" to="#end0582004"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit5">惟</rdg></app>
 <app from="#beg0582005" to="#end0582005"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">惟</rdg></app>
-<app from="#beg0582006" to="#end0582006"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit7">識</rdg></app>
-<app from="#beg0583001" to="#end0583001"><lem wit="#wit1">觸</lem><rdg resp="#resp1" wit="#wit7">蠲</rdg></app>
+<app from="#beg0582006" to="#end0582006"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit10">識</rdg></app>
+<app from="#beg0583001" to="#end0583001"><lem wit="#wit1">觸</lem><rdg resp="#resp1" wit="#wit10">蠲</rdg></app>
 <app from="#beg0583002" to="#end0583002"><lem wit="#wit1">滅</lem><rdg resp="#resp1" wit="#wit3 #wit4">成</rdg></app>
-<app from="#beg0584001" to="#end0584001"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit7">諸</rdg></app>
+<app from="#beg0584001" to="#end0584001"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit10">諸</rdg></app>
 <app from="#beg0584002" to="#end0584002"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit2">欲</rdg></app>
-<app from="#beg0584003" to="#end0584003"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit7">想</rdg></app>
-<app from="#beg0584004" to="#end0584004"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit7">記</rdg></app>
-<app from="#beg0585001" to="#end0585001"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0586001" to="#end0586001"><lem wit="#wit1">博</lem><rdg resp="#resp1" wit="#wit7">搏</rdg></app>
+<app from="#beg0584003" to="#end0584003"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit10">想</rdg></app>
+<app from="#beg0584004" to="#end0584004"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit10">記</rdg></app>
+<app from="#beg0585001" to="#end0585001"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit10"><space quantity="0"/></rdg></app>
+<app from="#beg0586001" to="#end0586001"><lem wit="#wit1">博</lem><rdg resp="#resp1" wit="#wit10">搏</rdg></app>
 <app from="#beg0586002" to="#end0586002"><lem wit="#wit1">墮</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">隨</rdg></app>
 <app from="#beg0586003" to="#end0586003"><lem wit="#wit1">害</lem><rdg resp="#resp1" wit="#wit5">言</rdg></app>
-<app from="#beg0586004" to="#end0586004"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit7">合</rdg></app>
-<app from="#beg0586005" to="#end0586005"><lem wit="#wit1">第</lem><rdg resp="#resp1" wit="#wit7">弟</rdg></app>
-<app from="#beg0587001" to="#end0587001"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit7">令</rdg></app>
+<app from="#beg0586004" to="#end0586004"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit10">合</rdg></app>
+<app from="#beg0586005" to="#end0586005"><lem wit="#wit1">第</lem><rdg resp="#resp1" wit="#wit10">弟</rdg></app>
+<app from="#beg0587001" to="#end0587001"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit10">令</rdg></app>
 <app from="#beg0587002" to="#end0587002"><lem wit="#wit1">壽</lem><rdg resp="#resp1" wit="#wit2">籌</rdg></app>
-<app from="#beg0587003" to="#end0587003"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit7">朋</rdg></app>
-<app from="#beg0587004" to="#end0587004"><lem wit="#wit1">瞋</lem><rdg resp="#resp1" wit="#wit7">顛</rdg></app>
-<app from="#beg0587005" to="#end0587005"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0587006" to="#end0587006"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit7">受</rdg></app>
-<app from="#beg0587007" to="#end0587007"><lem wit="#wit1">間</lem><rdg resp="#resp1" wit="#wit7">開</rdg></app>
-<app from="#beg0588001" to="#end0588001"><lem wit="#wit1">震</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit7">振</rdg></app>
-<app from="#beg0588002" to="#end0588002"><lem wit="#wit1">左</lem><rdg resp="#resp1" wit="#wit7">尤</rdg></app>
-<app from="#beg0588003" to="#end0588003"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit5 #wit7">諸</rdg></app>
-<app from="#beg0588004" to="#end0588004"><lem wit="#wit1">欲</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit7">色</rdg></app>
+<app from="#beg0587003" to="#end0587003"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit10">朋</rdg></app>
+<app from="#beg0587004" to="#end0587004"><lem wit="#wit1">瞋</lem><rdg resp="#resp1" wit="#wit10">顛</rdg></app>
+<app from="#beg0587005" to="#end0587005"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit10"><space quantity="0"/></rdg></app>
+<app from="#beg0587006" to="#end0587006"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit10">受</rdg></app>
+<app from="#beg0587007" to="#end0587007"><lem wit="#wit1">間</lem><rdg resp="#resp1" wit="#wit10">開</rdg></app>
+<app from="#beg0588001" to="#end0588001"><lem wit="#wit1">震</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit10">振</rdg></app>
+<app from="#beg0588002" to="#end0588002"><lem wit="#wit1">左</lem><rdg resp="#resp1" wit="#wit10">尤</rdg></app>
+<app from="#beg0588003" to="#end0588003"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit5 #wit10">諸</rdg></app>
+<app from="#beg0588004" to="#end0588004"><lem wit="#wit1">欲</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit10">色</rdg></app>
 <app from="#beg0588005" to="#end0588005"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit2">不</rdg></app>
 <app from="#beg0588006" to="#end0588006"><lem wit="#wit1">分</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg0589001" to="#end0589001"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit7">意</rdg></app>
+<app from="#beg0589001" to="#end0589001"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit10">意</rdg></app>
 <app from="#beg0589002" to="#end0589002"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit2">有</rdg></app>
 <app from="#beg0589003" to="#end0589003"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">界已斷已遍知香界亦爾耶曰如是如香界望味界</rdg></app>
-<app from="#beg0589004" to="#end0589004"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
+<app from="#beg0589004" to="#end0589004"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit10"><space quantity="0"/></rdg></app>
 <app from="#beg0590001" to="#end0590001"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">非今</rdg></app>
 <app from="#beg0590002" to="#end0590002"><lem wit="#wit1">非</lem><rdg resp="#resp1" wit="#wit5">非了別非</rdg></app>
 <app from="#beg0590003" to="#end0590003"><lem wit="#wit1">非當了別</lem><rdg resp="#resp1" wit="#wit5"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_23" cb:to="#end_23"><corr>得</corr><sic>德</sic></choice>
-<app from="#beg0591001" to="#end0591001"><lem wit="#wit1">別</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0591002" to="#end0591002"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit7">謂</rdg></app>
-<app from="#beg0591003" to="#end0591003"><lem wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit7">位</rdg></app>
+<choice cb:from="#beg_2a" cb:to="#end_2a"><corr>得</corr><sic>德</sic></choice>
+<app from="#beg0591001" to="#end0591001"><lem wit="#wit1">別</lem><rdg resp="#resp1" wit="#wit10"><space quantity="0"/></rdg></app>
+<app from="#beg0591002" to="#end0591002"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit10">謂</rdg></app>
+<app from="#beg0591003" to="#end0591003"><lem wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit10">位</rdg></app>
+<app from="#beg_2b" to="#end_2b"><lem resp="#resp4" wit="#wit7 #wit8">別，或已<note type="cf1">K25n0947_p0095b14</note></lem><rdg wit="#wit1">已別，或</rdg></app>
 <app from="#beg0592001" to="#end0592001"><lem wit="#wit1">了</lem><rdg resp="#resp1" wit="#wit2">子</rdg></app>
 <app from="#beg0592002" to="#end0592002"><lem wit="#wit1">去</lem><rdg resp="#resp1" wit="#wit2">未</rdg></app>
 <app from="#beg0592003" to="#end0592003"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit2">了</rdg></app>
-<app from="#beg0592004" to="#end0592004"><lem wit="#wit1">了</lem><rdg resp="#resp1" wit="#wit7">或</rdg></app>
-<app from="#beg0593001" to="#end0593001"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0593002" to="#end0593002"><lem wit="#wit1">當</lem><rdg resp="#resp1" wit="#wit7">常</rdg></app>
+<app from="#beg0592004" to="#end0592004"><lem wit="#wit1">了</lem><rdg resp="#resp1" wit="#wit10">或</rdg></app>
+<app from="#beg0593001" to="#end0593001"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit10"><space quantity="0"/></rdg></app>
+<app from="#beg0593002" to="#end0593002"><lem wit="#wit1">當</lem><rdg resp="#resp1" wit="#wit10">常</rdg></app>
 <app from="#beg0593003" to="#end0593003"><lem wit="#wit1">前</lem><rdg resp="#resp1" wit="#wit2">前<note place="inline">雜蘊竟</note></rdg></app>
 <app from="#beg0593004" to="#end0593004"><lem wit="#wit1">第</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0593005" to="#end0593005"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">柁</rdg></app>
 <app from="#beg0593006" to="#end0593006"><lem wit="#wit1">未</lem><rdg resp="#resp1" wit="#wit5">未已</rdg></app>
 <app from="#beg0594001" to="#end0594001"><lem wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit5">若</rdg></app>
-<app from="#beg0595001" to="#end0595001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0595002" to="#end0595002"><lem wit="#wit1">就</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg_24" to="#end_24" corresp="#0595001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
+<app from="#beg0595001" to="#end0595001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit10"><space quantity="0"/></rdg></app>
+<app from="#beg0595002" to="#end0595002"><lem wit="#wit1">就</lem><rdg resp="#resp1" wit="#wit10"><space quantity="0"/></rdg></app>
+<app from="#beg_2c" to="#end_2c" corresp="#0595001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit10"><space quantity="0"/></rdg></app>
 <app from="#beg0595003" to="#end0595003"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
-<app from="#beg_25" to="#end_25" corresp="#0595001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg_26" to="#end_26" corresp="#0595001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0596001" to="#end0596001"><lem wit="#wit1">位</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit7">異</rdg></app>
-<app from="#beg0596002" to="#end0596002"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit7"><space quantity="0"/></rdg></app>
+<app from="#beg_2d" to="#end_2d" corresp="#0595001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit10"><space quantity="0"/></rdg></app>
+<app from="#beg_2e" to="#end_2e" corresp="#0595001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit10"><space quantity="0"/></rdg></app>
+<app from="#beg0596001" to="#end0596001"><lem wit="#wit1">位</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit10">異</rdg></app>
+<app from="#beg0596002" to="#end0596002"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit10"><space quantity="0"/></rdg></app>
+<app from="#beg_2f" to="#end_2f"><lem resp="#resp4" wit="#wit7 #wit8">亦<note type="cf1">K25n0947_p0102b19</note></lem><rdg wit="#wit1"><space quantity="0"/></rdg></app>
 <app from="#beg0596003" to="#end0596003"><lem wit="#wit1">繫</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">界繫</rdg></app>
-<app from="#beg0597001" to="#end0597001"><lem wit="#wit1">善</lem><rdg resp="#resp1" wit="#wit7">菩</rdg></app>
-<choice cb:from="#beg_27" cb:to="#end_27"><corr>羅</corr><sic>螺</sic></choice>
+<app from="#beg0597001" to="#end0597001"><lem wit="#wit1">善</lem><rdg resp="#resp1" wit="#wit10">菩</rdg></app>
+<choice cb:from="#beg_30" cb:to="#end_30"><corr>羅</corr><sic>螺</sic></choice>
 <app from="#beg0597002" to="#end0597002"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2">有</rdg></app>
 <app from="#beg0598001" to="#end0598001"><lem wit="#wit1">無色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">無色界</rdg></app>
-<app from="#beg0599001" to="#end0599001"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit7">不</rdg></app>
-<app from="#beg0600001" to="#end0600001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit7">界繫</rdg></app>
-<app from="#beg0600002" to="#end0600002"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit7">諸</rdg></app>
-<app from="#beg0600003" to="#end0600003"><lem wit="#wit1">非</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0600004" to="#end0600004"><lem wit="#wit1">無色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit7">無色界</rdg></app>
-<app from="#beg_28" to="#end_28" corresp="#0600002"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit7">諸</rdg></app>
+<app from="#beg0599001" to="#end0599001"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit10">不</rdg></app>
+<app from="#beg0600001" to="#end0600001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit10">界繫</rdg></app>
+<app from="#beg0600002" to="#end0600002"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit10">諸</rdg></app>
+<app from="#beg0600003" to="#end0600003"><lem wit="#wit1">非</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit10"><space quantity="0"/></rdg></app>
+<app from="#beg0600004" to="#end0600004"><lem wit="#wit1">無色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit10">無色界</rdg></app>
+<app from="#beg_31" to="#end_31" corresp="#0600002"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit10">諸</rdg></app>
 <app from="#beg0601001" to="#end0601001"><lem wit="#wit1">彼</lem><rdg resp="#resp1" wit="#wit4 #wit2">欲</rdg></app>
-<app from="#beg0601002" to="#end0601002"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit7">有</rdg></app>
+<app from="#beg0601002" to="#end0601002"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit10">有</rdg></app>
 <app from="#beg0602001" to="#end0602001"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">界貪</rdg></app>
 <app from="#beg0602002" to="#end0602002"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">色界</rdg></app>
 <app from="#beg0604001" to="#end0604001"><lem wit="#wit1">無色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">無色界</rdg></app>
 <app from="#beg0605001" to="#end0605001"><lem wit="#wit1">非</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">亦</rdg></app>
-<app from="#beg0605002" to="#end0605002"><lem wit="#wit1">正</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit7">不</rdg></app>
-<app from="#beg0606001" to="#end0606001"><lem wit="#wit1">繫</lem><rdg resp="#resp1" wit="#wit7"><space quantity="0"/></rdg></app>
-<app from="#beg0606002" to="#end0606002"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit7">以</rdg></app>
-<app from="#beg_29" to="#end_29" corresp="#0606002"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit7">以</rdg></app>
-<app from="#beg0607001" to="#end0607001"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit7">無色</rdg></app>
-<app from="#beg_2a" to="#end_2a" corresp="#0604001"><lem wit="#wit1">無色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">無色界</rdg></app>
-<app from="#beg_2b" to="#end_2b" corresp="#0604001"><lem wit="#wit1">無色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">無色界</rdg></app>
+<app from="#beg0605002" to="#end0605002"><lem wit="#wit1">正</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit10">不</rdg></app>
+<app from="#beg0606001" to="#end0606001"><lem wit="#wit1">繫</lem><rdg resp="#resp1" wit="#wit10"><space quantity="0"/></rdg></app>
+<app from="#beg0606002" to="#end0606002"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit10">以</rdg></app>
+<app from="#beg_32" to="#end_32" corresp="#0606002"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5 #wit10">以</rdg></app>
+<app from="#beg0607001" to="#end0607001"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit10">無色</rdg></app>
+<app from="#beg_33" to="#end_33" corresp="#0604001"><lem wit="#wit1">無色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">無色界</rdg></app>
+<app from="#beg_34" to="#end_34" corresp="#0604001"><lem wit="#wit1">無色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">無色界</rdg></app>
 <app from="#beg0608001" to="#end0608001"><lem wit="#wit1">欲</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">欲界</rdg></app>
 <app from="#beg0608002" to="#end0608002"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit2">無</rdg></app>
 <app from="#beg0609001" to="#end0609001"><lem wit="#wit1">欲</lem><rdg resp="#resp1" wit="#wit2">界</rdg></app>
 <app from="#beg0610001" to="#end0610001"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">色界</rdg></app>
-<app from="#beg_2c" to="#end_2c" corresp="#0610001"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">色界</rdg></app>
-<app from="#beg_2d" to="#end_2d" corresp="#0610001"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">色界</rdg></app>
-<app from="#beg_2e" to="#end_2e" corresp="#0610001"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">色界</rdg></app>
+<app from="#beg_35" to="#end_35" corresp="#0610001"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">色界</rdg></app>
+<app from="#beg_36" to="#end_36" corresp="#0610001"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">色界</rdg></app>
+<app from="#beg_37" to="#end_37" corresp="#0610001"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">色界</rdg></app>
 <app from="#beg0611001" to="#end0611001"><lem wit="#wit1">入</lem><rdg resp="#resp1" wit="#wit5">行</rdg></app>
 <app from="#beg0611002" to="#end0611002"><lem wit="#wit1">設</lem><rdg resp="#resp1" wit="#wit2">若</rdg></app>
 <app from="#beg0612001" to="#end0612001"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0613001" to="#end0613001"><lem wit="#wit1">伽</lem><rdg resp="#resp1" wit="#wit2">羅</rdg></app>
 <app from="#beg0613002" to="#end0613002"><lem wit="#wit1">邊</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">徧</rdg></app>
-<app from="#beg_2f" to="#end_2f" corresp="#0613002"><lem wit="#wit1">邊</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">徧</rdg></app>
-<app from="#beg_30" to="#end_30" corresp="#0613002"><lem wit="#wit1">邊</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">徧</rdg></app>
+<app from="#beg_38" to="#end_38" corresp="#0613002"><lem wit="#wit1">邊</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">徧</rdg></app>
+<app from="#beg_39" to="#end_39" corresp="#0613002"><lem wit="#wit1">邊</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5">徧</rdg></app>
 <app from="#beg0614001" to="#end0614001"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0614002" to="#end0614002"><lem wit="#wit1">就</lem><rdg resp="#resp1" wit="#wit2">就<note place="inline">成就蘊竟</note></rdg></app>
 </p>
@@ -7968,12 +7989,12 @@ Added comment  for Emacs
 <note resp="#resp2" n="0559003" type="mod" target="#nkr_note_mod_0559003">唯＝惟【宋】【元】【明】【宮】＊</note>
 <note resp="#resp2" n="0559005" type="mod" target="#nkr_note_mod_0559005">〔如〕－【宋】【元】【明】【宮】</note>
 <note resp="#resp2" n="0560001" type="mod" target="#nkr_note_mod_0560001">〔若苦〕－【宋】【元】【明】【宮】</note>
-<note resp="#resp2" n="0560002" type="mod" target="#nkr_note_mod_0560002">苦＝空【宋】【元】【明】【宮】</note>
+<note resp="#resp2" n="0560002" type="mod" target="#nkr_note_mod_0560002">苦＝空【宋】【元】【明】【宮】【麗-CB】【CB】</note>
 <note resp="#resp2" n="0561001" type="mod" target="#nkr_note_mod_0561001">〔若苦〕－【宋】【元】【明】【宮】</note>
 <note resp="#resp2" n="0562001" type="mod" target="#nkr_note_mod_0562001">有＝於【宋】【元】【明】【宮】</note>
 <note resp="#resp2" n="0564001" type="mod" target="#nkr_note_mod_0564001">〔若苦〕－【宋】【元】【明】【宮】＊</note>
 <note resp="#resp2" n="0565004" type="mod" target="#nkr_note_mod_0565004">唯＝惟【宋】【元】【明】【宮】＊</note>
-<note resp="#resp2" n="0566003" type="mod" target="#nkr_note_mod_0566003">苦＝若【宋】【元】【明】【宮】</note>
+<note resp="#resp2" n="0566003" type="mod" target="#nkr_note_mod_0566003">苦＝若【宋】【元】【明】【宮】【麗-CB】【CB】</note>
 <note resp="#resp2" n="0566004" type="mod" target="#nkr_note_mod_0566004">緣＝斷【宋】【元】【明】【宮】</note>
 <note resp="#resp2" n="0566005" type="mod" target="#nkr_note_mod_0566005">（未斷）＋非【宋】【元】【明】【宮】</note>
 <note resp="#resp2" n="0566006" type="mod" target="#nkr_note_mod_0566006">〔未斷〕－【宋】【元】【明】【宮】</note>
