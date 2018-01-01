@@ -39,6 +39,7 @@
 		<witness xml:id="wit5">【宮】</witness>
 		<witness xml:id="wit6">【CBETA】</witness>
 		<witness xml:id="wit7">【麗】</witness>
+		<witness xml:id="wit8">【磧砂】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -87,6 +88,14 @@
 	</charProp>
 	<mapping type="unicode">U+277A3</mapping>
 	<mapping cb:dec="985523" type="PUA">U+F09B3</mapping>
+</char>
+<char xml:id="CB29251">
+	<charName>CBETA CHARACTER CB29251</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[社-土+猒]</value>
+	</charProp>
+	<mapping cb:dec="1012291" type="PUA">U+F7243</mapping>
 </char>
 </charDecl>
 </encodingDesc>
@@ -414,7 +423,7 @@ Added comment  for Emacs
 <lb n="0080b17" ed="T"/>除。火不能災、風不能中，國主王者不能加害。
 <lb n="0080b18" ed="T"/>聞如來名未曾生盲，目不痛瞎，不聾不瘂，聞
 <lb n="0080b19" ed="T"/>佛名故不僂不跛。諸龍、鬼神及阿須倫、餓鬼
-<lb n="0080b20" ed="T"/><anchor xml:id="nkr_note_orig_0080012" n="0080012"/><anchor xml:id="nkr_note_mod_0080012" n="0080012"/><anchor xml:id="beg0080012" n="0080012"/><g ref="#CB02483">𧞣</g><anchor xml:id="end0080012"/>鬼、人與非人不能犯觸，諸魅、暴鬼、神龍、地
+<lb n="0080b20" ed="T"/><anchor xml:id="nkr_note_orig_0080012" n="0080012"/><anchor xml:id="nkr_note_mod_0080012" n="0080012"/><anchor xml:id="beg0080012" n="0080012"/>魘<anchor xml:id="end0080012"/>鬼、人與非人不能犯觸，諸魅、暴鬼、神龍、地
 <lb n="0080b21" ed="T"/>祇莫不愛樂。假使執持諸佛名者，功德如是，
 <lb n="0080b22" ed="T"/>不可稱計。」</p><p xml:id="pT14p0080b2205" rend="inline">佛於是而作頌曰：</p>
 <lb n="0080b23" ed="T"/><lg xml:id="lgT14p0080b2301" rend="margin-left:1em;text-indent:-1em"><l>「目皆見諸佛，</l><l>咸能供養之，</l>
@@ -1037,7 +1046,7 @@ Added comment  for Emacs
 <app from="#beg0079007" to="#end0079007"><lem wit="#wit1">持</lem><rdg resp="#resp1" wit="#wit2 #wit5">持香</rdg><rdg resp="#resp1" wit="#wit3 #wit4">擣香</rdg></app>
 <app from="#beg0079008" to="#end0079008"><lem wit="#wit1">琦</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">奇</rdg></app>
 <app from="#beg_1" to="#end_1"><lem resp="#resp3" wit="#wit6 #wit7">鼓<note type="cf1">K12n0354_p0090c10</note></lem><rdg wit="#wit1">皷</rdg></app>
-<app from="#beg0079009" to="#end0079009"><lem wit="#wit1">掁</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><g ref="#CB01192">󰒨</g></rdg></app>
+<app from="#beg0079009" to="#end0079009"><lem wit="#wit1">掁</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><g ref="#CB01192">𭣝</g></rdg></app>
 <app from="#beg0079010" to="#end0079010"><lem wit="#wit1">殊</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">珍</rdg></app>
 <app from="#beg0079011" to="#end0079011"><lem wit="#wit1">飯</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">飲</rdg></app>
 <app from="#beg0079012" to="#end0079012"><lem wit="#wit1">士</lem><rdg resp="#resp1" wit="#wit2 #wit5"><space quantity="0"/></rdg></app>
@@ -1060,7 +1069,7 @@ Added comment  for Emacs
 <app from="#beg0080010" to="#end0080010"><lem wit="#wit1">原</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">源</rdg></app>
 <app from="#beg0080011" to="#end0080011"><lem wit="#wit1">靜</lem><rdg resp="#resp1" wit="#wit5">諍</rdg></app>
 <app from="#beg_3" to="#end_3"><lem resp="#resp3" wit="#wit6 #wit7">怵<note type="cf1">K12n0354_p0092b04</note><note type="cf2">T03n0189_p0626c12</note></lem><rdg wit="#wit1">述</rdg></app>
-<app from="#beg0080012" to="#end0080012"><lem wit="#wit1"><g ref="#CB02483">𧞣</g></lem><rdg resp="#resp1" wit="#wit2 #wit5">厭</rdg><rdg resp="#resp1" wit="#wit3 #wit4">魘</rdg></app>
+<app from="#beg0080012" to="#end0080012"><lem resp="#resp3" wit="#wit6 #wit8">魘<note type="cf1">Q11_p0768a19</note></lem><rdg wit="#wit1"><g ref="#CB02483">𧞣</g></rdg><rdg resp="#resp3" wit="#wit7"><g ref="#CB29251">󷉃</g><note type="cf1">K12n0354_p0092b09</note></rdg><rdg resp="#resp1" wit="#wit2 #wit5">厭</rdg><rdg resp="#resp1" wit="#wit3 #wit4">魘</rdg></app>
 <app from="#beg_4" to="#end_4"><lem resp="#resp3" wit="#wit6 #wit7">輒<note type="cf1">K12n0354_p0092b13</note></lem><rdg wit="#wit1">趣</rdg></app>
 <app from="#beg0080013" to="#end0080013"><lem wit="#wit1">呪</lem><rdg resp="#resp1" wit="#wit5">祝</rdg></app>
 <app from="#beg0080014" to="#end0080014"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">來</rdg></app>
@@ -1187,7 +1196,7 @@ Added comment  for Emacs
 <note n="0079006" resp="#resp2" type="mod" target="#nkr_note_mod_0079006">〔花〕－【宋】【元】【明】【宮】</note>
 <note n="0079007" resp="#resp2" type="mod" target="#nkr_note_mod_0079007">持＝持香【宋】【宮】，＝擣香【元】【明】</note>
 <note n="0079008" resp="#resp2" type="mod" target="#nkr_note_mod_0079008">琦＝奇【宋】【元】【明】【宮】</note>
-<note n="0079009" resp="#resp2" type="mod" target="#nkr_note_mod_0079009">掁＝<g ref="#CB01192">󰒨</g>【宋】【元】【明】【宮】</note>
+<note n="0079009" resp="#resp2" type="mod" target="#nkr_note_mod_0079009">掁＝<g ref="#CB01192">𭣝</g>【宋】【元】【明】【宮】</note>
 <note n="0079010" resp="#resp2" type="mod" target="#nkr_note_mod_0079010">殊＝珍【宋】【元】【明】【宮】</note>
 <note n="0079011" resp="#resp2" type="mod" target="#nkr_note_mod_0079011">飯＝飲【宋】【元】【明】【宮】</note>
 <note n="0079014" resp="#resp2" type="mod" target="#nkr_note_mod_0079014">德＝勳【宋】【元】【明】【宮】</note>
@@ -1201,7 +1210,7 @@ Added comment  for Emacs
 <note n="0080008" resp="#resp2" type="mod" target="#nkr_note_mod_0080008">篤＝得【宋】【元】【明】【宮】</note>
 <note n="0080009" resp="#resp2" type="mod" target="#nkr_note_mod_0080009">常＝當【宋】【元】【明】</note>
 <note n="0080010" resp="#resp2" type="mod" target="#nkr_note_mod_0080010">原＝源【宋】【元】【明】【宮】</note>
-<note n="0080012" resp="#resp2" type="mod" target="#nkr_note_mod_0080012"><g ref="#CB02483">𧞣</g>＝厭【宋】【宮】，＝魘【元】【明】</note>
+<note n="0080012" resp="#resp2" type="mod" target="#nkr_note_mod_0080012"><g ref="#CB02483">𧞣</g>＝厭【宋】【宮】，＝魘【元】【明】【磧砂-CB】【CB】，＝<g ref="#CB29251">󷉃</g>【麗-CB】</note>
 <note n="0080014" resp="#resp2" type="mod" target="#nkr_note_mod_0080014">末＝來【宋】【元】【明】【宮】</note>
 <note n="0080015" resp="#resp2" type="mod" target="#nkr_note_mod_0080015">誦＝頌【宋】【宮】，＝頃【元】，＝傾【明】</note>
 <note n="0080016" resp="#resp2" type="mod" target="#nkr_note_mod_0080016">永＝求【宋】【元】【明】【宮】</note>
@@ -1282,7 +1291,7 @@ Added comment  for Emacs
 <note n="0079006" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0079006">〔花〕－【三】【宮】</note>
 <note n="0079007" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0079007">持＝持香【宋】【宮】，擣香【元】【明】</note>
 <note n="0079008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0079008">琦＝奇【三】【宮】</note>
-<note n="0079009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0079009">掁＝<g ref="#CB01192">󰒨</g>【三】【宮】</note>
+<note n="0079009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0079009">掁＝<g ref="#CB01192">𭣝</g>【三】【宮】</note>
 <note n="0079010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0079010">殊＝珍【三】【宮】</note>
 <note n="0079011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0079011">飯＝飲【三】【宮】</note>
 <note n="0079012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0079012">〔士〕－【宋】【宮】</note>

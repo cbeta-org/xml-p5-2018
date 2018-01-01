@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.11 $<date>$Date: 2009/04/23 08:10:17 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,6 +34,7 @@
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
+		<witness xml:id="wit3">【CBETA】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -183,7 +185,7 @@ Added comment  for Emacs
 <lb n="0303a23" ed="T"/><cb:docNumber>No. 1774 [cf. Nos. 452, 454, 456]</cb:docNumber>
 <lb n="0303a24" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0303001" n="0303001"/>三彌勒經疏</cb:jhead></cb:juan>
 <lb n="0303a25" ed="T"/>
-<lb n="0303a26" ed="T"/><byline cb:type="Author">興撰</byline>
+<lb n="0303a26" ed="T"/><byline cb:type="author">興撰</byline>
 <lb n="0303a27" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">彌勒上生經料簡記</cb:mulu><head>彌勒上生經料簡記</head>
 <lb n="0303a28" ed="T"/><p xml:id="pT38p0303a2801">將釋此經。略以五門分別。一者述教興緣起。
 <lb n="0303a29" ed="T"/>二者廣<anchor xml:id="nkr_note_orig_0303002" n="0303002"/>辨□□□。□□□□□□。□□□□
@@ -1313,7 +1315,7 @@ Added comment  for Emacs
 <lb n="0315c13" ed="T"/>四制伏神通。謂一生菩薩所有神通。除佛所
 <lb n="0315c14" ed="T"/>餘得神通。能制伏故。十五施辨。謂於諸有情
 <lb n="0315c15" ed="T"/>能與辨才故。十六施念。謂諸有情於法失念
-<lb n="0315c16" ed="T"/>能與<anchor xml:id="nkr_note_orig_0315002" n="0315002"/><anchor xml:id="beg0315002" n="0315002"/>億<anchor xml:id="end0315002"/>念。十七施樂。謂說法聽者得身心輕
+<lb n="0315c16" ed="T"/>能與<anchor xml:id="nkr_note_orig_0315002" n="0315002"/><anchor xml:id="nkr_note_mod_0315002" n="0315002"/><anchor xml:id="beg0315002" n="0315002"/>憶<anchor xml:id="end0315002"/>念。十七施樂。謂說法聽者得身心輕
 <lb n="0315c17" ed="T"/>安樂故。十八放光。謂身放光無數界有情息
 <lb n="0315c18" ed="T"/>眾苦故。或有經云住天窓中。或有經云住菩
 <lb n="0315c19" ed="T"/>薩額。雖有二本。後為正。順經文故。謂辯菩薩
@@ -1555,7 +1557,7 @@ Added comment  for Emacs
 <lb n="0318b15" ed="T"/>億歲九十億歲。以漸減無量歲時方應有此
 <lb n="0318b16" ed="T"/>億歲等故。然智度論云。前九十劫中初劫一
 <lb n="0318b17" ed="T"/>佛出。謂毘婆尸<note place="inline">此云勝觀</note>。第三十一劫二佛出。一
-<lb n="0318b18" ed="T"/>名尸棄<note place="inline">此云火</note>二名鞞怒婆<g ref="#CB04557">󱇍</g><note place="inline">此云一切勝</note>第九十一劫
+<lb n="0318b18" ed="T"/>名尸棄<note place="inline">此云火</note>二名鞞怒婆<g ref="#CB04557">𬽵</g><note place="inline">此云一切勝</note>第九十一劫
 <lb n="0318b19" ed="T"/>初有四佛。一名迦羅鳩喰陀<note place="inline">此云冠頂</note>二名迦那含
 <lb n="0318b20" ed="T"/>牟尼<note place="inline">此云金仙人</note>三名迦葉四名釋迦。如是等諸
 <lb n="0318b21" ed="T"/>經論。皆據隨轉理門也。問云何知一成壞劫。
@@ -2385,7 +2387,7 @@ Added comment  for Emacs
 <app from="#beg0314001" to="#end0314001"><lem resp="#resp1" wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">往</rdg></app>
 <app from="#beg0314002" to="#end0314002"><lem resp="#resp1" wit="#wit1">意</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">音</rdg></app>
 <app from="#beg0315001" to="#end0315001"><lem resp="#resp1" wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">本</rdg></app>
-<app from="#beg0315002" to="#end0315002"><lem resp="#resp1" wit="#wit1">億</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">憶</rdg></app>
+<app from="#beg0315002" to="#end0315002"><lem resp="#resp3" wit="#wit3">憶<note type="cf1">X21n0388_p0818b09</note></lem><rdg wit="#wit1">億</rdg><rdg resp="#resp1" wit="#wit2" type="correctionRemark">憶</rdg></app>
 <app from="#beg0316001" to="#end0316001"><lem resp="#resp1" wit="#wit1">意</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">寬</rdg></app>
 <app from="#beg0316002" to="#end0316002"><lem resp="#resp1" wit="#wit1">咸</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">歲</rdg></app>
 <app from="#beg0317001" to="#end0317001"><lem resp="#resp1" wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">准</rdg></app>
@@ -2418,6 +2420,7 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
+<note n="0315002" resp="#resp2" type="mod" target="#nkr_note_mod_0315002">億＝憶ヵ【原】，＝憶【CB】</note>
 <note n="0318003" resp="#resp2" type="mod" target="#nkr_note_mod_0318003"><!--CBETA todo type: ＊-->尚＝上【原】＊</note>
 </p>
 </cb:div>

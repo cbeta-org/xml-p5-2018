@@ -13,7 +13,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:01:47 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -35,6 +36,8 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【CBETA】</witness>
+		<witness xml:id="wit6">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -216,7 +219,7 @@ Added comment  for Emacs
 <lb n="0565a23" ed="T"/><p xml:id="pT21p0565a2301">爾時世尊以神通力。令虛空中有六如來。忽
 <lb n="0565a24" ed="T"/>然而現各各說呪。一名毘婆尸佛。二名尸棄
 <lb n="0565a25" ed="T"/>佛。三名毘舍浮佛。四名拘婁孫佛。五名拘
-<lb n="0565a26" ed="T"/>那舍牟尼佛。六名迦葉佛。時毘婆尸佛住在
+<lb n="0565a26" ed="T"/>那<anchor xml:id="beg_2" type="cb-app"/>含<anchor xml:id="end_2"/>牟尼佛。六名迦葉佛。時毘婆尸佛住在
 <lb n="0565a27" ed="T"/>虛空。為護一切諸眾生故。除滅一切惡邪鬼
 <lb n="0565a28" ed="T"/>故。而說呪曰。</p>
 <lb n="0565a29" ed="T"/><p cb:type="dharani" xml:id="pT21p0565a2901">南無佛陀耶<note place="inline">一</note>南無達摩耶<note place="inline">二</note>南無僧伽耶<note place="inline">三</note>
@@ -240,8 +243,8 @@ Added comment  for Emacs
 <lb n="0565b17" ed="T"/>病皆能破之。爾時尸棄佛住在虛空。為護一
 <lb n="0565b18" ed="T"/>切眾生。除一切病斷一切鬼邪故。說是神呪。</p>
 <lb n="0565b19" ed="T"/><p cb:type="dharani" xml:id="pT21p0565b1901">南無佛陀耶<note place="inline">一</note>南無達摩耶<note place="inline">二</note>南無僧伽耶<note place="inline">三</note>
-<lb n="0565b20" ed="T"/>南無尸棄泥多他伽多耶<note place="inline">四</note>唵<note place="inline">五</note><anchor xml:id="nkr_note_orig_0565008" n="0565008"/><anchor xml:id="nkr_note_mod_0565008" n="0565008"/><anchor xml:id="beg0565008" n="0565008"/>鉢<anchor xml:id="end0565008"/>柘<anchor xml:id="beg_2" type="star"/>鉢<anchor xml:id="end_2"/>柘
-<lb n="0565b21" ed="T"/><note place="inline">六</note>波柘耶<note place="inline">七</note>薩婆<anchor xml:id="nkr_note_orig_0565009" n="0565009"/><anchor xml:id="nkr_note_mod_0565009" n="0565009"/><anchor xml:id="beg0565009" n="0565009"/>菩<anchor xml:id="end0565009"/>多男<note place="inline">八</note>闡大邏耶<note place="inline">九</note><anchor xml:id="beg_3" type="star"/>鉢<anchor xml:id="end_3"/>邏
+<lb n="0565b20" ed="T"/>南無尸棄泥多他伽多耶<note place="inline">四</note>唵<note place="inline">五</note><anchor xml:id="nkr_note_orig_0565008" n="0565008"/><anchor xml:id="nkr_note_mod_0565008" n="0565008"/><anchor xml:id="beg0565008" n="0565008"/>鉢<anchor xml:id="end0565008"/>柘<anchor xml:id="beg_3" type="star"/>鉢<anchor xml:id="end_3"/>柘
+<lb n="0565b21" ed="T"/><note place="inline">六</note>波柘耶<note place="inline">七</note>薩婆<anchor xml:id="nkr_note_orig_0565009" n="0565009"/><anchor xml:id="nkr_note_mod_0565009" n="0565009"/><anchor xml:id="beg0565009" n="0565009"/>菩<anchor xml:id="end0565009"/>多男<note place="inline">八</note>闡大邏耶<note place="inline">九</note><anchor xml:id="beg_4" type="star"/>鉢<anchor xml:id="end_4"/>邏
 <lb n="0565b22" ed="T"/>毘甜<note place="inline">十</note><anchor xml:id="nkr_note_orig_0565010" n="0565010"/><anchor xml:id="nkr_note_mod_0565010" n="0565010"/><anchor xml:id="beg0565010" n="0565010"/>薩<anchor xml:id="end0565010"/>婆<anchor xml:id="nkr_note_orig_0565011" n="0565011"/><anchor xml:id="nkr_note_mod_0565011" n="0565011"/><anchor xml:id="beg0565011" n="0565011"/>呵<anchor xml:id="end0565011"/></p>
 <lb n="0565b23" ed="T"/><p xml:id="pT21p0565b2301">爾時尸棄如來說是呪已。告虛空藏菩薩言。
 <lb n="0565b24" ed="T"/>善男子是陀羅尼。無量百千億那由他諸佛
@@ -338,7 +341,7 @@ Added comment  for Emacs
 <lb n="0566b25" ed="T"/>薩囉<note place="inline">九</note>賜囉波耶<note place="inline">十</note>達摩達摩達摩達摩<note place="inline">十一</note>度
 <lb n="0566b26" ed="T"/>無度無度摩耶<note place="inline">十二</note>那莫迦那無那頤<note place="inline">十三</note>多他
 <lb n="0566b27" ed="T"/>伽多耶<note place="inline">十四</note>阿囉漢坻<note place="inline">十五</note>三藐迦三佛陀耶<note place="inline">十
-<lb n="0566b28" ed="T"/>六</note>悉淀妬漫多囉<anchor xml:id="beg_4" type="star"/>鉢<anchor xml:id="end_4"/>大<note place="inline">十七</note>蘇婆呵<note place="inline">十八</note></p>
+<lb n="0566b28" ed="T"/>六</note>悉淀妬漫多囉<anchor xml:id="beg_5" type="star"/>鉢<anchor xml:id="end_5"/>大<note place="inline">十七</note>蘇婆呵<note place="inline">十八</note></p>
 <lb n="0566b29" ed="T"/><p xml:id="pT21p0566b2901">爾時拘那含牟尼佛說是呪已。告虛空藏菩
 <pb n="0566c" xml:id="T21.1334.0566c" ed="T"/>
 <lb n="0566c01" ed="T"/>薩言。善男子是陀羅尼。若有善男子善女人。
@@ -365,10 +368,10 @@ Added comment  for Emacs
 <lb n="0566c22" ed="T"/><p xml:id="pT21p0566c2201">爾時迦葉佛住在虛空為護一切無量眾生除
 <lb n="0566c23" ed="T"/>一切病斷一切惡諸邪魅故說是神呪。</p>
 <lb n="0566c24" ed="T"/><p cb:type="dharani" xml:id="pT21p0566c2401">南無佛陀耶<note place="inline">一</note>南無達摩耶<note place="inline">二</note>南無僧伽耶<note place="inline">三</note>
-<lb n="0566c25" ed="T"/>南無迦葉波多<anchor xml:id="nkr_note_orig_0566016" n="0566016"/><anchor xml:id="nkr_note_mod_0566016" n="0566016"/><anchor xml:id="beg0566016" n="0566016"/>他<anchor xml:id="end0566016"/>伽多<anchor xml:id="beg_5" type="star"/>耶<anchor xml:id="end_5"/><note place="inline">四</note>唵<note place="inline">五</note>呵囉呵囉
+<lb n="0566c25" ed="T"/>南無迦葉波多<anchor xml:id="nkr_note_orig_0566016" n="0566016"/><anchor xml:id="nkr_note_mod_0566016" n="0566016"/><anchor xml:id="beg0566016" n="0566016"/>他<anchor xml:id="end0566016"/>伽多<anchor xml:id="beg_6" type="star"/>耶<anchor xml:id="end_6"/><note place="inline">四</note>唵<note place="inline">五</note>呵囉呵囉
 <lb n="0566c26" ed="T"/>呵囉呵囉<note place="inline">六</note>呵呵呵<note place="inline">七</note>南無迦葉波耶<note place="inline">八</note>阿囉
 <lb n="0566c27" ed="T"/>漢坻<note place="inline">九</note>三藐三佛陀耶<note place="inline">十</note>悉著呵妬<note place="inline">十一</note>摩多囉
-<lb n="0566c28" ed="T"/><anchor xml:id="beg_6" type="star"/>鉢<anchor xml:id="end_6"/>陀<note place="inline">十二</note>蘇婆呵<note place="inline">十三</note></p>
+<lb n="0566c28" ed="T"/><anchor xml:id="beg_7" type="star"/>鉢<anchor xml:id="end_7"/>陀<note place="inline">十二</note>蘇婆呵<note place="inline">十三</note></p>
 <lb n="0566c29" ed="T"/><p xml:id="pT21p0566c2901">爾時迦葉佛說是呪已。告虛空藏菩薩言。善
 <pb n="0567a" xml:id="T21.1334.0567a" ed="T"/>
 <lb n="0567a01" ed="T"/>男子是陀羅尼。三十三恒河沙等諸佛所說。
@@ -377,7 +380,7 @@ Added comment  for Emacs
 <lb n="0567a04" ed="T"/>佛。離諸業障。唯除宿世決定報耳。於一切事
 <lb n="0567a05" ed="T"/>隨意所欲。若有<anchor xml:id="nkr_note_orig_0567001" n="0567001"/><anchor xml:id="nkr_note_mod_0567001" n="0567001"/><anchor xml:id="beg0567001" n="0567001"/>癩<anchor xml:id="end0567001"/>病及白癩等。於佛像前牛
 <lb n="0567a06" ed="T"/>糞泥地。燒好妙香。取供養佛所有萎華。呪
-<lb n="0567a07" ed="T"/><anchor xml:id="beg_7" type="star"/>一<anchor xml:id="end_7"/>千八遍。擣末水和佛前服之即得除愈。若
+<lb n="0567a07" ed="T"/><anchor xml:id="beg_8" type="star"/>一<anchor xml:id="end_8"/>千八遍。擣末水和佛前服之即得除愈。若
 <lb n="0567a08" ed="T"/>有長病及諸疫疾治法亦然。若病頭痛亦用
 <lb n="0567a09" ed="T"/>華末塗其額上。女人難產用此華末。和油煎
 <lb n="0567a10" ed="T"/>之塗其女根。有如是等隨其事用無不蒙益。
@@ -397,14 +400,14 @@ Added comment  for Emacs
 <lb n="0567a24" ed="T"/><p cb:type="dharani" xml:id="pT21p0567a2401">南無佛陀耶<note place="inline">一</note>南無達摩耶<note place="inline">二</note>南無僧伽耶<note place="inline">三</note>
 <lb n="0567a25" ed="T"/>南無貰迦牟尼夷<note place="inline">四</note>多他伽多耶<note place="inline">五</note>阿囉漢坻
 <lb n="0567a26" ed="T"/><note place="inline">六</note>三藐三佛陀耶<note place="inline">七</note>多地他懼迷懼迷<note place="inline">八</note>摩呵
-<lb n="0567a27" ed="T"/>懼迷<note place="inline">九</note>多<anchor xml:id="nkr_note_orig_0567002" n="0567002"/><anchor xml:id="nkr_note_mod_0567002" n="0567002"/><anchor xml:id="beg0567002" n="0567002"/>梨<anchor xml:id="end0567002"/>多<anchor xml:id="beg_8" type="star"/>梨<anchor xml:id="end_8"/><note place="inline">十</note>摩訶多<anchor xml:id="beg_9" type="star"/>梨<anchor xml:id="end_9"/><note place="inline">十一</note>柘<anchor xml:id="beg_a" type="star"/>梨<anchor xml:id="end_a"/>柘
-<lb n="0567a28" ed="T"/><anchor xml:id="beg_b" type="star"/>梨<anchor xml:id="end_b"/><note place="inline">十二</note>摩呵柘<anchor xml:id="beg_c" type="star"/>梨<anchor xml:id="end_c"/><note place="inline">十三</note>大<anchor xml:id="nkr_note_orig_0567003" n="0567003"/><anchor xml:id="nkr_note_mod_0567003" n="0567003"/><anchor xml:id="beg0567003" n="0567003"/><g ref="#CB00074">𠼝</g><anchor xml:id="end0567003"/>大<anchor xml:id="beg_d" type="star"/><g ref="#CB00074">𠼝</g><anchor xml:id="end_d"/><note place="inline">十四</note>摩呵
-<lb n="0567a29" ed="T"/>大<anchor xml:id="beg_e" type="star"/>梨<anchor xml:id="end_e"/><note place="inline">十五</note>帝<anchor xml:id="nkr_note_orig_0567004" n="0567004"/><anchor xml:id="nkr_note_mod_0567004" n="0567004"/><anchor xml:id="beg0567004" n="0567004"/><g ref="#CB00074">𠼝</g><anchor xml:id="end0567004"/>帝<anchor xml:id="beg_f" type="star"/><g ref="#CB00074">𠼝</g><anchor xml:id="end_f"/><note place="inline">十六</note>摩呵帝<anchor xml:id="nkr_note_orig_0567005" n="0567005"/><anchor xml:id="nkr_note_mod_0567005" n="0567005"/><anchor xml:id="beg0567005" n="0567005"/>梨<anchor xml:id="end0567005"/><note place="inline">十七</note>呵
+<lb n="0567a27" ed="T"/>懼迷<note place="inline">九</note>多<anchor xml:id="nkr_note_orig_0567002" n="0567002"/><anchor xml:id="nkr_note_mod_0567002" n="0567002"/><anchor xml:id="beg0567002" n="0567002"/>梨<anchor xml:id="end0567002"/>多<anchor xml:id="beg_9" type="star"/>梨<anchor xml:id="end_9"/><note place="inline">十</note>摩訶多<anchor xml:id="beg_a" type="star"/>梨<anchor xml:id="end_a"/><note place="inline">十一</note>柘<anchor xml:id="beg_b" type="star"/>梨<anchor xml:id="end_b"/>柘
+<lb n="0567a28" ed="T"/><anchor xml:id="beg_c" type="star"/>梨<anchor xml:id="end_c"/><note place="inline">十二</note>摩呵柘<anchor xml:id="beg_d" type="star"/>梨<anchor xml:id="end_d"/><note place="inline">十三</note>大<anchor xml:id="nkr_note_orig_0567003" n="0567003"/><anchor xml:id="nkr_note_mod_0567003" n="0567003"/><anchor xml:id="beg0567003" n="0567003"/><g ref="#CB00074">𠼝</g><anchor xml:id="end0567003"/>大<anchor xml:id="beg_e" type="star"/><g ref="#CB00074">𠼝</g><anchor xml:id="end_e"/><note place="inline">十四</note>摩呵
+<lb n="0567a29" ed="T"/>大<anchor xml:id="beg_f" type="star"/>梨<anchor xml:id="end_f"/><note place="inline">十五</note>帝<anchor xml:id="nkr_note_orig_0567004" n="0567004"/><anchor xml:id="nkr_note_mod_0567004" n="0567004"/><anchor xml:id="beg0567004" n="0567004"/><g ref="#CB00074">𠼝</g><anchor xml:id="end0567004"/>帝<anchor xml:id="beg_10" type="star"/><g ref="#CB00074">𠼝</g><anchor xml:id="end_10"/><note place="inline">十六</note>摩呵帝<anchor xml:id="nkr_note_orig_0567005" n="0567005"/><anchor xml:id="nkr_note_mod_0567005" n="0567005"/><anchor xml:id="beg0567005" n="0567005"/>梨<anchor xml:id="end0567005"/><note place="inline">十七</note>呵
 <pb n="0567b" xml:id="T21.1334.0567b" ed="T"/>
 <lb n="0567b01" ed="T"/>呵翅隷翅隷<note place="inline">十八</note>摩呵翅隷<note place="inline">十九</note>諸嚧諸嚧<note place="inline">二十</note>
 <lb n="0567b02" ed="T"/>摩呵諸嚧<note place="inline">二十一</note>覓隷覓隷<note place="inline">二十二</note>摩呵覓隷<note place="inline">二十三</note>帝
 <lb n="0567b03" ed="T"/>隷帝隷<note place="inline">二十四</note>摩呵帝隷<note place="inline">二十五</note>度迷度迷<note place="inline">二十六</note>摩呵
-<lb n="0567b04" ed="T"/>度迷<note place="inline">二十七</note>柘<anchor xml:id="beg_10" type="star"/>梨<anchor xml:id="end_10"/>柘<anchor xml:id="beg_11" type="star"/>梨<anchor xml:id="end_11"/><note place="inline">二十八</note>摩呵柘<anchor xml:id="beg_12" type="star"/>梨<anchor xml:id="end_12"/><note place="inline">二十九</note>詰
+<lb n="0567b04" ed="T"/>度迷<note place="inline">二十七</note>柘<anchor xml:id="beg_11" type="star"/>梨<anchor xml:id="end_11"/>柘<anchor xml:id="beg_12" type="star"/>梨<anchor xml:id="end_12"/><note place="inline">二十八</note>摩呵柘<anchor xml:id="beg_13" type="star"/>梨<anchor xml:id="end_13"/><note place="inline">二十九</note>詰
 <lb n="0567b05" ed="T"/>唎詰唎<note place="inline">三十</note>摩呵詰唎<note place="inline">三十一</note>折隷折隷<note place="inline">三十二</note>摩呵
 <lb n="0567b06" ed="T"/>折隷<note place="inline">三十三</note>蘇婆呵<note place="inline">三十四</note></p>
 <lb n="0567b07" ed="T"/><p xml:id="pT21p0567b0701">爾時釋迦如來說是呪已。告虛空藏菩薩言。
@@ -419,12 +422,12 @@ Added comment  for Emacs
 <lb n="0567b16" ed="T"/>如是故說此神呪。</p>
 <lb n="0567b17" ed="T"/><p cb:type="dharani" xml:id="pT21p0567b1701">阿他佉羅<anchor xml:id="nkr_note_orig_0567006" n="0567006"/><anchor xml:id="nkr_note_mod_0567006" n="0567006"/><anchor xml:id="beg0567006" n="0567006"/>利<anchor xml:id="end0567006"/><note place="inline">一</note>迦伽囉<note place="inline">二</note>菩提薩埵<note place="inline">三</note>摩呵薩
 <lb n="0567b18" ed="T"/>埵<note place="inline">四</note>婆伽婆<anchor xml:id="nkr_note_orig_0567007" n="0567007"/><anchor xml:id="nkr_note_mod_0567007" n="0567007"/><anchor xml:id="beg0567007" n="0567007"/>梨<anchor xml:id="end0567007"/>多<note place="inline">五</note>迷多大符柘多<note place="inline">六</note>阿呵摩
-<lb n="0567b19" ed="T"/><g ref="#CB04280">󱂸</g><note place="inline">七</note>婆伽婆<note place="inline">八</note>喻婆煩塞<note place="inline">九</note>薩鞞衫<anchor xml:id="beg_13" type="star"/>鉢<anchor xml:id="end_13"/>唎波簸
+<lb n="0567b19" ed="T"/><g ref="#CB04280">󱂸</g><note place="inline">七</note>婆伽婆<note place="inline">八</note>喻婆煩塞<note place="inline">九</note>薩鞞衫<anchor xml:id="beg_14" type="star"/>鉢<anchor xml:id="end_14"/>唎波簸
 <lb n="0567b20" ed="T"/><note place="inline">十</note>遲耶南<note place="inline">十一</note>尼婆囉膩<note place="inline">十二</note>薩婆浮休多<note place="inline">十三</note>
 <lb n="0567b21" ed="T"/>尼婆囉膩<note place="inline">十四</note>薩婆嚧伽<note place="inline">十五</note>尼婆囉膩<note place="inline">十六</note>哆
 <lb n="0567b22" ed="T"/>地夜他<note place="inline">十七</note>至詈至詈<note place="inline">十八</note>摩訶至詈<note place="inline">十九</note>妬漏
 <lb n="0567b23" ed="T"/>妬漏<note place="inline">二十</note>摩訶妬漏<note place="inline">二十一</note>夕和隷夕和隷<note place="inline">二十二</note>摩
-<lb n="0567b24" ed="T"/>訶夕和隷<note place="inline">二十三</note><g ref="#CB04302">󱃎</g><note place="inline">馨翅反</note>詈<g ref="#CB04302">󱃎</g>詈<note place="inline">二十四</note>摩訶<g ref="#CB04302">󱃎</g>詈<note place="inline">二十
+<lb n="0567b24" ed="T"/>訶夕和隷<note place="inline">二十三</note><g ref="#CB04302">𭈇</g><note place="inline">馨翅反</note>詈<g ref="#CB04302">𭈇</g>詈<note place="inline">二十四</note>摩訶<g ref="#CB04302">𭈇</g>詈<note place="inline">二十
 <lb n="0567b25" ed="T"/>五</note>蘇婆呵<note place="inline">二十六</note></p>
 <lb n="0567b26" ed="T"/><p xml:id="pT21p0567b2601">爾時虛空藏菩薩摩訶薩。說是呪已白佛言。
 <lb n="0567b27" ed="T"/>世尊如是神呪。無量神力不可思議。若有善
@@ -445,7 +448,7 @@ Added comment  for Emacs
 <lb n="0567c14" ed="T"/>蟲風齲者。取蘇摩那木枝呪一百八遍以口
 <lb n="0567c15" ed="T"/>嚼之。并揩牙齒即便除愈。小兒患者當結白
 <lb n="0567c16" ed="T"/>縷。以為呪索令其帶行。若患頭者或用刀子。
-<lb n="0567c17" ed="T"/>或用於手呪百八遍即得除愈。若被<anchor xml:id="beg_14" type="star"/><g ref="#CB01679">󰚏</g><anchor xml:id="end_14"/>魅當
+<lb n="0567c17" ed="T"/>或用於手呪百八遍即得除愈。若被<anchor xml:id="beg_15" type="star"/><g ref="#CB01679">󰚏</g><anchor xml:id="end_15"/>魅當
 <lb n="0567c18" ed="T"/>呪刀子以用解之。若斷<anchor xml:id="nkr_note_orig_0567012" n="0567012"/><anchor xml:id="nkr_note_mod_0567012" n="0567012"/><anchor xml:id="beg0567012" n="0567012"/>惡風雹雨<anchor xml:id="end0567012"/>。呪石榴
 <lb n="0567c19" ed="T"/>枝以用擬之。斷惡毒藥呪水用之。諸如是等
 <lb n="0567c20" ed="T"/>一切事中隨意所用。於一切處在佛像前泥
@@ -460,15 +463,16 @@ Added comment  for Emacs
 <p>
 <app from="#beg0565002" to="#end0565002"><lem wit="#wit1">隋</lem><rdg resp="#resp1" wit="#wit2">隋天竺</rdg><rdg resp="#resp1" wit="#wit3 #wit4">隋北天竺</rdg></app>
 <choice cb:from="#beg_1" cb:to="#end_1"><corr>嗚</corr><sic>鳴</sic></choice>
+<app from="#beg_2" to="#end_2"><lem resp="#resp2" wit="#wit5 #wit6">含<note type="cf1">K12n0338_p0032b04</note></lem><rdg wit="#wit1">舍</rdg></app>
 <app from="#beg0565003" to="#end0565003"><lem wit="#wit1">摩</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">摩<note place="inline">九</note></rdg></app>
 <app from="#beg0565004" to="#end0565004"><lem wit="#wit1">訶</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">訶<note place="inline">十</note></rdg></app>
 <app from="#beg0565005" to="#end0565005"><lem wit="#wit1">懷</lem><rdg resp="#resp1" wit="#wit3 #wit4">茴</rdg></app>
 <app from="#beg0565006" to="#end0565006"><lem wit="#wit1">東</lem><rdg resp="#resp1" wit="#wit3 #wit4">麥</rdg></app>
 <app from="#beg0565007" to="#end0565007"><lem wit="#wit1">東</lem><rdg resp="#resp1" wit="#wit4">冬</rdg></app>
-<app from="#beg0565008" to="#end0565008"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01452">󰖬</g></rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0565008"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01452">󰖬</g></rdg></app>
+<app from="#beg0565008" to="#end0565008"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01452">𭽽</g></rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0565008"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01452">𭽽</g></rdg></app>
 <app from="#beg0565009" to="#end0565009"><lem wit="#wit1">菩</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">薩</rdg></app>
-<app from="#beg_3" to="#end_3" corresp="#0565008"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01452">󰖬</g></rdg></app>
+<app from="#beg_4" to="#end_4" corresp="#0565008"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01452">𭽽</g></rdg></app>
 <app from="#beg0565010" to="#end0565010"><lem wit="#wit1">薩</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">蘇</rdg></app>
 <app from="#beg0565011" to="#end0565011"><lem wit="#wit1">呵</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">呵<note place="inline">十一</note></rdg></app>
 <app from="#beg0565012" to="#end0565012"><lem wit="#wit1"><g ref="#CB01679">󰚏</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">厭</rdg></app>
@@ -487,77 +491,77 @@ Added comment  for Emacs
 <app from="#beg0566010" to="#end0566010"><lem wit="#wit1"><note place="inline">脾咩反</note>邪</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">耶十三</rdg></app>
 <app from="#beg0566011" to="#end0566011"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">四</rdg></app>
 <app from="#beg0566012" to="#end0566012"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">知</rdg></app>
-<app from="#beg_4" to="#end_4" corresp="#0565008"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01452">󰖬</g></rdg></app>
+<app from="#beg_5" to="#end_5" corresp="#0565008"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01452">𭽽</g></rdg></app>
 <app from="#beg0566013" to="#end0566013"><lem wit="#wit1">食飲</lem><rdg resp="#resp1" wit="#wit4">飲食</rdg></app>
 <app from="#beg0566014" to="#end0566014"><lem wit="#wit1">萎</lem><rdg resp="#resp1" wit="#wit4">荽</rdg></app>
 <app from="#beg0566015" to="#end0566015"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0566016" to="#end0566016"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
-<app from="#beg_5" to="#end_5" corresp="#0566007"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">那</rdg></app>
-<app from="#beg_6" to="#end_6" corresp="#0565008"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01452">󰖬</g></rdg></app>
+<app from="#beg_6" to="#end_6" corresp="#0566007"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">那</rdg></app>
+<app from="#beg_7" to="#end_7" corresp="#0565008"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01452">𭽽</g></rdg></app>
 <app from="#beg0567001" to="#end0567001"><lem wit="#wit1">癩</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">癲</rdg></app>
-<app from="#beg_7" to="#end_7" corresp="#0566015"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
+<app from="#beg_8" to="#end_8" corresp="#0566015"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0567002" to="#end0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
-<app from="#beg_8" to="#end_8" corresp="#0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
 <app from="#beg_9" to="#end_9" corresp="#0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
 <app from="#beg_a" to="#end_a" corresp="#0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
 <app from="#beg_b" to="#end_b" corresp="#0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
 <app from="#beg_c" to="#end_c" corresp="#0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
+<app from="#beg_d" to="#end_d" corresp="#0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
 <app from="#beg0567003" to="#end0567003"><lem wit="#wit1"><g ref="#CB00074">𠼝</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">唎</rdg></app>
-<app from="#beg_d" to="#end_d" corresp="#0567003"><lem wit="#wit1"><g ref="#CB00074">𠼝</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">唎</rdg></app>
-<app from="#beg_e" to="#end_e" corresp="#0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
+<app from="#beg_e" to="#end_e" corresp="#0567003"><lem wit="#wit1"><g ref="#CB00074">𠼝</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">唎</rdg></app>
+<app from="#beg_f" to="#end_f" corresp="#0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
 <app from="#beg0567004" to="#end0567004"><lem wit="#wit1"><g ref="#CB00074">𠼝</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">唎</rdg></app>
-<app from="#beg_f" to="#end_f" corresp="#0567004"><lem wit="#wit1"><g ref="#CB00074">𠼝</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">唎</rdg></app>
+<app from="#beg_10" to="#end_10" corresp="#0567004"><lem wit="#wit1"><g ref="#CB00074">𠼝</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">唎</rdg></app>
 <app from="#beg0567005" to="#end0567005"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">唎</rdg></app>
-<app from="#beg_10" to="#end_10" corresp="#0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
 <app from="#beg_11" to="#end_11" corresp="#0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
 <app from="#beg_12" to="#end_12" corresp="#0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
+<app from="#beg_13" to="#end_13" corresp="#0567002"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">犁</rdg></app>
 <app from="#beg0567006" to="#end0567006"><lem wit="#wit1">利</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">唎</rdg></app>
 <app from="#beg0567007" to="#end0567007"><lem wit="#wit1">梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">槃</rdg></app>
-<app from="#beg_13" to="#end_13" corresp="#0565008"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01452">󰖬</g></rdg></app>
+<app from="#beg_14" to="#end_14" corresp="#0565008"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01452">𭽽</g></rdg></app>
 <app from="#beg0567008" to="#end0567008"><lem wit="#wit1">綖</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">線</rdg></app>
 <app from="#beg0567009" to="#end0567009"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">呪一</rdg></app>
 <app from="#beg0567010" to="#end0567010"><lem wit="#wit1">彼</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">破</rdg></app>
 <app from="#beg0567011" to="#end0567011"><lem wit="#wit1">索</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><g ref="#CB01857">𢱢</g></rdg></app>
-<app from="#beg_14" to="#end_14" corresp="#0565012"><lem wit="#wit1"><g ref="#CB01679">󰚏</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">厭</rdg></app>
+<app from="#beg_15" to="#end_15" corresp="#0565012"><lem wit="#wit1"><g ref="#CB01679">󰚏</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">厭</rdg></app>
 <app from="#beg0567012" to="#end0567012"><lem wit="#wit1">惡風雹雨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">雷雹</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0565003" resp="#resp2" type="mod" target="#nkr_note_mod_0565003">摩＋（九）夾註【宋】【元】【明】</note>
-<note n="0565004" resp="#resp2" type="mod" target="#nkr_note_mod_0565004">訶＋（十）夾註【宋】【元】【明】</note>
-<note n="0565008" resp="#resp2" type="mod" target="#nkr_note_mod_0565008">鉢＝<g ref="#CB01452">󰖬</g>【宋】＊【元】＊【明】＊</note>
-<note n="0565009" resp="#resp2" type="mod" target="#nkr_note_mod_0565009">菩＝薩【宋】【元】【明】</note>
-<note n="0565010" resp="#resp2" type="mod" target="#nkr_note_mod_0565010">薩＝蘇【宋】【元】【明】</note>
-<note n="0565011" resp="#resp2" type="mod" target="#nkr_note_mod_0565011">呵＋（十一）夾註【宋】【元】【明】</note>
-<note n="0565012" resp="#resp2" type="mod" target="#nkr_note_mod_0565012"><g ref="#CB01679">󰚏</g>＝厭【宋】＊【元】＊【明】＊</note>
-<note n="0565014" resp="#resp2" type="mod" target="#nkr_note_mod_0565014">羅＝囉呵【宋】【元】【明】</note>
-<note n="0565015" resp="#resp2" type="mod" target="#nkr_note_mod_0565015">唯＝惟【宋】【元】【明】</note>
-<note n="0566002" resp="#resp2" type="mod" target="#nkr_note_mod_0566002">懷＝槐【宋】【元】【明】</note>
-<note n="0566003" resp="#resp2" type="mod" target="#nkr_note_mod_0566003">末香＝米【宋】【元】【明】</note>
-<note n="0566005" resp="#resp2" type="mod" target="#nkr_note_mod_0566005">酥＝藥【宋】【元】【明】</note>
-<note n="0566006" resp="#resp2" type="mod" target="#nkr_note_mod_0566006">枚＝枝【宋】【元】【明】</note>
-<note n="0566007" resp="#resp2" type="mod" target="#nkr_note_mod_0566007">耶＝那【宋】＊【元】＊【明】＊</note>
-<note n="0566008" resp="#resp2" type="mod" target="#nkr_note_mod_0566008">迦＋（吒）【宋】【元】【明】</note>
-<note n="0566009" resp="#resp2" type="mod" target="#nkr_note_mod_0566009">菩提毘＝佛陀婆【宋】【元】【明】</note>
-<note n="0566010" resp="#resp2" type="mod" target="#nkr_note_mod_0566010">脾咩反邪＝耶十三【宋】【元】【明】</note>
-<note n="0566011" resp="#resp2" type="mod" target="#nkr_note_mod_0566011">三＝四【宋】【元】【明】</note>
-<note n="0566012" resp="#resp2" type="mod" target="#nkr_note_mod_0566012">如＝知【宋】【元】【明】</note>
-<note n="0566015" resp="#resp2" type="mod" target="#nkr_note_mod_0566015">〔一〕－【宋】＊【元】＊【明】＊</note>
-<note n="0566016" resp="#resp2" type="mod" target="#nkr_note_mod_0566016">〔他〕－【宋】【元】【明】</note>
-<note n="0567001" resp="#resp2" type="mod" target="#nkr_note_mod_0567001">癩＝癲【宋】【元】【明】</note>
-<note n="0567002" resp="#resp2" type="mod" target="#nkr_note_mod_0567002">梨＝犁【宋】＊【元】＊【明】＊</note>
-<note n="0567003" resp="#resp2" type="mod" target="#nkr_note_mod_0567003"><g ref="#CB00074">𠼝</g>＝唎【宋】＊【元】＊【明】＊</note>
-<note n="0567004" resp="#resp2" type="mod" target="#nkr_note_mod_0567004"><g ref="#CB00074">𠼝</g>＝唎【宋】＊【元】＊【明】＊</note>
-<note n="0567005" resp="#resp2" type="mod" target="#nkr_note_mod_0567005">梨＝唎【宋】【元】【明】</note>
-<note n="0567006" resp="#resp2" type="mod" target="#nkr_note_mod_0567006">利＝唎【宋】【元】【明】</note>
-<note n="0567007" resp="#resp2" type="mod" target="#nkr_note_mod_0567007">梨＝槃【宋】【元】【明】</note>
-<note n="0567008" resp="#resp2" type="mod" target="#nkr_note_mod_0567008">綖＝線【宋】【元】【明】</note>
-<note n="0567009" resp="#resp2" type="mod" target="#nkr_note_mod_0567009">（呪）＋一【宋】【元】【明】</note>
-<note n="0567010" resp="#resp2" type="mod" target="#nkr_note_mod_0567010">彼＝破【宋】【元】【明】</note>
-<note n="0567011" resp="#resp2" type="mod" target="#nkr_note_mod_0567011">索＝<g ref="#CB01857">𢱢</g>【宋】【元】【明】</note>
-<note n="0567012" resp="#resp2" type="mod" target="#nkr_note_mod_0567012">惡風雹雨＝雷雹【宋】【元】【明】</note>
+<note n="0565003" resp="#resp3" type="mod" target="#nkr_note_mod_0565003">摩＋（九）夾註【宋】【元】【明】</note>
+<note n="0565004" resp="#resp3" type="mod" target="#nkr_note_mod_0565004">訶＋（十）夾註【宋】【元】【明】</note>
+<note n="0565008" resp="#resp3" type="mod" target="#nkr_note_mod_0565008">鉢＝<g ref="#CB01452">𭽽</g>【宋】＊【元】＊【明】＊</note>
+<note n="0565009" resp="#resp3" type="mod" target="#nkr_note_mod_0565009">菩＝薩【宋】【元】【明】</note>
+<note n="0565010" resp="#resp3" type="mod" target="#nkr_note_mod_0565010">薩＝蘇【宋】【元】【明】</note>
+<note n="0565011" resp="#resp3" type="mod" target="#nkr_note_mod_0565011">呵＋（十一）夾註【宋】【元】【明】</note>
+<note n="0565012" resp="#resp3" type="mod" target="#nkr_note_mod_0565012"><g ref="#CB01679">󰚏</g>＝厭【宋】＊【元】＊【明】＊</note>
+<note n="0565014" resp="#resp3" type="mod" target="#nkr_note_mod_0565014">羅＝囉呵【宋】【元】【明】</note>
+<note n="0565015" resp="#resp3" type="mod" target="#nkr_note_mod_0565015">唯＝惟【宋】【元】【明】</note>
+<note n="0566002" resp="#resp3" type="mod" target="#nkr_note_mod_0566002">懷＝槐【宋】【元】【明】</note>
+<note n="0566003" resp="#resp3" type="mod" target="#nkr_note_mod_0566003">末香＝米【宋】【元】【明】</note>
+<note n="0566005" resp="#resp3" type="mod" target="#nkr_note_mod_0566005">酥＝藥【宋】【元】【明】</note>
+<note n="0566006" resp="#resp3" type="mod" target="#nkr_note_mod_0566006">枚＝枝【宋】【元】【明】</note>
+<note n="0566007" resp="#resp3" type="mod" target="#nkr_note_mod_0566007">耶＝那【宋】＊【元】＊【明】＊</note>
+<note n="0566008" resp="#resp3" type="mod" target="#nkr_note_mod_0566008">迦＋（吒）【宋】【元】【明】</note>
+<note n="0566009" resp="#resp3" type="mod" target="#nkr_note_mod_0566009">菩提毘＝佛陀婆【宋】【元】【明】</note>
+<note n="0566010" resp="#resp3" type="mod" target="#nkr_note_mod_0566010">脾咩反邪＝耶十三【宋】【元】【明】</note>
+<note n="0566011" resp="#resp3" type="mod" target="#nkr_note_mod_0566011">三＝四【宋】【元】【明】</note>
+<note n="0566012" resp="#resp3" type="mod" target="#nkr_note_mod_0566012">如＝知【宋】【元】【明】</note>
+<note n="0566015" resp="#resp3" type="mod" target="#nkr_note_mod_0566015">〔一〕－【宋】＊【元】＊【明】＊</note>
+<note n="0566016" resp="#resp3" type="mod" target="#nkr_note_mod_0566016">〔他〕－【宋】【元】【明】</note>
+<note n="0567001" resp="#resp3" type="mod" target="#nkr_note_mod_0567001">癩＝癲【宋】【元】【明】</note>
+<note n="0567002" resp="#resp3" type="mod" target="#nkr_note_mod_0567002">梨＝犁【宋】＊【元】＊【明】＊</note>
+<note n="0567003" resp="#resp3" type="mod" target="#nkr_note_mod_0567003"><g ref="#CB00074">𠼝</g>＝唎【宋】＊【元】＊【明】＊</note>
+<note n="0567004" resp="#resp3" type="mod" target="#nkr_note_mod_0567004"><g ref="#CB00074">𠼝</g>＝唎【宋】＊【元】＊【明】＊</note>
+<note n="0567005" resp="#resp3" type="mod" target="#nkr_note_mod_0567005">梨＝唎【宋】【元】【明】</note>
+<note n="0567006" resp="#resp3" type="mod" target="#nkr_note_mod_0567006">利＝唎【宋】【元】【明】</note>
+<note n="0567007" resp="#resp3" type="mod" target="#nkr_note_mod_0567007">梨＝槃【宋】【元】【明】</note>
+<note n="0567008" resp="#resp3" type="mod" target="#nkr_note_mod_0567008">綖＝線【宋】【元】【明】</note>
+<note n="0567009" resp="#resp3" type="mod" target="#nkr_note_mod_0567009">（呪）＋一【宋】【元】【明】</note>
+<note n="0567010" resp="#resp3" type="mod" target="#nkr_note_mod_0567010">彼＝破【宋】【元】【明】</note>
+<note n="0567011" resp="#resp3" type="mod" target="#nkr_note_mod_0567011">索＝<g ref="#CB01857">𢱢</g>【宋】【元】【明】</note>
+<note n="0567012" resp="#resp3" type="mod" target="#nkr_note_mod_0567012">惡風雹雨＝雷雹【宋】【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -570,7 +574,7 @@ Added comment  for Emacs
 <note n="0565005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0565005">懷＝茴【元】【明】</note>
 <note n="0565006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0565006">東＝麥【元】【明】</note>
 <note n="0565007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0565007">東＝冬【明】</note>
-<note n="0565008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0565008">鉢＝<g ref="#CB01452">󰖬</g>【三】＊</note>
+<note n="0565008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0565008">鉢＝<g ref="#CB01452">𭽽</g>【三】＊</note>
 <note n="0565009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0565009">菩＝薩【三】</note>
 <note n="0565010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0565010">薩＝蘇【三】</note>
 <note n="0565011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0565011">呵＋（十一）夾註【三】</note>

@@ -13,8 +13,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.22 $<date>$Date: 2012/02/23 01:58:40 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
 		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.csy</name></respStmt>
 	</editionStmt>
@@ -119,19 +119,6 @@
 	</charProp>
 	<mapping type="unicode">U+44D7</mapping>
 	<mapping cb:dec="984510" type="PUA">U+F05BE</mapping>
-</char>
-<char xml:id="CB01475">
-	<charName>CBETA CHARACTER CB01475</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[石*慈]</value>
-	</charProp>
-	<charProp>
-		<localName>normalized form</localName>
-		<value>磁</value>
-	</charProp>
-	<mapping type="normal_unicode">U+7920</mapping>
-	<mapping cb:dec="984515" type="PUA">U+F05C3</mapping>
 </char>
 <char xml:id="CB04564">
 	<charName>CBETA CHARACTER CB04564</charName>
@@ -309,7 +296,7 @@ Added comment  for Emacs
 <lb n="0562c16" ed="T"/>
 <lb n="0562c17" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第一<note place="inline">小卷初</note></cb:jhead></cb:juan>
 <lb n="0562c18" ed="T"/>
-<lb n="0562c19" ed="T"/><byline cb:type="Author">天台<anchor xml:id="nkr_note_orig_0562004" n="0562004"/><anchor xml:id="beg0562004" n="0562004"/>沙門湛然略<anchor xml:id="end0562004"/></byline>
+<lb n="0562c19" ed="T"/><byline cb:type="author">天台<anchor xml:id="nkr_note_orig_0562004" n="0562004"/><anchor xml:id="beg0562004" n="0562004"/>沙門湛然略<anchor xml:id="end0562004"/></byline>
 <lb n="0562c20" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">1 佛國品(一-二)</cb:mulu><head>釋佛國品之初</head>
 <lb n="0562c21" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">1 維摩經略疏卷第一</cb:mulu><p xml:id="pT38p0562c2101">次明入文大為五意。一明經度不盡。二略分
 <lb n="0562c22" ed="T"/>文。三辨佛國義。四釋品。五正入文。初意者前
@@ -1039,7 +1026,7 @@ Added comment  for Emacs
 <lb n="0570c26" ed="T"/>真解脫。今釋迦居不思議法界大道即是多
 <lb n="0570c27" ed="T"/>所含容故名好道。垂迹顯本類前可知。言好
 <lb n="0570c28" ed="T"/>平道者思議之道作意而修不名好道。不思
-<lb n="0570c29" ed="T"/>議道自行真修任運理顯化他。如<g ref="#CB01475">󰗃</g>石吸鐵
+<lb n="0570c29" ed="T"/>議道自行真修任運理顯化他。如礠石吸鐵
 <pb n="0571a" xml:id="T38.1778.0571a" ed="T"/>
 <lb n="0571a01" ed="T"/>無緣無念此是性好之道也。由本垂迹故名
 <lb n="0571a02" ed="T"/>好道。因迹顯本故居人間好道之國。說於心
@@ -1083,7 +1070,7 @@ Added comment  for Emacs
 <lb n="0571b10" ed="T"/>故華嚴說菩薩有十種園即是道品園也。若
 <lb n="0571b11" ed="T"/>約觀心解難分別者。如大經明具有四句。若
 <lb n="0571b12" ed="T"/>修三觀觀不思議難分別理。亦有四種一自
-<lb n="0571b13" ed="T"/>有觀心都無所以威儀麁穬。如菴羅菓內外
+<lb n="0571b13" ed="T"/>有觀心都無所以威儀麁<anchor xml:id="beg_5" type="cb-app"/>獷<anchor xml:id="end_5"/>。如菴羅菓內外
 <lb n="0571b14" ed="T"/>俱生。二自有威儀齊整似如柔和。內觀之心
 <lb n="0571b15" ed="T"/>不證定慧。如菴羅菓外熟內生。三自有威儀
 <lb n="0571b16" ed="T"/>不足可觀而觀行淳熟入諸法門。如菴羅菓
@@ -1915,7 +1902,7 @@ Added comment  for Emacs
 <milestone n="2" unit="juan"/>
 <lb n="0580c02" ed="T"/><cb:juan n="002" fun="open"><cb:mulu n="2" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第二</cb:jhead></cb:juan>
 <lb n="0580c03" ed="T"/>
-<lb n="0580c04" ed="T"/><byline cb:type="Author">天台沙門湛然略</byline>
+<lb n="0580c04" ed="T"/><byline cb:type="author">天台沙門湛然略</byline>
 <lb n="0580c05" ed="T"/><cb:div type="pin"><head>佛國品之二</head>
 <lb n="0580c06" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">5 維摩經略疏卷第五</cb:mulu><p xml:id="pT38p0580c0601">復有萬梵下三辨雜眾證成不謬。此中具有大
 <lb n="0580c07" ed="T"/>小凡聖故名為雜。此有權實。實隨業生。若法
@@ -2583,7 +2570,7 @@ Added comment  for Emacs
 <lb n="0588a09" ed="T"/>眾生下次三行舉三種二諦結歎<anchor xml:id="nkr_note_orig_0588001" n="0588001"/><anchor xml:id="beg0588001" n="0588001"/>三<anchor xml:id="end0588001"/>密文為
 <lb n="0588a10" ed="T"/>三。初一行是隨情二諦。何者俗諦無量心亦
 <lb n="0588a11" ed="T"/>無量。或是求真或欲樂俗。情有去取故言去
-<lb n="0588a12" ed="T"/>來。去取無量佛亦隨<anchor xml:id="beg_5" type="star"/>起<anchor xml:id="end_5"/>說無量二諦。即是隨
+<lb n="0588a12" ed="T"/>來。去取無量佛亦隨<anchor xml:id="beg_6" type="star"/>起<anchor xml:id="end_6"/>說無量二諦。即是隨
 <lb n="0588a13" ed="T"/>情。</p><p xml:id="pT38p0588a1302" rend="inline">不著世間下次一行是約隨情智二諦。
 <lb n="0588a14" ed="T"/>隨情無染隨智空寂達諸法相下次一行是歎
 <lb n="0588a15" ed="T"/>隨智二諦。智心所照皆入一相而無所礙。如
@@ -3052,7 +3039,7 @@ Added comment  for Emacs
 <lb n="0593a28" ed="T"/>無量心。三藏生滅法緣四無量心。通教無生
 <lb n="0593a29" ed="T"/>法緣。別教界外藏識。恒沙佛法法緣。圓教中
 <pb n="0593b" xml:id="T38.1778.0593b" ed="T"/>
-<lb n="0593b01" ed="T"/>道佛性無緣之法緣。如<g ref="#CB01475">󰗃</g>石吸鐵即無作也。
+<lb n="0593b01" ed="T"/>道佛性無緣之法緣。如礠石吸鐵即無作也。
 <lb n="0593b02" ed="T"/>後成佛時五種慈悲喜捨眾生來生其國。權
 <lb n="0593b03" ed="T"/>實及諸義並類直心。</p><p xml:id="pT38p0593b0309" rend="inline">四攝至其國。此四攝
 <lb n="0593b04" ed="T"/>法。至於迴向並非凡小所行。但有四教菩薩
@@ -3336,7 +3323,7 @@ Added comment  for Emacs
 <lb n="0596b11" ed="T"/>
 <lb n="0596b12" ed="T"/><cb:juan n="003" fun="open"><cb:mulu n="3" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第三<note place="inline">初小卷九</note></cb:jhead></cb:juan>
 <lb n="0596b13" ed="T"/>
-<lb n="0596b14" ed="T"/><byline cb:type="Author">天台沙門湛然略</byline>
+<lb n="0596b14" ed="T"/><byline cb:type="author">天台沙門湛然略</byline>
 <lb n="0596b15" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">2 方便品(三)</cb:mulu><head>方便品之初</head><cb:div type="other"><cb:mulu level="2" type="其他">9 維摩經略疏卷第九</cb:mulu>
 <lb n="0596b16" ed="T"/><p xml:id="pT38p0596b1601">此品次佛國來者。即是為破有為緣集顯不
 <lb n="0596b17" ed="T"/>思議法身扶成如來淨國之教。大聖意多今
@@ -3755,9 +3742,9 @@ Added comment  for Emacs
 <lb n="0601a10" ed="T"/>種淨土也。非是捨道謬致參掌。</p><p xml:id="pT38p0601a1013" rend="inline">入講論處
 <lb n="0601a11" ed="T"/>導以大乘迹。入凡小所應行處方便為說四
 <lb n="0601a12" ed="T"/>教大乘引入四土。</p><p xml:id="pT38p0601a1208" rend="inline">入諸學堂誘開<anchor xml:id="nkr_note_orig_0601001" n="0601001"/><anchor xml:id="beg0601001" n="0601001"/>瞳<anchor xml:id="end0601001"/><anchor xml:id="nkr_note_orig_0601002" n="0601002"/><anchor xml:id="beg0601002" n="0601002"/>矇<anchor xml:id="end0601002"/>迹。
-<lb n="0601a13" ed="T"/>入學堂誘開<anchor xml:id="beg_6" type="star"/>瞳<anchor xml:id="end_6"/>矇。幼小曰<anchor xml:id="beg_7" type="star"/>瞳<anchor xml:id="end_7"/>情昧曰<anchor xml:id="beg_8" type="star"/>矇<anchor xml:id="end_8"/>。四
+<lb n="0601a13" ed="T"/>入學堂誘開<anchor xml:id="beg_7" type="star"/>瞳<anchor xml:id="end_7"/>矇。幼小曰<anchor xml:id="beg_8" type="star"/>瞳<anchor xml:id="end_8"/>情昧曰<anchor xml:id="beg_9" type="star"/>矇<anchor xml:id="end_9"/>。四
 <lb n="0601a14" ed="T"/>種善根微小為無明惑障。出世解未開謂之
-<lb n="0601a15" ed="T"/><anchor xml:id="beg_9" type="star"/>瞳<anchor xml:id="end_9"/><anchor xml:id="beg_a" type="star"/>矇<anchor xml:id="end_a"/>。四教引接破其惑障。開四善根增長
+<lb n="0601a15" ed="T"/><anchor xml:id="beg_a" type="star"/>瞳<anchor xml:id="end_a"/><anchor xml:id="beg_b" type="star"/>矇<anchor xml:id="end_b"/>。四教引接破其惑障。開四善根增長
 <lb n="0601a16" ed="T"/>成就來生四土。</p><p xml:id="pT38p0601a1607" rend="inline">入諸婬舍示欲之過迹。入
 <lb n="0601a17" ed="T"/>婬舍為說九孔常流污穢不淨令知欲過。欲
 <lb n="0601a18" ed="T"/>心若息四善根發。若貪染四法亦名為婬。知
@@ -4275,7 +4262,7 @@ Added comment  for Emacs
 <lb n="0606c20" ed="T"/>俱盡名解脫身。了了知見正習已盡戒定慧
 <lb n="0606c21" ed="T"/>滿。不受後有名解脫知見身。通教五分戒如
 <lb n="0606c22" ed="T"/>前說。罪不罪不可得故名為戒身。定如前說。
-<lb n="0606c23" ed="T"/>不亂不<anchor xml:id="beg_b" type="cb-app"/>味<anchor xml:id="end_b"/>名為定身。觀無生四諦從八人見
+<lb n="0606c23" ed="T"/>不亂不<anchor xml:id="beg_c" type="cb-app"/>味<anchor xml:id="end_c"/>名為定身。觀無生四諦從八人見
 <lb n="0606c24" ed="T"/>真。乃至佛地見真。圓極名慧身。從初見地解
 <lb n="0606c25" ed="T"/>脫見惑轉入上地。乃至坐道場時一念相應
 <lb n="0606c26" ed="T"/>慧習氣都盡。住有餘涅槃名解脫身。了了不
@@ -4374,7 +4361,7 @@ Added comment  for Emacs
 <milestone n="4" unit="juan"/>
 <lb n="0608a02" ed="T"/><cb:juan n="004" fun="open"><cb:mulu n="4" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第四<note place="inline">小卷十一</note></cb:jhead></cb:juan>
 <lb n="0608a03" ed="T"/>
-<lb n="0608a04" ed="T"/><byline cb:type="Author">天台沙門湛然略</byline>
+<lb n="0608a04" ed="T"/><byline cb:type="author">天台沙門湛然略</byline>
 <lb n="0608a05" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">3 弟子品(四-五)</cb:mulu><head>弟子品初</head><cb:div type="other"><cb:mulu level="2" type="其他">11 維摩經略疏卷第十一</cb:mulu>
 <lb n="0608a06" ed="T"/><p xml:id="pT38p0608a0601">此品次方便品來者。為破無為緣集成淨佛
 <lb n="0608a07" ed="T"/>國之教。已如前說其意乃多非凡所測。今亦
@@ -5774,7 +5761,7 @@ Added comment  for Emacs
 <lb n="0623b19" ed="T"/>
 <lb n="0623b20" ed="T"/><cb:juan n="005" fun="open"><cb:mulu n="5" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第五<note place="inline">小卷十<anchor xml:id="nkr_note_orig_0623001" n="0623001"/><anchor xml:id="beg0623001" n="0623001"/>四<anchor xml:id="end0623001"/></note></cb:jhead></cb:juan>
 <lb n="0623b21" ed="T"/>
-<lb n="0623b22" ed="T"/><byline cb:type="Author">天台沙門湛然略</byline>
+<lb n="0623b22" ed="T"/><byline cb:type="author">天台沙門湛然略</byline>
 <lb n="0623b23" ed="T"/><cb:div type="pin"><head>弟子品之五</head><cb:div type="other"><cb:mulu level="2" type="其他">15 維摩經略疏卷第十五</cb:mulu>
 <lb n="0623b24" ed="T"/><p xml:id="pT38p0623b2401">佛告富樓那五命富樓那文亦二。一命問疾
 <lb n="0623b25" ed="T"/>二辭不堪。所以次命者以弟子中說法第一。
@@ -5885,7 +5872,7 @@ Added comment  for Emacs
 <lb n="0624c10" ed="T"/>智也。何者此諸比丘欲求大乘一切種智。滿
 <lb n="0624c11" ed="T"/>願為說小乘一切智慧。若言見真是同理須
 <lb n="0624c12" ed="T"/>比並。然以日光不可比螢略有五義。一是虫
-<lb n="0624c13" ed="T"/>光非寶光．二<g ref="#CB04707">󱉣</g>爍不停．三破闇少．四夜自照．
+<lb n="0624c13" ed="T"/>光非寶光．二<g ref="#CB04707">𭧲</g>爍不停．三破闇少．四夜自照．
 <lb n="0624c14" ed="T"/>五無所利益。豈得等彼日光。日光者一是寶
 <lb n="0624c15" ed="T"/>光．二常照停住．三破闇遍．四自照照他．五一
 <lb n="0624c16" ed="T"/>切皆蒙日光恩被。合螢光五譬尋之可知。此
@@ -6183,7 +6170,7 @@ Added comment  for Emacs
 <lb n="0628a08" ed="T"/>疾。四結成不堪。那律自惟往昔為於梵王而
 <lb n="0628a09" ed="T"/>說天眼。致被大士彈呵莫所對。豈堪奉旨往
 <lb n="0628a10" ed="T"/>問疾也。</p></cb:div></cb:div>
-<lb n="0628a11" ed="T"/><cb:div type="pin"><head>維摩經略疏卷第十<anchor xml:id="beg_c" type="cb-app"/>六<anchor xml:id="end_c"/></head>
+<lb n="0628a11" ed="T"/><cb:div type="pin"><head>維摩經略疏卷第十<anchor xml:id="beg_d" type="cb-app"/>六<anchor xml:id="end_d"/></head>
 <lb n="0628a12" ed="T"/><head>弟子品之六</head><cb:div type="other"><cb:mulu level="2" type="其他">16 維摩經略疏卷第十六</cb:mulu>
 <lb n="0628a13" ed="T"/><p xml:id="pT38p0628a1301">佛告優婆離八命優婆離文為二。一命問疾
 <lb n="0628a14" ed="T"/>二辭不堪。所以次命者以其弟子中持律第
@@ -6645,7 +6632,7 @@ Added comment  for Emacs
 <lb n="0633a20" ed="T"/>是五百比丘依三藏入道。各說身因。淨名還
 <lb n="0633a21" ed="T"/>用衍教五百法門彈呵折挫。別相分別顯發
 <lb n="0633a22" ed="T"/>枯榮。既不傳此寧可厝心而解釋也。</p></cb:div></cb:div>
-<lb n="0633a23" ed="T"/><cb:div type="pin"><head>維摩經<anchor xml:id="beg_d" type="cb-app"/>略<anchor xml:id="end_d"/>疏卷第十<anchor xml:id="beg_e" type="cb-app"/>七<anchor xml:id="end_e"/></head>
+<lb n="0633a23" ed="T"/><cb:div type="pin"><head>維摩經<anchor xml:id="beg_e" type="cb-app"/>略<anchor xml:id="end_e"/>疏卷第十<anchor xml:id="beg_f" type="cb-app"/>七<anchor xml:id="end_f"/></head>
 <lb n="0633a24" ed="T"/><cb:mulu level="1" type="品">4 菩薩品(五-六)</cb:mulu><head>菩薩品之初</head><cb:div type="other"><cb:mulu level="2" type="其他">17 維摩經廣疏卷第十七</cb:mulu>
 <lb n="0633a25" ed="T"/><p xml:id="pT38p0633a2501">此品次弟子品來者。三為破自體緣集顯不
 <lb n="0633a26" ed="T"/>思議解脫法身。成如來淨土之教。品意眾多
@@ -7108,9 +7095,9 @@ Added comment  for Emacs
 <lb n="0638b03" ed="T"/>
 <milestone n="6" unit="juan"/>
 <lb n="0638b04" ed="T"/>
-<lb n="0638b05" ed="T"/><cb:juan n="006" fun="open"><cb:mulu n="6" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第六<note place="inline">小卷十<anchor xml:id="beg_f" type="cb-app"/>八<anchor xml:id="end_f"/></note></cb:jhead></cb:juan>
+<lb n="0638b05" ed="T"/><cb:juan n="006" fun="open"><cb:mulu n="6" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第六<note place="inline">小卷十<anchor xml:id="beg_10" type="cb-app"/>八<anchor xml:id="end_10"/></note></cb:jhead></cb:juan>
 <lb n="0638b06" ed="T"/>
-<lb n="0638b07" ed="T"/><byline cb:type="Author">天台沙門湛然略</byline>
+<lb n="0638b07" ed="T"/><byline cb:type="author">天台沙門湛然略</byline>
 <lb n="0638b08" ed="T"/><cb:div type="pin"><head>菩薩品之二</head><cb:div type="other"><cb:mulu level="2" type="其他">18 維摩經略疏卷第十八</cb:mulu>
 <lb n="0638b09" ed="T"/><p xml:id="pT38p0638b0901">為從下二約無生行破一生受記。所以約行
 <lb n="0638b10" ed="T"/>破者乃由彌勒以有伏難。難云理無受記可
@@ -7605,7 +7592,7 @@ Added comment  for Emacs
 <lb n="0643c19" ed="T"/>者即發心住也。</p><p xml:id="pT38p0643c1907" rend="inline">故我不任詣彼問疾四結辭
 <lb n="0643c20" ed="T"/>不堪。光嚴自惟往昔迷真道場因淨名方解。
 <lb n="0643c21" ed="T"/>既神智劣弱豈堪傳旨往問疾乎。</p></cb:div></cb:div>
-<lb n="0643c22" ed="T"/><cb:div type="pin"><head>維摩經略疏卷第十<anchor xml:id="beg_10" type="cb-app"/>九<anchor xml:id="end_10"/></head>
+<lb n="0643c22" ed="T"/><cb:div type="pin"><head>維摩經略疏卷第十<anchor xml:id="beg_11" type="cb-app"/>九<anchor xml:id="end_11"/></head>
 <lb n="0643c23" ed="T"/><head>菩薩品之三</head><cb:div type="other"><cb:mulu level="2" type="其他">19 維摩經略疏卷第十九</cb:mulu>
 <lb n="0643c24" ed="T"/><p xml:id="pT38p0643c2401">佛告持世菩薩汝行詣維摩詰問疾三命持世
 <lb n="0643c25" ed="T"/>文為二。一命問疾二辭不堪。所以次命者其
@@ -8101,7 +8088,7 @@ Added comment  for Emacs
 <lb n="0649b05" ed="T"/>有所陳。其文則有數千紙也。如此大眾同聞
 <lb n="0649b06" ed="T"/>如來印定。皆成五種利益之義。豈可偏序分
 <lb n="0649b07" ed="T"/>也。</p></cb:div></cb:div>
-<lb n="0649b08" ed="T"/><cb:div type="pin"><head>維摩經略疏卷第<anchor xml:id="beg_11" type="cb-app"/>二十<anchor xml:id="end_11"/></head>
+<lb n="0649b08" ed="T"/><cb:div type="pin"><head>維摩經略疏卷第<anchor xml:id="beg_12" type="cb-app"/>二十<anchor xml:id="end_12"/></head>
 <lb n="0649b09" ed="T"/><cb:mulu level="1" type="其他">5 問疾品(六-七)</cb:mulu><head>問疾品之初</head><cb:div type="other"><cb:mulu level="2" type="其他">20 維摩經略疏卷第二十</cb:mulu>
 <lb n="0649b10" ed="T"/><p xml:id="pT38p0649b1001">此品次菩薩品來者。上佛命諸弟子菩薩各
 <lb n="0649b11" ed="T"/>辭不堪。今次命文殊。文殊恭命故言文殊師
@@ -8486,7 +8473,7 @@ Added comment  for Emacs
 <pb n="0653c" xml:id="T38.1778.0653c" ed="T"/>
 <lb n="0653c01" ed="T"/>此經明四禪為床座。何得床表真性。答經教
 <lb n="0653c02" ed="T"/>隨緣開喻不定豈可專執。今解淨名表發<anchor xml:id="nkr_note_orig_0653002" n="0653002"/><anchor xml:id="beg0653002" n="0653002"/>罔<anchor xml:id="end0653002"/>
-<lb n="0653c03" ed="T"/>像得珠。<g ref="#CB04724">󱉴</g>詬窮研將不失寶。亦如下文明畢
+<lb n="0653c03" ed="T"/>像得珠。<g ref="#CB04724">𮙁</g>詬窮研將不失寶。亦如下文明畢
 <lb n="0653c04" ed="T"/>竟空寂舍。今見室空即表諸佛國土皆空。</p>
 <lb n="0653c05" ed="T"/><p xml:id="pT38p0653c0501">文殊至一床二明文殊入室見相知表。見其
 <lb n="0653c06" ed="T"/>室空無諸所有者。即知表諸佛土空。必欲開
@@ -8640,9 +8627,9 @@ Added comment  for Emacs
 <milestone n="7" unit="juan"/>
 <lb n="0655b04" ed="T"/>
 <lb n="0655b05" ed="T"/>
-<lb n="0655b06" ed="T"/><cb:juan n="007" fun="open"><cb:mulu n="7" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第七<note place="inline">小卷二十<anchor xml:id="beg_12" type="cb-app"/>一<anchor xml:id="end_12"/></note></cb:jhead></cb:juan>
+<lb n="0655b06" ed="T"/><cb:juan n="007" fun="open"><cb:mulu n="7" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第七<note place="inline">小卷二十<anchor xml:id="beg_13" type="cb-app"/>一<anchor xml:id="end_13"/></note></cb:jhead></cb:juan>
 <lb n="0655b07" ed="T"/>
-<lb n="0655b08" ed="T"/><byline cb:type="Author"><anchor xml:id="nkr_note_orig_0655001" n="0655001"/><anchor xml:id="beg0655001" n="0655001"/>天台沙門湛然略<anchor xml:id="end0655001"/></byline>
+<lb n="0655b08" ed="T"/><byline cb:type="author"><anchor xml:id="nkr_note_orig_0655001" n="0655001"/><anchor xml:id="beg0655001" n="0655001"/>天台沙門湛然略<anchor xml:id="end0655001"/></byline>
 <lb n="0655b09" ed="T"/><cb:div type="pin"><head>問疾品之二</head>
 <lb n="0655b10" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">21 維摩經略疏卷第二十一</cb:mulu><p xml:id="pT38p0655b1001">且置下四正明問疾。上來言談是賓主相見
 <lb n="0655b11" ed="T"/>之儀。非其正意。神解既齊辨無窮盡妨宣佛
@@ -8729,7 +8716,7 @@ Added comment  for Emacs
 <lb n="0656b02" ed="T"/>觀義立三句。權疾亦然。寂光極地湛然無疾。
 <lb n="0656b03" ed="T"/>淨名權同前三土疾。治其實疾有損不增。淨
 <lb n="0656b04" ed="T"/>名亦爾。故慰問言不至增乎。</p><p xml:id="pT38p0656b0412" rend="inline">世尊慇懃致
-<lb n="0656b05" ed="T"/>問無量。二明文<anchor xml:id="beg_13" type="cb-app"/>殊<anchor xml:id="end_13"/>總宣佛意慰問。言致問
+<lb n="0656b05" ed="T"/>問無量。二明文<anchor xml:id="beg_14" type="cb-app"/>殊<anchor xml:id="end_14"/>總宣佛意慰問。言致問
 <lb n="0656b06" ed="T"/>無量者十方法界三土實疾既其無量。淨名
 <lb n="0656b07" ed="T"/>悲念則權疾無量故使如來致問無量。止述
 <lb n="0656b08" ed="T"/>三句者此表問端。或有多句。譯者簡略或經
@@ -8817,7 +8804,7 @@ Added comment  for Emacs
 <pb n="0657b" xml:id="T38.1778.0657b" ed="T"/>
 <lb n="0657b01" ed="T"/>死。有生死即有三種疾生。此釋答有權疾生
 <lb n="0657b02" ed="T"/>之久近。次言若眾生得離病者。則菩薩無復
-<lb n="0657b03" ed="T"/>病。即是釋<anchor xml:id="beg_14" type="star"/>後<anchor xml:id="end_14"/>答權疾得滅之由。</p><p xml:id="pT38p0657b0313" rend="inline">譬如下三
+<lb n="0657b03" ed="T"/>病。即是釋<anchor xml:id="beg_15" type="star"/>後<anchor xml:id="end_15"/>答權疾得滅之由。</p><p xml:id="pT38p0657b0313" rend="inline">譬如下三
 <lb n="0657b04" ed="T"/>譬顯文為二。一開譬二合譬。開為二。一開有
 <lb n="0657b05" ed="T"/>病譬二開病愈譬。初以父母為譬者。菩薩從
 <lb n="0657b06" ed="T"/>二智生大悲住一子地。即是眾生之父母。一
@@ -9141,15 +9128,15 @@ Added comment  for Emacs
 <lb n="0660c24" ed="T"/>不說厭離破二乘心。雖知無常念念磨滅未
 <lb n="0660c25" ed="T"/>度眾生。未具佛法終不捨離。說身有苦不說
 <lb n="0660c26" ed="T"/>樂於涅槃。聲聞觀苦樂求涅槃。菩薩不爾。若
-<lb n="0660c27" ed="T"/><anchor xml:id="beg_15" type="star"/>折<anchor xml:id="end_15"/>若體解苦無苦。為破計樂顛倒。眾生未度
+<lb n="0660c27" ed="T"/><anchor xml:id="beg_16" type="star"/>折<anchor xml:id="end_16"/>若體解苦無苦。為破計樂顛倒。眾生未度
 <lb n="0660c28" ed="T"/>未具佛法。終不入於無餘涅槃。說身無我而
 <lb n="0660c29" ed="T"/>說教導眾生。聲聞觀身無我證滅無慈不度
 <pb n="0661a" xml:id="T38.1778.0661a" ed="T"/>
-<lb n="0661a01" ed="T"/>眾生。菩薩不爾。若<anchor xml:id="beg_16" type="star"/>折<anchor xml:id="end_16"/>若體觀我假入無我。
+<lb n="0661a01" ed="T"/>眾生。菩薩不爾。若<anchor xml:id="beg_17" type="star"/>折<anchor xml:id="end_17"/>若體觀我假入無我。
 <lb n="0661a02" ed="T"/>為破計我十六知見顛倒。不取眾生畢竟空
 <lb n="0661a03" ed="T"/>相。故能為眾生說於如是無我之法而教導
 <lb n="0661a04" ed="T"/>之。說身空寂而不說畢竟寂滅。聲聞法入
-<lb n="0661a05" ed="T"/>真墮於寂滅。菩薩不爾。若<anchor xml:id="beg_17" type="star"/>折<anchor xml:id="end_17"/>若體入假實二
+<lb n="0661a05" ed="T"/>真墮於寂滅。菩薩不爾。若<anchor xml:id="beg_18" type="star"/>折<anchor xml:id="end_18"/>若體入假實二
 <lb n="0661a06" ed="T"/>空而知中理。不以偏真為究竟也。是則雖復
 <lb n="0661a07" ed="T"/>從假入空。欲為入中而作哢胤不捨群品。故
 <lb n="0661a08" ed="T"/>為聲聞觀苦有異。意在此也。</p><p xml:id="pT38p0661a0812" rend="inline">說悔至過去
@@ -9212,7 +9199,7 @@ Added comment  for Emacs
 <lb n="0661c05" ed="T"/>四結成。即是勸三教慰喻三種實疾菩薩。若
 <lb n="0661c06" ed="T"/>依教斷三種緣縛脫三一土因果患累者。即各
 <lb n="0661c07" ed="T"/>歡喜也。</p></cb:div></cb:div>
-<lb n="0661c08" ed="T"/><cb:div type="pin"><head>維摩經<anchor xml:id="beg_18" type="cb-app"/>略疏<anchor xml:id="end_18"/><anchor xml:id="beg_19" type="cb-app"/>卷<anchor xml:id="end_19"/>第二十<anchor xml:id="beg_1a" type="cb-app"/>二<anchor xml:id="end_1a"/></head>
+<lb n="0661c08" ed="T"/><cb:div type="pin"><head>維摩經<anchor xml:id="beg_19" type="cb-app"/>略疏<anchor xml:id="end_19"/><anchor xml:id="beg_1a" type="cb-app"/>卷<anchor xml:id="end_1a"/>第二十<anchor xml:id="beg_1b" type="cb-app"/>二<anchor xml:id="end_1b"/></head>
 <lb n="0661c09" ed="T"/><head>問疾品之三</head>
 <lb n="0661c10" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">22 維摩經略疏卷第二十二</cb:mulu><p xml:id="pT38p0661c1001">文殊師利言下二為實疾菩薩問調伏觀法。
 <lb n="0661c11" ed="T"/>又為二。一文殊問二淨名答。問意如前明為
@@ -9528,7 +9515,7 @@ Added comment  for Emacs
 <lb n="0665a21" ed="T"/>及別斷伏皆是方便。今初發心行生修乃至
 <lb n="0665a22" ed="T"/>坐道樹下。故圓教初心即學中觀。文為二。一
 <lb n="0665a23" ed="T"/>正明中觀二道觀雙流。初<anchor xml:id="nkr_note_orig_0665001" n="0665001"/><anchor xml:id="beg0665001" n="0665001"/>文<anchor xml:id="end0665001"/>二。一明觀體。二
-<lb n="0665a24" ed="T"/>簡非。初<anchor xml:id="beg_1b" type="star"/>文<anchor xml:id="end_1b"/>二。一明自觀二觀眾生。</p><p xml:id="pT38p0665a2414" rend="inline">如我
+<lb n="0665a24" ed="T"/>簡非。初<anchor xml:id="beg_1c" type="star"/>文<anchor xml:id="end_1c"/>二。一明自觀二觀眾生。</p><p xml:id="pT38p0665a2414" rend="inline">如我
 <lb n="0665a25" ed="T"/>此病非真非有者。是初自觀法身有無明自
 <lb n="0665a26" ed="T"/>體之病。非真非空非有非假。又非真者非從
 <lb n="0665a27" ed="T"/>假入空所治之病。非有者非從空入假所治
@@ -9727,7 +9714,7 @@ Added comment  for Emacs
 <lb n="0667b10" ed="T"/>淨土法身者。云何消此文。</p><p xml:id="pT38p0667b1011" rend="inline">說是至三菩提
 <lb n="0667b11" ed="T"/>心第五大段明時眾得益。八千天子發菩提
 <lb n="0667b12" ed="T"/>心者。菩提心義具如前釋。</p></cb:div></cb:div>
-<lb n="0667b13" ed="T"/><cb:div type="pin"><head>維摩經<anchor xml:id="nkr_note_orig_0667002" n="0667002"/><anchor xml:id="beg0667002" n="0667002"/>略<anchor xml:id="end0667002"/>疏卷第二十<anchor xml:id="beg_1c" type="cb-app"/>三<anchor xml:id="end_1c"/></head>
+<lb n="0667b13" ed="T"/><cb:div type="pin"><head>維摩經<anchor xml:id="nkr_note_orig_0667002" n="0667002"/><anchor xml:id="beg0667002" n="0667002"/>略<anchor xml:id="end0667002"/>疏卷第二十<anchor xml:id="beg_1d" type="cb-app"/>三<anchor xml:id="end_1d"/></head>
 <lb n="0667b14" ed="T"/><cb:mulu level="1" type="品">6 不思議品(七)</cb:mulu><head>不思議品</head>
 <lb n="0667b15" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">23 維摩經略疏卷第二十三</cb:mulu><p xml:id="pT38p0667b1501">此下五品次問疾品來者。即是入室大段第
 <lb n="0667b16" ed="T"/>二重決前問疾品也。何者前明問疾品約於
@@ -9922,7 +9909,7 @@ Added comment  for Emacs
 <lb n="0669b24" ed="T"/>豁然發真。三界漏盡此亦應爾。</p><p xml:id="pT38p0669b2413" rend="inline">爾時下二
 <lb n="0669b25" ed="T"/>神力借座。上呵身子但為求座非為求法。因
 <lb n="0669b26" ed="T"/>此說法天人得道。未顯不思議神力。若不致
-<lb n="0669b27" ed="T"/>座如貧無財不能營<anchor xml:id="beg_1d" type="cb-app"/>辦<anchor xml:id="end_1d"/>呵<anchor xml:id="nkr_note_orig_0669005" n="0669005"/><anchor xml:id="beg0669005" n="0669005"/>嘖<anchor xml:id="end0669005"/>賓客。今以神力
+<lb n="0669b27" ed="T"/>座如貧無財不能營<anchor xml:id="beg_1e" type="cb-app"/>辦<anchor xml:id="end_1e"/>呵<anchor xml:id="nkr_note_orig_0669005" n="0669005"/><anchor xml:id="beg0669005" n="0669005"/>嘖<anchor xml:id="end0669005"/>賓客。今以神力
 <lb n="0669b28" ed="T"/>借座用酬身子所念。以為說不思議解脫之
 <lb n="0669b29" ed="T"/>由。文為六。一問文殊有好座處．二文殊答座
 <pb n="0669c" xml:id="T38.1778.0669c" ed="T"/>
@@ -10112,9 +10099,9 @@ Added comment  for Emacs
 <lb n="0671c03" ed="T"/>
 <milestone n="8" unit="juan"/>
 <lb n="0671c04" ed="T"/>
-<lb n="0671c05" ed="T"/><cb:juan n="008" fun="open"><cb:mulu n="8" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第八<note place="inline">小卷二十<anchor xml:id="beg_1e" type="cb-app"/>四<anchor xml:id="end_1e"/></note></cb:jhead></cb:juan>
+<lb n="0671c05" ed="T"/><cb:juan n="008" fun="open"><cb:mulu n="8" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第八<note place="inline">小卷二十<anchor xml:id="beg_1f" type="cb-app"/>四<anchor xml:id="end_1f"/></note></cb:jhead></cb:juan>
 <lb n="0671c06" ed="T"/>
-<lb n="0671c07" ed="T"/><byline cb:type="Author">天台智者大師說沙門湛然略</byline>
+<lb n="0671c07" ed="T"/><byline cb:type="author">天台智者大師說沙門湛然略</byline>
 <lb n="0671c08" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">7 觀眾生品(八)</cb:mulu><head>釋觀眾生品</head>
 <lb n="0671c09" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">24 維摩經略疏卷第二十四</cb:mulu><p xml:id="pT38p0671c0901">此下四品次不思議品來者。略用三義通釋。
 <lb n="0671c10" ed="T"/>一明此品及下三品來意。二略釋此品名。三
@@ -10329,7 +10316,7 @@ Added comment  for Emacs
 <lb n="0674a09" ed="T"/>如石女兒者此終不生。女報若轉亦可生也。
 <lb n="0674a10" ed="T"/>如身子為女女為身子。一切女身皆無定相。
 <lb n="0674a11" ed="T"/>如化人煩惱者此無煩惱。化人有時現三毒
-<lb n="0674a12" ed="T"/>之相。如夢所見已<anchor xml:id="nkr_note_orig_0674001" n="0674001"/><anchor xml:id="beg0674001" n="0674001"/>悟<anchor xml:id="end0674001"/>者。<anchor xml:id="beg_1f" type="star"/>悟<anchor xml:id="end_1f"/>雖無夢不妨追
+<lb n="0674a12" ed="T"/>之相。如夢所見已<anchor xml:id="nkr_note_orig_0674001" n="0674001"/><anchor xml:id="beg0674001" n="0674001"/>悟<anchor xml:id="end0674001"/>者。<anchor xml:id="beg_20" type="star"/>悟<anchor xml:id="end_20"/>雖無夢不妨追
 <lb n="0674a13" ed="T"/>憶識所夢事。亦有更夢之理。如滅度者受身
 <lb n="0674a14" ed="T"/>者。一往羅漢入滅永無生處。而於界外變易
 <lb n="0674a15" ed="T"/>受生。如無因之火者。若四句破火是則無因。
@@ -10921,7 +10908,7 @@ Added comment  for Emacs
 <lb n="0680c01" ed="T"/>十界眾生無有盡也。大經云有種種寶藏。以
 <lb n="0680c02" ed="T"/>譬是經即是寶藏。謂四種道品嬰兒等行。四
 <lb n="0680c03" ed="T"/>種聖人功德等無量寶藏。此室至之法。是
-<lb n="0680c04" ed="T"/>七未曾有法。此室十方佛現。即是大<anchor xml:id="beg_20" type="cb-app"/>士<anchor xml:id="end_20"/>觀十
+<lb n="0680c04" ed="T"/>七未曾有法。此室十方佛現。即是大<anchor xml:id="beg_21" type="cb-app"/>士<anchor xml:id="end_21"/>觀十
 <lb n="0680c05" ed="T"/>二緣空得念佛三昧。十方諸佛真應二身隨
 <lb n="0680c06" ed="T"/>念現前。大經云大身眾生居住之處大眾生者
 <lb n="0680c07" ed="T"/>謂佛菩薩之所住也。此室至之法。是八未曾
@@ -11131,7 +11118,7 @@ Added comment  for Emacs
 <milestone n="9" unit="juan"/>
 <lb n="0683a02" ed="T"/><cb:juan n="009" fun="open"><cb:mulu n="9" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第九<note place="inline">小卷二十<anchor xml:id="nkr_note_orig_0683001" n="0683001"/><anchor xml:id="beg0683001" n="0683001"/>四<anchor xml:id="end0683001"/></note></cb:jhead></cb:juan>
 <lb n="0683a03" ed="T"/>
-<lb n="0683a04" ed="T"/><byline cb:type="Author">天台沙門湛然<anchor xml:id="nkr_note_orig_0683002" n="0683002"/><anchor xml:id="beg0683002" n="0683002"/>述<anchor xml:id="end0683002"/></byline>
+<lb n="0683a04" ed="T"/><byline cb:type="author">天台沙門湛然<anchor xml:id="nkr_note_orig_0683002" n="0683002"/><anchor xml:id="beg0683002" n="0683002"/>述<anchor xml:id="end0683002"/></byline>
 <lb n="0683a05" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">8 佛道品(九)</cb:mulu><head>佛道品</head>
 <lb n="0683a06" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">25 維摩經略疏卷第二十五</cb:mulu><p xml:id="pT38p0683a0601">今明此品略用三意通釋。一明此品來意。二
 <lb n="0683a07" ed="T"/>釋此品名。三入文解釋。初明此品次觀眾
@@ -11190,7 +11177,7 @@ Added comment  for Emacs
 <pb n="0683c" xml:id="T38.1778.0683c" ed="T"/>
 <lb n="0683c01" ed="T"/>殊說非種為種。種性即是眼目異名。如天帝
 <lb n="0683c02" ed="T"/>釋豈異憍尸。若謂不作佛性名說。不<anchor xml:id="nkr_note_orig_0683005" n="0683005"/><anchor xml:id="beg0683005" n="0683005"/>開<anchor xml:id="end0683005"/>佛性
-<lb n="0683c03" ed="T"/>義者。有經不以二諦名說亦應不<anchor xml:id="beg_21" type="star"/>開<anchor xml:id="end_21"/>二諦。何
+<lb n="0683c03" ed="T"/>義者。有經不以二諦名說亦應不<anchor xml:id="beg_22" type="star"/>開<anchor xml:id="end_22"/>二諦。何
 <lb n="0683c04" ed="T"/>得言諸佛常依二諦說法。</p><p xml:id="pT38p0683c0411" rend="inline">問若佛性有三種
 <lb n="0683c05" ed="T"/>亦三不。答如所問。故此品文殊言有身為種
 <lb n="0683c06" ed="T"/>六入為種。即苦道正因種性之異名也。無明
@@ -11198,9 +11185,9 @@ Added comment  for Emacs
 <lb n="0683c08" ed="T"/>不善為種。即業道緣因種性之異名也。種性
 <lb n="0683c09" ed="T"/>之與性義實相<anchor xml:id="nkr_note_orig_0683006" n="0683006"/><anchor xml:id="beg0683006" n="0683006"/>映<anchor xml:id="end0683006"/>。故法華云唯有如來知此
 <lb n="0683c10" ed="T"/>眾生種相體性。即其義也。問種以能生為義
-<lb n="0683c11" ed="T"/>義<anchor xml:id="beg_22" type="star"/>映<anchor xml:id="end_22"/>無常。性以不改為義。義<anchor xml:id="beg_23" type="star"/>映<anchor xml:id="end_23"/>於常。此二
-<lb n="0683c12" ed="T"/>義別何得言<anchor xml:id="beg_24" type="star"/>映<anchor xml:id="end_24"/>。答緣了<anchor xml:id="beg_25" type="star"/>映<anchor xml:id="end_25"/>種不足致疑。但
-<lb n="0683c13" ed="T"/>正因<anchor xml:id="beg_26" type="star"/>映<anchor xml:id="end_26"/>種義似有乖。深求其致亦相<anchor xml:id="beg_27" type="star"/>映<anchor xml:id="end_27"/>也。
+<lb n="0683c11" ed="T"/>義<anchor xml:id="beg_23" type="star"/>映<anchor xml:id="end_23"/>無常。性以不改為義。義<anchor xml:id="beg_24" type="star"/>映<anchor xml:id="end_24"/>於常。此二
+<lb n="0683c12" ed="T"/>義別何得言<anchor xml:id="beg_25" type="star"/>映<anchor xml:id="end_25"/>。答緣了<anchor xml:id="beg_26" type="star"/>映<anchor xml:id="end_26"/>種不足致疑。但
+<lb n="0683c13" ed="T"/>正因<anchor xml:id="beg_27" type="star"/>映<anchor xml:id="end_27"/>種義似有乖。深求其致亦相<anchor xml:id="beg_28" type="star"/>映<anchor xml:id="end_28"/>也。
 <lb n="0683c14" ed="T"/>如真非因果說為正因。是則非因性為正因
 <lb n="0683c15" ed="T"/>性。何以不得非因種說為正因種子。問若此
 <lb n="0683c16" ed="T"/>經明如來種與涅槃佛性同者。何故言若見
@@ -11909,7 +11896,7 @@ Added comment  for Emacs
 <lb n="0691b29" ed="T"/>之門。此雖似空門終是不二即中之空。若二
 <pb n="0691c" xml:id="T38.1778.0691c" ed="T"/>
 <lb n="0691c01" ed="T"/>乘斷我見諦得入涅槃。此但空我不空我所
-<lb n="0691c02" ed="T"/>得涅槃故。故言我生已盡所作已<anchor xml:id="beg_28" type="cb-app"/>辦<anchor xml:id="end_28"/>。當知未
+<lb n="0691c02" ed="T"/>得涅槃故。故言我生已盡所作已<anchor xml:id="beg_29" type="cb-app"/>辦<anchor xml:id="end_29"/>。當知未
 <lb n="0691c03" ed="T"/>空於所也。今言空者如上文云。我及涅槃是
 <lb n="0691c04" ed="T"/>二皆空。我空故即是空生死。涅槃空故即是
 <lb n="0691c05" ed="T"/>空所。故言是二皆空空病亦空。二邊雙遣則
@@ -12289,7 +12276,7 @@ Added comment  for Emacs
 <lb n="0695c18" ed="T"/>
 <lb n="0695c19" ed="T"/><cb:juan n="010" fun="open"><cb:mulu n="10" type="卷"></cb:mulu><cb:jhead>維摩經略疏卷第十</cb:jhead></cb:juan>
 <lb n="0695c20" ed="T"/>
-<lb n="0695c21" ed="T"/><byline cb:type="Author">天台智者大師說　沙門湛然略</byline>
+<lb n="0695c21" ed="T"/><byline cb:type="author">天台智者大師說　沙門湛然略</byline>
 <lb n="0695c22" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">10 香積品(一〇)</cb:mulu><head>釋香積品</head>
 <lb n="0695c23" ed="T"/><p xml:id="pT38p0695c2301">香是離穢之名。而有宣芬散馥馨香之用。故
 <lb n="0695c24" ed="T"/>無量義經道風德香熏一切。理中無上戒定
@@ -12392,7 +12379,7 @@ Added comment  for Emacs
 <lb n="0697a01" ed="T"/>在彼國周流十方。得來娑婆止熏三千之界。
 <lb n="0697a02" ed="T"/><anchor xml:id="nkr_note_orig_0697001" n="0697001"/><anchor xml:id="beg0697001" n="0697001"/>滅<anchor xml:id="end0697001"/>折一乘之飯逗彼三乘。亦是攝義。但菩薩
 <lb n="0697a03" ed="T"/>辭遊異土故佛誡之。飯是佛遣已自裁量。無
-<lb n="0697a04" ed="T"/>容佛自命佛令<anchor xml:id="beg_29" type="star"/>滅<anchor xml:id="end_29"/>飯香。今以義往<anchor xml:id="nkr_note_orig_0697002" n="0697002"/><anchor xml:id="beg0697002" n="0697002"/>惟<anchor xml:id="end0697002"/>。三乘
+<lb n="0697a04" ed="T"/>容佛自命佛令<anchor xml:id="beg_2a" type="star"/>滅<anchor xml:id="end_2a"/>飯香。今以義往<anchor xml:id="nkr_note_orig_0697002" n="0697002"/><anchor xml:id="beg0697002" n="0697002"/>惟<anchor xml:id="end0697002"/>。三乘
 <lb n="0697a05" ed="T"/>同服止薰大千。則知已攝。今言令菩薩攝香
 <lb n="0697a06" ed="T"/>非是攝除永盡。攝是止節。籌量為義。契當根
 <lb n="0697a07" ed="T"/>機不令過分。呼此為攝耳。次料簡正傍但香
@@ -12503,7 +12490,7 @@ Added comment  for Emacs
 <lb n="0698a22" ed="T"/>重貧病者。方便有餘比別教實報國復是重
 <lb n="0698a23" ed="T"/>者。實報圓教十信及初住十住未及十行。十
 <lb n="0698a24" ed="T"/>行未及十迴向十迴向未及十地。如是傳傳為
-<lb n="0698a25" ed="T"/>重。今取凡夫最初堅<anchor xml:id="beg_2a" type="star"/>靳<anchor xml:id="end_2a"/>須好勇將用妙醫藥。
+<lb n="0698a25" ed="T"/>重。今取凡夫最初堅<anchor xml:id="beg_2b" type="star"/>靳<anchor xml:id="end_2b"/>須好勇將用妙醫藥。
 <lb n="0698a26" ed="T"/>是故言勝也。次歷十事。用此二義約十法而
 <lb n="0698a27" ed="T"/>明。一一法中作此二義。如以布施攝貧窮者。
 <lb n="0698a28" ed="T"/>即是破其慳賊治其貧病施其富貴之財。如
@@ -12528,7 +12515,7 @@ Added comment  for Emacs
 <lb n="0698b17" ed="T"/>如文。</p></cb:div>
 <lb n="0698b18" ed="T"/><cb:div type="pin"><cb:mulu level="1" type="品">11 菩薩行品(一〇)</cb:mulu><head>釋菩薩行品</head>
 <lb n="0698b19" ed="T"/><p xml:id="pT38p0698b1901">正說中為三段。佛國品是如來當宗演暢。第
-<lb n="0698b20" ed="T"/>二從方便品去至香積品大<anchor xml:id="beg_2b" type="cb-app"/>士<anchor xml:id="end_2b"/>助揚聖化。第
+<lb n="0698b20" ed="T"/>二從方便品去至香積品大<anchor xml:id="beg_2c" type="cb-app"/>士<anchor xml:id="end_2c"/>助揚聖化。第
 <lb n="0698b21" ed="T"/>三從此品至阿閦品還歸佛所印定成經。此
 <lb n="0698b22" ed="T"/>二品來意有五。一大士助佛闡揚。有緣之眾
 <lb n="0698b23" ed="T"/>緣縛既盡化功已畢須還佛所。二佛初明佛
@@ -12693,7 +12680,7 @@ Added comment  for Emacs
 <lb n="0700b02" ed="T"/>執則失大乘之意也。若言有佛土用夢幻為
 <lb n="0700b03" ed="T"/>佛事此之佛土則誑相不實。音聲者如此國
 <lb n="0700b04" ed="T"/>起耳根也。寂寞<anchor xml:id="nkr_note_orig_0700002" n="0700002"/><anchor xml:id="beg0700002" n="0700002"/>者<anchor xml:id="end0700002"/>示心輪。雖無言說不妨有
-<lb n="0700b05" ed="T"/>寂寞之<anchor xml:id="nkr_note_orig_0700003" n="0700003"/><anchor xml:id="beg0700003" n="0700003"/>樂<anchor xml:id="end0700003"/>。若非<anchor xml:id="beg_2c" type="star"/>樂<anchor xml:id="end_2c"/>者何得言作佛事耶。若
+<lb n="0700b05" ed="T"/>寂寞之<anchor xml:id="nkr_note_orig_0700003" n="0700003"/><anchor xml:id="beg0700003" n="0700003"/>樂<anchor xml:id="end0700003"/>。若非<anchor xml:id="beg_2d" type="star"/>樂<anchor xml:id="end_2d"/>者何得言作佛事耶。若
 <lb n="0700b06" ed="T"/>佛不示心十地不知。若示心者蜫蟲能知當
 <lb n="0700b07" ed="T"/>知。是示心義。此間亦用無說無示為佛事。如
 <lb n="0700b08" ed="T"/>淨名杜口文殊稱歎。佛或時默然身子亦默
@@ -13596,6 +13583,7 @@ Added comment  for Emacs
 <app from="#beg0571001" to="#end0571001"><lem wit="#wit1"><g ref="#CB00178">㮈</g></lem><rdg resp="#resp1" wit="#wit2">奈</rdg></app>
 <app from="#beg_3" to="#end_3" corresp="#0571001"><lem wit="#wit1"><g ref="#CB00178">㮈</g></lem><rdg resp="#resp1" wit="#wit2">奈</rdg></app>
 <app from="#beg_4" to="#end_4" corresp="#0571001"><lem wit="#wit1"><g ref="#CB00178">㮈</g></lem><rdg resp="#resp1" wit="#wit2">奈</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>獷<note type="cf1">T46n1911_p0091a25</note></corr><sic>穬</sic></choice>
 <app from="#beg0574001" to="#end0574001"><lem wit="#wit1">雖</lem><rdg resp="#resp1" wit="#wit2">可</rdg><rdg resp="#resp1" wit="#wit3" type="variantRemark">能</rdg></app>
 <app from="#beg0574002" to="#end0574002"><lem wit="#wit1">觀</lem><rdg resp="#resp1" wit="#wit2">勸</rdg><rdg resp="#resp1" wit="#wit3" type="variantRemark">勸</rdg></app>
 <app from="#beg0574003" to="#end0574003"><lem resp="#resp1" wit="#wit1">田</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">填</rdg></app>
@@ -13630,7 +13618,7 @@ Added comment  for Emacs
 <app from="#beg0586005" to="#end0586005"><lem wit="#wit1">起</lem><rdg resp="#resp1" wit="#wit2">赴</rdg></app>
 <app from="#beg0587001" to="#end0587001"><lem wit="#wit1">常</lem><rdg resp="#resp1" wit="#wit2">當</rdg></app>
 <app from="#beg0588001" to="#end0588001"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit2">心</rdg></app>
-<app from="#beg_5" to="#end_5" corresp="#0586005"><lem wit="#wit1">起</lem><rdg resp="#resp1" wit="#wit2">赴</rdg></app>
+<app from="#beg_6" to="#end_6" corresp="#0586005"><lem wit="#wit1">起</lem><rdg resp="#resp1" wit="#wit2">赴</rdg></app>
 <app from="#beg0588002" to="#end0588002"><lem wit="#wit1">燈</lem><rdg resp="#resp1" wit="#wit3 #wit2">登</rdg></app>
 <app from="#beg0589001" to="#end0589001"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2">爾</rdg><rdg resp="#resp1" wit="#wit3" type="variantRemark">論</rdg></app>
 <app from="#beg0589002" to="#end0589002"><lem wit="#wit1">赴</lem><rdg resp="#resp1" wit="#wit2">起</rdg></app>
@@ -13650,11 +13638,11 @@ Added comment  for Emacs
 <app from="#beg0600003" to="#end0600003"><lem wit="#wit1">服</lem><rdg resp="#resp1" wit="#wit2">復</rdg></app>
 <app from="#beg0601001" to="#end0601001"><lem wit="#wit1">瞳</lem><rdg resp="#resp1" wit="#wit2">童</rdg></app>
 <app from="#beg0601002" to="#end0601002"><lem wit="#wit1">矇</lem><rdg resp="#resp1" wit="#wit2">朦</rdg></app>
-<app from="#beg_6" to="#end_6" corresp="#0601001"><lem wit="#wit1">瞳</lem><rdg resp="#resp1" wit="#wit2">童</rdg></app>
 <app from="#beg_7" to="#end_7" corresp="#0601001"><lem wit="#wit1">瞳</lem><rdg resp="#resp1" wit="#wit2">童</rdg></app>
-<app from="#beg_8" to="#end_8" corresp="#0601002"><lem wit="#wit1">矇</lem><rdg resp="#resp1" wit="#wit2">朦</rdg></app>
-<app from="#beg_9" to="#end_9" corresp="#0601001"><lem wit="#wit1">瞳</lem><rdg resp="#resp1" wit="#wit2">童</rdg></app>
-<app from="#beg_a" to="#end_a" corresp="#0601002"><lem wit="#wit1">矇</lem><rdg resp="#resp1" wit="#wit2">朦</rdg></app>
+<app from="#beg_8" to="#end_8" corresp="#0601001"><lem wit="#wit1">瞳</lem><rdg resp="#resp1" wit="#wit2">童</rdg></app>
+<app from="#beg_9" to="#end_9" corresp="#0601002"><lem wit="#wit1">矇</lem><rdg resp="#resp1" wit="#wit2">朦</rdg></app>
+<app from="#beg_a" to="#end_a" corresp="#0601001"><lem wit="#wit1">瞳</lem><rdg resp="#resp1" wit="#wit2">童</rdg></app>
+<app from="#beg_b" to="#end_b" corresp="#0601002"><lem wit="#wit1">矇</lem><rdg resp="#resp1" wit="#wit2">朦</rdg></app>
 <app from="#beg0601003" to="#end0601003"><lem wit="#wit1">懷</lem><rdg resp="#resp1" wit="#wit2">增</rdg></app>
 <app from="#beg0601004" to="#end0601004"><lem wit="#wit1">皆令</lem><rdg resp="#resp1" wit="#wit2">令皆</rdg></app>
 <app from="#beg0601005" to="#end0601005"><lem wit="#wit1">雖</lem><rdg resp="#resp1" wit="#wit2">離</rdg></app>
@@ -13662,7 +13650,7 @@ Added comment  for Emacs
 <app from="#beg0602001" to="#end0602001"><lem wit="#wit1">折</lem><rdg resp="#resp1" wit="#wit2">欣</rdg></app>
 <app from="#beg0605001" to="#end0605001"><lem wit="#wit1">是性是主</lem><rdg resp="#resp1" wit="#wit2">是主是性</rdg></app>
 <app from="#beg0606001" to="#end0606001"><lem wit="#wit1">折折</lem><rdg resp="#resp1" wit="#wit2">欣欣</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_b" cb:to="#end_b"><corr>味<note type="cf1">T38n1778_p0612a18</note><note type="cf2">X18n0338_p0535c07</note></corr><sic>昧</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_c" cb:to="#end_c"><corr>味<note type="cf1">T38n1778_p0612a18</note><note type="cf2">X18n0338_p0535c07</note></corr><sic>昧</sic></choice>
 <app from="#beg0607001" to="#end0607001"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0607002" to="#end0607002"><lem wit="#wit1">四</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0608001" to="#end0608001"><lem wit="#wit1">弟</lem><rdg resp="#resp1" wit="#wit2">第</rdg></app>
@@ -13698,7 +13686,7 @@ Added comment  for Emacs
 <app from="#beg0624001" to="#end0624001"><lem wit="#wit1">關</lem><rdg resp="#resp1" wit="#wit3">開</rdg></app>
 <app from="#beg0626001" to="#end0626001"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit2">故說於空</rdg></app>
 <app from="#beg0626002" to="#end0626002"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2">經</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_c" cb:to="#end_c"><corr>六</corr><sic>五</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_d" cb:to="#end_d"><corr>六</corr><sic>五</sic></choice>
 <app from="#beg0628001" to="#end0628001"><lem wit="#wit1">告</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">害</rdg></app>
 <app from="#beg0629001" to="#end0629001"><lem wit="#wit1">皆</lem><rdg resp="#resp1" wit="#wit2">智</rdg></app>
 <app from="#beg0629002" to="#end0629002"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit2">想</rdg></app>
@@ -13707,11 +13695,11 @@ Added comment  for Emacs
 <app from="#beg0629005" to="#end0629005"><lem wit="#wit1">犯</lem><rdg resp="#resp1" wit="#wit3">死</rdg></app>
 <app from="#beg0631001" to="#end0631001"><lem wit="#wit1">倒</lem><rdg resp="#resp1" wit="#wit2">例</rdg></app>
 <app from="#beg0632001" to="#end0632001"><lem resp="#resp1" wit="#wit1">達</lem><rdg resp="#resp1" wit="#wit3" type="correctionRemark">逮</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_d" cb:to="#end_d"><corr>略</corr><sic>廣</sic></choice>
-<choice cb:resp="#resp4" cb:from="#beg_e" cb:to="#end_e"><corr>七</corr><sic>六</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_e" cb:to="#end_e"><corr>略</corr><sic>廣</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_f" cb:to="#end_f"><corr>七</corr><sic>六</sic></choice>
 <app from="#beg0636001" to="#end0636001"><lem wit="#wit1">未來</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0637001" to="#end0637001"><lem wit="#wit1">藏</lem><rdg resp="#resp1" wit="#wit2">教</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_f" cb:to="#end_f"><corr>八</corr><sic>七</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_10" cb:to="#end_10"><corr>八</corr><sic>七</sic></choice>
 <app from="#beg0638001" to="#end0638001"><lem wit="#wit1">事</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">約</rdg></app>
 <app from="#beg0638002" to="#end0638002"><lem resp="#resp1" wit="#wit1">智</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">者</rdg></app>
 <app from="#beg0639001" to="#end0639001"><lem wit="#wit1">夫</lem><rdg resp="#resp1" wit="#wit2">決</rdg></app>
@@ -13723,7 +13711,7 @@ Added comment  for Emacs
 <app from="#beg0643001" to="#end0643001"><lem wit="#wit1">持地</lem><rdg resp="#resp1" wit="#wit2">地持</rdg></app>
 <app from="#beg0643002" to="#end0643002"><lem resp="#resp1" wit="#wit1">際</lem><rdg resp="#resp1" wit="#wit3" type="correctionRemark">除</rdg></app>
 <app from="#beg0643003" to="#end0643003"><lem wit="#wit1">諦</lem><rdg resp="#resp1" wit="#wit2">四諦</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_10" cb:to="#end_10"><corr>九</corr><sic>八</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_11" cb:to="#end_11"><corr>九</corr><sic>八</sic></choice>
 <app from="#beg0644001" to="#end0644001"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0644002" to="#end0644002"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2">是</rdg></app>
 <app from="#beg0645001" to="#end0645001"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit2">故致</rdg></app>
@@ -13733,21 +13721,21 @@ Added comment  for Emacs
 <app from="#beg0646004" to="#end0646004"><lem wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit2">空</rdg></app>
 <app from="#beg0647001" to="#end0647001"><lem wit="#wit1">途</lem><rdg resp="#resp1" wit="#wit2">從</rdg></app>
 <app from="#beg0647002" to="#end0647002"><lem wit="#wit1">普</lem><rdg resp="#resp1" wit="#wit2">有</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_11" cb:to="#end_11"><corr>二十</corr><sic>十九</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_12" cb:to="#end_12"><corr>二十</corr><sic>十九</sic></choice>
 <app from="#beg0650001" to="#end0650001"><lem wit="#wit1">復</lem><rdg resp="#resp1" wit="#wit2">洑</rdg></app>
 <app from="#beg0652001" to="#end0652001"><lem wit="#wit1">百</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0652002" to="#end0652002"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit2">如</rdg></app>
 <app from="#beg0653001" to="#end0653001"><lem wit="#wit1">疾</lem><rdg resp="#resp1" wit="#wit2">身</rdg></app>
 <app from="#beg0653002" to="#end0653002"><lem wit="#wit1">罔</lem><rdg resp="#resp1" wit="#wit2">圓</rdg></app>
 <app from="#beg0654001" to="#end0654001"><lem resp="#resp1" wit="#wit1">聖</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">聲</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_12" cb:to="#end_12"><corr>一</corr><sic><space quantity="0"/></sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_13" cb:to="#end_13"><corr>一</corr><sic><space quantity="0"/></sic></choice>
 <app from="#beg0655001" to="#end0655001"><lem wit="#wit1">天台沙門湛然略</lem><rdg resp="#resp1" wit="#wit2">天台智者大師說沙門湛然略</rdg></app>
 <app from="#beg0655002" to="#end0655002"><lem wit="#wit1">涉</lem><rdg resp="#resp1" wit="#wit2">步</rdg></app>
 <app from="#beg0655003" to="#end0655003"><lem wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit2">若</rdg></app>
 <app from="#beg0656001" to="#end0656001"><lem wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit2">復</rdg></app>
-<choice cb:from="#beg_13" cb:to="#end_13"><corr>殊</corr><sic>珠</sic></choice>
+<choice cb:from="#beg_14" cb:to="#end_14"><corr>殊</corr><sic>珠</sic></choice>
 <app from="#beg0656002" to="#end0656002"><lem wit="#wit1">返</lem><rdg resp="#resp1" wit="#wit2">反</rdg></app>
-<app from="#beg_14" to="#end_14" corresp="#0656001"><lem wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit2">復</rdg></app>
+<app from="#beg_15" to="#end_15" corresp="#0656001"><lem wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit2">復</rdg></app>
 <app from="#beg0657001" to="#end0657001"><lem resp="#resp1" wit="#wit1">慈</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">悲</rdg></app>
 <app from="#beg0657002" to="#end0657002"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit2">亦如</rdg></app>
 <app from="#beg0657003" to="#end0657003"><lem wit="#wit1">慈</lem><rdg resp="#resp1" wit="#wit2">茲</rdg></app>
@@ -13758,15 +13746,15 @@ Added comment  for Emacs
 <app from="#beg0660001" to="#end0660001"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit2">而</rdg></app>
 <app from="#beg0660002" to="#end0660002"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit2">以其</rdg></app>
 <app from="#beg0660003" to="#end0660003"><lem wit="#wit1">折</lem><rdg resp="#resp1" wit="#wit2">析</rdg></app>
-<app from="#beg_15" to="#end_15" corresp="#0660003"><lem wit="#wit1">折</lem><rdg resp="#resp1" wit="#wit2">析</rdg></app>
 <app from="#beg_16" to="#end_16" corresp="#0660003"><lem wit="#wit1">折</lem><rdg resp="#resp1" wit="#wit2">析</rdg></app>
 <app from="#beg_17" to="#end_17" corresp="#0660003"><lem wit="#wit1">折</lem><rdg resp="#resp1" wit="#wit2">析</rdg></app>
+<app from="#beg_18" to="#end_18" corresp="#0660003"><lem wit="#wit1">折</lem><rdg resp="#resp1" wit="#wit2">析</rdg></app>
 <app from="#beg0661001" to="#end0661001"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit2">今</rdg></app>
 <app from="#beg0661002" to="#end0661002"><lem wit="#wit1">假</lem><rdg resp="#resp1" wit="#wit2">解</rdg></app>
 <app from="#beg0661003" to="#end0661003"><lem wit="#wit1">當</lem><rdg resp="#resp1" wit="#wit2">常</rdg></app>
-<choice cb:resp="#resp5" cb:from="#beg_18" cb:to="#end_18"><corr>略疏</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:from="#beg_19" cb:to="#end_19"><corr>卷</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp4" cb:from="#beg_1a" cb:to="#end_1a"><corr>二</corr><sic>一</sic></choice>
+<choice cb:resp="#resp5" cb:from="#beg_19" cb:to="#end_19"><corr>略疏</corr><sic><space quantity="0"/></sic></choice>
+<choice cb:from="#beg_1a" cb:to="#end_1a"><corr>卷</corr><sic><space quantity="0"/></sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_1b" cb:to="#end_1b"><corr>二</corr><sic>一</sic></choice>
 <app from="#beg0661004" to="#end0661004"><lem wit="#wit1">從</lem><rdg resp="#resp1" wit="#wit2">彼</rdg></app>
 <app from="#beg0662001" to="#end0662001"><lem wit="#wit1">乖</lem><rdg resp="#resp1" wit="#wit2">垂</rdg></app>
 <app from="#beg0662002" to="#end0662002"><lem wit="#wit1">空</lem><rdg resp="#resp1" wit="#wit2">空如此</rdg></app>
@@ -13775,13 +13763,13 @@ Added comment  for Emacs
 <app from="#beg0663003" to="#end0663003"><lem wit="#wit1">魔</lem><rdg resp="#resp1" wit="#wit2">摩</rdg></app>
 <app from="#beg0664002" to="#end0664002"><lem wit="#wit1">許</lem><rdg resp="#resp1" wit="#wit2">詐</rdg></app>
 <app from="#beg0665001" to="#end0665001"><lem wit="#wit1">文</lem><rdg resp="#resp1" wit="#wit2">又</rdg></app>
-<app from="#beg_1b" to="#end_1b" corresp="#0665001"><lem wit="#wit1">文</lem><rdg resp="#resp1" wit="#wit2">又</rdg></app>
+<app from="#beg_1c" to="#end_1c" corresp="#0665001"><lem wit="#wit1">文</lem><rdg resp="#resp1" wit="#wit2">又</rdg></app>
 <app from="#beg0665002" to="#end0665002"><lem wit="#wit1">疾</lem><rdg resp="#resp1" wit="#wit2">病</rdg></app>
 <app from="#beg0665003" to="#end0665003"><lem wit="#wit1">失</lem><rdg resp="#resp1" wit="#wit2">夫</rdg></app>
 <app from="#beg0666001" to="#end0666001"><lem wit="#wit1">快</lem><rdg resp="#resp1" wit="#wit2">怏</rdg></app>
 <app from="#beg0667001" to="#end0667001"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit2">愛</rdg></app>
 <app from="#beg0667002" to="#end0667002"><lem wit="#wit1">略</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_1c" cb:to="#end_1c"><corr>三</corr><sic>二</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_1d" cb:to="#end_1d"><corr>三</corr><sic>二</sic></choice>
 <app from="#beg0668001" to="#end0668001"><lem wit="#wit1">示</lem><rdg resp="#resp1" wit="#wit2">爾</rdg></app>
 <app from="#beg0668002" to="#end0668002"><lem wit="#wit1">昧</lem><rdg resp="#resp1" wit="#wit2">明</rdg></app>
 <app from="#beg0668003" to="#end0668003"><lem wit="#wit1">求</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
@@ -13790,17 +13778,17 @@ Added comment  for Emacs
 <app from="#beg0669002" to="#end0669002"><lem wit="#wit1">果</lem><rdg resp="#resp1" wit="#wit2">界</rdg></app>
 <app from="#beg0669003" to="#end0669003"><lem wit="#wit1">二乘</lem><rdg resp="#resp1" wit="#wit2">三乘</rdg></app>
 <app from="#beg0669004" to="#end0669004"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit2">者</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_1d" cb:to="#end_1d"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1e" cb:to="#end_1e"><corr>辦</corr><sic>辨</sic></choice>
 <app from="#beg0669005" to="#end0669005"><lem wit="#wit1">嘖</lem><rdg resp="#resp1" wit="#wit2">瞋</rdg></app>
 <app from="#beg0670001" to="#end0670001"><lem resp="#resp1" wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit3" type="correctionRemark">可</rdg></app>
 <app from="#beg0670002" to="#end0670002"><lem wit="#wit1">得</lem><rdg resp="#resp1" wit="#wit2">碍</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_1e" cb:to="#end_1e"><corr>四</corr><sic>三</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_1f" cb:to="#end_1f"><corr>四</corr><sic>三</sic></choice>
 <app from="#beg0671001" to="#end0671001"><lem wit="#wit1">帖釋。入文</lem><rdg resp="#resp1" wit="#wit2">入文帖釋</rdg></app>
 <app from="#beg0672001" to="#end0672001"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit2">有</rdg></app>
 <app from="#beg0672002" to="#end0672002"><lem wit="#wit1">成</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0673001" to="#end0673001"><lem wit="#wit1">即</lem><rdg resp="#resp1" wit="#wit2">即見</rdg></app>
 <app from="#beg0674001" to="#end0674001"><lem wit="#wit1">悟</lem><rdg resp="#resp1" wit="#wit2">窹</rdg></app>
-<app from="#beg_1f" to="#end_1f" corresp="#0674001"><lem wit="#wit1">悟</lem><rdg resp="#resp1" wit="#wit2">窹</rdg></app>
+<app from="#beg_20" to="#end_20" corresp="#0674001"><lem wit="#wit1">悟</lem><rdg resp="#resp1" wit="#wit2">窹</rdg></app>
 <app from="#beg0674002" to="#end0674002"><lem wit="#wit1">上觀</lem><rdg resp="#resp1" wit="#wit2">三觀</rdg></app>
 <app from="#beg0674003" to="#end0674003"><lem wit="#wit1">破</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0674004" to="#end0674004"><lem wit="#wit1">智</lem><rdg resp="#resp1" wit="#wit2">皆</rdg></app>
@@ -13816,7 +13804,7 @@ Added comment  for Emacs
 <app from="#beg0679002" to="#end0679002"><lem wit="#wit1">三乘</lem><rdg resp="#resp1" wit="#wit2">二乘</rdg></app>
 <app from="#beg0680001" to="#end0680001"><lem wit="#wit1">聞</lem><rdg resp="#resp1" wit="#wit2">問</rdg></app>
 <app from="#beg0680002" to="#end0680002"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2">於</rdg></app>
-<choice cb:from="#beg_20" cb:to="#end_20"><corr>士</corr><sic>土</sic></choice>
+<choice cb:from="#beg_21" cb:to="#end_21"><corr>士</corr><sic>土</sic></choice>
 <app from="#beg0680003" to="#end0680003"><lem wit="#wit1">五</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0682001" to="#end0682001"><lem wit="#wit1">惑</lem><rdg resp="#resp1" wit="#wit2">或</rdg></app>
 <app from="#beg0683001" to="#end0683001"><lem wit="#wit1">四</lem><rdg resp="#resp1" wit="#wit2">五</rdg></app>
@@ -13824,14 +13812,14 @@ Added comment  for Emacs
 <app from="#beg0683003" to="#end0683003"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit2">為成</rdg></app>
 <app from="#beg0683004" to="#end0683004"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit3">以</rdg></app>
 <app from="#beg0683005" to="#end0683005"><lem wit="#wit1">開</lem><rdg resp="#resp1" wit="#wit2">關</rdg></app>
-<app from="#beg_21" to="#end_21" corresp="#0683005"><lem wit="#wit1">開</lem><rdg resp="#resp1" wit="#wit2">關</rdg></app>
+<app from="#beg_22" to="#end_22" corresp="#0683005"><lem wit="#wit1">開</lem><rdg resp="#resp1" wit="#wit2">關</rdg></app>
 <app from="#beg0683006" to="#end0683006"><lem wit="#wit1">映</lem><rdg resp="#resp1" wit="#wit2">快</rdg></app>
-<app from="#beg_22" to="#end_22" corresp="#0683006"><lem wit="#wit1">映</lem><rdg resp="#resp1" wit="#wit2">快</rdg></app>
 <app from="#beg_23" to="#end_23" corresp="#0683006"><lem wit="#wit1">映</lem><rdg resp="#resp1" wit="#wit2">快</rdg></app>
 <app from="#beg_24" to="#end_24" corresp="#0683006"><lem wit="#wit1">映</lem><rdg resp="#resp1" wit="#wit2">快</rdg></app>
 <app from="#beg_25" to="#end_25" corresp="#0683006"><lem wit="#wit1">映</lem><rdg resp="#resp1" wit="#wit2">快</rdg></app>
 <app from="#beg_26" to="#end_26" corresp="#0683006"><lem wit="#wit1">映</lem><rdg resp="#resp1" wit="#wit2">快</rdg></app>
 <app from="#beg_27" to="#end_27" corresp="#0683006"><lem wit="#wit1">映</lem><rdg resp="#resp1" wit="#wit2">快</rdg></app>
+<app from="#beg_28" to="#end_28" corresp="#0683006"><lem wit="#wit1">映</lem><rdg resp="#resp1" wit="#wit2">快</rdg></app>
 <app from="#beg0684001" to="#end0684001"><lem wit="#wit1">識</lem><rdg resp="#resp1" wit="#wit3">說</rdg></app>
 <app from="#beg0684002" to="#end0684002"><lem wit="#wit1">文</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0684003" to="#end0684003"><lem wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
@@ -13870,7 +13858,7 @@ Added comment  for Emacs
 <app from="#beg0691005" to="#end0691005"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0691006" to="#end0691006"><lem wit="#wit1">畫</lem><rdg resp="#resp1" wit="#wit2">妄</rdg></app>
 <app from="#beg0691007" to="#end0691007"><lem wit="#wit1">像</lem><rdg resp="#resp1" wit="#wit2">邪</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_28" cb:to="#end_28"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_29" cb:to="#end_29"><corr>辦</corr><sic>辨</sic></choice>
 <app from="#beg0692001" to="#end0692001"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit2">忌</rdg></app>
 <app from="#beg0692002" to="#end0692002"><lem wit="#wit1">因</lem><rdg resp="#resp1" wit="#wit2">目</rdg></app>
 <app from="#beg0692003" to="#end0692003"><lem wit="#wit1">罪</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
@@ -13890,7 +13878,7 @@ Added comment  for Emacs
 <app from="#beg0696002" to="#end0696002"><lem wit="#wit1">士</lem><rdg resp="#resp1" wit="#wit2">土</rdg></app>
 <app from="#beg0696003" to="#end0696003"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit2">食</rdg></app>
 <app from="#beg0697001" to="#end0697001"><lem wit="#wit1">滅</lem><rdg resp="#resp1" wit="#wit2">減</rdg></app>
-<app from="#beg_29" to="#end_29" corresp="#0697001"><lem wit="#wit1">滅</lem><rdg resp="#resp1" wit="#wit2">減</rdg></app>
+<app from="#beg_2a" to="#end_2a" corresp="#0697001"><lem wit="#wit1">滅</lem><rdg resp="#resp1" wit="#wit2">減</rdg></app>
 <app from="#beg0697002" to="#end0697002"><lem resp="#resp1" wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">推</rdg></app>
 <app from="#beg0697003" to="#end0697003"><lem wit="#wit1">互</lem><rdg resp="#resp1" wit="#wit3">至</rdg></app>
 <app from="#beg0697004" to="#end0697004"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
@@ -13898,9 +13886,9 @@ Added comment  for Emacs
 <app from="#beg0697006" to="#end0697006"><lem wit="#wit1">執</lem><rdg resp="#resp1" wit="#wit2">報</rdg></app>
 <app from="#beg0698001" to="#end0698001"><lem wit="#wit1">靳</lem><rdg resp="#resp1" wit="#wit2">硬</rdg></app>
 <app from="#beg0698002" to="#end0698002"><lem wit="#wit1">饒</lem><rdg resp="#resp1" wit="#wit2">鐃</rdg></app>
-<app from="#beg_2a" to="#end_2a" corresp="#0698001"><lem wit="#wit1">靳</lem><rdg resp="#resp1" wit="#wit2">硬</rdg></app>
+<app from="#beg_2b" to="#end_2b" corresp="#0698001"><lem wit="#wit1">靳</lem><rdg resp="#resp1" wit="#wit2">硬</rdg></app>
 <app from="#beg0698003" to="#end0698003"><lem wit="#wit1">當</lem><rdg resp="#resp1" wit="#wit2">常</rdg></app>
-<choice cb:from="#beg_2b" cb:to="#end_2b"><corr>士</corr><sic>土</sic></choice>
+<choice cb:from="#beg_2c" cb:to="#end_2c"><corr>士</corr><sic>土</sic></choice>
 <app from="#beg0698004" to="#end0698004"><lem wit="#wit1">綱</lem><rdg resp="#resp1" wit="#wit2">網</rdg></app>
 <app from="#beg0698005" to="#end0698005"><lem wit="#wit1">彼</lem><rdg resp="#resp1" wit="#wit2">復</rdg></app>
 <app from="#beg0698006" to="#end0698006"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit2">所為</rdg></app>
@@ -13911,7 +13899,7 @@ Added comment  for Emacs
 <app from="#beg0700001" to="#end0700001"><lem wit="#wit1">作</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0700002" to="#end0700002"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2">者此</rdg></app>
 <app from="#beg0700003" to="#end0700003"><lem wit="#wit1">樂</lem><rdg resp="#resp1" wit="#wit2">示</rdg></app>
-<app from="#beg_2c" to="#end_2c" corresp="#0700003"><lem wit="#wit1">樂</lem><rdg resp="#resp1" wit="#wit2">示</rdg></app>
+<app from="#beg_2d" to="#end_2d" corresp="#0700003"><lem wit="#wit1">樂</lem><rdg resp="#resp1" wit="#wit2">示</rdg></app>
 <app from="#beg0700004" to="#end0700004"><lem wit="#wit1">現<lb n="0700b19" ed="T"/>為</lem><rdg resp="#resp1" wit="#wit2">為現</rdg></app>
 <app from="#beg0700005" to="#end0700005"><lem wit="#wit1">諸<lb n="0700b26" ed="T"/>使</lem><rdg resp="#resp1" wit="#wit2">使諸</rdg></app>
 <app from="#beg0700006" to="#end0700006"><lem wit="#wit1">甘苦</lem><rdg resp="#resp1" wit="#wit3">耳若</rdg></app>
@@ -13952,16 +13940,16 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0574001" resp="#resp2" type="mod" target="#nkr_note_mod_0574001">雖＝可【甲】，＝能ィ【原】</note>
-<note n="0574002" resp="#resp2" type="mod" target="#nkr_note_mod_0574002">觀＝勸【甲】，＝勸ィ【原】</note>
-<note n="0578001" resp="#resp2" type="mod" target="#nkr_note_mod_0578001">從＝徒ィ【原】，＝徒【甲】</note>
-<note n="0579003" resp="#resp2" type="mod" target="#nkr_note_mod_0579003">依＝作【甲】，＝作ィ【原】</note>
-<note n="0589001" resp="#resp2" type="mod" target="#nkr_note_mod_0589001">無＝爾【甲】，＝論ィ【原】</note>
-<note n="0597001" resp="#resp2" type="mod" target="#nkr_note_mod_0597001"><!--CBETA todo type: ＊-->然＝無【原】＊</note>
-<note n="0616001" resp="#resp2" type="mod" target="#nkr_note_mod_0616001"><choice cb:resp="#resp3"><corr>往</corr><sic>徃</sic></choice>＝性【原】</note>
-<note n="0659002" resp="#resp2" type="mod" target="#nkr_note_mod_0659002"><!--CBETA todo type: a-->〔見即…文〕十字－【甲】</note>
-<note n="0664001" resp="#resp2" type="mod" target="#nkr_note_mod_0664001"><!--CBETA todo type: c-->辦＝辨【甲】</note>
-<note n="0706002" resp="#resp2" type="mod" target="#nkr_note_mod_0706002">淇源耳釋＝其源耳【原】，＝洪源耳釋【甲】，＝洪源甘澤？</note>
+<note n="0574001" resp="#resp3" type="mod" target="#nkr_note_mod_0574001">雖＝可【甲】，＝能ィ【原】</note>
+<note n="0574002" resp="#resp3" type="mod" target="#nkr_note_mod_0574002">觀＝勸【甲】，＝勸ィ【原】</note>
+<note n="0578001" resp="#resp3" type="mod" target="#nkr_note_mod_0578001">從＝徒ィ【原】，＝徒【甲】</note>
+<note n="0579003" resp="#resp3" type="mod" target="#nkr_note_mod_0579003">依＝作【甲】，＝作ィ【原】</note>
+<note n="0589001" resp="#resp3" type="mod" target="#nkr_note_mod_0589001">無＝爾【甲】，＝論ィ【原】</note>
+<note n="0597001" resp="#resp3" type="mod" target="#nkr_note_mod_0597001"><!--CBETA todo type: ＊-->然＝無【原】＊</note>
+<note n="0616001" resp="#resp3" type="mod" target="#nkr_note_mod_0616001"><choice cb:resp="#resp2"><corr>往</corr><sic>徃</sic></choice>＝性【原】</note>
+<note n="0659002" resp="#resp3" type="mod" target="#nkr_note_mod_0659002"><!--CBETA todo type: a-->〔見即…文〕十字－【甲】</note>
+<note n="0664001" resp="#resp3" type="mod" target="#nkr_note_mod_0664001"><!--CBETA todo type: c-->辦＝辨【甲】</note>
+<note n="0706002" resp="#resp3" type="mod" target="#nkr_note_mod_0706002">淇源耳釋＝其源耳【原】，＝洪源耳釋【甲】，＝洪源甘澤？</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

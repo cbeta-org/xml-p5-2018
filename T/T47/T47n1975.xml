@@ -32,8 +32,9 @@
 	<sourceDesc>
 		<bibl>Taisho Tripitaka Vol. 47, No. 1975 </bibl>
 	<listWit>
-		<witness xml:id="wit1">【大】</witness>
-		<witness xml:id="wit2">【原】</witness>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【大】</witness>
+		<witness xml:id="wit3">【原】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -132,7 +133,7 @@ Added comment  for Emacs
 <lb n="0381a20" ed="T"/><cb:docNumber>No. 1975</cb:docNumber>
 <lb n="0381a21" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0381001" n="0381001"/>淨土生無生論</cb:jhead></cb:juan>
 <lb n="0381a22" ed="T"/>
-<lb n="0381a23" ed="T"/><byline cb:type="Author">幽溪沙門傳燈撰</byline>
+<lb n="0381a23" ed="T"/><byline cb:type="author">幽溪沙門傳燈撰</byline>
 <lb n="0381a24" ed="T"/><cb:div type="jing"><p xml:id="pT47p0381a2401">稽首能仁圓滿智，無量壽覺大導師，所說安
 <lb n="0381a25" ed="T"/>養大乘經，了義了義至圓頓。妙德普賢觀自
 <lb n="0381a26" ed="T"/>在，勢至清淨大海眾，馬鳴、龍樹及天親，此土
@@ -166,8 +167,8 @@ Added comment  for Emacs
 <lb n="0381b24" ed="T"/>不生不滅，常住不壞；性具十界亦然。性量竪
 <lb n="0381b25" ed="T"/>窮橫遍，無盡無盡、無量無量；性具十界亦然。
 <lb n="0381b26" ed="T"/>正報五陰同性體、性量，清淨周遍；依報國土
-<lb n="0381b27" ed="T"/>亦然。此之三法亦名三諦：性體即<anchor xml:id="nkr_note_orig_0381002" n="0381002"/><anchor xml:id="beg0381002" n="0381002"/>真<anchor xml:id="end0381002"/>諦，性
-<lb n="0381b28" ed="T"/>量即<anchor xml:id="nkr_note_orig_0381003" n="0381003"/><anchor xml:id="beg0381003" n="0381003"/>中<anchor xml:id="end0381003"/>諦，性具即俗諦。故《楞嚴經》云：「而如
+<lb n="0381b27" ed="T"/>亦然。此之三法亦名三諦：性體即<anchor xml:id="nkr_note_orig_0381002" n="0381002"/><anchor xml:id="nkr_note_mod_0381002" n="0381002"/><anchor xml:id="beg0381002" n="0381002"/>中<anchor xml:id="end0381002"/>諦，性
+<lb n="0381b28" ed="T"/>量即<anchor xml:id="nkr_note_orig_0381003" n="0381003"/><anchor xml:id="nkr_note_mod_0381003" n="0381003"/><anchor xml:id="beg0381003" n="0381003"/>真<anchor xml:id="end0381003"/>諦，性具即俗諦。故《楞嚴經》云：「而如
 <lb n="0381b29" ed="T"/>來藏妙明元心，非心、非空，非地、水、火、風，非眼、
 <pb n="0381c" ed="T" xml:id="T47.1975.0381c"/>
 <lb n="0381c01" ed="T"/>耳、鼻、舌、身、意，非色、聲、香、味、觸、法，非眼界乃至
@@ -392,18 +393,20 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg0381002" to="#end0381002"><lem wit="#wit1">真</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">中</rdg></app>
-<app from="#beg0381003" to="#end0381003"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">真</rdg></app>
-<app from="#beg0381004" to="#end0381004"><lem wit="#wit1">體</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">體統攝</rdg></app>
-<app from="#beg0382001" to="#end0382001"><lem wit="#wit1">量</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">體</rdg></app>
-<app from="#beg0382002" to="#end0382002"><lem wit="#wit1">體</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">量</rdg></app>
-<app from="#beg0383001" to="#end0383001"><lem wit="#wit1">或</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">若觀若境或</rdg></app>
-<app from="#beg0383002" to="#end0383002"><lem wit="#wit1">念</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">念數數</rdg></app>
+<app from="#beg0381002" to="#end0381002"><lem resp="#resp3" wit="#wit1">中<note type="cf1">X61n1164_p0742b03</note></lem><rdg wit="#wit2">真</rdg><rdg resp="#resp1" wit="#wit3" type="variantRemark">中</rdg></app>
+<app from="#beg0381003" to="#end0381003"><lem resp="#resp3" wit="#wit1">真<note type="cf1">X61n1164_p0742b03</note></lem><rdg wit="#wit2">中</rdg><rdg resp="#resp1" wit="#wit3" type="variantRemark">真</rdg></app>
+<app from="#beg0381004" to="#end0381004"><lem wit="#wit2">體</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">體統攝</rdg></app>
+<app from="#beg0382001" to="#end0382001"><lem wit="#wit2">量</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">體</rdg></app>
+<app from="#beg0382002" to="#end0382002"><lem wit="#wit2">體</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">量</rdg></app>
+<app from="#beg0383001" to="#end0383001"><lem wit="#wit2">或</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">若觀若境或</rdg></app>
+<app from="#beg0383002" to="#end0383002"><lem wit="#wit2">念</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">念數數</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
+<note n="0381002" resp="#resp2" type="mod" target="#nkr_note_mod_0381002">真＝中ィ【原】，＝中【CB】</note>
+<note n="0381003" resp="#resp2" type="mod" target="#nkr_note_mod_0381003">中＝真ィ【原】，＝真【CB】</note>
 <note n="0382001" resp="#resp2" type="mod" target="#nkr_note_mod_0382001"><choice cb:resp="#resp3"><corr>量</corr><sic>里</sic></choice>＝體ィ【原】</note>
 <note n="0382002" resp="#resp2" type="mod" target="#nkr_note_mod_0382002">體＝<choice cb:resp="#resp3"><corr>量</corr><sic>里</sic></choice>ィ【原】</note>
 </p>

@@ -13,6 +13,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:15:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -153,7 +154,7 @@ Added comment  for Emacs
 <lb n="1411a12" ed="T"/>諸苦惱。至於今日。唯願本師釋迦牟尼佛。大
 <lb n="1411a13" ed="T"/>慈大悲憐愍一切眾生。救護一切眾生。為諸
 <lb n="1411a14" ed="T"/>徒眾略說法要。佛言文殊師利。諦聽諦聽。善
-<lb n="1411a15" ed="T"/>思念之。吾當為汝分別解脫。一切眾生從無
+<lb n="1411a15" ed="T"/>思念之。吾當為汝分別解<anchor xml:id="beg_1" type="cb-app"/>說<anchor xml:id="end_1"/>。一切眾生從無
 <lb n="1411a16" ed="T"/>始曠大劫來。輪迴六趣。流浪生死。終無間
 <lb n="1411a17" ed="T"/>歇。受諸苦惱。至於今日者。皆由本心。何以
 <lb n="1411a18" ed="T"/>故。為心從時至時。從日至日。從月至月。從
@@ -263,7 +264,7 @@ Added comment  for Emacs
 <lb n="1412b02" ed="T"/>佛告文殊師利。若有眾生往其正道者。要藉
 <lb n="1412b03" ed="T"/>真善知識。結其善標而可得達前所。何以故。
 <lb n="1412b04" ed="T"/>夫求道者先須求一。但能立一為宗方法。於
-<lb n="1412b05" ed="T"/>中建立佛置法門八萬四<anchor xml:id="beg_1" type="cb-app"/>千<anchor xml:id="end_1"/>。若欲說真皆當
+<lb n="1412b05" ed="T"/>中建立佛置法門八萬四<anchor xml:id="beg_2" type="cb-app"/>千<anchor xml:id="end_2"/>。若欲說真皆當
 <lb n="1412b06" ed="T"/>歸一。何以故。凡及與聖亦成為一。何以故。
 <lb n="1412b07" ed="T"/>凡而求聖者。喻若棄水而求氷。是氷而是水。
 <lb n="1412b08" ed="T"/>是水而是氷。氷外而無水。水外而無氷。煩惱
@@ -352,7 +353,8 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>千</corr><sic>干</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>說<note type="cf1">T85n2893_p1412a05</note></corr><sic>脫</sic></choice>
+<choice cb:from="#beg_2" cb:to="#end_2"><corr>千</corr><sic>干</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

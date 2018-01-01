@@ -12,9 +12,9 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2012/08/27 03:13:54 $</date>新式標點版</edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -152,7 +152,7 @@ Added comment  for Emacs
 <lb n="0831a03" ed="T"/>
 <milestone n="1" unit="juan"/>
 <lb n="0831a04" ed="T"/>
-<lb n="0831a05" ed="T"/><cb:docNumber>No. 45 [No. 26(68), cf. No. 1(2)]</cb:docNumber><cb:div type="jing">
+<lb n="0831a05" ed="T"/><cb:docNumber>No. 45 [No. 26(<anchor xml:id="beg_1" type="cb-app"/>71<anchor xml:id="end_1"/>), cf. No. 1(<anchor xml:id="beg_2" type="cb-app"/>7<anchor xml:id="end_2"/>)]</cb:docNumber><cb:div type="jing">
 <lb n="0831a06" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title>大正句王經</title>卷上</cb:jhead></cb:juan>
 <lb n="0831a07" ed="T"/>
 <lb n="0831a08" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0831002" n="0831002"/><anchor xml:id="beg0831002" n="0831002"/>西<anchor xml:id="end0831002"/>天<anchor xml:id="nkr_note_orig_0831003" n="0831003"/><anchor xml:id="beg0831003" n="0831003"/>譯經<anchor xml:id="end0831003"/>三藏朝散大夫試光祿卿
@@ -315,7 +315,7 @@ Added comment  for Emacs
 <lb n="0832c15" ed="T"/>於是其子白繼母言：『家中財物金銀珍寶，乃
 <lb n="0832c16" ed="T"/>至一切受用之具悉屬於我，更無別人分我
 <lb n="0832c17" ed="T"/>財物。』時彼繼母聞子語已，即告子言：『我今
-<lb n="0832c18" ed="T"/>所懷汝父<anchor xml:id="beg_1" type="cb-app"/>遺<anchor xml:id="end_1"/>體，待其長育與汝均分。』其子時
+<lb n="0832c18" ed="T"/>所懷汝父<anchor xml:id="beg_3" type="cb-app"/>遺<anchor xml:id="end_3"/>體，待其長育與汝均分。』其子時
 <lb n="0832c19" ed="T"/>復再言其事，母起思念：『此子年幼情性癡騃，
 <lb n="0832c20" ed="T"/>雖與深言未能分曉。』又以貪惜欲疾<g ref="#CB01661">㝃</g>身，多
 <lb n="0832c21" ed="T"/>設方便求於速產，日月未滿返損其孕。大王！
@@ -419,7 +419,7 @@ Added comment  for Emacs
 <lb n="0833c28" ed="T"/>有一道人住於山中。時有商人，將多車乘載
 <lb n="0833c29" ed="T"/>於財貨，近道人菴止宿而去。時彼道人乃於
 <pb n="0834a" ed="T" xml:id="T01.0045.0834a"/>
-<lb n="0834a01" ed="T"/>明<anchor xml:id="beg_2" type="cb-app"/>旦<anchor xml:id="end_2"/>觀彼宿處恐遺財物，果於是處見一童
+<lb n="0834a01" ed="T"/>明<anchor xml:id="beg_4" type="cb-app"/>旦<anchor xml:id="end_4"/>觀彼宿處恐遺財物，果於是處見一童
 <lb n="0834a02" ed="T"/>子，纔離乳哺未識東西，是眾商人之所遺
 <lb n="0834a03" ed="T"/>墜。道人慈愍，恐彼童子飢渴所損，將歸菴中
 <lb n="0834a04" ed="T"/>如親養育。而彼道人事火為行，常專其心添
@@ -582,46 +582,48 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg0831002" to="#end0831002"><lem wit="#wit1">西</lem><rdg resp="#resp1" wit="#wit2">宋西</rdg></app>
-<app from="#beg0831003" to="#end0831003"><lem wit="#wit1">譯經</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0831004" to="#end0831004"><lem wit="#wit1">臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>遺</corr><sic>遣</sic></choice>
-<app from="#beg0833001" to="#end0833001"><lem wit="#wit1">秤</lem><rdg resp="#resp1" wit="#wit3 #wit4">秤秤</rdg><rdg resp="#resp1" wit="#wit2">秤稱</rdg></app>
-<app from="#beg0833002" to="#end0833002"><lem wit="#wit1">西</lem><rdg resp="#resp1" wit="#wit2">宋西</rdg></app>
-<app from="#beg0833003" to="#end0833003"><lem wit="#wit1">譯經</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0833004" to="#end0833004"><lem wit="#wit1">臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg_2" to="#end_2"><lem resp="#resp3" wit="#wit5 #wit6">旦<note type="cf1">K34n1234_p0507c23</note></lem><rdg wit="#wit1">且</rdg></app>
-<app from="#beg0834001" to="#end0834001"><lem wit="#wit1">預</lem><rdg resp="#resp1" wit="#wit4">頂</rdg></app>
-<app from="#beg0834002" to="#end0834002"><lem wit="#wit1">常</lem><rdg resp="#resp1" wit="#wit2">當</rdg></app>
-<app from="#beg0834003" to="#end0834003"><lem wit="#wit1">賤</lem><rdg resp="#resp1" wit="#wit3 #wit4">財</rdg></app>
-<app from="#beg0835001" to="#end0835001"><lem wit="#wit1">只</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">已</rdg></app>
-<app from="#beg0835002" to="#end0835002"><lem wit="#wit1">或</lem><rdg resp="#resp1" wit="#wit2">我</rdg></app>
-<app from="#beg0835003" to="#end0835003"><lem wit="#wit1">由</lem><rdg resp="#resp1" wit="#wit4 #wit2">猶</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>71<note type="cf1">呂凱文〈佛教輪迴思想的論述分析──以《弊宿經》裡佛教徒與「虛無論者」的輪迴辯論為考察線索〉</note></corr><sic>68</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>7<note type="cf1">呂凱文〈佛教輪迴思想的論述分析──以《弊宿經》裡佛教徒與「虛無論者」的輪迴辯論為考察線索〉</note></corr><sic>2</sic></choice>
+<app from="#beg0831002" to="#end0831002"><lem wit="#wit1">西</lem><rdg resp="#resp2" wit="#wit2">宋西</rdg></app>
+<app from="#beg0831003" to="#end0831003"><lem wit="#wit1">譯經</lem><rdg resp="#resp2" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0831004" to="#end0831004"><lem wit="#wit1">臣</lem><rdg resp="#resp2" wit="#wit2"><space quantity="0"/></rdg></app>
+<choice cb:from="#beg_3" cb:to="#end_3"><corr>遺</corr><sic>遣</sic></choice>
+<app from="#beg0833001" to="#end0833001"><lem wit="#wit1">秤</lem><rdg resp="#resp2" wit="#wit3 #wit4">秤秤</rdg><rdg resp="#resp2" wit="#wit2">秤稱</rdg></app>
+<app from="#beg0833002" to="#end0833002"><lem wit="#wit1">西</lem><rdg resp="#resp2" wit="#wit2">宋西</rdg></app>
+<app from="#beg0833003" to="#end0833003"><lem wit="#wit1">譯經</lem><rdg resp="#resp2" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0833004" to="#end0833004"><lem wit="#wit1">臣</lem><rdg resp="#resp2" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_4" to="#end_4"><lem resp="#resp1" wit="#wit5 #wit6">旦<note type="cf1">K34n1234_p0507c23</note></lem><rdg wit="#wit1">且</rdg></app>
+<app from="#beg0834001" to="#end0834001"><lem wit="#wit1">預</lem><rdg resp="#resp2" wit="#wit4">頂</rdg></app>
+<app from="#beg0834002" to="#end0834002"><lem wit="#wit1">常</lem><rdg resp="#resp2" wit="#wit2">當</rdg></app>
+<app from="#beg0834003" to="#end0834003"><lem wit="#wit1">賤</lem><rdg resp="#resp2" wit="#wit3 #wit4">財</rdg></app>
+<app from="#beg0835001" to="#end0835001"><lem wit="#wit1">只</lem><rdg resp="#resp2" wit="#wit3 #wit4 #wit2">已</rdg></app>
+<app from="#beg0835002" to="#end0835002"><lem wit="#wit1">或</lem><rdg resp="#resp2" wit="#wit2">我</rdg></app>
+<app from="#beg0835003" to="#end0835003"><lem wit="#wit1">由</lem><rdg resp="#resp2" wit="#wit4 #wit2">猶</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0833001" resp="#resp2" type="mod" target="#nkr_note_mod_0833001">秤＝秤秤【宋】【元】，＝秤稱【明】</note>
-<note n="0835001" resp="#resp2" type="mod" target="#nkr_note_mod_0835001">只＝已【宋】【元】【明】</note>
+<note n="0833001" resp="#resp3" type="mod" target="#nkr_note_mod_0833001">秤＝秤秤【宋】【元】，＝秤稱【明】</note>
+<note n="0835001" resp="#resp3" type="mod" target="#nkr_note_mod_0835001">只＝已【宋】【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
-<note n="0831002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0831002">（宋）＋西【明】</note>
-<note n="0831003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0831003">〔譯經〕－【明】</note>
-<note n="0831004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0831004">〔臣〕－【明】</note>
-<note n="0833001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0833001">秤＝秤秤【宋】【元】，秤稱【明】</note>
-<note n="0833002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0833002">（宋）＋西【明】</note>
-<note n="0833003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0833003">〔譯經〕－【明】</note>
-<note n="0833004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0833004">〔臣〕－【明】</note>
-<note n="0834001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0834001">預＝頂【元】</note>
-<note n="0834002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0834002">常＝當【明】</note>
-<note n="0834003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0834003">賤＝財【宋】【元】</note>
-<note n="0835001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0835001">只＝已【三】</note>
-<note n="0835002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0835002">或＝我【明】</note>
-<note n="0835003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0835003">由＝猶【元】【明】</note>
+<note n="0831002" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0831002">（宋）＋西【明】</note>
+<note n="0831003" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0831003">〔譯經〕－【明】</note>
+<note n="0831004" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0831004">〔臣〕－【明】</note>
+<note n="0833001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0833001">秤＝秤秤【宋】【元】，秤稱【明】</note>
+<note n="0833002" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0833002">（宋）＋西【明】</note>
+<note n="0833003" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0833003">〔譯經〕－【明】</note>
+<note n="0833004" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0833004">〔臣〕－【明】</note>
+<note n="0834001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0834001">預＝頂【元】</note>
+<note n="0834002" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0834002">常＝當【明】</note>
+<note n="0834003" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0834003">賤＝財【宋】【元】</note>
+<note n="0835001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0835001">只＝已【三】</note>
+<note n="0835002" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0835002">或＝我【明】</note>
+<note n="0835003" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0835003">由＝猶【元】【明】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -15,6 +15,7 @@
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.march</name></respStmt>
 		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -191,7 +192,7 @@ Added comment  for Emacs
 <lb n="0516c12" ed="T"/>
 <lb n="0516c13" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">四十二章經序</cb:mulu><head>四十二章經序</head>
 <lb n="0516c14" ed="T"/>
-<lb n="0516c15" ed="T"/><byline cb:type="Author">昭文舘大學士中奉大夫掌諸路
+<lb n="0516c15" ed="T"/><byline cb:type="author">昭文舘大學士中奉大夫掌諸路
 <lb n="0516c16" ed="T"/>頭陀教特賜圓通玄悟大禪師
 <lb n="0516c17" ed="T"/>頭陀僧溥光奉　勅撰</byline>
 <lb n="0516c18" ed="T"/><p xml:id="pT39p0516c1801">伏聞無上法王。為一大事因緣。出現世間隨
@@ -230,7 +231,7 @@ Added comment  for Emacs
 <lb n="0517a21" ed="T"/>
 <lb n="0517a22" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">註四十二章經序</cb:mulu><head>註四十二章經序</head>
 <lb n="0517a23" ed="T"/>
-<lb n="0517a24" ed="T"/><byline cb:type="Author">宋真宗皇帝製</byline>
+<lb n="0517a24" ed="T"/><byline cb:type="author">宋真宗皇帝製</byline>
 <lb n="0517a25" ed="T"/><p xml:id="pT39p0517a2501">夫至真不宰。豈隔於含靈。群動無明。自迷於
 <lb n="0517a26" ed="T"/>正覺。是以慈悲之上聖。因談歸救之妙門。接
 <lb n="0517a27" ed="T"/>物而利生。隨機而演教。布法雲而潤物。揭智
@@ -255,7 +256,7 @@ Added comment  for Emacs
 <lb n="0517b16" ed="T"/>者梵語。云修多羅。此云為經。經訓常也。常者
 <lb n="0517b17" ed="T"/>言其真常不易之法也。</p>
 <lb n="0517b18" ed="T"/><byline cb:type="Translator">迦葉摩騰共竺法蘭奉　詔譯</byline>
-<lb n="0517b19" ed="T"/><byline cb:type="Author">宋真宗皇帝註</byline>
+<lb n="0517b19" ed="T"/><byline cb:type="author">宋真宗皇帝註</byline>
 <lb n="0517b20" ed="T"/><p xml:id="pT39p0517b2001">爾時世尊既成道已作是思惟離欲寂靜是最
 <lb n="0517b21" ed="T"/>為勝住大禪定降諸魔道　夫愛欲長於貪
 <lb n="0517b22" ed="T"/>癡。禪定資於智慧。故世尊首言離欲之最勝。
@@ -738,7 +739,7 @@ Added comment  for Emacs
 <lb n="0522c19" ed="T"/>
 <lb n="0522c20" ed="T"/><cb:div type="w"><cb:mulu level="1" type="附文">題焚經臺詩</cb:mulu><head>題焚經臺詩</head>
 <lb n="0522c21" ed="T"/>
-<lb n="0522c22" ed="T"/><byline cb:type="Author">唐太宗文皇帝製</byline>
+<lb n="0522c22" ed="T"/><byline cb:type="author">唐太宗文皇帝製</byline>
 <lb n="0522c23" ed="T"/><p xml:id="pT39p0522c2301">門徑蕭蕭長緣苔。一回登此一徘徊。青牛謾
 <lb n="0522c24" ed="T"/>說函關去。白馬親從印土來。確定是非憑烈
 <lb n="0522c25" ed="T"/>焰。要分真偽築高臺。春風也解嫌狼藉。吹盡
@@ -753,7 +754,7 @@ Added comment  for Emacs
 <lb n="0523a04" ed="T"/>此夢。帝悟大悅。即遣羽林郎蔡愔。博士秦
 <lb n="0523a05" ed="T"/>景王遵等十二人。望葱嶺而往尋西土。求
 <lb n="0523a06" ed="T"/>迎佛法行至中路。月氏國眾乃駭然。得瞻
-<lb n="0523a07" ed="T"/>迦葉摩騰共竺法蘭二梵僧圓項方袍之異
+<lb n="0523a07" ed="T"/>迦葉摩騰共竺法蘭二梵僧圓<anchor xml:id="beg_3" type="cb-app"/>頂<anchor xml:id="end_3"/>方袍之異
 <lb n="0523a08" ed="T"/>相。乘白馬携釋迦真像白<g ref="#CB00626">㲲</g>之圖。并此四
 <lb n="0523a09" ed="T"/>十二章一卷回朝。時永平十年也。帝喜躬
 <lb n="0523a10" ed="T"/>親迎。奉宣委鴻臚以陳國禮。勅令彩畵釋
@@ -785,6 +786,7 @@ Added comment  for Emacs
 <p>
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>汩</corr><sic>汨</sic></choice>
 <choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>百</corr><sic>者</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_3" cb:to="#end_3"><corr>頂<note type="cf1">T38n1766_p0041a21</note></corr><sic>項</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

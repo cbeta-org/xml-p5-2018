@@ -31,7 +31,7 @@
 		<bibl>Jiaxing Canon Vol. 36, No. B348 </bibl>
 	<listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【大】</witness>
+		<witness xml:id="wit2">【嘉興】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -16277,7 +16277,7 @@ modified: 重新執行一次 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg_1" to="#end_1"><lem wit="#wit1" resp="#resp1">稿<note type="cf1">X22n0430_p0822b15</note></lem><rdg wit="#wit2">槀</rdg></app>
+<choice cb:from="#beg_1" cb:to="#end_1" cb:resp="#resp1"><corr>稿<note type="cf1">X22n0430_p0822b15</note></corr><sic>槀</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>蘗</corr><sic>蘖</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>券</corr><sic>劵</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>錫</corr><sic>鍚</sic></choice>
@@ -16313,13 +16313,13 @@ modified: 重新執行一次 basicx.bat  將 bm 轉 xml
 <choice cb:resp="#resp1" cb:from="#beg_22" cb:to="#end_22"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_23" cb:to="#end_23"><corr>券</corr><sic>劵</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_24" cb:to="#end_24"><corr>券</corr><sic>劵</sic></choice>
-<app from="#beg_25" to="#end_25"><lem wit="#wit1" resp="#resp1">焉<note type="cf1">T47n1999_p0958a08</note></lem><rdg wit="#wit2">鳶</rdg></app>
+<choice cb:from="#beg_25" cb:to="#end_25" cb:resp="#resp1"><corr>焉<note type="cf1">T47n1999_p0958a08</note></corr><sic>鳶</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_26" cb:to="#end_26"><corr>券</corr><sic>劵</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_27" cb:to="#end_27"><corr>已</corr><sic>己</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_28" cb:to="#end_28"><corr>奘</corr><sic>裝</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_29" cb:to="#end_29"><corr>玄贊<note type="cf1">X26n0532_p0767c02</note></corr><sic>贊玄</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2a" cb:to="#end_2a"><corr>券</corr><sic>劵</sic></choice>
-<app from="#beg_2b" to="#end_2b"><lem wit="#wit1" resp="#resp1">稿<note type="cf1">X31n0609_p0515b08</note></lem><rdg wit="#wit2">槀</rdg></app>
+<choice cb:from="#beg_2b" cb:to="#end_2b" cb:resp="#resp1"><corr>稿<note type="cf1">X31n0609_p0515b08</note></corr><sic>槀</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2c" cb:to="#end_2c"><corr>券</corr><sic>劵</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2d" cb:to="#end_2d"><corr>己</corr><sic>已</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_2e" cb:to="#end_2e"><corr>已</corr><sic>巳</sic></choice>
@@ -16338,7 +16338,7 @@ modified: 重新執行一次 basicx.bat  將 bm 轉 xml
 <choice cb:resp="#resp1" cb:from="#beg_3b" cb:to="#end_3b"><corr>券</corr><sic>劵</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_3c" cb:to="#end_3c"><corr>刺</corr><sic>剌</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_3d" cb:to="#end_3d"><corr>已</corr><sic>巳</sic></choice>
-<app from="#beg_3e" to="#end_3e"><lem wit="#wit1" resp="#resp1">焉<note type="cf1">T47n1999_p0958a11</note></lem><rdg wit="#wit2">鳶</rdg></app>
+<choice cb:from="#beg_3e" cb:to="#end_3e" cb:resp="#resp1"><corr>焉<note type="cf1">T47n1999_p0958a11</note></corr><sic>鳶</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_3f" cb:to="#end_3f"><corr>灸<note type="cf1">T46n1936_p0835c06</note><note type="cf2">T46n1938_p0934a24</note></corr><sic>炙</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_40" cb:to="#end_40"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_41" cb:to="#end_41"><corr>券</corr><sic>劵</sic></choice>
@@ -16354,8 +16354,8 @@ modified: 重新執行一次 basicx.bat  將 bm 轉 xml
 <choice cb:resp="#resp1" cb:from="#beg_4b" cb:to="#end_4b"><corr>卻</corr><sic>郤</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_4c" cb:to="#end_4c"><corr>糱<note type="cf1">T26n1537_p0458a03</note><note type="cf2">T41n1821_p0229c18</note></corr><sic>蘖</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_4d" cb:to="#end_4d"><corr>卻</corr><sic>郤</sic></choice>
-<app from="#beg_4e" to="#end_4e"><lem wit="#wit1" resp="#resp1"><g ref="#CB00592">㲉</g><note type="cf1">T02n0099_p0015a12</note></lem><rdg wit="#wit2"><g ref="#CB29821">󷑽</g></rdg></app>
-<app from="#beg_4f" to="#end_4f"><lem wit="#wit1" resp="#resp1">焉<note type="cf1">T47n1999_p0958a09</note></lem><rdg wit="#wit2">鳶</rdg></app>
+<choice cb:from="#beg_4e" cb:to="#end_4e" cb:resp="#resp1"><corr><g ref="#CB00592">㲉</g><note type="cf1">T02n0099_p0015a12</note></corr><sic><g ref="#CB29821">󷑽</g></sic></choice>
+<choice cb:from="#beg_4f" cb:to="#end_4f" cb:resp="#resp1"><corr>焉<note type="cf1">T47n1999_p0958a09</note></corr><sic>鳶</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_50" cb:to="#end_50"><corr>券</corr><sic>劵</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_51" cb:to="#end_51"><corr>券</corr><sic>劵</sic></choice>
 </p>

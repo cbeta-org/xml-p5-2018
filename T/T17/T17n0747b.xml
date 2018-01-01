@@ -13,6 +13,7 @@
         <editionStmt>
                 <edition>$Revision: 1.11 $<date>$Date: 2012/10/08 08:17:38 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -33,6 +34,8 @@
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
+		<witness xml:id="wit4">【CBETA】</witness>
+		<witness xml:id="wit5">【磧砂】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -189,7 +192,7 @@ Added comment  for Emacs
 <lb n="0564a08" ed="T"/>說法語心不餐採，後墮長耳驢馬之中。慳
 <lb n="0564a09" ed="T"/>貪獨食，<anchor xml:id="nkr_note_orig_0564002" n="0564002"/><anchor xml:id="beg0564002" n="0564002"/>不共飢者，食<anchor xml:id="end0564002"/>後墮餓鬼中；出生為
 <lb n="0564a10" ed="T"/>人，貧窮飢餓，衣不蓋形，食不供口。好食
-<lb n="0564a11" ed="T"/>自噉，惡食施人，後生猪<g ref="#CB03051">𧉙</g>、蜣蜋之中。喜劫
+<lb n="0564a11" ed="T"/>自噉，惡食施人，後生猪<anchor xml:id="beg_1" type="cb-app"/>肫<anchor xml:id="end_1"/>、蜣蜋之中。喜劫
 <lb n="0564a12" ed="T"/>奪人物者，後墮羊中，生剝其皮，償其宿罪。
 <lb n="0564a13" ed="T"/>好喜殺生者，後為水上<anchor xml:id="nkr_note_orig_0564003" n="0564003"/><anchor xml:id="beg0564003" n="0564003"/>蜉<anchor xml:id="end0564003"/>蝣<anchor xml:id="nkr_note_orig_0564004" n="0564004"/><anchor xml:id="beg0564004" n="0564004"/>蟲<anchor xml:id="end0564004"/>，朝生暮
 <lb n="0564a14" ed="T"/>死。好喜盜人財物者，後墮奴婢、牛、馬之中，
@@ -222,7 +225,7 @@ Added comment  for Emacs
 <lb n="0564b11" ed="T"/>皆應身為，燒香福會，轉經行道，不得倩人，
 <lb n="0564b12" ed="T"/>呪願若虛，如倩人食，豈得自飽，能不饑耶？
 <lb n="0564b13" ed="T"/>若燒香鮮潔，逮薩云若，香攝一切相；然燈
-<lb n="0564b14" ed="T"/>續明得三達智，無所罣礙。<anchor xml:id="beg_1" type="cb-app"/>燒<anchor xml:id="end_1"/>香齋食，讀經
+<lb n="0564b14" ed="T"/>續明得三達智，無所罣礙。<anchor xml:id="beg_2" type="cb-app"/>燒<anchor xml:id="end_2"/>香齋食，讀經
 <lb n="0564b15" ed="T"/>達嚫，以為常法；布施得福，諸天接待，萬惡
 <lb n="0564b16" ed="T"/>皆却，眾魔盡除，無敢當者。懈怠之人，安隱
 <lb n="0564b17" ed="T"/>諧偶，無精進心，一朝疾病，有不吉利，便欲
@@ -271,12 +274,13 @@ Added comment  for Emacs
 <app from="#beg0563005" to="#end0563005"><lem wit="#wit1">聾</lem><rdg resp="#resp1" wit="#wit2 #wit3">聾視經法</rdg></app>
 <app from="#beg0564001" to="#end0564001"><lem wit="#wit1">不以理</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0564002" to="#end0564002"><lem wit="#wit1">不共飢者，食</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg_1" to="#end_1"><lem resp="#resp2" wit="#wit4 #wit5">肫<note type="cf1">Q20_p0125a16</note></lem><rdg wit="#wit1"><g ref="#CB03051">𧉙</g></rdg></app>
 <app from="#beg0564003" to="#end0564003"><lem wit="#wit1">蜉</lem><rdg resp="#resp1" wit="#wit2">浮</rdg></app>
 <app from="#beg0564004" to="#end0564004"><lem wit="#wit1">蟲</lem><rdg resp="#resp1" wit="#wit2 #wit3">虫</rdg></app>
 <app from="#beg0564005" to="#end0564005"><lem wit="#wit1">鴟</lem><rdg resp="#resp1" wit="#wit2 #wit3">鵄</rdg></app>
 <app from="#beg0564006" to="#end0564006"><lem wit="#wit1">鴝鵅</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0564007" to="#end0564007"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>燒</corr><sic>嬈</sic></choice>
+<choice cb:from="#beg_2" cb:to="#end_2"><corr>燒</corr><sic>嬈</sic></choice>
 <app from="#beg0564008" to="#end0564008"><lem wit="#wit1">拘</lem><rdg resp="#resp1" wit="#wit2 #wit3">俱</rdg></app>
 <app from="#beg0564009" to="#end0564009"><lem wit="#wit1">萬</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0564010" to="#end0564010"><lem wit="#wit1">誰</lem><rdg resp="#resp1" wit="#wit2">惟</rdg></app>

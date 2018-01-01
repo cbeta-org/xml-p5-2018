@@ -103,7 +103,7 @@ add cvs log
 <lb n="0757a21" ed="T"/>
 <lb n="0757a22" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead><title><anchor xml:id="nkr_note_orig_0757005" n="0757005"/><anchor xml:id="beg0757005" n="0757005"/>金剛<anchor xml:id="end0757005"/>般若波羅蜜經</title></cb:jhead></cb:juan>
 <lb n="0757a23" ed="T"/>
-<lb n="0757a24" ed="T"/><byline>元魏留支三藏奉　詔譯</byline>
+<lb n="0757a24" ed="T"/><anchor xml:id="nkr_1"/><byline>元魏留支三藏奉　詔譯</byline>
 <lb n="0757a25" ed="T"/><cb:div type="jing"><p xml:id="pT08p0757a2501">如是我聞：</p><p xml:id="pT08p0757a2505" rend="inline">一時佛婆伽婆，住舍衛國祇陀
 <lb n="0757a26" ed="T"/>樹林給孤獨園。與大比丘眾千二百五十
 <lb n="0757a27" ed="T"/>人俱。爾時世尊，於日前分，著衣持鉢，入
@@ -131,13 +131,13 @@ add cvs log
 <lb n="0757b19" ed="T"/>善男子、善女人發菩提心行菩薩乘，應如
 <lb n="0757b20" ed="T"/>是發心：『所有一切眾生類攝，若卵生、若胎
 <lb n="0757b21" ed="T"/>生、若濕生、若化生，若有色、若無色，若有想、
-<lb n="0757b22" ed="T"/>若無想，若非有<anchor xml:id="beg_1" type="cb-app"/>想<anchor xml:id="end_1"/>、若非無想，乃至眾生界
+<lb n="0757b22" ed="T"/>若無想，若非有<anchor xml:id="beg_2" type="cb-app"/>想<anchor xml:id="end_2"/>、若非無想，乃至眾生界
 <lb n="0757b23" ed="T"/>及假名說，如是眾生，我皆安置於無餘涅
 <lb n="0757b24" ed="T"/>槃。』如是般涅槃無量眾生已，無一眾生被
 <lb n="0757b25" ed="T"/>涅槃者。何以故？須菩提，若菩薩有眾生想，
 <lb n="0757b26" ed="T"/>即不應說名為菩薩。何以故？須菩提！一切
 <lb n="0757b27" ed="T"/>菩薩無我想、眾生想、壽者想、受者想。</p><p xml:id="pT08p0757b2715" rend="inline">「復次，
-<lb n="0757b28" ed="T"/>須菩提！菩<anchor xml:id="beg_2" type="cb-app"/>薩<anchor xml:id="end_2"/>不著己類而行布施，不著所
+<lb n="0757b28" ed="T"/>須菩提！菩<anchor xml:id="beg_3" type="cb-app"/>薩<anchor xml:id="end_3"/>不著己類而行布施，不著所
 <lb n="0757b29" ed="T"/>餘行於布施，不著色、聲、香、味、觸、法應行布
 <pb n="0757c" xml:id="T08.0236b.0757c" ed="T"/>
 <lb n="0757c01" ed="T"/>施。須菩提！菩薩應如是行施不著相想。何
@@ -358,7 +358,7 @@ add cvs log
 <lb n="0760a06" ed="T"/>發起菩薩心？」</p><p xml:id="pT08p0760a0606" rend="inline">佛告須菩提：「善男子、善女人，
 <lb n="0760a07" ed="T"/>發阿耨多羅三藐三菩提心者，當生如是
 <lb n="0760a08" ed="T"/>心：『我應安置一切眾生，令入無餘涅槃。如
-<lb n="0760a09" ed="T"/>是<anchor xml:id="beg_3" type="cb-app"/>般<anchor xml:id="end_3"/>涅槃無量眾生已，無一眾生被涅槃
+<lb n="0760a09" ed="T"/>是<anchor xml:id="beg_4" type="cb-app"/>般<anchor xml:id="end_4"/>涅槃無量眾生已，無一眾生被涅槃
 <lb n="0760a10" ed="T"/>者。』何以故？須菩提！若菩薩有眾生想，則
 <lb n="0760a11" ed="T"/>不應說名為菩薩。何以故？須菩提！實無有
 <lb n="0760a12" ed="T"/>法名為能行菩薩上乘。須菩提！汝意云何？
@@ -535,10 +535,16 @@ add cvs log
 <head>校註</head>
 <p>
 <app from="#beg0757005" to="#end0757005"><lem wit="#wit1">金剛</lem><rdg resp="#resp1" wit="#wit2">佛說金剛</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>想</corr><sic>相</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>薩</corr><sic>提</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>想</corr><sic>相</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>薩</corr><sic>提</sic></choice>
 <app from="#beg0759001" to="#end0759001"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2">中</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_3" cb:to="#end_3"><corr>般<note type="cf1">T08n0236bp0757b24</note><note type="cf2">T08n0237_p0764c14</note></corr><sic>槃</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_4" cb:to="#end_4"><corr>般<note type="cf1">T08n0236bp0757b24</note><note type="cf2">T08n0237_p0764c14</note></corr><sic>槃</sic></choice>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note resp="#resp2" target="#nkr_1">CBETA按：此經疑為真諦譯本。</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
