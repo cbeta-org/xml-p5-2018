@@ -14,6 +14,7 @@
                 <edition>$Revision: 1.12 $<date>$Date: 2012/08/27 03:14:49 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,6 +37,8 @@
 		<witness xml:id="wit3">【宮】</witness>
 		<witness xml:id="wit4">【宋】</witness>
 		<witness xml:id="wit5">【元】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -170,15 +173,15 @@ Added comment  for Emacs
 <lb n="0514c29" ed="T"/>得隨意生。若觀我見，不離道諦，即得彼法，所
 <pb n="0515a" ed="T" xml:id="T14.0472.0515a"/>
 <lb n="0515a01" ed="T"/>作隨意。復於彼法，憶念無惑，於一切法，心無
-<lb n="0515a02" ed="T"/>差別，能如是知，即得遠離不信、<anchor xml:id="beg_1" type="cb-app"/>疑<anchor xml:id="end_1"/>惑、毀謗、
-<lb n="0515a03" ed="T"/>讚歎，得此解脫一切我苦。我於是時，無有少
+<lb n="0515a02" ed="T"/>差別，能如是知，即得遠離不信、<anchor xml:id="beg_1" type="cb-app"/>疑<anchor xml:id="end_1"/>惑、毀謗，
+<lb n="0515a03" ed="T"/>讚歎得此，解脫一切我苦。我於是時，無有少
 <lb n="0515a04" ed="T"/>分，而難作者。若阿羅漢能知此我，彼臨命終
 <lb n="0515a05" ed="T"/>時，自見所生，棄捨本心得佛菩提，隨意所樂
 <lb n="0515a06" ed="T"/>自在而往，即得至於無為界故，彼得此苦智、
 <lb n="0515a07" ed="T"/>法智。若了知我集一切法，生不信心，疑惑、誹
 <lb n="0515a08" ed="T"/>謗、種種怖畏。若不信此法，盡此集故，彼作是
 <lb n="0515a09" ed="T"/>思惟，決定滅諦。</p><p xml:id="pT14p0515a0907" rend="inline">「彼復思惟，此法應如是作，得
-<lb n="0515a10" ed="T"/>滅諦故。是法若作此，決定滅作，是決定彼意，
+<lb n="0515a10" ed="T"/>滅諦故。是法若作，此決定滅，作是決定。彼意
 <lb n="0515a11" ed="T"/>心生疑惑，命終之後墮大地獄中，云何名如
 <lb n="0515a12" ed="T"/>實思惟？生一切法故。」</p>
 <lb n="0515a13" ed="T"/><p xml:id="pT14p0515a1301">爾時文殊師利童子白佛言：「世尊！云何見四
@@ -272,7 +275,7 @@ Added comment  for Emacs
 <lb n="0516a11" ed="T"/>法，離諸罣礙、非離罣礙，心無所著，是為正思
 <lb n="0516a12" ed="T"/>惟。文殊師利！若見一切法，無有邊際，稱無邊
 <lb n="0516a13" ed="T"/>際，平等善說，是為正語。文殊師利！若見一切
-<lb n="0516a14" ed="T"/>法，無有動作，離悲<anchor xml:id="nkr_note_orig_0516001" n="0516001"/><anchor xml:id="nkr_note_mod_0516001" n="0516001"/><anchor xml:id="beg0516001" n="0516001"/><g ref="#CB02821">𭞠</g><anchor xml:id="end0516001"/>心，本不生故，是為
+<lb n="0516a14" ed="T"/>法，無有動作，離悲<anchor xml:id="nkr_note_orig_0516001" n="0516001"/><anchor xml:id="nkr_note_mod_0516001" n="0516001"/><anchor xml:id="beg0516001" n="0516001"/>慜<anchor xml:id="end0516001"/>心，本不生故，是為
 <lb n="0516a15" ed="T"/>正業。文殊師利！若於一切法，無喜、無瞋，諸法
 <lb n="0516a16" ed="T"/>不生，是為正命。文殊師利！若於一切法，無有
 <lb n="0516a17" ed="T"/>起滅、無有力用，是為正精進。文殊師利！若於
@@ -320,7 +323,7 @@ Added comment  for Emacs
 <app from="#beg0514007" to="#end0514007"><lem wit="#wit1">涅盤</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit2 #wit3">涅槃</rdg></app>
 <choice cb:from="#beg_1" cb:to="#end_1"><corr>疑</corr><sic>癡</sic></choice>
 <app from="#beg0515001" to="#end0515001"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit5">苦</rdg></app>
-<app from="#beg0516001" to="#end0516001"><lem wit="#wit1"><g ref="#CB02821">𭞠</g></lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit2 #wit3">愍</rdg></app>
+<app from="#beg0516001" to="#end0516001"><lem wit="#wit6 #wit7" resp="#resp3">慜<note type="cf1">K33n1099_p0879c08</note></lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit2 #wit3">愍</rdg><rdg wit="#wit1"><g ref="#CB02821">𭞠</g></rdg></app>
 <app from="#beg0516002" to="#end0516002"><lem wit="#wit1">于</lem><rdg resp="#resp1" wit="#wit2">於</rdg></app>
 <app from="#beg0516003" to="#end0516003"><lem wit="#wit1">振</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit2 #wit3">震</rdg></app>
 <app from="#beg0516004" to="#end0516004"><lem wit="#wit1">達</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit2 #wit3">闥</rdg></app>
@@ -331,7 +334,7 @@ Added comment  for Emacs
 <head>CBETA 校註</head>
 <p>
 <note n="0514007" resp="#resp2" type="mod" target="#nkr_note_mod_0514007">涅盤＝涅槃【宋】【元】【明】【宮】下同</note>
-<note n="0516001" resp="#resp2" type="mod" target="#nkr_note_mod_0516001"><g ref="#CB02821">𭞠</g>＝愍【宋】【元】【明】【宮】</note>
+<note n="0516001" resp="#resp2" type="mod" target="#nkr_note_mod_0516001"><g ref="#CB02821">𭞠</g>＝愍【宋】【元】【明】【宮】，＝慜【麗-CB】【CB】</note>
 <note n="0516003" resp="#resp2" type="mod" target="#nkr_note_mod_0516003">振＝震【宋】【元】【明】【宮】</note>
 <note n="0516004" resp="#resp2" type="mod" target="#nkr_note_mod_0516004">達＝闥【宋】【元】【明】【宮】</note>
 </p>
