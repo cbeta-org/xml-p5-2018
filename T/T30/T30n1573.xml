@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.12 $<date>$Date: 2009/04/23 08:07:36 $</date>新式標點</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,7 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CBETA】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -136,7 +138,7 @@ Added comment  for Emacs
 <lb n="0253a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead><title>壹輸盧迦論</title><anchor xml:id="nkr_note_orig_0253001" n="0253001"/><anchor xml:id="nkr_note_mod_0253001" n="0253001"/><anchor xml:id="beg0253001" n="0253001"/>一卷<anchor xml:id="end0253001"/></cb:jhead></cb:juan>
 <lb n="0253a04" ed="T"/>
 <lb n="0253a05" ed="T"/><byline cb:type="author">龍樹菩薩造</byline>
-<lb n="0253a06" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0253002" n="0253002"/><anchor xml:id="nkr_note_mod_0253002" n="0253002"/><anchor xml:id="beg0253002" n="0253002"/>後魏瞿曇留支<anchor xml:id="beg_1" type="cb-app"/>雒<anchor xml:id="end_1"/>陽譯<anchor xml:id="end0253002"/></byline>
+<lb n="0253a06" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0253002" n="0253002"/><anchor xml:id="nkr_note_mod_0253002" n="0253002"/><anchor xml:id="beg0253002" n="0253002"/>後魏瞿曇留支雒陽譯<anchor xml:id="end0253002"/></byline>
 <lb n="0253a07" ed="T"/><cb:div type="jing"><lg xml:id="lgT30p0253a0701"><l><anchor xml:id="nkr_note_orig_0253003" n="0253003"/><anchor xml:id="beg0253003" n="0253003"/>體自體<anchor xml:id="end0253003"/>無常，</l><l>如是體無體；</l>
 <lb n="0253a08" ed="T"/><l>自體性無體，</l><l>故說空無常。</l></lg>
 <lb n="0253a09" ed="T"/><p xml:id="pT30p0253a0901">問曰：以何義故造此一偈論？說何等義破何
@@ -204,7 +206,7 @@ Added comment  for Emacs
 <lb n="0253c11" ed="T"/>中都無此義，以非經說故不成就。非大聖修
 <lb n="0253c12" ed="T"/>多羅所說之義則不應信，是故非唯言說而
 <lb n="0253c13" ed="T"/>得取證。偈言故說空無常者，如《調伏三<anchor xml:id="nkr_note_orig_0253006" n="0253006"/><anchor xml:id="nkr_note_mod_0253006" n="0253006"/><anchor xml:id="beg0253006" n="0253006"/>蜜<anchor xml:id="end0253006"/>提
-<lb n="0253c14" ed="T"/>經》中說，佛告三<anchor xml:id="beg_2" type="star"/>蜜<anchor xml:id="end_2"/>提：「眼空、無常、無不動、無
+<lb n="0253c14" ed="T"/>經》中說，佛告三<anchor xml:id="beg_1" type="star"/>蜜<anchor xml:id="end_1"/>提：「眼空、無常、無不動、無
 <lb n="0253c15" ed="T"/>不壞、無不變。何以故？性如是故。耳鼻舌身意
 <lb n="0253c16" ed="T"/>亦復如是。」世尊於此修多羅中說空、說無常，
 <lb n="0253c17" ed="T"/>以是義故，知諸法空無常。無常無體，是故諸
@@ -216,28 +218,27 @@ Added comment  for Emacs
 <lb n="0253c23" ed="T"/>法、或言有、或言物，莫不皆是有之差別。正音
 <lb n="0253c24" ed="T"/>云私婆婆，或譯為自體體，或譯為無法有法。
 <lb n="0253c25" ed="T"/>或譯為無自性性。</p></cb:div>
-<lb n="0253c26" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title>壹輸盧迦論</title><anchor xml:id="beg_3" type="star"/>一卷<anchor xml:id="end_3"/></cb:jhead></cb:juan>
+<lb n="0253c26" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title>壹輸盧迦論</title><anchor xml:id="beg_2" type="star"/>一卷<anchor xml:id="end_2"/></cb:jhead></cb:juan>
 </body>
 <back>
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
 <app from="#beg0253001" to="#end0253001"><lem wit="#wit1">一卷</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>雒</corr><sic><g ref="#CB02336">𨿅</g></sic></choice>
-<app from="#beg0253002" to="#end0253002"><lem wit="#wit1">後魏瞿曇留支<choice><corr>雒</corr><sic><g ref="#CB02336">𨿅</g></sic></choice>陽譯</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">元魏婆羅門瞿曇般若流支於雒陽譯</rdg></app>
+<app from="#beg0253002" to="#end0253002"><lem wit="#wit6" resp="#resp3">後魏瞿曇留支雒陽譯</lem><rdg wit="#wit1">後魏瞿曇留支<g ref="#CB02336">𨿅</g>陽譯</rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">元魏婆羅門瞿曇般若流支於雒陽譯</rdg></app>
 <app from="#beg0253003" to="#end0253003"><lem wit="#wit1">體自體</lem><rdg resp="#resp1" wit="#wit4">自體性</rdg></app>
 <app from="#beg0253004" to="#end0253004"><lem wit="#wit1">憂</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">優</rdg></app>
 <app from="#beg0253005" to="#end0253005"><lem wit="#wit1">熱</lem><rdg resp="#resp1" wit="#wit4">熟</rdg></app>
 <app from="#beg0253006" to="#end0253006"><lem wit="#wit1">蜜</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">密</rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0253006"><lem wit="#wit1">蜜</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">密</rdg></app>
-<app from="#beg_3" to="#end_3" corresp="#0253001"><lem wit="#wit1">一卷</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
+<app from="#beg_1" to="#end_1" corresp="#0253006"><lem wit="#wit1">蜜</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">密</rdg></app>
+<app from="#beg_2" to="#end_2" corresp="#0253001"><lem wit="#wit1">一卷</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
 <note resp="#resp2" n="0253001" type="mod" target="#nkr_note_mod_0253001">〔一卷〕－【宋】【元】【明】【宮】＊</note>
-<note resp="#resp2" n="0253002" type="mod" target="#nkr_note_mod_0253002">後魏瞿曇留支雒陽譯＝元魏婆羅門瞿曇般若流支於雒陽譯【宋】【元】【明】【宮】</note>
+<note resp="#resp2" n="0253002" type="mod" target="#nkr_note_mod_0253002">後魏瞿曇留支<g ref="#CB02336">𨿅</g>陽譯＝元魏婆羅門瞿曇般若流支於雒陽譯【宋】【元】【明】【宮】，＝後魏瞿曇留支雒陽譯【CB】</note>
 <note resp="#resp2" n="0253004" type="mod" target="#nkr_note_mod_0253004">憂＝優【宋】【元】【明】【宮】</note>
 <note resp="#resp2" n="0253006" type="mod" target="#nkr_note_mod_0253006">蜜＝密【宋】【元】【明】【宮】＊</note>
 </p>

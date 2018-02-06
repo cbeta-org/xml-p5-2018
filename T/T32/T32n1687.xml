@@ -13,6 +13,7 @@
         <editionStmt>
                 <edition>$Revision: 1.6 $<date>$Date: 2009/04/23 08:08:32 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -32,6 +33,8 @@
         <listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【明】</witness>
+		<witness xml:id="wit3">【CBETA】</witness>
+		<witness xml:id="wit4">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -177,7 +180,7 @@ Added comment  for Emacs
 <lb n="0776b12" ed="T"/><l>如是求法者，</l><l>具戒忍功德，</l>
 <lb n="0776b13" ed="T"/><l>不虛誑於師，</l><l>當獲金剛智。</l>
 <lb n="0776b14" ed="T"/><l>若足踏師影，</l><l>獲罪如破塔，</l>
-<lb n="0776b15" ed="T"/><l>於床坐資具，</l><l>騎驀罪過足。</l>
+<lb n="0776b15" ed="T"/><l>於床坐資具，</l><l>騎驀罪過<anchor xml:id="beg_1" type="cb-app"/>是<anchor xml:id="end_1"/>。</l>
 <lb n="0776b16" ed="T"/><l>若師所教誨，</l><l>歡喜當聽受，</l>
 <lb n="0776b17" ed="T"/><l>自己或不能，</l><l>則善言啟白。</l>
 <lb n="0776b18" ed="T"/><l>由依止師故，</l><l>所作皆成就，</l>
@@ -250,6 +253,7 @@ Added comment  for Emacs
 <app from="#beg0776002" to="#end0776002"><lem wit="#wit1">惠</lem><rdg resp="#resp1" wit="#wit2">慧</rdg></app>
 <app from="#beg0776003" to="#end0776003"><lem wit="#wit1">毀</lem><rdg resp="#resp1" wit="#wit2">慢</rdg></app>
 <app from="#beg0776004" to="#end0776004"><lem wit="#wit1">蠲</lem><rdg resp="#resp1" wit="#wit2">觸</rdg></app>
+<app from="#beg_1" to="#end_1"><lem resp="#resp2" wit="#wit3 #wit4">是<note type="cf1">K41n1493_p0613a05</note></lem><rdg wit="#wit1">足</rdg></app>
 <app from="#beg0776005" to="#end0776005"><lem wit="#wit1">呿</lem><rdg resp="#resp1" wit="#wit2">欠</rdg></app>
 <app from="#beg0776006" to="#end0776006"><lem wit="#wit1">其</lem><rdg resp="#resp1" wit="#wit2">甚</rdg></app>
 </p>

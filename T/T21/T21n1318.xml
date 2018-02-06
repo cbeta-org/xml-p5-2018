@@ -13,6 +13,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:01:47 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,7 @@
 		<bibl>Taisho Tripitaka Vol. 21, No. 1318 </bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【CBETA】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -414,7 +416,7 @@ Added comment  for Emacs
 <lb n="0471c17" ed="T"/>不得食。使不均平。越佛慈濟。必須互相愛念。
 <lb n="0471c18" ed="T"/>猶如父母一子之想。語諸佛子。汝等各有父
 <lb n="0471c19" ed="T"/>母兄弟姊妹妻子眷屬善友親戚。或有事緣
-<lb n="0471c20" ed="T"/>來不得者。汝等佛子慈悲愛念。各各賚持飲
+<lb n="0471c20" ed="T"/>來不得者。汝等佛子慈悲愛念。各各<anchor xml:id="beg_1" type="cb-app"/>賫<anchor xml:id="end_1"/>持飲
 <lb n="0471c21" ed="T"/>食錢財物等。遞相布施充足飽滿。無有乏少
 <lb n="0471c22" ed="T"/>令發道意。永離三塗長越四流。當捨此身速
 <lb n="0471c23" ed="T"/>超道果。又為汝等將此淨食分為三分。一施
@@ -477,6 +479,7 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0470001" to="#end0470001"><lem resp="#resp1" wit="#wit1">□□</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">提心</rdg></app>
+<choice cb:from="#beg_1" cb:to="#end_1" cb:resp="#resp2"><corr>賫<note type="cf1">T54n2128_p0380b06</note></corr><sic>賚</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

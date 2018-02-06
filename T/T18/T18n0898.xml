@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.11 $<date>$Date: 2009/04/23 07:59:46 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,6 +34,7 @@
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
+		<witness xml:id="wit3">【CBETA】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -1539,7 +1541,7 @@ Added comment  for Emacs
 <lb n="0774a25" ed="T"/><p xml:id="pT18p0774a2501">作此法已。即成四方界。然須起坐。思念本呪
 <lb n="0774a26" ed="T"/>延請呪神。手執香爐燒香供養。想我今<anchor xml:id="nkr_note_orig_0774005" n="0774005"/><anchor xml:id="beg0774005" n="0774005"/>依<anchor xml:id="end0774005"/>呼
 <lb n="0774a27" ed="T"/>住大威神德。以身投地禮拜。思念本呪。取淨
-<lb n="0774a28" ed="T"/>水灑散身上。安坐手著胸間。默誦搯<anchor xml:id="nkr_note_orig_0774006" n="0774006"/>珠。未
+<lb n="0774a28" ed="T"/>水灑散身上。安坐手著胸間。默誦<anchor xml:id="beg_1" type="cb-app"/>掐<anchor xml:id="end_1"/><anchor xml:id="nkr_note_orig_0774006" n="0774006"/>珠。未
 <lb n="0774a29" ed="T"/>困<anchor xml:id="nkr_note_orig_0774007" n="0774007"/>之間疲倦。<anchor xml:id="nkr_note_orig_0774008" n="0774008"/>任起以取香花供養。欲出門
 <pb n="0774b" xml:id="T18.0898.0774b" ed="T"/>
 <lb n="0774b01" ed="T"/>時一心誦呪。若有散亂。其時一切毘那夜迦
@@ -1767,7 +1769,7 @@ Added comment  for Emacs
 <lb n="0776c12" ed="T"/>南杜底手執火炬。北門畫摩訶跋折羅施<anchor xml:id="nkr_note_orig_0776020" n="0776020"/>佉
 <lb n="0776c13" ed="T"/>羅那喃那。此云大金剛峯侍者。<anchor xml:id="nkr_note_orig_0776021" n="0776021"/>宜畫訖已。
 <lb n="0776c14" ed="T"/>隨其力分以辨諸具。依此奉行。</p></cb:div>
-<lb n="0776c15" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>毘奈<anchor xml:id="beg_1" type="cb-app"/>耶<anchor xml:id="end_1"/>經終</cb:jhead></cb:juan>
+<lb n="0776c15" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>毘奈<anchor xml:id="beg_2" type="cb-app"/>耶<anchor xml:id="end_2"/>經終</cb:jhead></cb:juan>
 <lb n="0776c16" ed="T"/><cb:div type="w"><p xml:id="pT18p0776c1601"><anchor xml:id="nkr_note_orig_0776022" n="0776022"/>靈雲校本末云　右奉騰寫秘密藏毘奈
 <lb n="0776c17" ed="T"/>耶經一卷　伏希後來密徒欽若淨則沙
 <lb n="0776c18" ed="T"/>界群類洽潤法澤。</p>
@@ -1780,12 +1782,13 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0774005" to="#end0774005"><lem resp="#resp1" wit="#wit1">依</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">作</rdg></app>
+<choice cb:from="#beg_1" cb:to="#end_1" cb:resp="#resp3"><corr>掐<note type="cf1">T18n0901_p0811c16</note></corr><sic>搯</sic></choice>
 <app from="#beg0774018" to="#end0774018"><lem resp="#resp1" wit="#wit1">文</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0774024" to="#end0774024"><lem wit="#wit1">闍</lem><rdg resp="#resp1" wit="#wit2">阿闍</rdg></app>
 <app from="#beg0774025" to="#end0774025"><lem resp="#resp1" wit="#wit1">壇</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">壇場</rdg></app>
 <app from="#beg0776016" to="#end0776016"><lem resp="#resp1" wit="#wit1">三焰</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">焰三</rdg></app>
 <app from="#beg0776017" to="#end0776017"><lem resp="#resp1" wit="#wit1">髮</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">髻</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>耶</corr><sic>那</sic></choice>
+<choice cb:from="#beg_2" cb:to="#end_2"><corr>耶</corr><sic>那</sic></choice>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">

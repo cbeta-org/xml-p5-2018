@@ -36,6 +36,8 @@
 		<witness xml:id="wit2">【甲】</witness>
 		<witness xml:id="wit3">【明】</witness>
 		<witness xml:id="wit4">【乙】</witness>
+		<witness xml:id="wit5">【CBETA】</witness>
+		<witness xml:id="wit6">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -588,7 +590,7 @@ Added comment  for Emacs
 <lb n="0140b12" ed="T"/><l>所須用杓類</l><l>取前小者<anchor xml:id="nkr_note_orig_0140039" n="0140039"/><anchor xml:id="beg0140039" n="0140039"/>澆<anchor xml:id="end0140039"/></l>
 <lb n="0140b13" ed="T"/><l>執已進度舒</l><l>令順於其柄</l>
 <lb n="0140b14" ed="T"/><l>檀戒及忍等</l><l>共<anchor xml:id="nkr_note_orig_0140040" n="0140040"/><anchor xml:id="beg0140040" n="0140040"/>掘<anchor xml:id="end0140040"/>禪度初</l>
-<lb n="0140b15" ed="T"/><l>定羽<anchor xml:id="nkr_note_orig_0140041" n="0140041"/><anchor xml:id="beg0140041" n="0140041"/>搯<anchor xml:id="end0140041"/>其珠</l><l>一誦一投火</l>
+<lb n="0140b15" ed="T"/><l>定羽<anchor xml:id="nkr_note_orig_0140041" n="0140041"/><anchor xml:id="nkr_note_mod_0140041" n="0140041"/><anchor xml:id="beg0140041" n="0140041"/>掐<anchor xml:id="end0140041"/>其珠</l><l>一誦一投火</l>
 <lb n="0140b16" ed="T"/><l>遍數既畢已</l><l>如前各獻<anchor xml:id="nkr_note_orig_0140042" n="0140042"/><anchor xml:id="nkr_note_mod_0140042" n="0140042"/><anchor xml:id="beg0140042" n="0140042"/>珠<anchor xml:id="end0140042"/></l>
 <lb n="0140b17" ed="T"/><l>二聖歸於壇</l><l>又<anchor xml:id="nkr_note_orig_0140043" n="0140043"/><anchor xml:id="beg0140043" n="0140043"/>誦<anchor xml:id="end0140043"/>火天<anchor xml:id="nkr_note_orig_0140044" n="0140044"/><anchor xml:id="beg0140044" n="0140044"/>祀<anchor xml:id="end0140044"/></l>
 <lb n="0140b18" ed="T"/><l>三大杓<anchor xml:id="beg_43" type="star"/>酥<anchor xml:id="end_43"/>畢</l><l>依位如其初</l>
@@ -1055,7 +1057,7 @@ Added comment  for Emacs
 <app from="#beg0140038" to="#end0140038"><lem wit="#wit1">摩</lem><rdg resp="#resp1" wit="#wit3">魔</rdg></app>
 <app from="#beg0140039" to="#end0140039"><lem wit="#wit1">澆</lem><rdg resp="#resp1" wit="#wit2">洗</rdg></app>
 <app from="#beg0140040" to="#end0140040"><lem wit="#wit1">掘</lem><rdg resp="#resp1" wit="#wit3 #wit2 #wit4">握</rdg></app>
-<app from="#beg0140041" to="#end0140041"><lem wit="#wit1">搯</lem><rdg resp="#resp1" wit="#wit3 #wit2 #wit4">掐</rdg></app>
+<app from="#beg0140041" to="#end0140041"><lem resp="#resp3" wit="#wit5 #wit6">掐<note type="cf1">K37n1356_p0220a11</note></lem><rdg wit="#wit1">搯</rdg><rdg resp="#resp1" wit="#wit3 #wit2 #wit4">掐</rdg></app>
 <app from="#beg0140042" to="#end0140042"><lem wit="#wit1">珠</lem><rdg resp="#resp1" wit="#wit2">蘇</rdg><rdg resp="#resp1" wit="#wit4">酥</rdg></app>
 <app from="#beg0140043" to="#end0140043"><lem wit="#wit1">誦</lem><rdg resp="#resp1" wit="#wit4">請</rdg></app>
 <app from="#beg0140044" to="#end0140044"><lem wit="#wit1">祀</lem><rdg resp="#resp1" wit="#wit3">禮</rdg></app>
@@ -1208,6 +1210,7 @@ Added comment  for Emacs
 <note n="0139034" resp="#resp2" type="mod" target="#nkr_note_mod_0139034">遙＝逕【明】，＝徑【乙】</note>
 <note n="0139036" resp="#resp2" type="mod" target="#nkr_note_mod_0139036">戶邊＝左傍【甲】，＝左邊ィ【乙】</note>
 <note n="0140002" resp="#resp2" type="mod" target="#nkr_note_mod_0140002">約＝納ィ【乙】，＝納ヵ【乙】</note>
+<note n="0140041" resp="#resp2" type="mod" target="#nkr_note_mod_0140041">搯＝掐【明】【甲】【乙】【麗-CB】【CB】</note>
 <note n="0140042" resp="#resp2" type="mod" target="#nkr_note_mod_0140042">珠＝蘇【甲】，＝酥【乙】</note>
 <note n="0140047" resp="#resp2" type="mod" target="#nkr_note_mod_0140047">徒＝徙【明】【乙】，＝從【甲】</note>
 <note n="0140053" resp="#resp2" type="mod" target="#nkr_note_mod_0140053">跛夜二合＝跛二合【明】，＝<g ref="#CB14658">󳥂</g>誐麼引【甲】</note>

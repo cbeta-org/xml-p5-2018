@@ -14,8 +14,7 @@
 		<edition>$Revision: 1.19 $<date>$Date: 2009/04/23 08:08:46 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -34,8 +33,8 @@
 		<bibl>Taisho Tripitaka Vol. 33, No. 1703 </bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
-		<witness xml:id="wit2">【宮】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
+		<witness xml:id="wit2">【CBETA】</witness>
+		<witness xml:id="wit3">【宮】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -1167,167 +1166,167 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2 resp3" cb:from="#beg_1" cb:to="#end_1"><corr>玘</corr><sic><g ref="#CB00215">󰃗</g></sic></choice>
+<choice cb:from="#beg_1" cb:to="#end_1" cb:resp="#resp2"><corr>玘</corr><sic><g ref="#CB00215">󰃗</g></sic></choice>
 <app cb:word-count="28" from="#beg0228002" to="#end0228002"><lem wit="#wit1">大明天界善世禪寺住持<note place="inline">臣</note>僧<note place="inline">宗泐</note>
-<lb n="0228a11" ed="T"/>演福講寺住持<note place="inline">臣</note>僧<note place="inline">如<choice cb:resp="#resp2 resp3"><corr>玘</corr><sic><g ref="#CB00215">󰃗</g></sic></choice></note>
-<lb n="0228a12" ed="T"/>奉　詔同註</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0228003" to="#end0228003"><lem wit="#wit1">尤</lem><rdg resp="#resp1" wit="#wit2">元</rdg></app>
-<app from="#beg0228004" to="#end0228004"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit2">今</rdg></app>
-<app from="#beg0228005" to="#end0228005"><lem wit="#wit1">天</lem><rdg resp="#resp1" wit="#wit2">慈氏天</rdg></app>
-<app from="#beg0228006" to="#end0228006"><lem wit="#wit1">等</lem><rdg resp="#resp1" wit="#wit2">偈</rdg></app>
+<lb n="0228a11" ed="T"/>演福講寺住持<note place="inline">臣</note>僧<note place="inline">如<choice><corr>玘</corr><sic><g ref="#CB00215">󰃗</g></sic></choice></note>
+<lb n="0228a12" ed="T"/>奉　詔同註</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0228003" to="#end0228003"><lem wit="#wit1">尤</lem><rdg resp="#resp1" wit="#wit3">元</rdg></app>
+<app from="#beg0228004" to="#end0228004"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit3">今</rdg></app>
+<app from="#beg0228005" to="#end0228005"><lem wit="#wit1">天</lem><rdg resp="#resp1" wit="#wit3">慈氏天</rdg></app>
+<app from="#beg0228006" to="#end0228006"><lem wit="#wit1">等</lem><rdg resp="#resp1" wit="#wit3">偈</rdg></app>
 <choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>給</corr><sic>結</sic></choice>
-<app from="#beg0228007" to="#end0228007"><lem resp="#resp2" wit="#wit3">給</lem><rdg wit="#wit1">結</rdg><rdg resp="#resp1" wit="#wit2">給</rdg></app>
-<app from="#beg0228008" to="#end0228008"><lem wit="#wit1">身</lem><rdg resp="#resp1" wit="#wit2">身又折己幔幢生彼福德</rdg></app>
-<app from="#beg0228009" to="#end0228009"><lem wit="#wit1">序</lem><rdg resp="#resp1" wit="#wit2">敘</rdg></app>
-<app from="#beg_3" to="#end_3" corresp="#0228009"><lem wit="#wit1">序</lem><rdg resp="#resp1" wit="#wit2">敘</rdg></app>
-<app cb:word-count="10" from="#beg0228010" to="#end0228010"><lem wit="#wit1">欲令折己慢幢生彼福德</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0228011" to="#end0228011"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2">者天竺跣足而食故</rdg></app>
-<app from="#beg0228012" to="#end0228012"><lem wit="#wit1">加</lem><rdg resp="#resp1" wit="#wit2">跏</rdg></app>
-<app from="#beg0229001" to="#end0229001"><lem wit="#wit1">雙</lem><rdg resp="#resp1" wit="#wit2">濩</rdg></app>
-<app from="#beg0229002" to="#end0229002"><lem wit="#wit1">萬</lem><rdg resp="#resp1" wit="#wit2">梵</rdg></app>
-<app cb:word-count="8" from="#beg0229003" to="#end0229003"><lem wit="#wit1">無住<lb n="0229c20" ed="T"/>行施非相見佛</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0230001" to="#end0230001"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2">此乃</rdg></app>
-<app cb:word-count="99" from="#beg0230002" to="#end0230002"><lem wit="#wit1">該乎生法二空。論云。有智慧者了<lb n="0230a14" ed="T"/>知生法二無我故。又云。生法各有四種想。想<lb n="0230a15" ed="T"/>即相也。言無復我人眾生壽者四相。此生空<lb n="0230a16" ed="T"/>也。言無法相亦無非法相者。他譯更有無相<lb n="0230a17" ed="T"/>亦非無相。此法空也。疏云。初列生空有四相。<lb n="0230a18" ed="T"/>次列法空但有兩句。法非法也。蓋譯人略之<lb n="0230a19" ed="T"/>耳</lem><rdg resp="#resp1" wit="#wit2">若有四相生信不深得法不廣其福德無量者為無此四相也無法相者相執報空也亦無非法者性執空也</rdg></app>
-<app from="#beg0230003" to="#end0230003"><lem wit="#wit1">則</lem><rdg resp="#resp1" wit="#wit2">即</rdg></app>
-<app from="#beg0230004" to="#end0230004"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2">此一節是</rdg></app>
-<app cb:word-count="18" from="#beg0230005" to="#end0230005"><lem wit="#wit1">若心取相等。此生執也。<lb n="0230a24" ed="T"/>若取法相等。此法執也</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app cb:word-count="183" from="#beg0230006" to="#end0230006"><lem wit="#wit1">此結上文而證勸也。不應取<lb n="0230a28" ed="T"/>法者。空能觀之智也。不應取非法者。空所觀<lb n="0230a29" ed="T"/>之境也。論云。法有性相尚不應取。何況非法<lb n="0230b01" ed="T"/>本無性相。又云。善如法尚不取。況不善非法。<lb n="0230b02" ed="T"/>疏云。今言法者。說五陰空為法。五陰相為非<lb n="0230b03" ed="T"/>法。即以陰空為藥名法陰。有為病名非法。陰<lb n="0230b04" ed="T"/>病既除空藥亦遣。非法既謝在法亦亡。與論<lb n="0230b05" ed="T"/>意正相<g ref="#CB04474">㳷</g>合。言筏喻者。論云。如欲濟川先應<lb n="0230b06" ed="T"/>取筏。至彼岸已捨之而去。又智論引筏喻經<lb n="0230b07" ed="T"/>云。汝等若解我筏喻法。是時善法宜應棄捨。<lb n="0230b08" ed="T"/>況不善法。斯乃無所得之要術。俾不凝滯於<lb n="0230b09" ed="T"/>物矣</lem><rdg resp="#resp1" wit="#wit2">我人眾生壽者四相該乎生法二執生即眾生假名也法乃五陰實法也亦名我我所此二執中各有性相二執此二執非性相二空妙觀不能破也故龍樹云於生於法破性破相謂於假名中破性相二執於實法中亦破性相二執也不應取法者忘能觀之智也不應取非法忘所觀之境也所觀如病觀智如藥境智俱泯如病去藥忘也言如筏喻者筏乃渡河之具到彼岸則不用之借喻法尚應捨何況非法</rdg></app>
-<app from="#beg0230007" to="#end0230007"><lem wit="#wit1">問</lem><rdg resp="#resp1" wit="#wit2">乃發問</rdg></app>
-<app cb:word-count="12" from="#beg0230008" to="#end0230008"><lem wit="#wit1">佛又言。離性布施福報雖多。而</lem><rdg resp="#resp1" wit="#wit2">然世間布施福報乃有漏因果</rdg></app>
+<app from="#beg0228007" to="#end0228007"><lem resp="#resp2" wit="#wit2">給</lem><rdg wit="#wit1">結</rdg><rdg resp="#resp1" wit="#wit3">給</rdg></app>
+<app from="#beg0228008" to="#end0228008"><lem wit="#wit1">身</lem><rdg resp="#resp1" wit="#wit3">身又折己幔幢生彼福德</rdg></app>
+<app from="#beg0228009" to="#end0228009"><lem wit="#wit1">序</lem><rdg resp="#resp1" wit="#wit3">敘</rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0228009"><lem wit="#wit1">序</lem><rdg resp="#resp1" wit="#wit3">敘</rdg></app>
+<app cb:word-count="10" from="#beg0228010" to="#end0228010"><lem wit="#wit1">欲令折己慢幢生彼福德</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0228011" to="#end0228011"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit3">者天竺跣足而食故</rdg></app>
+<app from="#beg0228012" to="#end0228012"><lem wit="#wit1">加</lem><rdg resp="#resp1" wit="#wit3">跏</rdg></app>
+<app from="#beg0229001" to="#end0229001"><lem wit="#wit1">雙</lem><rdg resp="#resp1" wit="#wit3">濩</rdg></app>
+<app from="#beg0229002" to="#end0229002"><lem wit="#wit1">萬</lem><rdg resp="#resp1" wit="#wit3">梵</rdg></app>
+<app cb:word-count="8" from="#beg0229003" to="#end0229003"><lem wit="#wit1">無住<lb n="0229c20" ed="T"/>行施非相見佛</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0230001" to="#end0230001"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit3">此乃</rdg></app>
+<app cb:word-count="99" from="#beg0230002" to="#end0230002"><lem wit="#wit1">該乎生法二空。論云。有智慧者了<lb n="0230a14" ed="T"/>知生法二無我故。又云。生法各有四種想。想<lb n="0230a15" ed="T"/>即相也。言無復我人眾生壽者四相。此生空<lb n="0230a16" ed="T"/>也。言無法相亦無非法相者。他譯更有無相<lb n="0230a17" ed="T"/>亦非無相。此法空也。疏云。初列生空有四相。<lb n="0230a18" ed="T"/>次列法空但有兩句。法非法也。蓋譯人略之<lb n="0230a19" ed="T"/>耳</lem><rdg resp="#resp1" wit="#wit3">若有四相生信不深得法不廣其福德無量者為無此四相也無法相者相執報空也亦無非法者性執空也</rdg></app>
+<app from="#beg0230003" to="#end0230003"><lem wit="#wit1">則</lem><rdg resp="#resp1" wit="#wit3">即</rdg></app>
+<app from="#beg0230004" to="#end0230004"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit3">此一節是</rdg></app>
+<app cb:word-count="18" from="#beg0230005" to="#end0230005"><lem wit="#wit1">若心取相等。此生執也。<lb n="0230a24" ed="T"/>若取法相等。此法執也</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app cb:word-count="183" from="#beg0230006" to="#end0230006"><lem wit="#wit1">此結上文而證勸也。不應取<lb n="0230a28" ed="T"/>法者。空能觀之智也。不應取非法者。空所觀<lb n="0230a29" ed="T"/>之境也。論云。法有性相尚不應取。何況非法<lb n="0230b01" ed="T"/>本無性相。又云。善如法尚不取。況不善非法。<lb n="0230b02" ed="T"/>疏云。今言法者。說五陰空為法。五陰相為非<lb n="0230b03" ed="T"/>法。即以陰空為藥名法陰。有為病名非法。陰<lb n="0230b04" ed="T"/>病既除空藥亦遣。非法既謝在法亦亡。與論<lb n="0230b05" ed="T"/>意正相<g ref="#CB04474">㳷</g>合。言筏喻者。論云。如欲濟川先應<lb n="0230b06" ed="T"/>取筏。至彼岸已捨之而去。又智論引筏喻經<lb n="0230b07" ed="T"/>云。汝等若解我筏喻法。是時善法宜應棄捨。<lb n="0230b08" ed="T"/>況不善法。斯乃無所得之要術。俾不凝滯於<lb n="0230b09" ed="T"/>物矣</lem><rdg resp="#resp1" wit="#wit3">我人眾生壽者四相該乎生法二執生即眾生假名也法乃五陰實法也亦名我我所此二執中各有性相二執此二執非性相二空妙觀不能破也故龍樹云於生於法破性破相謂於假名中破性相二執於實法中亦破性相二執也不應取法者忘能觀之智也不應取非法忘所觀之境也所觀如病觀智如藥境智俱泯如病去藥忘也言如筏喻者筏乃渡河之具到彼岸則不用之借喻法尚應捨何況非法</rdg></app>
+<app from="#beg0230007" to="#end0230007"><lem wit="#wit1">問</lem><rdg resp="#resp1" wit="#wit3">乃發問</rdg></app>
+<app cb:word-count="12" from="#beg0230008" to="#end0230008"><lem wit="#wit1">佛又言。離性布施福報雖多。而</lem><rdg resp="#resp1" wit="#wit3">然世間布施福報乃有漏因果</rdg></app>
 <choice cb:from="#beg_4" cb:to="#end_4"><corr>人</corr><sic>入</sic></choice>
-<app from="#beg0230009" to="#end0230009"><lem wit="#wit1">其</lem><rdg resp="#resp1" wit="#wit2">所以其</rdg></app>
-<app from="#beg0230010" to="#end0230010"><lem wit="#wit1">然持經福勝者</lem><rdg resp="#resp1" wit="#wit2">其故何哉</rdg></app>
-<app from="#beg0230011" to="#end0230011"><lem wit="#wit1">上無為<lb n="0230c21" ed="T"/>法</lem><rdg resp="#resp1" wit="#wit2">第三疑中</rdg></app>
-<app cb:word-count="12" from="#beg0231001" to="#end0231001"><lem wit="#wit1">無無學所證之<lb n="0231a20" ed="T"/>相也。若言有證</lem><rdg resp="#resp1" wit="#wit2">不著於無學果位若著於此</rdg></app>
-<app cb:word-count="18" from="#beg0231002" to="#end0231002"><lem wit="#wit1">離惑<lb n="0231b04" ed="T"/>則不著有相。離智則不著無相。故無諍也</lem><rdg resp="#resp1" wit="#wit2">離智則不著於法離惑則不著於非法</rdg></app>
-<app from="#beg0231003" to="#end0231003"><lem wit="#wit1">無所</lem><rdg resp="#resp1" wit="#wit2">言實無</rdg></app>
-<app from="#beg0231004" to="#end0231004"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2">此段</rdg></app>
-<app from="#beg0231005" to="#end0231005"><lem wit="#wit1">迷</lem><rdg resp="#resp1" wit="#wit2">述</rdg></app>
-<app cb:word-count="15" from="#beg0231006" to="#end0231006"><lem wit="#wit1">行嚴土。行乃無作。<lb n="0231b25" ed="T"/>土亦非嚴。非嚴而嚴</lem><rdg resp="#resp1" wit="#wit2">梵行莊嚴是無作行稱性莊嚴</rdg></app>
-<app from="#beg0231007" to="#end0231007"><lem wit="#wit1">告</lem><rdg resp="#resp1" wit="#wit2">囑</rdg></app>
-<app from="#beg0231008" to="#end0231008"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit2">是</rdg></app>
-<app cb:word-count="10" from="#beg0231009" to="#end0231009"><lem wit="#wit1">增勝而論。<lb n="0231c25" ed="T"/>格量持說之功</lem><rdg resp="#resp1" wit="#wit2">前少後多蓋漸化眾生令起信心故也</rdg></app>
-<app from="#beg0232001" to="#end0232001"><lem wit="#wit1">天人固當敬之如佛塔廟。況能<lb n="0232a04" ed="T"/>具足持誦者耶</lem><rdg resp="#resp1" wit="#wit2">成就最上第一希有之法者成無上佛果菩提也</rdg></app>
-<app from="#beg0232002" to="#end0232002"><lem wit="#wit1">成就最上第一希有之法者。<lb n="0232a05" ed="T"/>成無上佛果菩提也</lem><rdg resp="#resp1" wit="#wit2">天人固當敬之如佛塔廟況能具足持誦者耶</rdg></app>
-<app from="#beg0232003" to="#end0232003"><lem wit="#wit1">若是經典等者</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app cb:word-count="19" from="#beg0232004" to="#end0232004"><lem wit="#wit1">即佛之所在。持說之人即佛弟子。可不崇<lb n="0232a07" ed="T"/>敬乎哉</lem><rdg resp="#resp1" wit="#wit2">之處固當敬之如佛現在若尊重弟子者若猶及也言說經弟子亦當重之蓋能續佛慧命故也</rdg></app>
-<app from="#beg0232005" to="#end0232005"><lem wit="#wit1">持經成就</lem><rdg resp="#resp1" wit="#wit2">是</rdg></app>
-<app from="#beg0232006" to="#end0232006"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2">法則生忻樂</rdg></app>
-<app cb:word-count="8" from="#beg0232007" to="#end0232007"><lem wit="#wit1">此經何名云何受持</lem><rdg resp="#resp1" wit="#wit2">經名及受持之法</rdg></app>
-<app from="#beg0232008" to="#end0232008"><lem wit="#wit1">當</lem><rdg resp="#resp1" wit="#wit2">當如是</rdg></app>
-<app from="#beg0232009" to="#end0232009"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0232010" to="#end0232010"><lem wit="#wit1">斷執</lem><rdg resp="#resp1" wit="#wit2">能斷疑執</rdg></app>
-<app from="#beg0232011" to="#end0232011"><lem wit="#wit1">誥</lem><rdg resp="#resp1" wit="#wit2">詰</rdg></app>
-<app from="#beg0232012" to="#end0232012"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0232013" to="#end0232013"><lem wit="#wit1">即</lem><rdg resp="#resp1" wit="#wit2">節</rdg></app>
-<app from="#beg0232014" to="#end0232014"><lem wit="#wit1">非離性。則</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0232015" to="#end0232015"><lem wit="#wit1">有為福<lb n="0232a27" ed="T"/>報故。此</lem><rdg resp="#resp1" wit="#wit2">流轉生死</rdg></app>
-<app from="#beg0232016" to="#end0232016"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0232017" to="#end0232017"><lem wit="#wit1">塵界</lem><rdg resp="#resp1" wit="#wit2">微塵</rdg></app>
-<app cb:word-count="9" from="#beg0232018" to="#end0232018"><lem wit="#wit1">是名微塵。是名世界者</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0232019" to="#end0232019"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2">非法</rdg></app>
-<app cb:word-count="8" from="#beg0232020" to="#end0232020"><lem wit="#wit1">應既即法法全是<lb n="0232b10" ed="T"/>應</lem><rdg resp="#resp1" wit="#wit2">有感即應</rdg></app>
-<app cb:word-count="10" from="#beg0232021" to="#end0232021"><lem wit="#wit1">佛身相。但是應身。不及持</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0232022" to="#end0232022"><lem wit="#wit1">之經</lem><rdg resp="#resp1" wit="#wit2">經典</rdg></app>
-<app from="#beg0232023" to="#end0232023"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit2">以</rdg></app>
-<app from="#beg0232024" to="#end0232024"><lem wit="#wit1">若人聞經</lem><rdg resp="#resp1" wit="#wit2">蓋由</rdg></app>
-<app from="#beg0232025" to="#end0232025"><lem wit="#wit1">直</lem><rdg resp="#resp1" wit="#wit2">值</rdg></app>
-<app cb:word-count="10" from="#beg0232026" to="#end0232026"><lem wit="#wit1">即是非<lb n="0232c10" ed="T"/>相。非相即實相也</lem><rdg resp="#resp1" wit="#wit2">即我空也言非相者即法空也</rdg></app>
-<app from="#beg0232027" to="#end0232027"><lem wit="#wit1">法本無說</lem><rdg resp="#resp1" wit="#wit2">猶</rdg></app>
-<app from="#beg0232028" to="#end0232028"><lem wit="#wit1">著</lem><rdg resp="#resp1" wit="#wit2">著其法本離言說</rdg></app>
-<app from="#beg0232029" to="#end0232029"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit2">第七疑中</rdg></app>
-<app from="#beg0233001" to="#end0233001"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0233002" to="#end0233002"><lem wit="#wit1">畋</lem><rdg resp="#resp1" wit="#wit2">田</rdg></app>
-<app from="#beg0233003" to="#end0233003"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg_5" to="#end_5" corresp="#0233001"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0233004" to="#end0233004"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit2">當</rdg></app>
-<app from="#beg0233005" to="#end0233005"><lem wit="#wit1">能<lb n="0233a22" ed="T"/>住菩提</lem><rdg resp="#resp1" wit="#wit2">即菩提因</rdg></app>
-<app from="#beg0233006" to="#end0233006"><lem wit="#wit1">則非住佛道矣</lem><rdg resp="#resp1" wit="#wit2">不名菩薩故曰非住</rdg></app>
-<app from="#beg0233007" to="#end0233007"><lem wit="#wit1">則非無住。下復遣著</lem><rdg resp="#resp1" wit="#wit2">又非妙行</rdg></app>
-<app from="#beg0233008" to="#end0233008"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit2">第八疑中</rdg></app>
-<app from="#beg0233009" to="#end0233009"><lem wit="#wit1">解</lem><rdg resp="#resp1" wit="#wit2">古</rdg></app>
-<app from="#beg0233010" to="#end0233010"><lem wit="#wit1">真如</lem><rdg resp="#resp1" wit="#wit2">如徧</rdg></app>
-<app from="#beg0233011" to="#end0233011"><lem wit="#wit1">從前不住<lb n="0233b12" ed="T"/>相</lem><rdg resp="#resp1" wit="#wit2">遠從第三疑中一切賢聖皆以無為法得名</rdg></app>
-<app from="#beg0233012" to="#end0233012"><lem wit="#wit1">通指衍門三教<lb n="0233c23" ed="T"/>之人也</lem><rdg resp="#resp1" wit="#wit2">元住大乘之人也</rdg></app>
-<app cb:word-count="12" from="#beg0233013" to="#end0233013"><lem wit="#wit1">的指圓頓之人。能生<lb n="0233c24" ed="T"/>信解者也</lem><rdg resp="#resp1" wit="#wit2">初聞最妙大乘而能信解之人也</rdg></app>
-<app from="#beg0234001" to="#end0234001"><lem wit="#wit1">但被輕賤</lem><rdg resp="#resp1" wit="#wit2">轉重為輕</rdg></app>
-<app from="#beg0234002" to="#end0234002"><lem wit="#wit1">蓋</lem><rdg resp="#resp1" wit="#wit2">何然</rdg></app>
-<app from="#beg0234003" to="#end0234003"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit2">較以</rdg></app>
-<app from="#beg0234004" to="#end0234004"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit2">者以此</rdg></app>
-<app from="#beg0234005" to="#end0234005"><lem wit="#wit1">聞</lem><rdg resp="#resp1" wit="#wit2">問</rdg></app>
-<app from="#beg0234006" to="#end0234006"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit2">第十一疑中</rdg></app>
-<app cb:word-count="14" from="#beg0234007" to="#end0234007"><lem wit="#wit1">上釋<lb n="0234c16" ed="T"/>迦於然燈行因實無有得而來</lem><rdg resp="#resp1" wit="#wit2">第十二疑中來</rdg></app>
-<app from="#beg0234008" to="#end0234008"><lem wit="#wit1">實</lem><rdg resp="#resp1" wit="#wit2">寔</rdg></app>
-<app from="#beg0235001" to="#end0235001"><lem wit="#wit1">修行嚴土</lem><rdg resp="#resp1" wit="#wit2">修習梵行淨佛國土</rdg></app>
-<app from="#beg0235002" to="#end0235002"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0235003" to="#end0235003"><lem wit="#wit1">故云</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app cb:word-count="15" from="#beg0235004" to="#end0235004"><lem wit="#wit1">上菩<lb n="0235a28" ed="T"/>薩不見眾生可度佛土可淨而來</lem><rdg resp="#resp1" wit="#wit2">第十四疑中來</rdg></app>
-<app from="#beg0235005" to="#end0235005"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit2">唯</rdg></app>
-<app from="#beg0235006" to="#end0235006"><lem wit="#wit1">下</lem><rdg resp="#resp1" wit="#wit2">者</rdg></app>
-<app from="#beg0235007" to="#end0235007"><lem wit="#wit1">釋</lem><rdg resp="#resp1" wit="#wit2">起</rdg></app>
-<app from="#beg0235008" to="#end0235008"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit2">而釋之</rdg></app>
-<app from="#beg0235009" to="#end0235009"><lem wit="#wit1">蓋三世之心</lem><rdg resp="#resp1" wit="#wit2">三世心者虛妄生滅心也求之皆不可得蓋</rdg></app>
-<app from="#beg0235010" to="#end0235010"><lem wit="#wit1">上心<lb n="0235b29" ed="T"/>住顛倒而來</lem><rdg resp="#resp1" wit="#wit2">第十五疑中來</rdg></app>
-<app from="#beg0235011" to="#end0235011"><lem wit="#wit1">實</lem><rdg resp="#resp1" wit="#wit2">寔</rdg></app>
-<app cb:word-count="11" from="#beg0235012" to="#end0235012"><lem wit="#wit1">前如<lb n="0235c12" ed="T"/>來者即諸法如義而來</lem><rdg resp="#resp1" wit="#wit2">第三疑中無為得名而來</rdg></app>
-<app from="#beg0235013" to="#end0235013"><lem wit="#wit1">上身<lb n="0235c28" ed="T"/>相不可得見而來</lem><rdg resp="#resp1" wit="#wit2">第十疑中即非身相而來</rdg></app>
-<app from="#beg0236001" to="#end0236001"><lem wit="#wit1">於未來世</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0236002" to="#end0236002"><lem wit="#wit1">下文又徵釋之</lem><rdg resp="#resp1" wit="#wit2">又自釋云</rdg></app>
-<app cb:word-count="11" from="#beg0236003" to="#end0236003"><lem wit="#wit1">牒上文非眾生非<lb n="0236a21" ed="T"/>不眾生也</lem><rdg resp="#resp1" wit="#wit2">言凡夫眾生也</rdg></app>
-<app from="#beg0236004" to="#end0236004"><lem wit="#wit1">無法得阿耨菩提而</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0236005" to="#end0236005"><lem wit="#wit1">為正覺</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0236006" to="#end0236006"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit2">無</rdg></app>
-<app from="#beg0236007" to="#end0236007"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit2">第十九疑中</rdg></app>
-<app from="#beg0236008" to="#end0236008"><lem wit="#wit1">是無記法</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0236009" to="#end0236009"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit2">耶蓋所說之法是無記故</rdg></app>
-<app from="#beg0236010" to="#end0236010"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2">一言無記者謂</rdg></app>
-<app from="#beg0236011" to="#end0236011"><lem wit="#wit1">蓋佛</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0236012" to="#end0236012"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit2">相也</rdg></app>
+<app from="#beg0230009" to="#end0230009"><lem wit="#wit1">其</lem><rdg resp="#resp1" wit="#wit3">所以其</rdg></app>
+<app from="#beg0230010" to="#end0230010"><lem wit="#wit1">然持經福勝者</lem><rdg resp="#resp1" wit="#wit3">其故何哉</rdg></app>
+<app from="#beg0230011" to="#end0230011"><lem wit="#wit1">上無為<lb n="0230c21" ed="T"/>法</lem><rdg resp="#resp1" wit="#wit3">第三疑中</rdg></app>
+<app cb:word-count="12" from="#beg0231001" to="#end0231001"><lem wit="#wit1">無無學所證之<lb n="0231a20" ed="T"/>相也。若言有證</lem><rdg resp="#resp1" wit="#wit3">不著於無學果位若著於此</rdg></app>
+<app cb:word-count="18" from="#beg0231002" to="#end0231002"><lem wit="#wit1">離惑<lb n="0231b04" ed="T"/>則不著有相。離智則不著無相。故無諍也</lem><rdg resp="#resp1" wit="#wit3">離智則不著於法離惑則不著於非法</rdg></app>
+<app from="#beg0231003" to="#end0231003"><lem wit="#wit1">無所</lem><rdg resp="#resp1" wit="#wit3">言實無</rdg></app>
+<app from="#beg0231004" to="#end0231004"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit3">此段</rdg></app>
+<app from="#beg0231005" to="#end0231005"><lem wit="#wit1">迷</lem><rdg resp="#resp1" wit="#wit3">述</rdg></app>
+<app cb:word-count="15" from="#beg0231006" to="#end0231006"><lem wit="#wit1">行嚴土。行乃無作。<lb n="0231b25" ed="T"/>土亦非嚴。非嚴而嚴</lem><rdg resp="#resp1" wit="#wit3">梵行莊嚴是無作行稱性莊嚴</rdg></app>
+<app from="#beg0231007" to="#end0231007"><lem wit="#wit1">告</lem><rdg resp="#resp1" wit="#wit3">囑</rdg></app>
+<app from="#beg0231008" to="#end0231008"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit3">是</rdg></app>
+<app cb:word-count="10" from="#beg0231009" to="#end0231009"><lem wit="#wit1">增勝而論。<lb n="0231c25" ed="T"/>格量持說之功</lem><rdg resp="#resp1" wit="#wit3">前少後多蓋漸化眾生令起信心故也</rdg></app>
+<app from="#beg0232001" to="#end0232001"><lem wit="#wit1">天人固當敬之如佛塔廟。況能<lb n="0232a04" ed="T"/>具足持誦者耶</lem><rdg resp="#resp1" wit="#wit3">成就最上第一希有之法者成無上佛果菩提也</rdg></app>
+<app from="#beg0232002" to="#end0232002"><lem wit="#wit1">成就最上第一希有之法者。<lb n="0232a05" ed="T"/>成無上佛果菩提也</lem><rdg resp="#resp1" wit="#wit3">天人固當敬之如佛塔廟況能具足持誦者耶</rdg></app>
+<app from="#beg0232003" to="#end0232003"><lem wit="#wit1">若是經典等者</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app cb:word-count="19" from="#beg0232004" to="#end0232004"><lem wit="#wit1">即佛之所在。持說之人即佛弟子。可不崇<lb n="0232a07" ed="T"/>敬乎哉</lem><rdg resp="#resp1" wit="#wit3">之處固當敬之如佛現在若尊重弟子者若猶及也言說經弟子亦當重之蓋能續佛慧命故也</rdg></app>
+<app from="#beg0232005" to="#end0232005"><lem wit="#wit1">持經成就</lem><rdg resp="#resp1" wit="#wit3">是</rdg></app>
+<app from="#beg0232006" to="#end0232006"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit3">法則生忻樂</rdg></app>
+<app cb:word-count="8" from="#beg0232007" to="#end0232007"><lem wit="#wit1">此經何名云何受持</lem><rdg resp="#resp1" wit="#wit3">經名及受持之法</rdg></app>
+<app from="#beg0232008" to="#end0232008"><lem wit="#wit1">當</lem><rdg resp="#resp1" wit="#wit3">當如是</rdg></app>
+<app from="#beg0232009" to="#end0232009"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0232010" to="#end0232010"><lem wit="#wit1">斷執</lem><rdg resp="#resp1" wit="#wit3">能斷疑執</rdg></app>
+<app from="#beg0232011" to="#end0232011"><lem wit="#wit1">誥</lem><rdg resp="#resp1" wit="#wit3">詰</rdg></app>
+<app from="#beg0232012" to="#end0232012"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0232013" to="#end0232013"><lem wit="#wit1">即</lem><rdg resp="#resp1" wit="#wit3">節</rdg></app>
+<app from="#beg0232014" to="#end0232014"><lem wit="#wit1">非離性。則</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0232015" to="#end0232015"><lem wit="#wit1">有為福<lb n="0232a27" ed="T"/>報故。此</lem><rdg resp="#resp1" wit="#wit3">流轉生死</rdg></app>
+<app from="#beg0232016" to="#end0232016"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0232017" to="#end0232017"><lem wit="#wit1">塵界</lem><rdg resp="#resp1" wit="#wit3">微塵</rdg></app>
+<app cb:word-count="9" from="#beg0232018" to="#end0232018"><lem wit="#wit1">是名微塵。是名世界者</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0232019" to="#end0232019"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit3">非法</rdg></app>
+<app cb:word-count="8" from="#beg0232020" to="#end0232020"><lem wit="#wit1">應既即法法全是<lb n="0232b10" ed="T"/>應</lem><rdg resp="#resp1" wit="#wit3">有感即應</rdg></app>
+<app cb:word-count="10" from="#beg0232021" to="#end0232021"><lem wit="#wit1">佛身相。但是應身。不及持</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0232022" to="#end0232022"><lem wit="#wit1">之經</lem><rdg resp="#resp1" wit="#wit3">經典</rdg></app>
+<app from="#beg0232023" to="#end0232023"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit3">以</rdg></app>
+<app from="#beg0232024" to="#end0232024"><lem wit="#wit1">若人聞經</lem><rdg resp="#resp1" wit="#wit3">蓋由</rdg></app>
+<app from="#beg0232025" to="#end0232025"><lem wit="#wit1">直</lem><rdg resp="#resp1" wit="#wit3">值</rdg></app>
+<app cb:word-count="10" from="#beg0232026" to="#end0232026"><lem wit="#wit1">即是非<lb n="0232c10" ed="T"/>相。非相即實相也</lem><rdg resp="#resp1" wit="#wit3">即我空也言非相者即法空也</rdg></app>
+<app from="#beg0232027" to="#end0232027"><lem wit="#wit1">法本無說</lem><rdg resp="#resp1" wit="#wit3">猶</rdg></app>
+<app from="#beg0232028" to="#end0232028"><lem wit="#wit1">著</lem><rdg resp="#resp1" wit="#wit3">著其法本離言說</rdg></app>
+<app from="#beg0232029" to="#end0232029"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit3">第七疑中</rdg></app>
+<app from="#beg0233001" to="#end0233001"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0233002" to="#end0233002"><lem wit="#wit1">畋</lem><rdg resp="#resp1" wit="#wit3">田</rdg></app>
+<app from="#beg0233003" to="#end0233003"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg_5" to="#end_5" corresp="#0233001"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0233004" to="#end0233004"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit3">當</rdg></app>
+<app from="#beg0233005" to="#end0233005"><lem wit="#wit1">能<lb n="0233a22" ed="T"/>住菩提</lem><rdg resp="#resp1" wit="#wit3">即菩提因</rdg></app>
+<app from="#beg0233006" to="#end0233006"><lem wit="#wit1">則非住佛道矣</lem><rdg resp="#resp1" wit="#wit3">不名菩薩故曰非住</rdg></app>
+<app from="#beg0233007" to="#end0233007"><lem wit="#wit1">則非無住。下復遣著</lem><rdg resp="#resp1" wit="#wit3">又非妙行</rdg></app>
+<app from="#beg0233008" to="#end0233008"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit3">第八疑中</rdg></app>
+<app from="#beg0233009" to="#end0233009"><lem wit="#wit1">解</lem><rdg resp="#resp1" wit="#wit3">古</rdg></app>
+<app from="#beg0233010" to="#end0233010"><lem wit="#wit1">真如</lem><rdg resp="#resp1" wit="#wit3">如徧</rdg></app>
+<app from="#beg0233011" to="#end0233011"><lem wit="#wit1">從前不住<lb n="0233b12" ed="T"/>相</lem><rdg resp="#resp1" wit="#wit3">遠從第三疑中一切賢聖皆以無為法得名</rdg></app>
+<app from="#beg0233012" to="#end0233012"><lem wit="#wit1">通指衍門三教<lb n="0233c23" ed="T"/>之人也</lem><rdg resp="#resp1" wit="#wit3">元住大乘之人也</rdg></app>
+<app cb:word-count="12" from="#beg0233013" to="#end0233013"><lem wit="#wit1">的指圓頓之人。能生<lb n="0233c24" ed="T"/>信解者也</lem><rdg resp="#resp1" wit="#wit3">初聞最妙大乘而能信解之人也</rdg></app>
+<app from="#beg0234001" to="#end0234001"><lem wit="#wit1">但被輕賤</lem><rdg resp="#resp1" wit="#wit3">轉重為輕</rdg></app>
+<app from="#beg0234002" to="#end0234002"><lem wit="#wit1">蓋</lem><rdg resp="#resp1" wit="#wit3">何然</rdg></app>
+<app from="#beg0234003" to="#end0234003"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit3">較以</rdg></app>
+<app from="#beg0234004" to="#end0234004"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit3">者以此</rdg></app>
+<app from="#beg0234005" to="#end0234005"><lem wit="#wit1">聞</lem><rdg resp="#resp1" wit="#wit3">問</rdg></app>
+<app from="#beg0234006" to="#end0234006"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit3">第十一疑中</rdg></app>
+<app cb:word-count="14" from="#beg0234007" to="#end0234007"><lem wit="#wit1">上釋<lb n="0234c16" ed="T"/>迦於然燈行因實無有得而來</lem><rdg resp="#resp1" wit="#wit3">第十二疑中來</rdg></app>
+<app from="#beg0234008" to="#end0234008"><lem wit="#wit1">實</lem><rdg resp="#resp1" wit="#wit3">寔</rdg></app>
+<app from="#beg0235001" to="#end0235001"><lem wit="#wit1">修行嚴土</lem><rdg resp="#resp1" wit="#wit3">修習梵行淨佛國土</rdg></app>
+<app from="#beg0235002" to="#end0235002"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0235003" to="#end0235003"><lem wit="#wit1">故云</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app cb:word-count="15" from="#beg0235004" to="#end0235004"><lem wit="#wit1">上菩<lb n="0235a28" ed="T"/>薩不見眾生可度佛土可淨而來</lem><rdg resp="#resp1" wit="#wit3">第十四疑中來</rdg></app>
+<app from="#beg0235005" to="#end0235005"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit3">唯</rdg></app>
+<app from="#beg0235006" to="#end0235006"><lem wit="#wit1">下</lem><rdg resp="#resp1" wit="#wit3">者</rdg></app>
+<app from="#beg0235007" to="#end0235007"><lem wit="#wit1">釋</lem><rdg resp="#resp1" wit="#wit3">起</rdg></app>
+<app from="#beg0235008" to="#end0235008"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit3">而釋之</rdg></app>
+<app from="#beg0235009" to="#end0235009"><lem wit="#wit1">蓋三世之心</lem><rdg resp="#resp1" wit="#wit3">三世心者虛妄生滅心也求之皆不可得蓋</rdg></app>
+<app from="#beg0235010" to="#end0235010"><lem wit="#wit1">上心<lb n="0235b29" ed="T"/>住顛倒而來</lem><rdg resp="#resp1" wit="#wit3">第十五疑中來</rdg></app>
+<app from="#beg0235011" to="#end0235011"><lem wit="#wit1">實</lem><rdg resp="#resp1" wit="#wit3">寔</rdg></app>
+<app cb:word-count="11" from="#beg0235012" to="#end0235012"><lem wit="#wit1">前如<lb n="0235c12" ed="T"/>來者即諸法如義而來</lem><rdg resp="#resp1" wit="#wit3">第三疑中無為得名而來</rdg></app>
+<app from="#beg0235013" to="#end0235013"><lem wit="#wit1">上身<lb n="0235c28" ed="T"/>相不可得見而來</lem><rdg resp="#resp1" wit="#wit3">第十疑中即非身相而來</rdg></app>
+<app from="#beg0236001" to="#end0236001"><lem wit="#wit1">於未來世</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0236002" to="#end0236002"><lem wit="#wit1">下文又徵釋之</lem><rdg resp="#resp1" wit="#wit3">又自釋云</rdg></app>
+<app cb:word-count="11" from="#beg0236003" to="#end0236003"><lem wit="#wit1">牒上文非眾生非<lb n="0236a21" ed="T"/>不眾生也</lem><rdg resp="#resp1" wit="#wit3">言凡夫眾生也</rdg></app>
+<app from="#beg0236004" to="#end0236004"><lem wit="#wit1">無法得阿耨菩提而</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0236005" to="#end0236005"><lem wit="#wit1">為正覺</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0236006" to="#end0236006"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit3">無</rdg></app>
+<app from="#beg0236007" to="#end0236007"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit3">第十九疑中</rdg></app>
+<app from="#beg0236008" to="#end0236008"><lem wit="#wit1">是無記法</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0236009" to="#end0236009"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit3">耶蓋所說之法是無記故</rdg></app>
+<app from="#beg0236010" to="#end0236010"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit3">一言無記者謂</rdg></app>
+<app from="#beg0236011" to="#end0236011"><lem wit="#wit1">蓋佛</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0236012" to="#end0236012"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit3">相也</rdg></app>
 <choice cb:from="#beg_6" cb:to="#end_6"><corr>離</corr><sic>難</sic></choice>
-<app from="#beg0236013" to="#end0236013"><lem wit="#wit1">而</lem><rdg resp="#resp1" wit="#wit2">若</rdg></app>
-<app from="#beg0237001" to="#end0237001"><lem wit="#wit1">上<lb n="0237a07" ed="T"/>不應以相觀佛而來</lem><rdg resp="#resp1" wit="#wit2">第二十二疑中來</rdg></app>
-<app from="#beg0237002" to="#end0237002"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit2">二十二疑中</rdg></app>
-<app from="#beg0237003" to="#end0237003"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit2">良</rdg></app>
-<app cb:word-count="16" from="#beg0237004" to="#end0237004"><lem wit="#wit1">應用示有動作。而法身之<lb n="0237b16" ed="T"/>體如如不動也</lem><rdg resp="#resp1" wit="#wit2">法身如如不動所有動作乃應身耳</rdg></app>
-<app cb:word-count="9" from="#beg0237005" to="#end0237005"><lem wit="#wit1">上<lb n="0237b18" ed="T"/>應有去來法無去來</lem><rdg resp="#resp1" wit="#wit2">二十四二十三二十二疑中</rdg></app>
-<app from="#beg0237006" to="#end0237006"><lem wit="#wit1">矣</lem><rdg resp="#resp1" wit="#wit2">由煩惱淨盡故也</rdg></app>
-<app cb:word-count="8" from="#beg0237007" to="#end0237007"><lem wit="#wit1">微塵全是世界。則塵</lem><rdg resp="#resp1" wit="#wit2">全微塵即是世界則界之與塵皆</rdg></app>
-<app from="#beg0237008" to="#end0237008"><lem wit="#wit1">則</lem><rdg resp="#resp1" wit="#wit2">即</rdg></app>
-<app cb:word-count="25" from="#beg0237009" to="#end0237009"><lem wit="#wit1">以離性計而說微塵。故<lb n="0237c08" ed="T"/>曰是名微塵也。此喻全法起應應即是法</lem><rdg resp="#resp1" wit="#wit2">是名微塵得此喻意則應身是全法之應</rdg></app>
-<app cb:word-count="20" from="#beg0237010" to="#end0237010"><lem wit="#wit1">若知合微<lb n="0237c15" ed="T"/>塵為世界。世界全是微塵。則世界無實性</lem><rdg resp="#resp1" wit="#wit2">前以世界是一喻法身是一世界若定是一世尊何故說三千大千世界是則世界實性了不何得</rdg></app>
-<app cb:word-count="10" from="#beg0237011" to="#end0237011"><lem wit="#wit1">以離性計而說世界。故曰</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0237012" to="#end0237012"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0237013" to="#end0237013"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2">言一</rdg></app>
-<app from="#beg0237014" to="#end0237014"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit2">乃</rdg></app>
-<app from="#beg0237015" to="#end0237015"><lem wit="#wit1">非</lem><rdg resp="#resp1" wit="#wit2">言非</rdg></app>
-<app cb:word-count="13" from="#beg0237016" to="#end0237016"><lem wit="#wit1">是名一合相<lb n="0237c19" ed="T"/>者。乃離性之一合也</lem><rdg resp="#resp1" wit="#wit2">乃離性之一合故云是名一合相</rdg></app>
-<app from="#beg0237017" to="#end0237017"><lem wit="#wit1">此喻全</lem><rdg resp="#resp1" wit="#wit2">良以即</rdg></app>
-<app from="#beg0237018" to="#end0237018"><lem wit="#wit1">不離應</lem><rdg resp="#resp1" wit="#wit2">尚叵得</rdg></app>
-<app from="#beg0237019" to="#end0237019"><lem wit="#wit1">下</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0238001" to="#end0238001"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit2">說當知法受乃告善現</rdg></app>
-<app from="#beg0238002" to="#end0238002"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0238003" to="#end0238003"><lem wit="#wit1">妄</lem><rdg resp="#resp1" wit="#wit2">要</rdg></app>
-<app from="#beg0238004" to="#end0238004"><lem wit="#wit1">上<lb n="0238a20" ed="T"/>塵喻化身是異而來</lem><rdg resp="#resp1" wit="#wit2">二十五疑中來</rdg></app>
-<app from="#beg0238005" to="#end0238005"><lem wit="#wit1">格量</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0238006" to="#end0238006"><lem wit="#wit1">下</lem><rdg resp="#resp1" wit="#wit2">以下</rdg></app>
-<app from="#beg0238007" to="#end0238007"><lem wit="#wit1">故功德無量</lem><rdg resp="#resp1" wit="#wit2">以</rdg></app>
-<app from="#beg0238008" to="#end0238008"><lem wit="#wit1">則</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0238009" to="#end0238009"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0238010" to="#end0238010"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit2">故云如如</rdg></app>
-<app from="#beg0238011" to="#end0238011"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit2">第二十六疑中</rdg></app>
-<app from="#beg0238012" to="#end0238012"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2">旨</rdg></app>
-<app from="#beg0238013" to="#end0238013"><lem wit="#wit1">實</lem><rdg resp="#resp1" wit="#wit2">寔</rdg></app>
-<app from="#beg0238014" to="#end0238014"><lem wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit2">行<note place="inline">此流通分也流通者流通般若使之不壅利益後世眾生也天親偈云佛說希有總持法不可稱量深句義從尊者聞及廣說同此福德施群生</note></rdg></app>
-<app from="#beg0238016" to="#end0238016"><lem wit="#wit1">日</lem><rdg resp="#resp1" wit="#wit2">日天界善世禪寺住持臣僧宗泐註演福天台教寺前住持臣僧如<g ref="#CB00215">󰃗</g>同註天界善世禪寺說經臣僧祖杲等校正天界善世禪寺副住持臣僧宗冐天竺靈山教寺住持臣僧弘道臥佛賢首教寺住持臣僧淨行雙林禪寺住持臣僧致凱白蓮天台教寺住持臣僧允中能仁禪寺住持臣僧本淨天童禪寺住持臣僧智昌金山禪寺住持臣僧慧明道場禪寺住持臣僧慕<g ref="#CB10673">䏈</g>廣教寺前住持臣僧大章崇壽教寺前住持臣僧是乘江心禪寺住持臣僧子勤延慶教寺住持臣僧原旻天寧禪寺住持臣僧智猷康曆二年庚申八月日重刊于臨川寺</rdg></app>
+<app from="#beg0236013" to="#end0236013"><lem wit="#wit1">而</lem><rdg resp="#resp1" wit="#wit3">若</rdg></app>
+<app from="#beg0237001" to="#end0237001"><lem wit="#wit1">上<lb n="0237a07" ed="T"/>不應以相觀佛而來</lem><rdg resp="#resp1" wit="#wit3">第二十二疑中來</rdg></app>
+<app from="#beg0237002" to="#end0237002"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit3">二十二疑中</rdg></app>
+<app from="#beg0237003" to="#end0237003"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit3">良</rdg></app>
+<app cb:word-count="16" from="#beg0237004" to="#end0237004"><lem wit="#wit1">應用示有動作。而法身之<lb n="0237b16" ed="T"/>體如如不動也</lem><rdg resp="#resp1" wit="#wit3">法身如如不動所有動作乃應身耳</rdg></app>
+<app cb:word-count="9" from="#beg0237005" to="#end0237005"><lem wit="#wit1">上<lb n="0237b18" ed="T"/>應有去來法無去來</lem><rdg resp="#resp1" wit="#wit3">二十四二十三二十二疑中</rdg></app>
+<app from="#beg0237006" to="#end0237006"><lem wit="#wit1">矣</lem><rdg resp="#resp1" wit="#wit3">由煩惱淨盡故也</rdg></app>
+<app cb:word-count="8" from="#beg0237007" to="#end0237007"><lem wit="#wit1">微塵全是世界。則塵</lem><rdg resp="#resp1" wit="#wit3">全微塵即是世界則界之與塵皆</rdg></app>
+<app from="#beg0237008" to="#end0237008"><lem wit="#wit1">則</lem><rdg resp="#resp1" wit="#wit3">即</rdg></app>
+<app cb:word-count="25" from="#beg0237009" to="#end0237009"><lem wit="#wit1">以離性計而說微塵。故<lb n="0237c08" ed="T"/>曰是名微塵也。此喻全法起應應即是法</lem><rdg resp="#resp1" wit="#wit3">是名微塵得此喻意則應身是全法之應</rdg></app>
+<app cb:word-count="20" from="#beg0237010" to="#end0237010"><lem wit="#wit1">若知合微<lb n="0237c15" ed="T"/>塵為世界。世界全是微塵。則世界無實性</lem><rdg resp="#resp1" wit="#wit3">前以世界是一喻法身是一世界若定是一世尊何故說三千大千世界是則世界實性了不何得</rdg></app>
+<app cb:word-count="10" from="#beg0237011" to="#end0237011"><lem wit="#wit1">以離性計而說世界。故曰</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0237012" to="#end0237012"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0237013" to="#end0237013"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit3">言一</rdg></app>
+<app from="#beg0237014" to="#end0237014"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit3">乃</rdg></app>
+<app from="#beg0237015" to="#end0237015"><lem wit="#wit1">非</lem><rdg resp="#resp1" wit="#wit3">言非</rdg></app>
+<app cb:word-count="13" from="#beg0237016" to="#end0237016"><lem wit="#wit1">是名一合相<lb n="0237c19" ed="T"/>者。乃離性之一合也</lem><rdg resp="#resp1" wit="#wit3">乃離性之一合故云是名一合相</rdg></app>
+<app from="#beg0237017" to="#end0237017"><lem wit="#wit1">此喻全</lem><rdg resp="#resp1" wit="#wit3">良以即</rdg></app>
+<app from="#beg0237018" to="#end0237018"><lem wit="#wit1">不離應</lem><rdg resp="#resp1" wit="#wit3">尚叵得</rdg></app>
+<app from="#beg0237019" to="#end0237019"><lem wit="#wit1">下</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0238001" to="#end0238001"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit3">說當知法受乃告善現</rdg></app>
+<app from="#beg0238002" to="#end0238002"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0238003" to="#end0238003"><lem wit="#wit1">妄</lem><rdg resp="#resp1" wit="#wit3">要</rdg></app>
+<app from="#beg0238004" to="#end0238004"><lem wit="#wit1">上<lb n="0238a20" ed="T"/>塵喻化身是異而來</lem><rdg resp="#resp1" wit="#wit3">二十五疑中來</rdg></app>
+<app from="#beg0238005" to="#end0238005"><lem wit="#wit1">格量</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0238006" to="#end0238006"><lem wit="#wit1">下</lem><rdg resp="#resp1" wit="#wit3">以下</rdg></app>
+<app from="#beg0238007" to="#end0238007"><lem wit="#wit1">故功德無量</lem><rdg resp="#resp1" wit="#wit3">以</rdg></app>
+<app from="#beg0238008" to="#end0238008"><lem wit="#wit1">則</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0238009" to="#end0238009"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg0238010" to="#end0238010"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit3">故云如如</rdg></app>
+<app from="#beg0238011" to="#end0238011"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit3">第二十六疑中</rdg></app>
+<app from="#beg0238012" to="#end0238012"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit3">旨</rdg></app>
+<app from="#beg0238013" to="#end0238013"><lem wit="#wit1">實</lem><rdg resp="#resp1" wit="#wit3">寔</rdg></app>
+<app from="#beg0238014" to="#end0238014"><lem wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit3">行<note place="inline">此流通分也流通者流通般若使之不壅利益後世眾生也天親偈云佛說希有總持法不可稱量深句義從尊者聞及廣說同此福德施群生</note></rdg></app>
+<app from="#beg0238016" to="#end0238016"><lem wit="#wit1">日</lem><rdg resp="#resp1" wit="#wit3">日天界善世禪寺住持臣僧宗泐註演福天台教寺前住持臣僧如<g ref="#CB00215">󰃗</g>同註天界善世禪寺說經臣僧祖杲等校正天界善世禪寺副住持臣僧宗冐天竺靈山教寺住持臣僧弘道臥佛賢首教寺住持臣僧淨行雙林禪寺住持臣僧致凱白蓮天台教寺住持臣僧允中能仁禪寺住持臣僧本淨天童禪寺住持臣僧智昌金山禪寺住持臣僧慧明道場禪寺住持臣僧慕<g ref="#CB10673">䏈</g>廣教寺前住持臣僧大章崇壽教寺前住持臣僧是乘江心禪寺住持臣僧子勤延慶教寺住持臣僧原旻天寧禪寺住持臣僧智猷康曆二年庚申八月日重刊于臨川寺</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0228007" resp="#resp4" type="mod" target="#nkr_note_mod_0228007"><!--CBETA todo type: ＊-->結＝給【宮】＊【CB】</note>
-<note n="0232001" resp="#resp4" type="mod" target="#nkr_note_mod_0232001">（天人固當敬之如佛塔廟況能具足持誦者耶）十八字∞（成就最上第一希有之法者成無上佛果菩提也）十九字【宮】</note>
-<note n="0232002" resp="#resp4" type="mod" target="#nkr_note_mod_0232002">（天人固當敬之如佛塔廟況能具足持誦者耶）十八字∞（成就最上第一希有之法者成無上佛果菩提也）十九字【宮】</note>
-<note n="0238014" resp="#resp4" type="mod" target="#nkr_note_mod_0238014">行＋（此流通分也流通者流通般若使之不壅利益後世眾生也天親偈云佛說希有總持法不可稱量深句義從尊者聞及廣說同此福德施群生）五十五字夾註【宮】</note>
+<note n="0228007" resp="#resp3" type="mod" target="#nkr_note_mod_0228007"><!--CBETA todo type: ＊-->結＝給【宮】＊【CB】</note>
+<note n="0232001" resp="#resp3" type="mod" target="#nkr_note_mod_0232001">（天人固當敬之如佛塔廟況能具足持誦者耶）十八字∞（成就最上第一希有之法者成無上佛果菩提也）十九字【宮】</note>
+<note n="0232002" resp="#resp3" type="mod" target="#nkr_note_mod_0232002">（天人固當敬之如佛塔廟況能具足持誦者耶）十八字∞（成就最上第一希有之法者成無上佛果菩提也）十九字【宮】</note>
+<note n="0238014" resp="#resp3" type="mod" target="#nkr_note_mod_0238014">行＋（此流通分也流通者流通般若使之不壅利益後世眾生也天親偈云佛說希有總持法不可稱量深句義從尊者聞及廣說同此福德施群生）五十五字夾註【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

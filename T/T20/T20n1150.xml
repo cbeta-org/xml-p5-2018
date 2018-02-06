@@ -13,6 +13,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:01:22 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -1275,7 +1276,7 @@ Added comment  for Emacs
 <lb n="0609b10" ed="T"/>祕蜜祕勝最密中祕密摧魔怨敵法。唯願世
 <lb n="0609b11" ed="T"/>尊哀愍聽許。佛言便說。世尊若有隣國擾侵
 <lb n="0609b12" ed="T"/>國界。或自國內軍眾寡少。或復怯弱。或有不
-<lb n="0609b13" ed="T"/>臣起惡叛逆。即應取苦揀木而作一幢。長十
+<lb n="0609b13" ed="T"/>臣起惡叛逆。即應取苦<anchor xml:id="beg_1" type="cb-app"/>楝<anchor xml:id="end_1"/>木而作一幢。長十
 <lb n="0609b14" ed="T"/>二指周圓八指削令極圓。如世尊所勅。一切
 <lb n="0609b15" ed="T"/>天龍八部。令護諸國護諸國王。及護國界一
 <lb n="0609b16" ed="T"/>切有情。為除災禍令得安樂。若難起時。皆圖
@@ -1392,6 +1393,7 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>楝<note type="cf1">T19n0981_p0411a29</note></corr><sic>揀</sic></choice>
 <app from="#beg0609006" to="#end0609006"><lem resp="#resp1" wit="#wit1">圖</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">塗</rdg></app>
 </p>
 </cb:div>

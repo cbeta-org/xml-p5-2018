@@ -975,15 +975,6 @@
 	<mapping type="unicode">U+20C8E</mapping>
 	<mapping cb:dec="984057" type="PUA">U+F03F9</mapping>
 </char>
-<char xml:id="CB01020">
-	<charName>CBETA CHARACTER CB01020</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[口*專]</value>
-	</charProp>
-	<mapping type="unicode">U+2D27E</mapping>
-	<mapping cb:dec="984060" type="PUA">U+F03FC</mapping>
-</char>
 <char xml:id="CB01021">
 	<charName>CBETA CHARACTER CB01021</charName>
 	<charProp>
@@ -1702,6 +1693,14 @@
 	</charProp>
 	<mapping type="unicode">U+3F3E</mapping>
 	<mapping cb:dec="984840" type="PUA">U+F0708</mapping>
+</char>
+<char xml:id="CB01829">
+	<charName>CBETA CHARACTER CB01829</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[口*(十/田/寸)]</value>
+	</charProp>
+	<mapping cb:dec="984869" type="PUA">U+F0725</mapping>
 </char>
 <char xml:id="CB01834">
 	<charName>CBETA CHARACTER CB01834</charName>
@@ -14296,7 +14295,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0001c20"/><entry><form>唱<g ref="#CB16765">󴅽</g></form><cb:def><p xml:id="pC057p0001c2003" rend="margin-left:1em;inline">此言訛也正言娑度此譯云善哉。</p></cb:def></entry>
 <lb ed="C" n="0001c21"/><entry><form>整畟</form><cb:def><p xml:id="pC057p0001c2103" rend="margin-left:1em;inline">楚力反畟謂正方也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0001c22"/><cb:div type="other"><cb:mulu type="其他" level="3">第四卷</cb:mulu><head>第四卷</head>
-<lb ed="C" n="0001c23"/><entry><form>棟木</form><cb:def><p xml:id="pC057p0001c2303" rend="margin-left:1em;inline">力見反棟木子如指白而粘可
+<lb ed="C" n="0001c23"/><entry><form><anchor xml:id="beg_1" type="cb-app"/>徙<anchor xml:id="end_1"/>木</form><cb:def><p xml:id="pC057p0001c2303" rend="margin-left:1em;inline">力見反<anchor xml:id="beg_2" type="cb-app"/>徙<anchor xml:id="end_2"/>木子如指白而粘可
 <pb ed="C" xml:id="C057.1163.0002a" n="0002a"/>
 <lb ed="C" n="0002a01"/>以<g ref="#CB08976">𣴟</g>衣也。</p></cb:def></entry>
 <lb ed="C" n="0002a02"/><entry><form>一蛤</form><cb:def><p xml:id="pC057p0002a0203" rend="margin-left:1em;inline">古合反字林燕雀所化也秦曰
@@ -14427,7 +14426,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0003c06"/><g ref="#CB05033">䥫</g>為鏃者也。</p></cb:def></entry>
 <lb ed="C" n="0003c07"/><entry><form>肪膏</form><cb:def><p xml:id="pC057p0003c0703" rend="margin-left:1em;inline">府房反說文肪<g ref="#CB01524">𦘺</g>也脂也三蒼
 <lb ed="C" n="0003c08"/>有角曰脂無角曰膏。</p></cb:def></entry>
-<lb ed="C" n="0003c09"/><entry><form>有<g ref="#CB02240">㰆</g></form><cb:def><p xml:id="pC057p0003c0903" rend="margin-left:1em;inline">蒲<g ref="#CB31030">𢦥</g>反謂<anchor xml:id="beg_1" type="cb-app"/>鍛<anchor xml:id="end_1"/>家用炊火令熾者也。</p></cb:def></entry>
+<lb ed="C" n="0003c09"/><entry><form>有<g ref="#CB02240">㰆</g></form><cb:def><p xml:id="pC057p0003c0903" rend="margin-left:1em;inline">蒲<g ref="#CB31030">𢦥</g>反謂<anchor xml:id="beg_3" type="cb-app"/>鍛<anchor xml:id="end_3"/>家用炊火令熾者也。</p></cb:def></entry>
 <lb ed="C" n="0003c10"/><entry><form><g ref="#CB12364">𮅜</g>簇</form><cb:def><p xml:id="pC057p0003c1003" rend="margin-left:1em;inline">古胡反以尖竹頭布地也下楚
 <lb ed="C" n="0003c11"/>角反東亰賦云瑇琩不簇<g ref="#CB23022">󵧮</g>綜曰
 <lb ed="C" n="0003c12"/>不又稓取之也廣蒼胡餅家用簇
@@ -14655,7 +14654,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0006c18"/>三刃杖南楚<g ref="#CB21993">󵗩</g>郢謂之偃<g ref="#CB02455">㦸</g>。</p></cb:def></entry>
 <lb ed="C" n="0006c19"/><entry><form>擭飯</form><cb:def><p xml:id="pC057p0006c1903" rend="margin-left:1em;inline">於獲反廣雅擭持也謂以手擭
 <lb ed="C" n="0006c20"/>取也律文作摑非也。</p></cb:def></entry>
-<lb ed="C" n="0006c21"/><entry><form><g ref="#CB01020">𭉾</g><g ref="#CB01023">㗱</g></form><cb:def><p xml:id="pC057p0006c2103" rend="margin-left:1em;inline">又作<g ref="#CB22479">󵟏</g>同補洛反下子立反說文
+<lb ed="C" n="0006c21"/><entry><form><g ref="#CB01829">󰜥</g><g ref="#CB01023">㗱</g></form><cb:def><p xml:id="pC057p0006c2103" rend="margin-left:1em;inline">又作<g ref="#CB22479">󵟏</g>同補洛反下子立反說文
 <lb ed="C" n="0006c22"/>噍皃也。</p></cb:def></entry></cb:div></cb:div>
 <lb ed="C" n="0006c23"/><cb:div type="other"><cb:mulu type="其他" level="2">摩得勒伽律</cb:mulu><head>摩得勒伽律</head>
 <pb ed="C" xml:id="C057.1163.0007a" n="0007a"/>
@@ -14737,7 +14736,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0008a04"/><cb:div type="other"><cb:mulu type="其他" level="2"><g ref="#CB16765">󴅽</g>婆多毗尼毗婆沙</cb:mulu><head><g ref="#CB16765">󴅽</g>婆多毗尼毗婆沙</head>
 <lb ed="C" n="0008a05"/><cb:div type="other"><cb:mulu type="其他" level="3">第三卷</cb:mulu><head>第三卷</head>
 <lb ed="C" n="0008a06"/><entry><form>作發</form><cb:def><p xml:id="pC057p0008a0603" rend="margin-left:1em;inline">府越反謂機發也說文射發也
-<lb ed="C" n="0008a07"/>廣雅發舉也律文作撥補<anchor xml:id="beg_2" type="cb-app"/>沫<anchor xml:id="end_2"/>反撥
+<lb ed="C" n="0008a07"/>廣雅發舉也律文作撥補<anchor xml:id="beg_4" type="cb-app"/>沫<anchor xml:id="end_4"/>反撥
 <lb ed="C" n="0008a08"/>除也撥去也撥非此義。</p></cb:def></entry>
 <lb ed="C" n="0008a09"/><entry><form>飄然</form><cb:def><p xml:id="pC057p0008a0903" rend="margin-left:1em;inline">敷遙反飛揚<g ref="#CB15032">㒵</g>也飄猶吹也輕
 <lb ed="C" n="0008a10"/>飄也律文作驃方召反馬色也驃
@@ -14886,7 +14885,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0010a09"/><entry><form>剖形</form><cb:def><p xml:id="pC057p0010a0903" rend="margin-left:1em;inline">普後反剖破也說文剖判分也
 <lb ed="C" n="0010a10"/>廣雅剖析也。</p></cb:def></entry></cb:div></cb:div>
 <lb ed="C" n="0010a11"/><cb:div type="other"><cb:mulu type="其他" level="2">大比丘三千威儀經</cb:mulu><head>大比丘三千威儀經</head><cb:div type="other"><cb:mulu type="其他" level="3">卷上</cb:mulu><head>卷上</head>
-<lb ed="C" n="0010a12"/><entry><form>如掐</form><cb:def><p xml:id="pC057p0010a1203" rend="margin-left:1em;inline">又作<g ref="#CB02135">㓣</g>同口洽反埤蒼<anchor xml:id="beg_3" type="cb-app"/>掐<anchor xml:id="end_3"/>抓也
+<lb ed="C" n="0010a12"/><entry><form>如掐</form><cb:def><p xml:id="pC057p0010a1203" rend="margin-left:1em;inline">又作<g ref="#CB02135">㓣</g>同口洽反埤蒼<anchor xml:id="beg_5" type="cb-app"/>掐<anchor xml:id="end_5"/>抓也
 <lb ed="C" n="0010a13"/>謂爪傷也。</p></cb:def></entry>
 <lb ed="C" n="0010a14"/><entry><form>盪噐</form><cb:def><p xml:id="pC057p0010a1403" rend="margin-left:1em;inline">徒朗反說文盪滌也通俗文澡噐
 <lb ed="C" n="0010a15"/>謂之盪滌也。</p></cb:def></entry>
@@ -14999,7 +14998,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0011c02"/>亦乱也。</p></cb:def></entry>
 <lb ed="C" n="0011c03"/><entry><form>欶指</form><cb:def><p xml:id="pC057p0011c0303" rend="margin-left:1em;inline">又作嗽同所角反通俗文含吸曰
 <lb ed="C" n="0011c04"/>欶戒文作<g ref="#CB00944">𡂡</g>俗字也。</p></cb:def></entry>
-<lb ed="C" n="0011c05"/><entry><form><g ref="#CB01020">𭉾</g><g ref="#CB01023">㗱</g></form><cb:def><p xml:id="pC057p0011c0503" rend="margin-left:1em;inline">補莫子立反說文<g ref="#CB01121">㗘</g><g ref="#CB01023">㗱</g>噍聲也。</p></cb:def></entry></cb:div>
+<lb ed="C" n="0011c05"/><entry><form><g ref="#CB01829">󰜥</g><g ref="#CB01023">㗱</g></form><cb:def><p xml:id="pC057p0011c0503" rend="margin-left:1em;inline">補莫子立反說文<g ref="#CB01121">㗘</g><g ref="#CB01023">㗱</g>噍聲也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0011c06"/><cb:div type="other"><cb:mulu type="其他" level="2">四分戒本</cb:mulu><head>四分戒本</head>
 <lb ed="C" n="0011c07"/><entry><form>無崖</form><cb:def><p xml:id="pC057p0011c0703" rend="margin-left:1em;inline">又作厓同五佳反說文岸高邊
 <lb ed="C" n="0011c08"/>者也書有作涯冝佳反涯涘也无
@@ -15151,7 +15150,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0013c12"/><entry><form>捕狙</form><cb:def><p xml:id="pC057p0013c1203" rend="margin-left:1em;inline">又作<g ref="#CB22121">󵙩</g>同千絮反三蒼狙伺也
 <lb ed="C" n="0013c13"/>通俗文伏伺曰狙是也狙亦觀視
 <lb ed="C" n="0013c14"/>也謂相<g ref="#CB07419">𠋫</g>視也論文作<g ref="#CB07753">󱹉</g>此字習
-<lb ed="C" n="0013c15"/>誤<anchor xml:id="beg_4" type="cb-app"/>已<anchor xml:id="end_4"/>久人莫辯正也。</p></cb:def></entry>
+<lb ed="C" n="0013c15"/>誤<anchor xml:id="beg_6" type="cb-app"/>已<anchor xml:id="end_6"/>久人莫辯正也。</p></cb:def></entry>
 <lb ed="C" n="0013c16"/><entry><form><g ref="#CB08204">𣏚</g>洹</form><cb:def><p xml:id="pC057p0013c1603" rend="margin-left:1em;inline">猶是<g ref="#CB08204">𣏚</g>陁此言訛也應云栘多
 <lb ed="C" n="0013c17"/>或言逝多此云戰勝婆<g ref="#CB01057">𨚗</g>此云林名
 <lb ed="C" n="0013c18"/>為勝林栘音是奚反。</p></cb:def></entry>
@@ -15239,7 +15238,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0015a04"/>文作<g ref="#CB22922">󵦊</g>。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0015a05"/><cb:div type="other"><cb:mulu type="其他" level="3">第十九卷</cb:mulu><head>第十九卷</head>
 <lb ed="C" n="0015a06"/><entry><form>樺皮</form><cb:def><p xml:id="pC057p0015a0603" rend="margin-left:1em;inline">胡覇反木名也皮可以飾弓者也。</p></cb:def></entry>
-<lb ed="C" n="0015a07"/><entry><form>一畦</form><cb:def><p xml:id="pC057p0015a0703" rend="margin-left:1em;inline">胡圭反蒼頡篇田五十<anchor xml:id="beg_5" type="cb-app"/>畝<anchor xml:id="end_5"/>曰畦
+<lb ed="C" n="0015a07"/><entry><form>一畦</form><cb:def><p xml:id="pC057p0015a0703" rend="margin-left:1em;inline">胡圭反蒼頡篇田五十<anchor xml:id="beg_7" type="cb-app"/>畝<anchor xml:id="end_7"/>曰畦
 <lb ed="C" n="0015a08"/>畦埒也埒封也道徑也埒音劣。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0015a09"/><cb:div type="other"><cb:mulu type="其他" level="3">第二十卷</cb:mulu><head>第二十卷</head>
 <lb ed="C" n="0015a10"/><entry><form>瞪<g ref="#CB02541">𥈆</g></form><cb:def><p xml:id="pC057p0015a1003" rend="margin-left:1em;inline">冝作<g ref="#CB00574">𧄼</g>瞢徒登反下亡登反韻
@@ -15482,7 +15481,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0018b07"/>在野曰稼。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0018b08"/><cb:div type="other"><cb:mulu type="其他" level="3">第二十一卷</cb:mulu><head>第二十一卷</head>
 <lb ed="C" n="0018b09"/><entry><form><g ref="#CB02240">㰆</g>師</form><cb:def><p xml:id="pC057p0018b0903" rend="margin-left:1em;inline">埤蒼作<g ref="#CB22864">󵥐</g>又作排同蒲戒反王
-<lb ed="C" n="0018b10"/>弼注書作<g ref="#CB02240">㰆</g>橐<g ref="#CB02240">㰆</g>囊也謂<anchor xml:id="beg_6" type="cb-app"/>鍛<anchor xml:id="end_6"/>家用
+<lb ed="C" n="0018b10"/>弼注書作<g ref="#CB02240">㰆</g>橐<g ref="#CB02240">㰆</g>囊也謂<anchor xml:id="beg_8" type="cb-app"/>鍛<anchor xml:id="end_8"/>家用
 <lb ed="C" n="0018b11"/>炊火令熾者也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0018b12"/><cb:div type="other"><cb:mulu type="其他" level="3">第二十二卷</cb:mulu><head>第二十二卷</head>
 <lb ed="C" n="0018b13"/><entry><form>骨皰</form><cb:def><p xml:id="pC057p0018b1303" rend="margin-left:1em;inline">又作靤同輔孝反小腫也說文
@@ -15693,7 +15692,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0021b02"/><entry><form>俗話</form><cb:def><p xml:id="pC057p0021b0203" rend="margin-left:1em;inline">籀文作譮古文作<g ref="#CB08747">󲈫</g>誠二形同
 <lb ed="C" n="0021b03"/>胡快反廣雅話調也謂調戲也聲
 <lb ed="C" n="0021b04"/>類話訛言也。</p></cb:def></entry></cb:div>
-<lb ed="C" n="0021b05"/><cb:div type="other"><cb:mulu type="其他" level="3">第十三卷</cb:mulu><head><anchor xml:id="beg_7" type="cb-app"/>第<anchor xml:id="end_7"/>十三卷</head>
+<lb ed="C" n="0021b05"/><cb:div type="other"><cb:mulu type="其他" level="3">第十三卷</cb:mulu><head><anchor xml:id="beg_9" type="cb-app"/>第<anchor xml:id="end_9"/>十三卷</head>
 <lb ed="C" n="0021b06"/><entry><form>和穆</form><cb:def><p xml:id="pC057p0021b0603" rend="margin-left:1em;inline">又作睦同亡鹿亡竹二反穆和也
 <lb ed="C" n="0021b07"/>敬也。</p></cb:def></entry>
 <lb ed="C" n="0021b08"/><entry><form>薟苦</form><cb:def><p xml:id="pC057p0021b0803" rend="margin-left:1em;inline">古文薟今作<g ref="#CB22811">󵤛</g>同理儉理沾二
@@ -15772,7 +15771,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0022b09"/><entry><form>以杼</form><cb:def><p xml:id="pC057p0022b0903" rend="margin-left:1em;inline">又作<g ref="#CB11051">䇡</g>同除呂反說文機持緯
 <lb ed="C" n="0022b10"/>者即今筬也。</p></cb:def></entry>
 <lb ed="C" n="0022b11"/><entry><form>毗婆尸</form><cb:def><p xml:id="pC057p0022b1104" rend="margin-left:1em;inline">此譯云種種見也。</p></cb:def></entry>
-<lb ed="C" n="0022b12"/><entry><form>操<anchor xml:id="beg_8" type="cb-app"/>杖<anchor xml:id="end_8"/></form><cb:def><p xml:id="pC057p0022b1203" rend="margin-left:1em;inline"><g ref="#CB04974">󱍮</g>勞反說文操把持也操執也。</p></cb:def></entry>
+<lb ed="C" n="0022b12"/><entry><form>操<anchor xml:id="beg_a" type="cb-app"/>杖<anchor xml:id="end_a"/></form><cb:def><p xml:id="pC057p0022b1203" rend="margin-left:1em;inline"><g ref="#CB04974">󱍮</g>勞反說文操把持也操執也。</p></cb:def></entry>
 <lb ed="C" n="0022b13"/><entry><form><g ref="#CB22879">󵥟</g>在</form><cb:def><p xml:id="pC057p0022b1303" rend="margin-left:1em;inline">側立反<g ref="#CB22879">󵥟</g><g ref="#CB00866">𣫍</g>也聚也說文<g ref="#CB22879">󵥟</g>藏
 <lb ed="C" n="0022b14"/>兵噐也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0022b15"/><cb:div type="other"><cb:mulu type="其他" level="3">第二卷</cb:mulu><head>第二卷</head>
@@ -15815,7 +15814,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0023a04"/>牝牡所以封固閞令不可開也論
 <lb ed="C" n="0023a05"/>文作母非躰也。</p></cb:def></entry>
 <lb ed="C" n="0023a06"/><entry><form>姧宄</form><cb:def><p xml:id="pC057p0023a0603" rend="margin-left:1em;inline">古文<g ref="#CB08620">𡧫</g><g ref="#CB08092">𠬚</g>二形同居美反廣雅
-<lb ed="C" n="0023a07"/>宄盜也左傳在內曰姧在外<anchor xml:id="beg_9" type="cb-app"/>曰<anchor xml:id="end_9"/>宄
+<lb ed="C" n="0023a07"/>宄盜也左傳在內曰姧在外<anchor xml:id="beg_b" type="cb-app"/>曰<anchor xml:id="end_b"/>宄
 <lb ed="C" n="0023a08"/>一云乱在內曰宄國語竊寶為宄
 <lb ed="C" n="0023a09"/>因宄之財為姧也。</p></cb:def></entry>
 <lb ed="C" n="0023a10"/><entry><form>湔浣</form><cb:def><p xml:id="pC057p0023a1003" rend="margin-left:1em;inline">子田反下古文澣同胡滿反湔
@@ -16066,7 +16065,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0026c03"/>觸也亦嫽敞也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0026c04"/><cb:div type="other"><cb:mulu type="其他" level="3">第六卷</cb:mulu><head>第六卷</head>
 <lb ed="C" n="0026c05"/><entry><form>桎梏</form><cb:def><p xml:id="pC057p0026c0503" rend="margin-left:1em;inline">之逸反下古祿反在手曰桎在
-<lb ed="C" n="0026c06"/>足曰梏謂<anchor xml:id="beg_a" type="cb-app"/>杻<anchor xml:id="end_a"/>械也。</p></cb:def></entry>
+<lb ed="C" n="0026c06"/>足曰梏謂<anchor xml:id="beg_c" type="cb-app"/>杻<anchor xml:id="end_c"/>械也。</p></cb:def></entry>
 <lb ed="C" n="0026c07"/><entry><form>如睫</form><cb:def><p xml:id="pC057p0026c0703" rend="margin-left:1em;inline">說文作<g ref="#CB01542">䀹</g><g ref="#CB18232">𥼶</g>名作<g ref="#CB22402">󵞂</g>同子葉反
 <lb ed="C" n="0026c08"/>目旁毛也山東田里閒音子及反
 <lb ed="C" n="0026c09"/>論文作<g ref="#CB10358">𣰍</g><g ref="#CB10841">𣯮</g>二形非也。</p></cb:def></entry></cb:div>
@@ -16500,7 +16499,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0032c05"/>或作居隣皆梵言訛也此譯云本
 <lb ed="C" n="0032c06"/>際第一解法者也經中尊者了本
 <lb ed="C" n="0032c07"/>際是也普曜經云俱隣者解本際
-<lb ed="C" n="0032c08"/>也阿若者言<anchor xml:id="beg_b" type="cb-app"/>已<anchor xml:id="end_b"/>知正言解了拘隣
+<lb ed="C" n="0032c08"/>也阿若者言<anchor xml:id="beg_d" type="cb-app"/>已<anchor xml:id="end_d"/>知正言解了拘隣
 <lb ed="C" n="0032c09"/>亦姓也此乃憍陳如訛也中本起
 <lb ed="C" n="0032c10"/>經云初五人者一名拘隣二名頗
 <lb ed="C" n="0032c11"/>陛三名拔提四名十力迦葉五名
@@ -16509,7 +16508,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0032c14"/>三蒼洋大水也尒雅洋溢也溢眾
 <lb ed="C" n="0032c15"/>多也取其義也。</p></cb:def></entry>
 <lb ed="C" n="0032c16"/><entry><form>如拒</form><cb:def><p xml:id="pC057p0032c1603" rend="margin-left:1em;inline">其呂反此外道瓶圓如瓠無足
-<lb ed="C" n="0032c17"/>以三<anchor xml:id="beg_c" type="cb-app"/>杖<anchor xml:id="end_c"/>交之舉於瓶也諸經中或
+<lb ed="C" n="0032c17"/>以三<anchor xml:id="beg_e" type="cb-app"/>杖<anchor xml:id="end_e"/>交之舉於瓶也諸經中或
 <lb ed="C" n="0032c18"/>作三奇立拒或言三叉立拒皆是也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0032c19"/><cb:div type="other"><cb:mulu type="其他" level="3">第十一卷</cb:mulu><head>第十一卷</head>
 <lb ed="C" n="0032c20"/><entry><form>飢饉</form><cb:def><p xml:id="pC057p0032c2003" rend="margin-left:1em;inline">古文作<g ref="#CB07760">𩚮</g>同几治反下奇鎮反
@@ -17574,7 +17573,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0047c11"/>字下又作齰同仕白反齚齧也經
 <lb ed="C" n="0047c12"/>文作咋咟咋也又<g ref="#CB08106">㕭</g>咋也咟音胡
 <lb ed="C" n="0047c13"/>麦反<g ref="#CB08106">㕭</g>烏交反。</p></cb:def></entry>
-<lb ed="C" n="0047c14"/><entry><form><g ref="#CB01020">𭉾</g><g ref="#CB01023">㗱</g></form><cb:def><p xml:id="pC057p0047c1403" rend="margin-left:1em;inline">又作<g ref="#CB06791">𪙍</g>同補各反下子立反說
+<lb ed="C" n="0047c14"/><entry><form><g ref="#CB01829">󰜥</g><g ref="#CB01023">㗱</g></form><cb:def><p xml:id="pC057p0047c1403" rend="margin-left:1em;inline">又作<g ref="#CB06791">𪙍</g>同補各反下子立反說
 <lb ed="C" n="0047c15"/>文<g ref="#CB01121">㗘</g><g ref="#CB01023">㗱</g>噍嚼聲<g ref="#CB15032">㒵</g>也經文作愽下
 <lb ed="C" n="0047c16"/>或作唊古俠反忘語也或作唼子
 <lb ed="C" n="0047c17"/>盍反唼嗽也二形並非字義。</p></cb:def></entry></cb:div>
@@ -18206,7 +18205,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0056b23"/>旐周禮龜<g ref="#CB17583">󴒯</g>為旐縣鄙建旐鄭玄
 <pb ed="C" xml:id="C057.1163.0056c" n="0056c"/>
 <lb ed="C" n="0056c01"/>曰象其扞難避<g ref="#CB10329">𡧱</g>也。</p></cb:def></entry>
-<lb ed="C" n="0056c02"/><entry><form>徼循</form><cb:def><p xml:id="pC057p0056c0203" rend="margin-left:1em;inline">又作<anchor xml:id="beg_d" type="cb-app"/>邀<anchor xml:id="end_d"/>同古堯古吊二反下又
+<lb ed="C" n="0056c02"/><entry><form>徼循</form><cb:def><p xml:id="pC057p0056c0203" rend="margin-left:1em;inline">又作<anchor xml:id="beg_f" type="cb-app"/>邀<anchor xml:id="end_f"/>同古堯古吊二反下又
 <lb ed="C" n="0056c03"/>作巡同似遵反徼遮也偱行也漢書
 <lb ed="C" n="0056c04"/>音義曰所謂遊徼偱以備盜賊也。</p></cb:def></entry>
 <lb ed="C" n="0056c05"/><entry><form>木梗</form><cb:def><p xml:id="pC057p0056c0503" rend="margin-left:1em;inline">加杏反<g ref="#CB00982">㽵</g>子土梗耳司馬[<g ref="#CB23230">󵪾</g>-儿+巾]曰
@@ -18390,7 +18389,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0059a15"/><g ref="#CB00045">𠯗</g>入口也<g ref="#CB00982">㽵</g>子作噆蚊<g ref="#CB00044">䖟</g>噆膚是也。</p></cb:def></entry>
 <lb ed="C" n="0059a16"/><entry><form><g ref="#CB25466">󶍺</g>然</form><cb:def><p xml:id="pC057p0059a1603" rend="margin-left:1em;inline">一宏反說文下深大也廣雅<g ref="#CB25466">󶍺</g>
 <lb ed="C" n="0059a17"/><g ref="#CB25466">󶍺</g>深也。</p></cb:def></entry>
-<lb ed="C" n="0059a18"/><entry><form><g ref="#CB02240">㰆</g>囊</form><cb:def><p xml:id="pC057p0059a1803" rend="margin-left:1em;inline">又作排<g ref="#CB22985">󵧉</g>二形同蒲戒反謂<anchor xml:id="beg_e" type="cb-app"/>鍛<anchor xml:id="end_e"/>
+<lb ed="C" n="0059a18"/><entry><form><g ref="#CB02240">㰆</g>囊</form><cb:def><p xml:id="pC057p0059a1803" rend="margin-left:1em;inline">又作排<g ref="#CB22985">󵧉</g>二形同蒲戒反謂<anchor xml:id="beg_10" type="cb-app"/>鍛<anchor xml:id="end_10"/>
 <lb ed="C" n="0059a19"/>家用炊火者也。</p></cb:def></entry>
 <lb ed="C" n="0059a20"/><entry><form><g ref="#CB22567">󵠧</g>骨</form><cb:def><p xml:id="pC057p0059a2003" rend="margin-left:1em;inline">又作頏同下堂反蒼頡篇亢咽
 <lb ed="C" n="0059a21"/>也說文人頸也。</p></cb:def></entry>
@@ -18977,7 +18976,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0068a15"/>聲類云眠內不覺妄言也。</p></cb:def></entry>
 <lb ed="C" n="0068a16"/><entry><form>愚戇</form><cb:def><p xml:id="pC057p0068a1603" rend="margin-left:1em;inline">都絳反說文戇亦愚<g ref="#CB23028">󵧴</g>也无知
 <lb ed="C" n="0068a17"/>專愚曰戇也。</p></cb:def></entry></cb:div>
-<lb ed="C" n="0068a18"/><cb:div type="other"><cb:mulu type="其他" level="3">第九卷</cb:mulu><head><anchor xml:id="beg_f" type="cb-app"/>第<anchor xml:id="end_f"/>九卷</head>
+<lb ed="C" n="0068a18"/><cb:div type="other"><cb:mulu type="其他" level="3">第九卷</cb:mulu><head><anchor xml:id="beg_11" type="cb-app"/>第<anchor xml:id="end_11"/>九卷</head>
 <lb ed="C" n="0068a19"/><entry><form>逆<g ref="#CB08869">𣄆</g></form><cb:def><p xml:id="pC057p0068a1903" rend="margin-left:1em;inline">力舉反左傳保於逆<g ref="#CB08869">𣄆</g>杜預曰
 <lb ed="C" n="0068a20"/>逆<g ref="#CB08869">𣄆</g>客舍也。</p></cb:def></entry>
 <lb ed="C" n="0068a21"/><entry><form>中<g ref="#CB22732">󵣌</g></form><cb:def><p xml:id="pC057p0068a2103" rend="margin-left:1em;inline">又作<g ref="#CB00794">󰌚</g>同於<g ref="#CB09510">󲔦</g>反說文<g ref="#CB00794">󰌚</g>屈也
@@ -19166,7 +19165,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0070c12"/>名也餓鬼中勝者也亦言癲狂鬼。</p></cb:def></entry>
 <lb ed="C" n="0070c13"/><entry><form>羯吒布怛<g ref="#CB01057">𨚗</g></form><cb:def><p xml:id="pC057p0070c1306" rend="margin-left:1em;inline">舊言竭吒富旦<g ref="#CB01057">𨚗</g>此云
 <lb ed="C" n="0070c14"/>短臭鬼或言奇臭鬼。</p></cb:def></entry>
-<lb ed="C" n="0070c15"/><entry><form><anchor xml:id="beg_10" type="cb-app"/>豐<anchor xml:id="end_10"/>稔</form><cb:def><p xml:id="pC057p0070c1503" rend="margin-left:1em;inline">而甚反字林禾熟曰稔稔亦<g ref="#CB30618">𥝝</g>
+<lb ed="C" n="0070c15"/><entry><form><anchor xml:id="beg_12" type="cb-app"/>豐<anchor xml:id="end_12"/>稔</form><cb:def><p xml:id="pC057p0070c1503" rend="margin-left:1em;inline">而甚反字林禾熟曰稔稔亦<g ref="#CB30618">𥝝</g>
 <lb ed="C" n="0070c16"/>也皆取一終之名也。</p></cb:def></entry>
 <lb ed="C" n="0070c17"/><entry><form>奧闇訶洛鬼</form><cb:def><p xml:id="pC057p0070c1706" rend="margin-left:1em;inline">烏報反此云吸人精氣
 <lb ed="C" n="0070c18"/>鬼也。</p></cb:def></entry>
@@ -19478,7 +19477,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0075a12"/>習行如是瑜伽隨分滿足展轉調
 <lb ed="C" n="0075a13"/>化諸眾生故名瑜伽師謂教人以
 <lb ed="C" n="0075a14"/>道者之稱也舊經中言觀行人者
-<lb ed="C" n="0075a15"/>是也地謂境界所依所依或<anchor xml:id="beg_11" type="cb-app"/>所<anchor xml:id="end_11"/>攝
+<lb ed="C" n="0075a15"/>是也地謂境界所依所依或<anchor xml:id="beg_13" type="cb-app"/>所<anchor xml:id="end_13"/>攝
 <lb ed="C" n="0075a16"/>義是瑜伽師所行境界故名為地
 <lb ed="C" n="0075a17"/>即十七地也。</p></cb:def></entry>
 <lb ed="C" n="0075a18"/><entry><form>嗢拕</form><cb:def><p xml:id="pC057p0075a1803" rend="margin-left:1em;inline">烏骨反下徒我反舊言欝陁<g ref="#CB01057">𨚗</g>
@@ -19620,7 +19619,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0077a11"/><entry><form>破<g ref="#CB10261">󲠕</g></form><cb:def><p xml:id="pC057p0077a1103" rend="margin-left:1em;inline">又作<g ref="#CB15848">󳷨</g>同口角反吴會閒音哭
 <lb ed="C" n="0077a12"/><g ref="#CB09238">𡖉</g>外堅也案凢物皮皆曰<g ref="#CB15848">󳷨</g>。</p></cb:def></entry>
 <lb ed="C" n="0077a13"/><entry><form>剖胎</form><cb:def><p xml:id="pC057p0077a1303" rend="margin-left:1em;inline">普厚反剖猶破也蒼頡篇剖分扸也。</p></cb:def></entry>
-<lb ed="C" n="0077a14"/><entry><form><anchor xml:id="beg_12" type="cb-app"/>豐<anchor xml:id="end_12"/>稔</form><cb:def><p xml:id="pC057p0077a1403" rend="margin-left:1em;inline">而審反字林稔穀熟也。</p></cb:def></entry>
+<lb ed="C" n="0077a14"/><entry><form><anchor xml:id="beg_14" type="cb-app"/>豐<anchor xml:id="end_14"/>稔</form><cb:def><p xml:id="pC057p0077a1403" rend="margin-left:1em;inline">而審反字林稔穀熟也。</p></cb:def></entry>
 <lb ed="C" n="0077a15"/><entry><form>官僚</form><cb:def><p xml:id="pC057p0077a1503" rend="margin-left:1em;inline">又作寮同力彫反同官為僚尓
 <lb ed="C" n="0077a16"/>疋寮官也。</p></cb:def></entry>
 <lb ed="C" n="0077a17"/><entry><form><g ref="#CB07050">𮟴</g>肆</form><cb:def><p xml:id="pC057p0077a1703" rend="margin-left:1em;inline">丁礼反下相利反<g ref="#CB07050">𮟴</g>謂市中坐賣
@@ -19721,7 +19720,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0078b16"/><entry><form>皱襵</form><cb:def><p xml:id="pC057p0078b1603" rend="margin-left:1em;inline">側<g ref="#CB22368">𣪋</g>反下之涉反又音輙今襵
 <lb ed="C" n="0078b17"/>疊物及裙襵皆作此。</p></cb:def></entry>
 <lb ed="C" n="0078b18"/><entry><form><g ref="#CB05033">䥫</g>鉆</form><cb:def><p xml:id="pC057p0078b1803" rend="margin-left:1em;inline">奇廉反鉆謂鑷取物也通俗文
-<lb ed="C" n="0078b19"/><anchor xml:id="beg_13" type="cb-app"/>鍛<anchor xml:id="end_13"/>具曰鉆鉆持也或作鉗束人頸
+<lb ed="C" n="0078b19"/><anchor xml:id="beg_15" type="cb-app"/>鍛<anchor xml:id="end_15"/>具曰鉆鉆持也或作鉗束人頸
 <lb ed="C" n="0078b20"/><g ref="#CB05033">䥫</g>也非今所用也。</p></cb:def></entry>
 <lb ed="C" n="0078b21"/><entry><form>洋銅</form><cb:def><p xml:id="pC057p0078b2103" rend="margin-left:1em;inline">以<g ref="#CB23077">󵨥</g>反謂<g ref="#CB02598">󰨦</g>之消爤洋洋然也
 <lb ed="C" n="0078b22"/>三蒼洋洋太水也。</p></cb:def></entry>
@@ -20034,7 +20033,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0082c17"/>梨也。</p></cb:def></entry>
 <lb ed="C" n="0082c18"/><entry><form>談話</form><cb:def><p xml:id="pC057p0082c1803" rend="margin-left:1em;inline">古文<g ref="#CB08747">󲈫</g>譮<g ref="#CB10711">䛋</g>三形同胡快反合
 <lb ed="C" n="0082c19"/>會善言也。</p></cb:def></entry>
-<lb ed="C" n="0082c20"/><entry><form>躁動</form><cb:def><p xml:id="pC057p0082c2003" rend="margin-left:1em;inline">又作趮同<anchor xml:id="beg_14" type="cb-app"/>祖到<anchor xml:id="end_14"/>反躁謂擾動不
+<lb ed="C" n="0082c20"/><entry><form>躁動</form><cb:def><p xml:id="pC057p0082c2003" rend="margin-left:1em;inline">又作趮同<anchor xml:id="beg_16" type="cb-app"/>祖到<anchor xml:id="end_16"/>反躁謂擾動不
 <lb ed="C" n="0082c21"/>安靜也。</p></cb:def></entry>
 <lb ed="C" n="0082c22"/><entry><form>溉灌</form><cb:def><p xml:id="pC057p0082c2203" rend="margin-left:1em;inline">歌賚反說文溉灌也灌注也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0082c23"/><cb:div type="other"><cb:mulu type="其他" level="3">第二十一卷</cb:mulu><head>第二十一卷</head>
@@ -20057,7 +20056,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0083a16"/><entry><form>欝丞</form><cb:def><p xml:id="pC057p0083a1603" rend="margin-left:1em;inline">於物反下之媵之叔二反尓疋
 <lb ed="C" n="0083a17"/>欝盛氣也說文丞火氣上行也謂
 <lb ed="C" n="0083a18"/>熱氣丞出上[、廾、]也。</p></cb:def></entry>
-<lb ed="C" n="0083a19"/><entry><form>飃<anchor xml:id="beg_15" type="cb-app"/>颺<anchor xml:id="end_15"/></form><cb:def><p xml:id="pC057p0083a1903" rend="margin-left:1em;inline">余尚余章二反謂風所飛揚也。</p></cb:def></entry>
+<lb ed="C" n="0083a19"/><entry><form>飃<anchor xml:id="beg_17" type="cb-app"/>颺<anchor xml:id="end_17"/></form><cb:def><p xml:id="pC057p0083a1903" rend="margin-left:1em;inline">余尚余章二反謂風所飛揚也。</p></cb:def></entry>
 <lb ed="C" n="0083a20"/><entry><form>芬馥</form><cb:def><p xml:id="pC057p0083a2003" rend="margin-left:1em;inline">敷雲反下扶福反芬香和調也
 <lb ed="C" n="0083a21"/>馥香氣也。</p></cb:def></entry>
 <lb ed="C" n="0083a22"/><entry><form><g ref="#CB22732">󵣌</g>逝</form><cb:def><p xml:id="pC057p0083a2203" rend="margin-left:1em;inline">又作夭同於矯反說文<g ref="#CB22732">󵣌</g>屈也
@@ -20234,7 +20233,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0085c01"/><entry><form>刖足</form><cb:def><p xml:id="pC057p0085c0103" rend="margin-left:1em;inline">古文跀<g ref="#CB11139">𨀄</g>二形同魚厥五刮二
 <lb ed="C" n="0085c02"/>反刖断足也。</p></cb:def></entry>
 <lb ed="C" n="0085c03"/><entry><form>劓鼻</form><cb:def><p xml:id="pC057p0085c0303" rend="margin-left:1em;inline">古文<g ref="#CB07918">㓷</g>同魚噐反字林劓割鼻也。</p></cb:def></entry>
-<lb ed="C" n="0085c04"/><entry><form><g ref="#CB02240">㰆</g>袋</form><cb:def><p xml:id="pC057p0085c0403" rend="margin-left:1em;inline">埤蒼作<g ref="#CB22865">󵥑</g>又作排同蒲戒反<anchor xml:id="beg_16" type="cb-app"/>鍛<anchor xml:id="end_16"/>
+<lb ed="C" n="0085c04"/><entry><form><g ref="#CB02240">㰆</g>袋</form><cb:def><p xml:id="pC057p0085c0403" rend="margin-left:1em;inline">埤蒼作<g ref="#CB22865">󵥑</g>又作排同蒲戒反<anchor xml:id="beg_18" type="cb-app"/>鍛<anchor xml:id="end_18"/>
 <lb ed="C" n="0085c05"/>家用炊火令熾者也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0085c06"/><cb:div type="other"><cb:mulu type="其他" level="3">第三十三卷</cb:mulu><head>第三十三卷</head>
 <lb ed="C" n="0085c07"/><entry><form>垣城</form><cb:def><p xml:id="pC057p0085c0703" rend="margin-left:1em;inline">于煩反四周牆也<g ref="#CB18232">𥼶</g>名云垣援也
@@ -20257,7 +20256,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="C" xml:id="C057.1163.0086a" n="0086a"/>
 <lb ed="C" n="0086a01"/><entry><form>霡霂</form><cb:def><p xml:id="pC057p0086a0103" rend="margin-left:1em;inline">音脉木尓疋小雨謂之霡霂今
 <lb ed="C" n="0086a02"/>流汗似之也。</p></cb:def></entry>
-<lb ed="C" n="0086a03"/><entry><form><anchor xml:id="beg_17" type="cb-app"/>圮<anchor xml:id="end_17"/><g ref="#CB01513">󰗩</g></form><cb:def><p xml:id="pC057p0086a0303" rend="margin-left:1em;inline">父羙反下耻格反<anchor xml:id="beg_18" type="cb-app"/>圮<anchor xml:id="end_18"/>毀覆也<g ref="#CB01513">󰗩</g>分裂也。</p></cb:def></entry>
+<lb ed="C" n="0086a03"/><entry><form><anchor xml:id="beg_19" type="cb-app"/>圮<anchor xml:id="end_19"/><g ref="#CB01513">󰗩</g></form><cb:def><p xml:id="pC057p0086a0303" rend="margin-left:1em;inline">父羙反下耻格反<anchor xml:id="beg_1a" type="cb-app"/>圮<anchor xml:id="end_1a"/>毀覆也<g ref="#CB01513">󰗩</g>分裂也。</p></cb:def></entry>
 <lb ed="C" n="0086a04"/><entry><form>蓊欝</form><cb:def><p xml:id="pC057p0086a0403" rend="margin-left:1em;inline">烏孔反下於屈反蓊盛<g ref="#CB15032">㒵</g>也欝
 <lb ed="C" n="0086a05"/>樹木藂生也。</p></cb:def></entry>
 <lb ed="C" n="0086a06"/><entry><form>巉巖</form><cb:def><p xml:id="pC057p0086a0603" rend="margin-left:1em;inline">仕咸反廣疋巉巖高也。</p></cb:def></entry>
@@ -20670,7 +20669,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0091c05"/><entry><form>菅茅</form><cb:def><p xml:id="pC057p0091c0503" rend="margin-left:1em;inline">古顏反尓疋菅茅属也。</p></cb:def></entry>
 <lb ed="C" n="0091c06"/><entry><form>如鴆</form><cb:def><p xml:id="pC057p0091c0603" rend="margin-left:1em;inline">除禁反郭璞曰大如鵰紫綠色
 <lb ed="C" n="0091c07"/>長頸赤喙食虵也。</p></cb:def></entry>
-<lb ed="C" n="0091c08"/><entry><form>孓然</form><cb:def><p xml:id="pC057p0091c0803" rend="margin-left:1em;inline">居列反案孑猶單<anchor xml:id="beg_19" type="cb-app"/>己<anchor xml:id="end_19"/>孤獨也說
+<lb ed="C" n="0091c08"/><entry><form>孓然</form><cb:def><p xml:id="pC057p0091c0803" rend="margin-left:1em;inline">居列反案孑猶單<anchor xml:id="beg_1b" type="cb-app"/>己<anchor xml:id="end_1b"/>孤獨也說
 <lb ed="C" n="0091c09"/>文孓无右臂曰孓。</p></cb:def></entry>
 <lb ed="C" n="0091c10"/><entry><form><g ref="#CB00403">㳂</g>流</form><cb:def><p xml:id="pC057p0091c1003" rend="margin-left:1em;inline">翼泉反字林從水而下曰<g ref="#CB00403">㳂</g>順
 <lb ed="C" n="0091c11"/>流也<g ref="#CB00403">㳂</g>亦緣也。</p></cb:def></entry>
@@ -21026,7 +21025,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0097b02"/><entry><form>艱難</form><cb:def><p xml:id="pC057p0097b0203" rend="margin-left:1em;inline">古閑反說文土難治也。</p></cb:def></entry>
 <lb ed="C" n="0097b03"/><entry><form>剖析</form><cb:def><p xml:id="pC057p0097b0303" rend="margin-left:1em;inline">普厚反剖猶破也中分為剖下
 <lb ed="C" n="0097b04"/>思狄反析分也。</p></cb:def></entry>
-<lb ed="C" n="0097b05"/><entry><form>波羅闍<anchor xml:id="beg_1a" type="cb-app"/>已<anchor xml:id="end_1a"/>迦</form><cb:def><p xml:id="pC057p0097b0506" rend="margin-left:1em;inline">此云他勝謂破戒煩<g ref="#CB08974">𢙉</g>為
+<lb ed="C" n="0097b05"/><entry><form>波羅闍<anchor xml:id="beg_1c" type="cb-app"/>已<anchor xml:id="end_1c"/>迦</form><cb:def><p xml:id="pC057p0097b0506" rend="margin-left:1em;inline">此云他勝謂破戒煩<g ref="#CB08974">𢙉</g>為
 <lb ed="C" n="0097b06"/>他勝於善法也舊云波羅夷義言
 <lb ed="C" n="0097b07"/>无餘若犯此戒永棄清眾故曰无餘。</p></cb:def></entry></cb:div></cb:div>
 <lb ed="C" n="0097b08"/><cb:div type="other"><cb:mulu type="其他" level="2">對法論</cb:mulu><head>對法論</head><cb:div type="other"><cb:mulu type="其他" level="3">第一卷</cb:mulu><head>第一卷</head>
@@ -21124,7 +21123,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0098c04"/><entry><form>財貨</form><cb:def><p xml:id="pC057p0098c0403" rend="margin-left:1em;inline">徂灾反所寶曰財金玉曰貨財
 <lb ed="C" n="0098c05"/>謂資生也亦財穀也。</p></cb:def></entry>
 <lb ed="C" n="0098c06"/><entry><form>大材</form><cb:def><p xml:id="pC057p0098c0603" rend="margin-left:1em;inline">在哉反材用也亦質性也凢木
-<lb ed="C" n="0098c07"/><anchor xml:id="beg_1b" type="cb-app"/>已<anchor xml:id="end_1b"/>斬伐可施工匠者曰材。</p></cb:def></entry>
+<lb ed="C" n="0098c07"/><anchor xml:id="beg_1d" type="cb-app"/>已<anchor xml:id="end_1d"/>斬伐可施工匠者曰材。</p></cb:def></entry>
 <lb ed="C" n="0098c08"/><entry><form>又荷</form><cb:def><p xml:id="pC057p0098c0803" rend="margin-left:1em;inline">古文柯同胡歌胡可二反說文
 <lb ed="C" n="0098c09"/>柯揭擔也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0098c10"/><cb:div type="other"><cb:mulu type="其他" level="3">第五卷</cb:mulu><head>第五卷</head>
@@ -21380,7 +21379,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0102a20"/><entry><form>未嘗</form><cb:def><p xml:id="pC057p0102a2003" rend="margin-left:1em;inline">視羊反未嘗未曾也廣雅嘗暫
 <lb ed="C" n="0102a21"/>也試也。</p></cb:def></entry>
 <lb ed="C" n="0102a22"/><entry><form>率尒</form><cb:def><p xml:id="pC057p0102a2203" rend="margin-left:1em;inline"><g ref="#CB00562">䟽</g>律反尒疋率偱自也謂先以
-<lb ed="C" n="0102a23"/><anchor xml:id="beg_1c" type="cb-app"/>己<anchor xml:id="end_1c"/>意而言也論語子路率尒而對
+<lb ed="C" n="0102a23"/><anchor xml:id="beg_1e" type="cb-app"/>己<anchor xml:id="end_1e"/>意而言也論語子路率尒而對
 <pb ed="C" xml:id="C057.1163.0102b" n="0102b"/>
 <lb ed="C" n="0102b01"/>何晏曰先三人而對是也。</p></cb:def></entry>
 <lb ed="C" n="0102b02"/><entry><form>巨勝</form><cb:def><p xml:id="pC057p0102b0203" rend="margin-left:1em;inline">其吕反巨大也本草云胡麻粒
@@ -21389,7 +21388,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0102b05"/><g ref="#CB09212">𢇁</g>成文曰纈今謂西國有淡澀汁
 <lb ed="C" n="0102b06"/>點之成纈如此方蠟點纈也。</p></cb:def></entry>
 <lb ed="C" n="0102b07"/><entry><form><g ref="#CB09137">󲎱</g>埵緣</form><cb:def><p xml:id="pC057p0102b0704" rend="margin-left:1em;inline">都果反此云已竟義如言澡
-<lb ed="C" n="0102b08"/>浴已飯食度山<anchor xml:id="beg_1d" type="cb-app"/>已<anchor xml:id="end_1d"/>度河也。</p></cb:def></entry>
+<lb ed="C" n="0102b08"/>浴已飯食度山<anchor xml:id="beg_1f" type="cb-app"/>已<anchor xml:id="end_1f"/>度河也。</p></cb:def></entry>
 <lb ed="C" n="0102b09"/><entry><form>和糅</form><cb:def><p xml:id="pC057p0102b0903" rend="margin-left:1em;inline">古文<g ref="#CB11101">𩚒</g>粈二形同女救反廣雅
 <lb ed="C" n="0102b10"/>糅雜也今謂異色物相集曰糅。</p></cb:def></entry>
 <lb ed="C" n="0102b11"/><entry><form>彎弓</form><cb:def><p xml:id="pC057p0102b1103" rend="margin-left:1em;inline">烏環反開弓也小尒疋彎控引
@@ -21711,7 +21710,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0106c15"/>五百里諸侯之地方四百里等也
 <lb ed="C" n="0106c16"/>起土為界曰封。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0106c17"/><cb:div type="other"><cb:mulu type="其他" level="3">第三卷</cb:mulu><head>第三卷</head>
-<lb ed="C" n="0106c18"/><entry><form>如鉆</form><cb:def><p xml:id="pC057p0106c1803" rend="margin-left:1em;inline">奇廉反通俗文<anchor xml:id="beg_1e" type="cb-app"/>鍛<anchor xml:id="end_1e"/>具曰鉆蒼頡
+<lb ed="C" n="0106c18"/><entry><form>如鉆</form><cb:def><p xml:id="pC057p0106c1803" rend="margin-left:1em;inline">奇廉反通俗文<anchor xml:id="beg_20" type="cb-app"/>鍛<anchor xml:id="end_20"/>具曰鉆蒼頡
 <lb ed="C" n="0106c19"/>篇鉆持也。</p></cb:def></entry>
 <lb ed="C" n="0106c20"/><entry><form>補特伽羅</form><cb:def><p xml:id="pC057p0106c2005" rend="margin-left:1em;inline">此云數取趣謂數數徃来
 <lb ed="C" n="0106c21"/>諸趣也。</p></cb:def></entry></cb:div>
@@ -21900,7 +21899,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0111b15"/>氷以何為化但石之類耳。</p></cb:def></entry>
 <lb ed="C" n="0111b16"/><entry><form>摣掣</form><cb:def><p xml:id="pC057p0111b1603" rend="margin-left:1em;inline">又作抯同側加反下又作挈同
 <lb ed="C" n="0111b17"/>充世反<g ref="#CB18232">𥼶</g>名摣叉也謂五指俱徃
-<lb ed="C" n="0111b18"/>叉取也掣制也制頓之使順<anchor xml:id="beg_1f" type="cb-app"/>己<anchor xml:id="end_1f"/>也
+<lb ed="C" n="0111b18"/>叉取也掣制也制頓之使順<anchor xml:id="beg_21" type="cb-app"/>己<anchor xml:id="end_21"/>也
 <lb ed="C" n="0111b19"/>掣亦牽也。</p></cb:def></entry>
 <lb ed="C" n="0111b20"/><entry><form>礠石</form><cb:def><p xml:id="pC057p0111b2003" rend="margin-left:1em;inline">徂茲反埤蒼礠石也謂吸<g ref="#CB05033">䥫</g>石也。</p></cb:def></entry>
 <lb ed="C" n="0111b21"/><entry><form>拊手</form><cb:def><p xml:id="pC057p0111b2103" rend="margin-left:1em;inline">芳主反拊猶拍也廣疋拊擊也
@@ -22134,7 +22133,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0114c09"/><cb:div type="other"><cb:mulu type="其他" level="3">第十卷</cb:mulu><head>第十卷</head>
 <lb ed="C" n="0114c10"/><entry><form>龍鎮</form><cb:def><p xml:id="pC057p0114c1003" rend="margin-left:1em;inline">知陣反又音<g ref="#CB13251">󳏃</g>說文鎮壓也亦
 <lb ed="C" n="0114c11"/>安也廣疋鎮重也。</p></cb:def></entry>
-<lb ed="C" n="0114c12"/><entry><form>部多</form><cb:def><p xml:id="pC057p0114c1203" rend="margin-left:1em;inline"><anchor xml:id="beg_20" type="cb-app"/>已<anchor xml:id="end_20"/>生義含多解故仍置本名。</p></cb:def></entry>
+<lb ed="C" n="0114c12"/><entry><form>部多</form><cb:def><p xml:id="pC057p0114c1203" rend="margin-left:1em;inline"><anchor xml:id="beg_22" type="cb-app"/>已<anchor xml:id="end_22"/>生義含多解故仍置本名。</p></cb:def></entry>
 <lb ed="C" n="0114c13"/><entry><form>飢<g ref="#CB14005">󳚵</g></form><cb:def><p xml:id="pC057p0114c1303" rend="margin-left:1em;inline">古文作<g ref="#CB07760">𩚮</g>又作饑同几治反尓
 <lb ed="C" n="0114c14"/>疋穀不熟為飢<g ref="#CB12864">󳉀</g>不熟為饉案凢
 <lb ed="C" n="0114c15"/>草木可食者通名<g ref="#CB12864">󳉀</g>菜。</p></cb:def></entry>
@@ -22327,13 +22326,13 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0117b10"/>衡也量斗斛也。</p></cb:def></entry>
 <lb ed="C" n="0117b11"/><entry><form>貧遺</form><cb:def><p xml:id="pC057p0117b1103" rend="margin-left:1em;inline">渠愧反无財曰貧乏財曰遺遺
 <lb ed="C" n="0117b12"/>亦竭也。</p></cb:def></entry>
-<lb ed="C" n="0117b13"/><entry><form>輟其</form><cb:def><p xml:id="pC057p0117b1303" rend="margin-left:1em;inline">丁劣反輟止也尓疋輟<anchor xml:id="beg_21" type="cb-app"/>已<anchor xml:id="end_21"/>也。</p></cb:def></entry>
+<lb ed="C" n="0117b13"/><entry><form>輟其</form><cb:def><p xml:id="pC057p0117b1303" rend="margin-left:1em;inline">丁劣反輟止也尓疋輟<anchor xml:id="beg_23" type="cb-app"/>已<anchor xml:id="end_23"/>也。</p></cb:def></entry>
 <lb ed="C" n="0117b14"/><entry><form>訶梨怛雞</form><cb:def><p xml:id="pC057p0117b1405" rend="margin-left:1em;inline">舊言呵<g ref="#CB01150">𥟦</g>勒翻為天主持
 <lb ed="C" n="0117b15"/>来此果堪為藥分功用極多如此
 <lb ed="C" n="0117b16"/>土人<g ref="#CB07694">㕘</g>石斛等也。</p></cb:def></entry>
 <lb ed="C" n="0117b17"/><entry><form>殷淨</form><cb:def><p xml:id="pC057p0117b1703" rend="margin-left:1em;inline">於斤反詩云殷其盈矣傳曰殷
 <lb ed="C" n="0117b18"/>眾也殷大也。</p></cb:def></entry>
-<lb ed="C" n="0117b19"/><entry><form>霖<g ref="#CB21945">󵖹</g></form><cb:def><p xml:id="pC057p0117b1903" rend="margin-left:1em;inline">力金反左傳雨自三日<anchor xml:id="beg_22" type="cb-app"/>已<anchor xml:id="end_22"/>上為
+<lb ed="C" n="0117b19"/><entry><form>霖<g ref="#CB21945">󵖹</g></form><cb:def><p xml:id="pC057p0117b1903" rend="margin-left:1em;inline">力金反左傳雨自三日<anchor xml:id="beg_24" type="cb-app"/>已<anchor xml:id="end_24"/>上為
 <lb ed="C" n="0117b20"/>霖尓疋久雨謂之<g ref="#CB21945">󵖹</g><g ref="#CB21945">󵖹</g>謂之霖。</p></cb:def></entry>
 <lb ed="C" n="0117b21"/><entry><form>瞖目</form><cb:def><p xml:id="pC057p0117b2103" rend="margin-left:1em;inline">一計反韻集云目障病也說文
 <lb ed="C" n="0117b22"/>作翳目病生翳也。</p></cb:def></entry></cb:div>
@@ -22490,8 +22489,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0119c05"/>燡音亦。</p></cb:def></entry>
 <lb ed="C" n="0119c06"/><entry><form>末度迦果</form><cb:def><p xml:id="pC057p0119c0605" rend="margin-left:1em;inline">謨鉢反舊云摩頭此言美
 <lb ed="C" n="0119c07"/>果也。</p></cb:def></entry>
-<lb ed="C" n="0119c08"/><entry><form>賃婆果</form><cb:def><p xml:id="pC057p0119c0804" rend="margin-left:1em;inline">女<g ref="#CB11803">󲸛</g>反形如此大苦棟樹也
-<lb ed="C" n="0119c09"/>棟音力見反。</p></cb:def></entry>
+<lb ed="C" n="0119c08"/><entry><form>賃婆果</form><cb:def><p xml:id="pC057p0119c0804" rend="margin-left:1em;inline">女<g ref="#CB11803">󲸛</g>反形如此大苦<anchor xml:id="beg_25" type="cb-app"/>楝<anchor xml:id="end_25"/>樹也
+<lb ed="C" n="0119c09"/><anchor xml:id="beg_26" type="cb-app"/>楝<anchor xml:id="end_26"/>音力見反。</p></cb:def></entry>
 <lb ed="C" n="0119c10"/><entry><form><g ref="#CB00501">䭾</g>都</form><cb:def><p xml:id="pC057p0119c1003" rend="margin-left:1em;inline">徒餓反謂堅實也此亦如来體
 <lb ed="C" n="0119c11"/>骨舍利之異名耳。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0119c12"/><cb:div type="other"><cb:mulu type="其他" level="3">第十九卷</cb:mulu><head>第十九卷</head>
@@ -22675,7 +22674,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0124c07"/><cb:div type="other"><cb:mulu type="其他" level="3">第二卷</cb:mulu><head>第二卷</head>
 <lb ed="C" n="0124c08"/><entry><form>苕然</form><cb:def><p xml:id="pC057p0124c0803" rend="margin-left:1em;inline">徒彫反苕遰也遠也遰音徒計反。</p></cb:def></entry>
 <lb ed="C" n="0124c09"/><entry><form>瞿波洛迦</form><cb:def><p xml:id="pC057p0124c0905" rend="margin-left:1em;inline">此云牧牛經也。</p></cb:def></entry>
-<lb ed="C" n="0124c10"/><entry><form><anchor xml:id="beg_23" type="cb-app"/>窣<anchor xml:id="end_23"/>堵波</form><cb:def><p xml:id="pC057p0124c1004" rend="margin-left:1em;inline">蘇沒反下都古反此云廟或
+<lb ed="C" n="0124c10"/><entry><form><anchor xml:id="beg_27" type="cb-app"/>窣<anchor xml:id="end_27"/>堵波</form><cb:def><p xml:id="pC057p0124c1004" rend="margin-left:1em;inline">蘇沒反下都古反此云廟或
 <lb ed="C" n="0124c11"/>云墳或言聚相謂累石等高以為
 <lb ed="C" n="0124c12"/>相也舊言藪斗波或云偷婆又言
 <lb ed="C" n="0124c13"/>塔婆皆方夏輕重耳。</p></cb:def></entry></cb:div>
@@ -22699,7 +22698,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0125a07"/><entry><form>頑嚚</form><cb:def><p xml:id="pC057p0125a0703" rend="margin-left:1em;inline">五鱞反魚巾反廣疋頑<g ref="#CB23028">󵧴</g>也蒼
 <lb ed="C" n="0125a08"/>頡篇嚚<g ref="#CB08891">𢙣</g>也左傳心不惻德義之
 <lb ed="C" n="0125a09"/>經為頑口不道忠信之言曰嚚。</p></cb:def></entry>
-<lb ed="C" n="0125a10"/><entry><form>逞<anchor xml:id="beg_24" type="cb-app"/>己<anchor xml:id="end_24"/></form><cb:def><p xml:id="pC057p0125a1003" rend="margin-left:1em;inline">丑井反說文逞通也小尓疋逞
+<lb ed="C" n="0125a10"/><entry><form>逞<anchor xml:id="beg_28" type="cb-app"/>己<anchor xml:id="end_28"/></form><cb:def><p xml:id="pC057p0125a1003" rend="margin-left:1em;inline">丑井反說文逞通也小尓疋逞
 <lb ed="C" n="0125a11"/>快也方言自開而東曰逞江淮陳
 <lb ed="C" n="0125a12"/>楚之閒曰好也。</p></cb:def></entry>
 <lb ed="C" n="0125a13"/><entry><form>聡叡</form><cb:def><p xml:id="pC057p0125a1303" rend="margin-left:1em;inline">以芮反聡聽<g ref="#CB13287">󳏧</g>也叡智識也又
@@ -22898,7 +22897,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0127c14"/><cb:div type="other"><cb:mulu type="其他" level="3">第二十六卷</cb:mulu><head>第二十六卷</head>
 <lb ed="C" n="0127c15"/><entry><form>苟欲</form><cb:def><p xml:id="pC057p0127c1503" rend="margin-left:1em;inline">公厚反廣雅苟且也亦誠也。</p></cb:def></entry>
 <lb ed="C" n="0127c16"/><entry><form>言詞</form><cb:def><p xml:id="pC057p0127c1603" rend="margin-left:1em;inline">魚鞬反下似資反直言曰言言
-<lb ed="C" n="0127c17"/><anchor xml:id="beg_25" type="cb-app"/>己<anchor xml:id="end_25"/>事也荅述為語為人說也礼記
+<lb ed="C" n="0127c17"/><anchor xml:id="beg_29" type="cb-app"/>己<anchor xml:id="end_29"/>事也荅述為語為人說也礼記
 <lb ed="C" n="0127c18"/>三年之喪言而不語是也言亦云
 <lb ed="C" n="0127c19"/>也發端也說文詞者意內而言外
 <lb ed="C" n="0127c20"/>也亦審言語也。</p></cb:def></entry></cb:div>
@@ -22930,7 +22929,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0128a22"/><entry><form>齊心</form><cb:def><p xml:id="pC057p0128a2203" rend="margin-left:1em;inline">昨迷反說文毗齊人齊也字從
 <lb ed="C" n="0128a23"/>肉毗音蒲迷反。</p></cb:def></entry>
 <pb ed="C" xml:id="C057.1163.0128b" n="0128b"/>
-<lb ed="C" n="0128b01"/><entry><form>譏<anchor xml:id="beg_26" type="cb-app"/>刺<anchor xml:id="end_26"/></form><cb:def><p xml:id="pC057p0128b0103" rend="margin-left:1em;inline">居衣反下又作諫同且漬反廣
+<lb ed="C" n="0128b01"/><entry><form>譏<anchor xml:id="beg_2a" type="cb-app"/>刺<anchor xml:id="end_2a"/></form><cb:def><p xml:id="pC057p0128b0103" rend="margin-left:1em;inline">居衣反下又作諫同且漬反廣
 <lb ed="C" n="0128b02"/>雅譏<g ref="#CB02863">㓨</g>也說文譏誹也。</p></cb:def></entry>
 <lb ed="C" n="0128b03"/><entry><form>數瞚</form><cb:def><p xml:id="pC057p0128b0303" rend="margin-left:1em;inline">又作瞬同尸閏反說文瞚目開
 <lb ed="C" n="0128b04"/>閇數搖也。</p></cb:def></entry></cb:div>
@@ -23019,8 +23018,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0129b15"/>而且甜堪入藥分。</p></cb:def></entry>
 <lb ed="C" n="0129b16"/><entry><form>主宰</form><cb:def><p xml:id="pC057p0129b1603" rend="margin-left:1em;inline">祖待反礼記宰夫為獻主謂主
 <lb ed="C" n="0129b17"/>膳食之官也。</p></cb:def></entry>
-<lb ed="C" n="0129b18"/><entry><form>擅立</form><cb:def><p xml:id="pC057p0129b1803" rend="margin-left:1em;inline">市戰反廣雅擅專也專<anchor xml:id="beg_27" type="cb-app"/>己<anchor xml:id="end_27"/>自為也。</p></cb:def></entry>
-<lb ed="C" n="0129b19"/><entry><form>專<anchor xml:id="beg_28" type="cb-app"/>己<anchor xml:id="end_28"/></form><cb:def><p xml:id="pC057p0129b1903" rend="margin-left:1em;inline">之緣反專猶自是也專壹也任也。</p></cb:def></entry></cb:div>
+<lb ed="C" n="0129b18"/><entry><form>擅立</form><cb:def><p xml:id="pC057p0129b1803" rend="margin-left:1em;inline">市戰反廣雅擅專也專<anchor xml:id="beg_2b" type="cb-app"/>己<anchor xml:id="end_2b"/>自為也。</p></cb:def></entry>
+<lb ed="C" n="0129b19"/><entry><form>專<anchor xml:id="beg_2c" type="cb-app"/>己<anchor xml:id="end_2c"/></form><cb:def><p xml:id="pC057p0129b1903" rend="margin-left:1em;inline">之緣反專猶自是也專壹也任也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0129b20"/><cb:div type="other"><cb:mulu type="其他" level="3">第三十四卷</cb:mulu><head>第三十四卷</head>
 <lb ed="C" n="0129b21"/><entry><form>屋宇</form><cb:def><p xml:id="pC057p0129b2103" rend="margin-left:1em;inline">古文<g ref="#CB00716">㝢</g>籀文<g ref="#CB08774">𢉠</g>同于甫反說文
 <lb ed="C" n="0129b22"/>宇屋邊檐也<g ref="#CB18232">𥼶</g>云宇羽也如鳥羽
@@ -23242,7 +23241,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0132b22"/>非也。</p></cb:def></entry>
 <lb ed="C" n="0132b23"/><entry><form>傅藥</form><cb:def><p xml:id="pC057p0132b2303" rend="margin-left:1em;inline">方務反附也謂塗附也方言凢
 <pb ed="C" xml:id="C057.1163.0132c" n="0132c"/>
-<lb ed="C" n="0132c01"/>欲藥傅藥而毒<anchor xml:id="beg_29" type="cb-app"/>刺<anchor xml:id="end_29"/>是也。</p></cb:def></entry>
+<lb ed="C" n="0132c01"/>欲藥傅藥而毒<anchor xml:id="beg_2d" type="cb-app"/>刺<anchor xml:id="end_2d"/>是也。</p></cb:def></entry>
 <lb ed="C" n="0132c02"/><entry><form>萌牙</form><cb:def><p xml:id="pC057p0132c0203" rend="margin-left:1em;inline">古文氓同麦<g ref="#CB07211">𥝷</g>反廣雅萌始也
 <lb ed="C" n="0132c03"/>萌亦<g ref="#CB07448">𡨋</g>昧<g ref="#CB15032">㒵</g>也。</p></cb:def></entry></cb:div>
 <lb ed="C" n="0132c04"/><cb:div type="other"><cb:mulu type="其他" level="3">第七十卷</cb:mulu><head>第七十卷</head>
@@ -23292,54 +23291,58 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="C" xml:id="C057.1163.0133b" n="0133b"/>
 <lb ed="C" n="0133b01"/>云雨止曰晴晴亦精明也。</p></cb:def></entry></cb:div></cb:div></cb:div>
 <lb ed="C" n="0133b02"/>
-<lb ed="C" n="0133b03"/><cb:juan fun="close" n="25"><cb:jhead><anchor xml:id="beg_2a" type="cb-app"/>一<anchor xml:id="end_2a"/>切經音義卷第二十五</cb:jhead></cb:juan>
+<lb ed="C" n="0133b03"/><cb:juan fun="close" n="25"><cb:jhead><anchor xml:id="beg_2e" type="cb-app"/>一<anchor xml:id="end_2e"/>切經音義卷第二十五</cb:jhead></cb:juan>
 </body>
 <back>
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>鍛</corr><sic>鍜</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>沫</corr><sic>沬</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>掐</corr><sic>搯</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>畝</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>鍛</corr><sic>鍜</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>杖</corr><sic>扙</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>曰</corr><sic>日</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>杻</corr><sic>扭</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>杖</corr><sic>扙</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr>邀</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>鍛</corr><sic>鍜</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>豐</corr><sic>豊</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>所</corr><sic><unclear></unclear></sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>徙<note type="cf1">T54n2128_p0677b15</note></corr><sic>徒</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>徙<note type="cf1">T54n2128_p0677b15</note></corr><sic>徒</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>鍛</corr><sic>鍜</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>沫</corr><sic>沬</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>掐</corr><sic>搯</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>畝</corr><sic><unclear></unclear></sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>鍛</corr><sic>鍜</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>第</corr><sic>弟</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>杖</corr><sic>扙</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>曰</corr><sic>日</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>杻</corr><sic>扭</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>杖</corr><sic>扙</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>邀</corr><sic><unclear></unclear></sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>鍛</corr><sic>鍜</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>第</corr><sic>弟</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_12" cb:to="#end_12"><corr>豐</corr><sic>豊</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>鍛</corr><sic>鍜</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_14" cb:to="#end_14"><corr>祖到</corr><sic><unclear></unclear><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_15" cb:to="#end_15"><corr>颺</corr><sic><g ref="#CB00732">𩗺</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_16" cb:to="#end_16"><corr>鍛</corr><sic>鍜</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_17" cb:to="#end_17"><corr>圮</corr><sic>圯</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_18" cb:to="#end_18"><corr>圮</corr><sic>圯</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_19" cb:to="#end_19"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1a" cb:to="#end_1a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1b" cb:to="#end_1b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1c" cb:to="#end_1c"><corr>己</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>所</corr><sic><unclear></unclear></sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_14" cb:to="#end_14"><corr>豐</corr><sic>豊</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_15" cb:to="#end_15"><corr>鍛</corr><sic>鍜</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_16" cb:to="#end_16"><corr>祖到</corr><sic><unclear></unclear><unclear></unclear></sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_17" cb:to="#end_17"><corr>颺</corr><sic><g ref="#CB00732">𩗺</g></sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_18" cb:to="#end_18"><corr>鍛</corr><sic>鍜</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_19" cb:to="#end_19"><corr>圮</corr><sic>圯</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1a" cb:to="#end_1a"><corr>圮</corr><sic>圯</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1b" cb:to="#end_1b"><corr>己</corr><sic>已</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1c" cb:to="#end_1c"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_1d" cb:to="#end_1d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1e" cb:to="#end_1e"><corr>鍛</corr><sic>鍜</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1f" cb:to="#end_1f"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_20" cb:to="#end_20"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_21" cb:to="#end_21"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1e" cb:to="#end_1e"><corr>己</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1f" cb:to="#end_1f"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_20" cb:to="#end_20"><corr>鍛</corr><sic>鍜</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_21" cb:to="#end_21"><corr>己</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_22" cb:to="#end_22"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_23" cb:to="#end_23"><corr>窣</corr><sic><g ref="#CB02443">𡨧</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_24" cb:to="#end_24"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_25" cb:to="#end_25"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_26" cb:to="#end_26"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_27" cb:to="#end_27"><corr>己</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_23" cb:to="#end_23"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_24" cb:to="#end_24"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_25" cb:to="#end_25"><corr>楝<note type="cf1">T54n2128_p0479a07</note></corr><sic>棟</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_26" cb:to="#end_26"><corr>楝<note type="cf1">T54n2128_p0479a07</note></corr><sic>棟</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_27" cb:to="#end_27"><corr>窣</corr><sic><g ref="#CB02443">𡨧</g></sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_28" cb:to="#end_28"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_29" cb:to="#end_29"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2a" cb:to="#end_2a"><corr>一</corr><sic><space quantity="0"/></sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_29" cb:to="#end_29"><corr>己</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_2a" cb:to="#end_2a"><corr>刺</corr><sic>剌</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_2b" cb:to="#end_2b"><corr>己</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_2c" cb:to="#end_2c"><corr>己</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_2d" cb:to="#end_2d"><corr>刺</corr><sic>剌</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_2e" cb:to="#end_2e"><corr>一</corr><sic><space quantity="0"/></sic></choice>
 </p>
 </cb:div>
 </back></text></TEI>

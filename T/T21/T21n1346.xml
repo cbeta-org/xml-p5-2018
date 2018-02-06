@@ -14,6 +14,7 @@
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:01:48 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -35,6 +36,7 @@
 		<witness xml:id="wit2">【元】</witness>
 		<witness xml:id="wit3">【明】</witness>
 		<witness xml:id="wit4">【宋】</witness>
+		<witness xml:id="wit5">【CBETA】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -250,7 +252,7 @@ Added comment  for Emacs
 <lb n="0859b29" ed="T"/>衣受八戒齋。唯食粳米石蜜牛乳。取黑沈香
 <pb n="0859c" xml:id="T21.1346.0859c" ed="T"/>
 <lb n="0859c01" ed="T"/>及龍腦香。共滿一兩置於壇上。又取白檀香
-<lb n="0859c02" ed="T"/>或<anchor xml:id="nkr_note_orig_0859018" n="0859018"/><anchor xml:id="nkr_note_mod_0859018" n="0859018"/><anchor xml:id="beg0859018" n="0859018"/>沆<anchor xml:id="end0859018"/>水香。或龍腦香或復丁香迦矩羅香。而
+<lb n="0859c02" ed="T"/>或<anchor xml:id="nkr_note_orig_0859018" n="0859018"/><anchor xml:id="nkr_note_mod_0859018" n="0859018"/><anchor xml:id="beg0859018" n="0859018"/>沈<anchor xml:id="end0859018"/>水香。或龍腦香或復丁香迦矩羅香。而
 <lb n="0859c03" ed="T"/>置於壇。其人誦此陀羅尼呪。呪此諸香。於日
 <lb n="0859c04" ed="T"/>日中皆七七遍滿于七日。至十五日一日不
 <lb n="0859c05" ed="T"/>食其日中時。以欝金香於其壇上作二十一
@@ -347,7 +349,7 @@ Added comment  for Emacs
 <app from="#beg0859015" to="#end0859015"><lem wit="#wit1">皆</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">並</rdg></app>
 <app from="#beg0859016" to="#end0859016"><lem wit="#wit1">疾</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">病</rdg></app>
 <app from="#beg0859017" to="#end0859017"><lem wit="#wit1">簡</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">揀</rdg></app>
-<app from="#beg0859018" to="#end0859018"><lem wit="#wit1">沆</lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">沈</rdg></app>
+<app from="#beg0859018" to="#end0859018"><lem wit="#wit5" resp="#resp3">沈<note type="cf1">T18n0893cp0689a19</note></lem><rdg resp="#resp1" wit="#wit4 #wit2 #wit3">沈</rdg><rdg wit="#wit1">沆</rdg></app>
 <app from="#beg0859019" to="#end0859019"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit4">蘇</rdg></app>
 </p>
 </cb:div>
@@ -365,7 +367,7 @@ Added comment  for Emacs
 <note n="0859015" resp="#resp2" type="mod" target="#nkr_note_mod_0859015">皆＝並【宋】【元】【明】</note>
 <note n="0859016" resp="#resp2" type="mod" target="#nkr_note_mod_0859016">疾＝病【宋】【元】【明】</note>
 <note n="0859017" resp="#resp2" type="mod" target="#nkr_note_mod_0859017">簡＝揀【宋】【元】【明】</note>
-<note n="0859018" resp="#resp2" type="mod" target="#nkr_note_mod_0859018">沆＝沈【宋】【元】【明】</note>
+<note n="0859018" resp="#resp2" type="mod" target="#nkr_note_mod_0859018">沆＝沈【宋】【元】【明】【CB】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

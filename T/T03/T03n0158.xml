@@ -16,8 +16,7 @@
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
 		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.say</name></respStmt>
-		<respStmt xml:id="resp6"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
+		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
         </editionStmt>
         <extent>8卷</extent>
         <publicationStmt>
@@ -1323,7 +1322,7 @@ Added comment  for Emacs
 <lb n="0240c09" ed="T"/>　阿那夜阿那夜阿便<note place="inline">馬地<anchor xml:id="beg_30" type="star"/>切<anchor xml:id="end_30"/></note>細迦迦羅彌　波
 <lb n="0240c10" ed="T"/>羅婆毘禰迦羅彌尼遮細　伽羅伽羅彌那
 <lb n="0240c11" ed="T"/>由帝』</p>
-<lb n="0240c12" ed="T"/><p xml:id="pT03p0240c1201">「『此是根力<anchor xml:id="nkr_note_orig_0240026" n="0240026"/><anchor xml:id="beg0240026" n="0240026"/>解<anchor xml:id="beg_31" type="cb-app"/><anchor xml:id="end_31"/>脫<anchor xml:id="end0240026"/>句。</p>
+<lb n="0240c12" ed="T"/><p xml:id="pT03p0240c1201">「『此是根力<anchor xml:id="nkr_note_orig_0240026" n="0240026"/><anchor xml:id="nkr_note_mod_0240026" n="0240026"/><anchor xml:id="beg0240026" n="0240026"/>解<anchor xml:id="beg_31" type="star"/>脫<anchor xml:id="end_31"/><anchor xml:id="end0240026"/>句。</p>
 <lb n="0240c13" ed="T"/><p cb:type="dharani" xml:id="pT03p0240c1301">「『沸師薜　蘇沸　師薜杜　摩波利呵隸
 <lb n="0240c14" ed="T"/>　阿婆裔　<anchor xml:id="nkr_note_orig_0240027" n="0240027"/><anchor xml:id="beg0240027" n="0240027"/>垂<anchor xml:id="end0240027"/>樓脂隸支迦羅　勒差　阿
 <lb n="0240c15" ed="T"/>蛇摩悉妬帝　帝隸　摩磨隸般遮失尸隸
@@ -5831,8 +5830,8 @@ Added comment  for Emacs
 <app from="#beg_2f" to="#end_2f" corresp="#0240005"><lem wit="#wit1">切</lem><rdg resp="#resp1" wit="#wit2 #wit3">反</rdg></app>
 <app from="#beg0240025" to="#end0240025"><lem wit="#wit1">坻</lem><rdg resp="#resp1" wit="#wit2"><g ref="#CB05618">󱗲</g></rdg><rdg resp="#resp1" wit="#wit3">坁</rdg></app>
 <app from="#beg_30" to="#end_30" corresp="#0240005"><lem wit="#wit1">切</lem><rdg resp="#resp1" wit="#wit2 #wit3">反</rdg></app>
-<choice cb:resp="#resp5" cb:from="#beg_31" cb:to="#end_31"><corr></corr><sic>[＊]</sic></choice>
-<app from="#beg0240026" to="#end0240026"><lem wit="#wit1">解<choice cb:resp="#resp5"><corr></corr><sic>[＊]</sic></choice>脫</lem><rdg resp="#resp1" wit="#wit2">現解</rdg></app>
+<app from="#beg_31" to="#end_31" corresp="#0240015"><lem wit="#wit1">脫</lem><rdg resp="#resp1" wit="#wit2">現</rdg></app>
+<app from="#beg0240026" to="#end0240026"><lem wit="#wit1">解<app type="star" corresp="#0240015"><lem wit="#wit1">脫</lem><rdg resp="#resp1" wit="#wit2">現</rdg></app></lem><rdg resp="#resp1" wit="#wit2">現解</rdg></app>
 <app from="#beg0240027" to="#end0240027"><lem wit="#wit1">垂</lem><rdg resp="#resp1" wit="#wit2">郵</rdg></app>
 <app from="#beg0240028" to="#end0240028"><lem wit="#wit1">醯</lem><rdg resp="#resp1" wit="#wit2"><g ref="#CB03588">𮠴</g></rdg></app>
 <app from="#beg_32" to="#end_32" corresp="#0240028"><lem wit="#wit1">醯</lem><rdg resp="#resp1" wit="#wit2"><g ref="#CB03588">𮠴</g></rdg></app>
@@ -6378,7 +6377,7 @@ Added comment  for Emacs
 <app from="#beg0262001" to="#end0262001"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit4">三</rdg></app>
 <app from="#beg0262002" to="#end0262002"><lem wit="#wit1">粖</lem><rdg resp="#resp1" wit="#wit8">末</rdg></app>
 <app from="#beg0262003" to="#end0262003"><lem wit="#wit1">蓋</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit8">益</rdg></app>
-<choice cb:resp="#resp6" cb:from="#beg_8f" cb:to="#end_8f"><corr>葉</corr><sic>棄</sic></choice>
+<choice cb:resp="#resp5" cb:from="#beg_8f" cb:to="#end_8f"><corr>葉</corr><sic>棄</sic></choice>
 <app from="#beg0262004" to="#end0262004"><lem wit="#wit1">轉</lem><rdg resp="#resp1" wit="#wit3 #wit4">轉薄</rdg></app>
 <app from="#beg0262005" to="#end0262005"><lem wit="#wit1">乏</lem><rdg resp="#resp1" wit="#wit8">之</rdg></app>
 <app from="#beg0262006" to="#end0262006"><lem wit="#wit1">反</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">及</rdg></app>
@@ -6711,7 +6710,7 @@ Added comment  for Emacs
 <app from="#beg0274017" to="#end0274017"><lem wit="#wit1">氷</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">水</rdg></app>
 <app from="#beg0274018" to="#end0274018"><lem wit="#wit1">伽</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">迦</rdg></app>
 <app from="#beg0275001" to="#end0275001"><lem wit="#wit1">山</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">止</rdg></app>
-<choice cb:resp="#resp6" cb:from="#beg_111" cb:to="#end_111"><corr>藥</corr><sic>樂</sic></choice>
+<choice cb:resp="#resp5" cb:from="#beg_111" cb:to="#end_111"><corr>藥</corr><sic>樂</sic></choice>
 <app from="#beg0275002" to="#end0275002"><lem wit="#wit1">顛</lem><rdg resp="#resp1" wit="#wit3 #wit4"><g ref="#CB05700">󱙄</g></rdg></app>
 <app from="#beg0275003" to="#end0275003"><lem wit="#wit1">曲</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">子</rdg></app>
 <app from="#beg0275004" to="#end0275004"><lem wit="#wit1">馬瑙</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">碼碯</rdg></app>
@@ -7001,6 +7000,7 @@ Added comment  for Emacs
 <note n="0240004" resp="#resp2" type="mod" target="#nkr_note_mod_0240004">阿＝可【宋】，＝呵【元】</note>
 <note n="0240011" resp="#resp2" type="mod" target="#nkr_note_mod_0240011"><choice cb:resp="#resp4"><corr><g ref="#CB02378">󰥊</g></corr><sic><g ref="#CB05594">󱗚</g></sic></choice>＝咩【宋】</note>
 <note n="0240025" resp="#resp2" type="mod" target="#nkr_note_mod_0240025">坻＝<g ref="#CB05618">󱗲</g>【宋】，＝坁【元】</note>
+<note n="0240026" resp="#resp2" type="mod" target="#nkr_note_mod_0240026">解脫＝現解【宋】</note>
 <note n="0241002" resp="#resp2" type="mod" target="#nkr_note_mod_0241002"><choice cb:resp="#resp4"><corr><g ref="#CB02378">󰥊</g></corr><sic><g ref="#CB05594">󱗚</g></sic></choice>＝咩【元】</note>
 <note n="0241007" resp="#resp2" type="mod" target="#nkr_note_mod_0241007"><choice cb:resp="#resp4"><corr>冒</corr><sic><g ref="#CB00155">󰂛</g></sic></choice>＝置【宋】＊</note>
 <note n="0242001" resp="#resp2" type="mod" target="#nkr_note_mod_0242001">（大）＋悲【宋】【元】【明】</note>
