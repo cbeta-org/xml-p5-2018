@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2022 禪林寶訓</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2022 禪林寶訓</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2022 禪林寶訓</title>
 			<author>宋 淨善重集</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.14 $<date>$Date: 2009/04/23 08:12:50 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>4卷</extent>
 	<publicationStmt>
@@ -29,13 +31,13 @@
 		<date>$Date: 2009/04/23 08:12:50 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 48, No. 2022 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 48, No. 2022</bibl>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Electronic Buddhadharma Society (EBS), Text as provided by Ven. Chuanying</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，佛教電腦資訊庫功德會提供，傳穎法師提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，佛教電腦資訊庫功德會提供，傳穎法師提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00155">
@@ -2405,24 +2407,24 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>圓</corr><sic>圖</sic></choice>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>己</corr><sic>已</sic></choice>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>機</corr><sic>幾</sic></choice>
-<choice cb:from="#beg_4" cb:to="#end_4"><corr>錄</corr><sic>終</sic></choice>
-<choice cb:from="#beg_5" cb:to="#end_5"><corr>矜</corr><sic>衿</sic></choice>
-<choice cb:from="#beg_6" cb:to="#end_6"><corr>媟</corr><sic>蝶</sic></choice>
-<choice cb:from="#beg_7" cb:to="#end_7"><corr>輟</corr><sic>輒</sic></choice>
-<choice cb:from="#beg_8" cb:to="#end_8"><corr>潸</corr><sic>潛</sic></choice>
-<choice cb:from="#beg_9" cb:to="#end_9"><corr>衲</corr><sic>納</sic></choice>
-<choice cb:from="#beg_a" cb:to="#end_a"><corr>納</corr><sic>衲</sic></choice>
-<choice cb:from="#beg_b" cb:to="#end_b"><corr>矩</corr><sic>短</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_c" cb:to="#end_c"><corr>瑰<note type="cf1">X64n1263_p0516a08</note></corr><sic>環</sic></choice>
-<choice cb:from="#beg_d" cb:to="#end_d"><corr>己</corr><sic>已</sic></choice>
-<choice cb:from="#beg_e" cb:to="#end_e"><corr>祛</corr><sic>袪</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_f" cb:to="#end_f"><corr>主<note type="cf1">X64n1263_p0517a05</note><note type="cf2">X64n1265_p0603c12</note><note type="cf3">X64n1266_p0708b13</note></corr><sic>王</sic></choice>
-<choice cb:from="#beg_10" cb:to="#end_10"><corr>采</corr><sic>釆</sic></choice>
-<choice cb:from="#beg_11" cb:to="#end_11"><corr>妄</corr><sic>忘</sic></choice>
-<choice cb:from="#beg_12" cb:to="#end_12"><corr>己</corr><sic>已</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>圓</corr><sic>圖</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>己</corr><sic>已</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>機</corr><sic>幾</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>錄</corr><sic>終</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>矜</corr><sic>衿</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>媟</corr><sic>蝶</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>輟</corr><sic>輒</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>潸</corr><sic>潛</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>衲</corr><sic>納</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr>納</corr><sic>衲</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_b" cb:to="#end_b"><corr>矩</corr><sic>短</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_c" cb:to="#end_c"><corr>瑰<note type="cf1">X64n1263_p0516a08</note></corr><sic>環</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_d" cb:to="#end_d"><corr>己</corr><sic>已</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_e" cb:to="#end_e"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_f" cb:to="#end_f"><corr>主<note type="cf1">X64n1263_p0517a05</note><note type="cf2">X64n1265_p0603c12</note><note type="cf3">X64n1266_p0708b13</note></corr><sic>王</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_10" cb:to="#end_10"><corr>采</corr><sic>釆</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_11" cb:to="#end_11"><corr>妄</corr><sic>忘</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_12" cb:to="#end_12"><corr>己</corr><sic>已</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2771 維摩經疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2771 維摩經疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2771 維摩經疏</title>
 			<author></author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:15:16 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,7 +30,7 @@
 		<date>$Date: 2009/04/23 08:15:16 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 85, No. 2771 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 85, No. 2771</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 	</listWit>
@@ -37,7 +39,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as inputted by Miss Cai Ning-Jun, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，蔡寧君大德輸入，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，蔡寧君大德輸入，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00592">
@@ -1176,7 +1178,7 @@ Added comment  for Emacs
 <app from="#beg0371002" to="#end0371002"><lem resp="#resp1" wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0371003" to="#end0371003"><lem resp="#resp1" wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">無性</rdg></app>
 <app from="#beg0371004" to="#end0371004"><lem resp="#resp1" wit="#wit1">九</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">有</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>地</corr><sic>他</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>地</corr><sic>他</sic></choice>
 <app from="#beg0372001" to="#end0372001"><lem resp="#resp1" wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">愛</rdg></app>
 <app from="#beg0372002" to="#end0372002"><lem resp="#resp1" wit="#wit1">方為此義故</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0373001" to="#end0373001"><lem resp="#resp1" wit="#wit1">□□</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">觀若</rdg></app>
@@ -1199,7 +1201,7 @@ Added comment  for Emacs
 <app from="#beg0374003" to="#end0374003"><lem resp="#resp1" wit="#wit1">□□</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">迦葉</rdg></app>
 <app from="#beg0374004" to="#end0374004"><lem resp="#resp1" wit="#wit1">□□□</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">三第一</rdg></app>
 <app from="#beg0374005" to="#end0374005"><lem resp="#resp1" wit="#wit1">□□<lb n="0374b12" ed="T"/>□□□□</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">弗見此室中無</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>滅</corr><sic>減</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>滅</corr><sic>減</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

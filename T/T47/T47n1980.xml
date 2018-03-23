@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1980 往生禮讚偈</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1980 往生禮讚偈</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1980 往生禮讚偈</title>
 			<author>唐 善導集記</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.13 $<date>$Date: 2009/04/23 08:12:36 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,7 +30,7 @@
 		<date>$Date: 2009/04/23 08:12:36 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 47, No. 1980 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 47, No. 1980</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB04301">
@@ -1024,7 +1026,7 @@ Added comment  for Emacs
 <app from="#beg0439003" to="#end0439003"><lem wit="#wit1">三<lb n="0439b21" ed="T"/>五</lem><rdg resp="#resp1" wit="#wit3 #wit2" type="variantRemark">五三</rdg></app>
 <app from="#beg0439004" to="#end0439004"><lem wit="#wit1">念</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">無念</rdg></app>
 <app from="#beg0439005" to="#end0439005"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">雖作行業</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>緣</corr><sic>綠</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>緣</corr><sic>綠</sic></choice>
 <app from="#beg0439006" to="#end0439006"><lem wit="#wit1">余比日</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">爾比</rdg></app>
 <app from="#beg0439007" to="#end0439007"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit3 #wit2" type="variantRemark">十</rdg></app>
 <app from="#beg0439008" to="#end0439008"><lem wit="#wit1">觀</lem><rdg resp="#resp1" wit="#wit3 #wit2" type="variantRemark">覓</rdg></app>

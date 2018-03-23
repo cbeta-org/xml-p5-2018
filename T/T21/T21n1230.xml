@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1230 佛說大輪金剛總持陀羅尼經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1230 佛說大輪金剛總持陀羅尼經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1230 佛說大輪金剛總持陀羅尼經</title>
 			<author></author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
 		<edition>$Revision: 1.11 $<date>$Date: 2011/02/22 04:20:34 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2011/02/22 04:20:34 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 21, No. 1230 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 21, No. 1230</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00292">
@@ -693,7 +695,7 @@ Added comment  for Emacs
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr><space quantity="0"/></corr><sic>[04]</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr><space quantity="0"/></corr><sic>[05]</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr><space quantity="0"/></corr><sic>[06]</sic></choice>
-<choice cb:from="#beg_4" cb:to="#end_4"><corr>千</corr><sic>干</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_4" cb:to="#end_4"><corr>千</corr><sic>干</sic></choice>
 <app from="#beg0164001" to="#end0164001"><lem resp="#resp1" wit="#wit1">尼</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">丘</rdg></app>
 <app from="#beg0164002" to="#end0164002"><lem resp="#resp1" wit="#wit1">監文</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">堅又</rdg></app>
 <app from="#beg0165001" to="#end0165001"><lem resp="#resp1" wit="#wit1">伏</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">仗</rdg></app>

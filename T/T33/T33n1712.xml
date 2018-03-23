@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1712 般若波羅蜜多心經略疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1712 般若波羅蜜多心經略疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1712 般若波羅蜜多心經略疏</title>
 			<author>唐 法藏述</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.13 $<date>$Date: 2009/04/23 08:08:47 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,7 +30,7 @@
 		<date>$Date: 2009/04/23 08:08:47 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 33, No. 1712 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 33, No. 1712</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
@@ -38,7 +40,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 </encodingDesc>
 <profileDesc>
@@ -431,7 +433,7 @@ Added comment  for Emacs
 <app from="#beg0552004" to="#end0552004"><lem wit="#wit1">經</lem><rdg resp="#resp1" wit="#wit2">經唐三藏法師玄奘譯</rdg></app>
 <app from="#beg0553001" to="#end0553001"><lem wit="#wit1">即</lem><rdg resp="#resp1" wit="#wit2">即是</rdg></app>
 <app from="#beg0553002" to="#end0553002"><lem wit="#wit1">即</lem><rdg resp="#resp1" wit="#wit2">色即</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>利</corr><sic>別</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>利</corr><sic>別</sic></choice>
 <app from="#beg0554001" to="#end0554001"><lem wit="#wit1">牃</lem><rdg resp="#resp1" wit="#wit2">牒</rdg></app>
 <app from="#beg0554002" to="#end0554002"><lem wit="#wit1">濟</lem><rdg resp="#resp1" wit="#wit2">齊</rdg></app>
 <app from="#beg0555001" to="#end0555001"><lem wit="#wit1">于</lem><rdg resp="#resp1" wit="#wit2">於</rdg></app>

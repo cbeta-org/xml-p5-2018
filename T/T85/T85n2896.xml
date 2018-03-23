@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2896 示所犯者瑜伽法鏡經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2896 示所犯者瑜伽法鏡經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2896 示所犯者瑜伽法鏡經</title>
 			<author></author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.12 $<date>$Date: 2009/04/23 08:15:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:15:20 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 85, No. 2896 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 85, No. 2896</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as inputted by Miss Chen Miao-Ru, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，陳妙如大德輸入，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，陳妙如大德輸入，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00592">
@@ -760,8 +762,8 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>銷</corr><sic>鎖</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>銷<note type="cf1">T10n0279_p0399c09</note><note type="cf2">T11n0310_p0030a12</note></corr><sic>鎖</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>銷</corr><sic>鎖</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>銷<note type="cf1">T10n0279_p0399c09</note><note type="cf2">T11n0310_p0030a12</note></corr><sic>鎖</sic></choice>
 <app from="#beg1416002" to="#end1416002"><lem resp="#resp1" wit="#wit1">弊</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">蔽</rdg></app>
 <app from="#beg1416003" to="#end1416003"><lem resp="#resp1" wit="#wit1">枯竭</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">涸渴</rdg></app>
 <app from="#beg1417001" to="#end1417001"><lem resp="#resp1" wit="#wit1">苦哉苦哉</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">善哉善哉</rdg></app>

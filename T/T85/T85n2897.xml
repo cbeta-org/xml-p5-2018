@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2897 天地八陽神呪經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2897 天地八陽神呪經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2897 天地八陽神呪經</title>
 			<author>唐 三藏法師義淨奉詔譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -30,20 +31,19 @@
 		<date>$Date: 2011/04/18 08:05:36 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 85, No. 2897 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 85, No. 2897</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
 		<witness xml:id="wit3">【CBETA】</witness>
 		<witness xml:id="wit4">【甲】</witness>
-		<witness xml:id="wit5">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as inputted by Miss Chen Miao-Ru, Text as provided by Anonymous from USA, Punctuated text as provided by Ye</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，陳妙如大德輸入，北美某大德提供，葉居士提供新式標點</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，陳妙如大德輸入，北美某大德提供，葉居士提供新式標點</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB05369">
@@ -488,7 +488,7 @@ Added comment  for Emacs
 <app from="#beg1423036" to="#end1423036"><lem wit="#wit1">內</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">田</rdg></app>
 <app from="#beg1423037" to="#end1423037"><lem wit="#wit1">利益</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">吉利</rdg></app>
 <app from="#beg1424002" to="#end1424002"><lem wit="#wit1">發</lem><rdg resp="#resp1" wit="#wit4">得</rdg></app>
-<choice cb:from="#beg_a" cb:to="#end_a"><corr>藐</corr><sic>貌</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_a" cb:to="#end_a"><corr>藐</corr><sic>貌</sic></choice>
 <app from="#beg1424003" to="#end1424003"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
 <app from="#beg1424004" to="#end1424004"><lem wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit4">復</rdg></app>
 <app from="#beg1424005" to="#end1424005"><lem wit="#wit1">成<lb n="1424a08" ed="T"/>親之</lem><rdg resp="#resp1" wit="#wit4">已</rdg></app>
@@ -514,7 +514,7 @@ Added comment  for Emacs
 <app from="#beg1424025" to="#end1424025"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>
 <app from="#beg1424026" to="#end1424026"><lem wit="#wit1">正</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">正度四生處八解而不自異</rdg><rdg resp="#resp1" wit="#wit4">正度四生處八解</rdg></app>
 <app from="#beg1424027" to="#end1424027"><lem wit="#wit1">羅</lem><rdg resp="#resp1" wit="#wit4">和</rdg></app>
-<app from="#beg1424028" to="#end1424028"><lem resp="#resp2" wit="#wit3 #wit5">曰<note type="cf1">K34n1257_p0695a05</note><note type="cf2">K34n1257_p0858c06</note><note type="cf3">T13n0418_p0911a14</note></lem><rdg wit="#wit1">自</rdg><rdg resp="#resp1" wit="#wit4">目</rdg></app>
+<app from="#beg1424028" to="#end1424028"><lem resp="#resp2" wit="#wit3">曰<note type="cf1">K34n1257_p0695a05</note><note type="cf2">K34n1257_p0858c06</note><note type="cf3">T13n0418_p0911a14</note></lem><rdg wit="#wit1">自</rdg><rdg resp="#resp1" wit="#wit4">目</rdg></app>
 <app from="#beg1424029" to="#end1424029"><lem wit="#wit1">那羅達菩薩漏盡和</lem><rdg resp="#resp1" wit="#wit4">須彌深菩薩漏盡和</rdg></app>
 <app from="#beg1424030" to="#end1424030"><lem wit="#wit1">須彌深菩薩漏盡和</lem><rdg resp="#resp1" wit="#wit4">那羅達菩薩漏盡和</rdg></app>
 <app from="#beg1424031" to="#end1424031"><lem wit="#wit1">桓</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">抵</rdg></app>
@@ -618,7 +618,7 @@ Added comment  for Emacs
 <head>CBETA 校註</head>
 <p>
 <note n="1423026" resp="#resp3" type="mod" target="#nkr_note_mod_1423026">須＝班ィ【原】，＝頒【CB】</note>
-<note n="1424028" resp="#resp3" type="mod" target="#nkr_note_mod_1424028">自＝目【甲】，=曰【麗-CB】【CB】</note>
+<note n="1424028" resp="#resp3" type="mod" target="#nkr_note_mod_1424028">自＝目【甲】，＝曰【麗-CB】【CB】</note>
 <note n="1424057" resp="#resp3" type="mod" target="#nkr_note_mod_1424057">〔八識〕－【甲】</note>
 <note n="1424058" resp="#resp3" type="mod" target="#nkr_note_mod_1424058">〔云何名八識眼是色識耳是聲識鼻是香識。舌者是味識身是觸識意是分別識〕ィ三十一字－【原】，〔云何名八識〕－【甲】</note>
 </p>

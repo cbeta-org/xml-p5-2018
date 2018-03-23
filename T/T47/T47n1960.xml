@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1960 釋淨土群疑論</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1960 釋淨土群疑論</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1960 釋淨土群疑論</title>
 			<author>唐 懷感撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -31,7 +32,7 @@
 		<date>$Date: 2009/04/23 08:12:35 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 47, No. 1960 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 47, No. 1960</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
@@ -43,7 +44,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00193">
@@ -4376,8 +4377,8 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>祛</corr><sic>袪</sic></choice>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>采</corr><sic>釆</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>采</corr><sic>釆</sic></choice>
 <app from="#beg0030003" to="#end0030003"><lem wit="#wit1">佛</lem><rdg resp="#resp1" wit="#wit2">佛法體不可見</rdg></app>
 <app from="#beg0031001" to="#end0031001"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2">二</rdg></app>
 <app from="#beg0031002" to="#end0031002"><lem wit="#wit1">平</lem><rdg resp="#resp1" wit="#wit2">用平</rdg></app>
@@ -4385,7 +4386,7 @@ Added comment  for Emacs
 <app from="#beg0031004" to="#end0031004"><lem resp="#resp1" wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0031005" to="#end0031005"><lem wit="#wit1">何</lem><rdg resp="#resp1" wit="#wit2">而</rdg></app>
 <app cb:word-count="9" from="#beg0031006" to="#end0031006"><lem wit="#wit1">同菩薩見故<lb n="0031c19" ed="T"/>聞說妙法</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>問</corr><sic>間</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>問</corr><sic>間</sic></choice>
 <app from="#beg0032001" to="#end0032001"><lem wit="#wit1">五</lem><rdg resp="#resp1" wit="#wit2">三</rdg></app>
 <app from="#beg0032002" to="#end0032002"><lem wit="#wit1">第</lem><rdg resp="#resp1" wit="#wit2">此界第</rdg></app>
 <app from="#beg0032003" to="#end0032003"><lem wit="#wit1">漏</lem><rdg resp="#resp1" wit="#wit2">有漏</rdg></app>
@@ -4546,7 +4547,7 @@ Added comment  for Emacs
 <app from="#beg0049003" to="#end0049003"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit2">造已</rdg></app>
 <app from="#beg0049005" to="#end0049005"><lem wit="#wit1">輪</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">惡</rdg></app>
 <app from="#beg0049006" to="#end0049006"><lem wit="#wit1">輪</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">惡</rdg></app>
-<choice cb:from="#beg_a" cb:to="#end_a"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr>祛</corr><sic>袪</sic></choice>
 <app from="#beg0049007" to="#end0049007"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit2">六十</rdg></app>
 <app from="#beg0049008" to="#end0049008"><lem wit="#wit1">經</lem><rdg resp="#resp1" wit="#wit2">徑</rdg></app>
 <choice cb:resp="#resp3" cb:from="#beg_b" cb:to="#end_b"><corr>阿</corr><sic>何</sic></choice>
@@ -4610,7 +4611,7 @@ Added comment  for Emacs
 <app from="#beg0061007" to="#end0061007"><lem wit="#wit1">只</lem><rdg resp="#resp1" wit="#wit2">止</rdg></app>
 <app from="#beg0061008" to="#end0061008"><lem wit="#wit1">關</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">開</rdg></app>
 <app from="#beg0061009" to="#end0061009"><lem wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">彼</rdg></app>
-<choice cb:from="#beg_11" cb:to="#end_11"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_11" cb:to="#end_11"><corr>辦</corr><sic>辨</sic></choice>
 <app from="#beg0061010" to="#end0061010"><lem wit="#wit1">艘</lem><rdg resp="#resp1" wit="#wit2">舫</rdg></app>
 <app from="#beg0062001" to="#end0062001"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">今言</rdg></app>
 <app from="#beg0062002" to="#end0062002"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit2">生者</rdg></app>
@@ -4629,7 +4630,7 @@ Added comment  for Emacs
 <app from="#beg0066001" to="#end0066001"><lem wit="#wit1">處</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">趣</rdg></app>
 <app from="#beg0066002" to="#end0066002"><lem wit="#wit1">觀</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0066003" to="#end0066003"><lem wit="#wit1">分</lem><rdg resp="#resp1" wit="#wit2">差</rdg></app>
-<choice cb:from="#beg_14" cb:to="#end_14"><corr>辯</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_14" cb:to="#end_14"><corr>辯</corr><sic>辨</sic></choice>
 <app from="#beg0067001" to="#end0067001"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark">莫</rdg></app>
 <app from="#beg0067002" to="#end0067002"><lem wit="#wit1">眾生</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit2">眾生心</rdg></app>
 <app from="#beg0067003" to="#end0067003"><lem wit="#wit1">加被</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>

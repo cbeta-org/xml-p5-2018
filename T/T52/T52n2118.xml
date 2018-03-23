@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2118 折疑論</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2118 折疑論</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2118 折疑論</title>
 			<author>師子比丘述註</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -12,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.14 $<date>$Date: 2012/12/11 07:06:38 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>5卷</extent>
 	<publicationStmt>
@@ -28,13 +30,13 @@
 		<date>$Date: 2012/12/11 07:06:38 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 52, No. 2118 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 52, No. 2118</bibl>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00649">
@@ -2223,25 +2225,25 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>鞴<note type="cf1">T47n1997_p0752c21</note></corr><sic><g ref="#CB06671">𮢫</g></sic></choice>
-<choice cb:from="#beg_5" cb:to="#end_5"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:from="#beg_6" cb:to="#end_6"><corr>千</corr><sic>十</sic></choice>
-<choice cb:from="#beg_7" cb:to="#end_7"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:from="#beg_8" cb:to="#end_8"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:from="#beg_9" cb:to="#end_9"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:from="#beg_a" cb:to="#end_a"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:from="#beg_b" cb:to="#end_b"><corr>僭</corr><sic>僣</sic></choice>
-<choice cb:from="#beg_c" cb:to="#end_c"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:from="#beg_d" cb:to="#end_d"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:from="#beg_e" cb:to="#end_e"><corr>豐</corr><sic>豊</sic></choice>
-<choice cb:from="#beg_f" cb:to="#end_f"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:from="#beg_10" cb:to="#end_10"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>旦</corr><sic>且</sic></choice>
-<choice cb:from="#beg_12" cb:to="#end_12"><corr>僭</corr><sic>僣</sic></choice>
-<choice cb:from="#beg_13" cb:to="#end_13"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>鞴<note type="cf1">T47n1997_p0752c21</note></corr><sic><g ref="#CB06671">𮢫</g></sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>千</corr><sic>十</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>刺</corr><sic>剌</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>刺</corr><sic>剌</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>僭</corr><sic>僣</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>豐</corr><sic>豊</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_11" cb:to="#end_11"><corr>旦</corr><sic>且</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_12" cb:to="#end_12"><corr>僭</corr><sic>僣</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>諡</corr><sic>謚</sic></choice>
 </p>
 </cb:div>
 </back></text></TEI>

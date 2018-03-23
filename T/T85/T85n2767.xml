@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2767 藥師經疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2767 藥師經疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2767 藥師經疏</title>
 			<author></author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,9 +14,10 @@
 	<editionStmt>
 		<edition>$Revision: 1.15 $<date>$Date: 2009/04/23 08:15:16 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.march</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.march</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,7 +33,7 @@
 		<date>$Date: 2009/04/23 08:15:16 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 85, No. 2767 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 85, No. 2767</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 	</listWit>
@@ -40,7 +42,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as inputted by Miss Huang Se-Se, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，黃璱璱大德輸入，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，黃璱璱大德輸入，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00574">
@@ -1229,7 +1231,7 @@ Added comment  for Emacs
 <lb n="0322a15" ed="T"/>令修供養藥師如來。</p>
 <lb n="0322a16" ed="T"/><p xml:id="pT85p0322a1601">經。決定不受三惡道報　四蒙救　謂由供養
 <lb n="0322a17" ed="T"/>彼如來故。能令重業決定不受。</p>
-<lb n="0322a18" ed="T"/><p xml:id="pT85p0322a1801"><anchor xml:id="beg_a" type="cb-app"/><anchor xml:id="end_a"/>或有至極苦　八臨難蒙恩文分為三。一遇
+<lb n="0322a18" ed="T"/><p xml:id="pT85p0322a1801"><anchor xml:id="beg_a" type="cb-app"/><space quantity="0"/><anchor xml:id="end_a"/>或有至極苦　八臨難蒙恩文分為三。一遇
 <lb n="0322a19" ed="T"/>難。二稱名。三遂願。此則初也。諸謂女人臨難
 <lb n="0322a20" ed="T"/>之時受於極苦。或喪身殞命等。</p>
 <lb n="0322a21" ed="T"/><p xml:id="pT85p0322a2101">經。若能至如來者　二稱名。謂勸諸女人等。
@@ -1744,27 +1746,27 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>氏</corr><sic>氐</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>氏</corr><sic>氐</sic></choice>
 <app from="#beg0313001" to="#end0313001"><lem resp="#resp1" wit="#wit1">宣</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">寡</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>兩</corr><sic>雨</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>日</corr><sic>曰</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_4" cb:to="#end_4"><corr>椎</corr><sic>推</sic></choice>
-<choice cb:from="#beg_5" cb:to="#end_5"><corr>圮</corr><sic><g ref="#CB04395">𡉏</g></sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_6" cb:to="#end_6"><corr>椎</corr><sic>推</sic></choice>
-<choice cb:from="#beg_7" cb:to="#end_7"><corr>自</corr><sic>目</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>兩</corr><sic>雨</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>日</corr><sic>曰</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_4" cb:to="#end_4"><corr>椎</corr><sic>推</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>圮</corr><sic><g ref="#CB04395">𡉏</g></sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_6" cb:to="#end_6"><corr>椎</corr><sic>推</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>自</corr><sic>目</sic></choice>
 <app from="#beg0318001" to="#end0318001"><lem resp="#resp1" wit="#wit1">雖</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0318002" to="#end0318002"><lem resp="#resp1" wit="#wit1">佛</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">仙</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_8" cb:to="#end_8"><corr>繫<note type="cf1">T12n0374_p0551b11</note><note type="cf2">T12n0375_p0797a19</note></corr><sic>繁</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_8" cb:to="#end_8"><corr>繫<note type="cf1">T12n0374_p0551b11</note><note type="cf2">T12n0375_p0797a19</note></corr><sic>繁</sic></choice>
 <app from="#beg0319001" to="#end0319001"><lem resp="#resp1" wit="#wit1">敢</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">噉</rdg></app>
 <app from="#beg0319002" to="#end0319002"><lem resp="#resp1" wit="#wit1">戒</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">或</rdg></app>
 <app from="#beg0319003" to="#end0319003"><lem resp="#resp1" wit="#wit1">亭</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">停</rdg></app>
 <app from="#beg0320001" to="#end0320001"><lem resp="#resp1" wit="#wit1">非</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">升</rdg></app>
-<choice cb:from="#beg_9" cb:to="#end_9"><corr>采</corr><sic>釆</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>采</corr><sic>釆</sic></choice>
 <app from="#beg0321001" to="#end0321001"><lem resp="#resp1" wit="#wit1">犯</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">梵</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_a" cb:to="#end_a"><corr></corr><sic>[01]</sic></choice>
-<choice cb:from="#beg_b" cb:to="#end_b"><corr>羸</corr><sic>贏</sic></choice>
+<choice cb:resp="#resp5" cb:from="#beg_a" cb:to="#end_a"><corr><space quantity="0"/></corr><sic>[01]</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_b" cb:to="#end_b"><corr>羸</corr><sic>贏</sic></choice>
 <app from="#beg0324001" to="#end0324001"><lem resp="#resp1" wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_c" cb:to="#end_c"><corr>唯<note type="cf1">T16n0702_p0804b08</note><note type="cf2">T53n2122_p0564c18</note></corr><sic>准</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_c" cb:to="#end_c"><corr>唯<note type="cf1">T16n0702_p0804b08</note><note type="cf2">T53n2122_p0564c18</note></corr><sic>准</sic></choice>
 <app from="#beg0326001" to="#end0326001"><lem resp="#resp1" wit="#wit1">憂</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">夏</rdg></app>
 </p>
 </cb:div>

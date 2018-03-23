@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 0728 諸法集要經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 728 諸法集要經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 728 諸法集要經</title>
 			<author>觀無畏尊者集  宋 日稱等譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
 		<edition>$Revision: 1.13 $<date>$Date: 2012/09/28 08:51:51 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>10卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2012/09/28 08:51:51 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 17, No. 728 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 17, No. 728</bibl>
 	<listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【麗】</witness>
@@ -41,7 +43,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Jaero Chen</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jaero Chen 提供新式標點</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jaero Chen 提供新式標點</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00595">
@@ -5488,22 +5490,22 @@ Added comment  for Emacs
 <app from="#beg_2" to="#end_2"><lem wit="#wit1 #wit2" resp="#resp1">令<note type="cf1">K41n1494_p0615a02</note></lem><rdg wit="#wit3">今</rdg></app>
 <app from="#beg_3" to="#end_3"><lem wit="#wit1 #wit2" resp="#resp1">摩<note type="cf1">K41n1494_p0618a09</note></lem><rdg wit="#wit3">魔</rdg></app>
 <app from="#beg_4" to="#end_4"><lem wit="#wit1 #wit2" resp="#resp1">祛<note type="cf1">K41n1494_p0618a20</note></lem><rdg wit="#wit3">袪</rdg></app>
-<choice cb:from="#beg_5" cb:to="#end_5"><corr>忒</corr><sic><g ref="#CB03085">󰰍</g></sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5" cb:to="#end_5"><corr>忒</corr><sic><g ref="#CB03085">󰰍</g></sic></choice>
 <app from="#beg_6" to="#end_6"><lem wit="#wit1 #wit2" resp="#resp1">百<note type="cf1">K41n1494_p0620c14</note></lem><rdg wit="#wit3">皆</rdg></app>
 <app from="#beg_7" to="#end_7"><lem wit="#wit1 #wit2" resp="#resp1">眎<note type="cf1">K41n1494_p0621b19</note></lem><rdg wit="#wit3"><g ref="#CB03057">𧵋</g></rdg></app>
 <app from="#beg_8" to="#end_8"><lem resp="#resp1" wit="#wit1 #wit2">眎<note type="cf1">K41n1494_p0622b20</note></lem><rdg wit="#wit3"><g ref="#CB03057">𧵋</g></rdg></app>
 <app from="#beg_9" to="#end_9"><lem wit="#wit1 #wit2" resp="#resp1">專<note type="cf1">K41n1494_p0656a14</note></lem><rdg wit="#wit3">善</rdg></app>
-<choice cb:from="#beg_a" cb:to="#end_a"><corr>人</corr><sic>八</sic></choice>
-<choice cb:from="#beg_b" cb:to="#end_b"><corr>住</corr><sic>往</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_a" cb:to="#end_a"><corr>人</corr><sic>八</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_b" cb:to="#end_b"><corr>住</corr><sic>往</sic></choice>
 <app from="#beg_c" to="#end_c"><lem wit="#wit1 #wit2" resp="#resp1">愛<note type="cf1">K41n1494_p0629b17</note></lem><rdg wit="#wit3">離</rdg></app>
 <app from="#beg_d" to="#end_d"><lem wit="#wit1 #wit2" resp="#resp1">後<note type="cf1">K41n1494_p0630a14</note></lem><rdg wit="#wit3">復</rdg></app>
 <app from="#beg_e" to="#end_e"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">刀<note type="cf1">K41n1494_p0632c16</note><note type="cf2">X02_p0022b15</note></lem><rdg wit="#wit3">刃</rdg></app>
 <app from="#beg_f" to="#end_f"><lem wit="#wit1 #wit2" resp="#resp1">已<note type="cf1">K41n1494_p0633b11</note></lem><rdg wit="#wit3">己</rdg></app>
 <app from="#beg_10" to="#end_10"><lem wit="#wit1 #wit2" resp="#resp1">如<note type="cf1">K41n1494_p0633b16</note></lem><rdg wit="#wit3">加</rdg></app>
 <choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>獷</corr><sic>礦</sic></choice>
-<choice cb:from="#beg_12" cb:to="#end_12"><corr>離</corr><sic>難</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_12" cb:to="#end_12"><corr>離</corr><sic>難</sic></choice>
 <app from="#beg_13" to="#end_13"><lem wit="#wit1 #wit2" resp="#resp1">蟒<note type="cf1">K41n1494_p0637a21</note></lem><rdg wit="#wit3">蠎</rdg></app>
-<choice cb:from="#beg_14" cb:to="#end_14"><corr>能</corr><sic>彼</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_14" cb:to="#end_14"><corr>能</corr><sic>彼</sic></choice>
 <app from="#beg_15" to="#end_15"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">樂<note type="cf1">K41n1494_p0643a24</note><note type="cf2">X02_p0032b13</note></lem><rdg wit="#wit3">欲</rdg></app>
 <app from="#beg_16" to="#end_16"><lem wit="#wit1 #wit2" resp="#resp1">已<note type="cf1">K41n1494_p0643b10</note></lem><rdg wit="#wit3">己</rdg></app>
 <app from="#beg_17" to="#end_17"><lem wit="#wit1 #wit2" resp="#resp1">暝<note type="cf1">K41n1494_p0644c04</note></lem><rdg wit="#wit3">瞑</rdg></app>
@@ -5512,14 +5514,14 @@ Added comment  for Emacs
 <app from="#beg_1a" to="#end_1a"><lem wit="#wit1 #wit2" resp="#resp1">已<note type="cf1">K41n1494_p0644c18</note></lem><rdg wit="#wit3">己</rdg></app>
 <app from="#beg_1b" to="#end_1b"><lem wit="#wit1 #wit2" resp="#resp1">已<note type="cf1">K41n1494_p0645c07</note></lem><rdg wit="#wit3">己</rdg></app>
 <app from="#beg_1c" to="#end_1c"><lem wit="#wit1 #wit2" resp="#resp1">汝<note type="cf1">K41n1494_p0646a24</note></lem><rdg wit="#wit3">法</rdg></app>
-<choice cb:from="#beg_1d" cb:to="#end_1d"><corr>因</corr><sic>困</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_1d" cb:to="#end_1d"><corr>因</corr><sic>困</sic></choice>
 <app from="#beg_1e" to="#end_1e"><lem wit="#wit1 #wit2" resp="#resp1">珍<note type="cf1">K41n1494_p0647b11</note></lem><rdg wit="#wit3">修</rdg></app>
 <app from="#beg_1f" to="#end_1f"><lem wit="#wit1 #wit2" resp="#resp1">減<note type="cf1">K41n1494_p0650a12</note></lem><rdg wit="#wit3">滅</rdg></app>
 <app from="#beg_20" to="#end_20"><lem wit="#wit1 #wit2" resp="#resp1">扸<note type="cf1">K41n1494_p0651c13</note></lem><rdg wit="#wit3">柝</rdg></app>
 <app from="#beg_21" to="#end_21"><lem wit="#wit1 #wit2" resp="#resp1">住<note type="cf1">K41n1494_p0654a05</note></lem><rdg wit="#wit3">作</rdg></app>
 <app from="#beg_22" to="#end_22"><lem wit="#wit1 #wit2" resp="#resp1">法<note type="cf1">K41n1494_p0656a14</note></lem><rdg wit="#wit3">去</rdg></app>
 <app from="#beg_23" to="#end_23"><lem wit="#wit1 #wit2" resp="#resp1">常<note type="cf1">K41n1494_p0658a13</note></lem><rdg wit="#wit3">當</rdg></app>
-<choice cb:from="#beg_24" cb:to="#end_24"><corr>奕</corr><sic>弈</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_24" cb:to="#end_24"><corr>奕</corr><sic>弈</sic></choice>
 <app from="#beg_25" to="#end_25"><lem wit="#wit1 #wit2" resp="#resp1">人<note type="cf1">K41n1494_p0663b04</note></lem><rdg wit="#wit3">入</rdg></app>
 </p>
 </cb:div>

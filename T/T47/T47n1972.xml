@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1972 淨土或問</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1972 淨土或問</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1972 淨土或問</title>
 			<author>元 天如則著</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
 		<edition>$Revision: 1.17 $<date>$Date: 2011/08/30 05:09:36 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2011/08/30 05:09:36 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 47, No. 1972 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 47, No. 1972</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB01251">
@@ -1132,15 +1134,15 @@ Added comment  for Emacs
 <p>
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>傅</corr><sic>傳</sic></choice>
 <app from="#beg0293001" to="#end0293001"><lem resp="#resp1" wit="#wit1">忍</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">慧</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>土</corr><sic>上</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>土</corr><sic>上</sic></choice>
 <app from="#beg0295001" to="#end0295001"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">身</rdg></app>
 <choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>摶</corr><sic>搏</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>折<note type="cf1">X61n1162_p0533c01</note><note type="cf2">X62n1185_p0376b19</note></corr><sic>拆</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>折<note type="cf1">X61n1162_p0533c01</note><note type="cf2">X62n1185_p0376b19</note></corr><sic>拆</sic></choice>
-<choice cb:from="#beg_6" cb:to="#end_6"><corr>入</corr><sic>人</sic></choice>
-<choice cb:from="#beg_7" cb:to="#end_7"><corr>辦</corr><sic>辨</sic></choice>
-<choice cb:from="#beg_8" cb:to="#end_8"><corr>宣</corr><sic>宜</sic></choice>
-<choice cb:from="#beg_9" cb:to="#end_9"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6" cb:to="#end_6"><corr>入</corr><sic>人</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_7" cb:to="#end_7"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_8" cb:to="#end_8"><corr>宣</corr><sic>宜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_9" cb:to="#end_9"><corr>辦</corr><sic>辨</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr>三<note type="cf1">X62n1185_p0388c13</note></corr><sic>二</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_b" cb:to="#end_b"><corr>度<note type="cf1">X62n1192_p0504a01</note></corr><sic><space quantity="0"/></sic></choice>
 </p>

@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1483a 佛說目連問戒律中五百輕重事</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1483a 佛說目連問戒律中五百輕重事</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1483a 佛說目連問戒律中五百輕重事</title>
 			<author>失譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
 		<edition>$Revision: 1.13 $<date>$Date: 2009/04/23 08:02:39 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:02:39 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 24, No. 1483a</bibl>
+		<bibl>Taishō Tripiṭaka Vol. 24, No. 1483a</bibl>
 	<listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【麗】</witness>
@@ -41,7 +43,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Gaya Foundation, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供，李明芳大德提供新式標點</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供，李明芳大德提供新式標點</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00626">
@@ -1212,7 +1214,7 @@ Added comment  for Emacs
 <p>
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>擁</corr><sic>攡</sic></choice>
 <app from="#beg_2" to="#end_2"><lem resp="#resp2" wit="#wit1 #wit2">蓋<note type="cf1">K23n0929_p1135a09</note></lem><rdg wit="#wit3"><g ref="#CB01840">𢄍</g></rdg></app>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>麈</corr><sic>塵</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>麈</corr><sic>塵</sic></choice>
 <app from="#beg_4" to="#end_4"><lem resp="#resp2" wit="#wit1 #wit2">餘<note type="cf1">K23n0929_p1138b15</note></lem><rdg wit="#wit3">除</rdg></app>
 <app from="#beg_5" to="#end_5"><lem resp="#resp2" wit="#wit1 #wit2">與<note type="cf1">K23n0929_p1140c12</note></lem><rdg wit="#wit3">餘</rdg></app>
 <app from="#beg_6" to="#end_6"><lem resp="#resp2" wit="#wit1 #wit2">噉<note type="cf1">K23n0929_p1141c13</note></lem><rdg wit="#wit3">敢</rdg></app>

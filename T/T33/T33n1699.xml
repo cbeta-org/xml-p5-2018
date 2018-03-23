@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1699 金剛般若疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1699 金剛般若疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1699 金剛般若疏</title>
 			<author>隋 吉藏撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.13 $<date>$Date: 2009/04/23 08:08:45 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>4卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:08:45 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 33, No. 1699 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 33, No. 1699</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 	</listWit>
@@ -38,7 +40,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Electronic Buddhadharma Society (EBS), Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，佛教電腦資訊庫功德會提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，佛教電腦資訊庫功德會提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00595">
@@ -3758,7 +3760,7 @@ Added comment  for Emacs
 <app from="#beg0086001" to="#end0086001"><lem resp="#resp1" wit="#wit1">般若部云</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0086002" to="#end0086002"><lem resp="#resp1" wit="#wit1">習</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">唱</rdg></app>
 <app from="#beg0087001" to="#end0087001"><lem resp="#resp1" wit="#wit1">字</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">學</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>耶</corr><sic>那</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>耶</corr><sic>那</sic></choice>
 <app from="#beg0087002" to="#end0087002"><lem resp="#resp1" wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0089001" to="#end0089001"><lem resp="#resp1" wit="#wit1">間</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">世間</rdg></app>
 <app from="#beg0090001" to="#end0090001"><lem resp="#resp1" wit="#wit1">合</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">令</rdg></app>
@@ -3766,26 +3768,26 @@ Added comment  for Emacs
 <app from="#beg0091001" to="#end0091001"><lem resp="#resp1" wit="#wit1">分</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">一分</rdg></app>
 <app from="#beg0092001" to="#end0092001"><lem resp="#resp1" wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0094001" to="#end0094001"><lem resp="#resp1" wit="#wit1">我</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">我兒</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>波</corr><sic>婆</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>波</corr><sic>婆</sic></choice>
 <app from="#beg0094002" to="#end0094002"><lem resp="#resp1" wit="#wit1">達</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">逆</rdg></app>
 <app from="#beg0094003" to="#end0094003"><lem resp="#resp1" wit="#wit1">長</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">長者</rdg></app>
 <app from="#beg0094004" to="#end0094004"><lem resp="#resp1" wit="#wit1">其</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">有</rdg></app>
 <app from="#beg0094005" to="#end0094005"><lem resp="#resp1" wit="#wit1">狩</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">獸</rdg></app>
 <app from="#beg0094006" to="#end0094006"><lem resp="#resp1" wit="#wit1">知爾<lb n="0094b17" ed="T"/>時</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">爾時知</rdg></app>
 <app from="#beg0094007" to="#end0094007"><lem resp="#resp1" wit="#wit1">高買臺</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">貴置之</rdg></app>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>瞋</corr><sic>慎</sic></choice>
-<choice cb:from="#beg_4" cb:to="#end_4"><corr>波</corr><sic>婆</sic></choice>
-<choice cb:from="#beg_5" cb:to="#end_5"><corr>落</corr><sic>洛</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>倒</corr><sic>到</sic></choice>
-<choice cb:from="#beg_7" cb:to="#end_7"><corr>為</corr><sic>　</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>瞋</corr><sic>慎</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>波</corr><sic>婆</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>落</corr><sic>洛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6" cb:to="#end_6"><corr>倒</corr><sic>到</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>為</corr><sic>　</sic></choice>
 <app from="#beg0105001" to="#end0105001"><lem resp="#resp1" wit="#wit1">蓋</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">善</rdg></app>
 <app from="#beg0106001" to="#end0106001"><lem resp="#resp1" wit="#wit1">知</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_8" cb:to="#end_8"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>已</corr><sic>巳</sic></choice>
 <app from="#beg0110001" to="#end0110001"><lem resp="#resp1" wit="#wit1">與</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0113001" to="#end0113001"><lem resp="#resp1" wit="#wit1">經</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">經名</rdg></app>
-<choice cb:from="#beg_9" cb:to="#end_9"><corr>少</corr><sic>小</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>少</corr><sic>小</sic></choice>
 <app from="#beg0114001" to="#end0114001"><lem resp="#resp1" wit="#wit1">多</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">耳</rdg></app>
-<choice cb:from="#beg_a" cb:to="#end_a"><corr>恒</corr><sic>洹</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr>恒</corr><sic>洹</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

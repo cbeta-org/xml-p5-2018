@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1803 佛頂尊勝陀羅尼經教跡義記</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1803 佛頂尊勝陀羅尼經教跡義記</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1803 佛頂尊勝陀羅尼經教跡義記</title>
 			<author>唐 法崇述</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
 		<edition>$Revision: 1.15 $<date>$Date: 2009/04/23 08:10:40 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:10:40 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 39, No. 1803 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 39, No. 1803</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00069">
@@ -2415,7 +2417,7 @@ Added comment  for Emacs
 <lb n="1035a22" ed="T"/>風。三者樹風。四者上風。此四種風持於城壁
 <lb n="1035a23" ed="T"/>寄於水上。由如浮囊。此小不同。可更釋之。言
 <lb n="1035a24" ed="T"/>夜叉者。此云輕捷。亦名勇健。言羅剎者。此云
-<lb n="1035a25" ed="T"/>可畏。亦云暴惡。若是男名羅剎婆。若是女名
+<lb n="1035a25" ed="T"/>可畏。亦云暴惡。若是男名羅剎<anchor xml:id="beg_7" type="cb-app"/>娑<anchor xml:id="end_7"/>。若是女名
 <lb n="1035a26" ed="T"/>羅剎儞。布單那者。此云臭惡。亦云熱病鬼。羯
 <lb n="1035a27" ed="T"/>吒布單那者。此云奇臭。言阿跋娑摩羅者。此
 <lb n="1035a28" ed="T"/>云顛病鬼。亦名形影。亦云轉筋。鬼神等身者
@@ -2629,7 +2631,7 @@ Added comment  for Emacs
 <lb n="1037b26" ed="T"/>王城。亦以七寶。亦有七重城壁七重行樹。其
 <lb n="1037b27" ed="T"/>城四面亦有七寶池。此天身量長五百尺。壽
 <lb n="1037b28" ed="T"/>命同前。修中下品十善得生彼天。其二部眾
-<lb n="1037b29" ed="T"/>者。一鳩槃荼。二<anchor xml:id="beg_7" type="cb-app"/>薜<anchor xml:id="end_7"/>荔多。其毘樓勒叉管此二
+<lb n="1037b29" ed="T"/>者。一鳩槃荼。二<anchor xml:id="beg_8" type="cb-app"/>薜<anchor xml:id="end_8"/>荔多。其毘樓勒叉管此二
 <pb n="1037c" xml:id="T39.1803.1037c" ed="T"/>
 <lb n="1037c01" ed="T"/>眾。於南贍部洲不令鬼神侵損。須彌山西面
 <lb n="1037c02" ed="T"/>有毘樓博叉天王宮。亦以七寶所成。池樹城
@@ -2944,7 +2946,7 @@ Added comment  for Emacs
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>拘<note type="cf1">T01n0003_p0158b22</note></corr><sic>狗</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>耶<note type="cf1">T33n1700_p0126c02</note><note type="cf2">X13n0285_p0223a07</note></corr><sic>那</sic></choice>
 <app from="#beg1021001" to="#end1021001"><lem resp="#resp1" wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">住請</rdg></app>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr><g ref="#CB01804">𮜖</g></corr><sic>繕</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr><g ref="#CB01804">𮜖</g></corr><sic>繕</sic></choice>
 <app from="#beg1022001" to="#end1022001"><lem resp="#resp1" wit="#wit1">千</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">十</rdg></app>
 <app from="#beg1027001" to="#end1027001"><lem resp="#resp1" wit="#wit1">炭</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">一者炭</rdg></app>
 <app from="#beg1027002" to="#end1027002"><lem resp="#resp1" wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">滿中</rdg></app>
@@ -2953,8 +2955,9 @@ Added comment  for Emacs
 <choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>日</corr><sic>曰</sic></choice>
 <app from="#beg1033001" to="#end1033001"><lem resp="#resp1" wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">身</rdg></app>
 <app from="#beg1033002" to="#end1033002"><lem resp="#resp1" wit="#wit1">聞</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">問</rdg></app>
-<choice cb:from="#beg_6" cb:to="#end_6"><corr>忘</corr><sic>妄</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>薜<note type="cf1">T54n2128_p0357a10</note><note type="cf2">T54n2128_p0615b02</note></corr><sic>薛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6" cb:to="#end_6"><corr>忘</corr><sic>妄</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>娑<note type="cf1">《佛光大辭典》：梵語 rāksasa。惡鬼之名。又作羅剎娑（羅剎婆為誤寫）。</note></corr><sic>婆</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>薜<note type="cf1">T54n2128_p0357a10</note><note type="cf2">T54n2128_p0615b02</note></corr><sic>薛</sic></choice>
 <app from="#beg1039002" to="#end1039002"><lem resp="#resp1" wit="#wit1">所</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">以</rdg></app>
 </p>
 </cb:div>

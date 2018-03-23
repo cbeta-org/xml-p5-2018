@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1824 中觀論疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1824 中觀論疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1824 中觀論疏</title>
 			<author>隋 吉藏撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,7 +15,8 @@
 		<edition>$Revision: 1.16 $<date>$Date: 2009/04/23 08:11:23 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.march</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.march</name></respStmt>
 	</editionStmt>
 	<extent>10卷</extent>
 	<publicationStmt>
@@ -30,7 +32,7 @@
 		<date>$Date: 2009/04/23 08:11:23 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 42, No. 1824 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 42, No. 1824</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 	</listWit>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00178">
@@ -4345,7 +4347,7 @@ Added comment  for Emacs
 <lb n="0046b01" ed="T"/>生。一切法亦爾也。答曰下第三破四緣生義。
 <lb n="0046b02" ed="T"/>余聽師講及自講已來恒恨分此品文句不
 <lb n="0046b03" ed="T"/>好。既是舊說。不敢改之。今依論意宜別科也。
-<lb n="0046b04" ed="T"/>破中為三。第一破四緣能生果。果<anchor xml:id="beg_4" type="cb-app"/><anchor xml:id="end_4"/>不從四緣
+<lb n="0046b04" ed="T"/>破中為三。第一破四緣能生果。果<anchor xml:id="beg_4" type="cb-app"/><space quantity="0"/><anchor xml:id="end_4"/>不從四緣
 <lb n="0046b05" ed="T"/>生義。第二明非緣不能生果。果不從非緣生
 <lb n="0046b06" ed="T"/>義。第三雙結二門。結果不從緣非緣生故無
 <lb n="0046b07" ed="T"/>果。果無故結緣非緣亦無。詳論文正爾。至後
@@ -9248,7 +9250,7 @@ Added comment  for Emacs
 <lb n="0101b26" ed="T"/>之終。然復有生死之始。是涅槃之終。涅槃
 <lb n="0101b27" ed="T"/>之始為生死之終。生死之終為大涅槃之始。
 <lb n="0101b28" ed="T"/>涅槃之始為生死之終。生死之始為涅槃之
-<lb n="0101b29" ed="T"/>終者。據迷情辨之。<anchor xml:id="beg_7" type="cb-app"/><anchor xml:id="end_7"/>載起一念有所得心則是
+<lb n="0101b29" ed="T"/>終者。據迷情辨之。<anchor xml:id="beg_7" type="cb-app"/><space quantity="0"/><anchor xml:id="end_7"/>載起一念有所得心則是
 <pb n="0101c" xml:id="T42.1824.0101c" ed="T"/>
 <lb n="0101c01" ed="T"/>生死之始。而正觀不現故是涅槃終。若得一
 <lb n="0101c02" ed="T"/>念正觀則是涅槃之始為生死之終。今總問
@@ -15361,11 +15363,11 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>袒<note type="cf1">T34n1721_p0625a15</note></corr><sic>祖</sic></choice>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>博</corr><sic>愽</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>博</corr><sic>愽</sic></choice>
 <app from="#beg0029001" to="#end0029001"><lem resp="#resp1" wit="#wit1">未</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">末</rdg></app>
 <choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>寶<note type="cf1">T42n1824_p0031b03</note></corr><sic>實</sic></choice>
 <app from="#beg0035001" to="#end0035001"><lem resp="#resp1" wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">復</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_4" cb:to="#end_4"><corr></corr><sic>[01]</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_4" cb:to="#end_4"><corr><space quantity="0"/></corr><sic>[01]</sic></choice>
 <app from="#beg0047001" to="#end0047001"><lem resp="#resp1" wit="#wit1">朱</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">失</rdg></app>
 <choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>論<note type="cf1">T42n1824_p0117b10</note><note type="cf2">T42n1828_p0659b23</note></corr><sic>輪</sic></choice>
 <app from="#beg0056001" to="#end0056001"><lem resp="#resp1" wit="#wit1">句</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">偈</rdg></app>
@@ -15375,7 +15377,7 @@ Added comment  for Emacs
 <app from="#beg0093001" to="#end0093001"><lem resp="#resp1" wit="#wit1">遂</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">逐</rdg></app>
 <app from="#beg0095001" to="#end0095001"><lem resp="#resp1" wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0098001" to="#end0098001"><lem resp="#resp1" wit="#wit1">燃無待可燃</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">可燃無待於燃</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_7" cb:to="#end_7"><corr></corr><sic>[01]</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_7" cb:to="#end_7"><corr><space quantity="0"/></corr><sic>[01]</sic></choice>
 <app from="#beg0108001" to="#end0108001"><lem resp="#resp1" wit="#wit1">信</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">不信</rdg></app>
 <app from="#beg0113001" to="#end0113001"><lem resp="#resp1" wit="#wit1">衛世</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">薩婆多</rdg></app>
 <app from="#beg0123001" to="#end0123001"><lem resp="#resp1" wit="#wit1">論</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">品</rdg></app>
@@ -15385,7 +15387,7 @@ Added comment  for Emacs
 <app from="#beg0143001" to="#end0143001"><lem resp="#resp1" wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">空</rdg></app>
 <app from="#beg0149001" to="#end0149001"><lem resp="#resp1" wit="#wit1">共</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">失</rdg></app>
 <app from="#beg0155001" to="#end0155001"><lem resp="#resp1" wit="#wit1">起</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">超</rdg></app>
-<choice cb:from="#beg_8" cb:to="#end_8"><corr>果</corr><sic>　</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_8" cb:to="#end_8"><corr>果</corr><sic>　</sic></choice>
 <app from="#beg0157001" to="#end0157001"><lem resp="#resp1" wit="#wit1">呪</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">況</rdg></app>
 <app from="#beg0159001" to="#end0159001"><lem resp="#resp1" wit="#wit1">眾</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">來</rdg></app>
 </p>

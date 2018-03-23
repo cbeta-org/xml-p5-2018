@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2148 眾經目錄</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2148 眾經目錄</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2148 眾經目錄</title>
 			<author>唐 靜泰撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,7 +15,8 @@
 		<edition>$Revision: 1.24 $<date>$Date: 2009/04/23 08:14:31 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
 	</editionStmt>
 	<extent>5卷</extent>
 	<publicationStmt>
@@ -30,7 +32,7 @@
 		<date>$Date: 2009/04/23 08:14:31 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 55, No. 2148 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 55, No. 2148</bibl>
 	<listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【麗】</witness>
@@ -41,7 +43,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00084">
@@ -3567,12 +3569,12 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg_1" to="#end_1"><lem wit="#wit1 #wit2" resp="#resp2">派<note type="cf1">K31n1056_p0612a15</note><note type="cf2">T52n2103_p0347c16</note></lem><rdg wit="#wit3">泒</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>祛</corr><sic>袪</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr><space quantity="0"/><note type="cf1">C054n1148_p0405b</note></corr><sic>隋沙門法經等撰</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>釋靜泰</corr><sic>隋開皇十四年勅翻經沙門法經等</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_5" cb:to="#end_5"><corr><note place="inline">賢聖所撰翻譯有源</note></corr><sic>賢聖所撰翻譯有源</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_5" cb:to="#end_5"><corr><note place="inline">賢聖所撰翻譯有源</note></corr><sic>賢聖所撰翻譯有源</sic></choice>
 <app from="#beg_6" to="#end_6"><lem wit="#wit1 #wit2" resp="#resp2">輻<note type="cf1">K31n1056_p0636c17</note></lem><rdg wit="#wit3">幅</rdg></app>
-<choice cb:from="#beg_7" cb:to="#end_7"><corr>槍</corr><sic>搶</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_7" cb:to="#end_7"><corr>槍</corr><sic>搶</sic></choice>
 <app from="#beg_8" to="#end_8"><lem resp="#resp2" wit="#wit1">詰<note type="cf1">T55n2146_p0119a12</note><note type="cf2">T55n2147_p0176a07</note></lem><rdg wit="#wit3">結</rdg><rdg resp="#resp2" wit="#wit2">結<note type="cf1">K31n1056_p0652a1</note></rdg></app>
 </p>
 </cb:div>

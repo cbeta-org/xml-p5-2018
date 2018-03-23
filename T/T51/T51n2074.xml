@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2074 大方廣佛華嚴經感應傳</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2074 大方廣佛華嚴經感應傳</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2074 大方廣佛華嚴經感應傳</title>
 			<author>唐 惠英撰．胡幽貞纂</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.13 $<date>$Date: 2009/04/23 08:13:29 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,7 +30,7 @@
 		<date>$Date: 2009/04/23 08:13:29 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 51, No. 2074 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 51, No. 2074</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【宮】</witness>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00527">
@@ -698,7 +700,7 @@ Added comment  for Emacs
 <app from="#beg0174014" to="#end0174014"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit2">今</rdg></app>
 <app from="#beg0174015" to="#end0174015"><lem wit="#wit1">從</lem><rdg resp="#resp1" wit="#wit2">徙</rdg></app>
 <app from="#beg0174016" to="#end0174016"><lem wit="#wit1"><g ref="#CB00527">𨓍</g></lem><rdg resp="#resp1" wit="#wit2">庭</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>辦</corr><sic>辨</sic></choice>
 <app from="#beg0175001" to="#end0175001"><lem wit="#wit1">緣</lem><rdg resp="#resp1" wit="#wit2">緩</rdg></app>
 <app from="#beg_2" to="#end_2" corresp="#0174016"><lem wit="#wit1"><g ref="#CB00527">𨓍</g></lem><rdg resp="#resp1" wit="#wit2">庭</rdg></app>
 <app from="#beg0175002" to="#end0175002"><lem wit="#wit1">夜</lem><rdg resp="#resp1" wit="#wit2">夜方</rdg></app>
@@ -726,7 +728,7 @@ Added comment  for Emacs
 <app from="#beg0176011" to="#end0176011"><lem wit="#wit1">師</lem><rdg resp="#resp1" wit="#wit2">僧</rdg></app>
 <app from="#beg0176012" to="#end0176012"><lem wit="#wit1">淩</lem><rdg resp="#resp1" wit="#wit2">凌</rdg></app>
 <app from="#beg0176013" to="#end0176013"><lem wit="#wit1">四</lem><rdg resp="#resp1" wit="#wit2">羅</rdg></app>
-<choice cb:from="#beg_6" cb:to="#end_6"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>辦</corr><sic>辨</sic></choice>
 <app from="#beg0176014" to="#end0176014"><lem wit="#wit1">帝</lem><rdg resp="#resp1" wit="#wit2">帝釋</rdg></app>
 <app from="#beg0176015" to="#end0176015"><lem wit="#wit1">高</lem><rdg resp="#resp1" wit="#wit2">亮</rdg></app>
 <app from="#beg0176016" to="#end0176016"><lem wit="#wit1">請</lem><rdg resp="#resp1" wit="#wit2">歸請</rdg></app>

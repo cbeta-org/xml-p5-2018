@@ -3,7 +3,8 @@
 <teiHeader>
         <fileDesc>
                 <titleStmt>
-                        <title>Taisho Tripitaka, Electronic version, No. 0479 善思童子經</title>
+                        <title>Taishō Tripiṭaka, Electronic version, No. 479 善思童子經</title>
+                        <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 479 善思童子經</title>
                         <author>隋 闍那崛多譯</author>
                         <respStmt>
                                 <resp>Electronic Version by</resp>
@@ -30,7 +31,7 @@
                 <date>$Date: 2012/08/27 03:14:50 $</date>
         </publicationStmt>
         <sourceDesc>
-                <bibl>Taisho Tripitaka Vol. 14, No. 479 </bibl>
+                <bibl>Taishō Tripiṭaka Vol. 14, No. 479</bibl>
         <listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【宋】</witness>
@@ -45,7 +46,7 @@
 <encodingDesc>
         <projectDesc>
                 <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Fan Zhen-Ye</p>
-                <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，范振業大德提供新式標點</p>
+                <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，范振業大德提供新式標點</p>
         </projectDesc>
 <charDecl>
 <char xml:id="CB02413">
@@ -1053,10 +1054,10 @@ Added comment  for Emacs
 <app from="#beg0607004" to="#end0607004"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">知</rdg></app>
 <app from="#beg0607005" to="#end0607005"><lem wit="#wit1">怖</lem><rdg resp="#resp1" wit="#wit5">悕</rdg></app>
 <app from="#beg_3" to="#end_3" corresp="#0607005"><lem wit="#wit1">怖</lem><rdg resp="#resp1" wit="#wit5">悕</rdg></app>
-<choice cb:from="#beg_4" cb:to="#end_4"><corr>竟</corr><sic>究</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>竟</corr><sic>究</sic></choice>
 <app from="#beg0607006" to="#end0607006"><lem wit="#wit1">虛</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">處</rdg></app>
 <app from="#beg0607007" to="#end0607007"><lem wit="#wit1">汝</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_5" cb:to="#end_5"><corr>彼</corr><sic>被</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>彼</corr><sic>被</sic></choice>
 <app from="#beg0608001" to="#end0608001"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">而</rdg></app>
 <app from="#beg0608002" to="#end0608002"><lem wit="#wit1">物</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">得</rdg></app>
 <app from="#beg0609001" to="#end0609001"><lem wit="#wit1">性</lem><rdg resp="#resp1" wit="#wit3 #wit5 #wit4">物</rdg></app>
@@ -1071,9 +1072,9 @@ Added comment  for Emacs
 <app from="#beg0611002" to="#end0611002"><lem wit="#wit1">懼</lem><rdg resp="#resp1" wit="#wit5">怖</rdg></app>
 <app from="#beg0611003" to="#end0611003"><lem wit="#wit1">礙</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">體</rdg></app>
 <app from="#beg0611004" to="#end0611004"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">善</rdg></app>
-<choice cb:from="#beg_6" cb:to="#end_6"><corr>彼</corr><sic>被</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>彼</corr><sic>被</sic></choice>
 <app from="#beg0611005" to="#end0611005"><lem wit="#wit1">作</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5">如</rdg><rdg resp="#resp1" wit="#wit4">作如</rdg></app>
-<choice cb:from="#beg_7" cb:to="#end_7"><corr>甚</corr><sic>其</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>甚</corr><sic>其</sic></choice>
 <app from="#beg0612001" to="#end0612001"><lem wit="#wit1">頗梨</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">玻<g ref="#CB02413">𭺊</g></rdg><rdg resp="#resp1" wit="#wit5">玻瓈</rdg></app>
 <app from="#beg0613001" to="#end0613001"><lem wit="#wit1">授</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">受</rdg></app>
 <app from="#beg0613002" to="#end0613002"><lem wit="#wit1">植</lem><rdg resp="#resp1" wit="#wit2 #wit4">殖</rdg></app>

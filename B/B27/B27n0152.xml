@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Supplement to the Dazangjing, Electronic version, No. 0152 普濟玉琳國師語錄</title>
+			<title>Supplement to the Dazangjing, Electronic version, No. 152 普濟玉琳國師語錄</title>
+			<title xml:lang="zh-Hant">大藏經補編數位版, No. 152 普濟玉琳國師語錄</title>
 			<author>音緯等編</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -28,13 +29,13 @@
 			<date>$Date:$</date>
 		</publicationStmt>
 		<sourceDesc>
-			<bibl>Supplement to the Dazangjing Vol. 27, No. 0152 </bibl>
+			<bibl>Supplement to the Dazangjing Vol. 27, No. 152</bibl>
 		</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
 			<p xml:lang="en" cb:type="ly">Input by CBETA(first version), Input by CBETA(second version)</p>
-			<p xml:lang="zh" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
+			<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入（版本一），CBETA 人工輸入（版本二）</p>
 		</projectDesc>
 	<charDecl>
 <char xml:id="CB00070">
@@ -839,6 +840,18 @@
 	<mapping type="unicode">U+462E</mapping>
 	<mapping cb:dec="1005127" type="PUA">U+F5647</mapping>
 </char>
+<char xml:id="CB22103">
+	<charName>CBETA CHARACTER CB22103</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[冏*月]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>明</value>
+	</charProp>
+	<mapping cb:dec="1005143" type="PUA">U+F5657</mapping>
+</char>
 <char xml:id="CB24816">
 	<charName>CBETA CHARACTER CB24816</charName>
 	<charProp>
@@ -1438,27 +1451,27 @@ $Log:$
 <lb type="honorific" ed="B" n="0484b18"/>綸音用書篇首永垂寶筏以渡津梁云爾</p>
 <lb ed="B" n="0484b19"/><p xml:id="pB27p0484b1901" rend="margin-left:1em">經筵日講官翰林院侍讀<note place="inline">臣</note>曹本榮謹序</p></cb:div>
 <lb ed="B" n="0484b20"/><anchor xml:id="nkr_9"/>
+<lb ed="B" n="0484b21"/><cb:div type="xu"><cb:mulu type="其他" level="2">塔銘</cb:mulu><anchor xml:id="beg_a" type="cb-app"/>勅封大覺普濟能仁國師塔銘<anchor xml:id="end_a"/>
+<lb ed="B" n="0484b22"/><p xml:id="pB27p0485a2201" rend="margin-left:1em"><anchor xml:id="beg_b" type="cb-app"/>洪惟<anchor xml:id="end_b"/>
+<lb type="honorific" ed="B" n="0484b23"/><anchor xml:id="beg_c" type="cb-app"/>世祖皇帝聖德顯道彰于遐邇深仁厚澤洽于幽<g ref="#CB22103">󵙗</g>妙<anchor xml:id="end_c"/>
+<lb ed="B" n="0484b24"/><anchor xml:id="beg_d" type="cb-app"/>智圓通與如來心印為一嘗<anchor xml:id="end_d"/>
+<lb type="honorific" ed="B" n="0484b25"/><anchor xml:id="beg_e" type="cb-app"/>命訪僧伽之行解圓證者與論向上宗旨於時有大禪<anchor xml:id="end_e"/>
+<lb ed="B" n="0484b26"/><anchor xml:id="beg_f" type="cb-app"/>師奉<anchor xml:id="end_f"/>
+<lb type="honorific" ed="B" n="0484b27"/><anchor xml:id="beg_10" type="cb-app"/>詔入京曰玉林琇公葢天隱磬山之子而臨濟三十<anchor xml:id="end_10"/>
+<lb ed="B" n="0484b28"/><anchor xml:id="beg_11" type="cb-app"/>一世孫也師諱通琇號玉林常州江陰人族姓楊<anchor xml:id="end_11"/>
+<lb ed="B" n="0484b29"/><anchor xml:id="beg_12" type="cb-app"/>氏父芳母繆氏皆與般若有大因緣師之生也母<anchor xml:id="end_12"/>
+<lb ed="B" n="0484b30"/><anchor xml:id="beg_13" type="cb-app"/>夢大士擕童子自牖入寤而生師墮地敏悟夙成<anchor xml:id="end_13"/>
 <pb ed="B" xml:id="B27.0152.0485a" n="0485a"/>
-<lb ed="B" n="0485a21"/><cb:div type="xu"><cb:mulu type="其他" level="2">塔銘</cb:mulu><anchor xml:id="beg_a" type="cb-app"/>勅封大覺普濟能仁國師塔銘<anchor xml:id="end_a"/>
-<lb ed="B" n="0485a22"/><p xml:id="pB27p0485a2201" rend="margin-left:1em"><anchor xml:id="beg_b" type="cb-app"/>洪惟<anchor xml:id="end_b"/>
-<lb type="honorific" ed="B" n="0485a23"/><anchor xml:id="beg_c" type="cb-app"/>世祖皇帝聖德顯道彰于遐邇深仁厚澤洽于幽[冏*月]妙<anchor xml:id="end_c"/>
-<lb ed="B" n="0485a24"/><anchor xml:id="beg_d" type="cb-app"/>智圓通與如來心印為一嘗<anchor xml:id="end_d"/>
-<lb type="honorific" ed="B" n="0485a25"/><anchor xml:id="beg_e" type="cb-app"/>命訪僧伽之行解圓證者與論向上宗旨於時有大禪<anchor xml:id="end_e"/>
-<lb ed="B" n="0485a26"/><anchor xml:id="beg_f" type="cb-app"/>師奉<anchor xml:id="end_f"/>
-<lb type="honorific" ed="B" n="0485a27"/><anchor xml:id="beg_10" type="cb-app"/>詔入京曰玉林琇公葢天隱磬山之子而臨濟三十<anchor xml:id="end_10"/>
-<lb ed="B" n="0485a28"/><anchor xml:id="beg_11" type="cb-app"/>一世孫也師諱通琇號玉林常州江陰人族姓楊<anchor xml:id="end_11"/>
-<lb ed="B" n="0485a29"/><anchor xml:id="beg_12" type="cb-app"/>氏父芳母繆氏皆與般若有大因緣師之生也母<anchor xml:id="end_12"/>
-<lb ed="B" n="0485a30"/><anchor xml:id="beg_13" type="cb-app"/>夢大士擕童子自牖入寤而生師墮地敏悟夙成<anchor xml:id="end_13"/>
-<lb ed="B" n="0486a01"/><anchor xml:id="beg_14" type="cb-app"/>能語輒誦佛號坐常跏趺十五閱語錄叅誰字疑<anchor xml:id="end_14"/>
-<lb ed="B" n="0486a02"/><anchor xml:id="beg_15" type="cb-app"/>情大發寢食俱廢晝夜徬徨室中因觸翻溺器有<anchor xml:id="end_15"/>
-<lb ed="B" n="0486a03"/><anchor xml:id="beg_16" type="cb-app"/>者遂蟬蛻萬緣決意究竟大事時磬山修禪師方<anchor xml:id="end_16"/>
-<lb ed="B" n="0486a04"/><anchor xml:id="beg_17" type="cb-app"/>弘化荊溪爐<g ref="#CB34470">𨪋</g>正赤師直造其席依止受其戒為<anchor xml:id="end_17"/>
-<lb ed="B" n="0486a05"/><anchor xml:id="beg_18" type="cb-app"/>侍者進則決疑請益立雪不移退則宴默凝神危<anchor xml:id="end_18"/>
-<lb ed="B" n="0486a06"/><anchor xml:id="beg_19" type="cb-app"/>坐達旦必欲見道乃已一日于一口吸盡西江水<anchor xml:id="end_19"/>
-<lb ed="B" n="0486a07"/><anchor xml:id="beg_1a" type="cb-app"/>下瞥見馬祖用處不覺身心慶快曰佛灋落吾手<anchor xml:id="end_1a"/>
-<lb ed="B" n="0486a08"/><anchor xml:id="beg_1b" type="cb-app"/>矣自此遇勘辨發語縱橫自如當機不讓無何辭<anchor xml:id="end_1b"/>
-<lb ed="B" n="0486a09"/><anchor xml:id="beg_1c" type="cb-app"/>歸省母磬山密囑徵信曰善自護持勿輕洩也師<anchor xml:id="end_1c"/>
-<lb ed="B" n="0486a10"/><anchor xml:id="beg_1d" type="cb-app"/>既歸江陰益韜晦日放曠雲水間偶乘月汛小舟<anchor xml:id="end_1d"/>
+<lb ed="B" n="0485a01"/><anchor xml:id="beg_14" type="cb-app"/>能語輒誦佛號坐常跏趺十五閱語錄叅誰字疑<anchor xml:id="end_14"/>
+<lb ed="B" n="0485a02"/><anchor xml:id="beg_15" type="cb-app"/>情大發寢食俱廢晝夜徬徨室中因觸翻溺器有<anchor xml:id="end_15"/>
+<lb ed="B" n="0485a03"/><anchor xml:id="beg_16" type="cb-app"/>者遂蟬蛻萬緣決意究竟大事時磬山修禪師方<anchor xml:id="end_16"/>
+<lb ed="B" n="0485a04"/><anchor xml:id="beg_17" type="cb-app"/>弘化荊溪爐<g ref="#CB34470">𨪋</g>正赤師直造其席依止受其戒為<anchor xml:id="end_17"/>
+<lb ed="B" n="0485a05"/><anchor xml:id="beg_18" type="cb-app"/>侍者進則決疑請益立雪不移退則宴默凝神危<anchor xml:id="end_18"/>
+<lb ed="B" n="0485a06"/><anchor xml:id="beg_19" type="cb-app"/>坐達旦必欲見道乃已一日于一口吸盡西江水<anchor xml:id="end_19"/>
+<lb ed="B" n="0485a07"/><anchor xml:id="beg_1a" type="cb-app"/>下瞥見馬祖用處不覺身心慶快曰佛灋落吾手<anchor xml:id="end_1a"/>
+<lb ed="B" n="0485a08"/><anchor xml:id="beg_1b" type="cb-app"/>矣自此遇勘辨發語縱橫自如當機不讓無何辭<anchor xml:id="end_1b"/>
+<lb ed="B" n="0485a09"/><anchor xml:id="beg_1c" type="cb-app"/>歸省母磬山密囑徵信曰善自護持勿輕洩也師<anchor xml:id="end_1c"/>
+<lb ed="B" n="0485a10"/><anchor xml:id="beg_1d" type="cb-app"/>既歸江陰益韜晦日放曠雲水間偶乘月汛小舟<anchor xml:id="end_1d"/>
 <lb ed="B" n="0485a11"/>舉頭頓忘迷悟如虛空玲瓏不可湊泊急就證天
 <lb ed="B" n="0485a12"/>隱于武康之報恩叩擊之次迎刃不<g ref="#CB30298">󷙚</g>至掀案而
 <lb ed="B" n="0485a13"/>出隱知其透關歎曰此吾宗獅子兒也隱示寂遺
@@ -9736,7 +9749,7 @@ $Log:$
 <choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>已</corr><sic>巳</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>勅封大覺普濟能仁國師塔銘</corr><sic><space quantity="0"/></sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>洪惟</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>世祖皇帝聖德顯道彰于遐邇深仁厚澤洽于幽[冏*月]妙</corr><sic><space quantity="0"/></sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>世祖皇帝聖德顯道彰于遐邇深仁厚澤洽于幽<g ref="#CB22103">󵙗</g>妙</corr><sic><space quantity="0"/></sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr>智圓通與如來心印為一嘗</corr><sic><space quantity="0"/></sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>命訪僧伽之行解圓證者與論向上宗旨於時有大禪</corr><sic><space quantity="0"/></sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>師奉</corr><sic><space quantity="0"/></sic></choice>
@@ -9950,7 +9963,7 @@ $Log:$
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note resp="#resp1" target="#nkr_9">CBETA 按：以下「塔銘」（0485a21-0486a10）二十行闕漏文字由日本花園大學國際禪學研究所所長野口善敬提供補足。2016年8月11日。</note>
+<note resp="#resp1" target="#nkr_9">以下「塔銘」（p0485a21-p0486a10）二十行闕漏文字由日本花園大學國際禪學研究所所長野口善敬提供補足。</note>
 </p>
 </cb:div>
 </back></text></TEI>

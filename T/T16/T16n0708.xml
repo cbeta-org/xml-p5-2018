@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 0708 了本生死經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 708 了本生死經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 708 了本生死經</title>
 			<author>吳 支謙譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -30,7 +31,7 @@
 		<date>$Date: 2012/08/27 03:15:10 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 16, No. 708 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 16, No. 708</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【元】</witness>
@@ -44,7 +45,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Ven. Shi Zhen-Pu</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，釋振溥法師提供新式標點</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，釋振溥法師提供新式標點</p>
 	</projectDesc>
 </encodingDesc>
 <profileDesc>
@@ -274,7 +275,7 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg0815003" to="#end0815003"><lem wit="#wit1"><cb:tt type="app">	<cb:t resp="#resp2" xml:lang="zh"><title>了本生死經</title></cb:t>
+<app from="#beg0815003" to="#end0815003"><lem wit="#wit1"><cb:tt type="app">	<cb:t resp="#resp2" xml:lang="zh-Hant"><title>了本生死經</title></cb:t>
 	<cb:t resp="#resp1" xml:lang="sa" place="foot">Śālistamba-sūtra</cb:t>
 </cb:tt></lem><rdg resp="#resp1" wit="#wit2 #wit3">佛說了本生死經</rdg></app>
 <app from="#beg0815004" to="#end0815004"><lem wit="#wit1">氏</lem><rdg resp="#resp1" wit="#wit4">支</rdg><rdg resp="#resp1" wit="#wit2 #wit3">支國</rdg></app>
@@ -311,7 +312,7 @@ Added comment  for Emacs
 <head>多語詞條對照</head>
 <p>
 <cb:tt type="app" from="#beg0815003" to="#end0815003">
-	<cb:t resp="#resp2" xml:lang="zh"><title>了本生死經</title></cb:t>
+	<cb:t resp="#resp2" xml:lang="zh-Hant"><title>了本生死經</title></cb:t>
 	<cb:t resp="#resp1" xml:lang="sa" place="foot">Śālistamba-sūtra</cb:t>
 </cb:tt>
 </p>
@@ -319,7 +320,7 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0815003" resp="#resp2" type="mod" target="#nkr_note_mod_0815003"><choice><corr>了本生死經</corr><sic><space quantity="0"/></sic></choice> Śālistamba-sūtra，（佛說）＋了本【元】【明】</note>
+<note n="0815003" resp="#resp2" type="mod" target="#nkr_note_mod_0815003"><choice cb:resp="#resp2"><corr>了本生死經</corr><sic><space quantity="0"/></sic></choice> Śālistamba-sūtra，（佛說）＋了本【元】【明】</note>
 <note n="0815004" resp="#resp2" type="mod" target="#nkr_note_mod_0815004">氏＝支【宋】【元】【明】，氏＋（國）【元】【明】</note>
 <note n="0815007" resp="#resp2" type="mod" target="#nkr_note_mod_0815007">象＝像【宋】【元】【明】【宮】下同</note>
 <note n="0815009" resp="#resp2" type="mod" target="#nkr_note_mod_0815009">非＋（故）【宋】【元】【明】【宮】</note>

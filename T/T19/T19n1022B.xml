@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1022B 一切如來心祕密全身舍利寶篋印陀羅尼經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1022B 一切如來心祕密全身舍利寶篋印陀羅尼經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1022B 一切如來心祕密全身舍利寶篋印陀羅尼經</title>
 			<author>唐 不空譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,8 +14,9 @@
 	<editionStmt>
 		<edition>$Revision: 1.15 $<date>$Date: 2009/04/23 08:00:06 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.say</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,7 +32,7 @@
 		<date>$Date: 2009/04/23 08:00:06 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 19, No. 1022B </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 19, No. 1022B</bibl>
 	<listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【磧砂】</witness>
@@ -41,7 +43,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00155">
@@ -436,27 +438,27 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>辦</corr><sic>辨</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>字<note type="cf1">T19n1022Ap0711a25</note></corr><sic>宇</sic></choice>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>辦</corr><sic>辨</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_4" cb:to="#end_4"><corr>日</corr><sic>曰</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr><note place="inline">十五</note><note type="cf1">T19n1022Ap0711c09</note><note type="cf2">T19n1023_p0717a19</note></corr><sic><space quantity="0"/></sic></choice>
-<app from="#beg_6" to="#end_6"><lem resp="#resp3" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
-<app from="#beg_7" to="#end_7"><lem resp="#resp3" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
-<app from="#beg_8" to="#end_8"><lem resp="#resp3" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
-<app from="#beg_9" to="#end_9"><lem resp="#resp3" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr>紇<note type="cf1">T19n1022Ap0711c14</note></corr><sic>訖</sic></choice>
-<app from="#beg_b" to="#end_b"><lem resp="#resp3" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_c" cb:to="#end_c"><corr>呬<note type="cf1">T19n1022Ap0711c16</note></corr><sic><g ref="#CB01217">𠰘</g></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_d" cb:to="#end_d"><corr><space quantity="0"/><note type="cf1">T19n1022Ap0711c16</note></corr><sic>囉</sic></choice>
-<app from="#beg_e" to="#end_e"><lem resp="#resp3" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
-<app from="#beg_f" to="#end_f"><lem resp="#resp3" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
-<app from="#beg_10" to="#end_10"><lem resp="#resp3" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_11" cb:to="#end_11"><corr>紇<note type="cf1">T19n1022Ap0711c19</note></corr><sic>訖</sic></choice>
-<app from="#beg_12" to="#end_12"><lem resp="#resp3" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
-<app from="#beg_13" to="#end_13"><lem resp="#resp3" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
-<app from="#beg_14" to="#end_14"><lem resp="#resp3" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
-<choice cb:from="#beg_15" cb:to="#end_15"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>字<note type="cf1">T19n1022Ap0711a25</note></corr><sic>宇</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_4" cb:to="#end_4"><corr>日</corr><sic>曰</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5" cb:to="#end_5"><corr><note place="inline">十五</note><note type="cf1">T19n1022Ap0711c09</note><note type="cf2">T19n1023_p0717a19</note></corr><sic><space quantity="0"/></sic></choice>
+<app from="#beg_6" to="#end_6"><lem resp="#resp4" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
+<app from="#beg_7" to="#end_7"><lem resp="#resp4" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
+<app from="#beg_8" to="#end_8"><lem resp="#resp4" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
+<app from="#beg_9" to="#end_9"><lem resp="#resp4" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
+<choice cb:resp="#resp3" cb:from="#beg_a" cb:to="#end_a"><corr>紇<note type="cf1">T19n1022Ap0711c14</note></corr><sic>訖</sic></choice>
+<app from="#beg_b" to="#end_b"><lem resp="#resp4" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
+<choice cb:resp="#resp3" cb:from="#beg_c" cb:to="#end_c"><corr>呬<note type="cf1">T19n1022Ap0711c16</note></corr><sic><g ref="#CB01217">𠰘</g></sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_d" cb:to="#end_d"><corr><space quantity="0"/><note type="cf1">T19n1022Ap0711c16</note></corr><sic>囉</sic></choice>
+<app from="#beg_e" to="#end_e"><lem resp="#resp4" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
+<app from="#beg_f" to="#end_f"><lem resp="#resp4" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
+<app from="#beg_10" to="#end_10"><lem resp="#resp4" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
+<choice cb:resp="#resp3" cb:from="#beg_11" cb:to="#end_11"><corr>紇<note type="cf1">T19n1022Ap0711c19</note></corr><sic>訖</sic></choice>
+<app from="#beg_12" to="#end_12"><lem resp="#resp4" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
+<app from="#beg_13" to="#end_13"><lem resp="#resp4" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
+<app from="#beg_14" to="#end_14"><lem resp="#resp4" wit="#wit1 #wit2">蘖<note type="cf1">Q34n1363_p0442a09-a30</note></lem><rdg wit="#wit3">蘗</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_15" cb:to="#end_15"><corr>辦</corr><sic>辨</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

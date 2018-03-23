@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1900 佛制比丘六物圖</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1900 佛制比丘六物圖</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1900 佛制比丘六物圖</title>
 			<author>宋 元照撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.16 $<date>$Date: 2011/09/07 03:39:54 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,7 +30,7 @@
 		<date>$Date: 2011/09/07 03:39:54 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 45, No. 1900 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 45, No. 1900</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【乙】</witness>
@@ -40,7 +42,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00626">
@@ -670,7 +672,7 @@ Added comment  for Emacs
 <app from="#beg0898001" to="#end0898001"><lem wit="#wit1">邪</lem><rdg resp="#resp1" wit="#wit3">耶</rdg></app>
 <app from="#beg0898002" to="#end0898002"><lem wit="#wit1">乏少</lem><rdg resp="#resp1" wit="#wit2">之小</rdg></app>
 <app from="#beg0898003" to="#end0898003"><lem wit="#wit1">讚</lem><rdg resp="#resp1" wit="#wit3">贊</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>刺</corr><sic>剌</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>刺</corr><sic>剌</sic></choice>
 <app from="#beg0899001" to="#end0899001"><lem wit="#wit1">道</lem><rdg resp="#resp1" wit="#wit2">人</rdg></app>
 <app from="#beg0899002" to="#end0899002"><lem wit="#wit1">挾</lem><rdg resp="#resp1" wit="#wit3">狹</rdg></app>
 <app from="#beg0899003" to="#end0899003"><lem wit="#wit1">約</lem><rdg resp="#resp1" wit="#wit3 #wit2">紐</rdg></app>

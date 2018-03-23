@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2124 法門名義集</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2124 法門名義集</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2124 法門名義集</title>
 			<author>唐 李師政撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.16 $<date>$Date: 2011/12/06 09:09:16 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2011/12/06 09:09:16 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 54, No. 2124 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 54, No. 2124</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 	</listWit>
@@ -38,7 +40,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00211">
@@ -1063,7 +1065,7 @@ add cvs log
 <head>校註</head>
 <p>
 <app from="#beg0195003" to="#end0195003"><lem resp="#resp1" wit="#wit1">常</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">斷</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>掉</corr><sic>悼</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>掉</corr><sic>悼</sic></choice>
 <app from="#beg0196001" to="#end0196001"><lem resp="#resp1" wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">為九惱</rdg></app>
 <app from="#beg0196002" to="#end0196002"><lem resp="#resp1" wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">能障</rdg></app>
 <app from="#beg0196004" to="#end0196004"><lem resp="#resp1" wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">一</rdg></app>
@@ -1073,21 +1075,21 @@ add cvs log
 <app from="#beg0196008" to="#end0196008"><lem resp="#resp1" wit="#wit1">小</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">有愛住地無色界煩惱無明住地小</rdg></app>
 <app from="#beg0196009" to="#end0196009"><lem resp="#resp1" wit="#wit1">變</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">變易生死</rdg></app>
 <app from="#beg0197001" to="#end0197001"><lem resp="#resp1" wit="#wit1">解</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">無處有處解</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>辦</corr><sic>辨</sic></choice>
 <app from="#beg0197002" to="#end0197002"><lem resp="#resp1" wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0198001" to="#end0198001"><lem resp="#resp1" wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0198002" to="#end0198002"><lem resp="#resp1" wit="#wit1">道處</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">處道</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>減</corr><sic>滅</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>減</corr><sic>滅</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>減</corr><sic>滅</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>減</corr><sic>滅</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>減</corr><sic>滅</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>減</corr><sic>滅</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>減</corr><sic>滅</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr>減</corr><sic>滅</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>減</corr><sic>滅</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_4" cb:to="#end_4"><corr>減</corr><sic>滅</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5" cb:to="#end_5"><corr>減</corr><sic>滅</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6" cb:to="#end_6"><corr>減</corr><sic>滅</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_7" cb:to="#end_7"><corr>減</corr><sic>滅</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_8" cb:to="#end_8"><corr>減</corr><sic>滅</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_9" cb:to="#end_9"><corr>減</corr><sic>滅</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_a" cb:to="#end_a"><corr>減</corr><sic>滅</sic></choice>
 <app from="#beg0198004" to="#end0198004"><lem resp="#resp1" wit="#wit1">伽</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">伽婆</rdg></app>
 <app from="#beg0199001" to="#end0199001"><lem resp="#resp1" wit="#wit1">王</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">牛王</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_b" cb:to="#end_b"><corr>堪<note type="cf1">T33n1715_p0578c09</note></corr><sic>湛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_b" cb:to="#end_b"><corr>堪<note type="cf1">T33n1715_p0578c09</note></corr><sic>湛</sic></choice>
 <app from="#beg0201002" to="#end0201002"><lem resp="#resp1" wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>

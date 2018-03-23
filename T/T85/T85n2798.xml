@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2798 本業瓔珞經疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2798 本業瓔珞經疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2798 本業瓔珞經疏</title>
 			<author></author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -29,7 +30,7 @@
 		<date>$Date: 2009/04/23 08:15:17 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 85, No. 2798 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 85, No. 2798</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 	</listWit>
@@ -38,7 +39,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as inputted by Ven. Huiran, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，慧然法師輸入，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，慧然法師輸入，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00595">
@@ -378,7 +379,7 @@ Added comment  for Emacs
 <lb n="0747b28" ed="T"/>想天已下訖大靜天。此九是四禪天。善臂菩
 <lb n="0747b29" ed="T"/>薩經中。果實天。少果。廣果。無想。無煩。無熱。
 <pb n="0747c" xml:id="T85.2798.0747c" ed="T"/>
-<lb n="0747c01" ed="T"/>善見。好善見天。阿迦貳吒天。此是四禪天也。
+<lb n="0747c01" ed="T"/>善見。好善見天。阿迦<anchor xml:id="beg_2" type="cb-app"/>膩<anchor xml:id="end_2"/>吒天。此是四禪天也。
 <lb n="0747c02" ed="T"/>五輪際者。地水風空金剛是也。大忍法界者。
 <lb n="0747c03" ed="T"/>應佛分身遍十方國土。為說真實莊嚴之行
 <lb n="0747c04" ed="T"/>也。</p></cb:div>
@@ -684,7 +685,7 @@ Added comment  for Emacs
 <lb n="0751a04" ed="T"/>照滅邪見心者。眾生邪見故。訪無二諦因果。
 <lb n="0751a05" ed="T"/>今悟二諦故。滅除邪見也。以金剛刀者。以佛
 <lb n="0751a06" ed="T"/>金剛智刀也。悟十二緣滅疑見者。若不達十
-<lb n="0751a07" ed="T"/>二因緣者。則於三世因果不能了<anchor xml:id="beg_2" type="cb-app"/>知<anchor xml:id="end_2"/>。名之為
+<lb n="0751a07" ed="T"/>二因緣者。則於三世因果不能了<anchor xml:id="beg_3" type="cb-app"/>知<anchor xml:id="end_3"/>。名之為
 <lb n="0751a08" ed="T"/>疑。今解因緣因果句樓三世故。能滅疑見也。
 <lb n="0751a09" ed="T"/>獨照無方者。無方而不照也。識法無常滅貪
 <lb n="0751a10" ed="T"/>慳心者。若不達身是無常者。則貪惜財物以
@@ -1445,7 +1446,8 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>憐</corr><sic>隣</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>知<note type="cf1">X73n1452_p0249a24</note></corr><sic>名</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>膩</corr><sic>貳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>知<note type="cf1">X73n1452_p0249a24</note></corr><sic>名</sic></choice>
 <app from="#beg0755001" to="#end0755001"><lem resp="#resp1" wit="#wit1">語</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">名不妄語</rdg></app>
 </p>
 </cb:div>

@@ -3,7 +3,8 @@
 <teiHeader>
         <fileDesc>
                 <titleStmt>
-                        <title>Taisho Tripitaka, Electronic version, No. 0441 佛說佛名經</title>
+                        <title>Taishō Tripiṭaka, Electronic version, No. 441 佛說佛名經</title>
+                        <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 441 佛說佛名經</title>
                         <author></author>
                         <respStmt>
                                 <resp>Electronic Version by</resp>
@@ -12,9 +13,10 @@
                 </titleStmt>
         <editionStmt>
                 <edition>$Revision: 1.34 $<date>$Date: 2012/08/29 06:37:20 $</date>新式標點版</edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt>
         </editionStmt>
         <extent>30卷</extent>
         <publicationStmt>
@@ -30,7 +32,7 @@
                 <date>$Date: 2012/08/29 06:37:20 $</date>
         </publicationStmt>
         <sourceDesc>
-                <bibl>Taisho Tripitaka Vol. 14, No. 441 </bibl>
+                <bibl>Taishō Tripiṭaka Vol. 14, No. 441</bibl>
         <listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【麗】</witness>
@@ -43,7 +45,7 @@
 <encodingDesc>
         <projectDesc>
                 <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Jasmine</p>
-                <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jasmine 提供新式標點</p>
+                <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jasmine 提供新式標點</p>
         </projectDesc>
 <charDecl>
 <char xml:id="CB00045">
@@ -12094,141 +12096,141 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>羅</corr><sic>離</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>髓</corr><sic>隨</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>如</corr><sic>知</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>制<note type="cf1">T55n2157_p0906b27</note></corr><sic>製</sic></choice>
-<app from="#beg_5" to="#end_5"><lem wit="#wit1 #wit2" resp="#resp1">醯<note type="cf1">K39n1404_p0010c10</note><note type="cf2">T14n0440_p0116c17</note><note type="cf3">F28n1072_p0278b28</note></lem><rdg wit="#wit3">醢</rdg></app>
-<app from="#beg_6" to="#end_6"><lem wit="#wit1 #wit2" resp="#resp1">辯<note type="cf1">K39n1404_p0014c05</note></lem><rdg wit="#wit3">辨</rdg></app>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>頃<note type="cf1">T14n0441_p0259b08</note><note type="cf2">T45n1910_p0972a27</note></corr><sic>項</sic></choice>
-<app from="#beg_8" to="#end_8"><lem wit="#wit1 #wit2" resp="#resp1">此<note type="cf1">K39n1404_p0021b03</note></lem><rdg wit="#wit3">比</rdg></app>
-<app from="#beg_9" to="#end_9"><lem wit="#wit1 #wit2" resp="#resp1">名<note type="cf1">K39n1404_p0024c17</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_a" cb:to="#end_a" cb:resp="#resp1"><corr>威德王勝<note type="cf1">T14n0440_p0125b22</note><note type="cf2">F28n1072_p0392b11</note><note type="cf3">P178n1611_p0299a04</note></corr><sic>成德勝王</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>幻</corr><sic>幼</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>聞<note type="cf1">T14n0440_p0127a24</note><note type="cf2">K39n1404_p0032b11</note></corr><sic>間</sic></choice>
-<app from="#beg_d" to="#end_d"><lem wit="#wit1 #wit2" resp="#resp1">王<note type="cf1">K39n1404_p0032b14</note><note type="cf2">T14n0440_p0127a27</note></lem><rdg wit="#wit3">士</rdg></app>
-<app from="#beg_e" to="#end_e"><lem wit="#wit1 #wit2" resp="#resp1">械<note type="cf1">K39n1404_p0041a20</note><note type="cf2">T14n0441_p0272c04</note><note type="cf3">T14n0446ap0367c04</note></lem><rdg wit="#wit3">棫</rdg></app>
-<app from="#beg_f" to="#end_f"><lem wit="#wit1 #wit2" resp="#resp1">羅<note type="cf1">K39n1404_p0041a21</note></lem><rdg wit="#wit3">罹</rdg></app>
-<app from="#beg_10" to="#end_10"><lem wit="#wit1 #wit2" resp="#resp1">屯<note type="cf1">K39n1404_p0041b19</note></lem><rdg wit="#wit3">毛</rdg></app>
-<app from="#beg_11" to="#end_11"><lem wit="#wit1 #wit2" resp="#resp1">面<note type="cf1">K39n1404_p0041c11</note><note type="cf2">T14n0441_p0311b05</note></lem><rdg wit="#wit3">而</rdg></app>
-<app from="#beg_12" to="#end_12"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">喜<note type="cf1">K39n1404_p0043c04</note><note type="cf2">T14n0440_p0131b06</note><note type="cf3">F28n1072_p0400a27</note></lem><rdg wit="#wit3">善</rdg></app>
-<choice cb:from="#beg_13" cb:to="#end_13"><corr>命</corr><sic>令</sic></choice>
-<choice cb:from="#beg_14" cb:to="#end_14" cb:resp="#resp1"><corr>相<note type="cf1">T14n0447ap0381c14</note><note type="cf2">X74n1475_p0481c07</note></corr><sic>想</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_15" cb:to="#end_15"><corr>懺</corr><sic>懷</sic></choice>
-<app from="#beg_16" to="#end_16"><lem wit="#wit1 #wit2" resp="#resp1">揬<note type="cf1">K39n1404_p0145c0</note><note type="cf2">T54n2128_p0461a11</note></lem><rdg wit="#wit3">探</rdg></app>
-<app from="#beg_17" to="#end_17"><lem wit="#wit1 #wit2" resp="#resp1">部<note type="cf1">K39n1404_p0050a19</note></lem><rdg wit="#wit3">都</rdg></app>
-<choice cb:from="#beg_18" cb:to="#end_18" cb:resp="#resp1"><corr>曰<note type="cf1">K34n1257_p0695a05</note><note type="cf2">K34n1257_p0858c06</note><note type="cf3">T13n0418_p0911a14</note></corr><sic>目</sic></choice>
-<choice cb:from="#beg_19" cb:to="#end_19"><corr>浮</corr><sic>淨</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1a" cb:to="#end_1a"><corr>獷<note type="cf1">T09n0278_p0549a01</note></corr><sic>穬</sic></choice>
-<choice cb:from="#beg_1b" cb:to="#end_1b"><corr>奮</corr><sic>奪</sic></choice>
-<choice cb:from="#beg_1c" cb:to="#end_1c"><corr>無</corr><sic>佛</sic></choice>
-<choice cb:from="#beg_1d" cb:to="#end_1d"><corr>噉朽</corr><sic>瞰杇</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1e" cb:to="#end_1e"><corr>己<note type="cf1">X74n1496_p0772a23-24</note></corr><sic>已</sic></choice>
-<choice cb:from="#beg_1f" cb:to="#end_1f"><corr>邪</corr><sic><g ref="#CB02892">䢶</g></sic></choice>
-<app from="#beg_20" to="#end_20"><lem resp="#resp1" wit="#wit1 #wit2">抵<note type="cf1">K39n1404_p0061b15</note></lem><rdg wit="#wit3">扺</rdg></app>
-<choice cb:resp="#resp1" cb:from="#beg_21" cb:to="#end_21"><corr>圊</corr><sic>清</sic></choice>
-<app from="#beg_22" to="#end_22"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">降<note type="cf1">K39n1404_p0063b05</note><note type="cf2">T14n0440_p0138b01</note><note type="cf3">F28n1072_p0410a22</note></lem><rdg wit="#wit3">勝</rdg></app>
-<choice cb:from="#beg_23" cb:to="#end_23"><corr>天</corr><sic>夭</sic></choice>
-<app from="#beg_24" to="#end_24"><lem wit="#wit1 #wit2" resp="#resp1">牡<note type="cf1">K39n1404_p0066a16</note></lem><rdg wit="#wit3"><g ref="#CB02849">𭷗</g></rdg></app>
-<app from="#beg_25" to="#end_25"><lem wit="#wit1 #wit2" resp="#resp1">情<note type="cf1">K39n1404_p0066b03</note></lem><rdg wit="#wit3">精</rdg></app>
-<choice cb:from="#beg_26" cb:to="#end_26"><corr>痛</corr><sic>通</sic></choice>
-<app from="#beg_27" to="#end_27"><lem wit="#wit1 #wit2" resp="#resp1">鐵<note type="cf1">K39n1404_p0066c14</note></lem><rdg wit="#wit3">獄</rdg></app>
-<choice cb:from="#beg_28" cb:to="#end_28"><corr>懺悔</corr><sic>悔懺</sic></choice>
-<app from="#beg_29" to="#end_29"><lem wit="#wit1 #wit2" resp="#resp1">一向<note type="cf1">K39n1404_p0076b06</note><note type="cf2">T19n1017_p0698b03</note><note type="cf3">T55n2148_p0193a26</note></lem><rdg wit="#wit3">面</rdg></app>
-<app from="#beg_2a" to="#end_2a"><lem wit="#wit1 #wit2" resp="#resp1">祟<note type="cf1">K39n1404_p0077b08</note></lem><rdg wit="#wit3">崇</rdg></app>
-<choice cb:from="#beg_2b" cb:to="#end_2b"><corr>經</corr><sic>輕</sic></choice>
-<choice cb:from="#beg_2c" cb:to="#end_2c"><corr>悔</corr><sic>懺</sic></choice>
-<app from="#beg_2d" to="#end_2d"><lem wit="#wit1 #wit2" resp="#resp1"><g ref="#CB00963">𢱍</g><note type="cf1">K39n1404_p0084a04</note></lem><rdg wit="#wit3">拋</rdg></app>
-<app from="#beg_2e" to="#end_2e"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">味<note type="cf1">K39n1404_p0085b1</note><note type="cf2">T14n0440_p0147c06</note><note type="cf3">F28n1072_p0423a11</note></lem><rdg wit="#wit3">昧</rdg></app>
-<app from="#beg_2f" to="#end_2f"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">邊<note type="cf1">K39n1404_p0085c11</note><note type="cf2">T14n0440_p0147c19</note><note type="cf3">F28n1072_p0423a24</note></lem><rdg wit="#wit3">轉</rdg></app>
-<app from="#beg_30" to="#end_30"><lem wit="#wit1 #wit2" resp="#resp1">盧<note type="cf1">K39n1404_p0087a09</note><note type="cf2">T14n0440_p0148c18</note></lem><rdg wit="#wit3">慮</rdg></app>
-<choice cb:from="#beg_31" cb:to="#end_31"><corr>無</corr><sic>佛</sic></choice>
-<app from="#beg_32" to="#end_32"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">雞<note type="cf1">K39n1404_p0091b09</note><note type="cf2">T14n0440_p0150a09</note><note type="cf3">F28n1072_p0372a06</note></lem><rdg wit="#wit3">羅</rdg></app>
-<choice cb:from="#beg_33" cb:to="#end_33"><corr>藏</corr><sic>　</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_34" cb:to="#end_34"><corr>第</corr><sic>弟</sic></choice>
-<app from="#beg_35" to="#end_35"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">薝蔔<note type="cf1">K39n1404_p0098c06</note><note type="cf2">T14n0440_p0151c20-21</note><note type="cf3">F28n1072_p0374a07</note></lem><rdg wit="#wit3">蔔薝</rdg></app>
-<app from="#beg_36" to="#end_36"><lem wit="#wit1 #wit2" resp="#resp1">億<note type="cf1">K39n1404_p0099a06</note><note type="cf2">T14n0440_p0152a1</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
-<app from="#beg_37" to="#end_37"><lem wit="#wit1 #wit2" resp="#resp1">婆<note type="cf1">K39n1404_p0100b04</note><note type="cf2">T14n0440_p0158c08</note></lem><rdg wit="#wit3">娑</rdg></app>
-<app from="#beg_38" to="#end_38"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">醯<note type="cf1">K39n1404_p0010c10</note><note type="cf2">T14n0440_p0116c17</note><note type="cf3">F28n1072_p0278b28</note></lem><rdg wit="#wit3">醯</rdg></app>
-<app from="#beg_39" to="#end_39"><lem wit="#wit1 #wit2" resp="#resp1">佷<note type="cf1">K39n1404_p0104c07</note></lem><rdg wit="#wit3">恨</rdg></app>
-<app from="#beg_3a" to="#end_3a"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">妨王<note type="cf1">K39n1404_p0105c03</note><note type="cf2">T14n0440_p0156a24</note><note type="cf3">F28n1072_p0377a06</note></lem><rdg wit="#wit3">王妨</rdg></app>
-<app from="#beg_3b" to="#end_3b"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">難<note type="cf1">K39n1404_p0107a01</note><note type="cf2">T14n0440_p0157b01</note><note type="cf3">F28n1072_p0378b10</note></lem><rdg wit="#wit3">離</rdg></app>
-<app from="#beg_3c" to="#end_3c"><lem wit="#wit1 #wit2" resp="#resp1">可<note type="cf1">K39n1404_p0107c16</note><note type="cf2">T14n0441_p0289b02</note></lem><rdg wit="#wit3">　</rdg></app>
-<app from="#beg_3d" to="#end_3d"><lem wit="#wit1 #wit2" resp="#resp1">滋<note type="cf1">K39n1404_p0109a11</note><note type="cf2">T14n0441_p0198b21</note></lem><rdg wit="#wit3">濕</rdg></app>
-<choice cb:from="#beg_3e" cb:to="#end_3e"><corr>弗</corr><sic>佛</sic></choice>
-<app from="#beg_3f" to="#end_3f"><lem wit="#wit1 #wit2" resp="#resp1">浴<note type="cf1">K39n1404_p0111a02</note></lem><rdg wit="#wit3">俗</rdg></app>
-<app from="#beg_40" to="#end_40"><lem wit="#wit1 #wit2" resp="#resp1">所作<note type="cf1">K39n1404_p0111a15</note></lem><rdg wit="#wit3">作所</rdg></app>
-<app from="#beg_41" to="#end_41"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">淨<note type="cf1">K39n1404_p0116a08</note><note type="cf2">T14n0440_p0120b05</note><note type="cf3">F28n1072_p0266a05</note></lem><rdg wit="#wit3">浮</rdg></app>
-<choice cb:from="#beg_42" cb:to="#end_42"><corr>無</corr><sic>佛</sic></choice>
-<app from="#beg_43" to="#end_43"><lem wit="#wit1 #wit2" resp="#resp1">輱<note type="cf1">K39n1404_p0116b21</note></lem><rdg wit="#wit3">轗</rdg></app>
-<app from="#beg_44" to="#end_44"><lem wit="#wit1 #wit2" resp="#resp1">尿<note type="cf1">K39n1404_p0117b12</note></lem><rdg wit="#wit3">屎</rdg></app>
-<app from="#beg_45" to="#end_45"><lem wit="#wit1 #wit2" resp="#resp1">尿<note type="cf1">K39n1404_p0117b13</note></lem><rdg wit="#wit3">屎</rdg></app>
-<app from="#beg_46" to="#end_46"><lem wit="#wit1 #wit2" resp="#resp1">電<note type="cf1">K39n1404_p0118c18</note><note type="cf2">T14n0440_p0164a03</note></lem><rdg wit="#wit3">雷</rdg></app>
-<app from="#beg_47" to="#end_47"><lem wit="#wit1 #wit2" resp="#resp1">掐<note type="cf1">K39n1404_p0121c18</note></lem><rdg wit="#wit3">搯</rdg></app>
-<app from="#beg_48" to="#end_48"><lem wit="#wit1 #wit2" resp="#resp1">妙<note type="cf1">K39n1404_p0124c12</note><note type="cf2">T14n0440_p0167a05</note><note type="cf3">T24n1451_p0267a15</note></lem><rdg wit="#wit3">法</rdg></app>
-<choice cb:from="#beg_49" cb:to="#end_49"><corr>自</corr><sic>目</sic></choice>
-<choice cb:from="#beg_4a" cb:to="#end_4a"><corr>裟</corr><sic>娑</sic></choice>
-<app from="#beg_4b" to="#end_4b"><lem resp="#resp1" wit="#wit1 #wit2">佛<note type="cf1">K39n1404_p0126b19</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
-<app from="#beg_4c" to="#end_4c"><lem wit="#wit1 #wit2" resp="#resp1">領<note type="cf1">K39n1404_p0127b07</note></lem><rdg wit="#wit3">頒</rdg></app>
-<app from="#beg_4d" to="#end_4d"><lem wit="#wit1 #wit2" resp="#resp1">屯<note type="cf1">K39n1404_p0127c03</note></lem><rdg wit="#wit3">毛</rdg></app>
-<app from="#beg_4e" to="#end_4e"><lem wit="#wit1 #wit2" resp="#resp1">面<note type="cf1">K39n1404_p0127c18</note><note type="cf2">T14n0441_p0311b05</note></lem><rdg wit="#wit3">而</rdg></app>
-<choice cb:resp="#resp1" cb:from="#beg_4f" cb:to="#end_4f"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
-<app from="#beg_50" to="#end_50"><lem wit="#wit1 #wit2" resp="#resp1">美<note type="cf1">K39n1404_p0132b11</note><note type="cf2">T14n0441_p0216a04</note></lem><rdg wit="#wit3">羔</rdg></app>
-<choice cb:from="#beg_51" cb:to="#end_51" cb:resp="#resp1"><corr>積<note type="cf1">T14n0441_p0216a19</note><note type="cf2">T14n0447ap0382a03</note><note type="cf3">T45n1910_p0975a26</note></corr><sic><g ref="#CB02859">𮂒</g></sic></choice>
-<app from="#beg_52" to="#end_52"><lem wit="#wit1 #wit2" resp="#resp1">既<note type="cf1">K39n1404_p0132c21</note></lem><rdg wit="#wit3">即</rdg></app>
-<app from="#beg_53" to="#end_53"><lem resp="#resp1" wit="#wit1 #wit2">生<note type="cf1">K39n1404_p0133a08</note></lem><rdg wit="#wit3">世</rdg></app>
-<app from="#beg_54" to="#end_54"><lem wit="#wit1 #wit2" resp="#resp1">波<note type="cf1">K39n1404_p0133c06</note><note type="cf2">T14n0440_p0171a08</note></lem><rdg wit="#wit3">婆</rdg></app>
-<app from="#beg_55" to="#end_55"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">忍<note type="cf1">K39n1404_p0135b16</note><note type="cf2">T14n0440_p0172a23</note><note type="cf3">F28n1072_p0359b08</note></lem><rdg wit="#wit3">思</rdg></app>
-<choice cb:from="#beg_56" cb:to="#end_56" cb:resp="#resp1"><corr>積<note type="cf1">T85n2871_p1344b07</note></corr><sic><g ref="#CB02859">𮂒</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_57" cb:to="#end_57"><corr>兩</corr><sic>雨</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_58" cb:to="#end_58"><corr>獷<note type="cf1">T09n0278_p0549a01</note></corr><sic>穬</sic></choice>
-<app from="#beg_59" to="#end_59"><lem wit="#wit1 #wit2" resp="#resp1"><space quantity="0"/><note type="cf1">K39n1404_p0137a19</note></lem><rdg wit="#wit3">淨</rdg></app>
-<app from="#beg_5a" to="#end_5a"><lem resp="#resp1" wit="#wit1 #wit2">南無毘羅那王佛　南無新華佛　南無勝華佛　南無捨諍佛　南無大長佛　南無大稱佛　南無愛去佛　南無甘露聚佛　南無日聚佛　南無月聲佛　南無見天佛　南無清淨光佛　南無秋日佛　南無斛華佛　南無妙聲佛　南無雨甘露佛　南無善天佛　南無勝聲佛　南無愛上首佛　南無愛甘露佛　南無甘露稱佛　南無法華佛　南無大莊嚴佛　南無世間尊重佛　南無高意佛　南無高山佛　南無甘露威德光明佛　南無菩提威德佛　南無清淨心佛　南無能作因降伏怨佛　南無香山佛　南無甘露星宿佛　南無大稱佛　南無安隱思惟佛　南無菩提華佛　南無菴摩羅供養佛　南無摩尼清淨佛　南無度世間佛　南無勝成佛　南無法星宿佛　南無大勝佛　南無隨意光明佛　南無火光明佛　南無見愛佛　南無光明愛佛　南無勢力稱佛　南無放光明佛　南無希聲佛　<note type="cf1">K39n1404_p0138a01-24</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
-<app from="#beg_5b" to="#end_5b"><lem wit="#wit1 #wit2 #wit5" resp="#resp1">漫<note type="cf1">K39n1404_p0138b21</note><note type="cf2">T14n0440_p0173b12</note><note type="cf3">P178n1611_p0339b10</note></lem><rdg wit="#wit3">慢</rdg></app>
-<app from="#beg_5c" to="#end_5c"><lem resp="#resp1" wit="#wit1 #wit2">南無隨意布施佛　南無寶威德佛　南無善威德供養佛　南無世間光明佛　南無世間可敬佛　南無行清淨佛　南無應眼佛　南無大步佛　南無無邊色佛　南無住持般若佛　南無眾橋梁佛　南無彌留波婆佛　南無安隱愛佛　南無提婆摩醯多佛　南無毘闍荷佛　南無羅多那闍荷佛　南無橋梁佛　南無厚奮迅佛　南無光明威德佛　南無慈力佛　南無月勝佛　南無寂光佛　南無愛眼佛　南無天色佛　南無樂法佛　南無大月佛　南無無障礙聲佛　南無人弗沙佛　南無平等見佛　南無大旃陀佛　南無弗沙羅莎佛　南無十種光佛　南無種種光佛　南無雲聲佛　南無龍德佛　南無功德步佛　南無心功德佛　南無大聲佛　南無了聲佛　南無斷惡道佛　南無天弗沙佛　南無水眼佛　南無大燈佛　南無離闇佛　南無堅固眼佛　南無不可思議光明佛　南無普光明佛　南無普賢佛　<note type="cf1">K39n1404_p0139a01-24</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
-<choice cb:resp="#resp1" cb:from="#beg_5d" cb:to="#end_5d"><corr>己<note type="cf1">X74n1496_p0772a23-24</note></corr><sic>已</sic></choice>
-<app from="#beg_5e" to="#end_5e"><lem wit="#wit1 #wit2" resp="#resp1">可詺<note type="cf1">K39n1404_p0145b08-09</note></lem><rdg wit="#wit3">詺可</rdg></app>
-<app from="#beg_5f" to="#end_5f"><lem wit="#wit1 #wit2" resp="#resp1">極<note type="cf1">K39n1404_p0145c08</note></lem><rdg wit="#wit3">拯</rdg></app>
-<app from="#beg_60" to="#end_60"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">星<note type="cf1">K39n1404_p0147a24</note><note type="cf2">T14n0440_p0177a11</note><note type="cf3">F28n1072_p0363b13</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
-<app from="#beg_61" to="#end_61"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">佛<note type="cf1">K39n1404_p0148a06</note><note type="cf2">T14n0440_p0177b23</note><note type="cf3">F28n1072_p0364a19</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
-<app from="#beg_62" to="#end_62"><lem resp="#resp1" wit="#wit1 #wit2">諸大菩薩<note type="cf1">K39n1404_p0149b19</note></lem><rdg wit="#wit3">大菩薩諸</rdg></app>
-<app from="#beg_63" to="#end_63"><lem wit="#wit1 #wit2" resp="#resp1">情<note type="cf1">K39n1404_p0150a09</note></lem><rdg wit="#wit3">精</rdg></app>
-<app from="#beg_64" to="#end_64"><lem wit="#wit1 #wit2" resp="#resp1">相<note type="cf1">K39n1404_p0150c02</note></lem><rdg wit="#wit3">和</rdg></app>
-<app from="#beg_65" to="#end_65"><lem wit="#wit1 #wit2 #wit4" resp="#resp1">露幢<note type="cf1">K39n1404_p0153a24</note><note type="cf2">T14n0440_p0179c10</note><note type="cf3">F28n1072_p0380b03</note></lem><rdg wit="#wit3">幢燈</rdg></app>
-<app from="#beg_66" to="#end_66"><lem wit="#wit1 #wit2" resp="#resp1">佛<note type="cf1">K39n1404_p0153c14</note><note type="cf2">T14n0440_p0180a13</note></lem><rdg wit="#wit3">偵</rdg></app>
-<choice cb:from="#beg_67" cb:to="#end_67"><corr>求</corr><sic>來</sic></choice>
-<app from="#beg_68" to="#end_68"><lem wit="#wit1 #wit2" resp="#resp1">齎<note type="cf1">K39n1404_p0154c11</note><note type="cf2">T14n0441_p0232b09</note><note type="cf3">T14n0441_p0307b20</note></lem><rdg wit="#wit3">賚</rdg></app>
-<choice cb:from="#beg_69" cb:to="#end_69"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:from="#beg_6a" cb:to="#end_6a"><corr>無</corr><sic>南</sic></choice>
-<choice cb:from="#beg_6b" cb:to="#end_6b"><corr>奕</corr><sic>弈</sic></choice>
-<app from="#beg_6c" to="#end_6c"><lem wit="#wit1 #wit2" resp="#resp1">啄<note type="cf1">K39n1404_p0172c15</note></lem><rdg wit="#wit3">喙</rdg></app>
-<choice cb:resp="#resp1" cb:from="#beg_6d" cb:to="#end_6d"><corr>歸命</corr><sic>南無歸</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6e" cb:to="#end_6e"><corr>頃</corr><sic>須</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6f" cb:to="#end_6f"><corr>今</corr><sic>命</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_70" cb:to="#end_70"><corr>夫</corr><sic>天</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_71" cb:to="#end_71"><corr>依於</corr><sic>於依</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_72" cb:to="#end_72"><corr>他</corr><sic>地</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_73" cb:to="#end_73"><corr><space quantity="0"/></corr><sic>所</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_74" cb:to="#end_74"><corr>切</corr><sic>忉</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_75" cb:to="#end_75"><corr>五</corr><sic>互</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_76" cb:to="#end_76"><corr>諸</corr><sic>者</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_77" cb:to="#end_77"><corr><space quantity="0"/></corr><sic>單</sic></choice>
-<choice cb:resp="#resp1 resp3" cb:from="#beg_78" cb:to="#end_78"><corr>芉</corr><sic>芋</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_79" cb:to="#end_79"><corr>餓</corr><sic>我</sic></choice>
-<choice cb:from="#beg_7a" cb:to="#end_7a"><corr>佰</corr><sic>伯</sic></choice>
-<choice cb:from="#beg_7b" cb:to="#end_7b"><corr>姓</corr><sic>性</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7c" cb:to="#end_7c"><corr><space quantity="0"/></corr><sic>香</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>羅</corr><sic>離</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>髓</corr><sic>隨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>如</corr><sic>知</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>制<note type="cf1">T55n2157_p0906b27</note></corr><sic>製</sic></choice>
+<app from="#beg_5" to="#end_5"><lem wit="#wit1 #wit2" resp="#resp2">醯<note type="cf1">K39n1404_p0010c10</note><note type="cf2">T14n0440_p0116c17</note><note type="cf3">F28n1072_p0278b28</note></lem><rdg wit="#wit3">醢</rdg></app>
+<app from="#beg_6" to="#end_6"><lem wit="#wit1 #wit2" resp="#resp2">辯<note type="cf1">K39n1404_p0014c05</note></lem><rdg wit="#wit3">辨</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>頃<note type="cf1">T14n0441_p0259b08</note><note type="cf2">T45n1910_p0972a27</note></corr><sic>項</sic></choice>
+<app from="#beg_8" to="#end_8"><lem wit="#wit1 #wit2" resp="#resp2">此<note type="cf1">K39n1404_p0021b03</note></lem><rdg wit="#wit3">比</rdg></app>
+<app from="#beg_9" to="#end_9"><lem wit="#wit1 #wit2" resp="#resp2">名<note type="cf1">K39n1404_p0024c17</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
+<choice cb:from="#beg_a" cb:to="#end_a" cb:resp="#resp2"><corr>威德王勝<note type="cf1">T14n0440_p0125b22</note><note type="cf2">F28n1072_p0392b11</note><note type="cf3">P178n1611_p0299a04</note></corr><sic>成德勝王</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_b" cb:to="#end_b"><corr>幻</corr><sic>幼</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_c" cb:to="#end_c"><corr>聞<note type="cf1">T14n0440_p0127a24</note><note type="cf2">K39n1404_p0032b11</note></corr><sic>間</sic></choice>
+<app from="#beg_d" to="#end_d"><lem wit="#wit1 #wit2" resp="#resp2">王<note type="cf1">K39n1404_p0032b14</note><note type="cf2">T14n0440_p0127a27</note></lem><rdg wit="#wit3">士</rdg></app>
+<app from="#beg_e" to="#end_e"><lem wit="#wit1 #wit2" resp="#resp2">械<note type="cf1">K39n1404_p0041a20</note><note type="cf2">T14n0441_p0272c04</note><note type="cf3">T14n0446ap0367c04</note></lem><rdg wit="#wit3">棫</rdg></app>
+<app from="#beg_f" to="#end_f"><lem wit="#wit1 #wit2" resp="#resp2">羅<note type="cf1">K39n1404_p0041a21</note></lem><rdg wit="#wit3">罹</rdg></app>
+<app from="#beg_10" to="#end_10"><lem wit="#wit1 #wit2" resp="#resp2">屯<note type="cf1">K39n1404_p0041b19</note></lem><rdg wit="#wit3">毛</rdg></app>
+<app from="#beg_11" to="#end_11"><lem wit="#wit1 #wit2" resp="#resp2">面<note type="cf1">K39n1404_p0041c11</note><note type="cf2">T14n0441_p0311b05</note></lem><rdg wit="#wit3">而</rdg></app>
+<app from="#beg_12" to="#end_12"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">喜<note type="cf1">K39n1404_p0043c04</note><note type="cf2">T14n0440_p0131b06</note><note type="cf3">F28n1072_p0400a27</note></lem><rdg wit="#wit3">善</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>命</corr><sic>令</sic></choice>
+<choice cb:from="#beg_14" cb:to="#end_14" cb:resp="#resp2"><corr>相<note type="cf1">T14n0447ap0381c14</note><note type="cf2">X74n1475_p0481c07</note></corr><sic>想</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_15" cb:to="#end_15"><corr>懺</corr><sic>懷</sic></choice>
+<app from="#beg_16" to="#end_16"><lem wit="#wit1 #wit2" resp="#resp2">揬<note type="cf1">K39n1404_p0145c0</note><note type="cf2">T54n2128_p0461a11</note></lem><rdg wit="#wit3">探</rdg></app>
+<app from="#beg_17" to="#end_17"><lem wit="#wit1 #wit2" resp="#resp2">部<note type="cf1">K39n1404_p0050a19</note></lem><rdg wit="#wit3">都</rdg></app>
+<choice cb:from="#beg_18" cb:to="#end_18" cb:resp="#resp2"><corr>曰<note type="cf1">K34n1257_p0695a05</note><note type="cf2">K34n1257_p0858c06</note><note type="cf3">T13n0418_p0911a14</note></corr><sic>目</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_19" cb:to="#end_19"><corr>浮</corr><sic>淨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1a" cb:to="#end_1a"><corr>獷<note type="cf1">T09n0278_p0549a01</note></corr><sic>穬</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1b" cb:to="#end_1b"><corr>奮</corr><sic>奪</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1c" cb:to="#end_1c"><corr>無</corr><sic>佛</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1d" cb:to="#end_1d"><corr>噉朽</corr><sic>瞰杇</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1e" cb:to="#end_1e"><corr>己<note type="cf1">X74n1496_p0772a23-24</note></corr><sic>已</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1f" cb:to="#end_1f"><corr>邪</corr><sic><g ref="#CB02892">䢶</g></sic></choice>
+<app from="#beg_20" to="#end_20"><lem resp="#resp2" wit="#wit1 #wit2">抵<note type="cf1">K39n1404_p0061b15</note></lem><rdg wit="#wit3">扺</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_21" cb:to="#end_21"><corr>圊</corr><sic>清</sic></choice>
+<app from="#beg_22" to="#end_22"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">降<note type="cf1">K39n1404_p0063b05</note><note type="cf2">T14n0440_p0138b01</note><note type="cf3">F28n1072_p0410a22</note></lem><rdg wit="#wit3">勝</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_23" cb:to="#end_23"><corr>天</corr><sic>夭</sic></choice>
+<app from="#beg_24" to="#end_24"><lem wit="#wit1 #wit2" resp="#resp2">牡<note type="cf1">K39n1404_p0066a16</note></lem><rdg wit="#wit3"><g ref="#CB02849">𭷗</g></rdg></app>
+<app from="#beg_25" to="#end_25"><lem wit="#wit1 #wit2" resp="#resp2">情<note type="cf1">K39n1404_p0066b03</note></lem><rdg wit="#wit3">精</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_26" cb:to="#end_26"><corr>痛</corr><sic>通</sic></choice>
+<app from="#beg_27" to="#end_27"><lem wit="#wit1 #wit2" resp="#resp2">鐵<note type="cf1">K39n1404_p0066c14</note></lem><rdg wit="#wit3">獄</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_28" cb:to="#end_28"><corr>懺悔</corr><sic>悔懺</sic></choice>
+<app from="#beg_29" to="#end_29"><lem wit="#wit1 #wit2" resp="#resp2">一向<note type="cf1">K39n1404_p0076b06</note><note type="cf2">T19n1017_p0698b03</note><note type="cf3">T55n2148_p0193a26</note></lem><rdg wit="#wit3">面</rdg></app>
+<app from="#beg_2a" to="#end_2a"><lem wit="#wit1 #wit2" resp="#resp2">祟<note type="cf1">K39n1404_p0077b08</note></lem><rdg wit="#wit3">崇</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_2b" cb:to="#end_2b"><corr>經</corr><sic>輕</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_2c" cb:to="#end_2c"><corr>悔</corr><sic>懺</sic></choice>
+<app from="#beg_2d" to="#end_2d"><lem wit="#wit1 #wit2" resp="#resp2"><g ref="#CB00963">𢱍</g><note type="cf1">K39n1404_p0084a04</note></lem><rdg wit="#wit3">拋</rdg></app>
+<app from="#beg_2e" to="#end_2e"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">味<note type="cf1">K39n1404_p0085b1</note><note type="cf2">T14n0440_p0147c06</note><note type="cf3">F28n1072_p0423a11</note></lem><rdg wit="#wit3">昧</rdg></app>
+<app from="#beg_2f" to="#end_2f"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">邊<note type="cf1">K39n1404_p0085c11</note><note type="cf2">T14n0440_p0147c19</note><note type="cf3">F28n1072_p0423a24</note></lem><rdg wit="#wit3">轉</rdg></app>
+<app from="#beg_30" to="#end_30"><lem wit="#wit1 #wit2" resp="#resp2">盧<note type="cf1">K39n1404_p0087a09</note><note type="cf2">T14n0440_p0148c18</note></lem><rdg wit="#wit3">慮</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_31" cb:to="#end_31"><corr>無</corr><sic>佛</sic></choice>
+<app from="#beg_32" to="#end_32"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">雞<note type="cf1">K39n1404_p0091b09</note><note type="cf2">T14n0440_p0150a09</note><note type="cf3">F28n1072_p0372a06</note></lem><rdg wit="#wit3">羅</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_33" cb:to="#end_33"><corr>藏</corr><sic>　</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_34" cb:to="#end_34"><corr>第</corr><sic>弟</sic></choice>
+<app from="#beg_35" to="#end_35"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">薝蔔<note type="cf1">K39n1404_p0098c06</note><note type="cf2">T14n0440_p0151c20-21</note><note type="cf3">F28n1072_p0374a07</note></lem><rdg wit="#wit3">蔔薝</rdg></app>
+<app from="#beg_36" to="#end_36"><lem wit="#wit1 #wit2" resp="#resp2">億<note type="cf1">K39n1404_p0099a06</note><note type="cf2">T14n0440_p0152a1</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg_37" to="#end_37"><lem wit="#wit1 #wit2" resp="#resp2">婆<note type="cf1">K39n1404_p0100b04</note><note type="cf2">T14n0440_p0158c08</note></lem><rdg wit="#wit3">娑</rdg></app>
+<app from="#beg_38" to="#end_38"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">醯<note type="cf1">K39n1404_p0010c10</note><note type="cf2">T14n0440_p0116c17</note><note type="cf3">F28n1072_p0278b28</note></lem><rdg wit="#wit3">醯</rdg></app>
+<app from="#beg_39" to="#end_39"><lem wit="#wit1 #wit2" resp="#resp2">佷<note type="cf1">K39n1404_p0104c07</note></lem><rdg wit="#wit3">恨</rdg></app>
+<app from="#beg_3a" to="#end_3a"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">妨王<note type="cf1">K39n1404_p0105c03</note><note type="cf2">T14n0440_p0156a24</note><note type="cf3">F28n1072_p0377a06</note></lem><rdg wit="#wit3">王妨</rdg></app>
+<app from="#beg_3b" to="#end_3b"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">難<note type="cf1">K39n1404_p0107a01</note><note type="cf2">T14n0440_p0157b01</note><note type="cf3">F28n1072_p0378b10</note></lem><rdg wit="#wit3">離</rdg></app>
+<app from="#beg_3c" to="#end_3c"><lem wit="#wit1 #wit2" resp="#resp2">可<note type="cf1">K39n1404_p0107c16</note><note type="cf2">T14n0441_p0289b02</note></lem><rdg wit="#wit3">　</rdg></app>
+<app from="#beg_3d" to="#end_3d"><lem wit="#wit1 #wit2" resp="#resp2">滋<note type="cf1">K39n1404_p0109a11</note><note type="cf2">T14n0441_p0198b21</note></lem><rdg wit="#wit3">濕</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_3e" cb:to="#end_3e"><corr>弗</corr><sic>佛</sic></choice>
+<app from="#beg_3f" to="#end_3f"><lem wit="#wit1 #wit2" resp="#resp2">浴<note type="cf1">K39n1404_p0111a02</note></lem><rdg wit="#wit3">俗</rdg></app>
+<app from="#beg_40" to="#end_40"><lem wit="#wit1 #wit2" resp="#resp2">所作<note type="cf1">K39n1404_p0111a15</note></lem><rdg wit="#wit3">作所</rdg></app>
+<app from="#beg_41" to="#end_41"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">淨<note type="cf1">K39n1404_p0116a08</note><note type="cf2">T14n0440_p0120b05</note><note type="cf3">F28n1072_p0266a05</note></lem><rdg wit="#wit3">浮</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_42" cb:to="#end_42"><corr>無</corr><sic>佛</sic></choice>
+<app from="#beg_43" to="#end_43"><lem wit="#wit1 #wit2" resp="#resp2">輱<note type="cf1">K39n1404_p0116b21</note></lem><rdg wit="#wit3">轗</rdg></app>
+<app from="#beg_44" to="#end_44"><lem wit="#wit1 #wit2" resp="#resp2">尿<note type="cf1">K39n1404_p0117b12</note></lem><rdg wit="#wit3">屎</rdg></app>
+<app from="#beg_45" to="#end_45"><lem wit="#wit1 #wit2" resp="#resp2">尿<note type="cf1">K39n1404_p0117b13</note></lem><rdg wit="#wit3">屎</rdg></app>
+<app from="#beg_46" to="#end_46"><lem wit="#wit1 #wit2" resp="#resp2">電<note type="cf1">K39n1404_p0118c18</note><note type="cf2">T14n0440_p0164a03</note></lem><rdg wit="#wit3">雷</rdg></app>
+<app from="#beg_47" to="#end_47"><lem wit="#wit1 #wit2" resp="#resp2">掐<note type="cf1">K39n1404_p0121c18</note></lem><rdg wit="#wit3">搯</rdg></app>
+<app from="#beg_48" to="#end_48"><lem wit="#wit1 #wit2" resp="#resp2">妙<note type="cf1">K39n1404_p0124c12</note><note type="cf2">T14n0440_p0167a05</note><note type="cf3">T24n1451_p0267a15</note></lem><rdg wit="#wit3">法</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_49" cb:to="#end_49"><corr>自</corr><sic>目</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_4a" cb:to="#end_4a"><corr>裟</corr><sic>娑</sic></choice>
+<app from="#beg_4b" to="#end_4b"><lem resp="#resp2" wit="#wit1 #wit2">佛<note type="cf1">K39n1404_p0126b19</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg_4c" to="#end_4c"><lem wit="#wit1 #wit2" resp="#resp2">領<note type="cf1">K39n1404_p0127b07</note></lem><rdg wit="#wit3">頒</rdg></app>
+<app from="#beg_4d" to="#end_4d"><lem wit="#wit1 #wit2" resp="#resp2">屯<note type="cf1">K39n1404_p0127c03</note></lem><rdg wit="#wit3">毛</rdg></app>
+<app from="#beg_4e" to="#end_4e"><lem wit="#wit1 #wit2" resp="#resp2">面<note type="cf1">K39n1404_p0127c18</note><note type="cf2">T14n0441_p0311b05</note></lem><rdg wit="#wit3">而</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_4f" cb:to="#end_4f"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
+<app from="#beg_50" to="#end_50"><lem wit="#wit1 #wit2" resp="#resp2">美<note type="cf1">K39n1404_p0132b11</note><note type="cf2">T14n0441_p0216a04</note></lem><rdg wit="#wit3">羔</rdg></app>
+<choice cb:from="#beg_51" cb:to="#end_51" cb:resp="#resp2"><corr>積<note type="cf1">T14n0441_p0216a19</note><note type="cf2">T14n0447ap0382a03</note><note type="cf3">T45n1910_p0975a26</note></corr><sic><g ref="#CB02859">𮂒</g></sic></choice>
+<app from="#beg_52" to="#end_52"><lem wit="#wit1 #wit2" resp="#resp2">既<note type="cf1">K39n1404_p0132c21</note></lem><rdg wit="#wit3">即</rdg></app>
+<app from="#beg_53" to="#end_53"><lem resp="#resp2" wit="#wit1 #wit2">生<note type="cf1">K39n1404_p0133a08</note></lem><rdg wit="#wit3">世</rdg></app>
+<app from="#beg_54" to="#end_54"><lem wit="#wit1 #wit2" resp="#resp2">波<note type="cf1">K39n1404_p0133c06</note><note type="cf2">T14n0440_p0171a08</note></lem><rdg wit="#wit3">婆</rdg></app>
+<app from="#beg_55" to="#end_55"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">忍<note type="cf1">K39n1404_p0135b16</note><note type="cf2">T14n0440_p0172a23</note><note type="cf3">F28n1072_p0359b08</note></lem><rdg wit="#wit3">思</rdg></app>
+<choice cb:from="#beg_56" cb:to="#end_56" cb:resp="#resp2"><corr>積<note type="cf1">T85n2871_p1344b07</note></corr><sic><g ref="#CB02859">𮂒</g></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_57" cb:to="#end_57"><corr>兩</corr><sic>雨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_58" cb:to="#end_58"><corr>獷<note type="cf1">T09n0278_p0549a01</note></corr><sic>穬</sic></choice>
+<app from="#beg_59" to="#end_59"><lem wit="#wit1 #wit2" resp="#resp2"><space quantity="0"/><note type="cf1">K39n1404_p0137a19</note></lem><rdg wit="#wit3">淨</rdg></app>
+<app from="#beg_5a" to="#end_5a"><lem resp="#resp2" wit="#wit1 #wit2">南無毘羅那王佛　南無新華佛　南無勝華佛　南無捨諍佛　南無大長佛　南無大稱佛　南無愛去佛　南無甘露聚佛　南無日聚佛　南無月聲佛　南無見天佛　南無清淨光佛　南無秋日佛　南無斛華佛　南無妙聲佛　南無雨甘露佛　南無善天佛　南無勝聲佛　南無愛上首佛　南無愛甘露佛　南無甘露稱佛　南無法華佛　南無大莊嚴佛　南無世間尊重佛　南無高意佛　南無高山佛　南無甘露威德光明佛　南無菩提威德佛　南無清淨心佛　南無能作因降伏怨佛　南無香山佛　南無甘露星宿佛　南無大稱佛　南無安隱思惟佛　南無菩提華佛　南無菴摩羅供養佛　南無摩尼清淨佛　南無度世間佛　南無勝成佛　南無法星宿佛　南無大勝佛　南無隨意光明佛　南無火光明佛　南無見愛佛　南無光明愛佛　南無勢力稱佛　南無放光明佛　南無希聲佛　<note type="cf1">K39n1404_p0138a01-24</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg_5b" to="#end_5b"><lem wit="#wit1 #wit2 #wit5" resp="#resp2">漫<note type="cf1">K39n1404_p0138b21</note><note type="cf2">T14n0440_p0173b12</note><note type="cf3">P178n1611_p0339b10</note></lem><rdg wit="#wit3">慢</rdg></app>
+<app from="#beg_5c" to="#end_5c"><lem resp="#resp2" wit="#wit1 #wit2">南無隨意布施佛　南無寶威德佛　南無善威德供養佛　南無世間光明佛　南無世間可敬佛　南無行清淨佛　南無應眼佛　南無大步佛　南無無邊色佛　南無住持般若佛　南無眾橋梁佛　南無彌留波婆佛　南無安隱愛佛　南無提婆摩醯多佛　南無毘闍荷佛　南無羅多那闍荷佛　南無橋梁佛　南無厚奮迅佛　南無光明威德佛　南無慈力佛　南無月勝佛　南無寂光佛　南無愛眼佛　南無天色佛　南無樂法佛　南無大月佛　南無無障礙聲佛　南無人弗沙佛　南無平等見佛　南無大旃陀佛　南無弗沙羅莎佛　南無十種光佛　南無種種光佛　南無雲聲佛　南無龍德佛　南無功德步佛　南無心功德佛　南無大聲佛　南無了聲佛　南無斷惡道佛　南無天弗沙佛　南無水眼佛　南無大燈佛　南無離闇佛　南無堅固眼佛　南無不可思議光明佛　南無普光明佛　南無普賢佛　<note type="cf1">K39n1404_p0139a01-24</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_5d" cb:to="#end_5d"><corr>己<note type="cf1">X74n1496_p0772a23-24</note></corr><sic>已</sic></choice>
+<app from="#beg_5e" to="#end_5e"><lem wit="#wit1 #wit2" resp="#resp2">可詺<note type="cf1">K39n1404_p0145b08-09</note></lem><rdg wit="#wit3">詺可</rdg></app>
+<app from="#beg_5f" to="#end_5f"><lem wit="#wit1 #wit2" resp="#resp2">極<note type="cf1">K39n1404_p0145c08</note></lem><rdg wit="#wit3">拯</rdg></app>
+<app from="#beg_60" to="#end_60"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">星<note type="cf1">K39n1404_p0147a24</note><note type="cf2">T14n0440_p0177a11</note><note type="cf3">F28n1072_p0363b13</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg_61" to="#end_61"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">佛<note type="cf1">K39n1404_p0148a06</note><note type="cf2">T14n0440_p0177b23</note><note type="cf3">F28n1072_p0364a19</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
+<app from="#beg_62" to="#end_62"><lem resp="#resp2" wit="#wit1 #wit2">諸大菩薩<note type="cf1">K39n1404_p0149b19</note></lem><rdg wit="#wit3">大菩薩諸</rdg></app>
+<app from="#beg_63" to="#end_63"><lem wit="#wit1 #wit2" resp="#resp2">情<note type="cf1">K39n1404_p0150a09</note></lem><rdg wit="#wit3">精</rdg></app>
+<app from="#beg_64" to="#end_64"><lem wit="#wit1 #wit2" resp="#resp2">相<note type="cf1">K39n1404_p0150c02</note></lem><rdg wit="#wit3">和</rdg></app>
+<app from="#beg_65" to="#end_65"><lem wit="#wit1 #wit2 #wit4" resp="#resp2">露幢<note type="cf1">K39n1404_p0153a24</note><note type="cf2">T14n0440_p0179c10</note><note type="cf3">F28n1072_p0380b03</note></lem><rdg wit="#wit3">幢燈</rdg></app>
+<app from="#beg_66" to="#end_66"><lem wit="#wit1 #wit2" resp="#resp2">佛<note type="cf1">K39n1404_p0153c14</note><note type="cf2">T14n0440_p0180a13</note></lem><rdg wit="#wit3">偵</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_67" cb:to="#end_67"><corr>求</corr><sic>來</sic></choice>
+<app from="#beg_68" to="#end_68"><lem wit="#wit1 #wit2" resp="#resp2">齎<note type="cf1">K39n1404_p0154c11</note><note type="cf2">T14n0441_p0232b09</note><note type="cf3">T14n0441_p0307b20</note></lem><rdg wit="#wit3">賚</rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_69" cb:to="#end_69"><corr>刺</corr><sic>剌</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_6a" cb:to="#end_6a"><corr>無</corr><sic>南</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_6b" cb:to="#end_6b"><corr>奕</corr><sic>弈</sic></choice>
+<app from="#beg_6c" to="#end_6c"><lem wit="#wit1 #wit2" resp="#resp2">啄<note type="cf1">K39n1404_p0172c15</note></lem><rdg wit="#wit3">喙</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_6d" cb:to="#end_6d"><corr>歸命</corr><sic>南無歸</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_6e" cb:to="#end_6e"><corr>頃</corr><sic>須</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_6f" cb:to="#end_6f"><corr>今</corr><sic>命</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_70" cb:to="#end_70"><corr>夫</corr><sic>天</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_71" cb:to="#end_71"><corr>依於</corr><sic>於依</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_72" cb:to="#end_72"><corr>他</corr><sic>地</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_73" cb:to="#end_73"><corr><space quantity="0"/></corr><sic>所</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_74" cb:to="#end_74"><corr>切</corr><sic>忉</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_75" cb:to="#end_75"><corr>五</corr><sic>互</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_76" cb:to="#end_76"><corr>諸</corr><sic>者</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_77" cb:to="#end_77"><corr><space quantity="0"/></corr><sic>單</sic></choice>
+<choice cb:resp="#resp2 resp4" cb:from="#beg_78" cb:to="#end_78"><corr>芉</corr><sic>芋</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_79" cb:to="#end_79"><corr>餓</corr><sic>我</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_7a" cb:to="#end_7a"><corr>佰</corr><sic>伯</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_7b" cb:to="#end_7b"><corr>姓</corr><sic>性</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_7c" cb:to="#end_7c"><corr><space quantity="0"/></corr><sic>香</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
-<note n="0303001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0303001">依中村不折氏藏本採錄。cf. P. 120</note>
-<note n="0304001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0304001">依中村不折氏藏本採錄。cf. P. 123</note>
-<note n="0305001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0305001">依中村不折氏藏本採錄。cf. P. 138</note>
-<note n="0307001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0307001">依中村不折氏藏本採錄。cf. P. 140</note>
-<note n="0308001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0308001">依宮內省圖書寮藏本採錄。cf. P. 155</note>
-<note n="0310001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0310001">依宮內省圖書寮藏本採錄。cf. P. 157</note>
+<note n="0303001" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0303001">依中村不折氏藏本採錄。cf. P. 120</note>
+<note n="0304001" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0304001">依中村不折氏藏本採錄。cf. P. 123</note>
+<note n="0305001" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0305001">依中村不折氏藏本採錄。cf. P. 138</note>
+<note n="0307001" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0307001">依中村不折氏藏本採錄。cf. P. 140</note>
+<note n="0308001" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0308001">依宮內省圖書寮藏本採錄。cf. P. 155</note>
+<note n="0310001" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0310001">依宮內省圖書寮藏本採錄。cf. P. 157</note>
 </p>
 </cb:div>
 </back></text></TEI>

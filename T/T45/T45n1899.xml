@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1899 中天竺舍衛國祇洹寺圖經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1899 中天竺舍衛國祇洹寺圖經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1899 中天竺舍衛國祇洹寺圖經</title>
 			<author>唐 道宣撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -30,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:12:11 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 45, No. 1899 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 45, No. 1899</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
@@ -40,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00566">
@@ -1556,7 +1557,7 @@ Added comment  for Emacs
 <app from="#beg0890005" to="#end0890005"><lem wit="#wit1">邊</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0892001" to="#end0892001"><lem wit="#wit1">于一月</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">十一日</rdg></app>
 <app from="#beg0892002" to="#end0892002"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">于</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>盧</corr><sic>廬</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>盧</corr><sic>廬</sic></choice>
 <app from="#beg0892003" to="#end0892003"><lem wit="#wit1">洗</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">脫</rdg></app>
 <app from="#beg0893001" to="#end0893001"><lem wit="#wit1">壇</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0894001" to="#end0894001"><lem wit="#wit1">流</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">沈</rdg></app>
@@ -1572,9 +1573,9 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0883001" resp="#resp2" type="mod" target="#nkr_note_mod_0883001">園＝陀<choice><corr>ヵ</corr><sic>か</sic></choice>【原】</note>
-<note n="0884001" resp="#resp2" type="mod" target="#nkr_note_mod_0884001"><g ref="#CB05075">𮤞</g>＝闢<choice><corr>ヵ</corr><sic>か</sic></choice>【原】下同</note>
-<note n="0884002" resp="#resp2" type="mod" target="#nkr_note_mod_0884002">橧＝櫓<choice><corr>ヵ</corr><sic>か</sic></choice>【原】</note>
+<note n="0883001" resp="#resp2" type="mod" target="#nkr_note_mod_0883001">園＝陀<choice cb:resp="#resp2"><corr>ヵ</corr><sic>か</sic></choice>【原】</note>
+<note n="0884001" resp="#resp2" type="mod" target="#nkr_note_mod_0884001"><g ref="#CB05075">𮤞</g>＝闢<choice cb:resp="#resp2"><corr>ヵ</corr><sic>か</sic></choice>【原】下同</note>
+<note n="0884002" resp="#resp2" type="mod" target="#nkr_note_mod_0884002">橧＝櫓<choice cb:resp="#resp2"><corr>ヵ</corr><sic>か</sic></choice>【原】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

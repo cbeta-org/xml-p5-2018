@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1850 大乘起信論裂網疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1850 大乘起信論裂網疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1850 大乘起信論裂網疏</title>
 			<author>明 智旭述</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
 		<edition>$Revision: 1.14 $<date>$Date: 2012/12/11 07:09:10 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>6卷</extent>
 	<publicationStmt>
@@ -29,13 +31,13 @@
 		<date>$Date: 2012/12/11 07:09:10 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 44, No. 1850 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 44, No. 1850</bibl>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 </encodingDesc>
 <profileDesc>
@@ -3910,7 +3912,7 @@ Added comment  for Emacs
 <p>
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>定<note type="cf1">K17n0614_p0590b21 </note><note type="cf2">T35n1735_p0879a11</note><note type="cf3">T43n1830_p0599a26</note></corr><sic>之</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>太<note type="cf1">J20_p0288c02</note></corr><sic>大</sic></choice>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>己</corr><sic>已</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>己</corr><sic>已</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>迥</corr><sic>迴</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>問</corr><sic>間</sic></choice>
 </p>

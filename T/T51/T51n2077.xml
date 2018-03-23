@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2077 續傳燈錄</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2077 續傳燈錄</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2077 續傳燈錄</title>
 			<author>明 居頂輯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,9 +15,10 @@
 		<edition>$Revision: 1.54 $<date>$Date: 2012/03/27 08:57:07 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
-		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.march</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
+		<respStmt xml:id="resp6"><resp>corrections</resp><name>CBETA.march</name></respStmt>
 	</editionStmt>
 	<extent>36卷</extent>
 	<publicationStmt>
@@ -32,7 +34,7 @@
 		<date>$Date: 2012/03/27 08:57:07 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 51, No. 2077 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 51, No. 2077</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【CBETA】</witness>
@@ -43,7 +45,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00037">
@@ -23579,115 +23581,115 @@ Added comment  for Emacs
 <p>
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>蘗</corr><sic>蘖</sic></choice>
 <app from="#beg0469002" to="#end0469002"><lem resp="#resp1" wit="#wit1">于</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">千</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>陝</corr><sic>陜</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>閒</corr><sic>間</sic></choice>
-<choice cb:resp="#resp2 resp3" cb:from="#beg_4" cb:to="#end_4"><corr><g ref="#CB04901">䙡</g><note type="cf1">X64n1260_p0051b08</note><note type="cf2">X80n1565_p0237b05</note></corr><sic><g ref="#CB06273">󱢁</g></sic></choice>
-<choice cb:from="#beg_5" cb:to="#end_5"><corr>雨</corr><sic>兩</sic></choice>
+<choice cb:resp="#resp2 resp4" cb:from="#beg_4" cb:to="#end_4"><corr><g ref="#CB04901">䙡</g><note type="cf1">X64n1260_p0051b08</note><note type="cf2">X80n1565_p0237b05</note></corr><sic><g ref="#CB06273">󱢁</g></sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5" cb:to="#end_5"><corr>雨</corr><sic>兩</sic></choice>
 <app from="#beg0480001" to="#end0480001"><lem resp="#resp1" wit="#wit1">第</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">弟</rdg></app>
-<choice cb:from="#beg_6" cb:to="#end_6"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6" cb:to="#end_6"><corr>陝</corr><sic>陜</sic></choice>
 <app from="#beg_7" to="#end_7"><lem resp="#resp2" wit="#wit2 #wit3">藐<note type="cf1">J09_p0539b26</note></lem><rdg wit="#wit1">貌</rdg></app>
-<choice cb:from="#beg_8" cb:to="#end_8"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp4" cb:from="#beg_9" cb:to="#end_9"><corr>每</corr><sic>無</sic></choice>
-<choice cb:resp="#resp4" cb:from="#beg_a" cb:to="#end_a"><corr>蒿蓬</corr><sic>蓬嵩</sic></choice>
-<choice cb:resp="#resp4" cb:from="#beg_b" cb:to="#end_b"><corr>嚗</corr><sic>曝</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_8" cb:to="#end_8"><corr>己</corr><sic>已</sic></choice>
+<choice cb:resp="#resp5" cb:from="#beg_9" cb:to="#end_9"><corr>每</corr><sic>無</sic></choice>
+<choice cb:resp="#resp5" cb:from="#beg_a" cb:to="#end_a"><corr>蒿蓬</corr><sic>蓬嵩</sic></choice>
+<choice cb:resp="#resp5" cb:from="#beg_b" cb:to="#end_b"><corr>嚗</corr><sic>曝</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_c" cb:to="#end_c"><corr>閒</corr><sic>間</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_d" cb:to="#end_d"><corr>钁</corr><sic><g ref="#CB01089">𮣰</g></sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_e" cb:to="#end_e"><corr>邛<note type="cf1">X08n0236_p0344c15</note><note type="cf2">X08n0236_p0345c21</note></corr><sic>卬</sic></choice>
-<choice cb:resp="#resp2 resp3" cb:from="#beg_f" cb:to="#end_f"><corr><g ref="#CB04901">䙡</g><note type="cf1">X79n1559_p0423c01</note><note type="cf2">X80n1565_p0329c09</note></corr><sic><g ref="#CB06273">󱢁</g></sic></choice>
-<choice cb:from="#beg_10" cb:to="#end_10"><corr>第</corr><sic>卷</sic></choice>
+<choice cb:resp="#resp2 resp4" cb:from="#beg_f" cb:to="#end_f"><corr><g ref="#CB04901">䙡</g><note type="cf1">X79n1559_p0423c01</note><note type="cf2">X80n1565_p0329c09</note></corr><sic><g ref="#CB06273">󱢁</g></sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_10" cb:to="#end_10"><corr>第</corr><sic>卷</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_11" cb:to="#end_11"><corr>迥</corr><sic>迴</sic></choice>
-<choice cb:from="#beg_12" cb:to="#end_12"><corr>殊</corr><sic>珠</sic></choice>
-<choice cb:from="#beg_13" cb:to="#end_13"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:from="#beg_14" cb:to="#end_14"><corr>陝</corr><sic>陜</sic></choice>
-<choice cb:from="#beg_15" cb:to="#end_15"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_12" cb:to="#end_12"><corr>殊</corr><sic>珠</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_13" cb:to="#end_13"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_14" cb:to="#end_14"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_15" cb:to="#end_15"><corr>斂</corr><sic>歛</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_16" cb:to="#end_16"><corr><g ref="#CB01269">𣔻</g><note type="cf1">X82n1571_p0420a17</note><note type="cf2">X71n1414_p0382c23</note></corr><sic>突</sic></choice>
-<choice cb:from="#beg_17" cb:to="#end_17"><corr>己</corr><sic>已</sic></choice>
-<choice cb:from="#beg_18" cb:to="#end_18"><corr>陝</corr><sic>陜</sic></choice>
-<choice cb:from="#beg_19" cb:to="#end_19"><corr>采</corr><sic>釆</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_17" cb:to="#end_17"><corr>己</corr><sic>已</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_18" cb:to="#end_18"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_19" cb:to="#end_19"><corr>采</corr><sic>釆</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_1a" cb:to="#end_1a"><corr><g ref="#CB05175">𣗖</g></corr><sic>標</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_1b" cb:to="#end_1b"><corr>口<note type="cf1">X70n1403_p0774b21</note><note type="cf2">X78n1556_p0748c13</note></corr><sic>日</sic></choice>
-<choice cb:from="#beg_1c" cb:to="#end_1c"><corr>祛</corr><sic>袪</sic></choice>
-<choice cb:resp="#resp5" cb:from="#beg_1d" cb:to="#end_1d"><corr><g ref="#CB03157">䗫</g></corr><sic><g ref="#CB05316">󱓄</g></sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_1c" cb:to="#end_1c"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp6" cb:from="#beg_1d" cb:to="#end_1d"><corr><g ref="#CB03157">䗫</g></corr><sic><g ref="#CB05316">󱓄</g></sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_1e" cb:to="#end_1e"><corr>剌剌<note type="cf1">T48n2003_p0209b02</note><note type="cf2">T51n2076_p0298c08</note></corr><sic>刺刺</sic></choice>
-<choice cb:from="#beg_1f" cb:to="#end_1f"><corr>陝</corr><sic>陜</sic></choice>
-<choice cb:from="#beg_20" cb:to="#end_20"><corr>羨</corr><sic>羡</sic></choice>
-<choice cb:from="#beg_21" cb:to="#end_21"><corr>陝</corr><sic>陜</sic></choice>
-<choice cb:from="#beg_22" cb:to="#end_22"><corr>圮</corr><sic><g ref="#CB04395">𡉏</g></sic></choice>
-<choice cb:from="#beg_23" cb:to="#end_23"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:from="#beg_24" cb:to="#end_24"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_1f" cb:to="#end_1f"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_20" cb:to="#end_20"><corr>羨</corr><sic>羡</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_21" cb:to="#end_21"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_22" cb:to="#end_22"><corr>圮</corr><sic><g ref="#CB04395">𡉏</g></sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_23" cb:to="#end_23"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_24" cb:to="#end_24"><corr>陝</corr><sic>陜</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_25" cb:to="#end_25"><corr>薜<note type="cf1">T54n2128_p0357a10</note><note type="cf2">T54n2128_p0615b02</note></corr><sic>薛</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_26" cb:to="#end_26"><corr>蘗</corr><sic>蘖</sic></choice>
-<choice cb:from="#beg_27" cb:to="#end_27"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_27" cb:to="#end_27"><corr>陝</corr><sic>陜</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_28" cb:to="#end_28"><corr>炟</corr><sic><g ref="#CB05967">𤇅</g></sic></choice>
-<choice cb:from="#beg_29" cb:to="#end_29"><corr>唇</corr><sic><g ref="#CB06299">㫳</g></sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2a" cb:to="#end_2a"><corr>二</corr><sic>一</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_29" cb:to="#end_29"><corr>唇</corr><sic><g ref="#CB06299">㫳</g></sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_2a" cb:to="#end_2a"><corr>二</corr><sic>一</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_2b" cb:to="#end_2b"><corr>己</corr><sic>已</sic></choice>
-<choice cb:from="#beg_2c" cb:to="#end_2c"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2c" cb:to="#end_2c"><corr>斂</corr><sic>歛</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_2d" cb:to="#end_2d"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp5" cb:from="#beg_2e" cb:to="#end_2e"><corr>汩</corr><sic>汨</sic></choice>
-<choice cb:from="#beg_2f" cb:to="#end_2f"><corr>羨</corr><sic>羡</sic></choice>
-<choice cb:resp="#resp5" cb:from="#beg_30" cb:to="#end_30"><corr>玘</corr><sic><g ref="#CB05755">𤣱</g></sic></choice>
+<choice cb:resp="#resp6" cb:from="#beg_2e" cb:to="#end_2e"><corr>汩</corr><sic>汨</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2f" cb:to="#end_2f"><corr>羨</corr><sic>羡</sic></choice>
+<choice cb:resp="#resp6" cb:from="#beg_30" cb:to="#end_30"><corr>玘</corr><sic><g ref="#CB05755">𤣱</g></sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_31" cb:to="#end_31"><corr>閒</corr><sic>間</sic></choice>
-<choice cb:from="#beg_32" cb:to="#end_32"><corr>采</corr><sic>釆</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_32" cb:to="#end_32"><corr>采</corr><sic>釆</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_33" cb:to="#end_33"><corr><g ref="#CB05175">𣗖</g></corr><sic>標</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_34" cb:to="#end_34"><corr>迥</corr><sic>迴</sic></choice>
-<choice cb:from="#beg_35" cb:to="#end_35"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:from="#beg_36" cb:to="#end_36"><corr>秖</corr><sic>秪</sic></choice>
-<choice cb:from="#beg_37" cb:to="#end_37"><corr>秖</corr><sic>秪</sic></choice>
-<choice cb:from="#beg_38" cb:to="#end_38"><corr>秖</corr><sic>秪</sic></choice>
-<choice cb:from="#beg_39" cb:to="#end_39"><corr>秖</corr><sic>秪</sic></choice>
-<choice cb:from="#beg_3a" cb:to="#end_3a"><corr>秖</corr><sic>秪</sic></choice>
-<choice cb:from="#beg_3b" cb:to="#end_3b"><corr>秖</corr><sic>秪</sic></choice>
-<choice cb:from="#beg_3c" cb:to="#end_3c"><corr>秖</corr><sic>秪</sic></choice>
-<choice cb:from="#beg_3d" cb:to="#end_3d"><corr>秖</corr><sic>秪</sic></choice>
-<choice cb:from="#beg_3e" cb:to="#end_3e"><corr>秖</corr><sic>秪</sic></choice>
-<choice cb:from="#beg_3f" cb:to="#end_3f"><corr>羨</corr><sic>羡</sic></choice>
-<choice cb:resp="#resp2 resp3" cb:from="#beg_40" cb:to="#end_40"><corr>己<note type="cf1">X68n1319_p0668a06</note><note type="cf2">X82n1571_p0229b11</note></corr><sic>已</sic></choice>
-<choice cb:from="#beg_41" cb:to="#end_41"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_35" cb:to="#end_35"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_36" cb:to="#end_36"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_37" cb:to="#end_37"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_38" cb:to="#end_38"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_39" cb:to="#end_39"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3a" cb:to="#end_3a"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3b" cb:to="#end_3b"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3c" cb:to="#end_3c"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3d" cb:to="#end_3d"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3e" cb:to="#end_3e"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3f" cb:to="#end_3f"><corr>羨</corr><sic>羡</sic></choice>
+<choice cb:resp="#resp2 resp4" cb:from="#beg_40" cb:to="#end_40"><corr>己<note type="cf1">X68n1319_p0668a06</note><note type="cf2">X82n1571_p0229b11</note></corr><sic>已</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_41" cb:to="#end_41"><corr>斂</corr><sic>歛</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_42" cb:to="#end_42"><corr>亳</corr><sic>毫</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_43" cb:to="#end_43"><corr>達</corr><sic>遠</sic></choice>
-<choice cb:from="#beg_44" cb:to="#end_44"><corr>陝</corr><sic>陜</sic></choice>
-<choice cb:from="#beg_45" cb:to="#end_45"><corr>士</corr><sic>土</sic></choice>
-<choice cb:resp="#resp4" cb:from="#beg_46" cb:to="#end_46"><corr>捂</corr><sic>悟</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_43" cb:to="#end_43"><corr>達</corr><sic>遠</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_44" cb:to="#end_44"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_45" cb:to="#end_45"><corr>士</corr><sic>土</sic></choice>
+<choice cb:resp="#resp5" cb:from="#beg_46" cb:to="#end_46"><corr>捂</corr><sic>悟</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_47" cb:to="#end_47"><corr>睛</corr><sic>晴</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_48" cb:to="#end_48"><corr>睛<note type="cf1">X69n1346_p0249a08</note><note type="cf2">X79n1557_p0114a09</note></corr><sic>晴</sic></choice>
-<choice cb:from="#beg_49" cb:to="#end_49"><corr>羨</corr><sic>羡</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_49" cb:to="#end_49"><corr>羨</corr><sic>羡</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_4a" cb:to="#end_4a"><corr>摶<note type="cf1">T49n2035_p0394b17</note><note type="cf2">X61n1156_p0459b23</note></corr><sic>搏</sic></choice>
-<choice cb:from="#beg_4b" cb:to="#end_4b"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_4b" cb:to="#end_4b"><corr>陝</corr><sic>陜</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_4c" cb:to="#end_4c"><corr>彿</corr><sic>佛</sic></choice>
-<choice cb:from="#beg_4d" cb:to="#end_4d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp5" cb:from="#beg_4e" cb:to="#end_4e"><corr>汩</corr><sic>汨</sic></choice>
-<choice cb:from="#beg_4f" cb:to="#end_4f"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_4d" cb:to="#end_4d"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp6" cb:from="#beg_4e" cb:to="#end_4e"><corr>汩</corr><sic>汨</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_4f" cb:to="#end_4f"><corr>斂</corr><sic>歛</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_50" cb:to="#end_50"><corr>麈</corr><sic>塵</sic></choice>
-<choice cb:from="#beg_51" cb:to="#end_51"><corr>陝</corr><sic>陜</sic></choice>
-<choice cb:resp="#resp4" cb:from="#beg_52" cb:to="#end_52"><corr>摟</corr><sic>樓</sic></choice>
-<choice cb:from="#beg_53" cb:to="#end_53"><corr>陝</corr><sic>陜</sic></choice>
-<choice cb:from="#beg_54" cb:to="#end_54"><corr>羨</corr><sic>羡</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_51" cb:to="#end_51"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp5" cb:from="#beg_52" cb:to="#end_52"><corr>摟</corr><sic>樓</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_53" cb:to="#end_53"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_54" cb:to="#end_54"><corr>羨</corr><sic>羡</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_55" cb:to="#end_55"><corr>閒</corr><sic>間</sic></choice>
-<choice cb:from="#beg_56" cb:to="#end_56"><corr>士</corr><sic>土</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_56" cb:to="#end_56"><corr>士</corr><sic>土</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_57" cb:to="#end_57"><corr>膠<note type="cf1">T47n1997_p0765b01</note><note type="cf2">T48n2003_p0182c26</note></corr><sic>謬</sic></choice>
-<choice cb:from="#beg_58" cb:to="#end_58"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:from="#beg_59" cb:to="#end_59"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:from="#beg_5a" cb:to="#end_5a"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_58" cb:to="#end_58"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_59" cb:to="#end_59"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5a" cb:to="#end_5a"><corr>陝</corr><sic>陜</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_5b" cb:to="#end_5b"><corr>巳</corr><sic>已</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_5c" cb:to="#end_5c"><corr><g ref="#CB15782">𡟋</g><note type="cf1">X87n1621_p0219b17</note><note type="cf2">X79n1559_p0386c17</note></corr><sic>婺</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_5d" cb:to="#end_5d"><corr>己<note type="cf1">X84n1579_p0026b17</note></corr><sic>已</sic></choice>
-<choice cb:from="#beg_5e" cb:to="#end_5e"><corr>陝</corr><sic>陜</sic></choice>
-<choice cb:from="#beg_5f" cb:to="#end_5f"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5e" cb:to="#end_5e"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5f" cb:to="#end_5f"><corr>陝</corr><sic>陜</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_60" cb:to="#end_60"><corr>樁</corr><sic>椿</sic></choice>
-<choice cb:resp="#resp5" cb:from="#beg_61" cb:to="#end_61"><corr><g ref="#CB03157">䗫</g></corr><sic><g ref="#CB05316">󱓄</g></sic></choice>
+<choice cb:resp="#resp6" cb:from="#beg_61" cb:to="#end_61"><corr><g ref="#CB03157">䗫</g></corr><sic><g ref="#CB05316">󱓄</g></sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_62" cb:to="#end_62"><corr>巳</corr><sic>已</sic></choice>
-<choice cb:resp="#resp5" cb:from="#beg_63" cb:to="#end_63"><corr>汩</corr><sic>汨</sic></choice>
-<choice cb:from="#beg_64" cb:to="#end_64"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp6" cb:from="#beg_63" cb:to="#end_63"><corr>汩</corr><sic>汨</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_64" cb:to="#end_64"><corr>陝</corr><sic>陜</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_65" cb:to="#end_65"><corr>婬<note type="cf1">T48n2023_p1071b25</note><note type="cf2">X62n1177_p0198c17</note></corr><sic>媱</sic></choice>
-<choice cb:from="#beg_66" cb:to="#end_66"><corr>己</corr><sic>已</sic></choice>
-<choice cb:from="#beg_67" cb:to="#end_67"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_66" cb:to="#end_66"><corr>己</corr><sic>已</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_67" cb:to="#end_67"><corr>斂</corr><sic>歛</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_68" cb:to="#end_68"><corr>閒</corr><sic>間</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_69" cb:to="#end_69"><corr>竉</corr><sic>寵</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_6a" cb:to="#end_6a"><corr>已<note type="cf1">T47n1998Ap0839b03</note><note type="cf2">X79n1557_p0157a19</note></corr><sic>己</sic></choice>
-<choice cb:from="#beg_6b" cb:to="#end_6b"><corr>陝</corr><sic>陜</sic></choice>
-<choice cb:from="#beg_6c" cb:to="#end_6c"><corr>凡</corr><sic>几</sic></choice>
-<choice cb:from="#beg_6d" cb:to="#end_6d"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6b" cb:to="#end_6b"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6c" cb:to="#end_6c"><corr>凡</corr><sic>几</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6d" cb:to="#end_6d"><corr>斂</corr><sic>歛</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

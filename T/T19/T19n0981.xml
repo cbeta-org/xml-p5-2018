@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 0981 大毘盧遮那佛眼修行儀軌</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 981 大毘盧遮那佛眼修行儀軌</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 981 大毘盧遮那佛眼修行儀軌</title>
 			<author>唐 一行記</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:00:04 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:00:04 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 19, No. 981 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 19, No. 981</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
@@ -42,7 +43,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00770">
@@ -442,7 +443,7 @@ Added comment  for Emacs
 <app from="#beg0411002" to="#end0411002"><lem wit="#wit1">劍</lem><rdg resp="#resp1" wit="#wit2 #wit3">劒</rdg></app>
 <app from="#beg0411003" to="#end0411003"><lem wit="#wit1">楝</lem><rdg resp="#resp1" wit="#wit2 #wit3">練</rdg></app>
 <app from="#beg0411004" to="#end0411004"><lem wit="#wit1">鑌</lem><rdg resp="#resp1" wit="#wit3">賓</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>辦</corr><sic>辨</sic></choice>
 <app from="#beg0411005" to="#end0411005"><lem wit="#wit1">釘</lem><rdg resp="#resp1" wit="#wit3">針</rdg></app>
 <app from="#beg0411006" to="#end0411006"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit3">以二</rdg></app>
 <app from="#beg0411007" to="#end0411007"><lem wit="#wit1">指</lem><rdg resp="#resp1" wit="#wit3">指之</rdg></app>
@@ -469,7 +470,7 @@ Added comment  for Emacs
 <app from="#beg0411025" to="#end0411025"><lem wit="#wit1">妃</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0411026" to="#end0411026"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0411027" to="#end0411027"><lem wit="#wit1">及</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>焚<note type="cf1">T20n1056_p0074a04</note><note type="cf2">T20n1072Ap0161b11</note></corr><sic>梵</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5" cb:to="#end_5"><corr>焚<note type="cf1">T20n1056_p0074a04</note><note type="cf2">T20n1072Ap0161b11</note></corr><sic>梵</sic></choice>
 <app from="#beg0411028" to="#end0411028"><lem wit="#wit1">中</lem><rdg resp="#resp1" wit="#wit2 #wit3">二中</rdg></app>
 <app from="#beg0411029" to="#end0411029"><lem wit="#wit1">拄</lem><rdg resp="#resp1" wit="#wit2 #wit3">跓</rdg></app>
 <app from="#beg0411030" to="#end0411030"><lem wit="#wit1">陀</lem><rdg resp="#resp1" wit="#wit3">陀<note place="inline">四</note></rdg></app>
@@ -598,11 +599,11 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0411038" resp="#resp3" type="mod" target="#nkr_note_mod_0411038">入三合二＝二合【甲】，＝入二合【乙】</note>
-<note n="0412016" resp="#resp3" type="mod" target="#nkr_note_mod_0412016">拄＝跓【甲】＊，＝柱【乙】＊</note>
-<note n="0412031" resp="#resp3" type="mod" target="#nkr_note_mod_0412031"><!--CBETA todo type: ＊-->種性＝種姓ヵ【原】＊，＝性種【甲】【乙】</note>
-<note n="0413013" resp="#resp3" type="mod" target="#nkr_note_mod_0413013"><!--CBETA todo type: a-->（曩莫…曰）六十字∞（曩曰…曰）六十六字【甲】【乙】</note>
-<note n="0413016" resp="#resp3" type="mod" target="#nkr_note_mod_0413016"><!--CBETA todo type: a-->（曩莫…曰）六十字∞（曩曰…曰）六十六字【甲】【乙】</note>
+<note n="0411038" resp="#resp2" type="mod" target="#nkr_note_mod_0411038">入三合二＝二合【甲】，＝入二合【乙】</note>
+<note n="0412016" resp="#resp2" type="mod" target="#nkr_note_mod_0412016">拄＝跓【甲】＊，＝柱【乙】＊</note>
+<note n="0412031" resp="#resp2" type="mod" target="#nkr_note_mod_0412031"><!--CBETA todo type: ＊-->種性＝種姓ヵ【原】＊，＝性種【甲】【乙】</note>
+<note n="0413013" resp="#resp2" type="mod" target="#nkr_note_mod_0413013"><!--CBETA todo type: a-->（曩莫…曰）六十字∞（曩曰…曰）六十六字【甲】【乙】</note>
+<note n="0413016" resp="#resp2" type="mod" target="#nkr_note_mod_0413016"><!--CBETA todo type: a-->（曩莫…曰）六十字∞（曩曰…曰）六十六字【甲】【乙】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

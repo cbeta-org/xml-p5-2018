@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1334 如來方便善巧呪經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1334 如來方便善巧呪經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1334 如來方便善巧呪經</title>
 			<author>隋 闍那崛多譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:01:47 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:01:47 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 21, No. 1334 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 21, No. 1334</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【宋】</witness>
@@ -44,7 +45,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00074">
@@ -462,8 +463,8 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0565002" to="#end0565002"><lem wit="#wit1">隋</lem><rdg resp="#resp1" wit="#wit2">隋天竺</rdg><rdg resp="#resp1" wit="#wit3 #wit4">隋北天竺</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>嗚</corr><sic>鳴</sic></choice>
-<app from="#beg_2" to="#end_2"><lem resp="#resp2" wit="#wit5 #wit6">含<note type="cf1">K12n0338_p0032b04</note></lem><rdg wit="#wit1">舍</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>嗚</corr><sic>鳴</sic></choice>
+<app from="#beg_2" to="#end_2"><lem resp="#resp3" wit="#wit5 #wit6">含<note type="cf1">K12n0338_p0032b04</note></lem><rdg wit="#wit1">舍</rdg></app>
 <app from="#beg0565003" to="#end0565003"><lem wit="#wit1">摩</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">摩<note place="inline">九</note></rdg></app>
 <app from="#beg0565004" to="#end0565004"><lem wit="#wit1">訶</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">訶<note place="inline">十</note></rdg></app>
 <app from="#beg0565005" to="#end0565005"><lem wit="#wit1">懷</lem><rdg resp="#resp1" wit="#wit3 #wit4">茴</rdg></app>
@@ -529,39 +530,39 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0565003" resp="#resp3" type="mod" target="#nkr_note_mod_0565003">摩＋（九）夾註【宋】【元】【明】</note>
-<note n="0565004" resp="#resp3" type="mod" target="#nkr_note_mod_0565004">訶＋（十）夾註【宋】【元】【明】</note>
-<note n="0565008" resp="#resp3" type="mod" target="#nkr_note_mod_0565008">鉢＝<g ref="#CB01452">𭽽</g>【宋】＊【元】＊【明】＊</note>
-<note n="0565009" resp="#resp3" type="mod" target="#nkr_note_mod_0565009">菩＝薩【宋】【元】【明】</note>
-<note n="0565010" resp="#resp3" type="mod" target="#nkr_note_mod_0565010">薩＝蘇【宋】【元】【明】</note>
-<note n="0565011" resp="#resp3" type="mod" target="#nkr_note_mod_0565011">呵＋（十一）夾註【宋】【元】【明】</note>
-<note n="0565012" resp="#resp3" type="mod" target="#nkr_note_mod_0565012"><g ref="#CB01679">󰚏</g>＝厭【宋】＊【元】＊【明】＊</note>
-<note n="0565014" resp="#resp3" type="mod" target="#nkr_note_mod_0565014">羅＝囉呵【宋】【元】【明】</note>
-<note n="0565015" resp="#resp3" type="mod" target="#nkr_note_mod_0565015">唯＝惟【宋】【元】【明】</note>
-<note n="0566002" resp="#resp3" type="mod" target="#nkr_note_mod_0566002">懷＝槐【宋】【元】【明】</note>
-<note n="0566003" resp="#resp3" type="mod" target="#nkr_note_mod_0566003">末香＝米【宋】【元】【明】</note>
-<note n="0566005" resp="#resp3" type="mod" target="#nkr_note_mod_0566005">酥＝藥【宋】【元】【明】</note>
-<note n="0566006" resp="#resp3" type="mod" target="#nkr_note_mod_0566006">枚＝枝【宋】【元】【明】</note>
-<note n="0566007" resp="#resp3" type="mod" target="#nkr_note_mod_0566007">耶＝那【宋】＊【元】＊【明】＊</note>
-<note n="0566008" resp="#resp3" type="mod" target="#nkr_note_mod_0566008">迦＋（吒）【宋】【元】【明】</note>
-<note n="0566009" resp="#resp3" type="mod" target="#nkr_note_mod_0566009">菩提毘＝佛陀婆【宋】【元】【明】</note>
-<note n="0566010" resp="#resp3" type="mod" target="#nkr_note_mod_0566010">脾咩反邪＝耶十三【宋】【元】【明】</note>
-<note n="0566011" resp="#resp3" type="mod" target="#nkr_note_mod_0566011">三＝四【宋】【元】【明】</note>
-<note n="0566012" resp="#resp3" type="mod" target="#nkr_note_mod_0566012">如＝知【宋】【元】【明】</note>
-<note n="0566015" resp="#resp3" type="mod" target="#nkr_note_mod_0566015">〔一〕－【宋】＊【元】＊【明】＊</note>
-<note n="0566016" resp="#resp3" type="mod" target="#nkr_note_mod_0566016">〔他〕－【宋】【元】【明】</note>
-<note n="0567001" resp="#resp3" type="mod" target="#nkr_note_mod_0567001">癩＝癲【宋】【元】【明】</note>
-<note n="0567002" resp="#resp3" type="mod" target="#nkr_note_mod_0567002">梨＝犁【宋】＊【元】＊【明】＊</note>
-<note n="0567003" resp="#resp3" type="mod" target="#nkr_note_mod_0567003"><g ref="#CB00074">𠼝</g>＝唎【宋】＊【元】＊【明】＊</note>
-<note n="0567004" resp="#resp3" type="mod" target="#nkr_note_mod_0567004"><g ref="#CB00074">𠼝</g>＝唎【宋】＊【元】＊【明】＊</note>
-<note n="0567005" resp="#resp3" type="mod" target="#nkr_note_mod_0567005">梨＝唎【宋】【元】【明】</note>
-<note n="0567006" resp="#resp3" type="mod" target="#nkr_note_mod_0567006">利＝唎【宋】【元】【明】</note>
-<note n="0567007" resp="#resp3" type="mod" target="#nkr_note_mod_0567007">梨＝槃【宋】【元】【明】</note>
-<note n="0567008" resp="#resp3" type="mod" target="#nkr_note_mod_0567008">綖＝線【宋】【元】【明】</note>
-<note n="0567009" resp="#resp3" type="mod" target="#nkr_note_mod_0567009">（呪）＋一【宋】【元】【明】</note>
-<note n="0567010" resp="#resp3" type="mod" target="#nkr_note_mod_0567010">彼＝破【宋】【元】【明】</note>
-<note n="0567011" resp="#resp3" type="mod" target="#nkr_note_mod_0567011">索＝<g ref="#CB01857">𢱢</g>【宋】【元】【明】</note>
-<note n="0567012" resp="#resp3" type="mod" target="#nkr_note_mod_0567012">惡風雹雨＝雷雹【宋】【元】【明】</note>
+<note n="0565003" resp="#resp2" type="mod" target="#nkr_note_mod_0565003">摩＋（九）夾註【宋】【元】【明】</note>
+<note n="0565004" resp="#resp2" type="mod" target="#nkr_note_mod_0565004">訶＋（十）夾註【宋】【元】【明】</note>
+<note n="0565008" resp="#resp2" type="mod" target="#nkr_note_mod_0565008">鉢＝<g ref="#CB01452">𭽽</g>【宋】＊【元】＊【明】＊</note>
+<note n="0565009" resp="#resp2" type="mod" target="#nkr_note_mod_0565009">菩＝薩【宋】【元】【明】</note>
+<note n="0565010" resp="#resp2" type="mod" target="#nkr_note_mod_0565010">薩＝蘇【宋】【元】【明】</note>
+<note n="0565011" resp="#resp2" type="mod" target="#nkr_note_mod_0565011">呵＋（十一）夾註【宋】【元】【明】</note>
+<note n="0565012" resp="#resp2" type="mod" target="#nkr_note_mod_0565012"><g ref="#CB01679">󰚏</g>＝厭【宋】＊【元】＊【明】＊</note>
+<note n="0565014" resp="#resp2" type="mod" target="#nkr_note_mod_0565014">羅＝囉呵【宋】【元】【明】</note>
+<note n="0565015" resp="#resp2" type="mod" target="#nkr_note_mod_0565015">唯＝惟【宋】【元】【明】</note>
+<note n="0566002" resp="#resp2" type="mod" target="#nkr_note_mod_0566002">懷＝槐【宋】【元】【明】</note>
+<note n="0566003" resp="#resp2" type="mod" target="#nkr_note_mod_0566003">末香＝米【宋】【元】【明】</note>
+<note n="0566005" resp="#resp2" type="mod" target="#nkr_note_mod_0566005">酥＝藥【宋】【元】【明】</note>
+<note n="0566006" resp="#resp2" type="mod" target="#nkr_note_mod_0566006">枚＝枝【宋】【元】【明】</note>
+<note n="0566007" resp="#resp2" type="mod" target="#nkr_note_mod_0566007">耶＝那【宋】＊【元】＊【明】＊</note>
+<note n="0566008" resp="#resp2" type="mod" target="#nkr_note_mod_0566008">迦＋（吒）【宋】【元】【明】</note>
+<note n="0566009" resp="#resp2" type="mod" target="#nkr_note_mod_0566009">菩提毘＝佛陀婆【宋】【元】【明】</note>
+<note n="0566010" resp="#resp2" type="mod" target="#nkr_note_mod_0566010">脾咩反邪＝耶十三【宋】【元】【明】</note>
+<note n="0566011" resp="#resp2" type="mod" target="#nkr_note_mod_0566011">三＝四【宋】【元】【明】</note>
+<note n="0566012" resp="#resp2" type="mod" target="#nkr_note_mod_0566012">如＝知【宋】【元】【明】</note>
+<note n="0566015" resp="#resp2" type="mod" target="#nkr_note_mod_0566015">〔一〕－【宋】＊【元】＊【明】＊</note>
+<note n="0566016" resp="#resp2" type="mod" target="#nkr_note_mod_0566016">〔他〕－【宋】【元】【明】</note>
+<note n="0567001" resp="#resp2" type="mod" target="#nkr_note_mod_0567001">癩＝癲【宋】【元】【明】</note>
+<note n="0567002" resp="#resp2" type="mod" target="#nkr_note_mod_0567002">梨＝犁【宋】＊【元】＊【明】＊</note>
+<note n="0567003" resp="#resp2" type="mod" target="#nkr_note_mod_0567003"><g ref="#CB00074">𠼝</g>＝唎【宋】＊【元】＊【明】＊</note>
+<note n="0567004" resp="#resp2" type="mod" target="#nkr_note_mod_0567004"><g ref="#CB00074">𠼝</g>＝唎【宋】＊【元】＊【明】＊</note>
+<note n="0567005" resp="#resp2" type="mod" target="#nkr_note_mod_0567005">梨＝唎【宋】【元】【明】</note>
+<note n="0567006" resp="#resp2" type="mod" target="#nkr_note_mod_0567006">利＝唎【宋】【元】【明】</note>
+<note n="0567007" resp="#resp2" type="mod" target="#nkr_note_mod_0567007">梨＝槃【宋】【元】【明】</note>
+<note n="0567008" resp="#resp2" type="mod" target="#nkr_note_mod_0567008">綖＝線【宋】【元】【明】</note>
+<note n="0567009" resp="#resp2" type="mod" target="#nkr_note_mod_0567009">（呪）＋一【宋】【元】【明】</note>
+<note n="0567010" resp="#resp2" type="mod" target="#nkr_note_mod_0567010">彼＝破【宋】【元】【明】</note>
+<note n="0567011" resp="#resp2" type="mod" target="#nkr_note_mod_0567011">索＝<g ref="#CB01857">𢱢</g>【宋】【元】【明】</note>
+<note n="0567012" resp="#resp2" type="mod" target="#nkr_note_mod_0567012">惡風雹雨＝雷雹【宋】【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

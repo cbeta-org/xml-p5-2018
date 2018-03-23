@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1645 彰所知論</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1645 彰所知論</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1645 彰所知論</title>
 			<author>發合思巴造  元 沙羅巴譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.15 $<date>$Date: 2012/11/01 05:31:33 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>Taisho</name></respStmt>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -30,7 +31,7 @@
 		<date>$Date: 2012/11/01 05:31:33 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 32, No. 1645 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 32, No. 1645</bibl>
 	<listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【磧砂】</witness>
@@ -41,7 +42,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, CBETA OCR Group, Punctuated text as provided by Mr. Li Ming-Fang</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 自行掃瞄辨識，李明芳大德提供新式標點</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 自行掃瞄辨識，李明芳大德提供新式標點</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00045">
@@ -1247,20 +1248,20 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg_1" to="#end_1"><lem resp="#resp1" wit="#wit1 #wit2">靜<note type="cf1">Q37_p0196a24</note></lem><rdg wit="#wit3">諍</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>睡</corr><sic>唾</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>睡</corr><sic>唾</sic></choice>
 <app from="#beg_3" to="#end_3"><lem resp="#resp1" wit="#wit1 #wit2">情<note type="cf1">Q37_p0200b05</note></lem><rdg wit="#wit3">精</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note resp="#resp3" n="0238000" type="mod" target="#nkr_note_mod_0238000">(A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照，CBETA 按：大正藏校勘欄有「(A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照」之校勘條目，但此頁內文及大正藏校勘欄無相對應之校勘符號，故將此頁校勘符號作 "[00]" 處理，並置於本頁內文最後。</note>
+<note resp="#resp2" n="0238000" type="mod" target="#nkr_note_mod_0238000">(A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照（CBETA 按：大正藏校勘欄有「(A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照」之校勘條目，但此頁內文及大正藏校勘欄無相對應之校勘符號，故將此頁校勘符號作[00]處理，並置於本頁內文最後。）</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
-<note resp="#resp2" n="0238000" place="foot" type="orig" target="#nkr_note_orig_0238000">(A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照</note>
+<note resp="#resp3" n="0238000" place="foot" type="orig" target="#nkr_note_orig_0238000">(A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照</note>
 </p>
 </cb:div>
 </back></text></TEI>

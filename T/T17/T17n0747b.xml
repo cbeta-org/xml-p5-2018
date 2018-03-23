@@ -3,7 +3,8 @@
 <teiHeader>
         <fileDesc>
                 <titleStmt>
-                        <title>Taisho Tripitaka, Electronic version, No. 0747b 佛說輪轉五道罪福報應經</title>
+                        <title>Taishō Tripiṭaka, Electronic version, No. 747b 佛說輪轉五道罪福報應經</title>
+                        <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 747b 佛說輪轉五道罪福報應經</title>
                         <author>劉宋 求那跋陀羅譯</author>
                         <respStmt>
                                 <resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
                 <edition>$Revision: 1.11 $<date>$Date: 2012/10/08 08:17:38 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -29,7 +31,7 @@
                 <date>$Date: 2012/10/08 08:17:38 $</date>
         </publicationStmt>
         <sourceDesc>
-                <bibl>Taisho Tripitaka Vol. 17, No. 747b </bibl>
+                <bibl>Taishō Tripiṭaka Vol. 17, No. 747b</bibl>
         <listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【宋】</witness>
@@ -42,7 +44,7 @@
 <encodingDesc>
         <projectDesc>
                 <p cb:type="ly" xml:lang="en">Text as provided by Mr. Hsiao Chen-Kuo, Text as inputted by Mr. Yan Hsue-Hsin, Text as inputted by Mr. Anonymous, Punctuated text as provided by Mr. Li Ming-Fang, Re-proofing punctuated text as provided by Mr. Zhang Ge-Feng</p>
-                <p cb:type="ly" xml:lang="zh">蕭鎮國大德提供，閻學新大德輸入，無名氏大德輸入，李明芳大德提供新式標點，張革豐大德提供新式標點重校</p>
+                <p cb:type="ly" xml:lang="zh-Hant">蕭鎮國大德提供，閻學新大德輸入，無名氏大德輸入，李明芳大德提供新式標點，張革豐大德提供新式標點重校</p>
         </projectDesc>
 <charDecl>
 <char xml:id="CB03051">
@@ -280,7 +282,7 @@ Added comment  for Emacs
 <app from="#beg0564005" to="#end0564005"><lem wit="#wit1">鴟</lem><rdg resp="#resp1" wit="#wit2 #wit3">鵄</rdg></app>
 <app from="#beg0564006" to="#end0564006"><lem wit="#wit1">鴝鵅</lem><rdg wit="#wit2" resp="#resp1"><space quantity="0"/></rdg></app>
 <app from="#beg0564007" to="#end0564007"><lem wit="#wit1">者</lem><rdg wit="#wit2" resp="#resp1"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>燒</corr><sic>嬈</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>燒</corr><sic>嬈</sic></choice>
 <app from="#beg0564008" to="#end0564008"><lem wit="#wit1">拘</lem><rdg wit="#wit2 #wit3" resp="#resp1">俱</rdg></app>
 <app from="#beg0564009" to="#end0564009"><lem wit="#wit1">萬</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0564010" to="#end0564010"><lem wit="#wit1">誰</lem><rdg wit="#wit2" resp="#resp1">惟</rdg></app>

@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 0667 大方廣如來藏經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 667 大方廣如來藏經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 667 大方廣如來藏經</title>
 			<author>唐 不空譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -12,8 +13,9 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.18 $<date>$Date: 2012/08/27 03:15:05 $</date>新式標點版</edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2012/08/27 03:15:05 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 16, No. 667 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 16, No. 667</bibl>
 	<listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【麗】</witness>
@@ -40,7 +42,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Fan Zhen-Ye, Re-proofing punctuated text as provided by Mr. Zhang Ge-Feng</p>
-		<p cb:type="ly" xml:lang="zh">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，范振業大德提供新式標點，張革豐大德提供新式標點重校</p>
+		<p cb:type="ly" xml:lang="zh-Hant">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，范振業大德提供新式標點，張革豐大德提供新式標點重校</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00657">
@@ -676,22 +678,22 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>補</corr><sic>輔</sic></choice>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>殊</corr><sic>珠</sic></choice>
-<app from="#beg_3" to="#end_3"><lem wit="#wit1 #wit2" resp="#resp1">之<note type="cf1">K37n1359_p0231c07</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_4" cb:to="#end_4"><corr>己</corr><sic>已</sic></choice>
-<app from="#beg_5" to="#end_5"><lem wit="#wit1 #wit2" resp="#resp1">體<note type="cf1">K37n1359_p0232c17</note></lem><rdg wit="#wit3">禮</rdg></app>
-<app from="#beg_6" to="#end_6"><lem wit="#wit1 #wit2" resp="#resp1">糜<note type="cf1">K37n1359_p0233c09</note></lem><rdg wit="#wit3">床</rdg></app>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>壞<note type="cf1">T36n1736_p0353c07</note></corr><sic>懷</sic></choice>
-<app from="#beg_8" to="#end_8"><lem wit="#wit1 #wit2" resp="#resp1">劫<note type="cf1">K37n1359_p0235a05</note></lem><rdg wit="#wit3">却</rdg></app>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>敬<note type="cf1">T10n0279_p0143b20</note></corr><sic>故</sic></choice>
-<app from="#beg_a" to="#end_a"><lem wit="#wit1 #wit2" resp="#resp2">眼<note type="cf1">K37n1359_p0236a05</note><note type="cf2">T16n0667_p0463b15</note></lem><rdg wit="#wit3">眠</rdg></app>
-<app from="#beg_b" to="#end_b"><lem resp="#resp1" wit="#wit1 #wit2">智<note type="cf1">K37n1359_p0236a07</note></lem><rdg wit="#wit3">知</rdg></app>
-<app from="#beg_c" to="#end_c"><lem resp="#resp1" wit="#wit1 #wit2">靜<note type="cf1">K37n1359_p0236b02</note></lem><rdg wit="#wit3">淨</rdg></app>
-<app from="#beg_d" to="#end_d"><lem resp="#resp1" wit="#wit1 #wit2">力<note type="cf1">K37n1359_p0236b05</note></lem><rdg wit="#wit3">方</rdg></app>
-<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>于</corr><sic>干</sic></choice>
-<app from="#beg_f" to="#end_f"><lem resp="#resp1" wit="#wit1 #wit2">當<note type="cf1">K37n1359_p0238a19</note></lem><rdg wit="#wit3">常</rdg></app>
-<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>于</corr><sic>干</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>補</corr><sic>輔</sic></choice>
+<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>殊</corr><sic>珠</sic></choice>
+<app from="#beg_3" to="#end_3"><lem wit="#wit1 #wit2" resp="#resp2">之<note type="cf1">K37n1359_p0231c07</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
+<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>己</corr><sic>已</sic></choice>
+<app from="#beg_5" to="#end_5"><lem wit="#wit1 #wit2" resp="#resp2">體<note type="cf1">K37n1359_p0232c17</note></lem><rdg wit="#wit3">禮</rdg></app>
+<app from="#beg_6" to="#end_6"><lem wit="#wit1 #wit2" resp="#resp2">糜<note type="cf1">K37n1359_p0233c09</note></lem><rdg wit="#wit3">床</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>壞<note type="cf1">T36n1736_p0353c07</note></corr><sic>懷</sic></choice>
+<app from="#beg_8" to="#end_8"><lem wit="#wit1 #wit2" resp="#resp2">劫<note type="cf1">K37n1359_p0235a05</note></lem><rdg wit="#wit3">却</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>敬<note type="cf1">T10n0279_p0143b20</note></corr><sic>故</sic></choice>
+<app from="#beg_a" to="#end_a"><lem wit="#wit1 #wit2" resp="#resp3">眼<note type="cf1">K37n1359_p0236a05</note><note type="cf2">T16n0667_p0463b15</note></lem><rdg wit="#wit3">眠</rdg></app>
+<app from="#beg_b" to="#end_b"><lem resp="#resp2" wit="#wit1 #wit2">智<note type="cf1">K37n1359_p0236a07</note></lem><rdg wit="#wit3">知</rdg></app>
+<app from="#beg_c" to="#end_c"><lem resp="#resp2" wit="#wit1 #wit2">靜<note type="cf1">K37n1359_p0236b02</note></lem><rdg wit="#wit3">淨</rdg></app>
+<app from="#beg_d" to="#end_d"><lem resp="#resp2" wit="#wit1 #wit2">力<note type="cf1">K37n1359_p0236b05</note></lem><rdg wit="#wit3">方</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_e" cb:to="#end_e"><corr>于</corr><sic>干</sic></choice>
+<app from="#beg_f" to="#end_f"><lem resp="#resp2" wit="#wit1 #wit2">當<note type="cf1">K37n1359_p0238a19</note></lem><rdg wit="#wit3">常</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_10" cb:to="#end_10"><corr>于</corr><sic>干</sic></choice>
 </p>
 </cb:div>
 </back></text></TEI>

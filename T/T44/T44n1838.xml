@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1838 大乘法界無差別論疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1838 大乘法界無差別論疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1838 大乘法界無差別論疏</title>
 			<author>唐 法藏撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.12 $<date>$Date: 2009/04/23 08:11:55 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,7 +30,7 @@
 		<date>$Date: 2009/04/23 08:11:55 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 44, No. 1838 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 44, No. 1838</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
@@ -38,7 +40,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB02197">
@@ -1537,7 +1539,7 @@ Added comment  for Emacs
 <app from="#beg0068001" to="#end0068001"><lem wit="#wit1">夙</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0068002" to="#end0068002"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0069001" to="#end0069001"><lem wit="#wit1">隨緣而</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>輪</corr><sic>輸</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>輪</corr><sic>輸</sic></choice>
 <app from="#beg0072001" to="#end0072001"><lem wit="#wit1">德</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0073001" to="#end0073001"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0074001" to="#end0074001"><lem wit="#wit1">定</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>

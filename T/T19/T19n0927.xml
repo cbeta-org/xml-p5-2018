@@ -3,7 +3,8 @@
 <teiHeader>
         <fileDesc>
                 <titleStmt>
-                        <title>Taisho Tripitaka, Electronic version, No. 0927 藥師七佛供養儀軌如意王經</title>
+                        <title>Taishō Tripiṭaka, Electronic version, No. 927 藥師七佛供養儀軌如意王經</title>
+                        <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 927 藥師七佛供養儀軌如意王經</title>
                         <author>清 工布查布譯</author>
                         <respStmt>
                                 <resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
                 <edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:00:01 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -29,13 +31,13 @@
                 <date>$Date: 2009/04/23 08:00:01 $</date>
         </publicationStmt>
         <sourceDesc>
-                <bibl>Taisho Tripitaka Vol. 19, No. 927 </bibl>
+                <bibl>Taishō Tripiṭaka Vol. 19, No. 927</bibl>
         </sourceDesc>
 </fileDesc>
 <encodingDesc>
         <projectDesc>
                 <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-                <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+                <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
         </projectDesc>
 <charDecl>
 <char xml:id="CB00753">
@@ -1486,9 +1488,9 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>拈</corr><sic><g ref="#CB03635">𢫈</g></sic></choice>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>己</corr><sic>已</sic></choice>
-<choice cb:from="#beg_4" cb:to="#end_4"><corr>己</corr><sic>已</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>己</corr><sic>已</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_4" cb:to="#end_4"><corr>己</corr><sic>已</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

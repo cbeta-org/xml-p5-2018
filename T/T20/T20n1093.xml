@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1093 不空羂索呪經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1093 不空羂索呪經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1093 不空羂索呪經</title>
 			<author>隋 闍那崛多譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:01:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,19 +31,21 @@
 		<date>$Date: 2009/04/23 08:01:20 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 20, No. 1093 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 20, No. 1093</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【明】</witness>
 		<witness xml:id="wit3">【宋】</witness>
 		<witness xml:id="wit4">【元】</witness>
+		<witness xml:id="wit5">【CBETA】</witness>
+		<witness xml:id="wit6">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00070">
@@ -486,7 +490,7 @@ Added comment  for Emacs
 <lb n="0401b26" ed="T"/>鮮淨衣。於其座上敷新淨褥而坐其上。誦持
 <lb n="0401b27" ed="T"/>此呪一切災變即得消滅。若有遇重病者。將
 <lb n="0401b28" ed="T"/>彼瓶水呪已灑於彼人。凡所灑者即得除滅
-<lb n="0401b29" ed="T"/>一切疫病。諸鬼<anchor xml:id="nkr_note_orig_0401028" n="0401028"/><anchor xml:id="nkr_note_mod_0401028" n="0401028"/><anchor xml:id="beg0401028" n="0401028"/>崇<anchor xml:id="end0401028"/>者一切有怖畏處。以水灑
+<lb n="0401b29" ed="T"/>一切疫病。諸鬼<anchor xml:id="nkr_note_orig_0401028" n="0401028"/><anchor xml:id="nkr_note_mod_0401028" n="0401028"/><anchor xml:id="beg0401028" n="0401028"/>祟<anchor xml:id="end0401028"/>者一切有怖畏處。以水灑
 <pb n="0401c" xml:id="T20.1093.0401c" ed="T"/>
 <lb n="0401c01" ed="T"/>之皆得除愈。若有人被他禁呪。磨栴檀呪二
 <lb n="0401c02" ed="T"/>十一遍。<anchor xml:id="beg_1b" type="star"/>泥<anchor xml:id="end_1b"/>其心上即得除愈。若欲除滅一切
@@ -642,7 +646,7 @@ Added comment  for Emacs
 <app from="#beg_1a" to="#end_1a" corresp="#0401021"><lem wit="#wit1">塗</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">泥</rdg></app>
 <app from="#beg0401026" to="#end0401026"><lem wit="#wit1">上者</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">最大</rdg></app>
 <app from="#beg0401027" to="#end0401027"><lem wit="#wit1">其呪師</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2"><space quantity="0"/></rdg></app>
-<app from="#beg0401028" to="#end0401028"><lem wit="#wit1">崇</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">祟</rdg></app>
+<app from="#beg0401028" to="#end0401028"><lem resp="#resp3" wit="#wit5 #wit6">祟<note type="cf1">K11n0288_p0896c17</note></lem><rdg wit="#wit1">崇</rdg><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">祟</rdg></app>
 <app from="#beg_1b" to="#end_1b" corresp="#0401025"><lem wit="#wit1">泥</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">塗</rdg></app>
 <app from="#beg0401029" to="#end0401029"><lem wit="#wit1">疫</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">惡疾</rdg></app>
 <app from="#beg0401030" to="#end0401030"><lem wit="#wit1">擾</lem><rdg resp="#resp1" wit="#wit3">繞</rdg><rdg resp="#resp1" wit="#wit4 #wit2">撓</rdg></app>
@@ -735,7 +739,7 @@ Added comment  for Emacs
 <note n="0401025" resp="#resp2" type="mod" target="#nkr_note_mod_0401025">泥＝塗【宋】＊【元】＊【明】＊</note>
 <note n="0401026" resp="#resp2" type="mod" target="#nkr_note_mod_0401026">上者＝最大【宋】【元】【明】</note>
 <note n="0401027" resp="#resp2" type="mod" target="#nkr_note_mod_0401027">〔其呪師〕－【宋】【元】【明】</note>
-<note n="0401028" resp="#resp2" type="mod" target="#nkr_note_mod_0401028">崇＝祟【宋】【元】【明】</note>
+<note n="0401028" resp="#resp2" type="mod" target="#nkr_note_mod_0401028">崇＝祟【宋】【元】【明】【CB】【麗-CB】</note>
 <note n="0401029" resp="#resp2" type="mod" target="#nkr_note_mod_0401029">疫＝惡疾【宋】【元】【明】</note>
 <note n="0401030" resp="#resp2" type="mod" target="#nkr_note_mod_0401030">擾＝繞【宋】，＝撓【元】【明】</note>
 <note n="0401031" resp="#resp2" type="mod" target="#nkr_note_mod_0401031">〔藉草根〕－【宋】【元】【明】</note>

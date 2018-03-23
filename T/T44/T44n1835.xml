@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1835 辯中邊論述記</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1835 辯中邊論述記</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1835 辯中邊論述記</title>
 			<author>唐 窺基撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.14 $<date>$Date: 2012/03/06 06:39:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2012/03/06 06:39:20 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 44, No. 1835 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 44, No. 1835</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB04984">
@@ -4243,9 +4245,9 @@ Added comment  for Emacs
 <app from="#beg0010004" to="#end0010004"><lem wit="#wit1">待</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">得</rdg></app>
 <app from="#beg0012001" to="#end0012001"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2">一句</rdg></app>
 <app from="#beg0013001" to="#end0013001"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit2">四</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>曰</corr><sic>日</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>曰</corr><sic>日</sic></choice>
 <app from="#beg0013002" to="#end0013002"><lem resp="#resp1" wit="#wit1">障</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">性</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>辦</corr><sic>辯</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>辦</corr><sic>辯</sic></choice>
 <app from="#beg0018001" to="#end0018001"><lem resp="#resp1" wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">六</rdg></app>
 <app from="#beg0018002" to="#end0018002"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit2">二</rdg></app>
 <app from="#beg0018003" to="#end0018003"><lem resp="#resp1" wit="#wit1">云說</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">說云</rdg></app>
@@ -4257,11 +4259,11 @@ Added comment  for Emacs
 <app from="#beg0024002" to="#end0024002"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit2">二</rdg></app>
 <app from="#beg0024003" to="#end0024003"><lem resp="#resp1" wit="#wit1">所</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">所陵雜</rdg></app>
 <app from="#beg0025001" to="#end0025001"><lem resp="#resp1" wit="#wit1">由</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">故</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr><space quantity="0"/><note type="cf1">新文豐．民國六十四年．江西刻經處校刊本。</note></corr><sic>述曰。有學修治</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr><space quantity="0"/><note type="cf1">新文豐．民國六十四年．江西刻經處校刊本。</note></corr><sic>體是無漏。名無顛倒。然所依身猶有煩惱。名</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr><space quantity="0"/><note type="cf1">新文豐．民國六十四年．江西刻經處校刊本。</note></corr><sic>有倒隨。隨者逐也。為倒逐故。隨所修治。亦有</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr><space quantity="0"/><note type="cf1">新文豐．民國六十四年．江西刻經處校刊本。</note></corr><sic>有漏。非此所說。約總說故。</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr><space quantity="0"/><note type="cf1">新文豐．民國六十四年．江西刻經處校刊本。</note></corr><sic>論曰。三無顛倒隨。</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr><space quantity="0"/><note type="cf1">新文豐．民國六十四年．江西刻經處校刊本。</note></corr><sic>述曰。有學修治</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_4" cb:to="#end_4"><corr><space quantity="0"/><note type="cf1">新文豐．民國六十四年．江西刻經處校刊本。</note></corr><sic>體是無漏。名無顛倒。然所依身猶有煩惱。名</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5" cb:to="#end_5"><corr><space quantity="0"/><note type="cf1">新文豐．民國六十四年．江西刻經處校刊本。</note></corr><sic>有倒隨。隨者逐也。為倒逐故。隨所修治。亦有</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6" cb:to="#end_6"><corr><space quantity="0"/><note type="cf1">新文豐．民國六十四年．江西刻經處校刊本。</note></corr><sic>有漏。非此所說。約總說故。</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_7" cb:to="#end_7"><corr><space quantity="0"/><note type="cf1">新文豐．民國六十四年．江西刻經處校刊本。</note></corr><sic>論曰。三無顛倒隨。</sic></choice>
 <app from="#beg0026002" to="#end0026002"><lem wit="#wit1">依</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">位</rdg></app>
 <app from="#beg0026003" to="#end0026003"><lem wit="#wit1">見</lem><rdg resp="#resp1" wit="#wit2">心見</rdg></app>
 <app from="#beg0027001" to="#end0027001"><lem wit="#wit1">句</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>

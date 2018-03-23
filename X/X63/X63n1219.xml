@@ -3,7 +3,8 @@
 <teiHeader>
 <fileDesc>
 		<titleStmt>
-			<title>卍 Xuzangjing, Electronic version, No. 1219 達磨大師悟性論</title>
+			<title>Manji Shinsan Dainihon Zokuzōkyō, Electronic version, No. 1219 達磨大師悟性論</title>
+			<title xml:lang="zh-Hant">卍新纂大日本續藏經數位版, No. 1219 達磨大師悟性論</title>
 			<author>梁 菩提達磨述</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -30,13 +31,17 @@
 		<date>$Date: 2011/08/30 08:16:36 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>卍 Xuzangjing Vol. 63, No. 1219 </bibl>
+		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 63, No. 1219</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Input by CBETA, ZENCD as provided by Mr. Christian Wittern</p>
-		<p xml:lang="zh" cb:type="ly">CBETA 人工輸入，維習安大德提供之 ZENCD 經文</p>
+		<p xml:lang="zh-Hant" cb:type="ly">CBETA 人工輸入，維習安大德提供之 ZENCD 經文</p>
 	</projectDesc>
 </encodingDesc>
 <revisionDesc>
@@ -272,7 +277,7 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <lb ed="X" n="0008a16"/><lb ed="R110" n="0820b16"/><l>若識心性非形像</l><l>湛然不動自真如</l>
 <lb ed="X" n="0008a17"/><lb ed="R110" n="0820b17"/><l>二更凝神轉明淨</l><l>不起憶想同真性</l>
 <lb ed="X" n="0008a18"/><lb ed="R110" n="0820b18"/><l>森羅萬像併歸空</l><l>更執有空還是病</l>
-<lb ed="X" n="0008a19"/><lb ed="R110" n="0821a01"/><l>諸法本自非空有</l><l>凡夫<anchor xml:id="nkr_note_orig_0008001" n="0008001"/><anchor xml:id="nkr_note_mod_0008001" n="0008001"/><anchor xml:id="beg_b" type="cb-app"/>妄<anchor xml:id="end_b"/>想論邪正</l>
+<lb ed="X" n="0008a19"/><lb ed="R110" n="0821a01"/><l>諸法本自非空有</l><l>凡夫<anchor xml:id="nkr_note_orig_0008001" n="0008001"/><anchor xml:id="nkr_note_mod_0008001" n="0008001"/><anchor xml:id="beg0008001" n="0008001"/>妄<anchor xml:id="end0008001"/>想論邪正</l>
 <lb ed="X" n="0008a20"/><lb ed="R110" n="0821a02"/><l>若能不二其居懷</l><l>誰道即凡非是聖</l>
 <lb ed="X" n="0008a21"/><lb ed="R110" n="0821a03"/><l>三更心淨等虗空</l><l>遍滿十方無不通</l>
 <lb ed="X" n="0008a22"/><lb ed="R110" n="0821a04"/><l>山河石壁無能障</l><l>恒沙世界在其中</l>
@@ -318,13 +323,13 @@ Revision 1.1  2004/08/05 06:23:30  ray
 <choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>業<note type="cf1">T48n2009_p0372c15</note></corr><sic>今</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>愛<note type="cf1">T48n2009_p0373a01</note></corr><sic>受</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>未</corr><sic>來</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>妄<note type="cf1">T48n2009_p0373a15</note></corr><sic>安</sic></choice>
+<app from="#beg0008001" to="#end0008001"><lem wit="#wit1" resp="#resp1">妄<note type="cf1">T48n2009_p0373a15</note></lem><rdg wit="#wit2">安</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0008001" resp="#resp3" type="mod" target="#nkr_note_mod_0008001">安疑妄【卍續】，安＝妄【CB】</note>
+<note n="0008001" resp="#resp3" type="mod" target="#nkr_note_mod_0008001">安＝妄【CB】，安疑妄</note>
 </p>
 </cb:div>
 <cb:div type="xuzang-notes">

@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2051 唐護法沙門法琳別傳</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2051 唐護法沙門法琳別傳</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2051 唐護法沙門法琳別傳</title>
 			<author>唐 彥琮撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.16 $<date>$Date: 2010/01/07 05:56:39 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.march</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.march</name></respStmt>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2010/01/07 05:56:39 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 50, No. 2051 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 50, No. 2051</bibl>
 	<listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【麗】</witness>
@@ -40,7 +42,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00104">
@@ -1739,12 +1741,12 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg_1" to="#end_1"><lem resp="#resp1" wit="#wit1 #wit2">袞<note type="cf1">K38n1400_p0048c20</note></lem><rdg wit="#wit3">兗</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>祛</corr><sic>袪</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>派<note type="cf1">X86n1600_p0062a20</note><note type="cf2">T49n2036_p0556a14</note></corr><sic>泒</sic></choice>
-<choice cb:from="#beg_4" cb:to="#end_4"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:from="#beg_5" cb:to="#end_5"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:from="#beg_6" cb:to="#end_6"><corr>羨</corr><sic>羡</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>汩</corr><sic>汨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>羨</corr><sic>羡</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_7" cb:to="#end_7"><corr>汩</corr><sic>汨</sic></choice>
 <choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>受</corr><sic>壽</sic></choice>
 </p>
 </cb:div>

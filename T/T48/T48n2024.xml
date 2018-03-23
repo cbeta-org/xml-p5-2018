@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2024 禪關策進</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2024 禪關策進</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2024 禪關策進</title>
 			<author>明 袾宏輯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,8 +14,9 @@
 	<editionStmt>
 		<edition>$Revision: 1.18 $<date>$Date: 2009/04/23 08:12:50 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,7 +32,7 @@
 		<date>$Date: 2009/04/23 08:12:50 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 48, No. 2024 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 48, No. 2024</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
@@ -40,7 +42,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00416">
@@ -1272,15 +1274,15 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>采</corr><sic>釆</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>采</corr><sic>釆</sic></choice>
 <app cb:word-count="13" from="#beg1100001" to="#end1100001"><lem wit="#wit1">在靈隱掛搭。見處州來書。<lb n="1100b01" ed="T"/>說欽禪</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">去靈隱掛搭見善妙峯妙峯死石田繼席頴東叟在客司我在知客寮見處州來書記說道欽兄</rdg></app>
 <app cb:word-count="19" from="#beg1100002" to="#end1100002"><lem wit="#wit1">小疑小悟。大<lb n="1100b03" ed="T"/>疑大悟。被州說得著。便改了話頭。看</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">大疑大悟小疑小悟不疑不悟須是疑公案始得他雖不甚做工夫他自木菴會下來木菴是松源之子說話終是端正我當下便改了話頭提</rdg></app>
 <app from="#beg1100003" to="#end1100003"><lem wit="#wit1">結甲七箇<lb n="1100b06" ed="T"/>兄弟</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">是時章泉二州有七箇兄弟與我結甲</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>采</corr><sic>釆</sic></choice>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:from="#beg_4" cb:to="#end_4"><corr>采</corr><sic>釆</sic></choice>
-<choice cb:from="#beg_5" cb:to="#end_5"><corr>采</corr><sic>釆</sic></choice>
-<choice cb:resp="#resp2 resp3" cb:from="#beg_6" cb:to="#end_6"><corr>剌</corr><sic>刺</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>采</corr><sic>釆</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>采</corr><sic>釆</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>采</corr><sic>釆</sic></choice>
+<choice cb:resp="#resp3 resp4" cb:from="#beg_6" cb:to="#end_6"><corr>剌</corr><sic>刺</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

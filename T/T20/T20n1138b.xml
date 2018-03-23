@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1138b 金剛祕密善門陀羅尼經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1138b 金剛祕密善門陀羅尼經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1138b 金剛祕密善門陀羅尼經</title>
 			<author>失譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:01:22 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,7 +30,7 @@
 		<date>$Date: 2009/04/23 08:01:22 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 20, No. 1138b </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 20, No. 1138b</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【宋】</witness>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, CBETA OCR Group</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，CBETA 自行掃瞄辨識</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，CBETA 自行掃瞄辨識</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00145">
@@ -263,7 +265,7 @@ Added comment  for Emacs
 <app from="#beg0583003" to="#end0583003"><lem wit="#wit1">犍</lem><rdg resp="#resp1" wit="#wit2 #wit3">楗</rdg></app>
 <app from="#beg0583004" to="#end0583004"><lem wit="#wit1">茶</lem><rdg resp="#resp1" wit="#wit2 #wit3">荼</rdg></app>
 <app from="#beg0583005" to="#end0583005"><lem wit="#wit1">左</lem><rdg resp="#resp1" wit="#wit2 #wit3">方</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>未</corr><sic>末</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>未</corr><sic>末</sic></choice>
 <app from="#beg0583006" to="#end0583006"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0583007" to="#end0583007"><lem wit="#wit1">利</lem><rdg resp="#resp1" wit="#wit2 #wit3">梨</rdg></app>
 <app from="#beg0584001" to="#end0584001"><lem wit="#wit1">多</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>

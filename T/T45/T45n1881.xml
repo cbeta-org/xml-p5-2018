@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1881 華嚴經金師子章註</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1881 華嚴經金師子章註</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1881 華嚴經金師子章註</title>
 			<author>唐 法藏撰．宋 承遷註</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -31,17 +32,18 @@
 		<date>$Date: 2009/10/19 09:52:36 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 45, No. 1881 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 45, No. 1881</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
+		<witness xml:id="wit3">【CBETA】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00170">
@@ -605,8 +607,8 @@ Added comment  for Emacs
 <app from="#beg0669004" to="#end0669004"><lem wit="#wit1">生死性</lem><rdg resp="#resp1" wit="#wit2">無</rdg></app>
 <app from="#beg0669005" to="#end0669005"><lem wit="#wit1">名達</lem><rdg resp="#resp1" wit="#wit2">故名</rdg></app>
 <app from="#beg_14" to="#end_14" corresp="#0668023"><lem wit="#wit1">第</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_15" cb:to="#end_15"><corr>圓</corr><sic>圖</sic></choice>
-<app cb:word-count="26" from="#beg0669006" to="#end0669006"><lem wit="#wit1">一聲聞教二大乘始教三大乘<lb n="0669a12" ed="T"/>終教四大乘頓教五一乘<choice cb:resp="#resp3"><corr>圓</corr><sic>圖</sic></choice>教第一</lem><rdg resp="#resp1" wit="#wit2">者一愚法</rdg></app>
+<choice cb:from="#beg_15" cb:to="#end_15" cb:resp="#resp3"><corr>圓</corr><sic>圖</sic></choice>
+<app cb:word-count="26" from="#beg0669006" to="#end0669006"><lem wit="#wit1">一聲聞教二大乘始教三大乘<lb n="0669a12" ed="T"/>終教四大乘頓教五一乘<choice><corr>圓</corr><sic>圖</sic></choice>教第一</lem><rdg resp="#resp1" wit="#wit2">者一愚法</rdg></app>
 <app from="#beg0669007" to="#end0669007"><lem wit="#wit1">緣生</lem><rdg resp="#resp1" wit="#wit2">因緣</rdg></app>
 <app from="#beg0669008" to="#end0669008"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2">謂一</rdg></app>
 <app from="#beg0669009" to="#end0669009"><lem wit="#wit1">息</lem><rdg resp="#resp1" wit="#wit2">息也</rdg></app>

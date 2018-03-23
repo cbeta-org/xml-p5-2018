@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 0315a 佛說普門品經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 315a 佛說普門品經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 315a 佛說普門品經</title>
 			<author>西晉 竺法護譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -15,6 +16,7 @@
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,7 +32,7 @@
 		<date>$Date: 2012/08/27 03:14:33 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 11, No. 315a </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 11, No. 315a</bibl>
 	<listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【麗】</witness>
@@ -41,7 +43,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by The Seeland Monastery</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，西蓮淨苑提供新式標點</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，西蓮淨苑提供新式標點</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00463">
@@ -805,7 +807,7 @@ Added comment  for Emacs
 <app from="#beg_4" to="#end_4"><lem wit="#wit1 #wit2" resp="#resp2">相<note type="cf1">K06n0029_p1094c10</note><note type="cf2">T11n0315bp0779b01</note></lem><rdg wit="#wit3">想</rdg></app>
 <app from="#beg_5" to="#end_5"><lem wit="#wit1 #wit2" resp="#resp2">視<note type="cf1">K06n0029_p1096a06</note><note type="cf2">T08n0224_p0437a17</note></lem><rdg wit="#wit3">親</rdg></app>
 <choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>為<note type="cf1">T11n0315ap0776a18</note></corr><sic>等</sic></choice>
-<choice cb:from="#beg_7" cb:to="#end_7"><corr>昧</corr><sic>味</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_7" cb:to="#end_7"><corr>昧</corr><sic>味</sic></choice>
 <app from="#beg_8" to="#end_8"><lem wit="#wit1 #wit2" resp="#resp2">解<note type="cf1">K06n0029_p1098a02</note><note type="cf2">T11n0315bp0780a23</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>
 <app from="#beg_9" to="#end_9"><lem wit="#wit1 #wit2" resp="#resp2"><space quantity="0"/><note type="cf1">K06n0029_p1098a02</note></lem><rdg wit="#wit3">解</rdg></app>
 </p>

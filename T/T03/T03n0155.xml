@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 0155 菩薩本行經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 155 菩薩本行經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 155 菩薩本行經</title>
 			<author>失譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -32,7 +33,7 @@
 		<date>$Date: 2012/08/27 03:14:00 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 3, No. 155 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 3, No. 155</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【宋】</witness>
@@ -48,7 +49,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Dhammavassarama</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，法雨道場提供新式標點</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，法雨道場提供新式標點</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00079">
@@ -1843,7 +1844,7 @@ Added comment  for Emacs
 <app from="#beg0112002" to="#end0112002"><lem wit="#wit1">參</lem><rdg resp="#resp1" wit="#wit2">森</rdg></app>
 <app from="#beg0112003" to="#end0112003"><lem wit="#wit1">無餘</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">餘無</rdg></app>
 <app from="#beg0112004" to="#end0112004"><lem wit="#wit1">昇</lem><rdg resp="#resp1" wit="#wit4">升</rdg></app>
-<choice cb:from="#beg_8" cb:to="#end_8"><corr>哭</corr><sic>　</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>哭</corr><sic>　</sic></choice>
 <app from="#beg0112005" to="#end0112005"><lem wit="#wit1">命</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0112006" to="#end0112006"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit2">闍</rdg></app>
 <app from="#beg0112007" to="#end0112007"><lem wit="#wit1">花<lb n="0112a26" ed="T"/>香</lem><rdg resp="#resp1" wit="#wit4">香華</rdg></app>
@@ -1999,7 +2000,7 @@ Added comment  for Emacs
 <app from="#beg_41" to="#end_41" corresp="#0119005"><lem wit="#wit1">差</lem><rdg resp="#resp1" wit="#wit2">瘥</rdg></app>
 <app from="#beg_42" to="#end_42" corresp="#0119005"><lem wit="#wit1">差</lem><rdg resp="#resp1" wit="#wit2">瘥</rdg></app>
 <app from="#beg_43" to="#end_43" corresp="#0119005"><lem wit="#wit1">差</lem><rdg resp="#resp1" wit="#wit2">瘥</rdg></app>
-<choice cb:from="#beg_44" cb:to="#end_44"><corr>藥</corr><sic>樂</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_44" cb:to="#end_44"><corr>藥</corr><sic>樂</sic></choice>
 <app from="#beg_45" to="#end_45" corresp="#0119005"><lem wit="#wit1">差</lem><rdg resp="#resp1" wit="#wit2">瘥</rdg></app>
 <app from="#beg0120002" to="#end0120002"><lem wit="#wit1">比婆芩</lem><rdg resp="#resp1" wit="#wit3 #wit4">比婆<g ref="#CB05595">󱗛</g></rdg></app>
 <app from="#beg0120003" to="#end0120003"><lem wit="#wit5" resp="#resp3"><note place="inline">丹嗒</note></lem><rdg wit="#wit1"><note place="inline">丹喑</note></rdg><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
@@ -2132,7 +2133,7 @@ Added comment  for Emacs
 <note n="0119016" resp="#resp2" type="mod" target="#nkr_note_mod_0119016">殊＝姝【宋】【元】【明】</note>
 <note n="0119019" resp="#resp2" type="mod" target="#nkr_note_mod_0119019">怨＝冤【宋】【元】【明】</note>
 <note n="0120001" resp="#resp2" type="mod" target="#nkr_note_mod_0120001">仁＝人【？】</note>
-<note n="0120003" resp="#resp2" type="mod" target="#nkr_note_mod_0120003">〔丹喑〕－【宋】【元】【明】，=丹嗒【CB】</note>
+<note n="0120003" resp="#resp2" type="mod" target="#nkr_note_mod_0120003">〔丹喑〕－【宋】【元】【明】，＝丹嗒【CB】</note>
 <note n="0121002" resp="#resp2" type="mod" target="#nkr_note_mod_0121002">或＝咸【宋】【元】【明】</note>
 <note n="0121003" resp="#resp2" type="mod" target="#nkr_note_mod_0121003">能＝得【宋】【元】【明】</note>
 <note n="0121004" resp="#resp2" type="mod" target="#nkr_note_mod_0121004">授＝受【宋】【元】【明】</note>

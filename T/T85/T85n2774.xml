@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2774 維摩經疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2774 維摩經疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2774 維摩經疏</title>
 			<author></author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:15:16 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,13 +30,13 @@
 		<date>$Date: 2009/04/23 08:15:16 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 85, No. 2774 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 85, No. 2774</bibl>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00211">
@@ -296,9 +298,9 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>弈</corr><sic>奕</sic></choice>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>弈</corr><sic>奕</sic></choice>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>弈</corr><sic>奕</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>弈</corr><sic>奕</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>弈</corr><sic>奕</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>弈</corr><sic>奕</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

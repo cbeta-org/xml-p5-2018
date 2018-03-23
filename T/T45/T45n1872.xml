@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1872 華嚴策林</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1872 華嚴策林</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1872 華嚴策林</title>
 			<author>唐 法藏述</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2009/04/23 08:12:09 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,7 +30,7 @@
 		<date>$Date: 2009/04/23 08:12:09 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 45, No. 1872 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 45, No. 1872</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
@@ -38,7 +40,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB05047">
@@ -284,14 +286,14 @@ Added comment  for Emacs
 <app from="#beg_1" to="#end_1" corresp="#0597008"><lem wit="#wit1">究</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">窮</rdg></app>
 <app from="#beg0597010" to="#end0597010"><lem resp="#resp1" wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">有能</rdg></app>
 <app from="#beg0597011" to="#end0597011"><lem resp="#resp1" wit="#wit1">巧</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">朽</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>祛</corr><sic>袪</sic></choice>
 <app from="#beg0597012" to="#end0597012"><lem resp="#resp1" wit="#wit1">現</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">理</rdg></app>
 <app from="#beg0597013" to="#end0597013"><lem wit="#wit1">奪</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">舉</rdg></app>
 <app from="#beg0597014" to="#end0597014"><lem wit="#wit1">物</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">惣</rdg></app>
 <app from="#beg0597015" to="#end0597015"><lem resp="#resp1" wit="#wit1">遂</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">逐</rdg></app>
 <app from="#beg0597016" to="#end0597016"><lem wit="#wit1">遮</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">庶</rdg></app>
 <app from="#beg0597017" to="#end0597017"><lem resp="#resp1" wit="#wit1">雖</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">難</rdg></app>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>祛</corr><sic>袪</sic></choice>
 <app from="#beg0597018" to="#end0597018"><lem wit="#wit1">合</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">令</rdg></app>
 <app from="#beg0597019" to="#end0597019"><lem resp="#resp1" wit="#wit1">開<lb n="0597c21" ed="T"/>為</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">為開</rdg></app>
 <app from="#beg0597020" to="#end0597020"><lem resp="#resp1" wit="#wit1">約</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark"><space quantity="0"/></rdg></app>

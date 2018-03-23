@@ -3,7 +3,8 @@
 <teiHeader>
         <fileDesc>
                 <titleStmt>
-                        <title>Taisho Tripitaka, Electronic version, No. 1702 金剛經纂要刊定記</title>
+                        <title>Taishō Tripiṭaka, Electronic version, No. 1702 金剛經纂要刊定記</title>
+                        <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1702 金剛經纂要刊定記</title>
                         <author>宋 子璿錄</author>
                         <respStmt>
                                 <resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
                 <edition>$Revision: 1.16 $<date>$Date: 2012/08/27 03:15:20 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
         </editionStmt>
         <extent>7卷</extent>
         <publicationStmt>
@@ -29,7 +31,7 @@
                 <date>$Date: 2012/08/27 03:15:20 $</date>
         </publicationStmt>
         <sourceDesc>
-                <bibl>Taisho Tripitaka Vol. 33, No. 1702 </bibl>
+                <bibl>Taishō Tripiṭaka Vol. 33, No. 1702</bibl>
         <listWit>
 		<witness xml:id="wit1">【大】</witness>
 	</listWit>
@@ -38,7 +40,7 @@
 <encodingDesc>
         <projectDesc>
                 <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by The Seeland Monastery</p>
-                <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供，西蓮淨苑提供新式標點</p>
+                <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，西蓮淨苑提供新式標點</p>
         </projectDesc>
 <charDecl>
 <char xml:id="CB00592">
@@ -5395,8 +5397,8 @@ Added comment  for Emacs
 <choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>派<note type="cf1">X25n0491_p0374c19</note></corr><sic>泒</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>派<note type="cf1">X25n0491_p0374c21</note></corr><sic>泒</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>派<note type="cf1">X25n0491_p0374c24</note></corr><sic>泒</sic></choice>
-<choice cb:from="#beg_6" cb:to="#end_6"><corr>羨</corr><sic>羡</sic></choice>
-<choice cb:from="#beg_7" cb:to="#end_7"><corr>羨</corr><sic>羡</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6" cb:to="#end_6"><corr>羨</corr><sic>羡</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_7" cb:to="#end_7"><corr>羨</corr><sic>羡</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>淨<note type="cf1">TW33n1702_p0174b06</note></corr><sic>浮</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>正</corr><sic>岐</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr>鳴</corr><sic>嗚</sic></choice>
@@ -5412,9 +5414,9 @@ Added comment  for Emacs
 <choice cb:resp="#resp2" cb:from="#beg_11" cb:to="#end_11"><corr>已<note type="cf1">TW33n1702_p0198b05</note><note type="cf2">T33n1702_p0198b03</note></corr><sic>己</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_12" cb:to="#end_12"><corr>處<note type="cf1">TW33n1702_p0199a27</note><note type="cf2">T33n1702_p0199a24</note></corr><sic>為</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_13" cb:to="#end_13"><corr>味</corr><sic>夫</sic></choice>
-<choice cb:from="#beg_14" cb:to="#end_14"><corr>婇</corr><sic>綵</sic></choice>
-<choice cb:from="#beg_15" cb:to="#end_15"><corr>婇</corr><sic>綵</sic></choice>
-<choice cb:from="#beg_16" cb:to="#end_16"><corr>竟</corr><sic>意</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_14" cb:to="#end_14"><corr>婇</corr><sic>綵</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_15" cb:to="#end_15"><corr>婇</corr><sic>綵</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_16" cb:to="#end_16"><corr>竟</corr><sic>意</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_17" cb:to="#end_17"><corr>徵</corr><sic>微</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_18" cb:to="#end_18"><corr>徵</corr><sic>微</sic></choice>
 </p>

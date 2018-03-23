@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1446 根本說一切有部毘奈耶隨意事</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1446 根本說一切有部毘奈耶隨意事</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1446 根本說一切有部毘奈耶隨意事</title>
 			<author>唐 義淨譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:02:24 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>Taisho</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:02:24 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 23, No. 1446</bibl>
+		<bibl>Taishō Tripiṭaka Vol. 23, No. 1446</bibl>
 	<listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【麗】</witness>
@@ -40,7 +42,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Gaya Foundation, Text as provided by Anonymous from USA, Punctuated text as provided by Ven. Shi Ben-Chan</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供，釋本禪法師提供新式標點</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供，釋本禪法師提供新式標點</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00579">
@@ -487,7 +489,7 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg_1" to="#end_1"><lem resp="#resp1" wit="#wit1 #wit2">隨<note type="cf1">K37n1393_p0933b07</note></lem><rdg wit="#wit3">順</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>苾</corr><sic>芯</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>苾</corr><sic>芯</sic></choice>
 <app from="#beg_3" to="#end_3"><lem resp="#resp1" wit="#wit1 #wit2">或<note type="cf1">K37n1393_p0936a21</note></lem><rdg wit="#wit3">若</rdg></app>
 <app from="#beg_4" to="#end_4"><lem resp="#resp1" wit="#wit1 #wit2">彼<note type="cf1">K37n1393_p0937b08</note></lem><rdg wit="#wit3">波</rdg></app>
 </p>
@@ -495,8 +497,8 @@ Added comment  for Emacs
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
-<note n="1046001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_1046001">忍澂師校刻本曰有時當作時有</note>
-<note n="1047001" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_1047001">忍澂師校刻本曰其出疑倒</note>
+<note n="1046001" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_1046001">忍澂師校刻本曰有時當作時有</note>
+<note n="1047001" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_1047001">忍澂師校刻本曰其出疑倒</note>
 </p>
 </cb:div>
 </back></text></TEI>

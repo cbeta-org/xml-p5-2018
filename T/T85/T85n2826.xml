@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2826 略諸經論念佛法門往生淨土集卷上</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2826 略諸經論念佛法門往生淨土集卷上</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2826 略諸經論念佛法門往生淨土集卷上</title>
 			<author>唐 慧日撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2009/04/23 08:15:19 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:15:19 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 85, No. 2826 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 85, No. 2826</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
@@ -40,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00651">
@@ -753,14 +754,14 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>土</corr><sic>士</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>土</corr><sic>士</sic></choice>
 <app from="#beg1236002" to="#end1236002"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2">二</rdg></app>
 <app from="#beg1237002" to="#end1237002"><lem resp="#resp1" wit="#wit1">抵</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">控</rdg></app>
 <app from="#beg1237004" to="#end1237004"><lem wit="#wit1">夫</lem><rdg resp="#resp1" wit="#wit2">大</rdg></app>
 <app from="#beg1237005" to="#end1237005"><lem resp="#resp1" wit="#wit1">足</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">之</rdg></app>
 <app from="#beg1237006" to="#end1237006"><lem resp="#resp1" wit="#wit1">據</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">諸</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>恩<note type="cf1">X73n1456_p0496b03</note></corr><sic>思</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>男<note type="cf1">T37n1754_p0305a19</note><note type="cf2">T47n1974_p0375c11</note></corr><sic>界</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>恩<note type="cf1">X73n1456_p0496b03</note></corr><sic>思</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>男<note type="cf1">T37n1754_p0305a19</note><note type="cf2">T47n1974_p0375c11</note></corr><sic>界</sic></choice>
 <app from="#beg1238001" to="#end1238001"><lem resp="#resp1" wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">大</rdg></app>
 <app from="#beg1239001" to="#end1239001"><lem resp="#resp1" wit="#wit1">菩薩</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">聲聞</rdg></app>
 <app from="#beg1239002" to="#end1239002"><lem wit="#wit1">王</lem><rdg resp="#resp1" wit="#wit2">法</rdg></app>
@@ -773,7 +774,7 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="1240002" resp="#resp3" type="mod" target="#nkr_note_mod_1240002"><!--CBETA todo type: ＊-->今＝令【甲】＊</note>
+<note n="1240002" resp="#resp2" type="mod" target="#nkr_note_mod_1240002"><!--CBETA todo type: ＊-->今＝令【甲】＊</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

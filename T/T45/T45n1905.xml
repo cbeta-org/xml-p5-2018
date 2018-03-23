@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1905 根本說一切有部苾芻習學略法</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1905 根本說一切有部苾芻習學略法</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1905 根本說一切有部苾芻習學略法</title>
 			<author>元 拔合思巴集</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -28,13 +29,13 @@
 		<date>$Date: 2009/04/23 08:12:11 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 45, No. 1905 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 45, No. 1905</bibl>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00589">
@@ -50,15 +51,6 @@
 	<mapping type="unicode">U+3D4E</mapping>
 	<mapping cb:dec="983629" type="PUA">U+F024D</mapping>
 </char>
-<char xml:id="CB01020">
-	<charName>CBETA CHARACTER CB01020</charName>
-	<charProp>
-		<localName>composition</localName>
-		<value>[口*專]</value>
-	</charProp>
-	<mapping type="unicode">U+2D27E</mapping>
-	<mapping cb:dec="984060" type="PUA">U+F03FC</mapping>
-</char>
 <char xml:id="CB01023">
 	<charName>CBETA CHARACTER CB01023</charName>
 	<charProp>
@@ -67,6 +59,14 @@
 	</charProp>
 	<mapping type="unicode">U+35F1</mapping>
 	<mapping cb:dec="984063" type="PUA">U+F03FF</mapping>
+</char>
+<char xml:id="CB01829">
+	<charName>CBETA CHARACTER CB01829</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[口*(十/田/寸)]</value>
+	</charProp>
+	<mapping cb:dec="984869" type="PUA">U+F0725</mapping>
 </char>
 </charDecl>
 </encodingDesc>
@@ -353,7 +353,7 @@ Added comment  for Emacs
 <lb n="0914a29" ed="T"/>食。不得作極小摶而食。不得作極大摶而食。
 <pb n="0914b" xml:id="T45.1905.0914b" ed="T"/>
 <lb n="0914b01" ed="T"/>應作中摶而食。若食未至不得張口待食。不
-<lb n="0914b02" ed="T"/>得含食語。不得皺眉而食。不得<g ref="#CB01020">𭉾</g><g ref="#CB01023">㗱</g>口食。不
+<lb n="0914b02" ed="T"/>得含食語。不得皺眉而食。不得<g ref="#CB01829">󰜥</g><g ref="#CB01023">㗱</g>口食。不
 <lb n="0914b03" ed="T"/>得呵氣食。不得吹氣食。不得舒舌食。不得一
 <lb n="0914b04" ed="T"/>粒粒取食。若受食時不得叱笑他。若受食時
 <lb n="0914b05" ed="T"/>不得換頰嚼食。不得彈舌食。不得齧半食。不

@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1454 根本說一切有部戒經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1454 根本說一切有部戒經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1454 根本說一切有部戒經</title>
 			<author>唐 義淨譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -30,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:02:36 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 24, No. 1454</bibl>
+		<bibl>Taishō Tripiṭaka Vol. 24, No. 1454</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【宮】</witness>
@@ -47,7 +48,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Gaya Foundation, Text as provided by Anonymous from USA, Punctuated text as provided by Ven. Shi Ben-Chan</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供，釋本禪法師提供新式標點</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供，釋本禪法師提供新式標點</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00595">
@@ -76,6 +77,15 @@
 	</charProp>
 	<mapping type="unicode">U+35F1</mapping>
 	<mapping cb:dec="984063" type="PUA">U+F03FF</mapping>
+</char>
+<char xml:id="CB01121">
+	<charName>CBETA CHARACTER CB01121</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[口*尃]</value>
+	</charProp>
+	<mapping type="unicode">U+35D8</mapping>
+	<mapping cb:dec="984161" type="PUA">U+F0461</mapping>
 </char>
 <char xml:id="CB01328">
 	<charName>CBETA CHARACTER CB01328</charName>
@@ -740,12 +750,12 @@ Added comment  for Emacs
 <lb n="0506b07" ed="T"/>大德！是中清淨不？」<note place="inline">如是三說</note>「諸大德！是中清淨，默
 <lb n="0506b08" ed="T"/>然故，我今如是持。」</p>
 <lb n="0506b09" ed="T"/><p xml:id="pT24p0506b0901">「<anchor xml:id="nkr_note_orig_0506006" n="0506006"/><anchor xml:id="nkr_note_mod_0506006" n="0506006"/><anchor xml:id="beg0506006" n="0506006"/>諸大德！此四對說波羅底提舍尼法，半月半
-<lb n="0506b10" ed="T"/>月戒經中說<anchor xml:id="end0506006"/><anchor xml:id="nkr_c"/>。」</p>
-<lb n="0506b11" ed="T"/><anchor xml:id="nkr_note_orig_0506007" n="0506007"/><anchor xml:id="nkr_note_mod_0506007" n="0506007"/><anchor xml:id="beg0506007" n="0506007"/><p xml:id="pT24p0506b1101">攝頌曰：</p>
+<lb n="0506b10" ed="T"/>月戒經中說<anchor xml:id="end0506006"/>。」</p>
+<lb n="0506b11" ed="T"/><anchor xml:id="nkr_c"/><anchor xml:id="nkr_note_orig_0506007" n="0506007"/><anchor xml:id="nkr_note_mod_0506007" n="0506007"/><anchor xml:id="beg0506007" n="0506007"/><p xml:id="pT24p0506b1101">攝頌曰：</p>
 <lb n="0506b12" ed="T"/><lg xml:id="lgT24p0506b1201"><l>非親尼自受，</l><l>舍中處分食，</l>
-<lb n="0506b13" ed="T"/><l>不請向學家，</l><l>受食於寺外。</l></lg><anchor xml:id="end0506007"/><anchor xml:id="nkr_d"/>
+<lb n="0506b13" ed="T"/><l>不請向學家，</l><l>受食於寺外。</l></lg><anchor xml:id="end0506007"/>
 <lb n="0506b14" ed="T"/><p xml:id="pT24p0506b1401">「若復苾芻，於村路中，從非親苾芻尼自手受
-<lb n="0506b15" ed="T"/>食食。是苾芻應還村外住處，詣諸苾芻所，<anchor xml:id="beg_e" type="cb-app"/>各<anchor xml:id="end_e"/>
+<lb n="0506b15" ed="T"/>食食。是苾芻應還村外住處，詣諸苾芻所，<anchor xml:id="beg_d" type="cb-app"/>各<anchor xml:id="end_d"/>
 <lb n="0506b16" ed="T"/>別告言：『大德！我犯對說惡法，是不應為，今
 <lb n="0506b17" ed="T"/>對說悔。』是名對說法。</p><p xml:id="pT24p0506b1709" rend="inline">「若復眾多苾芻於
 <lb n="0506b18" ed="T"/>白衣家食，有苾芻尼指授，此苾芻應可多與
@@ -792,7 +802,7 @@ Added comment  for Emacs
 <lb n="0506c29" ed="T"/>不張口待，應當學。</p><p xml:id="pT24p0506c2908" rend="inline">「不含食語，應當學。</p>
 <pb n="0507a" ed="T" xml:id="T24.1454.0507a"/>
 <lb n="0507a01" ed="T"/><p xml:id="pT24p0507a0101">「不得以飯覆羹菜、不將羹菜覆飯，更望多得，
-<lb n="0507a02" ed="T"/>應當學。</p><p xml:id="pT24p0507a0204" rend="inline">「不彈舌食、不<g ref="#CB01020">𭉾</g><g ref="#CB01023">㗱</g>食、不呵氣食、
+<lb n="0507a02" ed="T"/>應當學。</p><p xml:id="pT24p0507a0204" rend="inline">「不彈舌食、不<anchor xml:id="beg_e" type="cb-app"/><g ref="#CB01121">㗘</g><anchor xml:id="end_e"/><g ref="#CB01023">㗱</g>食、不呵氣食、
 <lb n="0507a03" ed="T"/>不吹氣食、不<anchor xml:id="nkr_note_orig_0507001" n="0507001"/><anchor xml:id="nkr_note_mod_0507001" n="0507001"/><anchor xml:id="beg0507001" n="0507001"/>散手<anchor xml:id="end0507001"/>食、不毀<anchor xml:id="nkr_note_orig_0507002" n="0507002"/><anchor xml:id="nkr_note_mod_0507002" n="0507002"/><anchor xml:id="beg0507002" n="0507002"/>訾<anchor xml:id="end0507002"/>食、不填頰食、
 <lb n="0507a04" ed="T"/>不齧半食、不舒舌食、不作窣堵波形食，應當
 <lb n="0507a05" ed="T"/>學。</p>
@@ -931,7 +941,7 @@ Added comment  for Emacs
 <lb n="0502b09" ed="T"/><l>及在非障處，</l><l>無有第三人。</l></lg></lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit3 #wit2">諸大德此二不定法半月半月戒經中說</rdg></app>
 <app from="#beg0502006" to="#end0502006"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit4">三</rdg></app>
 <app from="#beg0502007" to="#end0502007"><lem wit="#wit1">而</lem><rdg resp="#resp1" wit="#wit4">向</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>德</corr><sic>聽</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>德</corr><sic>聽</sic></choice>
 <app from="#beg_3" to="#end_3"><lem resp="#resp3" wit="#wit7 #wit8">持<note type="cf1">K23n0898_p0657a09</note></lem><rdg wit="#wit1">時</rdg></app>
 <app from="#beg0502008" to="#end0502008"><lem wit="#wit1">諸大德！此三十泥薩祇波逸底迦法，半月半<lb n="0502b25" ed="T"/>月戒經中說</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit3 #wit2">初攝頌曰持離畜浣衣取衣乞過受同價及別主遣使送衣直</rdg></app>
 <app from="#beg0502009" to="#end0502009"><lem wit="#wit1"><p>初攝頌曰：</p>
@@ -992,11 +1002,11 @@ Added comment  for Emacs
 <app from="#beg0506003" to="#end0506003"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit3 #wit2 #wit4">若有</rdg></app>
 <app from="#beg0506004" to="#end0506004"><lem wit="#wit1">木</lem><rdg resp="#resp1" wit="#wit4">草木</rdg></app>
 <app from="#beg0506005" to="#end0506005"><lem wit="#wit1">等貯僧</lem><rdg resp="#resp1" wit="#wit4">貯</rdg></app>
-<app from="#beg0506006" to="#end0506006"><lem wit="#wit1">諸大德！此四對說波羅底提舍尼法，半月半<lb n="0506b10" ed="T"/>月戒經中說</lem><rdg resp="#resp3" wit="#wit9 #wit7">諸大德！此四對說波羅底提舍尼法，半月半月戒經中說<note type="cf1">Q22_p0392c12</note></rdg><rdg resp="#resp3" wit="#wit8">諸大德！此四對說波羅底提捨尼法，半月半月戒經中說<note type="cf1">K23n0914_p0663a14</note></rdg><rdg resp="#resp1" wit="#wit5 #wit6 #wit3 #wit2">攝頌曰非親尼自受舍中處分食不請向學家受食於寺外</rdg></app>
+<app from="#beg0506006" to="#end0506006"><lem wit="#wit1">諸大德！此四對說波羅底提舍尼法，半月半<lb n="0506b10" ed="T"/>月戒經中說</lem><rdg resp="#resp3" wit="#wit9">諸大德！此四對說波羅底提舍尼法，半月半月戒經中說<note type="cf1">Q22_p0392c12</note></rdg><rdg resp="#resp3" wit="#wit8">諸大德！此四對說波羅底提捨尼法，半月半月戒經中說<note type="cf1">K23n0914_p0663a14</note></rdg><rdg resp="#resp1" wit="#wit5 #wit6 #wit3 #wit2">攝頌曰非親尼自受舍中處分食不請向學家受食於寺外</rdg></app>
 <app from="#beg0506007" to="#end0506007"><lem wit="#wit1"><p>攝頌曰：</p>
 <lb n="0506b12" ed="T"/><lg><l>非親尼自受，</l><l>舍中處分食，</l>
 <lb n="0506b13" ed="T"/><l>不請向學家，</l><l>受食於寺外。</l></lg></lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit3 #wit2">諸大德此四對說波羅底提舍尼法半月半月戒經中說</rdg></app>
-<app from="#beg_e" to="#end_e"><lem resp="#resp3" wit="#wit7 #wit8">各<note type="cf1">K23n0898_p0663a21</note></lem><rdg wit="#wit1">我</rdg></app>
+<app from="#beg_d" to="#end_d"><lem resp="#resp3" wit="#wit7 #wit8">各<note type="cf1">K23n0898_p0663a21</note></lem><rdg wit="#wit1">我</rdg></app>
 <app from="#beg0506008" to="#end0506008"><lem wit="#wit1">諸大德！是眾學法，半月半月戒經中說</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit3 #wit2">總攝頌曰衣食形齊整俗舍善容儀護鉢除病人草水過人樹</rdg></app>
 <app from="#beg0506009" to="#end0506009"><lem wit="#wit1"><p>總攝頌曰：</p>
 <lb n="0506c08" ed="T"/><lg><l>衣食形齊整，</l><l>俗舍善容儀，</l>
@@ -1009,6 +1019,7 @@ Added comment  for Emacs
 <app from="#beg0506015" to="#end0506015"><lem wit="#wit1">伸</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit3 #wit2">申其</rdg><rdg resp="#resp1" wit="#wit4">伸其</rdg></app>
 <app from="#beg0506016" to="#end0506016"><lem wit="#wit1">小</lem><rdg resp="#resp1" wit="#wit4">大</rdg></app>
 <app from="#beg0506017" to="#end0506017"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit4">小</rdg></app>
+<app from="#beg_e" to="#end_e"><lem resp="#resp3" wit="#wit7 #wit8"><g ref="#CB01121">㗘</g><note type="cf1">K23n0898_p0664a10</note></lem><rdg wit="#wit1"><g ref="#CB01020">𭉾</g></rdg></app>
 <app from="#beg0507001" to="#end0507001"><lem wit="#wit1">散手</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit3 #wit2 #wit4">手散</rdg></app>
 <app from="#beg0507002" to="#end0507002"><lem wit="#wit1">訾</lem><rdg resp="#resp1" wit="#wit5 #wit6 #wit3 #wit2 #wit4">呰</rdg></app>
 <app from="#beg0507003" to="#end0507003"><lem wit="#wit1">食</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
@@ -1075,9 +1086,8 @@ Added comment  for Emacs
 <note n="0505010" resp="#resp2" type="mod" target="#nkr_note_mod_0505010">〔如〕－【宋】【元】【明】【宮】</note>
 <note n="0506003" resp="#resp2" type="mod" target="#nkr_note_mod_0506003">若＋（有）【宋】【元】【明】【宮】【聖】</note>
 <note n="0506006" resp="#resp2" type="mod" target="#nkr_note_mod_0506006">（諸大德此四對說波羅底提舍尼法半月半月戒經中說）二十二字∞（攝頌曰非親尼自受舍中處分食不請向學家受食於寺外）二十三字【宋】【元】【明】【宮】，舍＝舍【磧砂-CB】【CB】，＝捨【麗-CB】</note>
-<note resp="#resp3" target="#nkr_c">CBETA 按：【磧砂】同【宋】【元】【明】【宮】，攝頌在前面，而【大】【麗】則攝頌在後面。</note>
+<note resp="#resp3" target="#nkr_c">【磧砂】同【宋】【元】【明】【宮】攝頌在前，而【大】【麗】則攝頌在後。</note>
 <note n="0506007" resp="#resp2" type="mod" target="#nkr_note_mod_0506007">（諸大德此四對說波羅底提舍尼法半月半月戒經中說）二十二字∞（攝頌曰非親尼自受舍中處分食不請向學家受食於寺外）二十三字【宋】【元】【明】【宮】</note>
-<note resp="#resp3" target="#nkr_d">CBETA 按：【磧砂】同【宋】【元】【明】【宮】，攝頌在前面，而【大】【麗】則攝頌在後面。</note>
 <note n="0506008" resp="#resp2" type="mod" target="#nkr_note_mod_0506008">（諸大德是眾學法半月半月戒經中說）十五字∞（總攝頌曰衣食形齊整俗舍善容儀護鉢除病人草水過人樹）二十四字【宋】【元】【明】【宮】</note>
 <note n="0506009" resp="#resp2" type="mod" target="#nkr_note_mod_0506009">（諸大德是眾學法半月半月戒經中說）十五字∞（總攝頌曰衣食形齊整俗舍善容儀護鉢除病人草水過人樹）二十四字【宋】【元】【明】【宮】，〔總〕－【聖】</note>
 <note n="0506012" resp="#resp2" type="mod" target="#nkr_note_mod_0506012"><!--CBETA todo type: ＊-->披＝被【宋】【宮】＊</note>

@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1801 請觀音經疏闡義鈔</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1801 請觀音經疏闡義鈔</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1801 請觀音經疏闡義鈔</title>
 			<author>宋 智圓述</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2010/11/08 07:33:58 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>4卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2010/11/08 07:33:58 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 39, No. 1801 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 39, No. 1801</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00090">
@@ -2631,8 +2633,8 @@ Added comment  for Emacs
 <p>
 <app from="#beg0978001" to="#end0978001"><lem wit="#wit1">遍</lem><rdg resp="#resp1" wit="#wit2">編</rdg></app>
 <app from="#beg0983001" to="#end0983001"><lem wit="#wit1">意</lem><rdg resp="#resp1" wit="#wit2">音</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>弗<note type="cf1">T39n1801_p0985c14</note></corr><sic>佛</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>弗<note type="cf1">T39n1801_p0985c14</note></corr><sic>佛</sic></choice>
 <app from="#beg0987001" to="#end0987001"><lem wit="#wit1">叚</lem><rdg resp="#resp1" wit="#wit2">假</rdg></app>
 <app from="#beg0987002" to="#end0987002"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit2">地</rdg></app>
 <app from="#beg0987003" to="#end0987003"><lem wit="#wit1">實</lem><rdg resp="#resp1" wit="#wit2">寶</rdg></app>
@@ -2641,7 +2643,7 @@ Added comment  for Emacs
 <app from="#beg0996001" to="#end0996001"><lem wit="#wit1">并</lem><rdg resp="#resp1" wit="#wit2">前</rdg></app>
 <app from="#beg0996002" to="#end0996002"><lem wit="#wit1">即</lem><rdg resp="#resp1" wit="#wit2">既</rdg></app>
 <app from="#beg1001001" to="#end1001001"><lem wit="#wit1">審</lem><rdg resp="#resp1" wit="#wit2">番</rdg></app>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
 <app from="#beg1002001" to="#end1002001"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2">苦</rdg></app>
 </p>
 </cb:div>

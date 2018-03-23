@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1774 三彌勒經疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1774 三彌勒經疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1774 三彌勒經疏</title>
 			<author>新羅 憬興撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -30,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:10:17 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 38, No. 1774 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 38, No. 1774</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
@@ -41,7 +42,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00832">
@@ -576,7 +577,7 @@ Added comment  for Emacs
 <lb n="0307b24" ed="T"/>論云。無量歲時有佛出世。名阿彌陀。又婆羅
 <lb n="0307b25" ed="T"/>門傳云。此今此中劫雖小乘宗名第九劫。而
 <lb n="0307b26" ed="T"/>依大乘有二十住劫中初故。故今大乘云。拘
-<lb n="0307b27" ed="T"/>留孫等四<anchor xml:id="beg_1" type="cb-app"/><anchor xml:id="end_1"/>佛皆出初劫。所餘諸佛出後十九
+<lb n="0307b27" ed="T"/>留孫等四<anchor xml:id="beg_1" type="cb-app"/><space quantity="0"/><anchor xml:id="end_1"/>佛皆出初劫。所餘諸佛出後十九
 <lb n="0307b28" ed="T"/>劫。又瑜伽論云。初後二劫。亦增減故。故知非
 <lb n="0307b29" ed="T"/>唯減時佛出。增時佛出亦無違義。由此義故。
 <pb n="0307c" xml:id="T38.1774.0307c" ed="T"/>
@@ -2374,7 +2375,7 @@ Added comment  for Emacs
 <app from="#beg0305004" to="#end0305004"><lem resp="#resp1" wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">志</rdg></app>
 <app from="#beg0306001" to="#end0306001"><lem resp="#resp1" wit="#wit1">理</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">聽</rdg></app>
 <app from="#beg0307001" to="#end0307001"><lem resp="#resp1" wit="#wit1">掩</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">掩泥</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr></corr><sic>一</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr><space quantity="0"/></corr><sic>一</sic></choice>
 <app from="#beg0307002" to="#end0307002"><lem resp="#resp1" wit="#wit1">這</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">數</rdg></app>
 <app from="#beg0308001" to="#end0308001"><lem resp="#resp1" wit="#wit1">作論</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">作轉輪</rdg></app>
 <app from="#beg0309001" to="#end0309001"><lem resp="#resp1" wit="#wit1">納</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">網</rdg></app>

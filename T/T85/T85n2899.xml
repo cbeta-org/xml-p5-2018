@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2899 妙法蓮華經馬明菩薩品第三十</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2899 妙法蓮華經馬明菩薩品第三十</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2899 妙法蓮華經馬明菩薩品第三十</title>
 			<author></author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:15:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,13 +31,13 @@
 		<date>$Date: 2009/04/23 08:15:20 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 85, No. 2899 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 85, No. 2899</bibl>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as inputted by Miss Chen Miao-Ru, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，陳妙如大德輸入，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，陳妙如大德輸入，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00006">
@@ -552,7 +555,7 @@ Added comment  for Emacs
 <lb n="1430a18" ed="T"/>生其中　色究竟天者。盡色界際名為究竟。
 <lb n="1430a19" ed="T"/>亦名有頂。在色有之頂名為有頂。亦名摩醯
 <lb n="1430a20" ed="T"/>首羅者。大自在也。能王三千大千世界故名
-<lb n="1430a21" ed="T"/>為大自在。又名阿迦貳吒天。阿迦貳吒天者。
+<lb n="1430a21" ed="T"/>為大自在。又名阿迦<anchor xml:id="beg_4" type="cb-app"/>膩<anchor xml:id="end_4"/>吒天。阿迦<anchor xml:id="beg_5" type="cb-app"/>膩<anchor xml:id="end_5"/>吒天者。
 <lb n="1430a22" ed="T"/>亦是色界究竟天之別名也。從此已上四天
 <lb n="1430a23" ed="T"/>名無色界。欲界色界諸天不見其形。故名無
 <lb n="1430a24" ed="T"/>色界。第二十九天名空處天。壽一億五百萬
@@ -681,9 +684,11 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>十</corr><sic>　</sic></choice>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>婇</corr><sic>綵</sic></choice>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>一</corr><sic><space quantity="0"/></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>十</corr><sic>　</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>婇</corr><sic>綵</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>一</corr><sic><space quantity="0"/></sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_4" cb:to="#end_4"><corr>膩</corr><sic>貳</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5" cb:to="#end_5"><corr>膩</corr><sic>貳</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 0132a 佛說食施獲五福報經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 132a 佛說食施獲五福報經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 132a 佛說食施獲五福報經</title>
 			<author>失譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.13 $<date>$Date: 2012/08/27 03:13:59 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2012/08/27 03:13:59 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 2, No. 132a </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 2, No. 132a</bibl>
 	<listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【麗】</witness>
@@ -40,7 +42,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo / proofread twice by Mr. Chang Wen-Ming, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Dhammavassarama</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供／張文明大德二校，維習安大德提供之高麗藏 CD 經文，北美某大德提供，法雨道場提供新式標點</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供／張文明大德二校，維習安大德提供之高麗藏 CD 經文，北美某大德提供，法雨道場提供新式標點</p>
 	</projectDesc>
 </encodingDesc>
 <profileDesc>
@@ -172,8 +174,8 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>憔</corr><sic>燋</sic></choice>
-<app from="#beg_2" to="#end_2"><lem wit="#wit1 #wit2" resp="#resp2">曄<note type="cf1">K19n0699_p0586a18</note></lem><rdg wit="#wit3">嘩</rdg></app>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>憔</corr><sic>燋</sic></choice>
+<app from="#beg_2" to="#end_2"><lem wit="#wit1 #wit2" resp="#resp3">曄<note type="cf1">K19n0699_p0586a18</note></lem><rdg wit="#wit3">嘩</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

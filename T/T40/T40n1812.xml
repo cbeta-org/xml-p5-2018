@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1812 天台菩薩戒疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1812 天台菩薩戒疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1812 天台菩薩戒疏</title>
 			<author>唐 明曠刪補</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.13 $<date>$Date: 2009/04/23 08:10:57 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.march</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.march</name></respStmt>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:10:57 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 40, No. 1812 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 40, No. 1812</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Gaya Foundation, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00006">
@@ -536,7 +538,7 @@ Added comment  for Emacs
 <lb n="0583c23" ed="T"/>明傳譯時代者。即大秦弘始三年。有西國
 <lb n="0583c24" ed="T"/>三藏鳩摩羅什此云童壽。來達漢境光顯大
 <lb n="0583c25" ed="T"/>乘匡維聖教。於逍遙園<note place="inline">或云於草堂寺</note>。傳譯經論三百
-<lb n="0583c26" ed="T"/>餘卷五十餘部。梵<anchor xml:id="beg_3" type="cb-app"/><anchor xml:id="end_3"/>納一本第十心地最後誦
+<lb n="0583c26" ed="T"/>餘卷五十餘部。梵<anchor xml:id="beg_3" type="cb-app"/><space quantity="0"/><anchor xml:id="end_3"/>納一本第十心地最後誦
 <lb n="0583c27" ed="T"/>出兩卷成文。上卷明菩薩階位下卷明菩薩律
 <lb n="0583c28" ed="T"/>儀。纔翻譯訖于時。沙門慧融道祥等八百餘
 <lb n="0583c29" ed="T"/>人請從受戒。融等筆授咸同誦持。仍於下卷
@@ -2187,14 +2189,14 @@ Added comment  for Emacs
 <p>
 <app from="#beg0581001" to="#end0581001"><lem wit="#wit1">御</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">止</rdg></app>
 <app from="#beg0581002" to="#end0581002"><lem resp="#resp1" wit="#wit1">所</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">所見</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>州</corr><sic>洲</sic></choice>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr></corr><sic>[01]</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>州</corr><sic>洲</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>己</corr><sic>已</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr><space quantity="0"/></corr><sic>[01]</sic></choice>
 <app from="#beg0584001" to="#end0584001"><lem resp="#resp1" wit="#wit1">梵網大本彼<lb n="0584b15" ed="T"/>文銷釋</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0585001" to="#end0585001"><lem resp="#resp1" wit="#wit1">終</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">從</rdg></app>
 <app from="#beg0586001" to="#end0586001"><lem resp="#resp1" wit="#wit1">熱故煩惱</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">煩惱熱故</rdg></app>
 <app from="#beg0588001" to="#end0588001"><lem resp="#resp1" wit="#wit1">發</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_4" cb:to="#end_4"><corr>己</corr><sic>已</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>己</corr><sic>已</sic></choice>
 <app from="#beg0588002" to="#end0588002"><lem resp="#resp1" wit="#wit1">方</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">方便</rdg></app>
 <app from="#beg0592001" to="#end0592001"><lem wit="#wit1">乘</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">法</rdg></app>
 <app from="#beg0593001" to="#end0593001"><lem resp="#resp1" wit="#wit1">便</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>

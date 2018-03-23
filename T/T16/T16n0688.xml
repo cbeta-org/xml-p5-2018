@@ -3,7 +3,8 @@
 <teiHeader>
         <fileDesc>
                 <titleStmt>
-                        <title>Taisho Tripitaka, Electronic version, No. 0688 佛說未曾有經</title>
+                        <title>Taishō Tripiṭaka, Electronic version, No. 688 佛說未曾有經</title>
+                        <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 688 佛說未曾有經</title>
                         <author>失譯</author>
                         <respStmt>
                                 <resp>Electronic Version by</resp>
@@ -30,7 +31,7 @@
                 <date>$Date: 2012/08/27 03:15:09 $</date>
         </publicationStmt>
         <sourceDesc>
-                <bibl>Taisho Tripitaka Vol. 16, No. 688 </bibl>
+                <bibl>Taishō Tripiṭaka Vol. 16, No. 688</bibl>
         <listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【宋】</witness>
@@ -38,15 +39,14 @@
 		<witness xml:id="wit4">【元】</witness>
 		<witness xml:id="wit5">【明】</witness>
 		<witness xml:id="wit6">【磧砂】</witness>
-		<witness xml:id="wit7">【CBETA】</witness>
-		<witness xml:id="wit8">【麗】</witness>
+		<witness xml:id="wit7">【麗】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
         <projectDesc>
                 <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Jasmine</p>
-                <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jasmine 提供新式標點</p>
+                <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，Jasmine 提供新式標點</p>
         </projectDesc>
 <charDecl>
 <char xml:id="CB00719">
@@ -250,7 +250,7 @@ Added comment  for Emacs
 <app from="#beg0781007" to="#end0781007"><lem wit="#wit1">住</lem><rdg resp="#resp1" wit="#wit5">在</rdg></app>
 <app from="#beg0781008" to="#end0781008"><lem wit="#wit1">復</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">若</rdg></app>
 <app from="#beg0781009" to="#end0781009"><lem wit="#wit1">坐</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">坐坐</rdg></app>
-<app from="#beg_1" to="#end_1"><lem wit="#wit1">葦</lem><rdg resp="#resp3" wit="#wit6 #wit7">葦<note type="cf1">Q11_p0155b01</note></rdg><rdg resp="#resp3" wit="#wit8"><g ref="#CB00719">𥯤</g><note type="cf1">K11n0237_p0489b13</note></rdg></app>
+<app from="#beg_1" to="#end_1"><lem wit="#wit1">葦</lem><rdg resp="#resp3" wit="#wit6">葦<note type="cf1">Q11_p0155b01</note></rdg><rdg resp="#resp3" wit="#wit7"><g ref="#CB00719">𥯤</g><note type="cf1">K11n0237_p0489b13</note></rdg></app>
 <app from="#beg0781010" to="#end0781010"><lem wit="#wit1">伎</lem><rdg resp="#resp1" wit="#wit4 #wit5">妓</rdg></app>
 <app from="#beg0781011" to="#end0781011"><lem wit="#wit1">末</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit3">粖</rdg></app>
 <app from="#beg0781012" to="#end0781012"><lem wit="#wit1">人中</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">中人</rdg></app>
@@ -263,7 +263,7 @@ Added comment  for Emacs
 <app from="#beg0781018" to="#end0781018"><lem wit="#wit1">經</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">法</rdg></app>
 <app from="#beg0781019" to="#end0781019"><lem wit="#wit1">汝</lem><rdg resp="#resp1" wit="#wit4">法</rdg></app>
 <app from="#beg0781020" to="#end0781020"><lem wit="#wit1">當</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3">此法當</rdg></app>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>阿</corr><sic>何</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>阿</corr><sic>何</sic></choice>
 <app cb:word-count="16" from="#beg0782001" to="#end0782001"><lem wit="#wit1">藥王佛　藥王菩薩　藥上菩薩　最上天<lb n="0782a02" ed="T"/>王佛</lem><rdg resp="#resp1" wit="#wit2 #wit4 #wit5 #wit3"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>

@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1807 四分比丘戒本疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1807 四分比丘戒本疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1807 四分比丘戒本疏</title>
 			<author>唐 定賓撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.12 $<date>$Date: 2012/04/12 10:15:39 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2012/04/12 10:15:39 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 40, No. 1807 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 40, No. 1807</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 	</listWit>
@@ -38,7 +40,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Gaya Foundation, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，伽耶山基金會提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00134">
@@ -2765,14 +2767,14 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>拘<note type="cf1">T01n0003_p0158b22</note></corr><sic>狗</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>拘<note type="cf1">T01n0003_p0158b22</note></corr><sic>狗</sic></choice>
-<choice cb:from="#beg_4" cb:to="#end_4"><corr>闇</corr><sic>闍</sic></choice>
-<choice cb:from="#beg_5" cb:to="#end_5"><corr>已</corr><sic>巳</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>拘<note type="cf1">T01n0003_p0158b22</note></corr><sic>狗</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>拘<note type="cf1">T01n0003_p0158b22</note></corr><sic>狗</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>闇</corr><sic>闍</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>已</corr><sic>巳</sic></choice>
 <app from="#beg0480001" to="#end0480001"><lem resp="#resp1" wit="#wit1">容</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">客</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>噉</corr><sic>瞰</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>噉</corr><sic>瞰</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6" cb:to="#end_6"><corr>噉</corr><sic>瞰</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_7" cb:to="#end_7"><corr>噉</corr><sic>瞰</sic></choice>
 <app from="#beg0486001" to="#end0486001"><lem resp="#resp1" wit="#wit1">語</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">道</rdg></app>
 </p>
 </cb:div>

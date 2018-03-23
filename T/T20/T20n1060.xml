@@ -3,7 +3,8 @@
 <teiHeader>
         <fileDesc>
                 <titleStmt>
-                        <title>Taisho Tripitaka, Electronic version, No. 1060 千手千眼觀世音菩薩廣大圓滿無礙大悲心陀羅尼經</title>
+                        <title>Taishō Tripiṭaka, Electronic version, No. 1060 千手千眼觀世音菩薩廣大圓滿無礙大悲心陀羅尼經</title>
+                        <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1060 千手千眼觀世音菩薩廣大圓滿無礙大悲心陀羅尼經</title>
                         <author>唐 伽梵達摩譯</author>
                         <respStmt>
                                 <resp>Electronic Version by</resp>
@@ -13,8 +14,8 @@
         <editionStmt>
                 <edition>$Revision: 1.17 $<date>$Date: 2012/08/27 03:15:13 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
 		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.march</name></respStmt>
         </editionStmt>
@@ -32,7 +33,7 @@
                 <date>$Date: 2012/08/27 03:15:13 $</date>
         </publicationStmt>
         <sourceDesc>
-                <bibl>Taisho Tripitaka Vol. 20, No. 1060 </bibl>
+                <bibl>Taishō Tripiṭaka Vol. 20, No. 1060</bibl>
         <listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【大】</witness>
@@ -43,7 +44,7 @@
 <encodingDesc>
         <projectDesc>
                 <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Lin Guang-ming</p>
-                <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供，林光明大德提供新式標點</p>
+                <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，林光明大德提供新式標點</p>
         </projectDesc>
 <charDecl>
 <char xml:id="CB00995">
@@ -744,11 +745,11 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>未</corr><sic>末</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>南無</corr><sic>無南</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>未</corr><sic>末</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>南無</corr><sic>無南</sic></choice>
 <app from="#beg0107001" to="#end0107001"><lem wit="#wit1" resp="#resp4">土<note type="cf1">T20n1064_p0115c25</note></lem><rdg wit="#wit2">上</rdg><rdg resp="#resp1" wit="#wit2" type="correctionRemark">土</rdg></app>
 <choice cb:resp="#resp5" cb:from="#beg_3" cb:to="#end_3"><corr>者</corr><sic>切</sic></choice>
-<choice cb:from="#beg_4" cb:to="#end_4"><corr>十</corr><sic>　</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>十</corr><sic>　</sic></choice>
 <app from="#beg_5" to="#end_5"><lem resp="#resp4" wit="#wit1 #wit3">馱<note type="cf1">T20n1064_p0117a08</note><note type="cf2">Q11_p0456a14</note></lem><rdg wit="#wit2">默</rdg></app>
 <choice cb:resp="#resp5" cb:from="#beg_6" cb:to="#end_6"><corr>有</corr><sic>是</sic></choice>
 <choice cb:resp="#resp4" cb:from="#beg_7" cb:to="#end_7"><corr>典</corr><sic>與</sic></choice>
@@ -759,7 +760,7 @@ Added comment  for Emacs
 <choice cb:resp="#resp4" cb:from="#beg_c" cb:to="#end_c"><corr>害</corr><sic>書</sic></choice>
 <choice cb:resp="#resp4" cb:from="#beg_d" cb:to="#end_d"><corr>兔</corr><sic>免</sic></choice>
 <choice cb:resp="#resp4" cb:from="#beg_e" cb:to="#end_e"><corr>兩</corr><sic>雨</sic></choice>
-<choice cb:from="#beg_f" cb:to="#end_f"><corr>杞</corr><sic><g ref="#CB01096">𣏌</g></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_f" cb:to="#end_f"><corr>杞</corr><sic><g ref="#CB01096">𣏌</g></sic></choice>
 <choice cb:resp="#resp5" cb:from="#beg_10" cb:to="#end_10"><corr>青</corr><sic>清</sic></choice>
 <choice cb:resp="#resp4" cb:from="#beg_11" cb:to="#end_11"><corr>處<note type="cf1">T20n1064_p0119a25</note><note type="cf2">X74n1499_p1032c03</note></corr><sic>眾</sic></choice>
 <choice cb:resp="#resp5" cb:from="#beg_12" cb:to="#end_12"><corr>縈</corr><sic>榮</sic></choice>
@@ -768,7 +769,7 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0107001" resp="#resp3" type="mod" target="#nkr_note_mod_0107001">上＝土？，＝土【CB】</note>
+<note n="0107001" resp="#resp2" type="mod" target="#nkr_note_mod_0107001">上＝土？，＝土【CB】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

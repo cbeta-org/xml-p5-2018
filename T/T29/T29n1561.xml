@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1561 俱舍論實義疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1561 俱舍論實義疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1561 俱舍論實義疏</title>
 			<author>尊者安惠造</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:06:26 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>5卷</extent>
 	<publicationStmt>
@@ -28,7 +30,7 @@
 		<date>$Date: 2009/04/23 08:06:26 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 29, No. 1561</bibl>
+		<bibl>Taishō Tripiṭaka Vol. 29, No. 1561</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 	</listWit>
@@ -37,7 +39,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by SAT, Japan, Text as provided by Anonymous from USA, CBETA OCR Group, Punctuated text as provided by Mr. Li Ming-Fang</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，日本 SAT 組織提供，北美某大德提供，CBETA 自行掃瞄辨識，李明芳大德提供新式標點</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，日本 SAT 組織提供，北美某大德提供，CBETA 自行掃瞄辨識，李明芳大德提供新式標點</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB02228">
@@ -447,10 +449,10 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0325005" to="#end0325005"><lem resp="#resp1" wit="#wit1">□</lem><rdg resp="#resp1" type="correctionRemark" wit="#wit1">起</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>卷第</corr><sic>第卷</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>卷第</corr><sic>第卷</sic></choice>
 <app from="#beg0326001" to="#end0326001"><lem resp="#resp1" wit="#wit1">五</lem><rdg resp="#resp1" type="correctionRemark" wit="#wit1">說五</rdg></app>
 <app from="#beg0327001" to="#end0327001"><lem resp="#resp1" wit="#wit1">上</lem><rdg resp="#resp1" type="correctionRemark" wit="#wit1">上故</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>不能</corr><sic>能不</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>不能</corr><sic>能不</sic></choice>
 <app from="#beg0327002" to="#end0327002"><lem resp="#resp1" wit="#wit1"><g ref="#CB02231">󰢷</g></lem><rdg resp="#resp1" type="correctionRemark" wit="#wit1">緣</rdg></app>
 <app from="#beg0328001" to="#end0328001"><lem resp="#resp1" wit="#wit1">日</lem><rdg resp="#resp1" type="correctionRemark" wit="#wit1">々</rdg></app>
 </p>

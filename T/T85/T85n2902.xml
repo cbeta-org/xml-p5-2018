@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2902 法句經疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2902 法句經疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2902 法句經疏</title>
 			<author></author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,8 +14,9 @@
 	<editionStmt>
 		<edition>$Revision: 1.12 $<date>$Date: 2009/04/23 08:15:21 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,7 +32,7 @@
 		<date>$Date: 2009/04/23 08:15:21 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 85, No. 2902 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 85, No. 2902</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 	</listWit>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 </encodingDesc>
 <profileDesc>
@@ -980,11 +982,11 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>未</corr><sic>末</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>未</corr><sic>末</sic></choice>
 <app from="#beg1439001" to="#end1439001"><lem resp="#resp1" wit="#wit1">嚮</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">響</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>杖</corr><sic>　</sic></choice>
-<choice cb:resp="#resp2 resp3" cb:from="#beg_3" cb:to="#end_3"><corr>掉</corr><sic>悼</sic></choice>
-<choice cb:from="#beg_4" cb:to="#end_4"><corr>殊</corr><sic>珠</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>杖</corr><sic>　</sic></choice>
+<choice cb:resp="#resp3 resp4" cb:from="#beg_3" cb:to="#end_3"><corr>掉</corr><sic>悼</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>殊</corr><sic>珠</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

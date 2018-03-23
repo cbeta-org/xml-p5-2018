@@ -3,7 +3,8 @@
 <teiHeader>
         <fileDesc>
                 <titleStmt>
-                        <title>Taisho Tripitaka, Electronic version, No. 1321 佛說施餓鬼甘露味大陀羅尼經</title>
+                        <title>Taishō Tripiṭaka, Electronic version, No. 1321 佛說施餓鬼甘露味大陀羅尼經</title>
+                        <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1321 佛說施餓鬼甘露味大陀羅尼經</title>
                         <author>唐 跋馱木阿譯</author>
                         <respStmt>
                                 <resp>Electronic Version by</resp>
@@ -15,6 +16,7 @@
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -30,13 +32,13 @@
                 <date>$Date: 2012/08/27 03:15:14 $</date>
         </publicationStmt>
         <sourceDesc>
-                <bibl>Taisho Tripitaka Vol. 21, No. 1321 </bibl>
+                <bibl>Taishō Tripiṭaka Vol. 21, No. 1321</bibl>
         </sourceDesc>
 </fileDesc>
 <encodingDesc>
         <projectDesc>
                 <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, Punctuated text as provided by Xian</p>
-                <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供，Xian 提供新式標點</p>
+                <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，Xian 提供新式標點</p>
         </projectDesc>
 <charDecl>
 <char xml:id="CB03953">
@@ -619,9 +621,9 @@ Added comment  for Emacs
 <choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>頃<note type="cf1">T15n0643_p0673b20</note></corr><sic>項</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>頃<note type="cf1">T15n0643_p0673b20</note></corr><sic>項</sic></choice>
 <choice cb:resp="#resp2 resp3" cb:from="#beg_6" cb:to="#end_6"><corr>茹<note type="cf1">T01n0026_p0441c29</note></corr><sic>茄</sic></choice>
-<choice cb:from="#beg_7" cb:to="#end_7"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_7" cb:to="#end_7"><corr>辦</corr><sic>辨</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>人民<note type="cf1">T02n0099_p0194b02</note></corr><sic>民人</sic></choice>
-<choice cb:from="#beg_9" cb:to="#end_9"><corr>辯</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_9" cb:to="#end_9"><corr>辯</corr><sic>辨</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

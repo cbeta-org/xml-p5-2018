@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1310 北斗七星護摩法</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1310 北斗七星護摩法</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1310 北斗七星護摩法</title>
 			<author>唐 一行撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:01:46 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -28,7 +30,7 @@
 		<date>$Date: 2009/04/23 08:01:46 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 21, No. 1310 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 21, No. 1310</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
@@ -38,7 +40,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00566">
@@ -301,7 +303,7 @@ Added comment  for Emacs
 <lb n="0458b06" ed="T"/>合</note>多地伽囉<note place="inline">三</note>尾達麼左鉢囉<note place="inline">二合</note>捨麼操企
 <lb n="0458b07" ed="T"/>也<note place="inline">二合引四</note>儞銘<note place="inline">二合</note>多部多銘多鉢羅<note place="inline">二合</note>迦捨夜
 <lb n="0458b08" ed="T"/><note place="inline">五</note>怛儞賀室囉<note place="inline">二合</note>麼拏也馱<note place="inline">引</note><g ref="#CB00805">𤚥</g><note place="inline">引</note></p>
-<lb n="0458b09" ed="T"/><p xml:id="pT21p0458b0901">觀爐中有七<cb:tt rend="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A642">􄙂</g></cb:t><cb:t xml:lang="zh">嚕</cb:t></cb:tt>字變成北斗七星所謂本命
+<lb n="0458b09" ed="T"/><p xml:id="pT21p0458b0901">觀爐中有七<cb:tt rend="inline"><cb:t xml:lang="sa-Sidd"><g ref="#SD-A642">􄙂</g></cb:t><cb:t xml:lang="zh-Hant">嚕</cb:t></cb:tt>字變成北斗七星所謂本命
 <lb n="0458b10" ed="T"/>星置中心六星為伴即<g ref="#CB00566">䠒</g>跪合掌向爐啟<anchor xml:id="nkr_note_orig_0458006" n="0458006"/><anchor xml:id="beg0458006" n="0458006"/>曰<anchor xml:id="end0458006"/>。</p>
 <lb n="0458b11" ed="T"/><lg xml:id="lgT21p0458b1101"><l>至心奉啟</l><l>北極七星</l><l>貪狼巨門</l>
 <lb n="0458b12" ed="T"/><l>祿存文曲</l><l>廉貞武曲</l><l>破軍尊星</l>
@@ -404,7 +406,7 @@ Added comment  for Emacs
 <app from="#beg0458010" to="#end0458010"><lem wit="#wit1">北斗法</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0458011" to="#end0458011"><lem resp="#resp1" wit="#wit1">陵逼諸座不能</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">不能陵逼諸座</rdg></app>
 <app from="#beg0458012" to="#end0458012"><lem wit="#wit1">并</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">麁</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>辦</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>辦</corr><sic>辨</sic></choice>
 <app from="#beg0459001" to="#end0459001"><lem wit="#wit1">死</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">屍</rdg></app>
 <app from="#beg0459002" to="#end0459002"><lem wit="#wit1">即</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">天災即</rdg></app>
 <app from="#beg0459003" to="#end0459003"><lem wit="#wit1">壇</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">檀</rdg></app>

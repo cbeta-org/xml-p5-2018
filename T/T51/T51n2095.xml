@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2095 廬山記</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2095 廬山記</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2095 廬山記</title>
 			<author>宋 陳舜俞撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
 		<edition>$Revision: 1.19 $<date>$Date: 2010/05/07 02:23:08 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>5卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2010/05/07 02:23:08 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 51, No. 2095 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 51, No. 2095</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00155">
@@ -3009,9 +3011,9 @@ Added comment  for Emacs
 <choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>巳</corr><sic>已</sic></choice>
 <app from="#beg1034001" to="#end1034001"><lem wit="#wit1">洺</lem><rdg resp="#resp1" wit="#wit2">洛</rdg></app>
 <app from="#beg1035001" to="#end1035001"><lem resp="#resp1" wit="#wit1">稠</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">由稠</rdg></app>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>羨</corr><sic>羡</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>羨</corr><sic>羡</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>駛<note type="cf1">T04n0196_p0160c06</note></corr><sic>駚</sic></choice>
-<choice cb:from="#beg_5" cb:to="#end_5"><corr>羨</corr><sic>羡</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5" cb:to="#end_5"><corr>羨</corr><sic>羡</sic></choice>
 <app from="#beg1044001" to="#end1044001"><lem wit="#wit1">暮</lem><rdg resp="#resp1" wit="#wit2">慕</rdg></app>
 <app from="#beg1044002" to="#end1044002"><lem wit="#wit1">文</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg1044003" to="#end1044003"><lem wit="#wit1">巷北單</lem><rdg resp="#resp1" wit="#wit2">陋巷簞</rdg></app>

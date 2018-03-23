@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2741 金剛般若經疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2741 金剛般若經疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2741 金剛般若經疏</title>
 			<author></author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:15:15 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:15:15 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 85, No. 2741 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 85, No. 2741</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 	</listWit>
@@ -38,7 +40,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 </encodingDesc>
 <profileDesc>
@@ -904,7 +906,7 @@ Added comment  for Emacs
 <lb n="0149c07" ed="T"/>實義。次□敘異解。後問答分別。明實義者。
 <lb n="0149c08" ed="T"/>佛說眾經前後多時。今者正指說此部時。於
 <lb n="0149c09" ed="T"/>一時中在某處說如是。涅槃經云。我於一時
-<lb n="0149c10" ed="T"/>在迦尸國。我於一時在洹河尸首林等。功德
+<lb n="0149c10" ed="T"/>在迦尸國。我於一時在<anchor xml:id="beg_3" type="cb-app"/>恒<anchor xml:id="end_3"/>河尸首林等。功德
 <lb n="0149c11" ed="T"/>論云。一時者說此經時。餘時復說無量經故。
 <lb n="0149c12" ed="T"/>金剛佛論意同此說。問。字名句等說聽多時
 <lb n="0149c13" ed="T"/>如何言一。答。佛地論云。此就剎那相續無
@@ -1348,6 +1350,7 @@ Added comment  for Emacs
 <app from="#beg0148005" to="#end0148005"><lem resp="#resp1" wit="#wit1">世<lb n="0148c20" ed="T"/>三</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">三世</rdg></app>
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>億<note type="cf1">T09n0262_p0030a10</note><note type="cf2">T85n2733_p0022a10</note></corr><sic>憶</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>常<note type="cf1">T85n2741_p0149c03</note></corr><sic>當</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>恒<note type="cf1">T12n0374_p0442b09</note></corr><sic>洹</sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

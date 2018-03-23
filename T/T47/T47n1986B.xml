@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1986B 瑞州洞山良价禪師語錄</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1986B 瑞州洞山良价禪師語錄</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1986B 瑞州洞山良价禪師語錄</title>
 			<author>明 語風圓信．郭凝之編</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
 		<edition>$Revision: 1.14 $<date>$Date: 2009/04/23 08:12:36 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:12:36 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 47, No. 1986B </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 47, No. 1986B</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
@@ -39,7 +41,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Electronic Buddhadharma Society (EBS), Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，佛教電腦資訊庫功德會提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，佛教電腦資訊庫功德會提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00403">
@@ -832,7 +834,7 @@ Added comment  for Emacs
 <p>
 <choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>會<note type="cf1">T47n1986Ap0507c12</note></corr><sic>曾</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>钁</corr><sic><g ref="#CB01089">𮣰</g></sic></choice>
-<choice cb:from="#beg_3" cb:to="#end_3"><corr>甚</corr><sic>其</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>甚</corr><sic>其</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>泐<note type="cf1">X66n1296_p0143a01</note><note type="cf2">X66n1297_p0637a04</note></corr><sic><g ref="#CB05271">𭰤</g></sic></choice>
 <app from="#beg0525001" to="#end0525001"><lem resp="#resp1" wit="#wit1">恁</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">不恁</rdg></app>
 </p>

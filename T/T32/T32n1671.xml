@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1671 福蓋正行所集經</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1671 福蓋正行所集經</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1671 福蓋正行所集經</title>
 			<author>龍樹菩薩集  宋 日稱等譯</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.16 $<date>$Date: 2009/04/23 08:08:32 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>Taisho</name></respStmt>
 	</editionStmt>
 	<extent>12卷</extent>
 	<publicationStmt>
@@ -29,7 +31,7 @@
 		<date>$Date: 2009/04/23 08:08:32 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 32, No. 1671 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 32, No. 1671</bibl>
 	<listWit>
 		<witness xml:id="wit1">【CBETA】</witness>
 		<witness xml:id="wit2">【麗】</witness>
@@ -40,7 +42,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by SAT, Japan, Text as provided by Anonymous from USA, Punctuated text as provided by Mr. Li Ming-Fang</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，日本 SAT 組織提供，北美某大德提供，李明芳大德提供新式標點</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，日本 SAT 組織提供，北美某大德提供，李明芳大德提供新式標點</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00044">
@@ -2797,15 +2799,15 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg_1" to="#end_1"><lem resp="#resp1" wit="#wit1 #wit2">掉<note type="cf1">K41n1495_p0665c20</note></lem><rdg wit="#wit3">棹</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>沫</corr><sic>沬</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>沫</corr><sic>沬</sic></choice>
 <app from="#beg_3" to="#end_3"><lem resp="#resp1" wit="#wit1 #wit2">謂<note type="cf1">K41n1495_p0666c06</note></lem><rdg wit="#wit3">語</rdg></app>
 <app from="#beg_4" to="#end_4"><lem resp="#resp1" wit="#wit1 #wit2">加<note type="cf1">K41n1495_p0667a13</note></lem><rdg wit="#wit3">伽</rdg></app>
 <choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
 <app from="#beg_6" to="#end_6"><lem resp="#resp1" wit="#wit1 #wit2">大<note type="cf1">K41n1495_p0671a03</note></lem><rdg wit="#wit3">天</rdg></app>
-<choice cb:from="#beg_7" cb:to="#end_7"><corr>如</corr><sic>加</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>如</corr><sic>加</sic></choice>
 <app from="#beg_8" to="#end_8"><lem resp="#resp1" wit="#wit1 #wit2">令<note type="cf1">K41n1495_p0673a11</note></lem><rdg wit="#wit3">今</rdg></app>
 <app from="#beg_9" to="#end_9"><lem resp="#resp1" wit="#wit1 #wit2">者<note type="cf1">K41n1495_p0682b15</note></lem><rdg wit="#wit3">著</rdg></app>
-<choice cb:from="#beg_a" cb:to="#end_a"><corr>食</corr><sic>貪</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr>食</corr><sic>貪</sic></choice>
 <app from="#beg_b" to="#end_b"><lem resp="#resp1" wit="#wit1 #wit2">靜<note type="cf1">K41n1495_p0683c22</note></lem><rdg wit="#wit3">諍</rdg></app>
 <app from="#beg_c" to="#end_c"><lem resp="#resp1" wit="#wit1 #wit2">樂<note type="cf1">K41n1495_p0684a24</note></lem><rdg wit="#wit3">棄</rdg></app>
 <app from="#beg_d" to="#end_d"><lem resp="#resp1" wit="#wit1 #wit2">雖<note type="cf1">K41n1495_p0700a21</note></lem><rdg wit="#wit3">難</rdg></app>
@@ -2814,9 +2816,9 @@ Added comment  for Emacs
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
-<note resp="#resp2" n="0737001" place="foot text" type="orig" target="#nkr_note_orig_0737001">忍澂師校刻本曰髻疑結</note>
-<note resp="#resp2" n="0743001" place="foot text" type="orig" target="#nkr_note_orig_0743001">忍澂師校刻本曰住疑往</note>
-<note resp="#resp2" n="0744001" place="foot text" type="orig" target="#nkr_note_orig_0744001">忍澂師校刻本曰馬鳴疑剩</note>
+<note resp="#resp3" n="0737001" place="foot text" type="orig" target="#nkr_note_orig_0737001">忍澂師校刻本曰髻疑結</note>
+<note resp="#resp3" n="0743001" place="foot text" type="orig" target="#nkr_note_orig_0743001">忍澂師校刻本曰住疑往</note>
+<note resp="#resp3" n="0744001" place="foot text" type="orig" target="#nkr_note_orig_0744001">忍澂師校刻本曰馬鳴疑剩</note>
 </p>
 </cb:div>
 </back></text></TEI>

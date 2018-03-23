@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 2078 傳法正宗記</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 2078 傳法正宗記</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 2078 傳法正宗記</title>
 			<author>宋 契嵩編</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.23 $<date>$Date: 2009/10/27 09:00:27 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.march</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.march</name></respStmt>
 		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
 		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
@@ -32,7 +33,7 @@
 		<date>$Date: 2009/10/27 09:00:27 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 51, No. 2078 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 51, No. 2078</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【宮】</witness>
@@ -42,7 +43,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00081">
@@ -5287,11 +5288,11 @@ Added comment  for Emacs
 <app from="#beg0715001" to="#end0715001"><lem wit="#wit1">傳法正宗記</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0715002" to="#end0715002"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit2">先為</rdg></app>
 <app from="#beg0715003" to="#end0715003"><lem wit="#wit1">顱</lem><rdg resp="#resp1" wit="#wit2">臚</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>僭</corr><sic>僣</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>僭</corr><sic>僣</sic></choice>
 <app from="#beg0715004" to="#end0715004"><lem wit="#wit1">偕</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0715005" to="#end0715005"><lem wit="#wit1">皆</lem><rdg resp="#resp1" wit="#wit2">偕</rdg></app>
 <app from="#beg0715006" to="#end0715006"><lem wit="#wit1">瀆</lem><rdg resp="#resp1" wit="#wit2">黷</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>玘</corr><sic><g ref="#CB00215">󰃗</g></sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>玘</corr><sic><g ref="#CB00215">󰃗</g></sic></choice>
 <app from="#beg0716001" to="#end0716001"><lem wit="#wit1">慧</lem><rdg resp="#resp1" wit="#wit2">惠</rdg></app>
 <app from="#beg0716002" to="#end0716002"><lem wit="#wit1">教</lem><rdg resp="#resp1" wit="#wit2">正言比率同志刊正宗記輔教編佛燈禪師欣然作跋預示副本工未意而師歸寂今書其後成師志隆興甲申六月中澣太平禪寺住持嗣祖比丘正言謹題教</rdg></app>
 <app from="#beg0716003" to="#end0716003"><lem wit="#wit1">正</lem><rdg resp="#resp1" wit="#wit2">正西禪長慶禪寺住持嗣祖比丘惠舜勤緣開元禪寺住持嗣祖解空大師慧明都勸緣</rdg></app>
@@ -5343,7 +5344,7 @@ Added comment  for Emacs
 <app from="#beg0725003" to="#end0725003"><lem wit="#wit1">未</lem><rdg resp="#resp1" wit="#wit2">末</rdg></app>
 <app from="#beg0725004" to="#end0725004"><lem wit="#wit1"><note place="inline">終</note></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0725005" to="#end0725005"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木<note place="inline">本字避御名下倣之</note></rdg></app>
-<choice cb:from="#beg_9" cb:to="#end_9"><corr>馬</corr><sic>鳥</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>馬</corr><sic>鳥</sic></choice>
 <app from="#beg0726001" to="#end0726001"><lem wit="#wit1">摩羅</lem><rdg resp="#resp1" wit="#wit2">羅摩</rdg></app>
 <app from="#beg_a" to="#end_a" corresp="#0725005"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木</rdg></app>
 <app from="#beg_b" to="#end_b" corresp="#0725005"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木</rdg></app>
@@ -5353,7 +5354,7 @@ Added comment  for Emacs
 <app from="#beg_f" to="#end_f" corresp="#0725005"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木</rdg></app>
 <app from="#beg_10" to="#end_10" corresp="#0725005"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木</rdg></app>
 <app from="#beg_11" to="#end_11" corresp="#0725005"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木</rdg></app>
-<choice cb:from="#beg_12" cb:to="#end_12"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_12" cb:to="#end_12"><corr>斂</corr><sic>歛</sic></choice>
 <app from="#beg_13" to="#end_13" corresp="#0725005"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木</rdg></app>
 <app from="#beg_14" to="#end_14" corresp="#0725005"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木</rdg></app>
 <app from="#beg_15" to="#end_15" corresp="#0725005"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木</rdg></app>
@@ -5368,12 +5369,12 @@ Added comment  for Emacs
 <app from="#beg0728001" to="#end0728001"><lem wit="#wit1">沂</lem><rdg resp="#resp1" wit="#wit2">泝</rdg></app>
 <app from="#beg0728002" to="#end0728002"><lem wit="#wit1">讓</lem><rdg resp="#resp1" wit="#wit2">遜<note place="inline">本字避國諱他倣之</note></rdg></app>
 <app from="#beg0728003" to="#end0728003"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">林<note place="inline">本字避御名</note></rdg></app>
-<choice cb:from="#beg_1d" cb:to="#end_1d"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1d" cb:to="#end_1d"><corr>斂</corr><sic>歛</sic></choice>
 <app from="#beg0730001" to="#end0730001"><lem wit="#wit1">納</lem><rdg resp="#resp1" wit="#wit2">內</rdg></app>
 <app from="#beg0730002" to="#end0730002"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit2">辨</rdg></app>
 <app from="#beg0730003" to="#end0730003"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit2">有</rdg></app>
 <app from="#beg0730004" to="#end0730004"><lem wit="#wit1">難</lem><rdg resp="#resp1" wit="#wit2">漢</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1e" cb:to="#end_1e"><corr>汩</corr><sic>汨</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_1e" cb:to="#end_1e"><corr>汩</corr><sic>汨</sic></choice>
 <app from="#beg0730005" to="#end0730005"><lem wit="#wit1">惡</lem><rdg resp="#resp1" wit="#wit2">善</rdg></app>
 <app from="#beg0730006" to="#end0730006"><lem wit="#wit1">善</lem><rdg resp="#resp1" wit="#wit2">惡</rdg></app>
 <app from="#beg0731001" to="#end0731001"><lem wit="#wit1">從</lem><rdg resp="#resp1" wit="#wit2">縱</rdg></app>
@@ -5386,7 +5387,7 @@ Added comment  for Emacs
 <app from="#beg_20" to="#end_20" corresp="#0732001"><lem wit="#wit1">讓</lem><rdg resp="#resp1" wit="#wit2">遜</rdg></app>
 <app from="#beg_21" to="#end_21" corresp="#0732001"><lem wit="#wit1">讓</lem><rdg resp="#resp1" wit="#wit2">遜</rdg></app>
 <app from="#beg0732002" to="#end0732002"><lem wit="#wit1">姓</lem><rdg resp="#resp1" wit="#wit2">性</rdg></app>
-<choice cb:from="#beg_22" cb:to="#end_22"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_22" cb:to="#end_22"><corr>斂</corr><sic>歛</sic></choice>
 <app from="#beg0732003" to="#end0732003"><lem wit="#wit1">飼</lem><rdg resp="#resp1" wit="#wit2">伺</rdg></app>
 <app from="#beg0733001" to="#end0733001"><lem wit="#wit1">乃</lem><rdg resp="#resp1" wit="#wit2">迺</rdg></app>
 <app from="#beg0733002" to="#end0733002"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木<note place="inline">本字避御名下倣之</note></rdg></app>
@@ -5425,7 +5426,7 @@ Added comment  for Emacs
 <app from="#beg0743001" to="#end0743001"><lem wit="#wit1">秖</lem><rdg resp="#resp1" wit="#wit2">祗</rdg></app>
 <app from="#beg0743002" to="#end0743002"><lem wit="#wit1">振</lem><rdg resp="#resp1" wit="#wit2">震</rdg></app>
 <app cb:word-count="407" from="#beg0744001" to="#end0744001"><lem wit="#wit1">契嵩少聞耆宿云。嘗見古祖圖引梁寶唱<lb n="0744b02" ed="T"/>續法記所載。達磨至梁。當普通元年九月<lb n="0744b03" ed="T"/>也。而寶林傳云。在普通八年丁未。即其年<lb n="0744b04" ed="T"/>過魏。當明帝太和十年。然太和非明帝年<lb n="0744b05" ed="T"/>號。又曰。達磨滅度亦在明帝太和十九年。<lb n="0744b06" ed="T"/>而明帝在位秖十二歲。即無十九年。又以<lb n="0744b07" ed="T"/>丁未推之。即是明帝末年神獸之歲。其歲<lb n="0744b08" ed="T"/>明帝已崩。若果以普通八年丁未十二月<lb n="0744b09" ed="T"/>過魏。即達磨在魏九年默坐少林。其歲數<lb n="0744b10" ed="T"/>不登。若以普通元年庚子推之。即其事稍<lb n="0744b11" ed="T"/>等。今取元年庚子為準。其諸家所見八年<lb n="0744b12" ed="T"/>丁未。亦不敢即削。且兩存之。識者詳焉。又<lb n="0744b13" ed="T"/>以譯禪經之年算。達磨此時正年二十七<lb n="0744b14" ed="T"/>歲。其說禪經。必在此二十七已前也。從此<lb n="0744b15" ed="T"/>算來以合諸傳記。所謂達磨既出家得法<lb n="0744b16" ed="T"/>後。尚隨侍其師四十餘年。又依師所囑。且<lb n="0744b17" ed="T"/>在南天竺行化。更六十七年。又東來在路<lb n="0744b18" ed="T"/>二年。及到中國九年方化去。恰是其壽一<lb n="0744b19" ed="T"/>百五十歲。如此則諸家所載達磨。支竺兩<lb n="0744b20" ed="T"/>處事跡稍不差也。若以普通八年丁未至<lb n="0744b21" ed="T"/>中國。及寶林所載達磨四十年不受國位<lb n="0744b22" ed="T"/>以待般若多羅而出家。却計其在西隨師<lb n="0744b23" ed="T"/>四十餘年。及到中國已一百五十歲矣。其<lb n="0744b24" ed="T"/>在魏九年始化。却成一百六十餘歲。故知<lb n="0744b25" ed="T"/>其云四十不受國位及普通八年到梁。大<lb n="0744b26" ed="T"/>差訛也。不可為準</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_30" cb:to="#end_30"><corr>入</corr><sic>人</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_30" cb:to="#end_30"><corr>入</corr><sic>人</sic></choice>
 <app from="#beg0745001" to="#end0745001"><lem wit="#wit1">予</lem><rdg resp="#resp1" wit="#wit2">子</rdg></app>
 <app from="#beg0745002" to="#end0745002"><lem wit="#wit1">皖</lem><rdg resp="#resp1" wit="#wit2"><g ref="#CB13973">󳚕</g></rdg></app>
 <app from="#beg0745003" to="#end0745003"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木<note place="inline">本字避御名下倣此</note></rdg></app>
@@ -5478,14 +5479,14 @@ Added comment  for Emacs
 <app from="#beg_42" to="#end_42" corresp="#0749005"><lem wit="#wit1">刺</lem><rdg resp="#resp1" wit="#wit2">剌</rdg></app>
 <app from="#beg0754001" to="#end0754001"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit2">一</rdg></app>
 <app from="#beg_43" to="#end_43" corresp="#0749006"><lem wit="#wit1">揚</lem><rdg resp="#resp1" wit="#wit2">楊</rdg></app>
-<choice cb:from="#beg_44" cb:to="#end_44"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_44" cb:to="#end_44"><corr>陝</corr><sic>陜</sic></choice>
 <app from="#beg0754002" to="#end0754002"><lem wit="#wit1">虔</lem><rdg resp="#resp1" wit="#wit2">慶</rdg></app>
-<choice cb:from="#beg_45" cb:to="#end_45"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_45" cb:to="#end_45"><corr>陝</corr><sic>陜</sic></choice>
 <app from="#beg0756001" to="#end0756001"><lem wit="#wit1">剎</lem><rdg resp="#resp1" wit="#wit2">利</rdg></app>
 <app from="#beg0756002" to="#end0756002"><lem wit="#wit1">體</lem><rdg resp="#resp1" wit="#wit2">休</rdg></app>
 <app from="#beg0756003" to="#end0756003"><lem wit="#wit1"><note place="inline">亡其世數</note></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg_46" to="#end_46" corresp="#0749006"><lem wit="#wit1">揚</lem><rdg resp="#resp1" wit="#wit2">楊</rdg></app>
-<choice cb:from="#beg_47" cb:to="#end_47"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_47" cb:to="#end_47"><corr>陝</corr><sic>陜</sic></choice>
 <app from="#beg0757001" to="#end0757001"><lem wit="#wit1"><note place="inline">或作果</note></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0757002" to="#end0757002"><lem wit="#wit1">八</lem><rdg resp="#resp1" wit="#wit2">七</rdg></app>
 <app from="#beg0757003" to="#end0757003"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木<note place="inline">本字避御名</note></rdg></app>
@@ -5518,10 +5519,10 @@ Added comment  for Emacs
 <app from="#beg0765011" to="#end0765011"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit2">四</rdg></app>
 <app cb:word-count="14" from="#beg0765012" to="#end0765012"><lem wit="#wit1">一曰<lb n="0765b27" ed="T"/>枝江道俊者。一曰常州玄賾者</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0765013" to="#end0765013"><lem wit="#wit1">樹</lem><rdg resp="#resp1" wit="#wit2">木<note place="inline">避字</note></rdg></app>
-<choice cb:from="#beg_4b" cb:to="#end_4b"><corr>陝</corr><sic>陜</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4b" cb:to="#end_4b"><corr>陝</corr><sic>陜</sic></choice>
 <choice cb:resp="#resp5" cb:from="#beg_4c" cb:to="#end_4c"><corr>亳</corr><sic>毫</sic></choice>
 <app from="#beg0766001" to="#end0766001"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit2">士</rdg></app>
-<choice cb:from="#beg_4d" cb:to="#end_4d"><corr>斂</corr><sic>歛</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_4d" cb:to="#end_4d"><corr>斂</corr><sic>歛</sic></choice>
 <app from="#beg0767001" to="#end0767001"><lem wit="#wit1">賢</lem><rdg resp="#resp1" wit="#wit2">賢<note place="inline">避諱</note></rdg></app>
 <app from="#beg0767002" to="#end0767002"><lem wit="#wit1">孝</lem><rdg resp="#resp1" wit="#wit2">考</rdg></app>
 <app from="#beg0768001" to="#end0768001"><lem wit="#wit1">縣</lem><rdg resp="#resp1" wit="#wit2">縣<note place="inline">避諱</note></rdg></app>
@@ -5533,10 +5534,10 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0716006" resp="#resp3" type="mod" target="#nkr_note_mod_0716006">〔宋〕－【宮】<choice cb:resp="#resp4"><corr>＊</corr><sic><space quantity="0"/></sic></choice></note>
-<note n="0717003" resp="#resp3" type="mod" target="#nkr_note_mod_0717003">讓＝遜(正字避國諱他倣之)【宮】</note>
-<note n="0754002" resp="#resp3" type="mod" target="#nkr_note_mod_0754002"><choice cb:resp="#resp5"><corr>虔</corr><sic><g ref="#CB05418">䖍</g></sic></choice>＝慶【宮】</note>
-<note n="0757005" resp="#resp3" type="mod" target="#nkr_note_mod_0757005"><choice cb:resp="#resp5"><corr>穎</corr><sic>頴</sic></choice>＋（州）【宮】</note>
+<note n="0716006" resp="#resp2" type="mod" target="#nkr_note_mod_0716006">〔宋〕－【宮】<choice cb:resp="#resp4"><corr>＊</corr><sic><space quantity="0"/></sic></choice></note>
+<note n="0717003" resp="#resp2" type="mod" target="#nkr_note_mod_0717003">讓＝遜(正字避國諱他倣之)【宮】</note>
+<note n="0754002" resp="#resp2" type="mod" target="#nkr_note_mod_0754002"><choice cb:resp="#resp5"><corr>虔</corr><sic><g ref="#CB05418">䖍</g></sic></choice>＝慶【宮】</note>
+<note n="0757005" resp="#resp2" type="mod" target="#nkr_note_mod_0757005"><choice cb:resp="#resp5"><corr>穎</corr><sic>頴</sic></choice>＋（州）【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

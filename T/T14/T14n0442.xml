@@ -3,7 +3,8 @@
 <teiHeader>
         <fileDesc>
                 <titleStmt>
-                        <title>Taisho Tripitaka, Electronic version, No. 0442 十方千五百佛名經</title>
+                        <title>Taishō Tripiṭaka, Electronic version, No. 442 十方千五百佛名經</title>
+                        <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 442 十方千五百佛名經</title>
                         <author>失譯</author>
                         <respStmt>
                                 <resp>Electronic Version by</resp>
@@ -14,6 +15,7 @@
                 <edition>$Revision: 1.15 $<date>$Date: 2012/08/27 03:14:47 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -29,13 +31,13 @@
                 <date>$Date: 2012/08/27 03:14:47 $</date>
         </publicationStmt>
         <sourceDesc>
-                <bibl>Taisho Tripitaka Vol. 14, No. 442 </bibl>
+                <bibl>Taishō Tripiṭaka Vol. 14, No. 442</bibl>
         </sourceDesc>
 </fileDesc>
 <encodingDesc>
         <projectDesc>
                 <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA, CBETA OCR Group, Punctuated text as provided by Jasmine</p>
-                <p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 自行掃瞄辨識，Jasmine 提供新式標點</p>
+                <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供，CBETA 自行掃瞄辨識，Jasmine 提供新式標點</p>
         </projectDesc>
 <charDecl>
 <char xml:id="CB00209">
@@ -748,11 +750,11 @@ Added comment  for Emacs
 <choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>姓</corr><sic>性</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>姓</corr><sic>性</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>姓</corr><sic>性</sic></choice>
-<choice cb:from="#beg_6" cb:to="#end_6"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6" cb:to="#end_6"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>姓</corr><sic>性</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>姓</corr><sic>性</sic></choice>
 <choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:from="#beg_a" cb:to="#end_a"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_a" cb:to="#end_a"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

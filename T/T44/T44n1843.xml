@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1843 大乘起信論義疏</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1843 大乘起信論義疏</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1843 大乘起信論義疏</title>
 			<author>隋 慧遠撰</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -13,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.13 $<date>$Date: 2009/04/23 08:11:56 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -28,7 +30,7 @@
 		<date>$Date: 2009/04/23 08:11:56 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 44, No. 1843 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 44, No. 1843</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 	</listWit>
@@ -37,7 +39,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00832">
@@ -2603,7 +2605,7 @@ Added comment  for Emacs
 <p>
 <app from="#beg0175002" to="#end0175002"><lem resp="#resp1" wit="#wit1">題</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">顯</rdg></app>
 <app from="#beg0176001" to="#end0176001"><lem resp="#resp1" wit="#wit1">思</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">恩</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1"><corr>辯</corr><sic>辨</sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>辯</corr><sic>辨</sic></choice>
 <app from="#beg0177001" to="#end0177001"><lem resp="#resp1" wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">應說</rdg></app>
 <app from="#beg0180001" to="#end0180001"><lem resp="#resp1" wit="#wit1">神</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">錍</rdg></app>
 <app from="#beg0183001" to="#end0183001"><lem resp="#resp1" wit="#wit1">復</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">後</rdg></app>
@@ -2626,7 +2628,7 @@ Added comment  for Emacs
 <app from="#beg0197001" to="#end0197001"><lem resp="#resp1" wit="#wit1">別</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">分別</rdg></app>
 <app from="#beg0197002" to="#end0197002"><lem resp="#resp1" wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">亡</rdg></app>
 <app from="#beg0197003" to="#end0197003"><lem resp="#resp1" wit="#wit1">勳</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">熏</rdg></app>
-<choice cb:from="#beg_2" cb:to="#end_2"><corr>臈</corr><sic><g ref="#CB02607">𣎅</g></sic></choice>
+<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>臈</corr><sic><g ref="#CB02607">𣎅</g></sic></choice>
 <app from="#beg0197004" to="#end0197004"><lem resp="#resp1" wit="#wit1">治</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">冶</rdg></app>
 <app from="#beg0198001" to="#end0198001"><lem resp="#resp1" wit="#wit1">著</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">差</rdg></app>
 <app from="#beg0201001" to="#end0201001"><lem resp="#resp1" wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">復</rdg></app>

@@ -3,7 +3,8 @@
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
-			<title>Taisho Tripitaka, Electronic version, No. 1912 止觀輔行傳弘決</title>
+			<title>Taishō Tripiṭaka, Electronic version, No. 1912 止觀輔行傳弘決</title>
+			<title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 1912 止觀輔行傳弘決</title>
 			<author>唐 湛然述</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -32,7 +33,7 @@
 		<date>$Date: 2011/03/02 11:04:20 $</date>
 	</publicationStmt>
 	<sourceDesc>
-		<bibl>Taisho Tripitaka Vol. 46, No. 1912 </bibl>
+		<bibl>Taishō Tripiṭaka Vol. 46, No. 1912</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
@@ -43,7 +44,7 @@
 <encodingDesc>
 	<projectDesc>
 		<p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Text as provided by Anonymous from USA</p>
-		<p xml:lang="zh" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
+		<p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，北美某大德提供</p>
 	</projectDesc>
 <charDecl>
 <char xml:id="CB00014">
@@ -2488,7 +2489,7 @@ Added comment  for Emacs
 <lb n="0158c16" ed="T"/>覺。此則是<anchor xml:id="fxT46p0158c08"/>竪。起教一章遍施教網隨緣益
 <lb n="0158c17" ed="T"/>他此則名橫。經歷五味過現入當亦名為
 <lb n="0158c18" ed="T"/>竪。次料簡者。初問中言略指等者。若以此
-<lb n="0158c19" ed="T"/>文是大師料簡。不應將<anchor xml:id="beg_c" type="cb-app"/><anchor xml:id="end_c"/>啇略。以為略指。
+<lb n="0158c19" ed="T"/>文是大師料簡。不應將<anchor xml:id="beg_c" type="cb-app"/><space quantity="0"/><anchor xml:id="end_c"/>啇略。以為略指。
 <lb n="0158c20" ed="T"/>以此啇略屬章安序。以對大師章初大意
 <lb n="0158c21" ed="T"/>為料簡者。義甚不便。況啇略中文無不定。
 <lb n="0158c22" ed="T"/>故彼文云。略述佛經粗彰圓意。次引無量
@@ -28266,14 +28267,14 @@ Added comment  for Emacs
 <app from="#beg0147006" to="#end0147006"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit3 #wit2">已</rdg></app>
 <app from="#beg0148001" to="#end0148001"><lem wit="#wit1">隋</lem><rdg resp="#resp1" wit="#wit3">隨</rdg></app>
 <app from="#beg_4" to="#end_4" corresp="#0148001"><lem wit="#wit1">隋</lem><rdg resp="#resp1" wit="#wit3">隨</rdg></app>
-<choice cb:from="#beg_5" cb:to="#end_5"><corr>羨</corr><sic>羡</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5" cb:to="#end_5"><corr>羨</corr><sic>羡</sic></choice>
 <app from="#beg0148002" to="#end0148002"><lem wit="#wit1">論說</lem><rdg resp="#resp1" wit="#wit3">說論</rdg></app>
 <app from="#beg0148003" to="#end0148003"><lem wit="#wit1">爐</lem><rdg resp="#resp1" wit="#wit3">鑪</rdg></app>
 <app from="#beg0148004" to="#end0148004"><lem wit="#wit1">洒</lem><rdg resp="#resp1" wit="#wit3">灑</rdg></app>
 <app from="#beg0148005" to="#end0148005"><lem wit="#wit1">幔</lem><rdg resp="#resp1" wit="#wit2">慢</rdg></app>
 <app from="#beg0149001" to="#end0149001"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit2">辨</rdg></app>
 <app from="#beg0149002" to="#end0149002"><lem wit="#wit1">隋</lem><rdg resp="#resp1" wit="#wit3">隨</rdg></app>
-<choice cb:from="#beg_6" cb:to="#end_6"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_6" cb:to="#end_6"><corr>諡</corr><sic>謚</sic></choice>
 <app from="#beg0149003" to="#end0149003"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit2">爾</rdg></app>
 <app from="#beg0150003" to="#end0150003"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit3 #wit2">者<note place="inline">雉莖反</note></rdg></app>
 <app from="#beg0150004" to="#end0150004"><lem wit="#wit1">玻瓈</lem><rdg resp="#resp1" wit="#wit3">頗梨</rdg></app>
@@ -28315,7 +28316,7 @@ Added comment  for Emacs
 <app from="#beg0158004" to="#end0158004"><lem wit="#wit1">止</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0158005" to="#end0158005"><lem wit="#wit1">果</lem><rdg resp="#resp1" wit="#wit3 #wit2">界</rdg></app>
 <app from="#beg_b" to="#end_b" corresp="#0158003"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit3">令</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_c" cb:to="#end_c"><corr></corr><sic>[06]</sic></choice>
+<choice cb:resp="#resp4" cb:from="#beg_c" cb:to="#end_c"><corr><space quantity="0"/></corr><sic>[06]</sic></choice>
 <app from="#beg_d" to="#end_d" corresp="#0158003"><lem wit="#wit1">今</lem><rdg resp="#resp1" wit="#wit3">令</rdg></app>
 <app from="#beg0159001" to="#end0159001"><lem wit="#wit1">仆</lem><rdg resp="#resp1" wit="#wit3">什</rdg></app>
 <app from="#beg0159002" to="#end0159002"><lem wit="#wit1">槖</lem><rdg resp="#resp1" wit="#wit2">囊<note place="inline">音托</note></rdg><rdg resp="#resp1" wit="#wit3">槖<note place="inline">音托</note></rdg></app>
@@ -28340,13 +28341,13 @@ Added comment  for Emacs
 <app from="#beg0162003" to="#end0162003"><lem resp="#resp1" wit="#wit1">下</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">中</rdg></app>
 <app from="#beg0162004" to="#end0162004"><lem wit="#wit1">性</lem><rdg resp="#resp1" wit="#wit2">姓</rdg></app>
 <app from="#beg0163001" to="#end0163001"><lem wit="#wit1">險</lem><rdg resp="#resp1" wit="#wit2">檢</rdg><rdg resp="#resp1" wit="#wit3">噞</rdg></app>
-<choice cb:from="#beg_e" cb:to="#end_e"><corr>秖</corr><sic>秪</sic></choice>
-<choice cb:from="#beg_f" cb:to="#end_f"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_e" cb:to="#end_e"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_f" cb:to="#end_f"><corr>秖</corr><sic>秪</sic></choice>
 <app from="#beg0164001" to="#end0164001"><lem resp="#resp1" wit="#wit1">止</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">指</rdg></app>
-<choice cb:from="#beg_10" cb:to="#end_10"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_10" cb:to="#end_10"><corr>秖</corr><sic>秪</sic></choice>
 <app from="#beg0164002" to="#end0164002"><lem wit="#wit1">論</lem><rdg resp="#resp1" wit="#wit3 #wit2">輪</rdg></app>
-<choice cb:from="#beg_11" cb:to="#end_11"><corr>秖</corr><sic>秪</sic></choice>
-<choice cb:from="#beg_12" cb:to="#end_12"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_11" cb:to="#end_11"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_12" cb:to="#end_12"><corr>秖</corr><sic>秪</sic></choice>
 <app from="#beg0165001" to="#end0165001"><lem wit="#wit1">逵</lem><rdg resp="#resp1" wit="#wit2">達</rdg></app>
 <app from="#beg0165002" to="#end0165002"><lem wit="#wit1">教有</lem><rdg resp="#resp1" wit="#wit2">有教</rdg></app>
 <app from="#beg0165003" to="#end0165003"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit2">爾</rdg></app>
@@ -28355,7 +28356,7 @@ Added comment  for Emacs
 <app from="#beg0166004" to="#end0166004"><lem wit="#wit1">氷水</lem><rdg resp="#resp1" wit="#wit2">水氷</rdg></app>
 <app from="#beg0167001" to="#end0167001"><lem wit="#wit1">恒</lem><rdg resp="#resp1" wit="#wit2">恒河</rdg></app>
 <app from="#beg_13" to="#end_13" corresp="#0167001"><lem wit="#wit1">恒</lem><rdg resp="#resp1" wit="#wit2">恒河</rdg></app>
-<choice cb:from="#beg_14" cb:to="#end_14"><corr>奕</corr><sic>弈</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_14" cb:to="#end_14"><corr>奕</corr><sic>弈</sic></choice>
 <app from="#beg0168001" to="#end0168001"><lem wit="#wit1">闌</lem><rdg resp="#resp1" wit="#wit2">蘭</rdg></app>
 <app from="#beg0168002" to="#end0168002"><lem wit="#wit1">丈</lem><rdg resp="#resp1" wit="#wit3 #wit2">文</rdg></app>
 <app from="#beg0168003" to="#end0168003"><lem wit="#wit1">說無眾生</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
@@ -28381,7 +28382,7 @@ Added comment  for Emacs
 <app from="#beg0174002" to="#end0174002"><lem wit="#wit1">第</lem><rdg resp="#resp1" wit="#wit3 #wit2">第一之</rdg></app>
 <app from="#beg0175001" to="#end0175001"><lem wit="#wit1">文廣</lem><rdg resp="#resp1" wit="#wit3">云云</rdg></app>
 <app from="#beg0175002" to="#end0175002"><lem wit="#wit1">門</lem><rdg resp="#resp1" wit="#wit2">法門</rdg></app>
-<choice cb:from="#beg_15" cb:to="#end_15"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_15" cb:to="#end_15"><corr>祛</corr><sic>袪</sic></choice>
 <app from="#beg0177001" to="#end0177001"><lem wit="#wit1">等</lem><rdg resp="#resp1" wit="#wit3">第</rdg></app>
 <app from="#beg0177002" to="#end0177002"><lem wit="#wit1">佛真子</lem><rdg resp="#resp1" wit="#wit2">真佛子</rdg></app>
 <app from="#beg0177003" to="#end0177003"><lem wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit3">取</rdg></app>
@@ -28595,8 +28596,8 @@ Added comment  for Emacs
 <app from="#beg0233007" to="#end0233007"><lem wit="#wit1">云</lem><rdg resp="#resp1" wit="#wit3">去</rdg></app>
 <app from="#beg0233008" to="#end0233008"><lem wit="#wit1">啼</lem><rdg resp="#resp1" wit="#wit2">渧</rdg></app>
 <app from="#beg0233009" to="#end0233009"><lem wit="#wit1">會合</lem><rdg resp="#resp1" wit="#wit3">合會</rdg></app>
-<choice cb:from="#beg_21" cb:to="#end_21"><corr>婇</corr><sic>綵</sic></choice>
-<choice cb:from="#beg_22" cb:to="#end_22"><corr>婇</corr><sic>綵</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_21" cb:to="#end_21"><corr>婇</corr><sic>綵</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_22" cb:to="#end_22"><corr>婇</corr><sic>綵</sic></choice>
 <app from="#beg0234001" to="#end0234001"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit3">有</rdg></app>
 <app from="#beg0235001" to="#end0235001"><lem wit="#wit1">被破</lem><rdg resp="#resp1" wit="#wit2">破被</rdg></app>
 <app from="#beg0235002" to="#end0235002"><lem wit="#wit1">未</lem><rdg resp="#resp1" wit="#wit3 #wit2">末</rdg></app>
@@ -28630,7 +28631,7 @@ Added comment  for Emacs
 <app from="#beg0242006" to="#end0242006"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2">性</rdg></app>
 <app from="#beg0242007" to="#end0242007"><lem wit="#wit1">信</lem><rdg resp="#resp1" wit="#wit2">信行</rdg></app>
 <app from="#beg0243001" to="#end0243001"><lem wit="#wit1">重</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
-<choice cb:from="#beg_25" cb:to="#end_25"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_25" cb:to="#end_25"><corr>祛</corr><sic>袪</sic></choice>
 <app from="#beg0243002" to="#end0243002"><lem wit="#wit1">入</lem><rdg resp="#resp1" wit="#wit2">八</rdg></app>
 <app from="#beg0243003" to="#end0243003"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit3 #wit2">比</rdg></app>
 <app from="#beg0244001" to="#end0244001"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2">准</rdg></app>
@@ -28682,7 +28683,7 @@ Added comment  for Emacs
 <app from="#beg0254004" to="#end0254004"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit3">者</rdg></app>
 <app from="#beg0255001" to="#end0255001"><lem wit="#wit1">叉</lem><rdg resp="#resp1" wit="#wit3">又</rdg></app>
 <app from="#beg0256001" to="#end0256001"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit3">所</rdg></app>
-<choice cb:from="#beg_2c" cb:to="#end_2c"><corr>采</corr><sic>釆</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2c" cb:to="#end_2c"><corr>采</corr><sic>釆</sic></choice>
 <app from="#beg0256002" to="#end0256002"><lem wit="#wit1">白</lem><rdg resp="#resp1" wit="#wit3">曰</rdg></app>
 <app from="#beg0256003" to="#end0256003"><lem wit="#wit1">進精</lem><rdg resp="#resp1" wit="#wit3 #wit2">精進</rdg></app>
 <app from="#beg0256004" to="#end0256004"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit2">能</rdg></app>
@@ -28707,13 +28708,13 @@ Added comment  for Emacs
 <app from="#beg_2e" to="#end_2e" corresp="#0260003"><lem wit="#wit1">跂</lem><rdg resp="#resp1" wit="#wit2">跋</rdg></app>
 <app from="#beg0261001" to="#end0261001"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit2">破</rdg></app>
 <app from="#beg0261002" to="#end0261002"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit2">與</rdg></app>
-<choice cb:from="#beg_2f" cb:to="#end_2f"><corr>緣</corr><sic>綠</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_2f" cb:to="#end_2f"><corr>緣</corr><sic>綠</sic></choice>
 <app from="#beg0262001" to="#end0262001"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit2">全</rdg></app>
 <app from="#beg0262002" to="#end0262002"><lem wit="#wit1">犯</lem><rdg resp="#resp1" wit="#wit2">犯相</rdg></app>
 <app from="#beg_30" to="#end_30" corresp="#0258008"><lem wit="#wit1">辦</lem><rdg resp="#resp1" wit="#wit2">辨</rdg></app>
 <app from="#beg_31" to="#end_31" corresp="#0258008"><lem wit="#wit1">辦</lem><rdg resp="#resp1" wit="#wit2">辨</rdg></app>
 <app from="#beg_32" to="#end_32" corresp="#0258008"><lem wit="#wit1">辦</lem><rdg resp="#resp1" wit="#wit2">辨</rdg></app>
-<choice cb:from="#beg_33" cb:to="#end_33"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_33" cb:to="#end_33"><corr>祛</corr><sic>袪</sic></choice>
 <app from="#beg0263001" to="#end0263001"><lem wit="#wit1">觀</lem><rdg resp="#resp1" wit="#wit2">觀者</rdg></app>
 <app from="#beg0263002" to="#end0263002"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0263003" to="#end0263003"><lem wit="#wit1">觀</lem><rdg resp="#resp1" wit="#wit2">惑</rdg></app>
@@ -28762,7 +28763,7 @@ Added comment  for Emacs
 <app from="#beg0272003" to="#end0272003"><lem wit="#wit1">在</lem><rdg resp="#resp1" wit="#wit2">居</rdg></app>
 <app from="#beg0272004" to="#end0272004"><lem wit="#wit1">踊</lem><rdg resp="#resp1" wit="#wit3">勇</rdg></app>
 <app from="#beg_37" to="#end_37" corresp="#0272004"><lem wit="#wit1">踊</lem><rdg resp="#resp1" wit="#wit3">勇</rdg></app>
-<choice cb:from="#beg_38" cb:to="#end_38"><corr>枝</corr><sic>技</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_38" cb:to="#end_38"><corr>枝</corr><sic>技</sic></choice>
 <app from="#beg0273001" to="#end0273001"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit3">一二</rdg></app>
 <app from="#beg0273002" to="#end0273002"><lem wit="#wit1">鷳</lem><rdg resp="#resp1" wit="#wit2">鵰</rdg></app>
 <app from="#beg0273003" to="#end0273003"><lem wit="#wit1">皆</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
@@ -28843,7 +28844,7 @@ Added comment  for Emacs
 <app from="#beg0288001" to="#end0288001"><lem wit="#wit1">等</lem><rdg resp="#resp1" wit="#wit2">等陰</rdg></app>
 <app from="#beg0288002" to="#end0288002"><lem wit="#wit1">退</lem><rdg resp="#resp1" wit="#wit2">退分</rdg></app>
 <app from="#beg0289001" to="#end0289001"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit2">有師</rdg></app>
-<choice cb:from="#beg_3e" cb:to="#end_3e"><corr>采</corr><sic>釆</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_3e" cb:to="#end_3e"><corr>采</corr><sic>釆</sic></choice>
 <app from="#beg0290001" to="#end0290001"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit3">已</rdg></app>
 <app from="#beg0290002" to="#end0290002"><lem wit="#wit1">復</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0291001" to="#end0291001"><lem wit="#wit1">世</lem><rdg resp="#resp1" wit="#wit2">世後</rdg></app>
@@ -28958,7 +28959,7 @@ Added comment  for Emacs
 <app from="#beg0325002" to="#end0325002"><lem wit="#wit1">粟</lem><rdg resp="#resp1" wit="#wit2">栗</rdg></app>
 <app from="#beg0325003" to="#end0325003"><lem wit="#wit1">鄉</lem><rdg resp="#resp1" wit="#wit2">卿</rdg></app>
 <app from="#beg0325004" to="#end0325004"><lem wit="#wit1">仁</lem><rdg resp="#resp1" wit="#wit3">人</rdg></app>
-<choice cb:from="#beg_47" cb:to="#end_47"><corr>諡</corr><sic>謚</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_47" cb:to="#end_47"><corr>諡</corr><sic>謚</sic></choice>
 <app from="#beg0325005" to="#end0325005"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit3 #wit2">為</rdg></app>
 <app from="#beg0325008" to="#end0325008"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0326001" to="#end0326001"><lem wit="#wit1"><note place="inline">卑遙切</note></lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
@@ -28995,7 +28996,7 @@ Added comment  for Emacs
 <app from="#beg0335002" to="#end0335002"><lem wit="#wit1">誠</lem><rdg resp="#resp1" wit="#wit2">誡</rdg></app>
 <app from="#beg0335007" to="#end0335007"><lem wit="#wit1">切</lem><rdg resp="#resp1" wit="#wit3">反</rdg></app>
 <app from="#beg0335008" to="#end0335008"><lem wit="#wit1">四</lem><rdg resp="#resp1" wit="#wit2">三</rdg></app>
-<choice cb:from="#beg_49" cb:to="#end_49"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_49" cb:to="#end_49"><corr>祛</corr><sic>袪</sic></choice>
 <app from="#beg0336001" to="#end0336001"><lem wit="#wit1">淫</lem><rdg resp="#resp1" wit="#wit3 #wit2">婬</rdg></app>
 <app from="#beg0336002" to="#end0336002"><lem wit="#wit1">少</lem><rdg resp="#resp1" wit="#wit2">少分</rdg></app>
 <app from="#beg0336003" to="#end0336003"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit2">下</rdg></app>
@@ -29030,7 +29031,7 @@ Added comment  for Emacs
 <app from="#beg0342001" to="#end0342001"><lem wit="#wit1">王</lem><rdg resp="#resp1" wit="#wit2">主</rdg></app>
 <app from="#beg_4d" to="#end_4d" corresp="#0341007"><lem wit="#wit1">乙</lem><rdg resp="#resp1" wit="#wit3">一</rdg></app>
 <app from="#beg0342002" to="#end0342002"><lem wit="#wit1">文</lem><rdg resp="#resp1" wit="#wit3 #wit2">欲</rdg></app>
-<choice cb:from="#beg_4e" cb:to="#end_4e"><corr>采</corr><sic>釆</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_4e" cb:to="#end_4e"><corr>采</corr><sic>釆</sic></choice>
 <app from="#beg0343001" to="#end0343001"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit3">又</rdg><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0343002" to="#end0343002"><lem wit="#wit1">采</lem><rdg resp="#resp1" wit="#wit2">採</rdg></app>
 <app from="#beg0343003" to="#end0343003"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit3 #wit2">第一</rdg></app>
@@ -29124,7 +29125,7 @@ Added comment  for Emacs
 <app from="#beg_57" to="#end_57" corresp="#0364009"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit3">辨</rdg></app>
 <app from="#beg_58" to="#end_58" corresp="#0364009"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit3">辨</rdg></app>
 <app from="#beg_59" to="#end_59" corresp="#0364009"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit3">辨</rdg></app>
-<choice cb:from="#beg_5a" cb:to="#end_5a"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5a" cb:to="#end_5a"><corr>秖</corr><sic>秪</sic></choice>
 <app from="#beg_5b" to="#end_5b" corresp="#0364009"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit3">辨</rdg></app>
 <app from="#beg0365003" to="#end0365003"><lem wit="#wit1">密</lem><rdg resp="#resp1" wit="#wit3">蜜</rdg></app>
 <app from="#beg0365004" to="#end0365004"><lem wit="#wit1">表念</lem><rdg resp="#resp1" wit="#wit3">念表</rdg></app>
@@ -29140,7 +29141,7 @@ Added comment  for Emacs
 <app from="#beg0366009" to="#end0366009"><lem wit="#wit1">四念</lem><rdg resp="#resp1" wit="#wit2">念處</rdg></app>
 <app from="#beg0366010" to="#end0366010"><lem wit="#wit1">性</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0366011" to="#end0366011"><lem wit="#wit1">摸</lem><rdg resp="#resp1" wit="#wit3">模</rdg></app>
-<choice cb:from="#beg_5d" cb:to="#end_5d"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5d" cb:to="#end_5d"><corr>秖</corr><sic>秪</sic></choice>
 <app from="#beg0366012" to="#end0366012"><lem wit="#wit1">四</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0366015" to="#end0366015"><lem wit="#wit1">當</lem><rdg resp="#resp1" wit="#wit2">又當</rdg></app>
 <app from="#beg0367001" to="#end0367001"><lem wit="#wit1">初</lem><rdg resp="#resp1" wit="#wit3 #wit2">諸</rdg></app>
@@ -29160,7 +29161,7 @@ Added comment  for Emacs
 <app from="#beg0371002" to="#end0371002"><lem wit="#wit1">且</lem><rdg resp="#resp1" wit="#wit2">旦</rdg></app>
 <app from="#beg0372001" to="#end0372001"><lem wit="#wit1">酖</lem><rdg resp="#resp1" wit="#wit3">耽</rdg></app>
 <app from="#beg0372004" to="#end0372004"><lem wit="#wit1">文</lem><rdg resp="#resp1" wit="#wit2">又</rdg></app>
-<choice cb:from="#beg_5f" cb:to="#end_5f"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_5f" cb:to="#end_5f"><corr>秖</corr><sic>秪</sic></choice>
 <app from="#beg0372005" to="#end0372005"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit3 #wit2">也<note place="inline">上音頂下乃鼎反</note></rdg></app>
 <app from="#beg0372006" to="#end0372006"><lem wit="#wit1">眵</lem><rdg resp="#resp1" wit="#wit2">眵者</rdg></app>
 <app from="#beg0372007" to="#end0372007"><lem wit="#wit1">目</lem><rdg resp="#resp1" wit="#wit3 #wit2"><note place="inline">晶移反</note>目</rdg></app>
@@ -29187,7 +29188,7 @@ Added comment  for Emacs
 <app from="#beg0381001" to="#end0381001"><lem wit="#wit1">謂</lem><rdg resp="#resp1" wit="#wit2">為</rdg></app>
 <app from="#beg0381002" to="#end0381002"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit3 #wit2">辨</rdg></app>
 <app from="#beg0381003" to="#end0381003"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit2">以十</rdg></app>
-<choice cb:from="#beg_65" cb:to="#end_65"><corr>祛</corr><sic>袪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_65" cb:to="#end_65"><corr>祛</corr><sic>袪</sic></choice>
 <app from="#beg0382001" to="#end0382001"><lem wit="#wit1">人</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0382002" to="#end0382002"><lem wit="#wit1">構</lem><rdg resp="#resp1" wit="#wit2">搆</rdg></app>
 <app from="#beg0382003" to="#end0382003"><lem wit="#wit1">丈</lem><rdg resp="#resp1" wit="#wit3">文</rdg></app>
@@ -29329,7 +29330,7 @@ Added comment  for Emacs
 <app from="#beg_94" to="#end_94" corresp="#0403001"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit3 #wit2">辨</rdg></app>
 <app from="#beg_95" to="#end_95" corresp="#0403001"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit3 #wit2">辨</rdg></app>
 <app from="#beg_96" to="#end_96" corresp="#0403001"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit3 #wit2">辨</rdg></app>
-<choice cb:from="#beg_97" cb:to="#end_97"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_97" cb:to="#end_97"><corr>秖</corr><sic>秪</sic></choice>
 <app from="#beg_98" to="#end_98" corresp="#0403001"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit3 #wit2">辨</rdg></app>
 <app from="#beg0407001" to="#end0407001"><lem wit="#wit1">內</lem><rdg resp="#resp1" wit="#wit2">界</rdg></app>
 <app from="#beg0407002" to="#end0407002"><lem wit="#wit1">明</lem><rdg resp="#resp1" wit="#wit3 #wit2">名</rdg></app>
@@ -29476,7 +29477,7 @@ Added comment  for Emacs
 <app from="#beg0428001" to="#end0428001"><lem wit="#wit1">因</lem><rdg resp="#resp1" wit="#wit2">依</rdg></app>
 <app from="#beg0428002" to="#end0428002"><lem wit="#wit1">即<lb n="0428a08" ed="T"/>法</lem><rdg resp="#resp1" wit="#wit3">法即</rdg></app>
 <app from="#beg0428003" to="#end0428003"><lem wit="#wit1">即</lem><rdg resp="#resp1" wit="#wit2">句即</rdg></app>
-<choice cb:from="#beg_d4" cb:to="#end_d4"><corr>秖</corr><sic>秪</sic></choice>
+<choice cb:resp="#resp3" cb:from="#beg_d4" cb:to="#end_d4"><corr>秖</corr><sic>秪</sic></choice>
 <app from="#beg0429001" to="#end0429001"><lem wit="#wit1">行儀</lem><rdg resp="#resp1" wit="#wit2">衍門</rdg></app>
 <app from="#beg0429002" to="#end0429002"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0429003" to="#end0429003"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit2">辨</rdg></app>
@@ -29595,7 +29596,7 @@ Added comment  for Emacs
 <note n="0274003" resp="#resp3" type="mod" target="#nkr_note_mod_0274003">眼睡＝睡眠【甲】，眼＝眠【宮】</note>
 <note n="0277005" resp="#resp3" type="mod" target="#nkr_note_mod_0277005"><!--CBETA todo type: a-->不分卷【宮】</note>
 <note n="0277006" resp="#resp3" type="mod" target="#nkr_note_mod_0277006"><!--CBETA todo type: a-->不分卷【宮】</note>
-<note n="0281002" resp="#resp3" type="mod" target="#nkr_note_mod_0281002"><choice><corr>犁</corr><sic>犂</sic></choice>＝黎【宮】</note>
+<note n="0281002" resp="#resp3" type="mod" target="#nkr_note_mod_0281002"><choice cb:resp="#resp3"><corr>犁</corr><sic>犂</sic></choice>＝黎【宮】</note>
 <note n="0283002" resp="#resp3" type="mod" target="#nkr_note_mod_0283002">修後＝發後【宮】，＝發修【甲】</note>
 <note n="0284005" resp="#resp3" type="mod" target="#nkr_note_mod_0284005"><!--CBETA todo type: a-->不分卷【宮】</note>
 <note n="0284006" resp="#resp3" type="mod" target="#nkr_note_mod_0284006"><!--CBETA todo type: a-->不分卷【宮】</note>
