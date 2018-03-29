@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:01:22 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,8 +33,9 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 20, No. 1150</bibl>
 	<listWit>
-		<witness xml:id="wit1">【大】</witness>
-		<witness xml:id="wit2">【原】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+		<witness xml:id="wit3">【原】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -1277,7 +1279,7 @@ Added comment  for Emacs
 <lb n="0609b10" ed="T"/>祕蜜祕勝最密中祕密摧魔怨敵法。唯願世
 <lb n="0609b11" ed="T"/>尊哀愍聽許。佛言便說。世尊若有隣國擾侵
 <lb n="0609b12" ed="T"/>國界。或自國內軍眾寡少。或復怯弱。或有不
-<lb n="0609b13" ed="T"/>臣起惡叛逆。即應取苦<anchor xml:id="beg_1" type="cb-app"/>楝<anchor xml:id="end_1"/>木而作一幢。長十
+<lb n="0609b13" ed="T"/>臣起惡叛逆。即應取苦<anchor xml:id="nkr_note_add_0609b1301" n="0609b1301"/><anchor xml:id="beg0609b1301" n="0609b1301"/>楝<anchor xml:id="end0609b1301"/>木而作一幢。長十
 <lb n="0609b14" ed="T"/>二指周圓八指削令極圓。如世尊所勅。一切
 <lb n="0609b15" ed="T"/>天龍八部。令護諸國護諸國王。及護國界一
 <lb n="0609b16" ed="T"/>切有情。為除災禍令得安樂。若難起時。皆圖
@@ -1295,7 +1297,7 @@ Added comment  for Emacs
 <lb n="0609b28" ed="T"/>名於輪輻間。於幢底圖畫一輪。具足八輻。如
 <lb n="0609b29" ed="T"/>上吒字置輪臍中。若災難起時。應請一
 <pb n="0609c" xml:id="T20.1150.0609c" ed="T"/>
-<lb n="0609c01" ed="T"/>解法之人。於此教中曾稟受者。於其中夜<anchor xml:id="nkr_note_orig_0609006" n="0609006"/><anchor xml:id="beg0609006" n="0609006"/>圖<anchor xml:id="end0609006"/>
+<lb n="0609c01" ed="T"/>解法之人。於此教中曾稟受者。於其中夜<anchor xml:id="nkr_note_orig_0609006" n="0609006"/><anchor xml:id="nkr_note_mod_0609006" n="0609006"/><anchor xml:id="beg0609006" n="0609006"/>圖<anchor xml:id="end0609006"/>
 <lb n="0609c02" ed="T"/>一方壇。於方壇上重畫三角壇。立於此幢在
 <lb n="0609c03" ed="T"/>壇中央。於壇四面著種種食飲并二閼伽。燒
 <lb n="0609c04" ed="T"/>安悉香及然酥燈。其解法者面南而坐。</p>
@@ -1394,8 +1396,14 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>楝<note type="cf1">T19n0981_p0411a29</note></corr><sic>揀</sic></choice>
-<app from="#beg0609006" to="#end0609006"><lem resp="#resp1" wit="#wit1">圖</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">塗</rdg></app>
+<app from="#beg0609b1301" to="#end0609b1301"><lem wit="#wit1" resp="#resp3">楝<note type="cf1">T19n0981_p0411a29</note></lem><rdg wit="#wit2">揀</rdg></app>
+<app from="#beg0609006" to="#end0609006"><lem resp="#resp1" wit="#wit2">圖</lem><rdg resp="#resp1" wit="#wit3" type="correctionRemark">塗</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0609006" resp="#resp2" type="mod" target="#nkr_note_mod_0609006">圖【大】，塗【考偽-原】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -1403,6 +1411,12 @@ Added comment  for Emacs
 <p>
 <note n="0609005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0609005">【原】黃檗版淨嚴等加筆本</note>
 <note n="0609006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0609006">圖＝塗ヵ【原】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0609b1301" resp="#resp2" type="add" target="#nkr_note_add_0609b1301">楝【CB】，揀【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

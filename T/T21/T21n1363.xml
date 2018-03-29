@@ -37,6 +37,7 @@
 		<witness xml:id="wit2">【元】</witness>
 		<witness xml:id="wit3">【宋】</witness>
 		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -118,7 +119,7 @@ Added comment  for Emacs
 <lb n="0882c05" ed="T"/><cb:docNumber>No. 1363 [No. 1364]</cb:docNumber><cb:div type="jing">
 <lb n="0882c06" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0882015" n="0882015"/>勝幢臂印陀羅尼經</cb:jhead></cb:juan>
 <lb n="0882c07" ed="T"/>
-<lb n="0882c08" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0882016" n="0882016"/><anchor xml:id="beg0882016" n="0882016"/>唐<anchor xml:id="end0882016"/>三藏法師玄奘奉　詔譯</byline>
+<lb n="0882c08" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0882016" n="0882016"/><anchor xml:id="nkr_note_mod_0882016" n="0882016"/><anchor xml:id="beg0882016" n="0882016"/>唐<anchor xml:id="end0882016"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0882c09" ed="T"/><p xml:id="pT21p0882c0901">如是我聞。一時薄伽梵。在雞羅山頂天仙神
 <lb n="0882c10" ed="T"/>宮。與大苾芻眾千二百五十人俱。及無量無
 <lb n="0882c11" ed="T"/>數菩薩摩訶薩。曼殊室利跋陀波羅。十六大
@@ -144,7 +145,7 @@ Added comment  for Emacs
 <lb n="0883a01" ed="T"/>常值諸佛得宿命念。乃至無上正等菩提。陀
 <lb n="0883a02" ed="T"/>羅尼曰。</p>
 <lb n="0883a03" ed="T"/><p cb:type="dharani" xml:id="pT21p0883a0301">羯洛羯洛　抧利抧利　矩路矩路　薩洛薩
-<lb n="0883a04" ed="T"/>洛　徙利<anchor xml:id="beg_1" type="cb-app"/>徙<anchor xml:id="end_1"/>利　速路速路　薩縛佛陀婆
+<lb n="0883a04" ed="T"/>洛　徙利<anchor xml:id="nkr_note_add_0883a0401" n="0883a0401"/><anchor xml:id="beg0883a0401" n="0883a0401"/>徙<anchor xml:id="end0883a0401"/>利　速路速路　薩縛佛陀婆
 <lb n="0883a05" ed="T"/>　盧抧諦　達洛達洛　薩縛達摩路迦目契
 <lb n="0883a06" ed="T"/>　折洛折洛　薩縛僧伽地瑟恥諦　跋洛跋洛
 <lb n="0883a07" ed="T"/>　頞泥迦佛　陀俱胝婆史諦　廁拏廁拏
@@ -175,7 +176,7 @@ Added comment  for Emacs
 <p>
 <app from="#beg0882016" to="#end0882016"><lem wit="#wit1">唐</lem><rdg resp="#resp1" wit="#wit2">大唐</rdg></app>
 <app from="#beg0882018" to="#end0882018"><lem wit="#wit1">極</lem><rdg resp="#resp1" wit="#wit3 #wit2 #wit4">劇</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_1" cb:to="#end_1"><corr>徙<note type="cf1">K11n0332_p1339b09</note><note type="cf2">T21n1364_p0883b23</note></corr><sic>徒</sic></choice>
+<app from="#beg0883a0401" to="#end0883a0401"><lem wit="#wit5" resp="#resp3">徙<note type="cf1">K11n0332_p1339b09</note><note type="cf2">T21n1364_p0883b23</note></lem><rdg wit="#wit1">徒</rdg></app>
 <app from="#beg0883001" to="#end0883001"><lem wit="#wit1">耶</lem><rdg resp="#resp1" wit="#wit3 #wit2 #wit4">邪</rdg></app>
 <app from="#beg0883002" to="#end0883002"><lem wit="#wit1">伽</lem><rdg resp="#resp1" wit="#wit3 #wit2 #wit4"><space quantity="0"/></rdg></app>
 </p>
@@ -183,10 +184,11 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0882017" resp="#resp2" type="mod" target="#nkr_note_mod_0882017"><!--CBETA todo type: c-->唯＝惟【宋】【元】【明】</note>
-<note n="0882018" resp="#resp2" type="mod" target="#nkr_note_mod_0882018">極＝劇【宋】【元】【明】</note>
-<note n="0883001" resp="#resp2" type="mod" target="#nkr_note_mod_0883001">耶＝邪【宋】【元】【明】</note>
-<note n="0883002" resp="#resp2" type="mod" target="#nkr_note_mod_0883002">〔伽〕－【宋】【元】【明】</note>
+<note n="0882016" resp="#resp2" type="mod" target="#nkr_note_mod_0882016">唐【大】，大唐【元】</note>
+<note n="0882017" resp="#resp2" type="mod" target="#nkr_note_mod_0882017"><!--CBETA todo type: c-->唯【大】，惟【宋】【元】【明】</note>
+<note n="0882018" resp="#resp2" type="mod" target="#nkr_note_mod_0882018">極【大】，劇【宋】【元】【明】</note>
+<note n="0883001" resp="#resp2" type="mod" target="#nkr_note_mod_0883001">耶【大】，邪【宋】【元】【明】</note>
+<note n="0883002" resp="#resp2" type="mod" target="#nkr_note_mod_0883002">伽【大】，〔－〕【宋】【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -198,6 +200,12 @@ Added comment  for Emacs
 <note n="0882018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0882018">極＝劇【三】</note>
 <note n="0883001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0883001">耶＝邪【三】</note>
 <note n="0883002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0883002">〔伽〕－【三】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0883a0401" resp="#resp2" type="add" target="#nkr_note_add_0883a0401">徙【CB】，徒【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

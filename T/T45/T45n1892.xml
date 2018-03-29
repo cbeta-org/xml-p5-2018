@@ -32,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 45, No. 1892</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -482,7 +486,7 @@ Added comment  for Emacs
 <lb n="0809c15" ed="T"/>天王名毘婁博叉，領諸龍及富多羅眾，住西
 <lb n="0809c16" ed="T"/>瞿耶尼洲。其所領四神軍主，配西面二階各
 <lb n="0809c17" ed="T"/>二神，南階道二神<note place="inline">南神名訶利，北神名訶利枳舍</note>，北階道二
-<lb n="0809c18" ed="T"/>神<note place="inline">南神名波羅赴，<anchor xml:id="beg_1" type="cb-app"/>北神<anchor xml:id="end_1"/>名冰伽羅</note>。西北角天王名毘沙門，領夜
+<lb n="0809c18" ed="T"/>神<note place="inline">南神名波羅赴，<anchor xml:id="nkr_note_add_0809c1801" n="0809c1801"/><anchor xml:id="beg0809c1801" n="0809c1801"/>北神<anchor xml:id="end0809c1801"/>名冰伽羅</note>。西北角天王名毘沙門，領夜
 <lb n="0809c19" ed="T"/>叉及羅剎眾，住北欝單越洲；多來閻浮提，
 <lb n="0809c20" ed="T"/>其王手中掌擎佛塔，古佛舍利在中。佛在時，
 <lb n="0809c21" ed="T"/>令其持行，所在作護，佛法久固。又令天王
@@ -1185,7 +1189,7 @@ Added comment  for Emacs
 <lb n="0819a01" ed="T"/>罕分，深願體之，勿慮非咎。」便答余云：「此不敢
 <lb n="0819a02" ed="T"/>怪也。吾昔見大莊嚴寺大德恭禪師若行道
 <lb n="0819a03" ed="T"/>時，必東迴北轉，此為右繞。」彼告吾云：「子不見
-<lb n="0819a04" ed="T"/>俗中城門耶，東入西出，咸言左出右<anchor xml:id="beg_2" type="cb-app"/>入<anchor xml:id="end_2"/>也。」如
+<lb n="0819a04" ed="T"/>俗中城門耶，東入西出，咸言左出右<anchor xml:id="nkr_note_add_0819a0401" n="0819a0401"/><anchor xml:id="beg0819a0401" n="0819a0401"/>入<anchor xml:id="end0819a0401"/>也。」如
 <lb n="0819a05" ed="T"/>是云云。</p><p xml:id="pT45p0819a0504" rend="inline">行事之家，觀時制度，餘方不為清淨，
 <lb n="0819a06" ed="T"/>則不行之。余七十暮年，脚疾摧朽，顧求法者，
 <lb n="0819a07" ed="T"/>不遠關山。今秋氣已清，客心飛舉，將事終天
@@ -1208,14 +1212,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>北神</corr><sic>神北</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>入</corr><sic>人</sic></choice>
+<app from="#beg0809c1801" to="#end0809c1801"><lem wit="#wit1" resp="#resp2">北神</lem><rdg wit="#wit2">神北</rdg></app>
+<app from="#beg0819a0401" to="#end0819a0401"><lem wit="#wit1" resp="#resp3">入</lem><rdg wit="#wit2">人</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0807001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0807001">【原】德川時代刊大谷大學藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0809c1801" resp="#resp2" type="add" target="#nkr_note_add_0809c1801">北神【CB】，神北【大】</note>
+<note n="0819a0401" resp="#resp2" type="add" target="#nkr_note_add_0819a0401">入【CB】，人【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

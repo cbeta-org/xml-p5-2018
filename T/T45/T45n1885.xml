@@ -14,8 +14,9 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:12:10 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.say</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -32,6 +33,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 45, No. 1885</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -655,7 +660,7 @@ Added comment  for Emacs
 <lb n="0697a23" ed="T"/>計悉歸真。此頌聲聞外道迴頭返覻。前執斷
 <lb n="0697a24" ed="T"/>空盡歸真空智照之中。肇論云。真諦無兔馬
 <lb n="0697a25" ed="T"/>之遺。般若無不窮之鑒也。</p>
-<lb n="0697a26" ed="T"/><p xml:id="pT45p0697a2601">二揀實色　不知蹈破茄子。一夜蝦<anchor xml:id="beg_1" type="cb-app"/><g ref="#CB03157">䗫</g><anchor xml:id="end_1"/>索命。
+<lb n="0697a26" ed="T"/><p xml:id="pT45p0697a2601">二揀實色　不知蹈破茄子。一夜蝦<anchor xml:id="nkr_note_add_0697a2601" n="0697a2601"/><anchor xml:id="beg0697a2601" n="0697a2601"/><g ref="#CB03157">䗫</g><anchor xml:id="end0697a2601"/>索命。
 <lb n="0697a27" ed="T"/>義曰。謂凡夫執色實有自體。以青黃之相。非
 <lb n="0697a28" ed="T"/>是真空之理。疏云。以聞經說色空不知色性
 <lb n="0697a29" ed="T"/>空。便執色相以為真空。計色不忘。故須揀也。
@@ -1523,7 +1528,7 @@ Added comment  for Emacs
 <lb n="0706c25" ed="T"/>也。</p>
 <lb n="0706c26" ed="T"/><p xml:id="pT45p0706c2601">新故故還新　隨緣即不變。不變却隨緣。此
 <lb n="0706c27" ed="T"/>頌故還新者。是全主為伴。正顯此門一多之
-<lb n="0706c28" ed="T"/>伴法也。如豐<anchor xml:id="beg_2" type="cb-app"/>干<anchor xml:id="end_2"/>萬回寒山拾得散聖人等。了
+<lb n="0706c28" ed="T"/>伴法也。如豐<anchor xml:id="nkr_note_add_0706c2801" n="0706c2801"/><anchor xml:id="beg0706c2801" n="0706c2801"/>干<anchor xml:id="end0706c2801"/>萬回寒山拾得散聖人等。了
 <lb n="0706c29" ed="T"/>却那邊實際理地。却來建化門頭示現形儀。
 <pb n="0707a" xml:id="T45.1885.0707a" ed="T"/>
 <lb n="0707a01" ed="T"/>接物利生弘揚聖道。隨緣日新全為其伴。故
@@ -1609,14 +1614,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr><g ref="#CB03157">䗫</g></corr><sic><g ref="#CB05316">󱓄</g></sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>干<note type="cf1">X79n1557_p0122b24</note></corr><sic>千</sic></choice>
+<app from="#beg0697a2601" to="#end0697a2601"><lem wit="#wit1" resp="#resp3"><g ref="#CB03157">䗫</g></lem><rdg wit="#wit2"><g ref="#CB05316">󱓄</g></rdg></app>
+<app from="#beg0706c2801" to="#end0706c2801"><lem wit="#wit1" resp="#resp4">干<note type="cf1">X79n1557_p0122b24</note></lem><rdg wit="#wit2">千</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0692002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0692002">【原】增上寺報恩藏明本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0697a2601" resp="#resp2" type="add" target="#nkr_note_add_0697a2601"><g ref="#CB03157">䗫</g>【CB】，<g ref="#CB05316">󱓄</g>【大】</note>
+<note n="0706c2801" resp="#resp2" type="add" target="#nkr_note_add_0706c2801">干【CB】，千【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

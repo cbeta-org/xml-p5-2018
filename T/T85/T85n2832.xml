@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:15:19 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2832</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -146,13 +151,13 @@ Added comment  for Emacs
 <lb n="1270b19" ed="T"/>無來無有住處。無所依心。故云空心門。心無
 <lb n="1270b20" ed="T"/>相門。謂心澄淨無有相貌。非青非黃非赤非
 <lb n="1270b21" ed="T"/>白。非長非短非大非少。非方非圓湛然不動。
-<lb n="1270b22" ed="T"/>故<anchor xml:id="beg_1" type="cb-app"/>名<anchor xml:id="end_1"/>無相門。心解脫門者。知心無繫無縛。一切
+<lb n="1270b22" ed="T"/>故<anchor xml:id="nkr_note_add_1270b2201" n="1270b2201"/><anchor xml:id="beg1270b2201" n="1270b2201"/>名<anchor xml:id="end1270b2201"/>無相門。心解脫門者。知心無繫無縛。一切
 <lb n="1270b23" ed="T"/>煩惱不來上心。故名心解脫門。禪定者。西域
 <lb n="1270b24" ed="T"/>梵音。唐言靜慮。覺心寂靜。行時住時坐時臥
 <lb n="1270b25" ed="T"/>時皆悉寂靜無有散動。故名寂靜。真如門者。
 <lb n="1270b26" ed="T"/>覺心無心等同虛空。遍周法界平等不二。無
 <lb n="1270b27" ed="T"/>千無變。故名真如門。智慧門者。識了一切名
-<lb n="1270b28" ed="T"/>之為智。契達空源名之為<anchor xml:id="beg_2" type="cb-app"/>慧<anchor xml:id="end_2"/>。故名智慧門。亦
+<lb n="1270b28" ed="T"/>之為智。契達空源名之為<anchor xml:id="nkr_note_add_1270b2801" n="1270b2801"/><anchor xml:id="beg1270b2801" n="1270b2801"/>慧<anchor xml:id="end1270b2801"/>。故名智慧門。亦
 <lb n="1270b29" ed="T"/>名究竟道。亦名大乘無相禪觀門。則是修禪
 <pb n="1270c" xml:id="T85.2832.1270c" ed="T"/>
 <lb n="1270c01" ed="T"/>學道故。禪有七種觀門。大聲念佛得十種功
@@ -165,14 +170,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>名</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>慧</corr><sic>惠</sic></choice>
+<app from="#beg1270b2201" to="#end1270b2201"><lem wit="#wit1" resp="#resp3">名</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg1270b2801" to="#end1270b2801"><lem wit="#wit1" resp="#resp3">慧</lem><rdg wit="#wit2">惠</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1270002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1270002">【原】大英博物館藏燉煌本, S. 2583.</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1270b2201" resp="#resp2" type="add" target="#nkr_note_add_1270b2201">名【CB】，［－］【大】</note>
+<note n="1270b2801" resp="#resp2" type="add" target="#nkr_note_add_1270b2801">慧【CB】，惠【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

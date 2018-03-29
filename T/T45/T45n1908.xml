@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 45, No. 1908</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -169,7 +173,7 @@ Added comment  for Emacs
 <lb n="0922a20" ed="T"/>悔之罪既無所有。云何得有能懺悔者。能悔
 <lb n="0922a21" ed="T"/>所悔皆不可得。當於何處得有悔法於諸業
 <lb n="0922a22" ed="T"/>障作是悔已。亦應懺悔六情放逸。我及眾生
-<lb n="0922a23" ed="T"/>無始<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>來。不解諸法本來無生。妄想顛倒計
+<lb n="0922a23" ed="T"/>無始<anchor xml:id="nkr_note_add_0922a2301" n="0922a2301"/><anchor xml:id="beg0922a2301" n="0922a2301"/>已<anchor xml:id="end0922a2301"/>來。不解諸法本來無生。妄想顛倒計
 <lb n="0922a24" ed="T"/>我我所。內立六情依而生識。外作六塵執為
 <lb n="0922a25" ed="T"/>實有。不知皆是自心所作。如幻如夢永無所
 <lb n="0922a26" ed="T"/>有。於中橫計男女等相。起諸煩惱自以纏縛。
@@ -197,13 +201,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0922a2301" to="#end0922a2301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0921001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0921001">【原】鎌倉時代寫京都寶菩提院藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0922a2301" resp="#resp2" type="add" target="#nkr_note_add_0922a2301">已【CB】，巳【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

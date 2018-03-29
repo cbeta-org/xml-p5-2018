@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2012/06/27 08:15:26 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Jiaxing Canon (Shinwenfeng Edition) Vol. 35, No. B341</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【嘉興】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -202,12 +207,12 @@ Revision 1.1  2008/12/19 07:00:10  eva
 <lb ed="J" n="0780b11"/>又一重者裏誰知復誰見復將誰面與誰融大都心
 <lb ed="J" n="0780b12"/>性假名字只為悟迷分異同徑入無生無舍宅無生
 <lb ed="J" n="0780b13"/>有入即羅籠一一分明親道破莫將五色畫虛空</l></lg><p cb:type="head3" xml:id="pJ35p0780b1320"><note place="inline">又</note></p>
-<lb ed="J" n="0780b14"/><lg xml:id="lgJ35p0780b1401" type="abnormal" rend="text-indent:0em"><l>二六時中既穩默行住坐臥<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>婆娑真空不空非口
+<lb ed="J" n="0780b14"/><lg xml:id="lgJ35p0780b1401" type="abnormal" rend="text-indent:0em"><l>二六時中既穩默行住坐臥<anchor xml:id="nkr_note_add_0780b1401" n="0780b1401"/><anchor xml:id="beg0780b1401" n="0780b1401"/>已<anchor xml:id="end0780b1401"/>婆娑真空不空非口
 <lb ed="J" n="0780b15"/>語空不空也更淆訛若是隨心而應用隨心應用早
 <lb ed="J" n="0780b16"/>蹉跎隨心隨處多身相應用依前萬萬波須到無心
 <lb ed="J" n="0780b17"/>無用處自然無處不禪那</l></lg></cb:div>
 <lb ed="J" n="0780b18"/><cb:div type="other"><cb:mulu type="其他" level="2">與憨之秀禪人</cb:mulu><head>與憨之秀禪人</head>
-<lb ed="J" n="0780b19"/><lg xml:id="lgJ35p0780b1901" type="abnormal" rend="text-indent:0em"><l>一喝明明事<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>周無容下口處難酬報恩有待憑君
+<lb ed="J" n="0780b19"/><lg xml:id="lgJ35p0780b1901" type="abnormal" rend="text-indent:0em"><l>一喝明明事<anchor xml:id="nkr_note_add_0780b1901" n="0780b1901"/><anchor xml:id="beg0780b1901" n="0780b1901"/>已<anchor xml:id="end0780b1901"/>周無容下口處難酬報恩有待憑君
 <lb ed="J" n="0780b20"/>力抖擻精神接聖流</l></lg></cb:div>
 <lb ed="J" n="0780b21"/><cb:div type="other"><cb:mulu type="其他" level="2">送別湖巖道兄</cb:mulu><head>送別湖巖道兄</head>
 <lb ed="J" n="0780b22"/><lg xml:id="lgJ35p0780b2201" type="abnormal" rend="text-indent:0em"><l>數思世末幾滄桑獨喜同門箇箇長茲去頻開三尺
@@ -261,7 +266,7 @@ Revision 1.1  2008/12/19 07:00:10  eva
 <lb ed="J" n="0781a08"/>逐貓兒走撞出門駭殺趙州狗平旦寅眉毛舊轉新
 <lb ed="J" n="0781a09"/>掀衾起日計正相應日出卯芒鞋腳下討路高低竹
 <lb ed="J" n="0781a10"/>杖知分曉食時辰脫粟與芹羹一頓飽處處引風生
-<lb ed="J" n="0781a11"/>禺中<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>晝閒無活計牧群牛箇箇掀天地日南午打
+<lb ed="J" n="0781a11"/>禺中<anchor xml:id="nkr_note_add_0781a1101" n="0781a1101"/><anchor xml:id="beg0781a1101" n="0781a1101"/>已<anchor xml:id="end0781a1101"/>晝閒無活計牧群牛箇箇掀天地日南午打
 <lb ed="J" n="0781a12"/>動無皮鼓令如是拍拍騰今古日昳未攜酒莫遲醉
 <lb ed="J" n="0781a13"/>淵明來混入吾儕隊晡時申野老佚山亭閒遠眺銕
 <lb ed="J" n="0781a14"/>笛一村聲日入酉白月光如晝看金烏也解翻觔斗
@@ -286,9 +291,17 @@ Revision 1.1  2008/12/19 07:00:10  eva
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0780b1401" to="#end0780b1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0780b1901" to="#end0780b1901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0781a1101" to="#end0781a1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0780b1401" resp="#resp1" type="add" target="#nkr_note_add_0780b1401">已【CB】，巳【嘉興】</note>
+<note n="0780b1901" resp="#resp1" type="add" target="#nkr_note_add_0780b1901">已【CB】，巳【嘉興】</note>
+<note n="0781a1101" resp="#resp1" type="add" target="#nkr_note_add_0781a1101">已【CB】，巳【嘉興】</note>
 </p>
 </cb:div>
 </back></text></TEI>

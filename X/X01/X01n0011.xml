@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 08:48:29 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 1, No. 11</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -74,7 +79,7 @@ no message
 <lb ed="X" n="0361a04"/>
 <lb ed="X" n="0361a05"/><lb ed="R001" n="0696b02"/><byline cb:type="translator">曹魏天竺三藏康僧鎧譯</byline>
 <lb ed="X" n="0361a06"/><lb ed="R001" n="0696b03"/><cb:div><p xml:id="pX01p0361a0601">我聞如是一時佛在王舍城耆闍崛山中與大比丘
-<lb ed="X" n="0361a07"/><lb ed="R001" n="0696b04"/>眾千二百五十人俱諸漏<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>盡神通明達諸眾聖其
+<lb ed="X" n="0361a07"/><lb ed="R001" n="0696b04"/>眾千二百五十人俱諸漏<anchor xml:id="nkr_note_add_0361a0701" n="0361a0701"/><anchor xml:id="beg0361a0701" n="0361a0701"/>已<anchor xml:id="end0361a0701"/>盡神通明達諸眾聖其
 <lb ed="X" n="0361a08"/><lb ed="R001" n="0696b05"/>名曰尊者阿難尊者目犍連尊者舍利弗尊者大牛
 <lb ed="X" n="0361a09"/><lb ed="R001" n="0696b06"/>王尊者摩訶迦葉尊者摩訶伽耶迦葉尊者大周那
 <lb ed="X" n="0361a10"/><lb ed="R001" n="0696b07"/>尊者名聞迦葉尊者大淨心志等皆如斯等以為上
@@ -84,7 +89,7 @@ no message
 <lb ed="X" n="0361a14"/><lb ed="R001" n="0696b11"/>時來會。</p>
 <lb ed="X" n="0361a15"/><lb ed="R001" n="0696b12"/><p xml:id="pX01p0361a1501">爾時世尊告阿難曰乃往過去久遠無量無央數劫
 <lb ed="X" n="0361a16"/><lb ed="R001" n="0696b13"/>有一大比丘名曰法藏值遇無數百千佛滿足無量
-<lb ed="X" n="0361a17"/><lb ed="R001" n="0696b14"/>大願超過諸佛所行之法彼法藏比丘今<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>成正覺
+<lb ed="X" n="0361a17"/><lb ed="R001" n="0696b14"/>大願超過諸佛所行之法彼法藏比丘今<anchor xml:id="nkr_note_add_0361a1701" n="0361a1701"/><anchor xml:id="beg0361a1701" n="0361a1701"/>已<anchor xml:id="end0361a1701"/>成正覺
 <lb ed="X" n="0361a18"/><lb ed="R001" n="0696b15"/>現在西方清淨安樂剎號曰不可思議光無量壽如
 <lb ed="X" n="0361a19"/><lb ed="R001" n="0696b16"/>來其佛本願力故以不可思議威神力徧滿十方世
 <lb ed="X" n="0361a20"/><lb ed="R001" n="0696b17"/>界以大音聲宣布名號功德是故十方世界一切有
@@ -135,7 +140,7 @@ no message
 <lb ed="X" n="0361c15"/><lb ed="R001" n="0698a06"/>可思議光無量壽清淨佛號及今日世尊說大事利
 <lb ed="X" n="0361c16"/><lb ed="R001" n="0698a07"/>益因緣世尊說此經時無量有情發無上正真道意
 <lb ed="X" n="0361c17"/><lb ed="R001" n="0698a08"/>諸天人民得阿那含果諸大菩薩以四弘誓莊嚴功
-<lb ed="X" n="0361c18"/><lb ed="R001" n="0698a09"/>德於將來世應成正覺佛說此經<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>諸大菩薩眾阿
+<lb ed="X" n="0361c18"/><lb ed="R001" n="0698a09"/>德於將來世應成正覺佛說此經<anchor xml:id="nkr_note_add_0361c1801" n="0361c1801"/><anchor xml:id="beg0361c1801" n="0361c1801"/>已<anchor xml:id="end0361c1801"/>諸大菩薩眾阿
 <lb ed="X" n="0361c19"/><lb ed="R001" n="0698a10"/>難等諸大聲聞弟子眾聞佛所說歡喜禮佛而去。</p>
 <lb ed="X" n="0361c20"/>
 <lb ed="X" n="0361c21"/><lb ed="R001" n="0698a12"/><cb:juan fun="close" n="1"><cb:jhead>佛說無量壽佛名號利益大事因緣經</cb:jhead></cb:juan></cb:div>
@@ -144,9 +149,17 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0361a0701" to="#end0361a0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0361a1701" to="#end0361a1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0361c1801" to="#end0361c1801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0361a0701" resp="#resp1" type="add" target="#nkr_note_add_0361a0701">已【CB】，巳【卍續】</note>
+<note n="0361a1701" resp="#resp1" type="add" target="#nkr_note_add_0361a1701">已【CB】，巳【卍續】</note>
+<note n="0361c1801" resp="#resp1" type="add" target="#nkr_note_add_0361c1801">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

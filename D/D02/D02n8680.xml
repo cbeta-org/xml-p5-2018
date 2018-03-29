@@ -12,7 +12,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.5 $<date>$Date: 2012/04/23 08:02:17 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,7 +37,11 @@
 				<idno>Vol. 2, No. 8680</idno>
 			</msIdentifier>
 		</msDesc>
-</sourceDesc>
+<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【國圖】</witness>
+	</listWit>
+	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
@@ -847,25 +852,25 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <text><body>
 <pb ed="D" xml:id="D02.8680.0001a" n="0001a"/>
 <lb ed="D" n="0001a01"/><milestone unit="juan" n="7"/><cb:mulu type="卷" n="7"></cb:mulu><cb:juan fun="open" n="7"><cb:jhead>佛<g ref="#CB22072">󵘸</g>佛名經卷苐七</cb:jhead></cb:juan>
-<lb ed="D" n="0001a02"/><cb:div><list><item xml:id="itemD02p0001a0201">南无可喜佛</item><item xml:id="itemD02p0001a0206">南无善香<anchor xml:id="beg_1" type="cb-app"/>佛<anchor xml:id="end_1"/></item>
+<lb ed="D" n="0001a02"/><cb:div><list><item xml:id="itemD02p0001a0201">南无可喜佛</item><item xml:id="itemD02p0001a0206">南无善香<anchor xml:id="nkr_note_add_0001a0201" n="0001a0201"/><anchor xml:id="beg0001a0201" n="0001a0201"/>佛<anchor xml:id="end0001a0201"/></item>
 <lb ed="D" n="0001a03"/><item xml:id="itemD02p0001a0301">南无疾佛</item><item xml:id="itemD02p0001a0305">南无妙眼佛</item>
 <lb ed="D" n="0001a04"/><item xml:id="itemD02p0001a0401">南无善勝佛</item><item xml:id="itemD02p0001a0406">南无脩義佛</item>
 <lb ed="D" n="0001a05"/><item xml:id="itemD02p0001a0501">南无善意佛</item><item xml:id="itemD02p0001a0506">南无妙意佛</item>
-<lb ed="D" n="0001a06"/><item xml:id="itemD02p0001a0601">南无金意佛</item><item xml:id="itemD02p0001a0606">南无善眼<anchor xml:id="beg_2" type="cb-app"/>佛<anchor xml:id="end_2"/></item>
+<lb ed="D" n="0001a06"/><item xml:id="itemD02p0001a0601">南无金意佛</item><item xml:id="itemD02p0001a0606">南无善眼<anchor xml:id="nkr_note_add_0001a0601" n="0001a0601"/><anchor xml:id="beg0001a0601" n="0001a0601"/>佛<anchor xml:id="end0001a0601"/></item>
 <pb ed="D" xml:id="D02.8680.0002a" n="0002a"/>
-<lb ed="D" n="0002a01"/><item xml:id="itemD02p0002a0101">南无天清淨佛</item><item xml:id="itemD02p0002a0107">南无輸頭<anchor xml:id="beg_3" type="cb-app"/>檀<anchor xml:id="end_3"/><anchor xml:id="beg_4" type="cb-app"/>佛<anchor xml:id="end_4"/></item>
-<lb ed="D" n="0002a02"/><item xml:id="itemD02p0002a0201">南无善見佛</item><item xml:id="itemD02p0002a0206">南无毗<g ref="#CB22627">㽞</g>羅<anchor xml:id="beg_5" type="cb-app"/>佛<anchor xml:id="end_5"/></item>
-<lb ed="D" n="0002a03"/><item xml:id="itemD02p0002a0301">南无毗摟<g ref="#CB13415">󳑧</g>义佛</item><item xml:id="itemD02p0002a0308">南无梵聲<anchor xml:id="beg_6" type="cb-app"/>佛<anchor xml:id="end_6"/></item>
-<lb ed="D" n="0002a04"/><item xml:id="itemD02p0002a0401">南无成就勝佛</item><item xml:id="itemD02p0002a0407">南无勝光明<anchor xml:id="beg_7" type="cb-app"/>佛<anchor xml:id="end_7"/></item>
+<lb ed="D" n="0002a01"/><item xml:id="itemD02p0002a0101">南无天清淨佛</item><item xml:id="itemD02p0002a0107">南无輸頭<anchor xml:id="nkr_note_add_0002a0101" n="0002a0101"/><anchor xml:id="beg0002a0101" n="0002a0101"/>檀<anchor xml:id="end0002a0101"/><anchor xml:id="nkr_note_add_0002a0102" n="0002a0102"/><anchor xml:id="beg0002a0102" n="0002a0102"/>佛<anchor xml:id="end0002a0102"/></item>
+<lb ed="D" n="0002a02"/><item xml:id="itemD02p0002a0201">南无善見佛</item><item xml:id="itemD02p0002a0206">南无毗<g ref="#CB22627">㽞</g>羅<anchor xml:id="nkr_note_add_0002a0201" n="0002a0201"/><anchor xml:id="beg0002a0201" n="0002a0201"/>佛<anchor xml:id="end0002a0201"/></item>
+<lb ed="D" n="0002a03"/><item xml:id="itemD02p0002a0301">南无毗摟<g ref="#CB13415">󳑧</g>义佛</item><item xml:id="itemD02p0002a0308">南无梵聲<anchor xml:id="nkr_note_add_0002a0301" n="0002a0301"/><anchor xml:id="beg0002a0301" n="0002a0301"/>佛<anchor xml:id="end0002a0301"/></item>
+<lb ed="D" n="0002a04"/><item xml:id="itemD02p0002a0401">南无成就勝佛</item><item xml:id="itemD02p0002a0407">南无勝光明<anchor xml:id="nkr_note_add_0002a0401" n="0002a0401"/><anchor xml:id="beg0002a0401" n="0002a0401"/>佛<anchor xml:id="end0002a0401"/></item>
 <lb ed="D" n="0002a05"/><item xml:id="itemD02p0002a0501">南无无垢佛</item><item xml:id="itemD02p0002a0506">南无摩<g ref="#CB21862">󵕦</g><g ref="#CB22053">󵘥</g>陁佛</item>
 <lb ed="D" n="0002a06"/><item xml:id="itemD02p0002a0601">南无摩梨栺佛</item><item xml:id="itemD02p0002a0607">南无大摩梨指佛</item>
 <lb ed="D" n="0002a07"/><item xml:id="itemD02p0002a0701">南无能聖佛</item><item xml:id="itemD02p0002a0706">南无聲自在佛</item>
 <lb ed="D" n="0002a08"/><item xml:id="itemD02p0002a0801">南无讚歎成就佛</item><item xml:id="itemD02p0002a0808">南无勝成就華佛</item>
-<lb ed="D" n="0002a09"/><item xml:id="itemD02p0002a0901">南无拘蘇摩佛</item><item xml:id="itemD02p0002a0907">南无不動<anchor xml:id="beg_8" type="cb-app"/>佛<anchor xml:id="end_8"/></item>
-<lb ed="D" n="0002a10"/><item xml:id="itemD02p0002a1001">南无日蔵佛</item><item xml:id="itemD02p0002a1006">南无樂聲<anchor xml:id="beg_9" type="cb-app"/>佛<anchor xml:id="end_9"/></item>
+<lb ed="D" n="0002a09"/><item xml:id="itemD02p0002a0901">南无拘蘇摩佛</item><item xml:id="itemD02p0002a0907">南无不動<anchor xml:id="nkr_note_add_0002a0901" n="0002a0901"/><anchor xml:id="beg0002a0901" n="0002a0901"/>佛<anchor xml:id="end0002a0901"/></item>
+<lb ed="D" n="0002a10"/><item xml:id="itemD02p0002a1001">南无日蔵佛</item><item xml:id="itemD02p0002a1006">南无樂聲<anchor xml:id="nkr_note_add_0002a1001" n="0002a1001"/><anchor xml:id="beg0002a1001" n="0002a1001"/>佛<anchor xml:id="end0002a1001"/></item>
 <pb ed="D" xml:id="D02.8680.0003a" n="0003a"/>
-<lb ed="D" n="0003a01"/><item xml:id="itemD02p0003a0101">南无能作光佛</item><item xml:id="itemD02p0003a0107">南无龍徳<anchor xml:id="beg_a" type="cb-app"/>佛<anchor xml:id="end_a"/></item></list>
-<lb ed="D" n="0003a02"/><p xml:id="pD02p0003a0201" rend="margin-left:1em"><g ref="#CB30130">󷖲</g>此以上五千五百佛十二部經一切賢<anchor xml:id="beg_b" type="cb-app"/>聖<anchor xml:id="end_b"/>。</p>
+<lb ed="D" n="0003a01"/><item xml:id="itemD02p0003a0101">南无能作光佛</item><item xml:id="itemD02p0003a0107">南无龍徳<anchor xml:id="nkr_note_add_0003a0101" n="0003a0101"/><anchor xml:id="beg0003a0101" n="0003a0101"/>佛<anchor xml:id="end0003a0101"/></item></list>
+<lb ed="D" n="0003a02"/><p xml:id="pD02p0003a0201" rend="margin-left:1em"><g ref="#CB30130">󷖲</g>此以上五千五百佛十二部經一切賢<anchor xml:id="nkr_note_add_0003a0201" n="0003a0201"/><anchor xml:id="beg0003a0201" n="0003a0201"/>聖<anchor xml:id="end0003a0201"/>。</p>
 <lb ed="D" n="0003a03"/><list><item xml:id="itemD02p0003a0301">南无金剛光佛</item><item xml:id="itemD02p0003a0307">南无稱王佛</item>
 <lb ed="D" n="0003a04"/><item xml:id="itemD02p0003a0401">南无<g ref="#CB29787">󷑛</g>王佛</item><item xml:id="itemD02p0003a0406">南无高光佛</item>
 <lb ed="D" n="0003a05"/><item xml:id="itemD02p0003a0501">南无發行佛</item><item xml:id="itemD02p0003a0506">南无智成就佛</item>
@@ -873,7 +878,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0003a07"/><item xml:id="itemD02p0003a0701">南无火蔵佛</item><item xml:id="itemD02p0003a0706">南无破垢勝王佛</item>
 <lb ed="D" n="0003a08"/><item xml:id="itemD02p0003a0801">南无寶盖脫光佛</item><item xml:id="itemD02p0003a0808">南无山自在王佛</item>
 <lb ed="D" n="0003a09"/><item xml:id="itemD02p0003a0901">南无寶月佛</item><item xml:id="itemD02p0003a0906">南无師子奮迅幢自在<note place="inline">王佛</note></item>
-<lb ed="D" n="0003a10"/><item xml:id="itemD02p0003a1001">南无寶根廣眼佛</item><item xml:id="itemD02p0003a1008">南无世自在王<anchor xml:id="beg_c" type="cb-app"/>佛<anchor xml:id="end_c"/></item>
+<lb ed="D" n="0003a10"/><item xml:id="itemD02p0003a1001">南无寶根廣眼佛</item><item xml:id="itemD02p0003a1008">南无世自在王<anchor xml:id="nkr_note_add_0003a1001" n="0003a1001"/><anchor xml:id="beg0003a1001" n="0003a1001"/>佛<anchor xml:id="end0003a1001"/></item>
 <lb ed="D" n="0003a11"/><item xml:id="itemD02p0003a1101">南无遠離諸怖畏随煩<g ref="#CB08974">𢙉</g>聲佛</item>
 <lb ed="D" n="0003a12"/><item xml:id="itemD02p0003a1201">南无敷華盧舎<g ref="#CB30839">󷡷</g>佛</item><item xml:id="itemD02p0003a1209">南无香波頭摩佛</item>
 <pb ed="D" xml:id="D02.8680.0004a" n="0004a"/>
@@ -904,21 +909,21 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0006a02"/><item xml:id="itemD02p0006a0201">南无遠離逼惚佛</item><item xml:id="itemD02p0006a0208">南无毗沙門堅固王佛</item>
 <lb ed="D" n="0006a03"/><item xml:id="itemD02p0006a0301">南无破摩王宮佛</item><item xml:id="itemD02p0006a0308">南无莎羅王佛</item>
 <lb ed="D" n="0006a04"/><item xml:id="itemD02p0006a0401">南无大奮迅光佛</item><item xml:id="itemD02p0006a0408">南无華勝佛</item>
-<lb ed="D" n="0006a05"/><item xml:id="itemD02p0006a0501">南无旃<anchor xml:id="beg_d" type="cb-app"/>檀<anchor xml:id="end_d"/>佛</item><item xml:id="itemD02p0006a0506">南无<g ref="#CB12752">󳇐</g><g ref="#CB22627">㽞</g>王佛</item>
+<lb ed="D" n="0006a05"/><item xml:id="itemD02p0006a0501">南无旃<anchor xml:id="nkr_note_add_0006a0501" n="0006a0501"/><anchor xml:id="beg0006a0501" n="0006a0501"/>檀<anchor xml:id="end0006a0501"/>佛</item><item xml:id="itemD02p0006a0506">南无<g ref="#CB12752">󳇐</g><g ref="#CB22627">㽞</g>王佛</item>
 <lb ed="D" n="0006a06"/><item xml:id="itemD02p0006a0601">南无拘羅伽堅固樹提佛</item>
 <lb ed="D" n="0006a07"/><item xml:id="itemD02p0006a0701">南无智奮迅佛</item><item xml:id="itemD02p0006a0707">南无二万同名月然燈佛</item>
 <lb ed="D" n="0006a08"/><item xml:id="itemD02p0006a0801">南无无垢身佛</item><item xml:id="itemD02p0006a0807">南无波頭摩光佛</item>
 <lb ed="D" n="0006a09"/><item xml:id="itemD02p0006a0901">南无華勝<g ref="#CB30613">𡵯</g>佛</item><item xml:id="itemD02p0006a0907">南无華光佛</item>
-<lb ed="D" n="0006a10"/><item xml:id="itemD02p0006a1001">南无稱幢佛</item><item xml:id="itemD02p0006a1006">南无<g ref="#CB28959">𨵻</g>浮<anchor xml:id="beg_e" type="cb-app"/>檀<anchor xml:id="end_e"/>金光佛</item>
+<lb ed="D" n="0006a10"/><item xml:id="itemD02p0006a1001">南无稱幢佛</item><item xml:id="itemD02p0006a1006">南无<g ref="#CB28959">𨵻</g>浮<anchor xml:id="nkr_note_add_0006a1001" n="0006a1001"/><anchor xml:id="beg0006a1001" n="0006a1001"/>檀<anchor xml:id="end0006a1001"/>金光佛</item>
 <pb ed="D" xml:id="D02.8680.0007a" n="0007a"/>
-<lb ed="D" n="0007a01"/><item xml:id="itemD02p0007a0101">南无多摩羅<g ref="#CB22053">󵘥</g>葉<anchor xml:id="beg_f" type="cb-app"/>栴檀<anchor xml:id="end_f"/>香佛</item>
+<lb ed="D" n="0007a01"/><item xml:id="itemD02p0007a0101">南无多摩羅<g ref="#CB22053">󵘥</g>葉<anchor xml:id="nkr_note_add_0007a0101" n="0007a0101"/><anchor xml:id="beg0007a0101" n="0007a0101"/>栴檀<anchor xml:id="end0007a0101"/>香佛</item>
 <lb ed="D" n="0007a02"/><item xml:id="itemD02p0007a0201">南无大道智勝佛</item><item xml:id="itemD02p0007a0208">南无不動佛</item>
 <lb ed="D" n="0007a03"/><item xml:id="itemD02p0007a0301">南无<g ref="#CB12752">󳇐</g><g ref="#CB22627">㽞</g>山佛</item><item xml:id="itemD02p0007a0307">南无師子吼佛</item>
 <lb ed="D" n="0007a04"/><item xml:id="itemD02p0007a0401">南无師子幢佛</item><item xml:id="itemD02p0007a0407">南无住虚空佛</item>
 <lb ed="D" n="0007a05"/><item xml:id="itemD02p0007a0501">南无常入涅槃佛</item><item xml:id="itemD02p0007a0508">南无帝釋幢佛</item>
 <lb ed="D" n="0007a06"/><item xml:id="itemD02p0007a0601">南无梵幢佛</item><item xml:id="itemD02p0007a0606">南无无量壽佛</item>
 <lb ed="D" n="0007a07"/><item xml:id="itemD02p0007a0701">南无善度佛</item><item xml:id="itemD02p0007a0706">南无雲燈佛</item>
-<lb ed="D" n="0007a08"/><item xml:id="itemD02p0007a0801">南无<g ref="#CB12752">󳇐</g><g ref="#CB22627">㽞</g>刧佛</item><item xml:id="itemD02p0007a0807">南无多羅摩<g ref="#CB22053">󵘥</g>葉旃<anchor xml:id="beg_10" type="cb-app"/>檀<anchor xml:id="end_10"/><note place="inline">香佛</note></item>
+<lb ed="D" n="0007a08"/><item xml:id="itemD02p0007a0801">南无<g ref="#CB12752">󳇐</g><g ref="#CB22627">㽞</g>刧佛</item><item xml:id="itemD02p0007a0807">南无多羅摩<g ref="#CB22053">󵘥</g>葉旃<anchor xml:id="nkr_note_add_0007a0801" n="0007a0801"/><anchor xml:id="beg0007a0801" n="0007a0801"/>檀<anchor xml:id="end0007a0801"/><note place="inline">香佛</note></item>
 <lb ed="D" n="0007a09"/><item xml:id="itemD02p0007a0901">南无雲自在王佛</item><item xml:id="itemD02p0007a0908">南无一切世間高佛</item>
 <lb ed="D" n="0007a10"/><item xml:id="itemD02p0007a1001">南无能破諸畏佛</item><item xml:id="itemD02p0007a1008">南无<g ref="#CB18232">𥼶</g>迦牟<g ref="#CB21862">󵕦</g>佛</item>
 <lb ed="D" n="0007a11"/><item xml:id="itemD02p0007a1101">南无法光眀佛</item><item xml:id="itemD02p0007a1107">南无五百普光眀佛</item></list>
@@ -985,10 +990,10 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0013a03"/><item xml:id="itemD02p0013a0301">南无金色華香自在王佛</item>
 <lb ed="D" n="0013a04"/><item xml:id="itemD02p0013a0401">南无堅固王佛</item><item xml:id="itemD02p0013a0407">南无堅固勇仙行勝佛</item>
 <lb ed="D" n="0013a05"/><item xml:id="itemD02p0013a0501">南无勝蔵摩<g ref="#CB21862">󵕦</g>光佛</item><item xml:id="itemD02p0013a0509">南无无量香光佛</item>
-<lb ed="D" n="0013a06"/><item xml:id="itemD02p0013a0601">南无師子吼聲佛</item><item xml:id="itemD02p0013a0608">南无大勢至精進脩行畢<note place="inline"><anchor xml:id="beg_11" type="cb-app"/>竟佛<anchor xml:id="end_11"/></note></item>
+<lb ed="D" n="0013a06"/><item xml:id="itemD02p0013a0601">南无師子吼聲佛</item><item xml:id="itemD02p0013a0608">南无大勢至精進脩行畢<note place="inline"><anchor xml:id="nkr_note_add_0013a0601" n="0013a0601"/><anchor xml:id="beg0013a0601" n="0013a0601"/>竟佛<anchor xml:id="end0013a0601"/></note></item>
 <lb ed="D" n="0013a07"/><item xml:id="itemD02p0013a0701">南无堅固智佛</item><item xml:id="itemD02p0013a0707">南无妙皷聲王佛</item>
 <lb ed="D" n="0013a08"/><item xml:id="itemD02p0013a0801">南无月妙佛</item><item xml:id="itemD02p0013a0806">南无華勝佛</item>
-<lb ed="D" n="0013a09"/><item xml:id="itemD02p0013a0901">南无世<anchor xml:id="beg_12" type="cb-app"/>間<anchor xml:id="end_12"/>燈佛</item><item xml:id="itemD02p0013a0907">南无火佛</item>
+<lb ed="D" n="0013a09"/><item xml:id="itemD02p0013a0901">南无世<anchor xml:id="nkr_note_add_0013a0901" n="0013a0901"/><anchor xml:id="beg0013a0901" n="0013a0901"/>間<anchor xml:id="end0013a0901"/>燈佛</item><item xml:id="itemD02p0013a0907">南无火佛</item>
 <lb ed="D" n="0013a10"/><item xml:id="itemD02p0013a1001">南无寶輪佛</item><item xml:id="itemD02p0013a1006">南无无垢智佛</item>
 <pb ed="D" xml:id="D02.8680.0014a" n="0014a"/>
 <lb ed="D" n="0014a01"/><item xml:id="itemD02p0014a0101">南无常寂滅佛</item><item xml:id="itemD02p0014a0107">南无无邊寶化光眀佛</item>
@@ -1088,7 +1093,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0022a07"/><item xml:id="itemD02p0022a0701">南无法界鏡像勝佛</item><item xml:id="itemD02p0022a0709">南无照輪光眀佛</item></list>
 <lb ed="D" n="0022a08"/><p xml:id="pD02p0022a0801" rend="margin-left:2em">次礼十二部尊經大蔵法輪。</p>
 <lb ed="D" n="0022a09"/><list><item xml:id="itemD02p0022a0901">南无<g ref="#CB30839">󷡷</g>頼經</item><item xml:id="itemD02p0022a0906">南无觧日隘神呪經</item>
-<lb ed="D" n="0022a10"/><item xml:id="itemD02p0022a1001">南无<anchor xml:id="beg_13" type="cb-app"/>邪<anchor xml:id="end_13"/>業自活經</item><item xml:id="itemD02p0022a1008">南无八関齋經</item>
+<lb ed="D" n="0022a10"/><item xml:id="itemD02p0022a1001">南无<anchor xml:id="nkr_note_add_0022a1001" n="0022a1001"/><anchor xml:id="beg0022a1001" n="0022a1001"/>邪<anchor xml:id="end0022a1001"/>業自活經</item><item xml:id="itemD02p0022a1008">南无八関齋經</item>
 <pb ed="D" xml:id="D02.8680.0023a" n="0023a"/>
 <lb ed="D" n="0023a01"/><item xml:id="itemD02p0023a0101">南无八陽神呪經</item><item xml:id="itemD02p0023a0108">南无八部佛名經</item>
 <lb ed="D" n="0023a02"/><item xml:id="itemD02p0023a0201">南无和利長者所問經</item><item xml:id="itemD02p0023a0210">南无佛心捴持經</item>
@@ -1135,13 +1140,13 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0026a10"/><item xml:id="itemD02p0026a1001">南无秦摩利辟支佛</item><item xml:id="itemD02p0026a1009">南无月淨辟支佛</item>
 <pb ed="D" xml:id="D02.8680.0027a" n="0027a"/>
 <lb ed="D" n="0027a01"/><item xml:id="itemD02p0027a0101">南无善智辟支佛</item><item xml:id="itemD02p0027a0108">南无脩陁羅辟支佛</item></list>
-<lb ed="D" n="0027a02"/><p xml:id="pD02p0027a0201" rend="margin-left:2em">礼三寶<anchor xml:id="beg_14" type="cb-app"/>已<anchor xml:id="end_14"/>次<g ref="#CB11040">𣸪</g>懺悔。</p>
+<lb ed="D" n="0027a02"/><p xml:id="pD02p0027a0201" rend="margin-left:2em">礼三寶<anchor xml:id="nkr_note_add_0027a0201" n="0027a0201"/><anchor xml:id="beg0027a0201" n="0027a0201"/>已<anchor xml:id="end0027a0201"/>次<g ref="#CB11040">𣸪</g>懺悔。</p>
 <lb ed="D" n="0027a03"/><p xml:id="pD02p0027a0301">已懺三塗<g ref="#CB21717">󵓕</g>報今當<g ref="#CB11040">𣸪</g>次<g ref="#CB29783">󷑗</g><g ref="#CB12078">𡍭</g>懺悔人天餘報
 <lb ed="D" n="0027a04"/>相與稟此<g ref="#CB28959">𨵻</g>浮壽命雖日百年滿者无幾於其
 <lb ed="D" n="0027a05"/>中間盛年<g ref="#CB00794">󰌚</g>枉其<g ref="#CB21092">󵉤</g>无量但有眾苦煎迫形心
 <lb ed="D" n="0027a06"/>愁憂<g ref="#CB06960">𢙢</g>怯未曾蹔離如此皆是善根<g ref="#CB11180">󲮬</g>弱<g ref="#CB08891">𢙣</g>業
 <lb ed="D" n="0027a07"/>滋多<g ref="#CB30191">󷗯</g>使現在心有所為皆不稱意當知悉是過
-<lb ed="D" n="0027a08"/>去<anchor xml:id="beg_15" type="cb-app"/>已<anchor xml:id="end_15"/>來<g ref="#CB08891">𢙣</g>業餘報是故弟子今日至誠歸依佛。</p>
+<lb ed="D" n="0027a08"/>去<anchor xml:id="nkr_note_add_0027a0801" n="0027a0801"/><anchor xml:id="beg0027a0801" n="0027a0801"/>已<anchor xml:id="end0027a0801"/>來<g ref="#CB08891">𢙣</g>業餘報是故弟子今日至誠歸依佛。</p>
 <lb ed="D" n="0027a09"/><list><item xml:id="itemD02p0027a0901">南无東方蓮華上佛</item><item xml:id="itemD02p0027a0909">南无南方調伏佛</item>
 <lb ed="D" n="0027a10"/><item xml:id="itemD02p0027a1001">南无西方无量眀佛</item><item xml:id="itemD02p0027a1009">南无北方勝諸拫佛</item>
 <pb ed="D" xml:id="D02.8680.0028a" n="0028a"/>
@@ -1159,10 +1164,10 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0029a01"/>險驚<g ref="#CB06960">𢙢</g>怯弱罪報懺悔人間孤獨困苦流離波迸
 <lb ed="D" n="0029a02"/>亡失國土罪報懺悔人間窂獄繫閇幽執側立鞭
 <lb ed="D" n="0029a03"/>撻拷楚罪報懺悔人間公<g ref="#CB30678">𥝠</g>口舌便相羅染更相
-<lb ed="D" n="0029a04"/>誣謗罪報懺悔人間<g ref="#CB08891">𢙣</g>病連年累月不差<anchor xml:id="beg_16" type="cb-app"/>枕<anchor xml:id="end_16"/>臥
+<lb ed="D" n="0029a04"/>誣謗罪報懺悔人間<g ref="#CB08891">𢙣</g>病連年累月不差<anchor xml:id="nkr_note_add_0029a0401" n="0029a0401"/><anchor xml:id="beg0029a0401" n="0029a0401"/>枕<anchor xml:id="end0029a0401"/>臥
 <lb ed="D" n="0029a05"/>床廗不能<g ref="#CB22137">𧺫</g>居罪報懺悔人間冬溫夏疫毒厲傷
 <lb ed="D" n="0029a06"/>寒罪報懺悔人間賊風腫滿否寒罪報懺悔人間
-<lb ed="D" n="0029a07"/>為諸<g ref="#CB08891">𢙣</g>神伺求其便欲作禍<anchor xml:id="beg_17" type="cb-app"/>祟<anchor xml:id="end_17"/>罪報懺悔人間有
+<lb ed="D" n="0029a07"/>為諸<g ref="#CB08891">𢙣</g>神伺求其便欲作禍<anchor xml:id="nkr_note_add_0029a0701" n="0029a0701"/><anchor xml:id="beg0029a0701" n="0029a0701"/>祟<anchor xml:id="end0029a0701"/>罪報懺悔人間有
 <lb ed="D" n="0029a08"/>鳥鳴百恠飛屍耶鬼為作<g ref="#CB22914">󵦂</g>異罪報懺悔人間為
 <lb ed="D" n="0029a09"/><g ref="#CB23133">󵩝</g>豹犲狼水陸一切諸<g ref="#CB08891">𢙣</g>禽獸所傷罪報懺悔人間
 <lb ed="D" n="0029a10"/>自經自<g ref="#CB02863">㓨</g>自煞罪報懺悔人間投巖赴火自沈自墜
@@ -1425,7 +1430,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0052a05"/><item xml:id="itemD02p0052a0501">南无歡喜辟支佛</item><item xml:id="itemD02p0052a0508">南无喜辟支佛</item>
 <lb ed="D" n="0052a06"/><item xml:id="itemD02p0052a0601">南无随喜辟支佛</item><item xml:id="itemD02p0052a0608">南无十二婆羅堕辟支佛</item></list>
 <lb ed="D" n="0052a07"/><p xml:id="pD02p0052a0701" rend="margin-left:1em"><g ref="#CB30130">󷖲</g>此以上六千四百佛十二部經一切賢聖。</p>
-<lb ed="D" n="0052a08"/><p xml:id="pD02p0052a0801" rend="margin-left:2em">礼三寶<anchor xml:id="beg_18" type="cb-app"/>已<anchor xml:id="end_18"/>次<g ref="#CB11040">𣸪</g>懺悔。</p>
+<lb ed="D" n="0052a08"/><p xml:id="pD02p0052a0801" rend="margin-left:2em">礼三寶<anchor xml:id="nkr_note_add_0052a0801" n="0052a0801"/><anchor xml:id="beg0052a0801" n="0052a0801"/>已<anchor xml:id="end0052a0801"/>次<g ref="#CB11040">𣸪</g>懺悔。</p>
 <lb ed="D" n="0052a09"/><p xml:id="pD02p0052a0901">夫欲礼懺必湏先敬三寶所以然者三寶即是
 <lb ed="D" n="0052a10"/>一切眾生良友福田若能歸向者則滅无量
 <pb ed="D" xml:id="D02.8680.0053a" n="0053a"/>
@@ -1460,7 +1465,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0055a06"/>轉猶若車輪生老病死八苦交煎无時蹔息眾
 <lb ed="D" n="0055a07"/><g ref="#CB21717">󵓕</g>相与但觀自身<g ref="#CB30130">󷖲</g>頭至<g ref="#CB30133">󷖵</g>其中但有卅六物髮
 <lb ed="D" n="0055a08"/>毛抓齒膿血涕唾生熟二蔵大膓小膓脾腎心肺
-<lb ed="D" n="0055a09"/>肝<anchor xml:id="beg_19" type="cb-app"/>膽<anchor xml:id="end_19"/><g ref="#CB09521">𦚻</g><g ref="#CB00787">𦝩</g>肪膏<g ref="#CB00956">𦜩</g>膜<g ref="#CB01506">󰗢</g>脉骨髄大小便利九孔
+<lb ed="D" n="0055a09"/>肝<anchor xml:id="nkr_note_add_0055a0901" n="0055a0901"/><anchor xml:id="beg0055a0901" n="0055a0901"/>膽<anchor xml:id="end0055a0901"/><g ref="#CB09521">𦚻</g><g ref="#CB00787">𦝩</g>肪膏<g ref="#CB00956">𦜩</g>膜<g ref="#CB01506">󰗢</g>脉骨髄大小便利九孔
 <lb ed="D" n="0055a10"/>常流是故經言此身苦所集一切皆不淨何有智
 <lb ed="D" n="0055a11"/>恵者而當樂此身生死既有如此種種<g ref="#CB08891">𢙣</g>法甚可患。</p>
 <pb ed="D" xml:id="D02.8680.0056a" n="0056a"/>
@@ -1485,7 +1490,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0057a08"/>既<g ref="#CB30130">󷖲</g>因緣而生則可<g ref="#CB30130">󷖲</g>因緣而滅<g ref="#CB30130">󷖲</g>因緣而生者狎
 <lb ed="D" n="0057a09"/>近<g ref="#CB08891">𢙣</g>友造作无端<g ref="#CB30130">󷖲</g>因緣而滅者即是今日洗心
 <lb ed="D" n="0057a10"/>懺悔是故經言此罪相不在內不在外不在中間故
-<lb ed="D" n="0057a11"/>如此罪<g ref="#CB30130">󷖲</g>本是空生如是<g ref="#CB21717">󵓕</g>種心<anchor xml:id="beg_1a" type="cb-app"/>已<anchor xml:id="end_1a"/>緣想十方諸
+<lb ed="D" n="0057a11"/>如此罪<g ref="#CB30130">󷖲</g>本是空生如是<g ref="#CB21717">󵓕</g>種心<anchor xml:id="nkr_note_add_0057a1101" n="0057a1101"/><anchor xml:id="beg0057a1101" n="0057a1101"/>已<anchor xml:id="end0057a1101"/>緣想十方諸
 <pb ed="D" xml:id="D02.8680.0058a" n="0058a"/>
 <lb ed="D" n="0058a01"/>佛賢聖擎捲合掌披陳至到慚愧改革舒歷
 <lb ed="D" n="0058a02"/>心肝洗蕩膓<g ref="#CB00787">𦝩</g>如此懺悔亦何罪而不滅亦何障而不消
@@ -1573,32 +1578,63 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>檀</corr><sic><g ref="#CB29785">󷑙</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>聖</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>佛</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr>檀</corr><sic><g ref="#CB29784">󷑘</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>檀</corr><sic><g ref="#CB29785">󷑙</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>栴檀</corr><sic><g ref="#CB29785">󷑙</g><g ref="#CB13366">󳐶</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>檀</corr><sic><g ref="#CB29784">󷑘</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>竟佛</corr><sic><unclear></unclear><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_12" cb:to="#end_12"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>邪</corr><sic>耶</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_14" cb:to="#end_14"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_15" cb:to="#end_15"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_16" cb:to="#end_16"><corr>枕</corr><sic>扰</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_17" cb:to="#end_17"><corr>祟<note type="cf1">T14n0441_p0294b19</note></corr><sic>崇</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_18" cb:to="#end_18"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_19" cb:to="#end_19"><corr>膽</corr><sic>瞻</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1a" cb:to="#end_1a"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0001a0201" to="#end0001a0201"><lem wit="#wit1" resp="#resp2">佛</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0001a0601" to="#end0001a0601"><lem wit="#wit1" resp="#resp2">佛</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0002a0101" to="#end0002a0101"><lem wit="#wit1" resp="#resp2">檀</lem><rdg wit="#wit2"><g ref="#CB29785">󷑙</g></rdg></app>
+<app from="#beg0002a0102" to="#end0002a0102"><lem wit="#wit1" resp="#resp2">佛</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0002a0201" to="#end0002a0201"><lem wit="#wit1" resp="#resp2">佛</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0002a0301" to="#end0002a0301"><lem wit="#wit1" resp="#resp2">佛</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0002a0401" to="#end0002a0401"><lem wit="#wit1" resp="#resp2">佛</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0002a0901" to="#end0002a0901"><lem wit="#wit1" resp="#resp2">佛</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0002a1001" to="#end0002a1001"><lem wit="#wit1" resp="#resp2">佛</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0003a0101" to="#end0003a0101"><lem wit="#wit1" resp="#resp2">佛</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0003a0201" to="#end0003a0201"><lem wit="#wit1" resp="#resp2">聖</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0003a1001" to="#end0003a1001"><lem wit="#wit1" resp="#resp2">佛</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0006a0501" to="#end0006a0501"><lem wit="#wit1" resp="#resp2">檀</lem><rdg wit="#wit2"><g ref="#CB29784">󷑘</g></rdg></app>
+<app from="#beg0006a1001" to="#end0006a1001"><lem wit="#wit1" resp="#resp2">檀</lem><rdg wit="#wit2"><g ref="#CB29785">󷑙</g></rdg></app>
+<app from="#beg0007a0101" to="#end0007a0101"><lem wit="#wit1" resp="#resp2">栴檀</lem><rdg wit="#wit2"><g ref="#CB29785">󷑙</g><g ref="#CB13366">󳐶</g></rdg></app>
+<app from="#beg0007a0801" to="#end0007a0801"><lem wit="#wit1" resp="#resp2">檀</lem><rdg wit="#wit2"><g ref="#CB29784">󷑘</g></rdg></app>
+<app from="#beg0013a0601" to="#end0013a0601"><lem wit="#wit1" resp="#resp2">竟佛</lem><rdg wit="#wit2"><unclear></unclear><unclear></unclear></rdg></app>
+<app from="#beg0013a0901" to="#end0013a0901"><lem wit="#wit1" resp="#resp2">間</lem><rdg wit="#wit2">閒</rdg></app>
+<app from="#beg0022a1001" to="#end0022a1001"><lem wit="#wit1" resp="#resp2">邪</lem><rdg wit="#wit2">耶</rdg></app>
+<app from="#beg0027a0201" to="#end0027a0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0027a0801" to="#end0027a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0029a0401" to="#end0029a0401"><lem wit="#wit1" resp="#resp2">枕</lem><rdg wit="#wit2">扰</rdg></app>
+<app from="#beg0029a0701" to="#end0029a0701"><lem wit="#wit1" resp="#resp2">祟<note type="cf1">T14n0441_p0294b19</note></lem><rdg wit="#wit2">崇</rdg></app>
+<app from="#beg0052a0801" to="#end0052a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0055a0901" to="#end0055a0901"><lem wit="#wit1" resp="#resp2">膽</lem><rdg wit="#wit2">瞻</rdg></app>
+<app from="#beg0057a1101" to="#end0057a1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0001a0201" resp="#resp1" type="add" target="#nkr_note_add_0001a0201">佛【CB】，［－］【國圖】</note>
+<note n="0001a0601" resp="#resp1" type="add" target="#nkr_note_add_0001a0601">佛【CB】，［－］【國圖】</note>
+<note n="0002a0101" resp="#resp1" type="add" target="#nkr_note_add_0002a0101">檀【CB】，<g ref="#CB29785">󷑙</g>【國圖】</note>
+<note n="0002a0102" resp="#resp1" type="add" target="#nkr_note_add_0002a0102">佛【CB】，［－］【國圖】</note>
+<note n="0002a0201" resp="#resp1" type="add" target="#nkr_note_add_0002a0201">佛【CB】，［－］【國圖】</note>
+<note n="0002a0301" resp="#resp1" type="add" target="#nkr_note_add_0002a0301">佛【CB】，［－］【國圖】</note>
+<note n="0002a0401" resp="#resp1" type="add" target="#nkr_note_add_0002a0401">佛【CB】，［－］【國圖】</note>
+<note n="0002a0901" resp="#resp1" type="add" target="#nkr_note_add_0002a0901">佛【CB】，［－］【國圖】</note>
+<note n="0002a1001" resp="#resp1" type="add" target="#nkr_note_add_0002a1001">佛【CB】，［－］【國圖】</note>
+<note n="0003a0101" resp="#resp1" type="add" target="#nkr_note_add_0003a0101">佛【CB】，［－］【國圖】</note>
+<note n="0003a0201" resp="#resp1" type="add" target="#nkr_note_add_0003a0201">聖【CB】，［－］【國圖】</note>
+<note n="0003a1001" resp="#resp1" type="add" target="#nkr_note_add_0003a1001">佛【CB】，［－］【國圖】</note>
+<note n="0006a0501" resp="#resp1" type="add" target="#nkr_note_add_0006a0501">檀【CB】，<g ref="#CB29784">󷑘</g>【國圖】</note>
+<note n="0006a1001" resp="#resp1" type="add" target="#nkr_note_add_0006a1001">檀【CB】，<g ref="#CB29785">󷑙</g>【國圖】</note>
+<note n="0007a0101" resp="#resp1" type="add" target="#nkr_note_add_0007a0101">栴檀【CB】，<g ref="#CB29785">󷑙</g><g ref="#CB13366">󳐶</g>【國圖】</note>
+<note n="0007a0801" resp="#resp1" type="add" target="#nkr_note_add_0007a0801">檀【CB】，<g ref="#CB29784">󷑘</g>【國圖】</note>
+<note n="0013a0601" resp="#resp1" type="add" target="#nkr_note_add_0013a0601">竟佛【CB】，<unclear></unclear><unclear></unclear>【國圖】</note>
+<note n="0013a0901" resp="#resp1" type="add" target="#nkr_note_add_0013a0901">間【CB】，閒【國圖】</note>
+<note n="0022a1001" resp="#resp1" type="add" target="#nkr_note_add_0022a1001">邪【CB】，耶【國圖】</note>
+<note n="0027a0201" resp="#resp1" type="add" target="#nkr_note_add_0027a0201">已【CB】，巳【國圖】</note>
+<note n="0027a0801" resp="#resp1" type="add" target="#nkr_note_add_0027a0801">已【CB】，巳【國圖】</note>
+<note n="0029a0401" resp="#resp1" type="add" target="#nkr_note_add_0029a0401">枕【CB】，扰【國圖】</note>
+<note n="0029a0701" resp="#resp1" type="add" target="#nkr_note_add_0029a0701">祟【CB】，崇【國圖】</note>
+<note n="0052a0801" resp="#resp1" type="add" target="#nkr_note_add_0052a0801">已【CB】，巳【國圖】</note>
+<note n="0055a0901" resp="#resp1" type="add" target="#nkr_note_add_0055a0901">膽【CB】，瞻【國圖】</note>
+<note n="0057a1101" resp="#resp1" type="add" target="#nkr_note_add_0057a1101">已【CB】，巳【國圖】</note>
 </p>
 </cb:div>
 </back></text></TEI>

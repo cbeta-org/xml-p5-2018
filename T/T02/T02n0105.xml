@@ -37,8 +37,8 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
-		<witness xml:id="wit5">【CBETA】</witness>
-		<witness xml:id="wit6">【麗】</witness>
+		<witness xml:id="wit5">【CB】</witness>
+		<witness xml:id="wit6">【麗-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -163,7 +163,7 @@ Added comment  for Emacs
 <lb n="0501a13" ed="T"/>無不實，但病但結但瘡但偽，非真非常，為苦
 <lb n="0501a14" ed="T"/>為空為非身為消盡。所以者何？色之性無有
 <lb n="0501a15" ed="T"/>強。譬如，比丘！天雨<anchor xml:id="nkr_note_orig_0501002" n="0501002"/><anchor xml:id="nkr_note_mod_0501002" n="0501002"/><anchor xml:id="beg0501002" n="0501002"/>渧<anchor xml:id="end0501002"/>水，一泡適起一泡即滅，
-<lb n="0501a16" ed="T"/>目<anchor xml:id="beg_1" type="cb-app"/>士<anchor xml:id="end_1"/>見之觀視省察，即知非有、虛無、不實、速
+<lb n="0501a16" ed="T"/>目<anchor xml:id="nkr_note_add_0501a1601" n="0501a1601"/><anchor xml:id="beg0501a1601" n="0501a1601"/>士<anchor xml:id="end0501a1601"/>見之觀視省察，即知非有、虛無、不實、速
 <lb n="0501a17" ed="T"/>消、歸盡。所以者何？泡無強故。如是，比丘！一
 <lb n="0501a18" ed="T"/>切所痛去來現在，內外麁細好醜遠近，比丘
 <lb n="0501a19" ed="T"/>見知，當熟省視，觀其不有虛無不實，但病但
@@ -202,7 +202,7 @@ Added comment  for Emacs
 <lb n="0501b22" ed="T"/><l>空虛之為審，</l><l>不覩其有常，</l>
 <lb n="0501b23" ed="T"/><l>欲見陰當爾，</l><l><anchor xml:id="nkr_note_orig_0501006" n="0501006"/><anchor xml:id="nkr_note_mod_0501006" n="0501006"/><anchor xml:id="beg0501006" n="0501006"/>真<anchor xml:id="end0501006"/>智說皆然。</l>
 <lb n="0501b24" ed="T"/><l>三事斷絕時，</l><l>知身無所直，</l>
-<lb n="0501b25" ed="T"/><l>命氣<anchor xml:id="nkr_note_orig_0501007" n="0501007"/><anchor xml:id="beg0501007" n="0501007"/>溫<anchor xml:id="end0501007"/><anchor xml:id="nkr_note_orig_0501008" n="0501008"/><anchor xml:id="beg0501008" n="0501008"/>燸<anchor xml:id="end0501008"/>識，</l><l>捨身而轉逝。</l>
+<lb n="0501b25" ed="T"/><l>命氣<anchor xml:id="nkr_note_orig_0501007" n="0501007"/><anchor xml:id="nkr_note_mod_0501007" n="0501007"/><anchor xml:id="beg0501007" n="0501007"/>溫<anchor xml:id="end0501007"/><anchor xml:id="nkr_note_orig_0501008" n="0501008"/><anchor xml:id="nkr_note_mod_0501008" n="0501008"/><anchor xml:id="beg0501008" n="0501008"/>燸<anchor xml:id="end0501008"/>識，</l><l>捨身而轉逝。</l>
 <lb n="0501b26" ed="T"/><l>當其死臥地，</l><l>猶草無所知，</l>
 <lb n="0501b27" ed="T"/><l>觀其狀如是，</l><l>但幻而愚貪。</l>
 <lb n="0501b28" ed="T"/><l><anchor xml:id="nkr_note_orig_0501009" n="0501009"/><anchor xml:id="nkr_note_mod_0501009" n="0501009"/><anchor xml:id="beg0501009" n="0501009"/>心心<anchor xml:id="end0501009"/>為無安，</l><l>亦無有牢強，</l>
@@ -219,7 +219,7 @@ Added comment  for Emacs
 <p>
 <app from="#beg0501001" to="#end0501001"><lem wit="#wit1">安息三藏</lem><rdg resp="#resp1" wit="#wit2 #wit3">三藏法師</rdg><rdg resp="#resp1" wit="#wit4">安息國三藏法師</rdg></app>
 <app from="#beg0501002" to="#end0501002"><lem wit="#wit1">渧</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">滴</rdg></app>
-<app from="#beg_1" to="#end_1"><lem resp="#resp3" wit="#wit5 #wit6">士<note type="cf1">K19n0743_p0685a13</note><note type="cf2">T02n0105_p0501a09</note></lem><rdg wit="#wit1">土</rdg></app>
+<app from="#beg0501a1601" to="#end0501a1601"><lem resp="#resp3" wit="#wit5 #wit6">士<note type="cf1">K19n0743_p0685a13</note><note type="cf2">T02n0105_p0501a09</note></lem><rdg wit="#wit1">土</rdg></app>
 <app from="#beg0501003" to="#end0501003"><lem wit="#wit1">故</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0501004" to="#end0501004"><lem wit="#wit1">劈</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">擘</rdg></app>
 <app from="#beg0501005" to="#end0501005"><lem wit="#wit1"><g ref="#CB00315">㓟</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">皮</rdg></app>
@@ -233,14 +233,16 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0501001" resp="#resp2" type="mod" target="#nkr_note_mod_0501001">安息三藏＝三藏法師【宋】【元】，＝安息國三藏法師【明】</note>
-<note n="0501002" resp="#resp2" type="mod" target="#nkr_note_mod_0501002">渧＝滴【宋】【元】【明】</note>
-<note n="0501003" resp="#resp2" type="mod" target="#nkr_note_mod_0501003">〔故〕－【宋】【元】【明】</note>
-<note n="0501004" resp="#resp2" type="mod" target="#nkr_note_mod_0501004">劈＝擘【宋】【元】【明】</note>
-<note n="0501005" resp="#resp2" type="mod" target="#nkr_note_mod_0501005"><g ref="#CB00315">㓟</g>＝皮【宋】【元】【明】</note>
-<note n="0501006" resp="#resp2" type="mod" target="#nkr_note_mod_0501006">真＝直【宋】【元】【明】</note>
-<note n="0501009" resp="#resp2" type="mod" target="#nkr_note_mod_0501009">心心＝正止【宋】，＝正正【元】【明】</note>
-<note n="0501010" resp="#resp2" type="mod" target="#nkr_note_mod_0501010">勤＝進【宋】【元】【明】</note>
+<note n="0501001" resp="#resp2" type="mod" target="#nkr_note_mod_0501001">安息三藏【大】，三藏法師【宋】【元】，安息國三藏法師【明】</note>
+<note n="0501002" resp="#resp2" type="mod" target="#nkr_note_mod_0501002">渧【大】，滴【宋】【元】【明】</note>
+<note n="0501003" resp="#resp2" type="mod" target="#nkr_note_mod_0501003">故【大】，〔－〕【宋】【元】【明】</note>
+<note n="0501004" resp="#resp2" type="mod" target="#nkr_note_mod_0501004">劈【大】，擘【宋】【元】【明】</note>
+<note n="0501005" resp="#resp2" type="mod" target="#nkr_note_mod_0501005"><g ref="#CB00315">㓟</g>【大】，皮【宋】【元】【明】</note>
+<note n="0501006" resp="#resp2" type="mod" target="#nkr_note_mod_0501006">真【大】，直【宋】【元】【明】</note>
+<note n="0501007" resp="#resp2" type="mod" target="#nkr_note_mod_0501007">溫【大】，熅【宋】</note>
+<note n="0501008" resp="#resp2" type="mod" target="#nkr_note_mod_0501008">燸【大】，煖【元】【明】</note>
+<note n="0501009" resp="#resp2" type="mod" target="#nkr_note_mod_0501009">心心【大】，正止【宋】，正正【元】【明】</note>
+<note n="0501010" resp="#resp2" type="mod" target="#nkr_note_mod_0501010">勤【大】，進【宋】【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -256,6 +258,12 @@ Added comment  for Emacs
 <note n="0501008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0501008">燸＝煖【元】【明】</note>
 <note n="0501009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0501009">心心＝正止【宋】，正正【元】【明】</note>
 <note n="0501010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0501010">勤＝進【三】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0501a1601" resp="#resp2" type="add" target="#nkr_note_add_0501a1601">士【CB】【麗-CB】，土【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

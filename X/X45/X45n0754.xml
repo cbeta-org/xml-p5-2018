@@ -14,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 08:58:44 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 45, No. 754</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -90,7 +94,7 @@ BY duncan
 <lb ed="X" n="0152b01"/><lb ed="R071" n="0525b04"/>相法門體也既總體而平等故名平等下平等者是
 <lb ed="X" n="0152b02"/><lb ed="R071" n="0525b05"/>心真如門情非情之通體淨不淨之等依其一心法
 <lb ed="X" n="0152b03"/><lb ed="R071" n="0525b06"/>界舉體寂靜遠離名言畢竟平等更無能所之差別
-<lb ed="X" n="0152b04"/><lb ed="R071" n="0525b07"/>何有性相之殊異故論云是故一切法從本<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>來乃
+<lb ed="X" n="0152b04"/><lb ed="R071" n="0525b07"/>何有性相之殊異故論云是故一切法從本<anchor xml:id="nkr_note_add_0152b0401" n="0152b0401"/><anchor xml:id="beg0152b0401" n="0152b0401"/>已<anchor xml:id="end0152b0401"/>來乃
 <lb ed="X" n="0152b05"/><lb ed="R071" n="0525b08"/>至畢竟平等無有變異不可破壞唯是一心故名真
 <lb ed="X" n="0152b06"/><lb ed="R071" n="0525b09"/>如既通<anchor xml:id="nkr_note_orig_0152007" n="0152007"/>體而無別故名平等問一心與真如是有何
 <lb ed="X" n="0152b07"/><lb ed="R071" n="0525b10"/>異邪解云一心法界者<anchor xml:id="nkr_note_orig_0152008" n="0152008"/>括因果理事而為中實是名
@@ -127,11 +131,11 @@ BY duncan
 <lb ed="X" n="0152c13"/><lb ed="R071" n="0526b04"/>還是自體本覺也謂此無明所動眾生之心<anchor xml:id="nkr_note_orig_0152025" n="0152025"/>因本覺
 <lb ed="X" n="0152c14"/><lb ed="R071" n="0526b05"/>內薰之力緣佛菩薩善友之力初信一心之本源還
 <lb ed="X" n="0152c15"/><lb ed="R071" n="0526b06"/>起本覺之淨用故更還云差別之差別故論云以此
-<lb ed="X" n="0152c16"/><lb ed="R071" n="0526b07"/>妄心有厭求因緣故即薰習真如自信<anchor xml:id="beg_2" type="cb-app"/>己<anchor xml:id="end_2"/>性知心妄
+<lb ed="X" n="0152c16"/><lb ed="R071" n="0526b07"/>妄心有厭求因緣故即薰習真如自信<anchor xml:id="nkr_note_add_0152c1601" n="0152c1601"/><anchor xml:id="beg0152c1601" n="0152c1601"/>己<anchor xml:id="end0152c1601"/>性知心妄
 <lb ed="X" n="0152c17"/><lb ed="R071" n="0526b08"/>動無前境界修遠離法等。</p>
 <lb ed="X" n="0152c18"/><lb ed="R071" n="0526b09"/><p xml:id="pX45p0152c1801">第二句中上差別者還是性淨本覺也下平等者更
 <pb ed="X" xml:id="X45.0754.0153a" n="0153a"/>
-<lb ed="X" n="0153a01"/><lb ed="R071" n="0526b10"/>亦心真如門也謂既信<anchor xml:id="beg_3" type="cb-app"/>己<anchor xml:id="end_3"/>性之一心其信心決定是
+<lb ed="X" n="0153a01"/><lb ed="R071" n="0526b10"/>亦心真如門也謂既信<anchor xml:id="nkr_note_add_0153a0101" n="0153a0101"/><anchor xml:id="beg0153a0101" n="0153a0101"/>己<anchor xml:id="end0153a0101"/>性之一心其信心決定是
 <lb ed="X" n="0153a02"/><lb ed="R071" n="0526b11"/>名十信位<anchor xml:id="nkr_note_orig_0153001" n="0153001"/>此十信之位既起決定之信依此<anchor xml:id="nkr_note_orig_0153002" n="0153002"/>信故更
 <lb ed="X" n="0153a03"/><lb ed="R071" n="0526b12"/>解一心之源其心解決定名十解位此十解之位既
 <lb ed="X" n="0153a04"/><lb ed="R071" n="0526b13"/>起決<anchor xml:id="nkr_note_orig_0153003" n="0153003"/>定解依此解心<anchor xml:id="nkr_note_orig_0153004" n="0153004"/>發起隨順一心方便之行其行
@@ -173,16 +177,16 @@ BY duncan
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>己</corr><sic>巳</sic></choice>
+<app from="#beg0152b0401" to="#end0152b0401"><lem wit="#wit1" resp="#resp3">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0152c1601" to="#end0152c1601"><lem wit="#wit1" resp="#resp3">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0153a0101" to="#end0153a0101"><lem wit="#wit1" resp="#resp3">己</lem><rdg wit="#wit2">巳</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0152012" resp="#resp3" type="mod" target="#nkr_note_mod_0152012">一無第三<choice cb:resp="#resp2"><corr>已</corr><sic>巳</sic></choice>下十七字</note>
-<note n="0152016" resp="#resp3" type="mod" target="#nkr_note_mod_0152016">一無與隨<choice cb:resp="#resp2"><corr>已</corr><sic>巳</sic></choice>下十四字</note>
+<note n="0152012" resp="#resp2" type="mod" target="#nkr_note_mod_0152012">一無第三已下十七字</note>
+<note n="0152016" resp="#resp2" type="mod" target="#nkr_note_mod_0152016">一無與隨已下十四字</note>
 </p>
 </cb:div>
 <cb:div type="xuzang-notes">
@@ -231,6 +235,14 @@ BY duncan
 <note n="0153016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0153016">一無界字</note>
 <note n="0153017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0153017">一無論字</note>
 <note n="0153018" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0153018">大意作義</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0152b0401" resp="#resp2" type="add" target="#nkr_note_add_0152b0401">已【CB】，巳【卍續】</note>
+<note n="0152c1601" resp="#resp2" type="add" target="#nkr_note_add_0152c1601">己【CB】，巳【卍續】</note>
+<note n="0153a0101" resp="#resp2" type="add" target="#nkr_note_add_0153a0101">己【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

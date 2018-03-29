@@ -13,8 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.15 $<date>$Date: 2012/11/01 05:31:33 $</date>新式標點版</edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		<respStmt xml:id="resp3"><resp>corrections</resp><name>Taisho</name></respStmt>
 	</editionStmt>
 	<extent>2卷</extent>
@@ -33,8 +33,8 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 32, No. 1645</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【磧砂】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【磧-CB】</witness>
 		<witness xml:id="wit3">【大】</witness>
 	</listWit>
 	</sourceDesc>
@@ -755,7 +755,7 @@ Added comment  for Emacs
 <lb n="0232a08" ed="T"/>上地獄漸空，生餓鬼趣。如是餓鬼、傍生趣空。
 <lb n="0232a09" ed="T"/>人趣之中除鳩婁人，餘共欲天，無師法然獲
 <lb n="0232a10" ed="T"/>初靜慮，生初禪天。北鳩婁人生欲界天，獲初
-<lb n="0232a11" ed="T"/><anchor xml:id="beg_1" type="cb-app"/>靜<anchor xml:id="end_1"/>慮生初禪天，無師法然獲二靜慮生二禪
+<lb n="0232a11" ed="T"/><anchor xml:id="nkr_note_add_0232a1101" n="0232a1101"/><anchor xml:id="beg0232a1101" n="0232a1101"/>靜<anchor xml:id="end0232a1101"/>慮生初禪天，無師法然獲二靜慮生二禪
 <lb n="0232a12" ed="T"/>天。從無間獄至梵世空，如是亦經十九中劫。
 <lb n="0232a13" ed="T"/>然後四洲有七日出，初不降雨，藥草叢林悉
 <lb n="0232a14" ed="T"/>皆枯槁。二日出時溝池乾涸，三日出時殑伽
@@ -884,7 +884,7 @@ Added comment  for Emacs
 <lb n="0233b17" ed="T"/>種唯修所斷，遍意識地，名小煩惱地法。六、不
 <lb n="0233b18" ed="T"/>定法者，有八種，尋謂令心於境麁轉為相；伺
 <lb n="0233b19" ed="T"/>謂令心於境細轉為相；惡作謂惡所作業是
-<lb n="0233b20" ed="T"/>追悔義；<anchor xml:id="beg_2" type="cb-app"/>睡<anchor xml:id="end_2"/>眠謂不能任持身心相續令心昧
+<lb n="0233b20" ed="T"/>追悔義；<anchor xml:id="nkr_note_add_0233b2001" n="0233b2001"/><anchor xml:id="beg0233b2001" n="0233b2001"/>睡<anchor xml:id="end0233b2001"/>眠謂不能任持身心相續令心昧
 <lb n="0233b21" ed="T"/>略；瞋謂令心於有情等樂為損害；貪謂愛著
 <lb n="0233b22" ed="T"/>有漏；慢謂令心恃舉；疑謂令心猶豫。如是八
 <lb n="0233b23" ed="T"/>種，於前諸地無有定故，名曰不定。《對法集論》
@@ -1152,7 +1152,7 @@ Added comment  for Emacs
 <lb n="0236b15" ed="T"/>無有造作。問：真如豈非無為耶？答：彼即無我，
 <lb n="0236b16" ed="T"/>以聲聞乘不說法無我故。人無我者，即無常
 <lb n="0236b17" ed="T"/>等十六行相，三諦行相即是有為，滅諦行相
-<lb n="0236b18" ed="T"/>惟擇滅法，非餘法故。如是器、<anchor xml:id="beg_3" type="cb-app"/>情<anchor xml:id="end_3"/>、道、果、無為，所
+<lb n="0236b18" ed="T"/>惟擇滅法，非餘法故。如是器、<anchor xml:id="nkr_note_add_0236b1801" n="0236b1801"/><anchor xml:id="beg0236b1801" n="0236b1801"/>情<anchor xml:id="end0236b1801"/>、道、果、無為，所
 <lb n="0236b19" ed="T"/>知五者，總攝一切所知法故。情器之法即是
 <lb n="0236b20" ed="T"/>苦諦，成彼之因即是集諦，道果二法即是道
 <lb n="0236b21" ed="T"/>諦，擇滅無為即是滅諦。虛空、非擇二種、無為
@@ -1247,21 +1247,29 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg_1" to="#end_1"><lem resp="#resp1" wit="#wit1 #wit2">靜<note type="cf1">Q37_p0196a24</note></lem><rdg wit="#wit3">諍</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>睡</corr><sic>唾</sic></choice>
-<app from="#beg_3" to="#end_3"><lem resp="#resp1" wit="#wit1 #wit2">情<note type="cf1">Q37_p0200b05</note></lem><rdg wit="#wit3">精</rdg></app>
+<app from="#beg0232a1101" to="#end0232a1101"><lem resp="#resp2" wit="#wit1 #wit2">靜<note type="cf1">Q37_p0196a24</note></lem><rdg wit="#wit3">諍</rdg></app>
+<app from="#beg0233b2001" to="#end0233b2001"><lem wit="#wit1" resp="#resp1">睡</lem><rdg wit="#wit3">唾</rdg></app>
+<app from="#beg0236b1801" to="#end0236b1801"><lem resp="#resp2" wit="#wit1 #wit2">情<note type="cf1">Q37_p0200b05</note></lem><rdg wit="#wit3">精</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note resp="#resp2" n="0238000" type="mod" target="#nkr_note_mod_0238000">(A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照（CBETA 按：大正藏校勘欄有「(A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照」之校勘條目，但此頁內文及大正藏校勘欄無相對應之校勘符號，故將此頁校勘符號作[00]處理，並置於本頁內文最後。）</note>
+<note resp="#resp1" n="0238000" type="mod" target="#nkr_note_mod_0238000">(A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照（CBETA 按：大正藏校勘欄有「(A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照」之校勘條目，但此頁內文及大正藏校勘欄無相對應之校勘符號，故將此頁校勘符號作[00]處理，並置於本頁內文最後。）</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note resp="#resp3" n="0238000" place="foot" type="orig" target="#nkr_note_orig_0238000">(A) P.101 [08] 參照，(B) 乃至 (F) P. 102 [02][03][05][07][12] 參照</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0232a1101" resp="#resp1" type="add" target="#nkr_note_add_0232a1101">靜【CB】【磧-CB】，諍【大】</note>
+<note n="0233b2001" resp="#resp1" type="add" target="#nkr_note_add_0233b2001">睡【CB】，唾【大】</note>
+<note n="0236b1801" resp="#resp1" type="add" target="#nkr_note_add_0236b1801">情【CB】【磧-CB】，精【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2010/03/19 07:50:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2800</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -181,7 +186,7 @@ Added comment  for Emacs
 <lb n="0783a01" ed="T"/>路。此則言百論。為欲顯多非謂數唯有百。其
 <lb n="0783a02" ed="T"/>猶百王不易百味食等。然此百論之上並置
 <lb n="0783a03" ed="T"/>別名。如舊百論名經百論。以長行直說名修
-<lb n="0783a04" ed="T"/>多羅故。故彼論云修<anchor xml:id="beg_1" type="cb-app"/>妬<anchor xml:id="end_1"/>路。修<anchor xml:id="beg_2" type="cb-app"/>妬<anchor xml:id="end_2"/>路者即是經
+<lb n="0783a04" ed="T"/>多羅故。故彼論云修<anchor xml:id="nkr_note_add_0783a0401" n="0783a0401"/><anchor xml:id="beg0783a0401" n="0783a0401"/>妬<anchor xml:id="end0783a0401"/>路。修<anchor xml:id="nkr_note_add_0783a0402" n="0783a0402"/><anchor xml:id="beg0783a0402" n="0783a0402"/>妬<anchor xml:id="end0783a0402"/>路者即是經
 <lb n="0783a05" ed="T"/>也。舊云。論有百偈故以百為名。此論有二十
 <lb n="0783a06" ed="T"/>品品各五偈。後十品無益此立故不翻者此
 <lb n="0783a07" ed="T"/>謬也。檢尋梵本但有十品。又此論有八品。品
@@ -2051,8 +2056,8 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>妬</corr><sic>始</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>妬</corr><sic>始</sic></choice>
+<app from="#beg0783a0401" to="#end0783a0401"><lem wit="#wit1" resp="#resp3">妬</lem><rdg wit="#wit2">始</rdg></app>
+<app from="#beg0783a0402" to="#end0783a0402"><lem wit="#wit1" resp="#resp3">妬</lem><rdg wit="#wit2">始</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -2060,6 +2065,13 @@ Added comment  for Emacs
 <p>
 <note n="0782001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0782001">【原】佛蘭西國民圖書館藏燉煌本, P. 2101, 首題新加</note>
 <note n="0782002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0782002">首缺</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0783a0401" resp="#resp2" type="add" target="#nkr_note_add_0783a0401">妬【CB】，始【大】</note>
+<note n="0783a0402" resp="#resp2" type="add" target="#nkr_note_add_0783a0402">妬【CB】，始【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

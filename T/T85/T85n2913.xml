@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:15:21 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2913</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -149,7 +154,7 @@ Added comment  for Emacs
 <lb n="1459b17" ed="T"/><l>唯有修福德</l><l>智慧隨身軀</l></lg>
 <lb n="1459b18" ed="T"/><p xml:id="pT85p1459b1801">第五女說偈言。</p>
 <lb n="1459b19" ed="T"/><lg xml:id="lgT85p1459b1901"><l>人之不修福</l><l>譬如乘船渡</l>
-<lb n="1459b20" ed="T"/><l>四大<anchor xml:id="beg_1" type="cb-app"/>乖<anchor xml:id="end_1"/>離時</l><l>如船捨岸去</l>
+<lb n="1459b20" ed="T"/><l>四大<anchor xml:id="nkr_note_add_1459b2001" n="1459b2001"/><anchor xml:id="beg1459b2001" n="1459b2001"/>乖<anchor xml:id="end1459b2001"/>離時</l><l>如船捨岸去</l>
 <lb n="1459b21" ed="T"/><l>地定風不動</l><l>火微水還故</l>
 <lb n="1459b22" ed="T"/><l>身非神常宅</l><l>安得久長處</l></lg>
 <lb n="1459b23" ed="T"/><p xml:id="pT85p1459b2301">第六女說偈言。</p>
@@ -178,13 +183,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>乖<note type="cf1">T39n1791_p0488b29</note></corr><sic>乘</sic></choice>
+<app from="#beg1459b2001" to="#end1459b2001"><lem wit="#wit1" resp="#resp3">乖<note type="cf1">T39n1791_p0488b29</note></lem><rdg wit="#wit2">乘</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1459001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1459001">【原】大英博物館藏燉煌本, S. 1548</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1459b2001" resp="#resp2" type="add" target="#nkr_note_add_1459b2001">乖【CB】，乘【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

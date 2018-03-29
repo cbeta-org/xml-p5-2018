@@ -14,8 +14,8 @@
         <editionStmt>
                 <edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:00:01 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -32,7 +32,11 @@
         </publicationStmt>
         <sourceDesc>
                 <bibl>Taishō Tripiṭaka Vol. 19, No. 927</bibl>
-        </sourceDesc>
+        <listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
+	</sourceDesc>
 </fileDesc>
 <encodingDesc>
         <projectDesc>
@@ -414,7 +418,7 @@ Added comment  for Emacs
 <lb n="0050c22" ed="T"/><p xml:id="pT19p0050c2201">復次三寶諦實一切諸佛菩薩攝授。二種資
 <lb n="0050c23" ed="T"/>糧圓滿最勝力。法界清淨不可思議勝力。如
 <lb n="0050c24" ed="T"/>是成就<note place="inline">三遍誦</note>。</p>
-<lb n="0050c25" ed="T"/><p xml:id="pT19p0050c2501" rend="margin-left:1em"><note place="inline">供品攝授下。奉請諸聖。右膝著地<anchor xml:id="beg_1" type="cb-app"/>拈<anchor xml:id="end_1"/>花合掌。而作是念。所出奉請語句口誦。兼作緣念。東方去此過四殑河沙
+<lb n="0050c25" ed="T"/><p xml:id="pT19p0050c2501" rend="margin-left:1em"><note place="inline">供品攝授下。奉請諸聖。右膝著地<anchor xml:id="nkr_note_add_0050c2501" n="0050c2501"/><anchor xml:id="beg0050c2501" n="0050c2501"/>拈<anchor xml:id="end0050c2501"/>花合掌。而作是念。所出奉請語句口誦。兼作緣念。東方去此過四殑河沙
 <lb n="0050c26" ed="T"/>土。從無勝清淨世界。請善名佛。過五<g ref="#CB03635">𢫈</g>河沙土。從妙寶世界請寶月佛。過六殑河沙土。從充滿妙香世界。請金
 <lb n="0050c27" ed="T"/>色佛。過七殑河沙土。從離憂世界。請無憂佛。過八殑河沙土。從法幢世界。請法揚佛。過九<g ref="#CB03635">𢫈</g>河沙土。從寶海世
 <lb n="0050c28" ed="T"/>界請勝慧佛。過十殑河沙土。從琉璃光明世界請藥師佛等。各同無數眷屬。飃然騰空。無礙神通來臨。而作堅固
@@ -577,8 +581,8 @@ Added comment  for Emacs
 <lb n="0052c07" ed="T"/><l>二諦雙融聖教正妙法</l>
 <lb n="0052c08" ed="T"/><l>二足受持最勝眾僧伽</l>
 <lb n="0052c09" ed="T"/><l>歸依處所三寶我敬禮</l></lg>
-<lb n="0052c10" ed="T"/><p xml:id="pT19p0052c1001" rend="margin-left:1em"><note place="inline">此宗派皆我所得授者。因據實書寫。若自<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>別得師傳。其上師實數。一一察出。恭敬入之不可以非<anchor xml:id="beg_3" type="cb-app"/>己<anchor xml:id="end_3"/>師
-<lb n="0052c11" ed="T"/>者。訛言也。亦不得以<anchor xml:id="beg_4" type="cb-app"/>己<anchor xml:id="end_4"/>心各自所愛門頭取入。以炫為希有之宗派。蓋世間之大愛者。雖如父母等。諷誦
+<lb n="0052c10" ed="T"/><p xml:id="pT19p0052c1001" rend="margin-left:1em"><note place="inline">此宗派皆我所得授者。因據實書寫。若自<anchor xml:id="nkr_note_add_0052c1001" n="0052c1001"/><anchor xml:id="beg0052c1001" n="0052c1001"/>已<anchor xml:id="end0052c1001"/>別得師傳。其上師實數。一一察出。恭敬入之不可以非<anchor xml:id="nkr_note_add_0052c1002" n="0052c1002"/><anchor xml:id="beg0052c1002" n="0052c1002"/>己<anchor xml:id="end0052c1002"/>師
+<lb n="0052c11" ed="T"/>者。訛言也。亦不得以<anchor xml:id="nkr_note_add_0052c1101" n="0052c1101"/><anchor xml:id="beg0052c1101" n="0052c1101"/>己<anchor xml:id="end0052c1101"/>心各自所愛門頭取入。以炫為希有之宗派。蓋世間之大愛者。雖如父母等。諷誦
 <lb n="0052c12" ed="T"/>時。亦不可擅取入也。詳叅</note>。</p>
 <lb n="0052c13" ed="T"/><p xml:id="pT19p0052c1301">頂禮供養歸依。十方三世善逝並諸弟子。</p>
 <lb n="0052c14" ed="T"/><p xml:id="pT19p0052c1401">頂禮供養歸依。應供正等正覺善名稱吉祥
@@ -1487,16 +1491,25 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>拈</corr><sic><g ref="#CB03635">𢫈</g></sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_4" cb:to="#end_4"><corr>己</corr><sic>已</sic></choice>
+<app from="#beg0050c2501" to="#end0050c2501"><lem wit="#wit1" resp="#resp3">拈</lem><rdg wit="#wit2"><g ref="#CB03635">𢫈</g></rdg></app>
+<app from="#beg0052c1001" to="#end0052c1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0052c1002" to="#end0052c1002"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0052c1101" to="#end0052c1101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0048001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0048001">【原】清道光四年刊</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0050c2501" resp="#resp2" type="add" target="#nkr_note_add_0050c2501">拈【CB】，<g ref="#CB03635">𢫈</g>【大】</note>
+<note n="0052c1001" resp="#resp2" type="add" target="#nkr_note_add_0052c1001">已【CB】，巳【大】</note>
+<note n="0052c1002" resp="#resp2" type="add" target="#nkr_note_add_0052c1002">己【CB】，已【大】</note>
+<note n="0052c1101" resp="#resp2" type="add" target="#nkr_note_add_0052c1101">己【CB】，已【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

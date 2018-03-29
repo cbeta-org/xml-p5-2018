@@ -12,7 +12,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 08:48:29 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,6 +30,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 1, No. 24</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -91,10 +96,10 @@ no message
 <lb ed="X" n="0415a14"/><lb ed="R087" n="0598b11"/>罪消滅惡口浪舌罪消滅殺生害命罪消滅前生冤
 <lb ed="X" n="0415a15"/><lb ed="R087" n="0598b12"/>業罪消滅今生冤業罪消滅前生父母罪消滅今生
 <lb ed="X" n="0415a16"/><lb ed="R087" n="0598b13"/>父母罪消滅又說災星金星木星水星火星土星太
-<lb ed="X" n="0415a17"/><lb ed="R087" n="0598b14"/>陽星太陰星羅睺星計都星紫炁星月孛星懺悔<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>
+<lb ed="X" n="0415a17"/><lb ed="R087" n="0598b14"/>陽星太陰星羅睺星計都星紫炁星月孛星懺悔<anchor xml:id="nkr_note_add_0415a1701" n="0415a1701"/><anchor xml:id="beg0415a1701" n="0415a1701"/>已<anchor xml:id="end0415a1701"/>
 <lb ed="X" n="0415a18"/><lb ed="R087" n="0598b15"/>後願災星不照福曜長臨四時無病八節無災若有
 <lb ed="X" n="0415a19"/><lb ed="R087" n="0598b16"/>善男子善女人早納壽生錢分明解說漏貫薄小納
-<lb ed="X" n="0415a20"/><lb ed="R087" n="0598b17"/>在庫中庫官收付至百年命終之後七七<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>前早燒
+<lb ed="X" n="0415a20"/><lb ed="R087" n="0598b17"/>在庫中庫官收付至百年命終之後七七<anchor xml:id="nkr_note_add_0415a2001" n="0415a2001"/><anchor xml:id="beg0415a2001" n="0415a2001"/>已<anchor xml:id="end0415a2001"/>前早燒
 <lb ed="X" n="0415a21"/><lb ed="R087" n="0598b18"/>取壽生經救度三世父母七代先亡九族冤魂皆得
 <lb ed="X" n="0415a22"/><lb ed="R087" n="0599a01"/>生天儒流學士僧尼道俗或貴或賤若有善男子善
 <lb ed="X" n="0415a23"/><lb ed="R087" n="0599a02"/>女人今生早燒壽生錢三世富貴今生不燒三世貧
@@ -114,8 +119,15 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0415a1701" to="#end0415a1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0415a2001" to="#end0415a2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0415a1701" resp="#resp1" type="add" target="#nkr_note_add_0415a1701">已【CB】，巳【卍續】</note>
+<note n="0415a2001" resp="#resp1" type="add" target="#nkr_note_add_0415a2001">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

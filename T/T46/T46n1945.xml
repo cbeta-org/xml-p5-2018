@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 46, No. 1945</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -377,7 +381,7 @@ Added comment  for Emacs
 <lb n="0959c28" ed="T"/>灑。則局施諸神。於理不便。略如前說。行者欲稱三寶。當合掌低頭鞠躬平聲三稱云</note></head>
 <pb n="0960a" xml:id="T46.1945.0960a" ed="T"/>
 <lb n="0960a01" ed="T"/><p xml:id="pT46p0960a0101">南無寶華瑠璃佛。南無金光明經。南無第一
-<lb n="0960a02" ed="T"/>威德成就眾事大功德天<note place="inline">如是三稱已。次<anchor xml:id="beg_1" type="cb-app"/>虔<anchor xml:id="end_1"/>奉供養專想面對。後陳
+<lb n="0960a02" ed="T"/>威德成就眾事大功德天<note place="inline">如是三稱已。次<anchor xml:id="nkr_note_add_0960a0201" n="0960a0201"/><anchor xml:id="beg0960a0201" n="0960a0201"/>虔<anchor xml:id="end0960a0201"/>奉供養專想面對。後陳
 <lb n="0960a03" ed="T"/>辭句。餘時須除去飲食并淨潔如法。復持散擲等語。但云香華至同圓種智而止。便即禮佛</note>。</p>
 <lb n="0960a04" ed="T"/><p xml:id="pT46p0960a0401">今我道場敷設供養。然種種燈。燒種種香。奉
 <lb n="0960a05" ed="T"/>種種飲食。淨潔如法。恭持奉供諸佛世尊大
@@ -546,13 +550,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>虔</corr><sic><g ref="#CB05418">䖍</g></sic></choice>
+<app from="#beg0960a0201" to="#end0960a0201"><lem wit="#wit1" resp="#resp2">虔</lem><rdg wit="#wit2"><g ref="#CB05418">䖍</g></rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0957001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0957001">【原】康熙六年刊增上寺報恩藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0960a0201" resp="#resp2" type="add" target="#nkr_note_add_0960a0201">虔【CB】，<g ref="#CB05418">䖍</g>【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

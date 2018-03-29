@@ -13,8 +13,9 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.5 $<date>$Date: 2009/04/22 08:54:10 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 26, No. 515</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -163,8 +168,8 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0190c17"/><lb ed="R094" n="0856b08"/>仰蒙
 <lb ed="X" n="0190c18" type="honorific"/><lb ed="R094" n="0856b09"/>佛庇。法孫海濶。率徒寂妙等。捨命忘軀。夜扶老體。同
 <lb ed="X" n="0190c19"/><lb ed="R094" n="0856b10"/>戒密觀。還居本寺。後有門人湛一肫公。營山人。
-<lb ed="X" n="0190c20"/><lb ed="R094" n="0856b11"/>精嚴教理。見圍厄<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>解。憶弘經念深。再四迫余。
-<lb ed="X" n="0190c21"/><lb ed="R094" n="0856b12"/>災木償願。遂再參詳。欲辭達義通<anchor xml:id="beg_2" type="cb-app"/>僭<anchor xml:id="end_2"/>名科疏。庶
+<lb ed="X" n="0190c20"/><lb ed="R094" n="0856b11"/>精嚴教理。見圍厄<anchor xml:id="nkr_note_add_0190c2001" n="0190c2001"/><anchor xml:id="beg0190c2001" n="0190c2001"/>已<anchor xml:id="end0190c2001"/>解。憶弘經念深。再四迫余。
+<lb ed="X" n="0190c21"/><lb ed="R094" n="0856b12"/>災木償願。遂再參詳。欲辭達義通<anchor xml:id="nkr_note_add_0190c2101" n="0190c2101"/><anchor xml:id="beg0190c2101" n="0190c2101"/>僭<anchor xml:id="end0190c2101"/>名科疏。庶
 <lb ed="X" n="0190c22"/><lb ed="R094" n="0856b13"/>覧者有秉燭之觀。無尋枝之厭。藉此以通經。經
 <lb ed="X" n="0190c23"/><lb ed="R094" n="0856b14"/>通而意得。意既得矣。則般若智體。昭昭然於心
 <lb ed="X" n="0190c24"/><lb ed="R094" n="0856b15"/>目之間。晃晃乎於色塵之內。如是則靈山不離
@@ -1003,14 +1008,21 @@ basicx 程式 轉自 簡單標記版
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>僭</corr><sic>僣</sic></choice>
+<app from="#beg0190c2001" to="#end0190c2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0190c2101" to="#end0190c2101"><lem wit="#wit1" resp="#resp2">僭</lem><rdg wit="#wit2">僣</rdg></app>
 </p>
 </cb:div>
 <cb:div type="xuzang-notes">
 <head>卍續藏 校註</head>
 <p>
-<note n="0191001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0191001">目錄新作</note>
+<note n="0191001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0191001">目錄新作</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0190c2001" resp="#resp1" type="add" target="#nkr_note_add_0190c2001">已【CB】，巳【卍續】</note>
+<note n="0190c2101" resp="#resp1" type="add" target="#nkr_note_add_0190c2101">僭【CB】，僣【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.12 $<date>$Date: 2012/08/27 03:14:03 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,8 +33,8 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 3, No. 175a</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【麗-CB】</witness>
 		<witness xml:id="wit3">【大】</witness>
 	</listWit>
 	</sourceDesc>
@@ -130,7 +131,7 @@ Added comment  for Emacs
 <lb n="0438b06" ed="T"/><cb:docNumber>No. 175</cb:docNumber>
 <lb n="0438b07" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0438005" n="0438005"/>佛說睒子經</cb:jhead></cb:juan>
 <lb n="0438b08" ed="T"/>
-<lb n="0438b09" ed="T"/><byline cb:type="Translator">西<anchor xml:id="beg_1" type="cb-app"/>秦<anchor xml:id="end_1"/>沙門聖堅奉　詔譯</byline>
+<lb n="0438b09" ed="T"/><byline cb:type="Translator">西<anchor xml:id="nkr_note_add_0438b0901" n="0438b0901"/><anchor xml:id="beg0438b0901" n="0438b0901"/>秦<anchor xml:id="end0438b0901"/>沙門聖堅奉　詔譯</byline>
 <lb n="0438b10" ed="T"/><cb:div type="jing"><p xml:id="pT03p0438b1001">聞如是：</p><p xml:id="pT03p0438b1004" rend="inline">一時，佛在比羅勒國，與千二百五十
 <lb n="0438b11" ed="T"/>比丘俱，及眾菩薩、國王、大臣、人民，長者、居士、
 <lb n="0438b12" ed="T"/>清信、士女不可稱計，一時來會。</p><p xml:id="pT03p0438b1213" rend="inline">佛告諸比丘：
@@ -289,13 +290,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg_1" to="#end_1"><lem resp="#resp2" wit="#wit1 #wit2">秦<note type="cf1">K11n0209_p0369a02</note></lem><rdg wit="#wit3">晉</rdg></app>
+<app from="#beg0438b0901" to="#end0438b0901"><lem resp="#resp3" wit="#wit1 #wit2">秦<note type="cf1">K11n0209_p0369a02</note></lem><rdg wit="#wit3">晉</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0438005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0438005">此經麗本也與三本大異宋本與元明亦異對校甚難故以宋附卷末以元校明又出其次</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0438b0901" resp="#resp2" type="add" target="#nkr_note_add_0438b0901">秦【CB】【麗-CB】，晉【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

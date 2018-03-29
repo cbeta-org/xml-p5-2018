@@ -32,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 46, No. 1940</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -323,7 +327,7 @@ Added comment  for Emacs
 <lb n="0944b13" ed="T"/>生重心故。令一切障道罪滅。若無如上之人。
 <lb n="0944b14" ed="T"/>但使戒根清淨。浮囊所護。雖不能言詞辯了
 <lb n="0944b15" ed="T"/>廣明法相。亦得為次善知識也。</p></cb:div>
-<lb n="0944b16" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">3 前方便緣</cb:mulu><p xml:id="pT46p0944b1601"><anchor xml:id="beg_1" type="cb-app"/>三<anchor xml:id="end_1"/>前方便緣者。七日行道。誦呪令利。至誠禮
+<lb n="0944b16" ed="T"/><cb:div type="other"><cb:mulu level="2" type="其他">3 前方便緣</cb:mulu><p xml:id="pT46p0944b1601"><anchor xml:id="nkr_note_add_0944b1601" n="0944b1601"/><anchor xml:id="beg0944b1601" n="0944b1601"/>三<anchor xml:id="end0944b1601"/>前方便緣者。七日行道。誦呪令利。至誠禮
 <lb n="0944b17" ed="T"/>懺。請十二夢王。求乞見其形相。若感一一相
 <lb n="0944b18" ed="T"/>者。方可得行如是懺法。經云。</p>
 <lb n="0944b19" ed="T"/><p xml:id="pT46p0944b1901">若有男女。於其夢中修通能飛。懸繒幡蓋從
@@ -742,7 +746,7 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp3" cb:from="#beg_1" cb:to="#end_1"><corr>三</corr><sic>二</sic></choice>
+<app from="#beg0944b1601" to="#end0944b1601"><lem wit="#wit1" resp="#resp3">三</lem><rdg wit="#wit2">二</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
@@ -755,6 +759,12 @@ Added comment  for Emacs
 <head>大正 校註</head>
 <p>
 <note n="0943001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0943001">【原】清康<g ref="#CB07799">󱹷</g>　年刊增上寺報恩藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0944b1601" resp="#resp2" type="add" target="#nkr_note_add_0944b1601">三【CB】，二【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

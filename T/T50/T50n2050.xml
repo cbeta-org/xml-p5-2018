@@ -30,6 +30,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 50, No. 2050</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -448,7 +452,7 @@ Added comment  for Emacs
 <lb n="0193c19" ed="T"/>赤白狀如月暈。凝於虛空遙蓋寺頂。又黃雀
 <lb n="0193c20" ed="T"/>群飛翾動嘈噆。棲集簷宇半日方去。師云。江
 <lb n="0193c21" ed="T"/>魚化為黃雀來此謝恩耳。師遣門人慧拔金
-<lb n="0193c22" ed="T"/>陵表聞。降陳宣帝勅云。嚴禁<anchor xml:id="beg_1" type="cb-app"/>采<anchor xml:id="end_1"/>捕永為放生
+<lb n="0193c22" ed="T"/>陵表聞。降陳宣帝勅云。嚴禁<anchor xml:id="nkr_note_add_0193c2201" n="0193c2201"/><anchor xml:id="beg0193c2201" n="0193c2201"/>采<anchor xml:id="end0193c2201"/>捕永為放生
 <lb n="0193c23" ed="T"/>之池。陳東宮問徐陵曰。天台功德誰為製碑。
 <lb n="0193c24" ed="T"/>答云願神筆玉著。會宣帝崩不復得就勅國
 <lb n="0193c25" ed="T"/>子祭酒徐孝克以樹高碑。碑今在山。覽者墮
@@ -468,7 +472,7 @@ Added comment  for Emacs
 <lb n="0194a09" ed="T"/>振錫雲聚紹像法之將墜以救昏蒙。顯慧日
 <lb n="0194a10" ed="T"/>之重光用拯澆俗。加以游浪法門貫通禪苑。
 <lb n="0194a11" ed="T"/>有為之結已離。無生之忍現前。弟子飄颺業
-<lb n="0194a12" ed="T"/>風沈淪愛水。雖飡法喜弗<anchor xml:id="beg_2" type="cb-app"/>祛<anchor xml:id="end_2"/>蒙蔽之心。徒仰
+<lb n="0194a12" ed="T"/>風沈淪愛水。雖飡法喜弗<anchor xml:id="nkr_note_add_0194a1201" n="0194a1201"/><anchor xml:id="beg0194a1201" n="0194a1201"/>祛<anchor xml:id="end0194a1201"/>蒙蔽之心。徒仰
 <lb n="0194a13" ed="T"/>禪悅終懷散動之慮。日輪馳騖羲和之轡不
 <lb n="0194a14" ed="T"/>停。月鏡迴軒。嫦娥之影難駐。有離有會歎
 <lb n="0194a15" ed="T"/>息奚言愛法敬法潺湲無已。願生生世世值
@@ -823,8 +827,15 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>采</corr><sic>釆</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>祛</corr><sic>袪</sic></choice>
+<app from="#beg0193c2201" to="#end0193c2201"><lem wit="#wit1" resp="#resp1">采</lem><rdg wit="#wit2">釆</rdg></app>
+<app from="#beg0194a1201" to="#end0194a1201"><lem wit="#wit1" resp="#resp1">祛</lem><rdg wit="#wit2">袪</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0193c2201" resp="#resp1" type="add" target="#nkr_note_add_0193c2201">采【CB】，釆【大】</note>
+<note n="0194a1201" resp="#resp1" type="add" target="#nkr_note_add_0194a1201">祛【CB】，袪【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

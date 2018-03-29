@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:15:15 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -339,7 +340,7 @@ Added comment  for Emacs
 <lb n="0255b09" ed="T"/>聞緣覺出世間善法者。從此訖受具足故者。
 <lb n="0255b10" ed="T"/>明於因入也。將明於入也。先說於善出。若從
 <lb n="0255b11" ed="T"/>此出還入是也。達池如大乘。八河如四因四
-<lb n="0255b12" ed="T"/>果也。四人因善皆入大乘也。正法<anchor xml:id="nkr_note_orig_0255001" n="0255001"/><anchor xml:id="beg0255001" n="0255001"/>往<anchor xml:id="end0255001"/>者。佛
+<lb n="0255b12" ed="T"/>果也。四人因善皆入大乘也。正法<anchor xml:id="nkr_note_orig_0255001" n="0255001"/><anchor xml:id="nkr_note_mod_0255001" n="0255001"/><anchor xml:id="beg0255001" n="0255001"/>往<anchor xml:id="end0255001"/>者。佛
 <lb n="0255b13" ed="T"/>法住世劫數多少也。正法滅者。正法滅已至
 <lb n="0255b14" ed="T"/>像法也。像法滅已佛法都滅也。為大乘故說
 <lb n="0255b15" ed="T"/>者。法住法滅即是大乘欲令二乘解知不異
@@ -705,7 +706,7 @@ Added comment  for Emacs
 <lb n="0259b15" ed="T"/>者。復舉此句者。欲明三乘行人未見未得也。</p>
 <lb n="0259b16" ed="T"/><p xml:id="pT85p0259b1601">有二種者第九經名也。如來藏者眾生佛性。
 <lb n="0259b17" ed="T"/>是一種也。空智者如來佛性。是二種也。空如
-<lb n="0259b18" ed="T"/>來藏者。若離<anchor xml:id="nkr_note_orig_0259001" n="0259001"/><anchor xml:id="beg0259001" n="0259001"/>說<anchor xml:id="end0259001"/>一切煩惱藏。此解空智也。
+<lb n="0259b18" ed="T"/>來藏者。若離<anchor xml:id="nkr_note_orig_0259001" n="0259001"/><anchor xml:id="nkr_note_mod_0259001" n="0259001"/><anchor xml:id="beg0259001" n="0259001"/>說<anchor xml:id="end0259001"/>一切煩惱藏。此解空智也。
 <lb n="0259b19" ed="T"/>不空如來訖不思議佛性法。此明眾生佛性
 <lb n="0259b20" ed="T"/>也。此二者此上二種性空智諸大聲聞者。無
 <lb n="0259b21" ed="T"/>四住分段為空智也。菩薩有大心聞一乘也。
@@ -902,6 +903,13 @@ Added comment  for Emacs
 <p>
 <app from="#beg0255001" to="#end0255001"><lem resp="#resp1" wit="#wit1">往</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">住</rdg></app>
 <app from="#beg0259001" to="#end0259001"><lem resp="#resp1" wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">脫</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0255001" resp="#resp2" type="mod" target="#nkr_note_mod_0255001">往【大】，住【考偽-大】</note>
+<note n="0259001" resp="#resp2" type="mod" target="#nkr_note_mod_0259001">說【大】，脫【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

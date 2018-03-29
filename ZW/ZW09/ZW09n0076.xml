@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.4 $<date>$Date: 2010/03/16 08:21:01 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>ZangWai</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 9, No. 76</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -317,7 +322,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="ZW" n="0374a20"/>元釋教錄》卷第十八裏也有《世間出世間兩階人發菩提心
 <lb ed="ZW" n="0374a21"/>法》一卷的名稱，而在夾註上介紹詳細的名稱《明諸大乘
 <lb ed="ZW" n="0374a22"/>眾多羅內世間出世間兩階人發菩提心同異法》（大正
-<lb ed="ZW" n="0374a23"/>55/678中）。另外，在<anchor xml:id="beg_1" type="cb-app"/>陝<anchor xml:id="end_1"/>西省淳化縣的金川灣三階教刻經
+<lb ed="ZW" n="0374a23"/>55/678中）。另外，在<anchor xml:id="nkr_note_add_0374a2301" n="0374a2301"/><anchor xml:id="beg0374a2301" n="0374a2301"/>陝<anchor xml:id="end0374a2301"/>西省淳化縣的金川灣三階教刻經
 <lb ed="ZW" n="0374a24"/>裏又發現了《明諸大乘眾多羅內世間出世間兩階人發菩提
 <lb ed="ZW" n="0374a25"/>心同異法》的石刻文獻。現在，中國社會科學院張總教授
 <lb ed="ZW" n="0374a26"/>對這篇文獻正在進行詳細的研究。</p>
@@ -495,7 +500,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>陝</corr><sic>陜</sic></choice>
+<app from="#beg0374a2301" to="#end0374a2301"><lem wit="#wit1" resp="#resp3">陝</lem><rdg wit="#wit2">陜</rdg></app>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
@@ -510,6 +515,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <note n="0369007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0369007">西本照真：《三階教的研究》，1998年，春秋社。</note>
 <note n="0370008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0370008">西本照真：《〈佛性觀修善法〉題解．录文》，載《蔵外佛教文献》第九輯。《〈佛性觀修善法〉的基礎的研究》，載木村清孝博士還曆記念論集《東亞佛教的形成與展開》，2002年、春秋社。</note>
 <note n="0370009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0370009">西本照真：《〈三階佛法〉諸本的成立和流傳》，載牧田諦亮監，落合俊典編：《七寺古逸經典研究叢書．第五卷．中國日本撰述經典（五）．撰述書》，2000年。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0374a2301" resp="#resp2" type="add" target="#nkr_note_add_0374a2301">陝【CB】，陜【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -13,8 +13,9 @@
 		</titleStmt>
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>DILA</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>DILA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>12卷</extent>
 		<publicationStmt>
@@ -31,7 +32,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Zhongguo Fosi Shizhi Huikan Vol. 22, No. 20</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【志彙】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -502,7 +507,7 @@ $Log:$
 <lb ed="GA" n="0023a04"/><item xml:id="itemGA022p0023a0401"><p xml:id="pGA022p0023a0401" rend="margin-left:1em">田汝成《西湖遊覽志》</p></item>
 <lb ed="GA" n="0023a05"/><item xml:id="itemGA022p0023a0501"><p xml:id="pGA022p0023a0501" rend="margin-left:1em">陳善《杭州府志》</p></item>
 <lb ed="GA" n="0023a06"/><item xml:id="itemGA022p0023a0601"><p xml:id="pGA022p0023a0601" rend="margin-left:1em">聶心湯《錢塘縣志》</p></item>
-<lb ed="GA" n="0023a07"/><item xml:id="itemGA022p0023a0701"><p xml:id="pGA022p0023a0701" rend="margin-left:1em">馬汝礪《<anchor xml:id="beg_1" type="cb-app"/>盱<anchor xml:id="end_1"/>眙縣志》</p></item>
+<lb ed="GA" n="0023a07"/><item xml:id="itemGA022p0023a0701"><p xml:id="pGA022p0023a0701" rend="margin-left:1em">馬汝礪《<anchor xml:id="nkr_note_add_0023a0701" n="0023a0701"/><anchor xml:id="beg0023a0701" n="0023a0701"/>盱<anchor xml:id="end0023a0701"/>眙縣志》</p></item>
 <lb ed="GA" n="0023a08"/><item xml:id="itemGA022p0023a0801"><p xml:id="pGA022p0023a0801" rend="margin-left:1em">吳瓚《武林紀事》</p></item>
 <pb ed="GA" xml:id="GA022.0020.0024a" n="0024a"/>
 <lb ed="GA" n="0024a01"/><item xml:id="itemGA022p0024a0101"><p xml:id="pGA022p0024a0101" rend="margin-left:1em">袁宏道《石公集》</p></item>
@@ -587,21 +592,21 @@ $Log:$
 <lb ed="GA" n="0032a08"/>
 <pb ed="GA" xml:id="GA022.0020.0033a" n="0033a"/>
 <lb ed="GA" n="0033a01"/><cb:div type="other"><cb:mulu type="其他" level="2">凡例</cb:mulu><head>龍井見聞錄凡例</head>
-<lb ed="GA" n="0033a02"/><list><item xml:id="itemGA022p0033a0201"><p xml:id="pGA022p0033a0201" rend="margin-left:1em"><anchor xml:id="beg_2" type="cb-app"/><space quantity="0"/><anchor xml:id="end_2"/>杭州龍井，北宋始著。乾隆辛未丁丑，恭逢
+<lb ed="GA" n="0033a02"/><list><item xml:id="itemGA022p0033a0201"><p xml:id="pGA022p0033a0201" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0033a0201" n="0033a0201"/><anchor xml:id="beg0033a0201" n="0033a0201"/><space quantity="0"/><anchor xml:id="end0033a0201"/>杭州龍井，北宋始著。乾隆辛未丁丑，恭逢
 <lb ed="GA" n="0033a03"/>聖駕南巡，龍井未經
 <lb ed="GA" n="0033a04"/>臨幸。伏讀
 <lb ed="GA" n="0033a05"/>御製〈觀採茶歌〉二首，敬謹錄登卷首，以為山靈佛法
 <lb ed="GA" n="0033a06"/>之慶。</p></item>
-<lb ed="GA" n="0033a07"/><item xml:id="itemGA022p0033a0701"><p xml:id="pGA022p0033a0701" rend="margin-left:1em"><anchor xml:id="beg_3" type="cb-app"/><space quantity="0"/><anchor xml:id="end_3"/>語關
+<lb ed="GA" n="0033a07"/><item xml:id="itemGA022p0033a0701"><p xml:id="pGA022p0033a0701" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0033a0701" n="0033a0701"/><anchor xml:id="beg0033a0701" n="0033a0701"/><space quantity="0"/><anchor xml:id="end0033a0701"/>語關
 <lb ed="GA" n="0033a08"/>祖宗、
 <pb ed="GA" xml:id="GA022.0020.0034a" n="0034a"/>
 <lb ed="GA" n="0034a01"/>皇上
 <lb ed="GA" n="0034a02"/>國家者，謹分別跳行書；標題頂格者，跳行書，分別
 <lb ed="GA" n="0034a03"/>出格。</p></item>
-<lb ed="GA" n="0034a04"/><item xml:id="itemGA022p0034a0401"><p xml:id="pGA022p0034a0401" rend="margin-left:1em"><anchor xml:id="beg_4" type="cb-app"/><space quantity="0"/><anchor xml:id="end_4"/>南山之北，輒稱龍井。〈山水〉一門期於貫串源
+<lb ed="GA" n="0034a04"/><item xml:id="itemGA022p0034a0401"><p xml:id="pGA022p0034a0401" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0034a0401" n="0034a0401"/><anchor xml:id="beg0034a0401" n="0034a0401"/><space quantity="0"/><anchor xml:id="end0034a0401"/>南山之北，輒稱龍井。〈山水〉一門期於貫串源
 <lb ed="GA" n="0034a05"/>委，旁及嶺左右山水。要不敢闌入他處以混
 <lb ed="GA" n="0034a06"/>界域焉。寺則不在此例。</p></item>
-<lb ed="GA" n="0034a07"/><item xml:id="itemGA022p0034a0701"><p xml:id="pGA022p0034a0701" rend="margin-left:1em"><anchor xml:id="beg_5" type="cb-app"/><space quantity="0"/><anchor xml:id="end_5"/>浙西士民望
+<lb ed="GA" n="0034a07"/><item xml:id="itemGA022p0034a0701"><p xml:id="pGA022p0034a0701" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0034a0701" n="0034a0701"/><anchor xml:id="beg0034a0701" n="0034a0701"/><space quantity="0"/><anchor xml:id="end0034a0701"/>浙西士民望
 <lb ed="GA" n="0034a08"/>幸誠切。龍井，名勝所在，佇邀
 <pb ed="GA" xml:id="GA022.0020.0035a" n="0035a"/>
 <lb ed="GA" n="0035a01"/>宸顧，並乞
@@ -610,20 +615,20 @@ $Log:$
 <lb ed="GA" n="0035a04"/>以
 <lb ed="GA" n="0035a05"/>翠華南來，山川競秀，從此標新領異，非草莽<note place="inline">小臣</note>所
 <lb ed="GA" n="0035a06"/>敢次第也。</p></item>
-<lb ed="GA" n="0035a07"/><item xml:id="itemGA022p0035a0701"><p xml:id="pGA022p0035a0701" rend="margin-left:1em"><anchor xml:id="beg_6" type="cb-app"/><space quantity="0"/><anchor xml:id="end_6"/>錄為寺作，故先〈名僧〉，後〈鄉寓人物〉。諸卷先後
+<lb ed="GA" n="0035a07"/><item xml:id="itemGA022p0035a0701"><p xml:id="pGA022p0035a0701" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0035a0701" n="0035a0701"/><anchor xml:id="beg0035a0701" n="0035a0701"/><space quantity="0"/><anchor xml:id="end0035a0701"/>錄為寺作，故先〈名僧〉，後〈鄉寓人物〉。諸卷先後
 <lb ed="GA" n="0035a08"/>並準此。</p></item>
 <pb ed="GA" xml:id="GA022.0020.0036a" n="0036a"/>
-<lb ed="GA" n="0036a01"/><item xml:id="itemGA022p0036a0101"><p xml:id="pGA022p0036a0101" rend="margin-left:1em"><anchor xml:id="beg_7" type="cb-app"/><space quantity="0"/><anchor xml:id="end_7"/>郡邑志書，名賢接踵，則有〈人物〉一門。龍井地
+<lb ed="GA" n="0036a01"/><item xml:id="itemGA022p0036a0101"><p xml:id="pGA022p0036a0101" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0036a0101" n="0036a0101"/><anchor xml:id="beg0036a0101" n="0036a0101"/><space quantity="0"/><anchor xml:id="end0036a0101"/>郡邑志書，名賢接踵，則有〈人物〉一門。龍井地
 <lb ed="GA" n="0036a02"/>處僻仄，惟關繫寺院興廢者載之；而以祠墓
 <lb ed="GA" n="0036a03"/>諸賢繫〈人物〉、塔繫〈僧〉，仍省去〈祠墓〉一門，亦稍
 <lb ed="GA" n="0036a04"/>變成例者也。</p></item>
-<lb ed="GA" n="0036a05"/><item xml:id="itemGA022p0036a0501"><p xml:id="pGA022p0036a0501" rend="margin-left:1em"><anchor xml:id="beg_8" type="cb-app"/><space quantity="0"/><anchor xml:id="end_8"/>詩、文各附註標題之下。詩之為遊觀贈答作
+<lb ed="GA" n="0036a05"/><item xml:id="itemGA022p0036a0501"><p xml:id="pGA022p0036a0501" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0036a0501" n="0036a0501"/><anchor xml:id="beg0036a0501" n="0036a0501"/><space quantity="0"/><anchor xml:id="end0036a0501"/>詩、文各附註標題之下。詩之為遊觀贈答作
 <lb ed="GA" n="0036a06"/>者、文之無題可繫者，並各自為卷。</p></item>
-<lb ed="GA" n="0036a07"/><item xml:id="itemGA022p0036a0701"><p xml:id="pGA022p0036a0701" rend="margin-left:1em"><anchor xml:id="beg_9" type="cb-app"/><space quantity="0"/><anchor xml:id="end_9"/>詩、文見本集者不註；有本集不載而見地志
+<lb ed="GA" n="0036a07"/><item xml:id="itemGA022p0036a0701"><p xml:id="pGA022p0036a0701" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0036a0701" n="0036a0701"/><anchor xml:id="beg0036a0701" n="0036a0701"/><space quantity="0"/><anchor xml:id="end0036a0701"/>詩、文見本集者不註；有本集不載而見地志
 <lb ed="GA" n="0036a08"/>及他書者必註明。</p></item>
 <pb ed="GA" xml:id="GA022.0020.0037a" n="0037a"/>
-<lb ed="GA" n="0037a01"/><item xml:id="itemGA022p0037a0101"><p xml:id="pGA022p0037a0101" rend="margin-left:1em"><anchor xml:id="beg_a" type="cb-app"/><space quantity="0"/><anchor xml:id="end_a"/>參考同異，以「謹案」別之，附於諸家之後。</p></item>
-<lb ed="GA" n="0037a02"/><item xml:id="itemGA022p0037a0201"><p xml:id="pGA022p0037a0201" rend="margin-left:1em"><anchor xml:id="beg_b" type="cb-app"/><space quantity="0"/><anchor xml:id="end_b"/>地志前列小敘，其例舊矣。今所傳宋人志，如
+<lb ed="GA" n="0037a01"/><item xml:id="itemGA022p0037a0101"><p xml:id="pGA022p0037a0101" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0037a0101" n="0037a0101"/><anchor xml:id="beg0037a0101" n="0037a0101"/><space quantity="0"/><anchor xml:id="end0037a0101"/>參考同異，以「謹案」別之，附於諸家之後。</p></item>
+<lb ed="GA" n="0037a02"/><item xml:id="itemGA022p0037a0201"><p xml:id="pGA022p0037a0201" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0037a0201" n="0037a0201"/><anchor xml:id="beg0037a0201" n="0037a0201"/><space quantity="0"/><anchor xml:id="end0037a0201"/>地志前列小敘，其例舊矣。今所傳宋人志，如
 <lb ed="GA" n="0037a03"/>宋敏求《長安志》、羅願《新安志》、潛說友《咸淳臨
 <lb ed="GA" n="0037a04"/>安志》、史能之《咸淳毗陵志》、張元成《嘉禾志》、陳
 <lb ed="GA" n="0037a05"/>耆卿《赤城志》皆同。康熙中，儀徵縣知縣陸師
@@ -631,11 +636,11 @@ $Log:$
 <lb ed="GA" n="0037a07"/>一首，而卷前仍列〈小敘〉。茲錄謹刪去〈小敘〉，易
 <lb ed="GA" n="0037a08"/>〈贊〉為〈題後〉，蓋酌用其例焉。</p></item>
 <pb ed="GA" xml:id="GA022.0020.0038a" n="0038a"/>
-<lb ed="GA" n="0038a01"/><item xml:id="itemGA022p0038a0101"><p xml:id="pGA022p0038a0101" rend="margin-left:1em"><anchor xml:id="beg_c" type="cb-app"/><space quantity="0"/><anchor xml:id="end_c"/>採登書籍，每條必冠以本書之名。既不敢沒
+<lb ed="GA" n="0038a01"/><item xml:id="itemGA022p0038a0101"><p xml:id="pGA022p0038a0101" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0038a0101" n="0038a0101"/><anchor xml:id="beg0038a0101" n="0038a0101"/><space quantity="0"/><anchor xml:id="end0038a0101"/>採登書籍，每條必冠以本書之名。既不敢沒
 <lb ed="GA" n="0038a02"/>所自來，亦因以著厯代先後諸家異同之故。
 <lb ed="GA" n="0038a03"/>有未見原書者，則必註明某書徵引字樣。其
 <lb ed="GA" n="0038a04"/>次第則先地志，次諸家，仍各以時代為先後。</p></item>
-<lb ed="GA" n="0038a05"/><item xml:id="itemGA022p0038a0501"><p xml:id="pGA022p0038a0501" rend="margin-left:1em"><anchor xml:id="beg_d" type="cb-app"/><space quantity="0"/><anchor xml:id="end_d"/>龍井以元淨興創得名，其有事關元淨、不涉
+<lb ed="GA" n="0038a05"/><item xml:id="itemGA022p0038a0501"><p xml:id="pGA022p0038a0501" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0038a0501" n="0038a0501"/><anchor xml:id="beg0038a0501" n="0038a0501"/><space quantity="0"/><anchor xml:id="end0038a0501"/>龍井以元淨興創得名，其有事關元淨、不涉
 <lb ed="GA" n="0038a06"/>龍井者，割棄之則未免舊聞放失，別為〈元淨
 <lb ed="GA" n="0038a07"/>外傳〉，附《見聞錄》之後。</p></item></list>
 <lb ed="GA" n="0038a08"/><p xml:id="pGA022p0038a0801" rend="margin-left:4em"><note place="inline">臣</note>汪孟鋗恭識</p></cb:div>
@@ -1009,7 +1014,7 @@ $Log:$
 <lb ed="GA" n="0079a07"/>之合，進逼牙城。鏐子傳瑛閉門拒之。牙將潘長擊
 <lb ed="GA" n="0079a08"/>綰，綰退屯龍興寺。鏐還及龍泉，聞變，疾驅至城北，
 <pb ed="GA" xml:id="GA022.0020.0080a" n="0080a"/>
-<lb ed="GA" n="0080a01"/>使成及建鏐旗鼓，與綰戰；鏐微服乘小舟夜<anchor xml:id="beg_e" type="cb-app"/>抵<anchor xml:id="end_e"/>牙
+<lb ed="GA" n="0080a01"/>使成及建鏐旗鼓，與綰戰；鏐微服乘小舟夜<anchor xml:id="nkr_note_add_0080a0101" n="0080a0101"/><anchor xml:id="beg0080a0101" n="0080a0101"/>抵<anchor xml:id="end0080a0101"/>牙
 <lb ed="GA" n="0080a02"/>城北隅，踰城而入。」胡三省註：「龍泉即龍井，在杭州
 <lb ed="GA" n="0080a03"/>城西南風篁嶺上，去城十五里。」又宋自高宗駐蹕
 <lb ed="GA" n="0080a04"/>杭州，以杭州牙城為宮城東北隅，則今之和寧門
@@ -1205,18 +1210,18 @@ $Log:$
 <lb ed="GA" n="0101a05"/><p xml:id="pGA022p0101a0501" rend="margin-left:3em"><note place="inline">謹案：《武林舊事》以「德威」為過谿四名，而志兩列院下，或者移祠下時因借「德威」名耶？</note></p></cb:div>
 <lb ed="GA" n="0101a06"/><cb:div type="other"><cb:mulu type="其他" level="3">方圓庵</cb:mulu><head>方圓庵</head><p xml:id="pGA022p0101a0604" rend="margin-left:0em;text-indent:2em;inline">《上天竺山志》〈釋守一記〉：天竺辯才法師以智者教傳四十年，學者如歸，四方風靡。於是晦
 <lb ed="GA" n="0101a07"/>者明、窒者通，大小之機無不遂者。不居其功，不宿於名，乃辭其交游，去其弟子，而求于寂寞之濱，得
-<lb ed="GA" n="0101a08"/>龍井之居以隱焉。南山守一往見之，過龍泓，登風篁嶺，引目周覽以索其居。岌然羣峯密圍，<g ref="#CB04474">㳷</g><anchor xml:id="beg_f" type="cb-app"/>然而<anchor xml:id="end_f"/><anchor xml:id="nkr_note_orig_0101001" n="0101001"/>
+<lb ed="GA" n="0101a08"/>龍井之居以隱焉。南山守一往見之，過龍泓，登風篁嶺，引目周覽以索其居。岌然羣峯密圍，<g ref="#CB04474">㳷</g><anchor xml:id="nkr_note_add_0101a0801" n="0101a0801"/><anchor xml:id="beg0101a0801" n="0101a0801"/>然而<anchor xml:id="end0101a0801"/><anchor xml:id="nkr_note_orig_0101001" n="0101001"/>
 <pb ed="GA" xml:id="GA022.0020.0102a" n="0102a"/>
 <lb ed="GA" n="0102a01"/>不蔽翳。四顧若失，莫知其鄉。逡巡下危磴、行深林，得之于烟雲髣髴之間，遂造而揖之。法師引予並
 <lb ed="GA" n="0102a02"/>席而坐，相視而笑，徐曰：「子胡來？」予曰：「願有觀焉。」法師曰：「子固觀矣，而又將奚觀？」予笑曰：「然！」法師命予
-<lb ed="GA" n="0102a03"/>入，由照閣經寂室，指其庵而言曰：「此<anchor xml:id="beg_10" type="cb-app"/>吾<anchor xml:id="end_10"/><anchor xml:id="nkr_note_orig_0102001" n="0102001"/>
+<lb ed="GA" n="0102a03"/>入，由照閣經寂室，指其庵而言曰：「此<anchor xml:id="nkr_note_add_0102a0301" n="0102a0301"/><anchor xml:id="beg0102a0301" n="0102a0301"/>吾<anchor xml:id="end0102a0301"/><anchor xml:id="nkr_note_orig_0102001" n="0102001"/>
 <pb ed="GA" xml:id="GA022.0020.0103a" n="0103a"/>
 <lb ed="GA" n="0103a01"/>之所以休息乎此也。」窺其制，則圓蓋而方址，予謁之曰：「夫釋子之寑，或為方丈，或為圓
 <lb ed="GA" n="0103a02"/>廬，而是庵也胡為而然哉？」法師曰：「子既得之矣！雖然，試為子言之。夫形而上者，渾淪周徧，非方非圓
 <lb ed="GA" n="0103a03"/>而能成方圓者也；形而下者，或得於方，或得於圓，或兼斯二者而不能無悖者也。大至於天地，近止
 <lb ed="GA" n="0103a04"/>乎一身，無不然。故天得之則運而無積，地得之則靜而無變，是以天圓而地方；人位乎天地之間，則
 <lb ed="GA" n="0103a05"/>首足具二者之形矣。蓋宇宙雖大，不離其內；秋毫雖小，待之成體。故凡有貌象聲色者，無巨細、無古
-<lb ed="GA" n="0103a06"/>今，皆不能出於方圓之內也，所以古先哲王因之也。雖然，此遊方之內者也。至於<anchor xml:id="nkr_note_orig_0103001" n="0103001"/><anchor xml:id="beg_11" type="cb-app"/>吾佛亦如之。使吾黨祝髮以圓其頂、壞色以方其袍，乃欲其煩惱盡而理體圓、定慧修而德相顯也。蓋溺於理而不達於事、迷於事而不明於理者，皆不可謂之沙門。以制禮樂、為衣裳，至於舟車、器械、宮室之為，皆則而象之。故儒者冠圓冠以知天時，履句屨以知地形。蓋蔽於天而不知人、蔽於人而不知天者，皆不可謂之真儒矣。唯能通天、地、人者，真儒矣！唯能理事一如、向無異觀者，其真沙門歟！噫，人之處乎覆載之內，陶乎教化之中，具其形，服其服，用其器，而於其居也特不然哉？吾所以為是庵也，然則吾直以是為蘧廬爾。若夫以法性之圓、事相之方而規矩一切，則<anchor xml:id="end_11"/><anchor xml:id="nkr_note_orig_0103002" n="0103002"/>諸法同體而無自
+<lb ed="GA" n="0103a06"/>今，皆不能出於方圓之內也，所以古先哲王因之也。雖然，此遊方之內者也。至於<anchor xml:id="nkr_note_orig_0103001" n="0103001"/><anchor xml:id="nkr_note_add_0103a0601" n="0103a0601"/><anchor xml:id="beg0103a0601" n="0103a0601"/>吾佛亦如之。使吾黨祝髮以圓其頂、壞色以方其袍，乃欲其煩惱盡而理體圓、定慧修而德相顯也。蓋溺於理而不達於事、迷於事而不明於理者，皆不可謂之沙門。以制禮樂、為衣裳，至於舟車、器械、宮室之為，皆則而象之。故儒者冠圓冠以知天時，履句屨以知地形。蓋蔽於天而不知人、蔽於人而不知天者，皆不可謂之真儒矣。唯能通天、地、人者，真儒矣！唯能理事一如、向無異觀者，其真沙門歟！噫，人之處乎覆載之內，陶乎教化之中，具其形，服其服，用其器，而於其居也特不然哉？吾所以為是庵也，然則吾直以是為蘧廬爾。若夫以法性之圓、事相之方而規矩一切，則<anchor xml:id="end0103a0601"/><anchor xml:id="nkr_note_orig_0103002" n="0103002"/>諸法同體而無自
 <lb ed="GA" n="0103a07"/>位，萬物各得而不相知，皆藏乎不深之度而游乎无端之紀。則是庵也為無相之庵，而吾亦將以無
 <lb ed="GA" n="0103a08"/>所住而住焉。當是時也，子奚往而觀乎？」嗚呼！理圓也，語方也，吾當忘言與之，以無所觀而觀之。於是
 <pb ed="GA" xml:id="GA022.0020.0104a" n="0104a"/>
@@ -1425,7 +1430,7 @@ $Log:$
 <lb ed="GA" n="0126a05"/>肅</l></lg>
 <lb ed="GA" n="0126a06"/><p xml:id="pGA022p0126a0601" rend="margin-left:0em;text-indent:2em">釋念常《佛祖通載》：法師幼生，其伯父異之，曰「必使
 <lb ed="GA" n="0126a07"/>事佛」。十歲出家，十二就學於慈雲。將示寂，乃入方
-<lb ed="GA" n="0126a08"/>圓庵；七日出偈示眾，即右<anchor xml:id="beg_12" type="cb-app"/>脅<anchor xml:id="end_12"/>而化。東坡命子由為
+<lb ed="GA" n="0126a08"/>圓庵；七日出偈示眾，即右<anchor xml:id="nkr_note_add_0126a0801" n="0126a0801"/><anchor xml:id="beg0126a0801" n="0126a0801"/>脅<anchor xml:id="end0126a0801"/>而化。東坡命子由為
 <pb ed="GA" xml:id="GA022.0020.0127a" n="0127a"/>
 <lb ed="GA" n="0127a01"/>之銘。</p>
 <lb ed="GA" n="0127a02"/><p xml:id="pGA022p0127a0201" rend="margin-left:0em;text-indent:2em">《武林梵志》：元祐八年示寂。塔成，東坡銘其事。</p>
@@ -1499,7 +1504,7 @@ $Log:$
 <lb ed="GA" n="0134a07"/><lg xml:id="lgGA022p0134a0701" type="abnormal"><l rend="text-indent:2em">杖藜入南山　卻立賞奇秀</l><l rend="text-indent:1em">所懷玉局翁　來往絇履舊</l><l rend="text-indent:1em">空餘松在澗　仍作琴筑奏</l><l rend="text-indent:1em">徘徊龍井上　雲氣起
 <lb ed="GA" n="0134a08"/>晴晝</l><l rend="text-indent:1em">入門避霑灑　脫屐亂苔甃</l><l rend="text-indent:1em">陽岡扣雲石　陰房絕遺搆</l><l rend="text-indent:1em">澄公愛客至　取水挹幽竇</l><l rend="text-indent:1em">坐我薝蔔中　餘
 <pb ed="GA" xml:id="GA022.0020.0135a" n="0135a"/>
-<lb ed="GA" n="0135a01"/>香不聞嗅</l><l rend="text-indent:1em">但見瓢中清　翠影落羣岫</l><l rend="text-indent:1em">烹煎黃金芽　不取穀雨後</l><l rend="text-indent:1em">同來二三子　三咽不忍<anchor xml:id="beg_13" type="cb-app"/>嗽<anchor xml:id="end_13"/></l><l rend="text-indent:1em">講堂集羣
+<lb ed="GA" n="0135a01"/>香不聞嗅</l><l rend="text-indent:1em">但見瓢中清　翠影落羣岫</l><l rend="text-indent:1em">烹煎黃金芽　不取穀雨後</l><l rend="text-indent:1em">同來二三子　三咽不忍<anchor xml:id="nkr_note_add_0135a0101" n="0135a0101"/><anchor xml:id="beg0135a0101" n="0135a0101"/>嗽<anchor xml:id="end0135a0101"/></l><l rend="text-indent:1em">講堂集羣
 <lb ed="GA" n="0135a02"/>彥　千磴坐吟究</l><l rend="text-indent:1em">浪浪雜飛雨　沈沈度清漏</l><l rend="text-indent:1em">令我懷幼學　何為裹章綬</l></lg>
 <lb ed="GA" n="0135a03"/><p xml:id="pGA022p0135a0301" rend="margin-left:3em"><note place="inline">謹案：柳貫有〈送南竺澄講主詩〉，即此詩之澄公也。宋濂《學士集．天竺圓照若公塔銘》：「佛海大師
 <lb ed="GA" n="0135a04"/>主南天竺、崇恩、演福教寺」，《上天竺山志》：「澄公至順壬申效辯才故事，拂衣歸南竺之雲外齋」，澄
@@ -1618,7 +1623,7 @@ $Log:$
 <pb ed="GA" xml:id="GA022.0020.0148a" n="0148a"/>
 <lb ed="GA" n="0148a01"/>檄洪為將兵都尉，破之。冰平，洪不論功賞，徑至洛陽，欲搜求異書以廣其學。避地南土，參廣州刺史
 <lb ed="GA" n="0148a02"/>嵇含軍事。後還鄉里，禮辟皆不赴。元帝為丞相，辟為椽；以平賊功賜爵「關內侯」。咸和初，補州主簿，轉
-<lb ed="GA" n="0148a03"/>司徒掾，遷諮議參軍。<anchor xml:id="beg_14" type="cb-app"/>干<anchor xml:id="end_14"/>寶深相親友，薦洪才堪國史，選為散騎常侍，領大著作。洪固辭不就，以年老
+<lb ed="GA" n="0148a03"/>司徒掾，遷諮議參軍。<anchor xml:id="nkr_note_add_0148a0301" n="0148a0301"/><anchor xml:id="beg0148a0301" n="0148a0301"/>干<anchor xml:id="end0148a0301"/>寶深相親友，薦洪才堪國史，選為散騎常侍，領大著作。洪固辭不就，以年老
 <lb ed="GA" n="0148a04"/>求為句漏令。帝以洪資高，不許。洪曰：「非欲為榮，以有丹耳。」帝從之，洪遂將子姪俱行。至廣州，刺史鄧
 <lb ed="GA" n="0148a05"/>嶽留，不聽，去；洪乃至羅浮山鍊丹。嶽表補東宮太守，又辭不就。嶽乃以洪兄子望為記室參軍。在山
 <lb ed="GA" n="0148a06"/>積年，優游閑養，著述不輟。自號抱樸子，因以名書。其餘所著碑誄、詩賦百卷，移檄章表三十卷，神仙、
@@ -1721,7 +1726,7 @@ $Log:$
 <lb ed="GA" n="0159a04"/>几　心源不動湛若水</l><l rend="text-indent:1em">一聲霹<g ref="#CB15439">󳱏</g>頂門開　喚起從前
 <lb ed="GA" n="0159a05"/>自家底</l></lg></cb:div>
 <lb ed="GA" n="0159a06"/><cb:div type="other"><cb:mulu type="其他" level="4">錢勰</cb:mulu><head>錢勰</head><p xml:id="pGA022p0159a0603" rend="margin-left:0em;text-indent:2em;inline">《宋史．附傳》：勰，字穆甫，彥遠子。五歲，日誦千言。十三歲，制舉之業成。熙<g ref="#CB33491">󸋓</g>三年，以廕知尉氏
-<lb ed="GA" n="0159a07"/>縣，授流內銓主簿。以龍圖閣直學士兩知開封，吏導人<anchor xml:id="beg_15" type="cb-app"/>訴<anchor xml:id="end_15"/>牒至七百，勰隨即剖決。蘇軾乘其據案時
+<lb ed="GA" n="0159a07"/>縣，授流內銓主簿。以龍圖閣直學士兩知開封，吏導人<anchor xml:id="nkr_note_add_0159a0701" n="0159a0701"/><anchor xml:id="beg0159a0701" n="0159a0701"/>訴<anchor xml:id="end0159a0701"/>牒至七百，勰隨即剖決。蘇軾乘其據案時
 <lb ed="GA" n="0159a08"/>遺之詩，操筆立就以報，軾曰：「電掃廷訟，響答詩筒，近所未見也。」</p>
 <pb ed="GA" xml:id="GA022.0020.0160a" n="0160a"/>
 <lb ed="GA" n="0160a01"/><p xml:id="pGA022p0160a0101" rend="margin-left:0em;text-indent:2em">與元淨倡和詩，見卷七。</p></cb:div>
@@ -1737,7 +1742,7 @@ $Log:$
 <lb ed="GA" n="0161a02"/>除兩浙提點刑獄。自號「無為子」，有文集二十餘卷、《樂記》五卷。</p>
 <lb ed="GA" n="0161a03"/><p xml:id="pGA022p0161a0301" rend="margin-left:0em;text-indent:2em">撰〈延恩衍慶院記〉及〈十三詩辯才真贊〉，詳見各卷。
 <lb ed="GA" n="0161a04"/>《上天竺山志．宋齊玉法師四十八願後序》：孫莘老
-<lb ed="GA" n="0161a05"/>云：「四方言禪者，黃<anchor xml:id="beg_16" type="cb-app"/>蘗<anchor xml:id="end_16"/>、慧林為最盛。黃<anchor xml:id="beg_17" type="cb-app"/>蘗<anchor xml:id="end_17"/>之道，次公
+<lb ed="GA" n="0161a05"/>云：「四方言禪者，黃<anchor xml:id="nkr_note_add_0161a0501" n="0161a0501"/><anchor xml:id="beg0161a0501" n="0161a0501"/>蘗<anchor xml:id="end0161a0501"/>、慧林為最盛。黃<anchor xml:id="nkr_note_add_0161a0502" n="0161a0502"/><anchor xml:id="beg0161a0502" n="0161a0502"/>蘗<anchor xml:id="end0161a0502"/>之道，次公
 <lb ed="GA" n="0161a06"/>實傳之。」</p>
 <lb ed="GA" n="0161a07"/><p xml:id="pGA022p0161a0701" rend="margin-left:3em"><note place="inline">謹案：傑記以元豐八年伴高麗僧至院，傑官太常時也。蘇軾集有〈送傑詩序〉，謂「以王事而從方
 <lb ed="GA" n="0161a08"/>外之樂」，亦指其事。</note></p></cb:div>
@@ -1789,7 +1794,7 @@ $Log:$
 <pb ed="GA" xml:id="GA022.0020.0167a" n="0167a"/>
 <lb ed="GA" n="0167a01"/><cb:div type="other"><cb:mulu type="其他" level="4">胡則</cb:mulu><head>胡則</head><p xml:id="pGA022p0167a0103" rend="margin-left:0em;text-indent:2em;inline">《宋史．本傳》：則，字子正，婺州永康人。果敢有才氣，以進士起家，補許田縣尉，調憲州錄事參
 <lb ed="GA" n="0167a02"/>軍。靈、夏用兵，轉運使索湘命則部送芻糧，為一月計。則曰：「為百日備，尚恐不支，奈何為一月耶？」湘懼
-<lb ed="GA" n="0167a03"/>無以給，遣則遂入奏。太宗因問以<anchor xml:id="beg_18" type="cb-app"/>邊<anchor xml:id="end_18"/><anchor xml:id="nkr_note_orig_0167001" n="0167001"/>策，對稱旨；顧左右曰：「州縣豈乏人？」命記姓名中書。後李繼隆討
+<lb ed="GA" n="0167a03"/>無以給，遣則遂入奏。太宗因問以<anchor xml:id="nkr_note_add_0167a0301" n="0167a0301"/><anchor xml:id="beg0167a0301" n="0167a0301"/>邊<anchor xml:id="end0167a0301"/><anchor xml:id="nkr_note_orig_0167001" n="0167001"/>策，對稱旨；顧左右曰：「州縣豈乏人？」命記姓名中書。後李繼隆討
 <lb ed="GA" n="0167a04"/>賊，久不解。湘語則曰：「微子，幾敗我事！」一日，繼隆移文轉運使曰：「兵且深入，糧有繼乎？」則告湘曰：「彼師
 <lb ed="GA" n="0167a05"/>老將歸，欲以糧乏為辭耳，姑以有餘報之。」已而果為則所料。初，丁謂舉進士，客許田，則厚遇之。謂貴
 <lb ed="GA" n="0167a06"/>顯，故則驟進用。至是，謂罷政事出，則為京西轉運使，遷禮部郎中。部內民訛言相驚，至遣安撫乃定，
@@ -1883,7 +1888,7 @@ $Log:$
 <lb ed="GA" n="0177a04"/><p xml:id="pGA022p0177a0401" rend="margin-left:0em;text-indent:2em">陳善《杭州府志》：在龍井。宏治十三年諭葬，子太常
 <lb ed="GA" n="0177a05"/>卿舉祔，嘉靖六年諭葬。</p></cb:div>
 <lb ed="GA" n="0177a06"/><cb:div type="other"><cb:mulu type="其他" level="4">沈銳</cb:mulu><head>沈銳</head><p xml:id="pGA022p0177a0603" rend="margin-left:0em;text-indent:2em;inline">《浙江通志》：銳字文進，仁和人。成化己丑進士，授刑部主事。以南京刑部右侍郎乞歸。值劉
-<lb ed="GA" n="0177a07"/>瑾摘往事以誣士大夫之不附<anchor xml:id="beg_19" type="cb-app"/>己<anchor xml:id="end_19"/>者，遂落職。嘉靖初乃復。</p>
+<lb ed="GA" n="0177a07"/>瑾摘往事以誣士大夫之不附<anchor xml:id="nkr_note_add_0177a0701" n="0177a0701"/><anchor xml:id="beg0177a0701" n="0177a0701"/>己<anchor xml:id="end0177a0701"/>者，遂落職。嘉靖初乃復。</p>
 <lb ed="GA" n="0177a08"/><p xml:id="pGA022p0177a0801" rend="margin-left:0em;text-indent:2em">魏<g ref="#CB21394">㟲</g>《錢塘縣志》：在龍井。</p></cb:div>
 <pb ed="GA" xml:id="GA022.0020.0178a" n="0178a"/>
 <lb ed="GA" n="0178a01"/><cb:div type="other"><cb:mulu type="其他" level="4">陳珂</cb:mulu><head>陳珂</head><p xml:id="pGA022p0178a0103" rend="margin-left:0em;text-indent:2em;inline">《浙江通志》：珂，字希白，錢塘人。宏治庚戌進士，授刑部主事。歷都察院副都御史，巡撫河南，
@@ -2145,7 +2150,7 @@ $Log:$
 <lb ed="GA" n="0206a05"/>今年余以不雨禱於祠下，問之遊人，石已斷仆榛莽中久矣。余覓有舊刻，采石重□一過，樹於故蹟。
 <lb ed="GA" n="0206a06"/>噫！天地之靈物未嘗終袐，師之蔽廬幾於道，九九行完而率復，人賢之□而祀焉。南宮書法超邁入
 <lb ed="GA" n="0206a07"/>神，幸見之，可洗瘴毒，均□山靈神氣所鍾。此余重刻意也，書以紀之。</p><p xml:id="pGA022p0206a0727" rend="margin-left:2em;inline">萬歷丁酉仲夏，知仁和縣事晉
-<lb ed="GA" n="0206a08"/>陵胡<anchor xml:id="beg_1a" type="cb-app"/>澄<anchor xml:id="end_1a"/><anchor xml:id="nkr_note_orig_0206001" n="0206001"/>跋</p>
+<lb ed="GA" n="0206a08"/>陵胡<anchor xml:id="nkr_note_add_0206a0801" n="0206a0801"/><anchor xml:id="beg0206a0801" n="0206a0801"/>澄<anchor xml:id="end0206a0801"/><anchor xml:id="nkr_note_orig_0206001" n="0206001"/>跋</p>
 <pb ed="GA" xml:id="GA022.0020.0207a" n="0207a"/>
 <lb ed="GA" n="0207a01"/><p xml:id="pGA022p0207a0101" rend="margin-left:3em"><note place="inline">謹案：《仁和縣志》：萬歷二十一年，知縣胡澄，武進人，壬辰進士，任四年。</note></p>
 <lb ed="GA" n="0207a02"/><p xml:id="pGA022p0207a0201" rend="margin-left:0em;text-indent:2em">安世鳳《墨林快事．方圓石刻》：此米之最有聲合作
@@ -2763,7 +2768,7 @@ $Log:$
 <lb ed="GA" n="0275a02"/>翳光景</l><l rend="text-indent:1em">幽雲擁殿角　諸佛同一靜</l><l rend="text-indent:1em">僧樸狀野鹿　問事
 <lb ed="GA" n="0275a03"/>不復省</l><l rend="text-indent:1em">導我窺井闌　淺可弗用綆</l><l rend="text-indent:1em">傳聞金鰻鱺　或見
 <lb ed="GA" n="0275a04"/>游藻荇</l><l rend="text-indent:1em">豈其青泥蟠　時出應祈請</l><l rend="text-indent:1em">前年秋大雨　水立
-<lb ed="GA" n="0275a05"/>勢欲騁</l><l rend="text-indent:1em">神物終<anchor xml:id="beg_1b" type="cb-app"/>斂<anchor xml:id="end_1b"/>形　取足供瓢癭<note place="inline">是日僧所述如此</note></l><l rend="text-indent:1em">摩挲秦
+<lb ed="GA" n="0275a05"/>勢欲騁</l><l rend="text-indent:1em">神物終<anchor xml:id="nkr_note_add_0275a0501" n="0275a0501"/><anchor xml:id="beg0275a0501" n="0275a0501"/>斂<anchor xml:id="end0275a0501"/>形　取足供瓢癭<note place="inline">是日僧所述如此</note></l><l rend="text-indent:1em">摩挲秦
 <lb ed="GA" n="0275a06"/>郎碑　陳義臻奧境</l><l rend="text-indent:1em">泉德類有道　片語默已領</l><l rend="text-indent:1em">酌泉為
 <lb ed="GA" n="0275a07"/>徘徊　殘陽閃鴉頸</l><l rend="text-indent:1em">羨彼樵牧流　終日事幽屏</l></lg></cb:div>
 <lb ed="GA" n="0275a08"/><cb:div type="other"><cb:mulu type="其他" level="5">聖幾餉龍井新茗一器</cb:mulu><head>聖幾餉龍井新茗一器</head>
@@ -2999,7 +3004,7 @@ $Log:$
 <lb ed="GA" n="0301a04"/>十萬貫。民不勝弊，公奏之未報章三上且曰：「百姓疾
 <lb ed="GA" n="0301a05"/>苦，刺史當言之；而弗從，刺史可廢矣！」乃有俞詔減其
 <lb ed="GA" n="0301a06"/>直之半，而民始安。公領三司，使寬於財利，不以刻下
-<lb ed="GA" n="0301a07"/>為功。時上方以兩京<anchor xml:id="beg_1c" type="cb-app"/>陝<anchor xml:id="end_1c"/>西官鹽歲久民鮮得食而日
+<lb ed="GA" n="0301a07"/>為功。時上方以兩京<anchor xml:id="nkr_note_add_0301a0701" n="0301a0701"/><anchor xml:id="beg0301a0701" n="0301a0701"/>陝<anchor xml:id="end0301a0701"/>西官鹽歲久民鮮得食而日
 <lb ed="GA" n="0301a08"/>以犯法，命通商有司重其改作。公首請奉詔，其事遂
 <pb ed="GA" xml:id="GA022.0020.0302a" n="0302a"/>
 <lb ed="GA" n="0302a01"/>行。公性至孝，自曲臺丁太夫人憂，廬於墓側以終喪
@@ -3092,7 +3097,7 @@ $Log:$
 <lb ed="GA" n="0311a07"/>不滿。紹定己丑，得真蹟於戶書胡公摫，印以他米書
 <lb ed="GA" n="0311a08"/>不謬。每念鑱之寺中以苴放軼。一日語京尹趙公，公
 <pb ed="GA" xml:id="GA022.0020.0312a" n="0312a"/>
-<lb ed="GA" n="0312a01"/><anchor xml:id="beg_1d" type="cb-app"/>斂<anchor xml:id="end_1d"/>袵曰：「前賢之勝韻不續，實遺吾邦羞，寺於何有？亟
+<lb ed="GA" n="0312a01"/><anchor xml:id="nkr_note_add_0312a0101" n="0312a0101"/><anchor xml:id="beg0312a0101" n="0312a0101"/>斂<anchor xml:id="end0312a0101"/>袵曰：「前賢之勝韻不續，實遺吾邦羞，寺於何有？亟
 <lb ed="GA" n="0312a02"/>訪堅珉刻之！」且損錢百萬畀住山宗炳，建樓植鐘，新
 <lb ed="GA" n="0312a03"/>緇宇之弊。於是龍井之勝若前賢之美，如創見然。余
 <lb ed="GA" n="0312a04"/>每愛少游「支筇步月敲辯才門，夜半清語殆非人間
@@ -3191,7 +3196,7 @@ $Log:$
 <lb ed="GA" n="0322a07"/>堅耳。殊不知其衰之機、駸駸乎已隨其後矣！余少時
 <lb ed="GA" n="0322a08"/>猶及見豪家大族，恣不度於閭里，高櫩飛棟儼如封
 <pb ed="GA" xml:id="GA022.0020.0323a" n="0323a"/>
-<lb ed="GA" n="0323a01"/>君之第；無幾何時，形消影歇。求其<anchor xml:id="beg_1e" type="cb-app"/>彷<anchor xml:id="end_1e"/>彿而不可得，況
+<lb ed="GA" n="0323a01"/>君之第；無幾何時，形消影歇。求其<anchor xml:id="nkr_note_add_0323a0101" n="0323a0101"/><anchor xml:id="beg0323a0101" n="0323a0101"/>彷<anchor xml:id="end0323a0101"/>彿而不可得，況
 <lb ed="GA" n="0323a02"/>三百年至盛之久乎？則其衰也亦數之所宜然也。雖
 <lb ed="GA" n="0323a03"/>然，數之所拘，惟人力之為者爾；人力之所不能為，數
 <lb ed="GA" n="0323a04"/>亦不能如之何也。如法師之道、清獻公之德、文忠公
@@ -3216,7 +3221,7 @@ $Log:$
 <lb ed="GA" n="0325a05"/>宗，有若法師乃中流之舟楫。觀化而往，銘其可不造
 <lb ed="GA" n="0325a06"/>耶？不造，何以為訓耶？</p><p xml:id="pGA022p0325a0609" rend="margin-left:0em;text-indent:2em;inline">法師諱士璋，原璞其字也。受生
 <lb ed="GA" n="0325a07"/>於海<g ref="#CB33491">󸋓</g>王氏，伏犀貫頂，目光烱烱射人。自幼即決去
-<lb ed="GA" n="0325a08"/>羶<anchor xml:id="beg_1f" type="cb-app"/>葷<anchor xml:id="end_1f"/>弗御。即御，輒嘔逆不能勝。唯日取天竺書習讀
+<lb ed="GA" n="0325a08"/>羶<anchor xml:id="nkr_note_add_0325a0801" n="0325a0801"/><anchor xml:id="beg0325a0801" n="0325a0801"/>葷<anchor xml:id="end0325a0801"/>弗御。即御，輒嘔逆不能勝。唯日取天竺書習讀
 <pb ed="GA" xml:id="GA022.0020.0326a" n="0326a"/>
 <lb ed="GA" n="0326a01"/>之。鄰寺僧伽競曰：「此釋氏種也，盍以乞我？」其父某怒
 <lb ed="GA" n="0326a02"/>曰：「吾兒非若倫也！」俾投城東太平興國傳法寺，服五
@@ -3267,7 +3272,7 @@ $Log:$
 <lb ed="GA" n="0331a02"/>議慷慨，據直道行，不樂俯狥流俗。意氣脗合即出肺
 <lb ed="GA" n="0331a03"/>腑相示，否則白眼怒視。俊乂來依，推食解衣以遇之，
 <lb ed="GA" n="0331a04"/>不計蓋藏有無；然精練世故，勇於有為，棲賢敝陋殿
-<lb ed="GA" n="0331a05"/>堂、門序為之一新。旌德籍<anchor xml:id="beg_20" type="cb-app"/>券<anchor xml:id="end_20"/>久不白，乃為稽鉤欺隱，
+<lb ed="GA" n="0331a05"/>堂、門序為之一新。旌德籍<anchor xml:id="nkr_note_add_0331a0501" n="0331a0501"/><anchor xml:id="beg0331a0501" n="0331a0501"/>券<anchor xml:id="end0331a0501"/>久不白，乃為稽鉤欺隱，
 <lb ed="GA" n="0331a06"/>使有文可覆；暴橫之徒束手待命，始免捧漏沃焦之
 <lb ed="GA" n="0331a07"/>患。每懲諸剎樹徒植黨而為怨尤之府，誓不薙度。弟
 <lb ed="GA" n="0331a08"/>子私建退休之室，終身踐其言弗渝。初，法師受經佛
@@ -3466,7 +3471,7 @@ $Log:$
 <lb ed="GA" n="0353a03"/><cb:div type="other"><cb:mulu type="其他" level="2">文捷</cb:mulu><head>文捷</head>
 <lb ed="GA" n="0353a04"/><p xml:id="pGA022p0353a0401" rend="margin-left:0em;text-indent:2em">吳僧文捷，戒律精苦，奇迹甚多；能知宿命，然罕與人
 <lb ed="GA" n="0353a05"/>言。余羣從為知制誥、知杭州，禮為上客。文通嘗學
-<lb ed="GA" n="0353a06"/>誦〈揭帝咒〉，都未有<anchor xml:id="beg_21" type="cb-app"/>人<anchor xml:id="end_21"/>知；捷一日相見曰：「舍人誦咒，
+<lb ed="GA" n="0353a06"/>誦〈揭帝咒〉，都未有<anchor xml:id="nkr_note_add_0353a0601" n="0353a0601"/><anchor xml:id="beg0353a0601" n="0353a0601"/>人<anchor xml:id="end0353a0601"/>知；捷一日相見曰：「舍人誦咒，
 <lb ed="GA" n="0353a07"/>何故闕一句？」既而思其所誦，果少一句。浙人多言
 <lb ed="GA" n="0353a08"/>文通不壽，一日齋心往問捷，捷曰：「公更三年為翰
 <pb ed="GA" xml:id="GA022.0020.0354a" n="0354a"/>
@@ -3663,7 +3668,7 @@ $Log:$
 <lb ed="GA" n="0375a02"/>必真率。會中車騎後時，罰依金谷酒數。<note place="inline">釋大堅《淨慈寺志》</note></p></cb:div>
 <lb ed="GA" n="0375a03"/><cb:div type="other"><cb:mulu type="其他" level="2">遊龍井烹茶</cb:mulu><head>遊龍井烹茶</head>
 <lb ed="GA" n="0375a04"/><p xml:id="pGA022p0375a0401" rend="margin-left:0em;text-indent:2em">龍井泉既甘澄，石復秀潤，流淙從石澗中出，泠泠可
-<lb ed="GA" n="0375a05"/>愛。<anchor xml:id="beg_22" type="cb-app"/>入<anchor xml:id="end_22"/>僧房爽塏可棲。余嘗與石簣、道元、子公汲泉
+<lb ed="GA" n="0375a05"/>愛。<anchor xml:id="nkr_note_add_0375a0501" n="0375a0501"/><anchor xml:id="beg0375a0501" n="0375a0501"/>入<anchor xml:id="end0375a0501"/>僧房爽塏可棲。余嘗與石簣、道元、子公汲泉
 <lb ed="GA" n="0375a06"/>烹茶於此，石簣因問龍井茶與天池孰佳？余謂龍
 <lb ed="GA" n="0375a07"/>井亦佳，但茶少則水氣不盡，茶多則滋味盡出；天
 <lb ed="GA" n="0375a08"/>池殊不爾。大約龍井頭茶雖香，尚作草氣；天池作
@@ -4256,7 +4261,7 @@ $Log:$
 <lb ed="GA" n="0441a01"/>山法師慧才，皆同時人。《續文獻通考》有泗州山水
 <lb ed="GA" n="0441a02"/>陸院曉津禪師，臨濟宗。</p></cb:div>
 <lb ed="GA" n="0441a03"/><cb:div type="other"><cb:mulu type="其他" level="2">蘇軾戲問辯才師墨蹟</cb:mulu><head>蘇軾戲問辯才師墨蹟</head>
-<lb ed="GA" n="0441a04"/><p xml:id="pGA022p0441a0401" rend="margin-left:0em;text-indent:2em">蘇軾〈<anchor xml:id="beg_23" type="cb-app"/>聞<anchor xml:id="end_23"/>辯才法師復歸上天竺，以詩戲問〉，真蹟舊藏
+<lb ed="GA" n="0441a04"/><p xml:id="pGA022p0441a0401" rend="margin-left:0em;text-indent:2em">蘇軾〈<anchor xml:id="nkr_note_add_0441a0401" n="0441a0401"/><anchor xml:id="beg0441a0401" n="0441a0401"/>聞<anchor xml:id="end0441a0401"/>辯才法師復歸上天竺，以詩戲問〉，真蹟舊藏
 <lb ed="GA" n="0441a05"/>海寧某翰林家，有南宋緝熙殿印及元虞集草書
 <lb ed="GA" n="0441a06"/>跋。翰林後彫落，鬻歸他姓，今不知輾轉何所矣。</p></cb:div>
 <lb ed="GA" n="0441a07"/><cb:div type="other"><cb:mulu type="其他" level="2">辟塵爐不藏龍井</cb:mulu><head>辟塵爐不藏龍井</head>
@@ -4391,7 +4396,7 @@ $Log:$
 <lb ed="GA" n="0456a08"/><item xml:id="itemGA022p0456a0801"><p xml:id="pGA022p0456a0801" rend="margin-left:1em">道俗依仰</p></item>
 <pb ed="GA" xml:id="GA022.0020.0457a" n="0457a"/>
 <lb ed="GA" n="0457a01"/><item xml:id="itemGA022p0457a0101"><p xml:id="pGA022p0457a0101" rend="margin-left:1em">辯博</p></item>
-<lb ed="GA" n="0457a02"/><item xml:id="itemGA022p0457a0201"><p xml:id="pGA022p0457a0201" rend="margin-left:1em">誦咒<anchor xml:id="beg_24" type="cb-app"/>祛<anchor xml:id="end_24"/>邪</p></item>
+<lb ed="GA" n="0457a02"/><item xml:id="itemGA022p0457a0201"><p xml:id="pGA022p0457a0201" rend="margin-left:1em">誦咒<anchor xml:id="nkr_note_add_0457a0201" n="0457a0201"/><anchor xml:id="beg0457a0201" n="0457a0201"/>祛<anchor xml:id="end0457a0201"/>邪</p></item>
 <lb ed="GA" n="0457a03"/><item xml:id="itemGA022p0457a0301"><p xml:id="pGA022p0457a0301" rend="margin-left:1em">書拒左道</p></item>
 <lb ed="GA" n="0457a04"/><item xml:id="itemGA022p0457a0401"><p xml:id="pGA022p0457a0401" rend="margin-left:1em">緣契</p></item>
 <lb ed="GA" n="0457a05"/><item xml:id="itemGA022p0457a0501"><p xml:id="pGA022p0457a0501" rend="margin-left:1em">問答</p></item>
@@ -4575,7 +4580,7 @@ $Log:$
 <lb ed="GA" n="0477a03"/>臨州，一見加禮，為奏復天竺舊額。遄承可報，冀公
 <lb ed="GA" n="0477a04"/>親題其榜，筆力殊勁；且有敕旨，許作十方講院主
 <lb ed="GA" n="0477a05"/>持。還朝又表其高行，賜號「慈雲」，仍施錢萬緡為營
-<lb ed="GA" n="0477a06"/>佛殿。侍郎胡公繼典是郡，又捐<anchor xml:id="beg_25" type="cb-app"/>己<anchor xml:id="end_25"/>俸。於是裒合眾
+<lb ed="GA" n="0477a06"/>佛殿。侍郎胡公繼典是郡，又捐<anchor xml:id="nkr_note_add_0477a0601" n="0477a0601"/><anchor xml:id="beg0477a0601" n="0477a0601"/>己<anchor xml:id="end0477a0601"/>俸。於是裒合眾
 <lb ed="GA" n="0477a07"/>施凡百十餘區。又造旃檀觀音像、置三昧堂，中慈
 <lb ed="GA" n="0477a08"/>相穆如智者之遺法也。初，寺有檜枯，至是柯葉復
 <pb ed="GA" xml:id="GA022.0020.0478a" n="0478a"/>
@@ -4761,7 +4766,7 @@ $Log:$
 <pb ed="GA" xml:id="GA022.0020.0498a" n="0498a"/>
 <lb ed="GA" n="0498a01"/>之東、卞山之陽，是吾之宅。古木蒼蒼。」師又問：「汝姓誰
 <lb ed="GA" n="0498a02"/>氏？」答曰：「吳王山上無人處，幾度臨風學舞腰。」師曰：「汝
-<lb ed="GA" n="0498a03"/>柳姓乎？」乃囅然而笑。師良久呵曰：「汝無始已來迷<anchor xml:id="beg_26" type="cb-app"/>己<anchor xml:id="end_26"/>
+<lb ed="GA" n="0498a03"/>柳姓乎？」乃囅然而笑。師良久呵曰：「汝無始已來迷<anchor xml:id="nkr_note_add_0498a0301" n="0498a0301"/><anchor xml:id="beg0498a0301" n="0498a0301"/>己<anchor xml:id="end0498a0301"/>
 <lb ed="GA" n="0498a04"/>逐物，為物所轉，溺於淫邪，流浪千刼，不自解脫，入魔
 <lb ed="GA" n="0498a05"/>趣中，橫生災害，延及無辜。汝今當知魔耶非魔，魔即
 <lb ed="GA" n="0498a06"/>法界。我今為汝宣說〈首楞嚴秘密神咒〉，汝當諦聽，痛
@@ -4777,7 +4782,7 @@ $Log:$
 <lb ed="GA" n="0499a07"/><p xml:id="pGA022p0499a0701" rend="margin-left:0em;text-indent:2em">釋惠洪《林間錄》：杭州上天竺法師辯才，悟法華三昧，
 <lb ed="GA" n="0499a08"/>有至行；宏天台教，稱第一，東吳講者宗尚之。秀州有
 <pb ed="GA" xml:id="GA022.0020.0500a" n="0500a"/>
-<lb ed="GA" n="0500a01"/>狂人號「回頭」，左道以鼓俗流，宣言當建<anchor xml:id="beg_27" type="cb-app"/>窣<anchor xml:id="end_27"/>堵坡為吳
+<lb ed="GA" n="0500a01"/>狂人號「回頭」，左道以鼓俗流，宣言當建<anchor xml:id="nkr_note_add_0500a0101" n="0500a0101"/><anchor xml:id="beg0500a0101" n="0500a0101"/>窣<anchor xml:id="end0500a0101"/>堵坡為吳
 <lb ed="GA" n="0500a02"/>人福田，施者雲委；然憚入杭境，以辯才不可欺故也。
 <lb ed="GA" n="0500a03"/>不得已，既來，先以錢十萬詣上天竺飯僧，且遣使通
 <lb ed="GA" n="0500a04"/>問曰：「今以修造錢若干，願供僧一堂。」淨答其書曰：「道
@@ -4915,7 +4920,7 @@ $Log:$
 <lb ed="GA" n="0515a01"/>為難齊。故於僧職正副之外，別補都僧正一員。簿帳
 <lb ed="GA" n="0515a02"/>案牒，奔走將迎之勞，專責正副以下；而都司總領要
 <lb ed="GA" n="0515a03"/>略，實以行解表眾而已。然亦通號為僧官，故高舉遠
-<lb ed="GA" n="0515a04"/>引、山棲絕俗之士不屑為之；惟清通端雅、外<anchor xml:id="beg_28" type="cb-app"/>涉<anchor xml:id="end_28"/>世而
+<lb ed="GA" n="0515a04"/>引、山棲絕俗之士不屑為之；惟清通端雅、外<anchor xml:id="nkr_note_add_0515a0401" n="0515a0401"/><anchor xml:id="beg0515a0401" n="0515a0401"/>涉<anchor xml:id="end0515a0401"/>世而
 <lb ed="GA" n="0515a05"/>中遺物者乃任其事，蓋亦難矣。余通守錢塘時，海月
 <lb ed="GA" n="0515a06"/>大師惠辯者寔在此位。神宇澄穆，不見慍喜，而緇素
 <lb ed="GA" n="0515a07"/>悅服；余固喜從之遊。時東南多事，吏治少暇，而余方
@@ -5009,59 +5014,104 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>盱</corr><sic>盰</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_b" cb:to="#end_b"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_c" cb:to="#end_c"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_d" cb:to="#end_d"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_e" cb:to="#end_e"><corr>抵</corr><sic>扺</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>然而</corr><sic>□□</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>吾</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>吾佛亦如之。使吾黨祝髮以圓其頂、壞色以方其袍，乃欲其煩惱盡而理體圓、定慧修而德相顯也。蓋溺於理而不達於事、迷於事而不明於理者，皆不可謂之沙門。以制禮樂、為衣裳，至於舟車、器械、宮室之為，皆則而象之。故儒者冠圓冠以知天時，履句屨以知地形。蓋蔽於天而不知人、蔽於人而不知天者，皆不可謂之真儒矣。唯能通天、地、人者，真儒矣！唯能理事一如、向無異觀者，其真沙門歟！噫，人之處乎覆載之內，陶乎教化之中，具其形，服其服，用其器，而於其居也特不然哉？吾所以為是庵也，然則吾直以是為蘧廬爾。若夫以法性之圓、事相之方而規矩一切，則</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_12" cb:to="#end_12"><corr>脅</corr><sic><g ref="#CB34477">󸚭</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>嗽</corr><sic><g ref="#CB04394">𠻳</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_14" cb:to="#end_14"><corr>干</corr><sic>于</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_15" cb:to="#end_15"><corr>訴</corr><sic>訢</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_16" cb:to="#end_16"><corr>蘗</corr><sic>蘖</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_17" cb:to="#end_17"><corr>蘗</corr><sic>蘖</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_18" cb:to="#end_18"><corr>邊</corr><sic>近</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_19" cb:to="#end_19"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1a" cb:to="#end_1a"><corr>澄</corr><sic>□</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_1b" cb:to="#end_1b"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1c" cb:to="#end_1c"><corr>陝</corr><sic>陜</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_1d" cb:to="#end_1d"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_1e" cb:to="#end_1e"><corr>彷</corr><sic>仿</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1f" cb:to="#end_1f"><corr>葷</corr><sic>暈</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_20" cb:to="#end_20"><corr>券</corr><sic>劵</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_21" cb:to="#end_21"><corr>人</corr><sic>八</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_22" cb:to="#end_22"><corr>入</corr><sic>人</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_23" cb:to="#end_23"><corr>聞</corr><sic>問</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_24" cb:to="#end_24"><corr>祛</corr><sic>袪</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_25" cb:to="#end_25"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_26" cb:to="#end_26"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_27" cb:to="#end_27"><corr>窣</corr><sic><g ref="#CB02443">𡨧</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_28" cb:to="#end_28"><corr>涉</corr><sic>陟</sic></choice>
+<app from="#beg0023a0701" to="#end0023a0701"><lem wit="#wit1" resp="#resp2">盱</lem><rdg wit="#wit2">盰</rdg></app>
+<app from="#beg0033a0201" to="#end0033a0201"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0033a0701" to="#end0033a0701"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0034a0401" to="#end0034a0401"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0034a0701" to="#end0034a0701"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0035a0701" to="#end0035a0701"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0036a0101" to="#end0036a0101"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0036a0501" to="#end0036a0501"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0036a0701" to="#end0036a0701"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0037a0101" to="#end0037a0101"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0037a0201" to="#end0037a0201"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0038a0101" to="#end0038a0101"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0038a0501" to="#end0038a0501"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0080a0101" to="#end0080a0101"><lem wit="#wit1" resp="#resp3">抵</lem><rdg wit="#wit2">扺</rdg></app>
+<app from="#beg0101a0801" to="#end0101a0801"><lem wit="#wit1" resp="#resp2">然而</lem><rdg wit="#wit2">□□</rdg></app>
+<app from="#beg0102a0301" to="#end0102a0301"><lem wit="#wit1" resp="#resp2">吾</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0103a0601" to="#end0103a0601"><lem wit="#wit1" resp="#resp2">吾佛亦如之。使吾黨祝髮以圓其頂、壞色以方其袍，乃欲其煩惱盡而理體圓、定慧修而德相顯也。蓋溺於理而不達於事、迷於事而不明於理者，皆不可謂之沙門。以制禮樂、為衣裳，至於舟車、器械、宮室之為，皆則而象之。故儒者冠圓冠以知天時，履句屨以知地形。蓋蔽於天而不知人、蔽於人而不知天者，皆不可謂之真儒矣。唯能通天、地、人者，真儒矣！唯能理事一如、向無異觀者，其真沙門歟！噫，人之處乎覆載之內，陶乎教化之中，具其形，服其服，用其器，而於其居也特不然哉？吾所以為是庵也，然則吾直以是為蘧廬爾。若夫以法性之圓、事相之方而規矩一切，則</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0126a0801" to="#end0126a0801"><lem wit="#wit1" resp="#resp3">脅</lem><rdg wit="#wit2"><g ref="#CB34477">󸚭</g></rdg></app>
+<app from="#beg0135a0101" to="#end0135a0101"><lem wit="#wit1" resp="#resp2">嗽</lem><rdg wit="#wit2"><g ref="#CB04394">𠻳</g></rdg></app>
+<app from="#beg0148a0301" to="#end0148a0301"><lem wit="#wit1" resp="#resp2">干</lem><rdg wit="#wit2">于</rdg></app>
+<app from="#beg0159a0701" to="#end0159a0701"><lem wit="#wit1" resp="#resp2">訴</lem><rdg wit="#wit2">訢</rdg></app>
+<app from="#beg0161a0501" to="#end0161a0501"><lem wit="#wit1" resp="#resp2">蘗</lem><rdg wit="#wit2">蘖</rdg></app>
+<app from="#beg0161a0502" to="#end0161a0502"><lem wit="#wit1" resp="#resp2">蘗</lem><rdg wit="#wit2">蘖</rdg></app>
+<app from="#beg0167a0301" to="#end0167a0301"><lem wit="#wit1" resp="#resp2">邊</lem><rdg wit="#wit2">近</rdg></app>
+<app from="#beg0177a0701" to="#end0177a0701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0206a0801" to="#end0206a0801"><lem wit="#wit1" resp="#resp2">澄</lem><rdg wit="#wit2">□</rdg></app>
+<app from="#beg0275a0501" to="#end0275a0501"><lem wit="#wit1" resp="#resp3">斂</lem><rdg wit="#wit2">歛</rdg></app>
+<app from="#beg0301a0701" to="#end0301a0701"><lem wit="#wit1" resp="#resp2">陝</lem><rdg wit="#wit2">陜</rdg></app>
+<app from="#beg0312a0101" to="#end0312a0101"><lem wit="#wit1" resp="#resp3">斂</lem><rdg wit="#wit2">歛</rdg></app>
+<app from="#beg0323a0101" to="#end0323a0101"><lem wit="#wit1" resp="#resp3">彷</lem><rdg wit="#wit2">仿</rdg></app>
+<app from="#beg0325a0801" to="#end0325a0801"><lem wit="#wit1" resp="#resp2">葷</lem><rdg wit="#wit2">暈</rdg></app>
+<app from="#beg0331a0501" to="#end0331a0501"><lem wit="#wit1" resp="#resp3">券</lem><rdg wit="#wit2">劵</rdg></app>
+<app from="#beg0353a0601" to="#end0353a0601"><lem wit="#wit1" resp="#resp2">人</lem><rdg wit="#wit2">八</rdg></app>
+<app from="#beg0375a0501" to="#end0375a0501"><lem wit="#wit1" resp="#resp2">入</lem><rdg wit="#wit2">人</rdg></app>
+<app from="#beg0441a0401" to="#end0441a0401"><lem wit="#wit1" resp="#resp2">聞</lem><rdg wit="#wit2">問</rdg></app>
+<app from="#beg0457a0201" to="#end0457a0201"><lem wit="#wit1" resp="#resp3">祛</lem><rdg wit="#wit2">袪</rdg></app>
+<app from="#beg0477a0601" to="#end0477a0601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0498a0301" to="#end0498a0301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0500a0101" to="#end0500a0101"><lem wit="#wit1" resp="#resp2">窣</lem><rdg wit="#wit2"><g ref="#CB02443">𡨧</g></rdg></app>
+<app from="#beg0515a0401" to="#end0515a0401"><lem wit="#wit1" resp="#resp2">涉</lem><rdg wit="#wit2">陟</rdg></app>
 </p>
 </cb:div>
 <cb:div type="dila-notes">
 <head>法鼓文理學院 校註</head>
 <p>
-<note n="0101001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0101001">「然而」二字底本缺漏，據米芾〈方圓庵記〉拓本補。（<ptr target="http://www.8mhh.com/2013/0731/4623ṣhtml#g4623=13"></ptr>，2016.06.13）</note>
-<note n="0102001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0102001">底本此處有錯簡，據四庫本《武林梵志．方圓庵》，下文應接「之所以休息乎此也……此遊方之內者也至於」。今移正。後文移簡參考來源同。（欽定四庫全書,史部,地理類,古蹟之屬,武林梵志,卷三,頁二十二）</note>
-<note n="0103001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103001">底本此處有錯簡，下文應接「吾佛亦如之……規矩一切則」。今移正。</note>
-<note n="0103002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0103002">底本此處有錯簡，下文應接「諸法同體而無自位……」。今移正。</note>
-<note n="0167001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0167001">據四庫本《宋史》改。（四庫全書,史部,正史類,宋史,卷二百九十九,頁二十）</note>
-<note n="0206001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0206001">底本缺「澄」字，茲依下方案語補。</note>
-<note n="0361001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0361001">底本此處文義不順，疑有訛字。</note>
-<note n="0412001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0412001">據《景德傳燈錄．卷四．前杭州鳥窠道林禪師法嗣》改。(CBETA, T51, no. 2076, p. 230, b3)</note>
+<note n="0101001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0101001">「然而」二字底本缺漏，據米芾〈方圓庵記〉拓本補。（<ptr target="http://www.8mhh.com/2013/0731/4623ṣhtml#g4623=13"></ptr>，2016.06.13）</note>
+<note n="0102001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0102001">底本此處有錯簡，據四庫本《武林梵志．方圓庵》，下文應接「之所以休息乎此也……此遊方之內者也至於」。今移正。後文移簡參考來源同。（欽定四庫全書,史部,地理類,古蹟之屬,武林梵志,卷三,頁二十二）</note>
+<note n="0103001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0103001">底本此處有錯簡，下文應接「吾佛亦如之……規矩一切則」。今移正。</note>
+<note n="0103002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0103002">底本此處有錯簡，下文應接「諸法同體而無自位……」。今移正。</note>
+<note n="0167001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0167001">據四庫本《宋史》改。（四庫全書,史部,正史類,宋史,卷二百九十九,頁二十）</note>
+<note n="0206001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0206001">底本缺「澄」字，茲依下方案語補。</note>
+<note n="0361001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0361001">底本此處文義不順，疑有訛字。</note>
+<note n="0412001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0412001">據《景德傳燈錄．卷四．前杭州鳥窠道林禪師法嗣》改。(CBETA, T51, no. 2076, p. 230, b3)</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0023a0701" resp="#resp1" type="add" target="#nkr_note_add_0023a0701">盱【CB】，盰【志彙】</note>
+<note n="0033a0201" resp="#resp1" type="add" target="#nkr_note_add_0033a0201">［－］【CB】，一【志彙】</note>
+<note n="0033a0701" resp="#resp1" type="add" target="#nkr_note_add_0033a0701">［－］【CB】，一【志彙】</note>
+<note n="0034a0401" resp="#resp1" type="add" target="#nkr_note_add_0034a0401">［－］【CB】，一【志彙】</note>
+<note n="0034a0701" resp="#resp1" type="add" target="#nkr_note_add_0034a0701">［－］【CB】，一【志彙】</note>
+<note n="0035a0701" resp="#resp1" type="add" target="#nkr_note_add_0035a0701">［－］【CB】，一【志彙】</note>
+<note n="0036a0101" resp="#resp1" type="add" target="#nkr_note_add_0036a0101">［－］【CB】，一【志彙】</note>
+<note n="0036a0501" resp="#resp1" type="add" target="#nkr_note_add_0036a0501">［－］【CB】，一【志彙】</note>
+<note n="0036a0701" resp="#resp1" type="add" target="#nkr_note_add_0036a0701">［－］【CB】，一【志彙】</note>
+<note n="0037a0101" resp="#resp1" type="add" target="#nkr_note_add_0037a0101">［－］【CB】，一【志彙】</note>
+<note n="0037a0201" resp="#resp1" type="add" target="#nkr_note_add_0037a0201">［－］【CB】，一【志彙】</note>
+<note n="0038a0101" resp="#resp1" type="add" target="#nkr_note_add_0038a0101">［－］【CB】，一【志彙】</note>
+<note n="0038a0501" resp="#resp1" type="add" target="#nkr_note_add_0038a0501">［－］【CB】，一【志彙】</note>
+<note n="0080a0101" resp="#resp1" type="add" target="#nkr_note_add_0080a0101">抵【CB】，扺【志彙】</note>
+<note n="0101a0801" resp="#resp1" type="add" target="#nkr_note_add_0101a0801">然而【CB】，□□【志彙】</note>
+<note n="0102a0301" resp="#resp1" type="add" target="#nkr_note_add_0102a0301">吾【CB】，［－］【志彙】</note>
+<note n="0103a0601" resp="#resp1" type="add" target="#nkr_note_add_0103a0601">吾佛亦如之使吾黨祝髮以圓其頂壞色以方其袍乃欲其煩惱盡而理體圓定慧修而德相顯也蓋溺於理而不達於事迷於事而不明於理者皆不可謂之沙門以制禮樂為衣裳至於舟車器械宮室之為皆則而象之故儒者冠圓冠以知天時履句屨以知地形蓋蔽於天而不知人蔽於人而不知天者皆不可謂之真儒矣唯能通天地人者真儒矣唯能理事一如向無異觀者其真沙門歟噫人之處乎覆載之內陶乎教化之中具其形服其服用其器而於其居也特不然哉吾所以為是庵也然則吾直以是為蘧廬爾若夫以法性之圓事相之方而規矩一切則【CB】，［－］【志彙】</note>
+<note n="0126a0801" resp="#resp1" type="add" target="#nkr_note_add_0126a0801">脅【CB】，<g ref="#CB34477">󸚭</g>【志彙】</note>
+<note n="0135a0101" resp="#resp1" type="add" target="#nkr_note_add_0135a0101">嗽【CB】，<g ref="#CB04394">𠻳</g>【志彙】</note>
+<note n="0148a0301" resp="#resp1" type="add" target="#nkr_note_add_0148a0301">干【CB】，于【志彙】</note>
+<note n="0159a0701" resp="#resp1" type="add" target="#nkr_note_add_0159a0701">訴【CB】，訢【志彙】</note>
+<note n="0161a0501" resp="#resp1" type="add" target="#nkr_note_add_0161a0501">蘗【CB】，蘖【志彙】</note>
+<note n="0161a0502" resp="#resp1" type="add" target="#nkr_note_add_0161a0502">蘗【CB】，蘖【志彙】</note>
+<note n="0167a0301" resp="#resp1" type="add" target="#nkr_note_add_0167a0301">邊【CB】，近【志彙】</note>
+<note n="0177a0701" resp="#resp1" type="add" target="#nkr_note_add_0177a0701">己【CB】，已【志彙】</note>
+<note n="0206a0801" resp="#resp1" type="add" target="#nkr_note_add_0206a0801">澄【CB】，□【志彙】</note>
+<note n="0275a0501" resp="#resp1" type="add" target="#nkr_note_add_0275a0501">斂【CB】，歛【志彙】</note>
+<note n="0301a0701" resp="#resp1" type="add" target="#nkr_note_add_0301a0701">陝【CB】，陜【志彙】</note>
+<note n="0312a0101" resp="#resp1" type="add" target="#nkr_note_add_0312a0101">斂【CB】，歛【志彙】</note>
+<note n="0323a0101" resp="#resp1" type="add" target="#nkr_note_add_0323a0101">彷【CB】，仿【志彙】</note>
+<note n="0325a0801" resp="#resp1" type="add" target="#nkr_note_add_0325a0801">葷【CB】，暈【志彙】</note>
+<note n="0331a0501" resp="#resp1" type="add" target="#nkr_note_add_0331a0501">券【CB】，劵【志彙】</note>
+<note n="0353a0601" resp="#resp1" type="add" target="#nkr_note_add_0353a0601">人【CB】，八【志彙】</note>
+<note n="0375a0501" resp="#resp1" type="add" target="#nkr_note_add_0375a0501">入【CB】，人【志彙】</note>
+<note n="0441a0401" resp="#resp1" type="add" target="#nkr_note_add_0441a0401">聞【CB】，問【志彙】</note>
+<note n="0457a0201" resp="#resp1" type="add" target="#nkr_note_add_0457a0201">祛【CB】，袪【志彙】</note>
+<note n="0477a0601" resp="#resp1" type="add" target="#nkr_note_add_0477a0601">己【CB】，已【志彙】</note>
+<note n="0498a0301" resp="#resp1" type="add" target="#nkr_note_add_0498a0301">己【CB】，已【志彙】</note>
+<note n="0500a0101" resp="#resp1" type="add" target="#nkr_note_add_0500a0101">窣【CB】，<g ref="#CB02443">𡨧</g>【志彙】</note>
+<note n="0515a0401" resp="#resp1" type="add" target="#nkr_note_add_0515a0401">涉【CB】，陟【志彙】</note>
 </p>
 </cb:div>
 </back></text></TEI>

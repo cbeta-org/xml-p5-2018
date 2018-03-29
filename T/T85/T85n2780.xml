@@ -33,6 +33,7 @@
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2780</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -269,13 +270,13 @@ Added comment  for Emacs
 <lb n="0538a08" ed="T"/>　通曰。自傷也。心遊外物曰疎。形落俗中為
 <lb n="0538a09" ed="T"/>野。野故隨俗眾流。疎故未曾為福也。</p>
 <lb n="0538a10" ed="T"/><p xml:id="pT85p0538a1001">經曰今欲請佛及眾僧菩薩大士入浴室滲洗
-<lb n="0538a11" ed="T"/>　通曰。請<anchor xml:id="nkr_note_orig_0538001" n="0538001"/><anchor xml:id="beg0538001" n="0538001"/>引<anchor xml:id="end0538001"/>也。眾生身疾粗得療治。聖人
+<lb n="0538a11" ed="T"/>　通曰。請<anchor xml:id="nkr_note_orig_0538001" n="0538001"/><anchor xml:id="nkr_note_mod_0538001" n="0538001"/><anchor xml:id="beg0538001" n="0538001"/>引<anchor xml:id="end0538001"/>也。眾生身疾粗得療治。聖人
 <lb n="0538a12" ed="T"/>骸垢未曾請沐。今欲初基淨業必假良田。所
 <lb n="0538a13" ed="T"/>以奉屈三尊來遊滲室。</p>
 <lb n="0538a14" ed="T"/><p xml:id="pT85p0538a1401">經曰願令眾生長夜清淨垢穢消除不遭眾患
 <lb n="0538a15" ed="T"/>　通曰。發願也。<anchor xml:id="fxT85p0538a01"/>引之與願二事相行。猶車
 <lb n="0538a16" ed="T"/>之兩輪。鳥之二翼。陸載空飛。闕一不可。所
-<lb n="0538a17" ed="T"/>以請行復須發願。願行。此願普洽黔黎。長<anchor xml:id="beg_1" type="cb-app"/>祛<anchor xml:id="end_1"/>
+<lb n="0538a17" ed="T"/>以請行復須發願。願行。此願普洽黔黎。長<anchor xml:id="nkr_note_add_0538a1701" n="0538a1701"/><anchor xml:id="beg0538a1701" n="0538a1701"/>祛<anchor xml:id="end0538a1701"/>
 <lb n="0538a18" ed="T"/>垢累之惱。永安輕利之泰。</p>
 <lb n="0538a19" ed="T"/><p xml:id="pT85p0538a1901">經曰唯佛聖旨不忽所願　通曰。此乞恩也。
 <lb n="0538a20" ed="T"/>唯佛聖旨照我微心。不忽所願降躬滲室也。</p>
@@ -284,7 +285,7 @@ Added comment  for Emacs
 <lb n="0538a23" ed="T"/>此美意心也。祇域既鄙疎野之心。又敦修福
 <lb n="0538a24" ed="T"/>之念。故能標心淨業來遊問道。此真妙意故。
 <lb n="0538a25" ed="T"/>讚善哉也。</p>
-<lb n="0538a26" ed="T"/><p xml:id="pT85p0538a2601">經曰治眾人病皆蒙除愈遠近慶賴莫不<anchor xml:id="beg_2" type="cb-app"/>歡<anchor xml:id="end_2"/>喜
+<lb n="0538a26" ed="T"/><p xml:id="pT85p0538a2601">經曰治眾人病皆蒙除愈遠近慶賴莫不<anchor xml:id="nkr_note_add_0538a2601" n="0538a2601"/><anchor xml:id="beg0538a2601" n="0538a2601"/>歡<anchor xml:id="end0538a2601"/>喜
 <lb n="0538a27" ed="T"/>　通曰。此述舊業也。預是有身誰能無患。繼
 <lb n="0538a28" ed="T"/>沾有識誰不畏苦。祇域既能使藥石纔通。即
 <lb n="0538a29" ed="T"/>轉苦為樂。針艾亦進即變夭為修。故已治者
@@ -446,15 +447,16 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0538001" to="#end0538001"><lem resp="#resp1" wit="#wit1">引</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">行</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>祛</corr><sic>袪</sic></choice>
+<app from="#beg0538a1701" to="#end0538a1701"><lem wit="#wit2" resp="#resp2">祛</lem><rdg wit="#wit1">袪</rdg></app>
 <app from="#beg0538002" to="#end0538002"><lem resp="#resp1" wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">讚</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>歡</corr><sic>歎</sic></choice>
+<app from="#beg0538a2601" to="#end0538a2601"><lem wit="#wit2" resp="#resp2">歡</lem><rdg wit="#wit1">歎</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0538002" resp="#resp2" type="mod" target="#nkr_note_mod_0538002"><!--CBETA todo type: ＊-->說＝讚？＊</note>
+<note n="0538001" resp="#resp2" type="mod" target="#nkr_note_mod_0538001">引【大】＊，行【考偽-大】＊</note>
+<note n="0538002" resp="#resp2" type="mod" target="#nkr_note_mod_0538002"><!--CBETA todo type: ＊-->說【大】＊，讚【考偽-大】＊</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -463,6 +465,13 @@ Added comment  for Emacs
 <note n="0536033" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0536033">【原】大英博物館藏燉煌本, S. 2497, 首題新加</note>
 <note n="0538001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0538001">引＝行？＊</note>
 <note n="0538002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0538002">說＝讚？＊</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0538a1701" resp="#resp2" type="add" target="#nkr_note_add_0538a1701">祛【CB】，袪【大】</note>
+<note n="0538a2601" resp="#resp2" type="add" target="#nkr_note_add_0538a2601">歡【CB】，歎【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

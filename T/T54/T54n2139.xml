@@ -31,7 +31,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Taishō Tripiṭaka Vol. 54, No. 2139</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 <encodingDesc>
 	<projectDesc>
@@ -270,7 +274,7 @@ add cvs log
 <lb n="1267a10" ed="T"/>唯食血肉。斷眾生命。我今為汝說夜叉經。令
 <lb n="1267a11" ed="T"/>汝斷肉專食麥<g ref="#CB00595">󰉓</g>。勿為屠殺。不能斷者。以自
 <lb n="1267a12" ed="T"/>死肉。胡人佷戾。不識親疎。唯好貪婬。一無恩
-<lb n="1267a13" ed="T"/>義。鬚髮拳鞠。<anchor xml:id="beg_1" type="cb-app"/>梳<anchor xml:id="end_1"/>洗至難。性既羶腥。體多垢
+<lb n="1267a13" ed="T"/>義。鬚髮拳鞠。<anchor xml:id="nkr_note_add_1267a1301" n="1267a1301"/><anchor xml:id="beg1267a1301" n="1267a1301"/>梳<anchor xml:id="end1267a1301"/>洗至難。性既羶腥。體多垢
 <lb n="1267a14" ed="T"/>穢。使其修道。煩惱行人。是故普令剔除鬚髮。
 <lb n="1267a15" ed="T"/>隨汝本俗而衣氈裘。教汝小道。令漸修學。兼
 <lb n="1267a16" ed="T"/>持禁戒。稍習慈悲。每月十五日。常須懺悔。又
@@ -509,7 +513,7 @@ add cvs log
 <lb n="1269c09" ed="T"/>語言。有生有死須臾間。如水東流何時還。邂
 <lb n="1269c10" ed="T"/>逅相代不得停。何不習善求長生。槃散流俗
 <lb n="1269c11" ed="T"/>入膠盆。不能免離喪子身。欲求度世於中禪。
-<lb n="1269c12" ed="T"/>搦心不堅固仙根。<anchor xml:id="beg_2" type="cb-app"/>盲<anchor xml:id="end_2"/>聾音瘂教不倫。由子前
+<lb n="1269c12" ed="T"/>搦心不堅固仙根。<anchor xml:id="nkr_note_add_1269c1201" n="1269c1201"/><anchor xml:id="beg1269c1201" n="1269c1201"/>盲<anchor xml:id="end1269c1201"/>聾音瘂教不倫。由子前
 <lb n="1269c13" ed="T"/>身謗經文。論說道士毀聖人。在惡必報受罪
 <lb n="1269c14" ed="T"/>緣。但勤自責莫怨天。</p>
 <lb n="1269c15" ed="T"/><p xml:id="pT54p1269c1501">十一變之時。生在南方閻浮地。造作天地作
@@ -579,14 +583,21 @@ add cvs log
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>梳</corr><sic>疏</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>盲</corr><sic>肓</sic></choice>
+<app from="#beg1267a1301" to="#end1267a1301"><lem wit="#wit1" resp="#resp2">梳</lem><rdg wit="#wit2">疏</rdg></app>
+<app from="#beg1269c1201" to="#end1269c1201"><lem wit="#wit1" resp="#resp2">盲</lem><rdg wit="#wit2">肓</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1266003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1266003">【原】嗚沙石室佚書續編</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1267a1301" resp="#resp2" type="add" target="#nkr_note_add_1267a1301">梳【CB】，疏【大】</note>
+<note n="1269c1201" resp="#resp2" type="add" target="#nkr_note_add_1269c1201">盲【CB】，肓【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.6 $<date>$Date: 2012/06/27 08:15:42 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Jiaxing Canon (Shinwenfeng Edition) Vol. 36, No. B358</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【嘉興】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -493,7 +498,7 @@ modified: 執行 BM 轉出 XML，並修訂錯誤標記。
 <lb ed="J" n="0615a23"/>孟秋之際百穀成熟之時古柏恒新蒼松含翠頭頭
 <lb ed="J" n="0615a24"/>顯露法法全彰豎拂子云看看此一著子能為萬象
 <lb ed="J" n="0615a25"/>主不逐四時凋所以道唯一堅密身示現諸塵剎者
-<lb ed="J" n="0615a26"/>裏若見得四眾臨筵祝本師壽<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>竟其或未委更聽
+<lb ed="J" n="0615a26"/>裏若見得四眾臨筵祝本師壽<anchor xml:id="nkr_note_add_0615a2601" n="0615a2601"/><anchor xml:id="beg0615a2601" n="0615a2601"/>已<anchor xml:id="end0615a2601"/>竟其或未委更聽
 <lb ed="J" n="0615a27"/>偈言優曇現瑞示人天華萼清香遍大千劫外春秋
 <lb ed="J" n="0615a28"/>師自得萬山聳翠壽山堅下座。</p></cb:div>
 <lb ed="J" n="0615a29"/><cb:div type="orig"><p xml:id="pJ36p0615a2901" rend="margin-left:1em">四喝。</p></cb:div>
@@ -564,7 +569,7 @@ modified: 執行 BM 轉出 XML，並修訂錯誤標記。
 <lb ed="J" n="0616a01"/><cb:div type="other"><cb:mulu type="其他" level="2">牧牛頌</cb:mulu><head>牧牛頌</head>
 <lb ed="J" n="0616a02"/><cb:div type="other"><cb:mulu type="其他" level="3">尋牛</cb:mulu><head>尋牛</head>
 <lb ed="J" n="0616a03"/><lg xml:id="lgJ36p0616a0301" type="abnormal" rend="text-indent:0em"><l>徐徐獨步入嶸尋萬壑千谿路轉深行到水窮山盡
-<lb ed="J" n="0616a04"/>了磯流<anchor xml:id="beg_2" type="cb-app"/>枯<anchor xml:id="end_2"/>處始聞音</l></lg></cb:div>
+<lb ed="J" n="0616a04"/>了磯流<anchor xml:id="nkr_note_add_0616a0401" n="0616a0401"/><anchor xml:id="beg0616a0401" n="0616a0401"/>枯<anchor xml:id="end0616a0401"/>處始聞音</l></lg></cb:div>
 <lb ed="J" n="0616a05"/><cb:div type="other"><cb:mulu type="其他" level="3">見跡</cb:mulu><head>見跡</head>
 <lb ed="J" n="0616a06"/><lg xml:id="lgJ36p0616a0601" type="abnormal" rend="text-indent:0em"><l>覿面相呈見也麼分明頭角擬多羅橫身三界摩天
 <lb ed="J" n="0616a07"/>背無限途中更覓他</l></lg></cb:div>
@@ -651,8 +656,15 @@ modified: 執行 BM 轉出 XML，並修訂錯誤標記。
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>枯</corr><sic>枮</sic></choice>
+<app from="#beg0615a2601" to="#end0615a2601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0616a0401" to="#end0616a0401"><lem wit="#wit1" resp="#resp2">枯</lem><rdg wit="#wit2">枮</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0615a2601" resp="#resp1" type="add" target="#nkr_note_add_0615a2601">已【CB】，巳【嘉興】</note>
+<note n="0616a0401" resp="#resp1" type="add" target="#nkr_note_add_0616a0401">枯【CB】，枮【嘉興】</note>
 </p>
 </cb:div>
 </back></text></TEI>

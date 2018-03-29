@@ -32,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2796</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -272,7 +276,7 @@ Added comment  for Emacs
 <lb n="0720a19" ed="T"/>等至尸沙。違教結罪。</p></cb:div>
 <lb n="0720a20" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">無主房過量戒</cb:mulu><head>無主房過量戒第六</head><p xml:id="pT85p0720a2009" rend="inline">人身量同。爾者人約
 <lb n="0720a21" ed="T"/>多分身量共同也。以姬周者。即隋煬帝姓姬。
-<lb n="0720a22" ed="T"/>周朝時也。隋煬之名乃是死後<anchor xml:id="beg_1" type="cb-app"/>諡<anchor xml:id="end_1"/>號。御寓者。
+<lb n="0720a22" ed="T"/>周朝時也。隋煬之名乃是死後<anchor xml:id="nkr_note_add_0720a2201" n="0720a2201"/><anchor xml:id="beg0720a2201" n="0720a2201"/>諡<anchor xml:id="end0720a2201"/>號。御寓者。
 <lb n="0720a23" ed="T"/>天地上下曰寓。唯論以言者。了論也。率律倒
 <lb n="0720a24" ed="T"/>也。依五分佛搩手二尺為定者。五分僧祇翻
 <lb n="0720a25" ed="T"/>年代三藏各別。良由此也。六尺為步忽絲為
@@ -389,7 +393,7 @@ Added comment  for Emacs
 <lb n="0721b16" ed="T"/>五為除機嫌故。兩無任得者祇取二十五肘
 <lb n="0721b17" ed="T"/>勢分而稍似竟。四分據明內為言。後似其窄
 <lb n="0721b18" ed="T"/>挾寬容互通故言任得。性相乖忤者。逆不相
-<lb n="0721b19" ed="T"/>過。十二<anchor xml:id="beg_2" type="cb-app"/>桄<anchor xml:id="end_2"/>梯者。若無此梯上下不得。即有離
+<lb n="0721b19" ed="T"/>過。十二<anchor xml:id="nkr_note_add_0721b1901" n="0721b1901"/><anchor xml:id="beg0721b1901" n="0721b1901"/>桄<anchor xml:id="end0721b1901"/>梯者。若無此梯上下不得。即有離
 <lb n="0721b20" ed="T"/>衣也。律云。奪相失相者。比丘出界外比。迴
 <lb n="0721b21" ed="T"/>來間在路聞道。三衣被賊捋去。失相等決心
 <lb n="0721b22" ed="T"/>失了。無離衣罪失受法。後對衣所其衣先在
@@ -907,8 +911,8 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>桄<note type="cf1">T22n1425_p0278b09</note></corr><sic>挄</sic></choice>
+<app from="#beg0720a2201" to="#end0720a2201"><lem wit="#wit1" resp="#resp2">諡</lem><rdg wit="#wit2">謚</rdg></app>
+<app from="#beg0721b1901" to="#end0721b1901"><lem wit="#wit1" resp="#resp3">桄<note type="cf1">T22n1425_p0278b09</note></lem><rdg wit="#wit2">挄</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -916,6 +920,13 @@ Added comment  for Emacs
 <p>
 <note n="0719019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0719019">【原】大英博物館藏燉煌本, S. 3001, 首題新加</note>
 <note n="0719020" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0719020">首缺</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0720a2201" resp="#resp2" type="add" target="#nkr_note_add_0720a2201">諡【CB】，謚【大】</note>
+<note n="0721b1901" resp="#resp2" type="add" target="#nkr_note_add_0721b1901">桄【CB】，挄【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

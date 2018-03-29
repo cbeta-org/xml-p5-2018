@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2773</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -448,7 +452,7 @@ Added comment  for Emacs
 <lb n="0427a18" ed="T"/>更相詰問。有何所懼不取鉢耶。故次經云。一
 <lb n="0427a19" ed="T"/>切諸法如幻化相。汝今不應有所懼也　經
 <lb n="0427a20" ed="T"/>曰。彼自無瘡勿傷之也　述曰。無病之身莫
-<lb n="0427a21" ed="T"/>開破<anchor xml:id="beg_1" type="cb-app"/>刺<anchor xml:id="end_1"/>之。孔大有之體勿鑿小乘之瘡　經
+<lb n="0427a21" ed="T"/>開破<anchor xml:id="nkr_note_add_0427a2101" n="0427a2101"/><anchor xml:id="beg0427a2101" n="0427a2101"/>刺<anchor xml:id="end0427a2101"/>之。孔大有之體勿鑿小乘之瘡　經
 <lb n="0427a22" ed="T"/>曰。我觀小乘智慧微淺猶如盲人。不能分別
 <lb n="0427a23" ed="T"/>一切眾生諸根利鈍　述曰。羅漢辟支小乘
 <lb n="0427a24" ed="T"/>極果。少證人空未證法空。少證真諦未了俗
@@ -934,7 +938,7 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>刺</corr><sic>剌</sic></choice>
+<app from="#beg0427a2101" to="#end0427a2101"><lem wit="#wit1" resp="#resp2">刺</lem><rdg wit="#wit2">剌</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -942,6 +946,12 @@ Added comment  for Emacs
 <p>
 <note n="0423002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0423002">【原】佛蘭西國民圖書館藏燉煌本, P.2275, 首題新加</note>
 <note n="0426001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0426001">經師下有因其出家四字</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0427a2101" resp="#resp2" type="add" target="#nkr_note_add_0427a2101">刺【CB】，剌【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.1 $<date>$Date: 2010/07/27 08:20:52 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Fojiao Canon Vol. 52, No. 1222</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【教藏】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -84,7 +89,7 @@ modified: 執行 basicx.bat 將 bm 檔為 xml 檔
 <lb ed="G" n="1048a11"/><l>先應觀諸法</l><l>無性為自性</l><l>物我同一體</l><l>然後加諸法</l><l>云何加諸法</l><l>生老病死憂</l><l>攪擾於心田</l>
 <lb ed="G" n="1048a12"/><l>如是思惟已</l><l>應生大悲愍</l><l>由是生智心</l><l>則是光明心<note place="inline">光明心者即是菩提心也</note></l><l>以大悲熏成</l><l>其體如皓月</l>
 <lb ed="G" n="1048a13"/><l>離能取所取</l><l>菩提心已生</l><l>應住身口意</l><l>所明體加持</l><l>此名圓具法<note place="inline">即如瑜伽中成身次第也</note></l>
-<lb ed="G" n="1048a14"/><l>族明勝次第<note place="inline">知族五部明<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>五部真言也</note></l><l>眾真言威德<note place="inline">知已</note></l><l>自住部王法<note place="inline">謂一字頂輪王法也</note></l><l>則為當族主</l><l>先應印已成<note place="inline">謂大印也</note></l>
+<lb ed="G" n="1048a14"/><l>族明勝次第<note place="inline">知族五部明<anchor xml:id="nkr_note_add_1048a1401" n="1048a1401"/><anchor xml:id="beg1048a1401" n="1048a1401"/>已<anchor xml:id="end1048a1401"/>五部真言也</note></l><l>眾真言威德<note place="inline">知已</note></l><l>自住部王法<note place="inline">謂一字頂輪王法也</note></l><l>則為當族主</l><l>先應印已成<note place="inline">謂大印也</note></l>
 <lb ed="G" n="1048a15"/><l>次明應思惟</l><l>由身口意體</l><l>觀身為諸佛</l><l>於心想月輪</l><l>真言者應知</l><l>有種種光明</l><l>皆從月形生</l>
 <lb ed="G" n="1048a16"/><l>徧至無量界</l><l>復入行人心</l><l>堅固為五峰</l><l>變為金剛形</l><l>想在彼掌中</l><l>復出種種光</l><l>其光皆徧滿</l>
 <lb ed="G" n="1048a17"/><l>至於無邊界</l><l>而作佛遊戲</l><l>還來瑜岐身</l><l>如是皆入已</l><l>成普賢大色</l><l>應觀大菩薩</l><l>諸相皆成就</l>
@@ -150,7 +155,13 @@ modified: 執行 basicx.bat 將 bm 檔為 xml 檔
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg1048a1401" to="#end1048a1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1048a1401" resp="#resp1" type="add" target="#nkr_note_add_1048a1401">已【CB】，巳【教藏】</note>
 </p>
 </cb:div>
 </back></text></TEI>

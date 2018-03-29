@@ -14,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.16 $<date>$Date: 2009/04/23 08:12:10 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -33,9 +33,9 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 45, No. 1895</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
+		<witness xml:id="wit1">【CB】</witness>
 		<witness xml:id="wit2">【大】</witness>
-		<witness xml:id="wit3">【麗】</witness>
+		<witness xml:id="wit3">【麗-CB】</witness>
 		<witness xml:id="wit4">【原】</witness>
 	</listWit>
 	</sourceDesc>
@@ -713,7 +713,7 @@ Added comment  for Emacs
 <lb n="0839c11" ed="T"/>
 <lb n="0839c12" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷">本</cb:mulu><cb:jhead>量處輕重儀<note place="inline">謂亡五眾物也</note>本</cb:jhead></cb:juan>
 <lb n="0839c13" ed="T"/>
-<lb n="0839c14" ed="T"/><byline cb:type="author">唐貞觀十一<anchor xml:id="beg_1" type="cb-app"/>秊<anchor xml:id="end_1"/>神州遺僧
+<lb n="0839c14" ed="T"/><byline cb:type="author">唐貞觀十一<anchor xml:id="nkr_note_add_0839c1401" n="0839c1401"/><anchor xml:id="beg0839c1401" n="0839c1401"/>秊<anchor xml:id="end0839c1401"/>神州遺僧
 <lb n="0839c15" ed="T"/>釋迦道宣緝敘<note place="inline">乾封二年重更條理</note></byline>
 <lb n="0839c16" ed="T"/><cb:div type="other"><p xml:id="pT45p0839c1601">序曰。余昔在帝京。周流講肆。深文伏義力志
 <lb n="0839c17" ed="T"/>幽求。頗嘗清敘。惟以輕重為要。而附事臨機
@@ -876,7 +876,7 @@ Added comment  for Emacs
 <lb n="0841b26" ed="T"/>別之。謂窓戶<g ref="#CB05052">㡘</g>障竿桁枰閣壁鉤龍牙屋帳
 <lb n="0841b27" ed="T"/>床帷承塵約壁床机之類。</p>
 <lb n="0841b28" ed="T"/><p xml:id="pT45p0841b2801">已前約判義並重收。皆謂本擬楷定。不容中
-<lb n="0841b29" ed="T"/>改者。故入常住。若為壁土<anchor xml:id="beg_2" type="cb-app"/>圮<anchor xml:id="end_2"/>坼開門牖敝露。
+<lb n="0841b29" ed="T"/>改者。故入常住。若為壁土<anchor xml:id="nkr_note_add_0841b2901" n="0841b2901"/><anchor xml:id="beg0841b2901" n="0841b2901"/>圮<anchor xml:id="end0841b2901"/>坼開門牖敝露。
 <pb n="0841c" xml:id="T45.1895.0841c" ed="T"/>
 <lb n="0841c01" ed="T"/>權以布帛幔障。後須隨復屏除者。不入此例。</p>
 <lb n="0841c02" ed="T"/><p xml:id="pT45p0841c0201">第五多有銅瓶銅瓫斧鑿燈臺。律文並重收。
@@ -922,7 +922,7 @@ Added comment  for Emacs
 <lb n="0842a12" ed="T"/>經絡架桁杼緯車籰等調度。五是繅抽之具。
 <lb n="0842a13" ed="T"/>謂繅車輕絡并養蠶薄棏等。</p>
 <lb n="0842a14" ed="T"/><p xml:id="pT45p0842a1401">已上五件雖所為是輕。而事相繁重卒難勝
-<lb n="0842a15" ed="T"/>負。又道分<anchor xml:id="nkr_note_orig_0842001" n="0842001"/><anchor xml:id="beg0842001" n="0842001"/>竦<anchor xml:id="end0842001"/>緣非親機要者。並在重收。就
+<lb n="0842a15" ed="T"/>負。又道分<anchor xml:id="nkr_note_orig_0842001" n="0842001"/><anchor xml:id="nkr_note_mod_0842001" n="0842001"/><anchor xml:id="beg0842001" n="0842001"/>竦<anchor xml:id="end0842001"/>緣非親機要者。並在重收。就
 <lb n="0842a16" ed="T"/>第二件中微有輕相。如截刀剪刀佛開畜之。
 <lb n="0842a17" ed="T"/>通含大小。可依經判。四寸刃者無問鐵木角
 <lb n="0842a18" ed="T"/>骨之柄。從輕所攝。若依量已上諸刀。或以金
@@ -969,7 +969,7 @@ Added comment  for Emacs
 <pb n="0842c" xml:id="T45.1895.0842c" ed="T"/>
 <lb n="0842c01" ed="T"/>下則營衛六府。五行備附。據事以求莫非身計。縱閑放林澤無非養生。故名外書</note>初謂九流
 <lb n="0842c02" ed="T"/>史籍<note place="inline">九流者。一道二儒三名四法五墨六縱橫七陰陽八農流九雜流</note>即六經緯候諸
-<lb n="0842c03" ed="T"/>子史傳雜說文紀等。二謂三古字書<note place="inline">謂三蒼古文篆<anchor xml:id="beg_3" type="cb-app"/>籀<anchor xml:id="end_3"/>隸<anchor xml:id="nkr_note_orig_0842002" n="0842002"/><anchor xml:id="beg0842002" n="0842002"/>皆<anchor xml:id="end0842002"/>
+<lb n="0842c03" ed="T"/>子史傳雜說文紀等。二謂三古字書<note place="inline">謂三蒼古文篆<anchor xml:id="nkr_note_add_0842c0301" n="0842c0301"/><anchor xml:id="beg0842c0301" n="0842c0301"/>籀<anchor xml:id="end0842c0301"/>隸<anchor xml:id="nkr_note_orig_0842002" n="0842002"/><anchor xml:id="nkr_note_mod_0842002" n="0842002"/><anchor xml:id="beg0842002" n="0842002"/>皆<anchor xml:id="end0842002"/>
 <lb n="0842c04" ed="T"/>真草諸迹等也</note>三所盛書器<note place="inline">即上內經所列者。并餘紙筆墨硯等</note>。</p>
 <lb n="0842c05" ed="T"/><p xml:id="pT45p0842c0501">已前三件並斷重收。雖開暫學為遮俗美。終
 <lb n="0842c06" ed="T"/>非久翫。故捨入僧。紙墨有餘乃兼道務。而本
@@ -1085,7 +1085,7 @@ Added comment  for Emacs
 <pb n="0844a" xml:id="T45.1895.0844a" ed="T"/>
 <lb n="0844a01" ed="T"/>隨能受用者用。本主出物造供養。不許自資。
 <lb n="0844a02" ed="T"/>故入三寶。若入輕分便成盜業。可不慎耶。故
-<lb n="0844a03" ed="T"/>僧祇中。錢金銀者不得捉畜。若真珠琉<anchor xml:id="beg_4" type="cb-app"/>璃<anchor xml:id="end_4"/>珂
+<lb n="0844a03" ed="T"/>僧祇中。錢金銀者不得捉畜。若真珠琉<anchor xml:id="nkr_note_add_0844a0301" n="0844a0301"/><anchor xml:id="beg0844a0301" n="0844a0301"/>璃<anchor xml:id="end0844a0301"/>珂
 <lb n="0844a04" ed="T"/>貝珊瑚頗梨車渠馬腦者得觸。不得著用。明
 <lb n="0844a05" ed="T"/>知作百一物。得受用之。上云不得著者。謂
 <lb n="0844a06" ed="T"/>同衣也。如供養之具。得加飾瑩。縱律中寶裝
@@ -1109,7 +1109,7 @@ Added comment  for Emacs
 <lb n="0844a24" ed="T"/>以銅鍮絞紵木皮軱瓠作者。既常所洗濯鉢
 <lb n="0844a25" ed="T"/>具要資。準量入輕。若重大難持。及輕小隨處
 <lb n="0844a26" ed="T"/>者入重。雖開釜瓶止是供給要務。或有含俗
-<lb n="0844a27" ed="T"/>諸器。未<anchor xml:id="nkr_note_orig_0844001" n="0844001"/><anchor xml:id="beg0844001" n="0844001"/>足<anchor xml:id="end0844001"/>在輕。</p>
+<lb n="0844a27" ed="T"/>諸器。未<anchor xml:id="nkr_note_orig_0844001" n="0844001"/><anchor xml:id="nkr_note_mod_0844001" n="0844001"/><anchor xml:id="beg0844001" n="0844001"/>足<anchor xml:id="end0844001"/>在輕。</p>
 <lb n="0844a28" ed="T"/><p xml:id="pT45p0844a2801">四一切貝物不應分。除刀<g ref="#CB04687">󱉏</g>刮汗<g ref="#CB04687">󱉏</g>灌鼻筒
 <lb n="0844a29" ed="T"/>熨斗香爐禪鎮熏鉢鉤。宬眼藥函七鉢支應
 <pb n="0844b" xml:id="T45.1895.0844b" ed="T"/>
@@ -1155,8 +1155,8 @@ Added comment  for Emacs
 <lb n="0844c10" ed="T"/>非大小帳也。帳似於帽。故云耄羅。用此當司。
 <lb n="0844c11" ed="T"/>一何可笑。聞聲即判。曾未討其字源。隨語
 <lb n="0844c12" ed="T"/>便翻。即音定其體物。此則勇於取類。拙於事
-<lb n="0844c13" ed="T"/>實。且伊梨延陀名為鹿也。經中所謂。如來<anchor xml:id="beg_5" type="cb-app"/><g ref="#CB00567">󰈷</g><anchor xml:id="end_5"/>
-<lb n="0844c14" ed="T"/>相如伊梨延陀鹿王之<anchor xml:id="beg_6" type="cb-app"/><g ref="#CB00567">󰈷</g><anchor xml:id="end_6"/>。斯則多畜生鹿之
+<lb n="0844c13" ed="T"/>實。且伊梨延陀名為鹿也。經中所謂。如來<anchor xml:id="nkr_note_add_0844c1301" n="0844c1301"/><anchor xml:id="beg0844c1301" n="0844c1301"/><g ref="#CB00567">󰈷</g><anchor xml:id="end0844c1301"/>
+<lb n="0844c14" ed="T"/>相如伊梨延陀鹿王之<anchor xml:id="nkr_note_add_0844c1401" n="0844c1401"/><anchor xml:id="beg0844c1401" n="0844c1401"/><g ref="#CB00567">󰈷</g><anchor xml:id="end0844c1401"/>。斯則多畜生鹿之
 <lb n="0844c15" ed="T"/>皮也。耄羅耄耄羅並是獸名。狀如虎兕。豹
 <lb n="0844c16" ed="T"/>貊之屬。皮厚毛軟。而可坐之。余曾以事問諸
 <lb n="0844c17" ed="T"/>梵僧。此二獸皮于遁已西諸國並有。神州既
@@ -1283,7 +1283,7 @@ Added comment  for Emacs
 <lb n="0846a21" ed="T"/><p xml:id="pT45p0846a2101">二陶作器<note place="inline">謂輪繩袋簙鍬钁杴杖一切埏埴等具。并餘泥土塼瓦墼凷等也</note>。</p>
 <lb n="0846a22" ed="T"/><p xml:id="pT45p0846a2201">三皮作器<note place="inline">謂瓮瓫床桄刀剗熨鐵雜揮之屬。并餘有皮毛生者不應分</note>。</p>
 <lb n="0846a23" ed="T"/><p xml:id="pT45p0846a2301">四竹作器<note place="inline">謂刀鋸之屬。二是金竹破篾青笨<g ref="#CB05104">𮅧</g>筏。及雚葦茅荻雜草等</note>。</p>
-<lb n="0846a24" ed="T"/><p xml:id="pT45p0846a2401">五木作器<note place="inline">謂斧鋸竹剗之屬。并彫刻之具。并餘有材木薪蒸柹<anchor xml:id="nkr_note_orig_0846001" n="0846001"/><anchor xml:id="beg0846001" n="0846001"/>禮<anchor xml:id="end0846001"/>等也</note>。</p>
+<lb n="0846a24" ed="T"/><p xml:id="pT45p0846a2401">五木作器<note place="inline">謂斧鋸竹剗之屬。并彫刻之具。并餘有材木薪蒸柹<anchor xml:id="nkr_note_orig_0846001" n="0846001"/><anchor xml:id="nkr_note_mod_0846001" n="0846001"/><anchor xml:id="beg0846001" n="0846001"/>禮<anchor xml:id="end0846001"/>等也</note>。</p>
 <lb n="0846a25" ed="T"/><p xml:id="pT45p0846a2501">已前五件種類重收。古德同詞並解云。不問
 <lb n="0846a26" ed="T"/>能成所成及餘模塑皆重。此則濫通輕相。取
 <lb n="0846a27" ed="T"/>例難分。今以文義相驗。並指能成之器如前
@@ -1676,7 +1676,7 @@ Added comment  for Emacs
 <lb n="0850b25" ed="T"/><p xml:id="pT45p0850b2501">先定三重之物。初名性重<note place="inline">由體相金石土木等所成重非隨道</note>二名
 <lb n="0850b26" ed="T"/>事重<note place="inline">由非道要俗務所纏</note>三名用重<note place="inline">體是輕物附重難隨</note>。</p>
 <lb n="0850b27" ed="T"/><p xml:id="pT45p0850b2701">初性重之物有五。</p>
-<lb n="0850b28" ed="T"/><p xml:id="pT45p0850b2801">一房舍所有。謂窓戶<g ref="#CB05052">㡘</g>幕竿架枰閣<anchor xml:id="beg_7" type="cb-app"/>鎖<anchor xml:id="end_7"/>鑰床
+<lb n="0850b28" ed="T"/><p xml:id="pT45p0850b2801">一房舍所有。謂窓戶<g ref="#CB05052">㡘</g>幕竿架枰閣<anchor xml:id="nkr_note_add_0850b2801" n="0850b2801"/><anchor xml:id="beg0850b2801" n="0850b2801"/>鎖<anchor xml:id="end0850b2801"/>鑰床
 <lb n="0850b29" ed="T"/>席枕蓐燈具火爐爐等。</p>
 <pb n="0850c" xml:id="T45.1895.0850c" ed="T"/>
 <lb n="0850c01" ed="T"/><p xml:id="pT45p0850c0101">律本云。檀越為比丘令隨作房法一切聽與。
@@ -1806,7 +1806,7 @@ Added comment  for Emacs
 <lb n="0852a06" ed="T"/>體狀全俗。著即滯情。故入重攝。若已改張。壞
 <lb n="0852a07" ed="T"/>色失相。或異常俗如裙如襖。名雖含俗然相
 <lb n="0852a08" ed="T"/>有殊。並可從輕。故褊袒祇支方裙正背俱非
-<lb n="0852a09" ed="T"/>西梵所服。然異東華俗儀。故俯<anchor xml:id="nkr_note_orig_0852001" n="0852001"/><anchor xml:id="beg0852001" n="0852001"/>徒<anchor xml:id="end0852001"/>情事理義
+<lb n="0852a09" ed="T"/>西梵所服。然異東華俗儀。故俯<anchor xml:id="nkr_note_orig_0852001" n="0852001"/><anchor xml:id="nkr_note_mod_0852001" n="0852001"/><anchor xml:id="beg0852001" n="0852001"/>徒<anchor xml:id="end0852001"/>情事理義
 <lb n="0852a10" ed="T"/>可通。俱從輕限。餘並例之以定二途。</p>
 <lb n="0852a11" ed="T"/><p xml:id="pT45p0852a1101">五外道之服<note place="inline">律本云。一切外道衣不得著。謂一切草衣皮衣樹皮衣葉衣鳥毛牛馬毛等衣。今
 <lb n="0852a12" ed="T"/>亦有著紙衣者。此即是樹皮衣。亦有大德高望著青色千秋樹皮袈裟者。亦同外道衣也</note>。</p>
@@ -1901,7 +1901,7 @@ Added comment  for Emacs
 <lb n="0853a12" ed="T"/>則當體兩斷<note place="inline">謂賞勞入輕也</note>時有金皮絡朱絛界緣或
 <lb n="0853a13" ed="T"/>復角揲萬字蓮華散飾者。既律制不許畫鉢
 <lb n="0853a14" ed="T"/>內為萬字。明知眾具通然。必有斯緣。可從重
-<lb n="0853a15" ed="T"/>例。有相同<anchor xml:id="nkr_note_orig_0853001" n="0853001"/><anchor xml:id="beg0853001" n="0853001"/>跛<anchor xml:id="end0853001"/>闍之廣事。從說淨可入輕收。
+<lb n="0853a15" ed="T"/>例。有相同<anchor xml:id="nkr_note_orig_0853001" n="0853001"/><anchor xml:id="nkr_note_mod_0853001" n="0853001"/><anchor xml:id="beg0853001" n="0853001"/>跛<anchor xml:id="end0853001"/>闍之廣事。從說淨可入輕收。
 <lb n="0853a16" ed="T"/>如法者入賞。</p>
 <lb n="0853a17" ed="T"/><p xml:id="pT45p0853a1701">四漉水袋。律令作漉水囊及漉瓶。</p>
 <lb n="0853a18" ed="T"/><p xml:id="pT45p0853a1801">右諸律入輕。亦有賞勞者此律不述。可即輕
@@ -2038,19 +2038,30 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>秊</corr><sic>季</sic></choice>
-<app from="#beg_2" to="#end_2"><lem resp="#resp2" wit="#wit1">圮</lem><rdg wit="#wit2"><g ref="#CB04395">𡉏</g></rdg><rdg resp="#resp2" wit="#wit3">圯<note type="cf1">K18n0648_p0170c24</note></rdg></app>
+<app from="#beg0839c1401" to="#end0839c1401"><lem wit="#wit1" resp="#resp3">秊</lem><rdg wit="#wit2">季</rdg></app>
+<app from="#beg0841b2901" to="#end0841b2901"><lem resp="#resp3" wit="#wit1">圮</lem><rdg wit="#wit2"><g ref="#CB04395">𡉏</g></rdg><rdg resp="#resp3" wit="#wit3">圯<note type="cf1">K18n0648_p0170c24</note></rdg></app>
 <app from="#beg0842001" to="#end0842001"><lem resp="#resp1" wit="#wit2">竦</lem><rdg resp="#resp1" wit="#wit4" type="correctionRemark">疎</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>籀</corr><sic>籕</sic></choice>
+<app from="#beg0842c0301" to="#end0842c0301"><lem wit="#wit1" resp="#resp3">籀</lem><rdg wit="#wit2">籕</rdg></app>
 <app from="#beg0842002" to="#end0842002"><lem wit="#wit2">皆</lem><rdg resp="#resp1" wit="#wit4" type="variantRemark"><space quantity="0"/></rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_4" cb:to="#end_4"><corr>璃</corr><sic>瑠</sic></choice>
+<app from="#beg0844a0301" to="#end0844a0301"><lem wit="#wit1" resp="#resp2">璃</lem><rdg wit="#wit2">瑠</rdg></app>
 <app from="#beg0844001" to="#end0844001"><lem resp="#resp1" wit="#wit2">足</lem><rdg resp="#resp1" wit="#wit4" type="correctionRemark">定</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr><g ref="#CB00567">󰈷</g></corr><sic><g ref="#CB00571">󰈻</g></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr><g ref="#CB00567">󰈷</g></corr><sic><g ref="#CB00571">󰈻</g></sic></choice>
+<app from="#beg0844c1301" to="#end0844c1301"><lem wit="#wit1" resp="#resp3"><g ref="#CB00567">󰈷</g></lem><rdg wit="#wit2"><g ref="#CB00571">󰈻</g></rdg></app>
+<app from="#beg0844c1401" to="#end0844c1401"><lem wit="#wit1" resp="#resp3"><g ref="#CB00567">󰈷</g></lem><rdg wit="#wit2"><g ref="#CB00571">󰈻</g></rdg></app>
 <app from="#beg0846001" to="#end0846001"><lem resp="#resp1" wit="#wit2">禮</lem><rdg resp="#resp1" wit="#wit4" type="correctionRemark">札</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_7" cb:to="#end_7"><corr>鎖</corr><sic>瑣</sic></choice>
+<app from="#beg0850b2801" to="#end0850b2801"><lem wit="#wit1" resp="#resp2">鎖</lem><rdg wit="#wit2">瑣</rdg></app>
 <app from="#beg0852001" to="#end0852001"><lem resp="#resp1" wit="#wit2">徒</lem><rdg resp="#resp1" wit="#wit4" type="correctionRemark">從</rdg></app>
 <app from="#beg0853001" to="#end0853001"><lem resp="#resp1" wit="#wit2">跛</lem><rdg resp="#resp1" wit="#wit4" type="correctionRemark">跋</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0842001" resp="#resp2" type="mod" target="#nkr_note_mod_0842001">竦【大】，疎【考偽-原】</note>
+<note n="0842002" resp="#resp2" type="mod" target="#nkr_note_mod_0842002">皆【大】，〔－〕【校異-原】</note>
+<note n="0844001" resp="#resp2" type="mod" target="#nkr_note_mod_0844001">足【大】，定【考偽-原】</note>
+<note n="0846001" resp="#resp2" type="mod" target="#nkr_note_mod_0846001">禮【大】，札【考偽-原】</note>
+<note n="0852001" resp="#resp2" type="mod" target="#nkr_note_mod_0852001">徒【大】，從【考偽-原】</note>
+<note n="0853001" resp="#resp2" type="mod" target="#nkr_note_mod_0853001">跛【大】，跋【考偽-原】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -2063,6 +2074,18 @@ Added comment  for Emacs
 <note n="0846001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0846001">禮＝札ヵ【原】</note>
 <note n="0852001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0852001">徒＝從ヵ【原】</note>
 <note n="0853001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0853001">跛＝跋ヵ【原】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0839c1401" resp="#resp2" type="add" target="#nkr_note_add_0839c1401">秊【CB】，季【大】</note>
+<note n="0841b2901" resp="#resp2" type="add" target="#nkr_note_add_0841b2901">圮【CB】，<g ref="#CB04395">𡉏</g>【大】，圯【麗-CB】</note>
+<note n="0842c0301" resp="#resp2" type="add" target="#nkr_note_add_0842c0301">籀【CB】，籕【大】</note>
+<note n="0844a0301" resp="#resp2" type="add" target="#nkr_note_add_0844a0301">璃【CB】，瑠【大】</note>
+<note n="0844c1301" resp="#resp2" type="add" target="#nkr_note_add_0844c1301"><g ref="#CB00567">󰈷</g>【CB】，<g ref="#CB00571">󰈻</g>【大】</note>
+<note n="0844c1401" resp="#resp2" type="add" target="#nkr_note_add_0844c1401"><g ref="#CB00567">󰈷</g>【CB】，<g ref="#CB00571">󰈻</g>【大】</note>
+<note n="0850b2801" resp="#resp2" type="add" target="#nkr_note_add_0850b2801">鎖【CB】，瑣【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

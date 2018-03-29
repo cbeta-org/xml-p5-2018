@@ -37,8 +37,8 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
-		<witness xml:id="wit5">【CBETA】</witness>
-		<witness xml:id="wit6">【麗】</witness>
+		<witness xml:id="wit5">【CB】</witness>
+		<witness xml:id="wit6">【麗-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -140,7 +140,7 @@ Added comment  for Emacs
 <lb n="0917a06" ed="T"/><cb:docNumber>No. 93 [No. 26(220)]</cb:docNumber><cb:div type="jing">
 <lb n="0917a07" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead>佛說邪見經</cb:jhead></cb:juan>
 <lb n="0917a08" ed="T"/>
-<lb n="0917a09" ed="T"/><byline cb:type="Translator">失譯<anchor xml:id="nkr_note_orig_0917001" n="0917001"/><anchor xml:id="beg0917001" n="0917001"/>人名<anchor xml:id="end0917001"/>今附<anchor xml:id="nkr_note_orig_0917002" n="0917002"/><anchor xml:id="nkr_note_mod_0917002" n="0917002"/><anchor xml:id="beg0917002" n="0917002"/>東晉<anchor xml:id="end0917002"/>錄</byline>
+<lb n="0917a09" ed="T"/><byline cb:type="Translator">失譯<anchor xml:id="nkr_note_orig_0917001" n="0917001"/><anchor xml:id="nkr_note_mod_0917001" n="0917001"/><anchor xml:id="beg0917001" n="0917001"/>人名<anchor xml:id="end0917001"/>今附<anchor xml:id="nkr_note_orig_0917002" n="0917002"/><anchor xml:id="nkr_note_mod_0917002" n="0917002"/><anchor xml:id="beg0917002" n="0917002"/>東晉<anchor xml:id="end0917002"/>錄</byline>
 <lb n="0917a10" ed="T"/><p xml:id="pT01p0917a1001">聞如是：</p><p xml:id="pT01p0917a1004" rend="inline">一時，尊者阿難，在羅閱祇城迦蘭陀
 <lb n="0917a11" ed="T"/>竹園。世尊般涅槃不久，於是有異邪命，是尊
 <lb n="0917a12" ed="T"/>者阿難<anchor xml:id="nkr_note_orig_0917003" n="0917003"/><anchor xml:id="nkr_note_mod_0917003" n="0917003"/><anchor xml:id="beg0917003" n="0917003"/><g ref="#CB02673">𩮰</g><anchor xml:id="end0917003"/>角友，中食後行彷徉而行至尊者
@@ -165,9 +165,9 @@ Added comment  for Emacs
 <lb n="0917b01" ed="T"/>如是趣、如是生，及後世。此婆羅門！彼世尊如
 <lb n="0917b02" ed="T"/>是知，有知、有見，如來、無所著、等正覺，知邪見，
 <lb n="0917b03" ed="T"/>當如是知。」</p><p xml:id="pT01p0917b0305" rend="inline">「是故，阿難！我今歸汝。」</p><p xml:id="pT01p0917b0313" rend="inline">「汝婆羅門！莫
-<lb n="0917b04" ed="T"/>歸於我，如我所歸世尊，汝<anchor xml:id="nkr_note_orig_0917004" n="0917004"/><anchor xml:id="beg0917004" n="0917004"/>亦<anchor xml:id="end0917004"/>當歸之。」</p><p xml:id="pT01p0917b0415" rend="inline">「是故，
+<lb n="0917b04" ed="T"/>歸於我，如我所歸世尊，汝<anchor xml:id="nkr_note_orig_0917004" n="0917004"/><anchor xml:id="nkr_note_mod_0917004" n="0917004"/><anchor xml:id="beg0917004" n="0917004"/>亦<anchor xml:id="end0917004"/>當歸之。」</p><p xml:id="pT01p0917b0415" rend="inline">「是故，
 <lb n="0917b05" ed="T"/>阿難！我今便歸彼世尊、法及比丘僧，我於彼
-<lb n="0917b06" ed="T"/>世尊<anchor xml:id="beg_1" type="cb-app"/>為<anchor xml:id="end_1"/>優婆塞，從今日始離於殺，今日歸尊者。」</p>
+<lb n="0917b06" ed="T"/>世尊<anchor xml:id="nkr_note_add_0917b0601" n="0917b0601"/><anchor xml:id="beg0917b0601" n="0917b0601"/>為<anchor xml:id="end0917b0601"/>優婆塞，從今日始離於殺，今日歸尊者。」</p>
 <lb n="0917b07" ed="T"/><p xml:id="pT01p0917b0701">阿難如是說。彼邪命聞尊者阿難所說，歡喜
 <lb n="0917b08" ed="T"/>而樂。</p>
 <lb n="0917b09" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>佛說邪見經</cb:jhead></cb:juan>
@@ -180,14 +180,16 @@ Added comment  for Emacs
 <app from="#beg0917002" to="#end0917002"><lem wit="#wit1">東晉</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">宋</rdg></app>
 <app from="#beg0917003" to="#end0917003"><lem wit="#wit1"><g ref="#CB02673">𩮰</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">總</rdg></app>
 <app from="#beg0917004" to="#end0917004"><lem wit="#wit1">亦</lem><rdg resp="#resp1" wit="#wit3 #wit4">自</rdg></app>
-<app from="#beg_1" to="#end_1"><lem wit="#wit5 #wit6" resp="#resp3">為<note type="cf1">K19n0702_p0590b12</note></lem><rdg wit="#wit1"><space quantity="0"/></rdg></app>
+<app from="#beg0917b0601" to="#end0917b0601"><lem wit="#wit5 #wit6" resp="#resp3">為<note type="cf1">K19n0702_p0590b12</note></lem><rdg wit="#wit1"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0917002" resp="#resp2" type="mod" target="#nkr_note_mod_0917002">東晉＝宋【宋】【元】【明】</note>
-<note n="0917003" resp="#resp2" type="mod" target="#nkr_note_mod_0917003"><g ref="#CB02673">𩮰</g>＝總【宋】【元】【明】</note>
+<note n="0917001" resp="#resp2" type="mod" target="#nkr_note_mod_0917001">人名【大】，〔－〕【宋】【元】</note>
+<note n="0917002" resp="#resp2" type="mod" target="#nkr_note_mod_0917002">東晉【大】，宋【宋】【元】【明】</note>
+<note n="0917003" resp="#resp2" type="mod" target="#nkr_note_mod_0917003"><g ref="#CB02673">𩮰</g>【大】，總【宋】【元】【明】</note>
+<note n="0917004" resp="#resp2" type="mod" target="#nkr_note_mod_0917004">亦【大】，自【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -197,6 +199,12 @@ Added comment  for Emacs
 <note n="0917002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0917002">東晉＝宋【三】</note>
 <note n="0917003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0917003"><g ref="#CB02673">𩮰</g>＝總【三】</note>
 <note n="0917004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0917004">亦＝自【元】【明】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0917b0601" resp="#resp2" type="add" target="#nkr_note_add_0917b0601">為【CB】【麗-CB】，［－］【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

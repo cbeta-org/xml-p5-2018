@@ -33,8 +33,9 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 55, No. 2161</bibl>
 	<listWit>
-		<witness xml:id="wit1">【大】</witness>
-		<witness xml:id="wit2">【原】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+		<witness xml:id="wit3">【原】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -391,7 +392,7 @@ Added comment  for Emacs
 <lb n="1062c02" ed="T"/><item xml:id="itemT55p1062c0201"><title>蕤呬經三卷</title>
 <lb n="1062c03" ed="T"/><p xml:id="pT55p1062c0301" rend="margin-left:1em">右一百一十八部一百五十卷大唐特進
 <lb n="1062c04" ed="T"/>試鴻臚卿加開府儀同三司封肅國公贈
-<lb n="1062c05" ed="T"/>司空<anchor xml:id="beg_1" type="cb-app"/>諡<anchor xml:id="end_1"/>大辯正大廣智不空三藏和尚譯。</p>
+<lb n="1062c05" ed="T"/>司空<anchor xml:id="nkr_note_add_1062c0501" n="1062c0501"/><anchor xml:id="beg1062c0501" n="1062c0501"/>諡<anchor xml:id="end1062c0501"/>大辯正大廣智不空三藏和尚譯。</p>
 <lb n="1062c06" ed="T"/><p xml:id="pT55p1062c0601">法海一味隨機淺深。五乘分鑣逐器頓漸。頓
 <lb n="1062c07" ed="T"/>教之中有顯有密。於密藏也或源或派。古之
 <lb n="1062c08" ed="T"/>法匠泳派攀業。今之所傳拔<g ref="#CB07013">󱭥</g>竭源。何以故。
@@ -542,7 +543,7 @@ Added comment  for Emacs
 <lb n="1064b04" ed="T"/><item xml:id="itemT55p1064b0401"><title>大唐大興善寺大辯正大廣智三藏表答碑
 <lb n="1064b05" ed="T"/>六卷</title>
 <lb n="1064b06" ed="T"/><p xml:id="pT55p1064b0601" rend="margin-left:1em">右三十二部一百七十卷。</p>
-<lb n="1064b07" ed="T"/><p xml:id="pT55p1064b0701">含理者也三爻。能敷者也十翼。若闕彖<anchor xml:id="nkr_note_orig_1064001" n="1064001"/><anchor xml:id="beg1064001" n="1064001"/>繫<anchor xml:id="end1064001"/>龜
+<lb n="1064b07" ed="T"/><p xml:id="pT55p1064b0701">含理者也三爻。能敷者也十翼。若闕彖<anchor xml:id="nkr_note_orig_1064001" n="1064001"/><anchor xml:id="nkr_note_mod_1064001" n="1064001"/><anchor xml:id="beg1064001" n="1064001"/>繫<anchor xml:id="end1064001"/>龜
 <lb n="1064b08" ed="T"/>文何益。況乃一乘理奧義與文乖。不假論疏。
 <lb n="1064b09" ed="T"/>微言無功。雖有勞載車。冀裨乎聖典。</p></item></list></cb:div>
 <lb n="1064b10" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">佛像等</cb:mulu><head>佛像等</head>
@@ -621,7 +622,7 @@ Added comment  for Emacs
 <lb n="1065a23" ed="T"/>乍見含笑。喜歡告曰。我先知汝來。相待
 <lb n="1065a24" ed="T"/>久矣。今日相見大好大好。報命欲竭。無
 <lb n="1065a25" ed="T"/>人付法。必須速辨香花入灌頂。速辨香
-<lb n="1065a26" ed="T"/>花入灌頂壇。即歸本院營<anchor xml:id="beg_2" type="cb-app"/>辦<anchor xml:id="end_2"/>供具。六月
+<lb n="1065a26" ed="T"/>花入灌頂壇。即歸本院營<anchor xml:id="nkr_note_add_1065a2601" n="1065a2601"/><anchor xml:id="beg1065a2601" n="1065a2601"/>辦<anchor xml:id="end1065a2601"/>供具。六月
 <lb n="1065a27" ed="T"/>上旬入學法灌頂壇。是日臨大悲胎藏
 <lb n="1065a28" ed="T"/>大曼陀羅。依法拋花。偶然著中台毘盧
 <lb n="1065a29" ed="T"/>遮那如來身上。阿闍梨讚曰。不可思議
@@ -696,9 +697,15 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>諡</corr><sic>謚</sic></choice>
-<app from="#beg1064001" to="#end1064001"><lem wit="#wit1">繫</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark"><g ref="#CB00747">󰋫</g></rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>辦</corr><sic>辨</sic></choice>
+<app from="#beg1062c0501" to="#end1062c0501"><lem wit="#wit1" resp="#resp2">諡</lem><rdg wit="#wit2">謚</rdg></app>
+<app from="#beg1064001" to="#end1064001"><lem wit="#wit2">繫</lem><rdg resp="#resp1" wit="#wit3" type="variantRemark"><g ref="#CB00747">󰋫</g></rdg></app>
+<app from="#beg1065a2601" to="#end1065a2601"><lem wit="#wit1" resp="#resp3">辦</lem><rdg wit="#wit2">辨</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="1064001" resp="#resp2" type="mod" target="#nkr_note_mod_1064001">繫【大】，<g ref="#CB00747">󰋫</g>【校異-原】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -706,6 +713,13 @@ Added comment  for Emacs
 <p>
 <note n="1060007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1060007">【原】正安四年版宗教大學藏本</note>
 <note n="1064001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1064001">繫＝<g ref="#CB00747">󰋫</g>ィ【原】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1062c0501" resp="#resp2" type="add" target="#nkr_note_add_1062c0501">諡【CB】，謚【大】</note>
+<note n="1065a2601" resp="#resp2" type="add" target="#nkr_note_add_1065a2601">辦【CB】，辨【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

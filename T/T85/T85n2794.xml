@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.12 $<date>$Date: 2012/08/29 06:54:01 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2794</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -717,7 +722,7 @@ Added comment  for Emacs
 <lb n="0689c10" ed="T"/>罪數。二俱稱說。若不憶者言。道不憶數。懺悔
 <lb n="0689c11" ed="T"/>法應爾　問曰。僧住處淨地云何處分。具有
 <lb n="0689c12" ed="T"/>幾法　答曰。界律明。淨地有四種。一者俗人
-<lb n="0689c13" ed="T"/>初立僧<anchor xml:id="beg_1" type="cb-app"/>伽<anchor xml:id="end_1"/>藍時。垣牆周匝僧房厨舍。悉皆成
+<lb n="0689c13" ed="T"/>初立僧<anchor xml:id="nkr_note_add_0689c1301" n="0689c1301"/><anchor xml:id="beg0689c1301" n="0689c1301"/>伽<anchor xml:id="end0689c1301"/>藍時。垣牆周匝僧房厨舍。悉皆成
 <lb n="0689c14" ed="T"/>就。檀越即日分處。界畔分明。然後請僧來入
 <lb n="0689c15" ed="T"/>不須更分處。二者俗人造寺。垣牆周匝僧房
 <lb n="0689c16" ed="T"/>厨舍。皆悉成就。但不處分。請僧來入不得逕
@@ -753,8 +758,8 @@ Added comment  for Emacs
 <lb n="0690a16" ed="T"/>施僧時。此食置僧坐中地。未更受得大比丘
 <lb n="0690a17" ed="T"/>觸。是名觸淨。檀越家器物不定屬。僧雖觸不
 <lb n="0690a18" ed="T"/>犯　問曰。噉不淨食。得何罪報　答曰。華鮮
-<lb n="0690a19" ed="T"/>經云。食不淨食。五百萬世墮猪豚<anchor xml:id="beg_2" type="cb-app"/>蜣<anchor xml:id="end_2"/>蜋中。五
-<lb n="0690a20" ed="T"/>百萬世墮狗中。五百萬世墮<anchor xml:id="beg_3" type="cb-app"/>圊<anchor xml:id="end_3"/>廁中作虫常
+<lb n="0690a19" ed="T"/>經云。食不淨食。五百萬世墮猪豚<anchor xml:id="nkr_note_add_0690a1901" n="0690a1901"/><anchor xml:id="beg0690a1901" n="0690a1901"/>蜣<anchor xml:id="end0690a1901"/>蜋中。五
+<lb n="0690a20" ed="T"/>百萬世墮狗中。五百萬世墮<anchor xml:id="nkr_note_add_0690a2001" n="0690a2001"/><anchor xml:id="beg0690a2001" n="0690a2001"/>圊<anchor xml:id="end0690a2001"/>廁中作虫常
 <lb n="0690a21" ed="T"/>食不淨　問曰。知他立淨觸者。此復云何
 <lb n="0690a22" ed="T"/>　答曰。華鮮經云。故觸僧淨。五百萬世身無手
 <lb n="0690a23" ed="T"/>足　問曰。比丘具幾德得度弟子　答曰。要
@@ -788,7 +793,7 @@ Added comment  for Emacs
 <lb n="0690b21" ed="T"/>言。尼請誰。若言某甲若言僧次。請隨尼白二
 <lb n="0690b22" ed="T"/>羯磨差定。然後說戒教戒尼人要具十德。何
 <lb n="0690b23" ed="T"/>者是。一者戒律具足。二者廣誦二部毘尼。三
-<lb n="0690b24" ed="T"/>者多聞。四決斷無疑。五善解說法。六者族<anchor xml:id="beg_4" type="cb-app"/>姓<anchor xml:id="end_4"/>
+<lb n="0690b24" ed="T"/>者多聞。四決斷無疑。五善解說法。六者族<anchor xml:id="nkr_note_add_0690b2401" n="0690b2401"/><anchor xml:id="beg0690b2401" n="0690b2401"/>姓<anchor xml:id="end0690b2401"/>
 <lb n="0690b25" ed="T"/>出家。七者顏貌端政。八者堪能與比丘尼說。
 <lb n="0690b26" ed="T"/>九者不犯重禁。十者二十<g ref="#CB03746">󰺢</g>。若具此十德得
 <lb n="0690b27" ed="T"/>教戒比丘尼。闕一不得者。若說戒竟至明日
@@ -826,10 +831,10 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>伽</corr><sic>加</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>蜣<note type="cf1">T17n0747ap0562c23</note><note type="cf2">T85n2900_p1432a14</note></corr><sic><g ref="#CB06910">𧏞</g></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>圊</corr><sic>清</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>姓</corr><sic>性</sic></choice>
+<app from="#beg0689c1301" to="#end0689c1301"><lem wit="#wit1" resp="#resp3">伽</lem><rdg wit="#wit2">加</rdg></app>
+<app from="#beg0690a1901" to="#end0690a1901"><lem wit="#wit1" resp="#resp3">蜣<note type="cf1">T17n0747ap0562c23</note><note type="cf2">T85n2900_p1432a14</note></lem><rdg wit="#wit2"><g ref="#CB06910">𧏞</g></rdg></app>
+<app from="#beg0690a2001" to="#end0690a2001"><lem wit="#wit1" resp="#resp3">圊</lem><rdg wit="#wit2">清</rdg></app>
+<app from="#beg0690b2401" to="#end0690b2401"><lem wit="#wit1" resp="#resp3">姓</lem><rdg wit="#wit2">性</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -837,6 +842,15 @@ Added comment  for Emacs
 <p>
 <note n="0683001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0683001">【原】中村不折氏藏燉煌本，首題新加</note>
 <note n="0683002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0683002">首缺</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0689c1301" resp="#resp2" type="add" target="#nkr_note_add_0689c1301">伽【CB】，加【大】</note>
+<note n="0690a1901" resp="#resp2" type="add" target="#nkr_note_add_0690a1901">蜣【CB】，<g ref="#CB06910">𧏞</g>【大】</note>
+<note n="0690a2001" resp="#resp2" type="add" target="#nkr_note_add_0690a2001">圊【CB】，清【大】</note>
+<note n="0690b2401" resp="#resp2" type="add" target="#nkr_note_add_0690b2401">姓【CB】，性【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

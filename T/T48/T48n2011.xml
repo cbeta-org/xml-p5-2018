@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:12:49 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -174,7 +175,7 @@ Added comment  for Emacs
 <lb n="0377c04" ed="T"/>佛平等無二。</p>
 <lb n="0377c05" ed="T"/><p xml:id="pT48p0377c0501">問曰。真如法性同一無二。迷應俱迷。悟應俱
 <lb n="0377c06" ed="T"/>悟。何故佛覺性。眾生昏迷因何故然。答曰。自
-<lb n="0377c07" ed="T"/>此已上入不思<anchor xml:id="nkr_note_orig_0377006" n="0377006"/><anchor xml:id="beg0377006" n="0377006"/>識<anchor xml:id="end0377006"/>分。非凡所及。識心故悟。
+<lb n="0377c07" ed="T"/>此已上入不思<anchor xml:id="nkr_note_orig_0377006" n="0377006"/><anchor xml:id="nkr_note_mod_0377006" n="0377006"/><anchor xml:id="beg0377006" n="0377006"/>識<anchor xml:id="end0377006"/>分。非凡所及。識心故悟。
 <lb n="0377c08" ed="T"/>失性故迷。緣合即合說不可定。但信真諦守
 <lb n="0377c09" ed="T"/>自本心。故維摩經云。無自性無他性。法本無
 <lb n="0377c10" ed="T"/>生今即無滅。此悟即離二邊入無分別智。若
@@ -222,7 +223,7 @@ Added comment  for Emacs
 <lb n="0378a22" ed="T"/>所心滅一切功德自然圓滿。不假外求歸生
 <lb n="0378a23" ed="T"/>死苦。於一切處正念察心。莫愛現在樂種未
 <lb n="0378a24" ed="T"/>來苦。自誑誑他。不脫生死。努力努力。今雖無
-<lb n="0378a25" ed="T"/>常共作當來成佛之因。莫使三世虛度<anchor xml:id="nkr_note_orig_0378001" n="0378001"/><anchor xml:id="beg0378001" n="0378001"/>狂<anchor xml:id="end0378001"/>喪
+<lb n="0378a25" ed="T"/>常共作當來成佛之因。莫使三世虛度<anchor xml:id="nkr_note_orig_0378001" n="0378001"/><anchor xml:id="nkr_note_mod_0378001" n="0378001"/><anchor xml:id="beg0378001" n="0378001"/>狂<anchor xml:id="end0378001"/>喪
 <lb n="0378a26" ed="T"/>功夫。經云。常處地獄如遊園觀。在餘惡道如
 <lb n="0378a27" ed="T"/>己舍宅。我等眾生今現如此。不覺不知驚怖
 <lb n="0378a28" ed="T"/>殺人了無出心。奇哉苦哉。若有初心學坐禪
@@ -344,6 +345,13 @@ Added comment  for Emacs
 <p>
 <app from="#beg0377006" to="#end0377006"><lem resp="#resp1" wit="#wit1">識</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">議</rdg></app>
 <app from="#beg0378001" to="#end0378001"><lem resp="#resp1" wit="#wit1">狂</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">抂</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0377006" resp="#resp2" type="mod" target="#nkr_note_mod_0377006">識【大】，議【考偽-原】</note>
+<note n="0378001" resp="#resp2" type="mod" target="#nkr_note_mod_0378001">狂【大】，抂【考偽-原】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:10:05 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -310,7 +311,7 @@ Added comment  for Emacs
 <lb n="0350a05" ed="T"/>為上首故，能違一切有情處所三業惡行，功
 <lb n="0350a06" ed="T"/>德相應。案云：菩薩初發菩提之心，能攝一切
 <lb n="0350a07" ed="T"/>殊勝善根、能斷惡業，功德相應，是故說言非
-<lb n="0350a08" ed="T"/>少善根福德因緣得生<anchor xml:id="nkr_note_orig_0350001" n="0350001"/><anchor xml:id="beg0350001" n="0350001"/>被<anchor xml:id="end0350001"/>國。所以得知此為
+<lb n="0350a08" ed="T"/>少善根福德因緣得生<anchor xml:id="nkr_note_orig_0350001" n="0350001"/><anchor xml:id="nkr_note_mod_0350001" n="0350001"/><anchor xml:id="beg0350001" n="0350001"/>被<anchor xml:id="end0350001"/>國。所以得知此為
 <lb n="0350a09" ed="T"/>因者，兩卷經中攝九品因以為三輩，三中皆
 <lb n="0350a10" ed="T"/>有發菩提心；論中唯顯此文意，言大乘善根
 <lb n="0350a11" ed="T"/>男等無譏嫌名，此意正言生彼國者雖有九
@@ -366,6 +367,12 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0350001" to="#end0350001"><lem resp="#resp1" wit="#wit1">被</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">彼</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0350001" resp="#resp2" type="mod" target="#nkr_note_mod_0350001">被【大】，彼【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

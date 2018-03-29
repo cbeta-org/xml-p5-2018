@@ -12,7 +12,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.1 $<date>$Date: 2011/06/16 06:03:11 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,7 +37,11 @@
 				<idno>Vol. 10, No. 8814</idno>
 			</msIdentifier>
 		</msDesc>
-</sourceDesc>
+<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【國圖】</witness>
+	</listWit>
+	</sourceDesc>
 </fileDesc>
 <encodingDesc>
 	<projectDesc>
@@ -541,7 +546,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0001a03"/><l>俱胝百千佛</l><l>最勝祕密呪</l><l>菩<g ref="#CB16765">󴅽</g>聖賢僧</l>
 <lb ed="D" n="0001a04"/><l>唯願賜威神</l><l>同垂加護念</l><l>我發菩提意</l>
 <lb ed="D" n="0001a05"/><l>持誦佛頂言</l><l>普願諸有情</l><l>見聞并讀誦</l>
-<lb ed="D" n="0001a06"/><l>罪障皆消滅</l><l>福智<anchor xml:id="beg_1" type="cb-app"/>悉<anchor xml:id="end_1"/>圎明</l><l>離苦生淨方</l>
+<lb ed="D" n="0001a06"/><l>罪障皆消滅</l><l>福智<anchor xml:id="nkr_note_add_0001a0601" n="0001a0601"/><anchor xml:id="beg0001a0601" n="0001a0601"/>悉<anchor xml:id="end0001a0601"/>圎明</l><l>離苦生淨方</l>
 <lb ed="D" n="0001a07"/><l>疾證菩提道</l></lg>
 <lb ed="D" n="0001a08"/><p xml:id="pD10p0001a0801">加句靈驗佛頂尊勝陀羅尼曰。</p>
 <lb ed="D" n="0001a09"/><p cb:type="dharani" xml:id="pD10p0001a0901">曩謨婆誐<note place="inline">魚加切</note>嚩<note place="inline">無可切</note>帝<note place="inline">一</note>　怛<note place="inline">當達切</note>賴
@@ -589,14 +594,14 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0004a12"/>瑟恥多<note place="inline">五十六</note>　摩賀母捺<g ref="#CB29807">󷑯</g><note place="inline">五十七</note><note place="inline">二合</note>　娑嚩
 <pb ed="D" xml:id="D10.8814.0005a" n="0005a"/>
 <lb ed="D" n="0005a01"/>賀<note place="inline">五十八</note></p>
-<lb ed="D" n="0005a02"/><p xml:id="pD10p0005a0201">佛言若人須<g ref="#CB04456">󱅨</g>得聞此陀羅尼千劫<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>
+<lb ed="D" n="0005a02"/><p xml:id="pD10p0005a0201">佛言若人須<g ref="#CB04456">󱅨</g>得聞此陀羅尼千劫<anchor xml:id="nkr_note_add_0005a0201" n="0005a0201"/><anchor xml:id="beg0005a0201" n="0005a0201"/>已<anchor xml:id="end0005a0201"/>
 <lb ed="D" n="0005a03"/>來積造惡業重障皆悉消滅轉所生處
 <lb ed="D" n="0005a04"/>皆得清淨乃至飛鳥畜生含靈之類聞
 <lb ed="D" n="0005a05"/>此陀羅尼一經於耳盡此一身更不復
 <lb ed="D" n="0005a06"/>受若人能日日誦此陀羅尼二十一徧
 <lb ed="D" n="0005a07"/>應消一切<g ref="#CB30735">𠀍</g>閒廣大供養<g ref="#CB22057">󵘩</g>身往生極
 <lb ed="D" n="0005a08"/>樂<g ref="#CB30735">𠀍</g>界若常誦念得大涅槃復增壽命
-<lb ed="D" n="0005a09"/>受勝快樂<g ref="#CB22057">󵘩</g>此身<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>即得往生種種微
+<lb ed="D" n="0005a09"/>受勝快樂<g ref="#CB22057">󵘩</g>此身<anchor xml:id="nkr_note_add_0005a0901" n="0005a0901"/><anchor xml:id="beg0005a0901" n="0005a0901"/>已<anchor xml:id="end0005a0901"/>即得往生種種微
 <lb ed="D" n="0005a10"/>妙諸佛剎土常與諸佛俱會一處一切
 <lb ed="D" n="0005a11"/>如來恒為演<g ref="#CB22072">󵘸</g>微妙之義一切<g ref="#CB30735">𠀍</g>尊即
 <lb ed="D" n="0005a12"/>授其記身光照耀一切佛土。</p>
@@ -631,8 +636,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0008a02"/><p cb:type="dharani" xml:id="pD10p0008a0201">跢姪他　唵　阿那<g ref="#CB27601">󶯑</g>　毗舎提　<g ref="#CB22016">󵘀</g>
 <lb ed="D" n="0008a03"/>囉跋闍囉陀唎　槃陀槃陀<g ref="#CB08859">你</g>　跋闍
 <lb ed="D" n="0008a04"/>囉謗尼泮　虎<g ref="#CB00292">𤙖</g>都嚧甕泮　莎婆訶</p>
-<lb ed="D" n="0008a05"/><p xml:id="pD10p0008a0501">經云十方如來因<anchor xml:id="beg_4" type="cb-app"/>此<anchor xml:id="end_4"/>呪心得成無上正
-<lb ed="D" n="0008a06"/>徧知覺十方如來執<anchor xml:id="beg_5" type="cb-app"/>此<anchor xml:id="end_5"/>呪心降伏諸魔
+<lb ed="D" n="0008a05"/><p xml:id="pD10p0008a0501">經云十方如來因<anchor xml:id="nkr_note_add_0008a0501" n="0008a0501"/><anchor xml:id="beg0008a0501" n="0008a0501"/>此<anchor xml:id="end0008a0501"/>呪心得成無上正
+<lb ed="D" n="0008a06"/>徧知覺十方如來執<anchor xml:id="nkr_note_add_0008a0601" n="0008a0601"/><anchor xml:id="beg0008a0601" n="0008a0601"/>此<anchor xml:id="end0008a0601"/>呪心降伏諸魔
 <lb ed="D" n="0008a07"/>制諸外道乃至若有眾生從無量無數
 <lb ed="D" n="0008a08"/>劫來所造一切輕重罪障從前<g ref="#CB30735">𠀍</g>來未
 <lb ed="D" n="0008a09"/>及懺悔若能讀誦書寫此呪身上帶持
@@ -718,7 +723,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0014a11"/>後任運往生龍樹菩<g ref="#CB16765">󴅽</g>願生安養夢感
 <lb ed="D" n="0014a12"/>此呪。</p></cb:div>
 <pb ed="D" xml:id="D10.8814.0015a" n="0015a"/>
-<lb ed="D" n="0015a01"/><cb:div type="other"><cb:mulu type="其他" level="1">六字大陀羅尼</cb:mulu><head><anchor xml:id="beg_6" type="cb-app"/>六字<anchor xml:id="end_6"/>大陀羅尼<note place="inline">知字</note></head>
+<lb ed="D" n="0015a01"/><cb:div type="other"><cb:mulu type="其他" level="1">六字大陀羅尼</cb:mulu><head><anchor xml:id="nkr_note_add_0015a0101" n="0015a0101"/><anchor xml:id="beg0015a0101" n="0015a0101"/>六字<anchor xml:id="end0015a0101"/>大陀羅尼<note place="inline">知字</note></head>
 <lb ed="D" n="0015a02"/><p cb:type="dharani" xml:id="pD10p0015a0201">唵　婆髻<g ref="#CB00501">䭾</g>那<note place="inline">上</note>莫</p>
 <lb ed="D" n="0015a03"/><p xml:id="pD10p0015a0301">此文殊師利六字呪若日日常誦莫忘
 <lb ed="D" n="0015a04"/>定受業報亦令消滅若日別誦一百八
@@ -767,15 +772,15 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0018a08"/>墮惡道常生佛前。</p></cb:div>
 <lb ed="D" n="0018a09"/><cb:div type="other"><cb:mulu type="其他" level="1">蓮華部心呪</cb:mulu><head>蓮華部心呪<note place="inline"><g ref="#CB06224">󱡐</g>字函</note></head>
 <lb ed="D" n="0018a10"/><p cb:type="dharani" xml:id="pD10p0018a1001">唵　阿嚕力迦<note place="inline">半音呼之</note>莎嚩<note place="inline">二合</note>訶</p>
-<lb ed="D" n="0018a11"/><p xml:id="pD10p0018a1101">觀自在菩<g ref="#CB16765">󴅽</g><g ref="#CB22072">󵘸</g>此呪<anchor xml:id="beg_7" type="cb-app"/>已<anchor xml:id="end_7"/>白佛言<g ref="#CB30735">𠀍</g>尊此
+<lb ed="D" n="0018a11"/><p xml:id="pD10p0018a1101">觀自在菩<g ref="#CB16765">󴅽</g><g ref="#CB22072">󵘸</g>此呪<anchor xml:id="nkr_note_add_0018a1101" n="0018a1101"/><anchor xml:id="beg0018a1101" n="0018a1101"/>已<anchor xml:id="end0018a1101"/>白佛言<g ref="#CB30735">𠀍</g>尊此
 <lb ed="D" n="0018a12"/>真言是一切蓮華部心若每日晨朝於
 <pb ed="D" xml:id="D10.8814.0019a" n="0019a"/>
-<lb ed="D" n="0019a01"/>我像前<anchor xml:id="beg_8" type="cb-app"/>作<anchor xml:id="end_8"/>曼茶羅散種種華誦八千徧
-<lb ed="D" n="0019a02"/><anchor xml:id="beg_9" type="cb-app"/>後<anchor xml:id="end_9"/>不與人語更誦多少漸為強記若依
+<lb ed="D" n="0019a01"/>我像前<anchor xml:id="nkr_note_add_0019a0101" n="0019a0101"/><anchor xml:id="beg0019a0101" n="0019a0101"/>作<anchor xml:id="end0019a0101"/>曼茶羅散種種華誦八千徧
+<lb ed="D" n="0019a02"/><anchor xml:id="nkr_note_add_0019a0201" n="0019a0201"/><anchor xml:id="beg0019a0201" n="0019a0201"/>後<anchor xml:id="end0019a0201"/>不與人語更誦多少漸為強記若依
 <lb ed="D" n="0019a03"/>此法能滿六月即大聦明凡所聞言皆
 <lb ed="D" n="0019a04"/>領不忘若清淨洗浴而於佛前造三圎
 <lb ed="D" n="0019a05"/>壇一佛二法弟三為僧各如法供養手
-<lb ed="D" n="0019a06"/>執香鑪燒香獻<anchor xml:id="beg_a" type="cb-app"/>已<anchor xml:id="end_a"/>誦滿八千徧應墯地
+<lb ed="D" n="0019a06"/>執香鑪燒香獻<anchor xml:id="nkr_note_add_0019a0601" n="0019a0601"/><anchor xml:id="beg0019a0601" n="0019a0601"/>已<anchor xml:id="end0019a0601"/>誦滿八千徧應墯地
 <lb ed="D" n="0019a07"/>獄四重五逆一切重罪無不消滅必不
 <lb ed="D" n="0019a08"/>疑也若滿六月<g ref="#CB22208">𣫭</g>誦一千五百徧所有
 <lb ed="D" n="0019a09"/>悉地皆得成就。</p>
@@ -783,13 +788,13 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0019a11"/><cb:juan fun="close" n="1"><cb:jhead>尊勝等靈異神呪共二十道</cb:jhead></cb:juan></cb:div>
 <lb ed="D" n="0019a12"/><cb:div type="other"><cb:mulu type="其他" level="1">跋</cb:mulu>
 <pb ed="D" xml:id="D10.8814.0020a" n="0020a"/>
-<lb ed="D" n="0020a01"/><cb:div type="other"><cb:mulu type="其他" level="2">德求跋</cb:mulu><p xml:id="pD10p0020a0101"><anchor xml:id="beg_b" type="cb-app"/>惠雲<anchor xml:id="end_b"/>院釋迦遺教比丘德求乾道九年太歲
+<lb ed="D" n="0020a01"/><cb:div type="other"><cb:mulu type="其他" level="2">德求跋</cb:mulu><p xml:id="pD10p0020a0101"><anchor xml:id="nkr_note_add_0020a0101" n="0020a0101"/><anchor xml:id="beg0020a0101" n="0020a0101"/>惠雲<anchor xml:id="end0020a0101"/>院釋迦遺教比丘德求乾道九年太歲
 <lb ed="D" n="0020a02"/>癸巳季春時年五十有九歲謹以自己衣鉢
-<lb ed="D" n="0020a03"/>錢<anchor xml:id="beg_c" type="cb-app"/>重<anchor xml:id="end_c"/>新修　釋迦如來舎利<g ref="#CB30988">󷤌</g><g ref="#CB30259">󷘳</g>二所并
-<lb ed="D" n="0020a04"/>印造　尊勝<g ref="#CB21717">󵓕</g>祕文奉安<g ref="#CB30988">󷤌</g><g ref="#CB30259">󷘳</g>之<anchor xml:id="beg_d" type="cb-app"/>內<anchor xml:id="end_d"/>願
+<lb ed="D" n="0020a03"/>錢<anchor xml:id="nkr_note_add_0020a0301" n="0020a0301"/><anchor xml:id="beg0020a0301" n="0020a0301"/>重<anchor xml:id="end0020a0301"/>新修　釋迦如來舎利<g ref="#CB30988">󷤌</g><g ref="#CB30259">󷘳</g>二所并
+<lb ed="D" n="0020a04"/>印造　尊勝<g ref="#CB21717">󵓕</g>祕文奉安<g ref="#CB30988">󷤌</g><g ref="#CB30259">󷘳</g>之<anchor xml:id="nkr_note_add_0020a0401" n="0020a0401"/><anchor xml:id="beg0020a0401" n="0020a0401"/>內<anchor xml:id="end0020a0401"/>願
 <lb ed="D" n="0020a05"/>諸天大權於空中守護此<g ref="#CB30988">󷤌</g><g ref="#CB30259">󷘳</g>令其堅
-<lb ed="D" n="0020a06"/><anchor xml:id="beg_e" type="cb-app"/>固<anchor xml:id="end_e"/>久住<g ref="#CB30735">𠀍</g>間莫使天魔侵害令人天瞻<anchor xml:id="beg_f" type="cb-app"/>仰<anchor xml:id="end_f"/>
-<lb ed="D" n="0020a07"/>平等普熏四<g ref="#CB22131">㤙</g><g ref="#CB21717">󵓕</g>報三有普資法<anchor xml:id="beg_10" type="cb-app"/>界<anchor xml:id="end_10"/>
+<lb ed="D" n="0020a06"/><anchor xml:id="nkr_note_add_0020a0601" n="0020a0601"/><anchor xml:id="beg0020a0601" n="0020a0601"/>固<anchor xml:id="end0020a0601"/>久住<g ref="#CB30735">𠀍</g>間莫使天魔侵害令人天瞻<anchor xml:id="nkr_note_add_0020a0602" n="0020a0602"/><anchor xml:id="beg0020a0602" n="0020a0602"/>仰<anchor xml:id="end0020a0602"/>
+<lb ed="D" n="0020a07"/>平等普熏四<g ref="#CB22131">㤙</g><g ref="#CB21717">󵓕</g>報三有普資法<anchor xml:id="nkr_note_add_0020a0701" n="0020a0701"/><anchor xml:id="beg0020a0701" n="0020a0701"/>界<anchor xml:id="end0020a0701"/>
 <lb ed="D" n="0020a08"/><unclear></unclear><unclear></unclear>霑斯利然後父母師僧早願<unclear></unclear><unclear></unclear>
 <lb ed="D" n="0020a09"/><unclear></unclear><unclear></unclear>求臨終正念視聴分明如入禪<g ref="#CB30070">㝎</g>隱几
 <lb ed="D" n="0020a10"/><unclear></unclear><unclear></unclear>無業障袈裟之下乞無魔<unclear></unclear><unclear></unclear><unclear></unclear>
@@ -802,15 +807,15 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0021a04"/>款疏密任意不一而字勢皆生動此尊勝等
 <lb ed="D" n="0021a05"/>靈異神咒共二十道乃宋孝宗乾道九年秀州
 <lb ed="D" n="0021a06"/>恵雲院僧徳求裝治供奉釋迦如来舍利寶
-<lb ed="D" n="0021a07"/><g ref="#CB30259">󷘳</g>內者墖既<anchor xml:id="beg_11" type="cb-app"/>圮<anchor xml:id="end_11"/>遂流落人間有當日徳求自
+<lb ed="D" n="0021a07"/><g ref="#CB30259">󷘳</g>內者墖既<anchor xml:id="nkr_note_add_0021a0701" n="0021a0701"/><anchor xml:id="beg0021a0701" n="0021a0701"/>圮<anchor xml:id="end0021a0701"/>遂流落人間有當日徳求自
 <lb ed="D" n="0021a08"/><g ref="#CB02494">䟦</g>墨迹如新書法秀逸似張樗寮其咒語書
 <lb ed="D" n="0021a09"/>刻皆精是瘦者學歐一類雲窗展誦古香古
 <lb ed="D" n="0021a10"/>色塵心為之<g ref="#CB01076">䪺</g>清見者當作法帖觀不可徒
 <lb ed="D" n="0021a11"/>以尋常經<g ref="#CB04693">𠕋</g>視之。</p>
 <lb ed="D" n="0021a12"/><p xml:id="pD10p0021a1201" rend="margin-left:1em">道光二十九年七月既望錢唐魏謙升滋伯記</p></cb:div>
 <pb ed="D" xml:id="D10.8814.0022a" n="0022a"/>
-<lb ed="D" n="0022a01"/><cb:div type="other"><cb:mulu type="其他" level="2">張爾田跋</cb:mulu><p xml:id="pD10p0022a0101"><anchor xml:id="beg_12" type="cb-app"/>右<anchor xml:id="end_12"/>宋刊尊勝陀羅尼大灌頂光真言首楞嚴心呪廣大寶樓閣陀羅尼根
-<lb ed="D" n="0022a02"/>本呪禮<anchor xml:id="beg_13" type="cb-app"/>拜<anchor xml:id="end_13"/>滅罪呪金剛壽命陀羅尼一字心呪無量心真言六字大陀羅尼根
+<lb ed="D" n="0022a01"/><cb:div type="other"><cb:mulu type="其他" level="2">張爾田跋</cb:mulu><p xml:id="pD10p0022a0101"><anchor xml:id="nkr_note_add_0022a0101" n="0022a0101"/><anchor xml:id="beg0022a0101" n="0022a0101"/>右<anchor xml:id="end0022a0101"/>宋刊尊勝陀羅尼大灌頂光真言首楞嚴心呪廣大寶樓閣陀羅尼根
+<lb ed="D" n="0022a02"/>本呪禮<anchor xml:id="nkr_note_add_0022a0201" n="0022a0201"/><anchor xml:id="beg0022a0201" n="0022a0201"/>拜<anchor xml:id="end0022a0201"/>滅罪呪金剛壽命陀羅尼一字心呪無量心真言六字大陀羅尼根
 <lb ed="D" n="0022a03"/>本一字呪文殊五字呪普賢滅罪呪如意心呪蓮花心呪等共二十道皆從密部
 <lb ed="D" n="0022a04"/><unclear></unclear>出<unclear></unclear>便誦<unclear></unclear>以覈令藏文身<unclear></unclear>身音表<unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear>數碩異攷道宣內典錄
 <lb ed="D" n="0022a05"/>明<unclear></unclear>刊定記大都<unclear></unclear>詳部偶<unclear></unclear>紀<unclear></unclear>記<unclear></unclear>號智昇開元釋錄<unclear></unclear><unclear></unclear>藏收<unclear></unclear><unclear></unclear><unclear></unclear>錄四卷
@@ -819,32 +824,57 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0022a08"/><unclear></unclear>比邱<unclear></unclear>瑩所辨今之龍藏<unclear></unclear><unclear></unclear>南北<unclear></unclear><unclear></unclear>勝明<unclear></unclear><unclear></unclear>幸較此冊<unclear></unclear><unclear></unclear>鈔
 <lb ed="D" n="0022a09"/><unclear></unclear>就其<unclear></unclear>列<unclear></unclear>可攷是<unclear></unclear><unclear></unclear>舊次所謂<unclear></unclear><unclear></unclear>式者或在於茲洵瓌寶矣徳
 <lb ed="D" n="0022a10"/><unclear></unclear><unclear></unclear>履散<unclear></unclear><unclear></unclear>題墨疏<unclear></unclear>無座<unclear></unclear><unclear></unclear>餐味<g ref="#CB09168">󲏐</g>疲淵<unclear></unclear>湛然樂盦居士其
-<lb ed="D" n="0022a11"/><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear>酉春二月錢唐鄔波索迦張爾田孟<anchor xml:id="beg_14" type="cb-app"/>劬<anchor xml:id="end_14"/>敬<g ref="#CB02494">䟦</g>。</p></cb:div></cb:div>
+<lb ed="D" n="0022a11"/><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear>酉春二月錢唐鄔波索迦張爾田孟<anchor xml:id="nkr_note_add_0022a1101" n="0022a1101"/><anchor xml:id="beg0022a1101" n="0022a1101"/>劬<anchor xml:id="end0022a1101"/>敬<g ref="#CB02494">䟦</g>。</p></cb:div></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>悉</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>此</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>此</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>六字</corr><sic><unclear></unclear><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>作</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>後</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>惠雲</corr><sic><unclear></unclear><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>重</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr>內</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>固</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>仰</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>界</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>圮</corr><sic><g ref="#CB04395">𡉏</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_12" cb:to="#end_12"><corr>右</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>拜</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_14" cb:to="#end_14"><corr>劬</corr><sic><unclear></unclear></sic></choice>
+<app from="#beg0001a0601" to="#end0001a0601"><lem wit="#wit1" resp="#resp2">悉</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0005a0201" to="#end0005a0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0005a0901" to="#end0005a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0008a0501" to="#end0008a0501"><lem wit="#wit1" resp="#resp2">此</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0008a0601" to="#end0008a0601"><lem wit="#wit1" resp="#resp2">此</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0015a0101" to="#end0015a0101"><lem wit="#wit1" resp="#resp2">六字</lem><rdg wit="#wit2"><unclear></unclear><unclear></unclear></rdg></app>
+<app from="#beg0018a1101" to="#end0018a1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0019a0101" to="#end0019a0101"><lem wit="#wit1" resp="#resp2">作</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0019a0201" to="#end0019a0201"><lem wit="#wit1" resp="#resp2">後</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0019a0601" to="#end0019a0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0020a0101" to="#end0020a0101"><lem wit="#wit1" resp="#resp2">惠雲</lem><rdg wit="#wit2"><unclear></unclear><unclear></unclear></rdg></app>
+<app from="#beg0020a0301" to="#end0020a0301"><lem wit="#wit1" resp="#resp2">重</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0020a0401" to="#end0020a0401"><lem wit="#wit1" resp="#resp2">內</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0020a0601" to="#end0020a0601"><lem wit="#wit1" resp="#resp2">固</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0020a0602" to="#end0020a0602"><lem wit="#wit1" resp="#resp2">仰</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0020a0701" to="#end0020a0701"><lem wit="#wit1" resp="#resp2">界</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0021a0701" to="#end0021a0701"><lem wit="#wit1" resp="#resp2">圮</lem><rdg wit="#wit2"><g ref="#CB04395">𡉏</g></rdg></app>
+<app from="#beg0022a0101" to="#end0022a0101"><lem wit="#wit1" resp="#resp2">右</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0022a0201" to="#end0022a0201"><lem wit="#wit1" resp="#resp2">拜</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0022a1101" to="#end0022a1101"><lem wit="#wit1" resp="#resp2">劬</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0001a0601" resp="#resp1" type="add" target="#nkr_note_add_0001a0601">悉【CB】，<unclear></unclear>【國圖】</note>
+<note n="0005a0201" resp="#resp1" type="add" target="#nkr_note_add_0005a0201">已【CB】，巳【國圖】</note>
+<note n="0005a0901" resp="#resp1" type="add" target="#nkr_note_add_0005a0901">已【CB】，巳【國圖】</note>
+<note n="0008a0501" resp="#resp1" type="add" target="#nkr_note_add_0008a0501">此【CB】，<unclear></unclear>【國圖】</note>
+<note n="0008a0601" resp="#resp1" type="add" target="#nkr_note_add_0008a0601">此【CB】，<unclear></unclear>【國圖】</note>
+<note n="0015a0101" resp="#resp1" type="add" target="#nkr_note_add_0015a0101">六字【CB】，<unclear></unclear><unclear></unclear>【國圖】</note>
+<note n="0018a1101" resp="#resp1" type="add" target="#nkr_note_add_0018a1101">已【CB】，巳【國圖】</note>
+<note n="0019a0101" resp="#resp1" type="add" target="#nkr_note_add_0019a0101">作【CB】，<unclear></unclear>【國圖】</note>
+<note n="0019a0201" resp="#resp1" type="add" target="#nkr_note_add_0019a0201">後【CB】，<unclear></unclear>【國圖】</note>
+<note n="0019a0601" resp="#resp1" type="add" target="#nkr_note_add_0019a0601">已【CB】，巳【國圖】</note>
+<note n="0020a0101" resp="#resp1" type="add" target="#nkr_note_add_0020a0101">惠雲【CB】，<unclear></unclear><unclear></unclear>【國圖】</note>
+<note n="0020a0301" resp="#resp1" type="add" target="#nkr_note_add_0020a0301">重【CB】，<unclear></unclear>【國圖】</note>
+<note n="0020a0401" resp="#resp1" type="add" target="#nkr_note_add_0020a0401">內【CB】，<unclear></unclear>【國圖】</note>
+<note n="0020a0601" resp="#resp1" type="add" target="#nkr_note_add_0020a0601">固【CB】，<unclear></unclear>【國圖】</note>
+<note n="0020a0602" resp="#resp1" type="add" target="#nkr_note_add_0020a0602">仰【CB】，<unclear></unclear>【國圖】</note>
+<note n="0020a0701" resp="#resp1" type="add" target="#nkr_note_add_0020a0701">界【CB】，<unclear></unclear>【國圖】</note>
+<note n="0021a0701" resp="#resp1" type="add" target="#nkr_note_add_0021a0701">圮【CB】，<g ref="#CB04395">𡉏</g>【國圖】</note>
+<note n="0022a0101" resp="#resp1" type="add" target="#nkr_note_add_0022a0101">右【CB】，<unclear></unclear>【國圖】</note>
+<note n="0022a0201" resp="#resp1" type="add" target="#nkr_note_add_0022a0201">拜【CB】，<unclear></unclear>【國圖】</note>
+<note n="0022a1101" resp="#resp1" type="add" target="#nkr_note_add_0022a1101">劬【CB】，<unclear></unclear>【國圖】</note>
 </p>
 </cb:div>
 </back></text></TEI>

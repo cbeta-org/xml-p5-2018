@@ -13,7 +13,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.6 $<date>$Date: 2009/04/22 09:03:13 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 69, No. 1323</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -94,7 +99,7 @@ Revision 1.1  2004/06/17 01:20:44  ray
 <lb ed="X" n="0007c23"/><lb ed="R119" n="0821a17"/>自言。空不自言。色亦不言。是非垢淨。亦無心繫縛人。
 <lb ed="X" n="0007c24"/><lb ed="R119" n="0821a18"/>但為人自生虗妄繫著。作若干種解會。起若干種知
 <pb ed="X" xml:id="X69.1323.0008a" n="0008a"/>
-<lb ed="X" n="0008a01"/><lb ed="R119" n="0821b01"/>見。生若干種愛畏。但了諸法不自生。皆從自<anchor xml:id="beg_1" type="cb-app"/>己<anchor xml:id="end_1"/>一念
+<lb ed="X" n="0008a01"/><lb ed="R119" n="0821b01"/>見。生若干種愛畏。但了諸法不自生。皆從自<anchor xml:id="nkr_note_add_0008a0101" n="0008a0101"/><anchor xml:id="beg0008a0101" n="0008a0101"/>己<anchor xml:id="end0008a0101"/>一念
 <lb ed="X" n="0008a02"/><lb ed="R119" n="0821b02"/>妄想顛倒取相而有。知心與境。本不相到。當處解脫。
 <lb ed="X" n="0008a03"/><lb ed="R119" n="0821b03"/>一一諸法。當處寂滅。當處道場。又本有之性。不可名
 <lb ed="X" n="0008a04"/><lb ed="R119" n="0821b04"/>目。本來不是凡不是聖。不是垢淨。亦非空有。亦非善
@@ -117,7 +122,7 @@ Revision 1.1  2004/06/17 01:20:44  ray
 <lb ed="X" n="0008a21"/><lb ed="R119" n="0822a03"/>因果所縛。不被有漏所拘。他時還以無自縛為因。同
 <lb ed="X" n="0008a22"/><lb ed="R119" n="0822a04"/>事利益。以無著心。應一切物。以無礙慧。解一切縛。亦
 <lb ed="X" n="0008a23"/><lb ed="R119" n="0822a05"/>云應病施藥。</p>
-<lb ed="X" n="0008a24"/><lb ed="R119" n="0822a06"/><p xml:id="pX69p0008a2401">問。如今出家受戒。身口清淨。<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>具諸法。得解脫否。師
+<lb ed="X" n="0008a24"/><lb ed="R119" n="0822a06"/><p xml:id="pX69p0008a2401">問。如今出家受戒。身口清淨。<anchor xml:id="nkr_note_add_0008a2401" n="0008a2401"/><anchor xml:id="beg0008a2401" n="0008a2401"/>已<anchor xml:id="end0008a2401"/>具諸法。得解脫否。師
 <pb ed="X" xml:id="X69.1323.0008b" n="0008b"/>
 <lb ed="X" n="0008b01"/><lb ed="R119" n="0822a07"/>云。少分解脫。未得心解脫。亦未得一切處解脫。</p>
 <lb ed="X" n="0008b02"/><lb ed="R119" n="0822a08"/><p xml:id="pX69p0008b0201">問。如何是心解脫。及一切處解脫。師云。不求佛。不求
@@ -146,14 +151,21 @@ Revision 1.1  2004/06/17 01:20:44  ray
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0008a0101" to="#end0008a0101"><lem wit="#wit1" resp="#resp3">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0008a2401" to="#end0008a2401"><lem wit="#wit1" resp="#resp3">已</lem><rdg wit="#wit2">巳</rdg></app>
 </p>
 </cb:div>
 <cb:div type="xuzang-notes">
 <head>卍續藏 校註</head>
 <p>
 <note n="0007001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0007001">云百丈海禪師廣錄既載于古尊宿語錄卷一仍今唯收該錄卷末所闕者耳</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0008a0101" resp="#resp2" type="add" target="#nkr_note_add_0008a0101">己【CB】，已【卍續】</note>
+<note n="0008a2401" resp="#resp2" type="add" target="#nkr_note_add_0008a2401">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

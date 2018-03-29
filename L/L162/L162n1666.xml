@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.6 $<date>$Date: 2012/06/27 08:40:07 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Qianlong Edition of the Canon (Shinwenfeng Edition) Vol. 162, No. 1666</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【龍】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -158,13 +163,13 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0321a04"/>之門湏設投症之藥所以乘分三五味辨異
 <lb ed="L" n="0321a05"/>同瑜伽唯識窮百法五位諸識之宗龍<g ref="#CB14081">𣗳</g>馬
 <lb ed="L" n="0321a06"/>鳴剖三細六粗一心之旨非緣逐末正為尋
-<lb ed="L" n="0321a07"/>根且等覺菩薩尚遊幻網之門<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>極至聖必
-<lb ed="L" n="0321a08"/>圓後得之智如所謂入海算沙執<anchor xml:id="beg_2" type="cb-app"/>券<anchor xml:id="end_2"/>數寶者
+<lb ed="L" n="0321a07"/>根且等覺菩薩尚遊幻網之門<anchor xml:id="nkr_note_add_0321a0701" n="0321a0701"/><anchor xml:id="beg0321a0701" n="0321a0701"/>已<anchor xml:id="end0321a0701"/>極至聖必
+<lb ed="L" n="0321a08"/>圓後得之智如所謂入海算沙執<anchor xml:id="nkr_note_add_0321a0801" n="0321a0801"/><anchor xml:id="beg0321a0801" n="0321a0801"/>券<anchor xml:id="end0321a0801"/>數寶者
 <lb ed="L" n="0321a09"/>亦偏持一邊之論也顧十二分教浩如淵海
 <lb ed="L" n="0321a10"/>論<g ref="#CB00562">䟽</g>廣博名相糺紛非有明眼慧心讀破全
 <lb ed="L" n="0321a11"/>藏者綜其領綱編其倫次何由使朝宗者識
 <lb ed="L" n="0321a12"/><g ref="#CB21113">𣲖</g>瞻斗者知星此教乘法數一書纘述者之
-<lb ed="L" n="0321a13"/>苦心不容沒也釋典中是書行世<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>久繼有
+<lb ed="L" n="0321a13"/>苦心不容沒也釋典中是書行世<anchor xml:id="nkr_note_add_0321a1301" n="0321a1301"/><anchor xml:id="beg0321a1301" n="0321a1301"/>已<anchor xml:id="end0321a1301"/>久繼有
 <lb ed="L" n="0321a14"/>賢宗學者潛溪深為之釐定因名賢首法數
 <lb ed="L" n="0321a15"/>其後台宗心源瀞重加詳訂旁及百氏名相
 <pb ed="L" xml:id="L162.1666.0321b" n="0321b"/>
@@ -207,7 +212,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0322b05"/>舉其綱節其要會粹成書目之曰藏乘法數
 <lb ed="L" n="0322b06"/>庶幾覽者籍是可以得諸宗歸趣之大略及
 <lb ed="L" n="0322b07"/>其行世既久厥後有為賢首氏之學者潛溪
-<lb ed="L" n="0322b08"/>深公又為增治補其不足亦<anchor xml:id="beg_4" type="cb-app"/>已<anchor xml:id="end_4"/>流布散在四
+<lb ed="L" n="0322b08"/>深公又為增治補其不足亦<anchor xml:id="nkr_note_add_0322b0801" n="0322b0801"/><anchor xml:id="beg0322b0801" n="0322b0801"/>已<anchor xml:id="end0322b0801"/>流布散在四
 <lb ed="L" n="0322b09"/>方然斯二者用志之勤美則美矣惜乎尚多
 <lb ed="L" n="0322b10"/>遺<g ref="#CB08798">󲉞</g>故從事乎簡編者未免有臨文之歎今
 <lb ed="L" n="0322b11"/>僧錄司右善世心源瀞公法師研精教部博
@@ -247,10 +252,19 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>券</corr><sic>劵</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0321a0701" to="#end0321a0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0321a0801" to="#end0321a0801"><lem wit="#wit1" resp="#resp2">券</lem><rdg wit="#wit2">劵</rdg></app>
+<app from="#beg0321a1301" to="#end0321a1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0322b0801" to="#end0322b0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0321a0701" resp="#resp1" type="add" target="#nkr_note_add_0321a0701">已【CB】，巳【龍】</note>
+<note n="0321a0801" resp="#resp1" type="add" target="#nkr_note_add_0321a0801">券【CB】，劵【龍】</note>
+<note n="0321a1301" resp="#resp1" type="add" target="#nkr_note_add_0321a1301">已【CB】，巳【龍】</note>
+<note n="0322b0801" resp="#resp1" type="add" target="#nkr_note_add_0322b0801">已【CB】，巳【龍】</note>
 </p>
 </cb:div>
 </back></text></TEI>

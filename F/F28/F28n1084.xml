@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2011/03/21 06:28:15 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Fangshan shijing Vol. 28, No. 1084</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【房山】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -245,10 +250,10 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="F" n="0628b11"/><p xml:id="pF28p0628b1101">因借語諸佛子慎勿妄傳此法門甚深妙
 <lb ed="F" n="0628b12"/>淺識者不能解若浪傳無智者縱雖令聞
 <lb ed="F" n="0628b13"/>不善用故反招種種苦因不能離煩惱譬
-<lb ed="F" n="0628b14"/>如群賊抄掠群牛既得牛<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>作是念惟彼
+<lb ed="F" n="0628b14"/>如群賊抄掠群牛既得牛<anchor xml:id="nkr_note_add_0628b1401" n="0628b1401"/><anchor xml:id="beg0628b1401" n="0628b1401"/>已<anchor xml:id="end0628b1401"/>作是念惟彼
 <lb ed="F" n="0628b15"/>大長者養育此牛不求乳酪唯為醍醐若
 <lb ed="F" n="0628b16"/>得醍醐即得離眾病亦復得長壽色力於
-<lb ed="F" n="0628b17"/>是群賊不具器物搆<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>盛以皮囊以器不
+<lb ed="F" n="0628b17"/>是群賊不具器物搆<anchor xml:id="nkr_note_add_0628b1701" n="0628b1701"/><anchor xml:id="beg0628b1701" n="0628b1701"/>已<anchor xml:id="end0628b1701"/>盛以皮囊以器不
 <lb ed="F" n="0628b18"/>善故外風為毒故攢搖不知故上不得醍
 <lb ed="F" n="0628b19"/>醐下不能成酪漿由不得時故服即增眾
 <lb ed="F" n="0628b20"/>咎如是愚人以不知故進增自病退益他
@@ -372,7 +377,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="F" n="0630b25"/>一動一切動而本位不
 <lb ed="F" n="0630b26"/>動故去偏執見令見圓融道理故又減數
 <lb ed="F" n="0630b27"/>一十六錢以此錢從減數成不減二字又
-<lb ed="F" n="0630b28"/>以此錢從增數但成增一字<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>入增數已
+<lb ed="F" n="0630b28"/>以此錢從增數但成增一字<anchor xml:id="nkr_note_add_0630b2801" n="0630b2801"/><anchor xml:id="beg0630b2801" n="0630b2801"/>已<anchor xml:id="end0630b2801"/>入增數已
 <pb ed="F" xml:id="F28.1084.0631a" n="0631a"/>
 <lb ed="F" n="0631a01"/>攬四維錢以成不字是即理事不增減又
 <lb ed="F" n="0631a02"/>十九之四番減錢能成不增不減字體此
@@ -572,9 +577,17 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0628b1401" to="#end0628b1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0628b1701" to="#end0628b1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0630b2801" to="#end0630b2801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0628b1401" resp="#resp1" type="add" target="#nkr_note_add_0628b1401">已【CB】，巳【房山】</note>
+<note n="0628b1701" resp="#resp1" type="add" target="#nkr_note_add_0628b1701">已【CB】，巳【房山】</note>
+<note n="0630b2801" resp="#resp1" type="add" target="#nkr_note_add_0630b2801">已【CB】，巳【房山】</note>
 </p>
 </cb:div>
 </back></text></TEI>

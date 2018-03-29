@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.6 $<date>$Date: 2011/03/08 09:20:41 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>ZangWai</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>4卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 6, No. 52</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -762,7 +767,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="ZW" n="0247a22"/><p xml:id="pZW06p0247a2201" rend="margin-left:0em;text-indent:2em">蓋聞覺天廣大，普令萬像森羅；智海淵深，融設群生
 <pb ed="ZW" xml:id="ZW06.0052.0248a" n="0248a"/>
 <lb ed="ZW" n="0248a01"/>品類。今修法事，開闡慈門。嗟六趣之沉淪，逐諸緣之
-<lb ed="ZW" n="0248a02"/>輪轉。諸天身耽於歡樂，修羅尚熾於恚瞋。傍生懷獝<anchor xml:id="beg_1" type="cb-app"/>狘<anchor xml:id="end_1"/>
+<lb ed="ZW" n="0248a02"/>輪轉。諸天身耽於歡樂，修羅尚熾於恚瞋。傍生懷獝<anchor xml:id="nkr_note_add_0248a0201" n="0248a0201"/><anchor xml:id="beg0248a0201" n="0248a0201"/>狘<anchor xml:id="end0248a0201"/>
 <lb ed="ZW" n="0248a03"/>之悲，地獄囷煎熬之苦。飢渴熱惱，鬼趣心酸。惟人生
 <lb ed="ZW" n="0248a04"/>雖秉於彝倫，柰浮世莫逃於大慧。死生老病，夢幻風燈。
 <lb ed="ZW" n="0248a05"/>壽夭不齊，鵬鴳起莊生之樂；光陰何速？隙駒形魏豹之
@@ -1394,7 +1399,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="ZW" n="0274a19"/><p xml:id="pZW06p0274a1901" rend="margin-left:0em;text-indent:2em">再炷信香，一心召請當齋亡者<note place="inline">某</note>，洎門中先近老少
 <lb ed="ZW" n="0274a20"/>姻親眷屬等魂，留赴道場，領霑功德。</p>
 <lb ed="ZW" n="0274a21"/><p xml:id="pZW06p0274a2101" rend="margin-left:0em;text-indent:2em">再爇信香，一心攝召鐵圍山間，起教大士、面燃鬼
-<lb ed="ZW" n="0274a22"/>王，所統領者三十六部<anchor xml:id="beg_2" type="cb-app"/>薜<anchor xml:id="end_2"/>荔多徒，承佛神力，留赴寒林，
+<lb ed="ZW" n="0274a22"/>王，所統領者三十六部<anchor xml:id="nkr_note_add_0274a2201" n="0274a2201"/><anchor xml:id="beg0274a2201" n="0274a2201"/>薜<anchor xml:id="end0274a2201"/>荔多徒，承佛神力，留赴寒林，
 <lb ed="ZW" n="0274a23"/>領霑濟度。</p>
 <lb ed="ZW" n="0274a24"/><p xml:id="pZW06p0274a2401" rend="margin-left:0em;text-indent:2em">惟願慈悲常攝受　<note place="inline">入儀（至）迴向</note></p>
 <lb ed="ZW" n="0274a25"/><p xml:id="pZW06p0274a2501" rend="margin-left:0em;text-indent:2em">道場功德儀當演</p>
@@ -2304,8 +2309,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>狘</corr><sic><g ref="#CB21831">𤞉</g></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>薜</corr><sic>薛</sic></choice>
+<app from="#beg0248a0201" to="#end0248a0201"><lem wit="#wit1" resp="#resp3">狘</lem><rdg wit="#wit2"><g ref="#CB21831">𤞉</g></rdg></app>
+<app from="#beg0274a2201" to="#end0274a2201"><lem wit="#wit1" resp="#resp3">薜</lem><rdg wit="#wit2">薛</rdg></app>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
@@ -2524,6 +2529,13 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <note n="0311002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0311002">「訶帝」，底本作「帝訶」，據甲本改。</note>
 <note n="0311003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0311003">底本「時」字後有「提剛」二字，據文意刪。</note>
 <note n="0313001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0313001">尾題前有「時大清康熙三十七年歲在戊寅年造」的題記。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0248a0201" resp="#resp2" type="add" target="#nkr_note_add_0248a0201">狘【CB】，<g ref="#CB21831">𤞉</g>【藏外】</note>
+<note n="0274a2201" resp="#resp2" type="add" target="#nkr_note_add_0274a2201">薜【CB】，薛【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

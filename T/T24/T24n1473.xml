@@ -33,11 +33,11 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 24, No. 1473</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
-		<witness xml:id="wit3">【大】</witness>
-		<witness xml:id="wit4">【明】</witness>
-		<witness xml:id="wit5">【磧砂】</witness>
+		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【明】</witness>
+		<witness xml:id="wit3">【CB】</witness>
+		<witness xml:id="wit4">【麗-CB】</witness>
+		<witness xml:id="wit5">【磧-CB】</witness>
 		<witness xml:id="wit6">【宋】</witness>
 		<witness xml:id="wit7">【元】</witness>
 		<witness xml:id="wit8">【宮】</witness>
@@ -130,7 +130,7 @@ Added comment  for Emacs
 <lb n="0935b03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title>佛說沙彌十戒儀則經</title><note place="inline">計七十二頌</note></cb:jhead></cb:juan>
 <lb n="0935b04" ed="T"/>
 <lb n="0935b05" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0935009" n="0935009"/><anchor xml:id="nkr_note_mod_0935009" n="0935009"/><anchor xml:id="beg0935009" n="0935009"/>西天譯經三藏<anchor xml:id="end0935009"/>朝散大夫試鴻臚少卿
-<lb n="0935b06" ed="T"/>傳法大師<anchor xml:id="nkr_note_orig_0935010" n="0935010"/><anchor xml:id="beg0935010" n="0935010"/>臣<anchor xml:id="end0935010"/>施護奉　詔譯</byline>
+<lb n="0935b06" ed="T"/>傳法大師<anchor xml:id="nkr_note_orig_0935010" n="0935010"/><anchor xml:id="nkr_note_mod_0935010" n="0935010"/><anchor xml:id="beg0935010" n="0935010"/>臣<anchor xml:id="end0935010"/>施護奉　詔譯</byline>
 <lb n="0935b07" ed="T"/><cb:div type="jing"><lg xml:id="lgT24p0935b0701"><l>頂禮一切智，</l><l>妙法及聖眾，</l>
 <lb n="0935b08" ed="T"/><l>略說沙彌行，</l><l>令發出家心。</l>
 <lb n="0935b09" ed="T"/><l>於彼釋迦教，</l><l>堅持於禁戒，</l>
@@ -142,7 +142,7 @@ Added comment  for Emacs
 <lb n="0935b15" ed="T"/><l>如是所作已，</l><l>復作曼拏羅，</l>
 <lb n="0935b16" ed="T"/><l>供養而恭敬，</l><l>早<anchor xml:id="nkr_note_orig_0935011" n="0935011"/><anchor xml:id="nkr_note_mod_0935011" n="0935011"/><anchor xml:id="beg0935011" n="0935011"/>辰<anchor xml:id="end0935011"/>觀水內，</l>
 <lb n="0935b17" ed="T"/><l>中後時亦然，</l><l>甕器盂鉢等。</l>
-<lb n="0935b18" ed="T"/><l>水蟲有大小，</l><l><anchor xml:id="nkr_note_orig_0935012" n="0935012"/><anchor xml:id="beg0935012" n="0935012"/>志<anchor xml:id="end0935012"/>心恒觀照，</l>
+<lb n="0935b18" ed="T"/><l>水蟲有大小，</l><l><anchor xml:id="nkr_note_orig_0935012" n="0935012"/><anchor xml:id="nkr_note_mod_0935012" n="0935012"/><anchor xml:id="beg0935012" n="0935012"/>志<anchor xml:id="end0935012"/>心恒觀照，</l>
 <lb n="0935b19" ed="T"/><l>以羅淨濾水，</l><l>審觀而可用。</l>
 <lb n="0935b20" ed="T"/><l>食飲懷慈愍，</l><l>勿令殺害蟲，</l>
 <lb n="0935b21" ed="T"/><l>乃至草木上，</l><l>塗壇牛糞中，</l>
@@ -183,7 +183,7 @@ Added comment  for Emacs
 <lb n="0935c26" ed="T"/><l>如是破戒因，</l><l>而成最重罪。</l>
 <lb n="0935c27" ed="T"/><l>飲食穀米等，</l><l>花菓草木類，</l>
 <lb n="0935c28" ed="T"/><l>地生或水生，</l><l>而行於偷竊，</l>
-<lb n="0935c29" ed="T"/><l>或偷官稅利，</l><l>私過於關<anchor xml:id="beg_1" type="cb-app"/>津<anchor xml:id="end_1"/>，</l>
+<lb n="0935c29" ed="T"/><l>或偷官稅利，</l><l>私過於關<anchor xml:id="nkr_note_add_0935c2901" n="0935c2901"/><anchor xml:id="beg0935c2901" n="0935c2901"/>津<anchor xml:id="end0935c2901"/>，</l>
 <pb n="0936a" ed="T" xml:id="T24.1473.0936a"/>
 <lb n="0936a01" ed="T"/><l>及盜於有情，</l><l>二足與多足。</l>
 <lb n="0936a02" ed="T"/><l>或彼出家人，</l><l>受用雖具足，</l>
@@ -258,7 +258,7 @@ Added comment  for Emacs
 <lb n="0936c11" ed="T"/><l>如法而尊重。</l><l>若入觸溷時，</l>
 <lb n="0936c12" ed="T"/><l>如有後來者，</l><l>低聲而警覺。</l>
 <lb n="0936c13" ed="T"/><l>所濾無蟲水，</l><l>用添於淨瓶，</l>
-<lb n="0936c14" ed="T"/><l>淨手安<anchor xml:id="nkr_note_orig_0936003" n="0936003"/><anchor xml:id="beg0936003" n="0936003"/>詳<anchor xml:id="end0936003"/>行，</l><l>不失出家行。</l>
+<lb n="0936c14" ed="T"/><l>淨手安<anchor xml:id="nkr_note_orig_0936003" n="0936003"/><anchor xml:id="nkr_note_mod_0936003" n="0936003"/><anchor xml:id="beg0936003" n="0936003"/>詳<anchor xml:id="end0936003"/>行，</l><l>不失出家行。</l>
 <lb n="0936c15" ed="T"/><l>師自座臥床，</l><l>恒用淨襯褥，</l>
 <lb n="0936c16" ed="T"/><l>所有床椅等，</l><l>不得沙彌座。</l>
 <lb n="0936c17" ed="T"/><l>師自若不在，</l><l>依止清淨僧，</l>
@@ -286,23 +286,26 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg0935009" to="#end0935009"><lem wit="#wit3">西天譯經三藏</lem><rdg resp="#resp1" wit="#wit4">宋西天三藏</rdg></app>
-<app from="#beg0935010" to="#end0935010"><lem wit="#wit3">臣</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
-<app from="#beg0935011" to="#end0935011"><lem resp="#resp3" wit="#wit1 #wit2 #wit5">辰<note type="cf1">K33n1126_p1043b09</note><note type="cf2">Q32_p0658b12</note></lem><rdg wit="#wit3">晨</rdg><rdg resp="#resp1" wit="#wit6 #wit7 #wit8">辰</rdg></app>
-<app from="#beg0935012" to="#end0935012"><lem wit="#wit3">志</lem><rdg resp="#resp1" wit="#wit7 #wit4">至</rdg></app>
-<app from="#beg_1" to="#end_1"><lem resp="#resp3" wit="#wit1 #wit2">津<note type="cf1">K33n1126_p1043c15</note></lem><rdg wit="#wit3">律</rdg></app>
-<app from="#beg0936001" to="#end0936001"><lem wit="#wit3">大</lem><rdg resp="#resp1" wit="#wit6 #wit7 #wit4 #wit8">天</rdg></app>
-<app from="#beg0936002" to="#end0936002"><lem wit="#wit3">旃</lem><rdg resp="#resp1" wit="#wit6 #wit7 #wit4 #wit8">栴</rdg></app>
-<app from="#beg0936003" to="#end0936003"><lem wit="#wit3">詳</lem><rdg resp="#resp1" wit="#wit6 #wit8">祥</rdg></app>
+<app from="#beg0935009" to="#end0935009"><lem wit="#wit1">西天譯經三藏</lem><rdg resp="#resp1" wit="#wit2">宋西天三藏</rdg></app>
+<app from="#beg0935010" to="#end0935010"><lem wit="#wit1">臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0935011" to="#end0935011"><lem resp="#resp3" wit="#wit3 #wit4 #wit5">辰<note type="cf1">K33n1126_p1043b09</note><note type="cf2">Q32_p0658b12</note></lem><rdg wit="#wit1">晨</rdg><rdg resp="#resp1" wit="#wit6 #wit7 #wit8">辰</rdg></app>
+<app from="#beg0935012" to="#end0935012"><lem wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit7 #wit2">至</rdg></app>
+<app from="#beg0935c2901" to="#end0935c2901"><lem resp="#resp3" wit="#wit3 #wit4">津<note type="cf1">K33n1126_p1043c15</note></lem><rdg wit="#wit1">律</rdg></app>
+<app from="#beg0936001" to="#end0936001"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit6 #wit7 #wit2 #wit8">天</rdg></app>
+<app from="#beg0936002" to="#end0936002"><lem wit="#wit1">旃</lem><rdg resp="#resp1" wit="#wit6 #wit7 #wit2 #wit8">栴</rdg></app>
+<app from="#beg0936003" to="#end0936003"><lem wit="#wit1">詳</lem><rdg resp="#resp1" wit="#wit6 #wit8">祥</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0935009" resp="#resp2" type="mod" target="#nkr_note_mod_0935009">西天譯經<app><lem resp="#resp3" wit="#wit1 #wit2">三藏<note type="cf1">K33n1126_p1043b02</note></lem><rdg wit="#wit3"><space quantity="0"/></rdg></app>＝宋西天三藏【明】</note>
-<note n="0935011" resp="#resp2" type="mod" target="#nkr_note_mod_0935011">晨＝辰【宋】【元】【宮】【麗-CB】【磧砂-CB】【CB】</note>
-<note n="0936001" resp="#resp2" type="mod" target="#nkr_note_mod_0936001">大＝天【宋】【元】【明】【宮】</note>
-<note n="0936002" resp="#resp2" type="mod" target="#nkr_note_mod_0936002">旃＝栴【宋】【元】【明】【宮】</note>
+<note n="0935009" resp="#resp2" type="mod" target="#nkr_note_mod_0935009">西天譯經三藏【大】，宋西天三藏【明】</note>
+<note n="0935010" resp="#resp2" type="mod" target="#nkr_note_mod_0935010">臣【大】，〔－〕【明】</note>
+<note n="0935011" resp="#resp2" type="mod" target="#nkr_note_mod_0935011">辰【CB】【麗-CB】【磧-CB】【宋】【元】【宮】，晨【大】</note>
+<note n="0935012" resp="#resp2" type="mod" target="#nkr_note_mod_0935012">志【大】，至【元】【明】</note>
+<note n="0936001" resp="#resp2" type="mod" target="#nkr_note_mod_0936001">大【大】，天【宋】【元】【明】【宮】</note>
+<note n="0936002" resp="#resp2" type="mod" target="#nkr_note_mod_0936002">旃【大】，栴【宋】【元】【明】【宮】</note>
+<note n="0936003" resp="#resp2" type="mod" target="#nkr_note_mod_0936003">詳【大】，祥【宋】【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -315,6 +318,12 @@ Added comment  for Emacs
 <note n="0936001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0936001">大＝天【三】【宮】</note>
 <note n="0936002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0936002">旃＝栴【三】【宮】</note>
 <note n="0936003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0936003">詳＝祥【宋】【宮】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0935c2901" resp="#resp2" type="add" target="#nkr_note_add_0935c2901">津【CB】【麗-CB】，律【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

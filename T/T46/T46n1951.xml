@@ -33,9 +33,9 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 46, No. 1951</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
-		<witness xml:id="wit3">【大】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+		<witness xml:id="wit3">【麗-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -181,7 +181,7 @@ Added comment  for Emacs
 <lb n="0978b08" ed="T"/>化乎當世。三昧行法施於後代發揚四種三
 <lb n="0978b09" ed="T"/>昧在乎斯文。行法之盛不可以不紀。於是拾
 <lb n="0978b10" ed="T"/>其遺編。獨有熾盛光道場念誦儀未廣流布。
-<lb n="0978b11" ed="T"/>遂更<anchor xml:id="beg_1" type="cb-app"/>采<anchor xml:id="end_1"/>諸文補助始末。因舊五章增為七科
+<lb n="0978b11" ed="T"/>遂更<anchor xml:id="nkr_note_add_0978b1101" n="0978b1101"/><anchor xml:id="beg0978b1101" n="0978b1101"/>采<anchor xml:id="end0978b1101"/>諸文補助始末。因舊五章增為七科
 <lb n="0978b12" ed="T"/><note place="inline">新添示方法并釋疑</note>示方法乃。取於本經令。造修者有據
 <lb n="0978b13" ed="T"/>釋。疑則華梵功等道俗兼該。其間壇場儀軌。
 <lb n="0978b14" ed="T"/>今皇朝譯經三藏大卿。圖紀行世此不委明。
@@ -375,7 +375,7 @@ Added comment  for Emacs
 <lb n="0980b24" ed="T"/>無過去娑羅王佛<note place="inline">三稱竟即作是言</note>。</p>
 <lb n="0980b25" ed="T"/><p xml:id="pT46p0980b2501">我今當誦過去娑羅王佛所說。熾盛光大威
 <lb n="0980b26" ed="T"/>德陀羅尼曰。</p>
-<lb n="0980b27" ed="T"/><p cb:type="dharani" xml:id="pT46p0980b2701">曩謨。三滿哆<note place="inline">一</note>母<anchor xml:id="beg_2" type="cb-app"/>馱<anchor xml:id="end_2"/>喃<note place="inline">二</note>阿鉢羅<note place="inline">二合</note>底<note place="inline">丁以切下同三</note>
+<lb n="0980b27" ed="T"/><p cb:type="dharani" xml:id="pT46p0980b2701">曩謨。三滿哆<note place="inline">一</note>母<anchor xml:id="nkr_note_add_0980b2701" n="0980b2701"/><anchor xml:id="beg0980b2701" n="0980b2701"/>馱<anchor xml:id="end0980b2701"/>喃<note place="inline">二</note>阿鉢羅<note place="inline">二合</note>底<note place="inline">丁以切下同三</note>
 <lb n="0980b28" ed="T"/>賀多舍<note place="inline">四</note>娑曩喃<note place="inline">引五</note>但儞也<note place="inline">二合引</note>他<note place="inline">六</note>唵<note place="inline">引七</note>佉
 <pb n="0980c" xml:id="T46.1951.0980c" ed="T"/>
 <lb n="0980c01" ed="T"/>佉<note place="inline">八</note>佉呬佉呬<note place="inline">九</note>吽吽<note place="inline">十</note>入嚩<note place="inline">二合下同</note>囉<note place="inline">十一</note>入嚩
@@ -524,7 +524,7 @@ Added comment  for Emacs
 <lb n="0982a25" ed="T"/>屬。除災難法得大吉祥。出家之人視身如寄。
 <lb n="0982a26" ed="T"/>小乘乃無常苦空念念生滅。大乘則心安實
 <lb n="0982a27" ed="T"/>相造境即中。何災可消何福可禳。今謂不然。
-<lb n="0982a28" ed="T"/>經云。若有苾芻苾芻尼。族姓男族<anchor xml:id="beg_3" type="cb-app"/>姓<anchor xml:id="end_3"/>女。受持
+<lb n="0982a28" ed="T"/>經云。若有苾芻苾芻尼。族姓男族<anchor xml:id="nkr_note_add_0982a2801" n="0982a2801"/><anchor xml:id="beg0982a2801" n="0982a2801"/>姓<anchor xml:id="end0982a2801"/>女。受持
 <lb n="0982a29" ed="T"/>讀誦此陀羅尼者。能成就八萬種吉祥事。能
 <pb n="0982b" xml:id="T46.1951.0982b" ed="T"/>
 <lb n="0982b01" ed="T"/>除滅八萬種不吉祥事。據乎經文何隔道俗。
@@ -591,15 +591,23 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>采</corr><sic>釆</sic></choice>
-<app from="#beg_2" to="#end_2"><lem wit="#wit1 #wit2" resp="#resp3">馱<note type="cf1">K37n1376_p0307a08</note></lem><rdg wit="#wit3">默</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>姓</corr><sic>性</sic></choice>
+<app from="#beg0978b1101" to="#end0978b1101"><lem wit="#wit1" resp="#resp2">采</lem><rdg wit="#wit2">釆</rdg></app>
+<app from="#beg0980b2701" to="#end0980b2701"><lem wit="#wit1 #wit3" resp="#resp3">馱<note type="cf1">K37n1376_p0307a08</note></lem><rdg wit="#wit2">默</rdg></app>
+<app from="#beg0982a2801" to="#end0982a2801"><lem wit="#wit1" resp="#resp3">姓</lem><rdg wit="#wit2">性</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0978001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0978001">【原】康熙六年刊增上寺報恩藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0978b1101" resp="#resp2" type="add" target="#nkr_note_add_0978b1101">采【CB】，釆【大】</note>
+<note n="0980b2701" resp="#resp2" type="add" target="#nkr_note_add_0980b2701">馱【CB】【麗-CB】，默【大】</note>
+<note n="0982a2801" resp="#resp2" type="add" target="#nkr_note_add_0982a2801">姓【CB】，性【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

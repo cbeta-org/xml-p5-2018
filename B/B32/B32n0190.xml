@@ -13,7 +13,8 @@
 		</titleStmt>
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>1卷</extent>
 		<publicationStmt>
@@ -30,7 +31,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Supplement to the Dazangjing Vol. 32, No. 190</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【補編】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -89,7 +94,7 @@ $Log:$
 <pb ed="B" xml:id="B32.0190.0798a" n="0798a"/>
 <lb ed="B" n="0798a01"/>空之可度。體無邊涯。大也。竭滄溟。而可飲。法門無盡。方也。碎塵剎
 <lb ed="B" n="0798a02"/>而可數。用無能測。廣也。離覺所覺。朗萬法之幽邃。佛也。芬敷萬行。榮
-<lb ed="B" n="0798a03"/>耀眾德。華也。圓<anchor xml:id="beg_1" type="cb-app"/>兹<anchor xml:id="end_1"/>行德。飾彼十身。嚴也。貫穿玄微。以成真光之彩。經
+<lb ed="B" n="0798a03"/>耀眾德。華也。圓<anchor xml:id="nkr_note_add_0798a0301" n="0798a0301"/><anchor xml:id="beg0798a0301" n="0798a0301"/>兹<anchor xml:id="end0798a0301"/>行德。飾彼十身。嚴也。貫穿玄微。以成真光之彩。經
 <lb ed="B" n="0798a04"/>也。大哉。真界。萬法資始歟。包空有而絕相。入言象而無跡。妙有。得之
 <lb ed="B" n="0798a05"/>而不有。真空。得之而不空。生滅。得之而真常。緣起。得之而交映。我佛。
 <lb ed="B" n="0798a06"/>得之而妙踐。真覺。廓淨塵習。寂寥於萬化之域。動用於一虛之中。融
@@ -143,7 +148,7 @@ $Log:$
 <lb ed="B" n="0802a02"/>卷。為眾生開發解門也。又其次。有七卷。為眾生開發行門。又其次。有
 <lb ed="B" n="0802a03"/>二十一卷。為眾生開發證門。一部大經。不出信解行證四分。四分所
 <lb ed="B" n="0802a04"/>詮之義。不出五周。六相。十玄門。四法界也。由信而解。由解而行。由行
-<lb ed="B" n="0802a05"/>而證。斯一經本末之大旨也。一經大旨。既而。昭然。然則<anchor xml:id="beg_2" type="cb-app"/>兹<anchor xml:id="end_2"/>所謂迷之
+<lb ed="B" n="0802a05"/>而證。斯一經本末之大旨也。一經大旨。既而。昭然。然則<anchor xml:id="nkr_note_add_0802a0501" n="0802a0501"/><anchor xml:id="beg0802a0501" n="0802a0501"/>兹<anchor xml:id="end0802a0501"/>所謂迷之
 <lb ed="B" n="0802a06"/>者。觸途成滯。此義何耶。此即當時二乘在座。有耳不聞圓頓之教。有
 <lb ed="B" n="0802a07"/>眼不見舍那身者。是也。悟之者。當處全彰。此又何義耶。此即現前諸
 <lb ed="B" n="0802a08"/>山大德。為某指示十種玄門。顯揚一真法界者。是也。豈不見道。華藏
@@ -278,7 +283,7 @@ $Log:$
 <lb ed="B" n="0812a07"/>而於海中死。於法不修行。多聞亦如是。恭惟。某則不然。一生所發。都
 <lb ed="B" n="0812a08"/>是菩提心。一生所修。都是菩薩行。妄想執着。念念遠離。智慧德相。時
 <lb ed="B" n="0812a09"/>時體究。其於當來世中。蒙佛授記。坐道場。成正覺。決定少他一分不
-<lb ed="B" n="0812a10"/>得。且道。有何憑據。經云。初<anchor xml:id="beg_3" type="cb-app"/>歡<anchor xml:id="end_3"/>喜地。菩薩多劫修行。生於王宮。此其證
+<lb ed="B" n="0812a10"/>得。且道。有何憑據。經云。初<anchor xml:id="nkr_note_add_0812a1001" n="0812a1001"/><anchor xml:id="beg0812a1001" n="0812a1001"/>歡<anchor xml:id="end0812a1001"/>喜地。菩薩多劫修行。生於王宮。此其證
 <lb ed="B" n="0812a11"/>也。滿散華嚴會。山僧升座。或問。一法若有。毘盧。墮在凡夫。萬法若無。
 <lb ed="B" n="0812a12"/>普賢。失其境界。畢竟。如何和會。答云。儞在那裡。見他廝鬪來。進云。爭
 <pb ed="B" xml:id="B32.0190.0813a" n="0813a"/>
@@ -330,9 +335,17 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>兹</corr><sic>玆</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>兹</corr><sic>玆</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>歡</corr><sic>歎</sic></choice>
+<app from="#beg0798a0301" to="#end0798a0301"><lem wit="#wit1" resp="#resp2">兹</lem><rdg wit="#wit2">玆</rdg></app>
+<app from="#beg0802a0501" to="#end0802a0501"><lem wit="#wit1" resp="#resp2">兹</lem><rdg wit="#wit2">玆</rdg></app>
+<app from="#beg0812a1001" to="#end0812a1001"><lem wit="#wit1" resp="#resp2">歡</lem><rdg wit="#wit2">歎</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0798a0301" resp="#resp1" type="add" target="#nkr_note_add_0798a0301">兹【CB】，玆【補編】</note>
+<note n="0802a0501" resp="#resp1" type="add" target="#nkr_note_add_0802a0501">兹【CB】，玆【補編】</note>
+<note n="0812a1001" resp="#resp1" type="add" target="#nkr_note_add_0812a1001">歡【CB】，歎【補編】</note>
 </p>
 </cb:div>
 </back></text></TEI>

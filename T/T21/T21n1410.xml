@@ -37,6 +37,7 @@
 		<witness xml:id="wit2">【明】</witness>
 		<witness xml:id="wit3">【宋】</witness>
 		<witness xml:id="wit4">【元】</witness>
+		<witness xml:id="wit5">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -122,8 +123,8 @@ Added comment  for Emacs
 <lb n="0925c02" ed="T"/><cb:docNumber>No. 1410</cb:docNumber><cb:div type="jing">
 <lb n="0925c03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0925006" n="0925006"/>佛說勝幡瓔珞陀羅尼經</cb:jhead></cb:juan>
 <lb n="0925c04" ed="T"/>
-<lb n="0925c05" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0925007" n="0925007"/><anchor xml:id="beg0925007" n="0925007"/>西<anchor xml:id="end0925007"/>天譯經三藏朝散大夫試鴻臚少卿
-<lb n="0925c06" ed="T"/>傳<anchor xml:id="nkr_note_orig_0925008" n="0925008"/><anchor xml:id="nkr_note_mod_0925008" n="0925008"/><anchor xml:id="beg0925008" n="0925008"/>法<anchor xml:id="end0925008"/>大師<anchor xml:id="nkr_note_orig_0925009" n="0925009"/><anchor xml:id="beg0925009" n="0925009"/>臣<anchor xml:id="end0925009"/>施護奉　詔譯</byline>
+<lb n="0925c05" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0925007" n="0925007"/><anchor xml:id="nkr_note_mod_0925007" n="0925007"/><anchor xml:id="beg0925007" n="0925007"/>西<anchor xml:id="end0925007"/>天譯經三藏朝散大夫試鴻臚少卿
+<lb n="0925c06" ed="T"/>傳<anchor xml:id="nkr_note_orig_0925008" n="0925008"/><anchor xml:id="nkr_note_mod_0925008" n="0925008"/><anchor xml:id="beg0925008" n="0925008"/>法<anchor xml:id="end0925008"/>大師<anchor xml:id="nkr_note_orig_0925009" n="0925009"/><anchor xml:id="nkr_note_mod_0925009" n="0925009"/><anchor xml:id="beg0925009" n="0925009"/>臣<anchor xml:id="end0925009"/>施護奉　詔譯</byline>
 <lb n="0925c07" ed="T"/><p xml:id="pT21p0925c0701">如是我聞。一時佛在喜樂山頂。天宮不遠仙
 <lb n="0925c08" ed="T"/>人住處與大比丘眾千二百五十人俱。復有
 <lb n="0925c09" ed="T"/>菩薩摩訶薩。文殊師利童子及賢護菩薩等。
@@ -169,7 +170,7 @@ Added comment  for Emacs
 <lb n="0926a19" ed="T"/>字。信心受持恒常讀誦者。是人所有五逆重
 <lb n="0926a20" ed="T"/>罪悉皆滅盡。得見果報獲大富貴於當來世
 <lb n="0926a21" ed="T"/>得生上族。若復善男子善女人。以此陀羅尼
-<lb n="0926a22" ed="T"/>殊勝功德。廣宣流布為人解<anchor xml:id="beg_1" type="cb-app"/>說<anchor xml:id="end_1"/>。或勸人書寫
+<lb n="0926a22" ed="T"/>殊勝功德。廣宣流布為人解<anchor xml:id="nkr_note_add_0926a2201" n="0926a2201"/><anchor xml:id="beg0926a2201" n="0926a2201"/>說<anchor xml:id="end0926a2201"/>。或勸人書寫
 <lb n="0926a23" ed="T"/>受持讀誦。我即遙知。乃至毘婆尸佛。尸棄佛。
 <lb n="0926a24" ed="T"/>毘舍浮佛。拘留孫佛。羯諾迦牟尼佛。迦葉
 <lb n="0926a25" ed="T"/>佛。如是過去恒河沙等如來應正等覺皆悉
@@ -188,13 +189,15 @@ Added comment  for Emacs
 <app from="#beg0925007" to="#end0925007"><lem wit="#wit1">西</lem><rdg resp="#resp1" wit="#wit2">宋西</rdg></app>
 <app from="#beg0925008" to="#end0925008"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">教</rdg></app>
 <app from="#beg0925009" to="#end0925009"><lem wit="#wit1">臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_1" cb:to="#end_1"><corr>說<note type="cf1">T08n0235_p0750c12</note></corr><sic>脫</sic></choice>
+<app from="#beg0926a2201" to="#end0926a2201"><lem wit="#wit5" resp="#resp3">說<note type="cf1">T08n0235_p0750c12</note></lem><rdg wit="#wit1">脫</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0925008" resp="#resp2" type="mod" target="#nkr_note_mod_0925008">法＝教【宋】【元】【明】</note>
+<note n="0925007" resp="#resp2" type="mod" target="#nkr_note_mod_0925007">西【大】，宋西【明】</note>
+<note n="0925008" resp="#resp2" type="mod" target="#nkr_note_mod_0925008">法【大】，教【宋】【元】【明】</note>
+<note n="0925009" resp="#resp2" type="mod" target="#nkr_note_mod_0925009">臣【大】，〔－〕【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -204,6 +207,12 @@ Added comment  for Emacs
 <note n="0925007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0925007">（宋）＋西【明】</note>
 <note n="0925008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0925008">法＝教【三】</note>
 <note n="0925009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0925009">〔臣〕－【明】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0926a2201" resp="#resp2" type="add" target="#nkr_note_add_0926a2201">說【CB】，脫【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

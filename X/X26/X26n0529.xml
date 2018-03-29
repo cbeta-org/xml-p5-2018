@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2009/04/22 08:54:11 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 26, No. 529</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -322,16 +327,23 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0739b13"/><lb ed="R041" n="0667a13"/><cb:juan fun="close" n="1"><cb:jhead>般若心經疏<note place="inline">大尾</note></cb:jhead></cb:juan>
 <lb ed="X" n="0739b14"/><lb ed="R041" n="0667a14"/>
 <lb ed="X" n="0739b15"/><lb ed="R041" n="0667a15"/><cb:div type="w"><p xml:id="pX26p0739b1501">大凡此疏久湮沒未視其全雖爾得支那正本可
-<lb ed="X" n="0739b16"/><lb ed="R041" n="0667a16"/>刊梓未其本得於唐鳴<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>乎哉今以<note place="inline">愚</note>所持本以
-<lb ed="X" n="0739b17"/><lb ed="R041" n="0667a17"/>梓之繡之流通萬世俟添削於唐本而<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>。</p><p xml:id="pX26p0739b1717" rend="inline">明曆丁
+<lb ed="X" n="0739b16"/><lb ed="R041" n="0667a16"/>刊梓未其本得於唐鳴<anchor xml:id="nkr_note_add_0739b1601" n="0739b1601"/><anchor xml:id="beg0739b1601" n="0739b1601"/>已<anchor xml:id="end0739b1601"/>乎哉今以<note place="inline">愚</note>所持本以
+<lb ed="X" n="0739b17"/><lb ed="R041" n="0667a17"/>梓之繡之流通萬世俟添削於唐本而<anchor xml:id="nkr_note_add_0739b1701" n="0739b1701"/><anchor xml:id="beg0739b1701" n="0739b1701"/>已<anchor xml:id="end0739b1701"/>。</p><p xml:id="pX26p0739b1717" rend="inline">明曆丁
 <lb ed="X" n="0739b18"/><lb ed="R041" n="0667a18"/>酉春日比丘<note place="inline">大可</note>謹白</p></cb:div></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0739b1601" to="#end0739b1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0739b1701" to="#end0739b1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0739b1601" resp="#resp1" type="add" target="#nkr_note_add_0739b1601">已【CB】，巳【卍續】</note>
+<note n="0739b1701" resp="#resp1" type="add" target="#nkr_note_add_0739b1701">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

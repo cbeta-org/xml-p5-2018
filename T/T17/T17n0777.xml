@@ -131,7 +131,7 @@ Added comment  for Emacs
 <milestone unit="juan" n="1"/>
 <lb n="0714a04" ed="T"/>
 <lb n="0714a05" ed="T"/><cb:docNumber>No. 777</cb:docNumber>
-<lb n="0714a06" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title><anchor xml:id="nkr_note_orig_0714001" n="0714001"/><anchor xml:id="beg0714001" n="0714001"/>佛說<anchor xml:id="end0714001"/>賢者五福<anchor xml:id="nkr_note_orig_0714002" n="0714002"/><anchor xml:id="beg0714002" n="0714002"/>德<anchor xml:id="end0714002"/>經</title></cb:jhead></cb:juan>
+<lb n="0714a06" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title><anchor xml:id="nkr_note_orig_0714001" n="0714001"/><anchor xml:id="nkr_note_mod_0714001" n="0714001"/><anchor xml:id="beg0714001" n="0714001"/>佛說<anchor xml:id="end0714001"/>賢者五福<anchor xml:id="nkr_note_orig_0714002" n="0714002"/><anchor xml:id="nkr_note_mod_0714002" n="0714002"/><anchor xml:id="beg0714002" n="0714002"/>德<anchor xml:id="end0714002"/>經</title></cb:jhead></cb:juan>
 <lb ed="T" n="0714a07"/>
 <lb n="0714a08" ed="T"/><byline cb:type="Translator">西晉河內沙門白法祖譯</byline>
 <lb ed="T" n="0714a09"/><cb:div type="jing"><p xml:id="pT17p0714a0901">聞如是：</p><p xml:id="pT17p0714a0904" rend="inline">一時佛在舍衛國祇樹給孤獨園。佛
@@ -174,9 +174,11 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note resp="#resp2" type="mod" n="0714003" target="#nkr_note_mod_0714003">五＋（福德）【宋】【元】【明】，（福德何謂為五）【宮】</note>
-<note n="0714004" type="mod" resp="#resp2" target="#nkr_note_mod_0714004">寂＝家【宋】【元】【明】【宮】下同</note>
-<note n="0714005" type="mod" resp="#resp2" target="#nkr_note_mod_0714005">福＝教【宋】【元】【明】【宮】</note>
+<note type="mod" resp="#resp2" n="0714001" target="#nkr_note_mod_0714001">佛說【大】，〔－〕【宋】【元】【宮】</note>
+<note n="0714002" type="mod" resp="#resp2" target="#nkr_note_mod_0714002">德【大】，〔－〕【宋】【元】【宮】</note>
+<note resp="#resp2" type="mod" n="0714003" target="#nkr_note_mod_0714003">五【大】，五福德【宋】【元】【明】，<!--CBETA todo type: newmod-->五福德何謂為五【宮】</note>
+<note n="0714004" type="mod" resp="#resp2" target="#nkr_note_mod_0714004">寂【大】下同，家【宋】【元】【明】【宮】下同</note>
+<note n="0714005" type="mod" resp="#resp2" target="#nkr_note_mod_0714005">福【大】，教【宋】【元】【明】【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

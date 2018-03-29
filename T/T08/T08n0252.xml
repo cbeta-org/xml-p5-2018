@@ -7,7 +7,8 @@
 <respStmt>
 <resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
 <editionStmt><edition>$Revision: 1.13 $<date>$Date: 2012/08/27 03:14:22 $</date>新式標點版</edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt></editionStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt></editionStmt>
 <extent>1卷</extent>
 <publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
 <address><addrLine>service@cbeta.org</addrLine></address>
@@ -81,7 +82,7 @@ add cvs log
 <lb n="0849a03" ed="T"/><cb:docNumber>No. 252 [Nos. 250, 251, 253-255, 257]</cb:docNumber>
 <lb n="0849a04" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead><title>普遍智藏般若波羅蜜多心經</title></cb:jhead></cb:juan>
 <lb n="0849a05" ed="T"/>
-<lb n="0849a06" ed="T"/><byline>摩竭提國三藏沙門法月<anchor xml:id="nkr_note_orig_0849001" n="0849001"/><anchor xml:id="beg0849001" n="0849001"/>重<anchor xml:id="end0849001"/>譯</byline>
+<lb n="0849a06" ed="T"/><byline>摩竭提國三藏沙門法月<anchor xml:id="nkr_note_orig_0849001" n="0849001"/><anchor xml:id="nkr_note_mod_0849001" n="0849001"/><anchor xml:id="beg0849001" n="0849001"/>重<anchor xml:id="end0849001"/>譯</byline>
 <lb n="0849a07" ed="T"/><cb:div type="jing"><p xml:id="pT08p0849a0701">如是我聞：</p><p xml:id="pT08p0849a0705" rend="inline">一時佛在王舍大城靈鷲山中，與
 <lb n="0849a08" ed="T"/>大比丘眾滿百千人，菩薩摩訶薩七萬七千
 <lb n="0849a09" ed="T"/>人俱，其名曰觀世音菩薩、文殊師利菩薩、彌
@@ -131,6 +132,12 @@ add cvs log
 <head>校註</head>
 <p>
 <app from="#beg0849001" to="#end0849001"><lem wit="#wit1">重</lem><rdg resp="#resp1" wit="#wit2">奉詔</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0849001" resp="#resp2" type="mod" target="#nkr_note_mod_0849001">重【大】，奉詔【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

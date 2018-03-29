@@ -14,7 +14,8 @@
             <editionStmt>
                 <edition>$Revision: 1.6 $<date>$Date: 2011/05/19 01:44:08 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>ihp</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
             </editionStmt>
             <extent>1卷</extent>
             <publicationStmt>
@@ -34,7 +35,7 @@
             <listWit>
 		<witness xml:id="wit1">【史】</witness>
 		<witness xml:id="wit2">【原】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
+		<witness xml:id="wit3">【CB】</witness>
 	</listWit>
 	</sourceDesc>
         </fileDesc>
@@ -101,13 +102,13 @@
 <lb ed="I" n="0170c01" type="honorific"/><p xml:id="pI01p0170c0101">法性無言。寄言以詮理。真容妙
 <lb ed="I" n="0170c02" type="honorific"/>極。假像以表應。佛有如是。十力
 <lb ed="I" n="0170c03" type="honorific"/>雄猛。大悲為勿。化緣既周。雙林
-<lb ed="I" n="0170c04" type="honorific"/>取<anchor xml:id="nkr_note_orig_0170001" n="0170001"/><anchor xml:id="beg0170001" n="0170001"/>寂<anchor xml:id="end0170001"/>。佛雖去世。遺留經像訓世。
+<lb ed="I" n="0170c04" type="honorific"/>取<anchor xml:id="nkr_note_orig_0170001" n="0170001"/><anchor xml:id="nkr_note_mod_0170001" n="0170001"/><anchor xml:id="beg0170001" n="0170001"/>寂<anchor xml:id="end0170001"/>。佛雖去世。遺留經像訓世。
 <lb ed="I" n="0170c05" type="honorific"/>是以千載之末。有佛弟子董黃
 <lb ed="I" n="0170c06" type="honorific"/>頭七十人等。正信無邪。生不值
 <lb ed="I" n="0170c07" type="honorific"/>佛。故□□□□契崇邑義□造
 <lb ed="I" n="0170c08" type="honorific"/>釋迦碑像一區。彌勒慈氏。及无
 <lb ed="I" n="0170c09" type="honorific"/>量壽佛。藥師。<unclear cert="low" reason="damage">定</unclear>光。思惟。多寶。阿
-<lb ed="I" n="0170c10" type="honorific"/>難。迦葉。并<anchor xml:id="nkr_note_orig_0170002" n="0170002"/><anchor xml:id="beg0170002" n="0170002"/>諸<anchor xml:id="end0170002"/>菩薩。以此微善。願
+<lb ed="I" n="0170c10" type="honorific"/>難。迦葉。并<anchor xml:id="nkr_note_orig_0170002" n="0170002"/><anchor xml:id="nkr_note_mod_0170002" n="0170002"/><anchor xml:id="beg0170002" n="0170002"/>諸<anchor xml:id="end0170002"/>菩薩。以此微善。願
 <lb ed="I" n="0170c11" type="honorific"/>皇　帝　陛下。延祚無窮。四方
 <lb ed="I" n="0170c12" type="honorific"/>慕化。又願邑義<anchor xml:id="beg_1" type="star"/>諸<anchor xml:id="end_1"/>人。生生之處。
 <lb ed="I" n="0170c13" type="honorific"/>恒值<anchor xml:id="beg_2" type="star"/>諸<anchor xml:id="end_2"/>佛。聞法悟解。法界眾生。
@@ -160,7 +161,7 @@
 <lb ed="I" n="0171c01" type="honorific"/><p xml:id="pI01p0171c0101">迦葉像主鞏市龍妻王阿姜　邑子董神和　　　　　　邑子李永進　　　　　　　邑子□□□張
 <lb ed="I" n="0171c02" type="honorific"/>
 <lb ed="I" n="0171c03" type="honorific"/>　　　　　　　　　　　　邑子董伯德　　　　　　邑子高思祖　邑子　慶賓　邑子□□□
-<lb ed="I" n="0171c04" type="honorific"/><anchor xml:id="beg_3" type="cb-app"/>无<anchor xml:id="end_3"/>量壽像主倉曹參軍鞏市龍
+<lb ed="I" n="0171c04" type="honorific"/><anchor xml:id="nkr_note_add_0171c0401" n="0171c0401"/><anchor xml:id="beg0171c0401" n="0171c0401"/>无<anchor xml:id="end0171c0401"/>量壽像主倉曹參軍鞏市龍
 <lb ed="I" n="0171c05" type="honorific"/>　　　　　　　　　　　　邑子□成龍　　　　　　邑子王□□　　　　　　　邑子鞏郭□
 <lb ed="I" n="0171c06" type="honorific"/>
 <lb ed="I" n="0171c07" type="honorific"/>阿難主司徒懿祖　　　　　邑子□伯奴　　　　　　邑子郭荀子　邑<unclear cert="low" reason="damage">子</unclear>　胡仁　邑倉曹參軍□□
@@ -178,14 +179,22 @@
 <app from="#beg0170002" to="#end0170002"><lem resp="#resp1" wit="#wit1">諸</lem><rdg wit="#wit2"><g ref="#CB30965">󷣵</g></rdg></app>
 <app from="#beg_1" to="#end_1" corresp="#0170002"><lem resp="#resp1" wit="#wit1">諸</lem><rdg wit="#wit2"><g ref="#CB30965">󷣵</g></rdg></app>
 <app from="#beg_2" to="#end_2" corresp="#0170002"><lem resp="#resp1" wit="#wit1">諸</lem><rdg wit="#wit2"><g ref="#CB30965">󷣵</g></rdg></app>
-<app from="#beg_3" to="#end_3"><lem wit="#wit3" resp="#resp2">无</lem><rdg wit="#wit2 #wit1">旡</rdg></app>
+<app from="#beg0171c0401" to="#end0171c0401"><lem wit="#wit3" resp="#resp3">无</lem><rdg wit="#wit2 #wit1">旡</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0171c0401" resp="#resp2" type="add" target="#nkr_note_add_0171c0401">无【CB】，旡【原】【史】</note>
 </p>
 </cb:div>
 <cb:div type="ihp-notes">
 <head>中央研究院歷史語言研究所 校註</head>
 <p>
 <note n="0170001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0170001"><g ref="#CB30347">𥥒</g>＝寂【史】</note>
+<note n="0170001" resp="#resp1" type="mod" target="#nkr_note_mod_0170001"><g ref="#CB30347">𥥒</g>【佛拓】，寂【史】</note>
 <note n="0170002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0170002"><g ref="#CB30965">󷣵</g>＝諸【史】</note>
+<note n="0170002" resp="#resp1" type="mod" target="#nkr_note_mod_0170002"><g ref="#CB30965">󷣵</g>【佛拓】，諸【史】</note>
 </p>
 </cb:div>
 </back></text>

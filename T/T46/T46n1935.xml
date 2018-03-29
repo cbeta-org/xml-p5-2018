@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:12:24 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 46, No. 1935</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -504,7 +509,7 @@ Added comment  for Emacs
 <lb n="0828a17" ed="T"/><p xml:id="pT46p0828a1701">問辨訛既將揀境中。心造諸法便為妙境中
 <lb n="0828a18" ed="T"/>一念三千。又以託外依正色心便為內觀之
 <lb n="0828a19" ed="T"/>境。還是不分事理二造內外二境耶。</p>
-<lb n="0828a20" ed="T"/><p xml:id="pT46p0828a2001">問既遭<anchor xml:id="beg_1" type="cb-app"/>問<anchor xml:id="end_1"/>疑書難。便改轉云所造諸法者。理
+<lb n="0828a20" ed="T"/><p xml:id="pT46p0828a2001">問既遭<anchor xml:id="nkr_note_add_0828a2001" n="0828a2001"/><anchor xml:id="beg0828a2001" n="0828a2001"/>問<anchor xml:id="end0828a2001"/>疑書難。便改轉云所造諸法者。理
 <lb n="0828a21" ed="T"/>具名造實非事造。又云所言三千者。即是所
 <lb n="0828a22" ed="T"/>具三千名造。實非外境事造。此是欺心轉計
 <lb n="0828a23" ed="T"/>否。</p>
@@ -772,13 +777,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>問<note type="cf1">TW46n1935_p0828a20</note><note type="cf2">T46n1936_p0833a14</note></corr><sic>間</sic></choice>
+<app from="#beg0828a2001" to="#end0828a2001"><lem wit="#wit1" resp="#resp3">問<note type="cf1">TW46n1935_p0828a20</note><note type="cf2">T46n1936_p0833a14</note></lem><rdg wit="#wit2">間</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0824001" resp="#resp1" place="foot" type="orig" target="#nkr_note_orig_0824001">【原】康<g ref="#CB07799">󱹷</g>三年刊增上寺報恩藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0828a2001" resp="#resp2" type="add" target="#nkr_note_add_0828a2001">問【CB】，間【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

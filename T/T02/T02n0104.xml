@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2012/08/27 03:13:58 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -120,8 +121,8 @@ Added comment  for Emacs
 <lb n="0500b16" ed="T"/><cb:docNumber>No. 104 [No. 99(80), No. 103]</cb:docNumber><cb:div type="jing">
 <lb n="0500b17" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title>佛說法印經</title></cb:jhead></cb:juan>
 <lb n="0500b18" ed="T"/>
-<lb n="0500b19" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0500008" n="0500008"/><anchor xml:id="beg0500008" n="0500008"/>西<anchor xml:id="end0500008"/>天譯經三藏朝奉大夫試鴻臚卿
-<lb n="0500b20" ed="T"/>傳法大師<anchor xml:id="nkr_note_orig_0500009" n="0500009"/><anchor xml:id="beg0500009" n="0500009"/>臣<anchor xml:id="end0500009"/>施護奉　詔譯</byline>
+<lb n="0500b19" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0500008" n="0500008"/><anchor xml:id="nkr_note_mod_0500008" n="0500008"/><anchor xml:id="beg0500008" n="0500008"/>西<anchor xml:id="end0500008"/>天譯經三藏朝奉大夫試鴻臚卿
+<lb n="0500b20" ed="T"/>傳法大師<anchor xml:id="nkr_note_orig_0500009" n="0500009"/><anchor xml:id="nkr_note_mod_0500009" n="0500009"/><anchor xml:id="beg0500009" n="0500009"/>臣<anchor xml:id="end0500009"/>施護奉　詔譯</byline>
 <lb n="0500b21" ed="T"/><p xml:id="pT02p0500b2101">爾時，佛在舍衛國，與苾芻眾俱。是時，佛告苾
 <lb n="0500b22" ed="T"/>芻眾言：「汝等當知，有聖法印，我今為汝分
 <lb n="0500b23" ed="T"/>別演說。汝等應起清淨知見，諦聽諦受，如
@@ -167,6 +168,13 @@ Added comment  for Emacs
 <p>
 <app from="#beg0500008" to="#end0500008"><lem wit="#wit1">西</lem><rdg resp="#resp1" wit="#wit2">宋西</rdg></app>
 <app from="#beg0500009" to="#end0500009"><lem wit="#wit1">臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0500008" resp="#resp2" type="mod" target="#nkr_note_mod_0500008">西【大】，宋西【明】</note>
+<note n="0500009" resp="#resp2" type="mod" target="#nkr_note_mod_0500009">臣【大】，〔－〕【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

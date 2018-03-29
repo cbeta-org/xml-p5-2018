@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:15:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -124,10 +125,10 @@ Added comment  for Emacs
 <lb n="1405a07" ed="T"/>每供養諸佛。度一切如影隨形。願恒受持得
 <lb n="1405a08" ed="T"/>不捨離。西方阿彌陀佛觀世音菩薩得大勢
 <lb n="1405a09" ed="T"/>至菩薩有能。誦此一佛二菩薩名者。離生死
-<lb n="1405a10" ed="T"/>苦永不入地獄。恒值善<anchor xml:id="nkr_note_orig_1405002" n="1405002"/><anchor xml:id="beg1405002" n="1405002"/>諸<anchor xml:id="end1405002"/>識。有疑有難者。
+<lb n="1405a10" ed="T"/>苦永不入地獄。恒值善<anchor xml:id="nkr_note_orig_1405002" n="1405002"/><anchor xml:id="nkr_note_mod_1405002" n="1405002"/><anchor xml:id="beg1405002" n="1405002"/>諸<anchor xml:id="end1405002"/>識。有疑有難者。
 <lb n="1405a11" ed="T"/>誦此經一千遍即得解脫。一願三寶恒存立
 <lb n="1405a12" ed="T"/>　二願風雨順時行　三願國王壽萬歲　四
-<lb n="1405a13" ed="T"/>願邊地無刀<anchor xml:id="nkr_note_orig_1405003" n="1405003"/><anchor xml:id="beg1405003" n="1405003"/>丘<anchor xml:id="end1405003"/>　五願三塗離苦難　六願
+<lb n="1405a13" ed="T"/>願邊地無刀<anchor xml:id="nkr_note_orig_1405003" n="1405003"/><anchor xml:id="nkr_note_mod_1405003" n="1405003"/><anchor xml:id="beg1405003" n="1405003"/>丘<anchor xml:id="end1405003"/>　五願三塗離苦難　六願
 <lb n="1405a14" ed="T"/>百病盡消除　七願眾生行慈孝　八願屠人
 <lb n="1405a15" ed="T"/>莫殺生　九願牢囚所得脫　十願法界普安
 <lb n="1405a16" ed="T"/>寧　眼願莫見刀光刃　耳願不聞怨殃聲
@@ -141,6 +142,13 @@ Added comment  for Emacs
 <p>
 <app from="#beg1405002" to="#end1405002"><lem resp="#resp1" wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">智</rdg></app>
 <app from="#beg1405003" to="#end1405003"><lem resp="#resp1" wit="#wit1">丘</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">兵</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="1405002" resp="#resp2" type="mod" target="#nkr_note_mod_1405002">諸【大】，智【考偽-大】</note>
+<note n="1405003" resp="#resp2" type="mod" target="#nkr_note_mod_1405003">丘【大】，兵【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

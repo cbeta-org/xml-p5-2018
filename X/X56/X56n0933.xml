@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/22 09:00:31 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 56, No. 933</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -77,7 +82,7 @@ no message
 <lb ed="X" n="0506a04"/><lb ed="R095" n="0754a03"/><p xml:id="pX56p0506a0401">科分大經章段。起自關內憑小山瑤。前代未聞也。吾祖章安作疏益詳。至荊溪將迦葉品分正緣了。別指方隅。則
 <lb ed="X" n="0506a05"/><lb ed="R095" n="0754a04"/>權實進否曉然而明。可謂善乎派深。良哉析重也。余復以佛性周徧三千具攝而分今文。分而又分。賓主問答。引
 <lb ed="X" n="0506a06"/><lb ed="R095" n="0754a05"/>文釋義。略無混亂。雖短脛亦可以厲法流孺子。敢當荷負矣。或曰猶牧女之添水。將非澆漓於乳味乎。不然乳益
-<lb ed="X" n="0506a07"/><lb ed="R095" n="0754a06"/>乳也。苟能鑽搖醍醐可獲。豈仍乳而<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>耶。</p></cb:div>
+<lb ed="X" n="0506a07"/><lb ed="R095" n="0754a06"/>乳也。苟能鑽搖醍醐可獲。豈仍乳而<anchor xml:id="nkr_note_add_0506a0701" n="0506a0701"/><anchor xml:id="beg0506a0701" n="0506a0701"/>已<anchor xml:id="end0506a0701"/>耶。</p></cb:div>
 <lb ed="X" n="0506a08"/><cb:mulu type="卷" n="1"></cb:mulu>
 <lb ed="X" n="0506a09"/>
 <lb ed="X" n="0506a10"/>
@@ -465,14 +470,21 @@ no message
 <lb ed="X" n="0512a31"/>
 <lb ed="X" n="0512a32"/><lb ed="R095" n="0760a11"/><cb:juan fun="close" n="1"><cb:jhead>金剛錍科文<note place="inline">終</note></cb:jhead></cb:juan></cb:div>
 <lb ed="X" n="0512a33"/>
-<lb ed="X" n="0512a34"/><lb ed="R095" n="0760a13"/><cb:div type="w"><p xml:id="pX56p0512a3401" rend="margin-left:1em">維時延寶龍飛<anchor xml:id="beg_2" type="cb-app"/>己<anchor xml:id="end_2"/>未以明藏科本謄寫焉　沙門慧湛</p></cb:div>
+<lb ed="X" n="0512a34"/><lb ed="R095" n="0760a13"/><cb:div type="w"><p xml:id="pX56p0512a3401" rend="margin-left:1em">維時延寶龍飛<anchor xml:id="nkr_note_add_0512a3401" n="0512a3401"/><anchor xml:id="beg0512a3401" n="0512a3401"/>己<anchor xml:id="end0512a3401"/>未以明藏科本謄寫焉　沙門慧湛</p></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>己</corr><sic>已</sic></choice>
+<app from="#beg0506a0701" to="#end0506a0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0512a3401" to="#end0512a3401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0506a0701" resp="#resp1" type="add" target="#nkr_note_add_0506a0701">已【CB】，巳【卍續】</note>
+<note n="0512a3401" resp="#resp1" type="add" target="#nkr_note_add_0512a3401">己【CB】，已【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

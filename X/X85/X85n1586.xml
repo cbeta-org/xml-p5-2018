@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2009/04/22 09:07:22 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 85, No. 1586</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -409,7 +414,7 @@ new from basicx
 <lb ed="X" n="0002c14"/><lb ed="R145" n="0292b05"/>　　福山石潮寧禪師　青原無可智禪師
 <lb ed="X" n="0002c15"/><lb ed="R145" n="0292b06"/>　　大慈石公<g ref="#CB15358">󳯾</g>禪師
 <lb ed="X" n="0002c16"/><lb ed="R145" n="0292b07"/>　附諸尊宿
-<lb ed="X" n="0002c17"/><lb ed="R145" n="0292b08"/>　　雲棲蓮池<anchor xml:id="beg_1" type="cb-app"/>袾<anchor xml:id="end_1"/>宏大師　紫栢達觀真可大師
+<lb ed="X" n="0002c17"/><lb ed="R145" n="0292b08"/>　　雲棲蓮池<anchor xml:id="nkr_note_add_0002c1701" n="0002c1701"/><anchor xml:id="beg0002c1701" n="0002c1701"/>袾<anchor xml:id="end0002c1701"/>宏大師　紫栢達觀真可大師
 <lb ed="X" n="0002c18"/><lb ed="R145" n="0292b09"/>　　黃檗無念深有禪師　白馬寺儀峯方彖禪師
 <lb ed="X" n="0002c19"/><lb ed="R145" n="0292b10"/>　　鵞湖養菴心禪師　真寂聞谷廣印禪師
 <lb ed="X" n="0002c20"/><lb ed="R145" n="0292b11"/>　　荊紫峯無學幻大師　曹溪憨山德清大師
@@ -580,7 +585,7 @@ new from basicx
 <lb ed="X" n="0005a10"/><lb ed="R145" n="0297a07"/>　　歸宗果宏德禪師　大覺正宗道禪師
 <lb ed="X" n="0005a11"/><lb ed="R145" n="0297a08"/>　　<note place="inline">調梅鼎法嗣</note>崇恩法南勝禪師　拈花<g ref="#CB15210">󳭪</g>慈仁禪師
 <lb ed="X" n="0005a12"/><lb ed="R145" n="0297a09"/>　　萬壽粹如純禪師
-<lb ed="X" n="0005a13"/><lb ed="R145" n="0297a10"/>　南嶽下第三十九<anchor xml:id="beg_2" type="cb-app"/>世<anchor xml:id="end_2"/>
+<lb ed="X" n="0005a13"/><lb ed="R145" n="0297a10"/>　南嶽下第三十九<anchor xml:id="nkr_note_add_0005a1301" n="0005a1301"/><anchor xml:id="beg0005a1301" n="0005a1301"/>世<anchor xml:id="end0005a1301"/>
 <lb ed="X" n="0005a14"/><lb ed="R145" n="0297a11"/>　　<note place="inline">佛日義法嗣</note>薦福德山海禪師　理安智朗月禪師
 <lb ed="X" n="0005a15"/><lb ed="R145" n="0297a12"/>　　<note place="inline">古雲沛法嗣</note>永鎮樸夫拙禪師
 <lb ed="X" n="0005a16"/><lb ed="R145" n="0297a13"/>　　<note place="inline">祖燈紹法嗣</note>嶽州印慧勝禪師
@@ -734,21 +739,29 @@ new from basicx
 <lb ed="X" n="0007a14"/><lb ed="R145" n="0301a11"/>雲峯授禪師法嗣
 <lb ed="X" n="0007a15"/><lb ed="R145" n="0301a12"/>　揚州西方南源信禪師</p>
 <lb ed="X" n="0007a16"/><lb ed="R145" n="0301a13"/>
-<lb ed="X" n="0007a17"/><lb ed="R145" n="0301a14"/><cb:juan fun="close" n="001"><cb:jhead><anchor xml:id="beg_3" type="cb-app"/>正源略集目錄<anchor xml:id="end_3"/></cb:jhead></cb:juan></cb:div>
+<lb ed="X" n="0007a17"/><lb ed="R145" n="0301a14"/><cb:juan fun="close" n="001"><cb:jhead><anchor xml:id="nkr_note_add_0007a1701" n="0007a1701"/><anchor xml:id="beg0007a1701" n="0007a1701"/>正源略集目錄<anchor xml:id="end0007a1701"/></cb:jhead></cb:juan></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>袾</corr><sic>祩</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>世</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>正源略集目錄</corr><sic><space quantity="0"/></sic></choice>
+<app from="#beg0002c1701" to="#end0002c1701"><lem wit="#wit1" resp="#resp3">袾</lem><rdg wit="#wit2">祩</rdg></app>
+<app from="#beg0005a1301" to="#end0005a1301"><lem wit="#wit1" resp="#resp3">世</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0007a1701" to="#end0007a1701"><lem wit="#wit1" resp="#resp3">正源略集目錄</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="xuzang-notes">
 <head>卍續藏 校註</head>
 <p>
 <note n="0001001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0001001">目錄及卷一佚失仍今補作目錄</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0002c1701" resp="#resp2" type="add" target="#nkr_note_add_0002c1701">袾【CB】，祩【卍續】</note>
+<note n="0005a1301" resp="#resp2" type="add" target="#nkr_note_add_0005a1301">世【CB】，［－］【卍續】</note>
+<note n="0007a1701" resp="#resp2" type="add" target="#nkr_note_add_0007a1701">正源略集目錄【CB】，［－］【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

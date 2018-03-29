@@ -37,8 +37,8 @@
 		<witness xml:id="wit2">【明】</witness>
 		<witness xml:id="wit3">【宋】</witness>
 		<witness xml:id="wit4">【元】</witness>
-		<witness xml:id="wit5">【CBETA】</witness>
-		<witness xml:id="wit6">【麗】</witness>
+		<witness xml:id="wit5">【CB】</witness>
+		<witness xml:id="wit6">【麗-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -135,13 +135,13 @@ Added comment  for Emacs
 <lb n="0544b11" ed="T"/><cb:docNumber>No. 121 [Nos. 99(1136), 100(111)]</cb:docNumber><cb:div type="jing">
 <lb n="0544b12" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title>佛說月喻經</title></cb:jhead></cb:juan>
 <lb n="0544b13" ed="T"/>
-<lb n="0544b14" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0544002" n="0544002"/><anchor xml:id="beg0544002" n="0544002"/>西天譯經<anchor xml:id="end0544002"/>三<anchor xml:id="nkr_note_orig_0544003" n="0544003"/><anchor xml:id="nkr_note_mod_0544003" n="0544003"/><anchor xml:id="beg0544003" n="0544003"/>藏<anchor xml:id="end0544003"/>傳法大師<anchor xml:id="nkr_note_orig_0544004" n="0544004"/><anchor xml:id="beg0544004" n="0544004"/>賜紫
+<lb n="0544b14" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0544002" n="0544002"/><anchor xml:id="nkr_note_mod_0544002" n="0544002"/><anchor xml:id="beg0544002" n="0544002"/>西天譯經<anchor xml:id="end0544002"/>三<anchor xml:id="nkr_note_orig_0544003" n="0544003"/><anchor xml:id="nkr_note_mod_0544003" n="0544003"/><anchor xml:id="beg0544003" n="0544003"/>藏<anchor xml:id="end0544003"/>傳法大師<anchor xml:id="nkr_note_orig_0544004" n="0544004"/><anchor xml:id="nkr_note_mod_0544004" n="0544004"/><anchor xml:id="beg0544004" n="0544004"/>賜紫
 <lb n="0544b15" ed="T"/>臣<anchor xml:id="end0544004"/>施護奉　詔譯</byline>
 <lb n="0544b16" ed="T"/><p xml:id="pT02p0544b1601">如是我聞：</p><p xml:id="pT02p0544b1605" rend="inline">一時，世尊在王舍城，迦蘭陀竹林
 <lb n="0544b17" ed="T"/>精舍，與苾芻眾俱。是時，世尊告諸苾芻言：
 <lb n="0544b18" ed="T"/>「如世所見，皎月圓滿，行於虛空，清淨無礙。
 <lb n="0544b19" ed="T"/>而諸苾芻，不破威儀，常如初臘者，具足慚
-<lb n="0544b20" ed="T"/>愧，若身若心，曾無散亂，如其法儀，入<anchor xml:id="beg_1" type="cb-app"/>白<anchor xml:id="end_1"/>衣
+<lb n="0544b20" ed="T"/>愧，若身若心，曾無散亂，如其法儀，入<anchor xml:id="nkr_note_add_0544b2001" n="0544b2001"/><anchor xml:id="beg0544b2001" n="0544b2001"/>白<anchor xml:id="end0544b2001"/>衣
 <lb n="0544b21" ed="T"/>舍，清淨無染，亦復如是。諸苾芻！又如明眼
 <lb n="0544b22" ed="T"/>人，或入大水深廣之中、或涉江河險惡之處、
 <lb n="0544b23" ed="T"/>或履山巖高下之所，以明眼故，而悉能見，離
@@ -161,7 +161,7 @@ Added comment  for Emacs
 <lb n="0544c07" ed="T"/>說。若諸苾芻，欲入白衣舍時，應起無著無縛
 <lb n="0544c08" ed="T"/>無執取心，依律儀相而入其舍，雖受利養，但
 <lb n="0544c09" ed="T"/>欲為彼作諸福事，隨自所得分量而受。復善
-<lb n="0544c10" ed="T"/>作意，<anchor xml:id="nkr_note_orig_0544005" n="0544005"/><anchor xml:id="beg0544005" n="0544005"/>於<anchor xml:id="end0544005"/>自不高，於他不下。起如是心，以如
+<lb n="0544c10" ed="T"/>作意，<anchor xml:id="nkr_note_orig_0544005" n="0544005"/><anchor xml:id="nkr_note_mod_0544005" n="0544005"/><anchor xml:id="beg0544005" n="0544005"/>於<anchor xml:id="end0544005"/>自不高，於他不下。起如是心，以如
 <lb n="0544c11" ed="T"/>是相，應入白衣舍。」</p>
 <lb n="0544c12" ed="T"/><p xml:id="pT02p0544c1201">爾時，世尊舉手捫空，告苾芻眾言：「於汝意云
 <lb n="0544c13" ed="T"/>何？虛空有著不？有縛不？有執取不？」</p><p xml:id="pT02p0544c1314" rend="inline">諸苾芻言：
@@ -206,14 +206,17 @@ Added comment  for Emacs
 <app from="#beg0544002" to="#end0544002"><lem wit="#wit1">西天譯經</lem><rdg resp="#resp1" wit="#wit2">宋西天</rdg></app>
 <app from="#beg0544003" to="#end0544003"><lem wit="#wit1">藏</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit2">藏朝奉大夫試光祿卿</rdg></app>
 <app from="#beg0544004" to="#end0544004"><lem wit="#wit1">賜紫<lb n="0544b15" ed="T"/>臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg_1" to="#end_1"><lem resp="#resp3" wit="#wit5 #wit6">白<note type="cf1">K40n1447_p0483c08</note></lem><rdg wit="#wit1">日</rdg></app>
+<app from="#beg0544b2001" to="#end0544b2001"><lem resp="#resp3" wit="#wit5 #wit6">白<note type="cf1">K40n1447_p0483c08</note></lem><rdg wit="#wit1">日</rdg></app>
 <app from="#beg0544005" to="#end0544005"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit2">欲</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0544003" resp="#resp2" type="mod" target="#nkr_note_mod_0544003">藏＋（朝奉大夫試光祿卿）【宋】【元】【明】</note>
+<note n="0544002" resp="#resp2" type="mod" target="#nkr_note_mod_0544002">西天譯經【大】，宋西天【明】</note>
+<note n="0544003" resp="#resp2" type="mod" target="#nkr_note_mod_0544003">藏【大】，藏朝奉大夫試光祿卿【宋】【元】【明】</note>
+<note n="0544004" resp="#resp2" type="mod" target="#nkr_note_mod_0544004">賜紫臣【大】，〔－〕【明】</note>
+<note n="0544005" resp="#resp2" type="mod" target="#nkr_note_mod_0544005">於【大】，欲【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -223,6 +226,12 @@ Added comment  for Emacs
 <note n="0544003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0544003">藏＋（朝奉大夫試光祿卿）【三】</note>
 <note n="0544004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0544004">〔賜紫臣〕－【明】</note>
 <note n="0544005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0544005">於＝欲【明】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0544b2001" resp="#resp2" type="add" target="#nkr_note_add_0544b2001">白【CB】【麗-CB】，日【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -22,8 +22,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
-		<witness xml:id="wit6">【CBETA】</witness>
-		<witness xml:id="wit7">【磧砂】</witness>
+		<witness xml:id="wit6">【CB】</witness>
+		<witness xml:id="wit7">【磧-CB】</witness>
 	</listWit>
 	</sourceDesc></fileDesc>
 <encodingDesc><projectDesc>
@@ -163,7 +163,7 @@ add cvs log
 <lb ed="T" n="0883c03"/>法界輪，其土有佛，名法界莊嚴王，住世說法；
 <lb ed="T" n="0883c04"/>彼普光藏菩薩摩訶薩，與十不可說不可說
 <lb n="0883c05" ed="T"/>百千億那由他佛剎微塵等菩薩摩訶薩俱，
-<lb n="0883c06" ed="T"/>從彼佛剎，來此會坐。於雙<anchor xml:id="beg_1" type="cb-app"/><g ref="#CB00567">󰈷</g><anchor xml:id="end_1"/>中，有世界名無
+<lb n="0883c06" ed="T"/>從彼佛剎，來此會坐。於雙<anchor xml:id="nkr_note_add_0883c0601" n="0883c0601"/><anchor xml:id="beg0883c0601" n="0883c0601"/><g ref="#CB00567">󰈷</g><anchor xml:id="end0883c0601"/>中，有世界名無
 <lb ed="T" n="0883c07"/>礙藏，其土有佛名無礙淨光，住世說法；彼甚
 <lb ed="T" n="0883c08"/>深藏菩薩摩訶薩，與十不可說不可說百千
 <lb ed="T" n="0883c09"/>億那由他佛剎微塵等菩薩摩訶薩俱，從彼
@@ -221,7 +221,7 @@ add cvs log
 <app from="#beg0883001" to="#end0883001"><lem wit="#wit1">一卷</lem><rdg wit="#wit2 #wit3 #wit4 #wit5" resp="#resp1"><space quantity="0"/></rdg></app>
 <app from="#beg0883002" to="#end0883002"><lem wit="#wit1">三藏</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">三藏法師</rdg></app>
 <app from="#beg0883003" to="#end0883003"><lem wit="#wit1">力</lem><rdg wit="#wit2 #wit3 #wit4 #wit5" resp="#resp1">方</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_1" cb:to="#end_1"><corr><g ref="#CB00567">󰈷</g></corr><sic><g ref="#CB00571">󰈻</g></sic></choice>
+<app from="#beg0883c0601" to="#end0883c0601"><lem wit="#wit6" resp="#resp3"><g ref="#CB00567">󰈷</g></lem><rdg wit="#wit1"><g ref="#CB00571">󰈻</g></rdg></app>
 <app from="#beg0883004" to="#end0883004"><lem wit="#wit1">俱</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0884001" to="#end0884001"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5"><space quantity="0"/></rdg></app>
 <app from="#beg0884002" to="#end0884002"><lem wit="#wit6 #wit7" resp="#resp3">護<note type="cf1">Q08_p0337a22</note></lem><rdg wit="#wit1">說</rdg><rdg wit="#wit2 #wit3 #wit4 #wit5" resp="#resp1">護</rdg></app>
@@ -230,12 +230,12 @@ add cvs log
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0883001" type="mod" resp="#resp2" target="#nkr_note_mod_0883001">〔一卷〕－【宋】【元】【明】【宮】</note>
-<note resp="#resp2" n="0883002" type="mod" target="#nkr_note_mod_0883002">三藏＋（法師）【宋】【元】【明】【宮】</note>
-<note resp="#resp2" n="0883003" type="mod" target="#nkr_note_mod_0883003">力＝方【宋】【元】【明】【宮】</note>
-<note n="0883004" type="mod" resp="#resp2" target="#nkr_note_mod_0883004">〔俱〕－【宋】【元】【明】【宮】</note>
-<note resp="#resp2" type="mod" n="0884001" target="#nkr_note_mod_0884001">〔於〕－【宋】【元】【明】【宮】</note>
-<note type="mod" n="0884002" resp="#resp2" target="#nkr_note_mod_0884002">說＝護【宋】【元】【明】【宮】【磧砂-CB】 【CB】</note>
+<note n="0883001" type="mod" resp="#resp2" target="#nkr_note_mod_0883001">一卷【大】，〔－〕【宋】【元】【明】【宮】</note>
+<note resp="#resp2" n="0883002" type="mod" target="#nkr_note_mod_0883002">三藏【大】，三藏法師【宋】【元】【明】【宮】</note>
+<note resp="#resp2" n="0883003" type="mod" target="#nkr_note_mod_0883003">力【大】，方【宋】【元】【明】【宮】</note>
+<note n="0883004" type="mod" resp="#resp2" target="#nkr_note_mod_0883004">俱【大】，〔－〕【宋】【元】【明】【宮】</note>
+<note resp="#resp2" type="mod" n="0884001" target="#nkr_note_mod_0884001">於【大】，〔－〕【宋】【元】【明】【宮】</note>
+<note type="mod" n="0884002" resp="#resp2" target="#nkr_note_mod_0884002">護【CB】【磧-CB】【宋】【元】【明】【宮】 ，說【大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -247,6 +247,12 @@ add cvs log
 <note resp="#resp1" type="orig" n="0883004" place="foot text" target="#nkr_note_orig_0883004">〔俱〕－【三】【宮】</note>
 <note resp="#resp1" place="foot text" n="0884001" type="orig" target="#nkr_note_orig_0884001">〔於〕－【三】【宮】</note>
 <note place="foot text" n="0884002" type="orig" resp="#resp1" target="#nkr_note_orig_0884002">說＝護【三】【宮】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0883c0601" resp="#resp2" type="add" target="#nkr_note_add_0883c0601"><g ref="#CB00567">󰈷</g>【CB】，<g ref="#CB00571">󰈻</g>【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -14,8 +14,8 @@
         <editionStmt>
                 <edition>$Revision: 1.12 $<date>$Date: 2012/08/27 03:14:46 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -36,8 +36,8 @@
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【元】</witness>
 		<witness xml:id="wit3">【明】</witness>
-		<witness xml:id="wit4">【CBETA】</witness>
-		<witness xml:id="wit5">【麗】</witness>
+		<witness xml:id="wit4">【CB】</witness>
+		<witness xml:id="wit5">【麗-CB】</witness>
 		<witness xml:id="wit6">【宋】</witness>
 		<witness xml:id="wit7">【宮】</witness>
 	</listWit>
@@ -140,10 +140,10 @@ Added comment  for Emacs
 <milestone n="1" unit="juan"/>
 <lb n="0075a20" ed="T"/>
 <lb n="0075a21" ed="T"/><cb:docNumber>No. 430 [Nos. 427-429, 431]</cb:docNumber>
-<lb n="0075a22" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0075010" n="0075010"/><anchor xml:id="beg0075010" n="0075010"/>八吉祥<anchor xml:id="end0075010"/>經</cb:jhead></cb:juan>
+<lb n="0075a22" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0075010" n="0075010"/><anchor xml:id="nkr_note_mod_0075010" n="0075010"/><anchor xml:id="beg0075010" n="0075010"/>八吉祥<anchor xml:id="end0075010"/>經</cb:jhead></cb:juan>
 <lb n="0075a23" ed="T"/>
 <lb n="0075a24" ed="T"/><byline cb:type="Translator">梁扶南三藏僧伽婆羅譯</byline>
-<lb n="0075a25" ed="T"/><cb:div type="jing"><p xml:id="pT14p0075a2501">如是我聞：</p><p xml:id="pT14p0075a2505" rend="inline">一時，佛住舍衛國<anchor xml:id="beg_1" type="cb-app"/>祇<anchor xml:id="end_1"/>樹給孤獨園，
+<lb n="0075a25" ed="T"/><cb:div type="jing"><p xml:id="pT14p0075a2501">如是我聞：</p><p xml:id="pT14p0075a2505" rend="inline">一時，佛住舍衛國<anchor xml:id="nkr_note_add_0075a2501" n="0075a2501"/><anchor xml:id="beg0075a2501" n="0075a2501"/>祇<anchor xml:id="end0075a2501"/>樹給孤獨園，
 <lb n="0075a26" ed="T"/>與大比丘眾一千二百五十人俱，菩薩摩訶
 <lb n="0075a27" ed="T"/>薩八萬人，及諸天龍、鬼神等。</p><p xml:id="pT14p0075a2712" rend="inline">爾時，世尊告舍
 <lb n="0075a28" ed="T"/>利弗：「從此佛世界，向東方過一恒河沙世界，
@@ -194,7 +194,7 @@ Added comment  for Emacs
 <lb n="0075c13" ed="T"/><l>水火毒藥等，</l><l>此畏皆悉無，</l>
 <lb n="0075c14" ed="T"/><l>臥覺恒安隱，</l><l>無有諸惡夢。</l>
 <lb n="0075c15" ed="T"/><l>利根有智慧，</l><l>常<anchor xml:id="nkr_note_orig_0075012" n="0075012"/><anchor xml:id="nkr_note_mod_0075012" n="0075012"/><anchor xml:id="beg0075012" n="0075012"/>樂聞<anchor xml:id="end0075012"/>正法，</l>
-<lb n="0075c16" ed="T"/><l>聞已生信心，</l><l>得深妙法<anchor xml:id="nkr_note_orig_0075013" n="0075013"/><anchor xml:id="beg0075013" n="0075013"/>者<anchor xml:id="end0075013"/>，</l>
+<lb n="0075c16" ed="T"/><l>聞已生信心，</l><l>得深妙法<anchor xml:id="nkr_note_orig_0075013" n="0075013"/><anchor xml:id="nkr_note_mod_0075013" n="0075013"/><anchor xml:id="beg0075013" n="0075013"/>者<anchor xml:id="end0075013"/>，</l>
 <lb n="0075c17" ed="T"/><l>口氣無臭穢，</l><l>精進為他說，</l>
 <lb n="0075c18" ed="T"/><l>眾魔及外道，</l><l>無有敢干亂。</l>
 <lb n="0075c19" ed="T"/><l>女人聞佛名，</l><l>憶持為他說，</l>
@@ -207,27 +207,29 @@ Added comment  for Emacs
 <lb n="0075c26" ed="T"/>菩薩摩訶薩眾，天、龍、夜叉、乾闥婆、阿修羅、迦
 <lb n="0075c27" ed="T"/>樓羅、緊那羅、摩睺羅伽、人非人等，聞佛所說，
 <lb n="0075c28" ed="T"/>歡喜奉行。</p></cb:div>
-<lb n="0075c29" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><anchor xml:id="beg_2" type="star"/>八吉祥<anchor xml:id="end_2"/>經</cb:jhead></cb:juan>
+<lb n="0075c29" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><anchor xml:id="beg_1" type="star"/>八吉祥<anchor xml:id="end_1"/>經</cb:jhead></cb:juan>
 </body>
 <back>
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
 <app from="#beg0075010" to="#end0075010"><lem wit="#wit1">八吉祥</lem><rdg resp="#resp1" wit="#wit2 #wit3">佛說八吉祥</rdg></app>
-<app from="#beg_1" to="#end_1"><lem resp="#resp2" wit="#wit4 #wit5">祇<note type="cf1">K11n0286_p0639a03</note></lem><rdg wit="#wit1">祗</rdg></app>
+<app from="#beg0075a2501" to="#end0075a2501"><lem resp="#resp3" wit="#wit4 #wit5">祇<note type="cf1">K11n0286_p0639a03</note></lem><rdg wit="#wit1">祗</rdg></app>
 <app from="#beg0075011" to="#end0075011"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit6 #wit2 #wit3 #wit7">日</rdg></app>
 <app from="#beg0075012" to="#end0075012"><lem wit="#wit1">樂聞</lem><rdg resp="#resp1" wit="#wit6 #wit2 #wit3 #wit7">聞說</rdg></app>
 <app from="#beg0075013" to="#end0075013"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit7">相</rdg></app>
 <app from="#beg0075014" to="#end0075014"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit6 #wit2 #wit3 #wit7">唯</rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0075010"><lem wit="#wit1">八吉祥</lem><rdg resp="#resp1" wit="#wit2 #wit3">佛說八吉祥</rdg></app>
+<app from="#beg_1" to="#end_1" corresp="#0075010"><lem wit="#wit1">八吉祥</lem><rdg resp="#resp1" wit="#wit2 #wit3">佛說八吉祥</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0075011" resp="#resp3" type="mod" target="#nkr_note_mod_0075011">是＝日【宋】【元】【明】【宮】</note>
-<note n="0075012" resp="#resp3" type="mod" target="#nkr_note_mod_0075012">樂聞＝聞說【宋】【元】【明】【宮】</note>
-<note n="0075014" resp="#resp3" type="mod" target="#nkr_note_mod_0075014">惟＝唯【宋】【元】【明】【宮】</note>
+<note n="0075010" resp="#resp2" type="mod" target="#nkr_note_mod_0075010">八吉祥【大】＊，佛說八吉祥【元】【明】＊</note>
+<note n="0075011" resp="#resp2" type="mod" target="#nkr_note_mod_0075011">是【大】，日【宋】【元】【明】【宮】</note>
+<note n="0075012" resp="#resp2" type="mod" target="#nkr_note_mod_0075012">樂聞【大】，聞說【宋】【元】【明】【宮】</note>
+<note n="0075013" resp="#resp2" type="mod" target="#nkr_note_mod_0075013">者【大】，相【宮】</note>
+<note n="0075014" resp="#resp2" type="mod" target="#nkr_note_mod_0075014">惟【大】，唯【宋】【元】【明】【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -238,6 +240,12 @@ Added comment  for Emacs
 <note n="0075012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0075012">樂聞＝聞說【三】【宮】</note>
 <note n="0075013" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0075013">者＝相【宮】</note>
 <note n="0075014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0075014">惟＝唯【三】【宮】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0075a2501" resp="#resp2" type="add" target="#nkr_note_add_0075a2501">祇【CB】【麗-CB】，祗【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

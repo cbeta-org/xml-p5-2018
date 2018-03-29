@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 51, No. 2093</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -251,7 +255,7 @@ Added comment  for Emacs
 <lb n="1023b24" ed="T"/><p xml:id="pT51p1023b2401">佛殿內槽後壁面。吳道玄畫消災經事。樹石
 <lb n="1023b25" ed="T"/>古嶮。元和中上欲令移之。慮其摧壞。乃下詔。
 <lb n="1023b26" ed="T"/>擇畫手寫進。</p>
-<lb n="1023b27" ed="T"/><p xml:id="pT51p1023b2701">佛殿內槽東壁。維摩變。舍利<anchor xml:id="beg_1" type="cb-app"/>弗<anchor xml:id="end_1"/>角而轉膝。元
+<lb n="1023b27" ed="T"/><p xml:id="pT51p1023b2701">佛殿內槽東壁。維摩變。舍利<anchor xml:id="nkr_note_add_1023b2701" n="1023b2701"/><anchor xml:id="beg1023b2701" n="1023b2701"/>弗<anchor xml:id="end1023b2701"/>角而轉膝。元
 <lb n="1023b28" ed="T"/>和末。俗講僧文淑裝之。筆蹟盡矣。</p>
 <lb n="1023b29" ed="T"/><p xml:id="pT51p1023b2901">寺之制度鍾樓在東。唯此寺緣李右座林甫
 <pb n="1023c" xml:id="T51.2093.1023c" ed="T"/>
@@ -302,13 +306,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>弗</corr><sic>佛</sic></choice>
+<app from="#beg1023b2701" to="#end1023b2701"><lem wit="#wit1" resp="#resp2">弗</lem><rdg wit="#wit2">佛</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1022019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1022019">【原】上野帝國圖書館藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1023b2701" resp="#resp2" type="add" target="#nkr_note_add_1023b2701">弗【CB】，佛【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

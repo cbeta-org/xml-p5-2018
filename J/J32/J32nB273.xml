@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2012/06/27 08:14:39 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Jiaxing Canon (Shinwenfeng Edition) Vol. 32, No. B273</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【嘉興】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -222,7 +227,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0203c01"/><cb:juan fun="open" n="1"><cb:mulu type="卷" n="1"></cb:mulu><cb:jhead>千巖和尚語錄</cb:jhead></cb:juan>
 <lb ed="J" n="0203c02"/><byline cb:type="other">參學比丘　嗣詔　錄</byline>
 <lb ed="J" n="0203c03"/><byline cb:type="other"><g ref="#CB01323">𨍏</g>轢道人　大參　重校</byline>
-<lb ed="J" n="0203c04"/><cb:div type="other"><cb:mulu type="其他" level="1">上堂</cb:mulu><p xml:id="pJ32p0203c0401">上堂轉山河國土歸自<anchor xml:id="beg_1" type="cb-app"/>己<anchor xml:id="end_1"/>則易轉自<anchor xml:id="beg_2" type="cb-app"/>己<anchor xml:id="end_2"/>歸山河國土
+<lb ed="J" n="0203c04"/><cb:div type="other"><cb:mulu type="其他" level="1">上堂</cb:mulu><p xml:id="pJ32p0203c0401">上堂轉山河國土歸自<anchor xml:id="nkr_note_add_0203c0401" n="0203c0401"/><anchor xml:id="beg0203c0401" n="0203c0401"/>己<anchor xml:id="end0203c0401"/>則易轉自<anchor xml:id="nkr_note_add_0203c0402" n="0203c0402"/><anchor xml:id="beg0203c0402" n="0203c0402"/>己<anchor xml:id="end0203c0402"/>歸山河國土
 <lb ed="J" n="0203c05"/>則難拈了也父母未生前道將一句來。</p>
 <lb ed="J" n="0203c06"/><p xml:id="pJ32p0203c0601">雙林玉溪和尚至上堂天上無彌勒地下無彌勒千
 <lb ed="J" n="0203c07"/>門萬戶開輪槌只一擊下座。</p>
@@ -250,8 +255,8 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0203c29"/><p xml:id="pJ32p0203c2901">結夏上堂諸方今日結夏千巖今日結舌良久云是
 <lb ed="J" n="0203c30"/>同是別以手摑口云又成多說下座。</p>
 <pb ed="J" xml:id="J32.B273.0204a" n="0204a"/>
-<lb ed="J" n="0204a01"/><p xml:id="pJ32p0204a0101">示眾今朝初一上殿<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>畢喝囉怛那西方日出。</p>
-<lb ed="J" n="0204a02"/><p xml:id="pJ32p0204a0201"><anchor xml:id="beg_4" type="cb-app"/><space quantity="0"/><anchor xml:id="end_4"/>示眾即心即佛汝得吾皮非心非佛汝得吾肉
+<lb ed="J" n="0204a01"/><p xml:id="pJ32p0204a0101">示眾今朝初一上殿<anchor xml:id="nkr_note_add_0204a0101" n="0204a0101"/><anchor xml:id="beg0204a0101" n="0204a0101"/>已<anchor xml:id="end0204a0101"/>畢喝囉怛那西方日出。</p>
+<lb ed="J" n="0204a02"/><p xml:id="pJ32p0204a0201"><anchor xml:id="nkr_note_add_0204a0201" n="0204a0201"/><anchor xml:id="beg0204a0201" n="0204a0201"/><space quantity="0"/><anchor xml:id="end0204a0201"/>示眾即心即佛汝得吾皮非心非佛汝得吾肉
 <lb ed="J" n="0204a03"/>不是心不是佛不是物汝得吾骨得髓聻三段不<note place="inline">同收歸上計</note>。</p>
 <lb ed="J" n="0204a04"/><p xml:id="pJ32p0204a0401">上堂今朝三月五山鳥自啼花自吐泥<note place="inline">團土塊鮮翻身為甚諸</note>
 <lb ed="J" n="0204a05"/>人都不會良久云雪峰輥毬禾山打鼓。</p>
@@ -384,7 +389,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0205b08"/><p xml:id="pJ32p0205b0801">示眾舉世尊謂迦葉曰吾有正法眼藏分付與汝頌
 <lb ed="J" n="0205b09"/>曰世尊拈華迦葉微笑賣與買人不要不要。</p>
 <lb ed="J" n="0205b10"/><p xml:id="pJ32p0205b1001">示眾舉梵志詩云梵志身死去魂魄見閻老讀盡百
-<lb ed="J" n="0205b11"/>王書不免被捶拷風穴云一稱南無佛皆<anchor xml:id="beg_5" type="cb-app"/>已<anchor xml:id="end_5"/>成佛道
+<lb ed="J" n="0205b11"/>王書不免被捶拷風穴云一稱南無佛皆<anchor xml:id="nkr_note_add_0205b1101" n="0205b1101"/><anchor xml:id="beg0205b1101" n="0205b1101"/>已<anchor xml:id="end0205b1101"/>成佛道
 <lb ed="J" n="0205b12"/>師云只是現成話風穴用恰好。</p>
 <lb ed="J" n="0205b13"/><p xml:id="pJ32p0205b1301">示眾云佛祖巴鼻衲僧巴鼻討甚巴鼻咄一一向胸
 <lb ed="J" n="0205b14"/>襟中流出將來蓋天蓋地。</p>
@@ -443,24 +448,24 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0206a05"/><p xml:id="pJ32p0206a0501">示眾狂心不息雖天上亦不稱意便成佛亦是虛頭
 <lb ed="J" n="0206a06"/>狂心一息便是佛也不要做更說甚麼天堂地獄汝
 <lb ed="J" n="0206a07"/>諸人還息麼。</p>
-<lb ed="J" n="0206a08"/><p xml:id="pJ32p0206a0801">示眾舉石門聰和尚云十五日<anchor xml:id="beg_6" type="cb-app"/>已<anchor xml:id="end_6"/>前諸佛生十五日
-<lb ed="J" n="0206a09"/><anchor xml:id="beg_7" type="cb-app"/>已<anchor xml:id="end_7"/>後諸佛滅十五日<anchor xml:id="beg_8" type="cb-app"/>已<anchor xml:id="end_8"/>前你不得離我這裏我有鉤
-<lb ed="J" n="0206a10"/>鉤你十五日<anchor xml:id="beg_9" type="cb-app"/>已<anchor xml:id="end_9"/>後你不得住我這裏我有錐錐你且
+<lb ed="J" n="0206a08"/><p xml:id="pJ32p0206a0801">示眾舉石門聰和尚云十五日<anchor xml:id="nkr_note_add_0206a0801" n="0206a0801"/><anchor xml:id="beg0206a0801" n="0206a0801"/>已<anchor xml:id="end0206a0801"/>前諸佛生十五日
+<lb ed="J" n="0206a09"/><anchor xml:id="nkr_note_add_0206a0901" n="0206a0901"/><anchor xml:id="beg0206a0901" n="0206a0901"/>已<anchor xml:id="end0206a0901"/>後諸佛滅十五日<anchor xml:id="nkr_note_add_0206a0902" n="0206a0902"/><anchor xml:id="beg0206a0902" n="0206a0902"/>已<anchor xml:id="end0206a0902"/>前你不得離我這裏我有鉤
+<lb ed="J" n="0206a10"/>鉤你十五日<anchor xml:id="nkr_note_add_0206a1001" n="0206a1001"/><anchor xml:id="beg0206a1001" n="0206a1001"/>已<anchor xml:id="end0206a1001"/>後你不得住我這裏我有錐錐你且
 <lb ed="J" n="0206a11"/>道正當十五日用鉤即是用錐即是遂有頌云正當
 <lb ed="J" n="0206a12"/>十五日鉤錐一時息更擬問如何回頭日又出大慧
 <lb ed="J" n="0206a13"/>和尚云恢張三玄三要扶豎臨濟正宗須是恁麼人
-<lb ed="J" n="0206a14"/>始得雖然如是雲門則不然十五日<anchor xml:id="beg_a" type="cb-app"/>已<anchor xml:id="end_a"/>前諸佛本不
-<lb ed="J" n="0206a15"/>曾生十五日<anchor xml:id="beg_b" type="cb-app"/>已<anchor xml:id="end_b"/>後諸佛本不曾滅十五日<anchor xml:id="beg_c" type="cb-app"/>已<anchor xml:id="end_c"/>前你若
+<lb ed="J" n="0206a14"/>始得雖然如是雲門則不然十五日<anchor xml:id="nkr_note_add_0206a1401" n="0206a1401"/><anchor xml:id="beg0206a1401" n="0206a1401"/>已<anchor xml:id="end0206a1401"/>前諸佛本不
+<lb ed="J" n="0206a15"/>曾生十五日<anchor xml:id="nkr_note_add_0206a1501" n="0206a1501"/><anchor xml:id="beg0206a1501" n="0206a1501"/>已<anchor xml:id="end0206a1501"/>後諸佛本不曾滅十五日<anchor xml:id="nkr_note_add_0206a1502" n="0206a1502"/><anchor xml:id="beg0206a1502" n="0206a1502"/>已<anchor xml:id="end0206a1502"/>前你若
 <lb ed="J" n="0206a16"/>離我這裏我也不用鉤鉤你一任橫擔拄杖緊峭草
-<lb ed="J" n="0206a17"/>鞋十五日<anchor xml:id="beg_d" type="cb-app"/>已<anchor xml:id="end_d"/>後你若住我這裏我也不用錐錐你一
+<lb ed="J" n="0206a17"/>鞋十五日<anchor xml:id="nkr_note_add_0206a1701" n="0206a1701"/><anchor xml:id="beg0206a1701" n="0206a1701"/>已<anchor xml:id="end0206a1701"/>後你若住我這裏我也不用錐錐你一
 <lb ed="J" n="0206a18"/>任拗折拄杖高挂缽囊且道正當十五日合作麼生
 <lb ed="J" n="0206a19"/>乃云十五日前後鉤錐徒爾為今朝是十五正好用
 <lb ed="J" n="0206a20"/>鉤錐且作麼生用路逢死蛇莫打殺無底籃子盛將
 <lb ed="J" n="0206a21"/>歸師云二大老把手上高山爭奈傍觀者哂且道無
-<lb ed="J" n="0206a22"/>明有甚長處十五日<anchor xml:id="beg_e" type="cb-app"/>已<anchor xml:id="end_e"/>前諸佛生以不生生為生十
-<lb ed="J" n="0206a23"/>五日<anchor xml:id="beg_f" type="cb-app"/>已<anchor xml:id="end_f"/>後諸佛滅以不滅滅為滅十五日<anchor xml:id="beg_10" type="cb-app"/>已<anchor xml:id="end_10"/>前你若
+<lb ed="J" n="0206a22"/>明有甚長處十五日<anchor xml:id="nkr_note_add_0206a2201" n="0206a2201"/><anchor xml:id="beg0206a2201" n="0206a2201"/>已<anchor xml:id="end0206a2201"/>前諸佛生以不生生為生十
+<lb ed="J" n="0206a23"/>五日<anchor xml:id="nkr_note_add_0206a2301" n="0206a2301"/><anchor xml:id="beg0206a2301" n="0206a2301"/>已<anchor xml:id="end0206a2301"/>後諸佛滅以不滅滅為滅十五日<anchor xml:id="nkr_note_add_0206a2302" n="0206a2302"/><anchor xml:id="beg0206a2302" n="0206a2302"/>已<anchor xml:id="end0206a2302"/>前你若
 <lb ed="J" n="0206a24"/>住我這裡我卻用錐錐你直須屍橫萬里血濺梵天
-<lb ed="J" n="0206a25"/>十五日<anchor xml:id="beg_11" type="cb-app"/>已<anchor xml:id="end_11"/>後你若離我這裏我卻用鉤鉤你直須眉
+<lb ed="J" n="0206a25"/>十五日<anchor xml:id="nkr_note_add_0206a2501" n="0206a2501"/><anchor xml:id="beg0206a2501" n="0206a2501"/>已<anchor xml:id="end0206a2501"/>後你若離我這裏我卻用鉤鉤你直須眉
 <lb ed="J" n="0206a26"/>毛廝結鼻孔相拄所以道十五日前後鉤錐常在手
 <lb ed="J" n="0206a27"/>正當十五日大家要知有一任面南看北斗艸木叢
 <lb ed="J" n="0206a28"/>林師子吼。</p>
@@ -504,7 +509,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0206c04"/><p xml:id="pJ32p0206c0401">示眾舉文殊普賢起佛見法見世尊威神貶向二鐵
 <lb ed="J" n="0206c05"/>圍山師拈云大眾不起佛見法見還免得貶向鐵圍
 <lb ed="J" n="0206c06"/>山麼世尊也是憐兒不覺醜。</p>
-<lb ed="J" n="0206c07"/><p xml:id="pJ32p0206c0701">冬至上堂六陰<anchor xml:id="beg_12" type="cb-app"/>已<anchor xml:id="end_12"/>極一陽生佛道還同世道亨唯有
+<lb ed="J" n="0206c07"/><p xml:id="pJ32p0206c0701">冬至上堂六陰<anchor xml:id="nkr_note_add_0206c0701" n="0206c0701"/><anchor xml:id="beg0206c0701" n="0206c0701"/>已<anchor xml:id="end0206c0701"/>極一陽生佛道還同世道亨唯有
 <lb ed="J" n="0206c08"/>祖師門下客依前日午打三更。</p>
 <lb ed="J" n="0206c09"/><p xml:id="pJ32p0206c0901">示眾莊子能齊物千巖無物齊饑來喫麥粥衣垢洗
 <lb ed="J" n="0206c10"/>清溪。</p>
@@ -568,7 +573,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0207b06"/>衲僧鼻孔一時穿眼光爍破四天下復召大眾云是
 <lb ed="J" n="0207b07"/>甚麼。</p>
 <lb ed="J" n="0207b08"/><p xml:id="pJ32p0207b0801">示眾舉白雲端和尚云古人留下一言半句未透時
-<lb ed="J" n="0207b09"/>鐵壁相似一日覷透方知自<anchor xml:id="beg_13" type="cb-app"/>己<anchor xml:id="end_13"/>便作鐵壁如今作麼
+<lb ed="J" n="0207b09"/>鐵壁相似一日覷透方知自<anchor xml:id="nkr_note_add_0207b0901" n="0207b0901"/><anchor xml:id="beg0207b0901" n="0207b0901"/>己<anchor xml:id="end0207b0901"/>便作鐵壁如今作麼
 <lb ed="J" n="0207b10"/>生鐵壁鐵壁師喝一喝云用鐵壁作麼。</p>
 <lb ed="J" n="0207b11"/><p xml:id="pJ32p0207b1101">示眾舉舍利弗問須菩提夢中說六波羅蜜與覺時
 <lb ed="J" n="0207b12"/>同別須菩提云此義幽深吾不能說此會有彌勒大
@@ -577,7 +582,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0207b15"/>落有些些覿面相呈見也麼不是春山雲片片分明
 <lb ed="J" n="0207b16"/>秋雨後蕉芭箇是高峰老師翁天目山頭一生受用
 <lb ed="J" n="0207b17"/>不盡底虎跑寶舟貴首座以我在杭州居山囑與奉
-<lb ed="J" n="0207b18"/>持<anchor xml:id="beg_14" type="cb-app"/>已<anchor xml:id="end_14"/>三十年矣今日伏龍山中二三百兄弟莫有擔
+<lb ed="J" n="0207b18"/>持<anchor xml:id="nkr_note_add_0207b1801" n="0207b1801"/><anchor xml:id="beg0207b1801" n="0207b1801"/>已<anchor xml:id="end0207b1801"/>三十年矣今日伏龍山中二三百兄弟莫有擔
 <lb ed="J" n="0207b19"/>荷得底麼有則師子一滴乳無則且聽悟禪人請歸
 <lb ed="J" n="0207b20"/>高麗金剛山供養令合國人知待彌勒下生不妨兩
 <lb ed="J" n="0207b21"/>手分付所以道衣以表信可力爭耶阿難問迦葉云
@@ -607,22 +612,22 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0207c14"/><p xml:id="pJ32p0207c1401">曹居士請升座婺州信士曹仁卿同合宅貴眷就寺
 <lb ed="J" n="0207c15"/>設齋俵嚫請老僧升座說法老僧曰諾會麼盡大地
 <lb ed="J" n="0207c16"/>是箇老僧盡大地是箇法座更教老僧升甚麼座說
-<lb ed="J" n="0207c17"/>甚麼法記得五六年前行橋時<anchor xml:id="beg_15" type="cb-app"/>已<anchor xml:id="end_15"/>曾到宅叨齋受嚫
+<lb ed="J" n="0207c17"/>甚麼法記得五六年前行橋時<anchor xml:id="nkr_note_add_0207c1701" n="0207c1701"/><anchor xml:id="beg0207c1701" n="0207c1701"/>已<anchor xml:id="end0207c1701"/>曾到宅叨齋受嚫
 <lb ed="J" n="0207c18"/>今日山中三四百眾喫齋受嚫人人歡歡喜喜只者
 <lb ed="J" n="0207c19"/>歡歡喜喜增仁卿多少福田長仁卿多少壽量適來
-<lb ed="J" n="0207c20"/>長老<anchor xml:id="beg_16" type="cb-app"/>已<anchor xml:id="end_16"/>為仁卿向法座上舉揚老僧只喫齋受嚫便
+<lb ed="J" n="0207c20"/>長老<anchor xml:id="nkr_note_add_0207c2001" n="0207c2001"/><anchor xml:id="beg0207c2001" n="0207c2001"/>已<anchor xml:id="end0207c2001"/>為仁卿向法座上舉揚老僧只喫齋受嚫便
 <lb ed="J" n="0207c21"/>了不用為蛇畫足自然水到渠成豈不見五祖演和
 <lb ed="J" n="0207c22"/>尚云端坐受供養施主常安樂趙州云老僧在者裡
 <lb ed="J" n="0207c23"/>坐地更說什麼佛法無明有條攀條無條攀例忽有
 <lb ed="J" n="0207c24"/>箇漢出來道和尚你坐地分贓他日作箇什麼填還
 <lb ed="J" n="0207c25"/>施主去只向道不作牛兮定作驢因甚如此大丈夫
 <lb ed="J" n="0207c26"/>異類中行不是差事。</p>
-<lb ed="J" n="0207c27"/><p xml:id="pJ32p0207c2701">示眾汝諸人只是不肯信自<anchor xml:id="beg_17" type="cb-app"/>己<anchor xml:id="end_17"/>是佛所以向外馳求
+<lb ed="J" n="0207c27"/><p xml:id="pJ32p0207c2701">示眾汝諸人只是不肯信自<anchor xml:id="nkr_note_add_0207c2701" n="0207c2701"/><anchor xml:id="beg0207c2701" n="0207c2701"/>己<anchor xml:id="end0207c2701"/>是佛所以向外馳求
 <lb ed="J" n="0207c28"/>無箇放身命處如今聽我說法時中禮佛看經坐禪
 <lb ed="J" n="0207c29"/>持戒作福便是向外馳求也何況貪名逐利淫聲愛
 <lb ed="J" n="0207c30"/>色而不喚作向外馳求耶要得不向外馳求便請迴
 <pb ed="J" xml:id="J32.B273.0208a" n="0208a"/>
-<lb ed="J" n="0208a01"/>光一照和自<anchor xml:id="beg_18" type="cb-app"/>己<anchor xml:id="end_18"/>也無自<anchor xml:id="beg_19" type="cb-app"/>己<anchor xml:id="end_19"/>既無便無我無你無佛無
+<lb ed="J" n="0208a01"/>光一照和自<anchor xml:id="nkr_note_add_0208a0101" n="0208a0101"/><anchor xml:id="beg0208a0101" n="0208a0101"/>己<anchor xml:id="end0208a0101"/>也無自<anchor xml:id="nkr_note_add_0208a0102" n="0208a0102"/><anchor xml:id="beg0208a0102" n="0208a0102"/>己<anchor xml:id="end0208a0102"/>既無便無我無你無佛無
 <lb ed="J" n="0208a02"/>眾生無禪無戒無罪無福無名利無聲色無生無死
 <lb ed="J" n="0208a03"/>空勞勞地無一物為障為礙然後隨緣應用任運過
 <lb ed="J" n="0208a04"/>時天上人間無不自在臨濟云汝但歇得念念馳求
@@ -701,10 +706,10 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0208c15"/><p xml:id="pJ32p0208c1501">東陽陳君采至示眾舉白雲端因郭功父到云夜來
 <lb ed="J" n="0208c16"/>作得箇山偈說向大眾請舉似諸方非唯謝功父大
 <lb ed="J" n="0208c17"/>儒且要天下有鼻孔衲僧脫卻貼肉汗衫乃云上大
-<lb ed="J" n="0208c18"/>人丘乙<anchor xml:id="beg_1a" type="cb-app"/>己<anchor xml:id="end_1a"/>化三千七十士尒小生八九子佳作仁可
+<lb ed="J" n="0208c18"/>人丘乙<anchor xml:id="nkr_note_add_0208c1801" n="0208c1801"/><anchor xml:id="beg0208c1801" n="0208c1801"/>己<anchor xml:id="end0208c1801"/>化三千七十士尒小生八九子佳作仁可
 <lb ed="J" n="0208c19"/>知禮也師云白雲固是作家爐鞴功父亦是煆了精
 <lb ed="J" n="0208c20"/>金檢點將來也好與三十棒何故一箇不合將常住
-<lb ed="J" n="0208c21"/>物作私<anchor xml:id="beg_1b" type="cb-app"/>己<anchor xml:id="end_1b"/>人情一箇攻乎異端斯害也<anchor xml:id="beg_1c" type="cb-app"/>已<anchor xml:id="end_1c"/>要脫他天
+<lb ed="J" n="0208c21"/>物作私<anchor xml:id="nkr_note_add_0208c2101" n="0208c2101"/><anchor xml:id="beg0208c2101" n="0208c2101"/>己<anchor xml:id="end0208c2101"/>人情一箇攻乎異端斯害也<anchor xml:id="nkr_note_add_0208c2102" n="0208c2102"/><anchor xml:id="beg0208c2102" n="0208c2102"/>已<anchor xml:id="end0208c2102"/>要脫他天
 <lb ed="J" n="0208c22"/>下衲僧貼肉汗衫倒添了百二十斤黃金鎖甲如何
 <lb ed="J" n="0208c23"/>有箇洒洒落落時節無明茅庵之下君采大儒訪及
 <lb ed="J" n="0208c24"/>我也不統夜思量作箇山偈我也不擊鼓敘謝廣演
@@ -794,7 +799,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0209c15"/>糞掃堆頭生苕帚進云學人不會師云問取淨頭進
 <lb ed="J" n="0209c16"/>云大悲千手眼那箇是正眼師云點進云如何是最
 <lb ed="J" n="0209c17"/>初一句師云如是我聞進云此是第二句師云信受
-<lb ed="J" n="0209c18"/>奉行僧禮拜師乃云諸佛諸祖只是你諸人自<anchor xml:id="beg_1d" type="cb-app"/>己<anchor xml:id="end_1d"/>若
+<lb ed="J" n="0209c18"/>奉行僧禮拜師乃云諸佛諸祖只是你諸人自<anchor xml:id="nkr_note_add_0209c1801" n="0209c1801"/><anchor xml:id="beg0209c1801" n="0209c1801"/>己<anchor xml:id="end0209c1801"/>若
 <lb ed="J" n="0209c19"/>信得及無明縱有百千大棒也打不著有百千舌頭
 <lb ed="J" n="0209c20"/>也讚歎不及何故不見道第一句中薦得堪與佛祖
 <lb ed="J" n="0209c21"/>為師如或未然十二時中也須回光返照看不是心
@@ -820,7 +825,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0210a10"/>便下座。</p>
 <lb ed="J" n="0210a11"/><p xml:id="pJ32p0210a1101">示眾舉益州通禪師問夾山云目前無法意在目前
 <lb ed="J" n="0210a12"/>不是目前法非耳目之所到豈不是和尚語山云是
-<lb ed="J" n="0210a13"/>通乃掀到禪床<anchor xml:id="beg_1e" type="cb-app"/>叉<anchor xml:id="end_1e"/>手而立夾山打一棒師云山打一
+<lb ed="J" n="0210a13"/>通乃掀到禪床<anchor xml:id="nkr_note_add_0210a1301" n="0210a1301"/><anchor xml:id="beg0210a1301" n="0210a1301"/>叉<anchor xml:id="end0210a1301"/>手而立夾山打一棒師云山打一
 <lb ed="J" n="0210a14"/>棒是目前法不是目前法掀到禪床是會夾山意不
 <lb ed="J" n="0210a15"/>會夾山意諸禪德道道道得許你入阿字法門。</p>
 <lb ed="J" n="0210a16"/><p xml:id="pJ32p0210a1601">示眾舉巖頭渡婆子拋兒子公案師云這婆子自底
@@ -881,7 +886,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0210c09"/>是大神咒是大明咒是無上咒是無等等咒三世諸
 <lb ed="J" n="0210c10"/>佛說也說不到歷代祖師傳也傳不來唯是上上根
 <lb ed="J" n="0210c11"/>器頂<g ref="#CB00576">𩕳</g>上豁開正眼腳跟下一覷覷透盡十方世界
-<lb ed="J" n="0210c12"/>無有一人不是自<anchor xml:id="beg_1f" type="cb-app"/>己<anchor xml:id="end_1f"/>無有一物不在自<anchor xml:id="beg_20" type="cb-app"/>己<anchor xml:id="end_20"/>光明裏如
+<lb ed="J" n="0210c12"/>無有一人不是自<anchor xml:id="nkr_note_add_0210c1201" n="0210c1201"/><anchor xml:id="beg0210c1201" n="0210c1201"/>己<anchor xml:id="end0210c1201"/>無有一物不在自<anchor xml:id="nkr_note_add_0210c1202" n="0210c1202"/><anchor xml:id="beg0210c1202" n="0210c1202"/>己<anchor xml:id="end0210c1202"/>光明裏如
 <lb ed="J" n="0210c13"/>千日並照罄無側影若是尋光美影展轉沒交涉直
 <lb ed="J" n="0210c14"/>饒萬里不掛片雲青天也須喫棒教中道若以色見
 <lb ed="J" n="0210c15"/>我以音聲求我是人行邪道不能見如來復豎拂子
@@ -904,9 +909,9 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0211a01"/>如虛空普包虛空普包萬物而無能包之心此事能
 <lb ed="J" n="0211a02"/>包虛空亦無能包之相所以道空生大覺中如海一
 <lb ed="J" n="0211a03"/>漚發只要你諸人直下信得及覷得透便與釋迦老
-<lb ed="J" n="0211a04"/>子不別元來自<anchor xml:id="beg_21" type="cb-app"/>己<anchor xml:id="end_21"/>分上有這一段奇特大事可以超
+<lb ed="J" n="0211a04"/>子不別元來自<anchor xml:id="nkr_note_add_0211a0401" n="0211a0401"/><anchor xml:id="beg0211a0401" n="0211a0401"/>己<anchor xml:id="end0211a0401"/>分上有這一段奇特大事可以超
 <lb ed="J" n="0211a05"/>生越死可以超凡越聖可以超佛越祖臨濟云你一
-<lb ed="J" n="0211a06"/>念清淨光是你屋裏法身佛巖頭云一一從自<anchor xml:id="beg_22" type="cb-app"/>己<anchor xml:id="end_22"/>胸
+<lb ed="J" n="0211a06"/>念清淨光是你屋裏法身佛巖頭云一一從自<anchor xml:id="nkr_note_add_0211a0601" n="0211a0601"/><anchor xml:id="beg0211a0601" n="0211a0601"/>己<anchor xml:id="end0211a0601"/>胸
 <lb ed="J" n="0211a07"/>襟中流出蓋天蓋地去幻住和尚云父母未生前那
 <lb ed="J" n="0211a08"/>箇是本來面目你若見得本來面目自然生本不生
 <lb ed="J" n="0211a09"/>死本不死常于日用中轉不可測底機輪自然活轆
@@ -932,7 +937,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0211a29"/>容易舞三臺後來大慧和尚拈云一莖草上現瓊樓
 <lb ed="J" n="0211a30"/>玉殿決定可信瓊樓玉殿被一莖草蓋卻莫被他熱
 <pb ed="J" xml:id="J32.B273.0211b" n="0211b"/>
-<lb ed="J" n="0211b01"/>瞞徑山與麼道與<anchor xml:id="beg_23" type="cb-app"/>已<anchor xml:id="end_23"/>得一回汗出者說若未得一回
+<lb ed="J" n="0211b01"/>瞞徑山與麼道與<anchor xml:id="nkr_note_add_0211b0101" n="0211b0101"/><anchor xml:id="beg0211b0101" n="0211b0101"/>已<anchor xml:id="end0211b0101"/>得一回汗出者說若未得一回
 <lb ed="J" n="0211b02"/>汗出不得疑著夫謂善知識者是大因緣解粘去縛
 <lb ed="J" n="0211b03"/>蓋是尋常奪食驅耕還它敏手白雲張千鈞之弩豈
 <lb ed="J" n="0211b04"/>為鼷鼠發機大慧垂四海之鉤只要獰龍上釣且道
@@ -942,7 +947,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0211b08"/>於此地眾中莫有共相證據者麼<note place="inline">問答不錄</note>拈拄杖云大
 <lb ed="J" n="0211b09"/>眾見麼喝一喝云大眾聞麼聞聲悟道見色明心汝
 <lb ed="J" n="0211b10"/>諸人總見總聞作麼生是你明底心悟底道若識得
-<lb ed="J" n="0211b11"/>無明拄杖子便識得自<anchor xml:id="beg_24" type="cb-app"/>己<anchor xml:id="end_24"/>主人翁既識得自<anchor xml:id="beg_25" type="cb-app"/>己<anchor xml:id="end_25"/>主人
+<lb ed="J" n="0211b11"/>無明拄杖子便識得自<anchor xml:id="nkr_note_add_0211b1101" n="0211b1101"/><anchor xml:id="beg0211b1101" n="0211b1101"/>己<anchor xml:id="end0211b1101"/>主人翁既識得自<anchor xml:id="nkr_note_add_0211b1102" n="0211b1102"/><anchor xml:id="beg0211b1102" n="0211b1102"/>己<anchor xml:id="end0211b1102"/>主人
 <lb ed="J" n="0211b12"/>翁又喚甚麼作明底心悟底道良久顧視左右云但
 <lb ed="J" n="0211b13"/>以假名字引導一切人茲者承萬里山召予一眾午
 <lb ed="J" n="0211b14"/>齋令陞此座舉唱宗乘開發未悟汝諸人各各有一
@@ -957,7 +962,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0211b23"/><p xml:id="pJ32p0211b2301">檀越樓子賢薦母請對靈小參拈瓶中花云大眾見
 <lb ed="J" n="0211b24"/>麼會麼世尊拈起一枝花迦葉便乃微微而笑老僧
 <lb ed="J" n="0211b25"/>拈起一枝花眾中莫有微笑者麼<note place="inline">問答不錄</note>復云舉一不
-<lb ed="J" n="0211b26"/>得舉二放過一著落在第二世尊拈花迦葉微笑<anchor xml:id="beg_26" type="cb-app"/>已<anchor xml:id="end_26"/>
+<lb ed="J" n="0211b26"/>得舉二放過一著落在第二世尊拈花迦葉微笑<anchor xml:id="nkr_note_add_0211b2601" n="0211b2601"/><anchor xml:id="beg0211b2601" n="0211b2601"/>已<anchor xml:id="end0211b2601"/>
 <lb ed="J" n="0211b27"/>是第二頭第三首老僧與麼提唱大眾與麼儼臨且
 <lb ed="J" n="0211b28"/>道明得甚麼事不見道吾有正法眼藏涅槃玅心分
 <lb ed="J" n="0211b29"/>付于汝汝當流布無令斷絕只如今日故檀越老安
@@ -990,7 +995,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0211c25"/>祖云即心是佛其僧言下大悟便信自心是佛六根
 <lb ed="J" n="0211c26"/>門中塵塵是佛之光明萬法境上種種是佛之妙用
 <lb ed="J" n="0211c27"/>生本不生死本不死所以老僧道檀越老安人即今
-<lb ed="J" n="0211c28"/><anchor xml:id="beg_27" type="cb-app"/>已<anchor xml:id="end_27"/>成佛蔭庇諸兒孫倍增無量福畢竟以何為據復
+<lb ed="J" n="0211c28"/><anchor xml:id="nkr_note_add_0211c2801" n="0211c2801"/><anchor xml:id="beg0211c2801" n="0211c2801"/>已<anchor xml:id="end0211c2801"/>成佛蔭庇諸兒孫倍增無量福畢竟以何為據復
 <lb ed="J" n="0211c29"/>拈花云一花一國一如來無影枝頭葉葉開遍界光
 <lb ed="J" n="0211c30"/>明遮不得黃金地上玉樓臺下座。</p></cb:div>
 <pb ed="J" xml:id="J32.B273.0212a" n="0212a"/>
@@ -1012,7 +1017,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0212a16"/>以道普者不說說者不普僧問趙州狗子還有佛性
 <lb ed="J" n="0212a17"/>也無州云無只這一箇無字不是有無之無不是無
 <lb ed="J" n="0212a18"/>無之無不是亦有亦無之無不是非有非無之無如
-<lb ed="J" n="0212a19"/>今人根器薄劣隨語生解多執<anchor xml:id="beg_28" type="cb-app"/>己<anchor xml:id="end_28"/>見見有執有見無
+<lb ed="J" n="0212a19"/>今人根器薄劣隨語生解多執<anchor xml:id="nkr_note_add_0212a1901" n="0212a1901"/><anchor xml:id="beg0212a1901" n="0212a1901"/>己<anchor xml:id="end0212a1901"/>見見有執有見無
 <lb ed="J" n="0212a20"/>執無道有著有道無著無道亦有亦無著亦有亦無
 <lb ed="J" n="0212a21"/>道非有非無著非有非無西天九十六種外道有無
 <lb ed="J" n="0212a22"/>二見為其根本此方亦然先聖慈悲之故破你執拔
@@ -1027,12 +1032,12 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <pb ed="J" xml:id="J32.B273.0212b" n="0212b"/>
 <lb ed="J" n="0212b01"/>學人向露刃劍上著得隻眼便是千了百當五祖大
 <lb ed="J" n="0212b02"/>慧則是你則未是又有道如一座須彌山相似須彌
-<lb ed="J" n="0212b03"/>山生佛未具<anchor xml:id="beg_29" type="cb-app"/>已<anchor xml:id="end_29"/>前一著子也緊緊靠著不得放捨復
+<lb ed="J" n="0212b03"/>山生佛未具<anchor xml:id="nkr_note_add_0212b0301" n="0212b0301"/><anchor xml:id="beg0212b0301" n="0212b0301"/>已<anchor xml:id="end0212b0301"/>前一著子也緊緊靠著不得放捨復
 <lb ed="J" n="0212b04"/>引雪巖和尚云單單提一箇無字如靠一座須彌山
-<lb ed="J" n="0212b05"/>為證一座山又有箇人靠如何喚作生佛未具<anchor xml:id="beg_2a" type="cb-app"/>已<anchor xml:id="end_2a"/>前
+<lb ed="J" n="0212b05"/>為證一座山又有箇人靠如何喚作生佛未具<anchor xml:id="nkr_note_add_0212b0501" n="0212b0501"/><anchor xml:id="beg0212b0501" n="0212b0501"/>已<anchor xml:id="end0212b0501"/>前
 <lb ed="J" n="0212b06"/>一著子也又有教人閉眉合眼做死模樣將箇無字
 <lb ed="J" n="0212b07"/>頂在額上或放鼻尖上或頓面前或向赤肉團上上
-<lb ed="J" n="0212b08"/>度或向心意裏妄想<anchor xml:id="beg_2b" type="cb-app"/>摶<anchor xml:id="end_2b"/>量認得些子光影便為極則
+<lb ed="J" n="0212b08"/>度或向心意裏妄想<anchor xml:id="nkr_note_add_0212b0801" n="0212b0801"/><anchor xml:id="beg0212b0801" n="0212b0801"/>摶<anchor xml:id="end0212b0801"/>量認得些子光影便為極則
 <lb ed="J" n="0212b09"/>密室傳授遞相印證入邪見稠林作魔家眷屬又有
 <lb ed="J" n="0212b10"/>喻如鐵掃帚掃盡昏散朗如虛空此是應病與藥病
 <lb ed="J" n="0212b11"/>去藥存藥返為病如上所明各各自謂宗門中爪牙
@@ -1047,7 +1052,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0212b20"/>嚴谷不可隨世流布時節若至其理自彰二十年來
 <lb ed="J" n="0212b21"/>縛茅株守似箇死漢自救不了敢言為人山中百餘
 <lb ed="J" n="0212b22"/>人兄弟遠從千里萬里拋卻師長父母來此相聚誠
-<lb ed="J" n="0212b23"/>不易得年窮歲盡火冷灰寒廢寢忘飧不為別事<anchor xml:id="beg_2c" type="cb-app"/>已<anchor xml:id="end_2c"/>
+<lb ed="J" n="0212b23"/>不易得年窮歲盡火冷灰寒廢寢忘飧不為別事<anchor xml:id="nkr_note_add_0212b2301" n="0212b2301"/><anchor xml:id="beg0212b2301" n="0212b2301"/>已<anchor xml:id="end0212b2301"/>
 <lb ed="J" n="0212b24"/>透關者不在叮嚀未透關者切須子細出息不保入
 <lb ed="J" n="0212b25"/>息今朝不保來朝言鋒若差鄉關萬里死生事大各
 <lb ed="J" n="0212b26"/>自努力珍重。</p>
@@ -1087,11 +1092,11 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0212c29"/>則無有不分曉底時節所以道十方世界是箇老僧
 <lb ed="J" n="0212c30"/>盡十方世界是箇法座盡十方世界是箇院子盡十
 <pb ed="J" xml:id="J32.B273.0213a" n="0213a"/>
-<lb ed="J" n="0213a01"/>方世界是你諸人自<anchor xml:id="beg_2d" type="cb-app"/>己<anchor xml:id="end_2d"/>盡十方世界只是這一句子
+<lb ed="J" n="0213a01"/>方世界是你諸人自<anchor xml:id="nkr_note_add_0213a0101" n="0213a0101"/><anchor xml:id="beg0213a0101" n="0213a0101"/>己<anchor xml:id="end0213a0101"/>盡十方世界只是這一句子
 <lb ed="J" n="0213a02"/>這一句子明得無有不明底句子這一句子透得無
 <lb ed="J" n="0213a03"/>有不透底道理前故云須出格過量底人始得大眾
 <lb ed="J" n="0213a04"/>要識出格過量人麼舉起拂子云釋迦老子來也天
-<lb ed="J" n="0213a05"/>上天下唯吾獨尊作麼生說箇未出母胎度人<anchor xml:id="beg_2e" type="cb-app"/>已<anchor xml:id="end_2e"/>畢
+<lb ed="J" n="0213a05"/>上天下唯吾獨尊作麼生說箇未出母胎度人<anchor xml:id="nkr_note_add_0213a0501" n="0213a0501"/><anchor xml:id="beg0213a0501" n="0213a0501"/>已<anchor xml:id="end0213a0501"/>畢
 <lb ed="J" n="0213a06"/>底道理不是心不是佛不是物是箇甚麼末上謂迦
 <lb ed="J" n="0213a07"/>葉云吾有正法眼藏涅般妙心分付於汝汝當流布
 <lb ed="J" n="0213a08"/>無令斷絕不是心不是佛不是物是箇甚麼自是一
@@ -1099,7 +1104,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0213a10"/>別傳何物好樣不相學迦葉召阿難阿難應若自是
 <lb ed="J" n="0213a11"/>一條箸迦葉云倒卻門前剎竿著費力不少至于西
 <lb ed="J" n="0213a12"/>天四七東土二三遞相出興千變萬化只宗這一句
-<lb ed="J" n="0213a13"/>子只扶豎這一句子只顯示這一句子而<anchor xml:id="beg_2f" type="cb-app"/>已<anchor xml:id="end_2f"/>豈不見
+<lb ed="J" n="0213a13"/>子只扶豎這一句子只顯示這一句子而<anchor xml:id="nkr_note_add_0213a1301" n="0213a1301"/><anchor xml:id="beg0213a1301" n="0213a1301"/>已<anchor xml:id="end0213a1301"/>豈不見
 <lb ed="J" n="0213a14"/>南獄讓和尚得這一句子於六祖大師便云說似一
 <lb ed="J" n="0213a15"/>物則不中修證則不無染污則不可祖云只此不染
 <lb ed="J" n="0213a16"/>污是諸佛之護念汝既如是吾亦如是師云好箇東
@@ -1216,7 +1221,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0214b03"/>現成公案坐斷淆訛錯下註腳槌折你腰撩起便行
 <lb ed="J" n="0214b04"/>必死之疾要須英俊別有生涯忽遇衝雲俊鶻來時
 <lb ed="J" n="0214b05"/>如何漫天網子百千重師云驅耕奪食手段羅龍打
-<lb ed="J" n="0214b06"/>鳳門庭漫天網子百千重這老兒<anchor xml:id="beg_30" type="cb-app"/>已<anchor xml:id="end_30"/>是通身泥水衝
+<lb ed="J" n="0214b06"/>鳳門庭漫天網子百千重這老兒<anchor xml:id="nkr_note_add_0214b0601" n="0214b0601"/><anchor xml:id="beg0214b0601" n="0214b0601"/>已<anchor xml:id="end0214b0601"/>是通身泥水衝
 <lb ed="J" n="0214b07"/>雲俊鶻走向甚處去也不消一拶去死十分密庵和
 <lb ed="J" n="0214b08"/>尚得這一句子於應庵應庵室中問云如何是正法
 <lb ed="J" n="0214b09"/>眼密云破沙盆師云僧問雲門如何是正法眼門云
@@ -1246,7 +1251,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0214c02"/>開口未動念文彩全彰五音迭奏直得觸目無滯達
 <lb ed="J" n="0214c03"/>得名身句子一切法空山河大地是身身亦不可得
 <lb ed="J" n="0214c04"/>喚作三昧性海俱備猶是無風匝匝之波更須知有
-<lb ed="J" n="0214c05"/>向上一竅又寄竹篦與高峰老祖偈云上大今<anchor xml:id="beg_31" type="cb-app"/>已<anchor xml:id="end_31"/>無
+<lb ed="J" n="0214c05"/>向上一竅又寄竹篦與高峰老祖偈云上大今<anchor xml:id="nkr_note_add_0214c0501" n="0214c0501"/><anchor xml:id="beg0214c0501" n="0214c0501"/>已<anchor xml:id="end0214c0501"/>無
 <lb ed="J" n="0214c06"/>人雪巖可知禮也一條黑漆竹篦分付原妙侍者師
 <lb ed="J" n="0214c07"/>云分付莫錯麼錯則不名仰山不錯則天目山在萬
 <lb ed="J" n="0214c08"/>山之頂高峰老祖得這一句子於仰山嘗云不識巖
@@ -1307,7 +1312,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0215b01"/><cb:div type="other"><cb:mulu type="其他" level="1">法語</cb:mulu><head>法語</head>
 <lb ed="J" n="0215b02"/><cb:div type="other"><cb:mulu type="其他" level="2">示瑛禪人</cb:mulu><head>示瑛禪人</head>
 <lb ed="J" n="0215b03"/><p xml:id="pJ32p0215b0301">參禪人做工夫無別事只要知箇本命元辰下落處
-<lb ed="J" n="0215b04"/>知得自<anchor xml:id="beg_32" type="cb-app"/>己<anchor xml:id="end_32"/>辨得他人山河大地世出世間一一盡知
+<lb ed="J" n="0215b04"/>知得自<anchor xml:id="nkr_note_add_0215b0401" n="0215b0401"/><anchor xml:id="beg0215b0401" n="0215b0401"/>己<anchor xml:id="end0215b0401"/>辨得他人山河大地世出世間一一盡知
 <lb ed="J" n="0215b05"/>下落瞞你一星子不得喚作智眼洞明心行處滅然
 <lb ed="J" n="0215b06"/>後回身轉步建大法幢現出三頭六臂七縱八橫拈
 <lb ed="J" n="0215b07"/>一莖草作丈六金身拈丈六金身作一莖草用殺得
@@ -1324,7 +1329,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0215b18"/>中暗時明相何曾滅看他蟾桂影婆娑直透碧潭光
 <lb ed="J" n="0215b19"/>皎潔正好供養與修行不出如今底時節濠州滿月
 <lb ed="J" n="0215b20"/>上人信有我宗見性成佛之旨春間到茅庵請益參
-<lb ed="J" n="0215b21"/>箇話頭決要今生悟得自<anchor xml:id="beg_33" type="cb-app"/>己<anchor xml:id="end_33"/>分上灼然有這一段了
+<lb ed="J" n="0215b21"/>箇話頭決要今生悟得自<anchor xml:id="nkr_note_add_0215b2101" n="0215b2101"/><anchor xml:id="beg0215b2101" n="0215b2101"/>己<anchor xml:id="end0215b2101"/>分上灼然有這一段了
 <lb ed="J" n="0215b22"/>生達死底大事因緣老僧向他道我底說話恰如一
 <lb ed="J" n="0215b23"/>箇指頭子相似為你要見天上月所以指箇水中月
 <lb ed="J" n="0215b24"/>影子示汝頭上自有箇真月也釋迦老子也與麼道
@@ -1344,9 +1349,9 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0215c07"/>道焚舟西登海岸首禮請徑山諸大老復探水於伏
 <lb ed="J" n="0215c08"/>龍山頂兩呈偈語且有自遠趨風之辭予不之答又
 <lb ed="J" n="0215c09"/>乞一言而為洞徹向上的的相承底一段大事不得
-<lb ed="J" n="0215c10"/><anchor xml:id="beg_34" type="cb-app"/>已<anchor xml:id="end_34"/>而謂之曰汝還知大唐國裏無禪師麼汝師為天
+<lb ed="J" n="0215c10"/><anchor xml:id="nkr_note_add_0215c1001" n="0215c1001"/><anchor xml:id="beg0215c1001" n="0215c1001"/>已<anchor xml:id="end0215c1001"/>而謂之曰汝還知大唐國裏無禪師麼汝師為天
 <lb ed="J" n="0215c11"/>下之師何謂無師汝師傳我佛我祖不傳之道何謂
-<lb ed="J" n="0215c12"/>無道決欲盡師之道求之於人不若求之於<anchor xml:id="beg_35" type="cb-app"/>己<anchor xml:id="end_35"/>直下
+<lb ed="J" n="0215c12"/>無道決欲盡師之道求之於人不若求之於<anchor xml:id="nkr_note_add_0215c1201" n="0215c1201"/><anchor xml:id="beg0215c1201" n="0215c1201"/>己<anchor xml:id="end0215c1201"/>直下
 <lb ed="J" n="0215c13"/>休去歇去一念萬年千萬里無寸草處去古廟裏香
 <lb ed="J" n="0215c14"/>爐去到大歇大休田地返觀從前學得底記得底說
 <lb ed="J" n="0215c15"/>得底做得底總是聰明知解人我業識生死根本到
@@ -1398,7 +1403,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0216a30"/>訪一別十餘箇月日每每寄果物來老僧深喜之不
 <pb ed="J" xml:id="J32.B273.0216b" n="0216b"/>
 <lb ed="J" n="0216b01"/>是喜他遠寄物來然喜怒人之常情只如父母未生
-<lb ed="J" n="0216b02"/>以前身<anchor xml:id="beg_36" type="cb-app"/>已<anchor xml:id="end_36"/>尚無喜怒從甚處安著你若道即今底便
+<lb ed="J" n="0216b02"/>以前身<anchor xml:id="nkr_note_add_0216b0201" n="0216b0201"/><anchor xml:id="beg0216b0201" n="0216b0201"/>已<anchor xml:id="end0216b0201"/>尚無喜怒從甚處安著你若道即今底便
 <lb ed="J" n="0216b03"/>是未生前底未生前底便是死了燒了底正是顢頇
 <lb ed="J" n="0216b04"/>佛性儱侗真如直須劍刃上翻身缽盂中走馬始得
 <lb ed="J" n="0216b05"/>不見古人道懸崖撒手自肯承當絕後再甦欺君不
@@ -1413,14 +1418,14 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0216b14"/>水耳裏聞聲聲生聲滅於耳有干涉無若云有干涉
 <lb ed="J" n="0216b15"/>則墮戲論若云無干涉則墮相違直須離四句絕百
 <lb ed="J" n="0216b16"/>非入得一切透得一切猶是教乘邊事未是衲僧本
-<lb ed="J" n="0216b17"/>分事莫聲是佛聲色是佛色是麼莫未上船時<anchor xml:id="beg_37" type="cb-app"/>已<anchor xml:id="end_37"/>喫
+<lb ed="J" n="0216b17"/>分事莫聲是佛聲色是佛色是麼莫未上船時<anchor xml:id="nkr_note_add_0216b1701" n="0216b1701"/><anchor xml:id="beg0216b1701" n="0216b1701"/>已<anchor xml:id="end0216b1701"/>喫
 <lb ed="J" n="0216b18"/>三十棒是麼若恁麼商量要見無明且居門外總不
 <lb ed="J" n="0216b19"/>與麼畢竟如何有跟如盲有口如啞日本悟侍者謂
 <lb ed="J" n="0216b20"/>鄉音不辨特此乞形紙墨以疏其意不審侍者是悟
 <lb ed="J" n="0216b21"/>了問悟前問不前不後問老僧答汝了也併卻咽喉
 <lb ed="J" n="0216b22"/>唇吻致將一問來。</p></cb:div>
 <lb ed="J" n="0216b23"/><cb:div type="other"><cb:mulu type="其他" level="2">示懋禪人</cb:mulu><head>示懋禪人</head>
-<lb ed="J" n="0216b24"/><p xml:id="pJ32p0216b2401">諸佛出世祖師西來不過與人做箇證明底而<anchor xml:id="beg_38" type="cb-app"/>已<anchor xml:id="end_38"/>且
+<lb ed="J" n="0216b24"/><p xml:id="pJ32p0216b2401">諸佛出世祖師西來不過與人做箇證明底而<anchor xml:id="nkr_note_add_0216b2401" n="0216b2401"/><anchor xml:id="beg0216b2401" n="0216b2401"/>已<anchor xml:id="end0216b2401"/>且
 <lb ed="J" n="0216b25"/>證明箇甚麼懋禪人今夏道聚山中秋歸受業方回
 <lb ed="J" n="0216b26"/>乃出紙覓長語警策做工夫要透脫生死此事你須
 <lb ed="J" n="0216b27"/>自下手腳直做到直截不疑之地方能透得生死方
@@ -1487,7 +1492,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0217a26"/>滅相現前之時亦不起現前之見正與麼時一法萬
 <lb ed="J" n="0217a27"/>法瞞你不得豈不是塵俗中自證自悟底大丈夫也。</p></cb:div>
 <lb ed="J" n="0217a28"/><cb:div type="other"><cb:mulu type="其他" level="2">示張德亨</cb:mulu><head>示張德亨</head>
-<lb ed="J" n="0217a29"/><p xml:id="pJ32p0217a2901">為了自<anchor xml:id="beg_39" type="cb-app"/>己<anchor xml:id="end_39"/>一件公案山僧權作書吏搭箇檢目穿箇
+<lb ed="J" n="0217a29"/><p xml:id="pJ32p0217a2901">為了自<anchor xml:id="nkr_note_add_0217a2901" n="0217a2901"/><anchor xml:id="beg0217a2901" n="0217a2901"/>己<anchor xml:id="end0217a2901"/>一件公案山僧權作書吏搭箇檢目穿箇
 <lb ed="J" n="0217a30"/>長詞未要呈廳上底先請通父押過通父你還押得
 <pb ed="J" xml:id="J32.B273.0217b" n="0217b"/>
 <lb ed="J" n="0217b01"/>麼且作如何舉筆且作如何下手且道是真是偽是
@@ -1506,7 +1511,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0217b14"/>圭諸侯手中曰笏宗師手中喚作甚麼喚作岡中玉
 <lb ed="J" n="0217b15"/>雖得一場榮刖卻一雙足不喚作岡中玉鐵作面皮
 <lb ed="J" n="0217b16"/>金作骨眉毛落盡不留莖鼻孔依前高突兀華嚴教
-<lb ed="J" n="0217b17"/>寺玉岡講主與無明雖未識面<anchor xml:id="beg_3a" type="cb-app"/>已<anchor xml:id="end_3a"/>嘗於贈宋雪山偈
+<lb ed="J" n="0217b17"/>寺玉岡講主與無明雖未識面<anchor xml:id="nkr_note_add_0217b1701" n="0217b1701"/><anchor xml:id="beg0217b1701" n="0217b1701"/>已<anchor xml:id="end0217b1701"/>嘗於贈宋雪山偈
 <lb ed="J" n="0217b18"/>中得其蘊矣知其是箇中人若不是箇中人如何肯
 <lb ed="J" n="0217b19"/>信無明遠遠寄香及此紙乞疏教外別傳之旨然而
 <lb ed="J" n="0217b20"/>教外無禪禪外無教非離言教而別有所傳謂迥異
@@ -1525,7 +1530,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0217c02"/><cb:div type="other"><cb:mulu type="其他" level="2">示周禪人</cb:mulu><head>示周禪人</head>
 <lb ed="J" n="0217c03"/><p xml:id="pJ32p0217c0301">古來行腳高士動經千里萬里涉艱履險不懼危亡
 <lb ed="J" n="0217c04"/>得失遇真正宗匠才放包至于出一叢林入一保社
-<lb ed="J" n="0217c05"/>必欲洞明<anchor xml:id="beg_3b" type="cb-app"/>己<anchor xml:id="end_3b"/>躬下一著子徹頭徹底無絲毫過患無
+<lb ed="J" n="0217c05"/>必欲洞明<anchor xml:id="nkr_note_add_0217c0501" n="0217c0501"/><anchor xml:id="beg0217c0501" n="0217c0501"/>己<anchor xml:id="end0217c0501"/>躬下一著子徹頭徹底無絲毫過患無
 <lb ed="J" n="0217c06"/>絲毫走作然後一一決擇明白要且不在明白處坐
 <lb ed="J" n="0217c07"/>地拈出來得人憎得人怕見他眼目定動底便與一
 <lb ed="J" n="0217c08"/>拶倘不識痛癢復示一言半句兩眼對兩眼底不可
@@ -1586,7 +1591,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0218b01"/>話參取去且作如何參狗子還有佛性也無一切眾
 <lb ed="J" n="0218b02"/>生皆有佛性趙州因甚道無你若捉得趙州敗從上
 <lb ed="J" n="0218b03"/>諸佛諸祖天下老和尚總被你一時捉敗趙州是唐
-<lb ed="J" n="0218b04"/>時人過去<anchor xml:id="beg_3c" type="cb-app"/>已<anchor xml:id="end_3c"/>許多年他底面孔是長是短你還識他
+<lb ed="J" n="0218b04"/>時人過去<anchor xml:id="nkr_note_add_0218b0401" n="0218b0401"/><anchor xml:id="beg0218b0401" n="0218b0401"/>已<anchor xml:id="end0218b0401"/>許多年他底面孔是長是短你還識他
 <lb ed="J" n="0218b05"/>麼端的要捉敗他如捉賊相似須知他在甚麼處安
 <lb ed="J" n="0218b06"/>歇然後下手腳贓賊分明不勘自敗若不見他面孔
 <lb ed="J" n="0218b07"/>返被他攪妙不得靜辦這一場公案如何結斷任你
@@ -1635,7 +1640,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0218c19"/>如今作麼生你但無事於心無心於事自然虛而靈
 <lb ed="J" n="0218c20"/>寂而妙若有毫髮許本末言之者皆為自欺隨緣著
 <lb ed="J" n="0218c21"/>衣喫飯任運快樂無憂不與凡聖同纏超然名之曰
-<lb ed="J" n="0218c22"/>祖如上說底即非密也密在汝邊<anchor xml:id="beg_3d" type="cb-app"/>已<anchor xml:id="end_3d"/>是說了無明門
+<lb ed="J" n="0218c22"/>祖如上說底即非密也密在汝邊<anchor xml:id="nkr_note_add_0218c2201" n="0218c2201"/><anchor xml:id="beg0218c2201" n="0218c2201"/>已<anchor xml:id="end0218c2201"/>是說了無明門
 <lb ed="J" n="0218c23"/>下須喫棒始得何故大事為你不得小事自家支當。</p></cb:div>
 <lb ed="J" n="0218c24"/><cb:div type="other"><cb:mulu type="其他" level="2">示達兒嘛失唎大師</cb:mulu><head>示達兒嘛失唎大師</head>
 <lb ed="J" n="0218c25"/><p xml:id="pJ32p0218c2501">達兒嘛失唎乞予語警策予曰時熱寫便手汙說便
@@ -1650,7 +1655,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0219a03"/>只是顯密不二顯中顯密中密何如將箇五香五藥
 <lb ed="J" n="0219a04"/>五身五智五佛而能匹配只如經中所謂酒肉精血
 <lb ed="J" n="0219a05"/>便利不淨之物作法食噉種種受用只是要你轉自
-<lb ed="J" n="0219a06"/><anchor xml:id="beg_3e" type="cb-app"/>己<anchor xml:id="end_3e"/>底智身佛降伏諸魔與夫邪神惡鬼滅盡許多貪
+<lb ed="J" n="0219a06"/><anchor xml:id="nkr_note_add_0219a0601" n="0219a0601"/><anchor xml:id="beg0219a0601" n="0219a0601"/>己<anchor xml:id="end0219a0601"/>底智身佛降伏諸魔與夫邪神惡鬼滅盡許多貪
 <lb ed="J" n="0219a07"/>嗔癡業識住於禪定不壞假名而談實相不壞世間
 <lb ed="J" n="0219a08"/>法而成出世間法耳若是祖師門下何曾夢見你決
 <lb ed="J" n="0219a09"/>要作吾家種草佛來祖來盡與斬為三段自餘是甚
@@ -1671,10 +1676,10 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0219a24"/>酒麵店俵湯果錢沽名網利昧卻出家本志造生死
 <lb ed="J" n="0219a25"/>業作邪魔魍魎見解而自甘虛喪者也然效古尚恐
 <lb ed="J" n="0219a26"/>法執未忘我見猶存墮在法身邊不能明大法具大
-<lb ed="J" n="0219a27"/>眼目興大悲智廓大機用開大爐鞴運大鉗鎚<anchor xml:id="beg_3f" type="cb-app"/>鍛<anchor xml:id="end_3f"/>聖
+<lb ed="J" n="0219a27"/>眼目興大悲智廓大機用開大爐鞴運大鉗鎚<anchor xml:id="nkr_note_add_0219a2701" n="0219a2701"/><anchor xml:id="beg0219a2701" n="0219a2701"/>鍛<anchor xml:id="end0219a2701"/>聖
 <lb ed="J" n="0219a28"/>鎔凡烹佛煉祖而為德山臨濟的子親孫況墮今時
 <lb ed="J" n="0219a29"/>者耶豈不見阿難侍佛二十年築一肚皮殘羹餿飯
-<lb ed="J" n="0219a30"/>打箇噴<anchor xml:id="beg_40" type="cb-app"/>嚏<anchor xml:id="end_40"/>聞者謂為青蓮花香見者謂為日月朗耀
+<lb ed="J" n="0219a30"/>打箇噴<anchor xml:id="nkr_note_add_0219a3001" n="0219a3001"/><anchor xml:id="beg0219a3001" n="0219a3001"/>嚏<anchor xml:id="end0219a3001"/>聞者謂為青蓮花香見者謂為日月朗耀
 <pb ed="J" xml:id="J32.B273.0219b" n="0219b"/>
 <lb ed="J" n="0219b01"/>及乎結集之時被大眾擯在門外若不入靜三昧四
 <lb ed="J" n="0219b02"/>稜塌地一回如何放得電光唱如是我聞為佛真子
@@ -1720,7 +1725,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0219c11"/>從祖佛相傳不可傳不可授不可說底意旨矣只如
 <lb ed="J" n="0219c12"/>你全身放得下麼一箇臭皮袋子饑時要粥飯吃不
 <lb ed="J" n="0219c13"/>吃則肚饑過不得如何全身放下一法如是萬法亦
-<lb ed="J" n="0219c14"/>然自<anchor xml:id="beg_41" type="cb-app"/>己<anchor xml:id="end_41"/>如是眾人亦然佛祖聖賢如是凡夫亦然一
+<lb ed="J" n="0219c14"/>然自<anchor xml:id="nkr_note_add_0219c1401" n="0219c1401"/><anchor xml:id="beg0219c1401" n="0219c1401"/>己<anchor xml:id="end0219c1401"/>如是眾人亦然佛祖聖賢如是凡夫亦然一
 <lb ed="J" n="0219c15"/>切眾生亦然正放下時身在甚麼處放不下時你在
 <lb ed="J" n="0219c16"/>甚麼處放得下不曾放下放不下何用放下人境俱
 <lb ed="J" n="0219c17"/>空凡聖俱泯又何處現釋迦老子與石屋和尚又向
@@ -1734,9 +1739,9 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0219c25"/>為頭首以字不成八字不是適來對眾喝我一喝三
 <lb ed="J" n="0219c26"/>十年後有人勘你在。</p></cb:div>
 <lb ed="J" n="0219c27"/><cb:div type="other"><cb:mulu type="其他" level="2">示樓子賢</cb:mulu><head>示樓子賢</head>
-<lb ed="J" n="0219c28"/><p xml:id="pJ32p0219c2801">吾祖師西來別無妙訣單單只指出你自<anchor xml:id="beg_42" type="cb-app"/>己<anchor xml:id="end_42"/>一片現
+<lb ed="J" n="0219c28"/><p xml:id="pJ32p0219c2801">吾祖師西來別無妙訣單單只指出你自<anchor xml:id="nkr_note_add_0219c2801" n="0219c2801"/><anchor xml:id="beg0219c2801" n="0219c2801"/>己<anchor xml:id="end0219c2801"/>一片現
 <lb ed="J" n="0219c29"/>成田地是成佛之本出生無限妙法所以道百千法
-<lb ed="J" n="0219c30"/>門同歸方寸河沙妙德總在心源直下會得<anchor xml:id="beg_43" type="cb-app"/>已<anchor xml:id="end_43"/>涉支
+<lb ed="J" n="0219c30"/>門同歸方寸河沙妙德總在心源直下會得<anchor xml:id="nkr_note_add_0219c3001" n="0219c3001"/><anchor xml:id="beg0219c3001" n="0219c3001"/>已<anchor xml:id="end0219c3001"/>涉支
 <pb ed="J" xml:id="J32.B273.0220a" n="0220a"/>
 <lb ed="J" n="0220a01"/>離更擬如何若何轉求轉遠子賢汝為吾清翁長子
 <lb ed="J" n="0220a02"/>修身正心齊家治世之法活轆轆地十二時中未曾
@@ -1747,12 +1752,12 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0220a07"/>斷葛藤。</p></cb:div>
 <lb ed="J" n="0220a08"/><cb:div type="other"><cb:mulu type="其他" level="2">示馬道常</cb:mulu><head>示馬道常</head>
 <lb ed="J" n="0220a09"/><p xml:id="pJ32p0220a0901">二十餘年住伏龍一茅庵對兩三峰近來老病唯貪
-<lb ed="J" n="0220a10"/>睡覺起東方日<anchor xml:id="beg_44" type="cb-app"/>已<anchor xml:id="end_44"/>紅東陽馬道常我家裏事你不可
+<lb ed="J" n="0220a10"/>睡覺起東方日<anchor xml:id="nkr_note_add_0220a1001" n="0220a1001"/><anchor xml:id="beg0220a1001" n="0220a1001"/>已<anchor xml:id="end0220a1001"/>紅東陽馬道常我家裏事你不可
 <lb ed="J" n="0220a11"/>攙行奪市昔老龐參石頭悟得日用事無別後參馬
 <lb ed="J" n="0220a12"/>大師悟得不興萬法為侶將百萬家私沉於水裏情
 <lb ed="J" n="0220a13"/>願賣笊籬於市而給口體共子女說無巴鼻話眼空
 <lb ed="J" n="0220a14"/>天下諸大老罵盡許多蚊虻蠓蠁雖天龍香象亦皆
-<lb ed="J" n="0220a15"/><anchor xml:id="beg_45" type="cb-app"/>斂<anchor xml:id="end_45"/>衽嘗云吾非賢聖了事凡夫真俗流中是箇成佛
+<lb ed="J" n="0220a15"/><anchor xml:id="nkr_note_add_0220a1501" n="0220a1501"/><anchor xml:id="beg0220a1501" n="0220a1501"/>斂<anchor xml:id="end0220a1501"/>衽嘗云吾非賢聖了事凡夫真俗流中是箇成佛
 <lb ed="J" n="0220a16"/>作祖底漢恐你學他不得若學得豈不偉歟。</p></cb:div></cb:div>
 <lb ed="J" n="0220a17"/>
 <lb ed="J" n="0220a18"/>
@@ -1775,7 +1780,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0220b04"/>貴圖天下太平頌曰。</p></cb:div>
 <lb ed="J" n="0220b05"/><cb:div type="commentary"><p xml:id="pJ32p0220b0501">結得冤讎報得恩高提鐵棒打雲門二千二百餘年
 <lb ed="J" n="0220b06"/>後不謂如今有子孫。</p></cb:div>
-<lb ed="J" n="0220b07"/><cb:div type="orig"><p xml:id="pJ32p0220b0701" rend="margin-left:1em">世尊未離兜率<anchor xml:id="beg_46" type="cb-app"/>已<anchor xml:id="end_46"/>降王宮未出母胎度人<anchor xml:id="beg_47" type="cb-app"/>已<anchor xml:id="end_47"/>畢。</p></cb:div>
+<lb ed="J" n="0220b07"/><cb:div type="orig"><p xml:id="pJ32p0220b0701" rend="margin-left:1em">世尊未離兜率<anchor xml:id="nkr_note_add_0220b0701" n="0220b0701"/><anchor xml:id="beg0220b0701" n="0220b0701"/>已<anchor xml:id="end0220b0701"/>降王宮未出母胎度人<anchor xml:id="nkr_note_add_0220b0702" n="0220b0702"/><anchor xml:id="beg0220b0702" n="0220b0702"/>已<anchor xml:id="end0220b0702"/>畢。</p></cb:div>
 <lb ed="J" n="0220b08"/><cb:div type="commentary"><p xml:id="pJ32p0220b0801">日出天歡喜雲生地起愁如何人不老得似水長流。</p></cb:div>
 <lb ed="J" n="0220b09"/><cb:div type="orig"><p xml:id="pJ32p0220b0901" rend="margin-left:1em">世尊拈花迦葉微笑。</p></cb:div>
 <lb ed="J" n="0220b10"/><cb:div type="commentary"><p xml:id="pJ32p0220b1001">命根欲斷氣未斷正是臨行撒手時家活不須分付
@@ -1783,7 +1788,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0220b12"/><cb:div type="orig"><p xml:id="pJ32p0220b1201" rend="margin-left:1em">維摩詰問文殊師利何等是菩薩入不二法門文
 <lb ed="J" n="0220b13"/>殊師利曰如我意者於一切法無言無說無示無
 <lb ed="J" n="0220b14"/>識離諸問答是為入不二法門於是文殊師利問
-<lb ed="J" n="0220b15"/>維摩詰我等各自說<anchor xml:id="beg_48" type="cb-app"/>已<anchor xml:id="end_48"/>仁者當說何等入不二法
+<lb ed="J" n="0220b15"/>維摩詰我等各自說<anchor xml:id="nkr_note_add_0220b1501" n="0220b1501"/><anchor xml:id="beg0220b1501" n="0220b1501"/>已<anchor xml:id="end0220b1501"/>仁者當說何等入不二法
 <lb ed="J" n="0220b16"/>門。</p></cb:div>
 <lb ed="J" n="0220b17"/><cb:div type="commentary"><p xml:id="pJ32p0220b1701">鐵笛橫吹宇宙清蝦蟆蚯蚓解翻身相知不在千盃
 <lb ed="J" n="0220b18"/>酒一盞清茶也醉人。</p></cb:div>
@@ -1792,7 +1797,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0220b21"/><cb:div type="orig"><p xml:id="pJ32p0220b2101" rend="margin-left:1em">達磨見武帝。</p></cb:div>
 <lb ed="J" n="0220b22"/><cb:div type="commentary"><p xml:id="pJ32p0220b2201">出門便遇打頭風不許灘邊泊短蓬何似海天空闊
 <lb ed="J" n="0220b23"/>處一絲牽動碧潭龍。</p></cb:div>
-<lb ed="J" n="0220b24"/><cb:div type="orig"><p xml:id="pJ32p0220b2401" rend="margin-left:1em">馬祖三十年不曾少<anchor xml:id="beg_49" type="cb-app"/>鹽<anchor xml:id="end_49"/>醬。</p></cb:div>
+<lb ed="J" n="0220b24"/><cb:div type="orig"><p xml:id="pJ32p0220b2401" rend="margin-left:1em">馬祖三十年不曾少<anchor xml:id="nkr_note_add_0220b2401" n="0220b2401"/><anchor xml:id="beg0220b2401" n="0220b2401"/>鹽<anchor xml:id="end0220b2401"/>醬。</p></cb:div>
 <lb ed="J" n="0220b25"/><cb:div type="commentary"><p xml:id="pJ32p0220b2501">老牛舐犢馬駒踏人寰中天子塞外將軍。</p></cb:div>
 <lb ed="J" n="0220b26"/><cb:div type="orig"><p xml:id="pJ32p0220b2601" rend="margin-left:1em">馬祖日面佛月面佛。</p></cb:div>
 <lb ed="J" n="0220b27"/><cb:div type="commentary"><p xml:id="pJ32p0220b2701">明來暗去太無端煉得通紅鐵一團百億須彌頭上
@@ -1825,7 +1830,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0220c23"/>具威儀再入相見才跨方丈便提起坐具云和尚
 <lb ed="J" n="0220c24"/>溈山擬取拂子德山便喝拂袖而出溈山至晚問
 <lb ed="J" n="0220c25"/>首座今日新到在不首座云當時背卻法堂著草
-<lb ed="J" n="0220c26"/>鞋出去了也溈山云此子<anchor xml:id="beg_4a" type="cb-app"/>已<anchor xml:id="end_4a"/>後向孤峰頂上盤結
+<lb ed="J" n="0220c26"/>鞋出去了也溈山云此子<anchor xml:id="nkr_note_add_0220c2601" n="0220c2601"/><anchor xml:id="beg0220c2601" n="0220c2601"/>已<anchor xml:id="end0220c2601"/>後向孤峰頂上盤結
 <lb ed="J" n="0220c27"/>草庵呵佛罵祖去在。</p></cb:div>
 <lb ed="J" n="0220c28"/><cb:div type="commentary"><p xml:id="pJ32p0220c2801">衝開巨浪百千重透網金鱗氣勢雄江上漁翁空眼
 <lb ed="J" n="0220c29"/>熱不知拄杖化為龍。</p></cb:div>
@@ -1865,7 +1870,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0221b01"/><cb:div type="commentary"><p xml:id="pJ32p0221b0101">東西南北是門頭問趙州兮答趙州三四百條花柳
 <lb ed="J" n="0221b02"/>巷二三千處管絃樓。</p></cb:div>
 <lb ed="J" n="0221b03"/><cb:div type="orig"><p xml:id="pJ32p0221b0301" rend="margin-left:1em">憲宗迎佛舍利現五色光百辟皆賀唯韓愈端立
-<lb ed="J" n="0221b04"/>帝問百僚皆賀卿為甚不賀師代云臣<anchor xml:id="beg_4b" type="cb-app"/>已<anchor xml:id="end_4b"/>賀了愈
+<lb ed="J" n="0221b04"/>帝問百僚皆賀卿為甚不賀師代云臣<anchor xml:id="nkr_note_add_0221b0401" n="0221b0401"/><anchor xml:id="beg0221b0401" n="0221b0401"/>已<anchor xml:id="end0221b0401"/>賀了愈
 <lb ed="J" n="0221b05"/>云臣曾看佛書來佛光非青黃赤白等相此是龍
 <lb ed="J" n="0221b06"/>神荷助之光帝云如何是佛光愈無對師代云陛
 <lb ed="J" n="0221b07"/>下問處便是。</p></cb:div>
@@ -1918,7 +1923,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0221c23"/><cb:div type="orig"><p xml:id="pJ32p0221c2301" rend="margin-left:1em">雲門僧問如何是法身門云六不收。</p></cb:div>
 <lb ed="J" n="0221c24"/><cb:div type="commentary"><p xml:id="pJ32p0221c2401">六不收一拳拳倒黃鶴樓題詩崔顥今何在萬古長
 <lb ed="J" n="0221c25"/>江空自流。</p></cb:div>
-<lb ed="J" n="0221c26"/><cb:div type="orig"><p xml:id="pJ32p0221c2601" rend="margin-left:1em">翠巖參禪師夏末示眾云一夏<anchor xml:id="beg_4c" type="cb-app"/>已<anchor xml:id="end_4c"/>來為兄弟說話
+<lb ed="J" n="0221c26"/><cb:div type="orig"><p xml:id="pJ32p0221c2601" rend="margin-left:1em">翠巖參禪師夏末示眾云一夏<anchor xml:id="nkr_note_add_0221c2601" n="0221c2601"/><anchor xml:id="beg0221c2601" n="0221c2601"/>已<anchor xml:id="end0221c2601"/>來為兄弟說話
 <lb ed="J" n="0221c27"/>看翠巖眉毛在麼保福云作賊人心虛長慶云生
 <lb ed="J" n="0221c28"/>也雲門云關。</p></cb:div>
 <lb ed="J" n="0221c29"/><cb:div type="commentary"><p xml:id="pJ32p0221c2901">翠巖打失兩莖眉屋裏人家便得知痛處一錐猶自
@@ -1957,7 +1962,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <pb ed="J" xml:id="J32.B273.0222b" n="0222b"/>
 <lb ed="J" n="0222b01"/><p xml:id="pJ32p0222b0101">牧牛　百草頭邊百億身如何得不犯纖塵鼻繩拽
 <lb ed="J" n="0222b02"/>轉從頭看誰是牛兮誰是人。</p>
-<lb ed="J" n="0222b03"/><p xml:id="pJ32p0222b0301">騎牛到家　露地橫眠<anchor xml:id="beg_4d" type="cb-app"/>已<anchor xml:id="end_4d"/>到家不騎泥像學丹霞尾
+<lb ed="J" n="0222b03"/><p xml:id="pJ32p0222b0301">騎牛到家　露地橫眠<anchor xml:id="nkr_note_add_0222b0301" n="0222b0301"/><anchor xml:id="beg0222b0301" n="0222b0301"/>已<anchor xml:id="end0222b0301"/>到家不騎泥像學丹霞尾
 <lb ed="J" n="0222b04"/>巴搖動三千界還作宗門中爪牙。</p>
 <lb ed="J" n="0222b05"/><p xml:id="pJ32p0222b0501">忘牛存人　無牛得看只看山一個翁翁閒更閒喜
 <lb ed="J" n="0222b06"/>有白雲相伴住溪邊茅屋兩三間。</p>
@@ -1990,7 +1995,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0222c02"/><cb:div type="other"><cb:mulu type="其他" level="2">答頑石和尚</cb:mulu><head>答頑石和尚</head>
 <lb ed="J" n="0222c03"/><lg xml:id="lgJ32p0222c0301" type="abnormal" rend="text-indent:0em"><l>一絕師絃四海秋千巖萬壑冷颼颼如今不用龍筋
 <lb ed="J" n="0222c04"/>續突出虛空有石頭</l></lg><lg xml:id="lgJ32p0222c0409" type="abnormal" rend="text-indent:0em"><l>棒頭活美鐵牛機臨濟聞風
-<lb ed="J" n="0222c05"/>也皺眉未爇持來香一瓣鼻端無竅<anchor xml:id="beg_4e" type="cb-app"/>已<anchor xml:id="end_4e"/>先知</l></lg><lg xml:id="lgJ32p0222c0518" type="abnormal" rend="text-indent:0em"><l>佛法
+<lb ed="J" n="0222c05"/>也皺眉未爇持來香一瓣鼻端無竅<anchor xml:id="nkr_note_add_0222c0501" n="0222c0501"/><anchor xml:id="beg0222c0501" n="0222c0501"/>已<anchor xml:id="end0222c0501"/>先知</l></lg><lg xml:id="lgJ32p0222c0518" type="abnormal" rend="text-indent:0em"><l>佛法
 <lb ed="J" n="0222c06"/>從教爛便休多年紙被自蒙頭生涯只有數株芋熟
 <lb ed="J" n="0222c07"/>在山中亦懶收</l></lg></cb:div>
 <lb ed="J" n="0222c08"/><cb:div type="other"><cb:mulu type="其他" level="2">贈憲司張大使</cb:mulu><head>贈憲司張大使</head><lg xml:id="lgJ32p0222c0807" type="abnormal" rend="text-indent:0em"><l>眼光爍破人肝膽掛起崚嶒鐵面
@@ -1999,7 +2004,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0222c11"/>今相送出門去彼此渾無半點恩</l></lg></cb:div>
 <lb ed="J" n="0222c12"/><cb:div type="other"><cb:mulu type="其他" level="2">寄絕照昶長老</cb:mulu><head>寄絕照昶長老</head><lg xml:id="lgJ32p0222c1207" type="abnormal" rend="text-indent:0em"><l>見說明州鯗菜鹹夜船多趁海潮
 <lb ed="J" n="0222c13"/>還何時滿載千巖月萬壑清風恣一餐</l></lg></cb:div>
-<lb ed="J" n="0222c14"/><cb:div type="other"><cb:mulu type="其他" level="2">示傅維那</cb:mulu><head>示傅維那</head><lg xml:id="lgJ32p0222c1405" type="abnormal" rend="text-indent:0em"><l>祖道昭昭在目前絲毫<anchor xml:id="beg_4f" type="cb-app"/>已<anchor xml:id="end_4f"/>隔路三千自
+<lb ed="J" n="0222c14"/><cb:div type="other"><cb:mulu type="其他" level="2">示傅維那</cb:mulu><head>示傅維那</head><lg xml:id="lgJ32p0222c1405" type="abnormal" rend="text-indent:0em"><l>祖道昭昭在目前絲毫<anchor xml:id="nkr_note_add_0222c1401" n="0222c1401"/><anchor xml:id="beg0222c1401" n="0222c1401"/>已<anchor xml:id="end0222c1401"/>隔路三千自
 <lb ed="J" n="0222c15"/>家桶底一翻脫肯信西來別有傳</l></lg></cb:div>
 <lb ed="J" n="0222c16"/><cb:div type="other"><cb:mulu type="其他" level="2">示常上人</cb:mulu><head>示常上人</head><lg xml:id="lgJ32p0222c1605" type="abnormal" rend="text-indent:0em"><l>將謂平常心是道誰知猶隔萬重關看
 <lb ed="J" n="0222c17"/>他破宅能容易何似成家作活難</l></lg></cb:div>
@@ -2024,7 +2029,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0223a05"/>伯勞破鏡渾相似翻笑飛蝗多子孫</l></lg><lg xml:id="lgJ32p0223a0515" type="abnormal" rend="text-indent:0em"><l>雷聲未歇電
 <lb ed="J" n="0223a06"/>光隨雪片飛空幾箇知凜凜吹毛全殺活太平寰宇
 <lb ed="J" n="0223a07"/>斬頑癡</l></lg></cb:div>
-<lb ed="J" n="0223a08"/><cb:div type="other"><cb:mulu type="其他" level="2">昶首座</cb:mulu><head>昶首座</head><lg xml:id="lgJ32p0223a0804" type="abnormal" rend="text-indent:0em"><l>瞎驢種草自猙獰頭角纔生話<anchor xml:id="beg_50" type="cb-app"/>已<anchor xml:id="end_50"/>行甘露
+<lb ed="J" n="0223a08"/><cb:div type="other"><cb:mulu type="其他" level="2">昶首座</cb:mulu><head>昶首座</head><lg xml:id="lgJ32p0223a0804" type="abnormal" rend="text-indent:0em"><l>瞎驢種草自猙獰頭角纔生話<anchor xml:id="nkr_note_add_0223a0801" n="0223a0801"/><anchor xml:id="beg0223a0801" n="0223a0801"/>已<anchor xml:id="end0223a0801"/>行甘露
 <lb ed="J" n="0223a09"/>堂前轟一喝青天岌岌大江橫</l></lg></cb:div>
 <lb ed="J" n="0223a10"/><cb:div type="other"><cb:mulu type="其他" level="2">示曇侍者</cb:mulu><head>示曇侍者</head><lg xml:id="lgJ32p0223a1005" type="abnormal" rend="text-indent:0em"><l>幾回禮拜又和南箇事惟憑慶喜諳二
 <lb ed="J" n="0223a11"/>十年來身畔立何曾辜負老瞿曇</l></lg></cb:div>
@@ -2061,7 +2066,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0223b11"/>時雙腳拶得折不到如今無子孫</l></lg></cb:div>
 <lb ed="J" n="0223b12"/><cb:div type="other"><cb:mulu type="其他" level="2">示方知客</cb:mulu><head>示方知客</head><lg xml:id="lgJ32p0223b1205" type="abnormal" rend="text-indent:0em"><l>順風把柁未為難逆水行舟險似山櫓
 <lb ed="J" n="0223b13"/>棹不施人到岸山橫秋水月彎彎</l></lg></cb:div>
-<lb ed="J" n="0223b14"/><cb:div type="other"><cb:mulu type="其他" level="2">送宣禪人</cb:mulu><head>送宣禪人</head><lg xml:id="lgJ32p0223b1405" type="abnormal" rend="text-indent:0em"><l>適來一見便和南百十餘城<anchor xml:id="beg_51" type="cb-app"/>已<anchor xml:id="end_51"/>遍參謝
+<lb ed="J" n="0223b14"/><cb:div type="other"><cb:mulu type="其他" level="2">送宣禪人</cb:mulu><head>送宣禪人</head><lg xml:id="lgJ32p0223b1405" type="abnormal" rend="text-indent:0em"><l>適來一見便和南百十餘城<anchor xml:id="nkr_note_add_0223b1401" n="0223b1401"/><anchor xml:id="beg0223b1401" n="0223b1401"/>已<anchor xml:id="end0223b1401"/>遍參謝
 <lb ed="J" n="0223b15"/>子遠來無可待低頭且自入茆菴</l></lg></cb:div>
 <lb ed="J" n="0223b16"/><cb:div type="other"><cb:mulu type="其他" level="2">送信禪人還里</cb:mulu><head>送信禪人還里</head><lg xml:id="lgJ32p0223b1607" type="abnormal" rend="text-indent:0em"><l>十萬里來傳一信一千七百箇封
 <lb ed="J" n="0223b17"/>皮到家的的無文字問你展開知不知</l></lg></cb:div>
@@ -2092,10 +2097,10 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0223c11"/>入門來三十棒灼然再犯不相容</l></lg></cb:div>
 <lb ed="J" n="0223c12"/><cb:div type="other"><cb:mulu type="其他" level="2">與裁縫匠</cb:mulu><head>與裁縫匠</head><lg xml:id="lgJ32p0223c1205" type="abnormal" rend="text-indent:0em"><l>四面好山花簇簇一條溪水綠層層大
 <lb ed="J" n="0223c13"/>夫出手加針線做領青衫與老僧</l></lg></cb:div>
-<lb ed="J" n="0223c14"/><cb:div type="other"><cb:mulu type="其他" level="2">示薛道仁</cb:mulu><head>示薛道仁</head><lg xml:id="lgJ32p0223c1405" type="abnormal" rend="text-indent:0em"><l>塵勞中事萬千般攪得身心火一團<anchor xml:id="beg_52" type="cb-app"/>己<anchor xml:id="end_52"/>
+<lb ed="J" n="0223c14"/><cb:div type="other"><cb:mulu type="其他" level="2">示薛道仁</cb:mulu><head>示薛道仁</head><lg xml:id="lgJ32p0223c1405" type="abnormal" rend="text-indent:0em"><l>塵勞中事萬千般攪得身心火一團<anchor xml:id="nkr_note_add_0223c1401" n="0223c1401"/><anchor xml:id="beg0223c1401" n="0223c1401"/>己<anchor xml:id="end0223c1401"/>
 <lb ed="J" n="0223c15"/>眼不開看不透灼然處處被他瞞</l></lg></cb:div>
 <lb ed="J" n="0223c16"/><cb:div type="other"><cb:mulu type="其他" level="2">示顧玅成</cb:mulu><head>示顧玅成</head><lg xml:id="lgJ32p0223c1605" type="abnormal" rend="text-indent:0em"><l>火宅塵勞何日了本來面目要分明昔
-<lb ed="J" n="0223c17"/>知自<anchor xml:id="beg_53" type="cb-app"/>己<anchor xml:id="end_53"/>非他物一切時中總現成</l></lg></cb:div>
+<lb ed="J" n="0223c17"/>知自<anchor xml:id="nkr_note_add_0223c1701" n="0223c1701"/><anchor xml:id="beg0223c1701" n="0223c1701"/>己<anchor xml:id="end0223c1701"/>非他物一切時中總現成</l></lg></cb:div>
 <lb ed="J" n="0223c18"/><cb:div type="other"><cb:mulu type="其他" level="2">謝谷居士齋</cb:mulu><head>謝谷居士齋</head><lg xml:id="lgJ32p0223c1806" type="abnormal" rend="text-indent:0em"><l>細抹將來百味周飽他牛馬一千頭
 <lb ed="J" n="0223c19"/>豈無業力酬居士香稻雲垂萬頃秋</l></lg></cb:div>
 <lb ed="J" n="0223c20"/><cb:div type="other"><cb:mulu type="其他" level="2">示券禪人</cb:mulu><head>示券禪人</head><lg xml:id="lgJ32p0223c2005" type="abnormal" rend="text-indent:0em"><l>佛祖傳來真契券不曾差錯一絲頭現
@@ -2123,7 +2128,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0224a11"/>象步截流連底過卻憐龜尾拂泥沙</l></lg><lg xml:id="lgJ32p0224a1115" type="abnormal" rend="text-indent:0em"><l>千巖說話少
 <lb ed="J" n="0224a12"/>機關碁遇仙人更是難一著不能全殺活幾乎輸了
 <lb ed="J" n="0224a13"/>爛柯仙</l></lg></cb:div>
-<lb ed="J" n="0224a14"/><cb:div type="other"><cb:mulu type="其他" level="2">送日本透侍者</cb:mulu><head>送日本透侍者</head><lg xml:id="lgJ32p0224a1407" type="abnormal" rend="text-indent:0em"><l>明得<anchor xml:id="beg_54" type="cb-app"/>己<anchor xml:id="end_54"/>躬生死事祖師公案透何
+<lb ed="J" n="0224a14"/><cb:div type="other"><cb:mulu type="其他" level="2">送日本透侍者</cb:mulu><head>送日本透侍者</head><lg xml:id="lgJ32p0224a1407" type="abnormal" rend="text-indent:0em"><l>明得<anchor xml:id="nkr_note_add_0224a1401" n="0224a1401"/><anchor xml:id="beg0224a1401" n="0224a1401"/>己<anchor xml:id="end0224a1401"/>躬生死事祖師公案透何
 <lb ed="J" n="0224a15"/>難拈來一隻蓬蒿箭射入千山與萬山</l></lg></cb:div>
 <lb ed="J" n="0224a16"/><cb:div type="other"><cb:mulu type="其他" level="2">示珍上人參方</cb:mulu><head>示珍上人參方</head><lg xml:id="lgJ32p0224a1607" type="abnormal" rend="text-indent:0em"><l>從門入不是家珍須要丈頭開眼
 <lb ed="J" n="0224a17"/>睛江西湖南與麼去雨餘疊疊亂山青</l></lg></cb:div>
@@ -2186,7 +2191,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0224c12"/>門端的窄過窗之後更無牛</l></lg></cb:div>
 <lb ed="J" n="0224c13"/><cb:div type="other"><cb:mulu type="其他" level="2">雲海</cb:mulu><head>雲海</head><lg xml:id="lgJ32p0224c1303" type="abnormal" rend="text-indent:0em"><l>一片飛來點太清彌漫萬頃覆滄溟瞥然又
 <lb ed="J" n="0224c14"/>是從龍去深夜澄澄浸月明</l></lg></cb:div>
-<lb ed="J" n="0224c15"/><cb:div type="other"><cb:mulu type="其他" level="2">古田</cb:mulu><head>古田</head><lg xml:id="lgJ32p0224c1503" type="abnormal" rend="text-indent:0em"><l>空劫<anchor xml:id="beg_55" type="cb-app"/>已<anchor xml:id="end_55"/>前無界至憑誰契券力番耕拋來一
+<lb ed="J" n="0224c15"/><cb:div type="other"><cb:mulu type="其他" level="2">古田</cb:mulu><head>古田</head><lg xml:id="lgJ32p0224c1503" type="abnormal" rend="text-indent:0em"><l>空劫<anchor xml:id="nkr_note_add_0224c1501" n="0224c1501"/><anchor xml:id="beg0224c1501" n="0224c1501"/>已<anchor xml:id="end0224c1501"/>前無界至憑誰契券力番耕拋來一
 <lb ed="J" n="0224c16"/>粒無情種香稻如今遍界生</l></lg></cb:div>
 <lb ed="J" n="0224c17"/><cb:div type="other"><cb:mulu type="其他" level="2">退菴</cb:mulu><head>退菴</head><lg xml:id="lgJ32p0224c1703" type="abnormal" rend="text-indent:0em"><l>如何推不向前行住箇茅堂自暢情好個省
 <lb ed="J" n="0224c18"/>緣安樂法門前一任綠苔生</l></lg></cb:div>
@@ -2255,7 +2260,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0225b19"/><lg xml:id="lgJ32p0225b1901" type="abnormal" rend="text-indent:0em"><l>荊溪居士蔣月堂超出昔年之老龐老龐只欲誇清
 <lb ed="J" n="0225b20"/>譽家財都把沉湘江有男不婚女不嫁漉漓換米塞
 <lb ed="J" n="0225b21"/>饑瘡爭如居士大乘行不壞世相談真常堂上事兄
-<lb ed="J" n="0225b22"/>如事父堂下諸子列成行打開自<anchor xml:id="beg_56" type="cb-app"/>己<anchor xml:id="end_56"/>無盡藏扶起末
+<lb ed="J" n="0225b22"/>如事父堂下諸子列成行打開自<anchor xml:id="nkr_note_add_0225b2201" n="0225b2201"/><anchor xml:id="beg0225b2201" n="0225b2201"/>己<anchor xml:id="end0225b2201"/>無盡藏扶起末
 <lb ed="J" n="0225b23"/>世光明幢齋僧供佛濟貧病并修寺宇及橋梁又造
 <lb ed="J" n="0225b24"/>一萬菩薩像手持萬朵金蓮香彌陀山寺新建閣遣
 <lb ed="J" n="0225b25"/>人擎送入清涼又造缽盂五百副遠餉餘飯來東方
@@ -2289,7 +2294,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0225c22"/>歸喫飯來鋤頭倒挂門前樹</l></lg><lg xml:id="lgJ32p0225c2212" type="abnormal" rend="text-indent:0em"><l>萬般世事一場空開
 <lb ed="J" n="0225c23"/>眼明明在夢中堪笑嶺雲閒不得幾回飛去為從龍</l></lg>
 <lb ed="J" n="0225c24"/><lg xml:id="lgJ32p0225c2401" type="abnormal" rend="text-indent:0em"><l>玉從石裏鑿將開金自沙中淘得來便轉眾生成
-<lb ed="J" n="0225c25"/>佛去當臺明鏡<anchor xml:id="beg_57" type="cb-app"/>已<anchor xml:id="end_57"/>塵埃</l></lg><lg xml:id="lgJ32p0225c2510" type="abnormal" rend="text-indent:0em"><l>臭穢身中清淨身誰云無
+<lb ed="J" n="0225c25"/>佛去當臺明鏡<anchor xml:id="nkr_note_add_0225c2501" n="0225c2501"/><anchor xml:id="beg0225c2501" n="0225c2501"/>已<anchor xml:id="end0225c2501"/>塵埃</l></lg><lg xml:id="lgJ32p0225c2510" type="abnormal" rend="text-indent:0em"><l>臭穢身中清淨身誰云無
 <lb ed="J" n="0225c26"/>我亦無人古今天地長如此諸佛眾生不隔塵</l></lg><lg xml:id="lgJ32p0225c2619" type="abnormal" rend="text-indent:0em"><l>四
 <lb ed="J" n="0225c27"/>五月裏竹葉落萬木青青梅子黃冷地看他生死事
 <lb ed="J" n="0225c28"/>如何空過好時光</l></lg></cb:div>
@@ -2301,7 +2306,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0226a03"/>古今天地一禪床驢年得會蒲團破</l></lg><lg xml:id="lgJ32p0226a0315" type="abnormal" rend="text-indent:0em"><l>山中臥抖擻
 <lb ed="J" n="0226a04"/>起來無什麼何更夢遊兜率天眼合眼開誰是我</l></lg></cb:div>
 <lb ed="J" n="0226a05"/><cb:div type="other"><cb:mulu type="其他" level="2">警世</cb:mulu><head>警世</head>
-<lb ed="J" n="0226a06"/><lg xml:id="lgJ32p0226a0601" type="abnormal" rend="text-indent:0em"><l>百年只是暫時間莫把光陰當等閒<anchor xml:id="beg_58" type="cb-app"/>努<anchor xml:id="end_58"/>力修行成佛
+<lb ed="J" n="0226a06"/><lg xml:id="lgJ32p0226a0601" type="abnormal" rend="text-indent:0em"><l>百年只是暫時間莫把光陰當等閒<anchor xml:id="nkr_note_add_0226a0601" n="0226a0601"/><anchor xml:id="beg0226a0601" n="0226a0601"/>努<anchor xml:id="end0226a0601"/>力修行成佛
 <lb ed="J" n="0226a07"/>易今生蹉過出頭難無常忽到教誰替有債元來用
 <lb ed="J" n="0226a08"/>自還若要不經閻老案直須參透祖師關</l></lg>
 <lb ed="J" n="0226a09"/><lg xml:id="lgJ32p0226a0901" type="abnormal" rend="text-indent:0em"><l>佛祖興慈為阿誰恰如父母愛嬰兒頻頻呼喚情何
@@ -2310,7 +2315,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0226a12"/><lg xml:id="lgJ32p0226a1201" type="abnormal" rend="text-indent:0em"><l>金烏東上月沉西生死人間事不齊口裏吐將三寸
 <lb ed="J" n="0226a13"/>氣山頭添得一堆泥塵緣擾擾誰先覺業識茫茫路
 <lb ed="J" n="0226a14"/>轉迷要脫輪迴無別法祖師公案好提撕</l></lg>
-<lb ed="J" n="0226a15"/><lg xml:id="lgJ32p0226a1501" type="abnormal" rend="text-indent:0em"><l><anchor xml:id="beg_59" type="cb-app"/>眨<anchor xml:id="end_59"/>眼光陰不暫留莫因名利苦馳求終成白骨堆青
+<lb ed="J" n="0226a15"/><lg xml:id="lgJ32p0226a1501" type="abnormal" rend="text-indent:0em"><l><anchor xml:id="nkr_note_add_0226a1501" n="0226a1501"/><anchor xml:id="beg0226a1501" n="0226a1501"/>眨<anchor xml:id="end0226a1501"/>眼光陰不暫留莫因名利苦馳求終成白骨堆青
 <lb ed="J" n="0226a16"/>草難把黃金換黑頭死後空懷千古恨生前誰肯一
 <lb ed="J" n="0226a17"/>時休聖賢都是凡夫做何不依他樣子修</l></lg></cb:div>
 <lb ed="J" n="0226a18"/>
@@ -2337,7 +2342,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0226b08"/>時請向鑊湯遊困則教歸爐炭宿糞裏長年養臭身
 <lb ed="J" n="0226b09"/>案頭又挂新鮮肉者箇喚作鬼喚作畜喚作獄若知
 <lb ed="J" n="0226b10"/>足決然不受他拘束玉殿珠樓任意生香風微動蓮
-<lb ed="J" n="0226b11"/>池浴者箇喚作天喚作仙喚作佛<anchor xml:id="beg_5a" type="cb-app"/>卻<anchor xml:id="end_5a"/>將知足化群生
+<lb ed="J" n="0226b11"/>池浴者箇喚作天喚作仙喚作佛<anchor xml:id="nkr_note_add_0226b1101" n="0226b1101"/><anchor xml:id="beg0226b1101" n="0226b1101"/>卻<anchor xml:id="end0226b1101"/>將知足化群生
 <lb ed="J" n="0226b12"/>令他箇箇來相逐忽然有箇田八叔高聲喚我罵瞎
 <lb ed="J" n="0226b13"/>禿本來無一物那更有罪福討甚閑工夫口裏水漉
 <lb ed="J" n="0226b14"/>漉何不騎頭水牯牛溪東放溪西牧踏常住地吃常
@@ -2360,7 +2365,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <pb ed="J" xml:id="J32.B273.0226c" n="0226c"/>
 <lb ed="J" n="0226c01"/>下恣遨遊兩腳何曾移一步不圖利不求名只將富
 <lb ed="J" n="0226c02"/>貴等浮雲看他塵世紛紛者當甚農家腳後跟不貪
-<lb ed="J" n="0226c03"/>生不畏死生死明明只者是前程拋<anchor xml:id="beg_5b" type="cb-app"/>卻<anchor xml:id="end_5b"/>任縱橫擺手
+<lb ed="J" n="0226c03"/>生不畏死生死明明只者是前程拋<anchor xml:id="nkr_note_add_0226c0301" n="0226c0301"/><anchor xml:id="beg0226c0301" n="0226c0301"/>卻<anchor xml:id="end0226c0301"/>任縱橫擺手
 <lb ed="J" n="0226c04"/>便行且無罪不問道不參禪十二時中自坦然不但
 <lb ed="J" n="0226c05"/>日日是好日亦乃年年是好年六通謾說阿羅漢快
 <lb ed="J" n="0226c06"/>活休誇自在仙我快活能剔脫大丈夫兒消一撥有
@@ -2671,7 +2676,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0230a01"/><cb:div type="other"><cb:mulu type="其他" level="2">跋雪巖和尚示然書記語</cb:mulu><head>跋雪巖和尚示然書記語</head>
 <lb ed="J" n="0230a02"/><p xml:id="pJ32p0230a0201">惠朗老人道黃面漢老仲尼目即在上座腳底澄維
 <lb ed="J" n="0230a03"/>那你且道在誰腳底可山腳底諸人腳底道在可山
-<lb ed="J" n="0230a04"/>腳底可山<anchor xml:id="beg_5c" type="cb-app"/>已<anchor xml:id="end_5c"/>死道在諸人腳底諸人不知道在你腳
+<lb ed="J" n="0230a04"/>腳底可山<anchor xml:id="nkr_note_add_0230a0401" n="0230a0401"/><anchor xml:id="beg0230a0401" n="0230a0401"/>已<anchor xml:id="end0230a0401"/>死道在諸人腳底諸人不知道在你腳
 <lb ed="J" n="0230a05"/>底你又不曾親見惠朗待汝親見惠朗來無明卻與
 <lb ed="J" n="0230a06"/>一轉語。</p></cb:div>
 <lb ed="J" n="0230a07"/><cb:div type="other"><cb:mulu type="其他" level="2">跋月庭和尚語</cb:mulu><head>跋月庭和尚語</head>
@@ -2696,7 +2701,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0230a26"/>尚底舌頭。</p></cb:div>
 <lb ed="J" n="0230a27"/><cb:div type="other"><cb:mulu type="其他" level="2">跋晦機虛谷幻住墨蹟</cb:mulu><head>跋晦機虛谷幻住墨蹟</head>
 <lb ed="J" n="0230a28"/><p xml:id="pJ32p0230a2801">佛鑒嘗云汝等後生那裏知得我入眾時晦機和尚
-<lb ed="J" n="0230a29"/><anchor xml:id="beg_5d" type="cb-app"/>已<anchor xml:id="end_5d"/>傾寮舍矣後住淨慈徑山大宏祖道予住仰山三
+<lb ed="J" n="0230a29"/><anchor xml:id="nkr_note_add_0230a2901" n="0230a2901"/><anchor xml:id="beg0230a2901" n="0230a2901"/>已<anchor xml:id="end0230a2901"/>傾寮舍矣後住淨慈徑山大宏祖道予住仰山三
 <lb ed="J" n="0230a30"/>十年只做得箇修造直歲今請主之汝當依附堪為
 <pb ed="J" xml:id="J32.B273.0230b" n="0230b"/>
 <lb ed="J" n="0230b01"/>法式佛智亦云你禪和子還知麼大慧說禪之後當
@@ -2764,7 +2769,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0231a01"/><cb:div type="other"><cb:mulu type="其他" level="1">佛事</cb:mulu><head>佛事</head>
 <lb ed="J" n="0231a02"/><cb:div type="other"><cb:mulu type="其他" level="2">婺州通濟橋成請行橋</cb:mulu><head>婺州通濟橋成請行橋</head>
 <lb ed="J" n="0231a03"/><p xml:id="pJ32p0231a0301">大眾會麼風清月明地平天成廉訪司相公洎文武
-<lb ed="J" n="0231a04"/>官員<anchor xml:id="beg_5e" type="cb-app"/>已<anchor xml:id="end_5e"/>為諸人說法了也西峰雙林及諸尊宿<anchor xml:id="beg_5f" type="cb-app"/>已<anchor xml:id="end_5f"/>為
+<lb ed="J" n="0231a04"/>官員<anchor xml:id="nkr_note_add_0231a0401" n="0231a0401"/><anchor xml:id="beg0231a0401" n="0231a0401"/>已<anchor xml:id="end0231a0401"/>為諸人說法了也西峰雙林及諸尊宿<anchor xml:id="nkr_note_add_0231a0402" n="0231a0402"/><anchor xml:id="beg0231a0402" n="0231a0402"/>已<anchor xml:id="end0231a0402"/>為
 <lb ed="J" n="0231a05"/>諸人說法了也只將萬萬歲石橋上祝吾皇萬萬歲
 <lb ed="J" n="0231a06"/>恁麼則統十方世界是一座通濟橋不獨通濟婺州
 <lb ed="J" n="0231a07"/>一城人通濟天下人去也巍巍功業千古不磨汝諸
@@ -2843,7 +2848,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0231c18"/>獨居時不同何以故古之參禪辦道之士或獨居或
 <lb ed="J" n="0231c19"/>處眾單單以生死兩箇字為急務如救頭然打破漆
 <lb ed="J" n="0231c20"/>桶之後日夕磨礪身心一如蕩然無纖毫過患久久
-<lb ed="J" n="0231c21"/>不可掩其光明自然敗露不得<anchor xml:id="beg_60" type="cb-app"/>已<anchor xml:id="end_60"/>被人掇在這座子
+<lb ed="J" n="0231c21"/>不可掩其光明自然敗露不得<anchor xml:id="nkr_note_add_0231c2101" n="0231c2101"/><anchor xml:id="beg0231c2101" n="0231c2101"/>已<anchor xml:id="end0231c2101"/>被人掇在這座子
 <lb ed="J" n="0231c22"/>上坐地以其得處穩密用處諦當一動一靜一語一
 <lb ed="J" n="0231c23"/>默皆可與人作箇樣子故有住持之說夫住持者住
 <lb ed="J" n="0231c24"/>於不可住之地持其不可持之法利濟一切傳之無
@@ -2863,7 +2868,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0232a07"/>盡矣清涼天台南山慈恩之道其如何哉正此之際
 <lb ed="J" n="0232a08"/>釋迦老子便出頭來也救不得了也無用你又如何
 <lb ed="J" n="0232a09"/>救得只如天龍請你作長老不過要你美幾塊木頭
-<lb ed="J" n="0232a10"/>粧幾箇泥塊而<anchor xml:id="beg_61" type="cb-app"/>已<anchor xml:id="end_61"/>若要大統宗綱重光祖日古人自
+<lb ed="J" n="0232a10"/>粧幾箇泥塊而<anchor xml:id="nkr_note_add_0232a1001" n="0232a1001"/><anchor xml:id="beg0232a1001" n="0232a1001"/>已<anchor xml:id="end0232a1001"/>若要大統宗綱重光祖日古人自
 <lb ed="J" n="0232a11"/>有樣子無明自救不了且不曾住人院子又不曾作
 <lb ed="J" n="0232a12"/>一日主人三十年只是茅廬客居二十年伏龍山中
 <lb ed="J" n="0232a13"/>只是一箇園頭道者耳豈堪為無用之師若準來書
@@ -2887,18 +2892,18 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <pb ed="J" xml:id="J32.B273.0232b" n="0232b"/>
 <lb ed="J" n="0232b01"/>欺君不得卻來求印可亦不遲。</p>
 <lb ed="J" n="0232b02"/><p xml:id="pJ32p0232b0201">士林中來者無不盛談左右乃間氣所生文章學問
-<lb ed="J" n="0232b03"/>絕出為淛東群儒之冠且尤深於內典欣<anchor xml:id="beg_62" type="cb-app"/>羨<anchor xml:id="end_62"/>無<anchor xml:id="beg_63" type="cb-app"/>已<anchor xml:id="end_63"/>承
+<lb ed="J" n="0232b03"/>絕出為淛東群儒之冠且尤深於內典欣<anchor xml:id="nkr_note_add_0232b0301" n="0232b0301"/><anchor xml:id="beg0232b0301" n="0232b0301"/>羨<anchor xml:id="end0232b0301"/>無<anchor xml:id="nkr_note_add_0232b0302" n="0232b0302"/><anchor xml:id="beg0232b0302" n="0232b0302"/>已<anchor xml:id="end0232b0302"/>承
 <lb ed="J" n="0232b04"/>敘自幼讀佛書領其要旨出入有無空假中中至於
 <lb ed="J" n="0232b05"/>中且不有有無何在三復斯言此今之士夫執有執
 <lb ed="J" n="0232b06"/>無離邊離中分彼此儒釋之異如左右儒釋一貫者
 <lb ed="J" n="0232b07"/>能有幾人人言為不虛矣張無盡云余因學佛然後
 <lb ed="J" n="0232b08"/>知儒古德云居無為界中而不斷滅有為之法居有
 <lb ed="J" n="0232b09"/>為界中而不分別無為之相暗合道妙不易不易審
-<lb ed="J" n="0232b10"/>如是則有為底便是無為底左右<anchor xml:id="beg_64" type="cb-app"/>已<anchor xml:id="end_64"/>百了千當何處
+<lb ed="J" n="0232b10"/>如是則有為底便是無為底左右<anchor xml:id="nkr_note_add_0232b1001" n="0232b1001"/><anchor xml:id="beg0232b1001" n="0232b1001"/>已<anchor xml:id="end0232b1001"/>百了千當何處
 <lb ed="J" n="0232b11"/>更有身心之慮未祛事物之來未息又何處更有真
 <lb ed="J" n="0232b12"/>實工夫可做而後出離有為了生死大事耶左右與
 <lb ed="J" n="0232b13"/>山野交二十年會或劇談別或寄語未有如此書之
-<lb ed="J" n="0232b14"/>至誠也人天之際唯誠朋友之道亦誠而<anchor xml:id="beg_65" type="cb-app"/>已<anchor xml:id="end_65"/>只如左
+<lb ed="J" n="0232b14"/>至誠也人天之際唯誠朋友之道亦誠而<anchor xml:id="nkr_note_add_0232b1401" n="0232b1401"/><anchor xml:id="beg0232b1401" n="0232b1401"/>已<anchor xml:id="end0232b1401"/>只如左
 <lb ed="J" n="0232b15"/>右未動念未操觚拂紙未陳一言及寫在紙上了是
 <lb ed="J" n="0232b16"/>有為是無為是生是死是生死法是出生死法這些
 <lb ed="J" n="0232b17"/>子直是淆訛故孔子謂子路曰未知生焉知死孔子
@@ -2963,9 +2968,9 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0233a14"/>其父喜曰是子當以文行亢吾宗乎師之諸父曇芳
 <lb ed="J" n="0233a15"/>學佛於富陽法門院欲乞師為嗣謝氏不從未幾師
 <lb ed="J" n="0233a16"/>遘疾甚革謝氏禱于觀音大士曰佛幸我慈俾此兒
-<lb ed="J" n="0233a17"/>不死令服洒掃役終身禱<anchor xml:id="beg_66" type="cb-app"/>已<anchor xml:id="end_66"/>師汙下而愈遂使從芳
+<lb ed="J" n="0233a17"/>不死令服洒掃役終身禱<anchor xml:id="nkr_note_add_0233a1701" n="0233a1701"/><anchor xml:id="beg0233a1701" n="0233a1701"/>已<anchor xml:id="end0233a1701"/>師汙下而愈遂使從芳
 <lb ed="J" n="0233a18"/>游時師年始十七益求良師友摩切九流百氏之言
-<lb ed="J" n="0233a19"/><anchor xml:id="beg_67" type="cb-app"/>已<anchor xml:id="end_67"/>而曰此非出世法也復從授經師學法華經至藥
+<lb ed="J" n="0233a19"/><anchor xml:id="nkr_note_add_0233a1901" n="0233a1901"/><anchor xml:id="beg0233a1901" n="0233a1901"/>已<anchor xml:id="end0233a1901"/>而曰此非出世法也復從授經師學法華經至藥
 <lb ed="J" n="0233a20"/>王品既問曰藥王既然二臂曷為復現本身耶授經
 <lb ed="J" n="0233a21"/>師異之年十九薙髮受具戒走武林習律於靈芝寺
 <lb ed="J" n="0233a22"/>律師問曰八法往來片無乖角何謂也師曰胡不問
@@ -2994,7 +2999,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0233b14"/>子希昇杖錫踰濤江而東至烏傷之伏龍山見山形
 <lb ed="J" n="0233b15"/>如青蓮華乃卓錫巖際誓曰山若有水吾將止焉俄
 <lb ed="J" n="0233b16"/>山泉溢出作白乳色師遂依大樹以居實泰定丁卯
-<lb ed="J" n="0233b17"/>冬十月也初伏龍山有禪寺號聖壽其廢<anchor xml:id="beg_68" type="cb-app"/>已<anchor xml:id="end_68"/>久當師
+<lb ed="J" n="0233b17"/>冬十月也初伏龍山有禪寺號聖壽其廢<anchor xml:id="nkr_note_add_0233b1701" n="0233b1701"/><anchor xml:id="beg0233b1701" n="0233b1701"/>已<anchor xml:id="end0233b1701"/>久當師
 <lb ed="J" n="0233b18"/>入山時鄉民咸夢有異僧來遂相率登巉巖披蒙茸
 <lb ed="J" n="0233b19"/>以訪焉見師晏坐不動各持食飲之物獻之邑大姓
 <lb ed="J" n="0233b20"/>樓君如浚樓君一得各為伐木構精廬以安師尋因
@@ -3063,7 +3068,7 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <lb ed="J" n="0234a21"/>之盛時庵居知識在天目則中峰本公華頂則無見
 <lb ed="J" n="0234a22"/>睹公屹然法幢東西角立伏龍雖晚出而與天目華
 <lb ed="J" n="0234a23"/>頂並高矣今讀師之語錄簡古超邁無非開示學者
-<lb ed="J" n="0234a24"/>讀之盡卷如入居藥之肆睹其諸異藥品皆可<anchor xml:id="beg_69" type="cb-app"/>已<anchor xml:id="end_69"/>人
+<lb ed="J" n="0234a24"/>讀之盡卷如入居藥之肆睹其諸異藥品皆可<anchor xml:id="nkr_note_add_0234a2401" n="0234a2401"/><anchor xml:id="beg0234a2401" n="0234a2401"/>已<anchor xml:id="end0234a2401"/>人
 <lb ed="J" n="0234a25"/>之疾如游香積世界聞其眾妙香氣皆可止人之饑
 <lb ed="J" n="0234a26"/>是錄行世人得而誦之則沉痾虛腹孰有不脫然而
 <lb ed="J" n="0234a27"/>起充然而足者乎因其徒德鄰之請故書之如此。</p><p xml:id="pJ32p0234a2720" rend="inline">洪
@@ -3084,111 +3089,221 @@ Revision 1.1  2008/10/08 06:49:39  eva
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr><space quantity="0"/></corr><sic>　　</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_12" cb:to="#end_12"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_14" cb:to="#end_14"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_15" cb:to="#end_15"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_16" cb:to="#end_16"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_17" cb:to="#end_17"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_18" cb:to="#end_18"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_19" cb:to="#end_19"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1a" cb:to="#end_1a"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1b" cb:to="#end_1b"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1c" cb:to="#end_1c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1d" cb:to="#end_1d"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1e" cb:to="#end_1e"><corr>叉</corr><sic>乂</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1f" cb:to="#end_1f"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_20" cb:to="#end_20"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_21" cb:to="#end_21"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_22" cb:to="#end_22"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_23" cb:to="#end_23"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_24" cb:to="#end_24"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_25" cb:to="#end_25"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_26" cb:to="#end_26"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_27" cb:to="#end_27"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_28" cb:to="#end_28"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_29" cb:to="#end_29"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2a" cb:to="#end_2a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2b" cb:to="#end_2b"><corr>摶</corr><sic>搏</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2c" cb:to="#end_2c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2d" cb:to="#end_2d"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2e" cb:to="#end_2e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2f" cb:to="#end_2f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_30" cb:to="#end_30"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_31" cb:to="#end_31"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_32" cb:to="#end_32"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_33" cb:to="#end_33"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_34" cb:to="#end_34"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_35" cb:to="#end_35"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_36" cb:to="#end_36"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_37" cb:to="#end_37"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_38" cb:to="#end_38"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_39" cb:to="#end_39"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3a" cb:to="#end_3a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3b" cb:to="#end_3b"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3c" cb:to="#end_3c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3d" cb:to="#end_3d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3e" cb:to="#end_3e"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3f" cb:to="#end_3f"><corr>鍛</corr><sic>鍜</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_40" cb:to="#end_40"><corr>嚏</corr><sic>啑</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_41" cb:to="#end_41"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_42" cb:to="#end_42"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_43" cb:to="#end_43"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_44" cb:to="#end_44"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_45" cb:to="#end_45"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_46" cb:to="#end_46"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_47" cb:to="#end_47"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_48" cb:to="#end_48"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_49" cb:to="#end_49"><corr>鹽</corr><sic><g ref="#CB06194">󱠲</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4a" cb:to="#end_4a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4b" cb:to="#end_4b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4c" cb:to="#end_4c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4d" cb:to="#end_4d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4e" cb:to="#end_4e"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4f" cb:to="#end_4f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_50" cb:to="#end_50"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_51" cb:to="#end_51"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_52" cb:to="#end_52"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_53" cb:to="#end_53"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_54" cb:to="#end_54"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_55" cb:to="#end_55"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_56" cb:to="#end_56"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_57" cb:to="#end_57"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_58" cb:to="#end_58"><corr>努</corr><sic>弩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_59" cb:to="#end_59"><corr>眨</corr><sic>貶</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5a" cb:to="#end_5a"><corr>卻</corr><sic>郤</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5b" cb:to="#end_5b"><corr>卻</corr><sic>郤</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5c" cb:to="#end_5c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5d" cb:to="#end_5d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5e" cb:to="#end_5e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5f" cb:to="#end_5f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_60" cb:to="#end_60"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_61" cb:to="#end_61"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_62" cb:to="#end_62"><corr>羨</corr><sic>羡</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_63" cb:to="#end_63"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_64" cb:to="#end_64"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_65" cb:to="#end_65"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_66" cb:to="#end_66"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_67" cb:to="#end_67"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_68" cb:to="#end_68"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_69" cb:to="#end_69"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0203c0401" to="#end0203c0401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0203c0402" to="#end0203c0402"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0204a0101" to="#end0204a0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0204a0201" to="#end0204a0201"><lem wit="#wit1" resp="#resp2"><space quantity="0"/></lem><rdg wit="#wit2">　　</rdg></app>
+<app from="#beg0205b1101" to="#end0205b1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206a0801" to="#end0206a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206a0901" to="#end0206a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206a0902" to="#end0206a0902"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206a1001" to="#end0206a1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206a1401" to="#end0206a1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206a1501" to="#end0206a1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206a1502" to="#end0206a1502"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206a1701" to="#end0206a1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206a2201" to="#end0206a2201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206a2301" to="#end0206a2301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206a2302" to="#end0206a2302"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206a2501" to="#end0206a2501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0206c0701" to="#end0206c0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0207b0901" to="#end0207b0901"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0207b1801" to="#end0207b1801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0207c1701" to="#end0207c1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0207c2001" to="#end0207c2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0207c2701" to="#end0207c2701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0208a0101" to="#end0208a0101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0208a0102" to="#end0208a0102"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0208c1801" to="#end0208c1801"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0208c2101" to="#end0208c2101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0208c2102" to="#end0208c2102"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0209c1801" to="#end0209c1801"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0210a1301" to="#end0210a1301"><lem wit="#wit1" resp="#resp2">叉</lem><rdg wit="#wit2">乂</rdg></app>
+<app from="#beg0210c1201" to="#end0210c1201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0210c1202" to="#end0210c1202"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0211a0401" to="#end0211a0401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0211a0601" to="#end0211a0601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0211b0101" to="#end0211b0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0211b1101" to="#end0211b1101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0211b1102" to="#end0211b1102"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0211b2601" to="#end0211b2601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0211c2801" to="#end0211c2801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0212a1901" to="#end0212a1901"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0212b0301" to="#end0212b0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0212b0501" to="#end0212b0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0212b0801" to="#end0212b0801"><lem wit="#wit1" resp="#resp2">摶</lem><rdg wit="#wit2">搏</rdg></app>
+<app from="#beg0212b2301" to="#end0212b2301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0213a0101" to="#end0213a0101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0213a0501" to="#end0213a0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0213a1301" to="#end0213a1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0214b0601" to="#end0214b0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0214c0501" to="#end0214c0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0215b0401" to="#end0215b0401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0215b2101" to="#end0215b2101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0215c1001" to="#end0215c1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0215c1201" to="#end0215c1201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0216b0201" to="#end0216b0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0216b1701" to="#end0216b1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0216b2401" to="#end0216b2401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0217a2901" to="#end0217a2901"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0217b1701" to="#end0217b1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0217c0501" to="#end0217c0501"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0218b0401" to="#end0218b0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0218c2201" to="#end0218c2201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0219a0601" to="#end0219a0601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0219a2701" to="#end0219a2701"><lem wit="#wit1" resp="#resp2">鍛</lem><rdg wit="#wit2">鍜</rdg></app>
+<app from="#beg0219a3001" to="#end0219a3001"><lem wit="#wit1" resp="#resp2">嚏</lem><rdg wit="#wit2">啑</rdg></app>
+<app from="#beg0219c1401" to="#end0219c1401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0219c2801" to="#end0219c2801"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0219c3001" to="#end0219c3001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0220a1001" to="#end0220a1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0220a1501" to="#end0220a1501"><lem wit="#wit1" resp="#resp2">斂</lem><rdg wit="#wit2">歛</rdg></app>
+<app from="#beg0220b0701" to="#end0220b0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0220b0702" to="#end0220b0702"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0220b1501" to="#end0220b1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0220b2401" to="#end0220b2401"><lem wit="#wit1" resp="#resp2">鹽</lem><rdg wit="#wit2"><g ref="#CB06194">󱠲</g></rdg></app>
+<app from="#beg0220c2601" to="#end0220c2601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0221b0401" to="#end0221b0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0221c2601" to="#end0221c2601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0222b0301" to="#end0222b0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0222c0501" to="#end0222c0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0222c1401" to="#end0222c1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0223a0801" to="#end0223a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0223b1401" to="#end0223b1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0223c1401" to="#end0223c1401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0223c1701" to="#end0223c1701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0224a1401" to="#end0224a1401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0224c1501" to="#end0224c1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0225b2201" to="#end0225b2201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0225c2501" to="#end0225c2501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0226a0601" to="#end0226a0601"><lem wit="#wit1" resp="#resp2">努</lem><rdg wit="#wit2">弩</rdg></app>
+<app from="#beg0226a1501" to="#end0226a1501"><lem wit="#wit1" resp="#resp2">眨</lem><rdg wit="#wit2">貶</rdg></app>
+<app from="#beg0226b1101" to="#end0226b1101"><lem wit="#wit1" resp="#resp2">卻</lem><rdg wit="#wit2">郤</rdg></app>
+<app from="#beg0226c0301" to="#end0226c0301"><lem wit="#wit1" resp="#resp2">卻</lem><rdg wit="#wit2">郤</rdg></app>
+<app from="#beg0230a0401" to="#end0230a0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0230a2901" to="#end0230a2901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0231a0401" to="#end0231a0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0231a0402" to="#end0231a0402"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0231c2101" to="#end0231c2101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0232a1001" to="#end0232a1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0232b0301" to="#end0232b0301"><lem wit="#wit1" resp="#resp2">羨</lem><rdg wit="#wit2">羡</rdg></app>
+<app from="#beg0232b0302" to="#end0232b0302"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0232b1001" to="#end0232b1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0232b1401" to="#end0232b1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0233a1701" to="#end0233a1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0233a1901" to="#end0233a1901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0233b1701" to="#end0233b1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0234a2401" to="#end0234a2401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0203c0401" resp="#resp1" type="add" target="#nkr_note_add_0203c0401">己【CB】，巳【嘉興】</note>
+<note n="0203c0402" resp="#resp1" type="add" target="#nkr_note_add_0203c0402">己【CB】，巳【嘉興】</note>
+<note n="0204a0101" resp="#resp1" type="add" target="#nkr_note_add_0204a0101">已【CB】，巳【嘉興】</note>
+<note n="0204a0201" resp="#resp1" type="add" target="#nkr_note_add_0204a0201">［－］【CB】，［－］【嘉興】</note>
+<note n="0205b1101" resp="#resp1" type="add" target="#nkr_note_add_0205b1101">已【CB】，巳【嘉興】</note>
+<note n="0206a0801" resp="#resp1" type="add" target="#nkr_note_add_0206a0801">已【CB】，巳【嘉興】</note>
+<note n="0206a0901" resp="#resp1" type="add" target="#nkr_note_add_0206a0901">已【CB】，巳【嘉興】</note>
+<note n="0206a0902" resp="#resp1" type="add" target="#nkr_note_add_0206a0902">已【CB】，巳【嘉興】</note>
+<note n="0206a1001" resp="#resp1" type="add" target="#nkr_note_add_0206a1001">已【CB】，巳【嘉興】</note>
+<note n="0206a1401" resp="#resp1" type="add" target="#nkr_note_add_0206a1401">已【CB】，巳【嘉興】</note>
+<note n="0206a1501" resp="#resp1" type="add" target="#nkr_note_add_0206a1501">已【CB】，巳【嘉興】</note>
+<note n="0206a1502" resp="#resp1" type="add" target="#nkr_note_add_0206a1502">已【CB】，巳【嘉興】</note>
+<note n="0206a1701" resp="#resp1" type="add" target="#nkr_note_add_0206a1701">已【CB】，巳【嘉興】</note>
+<note n="0206a2201" resp="#resp1" type="add" target="#nkr_note_add_0206a2201">已【CB】，巳【嘉興】</note>
+<note n="0206a2301" resp="#resp1" type="add" target="#nkr_note_add_0206a2301">已【CB】，巳【嘉興】</note>
+<note n="0206a2302" resp="#resp1" type="add" target="#nkr_note_add_0206a2302">已【CB】，巳【嘉興】</note>
+<note n="0206a2501" resp="#resp1" type="add" target="#nkr_note_add_0206a2501">已【CB】，巳【嘉興】</note>
+<note n="0206c0701" resp="#resp1" type="add" target="#nkr_note_add_0206c0701">已【CB】，巳【嘉興】</note>
+<note n="0207b0901" resp="#resp1" type="add" target="#nkr_note_add_0207b0901">己【CB】，巳【嘉興】</note>
+<note n="0207b1801" resp="#resp1" type="add" target="#nkr_note_add_0207b1801">已【CB】，巳【嘉興】</note>
+<note n="0207c1701" resp="#resp1" type="add" target="#nkr_note_add_0207c1701">已【CB】，巳【嘉興】</note>
+<note n="0207c2001" resp="#resp1" type="add" target="#nkr_note_add_0207c2001">已【CB】，巳【嘉興】</note>
+<note n="0207c2701" resp="#resp1" type="add" target="#nkr_note_add_0207c2701">己【CB】，巳【嘉興】</note>
+<note n="0208a0101" resp="#resp1" type="add" target="#nkr_note_add_0208a0101">己【CB】，巳【嘉興】</note>
+<note n="0208a0102" resp="#resp1" type="add" target="#nkr_note_add_0208a0102">己【CB】，巳【嘉興】</note>
+<note n="0208c1801" resp="#resp1" type="add" target="#nkr_note_add_0208c1801">己【CB】，巳【嘉興】</note>
+<note n="0208c2101" resp="#resp1" type="add" target="#nkr_note_add_0208c2101">己【CB】，巳【嘉興】</note>
+<note n="0208c2102" resp="#resp1" type="add" target="#nkr_note_add_0208c2102">已【CB】，巳【嘉興】</note>
+<note n="0209c1801" resp="#resp1" type="add" target="#nkr_note_add_0209c1801">己【CB】，巳【嘉興】</note>
+<note n="0210a1301" resp="#resp1" type="add" target="#nkr_note_add_0210a1301">叉【CB】，乂【嘉興】</note>
+<note n="0210c1201" resp="#resp1" type="add" target="#nkr_note_add_0210c1201">己【CB】，巳【嘉興】</note>
+<note n="0210c1202" resp="#resp1" type="add" target="#nkr_note_add_0210c1202">己【CB】，巳【嘉興】</note>
+<note n="0211a0401" resp="#resp1" type="add" target="#nkr_note_add_0211a0401">己【CB】，巳【嘉興】</note>
+<note n="0211a0601" resp="#resp1" type="add" target="#nkr_note_add_0211a0601">己【CB】，巳【嘉興】</note>
+<note n="0211b0101" resp="#resp1" type="add" target="#nkr_note_add_0211b0101">已【CB】，巳【嘉興】</note>
+<note n="0211b1101" resp="#resp1" type="add" target="#nkr_note_add_0211b1101">己【CB】，巳【嘉興】</note>
+<note n="0211b1102" resp="#resp1" type="add" target="#nkr_note_add_0211b1102">己【CB】，巳【嘉興】</note>
+<note n="0211b2601" resp="#resp1" type="add" target="#nkr_note_add_0211b2601">已【CB】，巳【嘉興】</note>
+<note n="0211c2801" resp="#resp1" type="add" target="#nkr_note_add_0211c2801">已【CB】，巳【嘉興】</note>
+<note n="0212a1901" resp="#resp1" type="add" target="#nkr_note_add_0212a1901">己【CB】，巳【嘉興】</note>
+<note n="0212b0301" resp="#resp1" type="add" target="#nkr_note_add_0212b0301">已【CB】，巳【嘉興】</note>
+<note n="0212b0501" resp="#resp1" type="add" target="#nkr_note_add_0212b0501">已【CB】，巳【嘉興】</note>
+<note n="0212b0801" resp="#resp1" type="add" target="#nkr_note_add_0212b0801">摶【CB】，搏【嘉興】</note>
+<note n="0212b2301" resp="#resp1" type="add" target="#nkr_note_add_0212b2301">已【CB】，巳【嘉興】</note>
+<note n="0213a0101" resp="#resp1" type="add" target="#nkr_note_add_0213a0101">己【CB】，巳【嘉興】</note>
+<note n="0213a0501" resp="#resp1" type="add" target="#nkr_note_add_0213a0501">已【CB】，巳【嘉興】</note>
+<note n="0213a1301" resp="#resp1" type="add" target="#nkr_note_add_0213a1301">已【CB】，巳【嘉興】</note>
+<note n="0214b0601" resp="#resp1" type="add" target="#nkr_note_add_0214b0601">已【CB】，巳【嘉興】</note>
+<note n="0214c0501" resp="#resp1" type="add" target="#nkr_note_add_0214c0501">已【CB】，巳【嘉興】</note>
+<note n="0215b0401" resp="#resp1" type="add" target="#nkr_note_add_0215b0401">己【CB】，巳【嘉興】</note>
+<note n="0215b2101" resp="#resp1" type="add" target="#nkr_note_add_0215b2101">己【CB】，巳【嘉興】</note>
+<note n="0215c1001" resp="#resp1" type="add" target="#nkr_note_add_0215c1001">已【CB】，巳【嘉興】</note>
+<note n="0215c1201" resp="#resp1" type="add" target="#nkr_note_add_0215c1201">己【CB】，巳【嘉興】</note>
+<note n="0216b0201" resp="#resp1" type="add" target="#nkr_note_add_0216b0201">已【CB】，巳【嘉興】</note>
+<note n="0216b1701" resp="#resp1" type="add" target="#nkr_note_add_0216b1701">已【CB】，巳【嘉興】</note>
+<note n="0216b2401" resp="#resp1" type="add" target="#nkr_note_add_0216b2401">已【CB】，巳【嘉興】</note>
+<note n="0217a2901" resp="#resp1" type="add" target="#nkr_note_add_0217a2901">己【CB】，巳【嘉興】</note>
+<note n="0217b1701" resp="#resp1" type="add" target="#nkr_note_add_0217b1701">已【CB】，巳【嘉興】</note>
+<note n="0217c0501" resp="#resp1" type="add" target="#nkr_note_add_0217c0501">己【CB】，巳【嘉興】</note>
+<note n="0218b0401" resp="#resp1" type="add" target="#nkr_note_add_0218b0401">已【CB】，巳【嘉興】</note>
+<note n="0218c2201" resp="#resp1" type="add" target="#nkr_note_add_0218c2201">已【CB】，巳【嘉興】</note>
+<note n="0219a0601" resp="#resp1" type="add" target="#nkr_note_add_0219a0601">己【CB】，巳【嘉興】</note>
+<note n="0219a2701" resp="#resp1" type="add" target="#nkr_note_add_0219a2701">鍛【CB】，鍜【嘉興】</note>
+<note n="0219a3001" resp="#resp1" type="add" target="#nkr_note_add_0219a3001">嚏【CB】，啑【嘉興】</note>
+<note n="0219c1401" resp="#resp1" type="add" target="#nkr_note_add_0219c1401">己【CB】，巳【嘉興】</note>
+<note n="0219c2801" resp="#resp1" type="add" target="#nkr_note_add_0219c2801">己【CB】，巳【嘉興】</note>
+<note n="0219c3001" resp="#resp1" type="add" target="#nkr_note_add_0219c3001">已【CB】，巳【嘉興】</note>
+<note n="0220a1001" resp="#resp1" type="add" target="#nkr_note_add_0220a1001">已【CB】，巳【嘉興】</note>
+<note n="0220a1501" resp="#resp1" type="add" target="#nkr_note_add_0220a1501">斂【CB】，歛【嘉興】</note>
+<note n="0220b0701" resp="#resp1" type="add" target="#nkr_note_add_0220b0701">已【CB】，巳【嘉興】</note>
+<note n="0220b0702" resp="#resp1" type="add" target="#nkr_note_add_0220b0702">已【CB】，巳【嘉興】</note>
+<note n="0220b1501" resp="#resp1" type="add" target="#nkr_note_add_0220b1501">已【CB】，巳【嘉興】</note>
+<note n="0220b2401" resp="#resp1" type="add" target="#nkr_note_add_0220b2401">鹽【CB】，<g ref="#CB06194">󱠲</g>【嘉興】</note>
+<note n="0220c2601" resp="#resp1" type="add" target="#nkr_note_add_0220c2601">已【CB】，巳【嘉興】</note>
+<note n="0221b0401" resp="#resp1" type="add" target="#nkr_note_add_0221b0401">已【CB】，巳【嘉興】</note>
+<note n="0221c2601" resp="#resp1" type="add" target="#nkr_note_add_0221c2601">已【CB】，巳【嘉興】</note>
+<note n="0222b0301" resp="#resp1" type="add" target="#nkr_note_add_0222b0301">已【CB】，巳【嘉興】</note>
+<note n="0222c0501" resp="#resp1" type="add" target="#nkr_note_add_0222c0501">已【CB】，己【嘉興】</note>
+<note n="0222c1401" resp="#resp1" type="add" target="#nkr_note_add_0222c1401">已【CB】，巳【嘉興】</note>
+<note n="0223a0801" resp="#resp1" type="add" target="#nkr_note_add_0223a0801">已【CB】，巳【嘉興】</note>
+<note n="0223b1401" resp="#resp1" type="add" target="#nkr_note_add_0223b1401">已【CB】，巳【嘉興】</note>
+<note n="0223c1401" resp="#resp1" type="add" target="#nkr_note_add_0223c1401">己【CB】，巳【嘉興】</note>
+<note n="0223c1701" resp="#resp1" type="add" target="#nkr_note_add_0223c1701">己【CB】，巳【嘉興】</note>
+<note n="0224a1401" resp="#resp1" type="add" target="#nkr_note_add_0224a1401">己【CB】，巳【嘉興】</note>
+<note n="0224c1501" resp="#resp1" type="add" target="#nkr_note_add_0224c1501">已【CB】，巳【嘉興】</note>
+<note n="0225b2201" resp="#resp1" type="add" target="#nkr_note_add_0225b2201">己【CB】，巳【嘉興】</note>
+<note n="0225c2501" resp="#resp1" type="add" target="#nkr_note_add_0225c2501">已【CB】，巳【嘉興】</note>
+<note n="0226a0601" resp="#resp1" type="add" target="#nkr_note_add_0226a0601">努【CB】，弩【嘉興】</note>
+<note n="0226a1501" resp="#resp1" type="add" target="#nkr_note_add_0226a1501">眨【CB】，貶【嘉興】</note>
+<note n="0226b1101" resp="#resp1" type="add" target="#nkr_note_add_0226b1101">卻【CB】，郤【嘉興】</note>
+<note n="0226c0301" resp="#resp1" type="add" target="#nkr_note_add_0226c0301">卻【CB】，郤【嘉興】</note>
+<note n="0230a0401" resp="#resp1" type="add" target="#nkr_note_add_0230a0401">已【CB】，巳【嘉興】</note>
+<note n="0230a2901" resp="#resp1" type="add" target="#nkr_note_add_0230a2901">已【CB】，巳【嘉興】</note>
+<note n="0231a0401" resp="#resp1" type="add" target="#nkr_note_add_0231a0401">已【CB】，巳【嘉興】</note>
+<note n="0231a0402" resp="#resp1" type="add" target="#nkr_note_add_0231a0402">已【CB】，巳【嘉興】</note>
+<note n="0231c2101" resp="#resp1" type="add" target="#nkr_note_add_0231c2101">已【CB】，巳【嘉興】</note>
+<note n="0232a1001" resp="#resp1" type="add" target="#nkr_note_add_0232a1001">已【CB】，巳【嘉興】</note>
+<note n="0232b0301" resp="#resp1" type="add" target="#nkr_note_add_0232b0301">羨【CB】，羡【嘉興】</note>
+<note n="0232b0302" resp="#resp1" type="add" target="#nkr_note_add_0232b0302">已【CB】，巳【嘉興】</note>
+<note n="0232b1001" resp="#resp1" type="add" target="#nkr_note_add_0232b1001">已【CB】，巳【嘉興】</note>
+<note n="0232b1401" resp="#resp1" type="add" target="#nkr_note_add_0232b1401">已【CB】，巳【嘉興】</note>
+<note n="0233a1701" resp="#resp1" type="add" target="#nkr_note_add_0233a1701">已【CB】，巳【嘉興】</note>
+<note n="0233a1901" resp="#resp1" type="add" target="#nkr_note_add_0233a1901">已【CB】，巳【嘉興】</note>
+<note n="0233b1701" resp="#resp1" type="add" target="#nkr_note_add_0233b1701">已【CB】，巳【嘉興】</note>
+<note n="0234a2401" resp="#resp1" type="add" target="#nkr_note_add_0234a2401">已【CB】，巳【嘉興】</note>
 </p>
 </cb:div>
 </back></text></TEI>

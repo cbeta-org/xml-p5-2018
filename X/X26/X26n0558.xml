@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2009/04/22 08:54:12 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 26, No. 558</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -200,7 +205,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0890a05"/><lb ed="R042" n="0017a11"/><cb:div type="orig"><p xml:id="pX26p0890a0501">無智亦無得。</p></cb:div>
 <lb ed="X" n="0890a06"/><lb ed="R042" n="0017a12"/><cb:div type="commentary"><p xml:id="pX26p0890a0601" rend="margin-left:1em">此明真空之中非但無前諸法即知空之智亦不
 <lb ed="X" n="0890a07"/><lb ed="R042" n="0017a13"/>可得非但能空之智不可得即所知空理亦不可
-<lb ed="X" n="0890a08"/><lb ed="R042" n="0017a14"/>得至此則藥病兩亡心境俱泯唯一實相而<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>是
+<lb ed="X" n="0890a08"/><lb ed="R042" n="0017a14"/>得至此則藥病兩亡心境俱泯唯一實相而<anchor xml:id="nkr_note_add_0890a0801" n="0890a0801"/><anchor xml:id="beg0890a0801" n="0890a0801"/>已<anchor xml:id="end0890a0801"/>是
 <lb ed="X" n="0890a09"/><lb ed="R042" n="0017a15"/>為般若之極功也問前色空雙立今何一切皆無
 <lb ed="X" n="0890a10"/><lb ed="R042" n="0017a16"/>答前之所立立而未嘗不盡今之所無無而未嘗
 <lb ed="X" n="0890a11"/><lb ed="R042" n="0017a17"/>不存蓋言有者但有其相而性元無也言無者但
@@ -222,7 +227,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0890b02"/><lb ed="R042" n="0017b14"/>正等正覺也涅槃是佛之斷果正覺是佛之智果
 <lb ed="X" n="0890b03"/><lb ed="R042" n="0017b15"/>今菩薩言涅槃佛言正覺者乃佛語互略意必俱
 <lb ed="X" n="0890b04"/><lb ed="R042" n="0017b16"/>備也問前既言無所得今又言有所得何也答此
-<lb ed="X" n="0890b05"/><lb ed="R042" n="0017b17"/>有所得正得無所得而<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>非別有所得也。</p></cb:div>
+<lb ed="X" n="0890b05"/><lb ed="R042" n="0017b17"/>有所得正得無所得而<anchor xml:id="nkr_note_add_0890b0501" n="0890b0501"/><anchor xml:id="beg0890b0501" n="0890b0501"/>已<anchor xml:id="end0890b0501"/>非別有所得也。</p></cb:div>
 <lb ed="X" n="0890b06"/><lb ed="R042" n="0017b18"/><cb:div type="orig"><p xml:id="pX26p0890b0601">故知般若波羅蜜多是大神呪是大明呪是無上呪
 <lb ed="X" n="0890b07"/><lb ed="R042" n="0018a01"/>是無等等呪能除一切苦真實不虗故說般若波羅
 <lb ed="X" n="0890b08"/><lb ed="R042" n="0018a02"/>蜜多呪即說呪曰羯帝羯帝波羅羯帝波羅僧羯帝
@@ -245,8 +250,15 @@ basicx 程式 轉自 簡單標記版
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0890a0801" to="#end0890a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0890b0501" to="#end0890b0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0890a0801" resp="#resp1" type="add" target="#nkr_note_add_0890a0801">已【CB】，巳【卍續】</note>
+<note n="0890b0501" resp="#resp1" type="add" target="#nkr_note_add_0890b0501">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

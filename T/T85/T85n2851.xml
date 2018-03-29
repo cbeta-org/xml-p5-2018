@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2851</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -159,7 +163,7 @@ Added comment  for Emacs
 <lb n="1300b08" ed="T"/>和云。諸菩薩莫殺生。殺生必當墮大抗。殺命
 <lb n="1300b09" ed="T"/>來生短命報。娑婆兩目傷雙盲。勸請道場諸
 <lb n="1300b10" ed="T"/>眾等共斷殺業不須行。佛子諸菩薩莫偷盜
-<lb n="1300b11" ed="T"/>得物。猶孃少死後即作畜生身被毛<anchor xml:id="beg_1" type="cb-app"/>戴<anchor xml:id="end_1"/>角來
+<lb n="1300b11" ed="T"/>得物。猶孃少死後即作畜生身被毛<anchor xml:id="nkr_note_add_1300b1101" n="1300b1101"/><anchor xml:id="beg1300b1101" n="1300b1101"/>戴<anchor xml:id="end1300b1101"/>角來
 <lb n="1300b12" ed="T"/>相報。終日驅牽不停息。無有功夫食水草。猶
 <lb n="1300b13" ed="T"/>□迷心不覺知。是故慇懃重報。佛子。諸菩薩
 <lb n="1300b14" ed="T"/>莫邪婬。邪婬顛倒罪根涼鐵床<g ref="#CB03790">㞧</g><g ref="#CB03790">㞧</g>來相向。
@@ -208,13 +212,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>戴<note type="cf1">T47n1979_p0426c05</note></corr><sic>載</sic></choice>
+<app from="#beg1300b1101" to="#end1300b1101"><lem wit="#wit1" resp="#resp2">戴<note type="cf1">T47n1979_p0426c05</note></lem><rdg wit="#wit2">載</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1300002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1300002">【原】大英博物館藏燉煌本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1300b1101" resp="#resp2" type="add" target="#nkr_note_add_1300b1101">戴【CB】，載【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -32,7 +32,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Chinese Translation of the Pāḷi Tipiṭaka (Yuan Heng Temple Edition) Vol. 70, No. 37</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【南傳】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -1035,7 +1039,7 @@ $Log:$
 <lb ed="N" n="0172a01"/><p xml:id="pN70p0172a0101">七</p><lg xml:id="lgN70p0172a0101" type="abnormal"><l rend="text-indent:5em">若依自性<anchor xml:id="nkr_note_orig_0172013" n="0172013"/>、欲、心、捨、信、輕安、</l>
 <lb ed="N" n="0172a02"/><l rend="text-indent:5em">喜、正見、思惟、精住、三離<anchor xml:id="nkr_note_orig_0172014" n="0172014"/>、正念、</l>
 <lb ed="N" n="0172a03"/><l rend="text-indent:5em">及禪定，此等十四，其中</l>
-<lb ed="N" n="0172a04"/><l rend="text-indent:5em">其中分別三十七，總攝者便成七種<anchor xml:id="beg_1" type="cb-app"/><space quantity="0"/><anchor xml:id="end_1"/>。</l>
+<lb ed="N" n="0172a04"/><l rend="text-indent:5em">其中分別三十七，總攝者便成七種<anchor xml:id="nkr_note_add_0172a0401" n="0172a0401"/><anchor xml:id="beg0172a0401" n="0172a0401"/><space quantity="0"/><anchor xml:id="end0172a0401"/>。</l>
 <lb ed="N" n="0172a05"/><l rend="text-indent:5em">思惟輕安喜捨欲，心三離九<anchor xml:id="nkr_note_orig_0172015" n="0172015"/>各一處，</l>
 <lb ed="N" n="0172a06"/><l rend="text-indent:5em">精進有九<anchor xml:id="nkr_note_orig_0172016" n="0172016"/>念<anchor xml:id="nkr_note_orig_0172017" n="0172017"/>〔八處〕，定有四<anchor xml:id="nkr_note_orig_0172018" n="0172018"/>慧有五<anchor xml:id="nkr_note_orig_0172019" n="0172019"/>處，</l>
 <lb ed="N" n="0172a07"/><l rend="text-indent:5em">信二<anchor xml:id="nkr_note_orig_0172020" n="0172020"/>處此三七法，為最勝最上分別。</l>
@@ -1378,7 +1382,7 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp3" cb:from="#beg_1" cb:to="#end_1"><corr><space quantity="0"/></corr><sic>[14]</sic></choice>
+<app from="#beg0172a0401" to="#end0172a0401"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">[14]</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
@@ -1387,7 +1391,7 @@ $Log:$
 <note n="0113016" resp="#resp2" type="mod" target="#nkr_note_mod_0113016">禪支（jhānaṅga）底本之 Thānaṅga 是誤植。以下二偈參照（Nāmarūpa-pariccheda）第二三、二四偈。（CBETA 按：漢譯南傳大藏經此頁有二個對應之註標[15]，今將此處的[15]註標修訂成[16]。）</note>
 <note n="0119004" resp="#resp2" type="mod" target="#nkr_note_mod_0119004">本偈同參照上第三一偈。（CBETA 按：漢譯南傳大藏經此頁中缺相對應之註標[04]，今於此處加上[04]之註標。）</note>
 <note n="0139008" resp="#resp2" type="mod" target="#nkr_note_mod_0139008">四十一是一意門轉向心、二十九欲界速行心、十一彼所緣心。（CBETA 按：漢譯南傳大藏經此頁中缺相對應之註標[08]，今於此處加上[08]之註標。）</note>
-<note n="0149006" resp="#resp2" type="mod" target="#nkr_note_mod_0149006">天之（dibba）數者，天之一<choice cb:resp="#resp3"><corr>晝</corr><sic>畫</sic></choice>夜相當於人界之五十年。故天之一年三百六十日相當於人間一萬八千年。如斯，天之五百歲為人間之九百萬歲。</note>
+<note n="0149006" resp="#resp2" type="mod" target="#nkr_note_mod_0149006">天之（dibba）數者，天之一晝夜相當於人界之五十年。故天之一年三百六十日相當於人間一萬八千年。如斯，天之五百歲為人間之九百萬歲。</note>
 <note n="0154018" resp="#resp2" type="mod" target="#nkr_note_mod_0154018">有基（savatthuka）之意是有心基之心指欲界、色界之心。無基（avatthuka）意是無心基之心而指無色界之心。（CBETA 按：漢譯南傳大藏經此頁中缺相對應之註標[18]，今於此處加上[18]之註標。）</note>
 <note n="0161007" resp="#resp2" type="mod" target="#nkr_note_mod_0161007">二十五種者是十二不善、欲界八善、色界五善。其中，十二不善中之掉舉心不取結生故，實際應取二十四種結生，但今概說之。（CBETA 按：漢譯南傳大藏經此頁中缺相對應之註標[07]，今於此處加上[07]之註標。）</note>
 </p>
@@ -1598,6 +1602,12 @@ $Log:$
 <note n="0190019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0190019">對於至出起而觀（vuṭṭhānagāminī-vipassanā）參照 Visuddhi-magga p. 661 f.（漢譯清淨道論三．三八五頁以下）。</note>
 <note n="0191020" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0191020">關於以下諸聖者，參照 Visuddhi-magga p. 709 f.（漢譯清淨道論三．四六五頁）。</note>
 <note n="0191021" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0191021">關於滅定，參照 Visuddhi-magga p. 702 f.（漢譯清淨道論三．四五五頁以下）。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0172a0401" resp="#resp2" type="add" target="#nkr_note_add_0172a0401">［－］【CB】，[14]【南傳】</note>
 </p>
 </cb:div>
 </back></text></TEI>

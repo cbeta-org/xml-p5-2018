@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2012/03/02 09:50:09 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>4卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Zhonghua Canon (Chunghwa Book Edition) Vol. 97, No. 1821</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【中華】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -328,7 +333,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="C" xml:id="C097.1821.0081a" n="0081a"/>
 <lb ed="C" n="0081a01"/><milestone unit="juan" n="1"/><cb:div type="other"><cb:mulu type="其他" level="1">序</cb:mulu><head>楞伽經纂序</head>
 <lb ed="C" n="0081a02"/><p xml:id="pC097p0081a0201">洪惟此道不容以聲靈山破顏而法
-<lb ed="C" n="0081a03"/><anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>傳少林面壁而意默示惟授心要
+<lb ed="C" n="0081a03"/><anchor xml:id="nkr_note_add_0081a0301" n="0081a0301"/><anchor xml:id="beg0081a0301" n="0081a0301"/>已<anchor xml:id="end0081a0301"/>傳少林面壁而意默示惟授心要
 <lb ed="C" n="0081a04"/>不立言文俾之眉宇相得而大道無
 <lb ed="C" n="0081a05"/>餘針艾不施而沉痾頓釋奈何學者
 <lb ed="C" n="0081a06"/>膠於曩昔之業習搖於知見之風波
@@ -353,7 +358,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0081b04"/>觀於是纂敘玄樞為之詮注方啟琅
 <lb ed="C" n="0081b05"/>凾秘典蠲日施功果然金飾婦人中
 <lb ed="C" n="0081b06"/>宵見夢強鞭不敏鄙頌兼成願階學
-<lb ed="C" n="0081b07"/>徒目觀心了朞年之久四<anchor xml:id="beg_2" type="cb-app"/>軸<anchor xml:id="end_2"/><anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>周不
+<lb ed="C" n="0081b07"/>徒目觀心了朞年之久四<anchor xml:id="nkr_note_add_0081b0701" n="0081b0701"/><anchor xml:id="beg0081b0701" n="0081b0701"/>軸<anchor xml:id="end0081b0701"/><anchor xml:id="nkr_note_add_0081b0702" n="0081b0702"/><anchor xml:id="beg0081b0702" n="0081b0702"/>已<anchor xml:id="end0081b0702"/>周不
 <lb ed="C" n="0081b08"/>敢與正經竝行但號曰楞伽經纂遂
 <lb ed="C" n="0081b09"/>以百八句義列為七十餘門撮彼玄
 <lb ed="C" n="0081b10"/>機隨為摽目使學者披文得義以義
@@ -371,7 +376,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0081c01"/>句三輪句非三輪句相句非相句有
 <lb ed="C" n="0081c02"/>品句非有品句俱句非俱句緣自聖
 <lb ed="C" n="0081c03"/>智現法樂句非現法樂句剎土句非
-<lb ed="C" n="0081c04"/>剎土句阿<anchor xml:id="beg_4" type="cb-app"/><g ref="#CB00145">㝹</g><anchor xml:id="end_4"/>句非阿<anchor xml:id="beg_5" type="cb-app"/><g ref="#CB00145">㝹</g><anchor xml:id="end_5"/>句水句非水
+<lb ed="C" n="0081c04"/>剎土句阿<anchor xml:id="nkr_note_add_0081c0401" n="0081c0401"/><anchor xml:id="beg0081c0401" n="0081c0401"/><g ref="#CB00145">㝹</g><anchor xml:id="end0081c0401"/>句非阿<anchor xml:id="nkr_note_add_0081c0402" n="0081c0402"/><anchor xml:id="beg0081c0402" n="0081c0402"/><g ref="#CB00145">㝹</g><anchor xml:id="end0081c0402"/>句水句非水
 <lb ed="C" n="0081c05"/>句弓句非弓句實句非實句數句非
 <lb ed="C" n="0081c06"/>數句<note place="inline">此物之數也</note>數句非數句<note place="inline">此數霜縷切</note>明
 <lb ed="C" n="0081c07"/>句非明句虛空句非虛空句雲句非
@@ -450,7 +455,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0082c17"/><l>若有若無有</l><l>是二悉俱離</l>
 <lb ed="C" n="0082c18"/><l>牟尼寂靜觀</l><l>是則遠離生</l>
 <lb ed="C" n="0082c19"/><l>是名為不取</l><l>今世後世淨</l></lg>
-<lb ed="C" n="0082c20"/><p xml:id="pC097p0082c2001">爾時大慧菩薩偈讚佛<anchor xml:id="beg_6" type="cb-app"/>已<anchor xml:id="end_6"/>自說姓名。</p>
+<lb ed="C" n="0082c20"/><p xml:id="pC097p0082c2001">爾時大慧菩薩偈讚佛<anchor xml:id="nkr_note_add_0082c2001" n="0082c2001"/><anchor xml:id="beg0082c2001" n="0082c2001"/>已<anchor xml:id="end0082c2001"/>自說姓名。</p>
 <pb ed="C" xml:id="C097.1821.0083a" n="0083a"/>
 <lb ed="C" n="0083a01"/><lg xml:id="lgC097p0083a0101"><l>我名為大慧</l><l>通達於大乘</l>
 <lb ed="C" n="0083a02"/><l>今以百八義</l><l>仰諮尊中上</l>
@@ -479,7 +484,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0083b04"/><l>何因得神通</l><l>及自在三昧</l>
 <lb ed="C" n="0083b05"/><l>云何三昧心</l><l>最勝為我說</l>
 <lb ed="C" n="0083b06"/><l>云何名為藏</l><l>云何意及識</l>
-<lb ed="C" n="0083b07"/><l>云何生與滅</l><l>云何見<anchor xml:id="beg_7" type="cb-app"/>已<anchor xml:id="end_7"/>還</l>
+<lb ed="C" n="0083b07"/><l>云何生與滅</l><l>云何見<anchor xml:id="nkr_note_add_0083b0701" n="0083b0701"/><anchor xml:id="beg0083b0701" n="0083b0701"/>已<anchor xml:id="end0083b0701"/>還</l>
 <lb ed="C" n="0083b08"/><l>云何為種姓</l><l>非種及心量</l>
 <lb ed="C" n="0083b09"/><l>云何建立相</l><l>及與非我義</l>
 <lb ed="C" n="0083b10"/><l>云何無眾生</l><l>云何世俗說</l>
@@ -596,7 +601,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0085a16"/><l>鉢他幾<g ref="#CB00931">󰎣</g>麥</l><l>阿羅<g ref="#CB00931">󰎣</g>麥幾</l>
 <lb ed="C" n="0085a17"/><l>獨籠那佉梨</l><l>勒叉及舉利</l>
 <lb ed="C" n="0085a18"/><l>乃至頻婆羅</l><l>是各有幾數</l>
-<lb ed="C" n="0085a19"/><l>為有幾阿<anchor xml:id="beg_8" type="cb-app"/><g ref="#CB00145">㝹</g><anchor xml:id="end_8"/></l><l>名舍梨沙婆</l>
+<lb ed="C" n="0085a19"/><l>為有幾阿<anchor xml:id="nkr_note_add_0085a1901" n="0085a1901"/><anchor xml:id="beg0085a1901" n="0085a1901"/><g ref="#CB00145">㝹</g><anchor xml:id="end0085a1901"/></l><l>名舍梨沙婆</l>
 <lb ed="C" n="0085a20"/><l>幾舍梨沙婆</l><l>名為一頼提</l>
 <pb ed="C" xml:id="C097.1821.0085b" n="0085b"/>
 <lb ed="C" n="0085b01"/><l>幾頼提摩沙</l><l>幾摩沙陀那</l>
@@ -606,8 +611,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0085b05"/><l>是等所應請</l><l>何須問餘事</l>
 <lb ed="C" n="0085b06"/><l>聲聞辟支佛</l><l>佛及最勝子</l>
 <lb ed="C" n="0085b07"/><l>身各有幾數</l><l>何故不問此</l>
-<lb ed="C" n="0085b08"/><l>火<g ref="#CB08504">𦦨</g>幾阿<anchor xml:id="beg_9" type="cb-app"/><g ref="#CB00145">㝹</g><anchor xml:id="end_9"/></l><l>風阿<anchor xml:id="beg_a" type="cb-app"/><g ref="#CB00145">㝹</g><anchor xml:id="end_a"/>復幾</l>
-<lb ed="C" n="0085b09"/><l>根根幾阿<anchor xml:id="beg_b" type="cb-app"/><g ref="#CB00145">㝹</g><anchor xml:id="end_b"/></l><l>毛孔眉毛幾</l>
+<lb ed="C" n="0085b08"/><l>火<g ref="#CB08504">𦦨</g>幾阿<anchor xml:id="nkr_note_add_0085b0801" n="0085b0801"/><anchor xml:id="beg0085b0801" n="0085b0801"/><g ref="#CB00145">㝹</g><anchor xml:id="end0085b0801"/></l><l>風阿<anchor xml:id="nkr_note_add_0085b0802" n="0085b0802"/><anchor xml:id="beg0085b0802" n="0085b0802"/><g ref="#CB00145">㝹</g><anchor xml:id="end0085b0802"/>復幾</l>
+<lb ed="C" n="0085b09"/><l>根根幾阿<anchor xml:id="nkr_note_add_0085b0901" n="0085b0901"/><anchor xml:id="beg0085b0901" n="0085b0901"/><g ref="#CB00145">㝹</g><anchor xml:id="end0085b0901"/></l><l>毛孔眉毛幾</l>
 <lb ed="C" n="0085b10"/><l>護財自在王</l><l>轉輪聖帝王</l>
 <lb ed="C" n="0085b11"/><l>云何王守護</l><l>云何為解脫</l>
 <lb ed="C" n="0085b12"/><l>廣說及句說</l><l>如汝之所問</l>
@@ -620,7 +625,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0085b19"/><l>云何無因作</l><l>云何有因作</l>
 <lb ed="C" n="0085b20"/><l>有因無因作</l><l>及非有無因</l>
 <pb ed="C" xml:id="C097.1821.0085c" n="0085c"/>
-<lb ed="C" n="0085c01"/><l>云何現<anchor xml:id="beg_c" type="cb-app"/>已<anchor xml:id="end_c"/>滅</l><l>云何淨諸覺</l>
+<lb ed="C" n="0085c01"/><l>云何現<anchor xml:id="nkr_note_add_0085c0101" n="0085c0101"/><anchor xml:id="beg0085c0101" n="0085c0101"/>已<anchor xml:id="end0085c0101"/>滅</l><l>云何淨諸覺</l>
 <lb ed="C" n="0085c02"/><l>云何諸覺轉</l><l>及轉諸所作</l>
 <lb ed="C" n="0085c03"/><l>云何斷諸想</l><l>云何三昧起</l>
 <lb ed="C" n="0085c04"/><l>破三有者誰</l><l>何處為何身</l>
@@ -665,7 +670,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0086b01"/>句三輪句非三輪句相句非相句有
 <lb ed="C" n="0086b02"/>品句非有品句俱句非俱句緣自聖
 <lb ed="C" n="0086b03"/>智現法樂句非現法樂句剎土句非
-<lb ed="C" n="0086b04"/>剎土句阿<anchor xml:id="beg_d" type="cb-app"/><g ref="#CB00145">㝹</g><anchor xml:id="end_d"/>句非阿<anchor xml:id="beg_e" type="cb-app"/><g ref="#CB00145">㝹</g><anchor xml:id="end_e"/>句水句非水
+<lb ed="C" n="0086b04"/>剎土句阿<anchor xml:id="nkr_note_add_0086b0401" n="0086b0401"/><anchor xml:id="beg0086b0401" n="0086b0401"/><g ref="#CB00145">㝹</g><anchor xml:id="end0086b0401"/>句非阿<anchor xml:id="nkr_note_add_0086b0402" n="0086b0402"/><anchor xml:id="beg0086b0402" n="0086b0402"/><g ref="#CB00145">㝹</g><anchor xml:id="end0086b0402"/>句水句非水
 <lb ed="C" n="0086b05"/>句弓句非弓句實句非實句數句非
 <lb ed="C" n="0086b06"/>數句。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0086b0603" rend="margin-left:1em;inline"><note place="inline">此物之數也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0086b0608" rend="inline">數句非數句。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0086b0613" rend="margin-left:1em;inline"><note place="inline">此數霜縷切</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0086b0618" rend="inline">明
 <lb ed="C" n="0086b07"/>句非明句虛空句非虛空句雲句非
@@ -763,7 +768,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0087c15"/>生知見立自本心不知陰界藏身徒然以佛覔佛一則依他境界一則以
 <lb ed="C" n="0087c16"/>心緣心二病未除妄相相續故如來必欲從緣俱息依因竝<g ref="#CB13378">󳑂</g>轉業兼離
 <lb ed="C" n="0087c17"/>真相永淨是道也非從他得只是家珍目前歷歷孤明認著依前埋沒不
-<lb ed="C" n="0087c18"/>湏取捨本自圓成但離妄緣即是實際佛語心品明此而<anchor xml:id="beg_f" type="cb-app"/>已<anchor xml:id="end_f"/></note>。</p><p xml:id="pC097p0087c1824" rend="margin-left:1em;inline"><note place="inline">頌曰如何
+<lb ed="C" n="0087c18"/>湏取捨本自圓成但離妄緣即是實際佛語心品明此而<anchor xml:id="nkr_note_add_0087c1801" n="0087c1801"/><anchor xml:id="beg0087c1801" n="0087c1801"/>已<anchor xml:id="end0087c1801"/></note>。</p><p xml:id="pC097p0087c1824" rend="margin-left:1em;inline"><note place="inline">頌曰如何
 <lb ed="C" n="0087c19"/>歷劫沉生死只為從前有識因當覺二生無別體要知八相亦非塵有情
 <lb ed="C" n="0087c20"/>須信唯心起分別都緣妄想薰若覆根塵皆不實就中不滅相還真</note>。</p></cb:div></cb:div>
 <pb ed="C" xml:id="C097.1821.0088a" n="0088a"/>
@@ -782,11 +787,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0088a13"/>惡見共。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0088a1304" rend="margin-left:1em;inline"><note place="inline">採諸境而集於心曰集心生則性生曰性性生而相現曰
 <lb ed="C" n="0088a14"/>相四大從之曰大種依他而生曰因緣因而作曰緣覺性圓照曰成如如
 <lb ed="C" n="0088a15"/>真相中不容他緣妄情生幻出諸性唯是大覺照觀真源達彼性生無非
-<lb ed="C" n="0088a16"/>妄幻彼諸體寂本空皆是覺心自為現量知自現<anchor xml:id="beg_10" type="cb-app"/>已<anchor xml:id="end_10"/>乃滅幻塵幻滅覺圓
+<lb ed="C" n="0088a16"/>妄幻彼諸體寂本空皆是覺心自為現量知自現<anchor xml:id="nkr_note_add_0088a1601" n="0088a1601"/><anchor xml:id="beg0088a1601" n="0088a1601"/>已<anchor xml:id="end0088a1601"/>乃滅幻塵幻滅覺圓
 <lb ed="C" n="0088a17"/>即如如爾楞伽自性盖皆如此道光返照一心故曰心明心必本於燭邪
 <lb ed="C" n="0088a18"/>之慧故曰慧用慧必貴於決斷之智故曰智有智而後正見明故曰見有
 <lb ed="C" n="0088a19"/>正見者然後超有無故曰超二見超二見然後超佛子地故曰子地超子
-<lb ed="C" n="0088a20"/>地<anchor xml:id="beg_11" type="cb-app"/>已<anchor xml:id="end_11"/>然後捨法雲之灌頂登正覺之道場故曰如來自到如來以出世心
+<lb ed="C" n="0088a20"/>地<anchor xml:id="nkr_note_add_0088a2001" n="0088a2001"/><anchor xml:id="beg0088a2001" n="0088a2001"/>已<anchor xml:id="end0088a2001"/>然後捨法雲之灌頂登正覺之道場故曰如來自到如來以出世心
 <pb ed="C" xml:id="C097.1821.0088b" n="0088b"/>
 <lb ed="C" n="0088b01"/>造此境界超諸塵妄過越邪宗外道不能踵其門二乘不能造其奧故曰
 <lb ed="C" n="0088b02"/>第一義夫一心本寂烏有性相萬法皆空孰名境界然如來言自性不同
@@ -798,16 +803,16 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0088b08"/>作二見論。復次大慧。妄想三有苦滅。
 <lb ed="C" n="0088b09"/>無知愛業緣滅。自心所現幻境隨見。
 <lb ed="C" n="0088b10"/>今當說。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0088b1004" rend="margin-left:1em;inline"><note place="inline">以三有苦滅故能覺見自心所現於所現境忽如幻化</note>。</p></cb:div>
-<lb ed="C" n="0088b11"/><cb:div type="orig"><p xml:id="pC097p0088b1101">大慧。若有沙門婆羅門。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0088b1110" rend="margin-left:1em;inline"><note place="inline">自沙門<anchor xml:id="beg_12" type="cb-app"/>已<anchor xml:id="end_12"/>下至妄稱一切
+<lb ed="C" n="0088b11"/><cb:div type="orig"><p xml:id="pC097p0088b1101">大慧。若有沙門婆羅門。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0088b1110" rend="margin-left:1em;inline"><note place="inline">自沙門<anchor xml:id="nkr_note_add_0088b1101" n="0088b1101"/><anchor xml:id="beg0088b1101" n="0088b1101"/>已<anchor xml:id="end0088b1101"/>下至妄稱一切
 <lb ed="C" n="0088b12"/>智說皆外道見</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0088b1207" rend="inline">欲令無種有種因果現及事
-<lb ed="C" n="0088b13"/>時住。緣陰界入生住。或言生<anchor xml:id="beg_13" type="cb-app"/>已<anchor xml:id="end_13"/>滅。彼
+<lb ed="C" n="0088b13"/>時住。緣陰界入生住。或言生<anchor xml:id="nkr_note_add_0088b1301" n="0088b1301"/><anchor xml:id="beg0088b1301" n="0088b1301"/>已<anchor xml:id="end0088b1301"/>滅。彼
 <lb ed="C" n="0088b14"/>若相續若事若生若有若涅槃若道
 <lb ed="C" n="0088b15"/>若業若果若諦。破壞斷滅論。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0088b1512" rend="margin-left:1em;inline"><note place="inline">外道斷見於若
 <lb ed="C" n="0088b16"/>相續等句一切破壞而斷滅之</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0088b1613" rend="inline">所以者何。以此現前
 <lb ed="C" n="0088b17"/>不可得。及見始非分故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0088b1710" rend="margin-left:1em;inline"><note place="inline">以不見根本故曰見始非
 <lb ed="C" n="0088b18"/>分</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0088b1802" rend="inline">譬如破缾不作缾事。亦如焦種不
 <lb ed="C" n="0088b19"/>作牙事。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0088b1904" rend="margin-left:1em;inline"><note place="inline">外道斷見於法悉如破缾焦種者</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0088b1917" rend="inline">如是大慧
-<lb ed="C" n="0088b20"/>若陰界入性<anchor xml:id="beg_14" type="cb-app"/>已<anchor xml:id="end_14"/>滅今滅當滅。自心妄
+<lb ed="C" n="0088b20"/>若陰界入性<anchor xml:id="nkr_note_add_0088b2001" n="0088b2001"/><anchor xml:id="beg0088b2001" n="0088b2001"/>已<anchor xml:id="end0088b2001"/>滅今滅當滅。自心妄
 <pb ed="C" xml:id="C097.1821.0088c" n="0088c"/>
 <lb ed="C" n="0088c01"/>想見無因故。彼無次第生。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0088c0111" rend="margin-left:1em;inline"><note place="inline">彼欲一切斷滅使妄
 <lb ed="C" n="0088c02"/>想無因則無生也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0088c0208" rend="inline">大慧。若復說有種無種識。
@@ -816,14 +821,14 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0088c05"/>是過。所作事業悉空無義。大慧。彼諸
 <lb ed="C" n="0088c06"/>外道說有三緣合生者。所作方便因
 <lb ed="C" n="0088c07"/>果自相。過去未來現在有種無種相。
-<lb ed="C" n="0088c08"/>從本<anchor xml:id="beg_15" type="cb-app"/>已<anchor xml:id="end_15"/>來成事相。承覺想地轉。自見
+<lb ed="C" n="0088c08"/>從本<anchor xml:id="nkr_note_add_0088c0801" n="0088c0801"/><anchor xml:id="beg0088c0801" n="0088c0801"/>已<anchor xml:id="end0088c0801"/>來成事相。承覺想地轉。自見
 <lb ed="C" n="0088c09"/>過習氣作如是說。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0088c0908" rend="margin-left:1em;inline"><note place="inline">外道以三相承彼覺想之地轉而不
-<lb ed="C" n="0088c10"/>自知非自覺而隨境有覺曰覺想過在<anchor xml:id="beg_16" type="cb-app"/>己<anchor xml:id="end_16"/>見曰自見過</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0088c1022" rend="inline">如是愚
+<lb ed="C" n="0088c10"/>自知非自覺而隨境有覺曰覺想過在<anchor xml:id="nkr_note_add_0088c1001" n="0088c1001"/><anchor xml:id="beg0088c1001" n="0088c1001"/>己<anchor xml:id="end0088c1001"/>見曰自見過</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0088c1022" rend="inline">如是愚
 <lb ed="C" n="0088c11"/>癡凢夫惡見所害。邪曲迷醉。無智妄
 <lb ed="C" n="0088c12"/>稱一切智說。大慧。若復諸餘沙門婆
 <lb ed="C" n="0088c13"/>羅門。見離自性浮雲火輪揵闥婆城
 <lb ed="C" n="0088c14"/>無生幻燄水月及夢。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0088c1409" rend="margin-left:1em;inline"><note place="inline">數者虛幻而謂有自性以喻妄
-<lb ed="C" n="0088c15"/>念沙門若正見當離此也自諸餘沙門<anchor xml:id="beg_17" type="cb-app"/>已<anchor xml:id="end_17"/>下皆論正見與外道異</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0088c1526" rend="inline">內
+<lb ed="C" n="0088c15"/>念沙門若正見當離此也自諸餘沙門<anchor xml:id="nkr_note_add_0088c1501" n="0088c1501"/><anchor xml:id="beg0088c1501" n="0088c1501"/>已<anchor xml:id="end0088c1501"/>下皆論正見與外道異</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0088c1526" rend="inline">內
 <lb ed="C" n="0088c16"/>外心現妄想。無始虛偽不離自心。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0088c1614" rend="margin-left:1em;inline"><note place="inline">所以
 <lb ed="C" n="0088c17"/>能離彼自性者以覺知所現妄偽悉不離自心故</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0088c1720" rend="inline">妄想因緣
 <lb ed="C" n="0088c18"/>滅盡。離妄想說所說觀所觀。及受用
@@ -951,7 +956,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0090c14"/><p xml:id="pC097p0090c1401">爾時大慧菩薩復說偈曰。</p>
 <lb ed="C" n="0090c15"/><lg xml:id="lgC097p0090c1501"><l>日出光等照</l><l>下中上眾生</l>
 <lb ed="C" n="0090c16"/><l>如來照世間</l><l>為愚說真實</l>
-<lb ed="C" n="0090c17"/><l><anchor xml:id="beg_18" type="cb-app"/>已<anchor xml:id="end_18"/>分部諸法</l><l>何故不說實</l></lg>
+<lb ed="C" n="0090c17"/><l><anchor xml:id="nkr_note_add_0090c1701" n="0090c1701"/><anchor xml:id="beg0090c1701" n="0090c1701"/>已<anchor xml:id="end0090c1701"/>分部諸法</l><l>何故不說實</l></lg>
 <lb ed="C" n="0090c18"/><p xml:id="pC097p0090c1801">爾時世尊以偈荅曰。</p>
 <lb ed="C" n="0090c19"/><lg xml:id="lgC097p0090c1901"><l>若說真實者</l><l>彼心無真實</l>
 <lb ed="C" n="0090c20"/><l>譬如海波浪</l><l>鏡中像及夢</l>
@@ -986,11 +991,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0091b07"/>離覺想始無生</note>。</p></cb:div></cb:div>
 <lb ed="C" n="0091b08"/><cb:div type="other"><cb:mulu type="其他" level="2">超乘證幻分第四</cb:mulu><head>超乘證幻分第四</head>
 <lb ed="C" n="0091b09"/><cb:div type="orig"><p xml:id="pC097p0091b0901">復次大慧。菩薩摩訶薩建立智慧相
-<lb ed="C" n="0091b10"/>住<anchor xml:id="beg_19" type="cb-app"/>已<anchor xml:id="end_19"/>。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0091b1003" rend="margin-left:1em;inline"><note place="inline">能了識明心即住於智慧故曰建立智慧相住<anchor xml:id="beg_1a" type="cb-app"/>已<anchor xml:id="end_1a"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0091b1022" rend="inline">於上
+<lb ed="C" n="0091b10"/>住<anchor xml:id="nkr_note_add_0091b1001" n="0091b1001"/><anchor xml:id="beg0091b1001" n="0091b1001"/>已<anchor xml:id="end0091b1001"/>。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0091b1003" rend="margin-left:1em;inline"><note place="inline">能了識明心即住於智慧故曰建立智慧相住<anchor xml:id="nkr_note_add_0091b1002" n="0091b1002"/><anchor xml:id="beg0091b1002" n="0091b1002"/>已<anchor xml:id="end0091b1002"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0091b1022" rend="inline">於上
 <lb ed="C" n="0091b11"/>聖智三相當勤修學。何等為聖智三
 <lb ed="C" n="0091b12"/>相當勤修學。所謂無所有相。一切諸
 <lb ed="C" n="0091b13"/>佛自願處相。自覺聖智究竟之相。修
-<lb ed="C" n="0091b14"/>行得此<anchor xml:id="beg_1b" type="cb-app"/>已<anchor xml:id="end_1b"/>。能捨跛驢心慧智相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0091b1413" rend="margin-left:1em;inline"><note place="inline">謂第七地
+<lb ed="C" n="0091b14"/>行得此<anchor xml:id="nkr_note_add_0091b1401" n="0091b1401"/><anchor xml:id="beg0091b1401" n="0091b1401"/>已<anchor xml:id="end0091b1401"/>。能捨跛驢心慧智相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0091b1413" rend="margin-left:1em;inline"><note place="inline">謂第七地
 <lb ed="C" n="0091b15"/>觀三界生死不定心名跛驢以不能行故</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0091b1517" rend="inline">得最勝子第八
 <lb ed="C" n="0091b16"/>之地。則於彼上三相修生大慧。無所
 <lb ed="C" n="0091b17"/>有相者。謂聲聞緣覺及外道相。彼修
@@ -1045,7 +1050,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0092b03"/>境界離。不應作牛有角想。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0092b0311" rend="margin-left:1em;inline"><note place="inline">兔無角想是墮斷見
 <lb ed="C" n="0092b04"/>聖之所離恐其反此復墮常見而興牛有角想故又言不應作牛有角想</note>。</p></cb:div>
 <lb ed="C" n="0092b05"/><cb:div type="orig"><p xml:id="pC097p0092b0501">爾時大慧菩薩白佛言世尊。得無妄
-<lb ed="C" n="0092b06"/>想者見不生想<anchor xml:id="beg_1c" type="cb-app"/>已<anchor xml:id="end_1c"/>。隨比思量觀察不
+<lb ed="C" n="0092b06"/>想者見不生想<anchor xml:id="nkr_note_add_0092b0601" n="0092b0601"/><anchor xml:id="beg0092b0601" n="0092b0601"/>已<anchor xml:id="end0092b0601"/>。隨比思量觀察不
 <lb ed="C" n="0092b07"/>生妄想言無耶。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0092b0707" rend="margin-left:1em;inline"><note place="inline">大慧謂隨比而思之見妄不生而遂言無
 <lb ed="C" n="0092b08"/>耶此疑辭也</note>。</p></cb:div>
 <lb ed="C" n="0092b09"/><cb:div type="orig"><p xml:id="pC097p0092b0901">佛告大慧。非觀察不生妄想言無。所
@@ -1100,7 +1105,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0093a16"/><cb:div type="orig"><p xml:id="pC097p0093a1601">爾時大慧菩薩。為淨除自心現流故。
 <lb ed="C" n="0093a17"/>復請如來。白佛言世尊。云何淨除一
 <lb ed="C" n="0093a18"/>切眾生自心現流。為頓為漸耶。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0093a1813" rend="margin-left:1em;inline"><note place="inline">自心現習
-<lb ed="C" n="0093a19"/>氣流曰現流現流不<anchor xml:id="beg_1d" type="cb-app"/>已<anchor xml:id="end_1d"/>輪轉生死如來於諸眾生蠲彼幻塵悉還實相故
+<lb ed="C" n="0093a19"/>氣流曰現流現流不<anchor xml:id="nkr_note_add_0093a1901" n="0093a1901"/><anchor xml:id="beg0093a1901" n="0093a1901"/>已<anchor xml:id="end0093a1901"/>輪轉生死如來於諸眾生蠲彼幻塵悉還實相故
 <lb ed="C" n="0093a20"/>以漸除為始頓照為成</note>。</p></cb:div>
 <pb ed="C" xml:id="C097.1821.0093b" n="0093b"/>
 <lb ed="C" n="0093b01"/><cb:div type="orig"><p xml:id="pC097p0093b0101">佛告大慧。漸淨非頓。如菴羅果漸熟
@@ -1129,7 +1134,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0093c03"/>如是。彼於法相有性無性惡見妄想。
 <lb ed="C" n="0093c04"/>照令除滅。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0093c0405" rend="margin-left:1em;inline"><note place="inline">法佛無作光明照耀者化佛也然化佛之照耀非離
 <lb ed="C" n="0093c05"/>法佛故曰依佛法佛者自覺聖智境界於法相有無惡見皆令除滅亦如
-<lb ed="C" n="0093c06"/>化佛之照耀也自菴羅果<anchor xml:id="beg_1e" type="cb-app"/>已<anchor xml:id="end_1e"/>下言漸淨自譬明鏡<anchor xml:id="beg_1f" type="cb-app"/>已<anchor xml:id="end_1f"/>下言頓熟</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0093c0625" rend="inline">大慧。
+<lb ed="C" n="0093c06"/>化佛之照耀也自菴羅果<anchor xml:id="nkr_note_add_0093c0601" n="0093c0601"/><anchor xml:id="beg0093c0601" n="0093c0601"/>已<anchor xml:id="end0093c0601"/>下言漸淨自譬明鏡<anchor xml:id="nkr_note_add_0093c0602" n="0093c0602"/><anchor xml:id="beg0093c0602" n="0093c0602"/>已<anchor xml:id="end0093c0602"/>下言頓熟</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0093c0625" rend="inline">大慧。
 <lb ed="C" n="0093c07"/>報佛說一切法。入自相共相自心現
 <lb ed="C" n="0093c08"/>習氣因。相續妄想自性計著因。種種
 <lb ed="C" n="0093c09"/>無實幻。種種計著不可得。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0093c0911" rend="margin-left:1em;inline"><note place="inline">種種計著亦如幻化
@@ -1167,7 +1172,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0094a20"/>計著相。云何得自覺聖差別相聲聞
 <pb ed="C" xml:id="C097.1821.0094b" n="0094b"/>
 <lb ed="C" n="0094b01"/>謂無常苦空無我境界真諦離欲寂
-<lb ed="C" n="0094b02"/>滅。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0094b0202" rend="margin-left:1em;inline"><note place="inline">謂於無常苦空等境界計著寂滅<anchor xml:id="beg_20" type="cb-app"/>已<anchor xml:id="end_20"/>得人無我未得法無我</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0094b0225" rend="inline">息
+<lb ed="C" n="0094b02"/>滅。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0094b0202" rend="margin-left:1em;inline"><note place="inline">謂於無常苦空等境界計著寂滅<anchor xml:id="nkr_note_add_0094b0201" n="0094b0201"/><anchor xml:id="beg0094b0201" n="0094b0201"/>已<anchor xml:id="end0094b0201"/>得人無我未得法無我</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0094b0225" rend="inline">息
 <lb ed="C" n="0094b03"/>陰界入自共相。外不壞相如實知。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0094b0314" rend="margin-left:1em;inline"><note place="inline">於陰
 <lb ed="C" n="0094b04"/>界外存不壞相是以無明與佛性為兩也皆自慧分別</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0094b0422" rend="inline">心得寂
 <lb ed="C" n="0094b05"/>止。心寂止已。禪定解脫。三昧道果正
@@ -1183,15 +1188,15 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0094b15"/>應修學。云何性妄想自性計著相聲
 <lb ed="C" n="0094b16"/>聞。所謂大種青黃赤白堅濕暖動非
 <lb ed="C" n="0094b17"/>作生自相共相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0094b1707" rend="margin-left:1em;inline"><note place="inline">一切自生而吾無作生故曰非作生</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0094b1721" rend="inline">先
-<lb ed="C" n="0094b18"/>勝善說見<anchor xml:id="beg_21" type="cb-app"/>已<anchor xml:id="end_21"/>。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0094b1806" rend="margin-left:1em;inline"><note place="inline">如來所說善事曰先勝善說</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0094b1817" rend="inline">於彼起
+<lb ed="C" n="0094b18"/>勝善說見<anchor xml:id="nkr_note_add_0094b1801" n="0094b1801"/><anchor xml:id="beg0094b1801" n="0094b1801"/>已<anchor xml:id="end0094b1801"/>。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0094b1806" rend="margin-left:1em;inline"><note place="inline">如來所說善事曰先勝善說</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0094b1817" rend="inline">於彼起
 <lb ed="C" n="0094b19"/>自性妄想。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0094b1905" rend="margin-left:1em;inline"><note place="inline">大種青黃本非作生於彼起非作生之自性先勝善
 <lb ed="C" n="0094b20"/>說本來無性於彼起善說之自性故曰性妄想自性是皆未入法無我相
 <pb ed="C" xml:id="C097.1821.0094c" n="0094c"/>
 <lb ed="C" n="0094c01"/>而有所計著故住聲聞</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0094c0110" rend="inline">菩薩摩訶薩於彼應知
 <lb ed="C" n="0094c02"/>應捨。隨入法無我相。滅人無我相見。
 <lb ed="C" n="0094c03"/>漸次諸地相續建立。是名諸聲聞性
-<lb ed="C" n="0094c04"/>妄想自性計著相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0094c0408" rend="margin-left:1em;inline"><note place="inline">頌曰号為自覺<anchor xml:id="beg_22" type="cb-app"/>已<anchor xml:id="end_22"/>無遺反墮聲聞不
-<lb ed="C" n="0094c05"/>自知<anchor xml:id="beg_23" type="cb-app"/>已<anchor xml:id="end_23"/>達苦空能寂止彼於習氣未能離優游正受雖其樂顧憫眾生不
+<lb ed="C" n="0094c04"/>妄想自性計著相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0094c0408" rend="margin-left:1em;inline"><note place="inline">頌曰号為自覺<anchor xml:id="nkr_note_add_0094c0401" n="0094c0401"/><anchor xml:id="beg0094c0401" n="0094c0401"/>已<anchor xml:id="end0094c0401"/>無遺反墮聲聞不
+<lb ed="C" n="0094c05"/>自知<anchor xml:id="nkr_note_add_0094c0501" n="0094c0501"/><anchor xml:id="beg0094c0501" n="0094c0501"/>已<anchor xml:id="end0094c0501"/>達苦空能寂止彼於習氣未能離優游正受雖其樂顧憫眾生不
 <lb ed="C" n="0094c06"/>帶悲更有一般聞勝善妄生自性却狐疑</note>。</p></cb:div></cb:div>
 <lb ed="C" n="0094c07"/><cb:div type="other"><cb:mulu type="其他" level="2">常不思議差別分第八</cb:mulu><head>常不思議差別分第八</head>
 <lb ed="C" n="0094c08"/><cb:div type="orig"><p xml:id="pC097p0094c0801">爾時大慧菩薩白佛言世尊。世尊所
@@ -1217,10 +1222,10 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0095a07"/><p xml:id="pC097p0095a0701">復次大慧。外道常不思議無常。性異
 <lb ed="C" n="0095a08"/>相因故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0095a0804" rend="margin-left:1em;inline"><note place="inline">外道常不思議以性及非性互相為因所以無常</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0095a0823" rend="inline">非
 <lb ed="C" n="0095a09"/>自作。因相力故常。復次大慧。諸外道
-<lb ed="C" n="0095a10"/>常不思議。於所作性非性無常。見<anchor xml:id="beg_24" type="cb-app"/>已<anchor xml:id="end_24"/>
+<lb ed="C" n="0095a10"/>常不思議。於所作性非性無常。見<anchor xml:id="nkr_note_add_0095a1001" n="0095a1001"/><anchor xml:id="beg0095a1001" n="0095a1001"/>已<anchor xml:id="end0095a1001"/>
 <lb ed="C" n="0095a11"/>思量計常。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0095a1105" rend="margin-left:1em;inline"><note place="inline">一切所作性與非性皆無常外道觀彼無常即自卜
 <lb ed="C" n="0095a12"/>度妄計我常</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0095a1206" rend="inline">大慧。我亦以如是因緣所作
-<lb ed="C" n="0095a13"/>者性非性無常。見<anchor xml:id="beg_25" type="cb-app"/>已<anchor xml:id="end_25"/>自覺聖境界。說
+<lb ed="C" n="0095a13"/>者性非性無常。見<anchor xml:id="nkr_note_add_0095a1301" n="0095a1301"/><anchor xml:id="beg0095a1301" n="0095a1301"/>已<anchor xml:id="end0095a1301"/>自覺聖境界。說
 <lb ed="C" n="0095a14"/>彼常無因故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0095a1406" rend="margin-left:1em;inline"><note place="inline">但惟自覺無因而說彼常也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0095a1417" rend="inline">若復諸
 <lb ed="C" n="0095a15"/>外道因相成常不思議。自因相性非
 <lb ed="C" n="0095a16"/>性同於兔角。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0095a1606" rend="margin-left:1em;inline"><note place="inline">謂外道雖因相成而非因於自相故曰性非性
@@ -1279,13 +1284,13 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0096a06"/><cb:div type="orig"><p xml:id="pC097p0096a0601">是名聲聞乘無間種性。聲聞無間見
 <lb ed="C" n="0096a07"/>第八地。起煩惱斷。習煩惱不斷。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0096a0713" rend="margin-left:1em;inline"><note place="inline">如波之起
 <lb ed="C" n="0096a08"/>曰起煩惱習煩惱謂習氣也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0096a0812" rend="inline">不度不思議變易死。
-<lb ed="C" n="0096a09"/>度分<g ref="#CB01008">󰏰</g>死。正師子吼。我生<anchor xml:id="beg_26" type="cb-app"/>已<anchor xml:id="end_26"/>盡。梵行
-<lb ed="C" n="0096a10"/><anchor xml:id="beg_27" type="cb-app"/>已<anchor xml:id="end_27"/>立。不受後有。如實知修習人無我。
+<lb ed="C" n="0096a09"/>度分<g ref="#CB01008">󰏰</g>死。正師子吼。我生<anchor xml:id="nkr_note_add_0096a0901" n="0096a0901"/><anchor xml:id="beg0096a0901" n="0096a0901"/>已<anchor xml:id="end0096a0901"/>盡。梵行
+<lb ed="C" n="0096a10"/><anchor xml:id="nkr_note_add_0096a1001" n="0096a1001"/><anchor xml:id="beg0096a1001" n="0096a1001"/>已<anchor xml:id="end0096a1001"/>立。不受後有。如實知修習人無我。
 <lb ed="C" n="0096a11"/>乃至得般涅槃覺。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0096a1108" rend="margin-left:1em;inline"><note place="inline">有涅槃想故曰得涅槃覺</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0096a1118" rend="inline">大慧。
 <lb ed="C" n="0096a12"/>各別無間者。我人眾生壽命長養士
 <lb ed="C" n="0096a13"/>夫。彼諸眾生作如是覺。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0096a1310" rend="margin-left:1em;inline"><note place="inline">謂作離四相見解者</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0096a1318" rend="inline">求
 <lb ed="C" n="0096a14"/>般涅槃。復有異外道說。悉由作者。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0096a1414" rend="margin-left:1em;inline"><note place="inline">言一
-<lb ed="C" n="0096a15"/>切性相皆是有作</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0096a1508" rend="inline">見一切性<anchor xml:id="beg_28" type="cb-app"/>已<anchor xml:id="end_28"/>。言此是般涅
+<lb ed="C" n="0096a15"/>切性相皆是有作</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0096a1508" rend="inline">見一切性<anchor xml:id="nkr_note_add_0096a1501" n="0096a1501"/><anchor xml:id="beg0096a1501" n="0096a1501"/>已<anchor xml:id="end0096a1501"/>。言此是般涅
 <lb ed="C" n="0096a16"/>槃。作如是覺。法無我見非分。彼無解
 <lb ed="C" n="0096a17"/>脫。此諸聲聞乘無間外道種性。不出
 <lb ed="C" n="0096a18"/>出覺。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0096a1803" rend="margin-left:1em;inline"><note place="inline">於未出中作出離想故曰不出出覺</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0096a1817" rend="inline">為轉彼惡見
@@ -1295,7 +1300,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0096b01"/>泣流淚。不相近緣。所有不著。種種自
 <lb ed="C" n="0096b02"/>身種種神通。若離若合種種變化。聞
 <lb ed="C" n="0096b03"/>說是時其心隨入。若知彼緣覺乘無
-<lb ed="C" n="0096b04"/>閒種性<anchor xml:id="beg_29" type="cb-app"/>已<anchor xml:id="end_29"/>。隨順為說緣覺之乘。是名
+<lb ed="C" n="0096b04"/>閒種性<anchor xml:id="nkr_note_add_0096b0401" n="0096b0401"/><anchor xml:id="beg0096b0401" n="0096b0401"/>已<anchor xml:id="end0096b0401"/>。隨順為說緣覺之乘。是名
 <lb ed="C" n="0096b05"/>緣覺乘無間種性相。大慧。彼如來乘
 <lb ed="C" n="0096b06"/>無間種性有四種。謂自性法無間種
 <lb ed="C" n="0096b07"/>性。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0096b0702" rend="margin-left:1em;inline"><note place="inline">自性法謂一切性彼自有性離性非性見</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0096b0718" rend="inline">離自性法無
@@ -1305,7 +1310,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0096b11"/>及說自心現身財建立不思議境界
 <lb ed="C" n="0096b12"/>時。心不驚怖者。是名如來乘無間種
 <lb ed="C" n="0096b13"/>性相。大慧。不定種性者。謂說彼三種
-<lb ed="C" n="0096b14"/>時。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0096b1402" rend="margin-left:1em;inline"><note place="inline">未到如來乘無間故言三種而<anchor xml:id="beg_2a" type="cb-app"/>已<anchor xml:id="end_2a"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0096b1415" rend="inline">隨說而入。隨彼
+<lb ed="C" n="0096b14"/>時。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0096b1402" rend="margin-left:1em;inline"><note place="inline">未到如來乘無間故言三種而<anchor xml:id="nkr_note_add_0096b1401" n="0096b1401"/><anchor xml:id="beg0096b1401" n="0096b1401"/>已<anchor xml:id="end0096b1401"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0096b1415" rend="inline">隨說而入。隨彼
 <lb ed="C" n="0096b15"/>而成。此是初治地者。謂種性建立。為
 <lb ed="C" n="0096b16"/>超入無所有地故作是建立。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0096b1612" rend="margin-left:1em;inline"><note place="inline">謂雖隨種性建
 <lb ed="C" n="0096b17"/>立要之不着聲聞緣覺之乘故能超入無所有地無所有地初地菩薩也
@@ -1338,15 +1343,15 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0097a02"/>者菩薩本自願方便故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0097a0210" rend="margin-left:1em;inline"><note place="inline">謂本意自願涅槃樂</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0097a0218" rend="inline">非
 <lb ed="C" n="0097a03"/>不般涅槃一切眾生而般涅槃。彼般
 <lb ed="C" n="0097a04"/>涅槃。是名不般涅槃法相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0097a0411" rend="margin-left:1em;inline"><note place="inline">涅槃法相乃真解脫
-<lb ed="C" n="0097a05"/>解脫者空無相無願今也本自願方便非不欲涅槃一切眾生<anchor xml:id="beg_2b" type="cb-app"/>已<anchor xml:id="end_2b"/>而後般
+<lb ed="C" n="0097a05"/>解脫者空無相無願今也本自願方便非不欲涅槃一切眾生<anchor xml:id="nkr_note_add_0097a0501" n="0097a0501"/><anchor xml:id="beg0097a0501" n="0097a0501"/>已<anchor xml:id="end0097a0501"/>而後般
 <lb ed="C" n="0097a06"/>涅槃畢竟自着於寂滅之相非無相無願也故曰不涅槃法相若夫如來
-<lb ed="C" n="0097a07"/>滅度一切眾生<anchor xml:id="beg_2c" type="cb-app"/>已<anchor xml:id="end_2c"/>而無有一眾生實滅度者以無相無願故</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0097a0724" rend="inline">此亦
+<lb ed="C" n="0097a07"/>滅度一切眾生<anchor xml:id="nkr_note_add_0097a0701" n="0097a0701"/><anchor xml:id="beg0097a0701" n="0097a0701"/>已<anchor xml:id="end0097a0701"/>而無有一眾生實滅度者以無相無願故</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0097a0724" rend="inline">此亦
 <lb ed="C" n="0097a08"/>到一闡提趣。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0097a0806" rend="margin-left:1em;inline"><note place="inline">此非為捨善根者說故曰亦到一闡提趣</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0097a0822" rend="inline">大
 <lb ed="C" n="0097a09"/>慧白佛言世尊。此中云何畢竟不般
 <lb ed="C" n="0097a10"/>涅槃。佛告大慧。菩薩一闡提者。知一
-<lb ed="C" n="0097a11"/>切法本來般涅槃<anchor xml:id="beg_2d" type="cb-app"/>已<anchor xml:id="end_2d"/>。畢竟不般涅槃
+<lb ed="C" n="0097a11"/>切法本來般涅槃<anchor xml:id="nkr_note_add_0097a1101" n="0097a1101"/><anchor xml:id="beg0097a1101" n="0097a1101"/>已<anchor xml:id="end0097a1101"/>。畢竟不般涅槃
 <lb ed="C" n="0097a12"/>而非捨一切善根一闡提也。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0097a1212" rend="margin-left:1em;inline"><note place="inline">謂知一切本來
-<lb ed="C" n="0097a13"/>涅槃<anchor xml:id="beg_2e" type="cb-app"/>已<anchor xml:id="end_2e"/>而自著於寂滅之相是墮斷見故曰畢竟不般涅槃</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0097a1324" rend="inline">大慧。
+<lb ed="C" n="0097a13"/>涅槃<anchor xml:id="nkr_note_add_0097a1301" n="0097a1301"/><anchor xml:id="beg0097a1301" n="0097a1301"/>已<anchor xml:id="end0097a1301"/>而自著於寂滅之相是墮斷見故曰畢竟不般涅槃</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0097a1324" rend="inline">大慧。
 <lb ed="C" n="0097a14"/>捨一切善根一闡提者。復以如來神
 <lb ed="C" n="0097a15"/>力故。或時善根生。所以者何。謂如來
 <lb ed="C" n="0097a16"/>不捨一切眾生故。以是故菩薩一闡
@@ -1361,7 +1366,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0097b04"/>從相生。大慧白佛言世尊。云何妄想
 <lb ed="C" n="0097b05"/>自性從相生。</p>
 <lb ed="C" n="0097b06"/><p xml:id="pC097p0097b0601">佛告大慧。緣起自性事相相。行顯現
-<lb ed="C" n="0097b07"/>事相相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0097b0704" rend="margin-left:1em;inline"><note place="inline">緣起謂心從緣起顯現謂所作<anchor xml:id="beg_2f" type="cb-app"/>已<anchor xml:id="end_2f"/>著於彼事相之相而計
+<lb ed="C" n="0097b07"/>事相相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0097b0704" rend="margin-left:1em;inline"><note place="inline">緣起謂心從緣起顯現謂所作<anchor xml:id="nkr_note_add_0097b0701" n="0097b0701"/><anchor xml:id="beg0097b0701" n="0097b0701"/>已<anchor xml:id="end0097b0701"/>著於彼事相之相而計
 <lb ed="C" n="0097b08"/>著之故曰事相相</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0097b0808" rend="inline">計著有二種妄想自性。如
 <lb ed="C" n="0097b09"/>來應供等正覺之所建立。謂名相計
 <lb ed="C" n="0097b10"/>著相。及事相計著相。名相計著相者。
@@ -1389,7 +1394,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0097c11"/>一切諸根自心現器身藏。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0097c1111" rend="margin-left:1em;inline"><note place="inline">由陰界入聚即生無
 <lb ed="C" n="0097c12"/>知業愛由攝受眼色等而計著之即生一切業識以此知一切諸根皆由
 <lb ed="C" n="0097c13"/>自心現出形器身財也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0097c1310" rend="inline">自妄想相施設顯示。如
-<lb ed="C" n="0097c14"/>河流如種子。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0097c1406" rend="margin-left:1em;inline"><note place="inline">生出不<anchor xml:id="beg_30" type="cb-app"/>已<anchor xml:id="end_30"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0097c1410" rend="inline">如燈。如風。如雲。剎
+<lb ed="C" n="0097c14"/>河流如種子。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0097c1406" rend="margin-left:1em;inline"><note place="inline">生出不<anchor xml:id="nkr_note_add_0097c1401" n="0097c1401"/><anchor xml:id="beg0097c1401" n="0097c1401"/>已<anchor xml:id="end0097c1401"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0097c1410" rend="inline">如燈。如風。如雲。剎
 <lb ed="C" n="0097c15"/>那展轉壞。躁動如猿猴。樂不淨處如
 <lb ed="C" n="0097c16"/>飛蠅。無厭足如風火。無始虛偽習氣
 <lb ed="C" n="0097c17"/>因如汲水輪。生死趣有輪。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0097c1711" rend="margin-left:1em;inline"><note place="inline">以有虛偽習氣之因
@@ -1398,7 +1403,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0097c20"/>之像因彼而現</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0097c2007" rend="inline">善彼相知。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0097c2011" rend="margin-left:1em;inline"><note place="inline">善彼相知謂善知彼相皆當遠離以
 <pb ed="C" xml:id="C097.1821.0098a" n="0098a"/>
 <lb ed="C" n="0098a01"/>前一離字該之若能善知即能遠離非假於滅之之斷見故但曰善彼相
-<lb ed="C" n="0098a02"/>知而<anchor xml:id="beg_31" type="cb-app"/>已<anchor xml:id="end_31"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0098a0204" rend="inline">是名人無我智。云何法無我智。
+<lb ed="C" n="0098a02"/>知而<anchor xml:id="nkr_note_add_0098a0201" n="0098a0201"/><anchor xml:id="beg0098a0201" n="0098a0201"/>已<anchor xml:id="end0098a0201"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0098a0204" rend="inline">是名人無我智。云何法無我智。
 <lb ed="C" n="0098a03"/>謂覺陰界入妄想相自性。如陰界入
 <lb ed="C" n="0098a04"/>離我我所。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0098a0405" rend="margin-left:1em;inline"><note place="inline">陰界妄想自性人也能覺而離之使離我我所則人
 <lb ed="C" n="0098a05"/>無我矣覺而離之者法也於其覺性又當離之亦如陰界入之離我我所
@@ -1409,7 +1414,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0098a10"/>我者所觀亦然故曰諸法亦爾</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0098a1013" rend="inline">離自共相不實妄想
 <lb ed="C" n="0098a11"/>相妄想力。是凡夫生。非聖賢也。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0098a1113" rend="margin-left:1em;inline"><note place="inline">一切虛偽
 <lb ed="C" n="0098a12"/>故曰不實妄想相如河流種子是也為彼驅使故曰妄想力如機發繩縛
-<lb ed="C" n="0098a13"/>是也但能離此則知人無我而<anchor xml:id="beg_32" type="cb-app"/>已<anchor xml:id="end_32"/>此凡夫所能離爾故曰非聖賢也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0098a1327" rend="inline">心
+<lb ed="C" n="0098a13"/>是也但能離此則知人無我而<anchor xml:id="nkr_note_add_0098a1301" n="0098a1301"/><anchor xml:id="beg0098a1301" n="0098a1301"/>已<anchor xml:id="end0098a1301"/>此凡夫所能離爾故曰非聖賢也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0098a1327" rend="inline">心
 <lb ed="C" n="0098a14"/>意識五法自性離故。菩薩摩訶薩當
 <lb ed="C" n="0098a15"/>善分別一切法無我。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0098a1509" rend="margin-left:1em;inline"><note place="inline">心意識五法自性離即至法無
 <lb ed="C" n="0098a16"/>我矣故繼之以菩薩當分別一切法無我也言菩薩當分別法無我凢以
@@ -1428,16 +1433,16 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0098b08"/>在法身。見法無我故。是名法無我相。</p></cb:div>
 <lb ed="C" n="0098b09"/><cb:div type="commentary"><p xml:id="pC097p0098b0901" rend="margin-left:1em"><note place="inline">聲聞地前皆未能了法無我故未能證如來自在法身於此始言當得如
 <lb ed="C" n="0098b10"/>來法身</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0098b1004" rend="inline">汝等諸菩薩應當修學。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0098b1013" rend="margin-left:1em;inline"><note place="inline">頌曰如來實相
-<lb ed="C" n="0098b11"/>等無差學者紛然亂似麻將謂<anchor xml:id="beg_33" type="cb-app"/>已<anchor xml:id="end_33"/>除人陰界誰知又被法雲遮慧燈自是
+<lb ed="C" n="0098b11"/>等無差學者紛然亂似麻將謂<anchor xml:id="nkr_note_add_0098b1101" n="0098b1101"/><anchor xml:id="beg0098b1101" n="0098b1101"/>已<anchor xml:id="end0098b1101"/>除人陰界誰知又被法雲遮慧燈自是
 <lb ed="C" n="0098b12"/>無狂燄定水從何覓覺花萬法了知如幻化莊嚴端坐法王家</note>。</p></cb:div></cb:div>
 <lb ed="C" n="0098b13"/><cb:div type="other"><cb:mulu type="其他" level="2">離建立誹謗分第十五</cb:mulu><head>離建立誹謗分第十五</head>
 <lb ed="C" n="0098b14"/><cb:div type="orig"><p xml:id="pC097p0098b1401">爾時大慧菩薩復白佛言世尊。建立
 <lb ed="C" n="0098b15"/>誹謗相唯願說之。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0098b1508" rend="margin-left:1em;inline"><note place="inline">本來空寂妄有所立曰建立或觀建
 <lb ed="C" n="0098b16"/>立自無所得而生誹謗故曰誹謗皆不明心量故</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0098b1620" rend="inline">令我及諸
 <lb ed="C" n="0098b17"/>菩薩離建立誹謗二邊惡見。疾得阿
-<lb ed="C" n="0098b18"/>耨多羅三藐三菩提。覺<anchor xml:id="beg_34" type="cb-app"/>已<anchor xml:id="end_34"/>。離常建立
+<lb ed="C" n="0098b18"/>耨多羅三藐三菩提。覺<anchor xml:id="nkr_note_add_0098b1801" n="0098b1801"/><anchor xml:id="beg0098b1801" n="0098b1801"/>已<anchor xml:id="end0098b1801"/>。離常建立
 <lb ed="C" n="0098b19"/>斷誹謗見。不謗正法。爾時世尊受大
-<lb ed="C" n="0098b20"/>慧菩薩請<anchor xml:id="beg_35" type="cb-app"/>已<anchor xml:id="end_35"/>而說偈言。</p>
+<lb ed="C" n="0098b20"/>慧菩薩請<anchor xml:id="nkr_note_add_0098b2001" n="0098b2001"/><anchor xml:id="beg0098b2001" n="0098b2001"/>已<anchor xml:id="end0098b2001"/>而說偈言。</p>
 <pb ed="C" xml:id="C097.1821.0098c" n="0098c"/>
 <lb ed="C" n="0098c01"/><lg xml:id="lgC097p0098c0101"><l>建立及誹謗</l><l>無有彼心量</l>
 <lb ed="C" n="0098c02"/><l>身受用建立</l><l>及心不能知</l>
@@ -1458,7 +1463,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0098c17"/>夫見建立。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0098c1705" rend="margin-left:1em;inline"><note place="inline">四相之見亦如陰界入之妄想虛偽是無見中而妄
 <lb ed="C" n="0098c18"/>立有見</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0098c1804" rend="inline">是名非有見建立相。非有因建
 <lb ed="C" n="0098c19"/>立相者。謂初識無因。生後不實如幻。
-<lb ed="C" n="0098c20"/>本不生。眼色明界念前生。生<anchor xml:id="beg_36" type="cb-app"/>已<anchor xml:id="end_36"/>實已
+<lb ed="C" n="0098c20"/>本不生。眼色明界念前生。生<anchor xml:id="nkr_note_add_0098c2001" n="0098c2001"/><anchor xml:id="beg0098c2001" n="0098c2001"/>已<anchor xml:id="end0098c2001"/>實已
 <pb ed="C" xml:id="C097.1821.0099a" n="0099a"/>
 <lb ed="C" n="0099a01"/>還壞。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0099a0103" rend="margin-left:1em;inline"><note place="inline">諸識本無所因以眼界色界無明界在念前而生則是於無因
 <lb ed="C" n="0099a02"/>中有建立也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0099a0206" rend="inline">是名非有因建立相。非有性
@@ -1484,7 +1489,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0099b01"/>佛剎聽受經法亦如幻夢水月未嘗一法有計著性者故龍宮滿字之浩
 <lb ed="C" n="0099b02"/>煩而如來云未曾說一字也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0099b0212" rend="inline">於一法離生滅斷常。
 <lb ed="C" n="0099b03"/>及離聲聞緣覺之法。得百千三昧。乃
-<lb ed="C" n="0099b04"/>至百千億那由他三昧。得三昧<anchor xml:id="beg_37" type="cb-app"/>已<anchor xml:id="end_37"/>。遊
+<lb ed="C" n="0099b04"/>至百千億那由他三昧。得三昧<anchor xml:id="nkr_note_add_0099b0401" n="0099b0401"/><anchor xml:id="beg0099b0401" n="0099b0401"/>已<anchor xml:id="end0099b0401"/>。遊
 <lb ed="C" n="0099b05"/>諸佛剎供養諸佛。生諸天宮宣揚三
 <lb ed="C" n="0099b06"/>寶。示現佛身聲聞菩薩大眾圍繞。以
 <lb ed="C" n="0099b07"/>自心現量度脫眾生。分別演說外性
@@ -1493,14 +1498,14 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0099b10"/><lg xml:id="lgC097p0099b1001"><l>心量世間</l><l>佛子觀察</l>
 <lb ed="C" n="0099b11"/><l>種類之身</l><l>離所作行</l>
 <lb ed="C" n="0099b12"/><l>得力神通</l><l>自在成就</l></lg></cb:div>
-<lb ed="C" n="0099b13"/><cb:div type="commentary"><p xml:id="pC097p0099b1301" rend="margin-left:1em"><note place="inline">頌曰<anchor xml:id="beg_38" type="cb-app"/>已<anchor xml:id="end_38"/>圓大智為懷悲却効眾生性相迷顯示法王諸像類宛如隨眾色
+<lb ed="C" n="0099b13"/><cb:div type="commentary"><p xml:id="pC097p0099b1301" rend="margin-left:1em"><note place="inline">頌曰<anchor xml:id="nkr_note_add_0099b1301" n="0099b1301"/><anchor xml:id="beg0099b1301" n="0099b1301"/>已<anchor xml:id="end0099b1301"/>圓大智為懷悲却効眾生性相迷顯示法王諸像類宛如隨眾色
 <lb ed="C" n="0099b14"/>摩尼龍宮萬卷聲喧谷行海千門月在池到此徧遊諸佛剎宣揚三寶作
 <lb ed="C" n="0099b15"/>天師</note>。</p></cb:div></cb:div>
 <lb ed="C" n="0099b16"/><cb:div type="other"><cb:mulu type="其他" level="2">空離自性分第十七</cb:mulu><head>空離自性分第十七</head>
 <lb ed="C" n="0099b17"/><cb:div type="orig"><p xml:id="pC097p0099b1701">爾時大慧菩薩復請佛言。惟願世尊
 <lb ed="C" n="0099b18"/>為我等說一切法空。無生無二離自
 <lb ed="C" n="0099b19"/>性相。我等及餘諸菩薩眾。覺悟是空
-<lb ed="C" n="0099b20"/>無生無二離自性相<anchor xml:id="beg_39" type="cb-app"/>已<anchor xml:id="end_39"/>。離有無妄想。
+<lb ed="C" n="0099b20"/>無生無二離自性相<anchor xml:id="nkr_note_add_0099b2001" n="0099b2001"/><anchor xml:id="beg0099b2001" n="0099b2001"/>已<anchor xml:id="end0099b2001"/>。離有無妄想。
 <pb ed="C" xml:id="C097.1821.0099c" n="0099c"/>
 <lb ed="C" n="0099c01"/>疾得阿耨多羅三藐三菩提。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0099c0112" rend="margin-left:1em;inline"><note place="inline">說空者多墮斷
 <lb ed="C" n="0099c02"/>見墮斷見則有生有二而有自性相大慧於此願聞說空而繼之以無生
@@ -1518,7 +1523,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0099c14"/>共相不生。自他俱性無性故相不住。</p></cb:div>
 <lb ed="C" n="0099c15"/><cb:div type="commentary"><p xml:id="pC097p0099c1501" rend="margin-left:1em"><note place="inline">自他俱見亦皆無性則不住於相矣恐人於無性又生斷見不住相云者
 <lb ed="C" n="0099c16"/>非無相也但不住爾</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0099c1609" rend="inline">是故說一切性相空。是名
-<lb ed="C" n="0099c17"/>相空。云何性自性空。謂自<anchor xml:id="beg_3a" type="cb-app"/>己<anchor xml:id="end_3a"/>性自性
+<lb ed="C" n="0099c17"/>相空。云何性自性空。謂自<anchor xml:id="nkr_note_add_0099c1701" n="0099c1701"/><anchor xml:id="beg0099c1701" n="0099c1701"/>己<anchor xml:id="end0099c1701"/>性自性
 <lb ed="C" n="0099c18"/>不生。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0099c1803" rend="margin-left:1em;inline"><note place="inline">性自性云者為欲識破外塵還一切性於其自而自己無有性
 <lb ed="C" n="0099c19"/>自性想則一切性自性空矣</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0099c1912" rend="inline">是名一切法性自性
 <lb ed="C" n="0099c20"/>空。是故說性自性空。云何行空。謂陰
@@ -1532,7 +1537,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0100a07"/>言說空。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0100a0704" rend="margin-left:1em;inline"><note place="inline">妄想自性本無言說既無言說復何所離故曰離言說空</note>。</p></cb:div>
 <lb ed="C" n="0100a08"/><cb:div type="orig"><p xml:id="pC097p0100a0801">云何一切法第一義聖智大空。謂得
 <lb ed="C" n="0100a09"/>自覺聖智一切見過習氣空。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0100a0912" rend="margin-left:1em;inline"><note place="inline">能見一切過患
-<lb ed="C" n="0100a10"/>曰見過自覺聖智雖<anchor xml:id="beg_3b" type="cb-app"/>已<anchor xml:id="end_3b"/>離過患而見過之心未忘雖止見行而習氣未除
+<lb ed="C" n="0100a10"/>曰見過自覺聖智雖<anchor xml:id="nkr_note_add_0100a1001" n="0100a1001"/><anchor xml:id="beg0100a1001" n="0100a1001"/>已<anchor xml:id="end0100a1001"/>離過患而見過之心未忘雖止見行而習氣未除
 <lb ed="C" n="0100a11"/>至此則一切皆空矣</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0100a1109" rend="inline">是名一切法第一義聖智
 <lb ed="C" n="0100a12"/>大空。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0100a1203" rend="margin-left:1em;inline"><note place="inline">此空為大故曰大空祖師曰廓然無聖是之謂歟</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0100a1222" rend="inline">云何
 <lb ed="C" n="0100a13"/>彼彼空。謂於彼無彼空。是名彼彼空。</p></cb:div>
@@ -1570,7 +1575,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0100c03"/><l>生死如幻夢</l><l>而彼業不壞</l>
 <lb ed="C" n="0100c04"/><l>虛空及涅槃</l><l>滅二亦如是</l>
 <lb ed="C" n="0100c05"/><l>愚夫作妄想</l><l>諸聖離有無</l></lg></cb:div>
-<lb ed="C" n="0100c06"/><cb:div type="commentary"><p xml:id="pC097p0100c0601" rend="margin-left:1em"><note place="inline">頌曰眾生妄想未消除諸佛談空為<anchor xml:id="beg_3c" type="cb-app"/>斂<anchor xml:id="end_3c"/>麤湏到不生仍不二更無自性即
+<lb ed="C" n="0100c06"/><cb:div type="commentary"><p xml:id="pC097p0100c0601" rend="margin-left:1em"><note place="inline">頌曰眾生妄想未消除諸佛談空為<anchor xml:id="nkr_note_add_0100c0601" n="0100c0601"/><anchor xml:id="beg0100c0601" n="0100c0601"/>斂<anchor xml:id="end0100c0601"/>麤湏到不生仍不二更無自性即
 <lb ed="C" n="0100c07"/>無虞有心未解袪常斷離性方能度有無若是大空何所證冰霜一點在
 <lb ed="C" n="0100c08"/>紅爐</note>。</p></cb:div></cb:div>
 <lb ed="C" n="0100c09"/><cb:div type="other"><cb:mulu type="其他" level="2">離言即義分第十八</cb:mulu><head>離言即義分第十八</head>
@@ -1609,7 +1614,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="C" xml:id="C097.1821.0102b" n="0102b"/>
 <lb ed="C" n="0102b01"/>界如來藏門。未來現在菩薩不應作
 <lb ed="C" n="0102b02"/>我見計著。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0102b0205" rend="margin-left:1em;inline"><note place="inline">謂如來嘗說空無相等句雖不說如來藏而如來藏
-<lb ed="C" n="0102b03"/>之說<anchor xml:id="beg_3d" type="cb-app"/>已<anchor xml:id="end_3d"/>在是矣若夫心見未<g ref="#CB13378">󳑂</g>妄立藏性則是空中捏怪<g ref="#CB00576">𩕳</g>上安頭認而
+<lb ed="C" n="0102b03"/>之說<anchor xml:id="nkr_note_add_0102b0301" n="0102b0301"/><anchor xml:id="beg0102b0301" n="0102b0301"/>已<anchor xml:id="end0102b0301"/>在是矣若夫心見未<g ref="#CB13378">󳑂</g>妄立藏性則是空中捏怪<g ref="#CB00576">𩕳</g>上安頭認而
 <lb ed="C" n="0102b04"/>有之我所立矣故如來貴乎無我愚夫無知見彼無我反生怖畏是故佛
 <lb ed="C" n="0102b05"/>說如來藏欲不墮空故目無所有境界令不墮有故</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0102b0521" rend="inline">譬如陶家。
 <lb ed="C" n="0102b06"/>於一泥聚。以人工水木輪繩方便作
@@ -1660,11 +1665,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0103a09"/>生於三界。內外一切法不可得。見離
 <lb ed="C" n="0103a10"/>自性生見悉滅。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0103a1007" rend="margin-left:1em;inline"><note place="inline">所見無自性生而見亦無見故云</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0103a1020" rend="inline">知
 <lb ed="C" n="0103a11"/>如幻等諸法自性。得無生法忍。得無
-<lb ed="C" n="0103a12"/>生法忍<anchor xml:id="beg_3e" type="cb-app"/>已<anchor xml:id="end_3e"/>。離生住滅見。是名菩薩摩
+<lb ed="C" n="0103a12"/>生法忍<anchor xml:id="nkr_note_add_0103a1201" n="0103a1201"/><anchor xml:id="beg0103a1201" n="0103a1201"/>已<anchor xml:id="end0103a1201"/>。離生住滅見。是名菩薩摩
 <lb ed="C" n="0103a13"/>訶薩善分別離生住滅見。云何得自
 <lb ed="C" n="0103a14"/>覺聖智善樂。謂得無生法忍住第八
 <lb ed="C" n="0103a15"/>菩薩地。得離心意意識五法自性二
-<lb ed="C" n="0103a16"/>無我相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0103a1604" rend="margin-left:1em;inline"><note place="inline"><anchor xml:id="beg_3f" type="cb-app"/>已<anchor xml:id="end_3f"/>上八地一切悉離若其餘地未足語此</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0103a1620" rend="inline">得意生
+<lb ed="C" n="0103a16"/>無我相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0103a1604" rend="margin-left:1em;inline"><note place="inline"><anchor xml:id="nkr_note_add_0103a1601" n="0103a1601"/><anchor xml:id="beg0103a1601" n="0103a1601"/>已<anchor xml:id="end0103a1601"/>上八地一切悉離若其餘地未足語此</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0103a1620" rend="inline">得意生
 <lb ed="C" n="0103a17"/>身。世尊。意生身者何因緣。佛告大慧。
 <lb ed="C" n="0103a18"/>意生身者。譬如意去。迅疾無礙。故名
 <lb ed="C" n="0103a19"/>意生譬如意去。石壁無礙。於彼異方
@@ -1681,7 +1686,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0103b09"/>自性二無我相身。及得意生身。得自
 <lb ed="C" n="0103b10"/>覺聖智善樂。是名菩薩摩訶薩成就
 <lb ed="C" n="0103b11"/>四法得修行者大方便。當如是學。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0103b1114" rend="margin-left:1em;inline"><note place="inline">為離
-<lb ed="C" n="0103b12"/>心意意識五法自性二無我相<anchor xml:id="beg_40" type="cb-app"/>已<anchor xml:id="end_40"/>於寂滅中現出妙相無有障礙猶如意
+<lb ed="C" n="0103b12"/>心意意識五法自性二無我相<anchor xml:id="nkr_note_add_0103b1201" n="0103b1201"/><anchor xml:id="beg0103b1201" n="0103b1201"/>已<anchor xml:id="end0103b1201"/>於寂滅中現出妙相無有障礙猶如意
 <lb ed="C" n="0103b13"/>生此皆通達如幻三昧不滯於空乃能如此</note>。</p><p xml:id="pC097p0103b1318" rend="margin-left:1em;inline"><note place="inline">頌曰如來為愍眾沉淪指
 <lb ed="C" n="0103b14"/>出修行四種因令見妄心惟自現了明外性悉非真境緣出沒皆如幻聖
 <lb ed="C" n="0103b15"/>智縱橫不是塵從此廓然無障礙神通乃得意生身</note>。</p></cb:div></cb:div>
@@ -1701,12 +1706,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0103c08"/>法得緣所起名。彼無差別而愚夫妄
 <lb ed="C" n="0103c09"/>想。是名內緣法。大慧。彼因者有六種。
 <lb ed="C" n="0103c10"/>謂當有因。相續因。相因。作因。顯示因。
-<lb ed="C" n="0103c11"/>待因。當有因者。作因<anchor xml:id="beg_41" type="cb-app"/>已<anchor xml:id="end_41"/>。內外法生。相
-<lb ed="C" n="0103c12"/>續因者。作攀緣<anchor xml:id="beg_42" type="cb-app"/>已<anchor xml:id="end_42"/>。內外法生陰種子
+<lb ed="C" n="0103c11"/>待因。當有因者。作因<anchor xml:id="nkr_note_add_0103c1101" n="0103c1101"/><anchor xml:id="beg0103c1101" n="0103c1101"/>已<anchor xml:id="end0103c1101"/>。內外法生。相
+<lb ed="C" n="0103c12"/>續因者。作攀緣<anchor xml:id="nkr_note_add_0103c1201" n="0103c1201"/><anchor xml:id="beg0103c1201" n="0103c1201"/>已<anchor xml:id="end0103c1201"/>。內外法生陰種子
 <lb ed="C" n="0103c13"/>等。相因者。作無間相相續生。作因者。
 <lb ed="C" n="0103c14"/>作增上事如轉輪王。顯示因者。妄想
-<lb ed="C" n="0103c15"/>事生<anchor xml:id="beg_43" type="cb-app"/>已<anchor xml:id="end_43"/>。相現作所作。如燈照色等。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0103c1514" rend="margin-left:1em;inline"><note place="inline">作則
-<lb ed="C" n="0103c16"/>有相無有間斷故曰無間相現謂妄想生<anchor xml:id="beg_44" type="cb-app"/>已<anchor xml:id="end_44"/>則一切相從心而現昭然可
+<lb ed="C" n="0103c15"/>事生<anchor xml:id="nkr_note_add_0103c1501" n="0103c1501"/><anchor xml:id="beg0103c1501" n="0103c1501"/>已<anchor xml:id="end0103c1501"/>。相現作所作。如燈照色等。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0103c1514" rend="margin-left:1em;inline"><note place="inline">作則
+<lb ed="C" n="0103c16"/>有相無有間斷故曰無間相現謂妄想生<anchor xml:id="nkr_note_add_0103c1601" n="0103c1601"/><anchor xml:id="beg0103c1601" n="0103c1601"/>已<anchor xml:id="end0103c1601"/>則一切相從心而現昭然可
 <lb ed="C" n="0103c17"/>見</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0103c1702" rend="inline">待因者。滅時作相續斷。不妄想性
 <lb ed="C" n="0103c18"/>生。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0103c1802" rend="margin-left:1em;inline"><note place="inline">滅時謂妄想滅時凢斷妄亦妄想也待斷乃無故曰待因</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0103c1824" rend="inline">大慧。
 <lb ed="C" n="0103c19"/>彼自妄想相。愚夫不漸次生不俱生。
@@ -1735,7 +1740,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="C" xml:id="C097.1821.0104b" n="0104b"/>
 <lb ed="C" n="0104b01"/><l>觀一切有為</l><l>猶如虛空華</l>
 <lb ed="C" n="0104b02"/><l>攝受及所攝</l><l>捨離惑亂見</l>
-<lb ed="C" n="0104b03"/><l>非<anchor xml:id="beg_45" type="cb-app"/>已<anchor xml:id="end_45"/>生當生</l><l>亦復無因緣</l>
+<lb ed="C" n="0104b03"/><l>非<anchor xml:id="nkr_note_add_0104b0301" n="0104b0301"/><anchor xml:id="beg0104b0301" n="0104b0301"/>已<anchor xml:id="end0104b0301"/>生當生</l><l>亦復無因緣</l>
 <lb ed="C" n="0104b04"/><l>一切無所有</l><l>斯皆是言說</l></lg></cb:div>
 <lb ed="C" n="0104b05"/><cb:div type="commentary"><p xml:id="pC097p0104b0501" rend="margin-left:1em"><note place="inline">頌曰真相圓明絕芥塵休從妄想起緣因悉離漸次俱生見始作逍遙自在人</note>。</p></cb:div></cb:div>
 <lb ed="C" n="0104b06"/><cb:div type="other"><cb:mulu type="其他" level="2">離言說妄想分第二十二</cb:mulu><head>離言說妄想分第二十二</head>
@@ -1754,7 +1759,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0104b19"/>妄想言說。相言說者。從自妄想色相
 <lb ed="C" n="0104b20"/>計著生。夢言說者。先所經境界隨憶
 <pb ed="C" xml:id="C097.1821.0104c" n="0104c"/>
-<lb ed="C" n="0104c01"/>念生。從覺<anchor xml:id="beg_46" type="cb-app"/>己<anchor xml:id="end_46"/>境界無性生。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0104c0111" rend="margin-left:1em;inline"><note place="inline">憶先所經與夫覺<anchor xml:id="beg_47" type="cb-app"/>己<anchor xml:id="end_47"/>
+<lb ed="C" n="0104c01"/>念生。從覺<anchor xml:id="nkr_note_add_0104c0101" n="0104c0101"/><anchor xml:id="beg0104c0101" n="0104c0101"/>己<anchor xml:id="end0104c0101"/>境界無性生。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0104c0111" rend="margin-left:1em;inline"><note place="inline">憶先所經與夫覺<anchor xml:id="nkr_note_add_0104c0102" n="0104c0102"/><anchor xml:id="beg0104c0102" n="0104c0102"/>己<anchor xml:id="end0104c0102"/>
 <lb ed="C" n="0104c02"/>而知無性以是而有言說彼悉如夢故曰夢言說</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0104c0220" rend="inline">過妄想計
 <lb ed="C" n="0104c03"/>著言說者。先怨所作業隨憶念生。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0104c0314" rend="margin-left:1em;inline"><note place="inline">謂怨
 <lb ed="C" n="0104c04"/>先所作業而憶持之以生過念為是而說</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0104c0417" rend="inline">無始妄想言說
@@ -1829,7 +1834,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0105c10"/>於一異俱不俱有無非有非無常無
 <lb ed="C" n="0105c11"/>常見。不能了知自心現量。譬如有人。
 <lb ed="C" n="0105c12"/>夢見男女象馬車步城邑園林山河
-<lb ed="C" n="0105c13"/>浴池種種莊嚴。自身入中。覺<anchor xml:id="beg_48" type="cb-app"/>已<anchor xml:id="end_48"/>憶念。
+<lb ed="C" n="0105c13"/>浴池種種莊嚴。自身入中。覺<anchor xml:id="nkr_note_add_0105c1301" n="0105c1301"/><anchor xml:id="beg0105c1301" n="0105c1301"/>已<anchor xml:id="end0105c1301"/>憶念。
 <lb ed="C" n="0105c14"/>大慧於意云何。如是士夫。於前所夢
 <lb ed="C" n="0105c15"/>憶念不捨。為黠慧不。大慧白佛言。不
 <lb ed="C" n="0105c16"/>也世尊。佛告大慧。如是凢夫惡見所
@@ -1842,7 +1847,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0106a02"/>無常無常見。自壞壞他。餘離有無無
 <lb ed="C" n="0106a03"/>生之論。亦說言無。謗因果見。拔善根
 <lb ed="C" n="0106a04"/>本。壞清淨因。勝求者當遠離去。作如
-<lb ed="C" n="0106a05"/>是說。彼墮自他俱見有無妄想<anchor xml:id="beg_49" type="cb-app"/>已<anchor xml:id="end_49"/>。墮
+<lb ed="C" n="0106a05"/>是說。彼墮自他俱見有無妄想<anchor xml:id="nkr_note_add_0106a0501" n="0106a0501"/><anchor xml:id="beg0106a0501" n="0106a0501"/>已<anchor xml:id="end0106a0501"/>。墮
 <lb ed="C" n="0106a06"/>建立誹謗。以是惡見當墮地獄。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0106a0613" rend="margin-left:1em;inline"><note place="inline">言遠離者
 <lb ed="C" n="0106a07"/>當如是見</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0106a0705" rend="inline">譬如翳目見有垂髮。謂眾人言。
 <lb ed="C" n="0106a08"/>汝等觀此而是垂髮。畢竟非性非無
@@ -1935,7 +1940,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0107b11"/>諸地相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0107b1104" rend="margin-left:1em;inline"><note place="inline">為淨眾生故建立百八句凡以善分別諸乘及地相爾其
 <lb ed="C" n="0107b12"/>本實無有也</note>。</p><p xml:id="pC097p0107b1206" rend="margin-left:1em;inline"><note place="inline">○頌曰眾生計著似狂酲四句依他妄想情一異俱緣隨處
 <lb ed="C" n="0107b13"/>暗有無常見競頭爭摩尼垂髮元非性樹影風聲假彼成一切湏知心鏡
-<lb ed="C" n="0107b14"/>裏妍<anchor xml:id="beg_4a" type="cb-app"/>媸<anchor xml:id="end_4a"/>狀貌本無形</note>。</p></cb:div></cb:div>
+<lb ed="C" n="0107b14"/>裏妍<anchor xml:id="nkr_note_add_0107b1401" n="0107b1401"/><anchor xml:id="beg0107b1401" n="0107b1401"/>媸<anchor xml:id="end0107b1401"/>狀貌本無形</note>。</p></cb:div></cb:div>
 <lb ed="C" n="0107b15"/><cb:div type="other"><cb:mulu type="其他" level="2">禪差別分第二十四</cb:mulu><head>禪差別分第二十四</head>
 <lb ed="C" n="0107b16"/><cb:div type="orig"><p xml:id="pC097p0107b1601">復次大慧。有四種禪。云何為四。謂愚
 <lb ed="C" n="0107b17"/>夫所行禪。觀察義禪。攀緣如禪。如來
@@ -1946,8 +1951,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0107c01"/>不異觀。前後轉進想不除滅。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0107c0112" rend="margin-left:1em;inline"><note place="inline">謂於無常苦空
 <lb ed="C" n="0107c02"/>不淨等相堅著不捨漸次增進至非想滅定</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0107c0218" rend="inline">是名愚夫所
 <lb ed="C" n="0107c03"/>行禪。云何觀察義禪。謂人無我自相
-<lb ed="C" n="0107c04"/>共相。外道自他俱無性<anchor xml:id="beg_4b" type="cb-app"/>已<anchor xml:id="end_4b"/>。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0107c0411" rend="margin-left:1em;inline"><note place="inline">於人無我相及於外
-<lb ed="C" n="0107c05"/>道自他俱見彼皆觀察知無性<anchor xml:id="beg_4c" type="cb-app"/>已<anchor xml:id="end_4c"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0107c0514" rend="inline">觀法無我。彼地相
+<lb ed="C" n="0107c04"/>共相。外道自他俱無性<anchor xml:id="nkr_note_add_0107c0401" n="0107c0401"/><anchor xml:id="beg0107c0401" n="0107c0401"/>已<anchor xml:id="end0107c0401"/>。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0107c0411" rend="margin-left:1em;inline"><note place="inline">於人無我相及於外
+<lb ed="C" n="0107c05"/>道自他俱見彼皆觀察知無性<anchor xml:id="nkr_note_add_0107c0501" n="0107c0501"/><anchor xml:id="beg0107c0501" n="0107c0501"/>已<anchor xml:id="end0107c0501"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0107c0514" rend="inline">觀法無我。彼地相
 <lb ed="C" n="0107c06"/>義漸次增進。是名觀察義禪。云何攀
 <lb ed="C" n="0107c07"/>緣如禪。謂妄想二無我妄想。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0107c0712" rend="margin-left:1em;inline"><note place="inline">妄想分別也謂
 <lb ed="C" n="0107c08"/>若分別無我有二即是尚有分別也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0107c0815" rend="inline">如實處不生妄想。</p></cb:div>
@@ -1974,7 +1979,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0108a08"/><cb:div type="orig"><p xml:id="pC097p0108a0801">爾時大慧菩薩復白佛言世尊般涅
 <lb ed="C" n="0108a09"/>槃者。說何等法謂為涅槃。</p>
 <lb ed="C" n="0108a10"/><p xml:id="pC097p0108a1001">佛告大慧。一切自性習氣藏意意識
-<lb ed="C" n="0108a11"/>見習轉變。名為涅槃。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0108a1109" rend="margin-left:1em;inline"><note place="inline"><anchor xml:id="beg_4d" type="cb-app"/>已<anchor xml:id="end_4d"/>上七者有所轉變而即寂名
+<lb ed="C" n="0108a11"/>見習轉變。名為涅槃。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0108a1109" rend="margin-left:1em;inline"><note place="inline"><anchor xml:id="nkr_note_add_0108a1101" n="0108a1101"/><anchor xml:id="beg0108a1101" n="0108a1101"/>已<anchor xml:id="end0108a1101"/>上七者有所轉變而即寂名
 <lb ed="C" n="0108a12"/>為涅槃</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0108a1204" rend="inline">諸佛及我涅槃。自性空事境界。</p></cb:div>
 <lb ed="C" n="0108a13"/><cb:div type="commentary"><p xml:id="pC097p0108a1301" rend="margin-left:1em"><note place="inline">謂如來涅槃無所計著亦無所轉變無依無作一切成現所作境界悉空
 <lb ed="C" n="0108a14"/>無事故曰空事境界言諸佛涅槃以明前者非也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0108a1420" rend="inline">復次大慧。
@@ -1991,7 +1996,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0108b04"/>覺涅槃者。覺自相共相不習近境界。
 <lb ed="C" n="0108b05"/>不顛倒見妄想不生。彼等於彼作涅
 <lb ed="C" n="0108b06"/>槃覺。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0108b0603" rend="margin-left:1em;inline"><note place="inline">頌曰諸佛慈悲為指蹤涅槃自性要通融斷常死壞皆無染藏
-<lb ed="C" n="0108b07"/>意因緣<anchor xml:id="beg_4e" type="cb-app"/>已<anchor xml:id="end_4e"/>絕同堪笑二乘生覺想反袪顛倒墮塵籠如來路上無消息擾
+<lb ed="C" n="0108b07"/>意因緣<anchor xml:id="nkr_note_add_0108b0701" n="0108b0701"/><anchor xml:id="beg0108b0701" n="0108b0701"/>已<anchor xml:id="end0108b0701"/>絕同堪笑二乘生覺想反袪顛倒墮塵籠如來路上無消息擾
 <lb ed="C" n="0108b08"/>擾忩忩一鑑中</note>。</p></cb:div></cb:div>
 <lb ed="C" n="0108b09"/><cb:div type="other"><cb:mulu type="其他" level="2">離言事自性分第二十六</cb:mulu><head>離言事自性分第二十六</head>
 <lb ed="C" n="0108b10"/><cb:div type="orig"><p xml:id="pC097p0108b1001">復次大慧。二種自性相。云何為二。謂
@@ -2043,7 +2048,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0109a14"/>覺地故。及增進所得法故。如來應供
 <lb ed="C" n="0109a15"/>等正覺咸以神力建立諸菩薩摩訶
 <lb ed="C" n="0109a16"/>薩。若不以神力建立者。則墮外道惡
-<lb ed="C" n="0109a17"/>見妄想。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0109a1704" rend="margin-left:1em;inline"><note place="inline">如來所加神力非由外至亦因無依無作法性而<anchor xml:id="beg_4f" type="cb-app"/>已<anchor xml:id="end_4f"/>故不
+<lb ed="C" n="0109a17"/>見妄想。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0109a1704" rend="margin-left:1em;inline"><note place="inline">如來所加神力非由外至亦因無依無作法性而<anchor xml:id="nkr_note_add_0109a1701" n="0109a1701"/><anchor xml:id="beg0109a1701" n="0109a1701"/>已<anchor xml:id="end0109a1701"/>故不
 <lb ed="C" n="0109a18"/>墮外道見</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0109a1805" rend="inline">及諸聲聞眾魔希望。不得阿耨
 <lb ed="C" n="0109a19"/>多羅三藐三菩提。以是故諸佛如來
 <lb ed="C" n="0109a20"/>咸以神力攝受諸菩薩摩訶薩。爾時
@@ -2060,7 +2065,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0109b10"/>言說。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0109b1003" rend="margin-left:1em;inline"><note place="inline">因緣生諸性言說佛與外道其異否故云有間悉檀</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0109b1023" rend="inline">有間
 <lb ed="C" n="0109b11"/>悉檀無間悉檀。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0109b1107" rend="margin-left:1em;inline"><note place="inline">悉檀者譯義或言宗或言成就或言理也</note>。</p></cb:div>
 <lb ed="C" n="0109b12"/><cb:div type="orig"><p xml:id="pC097p0109b1201">世尊。外道亦說有無有生。世尊亦說
-<lb ed="C" n="0109b13"/>無有生。生<anchor xml:id="beg_50" type="cb-app"/>已<anchor xml:id="end_50"/>滅。如世尊所說無明緣
+<lb ed="C" n="0109b13"/>無有生。生<anchor xml:id="nkr_note_add_0109b1301" n="0109b1301"/><anchor xml:id="beg0109b1301" n="0109b1301"/>已<anchor xml:id="end0109b1301"/>滅。如世尊所說無明緣
 <lb ed="C" n="0109b14"/>行乃至老死。此是世尊無因說。非有
 <lb ed="C" n="0109b15"/>因說。世尊建立作如是說。此有故彼
 <lb ed="C" n="0109b16"/>有。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0109b1602" rend="margin-left:1em;inline"><note place="inline">謂有無明乃有緣行故曰此有故彼有</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0109b1617" rend="inline">非建立漸生。
@@ -2138,17 +2143,17 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0110c04"/>慧。云何惑亂真實。若復因緣諸聖於
 <lb ed="C" n="0110c05"/>此惑亂。不起顛倒覺非不顛倒覺。除
 <lb ed="C" n="0110c06"/>諸聖。於此惑亂有少分想。非聖智事
-<lb ed="C" n="0110c07"/>相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0110c0702" rend="margin-left:1em;inline"><note place="inline">聖於惑亂<anchor xml:id="beg_51" type="cb-app"/>已<anchor xml:id="end_51"/>得如幻倒不倒見皆悉無有除此之外有少分覺即覺
+<lb ed="C" n="0110c07"/>相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0110c0702" rend="margin-left:1em;inline"><note place="inline">聖於惑亂<anchor xml:id="nkr_note_add_0110c0701" n="0110c0701"/><anchor xml:id="beg0110c0701" n="0110c0701"/>已<anchor xml:id="end0110c0701"/>得如幻倒不倒見皆悉無有除此之外有少分覺即覺
 <lb ed="C" n="0110c08"/>想也故曰非聖智事相</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0110c0810" rend="inline">大慧。凡有者愚夫妄說。
 <lb ed="C" n="0110c09"/>非聖言說。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0110c0905" rend="margin-left:1em;inline"><note place="inline">有者謂執惑亂性而有之此愚妄爾</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0110c0919" rend="inline">彼惑亂
-<lb ed="C" n="0110c10"/>者倒不倒妄想。起二種種性。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0110c1012" rend="margin-left:1em;inline"><note place="inline"><anchor xml:id="beg_52" type="cb-app"/>已<anchor xml:id="end_52"/>下雖聖種性
+<lb ed="C" n="0110c10"/>者倒不倒妄想。起二種種性。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0110c1012" rend="margin-left:1em;inline"><note place="inline"><anchor xml:id="nkr_note_add_0110c1001" n="0110c1001"/><anchor xml:id="beg0110c1001" n="0110c1001"/>已<anchor xml:id="end0110c1001"/>下雖聖種性
 <lb ed="C" n="0110c11"/>亦是不倒妄想也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0110c1108" rend="inline">謂聖種性及愚夫種性。聖
 <lb ed="C" n="0110c12"/>種性者三種分別。謂聲聞乘緣覺乘
 <lb ed="C" n="0110c13"/>佛乘。云何愚夫妄想起聲聞乘種性。
 <lb ed="C" n="0110c14"/>謂自共相計著。起聲聞乘種性。是名
 <lb ed="C" n="0110c15"/>妄想起聲聞乘種性。大慧。即彼惑亂
 <lb ed="C" n="0110c16"/>妄想起緣覺乘種性。謂即彼惑亂自
-<lb ed="C" n="0110c17"/>共相不親計著。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0110c1707" rend="margin-left:1em;inline"><note place="inline">有緣而覺非不計著<anchor xml:id="beg_53" type="cb-app"/>但<anchor xml:id="end_53"/>有所覺而不親之
+<lb ed="C" n="0110c17"/>共相不親計著。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0110c1707" rend="margin-left:1em;inline"><note place="inline">有緣而覺非不計著<anchor xml:id="nkr_note_add_0110c1701" n="0110c1701"/><anchor xml:id="beg0110c1701" n="0110c1701"/>但<anchor xml:id="end0110c1701"/>有所覺而不親之
 <lb ed="C" n="0110c18"/>爾</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0110c1802" rend="inline">起緣覺乘種性。云何智者即彼惑
 <lb ed="C" n="0110c19"/>亂起佛乘種性。謂覺自心現量。外性
 <lb ed="C" n="0110c20"/>非性不妄想相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0110c2007" rend="margin-left:1em;inline"><note place="inline">謂不於外性而起非性之想</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0110c2018" rend="inline">起佛
@@ -2183,7 +2188,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0111b07"/><l>捨離一切惑</l><l>若有相生者</l>
 <lb ed="C" n="0111b08"/><l>是亦為惑亂</l><l>不淨猶如翳</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0111b0811" rend="margin-left:1em;inline"><note place="inline">若有
 <lb ed="C" n="0111b09"/>離相亦惑亂也故曰不淨</note>。</p><p xml:id="pC097p0111b0911" rend="margin-left:1em;inline"><note place="inline">○頌曰寂寂空凝絕較量妄疑惑亂敗真常却
-<lb ed="C" n="0111b10"/>將覺想袪顛倒撓破無心佛道場影像不辭潭底現妍<anchor xml:id="beg_54" type="cb-app"/>媸<anchor xml:id="end_54"/>終豈鑑中藏但
+<lb ed="C" n="0111b10"/>將覺想袪顛倒撓破無心佛道場影像不辭潭底現妍<anchor xml:id="nkr_note_add_0111b1001" n="0111b1001"/><anchor xml:id="beg0111b1001" n="0111b1001"/>媸<anchor xml:id="end0111b1001"/>終豈鑑中藏但
 <lb ed="C" n="0111b11"/>知一切皆如幻萬法紛紜掣電光</note>。</p></cb:div></cb:div>
 <lb ed="C" n="0111b12"/><cb:juan fun="close" n="2a"><cb:jhead>楞伽經纂卷第二<note place="inline">上</note>　　　　阿</cb:jhead></cb:juan>
 <lb ed="C" n="0111b13"/>
@@ -2204,7 +2209,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0111c08"/><p xml:id="pC097p0111c0801">佛告大慧。非種種幻相計著相似一
 <lb ed="C" n="0111c09"/>切法如幻。大慧。然不實一切法速滅
 <lb ed="C" n="0111c10"/>如電。是則如幻。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0111c1007" rend="margin-left:1em;inline"><note place="inline">以法不實速滅如電故言如幻</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0111c1019" rend="inline">譬如
-<lb ed="C" n="0111c11"/>電光。剎那頃現。現<anchor xml:id="beg_55" type="cb-app"/>已<anchor xml:id="end_55"/>即滅。非愚夫現。</p></cb:div>
+<lb ed="C" n="0111c11"/>電光。剎那頃現。現<anchor xml:id="nkr_note_add_0111c1101" n="0111c1101"/><anchor xml:id="beg0111c1101" n="0111c1101"/>已<anchor xml:id="end0111c1101"/>即滅。非愚夫現。</p></cb:div>
 <lb ed="C" n="0111c12"/><cb:div type="commentary"><p xml:id="pC097p0111c1201" rend="margin-left:1em"><note place="inline">愚夫執著不能速滅故云</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0111c1211" rend="inline">如是一切性自妄想自
 <lb ed="C" n="0111c13"/>共相觀察無性。非現色相計著。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0111c1313" rend="margin-left:1em;inline"><note place="inline">謂於一切
 <lb ed="C" n="0111c14"/>性相若能觀察無性乃見如幻非於色相有所計著</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0111c1421" rend="inline">爾時世尊
@@ -2249,7 +2254,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0112b11"/><cb:div type="orig"><p xml:id="pC097p0112b1101">復次大慧。當說名句形身相。善觀名
 <lb ed="C" n="0112b12"/>句形身菩薩摩訶薩隨入義句形身。</p></cb:div>
 <lb ed="C" n="0112b13"/><cb:div type="commentary"><p xml:id="pC097p0112b1301" rend="margin-left:1em"><note place="inline">假名顯道故覺名句即入義句</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0112b1313" rend="inline">疾得阿耨多羅三藐
-<lb ed="C" n="0112b14"/>三菩提。如是覺<anchor xml:id="beg_56" type="cb-app"/>己<anchor xml:id="end_56"/>。覺一切眾生。大慧。
+<lb ed="C" n="0112b14"/>三菩提。如是覺<anchor xml:id="nkr_note_add_0112b1401" n="0112b1401"/><anchor xml:id="beg0112b1401" n="0112b1401"/>己<anchor xml:id="end0112b1401"/>。覺一切眾生。大慧。
 <lb ed="C" n="0112b15"/>名身者。謂若依事立名。是名名身。句
 <lb ed="C" n="0112b16"/>身者。謂句有義身。自性决定究竟。是
 <lb ed="C" n="0112b17"/>名句身。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0112b1704" rend="margin-left:1em;inline"><note place="inline">事以名立名以句定句以顯義義有自性因自性故决定
@@ -2286,7 +2291,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0113a06"/>於身命者是也故曰於因</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0113a0611" rend="inline">非我所說。大慧。我所說
 <lb ed="C" n="0113a07"/>者。離攝所攝。妄想不生。云何止彼。若
 <lb ed="C" n="0113a08"/>攝所攝而計著者。不知自心現量故
-<lb ed="C" n="0113a09"/>止彼。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0113a0903" rend="margin-left:1em;inline"><note place="inline">佛之止論為此而<anchor xml:id="beg_57" type="cb-app"/>已<anchor xml:id="end_57"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0113a0911" rend="inline">如來應供等正覺。以
+<lb ed="C" n="0113a09"/>止彼。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0113a0903" rend="margin-left:1em;inline"><note place="inline">佛之止論為此而<anchor xml:id="nkr_note_add_0113a0901" n="0113a0901"/><anchor xml:id="beg0113a0901" n="0113a0901"/>已<anchor xml:id="end0113a0901"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0113a0911" rend="inline">如來應供等正覺。以
 <lb ed="C" n="0113a10"/>四種記論為眾生說法。大慧。止記論
 <lb ed="C" n="0113a11"/>者。我時時說。為根未熟。不為熟者。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0113a1114" rend="margin-left:1em;inline"><note place="inline">四種
 <lb ed="C" n="0113a12"/>記論謂直荅反質荅分別荅置荅置荅即止論也</note>。</p></cb:div>
@@ -2321,7 +2326,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0113b20"/>若菩薩摩訶薩善解湏陀洹趣差別
 <pb ed="C" xml:id="C097.1821.0113c" n="0113c"/>
 <lb ed="C" n="0113c01"/>通相。及斯陀含阿那含阿羅漢方便
-<lb ed="C" n="0113c02"/>相分別。知<anchor xml:id="beg_58" type="cb-app"/>已<anchor xml:id="end_58"/>。如是如是為眾生說法。
+<lb ed="C" n="0113c02"/>相分別。知<anchor xml:id="nkr_note_add_0113c0201" n="0113c0201"/><anchor xml:id="beg0113c0201" n="0113c0201"/>已<anchor xml:id="end0113c0201"/>。如是如是為眾生說法。
 <lb ed="C" n="0113c03"/>謂二無我相及二障淨。度諸地相究
 <lb ed="C" n="0113c04"/>竟通達得諸如來不思議究竟境界。
 <lb ed="C" n="0113c05"/>如眾色摩尼。善能饒益一切眾生。以
@@ -2397,11 +2402,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0114c12"/>法。謂得果得禪。禪者入禪悉遠離故。
 <lb ed="C" n="0114c13"/>示現得自心現量。得果相。說名得果。</p></cb:div>
 <lb ed="C" n="0114c14"/><cb:div type="commentary"><p xml:id="pC097p0114c1401" rend="margin-left:1em"><note place="inline">禪者入禪一切遠離是謂得禪以見心現量是謂得果說名得果非實得
-<lb ed="C" n="0114c15"/>果<anchor xml:id="beg_59" type="cb-app"/>已<anchor xml:id="end_59"/>上二種未超心量故非一乘</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0114c1514" rend="inline">復次大慧。欲超禪
+<lb ed="C" n="0114c15"/>果<anchor xml:id="nkr_note_add_0114c1501" n="0114c1501"/><anchor xml:id="beg0114c1501" n="0114c1501"/>已<anchor xml:id="end0114c1501"/>上二種未超心量故非一乘</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0114c1514" rend="inline">復次大慧。欲超禪
 <lb ed="C" n="0114c16"/>無量無色界者。當離自心現量相。大
 <lb ed="C" n="0114c17"/>慧。受想正受。超自心現量者不然。何
 <lb ed="C" n="0114c18"/>以故。有心量故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0114c1807" rend="margin-left:1em;inline"><note place="inline">以前二種未離受想正受唯超自心現量
-<lb ed="C" n="0114c19"/>者乃不復爾故曰不然凡以別二種有心量故自欲超禪無量無色界<anchor xml:id="beg_5a" type="cb-app"/>已<anchor xml:id="end_5a"/>
+<lb ed="C" n="0114c19"/>者乃不復爾故曰不然凡以別二種有心量故自欲超禪無量無色界<anchor xml:id="nkr_note_add_0114c1901" n="0114c1901"/><anchor xml:id="beg0114c1901" n="0114c1901"/>已<anchor xml:id="end0114c1901"/>
 <lb ed="C" n="0114c20"/>下皆述寂靜一乘道也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0114c2010" rend="inline">爾時世尊欲重宣比義
 <pb ed="C" xml:id="C097.1821.0115a" n="0115a"/>
 <lb ed="C" n="0115a01"/>而說偈言。</p>
@@ -2411,7 +2416,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0115a05"/><l>及與阿羅漢</l><l>斯等心惑亂</l>
 <lb ed="C" n="0115a06"/><l>禪者禪及緣</l><l>斷知見真諦</l>
 <lb ed="C" n="0115a07"/><l>此則妄想量</l><l>若覺得解脫</l></lg></cb:div>
-<lb ed="C" n="0115a08"/><cb:div type="commentary"><p xml:id="pC097p0115a0801" rend="margin-left:1em"><note place="inline">頌曰諸佛真機不易傳過諸色量實難肩斷除三結高持戒頓照無生果<anchor xml:id="beg_5b" type="cb-app"/>已<anchor xml:id="end_5b"/>圓
+<lb ed="C" n="0115a08"/><cb:div type="commentary"><p xml:id="pC097p0115a0801" rend="margin-left:1em"><note place="inline">頌曰諸佛真機不易傳過諸色量實難肩斷除三結高持戒頓照無生果<anchor xml:id="nkr_note_add_0115a0801" n="0115a0801"/><anchor xml:id="beg0115a0801" n="0115a0801"/>已<anchor xml:id="end0115a0801"/>圓
 <lb ed="C" n="0115a09"/>唯有那含能見過堪佳羅漢得諸禪一乘除是超心量體合虛空不立玄</note>。</p></cb:div></cb:div>
 <lb ed="C" n="0115a10"/><cb:div type="other"><cb:mulu type="其他" level="2">二種覺分第三十四</cb:mulu><head>二種覺分第三十四</head>
 <lb ed="C" n="0115a11"/><cb:div type="orig"><p xml:id="pC097p0115a1101">復次大慧。有二種覺。謂觀察覺及妄
@@ -2448,7 +2453,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="C" xml:id="C097.1821.0115c" n="0115c"/>
 <lb ed="C" n="0115c01"/>四大之色相</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0115c0106" rend="inline">菩薩摩訶薩作是覺。彼真諦
 <lb ed="C" n="0115c02"/>者四大不生。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0115c0206" rend="margin-left:1em;inline"><note place="inline">真諦寂靜故云不生盖無生想乃不生矣</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0115c0222" rend="inline">於
-<lb ed="C" n="0115c03"/>彼四大不生作如是觀察。觀察<anchor xml:id="beg_5c" type="cb-app"/>已<anchor xml:id="end_5c"/>。覺
+<lb ed="C" n="0115c03"/>彼四大不生作如是觀察。觀察<anchor xml:id="nkr_note_add_0115c0301" n="0115c0301"/><anchor xml:id="beg0115c0301" n="0115c0301"/>已<anchor xml:id="end0115c0301"/>。覺
 <lb ed="C" n="0115c04"/>名相妄想分齊自心現分齊。外性非
 <lb ed="C" n="0115c05"/>性。是名心現妄想分齊。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0115c0510" rend="margin-left:1em;inline"><note place="inline">於彼四大作不生觀乃能
 <lb ed="C" n="0115c06"/>覺知妄想分齊悉由自心所現分齊而知外性率皆非性</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0115c0623" rend="inline">謂三界
@@ -2490,7 +2495,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="C" xml:id="C097.1821.0116b" n="0116b"/>
 <lb ed="C" n="0116b01"/>趣。同陰妄想現。是名諸陰自性相。汝
 <lb ed="C" n="0116b02"/>當除滅。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0116b0204" rend="margin-left:1em;inline"><note place="inline">諸陰性相本來空寂皆因妄想而現聖智<g ref="#CB08073">𣅀</g>趣不墮有無
-<lb ed="C" n="0116b03"/>同其妄想所現而無所著故云是名諸陰自性相汝當除滅</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0116b0324" rend="inline">滅<anchor xml:id="beg_5d" type="cb-app"/>已<anchor xml:id="end_5d"/>。
+<lb ed="C" n="0116b03"/>同其妄想所現而無所著故云是名諸陰自性相汝當除滅</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0116b0324" rend="inline">滅<anchor xml:id="nkr_note_add_0116b0301" n="0116b0301"/><anchor xml:id="beg0116b0301" n="0116b0301"/>已<anchor xml:id="end0116b0301"/>。
 <lb ed="C" n="0116b04"/>說寂靜法。斷一切佛剎諸外道見。說
 <lb ed="C" n="0116b05"/>寂靜時。法無我見淨。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0116b0509" rend="margin-left:1em;inline"><note place="inline">法雖無我其見猶存見性兼忘
 <lb ed="C" n="0116b06"/>乃真寂靜</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0116b0605" rend="inline">及入不動地。入不動地已。無量
@@ -2570,7 +2575,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0117b17"/>生妄想。云何相續妄想。謂彼俱相續
 <lb ed="C" n="0117b18"/>如金縷。是名相續妄想。云何縛不縛
 <lb ed="C" n="0117b19"/>妄想。謂縛因縛計著。如士夫方便若
-<lb ed="C" n="0117b20"/>縛若解。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0117b2004" rend="margin-left:1em;inline"><note place="inline">謂縛因能縛而有所縛如人以繩方便力故縛<anchor xml:id="beg_5e" type="cb-app"/>已<anchor xml:id="end_5e"/>復解</note>。</p></cb:div>
+<lb ed="C" n="0117b20"/>縛若解。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0117b2004" rend="margin-left:1em;inline"><note place="inline">謂縛因能縛而有所縛如人以繩方便力故縛<anchor xml:id="nkr_note_add_0117b2001" n="0117b2001"/><anchor xml:id="beg0117b2001" n="0117b2001"/>已<anchor xml:id="end0117b2001"/>復解</note>。</p></cb:div>
 <pb ed="C" xml:id="C097.1821.0117c" n="0117c"/>
 <lb ed="C" n="0117c01"/><cb:div type="orig"><p xml:id="pC097p0117c0101">是名縛不縛妄想。於此妄想自性分
 <lb ed="C" n="0117c02"/>別通相。一切愚夫計著有無。大慧。計
@@ -2586,7 +2591,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0117c12"/><lg xml:id="lgC097p0117c1201"><l>心縛於境界</l><l>覺想智隨轉</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0117c1211" rend="margin-left:1em;inline"><note place="inline">隨境
 <lb ed="C" n="0117c13"/>而覺謂之覺想</note>。</p></cb:div>
 <lb ed="C" n="0117c14"/><cb:div type="orig"><lg xml:id="lgC097p0117c1401"><l>無所有及勝</l><l>平等智慧生</l>
-<lb ed="C" n="0117c15"/><l>妄想自性有</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0117c1506" rend="margin-left:1em;inline"><note place="inline"><anchor xml:id="beg_5f" type="cb-app"/>已<anchor xml:id="end_5f"/>下皆妄立緣起之性</note>。</p></cb:div><cb:div type="orig"><lg xml:id="lgC097p0117c1515" cb:place="inline"><l>於緣起則無</l></lg>
+<lb ed="C" n="0117c15"/><l>妄想自性有</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0117c1506" rend="margin-left:1em;inline"><note place="inline"><anchor xml:id="nkr_note_add_0117c1501" n="0117c1501"/><anchor xml:id="beg0117c1501" n="0117c1501"/>已<anchor xml:id="end0117c1501"/>下皆妄立緣起之性</note>。</p></cb:div><cb:div type="orig"><lg xml:id="lgC097p0117c1515" cb:place="inline"><l>於緣起則無</l></lg>
 <lb ed="C" n="0117c16"/><lg xml:id="lgC097p0117c1601"><l>妄想或攝受</l><l>緣起非妄想</l>
 <lb ed="C" n="0117c17"/><l>種種支分生</l><l>如幻則不成</l>
 <lb ed="C" n="0117c18"/><l>彼相有種種</l><l>妄想則不成</l>
@@ -2597,7 +2602,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0118a02"/><l>妄想有種種</l><l>於緣起妄想</l>
 <lb ed="C" n="0118a03"/><l>世諦第一義</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0118a0306" rend="margin-left:1em;inline"><note place="inline">以世諦及第一義為二</note>。</p></cb:div><cb:div type="orig"><lg xml:id="lgC097p0118a0315" cb:place="inline"><l>第三無因生</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0118a0320" rend="margin-left:1em;inline"><note place="inline">又立
 <lb ed="C" n="0118a04"/>無生之說為三</note>。</p></cb:div>
-<lb ed="C" n="0118a05"/><cb:div type="orig"><lg xml:id="lgC097p0118a0501"><l>妄想說世諦</l><l>斷於聖境界</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0118a0511" rend="margin-left:1em;inline"><note place="inline"><anchor xml:id="beg_60" type="cb-app"/>已<anchor xml:id="end_60"/>上
+<lb ed="C" n="0118a05"/><cb:div type="orig"><lg xml:id="lgC097p0118a0501"><l>妄想說世諦</l><l>斷於聖境界</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0118a0511" rend="margin-left:1em;inline"><note place="inline"><anchor xml:id="nkr_note_add_0118a0501" n="0118a0501"/><anchor xml:id="beg0118a0501" n="0118a0501"/>已<anchor xml:id="end0118a0501"/>上
 <lb ed="C" n="0118a06"/>諸妄惟聖則斷</note>。</p></cb:div>
 <lb ed="C" n="0118a07"/><cb:div type="orig"><lg xml:id="lgC097p0118a0701"><l>譬如修行事</l><l>於一種種現</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0118a0711" rend="margin-left:1em;inline"><note place="inline">於一
 <lb ed="C" n="0118a08"/>理而現種種</note>。</p></cb:div>
@@ -2624,7 +2629,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0118b08"/><l>眾相及緣起</l><l>彼名起妄想</l>
 <lb ed="C" n="0118b09"/><l>彼諸妄想相</l><l>從彼緣起生</l>
 <lb ed="C" n="0118b10"/><l>覺慧善觀察</l><l>無緣無妄想</l>
-<lb ed="C" n="0118b11"/><l>成<anchor xml:id="beg_61" type="cb-app"/>已<anchor xml:id="end_61"/>無有性</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0118b1106" rend="margin-left:1em;inline"><note place="inline">謂成自性</note>。</p></cb:div><cb:div type="orig"><lg xml:id="lgC097p0118b1110" cb:place="inline"><l>云何妄想覺</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0118b1115" rend="margin-left:1em;inline"><note place="inline">至成
+<lb ed="C" n="0118b11"/><l>成<anchor xml:id="nkr_note_add_0118b1101" n="0118b1101"/><anchor xml:id="beg0118b1101" n="0118b1101"/>已<anchor xml:id="end0118b1101"/>無有性</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0118b1106" rend="margin-left:1em;inline"><note place="inline">謂成自性</note>。</p></cb:div><cb:div type="orig"><lg xml:id="lgC097p0118b1110" cb:place="inline"><l>云何妄想覺</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0118b1115" rend="margin-left:1em;inline"><note place="inline">至成
 <lb ed="C" n="0118b12"/>自性則一切無性云何用覺</note>。</p></cb:div>
 <lb ed="C" n="0118b13"/><cb:div type="orig"><lg xml:id="lgC097p0118b1301"><l>彼妄想自性</l><l>建立二自性</l>
 <lb ed="C" n="0118b14"/><l>妄想種種現</l><l>清淨聖境界</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0118b1411" rend="margin-left:1em;inline"><note place="inline">唯聖
@@ -2656,17 +2661,17 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0118c19"/>大慧。不自般涅槃法故。不說一切聲
 <lb ed="C" n="0118c20"/>聞緣覺一乘。以一切聲聞緣覺。如來
 <pb ed="C" xml:id="C097.1821.0119a" n="0119a"/>
-<lb ed="C" n="0119a01"/>調伏授寂靜方便而得解脫。非自<anchor xml:id="beg_62" type="cb-app"/>己<anchor xml:id="end_62"/>
+<lb ed="C" n="0119a01"/>調伏授寂靜方便而得解脫。非自<anchor xml:id="nkr_note_add_0119a0101" n="0119a0101"/><anchor xml:id="beg0119a0101" n="0119a0101"/>己<anchor xml:id="end0119a0101"/>
 <lb ed="C" n="0119a02"/>力。是故不說一乘。復次大慧。煩惱障
 <lb ed="C" n="0119a03"/>業習氣不斷故。不說一切聲聞緣覺
 <lb ed="C" n="0119a04"/>一乘。不覺法無我。不離分<g ref="#CB01008">󰏰</g>死。故說
 <lb ed="C" n="0119a05"/>三乘。大慧。彼諸一切起煩惱過習氣
-<lb ed="C" n="0119a06"/>斷。及覺法無我。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0119a0607" rend="margin-left:1em;inline"><note place="inline">煩惱習氣<anchor xml:id="beg_63" type="cb-app"/>已<anchor xml:id="end_63"/>斷又當覺法無我若不覺法
+<lb ed="C" n="0119a06"/>斷。及覺法無我。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0119a0607" rend="margin-left:1em;inline"><note place="inline">煩惱習氣<anchor xml:id="nkr_note_add_0119a0601" n="0119a0601"/><anchor xml:id="beg0119a0601" n="0119a0601"/>已<anchor xml:id="end0119a0601"/>斷又當覺法無我若不覺法
 <lb ed="C" n="0119a07"/>無我則未能忘法如味著三昧樂及非性無漏界是也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0119a0722" rend="inline">彼一切
 <lb ed="C" n="0119a08"/>起煩惱過習氣斷。三昧樂味著。非性
 <lb ed="C" n="0119a09"/>無漏界覺。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0119a0905" rend="margin-left:1em;inline"><note place="inline">煩惱習氣雖斷而未能覺法無我方且味著三昧樂
 <lb ed="C" n="0119a10"/>及非性無漏境界智者於此又當覺也觀察一切皆本非性而證無漏性
-<lb ed="C" n="0119a11"/>相未忘故當覺也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0119a1108" rend="inline">覺<anchor xml:id="beg_64" type="cb-app"/>已<anchor xml:id="end_64"/>。復入出世間上上無
+<lb ed="C" n="0119a11"/>相未忘故當覺也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0119a1108" rend="inline">覺<anchor xml:id="nkr_note_add_0119a1101" n="0119a1101"/><anchor xml:id="beg0119a1101" n="0119a1101"/>已<anchor xml:id="end0119a1101"/>。復入出世間上上無
 <lb ed="C" n="0119a12"/>漏界。滿足眾具。當得如來不思議自
 <lb ed="C" n="0119a13"/>在法身。爾時世尊欲重宣此義而說
 <lb ed="C" n="0119a14"/>偈言。</p>
@@ -2732,7 +2737,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0120b16"/><l>非諦非解脫</l><l>非無有境界</l>
 <lb ed="C" n="0120b17"/><l>然乘摩訶衍</l><l>三摩提自在</l>
 <lb ed="C" n="0120b18"/><l>種種意生身</l><l>自在華莊嚴</l></lg></cb:div>
-<lb ed="C" n="0120b19"/><cb:div type="commentary"><p xml:id="pC097p0120b1901" rend="margin-left:1em"><note place="inline">頌曰豁達<anchor xml:id="beg_65" type="cb-app"/>已<anchor xml:id="end_65"/>除諸識浪遂於三種現身財安然初覺元非性如幻徐知法
+<lb ed="C" n="0120b19"/><cb:div type="commentary"><p xml:id="pC097p0120b1901" rend="margin-left:1em"><note place="inline">頌曰豁達<anchor xml:id="nkr_note_add_0120b1901" n="0120b1901"/><anchor xml:id="beg0120b1901" n="0120b1901"/>已<anchor xml:id="end0120b1901"/>除諸識浪遂於三種現身財安然初覺元非性如幻徐知法
 <lb ed="C" n="0120b20"/>障開功德海中騰雨露莊嚴門裏結樓臺須知無作而俱作一切皆從自
 <pb ed="C" xml:id="C097.1821.0120c" n="0120c"/>
 <lb ed="C" n="0120c01"/>得來</note>。</p></cb:div></cb:div>
@@ -2760,16 +2765,16 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0121a02"/>唯除慈悲得無願解脫此名三解脫謂行五無間者其意欲以三解脫及
 <lb ed="C" n="0121a03"/>無漏想斷彼七識佛其實未能解脫故曰惡想</note>。</p></cb:div>
 <lb ed="C" n="0121a04"/><cb:div type="orig"><p xml:id="pC097p0121a0401">復次大慧。有外無間。今當演說。汝及
-<lb ed="C" n="0121a05"/>餘菩薩聞是義<anchor xml:id="beg_66" type="cb-app"/>已<anchor xml:id="end_66"/>。於未來世不墮愚
+<lb ed="C" n="0121a05"/>餘菩薩聞是義<anchor xml:id="nkr_note_add_0121a0501" n="0121a0501"/><anchor xml:id="beg0121a0501" n="0121a0501"/>已<anchor xml:id="end0121a0501"/>。於未來世不墮愚
 <lb ed="C" n="0121a06"/>癡。謂先所說無間。若行此者。於三解
 <lb ed="C" n="0121a07"/>脫一一不得無間等法。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0121a0710" rend="margin-left:1em;inline"><note place="inline">斷此五種名無間等斷之
-<lb ed="C" n="0121a08"/>者是有心於善業者也若於三解脫中不見有無間等法</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0121a0823" rend="inline">除此<anchor xml:id="beg_67" type="cb-app"/>已<anchor xml:id="end_67"/>。
+<lb ed="C" n="0121a08"/>者是有心於善業者也若於三解脫中不見有無間等法</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0121a0823" rend="inline">除此<anchor xml:id="nkr_note_add_0121a0801" n="0121a0801"/><anchor xml:id="beg0121a0801" n="0121a0801"/>已<anchor xml:id="end0121a0801"/>。
 <lb ed="C" n="0121a09"/>餘化神力現無間等。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0121a0909" rend="margin-left:1em;inline"><note place="inline">化現無間則非究竟斷彼故曰
 <lb ed="C" n="0121a10"/>外無間唯化現無間是則以智慧方便而行無間非有心於善業故能為
 <lb ed="C" n="0121a11"/>作五無間罪者除疑悔也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0121a1111" rend="inline">謂聲聞化神力。菩薩化
 <lb ed="C" n="0121a12"/>神力。如來化神力。為餘作無間罪者
 <lb ed="C" n="0121a13"/>除疑悔故。為勸發故。神力變化現無
-<lb ed="C" n="0121a14"/>間等。無有一向作無間事。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0121a1411" rend="margin-left:1em;inline"><note place="inline">神力化現現<anchor xml:id="beg_68" type="cb-app"/>已<anchor xml:id="end_68"/>還滅
+<lb ed="C" n="0121a14"/>間等。無有一向作無間事。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0121a1411" rend="margin-left:1em;inline"><note place="inline">神力化現現<anchor xml:id="nkr_note_add_0121a1401" n="0121a1401"/><anchor xml:id="beg0121a1401" n="0121a1401"/>已<anchor xml:id="end0121a1401"/>還滅
 <lb ed="C" n="0121a15"/>非究竟斷彼故曰無有一句作無間事</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0121a1516" rend="inline">不得無間等。除
 <lb ed="C" n="0121a16"/>覺自心現量。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0121a1606" rend="margin-left:1em;inline"><note place="inline">化現無間即於無間等法實無所有唯覺自心
 <lb ed="C" n="0121a17"/>現量而自心現量之性本亦非性故下文云云</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0121a1719" rend="inline">離身財妄想。
@@ -2830,7 +2835,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0122a09"/><cb:div type="other"><cb:mulu type="其他" level="2">自得本住分第四十四</cb:mulu><head>自得本住分第四十四</head>
 <lb ed="C" n="0122a10"/><cb:div type="orig"><p xml:id="pC097p0122a1001">大慧復白佛言。如世尊所說。我從某
 <lb ed="C" n="0122a11"/>夜得最正覺。乃至某夜入般涅槃。於
-<lb ed="C" n="0122a12"/>其中間。乃至不說一字。亦不<anchor xml:id="beg_69" type="cb-app"/>已<anchor xml:id="end_69"/>說當
+<lb ed="C" n="0122a12"/>其中間。乃至不說一字。亦不<anchor xml:id="nkr_note_add_0122a1201" n="0122a1201"/><anchor xml:id="beg0122a1201" n="0122a1201"/>已<anchor xml:id="end0122a1201"/>說當
 <lb ed="C" n="0122a13"/>說。不說是佛說。大慧白佛言世尊。如
 <lb ed="C" n="0122a14"/>來應供等正覺。何因說言不說是佛
 <lb ed="C" n="0122a15"/>說。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0122a1502" rend="margin-left:1em;inline"><note place="inline">大慧言正覺即佛也而云不說是佛說故疑</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0122a1519" rend="inline">佛告大慧。
@@ -2850,7 +2855,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0122b08"/>佛告大慧。我及過去一切諸佛法界
 <lb ed="C" n="0122b09"/>常住亦復如是。是故說言我從某夜
 <lb ed="C" n="0122b10"/>得最正覺。乃至某夜入般涅槃。於其
-<lb ed="C" n="0122b11"/>中間不說一字。亦不<anchor xml:id="beg_6a" type="cb-app"/>已<anchor xml:id="end_6a"/>說當說。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0122b1113" rend="margin-left:1em;inline"><note place="inline">佛以自得
+<lb ed="C" n="0122b11"/>中間不說一字。亦不<anchor xml:id="nkr_note_add_0122b1101" n="0122b1101"/><anchor xml:id="beg0122b1101" n="0122b1101"/>已<anchor xml:id="end0122b1101"/>說當說。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0122b1113" rend="margin-left:1em;inline"><note place="inline">佛以自得
 <lb ed="C" n="0122b12"/>及本住法故離言字二趣一切所說對病設藥如鏡現像悉無所得亦無
 <lb ed="C" n="0122b13"/>增減</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0122b1303" rend="inline">爾時世尊欲重宣此義而說偈言。</p>
 <lb ed="C" n="0122b14"/><lg xml:id="lgC097p0122b1401"><l>我某夜成道</l><l>至某夜涅槃</l>
@@ -2875,12 +2880,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0122c12"/>緣故</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0122c1203" rend="inline">非不有。從有生。非無有生。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0122c1213" rend="margin-left:1em;inline"><note place="inline">此世間說有者</note>。</p></cb:div>
 <lb ed="C" n="0122c13"/><cb:div type="orig"><p xml:id="pC097p0122c1301">彼如是說者。是說世間無因。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0122c1312" rend="margin-left:1em;inline"><note place="inline">有無常相因故
 <lb ed="C" n="0122c14"/>說有者為無之因</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0122c1408" rend="inline">云何世間依無。謂受貪恚
-<lb ed="C" n="0122c15"/>癡性<anchor xml:id="beg_6b" type="cb-app"/>已<anchor xml:id="end_6b"/>。然後妄想計著貪恚癡性非
+<lb ed="C" n="0122c15"/>癡性<anchor xml:id="nkr_note_add_0122c1501" n="0122c1501"/><anchor xml:id="beg0122c1501" n="0122c1501"/>已<anchor xml:id="end0122c1501"/>。然後妄想計著貪恚癡性非
 <lb ed="C" n="0122c16"/>性。若不取有性者。性相寂靜故。謂諸
 <lb ed="C" n="0122c17"/>如來聲聞緣覺不取貪恚癡性為有
 <lb ed="C" n="0122c18"/>為無。大慧。此中何等為壞者。大慧白
 <lb ed="C" n="0122c19"/>佛言世尊。若彼取貪恚癡性。後不復
-<lb ed="C" n="0122c20"/>取。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0122c2002" rend="margin-left:1em;inline"><note place="inline">此皆論愚夫依無也彼諸愚夫受貪恚<anchor xml:id="beg_6c" type="cb-app"/>已<anchor xml:id="end_6c"/>又計非性其意不取有性
+<lb ed="C" n="0122c20"/>取。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0122c2002" rend="margin-left:1em;inline"><note place="inline">此皆論愚夫依無也彼諸愚夫受貪恚<anchor xml:id="nkr_note_add_0122c2001" n="0122c2001"/><anchor xml:id="beg0122c2001" n="0122c2001"/>已<anchor xml:id="end0122c2001"/>又計非性其意不取有性
 <pb ed="C" xml:id="C097.1821.0123a" n="0123a"/>
 <lb ed="C" n="0123a01"/>者謂彼自寂靜故又謂諸佛聲緣亦不取彼有無之性一切斷滅殊不知
 <lb ed="C" n="0123a02"/>其不了自心現量反墮壞滅之想此所以言壞也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0123a0220" rend="inline">佛告大慧。
@@ -2908,7 +2913,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0123b03"/><l>淨除彼境界</l><l>平等心寂滅</l>
 <lb ed="C" n="0123b04"/><l>無取境界性</l><l>滅非無所有</l>
 <lb ed="C" n="0123b05"/><l>有事悉如如</l><l>如賢聖境界</l>
-<lb ed="C" n="0123b06"/><l>無種而有生</l><l>生<anchor xml:id="beg_6d" type="cb-app"/>已<anchor xml:id="end_6d"/>而復滅</l>
+<lb ed="C" n="0123b06"/><l>無種而有生</l><l>生<anchor xml:id="nkr_note_add_0123b0601" n="0123b0601"/><anchor xml:id="beg0123b0601" n="0123b0601"/>已<anchor xml:id="end0123b0601"/>而復滅</l>
 <lb ed="C" n="0123b07"/><l>因緣有非有</l><l>不住我教法</l>
 <lb ed="C" n="0123b08"/><l>非外道非佛</l><l>非我亦非餘</l>
 <lb ed="C" n="0123b09"/><l>因緣所集起</l><l>云何而得無</l>
@@ -2916,12 +2921,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0123b11"/><lg xml:id="lgC097p0123b1101"><l>邪見論生法</l><l>妄想計有無</l>
 <lb ed="C" n="0123b12"/><l>若知無所生</l><l>亦復無所滅</l>
 <lb ed="C" n="0123b13"/><l>觀世悉空寂</l><l>有無二俱離</l></lg></cb:div>
-<lb ed="C" n="0123b14"/><cb:div type="commentary"><p xml:id="pC097p0123b1401" rend="margin-left:1em"><note place="inline">頌曰休說有無皆<anchor xml:id="beg_6e" type="cb-app"/>已<anchor xml:id="end_6e"/>離因緣生滅又沉淪若能悟了惟心境一似醒來看醉人</note>。</p></cb:div></cb:div>
+<lb ed="C" n="0123b14"/><cb:div type="commentary"><p xml:id="pC097p0123b1401" rend="margin-left:1em"><note place="inline">頌曰休說有無皆<anchor xml:id="nkr_note_add_0123b1401" n="0123b1401"/><anchor xml:id="beg0123b1401" n="0123b1401"/>已<anchor xml:id="end0123b1401"/>離因緣生滅又沉淪若能悟了惟心境一似醒來看醉人</note>。</p></cb:div></cb:div>
 <lb ed="C" n="0123b15"/><cb:div type="other"><cb:mulu type="其他" level="2">宗說俱通相分第四十六</cb:mulu><head>宗說俱通相分第四十六</head>
 <lb ed="C" n="0123b16"/><cb:div type="orig"><p xml:id="pC097p0123b1601">爾時大慧菩薩復白佛言世尊。惟願
 <lb ed="C" n="0123b17"/>為我及諸菩薩說宗通相。若善分別
 <lb ed="C" n="0123b18"/>宗通相者。我及諸菩薩通達是相。通
-<lb ed="C" n="0123b19"/>是相<anchor xml:id="beg_6f" type="cb-app"/>已<anchor xml:id="end_6f"/>。速成阿耨多羅三藐三菩提。
+<lb ed="C" n="0123b19"/>是相<anchor xml:id="nkr_note_add_0123b1901" n="0123b1901"/><anchor xml:id="beg0123b1901" n="0123b1901"/>已<anchor xml:id="end0123b1901"/>。速成阿耨多羅三藐三菩提。
 <lb ed="C" n="0123b20"/>不隨覺想及眾魔外道。佛告大慧。諦
 <pb ed="C" xml:id="C097.1821.0123c" n="0123c"/>
 <lb ed="C" n="0123c01"/>聽諦聽。善思念之。當為汝說。大慧白
@@ -3040,7 +3045,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0125b09"/>為義謂離一切妄想相言說相。是名
 <lb ed="C" n="0125b10"/>為義。大慧。菩薩摩訶薩於如是義。獨
 <lb ed="C" n="0125b11"/>一靜處。聞思修慧。緣自覺了。向涅槃
-<lb ed="C" n="0125b12"/>城。習氣身轉變<anchor xml:id="beg_70" type="cb-app"/>已<anchor xml:id="end_70"/>。自覺境界。觀地地
+<lb ed="C" n="0125b12"/>城。習氣身轉變<anchor xml:id="nkr_note_add_0125b1201" n="0125b1201"/><anchor xml:id="beg0125b1201" n="0125b1201"/>已<anchor xml:id="end0125b1201"/>。自覺境界。觀地地
 <lb ed="C" n="0125b13"/>中間勝進義相。是名菩薩摩訶薩善
 <lb ed="C" n="0125b14"/>語義。復次大慧。善語義菩薩摩訶薩。
 <lb ed="C" n="0125b15"/>觀語與義。非異非不異。觀義與語。亦
@@ -3197,7 +3202,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0127c19"/><cb:div type="orig"><p xml:id="pC097p0127c1901">大慧復白佛言。如世尊所說。以彼彼
 <lb ed="C" n="0127c20"/>妄想妄想彼彼性。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0127c2008" rend="margin-left:1em;inline"><note place="inline">妄性非故曰彼彼</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0127c2015" rend="inline">非有彼
 <pb ed="C" xml:id="C097.1821.0128a" n="0128a"/>
-<lb ed="C" n="0128a01"/>自性。但妄想自性耳。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0128a0109" rend="margin-left:1em;inline"><note place="inline">謂非本來有性但自<anchor xml:id="beg_71" type="cb-app"/>己<anchor xml:id="end_71"/>妄想所
+<lb ed="C" n="0128a01"/>自性。但妄想自性耳。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0128a0109" rend="margin-left:1em;inline"><note place="inline">謂非本來有性但自<anchor xml:id="nkr_note_add_0128a0101" n="0128a0101"/><anchor xml:id="beg0128a0101" n="0128a0101"/>己<anchor xml:id="end0128a0101"/>妄想所
 <lb ed="C" n="0128a02"/>成故曰妄想自性爾</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0128a0209" rend="inline">世尊。若但妄想自性。非性
 <lb ed="C" n="0128a03"/>自性相待者。非為世尊如是說煩惱
 <lb ed="C" n="0128a04"/>清淨無性過耶。一切法妄想自性非
@@ -3213,7 +3218,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0128a14"/>性而不執著亦如聖知聖見之性自性所知</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0128a1418" rend="inline">大慧白佛言。
 <lb ed="C" n="0128a15"/>若使如聖以聖知聖見聖慧眼非天
 <lb ed="C" n="0128a16"/>眼非肉眼。性自性如是知。非如愚夫
-<lb ed="C" n="0128a17"/>妄想。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0128a1703" rend="margin-left:1em;inline"><note place="inline">此假問也聖亦不有天眼肉眼之分別但知性自性而<anchor xml:id="beg_72" type="cb-app"/>已<anchor xml:id="end_72"/>不同
+<lb ed="C" n="0128a17"/>妄想。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0128a1703" rend="margin-left:1em;inline"><note place="inline">此假問也聖亦不有天眼肉眼之分別但知性自性而<anchor xml:id="nkr_note_add_0128a1701" n="0128a1701"/><anchor xml:id="beg0128a1701" n="0128a1701"/>已<anchor xml:id="end0128a1701"/>不同
 <lb ed="C" n="0128a18"/>愚夫分別妄想</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0128a1807" rend="inline">云何愚夫離是妄想。不覺聖
 <lb ed="C" n="0128a19"/>性事故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0128a1904" rend="margin-left:1em;inline"><note place="inline">大慧謂愚夫以不覺聖性事亦同諸聖之離妄想也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0128a1924" rend="inline">世
 <lb ed="C" n="0128a20"/>尊。彼亦非顛倒非不顛倒。所以者何。
@@ -3222,11 +3227,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0128b02"/>相故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0128b0203" rend="margin-left:1em;inline"><note place="inline">大慧謂聖以不見愚妄想為得而愚亦不見聖知見何為而不
 <lb ed="C" n="0128b03"/>得</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0128b0302" rend="inline">世尊。聖亦不如是見。如事妄想。不
 <lb ed="C" n="0128b04"/>以自相境界為境界故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0128b0410" rend="margin-left:1em;inline"><note place="inline">聖亦不如愚夫之見於外
-<lb ed="C" n="0128b05"/>妄想一切如之自<anchor xml:id="beg_73" type="cb-app"/>己<anchor xml:id="end_73"/>境界未甞自認</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0128b0515" rend="inline">世尊。彼亦性自性
+<lb ed="C" n="0128b05"/>妄想一切如之自<anchor xml:id="nkr_note_add_0128b0501" n="0128b0501"/><anchor xml:id="beg0128b0501" n="0128b0501"/>己<anchor xml:id="end0128b0501"/>境界未甞自認</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0128b0515" rend="inline">世尊。彼亦性自性
 <lb ed="C" n="0128b06"/>相。妄想自性如是現。不說因無因故
 <lb ed="C" n="0128b07"/>謂墮性相見故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0128b0707" rend="margin-left:1em;inline"><note place="inline">彼謂愚夫</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0128b0711" rend="inline">異境界非如彼
 <lb ed="C" n="0128b08"/>等如是無窮過。不覺性自性相故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0128b0814" rend="margin-left:1em;inline"><note place="inline">自大
-<lb ed="C" n="0128b09"/>慧白佛<anchor xml:id="beg_74" type="cb-app"/>已<anchor xml:id="end_74"/>下其意謂聖雖非如愚夫妄想然亦有聖知等性自性愚夫雖
+<lb ed="C" n="0128b09"/>慧白佛<anchor xml:id="nkr_note_add_0128b0901" n="0128b0901"/><anchor xml:id="beg0128b0901" n="0128b0901"/>已<anchor xml:id="end0128b0901"/>下其意謂聖雖非如愚夫妄想然亦有聖知等性自性愚夫雖
 <lb ed="C" n="0128b10"/>不離妄想然亦又離聖性妄想聖離有無相愚夫又不見離有無相聖亦
 <lb ed="C" n="0128b11"/>不見事妄想不執自境界愚任妄想自性而不說因無因謂愚墮性相見
 <lb ed="C" n="0128b12"/>而聖之異境界非如彼愚妄想無窮然亦不覺性自性相皆大慧反覆詰
@@ -3290,7 +3295,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0129b07"/>而離大乘之智故佛說無生以袪其惑</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0129b0716" rend="inline">大慧。愚夫墯有
 <lb ed="C" n="0129b08"/>無見。莫令彼恐怖。遠離摩訶衍。爾時
 <lb ed="C" n="0129b09"/>世尊欲重宣此義而說偈言。</p>
-<lb ed="C" n="0129b10"/><lg xml:id="lgC097p0129b1001"><l>無自性無說</l><l>無事無相續</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0129b1011" rend="margin-left:1em;inline"><note place="inline"><anchor xml:id="beg_75" type="cb-app"/>此皆<anchor xml:id="end_75"/>
+<lb ed="C" n="0129b10"/><lg xml:id="lgC097p0129b1001"><l>無自性無說</l><l>無事無相續</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0129b1011" rend="margin-left:1em;inline"><note place="inline"><anchor xml:id="nkr_note_add_0129b1001" n="0129b1001"/><anchor xml:id="beg0129b1001" n="0129b1001"/>此皆<anchor xml:id="end0129b1001"/>
 <lb ed="C" n="0129b11"/>愚夫不生之見</note>。</p></cb:div>
 <lb ed="C" n="0129b12"/><cb:div type="orig"><lg xml:id="lgC097p0129b1201"><l>彼愚夫妄想</l><l>如死屍惡覺</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0129b1211" rend="margin-left:1em;inline"><note place="inline">如死
 <lb ed="C" n="0129b13"/>屍之不能變動此為惡覺</note>。</p></cb:div>
@@ -3323,7 +3328,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0129c19"/><cb:div type="orig"><p xml:id="pC097p0129c1901">爾時大慧菩薩復白佛言世尊。如世
 <lb ed="C" n="0129c20"/>尊說如攀緣事。智慧不得。是施設量
 <pb ed="C" xml:id="C097.1821.0130a" n="0130a"/>
-<lb ed="C" n="0130a01"/>建立。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0130a0103" rend="margin-left:1em;inline"><note place="inline">於攀緣事無所用智如之而<anchor xml:id="beg_76" type="cb-app"/>已<anchor xml:id="end_76"/>故曰如攀緣事若不因施設亦
+<lb ed="C" n="0130a01"/>建立。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0130a0103" rend="margin-left:1em;inline"><note place="inline">於攀緣事無所用智如之而<anchor xml:id="nkr_note_add_0130a0101" n="0130a0101"/><anchor xml:id="beg0130a0101" n="0130a0101"/>已<anchor xml:id="end0130a0101"/>故曰如攀緣事若不因施設亦
 <lb ed="C" n="0130a02"/>不說攀緣也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0130a0206" rend="inline">施設所攝受非性。攝受亦非
 <lb ed="C" n="0130a03"/>性。以無攝故智則不生。唯施設名耳。</p></cb:div>
 <lb ed="C" n="0130a04"/><cb:div type="commentary"><p xml:id="pC097p0130a0401" rend="margin-left:1em"><note place="inline">用智照以息攀緣則智生如攀緣而不與之分別則智滅故曰智慧不得
@@ -3412,14 +3417,14 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0131b03"/>子。持龍形像。詣釋天宮。建立論宗。要
 <lb ed="C" n="0131b04"/>壞帝釋千輻之輪。隨我不如。斷一一
 <lb ed="C" n="0131b05"/>頭以謝所屈。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0131b0506" rend="margin-left:1em;inline"><note place="inline">彼謂欲使隨於我我或不如即斷頭以謝</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0131b0522" rend="inline">作
-<lb ed="C" n="0131b06"/>是要<anchor xml:id="beg_77" type="cb-app"/>已<anchor xml:id="end_77"/>。即以釋法摧伏帝釋。釋墮負
+<lb ed="C" n="0131b06"/>是要<anchor xml:id="nkr_note_add_0131b0601" n="0131b0601"/><anchor xml:id="beg0131b0601" n="0131b0601"/>已<anchor xml:id="end0131b0601"/>。即以釋法摧伏帝釋。釋墮負
 <lb ed="C" n="0131b07"/>處即壞其車。還來人間。如是大慧。世
 <lb ed="C" n="0131b08"/>間言論因譬莊嚴。乃至畜生亦能以
 <lb ed="C" n="0131b09"/>種種句味惑彼諸天及阿脩羅著生
 <lb ed="C" n="0131b10"/>滅見。而况於人。是故大慧。世間言論
 <lb ed="C" n="0131b11"/>應當遠離。以能招致苦生因故。慎勿
 <lb ed="C" n="0131b12"/>習近。大慧。世論者。惟說身覺境界而
-<lb ed="C" n="0131b13"/><anchor xml:id="beg_78" type="cb-app"/>已<anchor xml:id="end_78"/>。彼世論者乃有百千。但於後時後
+<lb ed="C" n="0131b13"/><anchor xml:id="nkr_note_add_0131b1301" n="0131b1301"/><anchor xml:id="beg0131b1301" n="0131b1301"/>已<anchor xml:id="end0131b1301"/>。彼世論者乃有百千。但於後時後
 <lb ed="C" n="0131b14"/>五十年。當破壞結集。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0131b1409" rend="margin-left:1em;inline"><note place="inline">結集謂藏教</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0131b1414" rend="inline">惡覺因
 <lb ed="C" n="0131b15"/>見盛故。惡弟子受。如是大慧。世論破
 <lb ed="C" n="0131b16"/>壞結集。種種句味因譬莊嚴說外道
@@ -3577,7 +3582,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="C" xml:id="C097.1821.0134a" n="0134a"/>
 <lb ed="C" n="0134a01"/>功德功德所起和合一異俱不俱。作
 <lb ed="C" n="0134a02"/>涅槃想。或見自性所起。孔雀文彩種
-<lb ed="C" n="0134a03"/>種雜寶及利<anchor xml:id="beg_79" type="cb-app"/>刺<anchor xml:id="end_79"/>等性。見<anchor xml:id="beg_7a" type="cb-app"/>已<anchor xml:id="end_7a"/>。作涅槃想。
+<lb ed="C" n="0134a03"/>種雜寶及利<anchor xml:id="nkr_note_add_0134a0301" n="0134a0301"/><anchor xml:id="beg0134a0301" n="0134a0301"/>刺<anchor xml:id="end0134a0301"/>等性。見<anchor xml:id="nkr_note_add_0134a0302" n="0134a0302"/><anchor xml:id="beg0134a0302" n="0134a0302"/>已<anchor xml:id="end0134a0302"/>。作涅槃想。
 <lb ed="C" n="0134a04"/>或有覺二十五真實。或王守護國受
 <lb ed="C" n="0134a05"/>六德論。作涅槃想。或見時是作者時
 <lb ed="C" n="0134a06"/>節。世間如是覺者。作涅槃想。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0134a0612" rend="margin-left:1em;inline"><note place="inline">凡有見時自謂
@@ -3597,7 +3602,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0134a20"/>得。一切度量不見所成。愚於真實。不
 <pb ed="C" xml:id="C097.1821.0134b" n="0134b"/>
 <lb ed="C" n="0134b01"/>應攝受。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0134b0104" rend="margin-left:1em;inline"><note place="inline">於真實相不自立知同於愚者亦無攝受</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0134b0120" rend="inline">棄捨彼
-<lb ed="C" n="0134b02"/><anchor xml:id="beg_7b" type="cb-app"/>己<anchor xml:id="end_7b"/>。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0134b0202" rend="margin-left:1em;inline"><note place="inline">棄捨謂不著外性以至不應攝受等</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0134b0216" rend="inline">得自覺聖法。知
+<lb ed="C" n="0134b02"/><anchor xml:id="nkr_note_add_0134b0201" n="0134b0201"/><anchor xml:id="beg0134b0201" n="0134b0201"/>己<anchor xml:id="end0134b0201"/>。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0134b0202" rend="margin-left:1em;inline"><note place="inline">棄捨謂不著外性以至不應攝受等</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0134b0216" rend="inline">得自覺聖法。知
 <lb ed="C" n="0134b03"/>二無我。離二煩惱。淨除二障。永離二
 <lb ed="C" n="0134b04"/>死。上上地如來地如影幻等諸深三
 <lb ed="C" n="0134b05"/>昧離心意意識。說名涅槃。大慧。汝等
@@ -3697,7 +3702,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0135c20"/>言。</p>
 <pb ed="C" xml:id="C097.1821.0136a" n="0136a"/>
 <lb ed="C" n="0136a01"/><lg xml:id="lgC097p0136a0101"><l>悉離諸根量</l><l>無事亦無因</l>
-<lb ed="C" n="0136a02"/><l><anchor xml:id="beg_7c" type="cb-app"/>已<anchor xml:id="end_7c"/>離覺所覺</l><l>亦離相所相</l>
+<lb ed="C" n="0136a02"/><l><anchor xml:id="nkr_note_add_0136a0201" n="0136a0201"/><anchor xml:id="beg0136a0201" n="0136a0201"/>已<anchor xml:id="end0136a0201"/>離覺所覺</l><l>亦離相所相</l>
 <lb ed="C" n="0136a03"/><l>陰緣等正覺</l><l>一異莫能見</l>
 <lb ed="C" n="0136a04"/><l>若無有見者</l><l>云何而分別</l>
 <lb ed="C" n="0136a05"/><l>非作非不作</l><l>非事亦非因</l>
@@ -3848,7 +3853,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0138b03"/>自性。得不生不變相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0138b0309" rend="margin-left:1em;inline"><note place="inline">此性自性謂自立不變之性相</note>。</p></cb:div>
 <lb ed="C" n="0138b04"/><cb:div type="orig"><p xml:id="pC097p0138b0401">我不如是墯有無品。大慧。我者離有
 <lb ed="C" n="0138b05"/>無品。離生滅。非性非無性。如種種幻
-<lb ed="C" n="0138b06"/>夢現故非無性。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0138b0607" rend="margin-left:1em;inline"><note place="inline">佛說無性但如幻夢而<anchor xml:id="beg_7d" type="cb-app"/>已<anchor xml:id="end_7d"/>既不著有亦不
+<lb ed="C" n="0138b06"/>夢現故非無性。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0138b0607" rend="margin-left:1em;inline"><note place="inline">佛說無性但如幻夢而<anchor xml:id="nkr_note_add_0138b0601" n="0138b0601"/><anchor xml:id="beg0138b0601" n="0138b0601"/>已<anchor xml:id="end0138b0601"/>既不著有亦不
 <lb ed="C" n="0138b07"/>墯空故下文云云</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0138b0708" rend="inline">云何無性。謂色無自性相。
 <lb ed="C" n="0138b08"/>攝受現不現故。攝不攝故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0138b0811" rend="margin-left:1em;inline"><note place="inline">色本無自性但人攝
 <lb ed="C" n="0138b09"/>受與不攝受現與不現乃有或有或無之見</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0138b0918" rend="inline">以是故一切
@@ -3868,7 +3873,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0138c02"/>聖賢不如實者。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0138c0207" rend="margin-left:1em;inline"><note place="inline">聖賢不除妄想亦不如實然不起生滅想
 <lb ed="C" n="0138c03"/>與凡夫異</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0138c0305" rend="inline">不爾。如性自性。妄想亦不異。若
 <lb ed="C" n="0138c04"/>異妄想者。計著一切性自性。不見寂
-<lb ed="C" n="0138c05"/>靜。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0138c0502" rend="margin-left:1em;inline"><note place="inline">不爾者異前之辭也如來於一切性自性如之而<anchor xml:id="beg_7e" type="cb-app"/>已<anchor xml:id="end_7e"/>於妄想未甞有
+<lb ed="C" n="0138c05"/>靜。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0138c0502" rend="margin-left:1em;inline"><note place="inline">不爾者異前之辭也如來於一切性自性如之而<anchor xml:id="nkr_note_add_0138c0501" n="0138c0501"/><anchor xml:id="beg0138c0501" n="0138c0501"/>已<anchor xml:id="end0138c0501"/>於妄想未甞有
 <lb ed="C" n="0138c06"/>異之之念</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0138c0605" rend="inline">不見寂靜者。終不離妄想。是故
 <lb ed="C" n="0138c07"/>大慧。無相見勝。非相見相者受生因
 <lb ed="C" n="0138c08"/>故不勝。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0138c0804" rend="margin-left:1em;inline"><note place="inline">見無相者名為勝相若非相而見有相則不斷有生之因
@@ -3963,7 +3968,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0140a13"/>行無常是生滅法。此義云何。為邪為
 <lb ed="C" n="0140a14"/>正。為有幾種無常。</p>
 <lb ed="C" n="0140a15"/><p xml:id="pC097p0140a1501">佛告大慧。一切外道有七種無常。非
-<lb ed="C" n="0140a16"/>我法也。何等為七。彼有說言。作<anchor xml:id="beg_7f" type="cb-app"/>已<anchor xml:id="end_7f"/>而
+<lb ed="C" n="0140a16"/>我法也。何等為七。彼有說言。作<anchor xml:id="nkr_note_add_0140a1601" n="0140a1601"/><anchor xml:id="beg0140a1601" n="0140a1601"/>已<anchor xml:id="end0140a1601"/>而
 <lb ed="C" n="0140a17"/>捨。是名無常。有說形處壞。是名無常。
 <lb ed="C" n="0140a18"/>有說即色是無常。有說色轉變中間。
 <lb ed="C" n="0140a19"/>是名無常。無間自之散壞。如乳酪等
@@ -4018,7 +4023,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0141a05"/>切外道於何所思惟性無常。四大不
 <lb ed="C" n="0141a06"/>生。自性相不壞故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0141a0608" rend="margin-left:1em;inline"><note place="inline">外道虛妄分別謂離四大諸塵等法
 <lb ed="C" n="0141a07"/>更有無常是故說言諸大不生以自性相常不壞故</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0141a0721" rend="inline">離始造無
-<lb ed="C" n="0141a08"/>常者。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0141a0803" rend="margin-left:1em;inline"><note place="inline">謂作<anchor xml:id="beg_80" type="cb-app"/>已<anchor xml:id="end_80"/>而捨也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0141a0809" rend="inline">非四大。復有異。四大各
+<lb ed="C" n="0141a08"/>常者。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0141a0803" rend="margin-left:1em;inline"><note place="inline">謂作<anchor xml:id="nkr_note_add_0141a0801" n="0141a0801"/><anchor xml:id="beg0141a0801" n="0141a0801"/>已<anchor xml:id="end0141a0801"/>而捨也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0141a0809" rend="inline">非四大。復有異。四大各
 <lb ed="C" n="0141a09"/>各異相自相故。非差別可得。彼無差
 <lb ed="C" n="0141a10"/>別。斯等不更造。二方便不作。當知是
 <lb ed="C" n="0141a11"/>無常。彼形處壞無常者。謂四大及造
@@ -4039,7 +4044,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0141b05"/>亦如是。如是等種種外道無常見妄
 <lb ed="C" n="0141b06"/>想。火燒四大時自相不燒。各各自相
 <lb ed="C" n="0141b07"/>相壞者。四大造色應斷。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0141b0710" rend="margin-left:1em;inline"><note place="inline">外道言如火燒諸大而自
-<lb ed="C" n="0141b08"/>相尚在彼盖謂必待自相皆壞然後四大造色之相斷<anchor xml:id="beg_81" type="cb-app"/>已<anchor xml:id="end_81"/>上皆外道見</note>。</p></cb:div>
+<lb ed="C" n="0141b08"/>相尚在彼盖謂必待自相皆壞然後四大造色之相斷<anchor xml:id="nkr_note_add_0141b0801" n="0141b0801"/><anchor xml:id="beg0141b0801" n="0141b0801"/>已<anchor xml:id="end0141b0801"/>上皆外道見</note>。</p></cb:div>
 <lb ed="C" n="0141b09"/><cb:div type="orig"><p xml:id="pC097p0141b0901">大慧。我法起非常非無常。所以者何。
 <lb ed="C" n="0141b10"/>謂外性不决定故。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0141b1008" rend="margin-left:1em;inline"><note place="inline">如來於外性如幻未甞决定有無之
 <lb ed="C" n="0141b11"/>想</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0141b1102" rend="inline">唯說三有微心。不說種種相有生
@@ -4125,7 +4130,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0142c07"/>道邪徑故立地次第。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0142c0709" rend="margin-left:1em;inline"><note place="inline">佛所以立地次第而分部七地
 <lb ed="C" n="0142c08"/>者為此</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0142c0804" rend="inline">大慧。彼實無有若生若滅。除自
 <lb ed="C" n="0142c09"/>心現量。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0142c0904" rend="margin-left:1em;inline"><note place="inline">諸地次第皆是自心所現其實無有若生若滅如來於此
-<lb ed="C" n="0142c10"/>但指惟心而一<anchor xml:id="beg_82" type="cb-app"/>切生滅頓了<anchor xml:id="end_82"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0142c1012" rend="inline">所謂地次第相續及
+<lb ed="C" n="0142c10"/>但指惟心而一<anchor xml:id="nkr_note_add_0142c1001" n="0142c1001"/><anchor xml:id="beg0142c1001" n="0142c1001"/>切生滅頓了<anchor xml:id="end0142c1001"/></note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0142c1012" rend="inline">所謂地次第相續及
 <lb ed="C" n="0142c11"/>三界種種行。愚夫所不覺。愚夫所不
 <lb ed="C" n="0142c12"/>覺者。謂我及諸佛說地次第相續。及
 <lb ed="C" n="0142c13"/>說三界種種行。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0142c1307" rend="margin-left:1em;inline"><note place="inline">世尊及諸佛以對治眾生病故有諸地次
@@ -4147,26 +4152,26 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0143a08"/>所攝妄想。覺了自心現量。一切諸法
 <lb ed="C" n="0143a09"/>妄想不生。不墮心意意識外性自性
 <lb ed="C" n="0143a10"/>相計著妄想。非佛法因不生。隨智慧
-<lb ed="C" n="0143a11"/>生。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0143a1102" rend="margin-left:1em;inline"><note place="inline">八地菩薩<anchor xml:id="beg_83" type="cb-app"/>已<anchor xml:id="end_83"/>離諸法妄想於是復修一切佛法非因於此則餘無所
+<lb ed="C" n="0143a11"/>生。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0143a1102" rend="margin-left:1em;inline"><note place="inline">八地菩薩<anchor xml:id="nkr_note_add_0143a1101" n="0143a1101"/><anchor xml:id="beg0143a1101" n="0143a1101"/>已<anchor xml:id="end0143a1101"/>離諸法妄想於是復修一切佛法非因於此則餘無所
 <lb ed="C" n="0143a12"/>生然所以生非妄想生隨智慧生</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0143a1214" rend="inline">得如來自覺地。如
-<lb ed="C" n="0143a13"/>人夢中方便度水。未度而覺。覺<anchor xml:id="beg_84" type="cb-app"/>已<anchor xml:id="end_84"/>思
+<lb ed="C" n="0143a13"/>人夢中方便度水。未度而覺。覺<anchor xml:id="nkr_note_add_0143a1301" n="0143a1301"/><anchor xml:id="beg0143a1301" n="0143a1301"/>已<anchor xml:id="end0143a1301"/>思
 <lb ed="C" n="0143a14"/>惟。為正為邪非正非邪。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0143a1410" rend="margin-left:1em;inline"><note place="inline">八地菩薩於如來自覺之
-<lb ed="C" n="0143a15"/>地如人夢臨大水欲渡其身未渡中間忽然便寤寤<anchor xml:id="beg_85" type="cb-app"/>已<anchor xml:id="end_85"/>思惟此為是實為
+<lb ed="C" n="0143a15"/>地如人夢臨大水欲渡其身未渡中間忽然便寤寤<anchor xml:id="nkr_note_add_0143a1501" n="0143a1501"/><anchor xml:id="beg0143a1501" n="0143a1501"/>已<anchor xml:id="end0143a1501"/>思惟此為是實為
 <lb ed="C" n="0143a16"/>復是虛</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0143a1604" rend="inline">餘無始見聞覺識因想。種種習
 <lb ed="C" n="0143a17"/>氣種種形處墮有無相。心意意識夢
 <lb ed="C" n="0143a18"/>現。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0143a1802" rend="margin-left:1em;inline"><note place="inline">向之所見非虛非實唯是無始見聞覺識習氣所薰不離有無二相
-<lb ed="C" n="0143a19"/>至此則心意意識一切頓覺悉如幻夢隨緣而現無去之之想覺<anchor xml:id="beg_86" type="cb-app"/>已<anchor xml:id="end_86"/>則滅
+<lb ed="C" n="0143a19"/>至此則心意意識一切頓覺悉如幻夢隨緣而現無去之之想覺<anchor xml:id="nkr_note_add_0143a1901" n="0143a1901"/><anchor xml:id="beg0143a1901" n="0143a1901"/>已<anchor xml:id="end0143a1901"/>則滅
 <lb ed="C" n="0143a20"/>無留之之情故曰夢現謂之夢現則現已還滅非有斷滅之想也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0143a2026" rend="inline">大
 <pb ed="C" xml:id="C097.1821.0143b" n="0143b"/>
 <lb ed="C" n="0143b01"/>慧。如是菩薩摩訶薩。於第八菩薩地
 <lb ed="C" n="0143b02"/>見妄想生初地轉進至第七地。見一
 <lb ed="C" n="0143b03"/>切法如幻等。方便度攝所攝心妄想。
-<lb ed="C" n="0143b04"/>行<anchor xml:id="beg_87" type="cb-app"/>已<anchor xml:id="end_87"/>作佛法方便。未得者令得。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0143b0413" rend="margin-left:1em;inline"><note place="inline">第八地<anchor xml:id="beg_88" type="cb-app"/>已<anchor xml:id="end_88"/>
+<lb ed="C" n="0143b04"/>行<anchor xml:id="nkr_note_add_0143b0401" n="0143b0401"/><anchor xml:id="beg0143b0401" n="0143b0401"/>已<anchor xml:id="end0143b0401"/>作佛法方便。未得者令得。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0143b0413" rend="margin-left:1em;inline"><note place="inline">第八地<anchor xml:id="nkr_note_add_0143b0402" n="0143b0402"/><anchor xml:id="beg0143b0402" n="0143b0402"/>已<anchor xml:id="end0143b0402"/>
 <lb ed="C" n="0143b05"/>無妄想生之見所可見者乃初地轉進至七地所修行者皆第八地所見
 <lb ed="C" n="0143b06"/>之妄想也唯見一切如幻而善離攝所攝心至此疑墯於空而乃勤修佛
 <lb ed="C" n="0143b07"/>法未得令得故曰方便</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0143b0710" rend="inline">大慧。此是菩薩涅槃方
 <lb ed="C" n="0143b08"/>便不壞。離心意意識。得無生法忍。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0143b0814" rend="margin-left:1em;inline"><note place="inline">見如
-<lb ed="C" n="0143b09"/>幻<anchor xml:id="beg_89" type="cb-app"/>已<anchor xml:id="end_89"/>而又復作佛事此乃涅槃方便非壞滅諸法名為涅槃故曰不壞盖
+<lb ed="C" n="0143b09"/>幻<anchor xml:id="nkr_note_add_0143b0901" n="0143b0901"/><anchor xml:id="beg0143b0901" n="0143b0901"/>已<anchor xml:id="end0143b0901"/>而又復作佛事此乃涅槃方便非壞滅諸法名為涅槃故曰不壞盖
 <lb ed="C" n="0143b10"/>由善離心意意識是以得證無生法忍</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0143b1016" rend="inline">大慧。於第一義
 <lb ed="C" n="0143b11"/>無次第相續說。無所有妄想寂滅法。</p></cb:div>
 <lb ed="C" n="0143b12"/><cb:div type="commentary"><p xml:id="pC097p0143b1201" rend="margin-left:1em"><note place="inline">次第說為喻菩薩之入外道邪徑者妄想寂滅皆是對治法若第一義諦
@@ -4349,8 +4354,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="C" xml:id="C097.1821.0146b" n="0146b"/>
 <lb ed="C" n="0146b01"/>愚夫計著俗數名相。隨心流散。流散
 <lb ed="C" n="0146b02"/>已。種種相像貌墮我我所見希望。計
-<lb ed="C" n="0146b03"/>著妙色。計著<anchor xml:id="beg_8a" type="cb-app"/>已<anchor xml:id="end_8a"/>。無知覆障生染著。染
-<lb ed="C" n="0146b04"/>著<anchor xml:id="beg_8b" type="cb-app"/>已<anchor xml:id="end_8b"/>。貪恚癡所生業積集。積集<anchor xml:id="beg_8c" type="cb-app"/>已<anchor xml:id="end_8c"/>。妄
+<lb ed="C" n="0146b03"/>著妙色。計著<anchor xml:id="nkr_note_add_0146b0301" n="0146b0301"/><anchor xml:id="beg0146b0301" n="0146b0301"/>已<anchor xml:id="end0146b0301"/>。無知覆障生染著。染
+<lb ed="C" n="0146b04"/>著<anchor xml:id="nkr_note_add_0146b0401" n="0146b0401"/><anchor xml:id="beg0146b0401" n="0146b0401"/>已<anchor xml:id="end0146b0401"/>。貪恚癡所生業積集。積集<anchor xml:id="nkr_note_add_0146b0402" n="0146b0402"/><anchor xml:id="beg0146b0402" n="0146b0402"/>已<anchor xml:id="end0146b0402"/>。妄
 <lb ed="C" n="0146b05"/>想自纏。如蠶作繭。墮生死海諸趣曠
 <lb ed="C" n="0146b06"/>野。如汲井輪。以愚癡故。不能知如幻
 <lb ed="C" n="0146b07"/>野馬水月自性離我我所。起於一切
@@ -4372,12 +4377,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0146c02"/>建立誹謗之所知</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0146c0208" rend="inline">名相不生。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0146c0212" rend="margin-left:1em;inline"><note place="inline">非必不立名相名相自不生矣</note>。</p></cb:div>
 <lb ed="C" n="0146c03"/><cb:div type="orig"><p xml:id="pC097p0146c0301">是名如如。大慧。菩薩摩訶薩住如如
 <lb ed="C" n="0146c04"/>者。得無所有境界故。得菩薩歡喜地。
-<lb ed="C" n="0146c05"/>得菩薩歡喜地<anchor xml:id="beg_8d" type="cb-app"/>已<anchor xml:id="end_8d"/>。永離一切外道惡
+<lb ed="C" n="0146c05"/>得菩薩歡喜地<anchor xml:id="nkr_note_add_0146c0501" n="0146c0501"/><anchor xml:id="beg0146c0501" n="0146c0501"/>已<anchor xml:id="end0146c0501"/>。永離一切外道惡
 <lb ed="C" n="0146c06"/>趣。正住出世間趣。法相成熟。分別幻
 <lb ed="C" n="0146c07"/>等一切法。自覺法趣相。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0146c0710" rend="margin-left:1em;inline"><note place="inline">分別如幻等法而證自得
 <lb ed="C" n="0146c08"/>聖智所行法相</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0146c0807" rend="inline">離諸妄想見性異相。次第乃
 <lb ed="C" n="0146c09"/>至法雲地。於其中間。三昧力自在。神
-<lb ed="C" n="0146c10"/>通開敷。得如來地<anchor xml:id="beg_8e" type="cb-app"/>已<anchor xml:id="end_8e"/>。種種變化圓照
+<lb ed="C" n="0146c10"/>通開敷。得如來地<anchor xml:id="nkr_note_add_0146c1001" n="0146c1001"/><anchor xml:id="beg0146c1001" n="0146c1001"/>已<anchor xml:id="end0146c1001"/>。種種變化圓照
 <lb ed="C" n="0146c11"/>示現。成熟眾生。如水中月。善究竟滿
 <lb ed="C" n="0146c12"/>足十無盡句。為種種意解眾生分別
 <lb ed="C" n="0146c13"/>說法。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0146c1303" rend="margin-left:1em;inline"><note place="inline">隨意生解曰意解</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0146c1310" rend="inline">法身離意所作。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0146c1316" rend="margin-left:1em;inline"><note place="inline">法身無為
@@ -4439,7 +4444,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0147c06"/>如優曇鉢華難得見故息方便求。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0147c0614" rend="margin-left:1em;inline"><note place="inline">若言
 <lb ed="C" n="0147c07"/>難遇如優曇鉢華即生退怯故說易見如恒河沙所以誘之欲其進也</note>。</p></cb:div>
 <lb ed="C" n="0147c08"/><cb:div type="orig"><p xml:id="pC097p0147c0801">有時復觀諸受化者作是說言。佛難
-<lb ed="C" n="0147c09"/>值遇如優曇鉢華。優曇鉢華無<anchor xml:id="beg_8f" type="cb-app"/>已<anchor xml:id="end_8f"/>見
+<lb ed="C" n="0147c09"/>值遇如優曇鉢華。優曇鉢華無<anchor xml:id="nkr_note_add_0147c0901" n="0147c0901"/><anchor xml:id="beg0147c0901" n="0147c0901"/>已<anchor xml:id="end0147c0901"/>見
 <lb ed="C" n="0147c10"/>今見當見。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0147c1005" rend="margin-left:1em;inline"><note place="inline">說諸佛出世如優曇鉢華者依可化眾生故故云觀
 <lb ed="C" n="0147c11"/>諸受化者</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0147c1105" rend="inline">如來者。世間悉見。不以建立自
 <lb ed="C" n="0147c12"/>通故說言如來出世如優曇鉢華。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0147c1214" rend="margin-left:1em;inline"><note place="inline">謂世
@@ -4531,7 +4536,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0149a14"/>大慧。五識身者。心意意識俱。善不善
 <lb ed="C" n="0149a15"/>相展轉變壞。相續流注。不壞身生。亦
 <lb ed="C" n="0149a16"/>生亦滅。不覺自心現。次第滅。餘識生。
-<lb ed="C" n="0149a17"/>形相差別攝受。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0149a1707" rend="margin-left:1em;inline"><note place="inline">不壞身猶真識也隨順意識而生生<anchor xml:id="beg_90" type="cb-app"/>已<anchor xml:id="end_90"/>還
+<lb ed="C" n="0149a17"/>形相差別攝受。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0149a1707" rend="margin-left:1em;inline"><note place="inline">不壞身猶真識也隨順意識而生生<anchor xml:id="nkr_note_add_0149a1701" n="0149a1701"/><anchor xml:id="beg0149a1701" n="0149a1701"/>已<anchor xml:id="end0149a1701"/>還
 <lb ed="C" n="0149a18"/>滅若不覺自心所現則次第滅時別識生起取於種種形相差別</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0149a1826" rend="inline">意
 <lb ed="C" n="0149a19"/>識五識俱相應生。剎那時不住。名為
 <lb ed="C" n="0149a20"/>剎那。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0149a2003" rend="margin-left:1em;inline"><note place="inline">謂念念不住故名剎那</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0149a2012" rend="inline">大慧。剎那者。名識
@@ -4571,7 +4576,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0149c12"/>定智慧亦如是。凡夫神通及生梵天。</p></cb:div>
 <lb ed="C" n="0149c13"/><cb:div type="commentary"><p xml:id="pC097p0149c1301" rend="margin-left:1em"><note place="inline">貪於色等境界而欲成就神通生於梵天非善於六度者也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0149c1324" rend="inline">出世
 <lb ed="C" n="0149c14"/>間波羅蜜者。聲聞緣覺墮攝受涅槃
-<lb ed="C" n="0149c15"/>故行六波羅蜜。樂自<anchor xml:id="beg_91" type="cb-app"/>己<anchor xml:id="end_91"/>涅槃樂。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0149c1513" rend="margin-left:1em;inline"><note place="inline">不覺自心
+<lb ed="C" n="0149c15"/>故行六波羅蜜。樂自<anchor xml:id="nkr_note_add_0149c1501" n="0149c1501"/><anchor xml:id="beg0149c1501" n="0149c1501"/>己<anchor xml:id="end0149c1501"/>涅槃樂。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0149c1513" rend="margin-left:1em;inline"><note place="inline">不覺自心
 <lb ed="C" n="0149c16"/>所現作涅槃想而攝受之故以行六波羅為樂</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0149c1619" rend="inline">出世間上上
 <lb ed="C" n="0149c17"/>波羅蜜者。覺自心現妄想量。攝受及
 <lb ed="C" n="0149c18"/>自心二故。不生妄想。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0149c1809" rend="margin-left:1em;inline"><note place="inline">覺自心現妄想則知攝與所攝
@@ -4646,7 +4651,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0151a03"/>見人無我斷。七識滅。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0151a0309" rend="margin-left:1em;inline"><note place="inline">謂先所習人無我見至此而斷
 <lb ed="C" n="0151a04"/>然後意識捨離是煩惱障斷也</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0151a0413" rend="inline">法障解脫。識藏習滅。
 <lb ed="C" n="0151a05"/>究竟清淨。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0151a0505" rend="margin-left:1em;inline"><note place="inline">煩惱障斷止於七識滅爾至於法障解脫然後識藏
-<lb ed="C" n="0151a06"/>習滅故曰究竟清淨此<anchor xml:id="beg_92" type="cb-app"/>已<anchor xml:id="end_92"/>下說諸佛如來</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0151a0617" rend="inline">因本住法故。前
+<lb ed="C" n="0151a06"/>習滅故曰究竟清淨此<anchor xml:id="nkr_note_add_0151a0601" n="0151a0601"/><anchor xml:id="beg0151a0601" n="0151a0601"/>已<anchor xml:id="end0151a0601"/>下說諸佛如來</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0151a0617" rend="inline">因本住法故。前
 <lb ed="C" n="0151a07"/>後非性。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0151a0704" rend="margin-left:1em;inline"><note place="inline">本住法即常住真心前云如樹木心是也一切圓融前後
 <lb ed="C" n="0151a08"/>皆非有性</note>。</p></cb:div><cb:div type="orig"><p xml:id="pC097p0151a0805" rend="inline">無盡本願故。如來無慮無察而
 <lb ed="C" n="0151a09"/>演說法。</p></cb:div><cb:div type="commentary"><p xml:id="pC097p0151a0904" rend="margin-left:1em;inline"><note place="inline">以本願無盡故不忘演說然所以演說實出於無慮無察</note>。</p></cb:div>
@@ -4687,7 +4692,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0151c02"/><l>意及眼識等</l><l>斷滅說無常</l>
 <lb ed="C" n="0151c03"/><l>或作涅槃見</l><l>而為說常住</l></lg></cb:div><cb:div type="commentary"><p xml:id="pC097p0151c0311" rend="margin-left:1em;inline"><note place="inline">此皆
 <lb ed="C" n="0151c04"/>因眾生而說一切法</note>。</p>
-<lb ed="C" n="0151c05"/><p xml:id="pC097p0151c0501" rend="margin-left:1em"><note place="inline">頌曰大慈金口何曾失誘進聲緣故佛同<anchor xml:id="beg_93" type="cb-app"/>已<anchor xml:id="end_93"/>了妄緣冥慮察不忘本願演宗風
+<lb ed="C" n="0151c05"/><p xml:id="pC097p0151c0501" rend="margin-left:1em"><note place="inline">頌曰大慈金口何曾失誘進聲緣故佛同<anchor xml:id="nkr_note_add_0151c0501" n="0151c0501"/><anchor xml:id="beg0151c0501" n="0151c0501"/>已<anchor xml:id="end0151c0501"/>了妄緣冥慮察不忘本願演宗風
 <lb ed="C" n="0151c06"/>藏心輪轉非無漏化佛因他豈自通若識如來真境界逈離根量等虛空</note>。</p></cb:div></cb:div>
 <lb ed="C" n="0151c07"/><cb:div type="other"><cb:mulu type="其他" level="2">戒飲食分第七十一</cb:mulu><head>戒飲食分第七十一</head>
 <lb ed="C" n="0151c08"/><cb:div type="orig"><p xml:id="pC097p0151c0801">爾時大慧菩薩以偈問言。</p>
@@ -4698,11 +4703,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0151c13"/><l>虎狼所甘嗜</l><l>云何而可食</l>
 <lb ed="C" n="0151c14"/><l>食者生諸過</l><l>不食為福善</l>
 <lb ed="C" n="0151c15"/><l>惟願為我說</l><l>食不食罪福</l></lg>
-<lb ed="C" n="0151c16"/><p xml:id="pC097p0151c1601">大慧菩薩說偈問<anchor xml:id="beg_94" type="cb-app"/>已<anchor xml:id="end_94"/>。復白佛言。惟願
+<lb ed="C" n="0151c16"/><p xml:id="pC097p0151c1601">大慧菩薩說偈問<anchor xml:id="nkr_note_add_0151c1601" n="0151c1601"/><anchor xml:id="beg0151c1601" n="0151c1601"/>已<anchor xml:id="end0151c1601"/>。復白佛言。惟願
 <lb ed="C" n="0151c17"/>世尊為我等說食不食肉功德過惡
 <lb ed="C" n="0151c18"/>我及諸菩薩於現在未來。當為種種
 <lb ed="C" n="0151c19"/>希望食肉眾生分別說法令彼眾生
-<lb ed="C" n="0151c20"/>慈心相向。得慈心<anchor xml:id="beg_95" type="cb-app"/>已<anchor xml:id="end_95"/>。各於住地清淨
+<lb ed="C" n="0151c20"/>慈心相向。得慈心<anchor xml:id="nkr_note_add_0151c2001" n="0151c2001"/><anchor xml:id="beg0151c2001" n="0151c2001"/>已<anchor xml:id="end0151c2001"/>。各於住地清淨
 <pb ed="C" xml:id="C097.1821.0152a" n="0152a"/>
 <lb ed="C" n="0152a01"/>明了。疾得究竟無上菩提。聲聞緣覺
 <lb ed="C" n="0152a02"/>自地止息已。亦得速成無上菩提。惡
@@ -4713,7 +4718,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0152a07"/>為汝說。大慧白佛言。唯然受教。</p>
 <lb ed="C" n="0152a08"/><p xml:id="pC097p0152a0801">佛告大慧。有無量因緣不應食肉。然
 <lb ed="C" n="0152a09"/>我今當為汝略說。謂一切眾生從本
-<lb ed="C" n="0152a10"/><anchor xml:id="beg_96" type="cb-app"/>已<anchor xml:id="end_96"/>來。展轉因緣常為六親。以親想故。
+<lb ed="C" n="0152a10"/><anchor xml:id="nkr_note_add_0152a1001" n="0152a1001"/><anchor xml:id="beg0152a1001" n="0152a1001"/>已<anchor xml:id="end0152a1001"/>來。展轉因緣常為六親。以親想故。
 <lb ed="C" n="0152a11"/>不應食肉。驢騾駱駞狐狗牛馬人獸
 <lb ed="C" n="0152a12"/>等肉。屠者雜賣故。不應食肉。不淨氣
 <lb ed="C" n="0152a13"/>分所生長故。不應食肉。眾生聞氣悉
@@ -4773,8 +4778,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0153a04"/><l>縛象與大雲</l><l>央掘利魔羅</l>
 <lb ed="C" n="0153a05"/><l>及此楞伽經</l><l>我悉制斷肉</l>
 <lb ed="C" n="0153a06"/><l>諸佛及菩薩</l><l>聲聞所訶責</l>
-<lb ed="C" n="0153a07"/><l>食<anchor xml:id="beg_97" type="cb-app"/>已<anchor xml:id="end_97"/>無慙愧</l><l>生生常癡冥</l>
-<lb ed="C" n="0153a08"/><l>先說見聞疑</l><l><anchor xml:id="beg_98" type="cb-app"/>已<anchor xml:id="end_98"/>斷一切肉</l>
+<lb ed="C" n="0153a07"/><l>食<anchor xml:id="nkr_note_add_0153a0701" n="0153a0701"/><anchor xml:id="beg0153a0701" n="0153a0701"/>已<anchor xml:id="end0153a0701"/>無慙愧</l><l>生生常癡冥</l>
+<lb ed="C" n="0153a08"/><l>先說見聞疑</l><l><anchor xml:id="nkr_note_add_0153a0801" n="0153a0801"/><anchor xml:id="beg0153a0801" n="0153a0801"/>已<anchor xml:id="end0153a0801"/>斷一切肉</l>
 <lb ed="C" n="0153a09"/><l>妄想不覺知</l><l>故生食肉處</l>
 <lb ed="C" n="0153a10"/><l>如彼貪欲過</l><l>障礙聖解脫</l>
 <lb ed="C" n="0153a11"/><l>酒肉葱韮蒜</l><l>悉為聖道障</l>
@@ -4896,7 +4901,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0155a01"/>泥於一法自非深明義趣已捨筌蹄
 <lb ed="C" n="0155a02"/>其能不滯於言說文字間乎居士福
 <lb ed="C" n="0155a03"/>州長溪人家于瀲浦余建炎間作邑
-<lb ed="C" n="0155a04"/>長溪時居士<anchor xml:id="beg_99" type="cb-app"/>已<anchor xml:id="end_99"/>去世三十餘年矣聞
+<lb ed="C" n="0155a04"/>長溪時居士<anchor xml:id="nkr_note_add_0155a0401" n="0155a0401"/><anchor xml:id="beg0155a0401" n="0155a0401"/>已<anchor xml:id="end0155a0401"/>去世三十餘年矣聞
 <lb ed="C" n="0155a05"/>有是經纂特趨瀲浦謁其弟<note place="inline">惇禮</note>察
 <lb ed="C" n="0155a06"/>院得其所藏之本察院公具言居士
 <lb ed="C" n="0155a07"/>自少為學有雋聲一舉不第便有遯
@@ -4909,7 +4914,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0155a14"/>有物遂窮之唯有文字四秩由是散
 <lb ed="C" n="0155a15"/>失民間察院公宦游既歸乃復求訪
 <lb ed="C" n="0155a16"/>得之觀其分章作偈顧雖諸禪老宿
-<lb ed="C" n="0155a17"/>皆瞪眎而不敢<anchor xml:id="beg_9a" type="cb-app"/>睥<anchor xml:id="end_9a"/>睨非大手筆其誰
+<lb ed="C" n="0155a17"/>皆瞪眎而不敢<anchor xml:id="nkr_note_add_0155a1701" n="0155a1701"/><anchor xml:id="beg0155a1701" n="0155a1701"/>睥<anchor xml:id="end0155a1701"/>睨非大手筆其誰
 <lb ed="C" n="0155a18"/>能之名經纂者以明其非注釋云耳。</p>
 <lb ed="C" n="0155a19"/><p xml:id="pC097p0155a1901">紹興二十八年十一月初九日左太中大
 <lb ed="C" n="0155a20"/>夫充敷文閣待制知福州軍州事提
@@ -4922,160 +4927,319 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>軸</corr><sic><g ref="#CB28916">䡒</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_12" cb:to="#end_12"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_14" cb:to="#end_14"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_15" cb:to="#end_15"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_16" cb:to="#end_16"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_17" cb:to="#end_17"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_18" cb:to="#end_18"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_19" cb:to="#end_19"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1a" cb:to="#end_1a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1b" cb:to="#end_1b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1c" cb:to="#end_1c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1d" cb:to="#end_1d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1e" cb:to="#end_1e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1f" cb:to="#end_1f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_20" cb:to="#end_20"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_21" cb:to="#end_21"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_22" cb:to="#end_22"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_23" cb:to="#end_23"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_24" cb:to="#end_24"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_25" cb:to="#end_25"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_26" cb:to="#end_26"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_27" cb:to="#end_27"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_28" cb:to="#end_28"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_29" cb:to="#end_29"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2a" cb:to="#end_2a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2b" cb:to="#end_2b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2c" cb:to="#end_2c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2d" cb:to="#end_2d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2e" cb:to="#end_2e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2f" cb:to="#end_2f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_30" cb:to="#end_30"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_31" cb:to="#end_31"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_32" cb:to="#end_32"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_33" cb:to="#end_33"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_34" cb:to="#end_34"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_35" cb:to="#end_35"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_36" cb:to="#end_36"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_37" cb:to="#end_37"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_38" cb:to="#end_38"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_39" cb:to="#end_39"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3a" cb:to="#end_3a"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3b" cb:to="#end_3b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3c" cb:to="#end_3c"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3d" cb:to="#end_3d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3e" cb:to="#end_3e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3f" cb:to="#end_3f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_40" cb:to="#end_40"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_41" cb:to="#end_41"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_42" cb:to="#end_42"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_43" cb:to="#end_43"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_44" cb:to="#end_44"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_45" cb:to="#end_45"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_46" cb:to="#end_46"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_47" cb:to="#end_47"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_48" cb:to="#end_48"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_49" cb:to="#end_49"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4a" cb:to="#end_4a"><corr>媸</corr><sic><g ref="#CB28918">󷃶</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4b" cb:to="#end_4b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4c" cb:to="#end_4c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4d" cb:to="#end_4d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4e" cb:to="#end_4e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4f" cb:to="#end_4f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_50" cb:to="#end_50"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_51" cb:to="#end_51"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_52" cb:to="#end_52"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_53" cb:to="#end_53"><corr>但</corr><sic>伹</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_54" cb:to="#end_54"><corr>媸</corr><sic><g ref="#CB28918">󷃶</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_55" cb:to="#end_55"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_56" cb:to="#end_56"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_57" cb:to="#end_57"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_58" cb:to="#end_58"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_59" cb:to="#end_59"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5a" cb:to="#end_5a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5b" cb:to="#end_5b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5c" cb:to="#end_5c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5d" cb:to="#end_5d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5e" cb:to="#end_5e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5f" cb:to="#end_5f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_60" cb:to="#end_60"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_61" cb:to="#end_61"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_62" cb:to="#end_62"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_63" cb:to="#end_63"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_64" cb:to="#end_64"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_65" cb:to="#end_65"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_66" cb:to="#end_66"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_67" cb:to="#end_67"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_68" cb:to="#end_68"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_69" cb:to="#end_69"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6a" cb:to="#end_6a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6b" cb:to="#end_6b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6c" cb:to="#end_6c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6d" cb:to="#end_6d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6e" cb:to="#end_6e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6f" cb:to="#end_6f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_70" cb:to="#end_70"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_71" cb:to="#end_71"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_72" cb:to="#end_72"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_73" cb:to="#end_73"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_74" cb:to="#end_74"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_75" cb:to="#end_75"><corr>此皆</corr><sic><unclear></unclear><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_76" cb:to="#end_76"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_77" cb:to="#end_77"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_78" cb:to="#end_78"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_79" cb:to="#end_79"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7a" cb:to="#end_7a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7b" cb:to="#end_7b"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7c" cb:to="#end_7c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7d" cb:to="#end_7d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7e" cb:to="#end_7e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7f" cb:to="#end_7f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_80" cb:to="#end_80"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_81" cb:to="#end_81"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_82" cb:to="#end_82"><corr>切生滅頓了</corr><sic><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_83" cb:to="#end_83"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_84" cb:to="#end_84"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_85" cb:to="#end_85"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_86" cb:to="#end_86"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_87" cb:to="#end_87"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_88" cb:to="#end_88"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_89" cb:to="#end_89"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8a" cb:to="#end_8a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8b" cb:to="#end_8b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8c" cb:to="#end_8c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8d" cb:to="#end_8d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8e" cb:to="#end_8e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8f" cb:to="#end_8f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_90" cb:to="#end_90"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_91" cb:to="#end_91"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_92" cb:to="#end_92"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_93" cb:to="#end_93"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_94" cb:to="#end_94"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_95" cb:to="#end_95"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_96" cb:to="#end_96"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_97" cb:to="#end_97"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_98" cb:to="#end_98"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_99" cb:to="#end_99"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9a" cb:to="#end_9a"><corr>睥</corr><sic><g ref="#CB28917">䀝</g></sic></choice>
+<app from="#beg0081a0301" to="#end0081a0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0081b0701" to="#end0081b0701"><lem wit="#wit1" resp="#resp2">軸</lem><rdg wit="#wit2"><g ref="#CB28916">䡒</g></rdg></app>
+<app from="#beg0081b0702" to="#end0081b0702"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0081c0401" to="#end0081c0401"><lem wit="#wit1" resp="#resp2"><g ref="#CB00145">㝹</g></lem><rdg wit="#wit2"><g ref="#CB00144">󰂐</g></rdg></app>
+<app from="#beg0081c0402" to="#end0081c0402"><lem wit="#wit1" resp="#resp2"><g ref="#CB00145">㝹</g></lem><rdg wit="#wit2"><g ref="#CB00144">󰂐</g></rdg></app>
+<app from="#beg0082c2001" to="#end0082c2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0083b0701" to="#end0083b0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0085a1901" to="#end0085a1901"><lem wit="#wit1" resp="#resp2"><g ref="#CB00145">㝹</g></lem><rdg wit="#wit2"><g ref="#CB00144">󰂐</g></rdg></app>
+<app from="#beg0085b0801" to="#end0085b0801"><lem wit="#wit1" resp="#resp2"><g ref="#CB00145">㝹</g></lem><rdg wit="#wit2"><g ref="#CB00144">󰂐</g></rdg></app>
+<app from="#beg0085b0802" to="#end0085b0802"><lem wit="#wit1" resp="#resp2"><g ref="#CB00145">㝹</g></lem><rdg wit="#wit2"><g ref="#CB00144">󰂐</g></rdg></app>
+<app from="#beg0085b0901" to="#end0085b0901"><lem wit="#wit1" resp="#resp2"><g ref="#CB00145">㝹</g></lem><rdg wit="#wit2"><g ref="#CB00144">󰂐</g></rdg></app>
+<app from="#beg0085c0101" to="#end0085c0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0086b0401" to="#end0086b0401"><lem wit="#wit1" resp="#resp2"><g ref="#CB00145">㝹</g></lem><rdg wit="#wit2"><g ref="#CB00144">󰂐</g></rdg></app>
+<app from="#beg0086b0402" to="#end0086b0402"><lem wit="#wit1" resp="#resp2"><g ref="#CB00145">㝹</g></lem><rdg wit="#wit2"><g ref="#CB00144">󰂐</g></rdg></app>
+<app from="#beg0087c1801" to="#end0087c1801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0088a1601" to="#end0088a1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0088a2001" to="#end0088a2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0088b1101" to="#end0088b1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0088b1301" to="#end0088b1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0088b2001" to="#end0088b2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0088c0801" to="#end0088c0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0088c1001" to="#end0088c1001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0088c1501" to="#end0088c1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0090c1701" to="#end0090c1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0091b1001" to="#end0091b1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0091b1002" to="#end0091b1002"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0091b1401" to="#end0091b1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0092b0601" to="#end0092b0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0093a1901" to="#end0093a1901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0093c0601" to="#end0093c0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0093c0602" to="#end0093c0602"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0094b0201" to="#end0094b0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0094b1801" to="#end0094b1801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0094c0401" to="#end0094c0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0094c0501" to="#end0094c0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0095a1001" to="#end0095a1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0095a1301" to="#end0095a1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0096a0901" to="#end0096a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0096a1001" to="#end0096a1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0096a1501" to="#end0096a1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0096b0401" to="#end0096b0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0096b1401" to="#end0096b1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0097a0501" to="#end0097a0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0097a0701" to="#end0097a0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0097a1101" to="#end0097a1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0097a1301" to="#end0097a1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0097b0701" to="#end0097b0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0097c1401" to="#end0097c1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0098a0201" to="#end0098a0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0098a1301" to="#end0098a1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0098b1101" to="#end0098b1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0098b1801" to="#end0098b1801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0098b2001" to="#end0098b2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0098c2001" to="#end0098c2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0099b0401" to="#end0099b0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0099b1301" to="#end0099b1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0099b2001" to="#end0099b2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0099c1701" to="#end0099c1701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0100a1001" to="#end0100a1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0100c0601" to="#end0100c0601"><lem wit="#wit1" resp="#resp2">斂</lem><rdg wit="#wit2">歛</rdg></app>
+<app from="#beg0102b0301" to="#end0102b0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0103a1201" to="#end0103a1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0103a1601" to="#end0103a1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0103b1201" to="#end0103b1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0103c1101" to="#end0103c1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0103c1201" to="#end0103c1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0103c1501" to="#end0103c1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0103c1601" to="#end0103c1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0104b0301" to="#end0104b0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0104c0101" to="#end0104c0101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0104c0102" to="#end0104c0102"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0105c1301" to="#end0105c1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0106a0501" to="#end0106a0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0107b1401" to="#end0107b1401"><lem wit="#wit1" resp="#resp2">媸</lem><rdg wit="#wit2"><g ref="#CB28918">󷃶</g></rdg></app>
+<app from="#beg0107c0401" to="#end0107c0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0107c0501" to="#end0107c0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0108a1101" to="#end0108a1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0108b0701" to="#end0108b0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0109a1701" to="#end0109a1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0109b1301" to="#end0109b1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0110c0701" to="#end0110c0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0110c1001" to="#end0110c1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0110c1701" to="#end0110c1701"><lem wit="#wit1" resp="#resp2">但</lem><rdg wit="#wit2">伹</rdg></app>
+<app from="#beg0111b1001" to="#end0111b1001"><lem wit="#wit1" resp="#resp2">媸</lem><rdg wit="#wit2"><g ref="#CB28918">󷃶</g></rdg></app>
+<app from="#beg0111c1101" to="#end0111c1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0112b1401" to="#end0112b1401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0113a0901" to="#end0113a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0113c0201" to="#end0113c0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0114c1501" to="#end0114c1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0114c1901" to="#end0114c1901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0115a0801" to="#end0115a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0115c0301" to="#end0115c0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0116b0301" to="#end0116b0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0117b2001" to="#end0117b2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0117c1501" to="#end0117c1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0118a0501" to="#end0118a0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0118b1101" to="#end0118b1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0119a0101" to="#end0119a0101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0119a0601" to="#end0119a0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0119a1101" to="#end0119a1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0120b1901" to="#end0120b1901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0121a0501" to="#end0121a0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0121a0801" to="#end0121a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0121a1401" to="#end0121a1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0122a1201" to="#end0122a1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0122b1101" to="#end0122b1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0122c1501" to="#end0122c1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0122c2001" to="#end0122c2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0123b0601" to="#end0123b0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0123b1401" to="#end0123b1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0123b1901" to="#end0123b1901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0125b1201" to="#end0125b1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0128a0101" to="#end0128a0101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0128a1701" to="#end0128a1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0128b0501" to="#end0128b0501"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0128b0901" to="#end0128b0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0129b1001" to="#end0129b1001"><lem wit="#wit1" resp="#resp2">此皆</lem><rdg wit="#wit2"><unclear></unclear><unclear></unclear></rdg></app>
+<app from="#beg0130a0101" to="#end0130a0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0131b0601" to="#end0131b0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0131b1301" to="#end0131b1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0134a0301" to="#end0134a0301"><lem wit="#wit1" resp="#resp2">刺</lem><rdg wit="#wit2">剌</rdg></app>
+<app from="#beg0134a0302" to="#end0134a0302"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0134b0201" to="#end0134b0201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0136a0201" to="#end0136a0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0138b0601" to="#end0138b0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0138c0501" to="#end0138c0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0140a1601" to="#end0140a1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0141a0801" to="#end0141a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0141b0801" to="#end0141b0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0142c1001" to="#end0142c1001"><lem wit="#wit1" resp="#resp2">切生滅頓了</lem><rdg wit="#wit2"><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear></rdg></app>
+<app from="#beg0143a1101" to="#end0143a1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0143a1301" to="#end0143a1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0143a1501" to="#end0143a1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0143a1901" to="#end0143a1901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0143b0401" to="#end0143b0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0143b0402" to="#end0143b0402"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0143b0901" to="#end0143b0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0146b0301" to="#end0146b0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0146b0401" to="#end0146b0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0146b0402" to="#end0146b0402"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0146c0501" to="#end0146c0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0146c1001" to="#end0146c1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0147c0901" to="#end0147c0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0149a1701" to="#end0149a1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0149c1501" to="#end0149c1501"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0151a0601" to="#end0151a0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0151c0501" to="#end0151c0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0151c1601" to="#end0151c1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0151c2001" to="#end0151c2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0152a1001" to="#end0152a1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0153a0701" to="#end0153a0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0153a0801" to="#end0153a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0155a0401" to="#end0155a0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0155a1701" to="#end0155a1701"><lem wit="#wit1" resp="#resp2">睥</lem><rdg wit="#wit2"><g ref="#CB28917">䀝</g></rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0081a0301" resp="#resp1" type="add" target="#nkr_note_add_0081a0301">已【CB】，巳【中華】</note>
+<note n="0081b0701" resp="#resp1" type="add" target="#nkr_note_add_0081b0701">軸【CB】，<g ref="#CB28916">䡒</g>【中華】</note>
+<note n="0081b0702" resp="#resp1" type="add" target="#nkr_note_add_0081b0702">已【CB】，巳【中華】</note>
+<note n="0081c0401" resp="#resp1" type="add" target="#nkr_note_add_0081c0401"><g ref="#CB00145">㝹</g>【CB】，<g ref="#CB00144">󰂐</g>【中華】</note>
+<note n="0081c0402" resp="#resp1" type="add" target="#nkr_note_add_0081c0402"><g ref="#CB00145">㝹</g>【CB】，<g ref="#CB00144">󰂐</g>【中華】</note>
+<note n="0082c2001" resp="#resp1" type="add" target="#nkr_note_add_0082c2001">已【CB】，巳【中華】</note>
+<note n="0083b0701" resp="#resp1" type="add" target="#nkr_note_add_0083b0701">已【CB】，巳【中華】</note>
+<note n="0085a1901" resp="#resp1" type="add" target="#nkr_note_add_0085a1901"><g ref="#CB00145">㝹</g>【CB】，<g ref="#CB00144">󰂐</g>【中華】</note>
+<note n="0085b0801" resp="#resp1" type="add" target="#nkr_note_add_0085b0801"><g ref="#CB00145">㝹</g>【CB】，<g ref="#CB00144">󰂐</g>【中華】</note>
+<note n="0085b0802" resp="#resp1" type="add" target="#nkr_note_add_0085b0802"><g ref="#CB00145">㝹</g>【CB】，<g ref="#CB00144">󰂐</g>【中華】</note>
+<note n="0085b0901" resp="#resp1" type="add" target="#nkr_note_add_0085b0901"><g ref="#CB00145">㝹</g>【CB】，<g ref="#CB00144">󰂐</g>【中華】</note>
+<note n="0085c0101" resp="#resp1" type="add" target="#nkr_note_add_0085c0101">已【CB】，巳【中華】</note>
+<note n="0086b0401" resp="#resp1" type="add" target="#nkr_note_add_0086b0401"><g ref="#CB00145">㝹</g>【CB】，<g ref="#CB00144">󰂐</g>【中華】</note>
+<note n="0086b0402" resp="#resp1" type="add" target="#nkr_note_add_0086b0402"><g ref="#CB00145">㝹</g>【CB】，<g ref="#CB00144">󰂐</g>【中華】</note>
+<note n="0087c1801" resp="#resp1" type="add" target="#nkr_note_add_0087c1801">已【CB】，巳【中華】</note>
+<note n="0088a1601" resp="#resp1" type="add" target="#nkr_note_add_0088a1601">已【CB】，巳【中華】</note>
+<note n="0088a2001" resp="#resp1" type="add" target="#nkr_note_add_0088a2001">已【CB】，巳【中華】</note>
+<note n="0088b1101" resp="#resp1" type="add" target="#nkr_note_add_0088b1101">已【CB】，巳【中華】</note>
+<note n="0088b1301" resp="#resp1" type="add" target="#nkr_note_add_0088b1301">已【CB】，巳【中華】</note>
+<note n="0088b2001" resp="#resp1" type="add" target="#nkr_note_add_0088b2001">已【CB】，巳【中華】</note>
+<note n="0088c0801" resp="#resp1" type="add" target="#nkr_note_add_0088c0801">已【CB】，巳【中華】</note>
+<note n="0088c1001" resp="#resp1" type="add" target="#nkr_note_add_0088c1001">己【CB】，巳【中華】</note>
+<note n="0088c1501" resp="#resp1" type="add" target="#nkr_note_add_0088c1501">已【CB】，巳【中華】</note>
+<note n="0090c1701" resp="#resp1" type="add" target="#nkr_note_add_0090c1701">已【CB】，巳【中華】</note>
+<note n="0091b1001" resp="#resp1" type="add" target="#nkr_note_add_0091b1001">已【CB】，巳【中華】</note>
+<note n="0091b1002" resp="#resp1" type="add" target="#nkr_note_add_0091b1002">已【CB】，巳【中華】</note>
+<note n="0091b1401" resp="#resp1" type="add" target="#nkr_note_add_0091b1401">已【CB】，巳【中華】</note>
+<note n="0092b0601" resp="#resp1" type="add" target="#nkr_note_add_0092b0601">已【CB】，巳【中華】</note>
+<note n="0093a1901" resp="#resp1" type="add" target="#nkr_note_add_0093a1901">已【CB】，巳【中華】</note>
+<note n="0093c0601" resp="#resp1" type="add" target="#nkr_note_add_0093c0601">已【CB】，巳【中華】</note>
+<note n="0093c0602" resp="#resp1" type="add" target="#nkr_note_add_0093c0602">已【CB】，巳【中華】</note>
+<note n="0094b0201" resp="#resp1" type="add" target="#nkr_note_add_0094b0201">已【CB】，巳【中華】</note>
+<note n="0094b1801" resp="#resp1" type="add" target="#nkr_note_add_0094b1801">已【CB】，巳【中華】</note>
+<note n="0094c0401" resp="#resp1" type="add" target="#nkr_note_add_0094c0401">已【CB】，巳【中華】</note>
+<note n="0094c0501" resp="#resp1" type="add" target="#nkr_note_add_0094c0501">已【CB】，巳【中華】</note>
+<note n="0095a1001" resp="#resp1" type="add" target="#nkr_note_add_0095a1001">已【CB】，巳【中華】</note>
+<note n="0095a1301" resp="#resp1" type="add" target="#nkr_note_add_0095a1301">已【CB】，巳【中華】</note>
+<note n="0096a0901" resp="#resp1" type="add" target="#nkr_note_add_0096a0901">已【CB】，巳【中華】</note>
+<note n="0096a1001" resp="#resp1" type="add" target="#nkr_note_add_0096a1001">已【CB】，巳【中華】</note>
+<note n="0096a1501" resp="#resp1" type="add" target="#nkr_note_add_0096a1501">已【CB】，巳【中華】</note>
+<note n="0096b0401" resp="#resp1" type="add" target="#nkr_note_add_0096b0401">已【CB】，巳【中華】</note>
+<note n="0096b1401" resp="#resp1" type="add" target="#nkr_note_add_0096b1401">已【CB】，巳【中華】</note>
+<note n="0097a0501" resp="#resp1" type="add" target="#nkr_note_add_0097a0501">已【CB】，巳【中華】</note>
+<note n="0097a0701" resp="#resp1" type="add" target="#nkr_note_add_0097a0701">已【CB】，巳【中華】</note>
+<note n="0097a1101" resp="#resp1" type="add" target="#nkr_note_add_0097a1101">已【CB】，巳【中華】</note>
+<note n="0097a1301" resp="#resp1" type="add" target="#nkr_note_add_0097a1301">已【CB】，巳【中華】</note>
+<note n="0097b0701" resp="#resp1" type="add" target="#nkr_note_add_0097b0701">已【CB】，巳【中華】</note>
+<note n="0097c1401" resp="#resp1" type="add" target="#nkr_note_add_0097c1401">已【CB】，巳【中華】</note>
+<note n="0098a0201" resp="#resp1" type="add" target="#nkr_note_add_0098a0201">已【CB】，巳【中華】</note>
+<note n="0098a1301" resp="#resp1" type="add" target="#nkr_note_add_0098a1301">已【CB】，巳【中華】</note>
+<note n="0098b1101" resp="#resp1" type="add" target="#nkr_note_add_0098b1101">已【CB】，巳【中華】</note>
+<note n="0098b1801" resp="#resp1" type="add" target="#nkr_note_add_0098b1801">已【CB】，巳【中華】</note>
+<note n="0098b2001" resp="#resp1" type="add" target="#nkr_note_add_0098b2001">已【CB】，巳【中華】</note>
+<note n="0098c2001" resp="#resp1" type="add" target="#nkr_note_add_0098c2001">已【CB】，巳【中華】</note>
+<note n="0099b0401" resp="#resp1" type="add" target="#nkr_note_add_0099b0401">已【CB】，巳【中華】</note>
+<note n="0099b1301" resp="#resp1" type="add" target="#nkr_note_add_0099b1301">已【CB】，巳【中華】</note>
+<note n="0099b2001" resp="#resp1" type="add" target="#nkr_note_add_0099b2001">已【CB】，巳【中華】</note>
+<note n="0099c1701" resp="#resp1" type="add" target="#nkr_note_add_0099c1701">己【CB】，已【中華】</note>
+<note n="0100a1001" resp="#resp1" type="add" target="#nkr_note_add_0100a1001">已【CB】，巳【中華】</note>
+<note n="0100c0601" resp="#resp1" type="add" target="#nkr_note_add_0100c0601">斂【CB】，歛【中華】</note>
+<note n="0102b0301" resp="#resp1" type="add" target="#nkr_note_add_0102b0301">已【CB】，巳【中華】</note>
+<note n="0103a1201" resp="#resp1" type="add" target="#nkr_note_add_0103a1201">已【CB】，巳【中華】</note>
+<note n="0103a1601" resp="#resp1" type="add" target="#nkr_note_add_0103a1601">已【CB】，巳【中華】</note>
+<note n="0103b1201" resp="#resp1" type="add" target="#nkr_note_add_0103b1201">已【CB】，巳【中華】</note>
+<note n="0103c1101" resp="#resp1" type="add" target="#nkr_note_add_0103c1101">已【CB】，巳【中華】</note>
+<note n="0103c1201" resp="#resp1" type="add" target="#nkr_note_add_0103c1201">已【CB】，巳【中華】</note>
+<note n="0103c1501" resp="#resp1" type="add" target="#nkr_note_add_0103c1501">已【CB】，巳【中華】</note>
+<note n="0103c1601" resp="#resp1" type="add" target="#nkr_note_add_0103c1601">已【CB】，巳【中華】</note>
+<note n="0104b0301" resp="#resp1" type="add" target="#nkr_note_add_0104b0301">已【CB】，巳【中華】</note>
+<note n="0104c0101" resp="#resp1" type="add" target="#nkr_note_add_0104c0101">己【CB】，巳【中華】</note>
+<note n="0104c0102" resp="#resp1" type="add" target="#nkr_note_add_0104c0102">己【CB】，巳【中華】</note>
+<note n="0105c1301" resp="#resp1" type="add" target="#nkr_note_add_0105c1301">已【CB】，巳【中華】</note>
+<note n="0106a0501" resp="#resp1" type="add" target="#nkr_note_add_0106a0501">已【CB】，巳【中華】</note>
+<note n="0107b1401" resp="#resp1" type="add" target="#nkr_note_add_0107b1401">媸【CB】，<g ref="#CB28918">󷃶</g>【中華】</note>
+<note n="0107c0401" resp="#resp1" type="add" target="#nkr_note_add_0107c0401">已【CB】，巳【中華】</note>
+<note n="0107c0501" resp="#resp1" type="add" target="#nkr_note_add_0107c0501">已【CB】，巳【中華】</note>
+<note n="0108a1101" resp="#resp1" type="add" target="#nkr_note_add_0108a1101">已【CB】，巳【中華】</note>
+<note n="0108b0701" resp="#resp1" type="add" target="#nkr_note_add_0108b0701">已【CB】，巳【中華】</note>
+<note n="0109a1701" resp="#resp1" type="add" target="#nkr_note_add_0109a1701">已【CB】，巳【中華】</note>
+<note n="0109b1301" resp="#resp1" type="add" target="#nkr_note_add_0109b1301">已【CB】，巳【中華】</note>
+<note n="0110c0701" resp="#resp1" type="add" target="#nkr_note_add_0110c0701">已【CB】，巳【中華】</note>
+<note n="0110c1001" resp="#resp1" type="add" target="#nkr_note_add_0110c1001">已【CB】，巳【中華】</note>
+<note n="0110c1701" resp="#resp1" type="add" target="#nkr_note_add_0110c1701">但【CB】，伹【中華】</note>
+<note n="0111b1001" resp="#resp1" type="add" target="#nkr_note_add_0111b1001">媸【CB】，<g ref="#CB28918">󷃶</g>【中華】</note>
+<note n="0111c1101" resp="#resp1" type="add" target="#nkr_note_add_0111c1101">已【CB】，巳【中華】</note>
+<note n="0112b1401" resp="#resp1" type="add" target="#nkr_note_add_0112b1401">己【CB】，已【中華】</note>
+<note n="0113a0901" resp="#resp1" type="add" target="#nkr_note_add_0113a0901">已【CB】，巳【中華】</note>
+<note n="0113c0201" resp="#resp1" type="add" target="#nkr_note_add_0113c0201">已【CB】，巳【中華】</note>
+<note n="0114c1501" resp="#resp1" type="add" target="#nkr_note_add_0114c1501">已【CB】，巳【中華】</note>
+<note n="0114c1901" resp="#resp1" type="add" target="#nkr_note_add_0114c1901">已【CB】，巳【中華】</note>
+<note n="0115a0801" resp="#resp1" type="add" target="#nkr_note_add_0115a0801">已【CB】，巳【中華】</note>
+<note n="0115c0301" resp="#resp1" type="add" target="#nkr_note_add_0115c0301">已【CB】，巳【中華】</note>
+<note n="0116b0301" resp="#resp1" type="add" target="#nkr_note_add_0116b0301">已【CB】，巳【中華】</note>
+<note n="0117b2001" resp="#resp1" type="add" target="#nkr_note_add_0117b2001">已【CB】，巳【中華】</note>
+<note n="0117c1501" resp="#resp1" type="add" target="#nkr_note_add_0117c1501">已【CB】，巳【中華】</note>
+<note n="0118a0501" resp="#resp1" type="add" target="#nkr_note_add_0118a0501">已【CB】，巳【中華】</note>
+<note n="0118b1101" resp="#resp1" type="add" target="#nkr_note_add_0118b1101">已【CB】，巳【中華】</note>
+<note n="0119a0101" resp="#resp1" type="add" target="#nkr_note_add_0119a0101">己【CB】，已【中華】</note>
+<note n="0119a0601" resp="#resp1" type="add" target="#nkr_note_add_0119a0601">已【CB】，巳【中華】</note>
+<note n="0119a1101" resp="#resp1" type="add" target="#nkr_note_add_0119a1101">已【CB】，巳【中華】</note>
+<note n="0120b1901" resp="#resp1" type="add" target="#nkr_note_add_0120b1901">已【CB】，巳【中華】</note>
+<note n="0121a0501" resp="#resp1" type="add" target="#nkr_note_add_0121a0501">已【CB】，巳【中華】</note>
+<note n="0121a0801" resp="#resp1" type="add" target="#nkr_note_add_0121a0801">已【CB】，巳【中華】</note>
+<note n="0121a1401" resp="#resp1" type="add" target="#nkr_note_add_0121a1401">已【CB】，巳【中華】</note>
+<note n="0122a1201" resp="#resp1" type="add" target="#nkr_note_add_0122a1201">已【CB】，巳【中華】</note>
+<note n="0122b1101" resp="#resp1" type="add" target="#nkr_note_add_0122b1101">已【CB】，巳【中華】</note>
+<note n="0122c1501" resp="#resp1" type="add" target="#nkr_note_add_0122c1501">已【CB】，巳【中華】</note>
+<note n="0122c2001" resp="#resp1" type="add" target="#nkr_note_add_0122c2001">已【CB】，巳【中華】</note>
+<note n="0123b0601" resp="#resp1" type="add" target="#nkr_note_add_0123b0601">已【CB】，巳【中華】</note>
+<note n="0123b1401" resp="#resp1" type="add" target="#nkr_note_add_0123b1401">已【CB】，巳【中華】</note>
+<note n="0123b1901" resp="#resp1" type="add" target="#nkr_note_add_0123b1901">已【CB】，巳【中華】</note>
+<note n="0125b1201" resp="#resp1" type="add" target="#nkr_note_add_0125b1201">已【CB】，巳【中華】</note>
+<note n="0128a0101" resp="#resp1" type="add" target="#nkr_note_add_0128a0101">己【CB】，巳【中華】</note>
+<note n="0128a1701" resp="#resp1" type="add" target="#nkr_note_add_0128a1701">已【CB】，巳【中華】</note>
+<note n="0128b0501" resp="#resp1" type="add" target="#nkr_note_add_0128b0501">己【CB】，巳【中華】</note>
+<note n="0128b0901" resp="#resp1" type="add" target="#nkr_note_add_0128b0901">已【CB】，巳【中華】</note>
+<note n="0129b1001" resp="#resp1" type="add" target="#nkr_note_add_0129b1001">此皆【CB】，<unclear></unclear><unclear></unclear>【中華】</note>
+<note n="0130a0101" resp="#resp1" type="add" target="#nkr_note_add_0130a0101">已【CB】，巳【中華】</note>
+<note n="0131b0601" resp="#resp1" type="add" target="#nkr_note_add_0131b0601">已【CB】，巳【中華】</note>
+<note n="0131b1301" resp="#resp1" type="add" target="#nkr_note_add_0131b1301">已【CB】，巳【中華】</note>
+<note n="0134a0301" resp="#resp1" type="add" target="#nkr_note_add_0134a0301">刺【CB】，剌【中華】</note>
+<note n="0134a0302" resp="#resp1" type="add" target="#nkr_note_add_0134a0302">已【CB】，巳【中華】</note>
+<note n="0134b0201" resp="#resp1" type="add" target="#nkr_note_add_0134b0201">己【CB】，巳【中華】</note>
+<note n="0136a0201" resp="#resp1" type="add" target="#nkr_note_add_0136a0201">已【CB】，巳【中華】</note>
+<note n="0138b0601" resp="#resp1" type="add" target="#nkr_note_add_0138b0601">已【CB】，巳【中華】</note>
+<note n="0138c0501" resp="#resp1" type="add" target="#nkr_note_add_0138c0501">已【CB】，巳【中華】</note>
+<note n="0140a1601" resp="#resp1" type="add" target="#nkr_note_add_0140a1601">已【CB】，巳【中華】</note>
+<note n="0141a0801" resp="#resp1" type="add" target="#nkr_note_add_0141a0801">已【CB】，巳【中華】</note>
+<note n="0141b0801" resp="#resp1" type="add" target="#nkr_note_add_0141b0801">已【CB】，巳【中華】</note>
+<note n="0142c1001" resp="#resp1" type="add" target="#nkr_note_add_0142c1001">切生滅頓了【CB】，<unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear>【中華】</note>
+<note n="0143a1101" resp="#resp1" type="add" target="#nkr_note_add_0143a1101">已【CB】，巳【中華】</note>
+<note n="0143a1301" resp="#resp1" type="add" target="#nkr_note_add_0143a1301">已【CB】，巳【中華】</note>
+<note n="0143a1501" resp="#resp1" type="add" target="#nkr_note_add_0143a1501">已【CB】，巳【中華】</note>
+<note n="0143a1901" resp="#resp1" type="add" target="#nkr_note_add_0143a1901">已【CB】，巳【中華】</note>
+<note n="0143b0401" resp="#resp1" type="add" target="#nkr_note_add_0143b0401">已【CB】，巳【中華】</note>
+<note n="0143b0402" resp="#resp1" type="add" target="#nkr_note_add_0143b0402">已【CB】，巳【中華】</note>
+<note n="0143b0901" resp="#resp1" type="add" target="#nkr_note_add_0143b0901">已【CB】，巳【中華】</note>
+<note n="0146b0301" resp="#resp1" type="add" target="#nkr_note_add_0146b0301">已【CB】，巳【中華】</note>
+<note n="0146b0401" resp="#resp1" type="add" target="#nkr_note_add_0146b0401">已【CB】，巳【中華】</note>
+<note n="0146b0402" resp="#resp1" type="add" target="#nkr_note_add_0146b0402">已【CB】，巳【中華】</note>
+<note n="0146c0501" resp="#resp1" type="add" target="#nkr_note_add_0146c0501">已【CB】，巳【中華】</note>
+<note n="0146c1001" resp="#resp1" type="add" target="#nkr_note_add_0146c1001">已【CB】，巳【中華】</note>
+<note n="0147c0901" resp="#resp1" type="add" target="#nkr_note_add_0147c0901">已【CB】，巳【中華】</note>
+<note n="0149a1701" resp="#resp1" type="add" target="#nkr_note_add_0149a1701">已【CB】，巳【中華】</note>
+<note n="0149c1501" resp="#resp1" type="add" target="#nkr_note_add_0149c1501">己【CB】，已【中華】</note>
+<note n="0151a0601" resp="#resp1" type="add" target="#nkr_note_add_0151a0601">已【CB】，巳【中華】</note>
+<note n="0151c0501" resp="#resp1" type="add" target="#nkr_note_add_0151c0501">已【CB】，巳【中華】</note>
+<note n="0151c1601" resp="#resp1" type="add" target="#nkr_note_add_0151c1601">已【CB】，巳【中華】</note>
+<note n="0151c2001" resp="#resp1" type="add" target="#nkr_note_add_0151c2001">已【CB】，巳【中華】</note>
+<note n="0152a1001" resp="#resp1" type="add" target="#nkr_note_add_0152a1001">已【CB】，巳【中華】</note>
+<note n="0153a0701" resp="#resp1" type="add" target="#nkr_note_add_0153a0701">已【CB】，巳【中華】</note>
+<note n="0153a0801" resp="#resp1" type="add" target="#nkr_note_add_0153a0801">已【CB】，巳【中華】</note>
+<note n="0155a0401" resp="#resp1" type="add" target="#nkr_note_add_0155a0401">已【CB】，巳【中華】</note>
+<note n="0155a1701" resp="#resp1" type="add" target="#nkr_note_add_0155a1701">睥【CB】，<g ref="#CB28917">䀝</g>【中華】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.6 $<date>$Date: 2009/04/22 09:00:47 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 57, No. 978</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -168,7 +173,7 @@ no message
 <lb ed="X" n="0643a55"/><lb ed="R102" n="0208a13"/><item xml:id="itemX57p0643a5501">四引證<note place="inline">二</note>
 <lb ed="X" n="0643a56"/><lb ed="R102" n="0208a13"/><list><item xml:id="itemX57p0643a5601">初引經徵起<note place="inline">信解</note></item>
 <lb ed="X" n="0643a57"/><lb ed="R102" n="0208a13"/><item xml:id="itemX57p0643a5701">二答釋<note place="inline">答明</note></item></list></item></list></item></list></item>
-<lb ed="X" n="0643a58"/><lb ed="R102" n="0208a13"/><item xml:id="itemX57p0643a5801">三總結<note place="inline"><anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>上</note></item></list></item>
+<lb ed="X" n="0643a58"/><lb ed="R102" n="0208a13"/><item xml:id="itemX57p0643a5801">三總結<note place="inline"><anchor xml:id="nkr_note_add_0643a5801" n="0643a5801"/><anchor xml:id="beg0643a5801" n="0643a5801"/>已<anchor xml:id="end0643a5801"/>上</note></item></list></item>
 <lb ed="X" n="0643a59"/><lb ed="R102" n="0208a14"/><item xml:id="itemX57p0643a5901">三秘密教○</item>
 <lb ed="X" n="0643a60"/><lb ed="R102" n="0208a15"/><item xml:id="itemX57p0643a6001">四不定教○</item></list></item>
 <lb ed="X" n="0643a61"/><lb ed="R102" n="0208a15"/><item xml:id="itemX57p0643a6101">二結齊四時<note place="inline">化儀</note></item></list></item>
@@ -731,13 +736,19 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0643a5801" to="#end0643a5801"><lem wit="#wit1" resp="#resp3">已</lem><rdg wit="#wit2">巳</rdg></app>
 </p>
 </cb:div>
 <cb:div type="xuzang-notes">
 <head>卍續藏 校註</head>
 <p>
 <note n="0642001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0642001">集注全文會合彙補輔宏記故省於茲</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0643a5801" resp="#resp2" type="add" target="#nkr_note_add_0643a5801">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

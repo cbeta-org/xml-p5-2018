@@ -13,7 +13,8 @@
 		</titleStmt>
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>6卷</extent>
 		<publicationStmt>
@@ -30,7 +31,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Supplement to the Dazangjing Vol. 24, No. 136</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【補編】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -168,7 +173,7 @@ $Log:$
 <lb ed="B" n="0359b14"/><p xml:id="pB24p0359b1401">選佛之語。始於禪客點悟丹霞。而選佛圖傳聞創自
 <lb ed="B" n="0359b15"/><g ref="#CB00706">󰋂</g>麻僧也。學士解縉作升官圖。故<g ref="#CB00706">󰋂</g>麻僧作選佛圖。
 <lb ed="B" n="0359b16"/>必應博諳教乘。深知禪律。未有不達法門中事輙敢
-<lb ed="B" n="0359b17"/>師心自創立者。惜其失傳。無從得見。萬歷<anchor xml:id="beg_1" type="cb-app"/>己<anchor xml:id="end_1"/>未余年
+<lb ed="B" n="0359b17"/>師心自創立者。惜其失傳。無從得見。萬歷<anchor xml:id="nkr_note_add_0359b1701" n="0359b1701"/><anchor xml:id="beg0359b1701" n="0359b1701"/>己<anchor xml:id="end0359b1701"/>未余年
 <lb ed="B" n="0359b18"/>二十一歲。曾於留都坊間。購得一升佛圖。絕無倫次。
 <lb ed="B" n="0359b19"/>甚為可嗤。歲在癸亥。偶於武林蓮居。隨喜一選佛圖。
 <lb ed="B" n="0359b20"/>乃幽溪無盡大師所作。具顯十法界升沈之致。足稱
@@ -2610,7 +2615,7 @@ $Log:$
 <lb ed="B" n="0418a10"/>用一法。止住心過。令得調停。然後堪修念處正觀。
 <lb ed="B" n="0418a11"/>故名五停心觀也。　那那等三。煩惱既強。必犯諸
 <lb ed="B" n="0418a12"/>過。故須作法。阿阿等六。心既漸調。故階賢位。那佛。
-<lb ed="B" n="0418a13"/>則雖未斷見。已鄰發真。謨佛。則<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>得發真。猶存思
+<lb ed="B" n="0418a13"/>則雖未斷見。已鄰發真。謨佛。則<anchor xml:id="nkr_note_add_0418a1301" n="0418a1301"/><anchor xml:id="beg0418a1301" n="0418a1301"/>已<anchor xml:id="end0418a1301"/>得發真。猶存思
 <lb ed="B" n="0418a14"/>惑。阿佛。則進階修道。彌佛。則轉入衍門。陀佛。則次
 <lb ed="B" n="0418a15"/>第先見於空。佛佛。則迴入如來願海。</p>
 <lb ed="B" n="0418a16"/><p xml:id="pB24p0418a1601" rend="margin-left:1em;text-indent:-1em">別相念　　<note place="inline">那那　那謨　謨謨。皆五停心　阿阿。總相念　阿彌。煖位
@@ -2708,7 +2713,7 @@ $Log:$
 <lb ed="B" n="0420b03"/>分。擇法覺分。精進覺分。喜覺分。除覺分。定覺分。捨
 <lb ed="B" n="0420b04"/>覺分。若心浮動。以除覺除身口之麤。以捨覺捨於
 <lb ed="B" n="0420b05"/>觀智。以定覺入禪。若心沈時。以精進擇喜起之。念
-<lb ed="B" n="0420b06"/>通兩處也。既見道<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>。安隱行於八正道中。重慮緣
+<lb ed="B" n="0420b06"/>通兩處也。既見道<anchor xml:id="nkr_note_add_0420b0601" n="0420b0601"/><anchor xml:id="beg0420b0601" n="0420b0601"/>已<anchor xml:id="end0420b0601"/>。安隱行於八正道中。重慮緣
 <lb ed="B" n="0420b07"/>真。進斷思惑。即名修道。乃歷二果。三果。以階第四
 <lb ed="B" n="0420b08"/>無學果位。言八正道者。一正見。二正思惟。三正語。
 <lb ed="B" n="0420b09"/>四正業。五正精進。六正定。七正念。八正命。無漏聖
@@ -3592,9 +3597,17 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0359b1701" to="#end0359b1701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0418a1301" to="#end0418a1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0420b0601" to="#end0420b0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0359b1701" resp="#resp1" type="add" target="#nkr_note_add_0359b1701">己【CB】，已【補編】</note>
+<note n="0418a1301" resp="#resp1" type="add" target="#nkr_note_add_0418a1301">已【CB】，巳【補編】</note>
+<note n="0420b0601" resp="#resp1" type="add" target="#nkr_note_add_0420b0601">已【CB】，巳【補編】</note>
 </p>
 </cb:div>
 </back></text></TEI>

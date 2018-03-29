@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:01:47 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,7 +34,7 @@
 		<bibl>Taishō Tripiṭaka Vol. 21, No. 1318</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
-		<witness xml:id="wit2">【CBETA】</witness>
+		<witness xml:id="wit2">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -274,7 +275,7 @@ Added comment  for Emacs
 <lb n="0470a24" ed="T"/>仙。一切冤結負於財命。種種類族異類鬼神
 <lb n="0470a25" ed="T"/>各及眷屬。乘如來力。於晨朝時<note place="inline">日沒時亥時諸天眾歡喜降臨
 <lb n="0470a26" ed="T"/>作法驗爾</note>決定降臨。得受如來上妙法味清淨甘露。
-<lb n="0470a27" ed="T"/>飲食充足滋潤身田。福德智慧發菩<anchor xml:id="nkr_note_orig_0470001" n="0470001"/><anchor xml:id="beg0470001" n="0470001"/>□□<anchor xml:id="end0470001"/>永
+<lb n="0470a27" ed="T"/>飲食充足滋潤身田。福德智慧發菩<anchor xml:id="nkr_note_orig_0470001" n="0470001"/><anchor xml:id="nkr_note_mod_0470001" n="0470001"/><anchor xml:id="beg0470001" n="0470001"/>□□<anchor xml:id="end0470001"/>永
 <lb n="0470a28" ed="T"/>離邪行歸依三寶。行大慈心利益有情。求無
 <lb n="0470a29" ed="T"/>上道不受輪迴諸惡苦果。常生善家離諸怖
 <pb n="0470b" xml:id="T21.1318.0470b" ed="T"/>
@@ -417,7 +418,7 @@ Added comment  for Emacs
 <lb n="0471c17" ed="T"/>不得食。使不均平。越佛慈濟。必須互相愛念。
 <lb n="0471c18" ed="T"/>猶如父母一子之想。語諸佛子。汝等各有父
 <lb n="0471c19" ed="T"/>母兄弟姊妹妻子眷屬善友親戚。或有事緣
-<lb n="0471c20" ed="T"/>來不得者。汝等佛子慈悲愛念。各各<anchor xml:id="beg_1" type="cb-app"/>賫<anchor xml:id="end_1"/>持飲
+<lb n="0471c20" ed="T"/>來不得者。汝等佛子慈悲愛念。各各<anchor xml:id="nkr_note_add_0471c2001" n="0471c2001"/><anchor xml:id="beg0471c2001" n="0471c2001"/>賫<anchor xml:id="end0471c2001"/>持飲
 <lb n="0471c21" ed="T"/>食錢財物等。遞相布施充足飽滿。無有乏少
 <lb n="0471c22" ed="T"/>令發道意。永離三塗長越四流。當捨此身速
 <lb n="0471c23" ed="T"/>超道果。又為汝等將此淨食分為三分。一施
@@ -480,7 +481,13 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0470001" to="#end0470001"><lem resp="#resp1" wit="#wit1">□□</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">提心</rdg></app>
-<choice cb:from="#beg_1" cb:to="#end_1" cb:resp="#resp2"><corr>賫<note type="cf1">T54n2128_p0380b06</note></corr><sic>賚</sic></choice>
+<app from="#beg0471c2001" to="#end0471c2001"><lem resp="#resp3" wit="#wit2">賫<note type="cf1">T54n2128_p0380b06</note></lem><rdg wit="#wit1">賚</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0470001" resp="#resp2" type="mod" target="#nkr_note_mod_0470001">□□【大】，提心【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -488,6 +495,12 @@ Added comment  for Emacs
 <p>
 <note n="0468022" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0468022">【原】明本，此經麗本宋元本俱缺</note>
 <note n="0470001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0470001">□□＝提心？</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0471c2001" resp="#resp2" type="add" target="#nkr_note_add_0471c2001">賫【CB】，賚【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

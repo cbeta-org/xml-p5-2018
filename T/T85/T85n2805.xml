@@ -14,7 +14,8 @@
 		<editionStmt>
 			<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:15:18 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>2卷</extent>
 		<publicationStmt>
@@ -33,6 +34,7 @@
 			<bibl>Taishō Tripiṭaka Vol. 85, No. 2805</bibl>
 		<listWit>
 		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 	</fileDesc>
@@ -151,7 +153,7 @@ Added comment  for Emacs
 <lb n="0982b16" ed="T"/>
 <lb n="0982b17" ed="T"/><cb:div type="other"><p xml:id="pT85p0982b1701"><anchor xml:id="nkr_note_orig_0982002" n="0982002"/>種子如鵝飲乳也。</p>
 <lb n="0982b18" ed="T"/><p xml:id="pT85p0982b1801">論本云由如世間離欲時不靜地熏習滅者。
-<lb n="0982b19" ed="T"/><anchor xml:id="nkr_note_orig_0982003" n="0982003"/><anchor xml:id="beg0982003" n="0982003"/>□□□<anchor xml:id="end0982003"/>轉依義例顯出世轉依義。此但以前
+<lb n="0982b19" ed="T"/><anchor xml:id="nkr_note_orig_0982003" n="0982003"/><anchor xml:id="nkr_note_mod_0982003" n="0982003"/><anchor xml:id="beg0982003" n="0982003"/>□□□<anchor xml:id="end0982003"/>轉依義例顯出世轉依義。此但以前
 <lb n="0982b20" ed="T"/>地益力損能義未得似通達轉依身義為常
 <lb n="0982b21" ed="T"/>住。此則異如後也。</p>
 <lb n="0982b22" ed="T"/><p xml:id="pT85p0982b2201">聖人依者聞熏習與解性和合以此為依一切
@@ -604,7 +606,7 @@ Added comment  for Emacs
 <lb n="0987b19" ed="T"/>諸有差別。此三章是集諦。初章通習報因。第
 <lb n="0987b20" ed="T"/>二煩惱。第三是業。故有三章異也。</p>
 <lb n="0987b21" ed="T"/><p xml:id="pT85p0987b2101">論本云引生差別者。此釋第四引生章。此第
-<lb n="0987b22" ed="T"/>四章論本自解。釋論又解。引生有<anchor xml:id="beg_1" type="cb-app"/>二<anchor xml:id="end_1"/>。一能引
+<lb n="0987b22" ed="T"/>四章論本自解。釋論又解。引生有<anchor xml:id="nkr_note_add_0987b2201" n="0987b2201"/><anchor xml:id="beg0987b2201" n="0987b2201"/>二<anchor xml:id="end0987b2201"/>。一能引
 <lb n="0987b23" ed="T"/>牽本識受依持生種子所以得立。二本識中
 <lb n="0987b24" ed="T"/>種子引生後果報。此章明於引生之力用故
 <lb n="0987b25" ed="T"/>云引生章。</p>
@@ -1317,7 +1319,7 @@ Added comment  for Emacs
 <lb n="0995b10" ed="T"/>別釋中釋第一勝時果云。捨凡夫二乘位始
 <lb n="0995b11" ed="T"/>得菩薩真位。前十解中雖名聖。未得不二之
 <lb n="0995b12" ed="T"/>真聖猶故。是假名菩薩。未得斷凡夫性以身
-<lb n="0995b13" ed="T"/>猶未得常住法身故。同凡夫二乘各<anchor xml:id="beg_2" type="cb-app"/>各<anchor xml:id="end_2"/>差別
+<lb n="0995b13" ed="T"/>猶未得常住法身故。同凡夫二乘各<anchor xml:id="nkr_note_add_0995b1301" n="0995b1301"/><anchor xml:id="beg0995b1301" n="0995b1301"/>各<anchor xml:id="end0995b1301"/>差別
 <lb n="0995b14" ed="T"/>妄想法為身故也。初地得理無二法身智無
 <lb n="0995b15" ed="T"/>二常住法身方是真聖位。異地前假名也。釋
 <lb n="0995b16" ed="T"/>第二云。捨自愛名歡。生他愛名喜者。除貪
@@ -1689,8 +1691,14 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0982003" to="#end0982003"><lem resp="#resp1" wit="#wit1">□□□</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">以世間</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>二</corr><sic>一</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>各</corr><sic>名</sic></choice>
+<app from="#beg0987b2201" to="#end0987b2201"><lem wit="#wit2" resp="#resp3">二</lem><rdg wit="#wit1">一</rdg></app>
+<app from="#beg0995b1301" to="#end0995b1301"><lem wit="#wit2" resp="#resp3">各</lem><rdg wit="#wit1">名</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0982003" resp="#resp2" type="mod" target="#nkr_note_mod_0982003">□□□【大】，以世間【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -1701,6 +1709,13 @@ Added comment  for Emacs
 <note n="0982003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0982003">□□□＝以世間？</note>
 <note n="0990001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0990001">首題新加</note>
 <note n="0990002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0990002">首缺</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0987b2201" resp="#resp2" type="add" target="#nkr_note_add_0987b2201">二【CB】，一【大】</note>
+<note n="0995b1301" resp="#resp2" type="add" target="#nkr_note_add_0995b1301">各【CB】，名【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

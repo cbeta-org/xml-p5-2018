@@ -13,9 +13,10 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.19 $<date>$Date: 2009/04/22 09:07:09 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.march</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.march</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,6 +33,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 84, No. 1581</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -377,12 +382,12 @@ new from basicx
 <lb ed="X" n="0358b02"/>
 <lb ed="X" n="0358b03"/>
 <lb ed="X" n="0358b04"/><lb ed="R144" n="0403a01"/><cb:div type="other"><cb:mulu type="其他" level="1">皇明名僧輯略凡例</cb:mulu><head>皇明名僧輯略凡例</head>
-<lb ed="X" n="0358b05"/><lb ed="R144" n="0403a02"/><list><item xml:id="itemX84p0358b0501"><anchor xml:id="beg_1" type="cb-app"/><space quantity="0"/><anchor xml:id="end_1"/>生於元。示寂於本朝者錄。示寂於元者不錄。</item>
-<lb ed="X" n="0358b06"/><lb ed="R144" n="0403a03"/><item xml:id="itemX84p0358b0601"><anchor xml:id="beg_2" type="cb-app"/><space quantity="0"/><anchor xml:id="end_2"/>楚石以下十家。各有語錄。不能悉具全書。其上
+<lb ed="X" n="0358b05"/><lb ed="R144" n="0403a02"/><list><item xml:id="itemX84p0358b0501"><anchor xml:id="nkr_note_add_0358b0501" n="0358b0501"/><anchor xml:id="beg0358b0501" n="0358b0501"/><space quantity="0"/><anchor xml:id="end0358b0501"/>生於元。示寂於本朝者錄。示寂於元者不錄。</item>
+<lb ed="X" n="0358b06"/><lb ed="R144" n="0403a03"/><item xml:id="itemX84p0358b0601"><anchor xml:id="nkr_note_add_0358b0601" n="0358b0601"/><anchor xml:id="beg0358b0601" n="0358b0601"/><space quantity="0"/><anchor xml:id="end0358b0601"/>楚石以下十家。各有語錄。不能悉具全書。其上
 <lb ed="X" n="0358b07"/><lb ed="R144" n="0403a04"/>堂示眾普說拈頌題咏諸雜著等。皆錄少分。</item>
-<lb ed="X" n="0358b08"/><lb ed="R144" n="0403a05"/><item xml:id="itemX84p0358b0801"><anchor xml:id="beg_3" type="cb-app"/><space quantity="0"/><anchor xml:id="end_3"/>附錄者。宋景濂學士集中所載諸善知識序文
+<lb ed="X" n="0358b08"/><lb ed="R144" n="0403a05"/><item xml:id="itemX84p0358b0801"><anchor xml:id="nkr_note_add_0358b0801" n="0358b0801"/><anchor xml:id="beg0358b0801" n="0358b0801"/><space quantity="0"/><anchor xml:id="end0358b0801"/>附錄者。宋景濂學士集中所載諸善知識序文
 <lb ed="X" n="0358b09"/><lb ed="R144" n="0403a06"/>誌銘。亦以曾與本朝者錄其少分。</item>
-<lb ed="X" n="0358b10"/><lb ed="R144" n="0403a07"/><item xml:id="itemX84p0358b1001"><anchor xml:id="beg_4" type="cb-app"/><space quantity="0"/><anchor xml:id="end_4"/>又附者。以失記普濟師朝代故。</item></list>
+<lb ed="X" n="0358b10"/><lb ed="R144" n="0403a07"/><item xml:id="itemX84p0358b1001"><anchor xml:id="nkr_note_add_0358b1001" n="0358b1001"/><anchor xml:id="beg0358b1001" n="0358b1001"/><space quantity="0"/><anchor xml:id="end0358b1001"/>又附者。以失記普濟師朝代故。</item></list>
 <lb ed="X" n="0358b11"/><lb ed="R144" n="0403a08"/><list><head>目錄</head>
 <lb ed="X" n="0358b12"/><lb ed="R144" n="0403a09"/><item xml:id="itemX84p0358b1201">楚石琦禪師</item><item xml:id="itemX84p0358b1206">毒峯善禪師</item><item xml:id="itemX84p0358b1211">空谷隆禪師</item>
 <lb ed="X" n="0358b13"/><lb ed="R144" n="0403a10"/><item xml:id="itemX84p0358b1301">天琦瑞禪師</item><item xml:id="itemX84p0358b1306">傑峯英禪師</item><item xml:id="itemX84p0358b1311">楚山琦禪師</item>
@@ -405,7 +410,7 @@ new from basicx
 <lb ed="X" n="0358c05"/><cb:docNumber>No. 1581</cb:docNumber>
 <lb ed="X" n="0358c06"/><lb ed="R144" n="0403b01"/><cb:juan fun="open" n="001"><cb:mulu type="卷" n="1"></cb:mulu><cb:jhead>皇明名僧輯略</cb:jhead></cb:juan>
 <lb ed="X" n="0358c07"/>
-<lb ed="X" n="0358c08"/><lb ed="R144" n="0403b02"/><byline cb:type="Collector">明雲棲寺比丘　<anchor xml:id="beg_5" type="cb-app"/>袾<anchor xml:id="end_5"/>宏輯</byline>
+<lb ed="X" n="0358c08"/><lb ed="R144" n="0403b02"/><byline cb:type="Collector">明雲棲寺比丘　<anchor xml:id="nkr_note_add_0358c0801" n="0358c0801"/><anchor xml:id="beg0358c0801" n="0358c0801"/>袾<anchor xml:id="end0358c0801"/>宏輯</byline>
 <lb ed="X" n="0358c09"/><lb ed="R144" n="0403b03"/><cb:div type="other"><cb:mulu type="其他" level="1">楚石琦禪師</cb:mulu><head>楚石琦禪師</head>
 <lb ed="X" n="0358c10"/><lb ed="R144" n="0403b04"/><cb:div type="other"><cb:mulu type="其他" level="2">行實</cb:mulu><head>行實</head>
 <lb ed="X" n="0358c11"/><lb ed="R144" n="0403b05"/><p xml:id="pX84p0358c1101">師諱梵琦。楚石其字也。寧波府象山縣人。姓朱氏。年
@@ -417,8 +422,8 @@ new from basicx
 <lb ed="X" n="0358c17"/><lb ed="R144" n="0403b11"/>十五。僧臘六十三。有六會語錄行世。</p></cb:div>
 <lb ed="X" n="0358c18"/><lb ed="R144" n="0403b12"/><cb:div type="other"><cb:mulu type="其他" level="2">上堂</cb:mulu><head>上堂</head>
 <lb ed="X" n="0358c19"/><lb ed="R144" n="0403b13"/><p xml:id="pX84p0358c1901">除夜小參。善哉三下板。知識盡來參。既善知時節。吾
-<lb ed="X" n="0358c20"/><lb ed="R144" n="0403b14"/>今不再三。諸仁者。一舉更不再舉。今<anchor xml:id="beg_6" type="cb-app"/>已<anchor xml:id="end_6"/>再舉。一聞更
-<lb ed="X" n="0358c21"/><lb ed="R144" n="0403b15"/>不再聞。今<anchor xml:id="beg_7" type="cb-app"/>已<anchor xml:id="end_7"/>再聞。頭頭上明。物物上了。如理如事。亘
+<lb ed="X" n="0358c20"/><lb ed="R144" n="0403b14"/>今不再三。諸仁者。一舉更不再舉。今<anchor xml:id="nkr_note_add_0358c2001" n="0358c2001"/><anchor xml:id="beg0358c2001" n="0358c2001"/>已<anchor xml:id="end0358c2001"/>再舉。一聞更
+<lb ed="X" n="0358c21"/><lb ed="R144" n="0403b15"/>不再聞。今<anchor xml:id="nkr_note_add_0358c2101" n="0358c2101"/><anchor xml:id="beg0358c2101" n="0358c2101"/>已<anchor xml:id="end0358c2101"/>再聞。頭頭上明。物物上了。如理如事。亘
 <lb ed="X" n="0358c22"/><lb ed="R144" n="0403b16"/>古亘今。不是涅槃心。亦非正法眼。恁麼恁麼。三世諸
 <lb ed="X" n="0358c23"/><lb ed="R144" n="0403b17"/>佛祇言自知。不恁麼不恁麼。六代祖師無啟口處。設
 <lb ed="X" n="0358c24"/><lb ed="R144" n="0403b18"/>使言前薦得。猶為滯殻迷封。假饒句下精通。未免觸
@@ -448,7 +453,7 @@ new from basicx
 <lb ed="X" n="0359a23"/><lb ed="R144" n="0404b05"/><p xml:id="pX84p0359a2301">結夏小參。僧問如何是山裏禪。師云。胡孫上樹尾連
 <lb ed="X" n="0359a24"/><lb ed="R144" n="0404b06"/>顛。進云。如何是城裏禪。師云。十字街頭一片甎。進云。
 <pb ed="X" xml:id="X84.1581.0359b" n="0359b"/>
-<lb ed="X" n="0359b01"/><lb ed="R144" n="0404b07"/>如何是村裏禪。師云。扶桑人種<anchor xml:id="beg_8" type="cb-app"/>陝<anchor xml:id="end_8"/>西田。進云。謝師答
+<lb ed="X" n="0359b01"/><lb ed="R144" n="0404b07"/>如何是村裏禪。師云。扶桑人種<anchor xml:id="nkr_note_add_0359b0101" n="0359b0101"/><anchor xml:id="beg0359b0101" n="0359b0101"/>陝<anchor xml:id="end0359b0101"/>西田。進云。謝師答
 <lb ed="X" n="0359b02"/><lb ed="R144" n="0404b08"/>話。師云。蒼天蒼天。乃云。衣食養壽命。一日不可無。糞
 <lb ed="X" n="0359b03"/><lb ed="R144" n="0404b09"/>埽敵寒暑。麤糲療形枯。昨日三春。今朝九夏。何不趁
 <lb ed="X" n="0359b04"/><lb ed="R144" n="0404b10"/>色身強健時。撥教生死路頭明白。要去便去。要住便
@@ -473,7 +478,7 @@ new from basicx
 <lb ed="X" n="0359b23"/><lb ed="R144" n="0405a11"/>坑裏作活計。汝若跳出屎坑。却來山僧手裏喫棒。</p>
 <lb ed="X" n="0359b24"/><lb ed="R144" n="0405a12"/><p xml:id="pX84p0359b2401">示眾。看這般時節。有志學道兄弟那裏放包。從上來
 <pb ed="X" xml:id="X84.1581.0359c" n="0359c"/>
-<lb ed="X" n="0359c01"/><lb ed="R144" n="0405a13"/>建立門庭為什麼事。可<anchor xml:id="beg_9" type="cb-app"/>但<anchor xml:id="end_9"/>為你幾鄉親法眷。圖口腹。
+<lb ed="X" n="0359c01"/><lb ed="R144" n="0405a13"/>建立門庭為什麼事。可<anchor xml:id="nkr_note_add_0359c0101" n="0359c0101"/><anchor xml:id="beg0359c0101" n="0359c0101"/>但<anchor xml:id="end0359c0101"/>為你幾鄉親法眷。圖口腹。
 <lb ed="X" n="0359c02"/><lb ed="R144" n="0405a14"/>恣無明。成羣作隊。造地獄業。佛法禪道推向一邊。爭
 <lb ed="X" n="0359c03"/><lb ed="R144" n="0405a15"/>知業報卒嚲避不得。刀山劍樹。鑊湯爐炭。無人替代
 <lb ed="X" n="0359c04"/><lb ed="R144" n="0405a16"/>渠。如今大方叢林。兵變以來。南北東西。萬中無一。因
@@ -495,7 +500,7 @@ new from basicx
 <lb ed="X" n="0359c20"/><lb ed="R144" n="0405b14"/>僧門下念箇什麼。若道念佛。念著佛字。漱口三日。不
 <lb ed="X" n="0359c21"/><lb ed="R144" n="0405b15"/>可是念佛也。若道念法。法尚應捨。何況非法。不可是
 <lb ed="X" n="0359c22"/><lb ed="R144" n="0405b16"/>念法也。清淨行者。不入涅槃。破戒比丘。不入地獄。不
-<lb ed="X" n="0359c23"/><lb ed="R144" n="0405b17"/>可是念僧也。持犯<anchor xml:id="beg_a" type="cb-app"/>但<anchor xml:id="end_a"/>束身。非身無所束。不可是念戒
+<lb ed="X" n="0359c23"/><lb ed="R144" n="0405b17"/>可是念僧也。持犯<anchor xml:id="nkr_note_add_0359c2301" n="0359c2301"/><anchor xml:id="beg0359c2301" n="0359c2301"/>但<anchor xml:id="end0359c2301"/>束身。非身無所束。不可是念戒
 <lb ed="X" n="0359c24"/><lb ed="R144" n="0405b18"/>也。三界無安。猶如火宅。不可是念天也。施者受者。併
 <pb ed="X" xml:id="X84.1581.0360a" n="0360a"/>
 <lb ed="X" n="0360a01"/><lb ed="R144" n="0406a01"/>所施物。三輪空寂。俱不可得。不可是念施也。莫是無
@@ -517,7 +522,7 @@ new from basicx
 <lb ed="X" n="0360a17"/><lb ed="R144" n="0406a17"/>累天下衲僧總落拄杖圈<g ref="#CB04901">䙡</g>。放過不可。好與一坑埋
 <lb ed="X" n="0360a18"/><lb ed="R144" n="0406a18"/>却。</p>
 <lb ed="X" n="0360a19"/><lb ed="R144" n="0406b01"/><p xml:id="pX84p0360a1901">舉昔有一婆子施財。請趙州和尚轉大藏經。趙州下
-<lb ed="X" n="0360a20"/><lb ed="R144" n="0406b02"/>禪牀遶一帀云。轉藏<anchor xml:id="beg_b" type="cb-app"/>已<anchor xml:id="end_b"/>畢。人回似婆子。婆子云。比來
+<lb ed="X" n="0360a20"/><lb ed="R144" n="0406b02"/>禪牀遶一帀云。轉藏<anchor xml:id="nkr_note_add_0360a2001" n="0360a2001"/><anchor xml:id="beg0360a2001" n="0360a2001"/>已<anchor xml:id="end0360a2001"/>畢。人回似婆子。婆子云。比來
 <lb ed="X" n="0360a21"/><lb ed="R144" n="0406b03"/>請轉一藏。如何和尚只轉半藏。妙喜云。眾中商量道。
 <lb ed="X" n="0360a22"/><lb ed="R144" n="0406b04"/>如何是那半藏。或云再遶一帀。或彈指一下。或咳嗽
 <lb ed="X" n="0360a23"/><lb ed="R144" n="0406b05"/>一聲。或喝一喝。或拍一拍。恁麼見解。只是不識羞。若
@@ -548,15 +553,15 @@ new from basicx
 <lb ed="X" n="0360b23"/><lb ed="R144" n="0407a11"/>子。德山便喝。當時背法堂著草鞋便去。溈山至晚問
 <lb ed="X" n="0360b24"/><lb ed="R144" n="0407a12"/>首座。適來新到在什麼處。首座云。當時背法堂著草
 <pb ed="X" xml:id="X84.1581.0360c" n="0360c"/>
-<lb ed="X" n="0360c01"/><lb ed="R144" n="0407a13"/>鞋便去。溈山云。還識此子麼。<anchor xml:id="beg_c" type="cb-app"/>已<anchor xml:id="end_c"/>後向孤峯<anchor xml:id="nkr_note_orig_0360002" n="0360002"/>項上蟠結
+<lb ed="X" n="0360c01"/><lb ed="R144" n="0407a13"/>鞋便去。溈山云。還識此子麼。<anchor xml:id="nkr_note_add_0360c0101" n="0360c0101"/><anchor xml:id="beg0360c0101" n="0360c0101"/>已<anchor xml:id="end0360c0101"/>後向孤峯<anchor xml:id="nkr_note_orig_0360002" n="0360002"/>項上蟠結
 <lb ed="X" n="0360c02"/><lb ed="R144" n="0407a14"/>草庵呵佛罵祖去在。</p>
 <lb ed="X" n="0360c03"/><lb ed="R144" n="0407a15"/><p xml:id="pX84p0360c0301" rend="margin-left:1em">作家相見。無背無面。眼似流星。機如閃電。提起坐
-<lb ed="X" n="0360c04"/><lb ed="R144" n="0407a16"/>具。略露鋒鋩。擬取拂子。聊乘快便。<anchor xml:id="beg_d" type="cb-app"/>已<anchor xml:id="end_d"/>後孤峯結草
+<lb ed="X" n="0360c04"/><lb ed="R144" n="0407a16"/>具。略露鋒鋩。擬取拂子。聊乘快便。<anchor xml:id="nkr_note_add_0360c0401" n="0360c0401"/><anchor xml:id="beg0360c0401" n="0360c0401"/>已<anchor xml:id="end0360c0401"/>後孤峯結草
 <lb ed="X" n="0360c05"/><lb ed="R144" n="0407a17"/>庵。牛頭向北馬頭南。</p></cb:div>
 <lb ed="X" n="0360c06"/><lb ed="R144" n="0407a18"/><cb:div type="other"><cb:mulu type="其他" level="2">開示</cb:mulu><head>開示</head>
 <lb ed="X" n="0360c07"/><lb ed="R144" n="0407b01"/><p xml:id="pX84p0360c0701">既稱長老。出世為人。喻如金錍刮眼膜。非是小事。若
 <lb ed="X" n="0360c08"/><lb ed="R144" n="0407b02"/>傷鋒犯手。未免破睛。危乎險哉。間不容髮。豈可恣<g ref="#CB13413">󳑥</g>
-<lb ed="X" n="0360c09"/><lb ed="R144" n="0407b03"/>袋。掉三寸舌。脫空瞞人。你看他<anchor xml:id="nkr_note_orig_0360003" n="0360003"/>挾山初住京口寺。<anchor xml:id="beg_e" type="cb-app"/>已<anchor xml:id="end_e"/>
+<lb ed="X" n="0360c09"/><lb ed="R144" n="0407b03"/>袋。掉三寸舌。脫空瞞人。你看他<anchor xml:id="nkr_note_orig_0360003" n="0360003"/>挾山初住京口寺。<anchor xml:id="nkr_note_add_0360c0901" n="0360c0901"/><anchor xml:id="beg0360c0901" n="0360c0901"/>已<anchor xml:id="end0360c0901"/>
 <lb ed="X" n="0360c10"/><lb ed="R144" n="0407b04"/>有發明。到垂手處。不無滲漏。後往華亭見船子。及船
 <lb ed="X" n="0360c11"/><lb ed="R144" n="0407b05"/>子向他道。離鉤三寸。子何不道。道不得。劈口一橈。竿
 <lb ed="X" n="0360c12"/><lb ed="R144" n="0407b06"/>頭絲線從君弄。不犯清波意自殊。始大徹。所以道參
@@ -568,9 +573,9 @@ new from basicx
 <lb ed="X" n="0360c18"/><lb ed="R144" n="0407b12"/><p xml:id="pX84p0360c1801">又云兄弟開口便道我是禪和。及問他如何是禪。便
 <lb ed="X" n="0360c19"/><lb ed="R144" n="0407b13"/>東<g ref="#CB15111">󳬇</g>西<g ref="#CB15111">󳬇</g>。口如扁担相似。苦哉屈哉。喫著佛祖飯。不
 <lb ed="X" n="0360c20"/><lb ed="R144" n="0407b14"/>去理會本分事。爭持文言俗句。高聲大語。略無忌憚。
-<lb ed="X" n="0360c21"/><lb ed="R144" n="0407b15"/>全不識<anchor xml:id="beg_f" type="cb-app"/>羞<anchor xml:id="end_f"/>。有般底不去蒲團上究明父母未生前本
+<lb ed="X" n="0360c21"/><lb ed="R144" n="0407b15"/>全不識<anchor xml:id="nkr_note_add_0360c2101" n="0360c2101"/><anchor xml:id="beg0360c2101" n="0360c2101"/>羞<anchor xml:id="end0360c2101"/>。有般底不去蒲團上究明父母未生前本
 <lb ed="X" n="0360c22"/><lb ed="R144" n="0407b16"/>來面目。冷地裏學客舂。指望求福。懺除業障。與道太
-<lb ed="X" n="0360c23"/><lb ed="R144" n="0407b17"/>遠在○凝心<anchor xml:id="beg_10" type="cb-app"/>斂<anchor xml:id="end_10"/>念。攝事歸空。念想纔生。即便遏捺。如
+<lb ed="X" n="0360c23"/><lb ed="R144" n="0407b17"/>遠在○凝心<anchor xml:id="nkr_note_add_0360c2301" n="0360c2301"/><anchor xml:id="beg0360c2301" n="0360c2301"/>斂<anchor xml:id="end0360c2301"/>念。攝事歸空。念想纔生。即便遏捺。如
 <lb ed="X" n="0360c24"/><lb ed="R144" n="0407b18"/>此見解。即是落空亡的外道。魂不<anchor xml:id="nkr_note_orig_0360004" n="0360004"/>返的死人。又有妄
 <pb ed="X" xml:id="X84.1581.0361a" n="0361a"/>
 <lb ed="X" n="0361a01"/><lb ed="R144" n="0408a01"/>認能瞋能喜能見能聞。認得明白了。便是一生參學
@@ -579,7 +584,7 @@ new from basicx
 <lb ed="X" n="0361a04"/><lb ed="R144" n="0408a04"/>銀非真。一煅便流。因問你尋常參箇什麼。答道有教
 <lb ed="X" n="0361a05"/><lb ed="R144" n="0408a05"/>參萬法歸一。一歸何處。又教我只如此會。今日方知
 <lb ed="X" n="0361a06"/><lb ed="R144" n="0408a06"/>不是。就和尚請箇話頭。我道古人公案有什麼不是。
-<lb ed="X" n="0361a07"/><lb ed="R144" n="0408a07"/>汝眼本正。因師故邪。累請不<anchor xml:id="beg_11" type="cb-app"/>已<anchor xml:id="end_11"/>。</p></cb:div>
+<lb ed="X" n="0361a07"/><lb ed="R144" n="0408a07"/>汝眼本正。因師故邪。累請不<anchor xml:id="nkr_note_add_0361a0701" n="0361a0701"/><anchor xml:id="beg0361a0701" n="0361a0701"/>已<anchor xml:id="end0361a0701"/>。</p></cb:div>
 <lb ed="X" n="0361a08"/><lb ed="R144" n="0408a08"/><cb:div type="other"><cb:mulu type="其他" level="2">淨土詩</cb:mulu><head>淨土詩<note place="inline">略舉十首</note></head>
 <lb ed="X" n="0361a09"/><lb ed="R144" n="0408a09"/><p xml:id="pX84p0361a0901">有箇彌陀在自心。纔生一念隔千岑。於中豈待回光
 <lb ed="X" n="0361a10"/><lb ed="R144" n="0408a10"/>照直下翻為向外尋。綠水青山皆妙體。黃鶯紫燕總
@@ -594,7 +599,7 @@ new from basicx
 <lb ed="X" n="0361a19"/><lb ed="R144" n="0408b01"/>盡。紫金身相照無邊。重重樹網垂平地。一一華臺接
 <lb ed="X" n="0361a20"/><lb ed="R144" n="0408b02"/>遠天。諸佛界中希有事。了如明鏡現吾前。</p>
 <lb ed="X" n="0361a21"/><lb ed="R144" n="0408b03"/><p xml:id="pX84p0361a2101">一寸光陰一寸金。勸君念佛早回心。直饒鳳閣龍棲
-<lb ed="X" n="0361a22"/><lb ed="R144" n="0408b04"/>貴。難免雞皮<g ref="#CB15112">󳬈</g>髮侵。鼎內香煙初未散。空中法駕<anchor xml:id="beg_12" type="cb-app"/>已<anchor xml:id="end_12"/>
+<lb ed="X" n="0361a22"/><lb ed="R144" n="0408b04"/>貴。難免雞皮<g ref="#CB15112">󳬈</g>髮侵。鼎內香煙初未散。空中法駕<anchor xml:id="nkr_note_add_0361a2201" n="0361a2201"/><anchor xml:id="beg0361a2201" n="0361a2201"/>已<anchor xml:id="end0361a2201"/>
 <lb ed="X" n="0361a23"/><lb ed="R144" n="0408b05"/>遙臨。塵塵剎剎雖清淨。獨有彌陀願力深。</p>
 <lb ed="X" n="0361a24"/><lb ed="R144" n="0408b06"/><p xml:id="pX84p0361a2401">金作層樓玉作臺。瑠璃田地絕纖埃。惟心淨土無高
 <pb ed="X" xml:id="X84.1581.0361b" n="0361b"/>
@@ -612,7 +617,7 @@ new from basicx
 <lb ed="X" n="0361b12"/><lb ed="R144" n="0408b18"/><p xml:id="pX84p0361b1201">念極心開見佛時。自然身到碧蓮池。火輪罪淨千千
 <lb ed="X" n="0361b13"/><lb ed="R144" n="0409a01"/>劫。琪樹光分萬萬枝。善友深談終不厭。靈禽妙語實
 <lb ed="X" n="0361b14"/><lb ed="R144" n="0409a02"/>難思。功成果滿須臾事。尚謂奔流閃電遲。</p>
-<lb ed="X" n="0361b15"/><lb ed="R144" n="0409a03"/><p xml:id="pX84p0361b1501" rend="margin-left:1em"><anchor xml:id="beg_13" type="cb-app"/>袾<anchor xml:id="end_13"/>宏曰。本朝第一流宗師。無尚於楚石矣。築石室。
+<lb ed="X" n="0361b15"/><lb ed="R144" n="0409a03"/><p xml:id="pX84p0361b1501" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0361b1501" n="0361b1501"/><anchor xml:id="beg0361b1501" n="0361b1501"/>袾<anchor xml:id="end0361b1501"/>宏曰。本朝第一流宗師。無尚於楚石矣。築石室。
 <lb ed="X" n="0361b16"/><lb ed="R144" n="0409a04"/>扁曰西齋。有西齋淨土詩一卷行世。今止錄十首
 <lb ed="X" n="0361b17"/><lb ed="R144" n="0409a05"/>以見大意。彼自號禪人而淺視淨土者。可以深長
 <lb ed="X" n="0361b18"/><lb ed="R144" n="0409a06"/>思矣。</p></cb:div></cb:div>
@@ -645,22 +650,22 @@ new from basicx
 <lb ed="X" n="0361c20"/><lb ed="R144" n="0409b14"/><p xml:id="pX84p0361c2001">若了自心本來是佛者。一切惟假名。況復諸三有。儻
 <lb ed="X" n="0361c21"/><lb ed="R144" n="0409b15"/>爾於斯直下不能領略。別無方便。但將吾所付之念
 <lb ed="X" n="0361c22"/><lb ed="R144" n="0409b16"/>佛公案。用心提撕。單單參究。以期徹悟。精進不懈。勇
-<lb ed="X" n="0361c23"/><lb ed="R144" n="0409b17"/>猛無怯。務要討箇明白而後<anchor xml:id="beg_14" type="cb-app"/>已<anchor xml:id="end_14"/>。欲上參時。先須拌捨
+<lb ed="X" n="0361c23"/><lb ed="R144" n="0409b17"/>猛無怯。務要討箇明白而後<anchor xml:id="nkr_note_add_0361c2301" n="0361c2301"/><anchor xml:id="beg0361c2301" n="0361c2301"/>已<anchor xml:id="end0361c2301"/>。欲上參時。先須拌捨
 <lb ed="X" n="0361c24"/><lb ed="R144" n="0409b18"/>世間恩愛利名等事。使身心灑落。虗融淡泊。切切以
 <pb ed="X" xml:id="X84.1581.0362a" n="0362a"/>
-<lb ed="X" n="0362a01"/><lb ed="R144" n="0410a01"/>了生死大事為<anchor xml:id="beg_15" type="cb-app"/>己<anchor xml:id="end_15"/>重任。抖擻精神。看這念佛底是誰。
+<lb ed="X" n="0362a01"/><lb ed="R144" n="0410a01"/>了生死大事為<anchor xml:id="nkr_note_add_0362a0101" n="0362a0101"/><anchor xml:id="beg0362a0101" n="0362a0101"/>己<anchor xml:id="end0362a0101"/>重任。抖擻精神。看這念佛底是誰。
 <lb ed="X" n="0362a02"/><lb ed="R144" n="0410a02"/>要在這誰字上著到。深下疑情。疑這念佛底是誰。故
 <lb ed="X" n="0362a03"/><lb ed="R144" n="0410a03"/>謂大疑大悟。小疑小悟。不疑不悟。良哉言也。你若纔
 <lb ed="X" n="0362a04"/><lb ed="R144" n="0410a04"/>有切切之心。疑情重也。話頭自然現前。緜緜密密。淨
 <lb ed="X" n="0362a05"/><lb ed="R144" n="0410a05"/>念相繼。凝定身心。回光返照。執而持之。勿令間斷。一
 <lb ed="X" n="0362a06"/><lb ed="R144" n="0410a06"/>念不生。前後際斷。目前空牢牢地。胸中虗碧碧地。澄
-<lb ed="X" n="0362a07"/><lb ed="R144" n="0410a07"/>澄湛湛。卓卓巍巍。到此喚作生滅滅<anchor xml:id="beg_16" type="cb-app"/>已<anchor xml:id="end_16"/>。寂滅為樂。正
+<lb ed="X" n="0362a07"/><lb ed="R144" n="0410a07"/>澄湛湛。卓卓巍巍。到此喚作生滅滅<anchor xml:id="nkr_note_add_0362a0701" n="0362a0701"/><anchor xml:id="beg0362a0701" n="0362a0701"/>已<anchor xml:id="end0362a0701"/>。寂滅為樂。正
 <lb ed="X" n="0362a08"/><lb ed="R144" n="0410a08"/>好再見真善知識。掃除悟跡。別立生涯。不受天下老
 <lb ed="X" n="0362a09"/><lb ed="R144" n="0410a09"/>和尚舌頭顢。然後水邊林下。保養聖胎。待時龍天推
 <lb ed="X" n="0362a10"/><lb ed="R144" n="0410a10"/>出。方可為人也。</p></cb:div>
 <lb ed="X" n="0362a11"/><lb ed="R144" n="0410a11"/><cb:div type="other"><cb:mulu type="其他" level="2">囑大川關主</cb:mulu><head>囑大川關主</head>
 <lb ed="X" n="0362a12"/><lb ed="R144" n="0410a12"/><p xml:id="pX84p0362a1201">欲作吾家真種草。要須直下坐斷聖凡情量。不守靈
-<lb ed="X" n="0362a13"/><lb ed="R144" n="0410a13"/>鑑虗明。廓亡自他。當體不顧。亦不作無<anchor xml:id="beg_17" type="cb-app"/>己<anchor xml:id="end_17"/>知解。自然
+<lb ed="X" n="0362a13"/><lb ed="R144" n="0410a13"/>鑑虗明。廓亡自他。當體不顧。亦不作無<anchor xml:id="nkr_note_add_0362a1301" n="0362a1301"/><anchor xml:id="beg0362a1301" n="0362a1301"/>己<anchor xml:id="end0362a1301"/>知解。自然
 <lb ed="X" n="0362a14"/><lb ed="R144" n="0410a14"/>本體露現。如大日輪昇於虗空。無處不照。正恁麼時。
 <lb ed="X" n="0362a15"/><lb ed="R144" n="0410a15"/>若有箇承當底人。則不能於那事相應。此是佛祖自
 <lb ed="X" n="0362a16"/><lb ed="R144" n="0410a16"/>證三昧。比比不相知。各各不相到。喚作大事因緣。空
@@ -673,9 +678,9 @@ new from basicx
 <lb ed="X" n="0362a23"/><lb ed="R144" n="0410b05"/>一下。則禮三拜依位而立。始曰汝得吾髓。此豈造次。
 <lb ed="X" n="0362a24"/><lb ed="R144" n="0410b06"/>近世學者心麤。認指為月。天地懸殊。自既錯解。將此
 <pb ed="X" xml:id="X84.1581.0362b" n="0362b"/>
-<lb ed="X" n="0362b01"/><lb ed="R144" n="0410b07"/>印證後昆。一盲引眾盲。為害非細。或者謂我<anchor xml:id="beg_18" type="cb-app"/>已<anchor xml:id="end_18"/>坐禪。
+<lb ed="X" n="0362b01"/><lb ed="R144" n="0410b07"/>印證後昆。一盲引眾盲。為害非細。或者謂我<anchor xml:id="nkr_note_add_0362b0101" n="0362b0101"/><anchor xml:id="beg0362b0101" n="0362b0101"/>已<anchor xml:id="end0362b0101"/>坐禪。
 <lb ed="X" n="0362b02"/><lb ed="R144" n="0410b08"/>得箇安樂處。身心輕安。更無異念。直是靈靈不昧。了
-<lb ed="X" n="0362b03"/><lb ed="R144" n="0410b09"/>了常知。於生死岸頭<anchor xml:id="beg_19" type="cb-app"/>已<anchor xml:id="end_19"/>得不疑。只未會古今差別公
+<lb ed="X" n="0362b03"/><lb ed="R144" n="0410b09"/>了常知。於生死岸頭<anchor xml:id="nkr_note_add_0362b0301" n="0362b0301"/><anchor xml:id="beg0362b0301" n="0362b0301"/>已<anchor xml:id="end0362b0301"/>得不疑。只未會古今差別公
 <lb ed="X" n="0362b04"/><lb ed="R144" n="0410b10"/>案。是何言歟。蓋因邪師法眼未明。妄據師位。以方便
 <lb ed="X" n="0362b05"/><lb ed="R144" n="0410b11"/>為真實。是非不辨。認箇湛不搖處作空劫那邊事。豈
 <lb ed="X" n="0362b06"/><lb ed="R144" n="0410b12"/>非認奴作郎。殊不知湛入合湛。是識邊際。永嘉云。損
@@ -688,20 +693,20 @@ new from basicx
 <lb ed="X" n="0362b13"/><lb ed="R144" n="0411a01"/>悟不拘於小節。任意浮沈。隨處騰騰。便是快活道人。
 <lb ed="X" n="0362b14"/><lb ed="R144" n="0411a02"/>此是常見外道。闡提癡漢。或者云。但一切人如死人
 <lb ed="X" n="0362b15"/><lb ed="R144" n="0411a03"/>去。更有甚事。此是白日寐語。誇談馬角。豈不見道那
-<lb ed="X" n="0362b16"/><lb ed="R144" n="0411a04"/>伽<anchor xml:id="beg_1a" type="cb-app"/>常<anchor xml:id="end_1a"/>在定。無有不定時。或者云。某人雖不會道。奈何
+<lb ed="X" n="0362b16"/><lb ed="R144" n="0411a04"/>伽<anchor xml:id="nkr_note_add_0362b1601" n="0362b1601"/><anchor xml:id="beg0362b1601" n="0362b1601"/>常<anchor xml:id="end0362b1601"/>在定。無有不定時。或者云。某人雖不會道。奈何
 <lb ed="X" n="0362b17"/><lb ed="R144" n="0411a05"/>死得好。有堅固子。此是夢中說夢。僧問古德云。大死
 <lb ed="X" n="0362b18"/><lb ed="R144" n="0411a06"/>底人却活時如何。答云。不許夜行。投明須到。且無你
 <lb ed="X" n="0362b19"/><lb ed="R144" n="0411a07"/>用心處。你若古今見盡。迷悟情消。則常轉法輪。一切
 <lb ed="X" n="0362b20"/><lb ed="R144" n="0411a08"/>時出生。一切時滅度。貧道痛以慧命危甚。若一絲九
 <lb ed="X" n="0362b21"/><lb ed="R144" n="0411a09"/>鼎之懸。觀今玄紹之徒。槩似兒戲之所為耳。但要誑
-<lb ed="X" n="0362b22"/><lb ed="R144" n="0411a10"/>得入手則<anchor xml:id="beg_1b" type="cb-app"/>已<anchor xml:id="end_1b"/>。豈知吾祖有行解相應。名之曰祖之誡
+<lb ed="X" n="0362b22"/><lb ed="R144" n="0411a10"/>得入手則<anchor xml:id="nkr_note_add_0362b2201" n="0362b2201"/><anchor xml:id="beg0362b2201" n="0362b2201"/>已<anchor xml:id="end0362b2201"/>。豈知吾祖有行解相應。名之曰祖之誡
 <lb ed="X" n="0362b23"/><lb ed="R144" n="0411a11"/>乎。亦是為師者不審學者之才器堪否。而苟圖收拾
 <lb ed="X" n="0362b24"/><lb ed="R144" n="0411a12"/>門人之私。致招法門之辱累也。如子順大川禪人。自
 <pb ed="X" xml:id="X84.1581.0362c" n="0362c"/>
 <lb ed="X" n="0362c01"/><lb ed="R144" n="0411a13"/>捨緣入道。於真定金臺二處掩關。下得定力之功。而
 <lb ed="X" n="0362c02"/><lb ed="R144" n="0411a14"/>本地光明未發。故南詢師匠決擇。懷香禮余。呈似工
 <lb ed="X" n="0362c03"/><lb ed="R144" n="0411a15"/>夫次第。余知做到湛不搖處。猶未出他識陰區宇。此
-<lb ed="X" n="0362c04"/><lb ed="R144" n="0411a16"/>是靜想不脫。所以<anchor xml:id="beg_1c" type="cb-app"/>己<anchor xml:id="end_1c"/>見不明。殊知勞慮永斷。得法界
+<lb ed="X" n="0362c04"/><lb ed="R144" n="0411a16"/>是靜想不脫。所以<anchor xml:id="nkr_note_add_0362c0401" n="0362c0401"/><anchor xml:id="beg0362c0401" n="0362c0401"/>己<anchor xml:id="end0362c0401"/>見不明。殊知勞慮永斷。得法界
 <lb ed="X" n="0362c05"/><lb ed="R144" n="0411a17"/>靜。即彼靜解為自障礙。要知得在神靜。失在物虗。錯
 <lb ed="X" n="0362c06"/><lb ed="R144" n="0411a18"/>認定盤星。且喜沒交涉。此是大解脫門自在三昧。須
 <lb ed="X" n="0362c07"/><lb ed="R144" n="0411b01"/>是塵勞不染。靜妙不收。步步活鱍鱍地。宛轉無窮。鬧
@@ -734,7 +739,7 @@ new from basicx
 <lb ed="X" n="0363a09"/><lb ed="R144" n="0412a09"/>毫頭上安身立命。做教久久。則便得一念不生前後
 <lb ed="X" n="0363a10"/><lb ed="R144" n="0412a10"/>際斷矣。若得真到此地。則曠劫不明之事當下分明。
 <lb ed="X" n="0363a11"/><lb ed="R144" n="0412a11"/>猶如啞子夢見親娘。與人說不得。亦復如人飲水。冷
-<lb ed="X" n="0363a12"/><lb ed="R144" n="0412a12"/><anchor xml:id="beg_1d" type="cb-app"/>暖<anchor xml:id="end_1d"/>自知。方可水邊林下保養聖胎。待時龍天推出。扶
+<lb ed="X" n="0363a12"/><lb ed="R144" n="0412a12"/><anchor xml:id="nkr_note_add_0363a1201" n="0363a1201"/><anchor xml:id="beg0363a1201" n="0363a1201"/>暖<anchor xml:id="end0363a1201"/>自知。方可水邊林下保養聖胎。待時龍天推出。扶
 <lb ed="X" n="0363a13"/><lb ed="R144" n="0412a13"/>持末運。接續祖燈。廣化眾生。同成正覺。其或未然。只
 <lb ed="X" n="0363a14"/><lb ed="R144" n="0412a14"/>須將我所付念佛公案貼在鼻端上。不許執在一邊。
 <lb ed="X" n="0363a15"/><lb ed="R144" n="0412a15"/>須向一切處常目在之。勿使須臾失其照顧。疑箇念
@@ -745,12 +750,12 @@ new from basicx
 <lb ed="X" n="0363a20"/><lb ed="R144" n="0412b02"/>宿有靈骨。得箇覺觸處。切不可自許。須見本色宗匠。
 <lb ed="X" n="0363a21"/><lb ed="R144" n="0412b03"/>入他爐鞴受他煅煉出來。真偽淺深一一得知。更不
 <lb ed="X" n="0363a22"/><lb ed="R144" n="0412b04"/>存其悟跡。做箇無事無為底自在道人。所以道金屑
-<lb ed="X" n="0363a23"/><lb ed="R144" n="0412b05"/>眼中翳。衣珠法上塵。<anchor xml:id="beg_1e" type="cb-app"/>己<anchor xml:id="end_1e"/>靈猶不重。佛祖是何人。到這
+<lb ed="X" n="0363a23"/><lb ed="R144" n="0412b05"/>眼中翳。衣珠法上塵。<anchor xml:id="nkr_note_add_0363a2301" n="0363a2301"/><anchor xml:id="beg0363a2301" n="0363a2301"/>己<anchor xml:id="end0363a2301"/>靈猶不重。佛祖是何人。到這
 <lb ed="X" n="0363a24"/><lb ed="R144" n="0412b06"/>裏但有纖毫悟理未忘。佛法玄微去之未盡。皆墮法
 <pb ed="X" xml:id="X84.1581.0363b" n="0363b"/>
-<lb ed="X" n="0363b01"/><lb ed="R144" n="0412b07"/>塵見<anchor xml:id="beg_1f" type="cb-app"/>刺<anchor xml:id="end_1f"/>之圈<g ref="#CB04901">䙡</g>。誠哉此事。乃無大極大底大事。真能
+<lb ed="X" n="0363b01"/><lb ed="R144" n="0412b07"/>塵見<anchor xml:id="nkr_note_add_0363b0101" n="0363b0101"/><anchor xml:id="beg0363b0101" n="0363b0101"/>刺<anchor xml:id="end0363b0101"/>之圈<g ref="#CB04901">䙡</g>。誠哉此事。乃無大極大底大事。真能
 <lb ed="X" n="0363b02"/><lb ed="R144" n="0412b08"/>欺賢壓聖。豈可輙作容易想而不慎乎。至囑。</p>
-<lb ed="X" n="0363b03"/><lb ed="R144" n="0412b09"/><p xml:id="pX84p0363b0301" rend="margin-left:1em"><anchor xml:id="beg_20" type="cb-app"/>袾<anchor xml:id="end_20"/>宏曰。關內行持。可謂大強勇猛精進矣。樂閒逸
+<lb ed="X" n="0363b03"/><lb ed="R144" n="0412b09"/><p xml:id="pX84p0363b0301" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0363b0301" n="0363b0301"/><anchor xml:id="beg0363b0301" n="0363b0301"/>袾<anchor xml:id="end0363b0301"/>宏曰。關內行持。可謂大強勇猛精進矣。樂閒逸
 <lb ed="X" n="0363b04"/><lb ed="R144" n="0412b10"/>而坐關者惕諸。</p></cb:div></cb:div>
 <lb ed="X" n="0363b05"/><lb ed="R144" n="0412b11"/><cb:div type="other"><cb:mulu type="其他" level="1">空谷隆禪師</cb:mulu><head>空谷隆禪師</head>
 <lb ed="X" n="0363b06"/><lb ed="R144" n="0412b12"/><cb:div type="other"><cb:mulu type="其他" level="2">示真性源</cb:mulu><head>示真性源</head>
@@ -781,7 +786,7 @@ new from basicx
 <lb ed="X" n="0363c06"/><lb ed="R144" n="0413a18"/>無字虗延歲月。亦不可推詳計較義理曲會。但於時
 <lb ed="X" n="0363c07"/><lb ed="R144" n="0413b01"/>中憤憤然要明這箇無字。忽爾一朝懸崖撒手。打箇
 <lb ed="X" n="0363c08"/><lb ed="R144" n="0413b02"/>翻身。方見孤明歷歷。如是現成。到此不可耽著味著。
-<lb ed="X" n="0363c09"/><lb ed="R144" n="0413b03"/>還有腦後一槌極是難透。你<anchor xml:id="beg_21" type="cb-app"/>但<anchor xml:id="end_21"/>恁麼參去。</p></cb:div>
+<lb ed="X" n="0363c09"/><lb ed="R144" n="0413b03"/>還有腦後一槌極是難透。你<anchor xml:id="nkr_note_add_0363c0901" n="0363c0901"/><anchor xml:id="beg0363c0901" n="0363c0901"/>但<anchor xml:id="end0363c0901"/>恁麼參去。</p></cb:div>
 <lb ed="X" n="0363c10"/><lb ed="R144" n="0413b04"/><cb:div type="other"><cb:mulu type="其他" level="2">舉世尊初生</cb:mulu><head>舉世尊初生</head>
 <lb ed="X" n="0363c11"/><lb ed="R144" n="0413b05"/><p xml:id="pX84p0363c1101">朕兆纔彰成露布。復指乾坤行七步。只要羣生正眼
 <lb ed="X" n="0363c12"/><lb ed="R144" n="0413b06"/>開。落盡眉毛渾不顧。</p></cb:div>
@@ -809,7 +814,7 @@ new from basicx
 <lb ed="X" n="0364a09"/><lb ed="R144" n="0414a09"/>謂一超直入如來地也。自從世尊於靈山會上拈花
 <lb ed="X" n="0364a10"/><lb ed="R144" n="0414a10"/>示眾。迦葉尊者獨悟深旨。次第傳來。度人無限。非語
 <lb ed="X" n="0364a11"/><lb ed="R144" n="0414a11"/>言文字而能教誨。惟在具大手段。大善知識。生機活
-<lb ed="X" n="0364a12"/><lb ed="R144" n="0414a12"/>法點悟而<anchor xml:id="beg_22" type="cb-app"/>已<anchor xml:id="end_22"/>。昔因風吹旛動。一僧言風動。一僧言旛
+<lb ed="X" n="0364a12"/><lb ed="R144" n="0414a12"/>法點悟而<anchor xml:id="nkr_note_add_0364a1201" n="0364a1201"/><anchor xml:id="beg0364a1201" n="0364a1201"/>已<anchor xml:id="end0364a1201"/>。昔因風吹旛動。一僧言風動。一僧言旛
 <lb ed="X" n="0364a13"/><lb ed="R144" n="0414a13"/>動。六祖云。非風旛動。是汝心動。二僧皆得省悟。嗚呼。
 <lb ed="X" n="0364a14"/><lb ed="R144" n="0414a14"/>二僧言是風動。是旛動。皆是凡心。六祖言非風動。非
 <lb ed="X" n="0364a15"/><lb ed="R144" n="0414a15"/>旛動。便悟佛心。汝今且去窮究非風旛動。是汝心動。
@@ -828,7 +833,7 @@ new from basicx
 <lb ed="X" n="0364b03"/><lb ed="R144" n="0414b09"/>師膺薦住持杭之靈隱。遂同至矣。七年。往天目山禮
 <lb ed="X" n="0364b04"/><lb ed="R144" n="0414b10"/>高峯塔。憩錫一載。剋苦參究。忽有省會。懶雲和尚時
 <lb ed="X" n="0364b05"/><lb ed="R144" n="0414b11"/>在海昌淨妙。遂造之。剖露心法。懶雲大喜。九年。靈隱
-<lb ed="X" n="0364b06"/><lb ed="R144" n="0414b12"/>先師圓寂矣。闍<anchor xml:id="beg_23" type="cb-app"/>維<anchor xml:id="end_23"/>。<anchor xml:id="beg_24" type="cb-app"/>斂<anchor xml:id="end_24"/>骨塟於本山。造骨塔。并塔院。奉
+<lb ed="X" n="0364b06"/><lb ed="R144" n="0414b12"/>先師圓寂矣。闍<anchor xml:id="nkr_note_add_0364b0601" n="0364b0601"/><anchor xml:id="beg0364b0601" n="0364b0601"/>維<anchor xml:id="end0364b0601"/>。<anchor xml:id="nkr_note_add_0364b0602" n="0364b0602"/><anchor xml:id="beg0364b0602" n="0364b0602"/>斂<anchor xml:id="end0364b0602"/>骨塟於本山。造骨塔。并塔院。奉
 <lb ed="X" n="0364b07"/><lb ed="R144" n="0414b13"/>祀有年。今老且病。死日在邇。思無餘地以葬遺骨。遂
 <lb ed="X" n="0364b08"/><lb ed="R144" n="0414b14"/>承佃錢塘縣尉司上扇第二圖修吉山下沈敬元佃
 <lb ed="X" n="0364b09"/><lb ed="R144" n="0414b15"/>官地一段為墳地。葬骨塔。葢墳屋居之。待盡餘年。名
@@ -848,7 +853,7 @@ new from basicx
 <lb ed="X" n="0364b23"/><lb ed="R144" n="0415a11"/>迦葉。後嗣前者。興化嗣臨濟。理貫古今。詣實為至。銘
 <lb ed="X" n="0364b24"/><lb ed="R144" n="0415a12"/>曰。</p>
 <pb ed="X" xml:id="X84.1581.0364c" n="0364c"/>
-<lb ed="X" n="0364c01"/><lb ed="R144" n="0415a13"/><p xml:id="pX84p0364c0101">廓周法界。空蕩無涯。羣靈昇墜。恒無<anchor xml:id="beg_25" type="cb-app"/>已<anchor xml:id="end_25"/>時。佛祖垂應。
+<lb ed="X" n="0364c01"/><lb ed="R144" n="0415a13"/><p xml:id="pX84p0364c0101">廓周法界。空蕩無涯。羣靈昇墜。恒無<anchor xml:id="nkr_note_add_0364c0101" n="0364c0101"/><anchor xml:id="beg0364c0101" n="0364c0101"/>已<anchor xml:id="end0364c0101"/>時。佛祖垂應。
 <lb ed="X" n="0364c02"/><lb ed="R144" n="0415a14"/>為導為師。夙膺微幸。直斯化儀。不善弘道。隨力所宜。
 <lb ed="X" n="0364c03"/><lb ed="R144" n="0415a15"/>卒於武林。骨窆山崖。窣堵奠安。山同壽期。以幻歸幻。
 <lb ed="X" n="0364c04"/><lb ed="R144" n="0415a16"/>有為無為。成住壞空。斯道恒夷。正統九年春。景隆五
@@ -902,13 +907,13 @@ new from basicx
 <lb ed="X" n="0365b02"/><lb ed="R144" n="0416b08"/>祖曰。什麼物。與麼來。嶽大悟。乃曰。說似一物即不中。
 <lb ed="X" n="0365b03"/><lb ed="R144" n="0416b09"/>疏山聞溈山曰。有句無句。如藤倚樹。疏山賣布單作
 <lb ed="X" n="0365b04"/><lb ed="R144" n="0416b10"/>路費。三千里外直造溈山。扣問樹倒藤枯。句歸何處。
-<lb ed="X" n="0365b05"/><lb ed="R144" n="0416b11"/>溈山大笑而<anchor xml:id="beg_26" type="cb-app"/>已<anchor xml:id="end_26"/>。疏山不契。發憤而去。行到明招。言及
+<lb ed="X" n="0365b05"/><lb ed="R144" n="0416b11"/>溈山大笑而<anchor xml:id="nkr_note_add_0365b0501" n="0365b0501"/><anchor xml:id="beg0365b0501" n="0365b0501"/>已<anchor xml:id="end0365b0501"/>。疏山不契。發憤而去。行到明招。言及
 <lb ed="X" n="0365b06"/><lb ed="R144" n="0416b12"/>於此。明招曰。却使溈山笑轉新。疏山大悟。大慧亦問
 <lb ed="X" n="0365b07"/><lb ed="R144" n="0416b13"/>樹倒藤枯。句歸何處。圓悟答云。相隨來也。大慧亦悟。
 <lb ed="X" n="0365b08"/><lb ed="R144" n="0416b14"/>有僧問一老宿。百尺竿頭如何進步。宿云。噁。其僧大
 <lb ed="X" n="0365b09"/><lb ed="R144" n="0416b15"/>悟。雪峯三登投子。九到洞山。古人坐立不安。切切求
 <lb ed="X" n="0365b10"/><lb ed="R144" n="0416b16"/>悟。豈肯死坐關房。守株度日。唐有大梅。宋有和菴主。
-<lb ed="X" n="0365b11"/><lb ed="R144" n="0416b17"/>閑靜餘情。養道而<anchor xml:id="beg_27" type="cb-app"/>已<anchor xml:id="end_27"/>。唐宋之時。皆無坐關之說。元時
+<lb ed="X" n="0365b11"/><lb ed="R144" n="0416b17"/>閑靜餘情。養道而<anchor xml:id="nkr_note_add_0365b1101" n="0365b1101"/><anchor xml:id="beg0365b1101" n="0365b1101"/>已<anchor xml:id="end0365b1101"/>。唐宋之時。皆無坐關之說。元時
 <lb ed="X" n="0365b12"/><lb ed="R144" n="0416b18"/>生出計較。設箇關房。安坐待悟。至今倣傚也。汝既如
 <lb ed="X" n="0365b13"/><lb ed="R144" n="0417a01"/>是精進用心。切切求悟。聊為庶幾。豈可安坐關房。現
 <lb ed="X" n="0365b14"/><lb ed="R144" n="0417a02"/>成衣食。自在過時。而況張道伴。李道伴。張施主。李施
@@ -928,12 +933,12 @@ new from basicx
 <lb ed="X" n="0365c03"/><lb ed="R144" n="0417a15"/>悟將出來。思惟之心安在何處。一悟之後。萬法皆明。
 <lb ed="X" n="0365c04"/><lb ed="R144" n="0417a16"/>何待辨論。大慧和尚頌十智同真公案云。兔角龜毛
 <lb ed="X" n="0365c05"/><lb ed="R144" n="0417a17"/>眼裏栽。鐵山當面勢崔嵬。東西南北無門入。曠劫無
-<lb ed="X" n="0365c06"/><lb ed="R144" n="0417a18"/>明當下<g ref="#CB01926">󰞆</g>。禪宗悟境界如是而<anchor xml:id="beg_28" type="cb-app"/>已<anchor xml:id="end_28"/>。通此消息。令汝會
+<lb ed="X" n="0365c06"/><lb ed="R144" n="0417a18"/>明當下<g ref="#CB01926">󰞆</g>。禪宗悟境界如是而<anchor xml:id="nkr_note_add_0365c0601" n="0365c0601"/><anchor xml:id="beg0365c0601" n="0365c0601"/>已<anchor xml:id="end0365c0601"/>。通此消息。令汝會
 <lb ed="X" n="0365c07"/><lb ed="R144" n="0417b01"/>意。前者見汝多於人事。故寫書來。令汝自省。又恐汝
 <lb ed="X" n="0365c08"/><lb ed="R144" n="0417b02"/>獨執於坐。困在昏鈍。故寫幾段古人用心切近悟處。
 <lb ed="X" n="0365c09"/><lb ed="R144" n="0417b03"/>令汝學他用心。昔晦堂和尚參雲峯悅禪師。日日挨
 <lb ed="X" n="0365c10"/><lb ed="R144" n="0417b04"/>拶。日日不悟。峯曰。你且去參黃龍南禪師。到彼挨拶
-<lb ed="X" n="0365c11"/><lb ed="R144" n="0417b05"/>數日亦不悟。復回雲峯。峯<anchor xml:id="beg_29" type="cb-app"/>已<anchor xml:id="end_29"/>遷化。復回黃龍。途中遇
+<lb ed="X" n="0365c11"/><lb ed="R144" n="0417b05"/>數日亦不悟。復回雲峯。峯<anchor xml:id="nkr_note_add_0365c1101" n="0365c1101"/><anchor xml:id="beg0365c1101" n="0365c1101"/>已<anchor xml:id="end0365c1101"/>遷化。復回黃龍。途中遇
 <lb ed="X" n="0365c12"/><lb ed="R144" n="0417b06"/>雪。阻於一寺。無師參扣。便看傳燈錄。偶然揭開。看見
 <lb ed="X" n="0365c13"/><lb ed="R144" n="0417b07"/>僧問多福。如何是多福一叢竹。福云。一莖兩莖斜。僧
 <lb ed="X" n="0365c14"/><lb ed="R144" n="0417b08"/>云不會。福云。三莖四莖曲。晦堂大悟。覺華嚴參圓悟。
@@ -950,7 +955,7 @@ new from basicx
 <pb ed="X" xml:id="X84.1581.0366a" n="0366a"/>
 <lb ed="X" n="0366a01"/><lb ed="R144" n="0418a01"/>這些小見識兒也。忝與上古相合。不與今時雷同。我
 <lb ed="X" n="0366a02"/><lb ed="R144" n="0418a02"/>期望汝成箇法器。不可平常過了。汝今抖擻精神。自
-<lb ed="X" n="0366a03"/><lb ed="R144" n="0418a03"/>著精彩。參箇萬法歸一。一歸何處。返究自<anchor xml:id="beg_2a" type="cb-app"/>己<anchor xml:id="end_2a"/>。力要省
+<lb ed="X" n="0366a03"/><lb ed="R144" n="0418a03"/>著精彩。參箇萬法歸一。一歸何處。返究自<anchor xml:id="nkr_note_add_0366a0301" n="0366a0301"/><anchor xml:id="beg0366a0301" n="0366a0301"/>己<anchor xml:id="end0366a0301"/>。力要省
 <lb ed="X" n="0366a04"/><lb ed="R144" n="0418a04"/>會是歸何處。拌捨此身。默做遲鈍工夫。一生用心去。
 <lb ed="X" n="0366a05"/><lb ed="R144" n="0418a05"/>終有悟日。此是沒奈何處用此痛切之心也。古人則
 <lb ed="X" n="0366a06"/><lb ed="R144" n="0418a06"/>不然。有云我坐在這裏等你悟去。我立在這裏等你
@@ -958,7 +963,7 @@ new from basicx
 <lb ed="X" n="0366a08"/><lb ed="R144" n="0418a08"/>悟將出來。不是拘縛身體。呆呆兀坐。昏茫過日。此上
 <lb ed="X" n="0366a09"/><lb ed="R144" n="0418a09"/>所言多說禪病。脫得禪病。庶可悟道。古云。千魔萬難
 <lb ed="X" n="0366a10"/><lb ed="R144" n="0418a10"/>轉惺惺。直須精進切心。庶有悟日。</p>
-<lb ed="X" n="0366a11"/><lb ed="R144" n="0418a11"/><p xml:id="pX84p0366a1101" rend="margin-left:1em"><anchor xml:id="beg_2b" type="cb-app"/>袾<anchor xml:id="end_2b"/>宏曰。諸師多教人參念佛是誰。惟師云不必用
+<lb ed="X" n="0366a11"/><lb ed="R144" n="0418a11"/><p xml:id="pX84p0366a1101" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0366a1101" n="0366a1101"/><anchor xml:id="beg0366a1101" n="0366a1101"/>袾<anchor xml:id="end0366a1101"/>宏曰。諸師多教人參念佛是誰。惟師云不必用
 <lb ed="X" n="0366a12"/><lb ed="R144" n="0418a12"/>此等法。隨病製方。逗機施教。二各有旨。不可是此
 <lb ed="X" n="0366a13"/><lb ed="R144" n="0418a13"/>非彼。</p></cb:div></cb:div>
 <lb ed="X" n="0366a14"/><lb ed="R144" n="0418a14"/><cb:div type="other"><cb:mulu type="其他" level="1">天琦瑞禪師</cb:mulu><head>天琦瑞禪師</head>
@@ -970,7 +975,7 @@ new from basicx
 <lb ed="X" n="0366a20"/><lb ed="R144" n="0418b02"/>盡空盡界。誰肯發丈夫之志。立決定之心。直至老死。
 <lb ed="X" n="0366a21"/><lb ed="R144" n="0418b03"/>永無那移。又有無知之輩。纔然行持。便去訪問諸尊
 <lb ed="X" n="0366a22"/><lb ed="R144" n="0418b04"/>宿悟門。面前聽得。隨後便講誰深誰淺。誰悟誰學。一
-<lb ed="X" n="0366a23"/><lb ed="R144" n="0418b05"/>向誹謗他人德行。不知轉增自<anchor xml:id="beg_2c" type="cb-app"/>己<anchor xml:id="end_2c"/>貢高。苦哉苦哉。有
+<lb ed="X" n="0366a23"/><lb ed="R144" n="0418b05"/>向誹謗他人德行。不知轉增自<anchor xml:id="nkr_note_add_0366a2301" n="0366a2301"/><anchor xml:id="beg0366a2301" n="0366a2301"/>己<anchor xml:id="end0366a2301"/>貢高。苦哉苦哉。有
 <lb ed="X" n="0366a24"/><lb ed="R144" n="0418b06"/>何利益。今此大眾。莫學斯等之流。除去心中諂曲。截
 <pb ed="X" xml:id="X84.1581.0366b" n="0366b"/>
 <lb ed="X" n="0366b01"/><lb ed="R144" n="0418b07"/>斷人我貪瞋。直教一念不生。萬緣頓息。然後向此乾
@@ -988,7 +993,7 @@ new from basicx
 <lb ed="X" n="0366b13"/><lb ed="R144" n="0419a01"/>今告汝。莫生疑謗。我終不以狂言詐語圖名愛利誤
 <lb ed="X" n="0366b14"/><lb ed="R144" n="0419a02"/>賺諸人。不是教你不念話頭。不是教你不煉昏沈。你
 <lb ed="X" n="0366b15"/><lb ed="R144" n="0419a03"/>若不參話頭。煉到盡未來際。又且如何。終是蒸砂作
-<lb ed="X" n="0366b16"/><lb ed="R144" n="0419a04"/>飯。<anchor xml:id="beg_2d" type="cb-app"/>縱<anchor xml:id="end_2d"/>經塵劫。只名熱砂。決不成就。欲求開悟。須是大
+<lb ed="X" n="0366b16"/><lb ed="R144" n="0419a04"/>飯。<anchor xml:id="nkr_note_add_0366b1601" n="0366b1601"/><anchor xml:id="beg0366b1601" n="0366b1601"/>縱<anchor xml:id="end0366b1601"/>經塵劫。只名熱砂。決不成就。欲求開悟。須是大
 <lb ed="X" n="0366b17"/><lb ed="R144" n="0419a05"/>起參情。參究一歸何處。念中起參。參中起念。一挨一
 <lb ed="X" n="0366b18"/><lb ed="R144" n="0419a06"/>拶。一拶一挨。無縫無罅。無空無缺。因其參情綿密。日
 <lb ed="X" n="0366b19"/><lb ed="R144" n="0419a07"/>用之中。自然行不知行。住不知住。坐不知坐。臥不知
@@ -1039,7 +1044,7 @@ new from basicx
 <lb ed="X" n="0367a14"/><lb ed="R144" n="0420a14"/>說生死。於一性中分為五性。於一乘中分為三乘。不
 <lb ed="X" n="0367a15"/><lb ed="R144" n="0420a15"/>知聖凡假立。誤認成實。良由取捨。有此不如。於妄功
 <lb ed="X" n="0367a16"/><lb ed="R144" n="0420a16"/>用便顯差別。似此等流。入海算沙。何時休歇。盡是背
-<lb ed="X" n="0367a17"/><lb ed="R144" n="0420a17"/>父逃逝。縱得迴心。不免從邑至邑。從國至國。<anchor xml:id="beg_2e" type="cb-app"/>傭<anchor xml:id="end_2e"/>賃展
+<lb ed="X" n="0367a17"/><lb ed="R144" n="0420a17"/>父逃逝。縱得迴心。不免從邑至邑。從國至國。<anchor xml:id="nkr_note_add_0367a1701" n="0367a1701"/><anchor xml:id="beg0367a1701" n="0367a1701"/>傭<anchor xml:id="end0367a1701"/>賃展
 <lb ed="X" n="0367a18"/><lb ed="R144" n="0420a18"/>轉。次第而進。庠序而昇。歷盡階級。又未盡善。儻到本
 <lb ed="X" n="0367a19"/><lb ed="R144" n="0420b01"/>國。不識本國。偶遇本父。不識本父。喚作當面蹉過。當
 <lb ed="X" n="0367a20"/><lb ed="R144" n="0420b02"/>機不識。將謂別有。不肯承認。屈作方便。始能附近。不
@@ -1056,7 +1061,7 @@ new from basicx
 <lb ed="X" n="0367b06"/><lb ed="R144" n="0420b12"/><cb:div type="other"><cb:mulu type="其他" level="2">示無畏居士</cb:mulu><head>示無畏居士</head>
 <lb ed="X" n="0367b07"/><lb ed="R144" n="0420b13"/><p xml:id="pX84p0367b0701">學道之法。誠無善巧。只要辨其肯心。更無別說。舉起
 <lb ed="X" n="0367b08"/><lb ed="R144" n="0420b14"/>話頭。字字著力。莫管純孰不純孰。只故參將去。參來
-<lb ed="X" n="0367b09"/><lb ed="R144" n="0420b15"/>參去。參得<anchor xml:id="beg_2f" type="cb-app"/>疑<anchor xml:id="end_2f"/>情頓發。直教應用無虧。周旋無隔。盡古
+<lb ed="X" n="0367b09"/><lb ed="R144" n="0420b15"/>參去。參得<anchor xml:id="nkr_note_add_0367b0901" n="0367b0901"/><anchor xml:id="beg0367b0901" n="0367b0901"/>疑<anchor xml:id="end0367b0901"/>情頓發。直教應用無虧。周旋無隔。盡古
 <lb ed="X" n="0367b10"/><lb ed="R144" n="0420b16"/>盡今。盡空盡界。無斷無續。通然只是一箇參情。收之
 <lb ed="X" n="0367b11"/><lb ed="R144" n="0420b17"/>不來。放之不去。行住坐臥悉無有別。忽然<g ref="#CB15090">󳫲</g>地一聲。
 <lb ed="X" n="0367b12"/><lb ed="R144" n="0420b18"/>虗空粉碎。大地平沈。獨露一箇本來面目。偶爾迴途。
@@ -1069,7 +1074,7 @@ new from basicx
 <lb ed="X" n="0367b19"/><lb ed="R144" n="0421a07"/><p xml:id="pX84p0367b1901">四祖問三祖云。願和尚慈悲。乞求解脫法門。祖曰誰
 <lb ed="X" n="0367b20"/><lb ed="R144" n="0421a08"/>縛汝。四祖云。無人縛。祖曰何更求解脫法門。四祖大
 <lb ed="X" n="0367b21"/><lb ed="R144" n="0421a09"/>悟。拈曰。</p>
-<lb ed="X" n="0367b22"/><lb ed="R144" n="0421a10"/><p xml:id="pX84p0367b2201" rend="margin-left:1em">只知請問解脫。不知<anchor xml:id="beg_30" type="cb-app"/>刺<anchor xml:id="end_30"/>頭入膠盆。當時不遇作家。
+<lb ed="X" n="0367b22"/><lb ed="R144" n="0421a10"/><p xml:id="pX84p0367b2201" rend="margin-left:1em">只知請問解脫。不知<anchor xml:id="nkr_note_add_0367b2201" n="0367b2201"/><anchor xml:id="beg0367b2201" n="0367b2201"/>刺<anchor xml:id="end0367b2201"/>頭入膠盆。當時不遇作家。
 <lb ed="X" n="0367b23"/><lb ed="R144" n="0421a11"/>焉得以楔出楔。忽然夢醒。方見無端。劈面云。貓。</p>
 <lb ed="X" n="0367b24"/><lb ed="R144" n="0421a12"/><p xml:id="pX84p0367b2401">僧參馬祖。地上畫四畫。上一長。下三短。云不得道一
 <pb ed="X" xml:id="X84.1581.0367c" n="0367c"/>
@@ -1110,7 +1115,7 @@ new from basicx
 <lb ed="X" n="0368a10"/><lb ed="R144" n="0422a10"/>本乃據款結案。若是箇漢。道箇賀喜。何事而不了
 <lb ed="X" n="0368a11"/><lb ed="R144" n="0422a11"/>畢。</p>
 <lb ed="X" n="0368a12"/><lb ed="R144" n="0422a12"/><p xml:id="pX84p0368a1201">鄧隱峯推車。馬祖路上展脚坐。峯云。請師收足。祖曰。
-<lb ed="X" n="0368a13"/><lb ed="R144" n="0422a13"/><anchor xml:id="beg_31" type="cb-app"/>已<anchor xml:id="end_31"/>展不收。峯云。<anchor xml:id="beg_32" type="cb-app"/>已<anchor xml:id="end_32"/>進不退。推車碾足便行。祖歸法堂
+<lb ed="X" n="0368a13"/><lb ed="R144" n="0422a13"/><anchor xml:id="nkr_note_add_0368a1301" n="0368a1301"/><anchor xml:id="beg0368a1301" n="0368a1301"/>已<anchor xml:id="end0368a1301"/>展不收。峯云。<anchor xml:id="nkr_note_add_0368a1302" n="0368a1302"/><anchor xml:id="beg0368a1302" n="0368a1302"/>已<anchor xml:id="end0368a1302"/>進不退。推車碾足便行。祖歸法堂
 <lb ed="X" n="0368a14"/><lb ed="R144" n="0422a14"/>上。執斧曰。適來碾損老僧足者出來。峯引頸近前。祖
 <lb ed="X" n="0368a15"/><lb ed="R144" n="0422a15"/>乃置斧。拈曰。</p>
 <lb ed="X" n="0368a16"/><lb ed="R144" n="0422a16"/><p xml:id="pX84p0368a1601" rend="margin-left:1em">師勝資強。人間少有。切不可流俗見解。雖然。葢世
@@ -1132,7 +1137,7 @@ new from basicx
 <lb ed="X" n="0368b07"/><lb ed="R144" n="0422b13"/>士。拜為師。剃落。教看一歸何處。後得昱首座苦口提
 <lb ed="X" n="0368b08"/><lb ed="R144" n="0422b14"/><g ref="#CB06078">𢹂</g>。晝夜逼拶。不許說話。不許眨眼。一日聽廊下有人
 <lb ed="X" n="0368b09"/><lb ed="R144" n="0422b15"/>說話。昱便打。曰又不瞌睡。如何也打。昱云。你不瞌睡。
-<lb ed="X" n="0368b10"/><lb ed="R144" n="0422b16"/>聽那裏。又二僧裁裙。度量不<anchor xml:id="beg_33" type="cb-app"/>已<anchor xml:id="end_33"/>。我不覺眼看。昱兄又
+<lb ed="X" n="0368b10"/><lb ed="R144" n="0422b16"/>聽那裏。又二僧裁裙。度量不<anchor xml:id="nkr_note_add_0368b1001" n="0368b1001"/><anchor xml:id="beg0368b1001" n="0368b1001"/>已<anchor xml:id="end0368b1001"/>。我不覺眼看。昱兄又
 <lb ed="X" n="0368b11"/><lb ed="R144" n="0422b17"/>打云。你眼也不曾停住。話頭豈能著實。我因此驚覺。
 <lb ed="X" n="0368b12"/><lb ed="R144" n="0422b18"/>平日只說有念便罷。那曉得如此用心。自此其目如
 <lb ed="X" n="0368b13"/><lb ed="R144" n="0423a01"/>覩。其耳如聽。字字明白。句句歷然。後因看古語。沈吟
@@ -1140,7 +1145,7 @@ new from basicx
 <lb ed="X" n="0368b15"/><lb ed="R144" n="0423a03"/>山河大地及與自身。後患痢疾甚重。有山東靜東暉
 <lb ed="X" n="0368b16"/><lb ed="R144" n="0423a04"/>示我大慧杲患背疽因緣。我即豁然。又見寶峯。<note place="inline">云云</note>
 <lb ed="X" n="0368b17"/><lb ed="R144" n="0423a05"/>乃得印證。</p>
-<lb ed="X" n="0368b18"/><lb ed="R144" n="0423a06"/><p xml:id="pX84p0368b1801" rend="margin-left:1em"><anchor xml:id="beg_34" type="cb-app"/>袾<anchor xml:id="end_34"/>宏曰。不枉為人不枉為僧數語。直是警<g ref="#CB15081">䇿</g>百倍。
+<lb ed="X" n="0368b18"/><lb ed="R144" n="0423a06"/><p xml:id="pX84p0368b1801" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0368b1801" n="0368b1801"/><anchor xml:id="beg0368b1801" n="0368b1801"/>袾<anchor xml:id="end0368b1801"/>宏曰。不枉為人不枉為僧數語。直是警<g ref="#CB15081">䇿</g>百倍。
 <lb ed="X" n="0368b19"/><lb ed="R144" n="0423a07"/>讀之。踴躍歡喜。增長志氣。</p></cb:div></cb:div>
 <lb ed="X" n="0368b20"/><lb ed="R144" n="0423a08"/><cb:div type="other"><cb:mulu type="其他" level="1">傑峯英禪師</cb:mulu><head>傑峯英禪師</head>
 <lb ed="X" n="0368b21"/><lb ed="R144" n="0423a09"/><cb:div type="other"><cb:mulu type="其他" level="2">送黃龍明知客</cb:mulu><head>送黃龍明知客</head>
@@ -1182,7 +1187,7 @@ new from basicx
 <lb ed="X" n="0369a07"/><lb ed="R144" n="0424a07"/>來無去。因甚得到這裏。答云。便是無來無去底。師云。
 <lb ed="X" n="0369a08"/><lb ed="R144" n="0424a08"/>即今在甚麼處。答一喝。師云。下喝行拳都且止。四大
 <lb ed="X" n="0369a09"/><lb ed="R144" n="0424a09"/>分散時向何處安身立命。答云。盡大地那裏不是自
-<lb ed="X" n="0369a10"/><lb ed="R144" n="0424a10"/><anchor xml:id="beg_35" type="cb-app"/>己<anchor xml:id="end_35"/>。師云。忽遇劫火洞然。大千俱壞時如何。答云。我到
+<lb ed="X" n="0369a10"/><lb ed="R144" n="0424a10"/><anchor xml:id="nkr_note_add_0369a1001" n="0369a1001"/><anchor xml:id="beg0369a1001" n="0369a1001"/>己<anchor xml:id="end0369a1001"/>。師云。忽遇劫火洞然。大千俱壞時如何。答云。我到
 <lb ed="X" n="0369a11"/><lb ed="R144" n="0424a11"/>這裏却不會。師云。六祖不會破柴踏碓。達摩不識九
 <lb ed="X" n="0369a12"/><lb ed="R144" n="0424a12"/>年面壁。你不會。見箇甚麼。答云。我只是不會。師云。瞎
 <lb ed="X" n="0369a13"/><lb ed="R144" n="0424a13"/>漢。請坐喫茶。</p></cb:div>
@@ -1211,13 +1216,13 @@ new from basicx
 <lb ed="X" n="0369b11"/><lb ed="R144" n="0424b17"/>虗。以覺識依通為悟明。穿鑿機緣為參究。破壞律儀
 <lb ed="X" n="0369b12"/><lb ed="R144" n="0424b18"/>為解脫。夤緣據位為出世。以致祖風彫弊。魔說熾然。
 <lb ed="X" n="0369b13"/><lb ed="R144" n="0425a01"/>塞佛法之坦途。瞽人天之正眼。使吾祖教外別傳之
-<lb ed="X" n="0369b14"/><lb ed="R144" n="0425a02"/>道於斯而委地矣。故我大覺釋尊。於二千年外。<anchor xml:id="beg_36" type="cb-app"/>已<anchor xml:id="end_36"/>識
+<lb ed="X" n="0369b14"/><lb ed="R144" n="0425a02"/>道於斯而委地矣。故我大覺釋尊。於二千年外。<anchor xml:id="nkr_note_add_0369b1401" n="0369b1401"/><anchor xml:id="beg0369b1401" n="0369b1401"/>已<anchor xml:id="end0369b1401"/>識
 <lb ed="X" n="0369b15"/><lb ed="R144" n="0425a03"/>盡眾生心病。預設多種奇方。於無漸次法中曲垂修
 <lb ed="X" n="0369b16"/><lb ed="R144" n="0425a04"/>證規則。不過只要誘引當人一箇入路。故經云。末世
 <lb ed="X" n="0369b17"/><lb ed="R144" n="0425a05"/>眾生。希望成道。無令求悟。惟益多聞。增長我見。又云
 <lb ed="X" n="0369b18"/><lb ed="R144" n="0425a06"/>眾生未悟。作何方便。普令開悟。佛令結制安居。剋期
 <lb ed="X" n="0369b19"/><lb ed="R144" n="0425a07"/>取證。過三期日。隨往無礙。故知結解之有時也。且如
-<lb ed="X" n="0369b20"/><lb ed="R144" n="0425a08"/>即今諸大德。於九十日中還曾證悟也無。<anchor xml:id="beg_37" type="cb-app"/>已<anchor xml:id="end_37"/>悟之者
+<lb ed="X" n="0369b20"/><lb ed="R144" n="0425a08"/>即今諸大德。於九十日中還曾證悟也無。<anchor xml:id="nkr_note_add_0369b2001" n="0369b2001"/><anchor xml:id="beg0369b2001" n="0369b2001"/>已<anchor xml:id="end0369b2001"/>悟之者
 <lb ed="X" n="0369b21"/><lb ed="R144" n="0425a09"/>置之勿論。如其未悟之者。則此一冬不免又是虗喪
 <lb ed="X" n="0369b22"/><lb ed="R144" n="0425a10"/>了也。若是箇本色道流。以十方法界為箇圓覺期堂。
 <lb ed="X" n="0369b23"/><lb ed="R144" n="0425a11"/>也莫論長期短期。百日千日。結制解制。但以舉起話
@@ -1243,7 +1248,7 @@ new from basicx
 <lb ed="X" n="0369c18"/><lb ed="R144" n="0425b12"/>所證。證此心也。六道眾生之所昧。昧此心也。諸佛由
 <lb ed="X" n="0369c19"/><lb ed="R144" n="0425b13"/>悟而證。號曰菩提。眾生因迷而昧。故曰煩惱。在聖不
 <lb ed="X" n="0369c20"/><lb ed="R144" n="0425b14"/>增。在凡不減。得之不有。失之不無。迷則業緣。悟名佛
-<lb ed="X" n="0369c21"/><lb ed="R144" n="0425b15"/>性。蓋知迷悟在<anchor xml:id="beg_38" type="cb-app"/>己<anchor xml:id="end_38"/>。得失非他。當知此心曠劫至今。本
+<lb ed="X" n="0369c21"/><lb ed="R144" n="0425b15"/>性。蓋知迷悟在<anchor xml:id="nkr_note_add_0369c2101" n="0369c2101"/><anchor xml:id="beg0369c2101" n="0369c2101"/>己<anchor xml:id="end0369c2101"/>。得失非他。當知此心曠劫至今。本
 <lb ed="X" n="0369c22"/><lb ed="R144" n="0425b16"/>無生滅。原非染淨。孤光皎皎。脫體無依。妙用真常。廓
 <lb ed="X" n="0369c23"/><lb ed="R144" n="0425b17"/>周沙界。無形狀可見。無聲響可聞。雖然無相。無相不
 <lb ed="X" n="0369c24"/><lb ed="R144" n="0425b18"/>宗。雖曰無聲。無聲不應。是一切色相之根。乃一切聲
@@ -1263,7 +1268,7 @@ new from basicx
 <lb ed="X" n="0370a13"/><lb ed="R144" n="0426a13"/>坐臥之中。乃至靜閙閒忙之處。都不用分別計較。但
 <lb ed="X" n="0370a14"/><lb ed="R144" n="0426a14"/>要念念相續。心心無間。久久工夫純一。自然寂靜輕
 <lb ed="X" n="0370a15"/><lb ed="R144" n="0426a15"/>安。便有禪定現前。儻正念不得純一。昏散起時。亦不
-<lb ed="X" n="0370a16"/><lb ed="R144" n="0426a16"/>用將心排遣。<anchor xml:id="beg_39" type="cb-app"/>但<anchor xml:id="end_39"/>將話頭輕輕放下。迴光返照。看這妄
+<lb ed="X" n="0370a16"/><lb ed="R144" n="0426a16"/>用將心排遣。<anchor xml:id="nkr_note_add_0370a1601" n="0370a1601"/><anchor xml:id="beg0370a1601" n="0370a1601"/>但<anchor xml:id="end0370a1601"/>將話頭輕輕放下。迴光返照。看這妄
 <lb ed="X" n="0370a17"/><lb ed="R144" n="0426a17"/>想昏沈從甚麼處起。只此一照。則妄想昏沈當下自
 <lb ed="X" n="0370a18"/><lb ed="R144" n="0426a18"/>然頓息。日久堅持此念。果無退失。驀忽工夫入妙。不
 <lb ed="X" n="0370a19"/><lb ed="R144" n="0426b01"/>覺不知一拶疑團粉碎。歷劫塵勞當下冰消瓦解。只
@@ -1356,15 +1361,15 @@ new from basicx
 <lb ed="X" n="0371b06"/><lb ed="R144" n="0428b12"/>相見。韶乃叉手默然。師曰。此則沈寂默去也。韶曰。師
 <lb ed="X" n="0371b07"/><lb ed="R144" n="0428b13"/>適來問甚麼。師曰。問汝關中主。韶曰。喚作寂默得麼。
 <lb ed="X" n="0371b08"/><lb ed="R144" n="0428b14"/>韶遂呈偈曰。只此寂默非寂默。非寂默中非亦絕。渠
-<lb ed="X" n="0371b09"/><lb ed="R144" n="0428b15"/>儂目面<anchor xml:id="beg_3a" type="cb-app"/>已<anchor xml:id="end_3a"/>呈師。動靜何曾有區別。師曰。恁麼則子不
+<lb ed="X" n="0371b09"/><lb ed="R144" n="0428b15"/>儂目面<anchor xml:id="nkr_note_add_0371b0901" n="0371b0901"/><anchor xml:id="beg0371b0901" n="0371b0901"/>已<anchor xml:id="end0371b0901"/>呈師。動靜何曾有區別。師曰。恁麼則子不
 <lb ed="X" n="0371b10"/><lb ed="R144" n="0428b16"/>在關內耶。韶曰。弟子見師亦不在關外。師以手拍關
 <lb ed="X" n="0371b11"/><lb ed="R144" n="0428b17"/>門一下曰。怎奈這箇何。韶擬對。師叱曰。汝但於心不
 <lb ed="X" n="0371b12"/><lb ed="R144" n="0428b18"/>生分別。只箇門戶亦無所有。門戶既非。則誰在關內
 <lb ed="X" n="0371b13"/><lb ed="R144" n="0429a01"/>誰在關外耶。雖然理則如是。亦不可越他世諦規矩。
-<lb ed="X" n="0371b14"/><lb ed="R144" n="0429a02"/>尤不可違其自<anchor xml:id="beg_3b" type="cb-app"/>己<anchor xml:id="end_3b"/>志願。正好向這無分別無內外處。
+<lb ed="X" n="0371b14"/><lb ed="R144" n="0429a02"/>尤不可違其自<anchor xml:id="nkr_note_add_0371b1401" n="0371b1401"/><anchor xml:id="beg0371b1401" n="0371b1401"/>己<anchor xml:id="end0371b1401"/>志願。正好向這無分別無內外處。
 <lb ed="X" n="0371b15"/><lb ed="R144" n="0429a03"/>豎立脊梁。全機坐斷。徹底掀翻。囫圇嚼破。一一從自
-<lb ed="X" n="0371b16"/><lb ed="R144" n="0429a04"/><anchor xml:id="beg_3c" type="cb-app"/>己<anchor xml:id="end_3c"/>胷襟流出可也。曰言曰行。可以模範後學。抑不負
-<lb ed="X" n="0371b17"/><lb ed="R144" n="0429a05"/>其<anchor xml:id="beg_3d" type="cb-app"/>己<anchor xml:id="end_3d"/>靈也。子其勉而進之。三載出關之日。拄杖子再
+<lb ed="X" n="0371b16"/><lb ed="R144" n="0429a04"/><anchor xml:id="nkr_note_add_0371b1601" n="0371b1601"/><anchor xml:id="beg0371b1601" n="0371b1601"/>己<anchor xml:id="end0371b1601"/>胷襟流出可也。曰言曰行。可以模範後學。抑不負
+<lb ed="X" n="0371b17"/><lb ed="R144" n="0429a05"/>其<anchor xml:id="nkr_note_add_0371b1701" n="0371b1701"/><anchor xml:id="beg0371b1701" n="0371b1701"/>己<anchor xml:id="end0371b1701"/>靈也。子其勉而進之。三載出關之日。拄杖子再
 <lb ed="X" n="0371b18"/><lb ed="R144" n="0429a06"/>為汝勘過。韶遂作禮。</p></cb:div>
 <lb ed="X" n="0371b19"/><lb ed="R144" n="0429a07"/><cb:div type="other"><cb:mulu type="其他" level="2">行實</cb:mulu><head>行實</head>
 <lb ed="X" n="0371b20"/><lb ed="R144" n="0429a08"/><p xml:id="pX84p0371b2001">師諱紹琦。楚山其字也。姓雷。唐安人。九歲出家。初從
@@ -1384,7 +1389,7 @@ new from basicx
 <lb ed="X" n="0371c09"/><lb ed="R144" n="0429b03"/>疑處。曰青山綠水。燕語鶯啼。歷歷分明。更疑何事。普
 <lb ed="X" n="0371c10"/><lb ed="R144" n="0429b04"/>曰。未在。更道。曰頭頂虗空。脚踏實地。普召弟子鳴鐘
 <lb ed="X" n="0371c11"/><lb ed="R144" n="0429b05"/>集眾。取袈裟拂子以授楚山。</p>
-<lb ed="X" n="0371c12"/><lb ed="R144" n="0429b06"/><p xml:id="pX84p0371c1201" rend="margin-left:1em"><anchor xml:id="beg_3e" type="cb-app"/>袾<anchor xml:id="end_3e"/>宏曰。所云以提起話頭之日為始事。一年不悟
+<lb ed="X" n="0371c12"/><lb ed="R144" n="0429b06"/><p xml:id="pX84p0371c1201" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0371c1201" n="0371c1201"/><anchor xml:id="beg0371c1201" n="0371c1201"/>袾<anchor xml:id="end0371c1201"/>宏曰。所云以提起話頭之日為始事。一年不悟
 <lb ed="X" n="0371c13"/><lb ed="R144" n="0429b07"/>參一年。乃至十年二十年三十年盡平生不移此
 <lb ed="X" n="0371c14"/><lb ed="R144" n="0429b08"/>志。直至大悟方名罷參。至哉言也。</p></cb:div></cb:div>
 <lb ed="X" n="0371c15"/><lb ed="R144" n="0429b09"/><cb:div type="other"><cb:mulu type="其他" level="1">性原明禪師</cb:mulu><head>性原明禪師</head>
@@ -1410,7 +1415,7 @@ new from basicx
 <lb ed="X" n="0372a10"/><lb ed="R144" n="0430a10"/>山問汝祇浴得這箇。還浴得那箇麼。遵云把將那箇
 <lb ed="X" n="0372a11"/><lb ed="R144" n="0430a11"/>來。山休去。師云。者一箇。那一箇。一一從頭都浴過。藥
 <lb ed="X" n="0372a12"/><lb ed="R144" n="0430a12"/>山布衲謾商量。仔細看來成話墮。成話墮。轉誵訛。拍
-<lb ed="X" n="0372a13"/><lb ed="R144" n="0430a13"/>禪牀云。武林春<anchor xml:id="beg_3f" type="cb-app"/>已<anchor xml:id="end_3f"/>老。臺榭綠陰多。</p>
+<lb ed="X" n="0372a13"/><lb ed="R144" n="0430a13"/>禪牀云。武林春<anchor xml:id="nkr_note_add_0372a1301" n="0372a1301"/><anchor xml:id="beg0372a1301" n="0372a1301"/>已<anchor xml:id="end0372a1301"/>老。臺榭綠陰多。</p>
 <lb ed="X" n="0372a14"/><lb ed="R144" n="0430a14"/><p xml:id="pX84p0372a1401">佛誕上堂。舉世尊纔生下。一手指天。一手指地。周行
 <lb ed="X" n="0372a15"/><lb ed="R144" n="0430a15"/>七步。目顧四方云。天上天下。唯吾獨尊。真成大人相
 <lb ed="X" n="0372a16"/><lb ed="R144" n="0430a16"/>不是小兒嬉。雲門云。我當時若見。一棒打死與狗子
@@ -1424,18 +1429,18 @@ new from basicx
 <lb ed="X" n="0372a24"/><lb ed="R144" n="0430b06"/><p xml:id="pX84p0372a2401">碧峯和尚闍維。奠茶。五臺山拾得來。誠非凡種。關西
 <pb ed="X" xml:id="X84.1581.0372b" n="0372b"/>
 <lb ed="X" n="0372b01"/><lb ed="R144" n="0430b07"/>子沒頭腦。却是靈根。惟茲一味清茶。蕩滌眾生熱惱。
-<lb ed="X" n="0372b02"/><lb ed="R144" n="0430b08"/>只如<anchor xml:id="beg_40" type="cb-app"/>則<anchor xml:id="end_40"/>川拋下茶籃。仰山撼動茶樹。畢竟明甚麼邊
+<lb ed="X" n="0372b02"/><lb ed="R144" n="0430b08"/>只如<anchor xml:id="nkr_note_add_0372b0201" n="0372b0201"/><anchor xml:id="beg0372b0201" n="0372b0201"/>則<anchor xml:id="end0372b0201"/>川拋下茶籃。仰山撼動茶樹。畢竟明甚麼邊
 <lb ed="X" n="0372b03"/><lb ed="R144" n="0430b09"/>事。度盞云。踏翻生死海。靠倒涅槃城。</p></cb:div>
 <lb ed="X" n="0372b04"/><lb ed="R144" n="0430b10"/><cb:div type="other"><cb:mulu type="其他" level="2">龍山次韻</cb:mulu><head>龍山次韻</head>
 <lb ed="X" n="0372b05"/><lb ed="R144" n="0430b11"/><p xml:id="pX84p0372b0501">龍山吾兄瘦無肉。度量汪汪幾千斛。看他小小現神
 <lb ed="X" n="0372b06"/><lb ed="R144" n="0430b12"/>通。彈指徧遊諸佛國。枯禪久甘藜藿腸。節身不在餐
-<lb ed="X" n="0372b07"/><lb ed="R144" n="0430b13"/>楓香。頂<g ref="#CB00576">𩕳</g>一著超言義。二三四七空<anchor xml:id="beg_41" type="cb-app"/>摶<anchor xml:id="end_41"/>量。從古風顛
+<lb ed="X" n="0372b07"/><lb ed="R144" n="0430b13"/>楓香。頂<g ref="#CB00576">𩕳</g>一著超言義。二三四七空<anchor xml:id="nkr_note_add_0372b0701" n="0372b0701"/><anchor xml:id="beg0372b0701" n="0372b0701"/>摶<anchor xml:id="end0372b0701"/>量。從古風顛
 <lb ed="X" n="0372b08"/><lb ed="R144" n="0430b14"/>稱普化。格外玄機未為蹉。等閒打出觔斗來。傳得師
 <lb ed="X" n="0372b09"/><lb ed="R144" n="0430b15"/>真能幾箇。而今痛自韜其光。臥雲深處開巖房。是非
 <lb ed="X" n="0372b10"/><lb ed="R144" n="0430b16"/>榮辱我何有。二時粥飯還如常。</p>
-<lb ed="X" n="0372b11"/><lb ed="R144" n="0430b17"/><p xml:id="pX84p0372b1101">乳虎<anchor xml:id="beg_42" type="cb-app"/>已<anchor xml:id="end_42"/>有食牛氣。況是親從道場至。入門未辨主與
+<lb ed="X" n="0372b11"/><lb ed="R144" n="0430b17"/><p xml:id="pX84p0372b1101">乳虎<anchor xml:id="nkr_note_add_0372b1101" n="0372b1101"/><anchor xml:id="beg0372b1101" n="0372b1101"/>已<anchor xml:id="end0372b1101"/>有食牛氣。況是親從道場至。入門未辨主與
 <lb ed="X" n="0372b12"/><lb ed="R144" n="0430b18"/>賓。輙問西來祖師意。水之冰也藍之青。當陽哮吼人
-<lb ed="X" n="0372b13"/><lb ed="R144" n="0431a01"/>皆驚。豁開自<anchor xml:id="beg_43" type="cb-app"/>己<anchor xml:id="end_43"/>神通藏。剖破微塵出大經。永嘉作歌
+<lb ed="X" n="0372b13"/><lb ed="R144" n="0431a01"/>皆驚。豁開自<anchor xml:id="nkr_note_add_0372b1301" n="0372b1301"/><anchor xml:id="beg0372b1301" n="0372b1301"/>己<anchor xml:id="end0372b1301"/>神通藏。剖破微塵出大經。永嘉作歌
 <lb ed="X" n="0372b14"/><lb ed="R144" n="0431a02"/>唯證道。凡聖兩途俱淨掃。曹溪一宿歸去來。珊瑚枝
 <lb ed="X" n="0372b15"/><lb ed="R144" n="0431a03"/>上日暠暠。</p></cb:div>
 <lb ed="X" n="0372b16"/><lb ed="R144" n="0431a04"/><cb:div type="other"><cb:mulu type="其他" level="2">淨慈次韻</cb:mulu><head>淨慈次韻</head>
@@ -1456,7 +1461,7 @@ new from basicx
 <lb ed="X" n="0372c06"/><lb ed="R144" n="0431a18"/><p xml:id="pX84p0372c0601">僧問雲門。不起一念還有過也無。門云須彌山。幸遇
 <lb ed="X" n="0372c07"/><lb ed="R144" n="0431b01"/>此僧。當機不薦。蹉過雲門。直至於今攔街塞巷無存
 <lb ed="X" n="0372c08"/><lb ed="R144" n="0431b02"/>放處。此僧若也下得一語。道某甲這裏安放不得。且
-<lb ed="X" n="0372c09"/><lb ed="R144" n="0431b03"/>請和尚掇過一邊。非唯自<anchor xml:id="beg_44" type="cb-app"/>己<anchor xml:id="end_44"/>千古之下作箇自在快
+<lb ed="X" n="0372c09"/><lb ed="R144" n="0431b03"/>請和尚掇過一邊。非唯自<anchor xml:id="nkr_note_add_0372c0901" n="0372c0901"/><anchor xml:id="beg0372c0901" n="0372c0901"/>己<anchor xml:id="end0372c0901"/>千古之下作箇自在快
 <lb ed="X" n="0372c10"/><lb ed="R144" n="0431b04"/>活閒人。抑且拶得雲門忙手忙脚。撒了收不得。收了
 <lb ed="X" n="0372c11"/><lb ed="R144" n="0431b05"/>撒不得。豈不丈夫。然雖幻寄與麼。也是勞神不少。且
 <lb ed="X" n="0372c12"/><lb ed="R144" n="0431b06"/>道還有安放處也無。自代云。看取雲門道底。古潭清
@@ -1468,7 +1473,7 @@ new from basicx
 <lb ed="X" n="0372c18"/><lb ed="R144" n="0431b12"/>但只時中一貧如洗。赤灑灑看箇父母未生以前邢
 <lb ed="X" n="0372c19"/><lb ed="R144" n="0431b13"/>箇是我本來面目。吽。及盡今時一念。從始至終。務要
 <lb ed="X" n="0372c20"/><lb ed="R144" n="0431b14"/>歷然討箇分曉。不可向輕安省力處純熟現前以當
-<lb ed="X" n="0372c21"/><lb ed="R144" n="0431b15"/>消遣時光。決定向這父母未生<anchor xml:id="beg_45" type="cb-app"/>已<anchor xml:id="end_45"/>前邢箇是我本來
+<lb ed="X" n="0372c21"/><lb ed="R144" n="0431b15"/>消遣時光。決定向這父母未生<anchor xml:id="nkr_note_add_0372c2101" n="0372c2101"/><anchor xml:id="beg0372c2101" n="0372c2101"/>已<anchor xml:id="end0372c2101"/>前邢箇是我本來
 <lb ed="X" n="0372c22"/><lb ed="R144" n="0431b16"/>面目話頭上。不管得力不得力。昏散不昏散。密密提
 <lb ed="X" n="0372c23"/><lb ed="R144" n="0431b17"/>撕去。看他疑情頓發。如烈<g ref="#CB08504">𦦨</g>光中忽擲莖茅片雪。欲
 <lb ed="X" n="0372c24"/><lb ed="R144" n="0431b18"/>覓來去之蹤了不可得。正當恁麼時。設起一念覺照
@@ -1483,7 +1488,7 @@ new from basicx
 <lb ed="X" n="0373a08"/><lb ed="R144" n="0432a08"/>其所解。</p>
 <lb ed="X" n="0373a09"/><lb ed="R144" n="0432a09"/><p xml:id="pX84p0373a0901" rend="margin-left:1em">師拈云。家貧家富。父子方知。花落花開。春風不顧。
 <lb ed="X" n="0373a10"/><lb ed="R144" n="0432a10"/>應時應節則是。未免傍觀者哂。呵呵。老不歇心。少
-<lb ed="X" n="0373a11"/><lb ed="R144" n="0432a11"/>不<anchor xml:id="beg_46" type="cb-app"/>努<anchor xml:id="end_46"/>力。</p></cb:div>
+<lb ed="X" n="0373a11"/><lb ed="R144" n="0432a11"/>不<anchor xml:id="nkr_note_add_0373a1101" n="0373a1101"/><anchor xml:id="beg0373a1101" n="0373a1101"/>努<anchor xml:id="end0373a1101"/>力。</p></cb:div>
 <lb ed="X" n="0373a12"/><lb ed="R144" n="0432a12"/><cb:div type="other"><cb:mulu type="其他" level="2">行實</cb:mulu><head>行實</head>
 <lb ed="X" n="0373a13"/><lb ed="R144" n="0432a13"/><p xml:id="pX84p0373a1301">師自謂吾生幻寄浙省仁和。桂姓。父諱徵。母徐氏。兄
 <lb ed="X" n="0373a14"/><lb ed="R144" n="0432a14"/>弟三人。吾最後。以景泰丙子年生。毀齒喪父。患痘風。
@@ -1514,19 +1519,19 @@ new from basicx
 <lb ed="X" n="0373b14"/><lb ed="R144" n="0433a02"/>節。春蘭秋菊不同途。凡作工夫。當離喧鬧。截斷眾緣。
 <lb ed="X" n="0373b15"/><lb ed="R144" n="0433a03"/>屏息雜念。單提本參話頭。至於行住坐臥。苦樂逆順。
 <lb ed="X" n="0373b16"/><lb ed="R144" n="0433a04"/>一切時中。不得忘失。念茲在茲。專心正意。切切思思。
-<lb ed="X" n="0373b17"/><lb ed="R144" n="0433a05"/>念念自究。返觀自<anchor xml:id="beg_47" type="cb-app"/>己<anchor xml:id="end_47"/>這箇能追能問底是箇什麼人。
+<lb ed="X" n="0373b17"/><lb ed="R144" n="0433a05"/>念念自究。返觀自<anchor xml:id="nkr_note_add_0373b1701" n="0373b1701"/><anchor xml:id="beg0373b1701" n="0373b1701"/>己<anchor xml:id="end0373b1701"/>這箇能追能問底是箇什麼人。
 <lb ed="X" n="0373b18"/><lb ed="R144" n="0433a06"/>若能如是下疑。疑來疑去。疑到水窮山盡處。樹倒藤
 <lb ed="X" n="0373b19"/><lb ed="R144" n="0433a07"/>枯處擬議不到處。心忘境絕處。忽然疑團迸散。心花
-<lb ed="X" n="0373b20"/><lb ed="R144" n="0433a08"/>朗發。大悟現前。頓見自<anchor xml:id="beg_48" type="cb-app"/>己<anchor xml:id="end_48"/>本來佛性。一段風光非從
+<lb ed="X" n="0373b20"/><lb ed="R144" n="0433a08"/>朗發。大悟現前。頓見自<anchor xml:id="nkr_note_add_0373b2001" n="0373b2001"/><anchor xml:id="beg0373b2001" n="0373b2001"/>己<anchor xml:id="end0373b2001"/>本來佛性。一段風光非從
 <lb ed="X" n="0373b21"/><lb ed="R144" n="0433a09"/>外得。若得真有此見處。更要求覓高見宗匠決擇邪
 <lb ed="X" n="0373b22"/><lb ed="R144" n="0433a10"/>正。不可以此便休。如此纔名入門。纔名得地。</p>
 <lb ed="X" n="0373b23"/><lb ed="R144" n="0433a11"/><p xml:id="pX84p0373b2301">坐中所見善惡。皆由坐時不起觀察。不正思惟。但只
-<lb ed="X" n="0373b24"/><lb ed="R144" n="0433a12"/>瞑目靜坐。心不精<anchor xml:id="beg_49" type="cb-app"/>采<anchor xml:id="end_49"/>。意順境流。半夢半醒。或貪著靜
+<lb ed="X" n="0373b24"/><lb ed="R144" n="0433a12"/>瞑目靜坐。心不精<anchor xml:id="nkr_note_add_0373b2401" n="0373b2401"/><anchor xml:id="beg0373b2401" n="0373b2401"/>采<anchor xml:id="end0373b2401"/>。意順境流。半夢半醒。或貪著靜
 <pb ed="X" xml:id="X84.1581.0373c" n="0373c"/>
 <lb ed="X" n="0373c01"/><lb ed="R144" n="0433a13"/>境為樂。致見種種境界。夫正因做工夫者。當睡便睡。
 <lb ed="X" n="0373c02"/><lb ed="R144" n="0433a14"/>一覺一醒。便起抖擻精神。挪挱眼目。齩住牙根。捏緊
 <lb ed="X" n="0373c03"/><lb ed="R144" n="0433a15"/>拳頭。直看話頭落在何處。切莫隨昏隨沈。絲毫外境
-<lb ed="X" n="0373c04"/><lb ed="R144" n="0433a16"/>不可<anchor xml:id="beg_4a" type="cb-app"/>采<anchor xml:id="end_4a"/>著。</p></cb:div>
+<lb ed="X" n="0373c04"/><lb ed="R144" n="0433a16"/>不可<anchor xml:id="nkr_note_add_0373c0401" n="0373c0401"/><anchor xml:id="beg0373c0401" n="0373c0401"/>采<anchor xml:id="end0373c0401"/>著。</p></cb:div>
 <lb ed="X" n="0373c05"/><lb ed="R144" n="0433a17"/><cb:div type="other"><cb:mulu type="其他" level="2">念佛警<g ref="#CB15081">䇿</g></cb:mulu><head>念佛警<g ref="#CB15081">䇿</g></head>
 <lb ed="X" n="0373c06"/><lb ed="R144" n="0433a18"/><p xml:id="pX84p0373c0601">一句阿彌陀佛。宗門頭則公案。譬如騎馬拄杖。把穩
 <lb ed="X" n="0373c07"/><lb ed="R144" n="0433b01"/>生涯一段。不拘四眾人等。持之悉有應驗。行住坐臥
@@ -1575,7 +1580,7 @@ new from basicx
 <pb ed="X" xml:id="X84.1581.0374b" n="0374b"/>
 <lb ed="X" n="0374b01"/><lb ed="R144" n="0434b07"/><cb:div type="other"><cb:mulu type="其他" level="2">行實</cb:mulu><head>行實</head>
 <lb ed="X" n="0374b02"/><lb ed="R144" n="0434b08"/><p xml:id="pX84p0374b0201">師閩興賢人。父蔡姓。母黃氏。二十七出家。餘不載。</p>
-<lb ed="X" n="0374b03"/><lb ed="R144" n="0434b09"/><p xml:id="pX84p0374b0301" rend="margin-left:1em"><anchor xml:id="beg_4b" type="cb-app"/>袾<anchor xml:id="end_4b"/>宏曰。勸念佛偈甚好。冗句裁出。</p></cb:div></cb:div>
+<lb ed="X" n="0374b03"/><lb ed="R144" n="0434b09"/><p xml:id="pX84p0374b0301" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0374b0301" n="0374b0301"/><anchor xml:id="beg0374b0301" n="0374b0301"/>袾<anchor xml:id="end0374b0301"/>宏曰。勸念佛偈甚好。冗句裁出。</p></cb:div></cb:div>
 <lb ed="X" n="0374b04"/><lb ed="R144" n="0434b10"/><cb:div type="other"><cb:mulu type="其他" level="1">笑巖寶禪師</cb:mulu><head>笑巖寶禪師</head>
 <lb ed="X" n="0374b05"/><lb ed="R144" n="0434b11"/><cb:div type="other"><cb:mulu type="其他" level="2">上堂</cb:mulu><head>上堂</head>
 <lb ed="X" n="0374b06"/><lb ed="R144" n="0434b12"/><p xml:id="pX84p0374b0601">舉世尊陞座。文殊白槌話。師乃曰。不憶黃面老子當
@@ -1607,11 +1612,11 @@ new from basicx
 <lb ed="X" n="0374c07"/><lb ed="R144" n="0435b01"/>是眾生。是故諸佛與眾生唯是一心。更無別法。且我
 <lb ed="X" n="0374c08"/><lb ed="R144" n="0435b02"/>釋迦文佛未成正覺時。於雪山六年苦行。靜慮功極。
 <lb ed="X" n="0374c09"/><lb ed="R144" n="0435b03"/>至午夜舉頭見明星出。豁然大悟。彼當時悟箇甚麼。
-<lb ed="X" n="0374c10"/><lb ed="R144" n="0435b04"/>悟者惺也。只是惺得自<anchor xml:id="beg_4c" type="cb-app"/>己<anchor xml:id="end_4c"/>本有之心。不從人得。本來
+<lb ed="X" n="0374c10"/><lb ed="R144" n="0435b04"/>悟者惺也。只是惺得自<anchor xml:id="nkr_note_add_0374c1001" n="0374c1001"/><anchor xml:id="beg0374c1001" n="0374c1001"/>己<anchor xml:id="end0374c1001"/>本有之心。不從人得。本來
 <lb ed="X" n="0374c11"/><lb ed="R144" n="0435b05"/>現成。本來常住。隨即普觀大地一切眾生。箇箇具有
 <lb ed="X" n="0374c12"/><lb ed="R144" n="0435b06"/>如來常住真心成佛種性。只因妄想執著不能證得。
 <lb ed="X" n="0374c13"/><lb ed="R144" n="0435b07"/>遂運慈悲普度一切。便有四十九年所說言教。非真
-<lb ed="X" n="0374c14"/><lb ed="R144" n="0435b08"/>實也。皆不得<anchor xml:id="beg_4d" type="cb-app"/>已<anchor xml:id="end_4d"/>。見諸眾生疑多信少。不能直下大信
+<lb ed="X" n="0374c14"/><lb ed="R144" n="0435b08"/>實也。皆不得<anchor xml:id="nkr_note_add_0374c1401" n="0374c1401"/><anchor xml:id="beg0374c1401" n="0374c1401"/>已<anchor xml:id="end0374c1401"/>。見諸眾生疑多信少。不能直下大信
 <lb ed="X" n="0374c15"/><lb ed="R144" n="0435b09"/>自心。生起萬差。不免應病與藥。引眾權而歸一實。又
 <lb ed="X" n="0374c16"/><lb ed="R144" n="0435b10"/>恐一切眾生隨語生解。認著言說墮於教網。後復陞
 <lb ed="X" n="0374c17"/><lb ed="R144" n="0435b11"/>座不發一言。唯拈起青蓮花一枝。默顧四眾。欲人人
@@ -1627,11 +1632,11 @@ new from basicx
 <lb ed="X" n="0375a02"/><lb ed="R144" n="0436a02"/><p xml:id="pX84p0375a0201">師云。予金臺世族也。父吳門。母丁氏。弱冠出家。禮大
 <lb ed="X" n="0375a03"/><lb ed="R144" n="0436a03"/>寂能和尚為師。後徧參知識。修進開悟行道因緣。備
 <lb ed="X" n="0375a04"/><lb ed="R144" n="0436a04"/>載全集。恐繁不錄。</p>
-<lb ed="X" n="0375a05"/><lb ed="R144" n="0436a05"/><p xml:id="pX84p0375a0501" rend="margin-left:1em"><anchor xml:id="beg_4e" type="cb-app"/>袾<anchor xml:id="end_4e"/>宏曰。予遊京師。參徧融笑巖二師。次年二師俱
+<lb ed="X" n="0375a05"/><lb ed="R144" n="0436a05"/><p xml:id="pX84p0375a0501" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0375a0501" n="0375a0501"/><anchor xml:id="beg0375a0501" n="0375a0501"/>袾<anchor xml:id="end0375a0501"/>宏曰。予遊京師。參徧融笑巖二師。次年二師俱
 <lb ed="X" n="0375a06"/><lb ed="R144" n="0436a06"/>示寂。融師一味實心實行。無著述傳世。巖師隱柳
 <lb ed="X" n="0375a07"/><lb ed="R144" n="0436a07"/>巷。罕接見人。有笑巖集四卷。今撮其少分云。</p></cb:div></cb:div>
 <lb ed="X" n="0375a08"/><lb ed="R144" n="0436a08"/><cb:div type="w"><cb:mulu type="附文" level="1">附錄</cb:mulu><head>附錄</head>
-<lb ed="X" n="0375a09"/><lb ed="R144" n="0436a09"/><p xml:id="pX84p0375a0901" rend="margin-left:1em">宋景濂學士集中諸師<g ref="#CB15156">󳬴</g>銘。<anchor xml:id="beg_4f" type="cb-app"/>袾<anchor xml:id="end_4f"/>宏採其少分。以紀
+<lb ed="X" n="0375a09"/><lb ed="R144" n="0436a09"/><p xml:id="pX84p0375a0901" rend="margin-left:1em">宋景濂學士集中諸師<g ref="#CB15156">󳬴</g>銘。<anchor xml:id="nkr_note_add_0375a0901" n="0375a0901"/><anchor xml:id="beg0375a0901" n="0375a0901"/>袾<anchor xml:id="end0375a0901"/>宏採其少分。以紀
 <lb ed="X" n="0375a10"/><lb ed="R144" n="0436a10"/>聖朝盛事。不致淹沒故。</p>
 <lb ed="X" n="0375a11"/><lb ed="R144" n="0436a11"/><cb:div type="w"><cb:mulu type="附文" level="2">古鼎銘禪師</cb:mulu><head>古鼎銘禪師</head>
 <lb ed="X" n="0375a12"/><lb ed="R144" n="0436a12"/><p xml:id="pX84p0375a1201">師諱銘。臨濟十五世孫。四坐道場。將示寂。謂其徒曰。
@@ -1640,7 +1645,7 @@ new from basicx
 <lb ed="X" n="0375a15"/><lb ed="R144" n="0436a15"/>錄行世。</p></cb:div>
 <lb ed="X" n="0375a16"/><lb ed="R144" n="0436a16"/><cb:div type="w"><cb:mulu type="附文" level="2">雪窗光禪師</cb:mulu><head>雪窗光禪師</head>
 <lb ed="X" n="0375a17"/><lb ed="R144" n="0436a17"/><p xml:id="pX84p0375a1701">師名悟光。字公實。姓楊氏。號雪窗。成都之新都人。以
-<lb ed="X" n="0375a18"/><lb ed="R144" n="0436a18"/>三昧力入智慧海。初說法於白馬寺。<anchor xml:id="beg_50" type="cb-app"/>已<anchor xml:id="end_50"/>而住育王天
+<lb ed="X" n="0375a18"/><lb ed="R144" n="0436a18"/>三昧力入智慧海。初說法於白馬寺。<anchor xml:id="nkr_note_add_0375a1801" n="0375a1801"/><anchor xml:id="beg0375a1801" n="0375a1801"/>已<anchor xml:id="end0375a1801"/>而住育王天
 <lb ed="X" n="0375a19"/><lb ed="R144" n="0436b01"/>童。四會說法。虞文清公贊。謂佛果一枝。鳳毛麟角。洪
 <lb ed="X" n="0375a20"/><lb ed="R144" n="0436b02"/>武十四年記。</p></cb:div>
 <lb ed="X" n="0375a21"/><lb ed="R144" n="0436b03"/><cb:div type="w"><cb:mulu type="附文" level="2">南堂欲禪師</cb:mulu><head>南堂欲禪師</head>
@@ -1652,7 +1657,7 @@ new from basicx
 <lb ed="X" n="0375b02"/><lb ed="R144" n="0436b08"/>虎林南屏。遂陟雙徑。有四會語錄。先師王文獻公現
 <lb ed="X" n="0375b03"/><lb ed="R144" n="0436b09"/>宰官身敷宣般若。與禪師為方外交。松月印公稱師
 <lb ed="X" n="0375b04"/><lb ed="R144" n="0436b10"/>之道高於圓照佛照云。</p>
-<lb ed="X" n="0375b05"/><lb ed="R144" n="0436b11"/><p xml:id="pX84p0375b0501" rend="margin-left:1em"><anchor xml:id="beg_51" type="cb-app"/>袾<anchor xml:id="end_51"/>宏曰。四會語錄今無存。松月亦未知何許。而曰
+<lb ed="X" n="0375b05"/><lb ed="R144" n="0436b11"/><p xml:id="pX84p0375b0501" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0375b0501" n="0375b0501"/><anchor xml:id="beg0375b0501" n="0375b0501"/>袾<anchor xml:id="end0375b0501"/>宏曰。四會語錄今無存。松月亦未知何許。而曰
 <lb ed="X" n="0375b06"/><lb ed="R144" n="0436b12"/>道高於圓照佛照。夫二公豈易及哉。而曰過之。更
 <lb ed="X" n="0375b07"/><lb ed="R144" n="0436b13"/>俟賢者考正。</p></cb:div>
 <lb ed="X" n="0375b08"/><lb ed="R144" n="0436b14"/><cb:div type="w"><cb:mulu type="附文" level="2">佛光照禪師</cb:mulu><head>佛光照禪師</head>
@@ -1666,7 +1671,7 @@ new from basicx
 <lb ed="X" n="0375b16"/><lb ed="R144" n="0437a04"/><cb:div type="w"><cb:mulu type="附文" level="2">璧峯金禪師</cb:mulu><head>璧峯金禪師</head>
 <lb ed="X" n="0375b17"/><lb ed="R144" n="0437a05"/><p xml:id="pX84p0375b1701">師諱寶金。姓石氏。號碧峯。生杭之永壽縣。六歲出家。
 <lb ed="X" n="0375b18"/><lb ed="R144" n="0437a06"/>徧參講肆。參如海真公。寢食為廢。隨公摘蔬。忽凝坐
-<lb ed="X" n="0375b19"/><lb ed="R144" n="0437a07"/>不動。後入定。累日不起。<anchor xml:id="beg_52" type="cb-app"/>嘗<anchor xml:id="end_52"/>坐樹下。溪水橫至。人意師
+<lb ed="X" n="0375b19"/><lb ed="R144" n="0437a07"/>不動。後入定。累日不起。<anchor xml:id="nkr_note_add_0375b1901" n="0375b1901"/><anchor xml:id="beg0375b1901" n="0375b1901"/>嘗<anchor xml:id="end0375b1901"/>坐樹下。溪水橫至。人意師
 <lb ed="X" n="0375b20"/><lb ed="R144" n="0437a08"/>溺死。越七日。蒸坐如平時。一日聽伐木聲。汗如雨下。
 <lb ed="X" n="0375b21"/><lb ed="R144" n="0437a09"/>求證於公。公印可之。洪武二年。召至京。極蒙恩賜。師
 <lb ed="X" n="0375b22"/><lb ed="R144" n="0437a10"/>示疾。上親灑宸翰。賜詩十二韻。六月四日。沐浴更衣。
@@ -1678,7 +1683,7 @@ new from basicx
 <lb ed="X" n="0375c03"/><lb ed="R144" n="0437a15"/>對稱旨。後辭歸杭之天竺。修西方淨業。洪武十二年
 <lb ed="X" n="0375c04"/><lb ed="R144" n="0437a16"/>七月朔日。謂弟子言。吾夢青蓮華池中清芬襲人。吾
 <lb ed="X" n="0375c05"/><lb ed="R144" n="0437a17"/>殆將去乎。四日坐逝。世壽八十九。僧臘七十。師對王
-<lb ed="X" n="0375c06"/><lb ed="R144" n="0437a18"/>公大臣。未<anchor xml:id="beg_53" type="cb-app"/>嘗<anchor xml:id="end_53"/>出一<anchor xml:id="beg_54" type="cb-app"/>軟<anchor xml:id="end_54"/>媚語。至於誘進後學。溫然如春
+<lb ed="X" n="0375c06"/><lb ed="R144" n="0437a18"/>公大臣。未<anchor xml:id="nkr_note_add_0375c0601" n="0375c0601"/><anchor xml:id="beg0375c0601" n="0375c0601"/>嘗<anchor xml:id="end0375c0601"/>出一<anchor xml:id="nkr_note_add_0375c0602" n="0375c0602"/><anchor xml:id="beg0375c0602" n="0375c0602"/>軟<anchor xml:id="end0375c0602"/>媚語。至於誘進後學。溫然如春
 <lb ed="X" n="0375c07"/><lb ed="R144" n="0437b01"/>陽云。</p></cb:div>
 <lb ed="X" n="0375c08"/><lb ed="R144" n="0437b02"/><cb:div type="w"><cb:mulu type="附文" level="2">孤峯德禪師</cb:mulu><head>孤峯德禪師</head>
 <lb ed="X" n="0375c09"/><lb ed="R144" n="0437b03"/><p xml:id="pX84p0375c0901">師諱明德。號孤峯。十五為僧。謁竺西坦公。公問何來。
@@ -1695,7 +1700,7 @@ new from basicx
 <lb ed="X" n="0375c20"/><lb ed="R144" n="0437b14"/>威儀內。舉起話頭。莫待幾時悟不悟。亦莫管有滋味
 <lb ed="X" n="0375c21"/><lb ed="R144" n="0437b15"/>無滋味。亦莫管得力不得力。拶到心思不及意慮不
 <lb ed="X" n="0375c22"/><lb ed="R144" n="0437b16"/>行。即是諸佛諸祖放身命處。</p>
-<lb ed="X" n="0375c23"/><lb ed="R144" n="0437b17"/><p xml:id="pX84p0375c2301" rend="margin-left:1em"><anchor xml:id="beg_55" type="cb-app"/>袾<anchor xml:id="end_55"/>宏曰。此語錄。萬歷丁酉福建許元真都閫東征
+<lb ed="X" n="0375c23"/><lb ed="R144" n="0437b17"/><p xml:id="pX84p0375c2301" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0375c2301" n="0375c2301"/><anchor xml:id="beg0375c2301" n="0375c2301"/>袾<anchor xml:id="end0375c2301"/>宏曰。此語錄。萬歷丁酉福建許元真都閫東征
 <lb ed="X" n="0375c24"/><lb ed="R144" n="0437b18"/>得之朝鮮者。中國未有也。元真<g ref="#CB06078">𢹂</g>原本還閩。僅錄
 <pb ed="X" xml:id="X84.1581.0376a" n="0376a"/>
 <lb ed="X" n="0376a01"/><lb ed="R144" n="0438a01"/>其一篇云。</p></cb:div></cb:div>
@@ -1706,102 +1711,192 @@ new from basicx
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>袾</corr><sic>祩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>陝</corr><sic>陜</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>但</corr><sic>伹</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>但</corr><sic>伹</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>羞</corr><sic><g ref="#CB15561">󳳉</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_12" cb:to="#end_12"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>袾</corr><sic>祩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_14" cb:to="#end_14"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_15" cb:to="#end_15"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_16" cb:to="#end_16"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_17" cb:to="#end_17"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_18" cb:to="#end_18"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_19" cb:to="#end_19"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1a" cb:to="#end_1a"><corr>常</corr><sic>嘗</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1b" cb:to="#end_1b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1c" cb:to="#end_1c"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1d" cb:to="#end_1d"><corr>暖</corr><sic>緩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1e" cb:to="#end_1e"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1f" cb:to="#end_1f"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_20" cb:to="#end_20"><corr>袾</corr><sic>祩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_21" cb:to="#end_21"><corr>但</corr><sic>伹</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_22" cb:to="#end_22"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_23" cb:to="#end_23"><corr>維</corr><sic>雜</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_24" cb:to="#end_24"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_25" cb:to="#end_25"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_26" cb:to="#end_26"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_27" cb:to="#end_27"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_28" cb:to="#end_28"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_29" cb:to="#end_29"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2a" cb:to="#end_2a"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2b" cb:to="#end_2b"><corr>袾</corr><sic>祩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2c" cb:to="#end_2c"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2d" cb:to="#end_2d"><corr>縱</corr><sic>從</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2e" cb:to="#end_2e"><corr>傭</corr><sic>備</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2f" cb:to="#end_2f"><corr>疑</corr><sic>擬</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_30" cb:to="#end_30"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_31" cb:to="#end_31"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_32" cb:to="#end_32"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_33" cb:to="#end_33"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_34" cb:to="#end_34"><corr>袾</corr><sic>祩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_35" cb:to="#end_35"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_36" cb:to="#end_36"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_37" cb:to="#end_37"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_38" cb:to="#end_38"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_39" cb:to="#end_39"><corr>但</corr><sic>伹</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3a" cb:to="#end_3a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3b" cb:to="#end_3b"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3c" cb:to="#end_3c"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3d" cb:to="#end_3d"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3e" cb:to="#end_3e"><corr>袾</corr><sic>祩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3f" cb:to="#end_3f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_40" cb:to="#end_40"><corr>則</corr><sic>　</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_41" cb:to="#end_41"><corr>摶</corr><sic>搏</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_42" cb:to="#end_42"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_43" cb:to="#end_43"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_44" cb:to="#end_44"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_45" cb:to="#end_45"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_46" cb:to="#end_46"><corr>努</corr><sic>奴</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_47" cb:to="#end_47"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_48" cb:to="#end_48"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_49" cb:to="#end_49"><corr>采</corr><sic>釆</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4a" cb:to="#end_4a"><corr>采</corr><sic>釆</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4b" cb:to="#end_4b"><corr>袾</corr><sic>祩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4c" cb:to="#end_4c"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4d" cb:to="#end_4d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4e" cb:to="#end_4e"><corr>袾</corr><sic>祩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4f" cb:to="#end_4f"><corr>袾</corr><sic>祩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_50" cb:to="#end_50"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_51" cb:to="#end_51"><corr>袾</corr><sic>祩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_52" cb:to="#end_52"><corr>嘗</corr><sic>常</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_53" cb:to="#end_53"><corr>嘗</corr><sic>常</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_54" cb:to="#end_54"><corr>軟</corr><sic><g ref="#CB15578">󳳚</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_55" cb:to="#end_55"><corr>袾</corr><sic>祩</sic></choice>
+<app from="#beg0358b0501" to="#end0358b0501"><lem wit="#wit1" resp="#resp2"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0358b0601" to="#end0358b0601"><lem wit="#wit1" resp="#resp2"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0358b0801" to="#end0358b0801"><lem wit="#wit1" resp="#resp2"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0358b1001" to="#end0358b1001"><lem wit="#wit1" resp="#resp2"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0358c0801" to="#end0358c0801"><lem wit="#wit1" resp="#resp2">袾</lem><rdg wit="#wit2">祩</rdg></app>
+<app from="#beg0358c2001" to="#end0358c2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0358c2101" to="#end0358c2101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0359b0101" to="#end0359b0101"><lem wit="#wit1" resp="#resp2">陝</lem><rdg wit="#wit2">陜</rdg></app>
+<app from="#beg0359c0101" to="#end0359c0101"><lem wit="#wit1" resp="#resp2">但</lem><rdg wit="#wit2">伹</rdg></app>
+<app from="#beg0359c2301" to="#end0359c2301"><lem wit="#wit1" resp="#resp2">但</lem><rdg wit="#wit2">伹</rdg></app>
+<app from="#beg0360a2001" to="#end0360a2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0360c0101" to="#end0360c0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0360c0401" to="#end0360c0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0360c0901" to="#end0360c0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0360c2101" to="#end0360c2101"><lem wit="#wit1" resp="#resp2">羞</lem><rdg wit="#wit2"><g ref="#CB15561">󳳉</g></rdg></app>
+<app from="#beg0360c2301" to="#end0360c2301"><lem wit="#wit1" resp="#resp2">斂</lem><rdg wit="#wit2">歛</rdg></app>
+<app from="#beg0361a0701" to="#end0361a0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0361a2201" to="#end0361a2201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0361b1501" to="#end0361b1501"><lem wit="#wit1" resp="#resp2">袾</lem><rdg wit="#wit2">祩</rdg></app>
+<app from="#beg0361c2301" to="#end0361c2301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0362a0101" to="#end0362a0101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0362a0701" to="#end0362a0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0362a1301" to="#end0362a1301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0362b0101" to="#end0362b0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0362b0301" to="#end0362b0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0362b1601" to="#end0362b1601"><lem wit="#wit1" resp="#resp2">常</lem><rdg wit="#wit2">嘗</rdg></app>
+<app from="#beg0362b2201" to="#end0362b2201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0362c0401" to="#end0362c0401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0363a1201" to="#end0363a1201"><lem wit="#wit1" resp="#resp2">暖</lem><rdg wit="#wit2">緩</rdg></app>
+<app from="#beg0363a2301" to="#end0363a2301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0363b0101" to="#end0363b0101"><lem wit="#wit1" resp="#resp2">刺</lem><rdg wit="#wit2">剌</rdg></app>
+<app from="#beg0363b0301" to="#end0363b0301"><lem wit="#wit1" resp="#resp2">袾</lem><rdg wit="#wit2">祩</rdg></app>
+<app from="#beg0363c0901" to="#end0363c0901"><lem wit="#wit1" resp="#resp2">但</lem><rdg wit="#wit2">伹</rdg></app>
+<app from="#beg0364a1201" to="#end0364a1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0364b0601" to="#end0364b0601"><lem wit="#wit1" resp="#resp2">維</lem><rdg wit="#wit2">雜</rdg></app>
+<app from="#beg0364b0602" to="#end0364b0602"><lem wit="#wit1" resp="#resp2">斂</lem><rdg wit="#wit2">歛</rdg></app>
+<app from="#beg0364c0101" to="#end0364c0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0365b0501" to="#end0365b0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0365b1101" to="#end0365b1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0365c0601" to="#end0365c0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0365c1101" to="#end0365c1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0366a0301" to="#end0366a0301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0366a1101" to="#end0366a1101"><lem wit="#wit1" resp="#resp2">袾</lem><rdg wit="#wit2">祩</rdg></app>
+<app from="#beg0366a2301" to="#end0366a2301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0366b1601" to="#end0366b1601"><lem wit="#wit1" resp="#resp2">縱</lem><rdg wit="#wit2">從</rdg></app>
+<app from="#beg0367a1701" to="#end0367a1701"><lem wit="#wit1" resp="#resp2">傭</lem><rdg wit="#wit2">備</rdg></app>
+<app from="#beg0367b0901" to="#end0367b0901"><lem wit="#wit1" resp="#resp2">疑</lem><rdg wit="#wit2">擬</rdg></app>
+<app from="#beg0367b2201" to="#end0367b2201"><lem wit="#wit1" resp="#resp2">刺</lem><rdg wit="#wit2">剌</rdg></app>
+<app from="#beg0368a1301" to="#end0368a1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0368a1302" to="#end0368a1302"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0368b1001" to="#end0368b1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0368b1801" to="#end0368b1801"><lem wit="#wit1" resp="#resp2">袾</lem><rdg wit="#wit2">祩</rdg></app>
+<app from="#beg0369a1001" to="#end0369a1001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0369b1401" to="#end0369b1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0369b2001" to="#end0369b2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0369c2101" to="#end0369c2101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0370a1601" to="#end0370a1601"><lem wit="#wit1" resp="#resp2">但</lem><rdg wit="#wit2">伹</rdg></app>
+<app from="#beg0371b0901" to="#end0371b0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0371b1401" to="#end0371b1401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0371b1601" to="#end0371b1601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0371b1701" to="#end0371b1701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0371c1201" to="#end0371c1201"><lem wit="#wit1" resp="#resp2">袾</lem><rdg wit="#wit2">祩</rdg></app>
+<app from="#beg0372a1301" to="#end0372a1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0372b0201" to="#end0372b0201"><lem wit="#wit1" resp="#resp4">則</lem><rdg wit="#wit2">　</rdg></app>
+<app from="#beg0372b0701" to="#end0372b0701"><lem wit="#wit1" resp="#resp2">摶</lem><rdg wit="#wit2">搏</rdg></app>
+<app from="#beg0372b1101" to="#end0372b1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0372b1301" to="#end0372b1301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0372c0901" to="#end0372c0901"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0372c2101" to="#end0372c2101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0373a1101" to="#end0373a1101"><lem wit="#wit1" resp="#resp2">努</lem><rdg wit="#wit2">奴</rdg></app>
+<app from="#beg0373b1701" to="#end0373b1701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0373b2001" to="#end0373b2001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0373b2401" to="#end0373b2401"><lem wit="#wit1" resp="#resp2">采</lem><rdg wit="#wit2">釆</rdg></app>
+<app from="#beg0373c0401" to="#end0373c0401"><lem wit="#wit1" resp="#resp2">采</lem><rdg wit="#wit2">釆</rdg></app>
+<app from="#beg0374b0301" to="#end0374b0301"><lem wit="#wit1" resp="#resp2">袾</lem><rdg wit="#wit2">祩</rdg></app>
+<app from="#beg0374c1001" to="#end0374c1001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0374c1401" to="#end0374c1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0375a0501" to="#end0375a0501"><lem wit="#wit1" resp="#resp2">袾</lem><rdg wit="#wit2">祩</rdg></app>
+<app from="#beg0375a0901" to="#end0375a0901"><lem wit="#wit1" resp="#resp2">袾</lem><rdg wit="#wit2">祩</rdg></app>
+<app from="#beg0375a1801" to="#end0375a1801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0375b0501" to="#end0375b0501"><lem wit="#wit1" resp="#resp2">袾</lem><rdg wit="#wit2">祩</rdg></app>
+<app from="#beg0375b1901" to="#end0375b1901"><lem wit="#wit1" resp="#resp2">嘗</lem><rdg wit="#wit2">常</rdg></app>
+<app from="#beg0375c0601" to="#end0375c0601"><lem wit="#wit1" resp="#resp2">嘗</lem><rdg wit="#wit2">常</rdg></app>
+<app from="#beg0375c0602" to="#end0375c0602"><lem wit="#wit1" resp="#resp2">軟</lem><rdg wit="#wit2"><g ref="#CB15578">󳳚</g></rdg></app>
+<app from="#beg0375c2301" to="#end0375c2301"><lem wit="#wit1" resp="#resp2">袾</lem><rdg wit="#wit2">祩</rdg></app>
 </p>
 </cb:div>
 <cb:div type="xuzang-notes">
 <head>卍續藏 校註</head>
 <p>
-<note n="0360001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0360001">複疑復</note>
-<note n="0360002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0360002">項疑頂</note>
-<note n="0360003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0360003">挾疑夾</note>
-<note n="0360004" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0360004">返疑散</note>
-<note n="0361001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0361001">特疑持</note>
-<note n="0367001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0367001">權疑杈</note>
+<note n="0360001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0360001">複疑復</note>
+<note n="0360002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0360002">項疑頂</note>
+<note n="0360003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0360003">挾疑夾</note>
+<note n="0360004" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0360004">返疑散</note>
+<note n="0361001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0361001">特疑持</note>
+<note n="0367001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0367001">權疑杈</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0358b0501" resp="#resp1" type="add" target="#nkr_note_add_0358b0501">［－］【CB】，一【卍續】</note>
+<note n="0358b0601" resp="#resp1" type="add" target="#nkr_note_add_0358b0601">［－］【CB】，一【卍續】</note>
+<note n="0358b0801" resp="#resp1" type="add" target="#nkr_note_add_0358b0801">［－］【CB】，一【卍續】</note>
+<note n="0358b1001" resp="#resp1" type="add" target="#nkr_note_add_0358b1001">［－］【CB】，一【卍續】</note>
+<note n="0358c0801" resp="#resp1" type="add" target="#nkr_note_add_0358c0801">袾【CB】，祩【卍續】</note>
+<note n="0358c2001" resp="#resp1" type="add" target="#nkr_note_add_0358c2001">已【CB】，巳【卍續】</note>
+<note n="0358c2101" resp="#resp1" type="add" target="#nkr_note_add_0358c2101">已【CB】，巳【卍續】</note>
+<note n="0359b0101" resp="#resp1" type="add" target="#nkr_note_add_0359b0101">陝【CB】，陜【卍續】</note>
+<note n="0359c0101" resp="#resp1" type="add" target="#nkr_note_add_0359c0101">但【CB】，伹【卍續】</note>
+<note n="0359c2301" resp="#resp1" type="add" target="#nkr_note_add_0359c2301">但【CB】，伹【卍續】</note>
+<note n="0360a2001" resp="#resp1" type="add" target="#nkr_note_add_0360a2001">已【CB】，巳【卍續】</note>
+<note n="0360c0101" resp="#resp1" type="add" target="#nkr_note_add_0360c0101">已【CB】，巳【卍續】</note>
+<note n="0360c0401" resp="#resp1" type="add" target="#nkr_note_add_0360c0401">已【CB】，巳【卍續】</note>
+<note n="0360c0901" resp="#resp1" type="add" target="#nkr_note_add_0360c0901">已【CB】，巳【卍續】</note>
+<note n="0360c2101" resp="#resp1" type="add" target="#nkr_note_add_0360c2101">羞【CB】，<g ref="#CB15561">󳳉</g>【卍續】</note>
+<note n="0360c2301" resp="#resp1" type="add" target="#nkr_note_add_0360c2301">斂【CB】，歛【卍續】</note>
+<note n="0361a0701" resp="#resp1" type="add" target="#nkr_note_add_0361a0701">已【CB】，巳【卍續】</note>
+<note n="0361a2201" resp="#resp1" type="add" target="#nkr_note_add_0361a2201">已【CB】，巳【卍續】</note>
+<note n="0361b1501" resp="#resp1" type="add" target="#nkr_note_add_0361b1501">袾【CB】，祩【卍續】</note>
+<note n="0361c2301" resp="#resp1" type="add" target="#nkr_note_add_0361c2301">已【CB】，巳【卍續】</note>
+<note n="0362a0101" resp="#resp1" type="add" target="#nkr_note_add_0362a0101">己【CB】，已【卍續】</note>
+<note n="0362a0701" resp="#resp1" type="add" target="#nkr_note_add_0362a0701">已【CB】，巳【卍續】</note>
+<note n="0362a1301" resp="#resp1" type="add" target="#nkr_note_add_0362a1301">己【CB】，已【卍續】</note>
+<note n="0362b0101" resp="#resp1" type="add" target="#nkr_note_add_0362b0101">已【CB】，巳【卍續】</note>
+<note n="0362b0301" resp="#resp1" type="add" target="#nkr_note_add_0362b0301">已【CB】，巳【卍續】</note>
+<note n="0362b1601" resp="#resp1" type="add" target="#nkr_note_add_0362b1601">常【CB】，嘗【卍續】</note>
+<note n="0362b2201" resp="#resp1" type="add" target="#nkr_note_add_0362b2201">已【CB】，巳【卍續】</note>
+<note n="0362c0401" resp="#resp1" type="add" target="#nkr_note_add_0362c0401">己【CB】，已【卍續】</note>
+<note n="0363a1201" resp="#resp1" type="add" target="#nkr_note_add_0363a1201">暖【CB】，緩【卍續】</note>
+<note n="0363a2301" resp="#resp1" type="add" target="#nkr_note_add_0363a2301">己【CB】，已【卍續】</note>
+<note n="0363b0101" resp="#resp1" type="add" target="#nkr_note_add_0363b0101">刺【CB】，剌【卍續】</note>
+<note n="0363b0301" resp="#resp1" type="add" target="#nkr_note_add_0363b0301">袾【CB】，祩【卍續】</note>
+<note n="0363c0901" resp="#resp1" type="add" target="#nkr_note_add_0363c0901">但【CB】，伹【卍續】</note>
+<note n="0364a1201" resp="#resp1" type="add" target="#nkr_note_add_0364a1201">已【CB】，巳【卍續】</note>
+<note n="0364b0601" resp="#resp1" type="add" target="#nkr_note_add_0364b0601">維【CB】，雜【卍續】</note>
+<note n="0364b0602" resp="#resp1" type="add" target="#nkr_note_add_0364b0602">斂【CB】，歛【卍續】</note>
+<note n="0364c0101" resp="#resp1" type="add" target="#nkr_note_add_0364c0101">已【CB】，巳【卍續】</note>
+<note n="0365b0501" resp="#resp1" type="add" target="#nkr_note_add_0365b0501">已【CB】，巳【卍續】</note>
+<note n="0365b1101" resp="#resp1" type="add" target="#nkr_note_add_0365b1101">已【CB】，巳【卍續】</note>
+<note n="0365c0601" resp="#resp1" type="add" target="#nkr_note_add_0365c0601">已【CB】，巳【卍續】</note>
+<note n="0365c1101" resp="#resp1" type="add" target="#nkr_note_add_0365c1101">已【CB】，巳【卍續】</note>
+<note n="0366a0301" resp="#resp1" type="add" target="#nkr_note_add_0366a0301">己【CB】，已【卍續】</note>
+<note n="0366a1101" resp="#resp1" type="add" target="#nkr_note_add_0366a1101">袾【CB】，祩【卍續】</note>
+<note n="0366a2301" resp="#resp1" type="add" target="#nkr_note_add_0366a2301">己【CB】，已【卍續】</note>
+<note n="0366b1601" resp="#resp1" type="add" target="#nkr_note_add_0366b1601">縱【CB】，從【卍續】</note>
+<note n="0367a1701" resp="#resp1" type="add" target="#nkr_note_add_0367a1701">傭【CB】，備【卍續】</note>
+<note n="0367b0901" resp="#resp1" type="add" target="#nkr_note_add_0367b0901">疑【CB】，擬【卍續】</note>
+<note n="0367b2201" resp="#resp1" type="add" target="#nkr_note_add_0367b2201">刺【CB】，剌【卍續】</note>
+<note n="0368a1301" resp="#resp1" type="add" target="#nkr_note_add_0368a1301">已【CB】，巳【卍續】</note>
+<note n="0368a1302" resp="#resp1" type="add" target="#nkr_note_add_0368a1302">已【CB】，巳【卍續】</note>
+<note n="0368b1001" resp="#resp1" type="add" target="#nkr_note_add_0368b1001">已【CB】，巳【卍續】</note>
+<note n="0368b1801" resp="#resp1" type="add" target="#nkr_note_add_0368b1801">袾【CB】，祩【卍續】</note>
+<note n="0369a1001" resp="#resp1" type="add" target="#nkr_note_add_0369a1001">己【CB】，已【卍續】</note>
+<note n="0369b1401" resp="#resp1" type="add" target="#nkr_note_add_0369b1401">已【CB】，巳【卍續】</note>
+<note n="0369b2001" resp="#resp1" type="add" target="#nkr_note_add_0369b2001">已【CB】，巳【卍續】</note>
+<note n="0369c2101" resp="#resp1" type="add" target="#nkr_note_add_0369c2101">己【CB】，已【卍續】</note>
+<note n="0370a1601" resp="#resp1" type="add" target="#nkr_note_add_0370a1601">但【CB】，伹【卍續】</note>
+<note n="0371b0901" resp="#resp1" type="add" target="#nkr_note_add_0371b0901">已【CB】，巳【卍續】</note>
+<note n="0371b1401" resp="#resp1" type="add" target="#nkr_note_add_0371b1401">己【CB】，已【卍續】</note>
+<note n="0371b1601" resp="#resp1" type="add" target="#nkr_note_add_0371b1601">己【CB】，已【卍續】</note>
+<note n="0371b1701" resp="#resp1" type="add" target="#nkr_note_add_0371b1701">己【CB】，已【卍續】</note>
+<note n="0371c1201" resp="#resp1" type="add" target="#nkr_note_add_0371c1201">袾【CB】，祩【卍續】</note>
+<note n="0372a1301" resp="#resp1" type="add" target="#nkr_note_add_0372a1301">已【CB】，巳【卍續】</note>
+<note n="0372b0201" resp="#resp1" type="add" target="#nkr_note_add_0372b0201">則【CB】，［－］【卍續】</note>
+<note n="0372b0701" resp="#resp1" type="add" target="#nkr_note_add_0372b0701">摶【CB】，搏【卍續】</note>
+<note n="0372b1101" resp="#resp1" type="add" target="#nkr_note_add_0372b1101">已【CB】，巳【卍續】</note>
+<note n="0372b1301" resp="#resp1" type="add" target="#nkr_note_add_0372b1301">己【CB】，已【卍續】</note>
+<note n="0372c0901" resp="#resp1" type="add" target="#nkr_note_add_0372c0901">己【CB】，已【卍續】</note>
+<note n="0372c2101" resp="#resp1" type="add" target="#nkr_note_add_0372c2101">已【CB】，巳【卍續】</note>
+<note n="0373a1101" resp="#resp1" type="add" target="#nkr_note_add_0373a1101">努【CB】，奴【卍續】</note>
+<note n="0373b1701" resp="#resp1" type="add" target="#nkr_note_add_0373b1701">己【CB】，已【卍續】</note>
+<note n="0373b2001" resp="#resp1" type="add" target="#nkr_note_add_0373b2001">己【CB】，已【卍續】</note>
+<note n="0373b2401" resp="#resp1" type="add" target="#nkr_note_add_0373b2401">采【CB】，釆【卍續】</note>
+<note n="0373c0401" resp="#resp1" type="add" target="#nkr_note_add_0373c0401">采【CB】，釆【卍續】</note>
+<note n="0374b0301" resp="#resp1" type="add" target="#nkr_note_add_0374b0301">袾【CB】，祩【卍續】</note>
+<note n="0374c1001" resp="#resp1" type="add" target="#nkr_note_add_0374c1001">己【CB】，已【卍續】</note>
+<note n="0374c1401" resp="#resp1" type="add" target="#nkr_note_add_0374c1401">已【CB】，巳【卍續】</note>
+<note n="0375a0501" resp="#resp1" type="add" target="#nkr_note_add_0375a0501">袾【CB】，祩【卍續】</note>
+<note n="0375a0901" resp="#resp1" type="add" target="#nkr_note_add_0375a0901">袾【CB】，祩【卍續】</note>
+<note n="0375a1801" resp="#resp1" type="add" target="#nkr_note_add_0375a1801">已【CB】，巳【卍續】</note>
+<note n="0375b0501" resp="#resp1" type="add" target="#nkr_note_add_0375b0501">袾【CB】，祩【卍續】</note>
+<note n="0375b1901" resp="#resp1" type="add" target="#nkr_note_add_0375b1901">嘗【CB】，常【卍續】</note>
+<note n="0375c0601" resp="#resp1" type="add" target="#nkr_note_add_0375c0601">嘗【CB】，常【卍續】</note>
+<note n="0375c0602" resp="#resp1" type="add" target="#nkr_note_add_0375c0602">軟【CB】，<g ref="#CB15578">󳳚</g>【卍續】</note>
+<note n="0375c2301" resp="#resp1" type="add" target="#nkr_note_add_0375c2301">袾【CB】，祩【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

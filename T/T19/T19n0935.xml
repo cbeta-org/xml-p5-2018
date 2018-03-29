@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 19, No. 935</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -212,7 +216,7 @@ Added comment  for Emacs
 <lb n="0081b17" ed="T"/>得勝菩提。願如無等釋迦王佛。</p>
 <lb n="0081b18" ed="T"/><p xml:id="pT19p0081b1801">生生世世。息除修道之閒斷。身心之諸病。時
 <lb n="0081b19" ed="T"/>以微題名號。即能息滅身語意之痛愆。願如
-<lb n="0081b20" ed="T"/>藥師琉<anchor xml:id="beg_1" type="cb-app"/>璃<anchor xml:id="end_1"/>光王如來。</p>
+<lb n="0081b20" ed="T"/>藥師琉<anchor xml:id="nkr_note_add_0081b2001" n="0081b2001"/><anchor xml:id="beg0081b2001" n="0081b2001"/>璃<anchor xml:id="end0081b2001"/>光王如來。</p>
 <lb n="0081b21" ed="T"/><p xml:id="pT19p0081b2101">復於生生世世。如欲壽終無極。以微題名號。
 <lb n="0081b22" ed="T"/>即能摧滅非時橫夭。願如無量壽佛。</p>
 <lb n="0081b23" ed="T"/><p xml:id="pT19p0081b2301">若壽障將至之時。即見救濟無量壽以四業
@@ -257,13 +261,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>璃</corr><sic>離</sic></choice>
+<app from="#beg0081b2001" to="#end0081b2001"><lem wit="#wit1" resp="#resp2">璃</lem><rdg wit="#wit2">離</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0080009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0080009">【原】清道光四年刊</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0081b2001" resp="#resp2" type="add" target="#nkr_note_add_0081b2001">璃【CB】，離【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

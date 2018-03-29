@@ -38,8 +38,8 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
-		<witness xml:id="wit5">【CBETA】</witness>
-		<witness xml:id="wit6">【麗】</witness>
+		<witness xml:id="wit5">【CB】</witness>
+		<witness xml:id="wit6">【麗-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -158,7 +158,7 @@ Added comment  for Emacs
 <lb n="0837c26" ed="T"/>佛說：「有賢者法，比丘聽說，亦有非賢者法，
 <lb n="0837c27" ed="T"/>當聽熟聽、熟知熟念說。」比丘唯然，從佛受教，
 <lb n="0837c28" ed="T"/>佛便說是。</p>
-<lb n="0837c29" ed="T"/><p xml:id="pT01p0837c2901">「何等比丘非賢者法？若比丘大姓，<anchor xml:id="beg_1" type="cb-app"/>憙<anchor xml:id="end_1"/>道欲學
+<lb n="0837c29" ed="T"/><p xml:id="pT01p0837c2901">「何等比丘非賢者法？若比丘大姓，<anchor xml:id="nkr_note_add_0837c2901" n="0837c2901"/><anchor xml:id="beg0837c2901" n="0837c2901"/>憙<anchor xml:id="end0837c2901"/>道欲學
 <pb n="0838a" ed="T" xml:id="T01.0048.0838a"/>
 <lb n="0838a01" ed="T"/>道，若有餘同學比丘非大姓，比丘大姓故，
 <lb n="0838a02" ed="T"/>為自憍身欺餘，是非賢者法。</p>
@@ -196,7 +196,7 @@ Added comment  for Emacs
 <lb n="0838b04" ed="T"/><p xml:id="pT01p0838b0401">「或時是聞一者比丘，知聞經能說經、知律知
 <lb n="0838b05" ed="T"/>入通經，餘比丘不如，便從入故、從通經故，
 <lb n="0838b06" ed="T"/>自譽自憍欺餘，是非賢者法。</p>
-<lb n="0838b07" ed="T"/><p xml:id="pT01p0838b0701">「賢者復不爾，賢<anchor xml:id="beg_2" type="cb-app"/>者<anchor xml:id="end_2"/>但計學是我不必從入
+<lb n="0838b07" ed="T"/><p xml:id="pT01p0838b0701">「賢者復不爾，賢<anchor xml:id="nkr_note_add_0838b0701" n="0838b0701"/><anchor xml:id="beg0838b0701" n="0838b0701"/>者<anchor xml:id="end0838b0701"/>但計學是我不必從入
 <lb n="0838b08" ed="T"/>故，亦不從通經故，能斷貪欲、能斷瞋恚、能斷
 <lb n="0838b09" ed="T"/>愚癡。</p>
 <lb n="0838b10" ed="T"/><p xml:id="pT01p0838b1001">「或時有比丘，無有入，亦不通經，但受法隨法，
@@ -235,7 +235,7 @@ Added comment  for Emacs
 <lb n="0838c13" ed="T"/><p xml:id="pT01p0838c1301">「賢者復不爾，賢者但學第一禪者，佛說自知
 <lb n="0838c14" ed="T"/>是，受是法諦，不自譽、不自憍、不欺餘，是賢者
 <lb n="0838c15" ed="T"/>法。</p>
-<lb n="0838c16" ed="T"/><p xml:id="pT01p0838c1601">「或時比丘，有二禪<anchor xml:id="nkr_note_orig_0838008" n="0838008"/><anchor xml:id="beg0838008" n="0838008"/>德<anchor xml:id="end0838008"/>，或有三禪<anchor xml:id="beg_3" type="star"/>德<anchor xml:id="end_3"/>，或有
+<lb n="0838c16" ed="T"/><p xml:id="pT01p0838c1601">「或時比丘，有二禪<anchor xml:id="nkr_note_orig_0838008" n="0838008"/><anchor xml:id="nkr_note_mod_0838008" n="0838008"/><anchor xml:id="beg0838008" n="0838008"/>德<anchor xml:id="end0838008"/>，或有三禪<anchor xml:id="beg_1" type="star"/>德<anchor xml:id="end_1"/>，或有
 <lb n="0838c17" ed="T"/>四禪<anchor xml:id="nkr_note_orig_0838009" n="0838009"/><anchor xml:id="nkr_note_mod_0838009" n="0838009"/><anchor xml:id="beg0838009" n="0838009"/>德，如<anchor xml:id="end0838009"/>第一禪說，是賢者法。</p>
 <lb n="0838c18" ed="T"/><p xml:id="pT01p0838c1801">「或時比丘，解空行意，或時解識行意，或時
 <lb n="0838c19" ed="T"/>解非常行意，或時解無有思想<anchor xml:id="nkr_note_orig_0838010" n="0838010"/><anchor xml:id="nkr_note_mod_0838010" n="0838010"/><anchor xml:id="beg0838010" n="0838010"/>意行<anchor xml:id="end0838010"/>有思想
@@ -258,17 +258,17 @@ Added comment  for Emacs
 <p>
 <app from="#beg0837008" to="#end0837008"><lem wit="#wit1"><note place="inline">出《中阿含》</note></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0837009" to="#end0837009"><lem wit="#wit1">三藏</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">沙門</rdg></app>
-<choice cb:resp="#resp3 resp4" cb:from="#beg_1" cb:to="#end_1"><corr>憙</corr><sic>熹</sic></choice>
+<app from="#beg0837c2901" to="#end0837c2901"><lem wit="#wit5" resp="#resp3 resp4">憙</lem><rdg wit="#wit1">熹</rdg></app>
 <app from="#beg0838001" to="#end0838001"><lem wit="#wit1">法說</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">說法</rdg></app>
 <app from="#beg0838002" to="#end0838002"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">知</rdg></app>
 <app from="#beg0838003" to="#end0838003"><lem wit="#wit1">從</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">行</rdg></app>
 <app from="#beg0838004" to="#end0838004"><lem wit="#wit1">從</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0838005" to="#end0838005"><lem wit="#wit1">得</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">得譽得</rdg></app>
-<app from="#beg_2" to="#end_2"><lem resp="#resp3" wit="#wit5 #wit6">者<note type="cf1">K19n0690_p0562c06</note></lem><rdg wit="#wit1">故</rdg></app>
+<app from="#beg0838b0701" to="#end0838b0701"><lem resp="#resp3" wit="#wit5 #wit6">者<note type="cf1">K19n0690_p0562c06</note></lem><rdg wit="#wit1">故</rdg></app>
 <app from="#beg0838006" to="#end0838006"><lem wit="#wit1">後</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">後不</rdg></app>
 <app from="#beg0838007" to="#end0838007"><lem wit="#wit1">澤</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">澤塚</rdg></app>
 <app from="#beg0838008" to="#end0838008"><lem wit="#wit1">德</lem><rdg resp="#resp1" wit="#wit2 #wit4">得</rdg></app>
-<app from="#beg_3" to="#end_3" corresp="#0838008"><lem wit="#wit1">德</lem><rdg resp="#resp1" wit="#wit2 #wit4">得</rdg></app>
+<app from="#beg_1" to="#end_1" corresp="#0838008"><lem wit="#wit1">德</lem><rdg resp="#resp1" wit="#wit2 #wit4">得</rdg></app>
 <app from="#beg0838009" to="#end0838009"><lem wit="#wit1">德，如</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">得如</rdg></app>
 <app from="#beg0838010" to="#end0838010"><lem wit="#wit1">意行</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">行意</rdg></app>
 <app from="#beg0838011" to="#end0838011"><lem wit="#wit1">亦無</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">行亦</rdg></app>
@@ -278,19 +278,20 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0837008" resp="#resp2" type="mod" target="#nkr_note_mod_0837008">〔出中阿含〕－【宋】【元】【明】</note>
-<note n="0837009" resp="#resp2" type="mod" target="#nkr_note_mod_0837009">三藏＝沙門【宋】【元】【明】</note>
-<note n="0838001" resp="#resp2" type="mod" target="#nkr_note_mod_0838001">法說＝說法【宋】【元】【明】</note>
-<note n="0838002" resp="#resp2" type="mod" target="#nkr_note_mod_0838002">如＝知【宋】【元】【明】</note>
-<note n="0838003" resp="#resp2" type="mod" target="#nkr_note_mod_0838003">從＝行【宋】【元】【明】</note>
-<note n="0838004" resp="#resp2" type="mod" target="#nkr_note_mod_0838004">〔從〕－【宋】【元】【明】</note>
-<note n="0838005" resp="#resp2" type="mod" target="#nkr_note_mod_0838005">得＋（譽得）【宋】【元】【明】</note>
-<note n="0838006" resp="#resp2" type="mod" target="#nkr_note_mod_0838006">後＋（不）【宋】【元】【明】</note>
-<note n="0838007" resp="#resp2" type="mod" target="#nkr_note_mod_0838007">澤＋（塚）【宋】【元】【明】</note>
-<note n="0838009" resp="#resp2" type="mod" target="#nkr_note_mod_0838009">德如＝得如【宋】【元】【明】</note>
-<note n="0838010" resp="#resp2" type="mod" target="#nkr_note_mod_0838010">意行＝行意【宋】【元】【明】</note>
-<note n="0838011" resp="#resp2" type="mod" target="#nkr_note_mod_0838011">亦無＝行亦【宋】【元】【明】</note>
-<note n="0838012" resp="#resp2" type="mod" target="#nkr_note_mod_0838012">說＝語【宋】【元】【明】</note>
+<note n="0837008" resp="#resp2" type="mod" target="#nkr_note_mod_0837008">出中阿含【大】，〔－〕【宋】【元】【明】</note>
+<note n="0837009" resp="#resp2" type="mod" target="#nkr_note_mod_0837009">三藏【大】，沙門【宋】【元】【明】</note>
+<note n="0838001" resp="#resp2" type="mod" target="#nkr_note_mod_0838001">法說【大】，說法【宋】【元】【明】</note>
+<note n="0838002" resp="#resp2" type="mod" target="#nkr_note_mod_0838002">如【大】，知【宋】【元】【明】</note>
+<note n="0838003" resp="#resp2" type="mod" target="#nkr_note_mod_0838003">從【大】，行【宋】【元】【明】</note>
+<note n="0838004" resp="#resp2" type="mod" target="#nkr_note_mod_0838004">從【大】，〔－〕【宋】【元】【明】</note>
+<note n="0838005" resp="#resp2" type="mod" target="#nkr_note_mod_0838005">得【大】，得譽得【宋】【元】【明】</note>
+<note n="0838006" resp="#resp2" type="mod" target="#nkr_note_mod_0838006">後【大】，後不【宋】【元】【明】</note>
+<note n="0838007" resp="#resp2" type="mod" target="#nkr_note_mod_0838007">澤【大】，澤塚【宋】【元】【明】</note>
+<note n="0838008" resp="#resp2" type="mod" target="#nkr_note_mod_0838008">德【大】＊，得【宋】【明】＊</note>
+<note n="0838009" resp="#resp2" type="mod" target="#nkr_note_mod_0838009">德如【大】，得如【宋】【元】【明】</note>
+<note n="0838010" resp="#resp2" type="mod" target="#nkr_note_mod_0838010">意行【大】，行意【宋】【元】【明】</note>
+<note n="0838011" resp="#resp2" type="mod" target="#nkr_note_mod_0838011">亦無【大】，行亦【宋】【元】【明】</note>
+<note n="0838012" resp="#resp2" type="mod" target="#nkr_note_mod_0838012">說【大】，語【宋】【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -310,6 +311,13 @@ Added comment  for Emacs
 <note n="0838010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0838010">意行＝行意【三】</note>
 <note n="0838011" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0838011">亦無＝行亦【三】</note>
 <note n="0838012" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0838012">說＝語【三】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0837c2901" resp="#resp2" type="add" target="#nkr_note_add_0837c2901">憙【CB】，熹【大】</note>
+<note n="0838b0701" resp="#resp2" type="add" target="#nkr_note_add_0838b0701">者【CB】【麗-CB】，故【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

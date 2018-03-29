@@ -13,8 +13,9 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2010/03/10 03:47:51 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>ZangWai</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>ZangWai</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 9, No. 73h</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -140,7 +145,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="ZW" n="0168a23"/>薩。』汝今諦聽，當為汝說。善男子、善女人發阿
 <lb ed="ZW" n="0168a24"/>耨多羅三藐三菩提心，應如是住，如是降伏其
 <lb ed="ZW" n="0168a25"/>心。」「唯然世尊，願樂欲聞」。</p></cb:div>
-<lb ed="ZW" n="0168a26"/><cb:div type="commentary"><p xml:id="pZW09p0168a2601" rend="margin-left:2em">頌<anchor xml:id="beg_1" type="cb-app"/>曰<anchor xml:id="end_1"/>：</p>
+<lb ed="ZW" n="0168a26"/><cb:div type="commentary"><p xml:id="pZW09p0168a2601" rend="margin-left:2em">頌<anchor xml:id="nkr_note_add_0168a2601" n="0168a2601"/><anchor xml:id="beg0168a2601" n="0168a2601"/>曰<anchor xml:id="end0168a2601"/>：</p>
 <lb ed="ZW" n="0168a27"/><lg xml:id="lgZW09p0168a2701" type="abnormal"><l rend="text-indent:2em">希有希有佛，</l><l rend="text-indent:0em">妙理極泥洹。</l>
 <lb ed="ZW" n="0168a28"/><l rend="text-indent:2em">云何降伏住，</l><l rend="text-indent:0em">降伏住為難。</l>
 <pb ed="ZW" xml:id="ZW09.0073h.0169a" n="0169a"/>
@@ -902,17 +907,23 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>曰</corr><sic><space quantity="0"/></sic></choice>
+<app from="#beg0168a2601" to="#end0168a2601"><lem wit="#wit1" resp="#resp2">曰</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
 <head>方廣錩 校註</head>
 <p>
-<note n="0170001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0170001">「間」，底本作「閒」，據上圖004號改。</note>
-<note n="0176001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0176001">「辭」，底本作「思」，據上圖004號改。</note>
-<note n="0190001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0190001">「要」，底本作「惡」，據上圖004號改。</note>
-<note n="0192001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0192001">「哪」，底本作「那」，據文意改。</note>
-<note n="0195001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0195001">卷末有題記：「施主易州淶水縣坊市俗弟子張嗣興舍己淨財將造《夾頌金剛經》一卷。皇統二年二月日成造。」類似的刻經題記，每一板都有，位於板邊，內容大同小異，此次未錄校。</note>
+<note n="0170001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0170001">「間」，底本作「閒」，據上圖004號改。</note>
+<note n="0176001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0176001">「辭」，底本作「思」，據上圖004號改。</note>
+<note n="0190001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0190001">「要」，底本作「惡」，據上圖004號改。</note>
+<note n="0192001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0192001">「哪」，底本作「那」，據文意改。</note>
+<note n="0195001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0195001">卷末有題記：「施主易州淶水縣坊市俗弟子張嗣興舍己淨財將造《夾頌金剛經》一卷。皇統二年二月日成造。」類似的刻經題記，每一板都有，位於板邊，內容大同小異，此次未錄校。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0168a2601" resp="#resp1" type="add" target="#nkr_note_add_0168a2601">曰【CB】，［－］【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

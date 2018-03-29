@@ -37,6 +37,7 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit6">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -164,7 +165,7 @@ Added comment  for Emacs
 <lb n="0535a13" ed="T"/>毀於<g ref="#CB00416">󰆠</g>矣。亦當復如風火之力、光，死人、死狗、
 <lb ed="T" n="0535a14"/>死蛇、屎尿，亦吹亦燒，然不毀風火之力、光。若
 <lb n="0535a15" ed="T"/>人欲來殺己，己亦不瞋；欲來謗己，己亦不瞋；
-<lb n="0535a16" ed="T"/>欲來譖己，己亦不瞋；欲<anchor xml:id="beg_1" type="cb-app"/>來<anchor xml:id="end_1"/>笑己，己亦不瞋；欲
+<lb n="0535a16" ed="T"/>欲來譖己，己亦不瞋；欲<anchor xml:id="nkr_note_add_0535a1601" n="0535a1601"/><anchor xml:id="beg0535a1601" n="0535a1601"/>來<anchor xml:id="end0535a1601"/>笑己，己亦不瞋；欲
 <lb ed="T" n="0535a17"/>來壞己，使不事佛法，己亦不瞋；但當慈心正
 <lb ed="T" n="0535a18"/><anchor xml:id="nkr_note_orig_0535001" n="0535001"/><anchor xml:id="nkr_note_mod_0535001" n="0535001"/><anchor xml:id="beg0535001" n="0535001"/>意，罪<anchor xml:id="end0535001"/>滅福生，邪不入正，萬惡消爛。」</p><p xml:id="pT17p0535a1814" rend="inline">佛告阿
 <lb n="0535a19" ed="T"/>難：「其有好心善意之人，聞佛明法，一心而聽，
@@ -192,7 +193,7 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0534034" to="#end0534034"><lem wit="#wit1">安息國</lem><rdg wit="#wit2 #wit3 #wit4 #wit5" resp="#resp1"><space quantity="0"/></rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>來</corr><sic>時</sic></choice>
+<app from="#beg0535a1601" to="#end0535a1601"><lem wit="#wit6" resp="#resp2">來</lem><rdg wit="#wit1">時</rdg></app>
 <app from="#beg0535001" to="#end0535001"><lem wit="#wit1">意，罪</lem><rdg wit="#wit2 #wit3 #wit4 #wit5" resp="#resp1">心惡</rdg></app>
 <app from="#beg0535002" to="#end0535002"><lem wit="#wit1">攘</lem><rdg wit="#wit2 #wit3 #wit4" resp="#resp1">禳</rdg></app>
 <app from="#beg0535003" to="#end0535003"><lem wit="#wit1">殃</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">罪殃</rdg></app>
@@ -203,12 +204,12 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0534034" type="mod" resp="#resp2" target="#nkr_note_mod_0534034">〔安息國〕－【宋】【元】【明】【宮】</note>
-<note resp="#resp2" type="mod" n="0535001" target="#nkr_note_mod_0535001">意罪＝心惡【宋】【元】【明】【宮】</note>
-<note n="0535002" resp="#resp2" type="mod" target="#nkr_note_mod_0535002">攘＝禳【宋】【元】【明】</note>
-<note resp="#resp2" type="mod" n="0535003" target="#nkr_note_mod_0535003">（罪）＋殃【宋】【元】【明】【宮】</note>
-<note resp="#resp2" type="mod" n="0535004a" target="#nkr_note_mod_0535004a">〔者〕－【宋】【元】【明】【宮】</note>
-<note resp="#resp2" type="mod" n="0535004b" target="#nkr_note_mod_0535004b">〔佛說經已〕－【宋】【元】【明】【宮】</note>
+<note n="0534034" type="mod" resp="#resp2" target="#nkr_note_mod_0534034">安息國【大】，〔－〕【宋】【元】【明】【宮】</note>
+<note resp="#resp2" type="mod" n="0535001" target="#nkr_note_mod_0535001">意罪【大】，心惡【宋】【元】【明】【宮】</note>
+<note n="0535002" resp="#resp2" type="mod" target="#nkr_note_mod_0535002">攘【大】，禳【宋】【元】【明】</note>
+<note resp="#resp2" type="mod" n="0535003" target="#nkr_note_mod_0535003">殃【大】，罪殃【宋】【元】【明】【宮】</note>
+<note resp="#resp2" type="mod" n="0535004a" target="#nkr_note_mod_0535004a">者【大】，〔－〕【宋】【元】【明】【宮】</note>
+<note resp="#resp2" type="mod" n="0535004b" target="#nkr_note_mod_0535004b">佛說經已【大】，〔－〕【宋】【元】【明】【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -219,6 +220,12 @@ Added comment  for Emacs
 <note n="0535002" place="foot text" resp="#resp1" type="orig" target="#nkr_note_orig_0535002">攘＝禳【三】</note>
 <note type="orig" resp="#resp1" n="0535003" place="foot text" target="#nkr_note_orig_0535003">（罪）＋殃【三】【宮】</note>
 <note n="0535004" place="foot text" type="orig" resp="#resp1" target="#nkr_note_orig_0535004">〔者佛說經已〕－【三】【宮】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0535a1601" resp="#resp2" type="add" target="#nkr_note_add_0535a1601">來【CB】，時【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

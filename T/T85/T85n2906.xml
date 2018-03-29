@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2906</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -171,7 +175,7 @@ Added comment  for Emacs
 <lb n="1449c10" ed="T"/>□□□□□□□□好成熟者搗持土穢。隨
 <lb n="1449c11" ed="T"/>意多少湯□□□□□□□□□□□□乾後
 <lb n="1449c12" ed="T"/>蒸之。使微氣出極溜通止。更□□□□□
-<lb n="1449c13" ed="T"/>□□□□□□□<anchor xml:id="beg_1" type="cb-app"/>曝<anchor xml:id="end_1"/>每至蒸時。要須快日天
+<lb n="1449c13" ed="T"/>□□□□□□□<anchor xml:id="nkr_note_add_1449c1301" n="1449c1301"/><anchor xml:id="beg1449c1301" n="1449c1301"/>曝<anchor xml:id="end1449c1301"/>每至蒸時。要須快日天
 <lb n="1449c14" ed="T"/>陰。不得□□□□□□□□□□□□復溫
 <lb n="1449c15" ed="T"/>而復蒸。都<g ref="#CB02720">󰪠</g>訖而後搗之。和以白蜜。□□□
 <lb n="1449c16" ed="T"/>□□□□□□至服時。一服一枚。以日三時
@@ -205,7 +209,7 @@ Added comment  for Emacs
 <lb n="1450a14" ed="T"/>□□□□□□□□□□□□□□□又方。
 <lb n="1450a15" ed="T"/>七月十七日。去手爪足爪吞。腹中去三尸□
 <lb n="1450a16" ed="T"/>□□□□□□　又方。取蕪荑五升。乾柴四
-<lb n="1450a17" ed="T"/>兩。苟<anchor xml:id="beg_2" type="cb-app"/>杞<anchor xml:id="end_2"/>根四□□□□□□□華水服日
+<lb n="1450a17" ed="T"/>兩。苟<anchor xml:id="nkr_note_add_1450a1701" n="1450a1701"/><anchor xml:id="beg1450a1701" n="1450a1701"/>杞<anchor xml:id="end1450a1701"/>根四□□□□□□□華水服日
 <lb n="1450a18" ed="T"/>一食。五日三尸。虫於下部中出□□□□□
 <lb n="1450a19" ed="T"/>□□□防護之。三日後自好不須防。觀世音
 <lb n="1450a20" ed="T"/>菩薩□□□□□□□□傍蟹八枚。上好酒
@@ -437,8 +441,8 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>曝</corr><sic><g ref="#CB02720">󰪠</g></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>杞</corr><sic><g ref="#CB01096">𣏌</g></sic></choice>
+<app from="#beg1449c1301" to="#end1449c1301"><lem wit="#wit1" resp="#resp2">曝</lem><rdg wit="#wit2"><g ref="#CB02720">󰪠</g></rdg></app>
+<app from="#beg1450a1701" to="#end1450a1701"><lem wit="#wit1" resp="#resp2">杞</lem><rdg wit="#wit2"><g ref="#CB01096">𣏌</g></rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -447,6 +451,13 @@ Added comment  for Emacs
 <note n="1449001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1449001">【原】大英博物館藏燉煌本, S. 2438, 首題新加</note>
 <note n="1449002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1449002">首缺</note>
 <note n="1452001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1452001">尾缺</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1449c1301" resp="#resp2" type="add" target="#nkr_note_add_1449c1301">曝【CB】，<g ref="#CB02720">󰪠</g>【大】</note>
+<note n="1450a1701" resp="#resp2" type="add" target="#nkr_note_add_1450a1701">杞【CB】，<g ref="#CB01096">𣏌</g>【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

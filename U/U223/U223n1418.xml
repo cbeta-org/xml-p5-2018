@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.4 $<date>$Date: 2011/04/18 11:50:59 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>16卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Southern Hongwu Edition of the Canon Vol. 223, No. 1418</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【洪武】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -563,8 +568,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0003b41"/><item xml:id="itemU223p0003b4101">八明光應遠</item>
 <lb ed="U" n="0003b42"/><item xml:id="itemU223p0003b4201">九彼眾感通</item>
 <lb ed="U" n="0003b43"/><item xml:id="itemU223p0003b4301">十偈聲召命<note place="inline">五</note>
-<lb ed="U" n="0003b44"/><list><item xml:id="itemU223p0003b4401">初因果<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>滿勸同觀禮</item>
-<lb ed="U" n="0003b45"/><item xml:id="itemU223p0003b4501">二眾海<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>集引例勸歸</item>
+<lb ed="U" n="0003b44"/><list><item xml:id="itemU223p0003b4401">初因果<anchor xml:id="nkr_note_add_0003b4401" n="0003b4401"/><anchor xml:id="beg0003b4401" n="0003b4401"/>已<anchor xml:id="end0003b4401"/>滿勸同觀禮</item>
+<lb ed="U" n="0003b45"/><item xml:id="itemU223p0003b4501">二眾海<anchor xml:id="nkr_note_add_0003b4501" n="0003b4501"/><anchor xml:id="beg0003b4501" n="0003b4501"/>已<anchor xml:id="end0003b4501"/>集引例勸歸</item>
 <lb ed="U" n="0003b46"/><item xml:id="itemU223p0003b4601">三圓音随機見必蒙益</item>
 <lb ed="U" n="0003b47"/><item xml:id="itemU223p0003b4701">四義海頓演冝速及時</item>
 <lb ed="U" n="0003b48"/><item xml:id="itemU223p0003b4801">五特命有緣是光本意</item></list></item></list></item>
@@ -865,7 +870,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0008b26"/><list><item xml:id="itemU223p0008b2601">初配十地十度<note place="inline">亦有</note></item>
 <lb ed="U" n="0008b27"/><item xml:id="itemU223p0008b2701">二約随事立名<note place="inline">二此</note></item></list></item>
 <lb ed="U" n="0008b28"/><item xml:id="itemU223p0008b2801">三如来讚述<note place="inline">二</note>
-<lb ed="U" n="0008b29"/><list><item xml:id="itemU223p0008b2901">初<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>具勝德當成極果</item>
+<lb ed="U" n="0008b29"/><list><item xml:id="itemU223p0008b2901">初<anchor xml:id="nkr_note_add_0008b2901" n="0008b2901"/><anchor xml:id="beg0008b2901" n="0008b2901"/>已<anchor xml:id="end0008b2901"/>具勝德當成極果</item>
 <lb ed="U" n="0008b30"/><item xml:id="itemU223p0008b3001">二行齊佛因當如佛證</item></list></item></list></item></list></item></list></item>
 <lb ed="U" n="0008b31"/><item xml:id="itemU223p0008b3101">三最勝功德海佛<note place="inline">六</note>
 <lb ed="U" n="0008b32"/><list><item xml:id="itemU223p0008b3201">初如来出時</item>
@@ -1338,7 +1343,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0013b14"/><item xml:id="itemU223p0013b1401">三大悲救攝德<note place="inline">二</note>
 <lb ed="U" n="0013b15"/><list><item xml:id="itemU223p0013b1501">初長行</item>
 <lb ed="U" n="0013b16"/><item xml:id="itemU223p0013b1601">二偈頌<note place="inline">三</note>
-<lb ed="U" n="0013b17"/><list><item xml:id="itemU223p0013b1701">初揔標行海<anchor xml:id="beg_4" type="cb-app"/>已<anchor xml:id="end_4"/>圓</item>
+<lb ed="U" n="0013b17"/><list><item xml:id="itemU223p0013b1701">初揔標行海<anchor xml:id="nkr_note_add_0013b1701" n="0013b1701"/><anchor xml:id="beg0013b1701" n="0013b1701"/>已<anchor xml:id="end0013b1701"/>圓</item>
 <lb ed="U" n="0013b18"/><item xml:id="itemU223p0013b1801">二別顯化類不同</item>
 <lb ed="U" n="0013b19"/><item xml:id="itemU223p0013b1901">三揔結悲智周徧</item></list></item></list></item>
 <lb ed="U" n="0013b20"/><item xml:id="itemU223p0013b2001">四因果圓徧德<note place="inline">三</note>
@@ -2248,7 +2253,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0025a68"/><item xml:id="itemU223p0025a6801">三釋</item>
 <lb ed="U" n="0025a69"/><item xml:id="itemU223p0025a6901">四結</item></list></item>
 <lb ed="U" n="0025a70"/><item xml:id="itemU223p0025a7001">二辯利他不空</item>
-<lb ed="U" n="0025a71"/><item xml:id="itemU223p0025a7101"><anchor xml:id="beg_5" type="cb-app"/>三<anchor xml:id="end_5"/>荅行成德用<note place="inline">二</note>
+<lb ed="U" n="0025a71"/><item xml:id="itemU223p0025a7101"><anchor xml:id="nkr_note_add_0025a7101" n="0025a7101"/><anchor xml:id="beg0025a7101" n="0025a7101"/>三<anchor xml:id="end0025a7101"/>荅行成德用<note place="inline">二</note>
 <lb ed="U" n="0025a72"/><list><item xml:id="itemU223p0025a7201">初荅以行成因德</item>
 <lb ed="U" n="0025a73"/><item xml:id="itemU223p0025a7301">二荅以因成果德<note place="inline">二</note>
 <lb ed="U" n="0025a74"/><list><item xml:id="itemU223p0025a7401">初結因成果</item>
@@ -2326,7 +2331,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0026a05"/><item xml:id="itemU223p0026a0501">五列菩薩名</item>
 <lb ed="U" n="0026a06"/><item xml:id="itemU223p0026a0601">六来處剎名</item>
 <lb ed="U" n="0026a07"/><item xml:id="itemU223p0026a0701">七所事諸佛</item>
-<lb ed="U" n="0026a08"/><item xml:id="itemU223p0026a0801">八至<anchor xml:id="beg_6" type="cb-app"/>已<anchor xml:id="end_6"/>設敬</item>
+<lb ed="U" n="0026a08"/><item xml:id="itemU223p0026a0801">八至<anchor xml:id="nkr_note_add_0026a0801" n="0026a0801"/><anchor xml:id="beg0026a0801" n="0026a0801"/>已<anchor xml:id="end0026a0801"/>設敬</item>
 <lb ed="U" n="0026a09"/><item xml:id="itemU223p0026a0901">九參而不雜</item>
 <lb ed="U" n="0026a10"/><item xml:id="itemU223p0026a1001">十結通無盡</item></list></item>
 <lb ed="U" n="0026a11"/><item xml:id="itemU223p0026a1101">二放光</item>
@@ -2429,7 +2434,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0027a09"/><item xml:id="itemU223p0027a0901">二明第二<note place="inline">次復</note></item>
 <lb ed="U" n="0027a10"/><item xml:id="itemU223p0027a1001">三明第三<note place="inline">次又</note></item>
 <lb ed="U" n="0027a11"/><item xml:id="itemU223p0027a1101">四明第四<note place="inline">末偈</note></item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0027a12"/><item xml:id="itemU223p0027a1201"><anchor xml:id="beg_7" type="cb-app"/>七<anchor xml:id="end_7"/>力林<note place="inline">二</note>
+<lb ed="U" n="0027a12"/><item xml:id="itemU223p0027a1201"><anchor xml:id="nkr_note_add_0027a1201" n="0027a1201"/><anchor xml:id="beg0027a1201" n="0027a1201"/>七<anchor xml:id="end0027a1201"/>力林<note place="inline">二</note>
 <lb ed="U" n="0027a13"/><list><item xml:id="itemU223p0027a1301">初說偈儀</item>
 <lb ed="U" n="0027a14"/><item xml:id="itemU223p0027a1401">二正說偈<note place="inline">三</note>
 <lb ed="U" n="0027a15"/><list><item xml:id="itemU223p0027a1501">初偏明世間<note place="inline">二</note>
@@ -2654,7 +2659,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0029b15"/><list><item xml:id="itemU223p0029b1501">初具勝德</item>
 <lb ed="U" n="0029b16"/><item xml:id="itemU223p0029b1601">二住深智</item></list></item></list></item></list></item></list></item></list></item></list></item></list></item>
 <lb ed="U" n="0029b17"/><item xml:id="itemU223p0029b1701">三結名</item></list></item>
-<lb ed="U" n="0029b18"/><item xml:id="itemU223p0029b1801">三無違逆行<note place="inline"><anchor xml:id="beg_8" type="cb-app"/>三<anchor xml:id="end_8"/></note>
+<lb ed="U" n="0029b18"/><item xml:id="itemU223p0029b1801">三無違逆行<note place="inline"><anchor xml:id="nkr_note_add_0029b1801" n="0029b1801"/><anchor xml:id="beg0029b1801" n="0029b1801"/>三<anchor xml:id="end0029b1801"/></note>
 <lb ed="U" n="0029b19"/><list><item xml:id="itemU223p0029b1901">初徵名</item>
 <lb ed="U" n="0029b20"/><item xml:id="itemU223p0029b2001">二釋相<note place="inline">二</note>
 <lb ed="U" n="0029b21"/><list><item xml:id="itemU223p0029b2101">初略辯行相<note place="inline">三</note>
@@ -2716,7 +2721,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0029b77"/><list><item xml:id="itemU223p0029b7701">初阿鼻受苦行</item>
 <lb ed="U" n="0029b78"/><item xml:id="itemU223p0029b7801">二曠劫受苦行</item></list></item>
 <lb ed="U" n="0029b79"/><item xml:id="itemU223p0029b7901">二利樂精進</item></list></item></list></item></list></item>
-<lb ed="U" n="0029b80"/><item xml:id="itemU223p0029b8001"><anchor xml:id="beg_9" type="cb-app"/>三<anchor xml:id="end_9"/>結名</item></list></item>
+<lb ed="U" n="0029b80"/><item xml:id="itemU223p0029b8001"><anchor xml:id="nkr_note_add_0029b8001" n="0029b8001"/><anchor xml:id="beg0029b8001" n="0029b8001"/>三<anchor xml:id="end0029b8001"/>結名</item></list></item>
 <lb ed="U" n="0029b81"/><item xml:id="itemU223p0029b8101">五離癡亂行<note place="inline">三</note>
 <lb ed="U" n="0029b82"/><list><item xml:id="itemU223p0029b8201">初徵名</item>
 <lb ed="U" n="0029b83"/><item xml:id="itemU223p0029b8301">二釋相<note place="inline">二</note>
@@ -2810,7 +2815,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0030b41"/><item xml:id="itemU223p0030b4101">三順理起悲</item></list></item></list></item>
 <lb ed="U" n="0030b42"/><item xml:id="itemU223p0030b4201">三有情義利慧<note place="inline">二</note>
 <lb ed="U" n="0030b43"/><list><item xml:id="itemU223p0030b4301">初建攝生志</item>
-<lb ed="U" n="0030b44"/><item xml:id="itemU223p0030b4401">二先人後<anchor xml:id="beg_a" type="cb-app"/>己<anchor xml:id="end_a"/><note place="inline">四</note>
+<lb ed="U" n="0030b44"/><item xml:id="itemU223p0030b4401">二先人後<anchor xml:id="nkr_note_add_0030b4401" n="0030b4401"/><anchor xml:id="beg0030b4401" n="0030b4401"/>己<anchor xml:id="end0030b4401"/><note place="inline">四</note>
 <lb ed="U" n="0030b45"/><list><item xml:id="itemU223p0030b4501">初假設自度</item>
 <lb ed="U" n="0030b46"/><item xml:id="itemU223p0030b4601">二觀物輪廻</item>
 <lb ed="U" n="0030b47"/><item xml:id="itemU223p0030b4701">三結所不應</item>
@@ -2837,7 +2842,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0031a17"/><list><item xml:id="itemU223p0031a1701">初示義<note place="inline">二釋</note></item>
 <lb ed="U" n="0031a18"/><item xml:id="itemU223p0031a1801">二釋文<note place="inline">二</note>
 <lb ed="U" n="0031a19"/><list><item xml:id="itemU223p0031a1901">初自分無著<note place="inline">三</note>
-<lb ed="U" n="0031a20"/><list><item xml:id="itemU223p0031a2001">初自行無著<note place="inline"><anchor xml:id="beg_b" type="cb-app"/>二<anchor xml:id="end_b"/></note>
+<lb ed="U" n="0031a20"/><list><item xml:id="itemU223p0031a2001">初自行無著<note place="inline"><anchor xml:id="nkr_note_add_0031a2001" n="0031a2001"/><anchor xml:id="beg0031a2001" n="0031a2001"/>二<anchor xml:id="end0031a2001"/></note>
 <lb ed="U" n="0031a21"/><list><item xml:id="itemU223p0031a2101">初淨境無著<note place="inline">三</note>
 <lb ed="U" n="0031a22"/><list><item xml:id="itemU223p0031a2201">初嚴剎無著</item>
 <lb ed="U" n="0031a23"/><item xml:id="itemU223p0031a2301">二三寶無著<note place="inline">三</note>
@@ -3828,7 +3833,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0042a31"/><list><item xml:id="itemU223p0042a3101">初舉體相</item>
 <lb ed="U" n="0042a32"/><item xml:id="itemU223p0042a3201">二光業用<note place="inline">五</note><list><item xml:id="itemU223p0042a3206">初說法</item><item xml:id="itemU223p0042a3209">二現嚴</item><item xml:id="itemU223p0042a3212">三現佛</item><item xml:id="itemU223p0042a3215">四現神變</item><item xml:id="itemU223p0042a3219">五現寶光</item></list></item></list></item>
 <lb ed="U" n="0042a33"/><item xml:id="itemU223p0042a3301">三現光意</item></list></item></list></item></list></item>
-<lb ed="U" n="0042a34"/><item xml:id="itemU223p0042a3401">二明現勝德之意<note place="inline"><anchor xml:id="beg_c" type="cb-app"/>二<anchor xml:id="end_c"/></note>
+<lb ed="U" n="0042a34"/><item xml:id="itemU223p0042a3401">二明現勝德之意<note place="inline"><anchor xml:id="nkr_note_add_0042a3401" n="0042a3401"/><anchor xml:id="beg0042a3401" n="0042a3401"/>二<anchor xml:id="end0042a3401"/></note>
 <lb ed="U" n="0042a35"/><list><item xml:id="itemU223p0042a3501">初牒前現德</item>
 <lb ed="U" n="0042a36"/><item xml:id="itemU223p0042a3601">二正明現意<note place="inline">二</note>
 <lb ed="U" n="0042a37"/><list><item xml:id="itemU223p0042a3701">初下益眾生<note place="inline">二</note>
@@ -3840,7 +3845,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0042a43"/><item xml:id="itemU223p0042a4301">六請佛居殿</item>
 <lb ed="U" n="0042a44"/><item xml:id="itemU223p0042a4401">七如来受請<note place="inline">二</note>
 <lb ed="U" n="0042a45"/><list><item xml:id="itemU223p0042a4501">初受請入殿<note place="inline">二</note><list><item xml:id="itemU223p0042a4507">初此界</item><item xml:id="itemU223p0042a4510">二結通</item></list></item>
-<lb ed="U" n="0042a46"/><item xml:id="itemU223p0042a4601">二入<anchor xml:id="beg_d" type="cb-app"/>已<anchor xml:id="end_d"/>現嚴</item></list></item>
+<lb ed="U" n="0042a46"/><item xml:id="itemU223p0042a4601">二入<anchor xml:id="nkr_note_add_0042a4601" n="0042a4601"/><anchor xml:id="beg0042a4601" n="0042a4601"/>已<anchor xml:id="end0042a4601"/>現嚴</item></list></item>
 <lb ed="U" n="0042a47"/><item xml:id="itemU223p0042a4701">八天王獲益</item>
 <lb ed="U" n="0042a48"/><item xml:id="itemU223p0042a4801">九承力偈讚<note place="inline">二</note>
 <lb ed="U" n="0042a49"/><list><item xml:id="itemU223p0042a4901">初此處偈<note place="inline">二</note><list><item xml:id="itemU223p0042a4906">初說偈所依</item><item xml:id="itemU223p0042a4911">二正偈讚</item></list></item>
@@ -3866,7 +3871,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0042b13"/><item xml:id="itemU223p0042b1301">四主菩薩名</item>
 <lb ed="U" n="0042b14"/><item xml:id="itemU223p0042b1401">五所從来剎</item>
 <lb ed="U" n="0042b15"/><item xml:id="itemU223p0042b1501">六本所事佛</item>
-<lb ed="U" n="0042b16"/><item xml:id="itemU223p0042b1601">七到<anchor xml:id="beg_e" type="cb-app"/>已<anchor xml:id="end_e"/>修敬</item>
+<lb ed="U" n="0042b16"/><item xml:id="itemU223p0042b1601">七到<anchor xml:id="nkr_note_add_0042b1601" n="0042b1601"/><anchor xml:id="beg0042b1601" n="0042b1601"/>已<anchor xml:id="end0042b1601"/>修敬</item>
 <lb ed="U" n="0042b17"/><item xml:id="itemU223p0042b1701">八善住威儀</item>
 <lb ed="U" n="0042b18"/><item xml:id="itemU223p0042b1801">九放光利益</item>
 <lb ed="U" n="0042b19"/><item xml:id="itemU223p0042b1901">十略讚勝德</item></list></item>
@@ -3933,7 +3938,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0043a36"/><item xml:id="itemU223p0043a3601">三雙結</item></list></item></list></item>
 <lb ed="U" n="0043a37"/><item xml:id="itemU223p0043a3701">五東北方智幢菩薩<note place="inline">二</note>
 <lb ed="U" n="0043a38"/><list><item xml:id="itemU223p0043a3801">初說偈儀</item>
-<lb ed="U" n="0043a39"/><item xml:id="itemU223p0043a3901">二正說偈<note place="inline"><anchor xml:id="beg_f" type="cb-app"/>二<anchor xml:id="end_f"/></note>
+<lb ed="U" n="0043a39"/><item xml:id="itemU223p0043a3901">二正說偈<note place="inline"><anchor xml:id="nkr_note_add_0043a3901" n="0043a3901"/><anchor xml:id="beg0043a3901" n="0043a3901"/>二<anchor xml:id="end0043a3901"/></note>
 <lb ed="U" n="0043a40"/><list><item xml:id="itemU223p0043a4001">初標章勸信</item>
 <lb ed="U" n="0043a41"/><item xml:id="itemU223p0043a4101">二所信勝德<note place="inline">二</note>
 <lb ed="U" n="0043a42"/><list><item xml:id="itemU223p0043a4201">初揔</item>
@@ -3978,7 +3983,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0043b35"/><list><item xml:id="itemU223p0043b3501">初釋後偈</item>
 <lb ed="U" n="0043b36"/><item xml:id="itemU223p0043b3601">二釋前偈</item></list></item></list></item>
 <lb ed="U" n="0043b37"/><item xml:id="itemU223p0043b3701">二自淨<note place="inline">二</note>
-<lb ed="U" n="0043b38"/><list><item xml:id="itemU223p0043b3801">初<anchor xml:id="beg_10" type="cb-app"/>已<anchor xml:id="end_10"/>淨差別</item>
+<lb ed="U" n="0043b38"/><list><item xml:id="itemU223p0043b3801">初<anchor xml:id="nkr_note_add_0043b3801" n="0043b3801"/><anchor xml:id="beg0043b3801" n="0043b3801"/>已<anchor xml:id="end0043b3801"/>淨差別</item>
 <lb ed="U" n="0043b39"/><item xml:id="itemU223p0043b3901">二內淨二德</item></list></item></list></item></list></item>
 <lb ed="U" n="0043b40"/><item xml:id="itemU223p0043b4001">九下方星宿幢菩薩<note place="inline">二</note>
 <lb ed="U" n="0043b41"/><list><item xml:id="itemU223p0043b4101">初就偈儀</item>
@@ -4816,7 +4821,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0055a12"/><item xml:id="itemU223p0055a1201">三得名<note place="inline">二</note>
 <lb ed="U" n="0055a13"/><list><item xml:id="itemU223p0055a1301">初得輪名<note place="inline">此四</note></item>
 <lb ed="U" n="0055a14"/><item xml:id="itemU223p0055a1401">二釋乘名<note place="inline">二</note>
-<lb ed="U" n="0055a15"/><list><item xml:id="itemU223p0055a1501">初依瑜伽辨<note place="inline"><anchor xml:id="beg_11" type="cb-app"/>已<anchor xml:id="end_11"/>知</note></item>
+<lb ed="U" n="0055a15"/><list><item xml:id="itemU223p0055a1501">初依瑜伽辨<note place="inline"><anchor xml:id="nkr_note_add_0055a1501" n="0055a1501"/><anchor xml:id="beg0055a1501" n="0055a1501"/>已<anchor xml:id="end0055a1501"/>知</note></item>
 <lb ed="U" n="0055a16"/><item xml:id="itemU223p0055a1601">二依當經釋<note place="inline">若依</note></item></list></item></list></item></list></item>
 <lb ed="U" n="0055a17"/><item xml:id="itemU223p0055a1701">三雙結</item>
 <lb ed="U" n="0055a18"/><item xml:id="itemU223p0055a1801">四所為</item></list></item></list></item></list></item>
@@ -5185,7 +5190,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0057b37"/><item xml:id="itemU223p0057b3701">二因修成德<note place="inline">二</note>
 <lb ed="U" n="0057b38"/><list><item xml:id="itemU223p0057b3801">初明迴向<note place="inline">二</note>
 <lb ed="U" n="0057b39"/><list><item xml:id="itemU223p0057b3901">初所迴善根<note place="inline">二</note>
-<lb ed="U" n="0057b40"/><list><item xml:id="itemU223p0057b4001">初牒<anchor xml:id="beg_12" type="cb-app"/>已<anchor xml:id="end_12"/>修</item>
+<lb ed="U" n="0057b40"/><list><item xml:id="itemU223p0057b4001">初牒<anchor xml:id="nkr_note_add_0057b4001" n="0057b4001"/><anchor xml:id="beg0057b4001" n="0057b4001"/>已<anchor xml:id="end0057b4001"/>修</item>
 <lb ed="U" n="0057b41"/><item xml:id="itemU223p0057b4101">二修成德<note place="inline">二</note>
 <pb ed="U" xml:id="U223.1418.0058a" n="0058a"/>
 <lb ed="U" n="0058a01"/><list><item xml:id="itemU223p0058a0101">初自利德</item>
@@ -5194,7 +5199,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0058a04"/><list><item xml:id="itemU223p0058a0401">初修善本因</item>
 <lb ed="U" n="0058a05"/><item xml:id="itemU223p0058a0501">二正將迴向<note place="inline">三</note>
 <lb ed="U" n="0058a06"/><list><item xml:id="itemU223p0058a0601">初迴向眾生菩提<note place="inline">二</note>
-<lb ed="U" n="0058a07"/><list><item xml:id="itemU223p0058a0701">初迴<anchor xml:id="beg_13" type="cb-app"/>己<anchor xml:id="end_13"/>修善願成資具以施眾生<note place="inline">二</note>
+<lb ed="U" n="0058a07"/><list><item xml:id="itemU223p0058a0701">初迴<anchor xml:id="nkr_note_add_0058a0701" n="0058a0701"/><anchor xml:id="beg0058a0701" n="0058a0701"/>己<anchor xml:id="end0058a0701"/>修善願成資具以施眾生<note place="inline">二</note>
 <lb ed="U" n="0058a08"/><list><item xml:id="itemU223p0058a0801">初揔顯要期</item>
 <lb ed="U" n="0058a09"/><item xml:id="itemU223p0058a0901">二別彰施行<note place="inline">二</note>
 <lb ed="U" n="0058a10"/><list><item xml:id="itemU223p0058a1001">初願成外施<note place="inline">四</note>
@@ -5265,7 +5270,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0058b64"/><list><item xml:id="itemU223p0058b6401">初迴向<note place="inline">二</note>
 <lb ed="U" n="0058b65"/><list><item xml:id="itemU223p0058b6501">初所迴善根</item>
 <lb ed="U" n="0058b66"/><item xml:id="itemU223p0058b6601">二頌攝將迴向<note place="inline">三</note>
-<lb ed="U" n="0058b67"/><list><item xml:id="itemU223p0058b6701">初迴<anchor xml:id="beg_14" type="cb-app"/>己<anchor xml:id="end_14"/>修善願成資具以施眾生</item>
+<lb ed="U" n="0058b67"/><list><item xml:id="itemU223p0058b6701">初迴<anchor xml:id="nkr_note_add_0058b6701" n="0058b6701"/><anchor xml:id="beg0058b6701" n="0058b6701"/>己<anchor xml:id="end0058b6701"/>修善願成資具以施眾生</item>
 <lb ed="U" n="0058b68"/><item xml:id="itemU223p0058b6801">二復迴此施願令眾生具<g ref="#CB30133">󷖵</g>財法</item>
 <lb ed="U" n="0058b69"/><item xml:id="itemU223p0058b6901">三迴向實際</item></list></item></list></item>
 <lb ed="U" n="0058b70"/><item xml:id="itemU223p0058b7001">二成益<note place="inline">三</note>
@@ -5824,7 +5829,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0066a17"/><item xml:id="itemU223p0066a1701">二釋金剛義<note place="inline">普蘊</note></item>
 <lb ed="U" n="0066a18"/><item xml:id="itemU223p0066a1801">三別釋藏義<note place="inline">下釋</note></item></list></item></list></item></list></item>
 <lb ed="U" n="0066a19"/><item xml:id="itemU223p0066a1901">二三昧<note place="inline">四</note>
-<lb ed="U" n="0066a20"/><list><item xml:id="itemU223p0066a2001">初釋文<note place="inline">眾<anchor xml:id="beg_15" type="cb-app"/>已<anchor xml:id="end_15"/></note></item>
+<lb ed="U" n="0066a20"/><list><item xml:id="itemU223p0066a2001">初釋文<note place="inline">眾<anchor xml:id="nkr_note_add_0066a2001" n="0066a2001"/><anchor xml:id="beg0066a2001" n="0066a2001"/>已<anchor xml:id="end0066a2001"/></note></item>
 <lb ed="U" n="0066a21"/><item xml:id="itemU223p0066a2101">二會論<note place="inline">論趣</note></item>
 <lb ed="U" n="0066a22"/><item xml:id="itemU223p0066a2201">三出體<note place="inline">然其</note></item>
 <lb ed="U" n="0066a23"/><item xml:id="itemU223p0066a2301">四入意<note place="inline">所以</note></item></list></item>
@@ -5847,7 +5852,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="U" xml:id="U223.1418.0066b" n="0066b"/>
 <lb ed="U" n="0066b01"/><list><item xml:id="itemU223p0066b0101">初順文釋<note place="inline">此中</note></item>
 <lb ed="U" n="0066b02"/><item xml:id="itemU223p0066b0201">二以義釋<note place="inline">為以</note></item></list></item></list></item>
-<lb ed="U" n="0066b03"/><item xml:id="itemU223p0066b0301">二同<anchor xml:id="beg_16" type="cb-app"/>己<anchor xml:id="end_16"/>名故<note place="inline">第二</note></item></list></item></list></item></list></item></list></item>
+<lb ed="U" n="0066b03"/><item xml:id="itemU223p0066b0301">二同<anchor xml:id="nkr_note_add_0066b0301" n="0066b0301"/><anchor xml:id="beg0066b0301" n="0066b0301"/>己<anchor xml:id="end0066b0301"/>名故<note place="inline">第二</note></item></list></item></list></item></list></item></list></item>
 <lb ed="U" n="0066b04"/><item xml:id="itemU223p0066b0401">三同讚得定</item>
 <lb ed="U" n="0066b05"/><item xml:id="itemU223p0066b0501">四加定因緣<note place="inline">四</note>
 <lb ed="U" n="0066b06"/><list><item xml:id="itemU223p0066b0601">初略屬經文<note place="inline">有四</note></item>
@@ -5908,7 +5913,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0067a14"/><item xml:id="itemU223p0067a1401">二解所入<note place="inline">入何</note></item></list></item>
 <lb ed="U" n="0067a15"/><item xml:id="itemU223p0067a1501">三結歸捴意<note place="inline">上說</note></item></list></item></list></item></list></item></list></item>
 <lb ed="U" n="0067a16"/><item xml:id="itemU223p0067a1601">二釋別句<note place="inline">三</note>
-<lb ed="U" n="0067a17"/><list><item xml:id="itemU223p0067a1701">初結前生復<note place="inline"><anchor xml:id="beg_17" type="cb-app"/>已<anchor xml:id="end_17"/>說</note></item>
+<lb ed="U" n="0067a17"/><list><item xml:id="itemU223p0067a1701">初結前生復<note place="inline"><anchor xml:id="nkr_note_add_0067a1701" n="0067a1701"/><anchor xml:id="beg0067a1701" n="0067a1701"/>已<anchor xml:id="end0067a1701"/>說</note></item>
 <lb ed="U" n="0067a18"/><item xml:id="itemU223p0067a1801">二引論科釋<note place="inline">二</note>
 <lb ed="U" n="0067a19"/><list><item xml:id="itemU223p0067a1901">初科為四<note place="inline">論云</note></item>
 <lb ed="U" n="0067a20"/><item xml:id="itemU223p0067a2001">二通妨難<note place="inline">近地</note></item></list></item>
@@ -5965,7 +5970,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0067b04"/><item xml:id="itemU223p0067b0401">二辨餘六句<note place="inline">三</note>
 <lb ed="U" n="0067b05"/><list><item xml:id="itemU223p0067b0501">初標名<note place="inline">餘六</note></item>
 <lb ed="U" n="0067b06"/><item xml:id="itemU223p0067b0601">二依論解<note place="inline">攝為</note></item>
-<lb ed="U" n="0067b07"/><item xml:id="itemU223p0067b0701"><anchor xml:id="beg_18" type="cb-app"/>三<anchor xml:id="end_18"/>隨文釋<note place="inline">初荅</note></item></list></item></list></item></list></item></list></item>
+<lb ed="U" n="0067b07"/><item xml:id="itemU223p0067b0701"><anchor xml:id="nkr_note_add_0067b0701" n="0067b0701"/><anchor xml:id="beg0067b0701" n="0067b0701"/>三<anchor xml:id="end0067b0701"/>隨文釋<note place="inline">初荅</note></item></list></item></list></item></list></item></list></item>
 <lb ed="U" n="0067b08"/><item xml:id="itemU223p0067b0801">二意加<note place="inline">二</note>
 <lb ed="U" n="0067b09"/><list><item xml:id="itemU223p0067b0901">初正顯<note place="inline">二</note>
 <lb ed="U" n="0067b10"/><list><item xml:id="itemU223p0067b1001">初釋捴句<note place="inline">起中</note></item>
@@ -6017,7 +6022,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0068a04"/><item xml:id="itemU223p0068a0401">二別明願義<note place="inline">於大</note></item>
 <lb ed="U" n="0068a05"/><item xml:id="itemU223p0068a0501">三釋善決定<note place="inline">此願</note></item>
 <lb ed="U" n="0068a06"/><item xml:id="itemU223p0068a0601">四結會六釋<note place="inline">奏鏘</note></item>
-<lb ed="U" n="0068a07"/><item xml:id="itemU223p0068a0701">五揀善決定<note place="inline">此<anchor xml:id="beg_19" type="cb-app"/>已<anchor xml:id="end_19"/></note></item>
+<lb ed="U" n="0068a07"/><item xml:id="itemU223p0068a0701">五揀善決定<note place="inline">此<anchor xml:id="nkr_note_add_0068a0701" n="0068a0701"/><anchor xml:id="beg0068a0701" n="0068a0701"/>已<anchor xml:id="end0068a0701"/></note></item>
 <lb ed="U" n="0068a08"/><item xml:id="itemU223p0068a0801">六通顯決定<note place="inline">若逾</note></item></list></item>
 <lb ed="U" n="0068a09"/><item xml:id="itemU223p0068a0901">二釋別句<note place="inline">四</note>
 <lb ed="U" n="0068a10"/><list><item xml:id="itemU223p0068a1001">初就捴開別<note place="inline">後別</note></item>
@@ -6089,7 +6094,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0068b56"/><list><item xml:id="itemU223p0068b5601">初顯嘿所以<note place="inline">所以</note></item>
 <lb ed="U" n="0068b57"/><item xml:id="itemU223p0068b5701">二釋請所以<note place="inline">所以</note></item></list></item>
 <lb ed="U" n="0068b58"/><item xml:id="itemU223p0068b5801">三釋文<note place="inline">三</note>
-<lb ed="U" n="0068b59"/><list><item xml:id="itemU223p0068b5901">初說<anchor xml:id="beg_1a" type="cb-app"/>已<anchor xml:id="end_1a"/>嘿住</item>
+<lb ed="U" n="0068b59"/><list><item xml:id="itemU223p0068b5901">初說<anchor xml:id="nkr_note_add_0068b5901" n="0068b5901"/><anchor xml:id="beg0068b5901" n="0068b5901"/>已<anchor xml:id="end0068b5901"/>嘿住</item>
 <lb ed="U" n="0068b60"/><item xml:id="itemU223p0068b6001">二三家五請<note place="inline">四</note>
 <lb ed="U" n="0068b61"/><list><item xml:id="itemU223p0068b6101">初揔科為三<note place="inline">第二</note></item>
 <lb ed="U" n="0068b62"/><item xml:id="itemU223p0068b6201">二出三所以<note place="inline">三</note>
@@ -6101,7 +6106,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0069a05"/><item xml:id="itemU223p0069a0501">三主伴分別<note place="inline">又諍</note></item>
 <lb ed="U" n="0069a06"/><item xml:id="itemU223p0069a0601">四因果分別<note place="inline">又前</note></item></list></item>
 <lb ed="U" n="0069a07"/><item xml:id="itemU223p0069a0701">三結歎難思<note place="inline">前之</note></item></list></item>
-<lb ed="U" n="0069a08"/><item xml:id="itemU223p0069a0801"><anchor xml:id="beg_1b" type="cb-app"/>三<anchor xml:id="end_1b"/>明請次第<note place="inline">又三</note></item>
+<lb ed="U" n="0069a08"/><item xml:id="itemU223p0069a0801"><anchor xml:id="nkr_note_add_0069a0801" n="0069a0801"/><anchor xml:id="beg0069a0801" n="0069a0801"/>三<anchor xml:id="end0069a0801"/>明請次第<note place="inline">又三</note></item>
 <lb ed="U" n="0069a09"/><item xml:id="itemU223p0069a0901">四釋上首請<note place="inline">四</note>
 <lb ed="U" n="0069a10"/><list><item xml:id="itemU223p0069a1001">初辨三請意<note place="inline">今初</note></item>
 <lb ed="U" n="0069a11"/><item xml:id="itemU223p0069a1101">二懸通妨難<note place="inline">二家</note></item>
@@ -6622,7 +6627,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0074b42"/><item xml:id="itemU223p0074b4201">二正為重通<note place="inline">彼從</note></item>
 <lb ed="U" n="0074b43"/><item xml:id="itemU223p0074b4301">三引論證成<note place="inline">故上</note></item></list></item></list></item>
 <lb ed="U" n="0074b44"/><item xml:id="itemU223p0074b4401">二釋本文<note place="inline">二</note>
-<lb ed="U" n="0074b45"/><list><item xml:id="itemU223p0074b4501">初結前生後<note place="inline"><anchor xml:id="beg_1c" type="cb-app"/>已<anchor xml:id="end_1c"/>知</note></item>
+<lb ed="U" n="0074b45"/><list><item xml:id="itemU223p0074b4501">初結前生後<note place="inline"><anchor xml:id="nkr_note_add_0074b4501" n="0074b4501"/><anchor xml:id="beg0074b4501" n="0074b4501"/>已<anchor xml:id="end0074b4501"/>知</note></item>
 <lb ed="U" n="0074b46"/><item xml:id="itemU223p0074b4601">二正釋本文<note place="inline">三</note>
 <lb ed="U" n="0074b47"/><list><item xml:id="itemU223p0074b4701">初釋因成就<note place="inline">因成</note></item>
 <lb ed="U" n="0074b48"/><item xml:id="itemU223p0074b4801">二釋因漸成就<note place="inline">二問</note></item>
@@ -6648,7 +6653,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0075a17"/><item xml:id="itemU223p0075a1701">二約觀修<note place="inline">二</note>
 <lb ed="U" n="0075a18"/><list><item xml:id="itemU223p0075a1801">初牒釋<note place="inline">次觀</note></item>
 <lb ed="U" n="0075a19"/><item xml:id="itemU223p0075a1901">二通妨<note place="inline">既難</note></item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0075a20"/><item xml:id="itemU223p0075a2001">二彰<anchor xml:id="beg_1d" type="cb-app"/>己<anchor xml:id="end_1d"/>無過誡眾除失<note place="inline">二</note>
+<lb ed="U" n="0075a20"/><item xml:id="itemU223p0075a2001">二彰<anchor xml:id="nkr_note_add_0075a2001" n="0075a2001"/><anchor xml:id="beg0075a2001" n="0075a2001"/>己<anchor xml:id="end0075a2001"/>無過誡眾除失<note place="inline">二</note>
 <lb ed="U" n="0075a21"/><list><item xml:id="itemU223p0075a2101">初揔明</item>
 <lb ed="U" n="0075a22"/><item xml:id="itemU223p0075a2201">二別顯<note place="inline">二</note>
 <lb ed="U" n="0075a23"/><list><item xml:id="itemU223p0075a2301">初示義<note place="inline">二別</note></item>
@@ -6657,8 +6662,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0075a26"/><item xml:id="itemU223p0075a2601">二顯敬受<note place="inline">二</note>
 <lb ed="U" n="0075a27"/><list><item xml:id="itemU223p0075a2701">初揔明<note place="inline">即示</note></item>
 <lb ed="U" n="0075a28"/><item xml:id="itemU223p0075a2801">二釋敬<note place="inline">二</note>
-<lb ed="U" n="0075a29"/><list><item xml:id="itemU223p0075a2901">初對人彰<anchor xml:id="beg_1e" type="cb-app"/>己<anchor xml:id="end_1e"/>善說<note place="inline">下釋</note></item>
-<lb ed="U" n="0075a30"/><item xml:id="itemU223p0075a3001">二對法彰<anchor xml:id="beg_1f" type="cb-app"/>己<anchor xml:id="end_1f"/>善說<note place="inline">三</note>
+<lb ed="U" n="0075a29"/><list><item xml:id="itemU223p0075a2901">初對人彰<anchor xml:id="nkr_note_add_0075a2901" n="0075a2901"/><anchor xml:id="beg0075a2901" n="0075a2901"/>己<anchor xml:id="end0075a2901"/>善說<note place="inline">下釋</note></item>
+<lb ed="U" n="0075a30"/><item xml:id="itemU223p0075a3001">二對法彰<anchor xml:id="nkr_note_add_0075a3001" n="0075a3001"/><anchor xml:id="beg0075a3001" n="0075a3001"/>己<anchor xml:id="end0075a3001"/>善說<note place="inline">三</note>
 <lb ed="U" n="0075a31"/><list><item xml:id="itemU223p0075a3101">初科經<note place="inline">次二</note></item>
 <lb ed="U" n="0075a32"/><item xml:id="itemU223p0075a3201">二解義<note place="inline">文雖</note></item>
 <lb ed="U" n="0075a33"/><item xml:id="itemU223p0075a3301">三別釋<note place="inline">云何</note></item></list></item></list></item></list></item>
@@ -6751,9 +6756,9 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0077b10"/><item xml:id="itemU223p0077b1001">二別句<note place="inline">三</note>
 <lb ed="U" n="0077b11"/><list><item xml:id="itemU223p0077b1101">初別釋<note place="inline">二</note>
 <lb ed="U" n="0077b12"/><list><item xml:id="itemU223p0077b1201">初科判<note place="inline">則有</note></item>
-<lb ed="U" n="0077b13"/><item xml:id="itemU223p0077b1301">二釋經<note place="inline"><anchor xml:id="beg_20" type="cb-app"/>已<anchor xml:id="end_20"/>如</note></item></list></item>
+<lb ed="U" n="0077b13"/><item xml:id="itemU223p0077b1301">二釋經<note place="inline"><anchor xml:id="nkr_note_add_0077b1301" n="0077b1301"/><anchor xml:id="beg0077b1301" n="0077b1301"/>已<anchor xml:id="end0077b1301"/>如</note></item></list></item>
 <lb ed="U" n="0077b14"/><item xml:id="itemU223p0077b1401">二隨難料揀<note place="inline">然小</note></item>
-<lb ed="U" n="0077b15"/><item xml:id="itemU223p0077b1501">三六相圓融<note place="inline"><anchor xml:id="beg_21" type="cb-app"/>已<anchor xml:id="end_21"/>知</note></item></list></item></list></item>
+<lb ed="U" n="0077b15"/><item xml:id="itemU223p0077b1501">三六相圓融<note place="inline"><anchor xml:id="nkr_note_add_0077b1501" n="0077b1501"/><anchor xml:id="beg0077b1501" n="0077b1501"/>已<anchor xml:id="end0077b1501"/>知</note></item></list></item></list></item>
 <lb ed="U" n="0077b16"/><item xml:id="itemU223p0077b1601">二為何義<note place="inline">二</note>
 <pb ed="U" xml:id="U223.1418.0078a" n="0078a"/>
 <lb ed="U" n="0078a01"/><list><item xml:id="itemU223p0078a0101">初別顯求果<note place="inline">二</note>
@@ -7634,7 +7639,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="U" xml:id="U223.1418.0086b" n="0086b"/>
 <lb ed="U" n="0086b01"/><list><item xml:id="itemU223p0086b0101">初根本建立<note place="inline">根本</note></item>
 <lb ed="U" n="0086b02"/><item xml:id="itemU223p0086b0201">二方便發修<note place="inline">方便</note></item>
-<lb ed="U" n="0086b03"/><item xml:id="itemU223p0086b0301">三修<anchor xml:id="beg_22" type="cb-app"/>已<anchor xml:id="end_22"/>成就<note place="inline">修<anchor xml:id="beg_23" type="cb-app"/>已<anchor xml:id="end_23"/></note></item>
+<lb ed="U" n="0086b03"/><item xml:id="itemU223p0086b0301">三修<anchor xml:id="nkr_note_add_0086b0301" n="0086b0301"/><anchor xml:id="beg0086b0301" n="0086b0301"/>已<anchor xml:id="end0086b0301"/>成就<note place="inline">修<anchor xml:id="nkr_note_add_0086b0302" n="0086b0302"/><anchor xml:id="beg0086b0302" n="0086b0302"/>已<anchor xml:id="end0086b0302"/></note></item>
 <lb ed="U" n="0086b04"/><item xml:id="itemU223p0086b0401">四德業自在<note place="inline">德業</note></item></list></item></list></item>
 <lb ed="U" n="0086b05"/><item xml:id="itemU223p0086b0501">三結行入位</item></list></item>
 <lb ed="U" n="0086b06"/><item xml:id="itemU223p0086b0601">二猒行分<note place="inline">二</note>
@@ -7889,7 +7894,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0089a02"/><list><item xml:id="itemU223p0089a0201">初通香味<note place="inline">遠公</note></item>
 <lb ed="U" n="0089a03"/><item xml:id="itemU223p0089a0301">二通餘三<note place="inline">又色</note></item></list></item>
 <lb ed="U" n="0089a04"/><item xml:id="itemU223p0089a0401">二橫約頓修<note place="inline">若於</note></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0089a05"/><item xml:id="itemU223p0089a0501">二辨治<note place="inline"><anchor xml:id="beg_24" type="cb-app"/>已<anchor xml:id="end_24"/>明</note></item></list></item>
+<lb ed="U" n="0089a05"/><item xml:id="itemU223p0089a0501">二辨治<note place="inline"><anchor xml:id="nkr_note_add_0089a0501" n="0089a0501"/><anchor xml:id="beg0089a0501" n="0089a0501"/>已<anchor xml:id="end0089a0501"/>明</note></item></list></item>
 <lb ed="U" n="0089a06"/><item xml:id="itemU223p0089a0601">二辨利益<note place="inline">修行</note></item>
 <lb ed="U" n="0089a07"/><item xml:id="itemU223p0089a0701">三明依止<note place="inline">二</note>
 <lb ed="U" n="0089a08"/><list><item xml:id="itemU223p0089a0801">初正明三昧<note place="inline">彼二</note></item>
@@ -8662,7 +8667,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0097b56"/><item xml:id="itemU223p0097b5601">三二利<note place="inline">後之</note></item></list></item></list></item></list></item></list></item>
 <lb ed="U" n="0097b57"/><item xml:id="itemU223p0097b5701">三正釋經文<note place="inline">三</note>
 <pb ed="U" xml:id="U223.1418.0098a" n="0098a"/>
-<lb ed="U" n="0098a01"/><list><item xml:id="itemU223p0098a0101">初揔示釋疑<note place="inline"><anchor xml:id="beg_25" type="cb-app"/>已<anchor xml:id="end_25"/>知</note></item>
+<lb ed="U" n="0098a01"/><list><item xml:id="itemU223p0098a0101">初揔示釋疑<note place="inline"><anchor xml:id="nkr_note_add_0098a0101" n="0098a0101"/><anchor xml:id="beg0098a0101" n="0098a0101"/>已<anchor xml:id="end0098a0101"/>知</note></item>
 <lb ed="U" n="0098a02"/><item xml:id="itemU223p0098a0201">二指文分齊<note place="inline">經之</note></item>
 <lb ed="U" n="0098a03"/><item xml:id="itemU223p0098a0301">三依論科釋<note place="inline">三</note>
 <lb ed="U" n="0098a04"/><list><item xml:id="itemU223p0098a0401">初依論正科<note place="inline">今初</note></item>
@@ -9035,7 +9040,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="U" xml:id="U223.1418.0102a" n="0102a"/>
 <lb ed="U" n="0102a01"/><list><item xml:id="itemU223p0102a0101">初流轉意<note place="inline">謂不</note></item>
 <lb ed="U" n="0102a02"/><item xml:id="itemU223p0102a0201">二明護過<note place="inline">二</note>
-<lb ed="U" n="0102a03"/><list><item xml:id="itemU223p0102a0301">初過<note place="inline"><anchor xml:id="beg_26" type="cb-app"/>已<anchor xml:id="end_26"/>知</note></item>
+<lb ed="U" n="0102a03"/><list><item xml:id="itemU223p0102a0301">初過<note place="inline"><anchor xml:id="nkr_note_add_0102a0301" n="0102a0301"/><anchor xml:id="beg0102a0301" n="0102a0301"/>已<anchor xml:id="end0102a0301"/>知</note></item>
 <lb ed="U" n="0102a04"/><item xml:id="itemU223p0102a0401">二護<note place="inline">四</note>
 <lb ed="U" n="0102a05"/><list><item xml:id="itemU223p0102a0501">初結前生後<note place="inline">此上</note></item>
 <lb ed="U" n="0102a06"/><item xml:id="itemU223p0102a0601">二揔標護義<note place="inline">若見</note></item>
@@ -9043,8 +9048,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0102a08"/><list><item xml:id="itemU223p0102a0801">初泛明不受報業<note place="inline">然過</note></item>
 <lb ed="U" n="0102a09"/><item xml:id="itemU223p0102a0901">二舉今經受報業<note place="inline">二</note>
 <lb ed="U" n="0102a10"/><list><item xml:id="itemU223p0102a1001">初正明所以<note place="inline">今無</note></item>
-<lb ed="U" n="0102a11"/><item xml:id="itemU223p0102a1101">二結酬外難<note place="inline">於<anchor xml:id="beg_27" type="cb-app"/>己<anchor xml:id="end_27"/></note></item></list></item></list></item>
-<lb ed="U" n="0102a12"/><item xml:id="itemU223p0102a1201">四舉經正護<note place="inline"><anchor xml:id="beg_28" type="cb-app"/>已<anchor xml:id="end_28"/>調</note></item></list></item></list></item></list></item></list></item>
+<lb ed="U" n="0102a11"/><item xml:id="itemU223p0102a1101">二結酬外難<note place="inline">於<anchor xml:id="nkr_note_add_0102a1101" n="0102a1101"/><anchor xml:id="beg0102a1101" n="0102a1101"/>己<anchor xml:id="end0102a1101"/></note></item></list></item></list></item>
+<lb ed="U" n="0102a12"/><item xml:id="itemU223p0102a1201">四舉經正護<note place="inline"><anchor xml:id="nkr_note_add_0102a1201" n="0102a1201"/><anchor xml:id="beg0102a1201" n="0102a1201"/>已<anchor xml:id="end0102a1201"/>調</note></item></list></item></list></item></list></item></list></item>
 <lb ed="U" n="0102a13"/><item xml:id="itemU223p0102a1301">二逆觀<note place="inline">二</note>
 <lb ed="U" n="0102a14"/><list><item xml:id="itemU223p0102a1401">初釋經<note place="inline">即得</note></item>
 <lb ed="U" n="0102a15"/><item xml:id="itemU223p0102a1501">二結示<note place="inline">然十</note></item></list></item></list></item></list></item>
@@ -9624,7 +9629,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0110a37"/><item xml:id="itemU223p0110a3701">三勸成其本願<note place="inline">本願未充勸</note></item>
 <lb ed="U" n="0110a38"/><item xml:id="itemU223p0110a3801">四勸求無礙智<note place="inline">自德未勝勸</note></item>
 <lb ed="U" n="0110a39"/><item xml:id="itemU223p0110a3901">五勸成佛外報<note place="inline">化業廣大勸</note></item>
-<lb ed="U" n="0110a40"/><item xml:id="itemU223p0110a4001">六勸證佛內明無量勝行<note place="inline">自<anchor xml:id="beg_29" type="cb-app"/>己<anchor xml:id="end_29"/>所得法門未窮</note></item>
+<lb ed="U" n="0110a40"/><item xml:id="itemU223p0110a4001">六勸證佛內明無量勝行<note place="inline">自<anchor xml:id="nkr_note_add_0110a4001" n="0110a4001"/><anchor xml:id="beg0110a4001" n="0110a4001"/>己<anchor xml:id="end0110a4001"/>所得法門未窮</note></item>
 <lb ed="U" n="0110a41"/><item xml:id="itemU223p0110a4101">七勸緫修無道義福智道<note place="inline">少作能成增進眾德</note></item></list></item></list></item></list></item>
 <lb ed="U" n="0110a42"/><item xml:id="itemU223p0110a4201">三顯勸所為</item>
 <lb ed="U" n="0110a43"/><item xml:id="itemU223p0110a4301">四彰勸之益<note place="inline">二</note>
@@ -9819,7 +9824,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0112b12"/><item xml:id="itemU223p0112b1201">第二自性差別<note place="inline">二自</note></item>
 <lb ed="U" n="0112b13"/><item xml:id="itemU223p0112b1301">第三方便差別<note place="inline">三方</note></item>
 <lb ed="U" n="0112b14"/><item xml:id="itemU223p0112b1401">第四盡集果差別<note place="inline">四盡</note></item>
-<lb ed="U" n="0112b15"/><item xml:id="itemU223p0112b1501">第五<anchor xml:id="beg_2a" type="cb-app"/>已<anchor xml:id="end_2a"/>未受果差別<note place="inline">五論</note></item>
+<lb ed="U" n="0112b15"/><item xml:id="itemU223p0112b1501">第五<anchor xml:id="nkr_note_add_0112b1501" n="0112b1501"/><anchor xml:id="beg0112b1501" n="0112b1501"/>已<anchor xml:id="end0112b1501"/>未受果差別<note place="inline">五論</note></item>
 <lb ed="U" n="0112b16"/><item xml:id="itemU223p0112b1601">第六明對差別<note place="inline">二</note>
 <lb ed="U" n="0112b17"/><list><item xml:id="itemU223p0112b1701">初列黑黑<note place="inline">二</note>
 <lb ed="U" n="0112b18"/><list><item xml:id="itemU223p0112b1801">初舉論釋對<note place="inline">六對</note></item>
@@ -9828,7 +9833,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0112b21"/><item xml:id="itemU223p0112b2101">二釋餘三<note place="inline">謂二</note></item></list></item></list></item>
 <lb ed="U" n="0112b22"/><item xml:id="itemU223p0112b2201">二明眾報<note place="inline">言眾</note></item></list></item>
 <lb ed="U" n="0112b23"/><item xml:id="itemU223p0112b2301">第七因緣差別<note place="inline">七因</note></item>
-<lb ed="U" n="0112b24"/><item xml:id="itemU223p0112b2401">第八<anchor xml:id="beg_2b" type="cb-app"/>已<anchor xml:id="end_2b"/>未集差別<note place="inline">八<anchor xml:id="beg_2c" type="cb-app"/>已<anchor xml:id="end_2c"/></note></item>
+<lb ed="U" n="0112b24"/><item xml:id="itemU223p0112b2401">第八<anchor xml:id="nkr_note_add_0112b2401" n="0112b2401"/><anchor xml:id="beg0112b2401" n="0112b2401"/>已<anchor xml:id="end0112b2401"/>未集差別<note place="inline">八<anchor xml:id="nkr_note_add_0112b2402" n="0112b2402"/><anchor xml:id="beg0112b2402" n="0112b2402"/>已<anchor xml:id="end0112b2402"/></note></item>
 <lb ed="U" n="0112b25"/><item xml:id="itemU223p0112b2501">第九定不定差別<note place="inline">二</note>
 <lb ed="U" n="0112b26"/><list><item xml:id="itemU223p0112b2601">初標章<note place="inline">九十</note></item>
 <lb ed="U" n="0112b27"/><item xml:id="itemU223p0112b2701">二釋義<note place="inline">二</note>
@@ -9977,7 +9982,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0113b48"/><item xml:id="itemU223p0113b4801">二釋文<note place="inline">四</note>
 <pb ed="U" xml:id="U223.1418.0114a" n="0114a"/>
 <lb ed="U" n="0114a01"/><list><item xml:id="itemU223p0114a0101">初持成就<note place="inline">二</note>
-<lb ed="U" n="0114a02"/><list><item xml:id="itemU223p0114a0201">初列十持持先<anchor xml:id="beg_2d" type="cb-app"/>已<anchor xml:id="end_2d"/>得<note place="inline">二</note>
+<lb ed="U" n="0114a02"/><list><item xml:id="itemU223p0114a0201">初列十持持先<anchor xml:id="nkr_note_add_0114a0201" n="0114a0201"/><anchor xml:id="beg0114a0201" n="0114a0201"/>已<anchor xml:id="end0114a0201"/>得<note place="inline">二</note>
 <lb ed="U" n="0114a03"/><list><item xml:id="itemU223p0114a0301">初敘義<note place="inline">三</note>
 <lb ed="U" n="0114a04"/><list><item xml:id="itemU223p0114a0401">初出意<note place="inline">並從</note></item>
 <lb ed="U" n="0114a05"/><item xml:id="itemU223p0114a0501">二揔科<note place="inline">初三</note></item>
@@ -10905,7 +10910,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0125b06"/><item xml:id="itemU223p0125b0601">二問荅料揀<note place="inline">二</note>
 <lb ed="U" n="0125b07"/><list><item xml:id="itemU223p0125b0701">初問<note place="inline">二</note>
 <lb ed="U" n="0125b08"/><list><item xml:id="itemU223p0125b0801">初牒前同佛</item>
-<lb ed="U" n="0125b09"/><item xml:id="itemU223p0125b0901">二陳<anchor xml:id="beg_2e" type="cb-app"/>己<anchor xml:id="end_2e"/>所疑</item></list></item>
+<lb ed="U" n="0125b09"/><item xml:id="itemU223p0125b0901">二陳<anchor xml:id="nkr_note_add_0125b0901" n="0125b0901"/><anchor xml:id="beg0125b0901" n="0125b0901"/>己<anchor xml:id="end0125b0901"/>所疑</item></list></item>
 <lb ed="U" n="0125b10"/><item xml:id="itemU223p0125b1001">二荅<note place="inline">二</note>
 <lb ed="U" n="0125b11"/><list><item xml:id="itemU223p0125b1101">初讚問牒疑</item>
 <lb ed="U" n="0125b12"/><item xml:id="itemU223p0125b1201">二正荅所問<note place="inline">三</note>
@@ -11013,7 +11018,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0126b04"/><item xml:id="itemU223p0126b0401">二通其妨難<note place="inline">然非</note></item>
 <lb ed="U" n="0126b05"/><item xml:id="itemU223p0126b0501">三立理重難<note place="inline">此有</note></item>
 <lb ed="U" n="0126b06"/><item xml:id="itemU223p0126b0601">四以理會通<note place="inline">若合</note></item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0126b07"/><item xml:id="itemU223p0126b0701"><anchor xml:id="beg_2f" type="cb-app"/>二<anchor xml:id="end_2f"/>知佛</item></list></item>
+<lb ed="U" n="0126b07"/><item xml:id="itemU223p0126b0701"><anchor xml:id="nkr_note_add_0126b0701" n="0126b0701"/><anchor xml:id="beg0126b0701" n="0126b0701"/>二<anchor xml:id="end0126b0701"/>知佛</item></list></item>
 <lb ed="U" n="0126b08"/><item xml:id="itemU223p0126b0801">三結</item></list></item>
 <lb ed="U" n="0126b09"/><item xml:id="itemU223p0126b0901">五天耳智神通<note place="inline">三</note>
 <lb ed="U" n="0126b10"/><list><item xml:id="itemU223p0126b1001">初標</item>
@@ -11913,12 +11918,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0137b01"/><list><item xml:id="itemU223p0137b0101">初廣淨宿善益</item>
 <lb ed="U" n="0137b02"/><item xml:id="itemU223p0137b0201">二廣聞法之益<note place="inline">六</note>
 <lb ed="U" n="0137b03"/><list><item xml:id="itemU223p0137b0301">初略標勸誨</item>
-<lb ed="U" n="0137b04"/><item xml:id="itemU223p0137b0401">二聞<anchor xml:id="beg_30" type="cb-app"/>已<anchor xml:id="end_30"/>生疑</item>
+<lb ed="U" n="0137b04"/><item xml:id="itemU223p0137b0401">二聞<anchor xml:id="nkr_note_add_0137b0401" n="0137b0401"/><anchor xml:id="beg0137b0401" n="0137b0401"/>已<anchor xml:id="end0137b0401"/>生疑</item>
 <lb ed="U" n="0137b05"/><item xml:id="itemU223p0137b0501">三揔示所因</item>
 <lb ed="U" n="0137b06"/><item xml:id="itemU223p0137b0601">四正明勸教<note place="inline">四</note>
-<lb ed="U" n="0137b07"/><list><item xml:id="itemU223p0137b0701">初以<anchor xml:id="beg_31" type="cb-app"/>己<anchor xml:id="end_31"/>喻佛無我無来</item>
-<lb ed="U" n="0137b08"/><item xml:id="itemU223p0137b0801">二以他喻<anchor xml:id="beg_32" type="cb-app"/>己<anchor xml:id="end_32"/>來即無来</item>
-<lb ed="U" n="0137b09"/><item xml:id="itemU223p0137b0901">三以<anchor xml:id="beg_33" type="cb-app"/>己<anchor xml:id="end_33"/>況佛難思之境</item>
+<lb ed="U" n="0137b07"/><list><item xml:id="itemU223p0137b0701">初以<anchor xml:id="nkr_note_add_0137b0701" n="0137b0701"/><anchor xml:id="beg0137b0701" n="0137b0701"/>己<anchor xml:id="end0137b0701"/>喻佛無我無来</item>
+<lb ed="U" n="0137b08"/><item xml:id="itemU223p0137b0801">二以他喻<anchor xml:id="nkr_note_add_0137b0801" n="0137b0801"/><anchor xml:id="beg0137b0801" n="0137b0801"/>己<anchor xml:id="end0137b0801"/>來即無来</item>
+<lb ed="U" n="0137b09"/><item xml:id="itemU223p0137b0901">三以<anchor xml:id="nkr_note_add_0137b0901" n="0137b0901"/><anchor xml:id="beg0137b0901" n="0137b0901"/>己<anchor xml:id="end0137b0901"/>況佛難思之境</item>
 <lb ed="U" n="0137b10"/><item xml:id="itemU223p0137b1001">四正勸往詣誡不應留<note place="inline">二</note>
 <lb ed="U" n="0137b11"/><list><item xml:id="itemU223p0137b1101">初誡勸</item>
 <lb ed="U" n="0137b12"/><item xml:id="itemU223p0137b1201">二廣釋<note place="inline">二</note>
@@ -11950,7 +11955,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0137b38"/><item xml:id="itemU223p0137b3801">二釋相<note place="inline">二</note>
 <pb ed="U" xml:id="U223.1418.0138a" n="0138a"/>
 <lb ed="U" n="0138a01"/><list><item xml:id="itemU223p0138a0101">初所治之病<note place="inline">夫欲</note></item>
-<lb ed="U" n="0138a02"/><item xml:id="itemU223p0138a0201">二<anchor xml:id="beg_34" type="cb-app"/>能治<anchor xml:id="end_34"/>之藥<note place="inline">次起</note></item></list></item></list></item>
+<lb ed="U" n="0138a02"/><item xml:id="itemU223p0138a0201">二<anchor xml:id="nkr_note_add_0138a0201" n="0138a0201"/><anchor xml:id="beg0138a0201" n="0138a0201"/>能治<anchor xml:id="end0138a0201"/>之藥<note place="inline">次起</note></item></list></item></list></item>
 <lb ed="U" n="0138a03"/><item xml:id="itemU223p0138a0301">二依科釋<note place="inline">三</note>
 <lb ed="U" n="0138a04"/><list><item xml:id="itemU223p0138a0401">初揔標教誨<note place="inline">四</note>
 <lb ed="U" n="0138a05"/><list><item xml:id="itemU223p0138a0501">初明懺依<note place="inline">設善</note></item>
@@ -13677,7 +13682,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0156b08"/><item xml:id="itemU223p0156b0801">二處正入邪</item>
 <lb ed="U" n="0156b09"/><item xml:id="itemU223p0156b0901">三持犯權實</item>
 <lb ed="U" n="0156b10"/><item xml:id="itemU223p0156b1001">四人法權實</item></list></item>
-<lb ed="U" n="0156b11"/><item xml:id="itemU223p0156b1101"><anchor xml:id="beg_35" type="cb-app"/>三<anchor xml:id="end_35"/>因果權實<note place="inline">三</note>
+<lb ed="U" n="0156b11"/><item xml:id="itemU223p0156b1101"><anchor xml:id="nkr_note_add_0156b1101" n="0156b1101"/><anchor xml:id="beg0156b1101" n="0156b1101"/>三<anchor xml:id="end0156b1101"/>因果權實<note place="inline">三</note>
 <lb ed="U" n="0156b12"/><list><item xml:id="itemU223p0156b1201">初因圓示缺</item>
 <lb ed="U" n="0156b13"/><item xml:id="itemU223p0156b1301">二同果不捨因</item>
 <lb ed="U" n="0156b14"/><item xml:id="itemU223p0156b1401">三徵釋所以</item></list></item></list></item>
@@ -13782,7 +13787,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0158a04"/><item xml:id="itemU223p0158a0401">三辯明足</item></list></item>
 <lb ed="U" n="0158a05"/><item xml:id="itemU223p0158a0501">二勝進<note place="inline">三</note>
 <lb ed="U" n="0158a06"/><list><item xml:id="itemU223p0158a0601">初要求法要</item>
-<lb ed="U" n="0158a07"/><item xml:id="itemU223p0158a0701">二得<anchor xml:id="beg_36" type="cb-app"/>已<anchor xml:id="end_36"/>明了<note place="inline">三</note>
+<lb ed="U" n="0158a07"/><item xml:id="itemU223p0158a0701">二得<anchor xml:id="nkr_note_add_0158a0701" n="0158a0701"/><anchor xml:id="beg0158a0701" n="0158a0701"/>已<anchor xml:id="end0158a0701"/>明了<note place="inline">三</note>
 <lb ed="U" n="0158a08"/><list><item xml:id="itemU223p0158a0801">初明來意<note place="inline">得不</note></item>
 <lb ed="U" n="0158a09"/><item xml:id="itemU223p0158a0901">二能了智<note place="inline">捴以</note></item>
 <lb ed="U" n="0158a10"/><item xml:id="itemU223p0158a1001">三隨文釋<note place="inline">一是</note></item></list></item>
@@ -13881,7 +13886,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0158b05"/><item xml:id="itemU223p0158b0501">五乘願化生</item>
 <lb ed="U" n="0158b06"/><item xml:id="itemU223p0158b0601">六破胎生慢</item>
 <lb ed="U" n="0158b07"/><item xml:id="itemU223p0158b0701">七胎障不隔</item>
-<lb ed="U" n="0158b08"/><item xml:id="itemU223p0158b0801">八同<anchor xml:id="beg_37" type="cb-app"/>類<anchor xml:id="end_37"/>共<anchor xml:id="beg_38" type="cb-app"/>集<anchor xml:id="end_38"/></item>
+<lb ed="U" n="0158b08"/><item xml:id="itemU223p0158b0801">八同<anchor xml:id="nkr_note_add_0158b0801" n="0158b0801"/><anchor xml:id="beg0158b0801" n="0158b0801"/>類<anchor xml:id="end0158b0801"/>共<anchor xml:id="nkr_note_add_0158b0802" n="0158b0802"/><anchor xml:id="beg0158b0802" n="0158b0802"/>集<anchor xml:id="end0158b0802"/></item>
 <lb ed="U" n="0158b09"/><item xml:id="itemU223p0158b0901">九定力現嚴</item>
 <lb ed="U" n="0158b10"/><item xml:id="itemU223p0158b1001">十興供聞法</item></list></item>
 <lb ed="U" n="0158b11"/><item xml:id="itemU223p0158b1101">四益</item></list></item>
@@ -13972,7 +13977,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0159a43"/><item xml:id="itemU223p0159a4301">五緫結難測</item></list></item>
 <lb ed="U" n="0159a44"/><item xml:id="itemU223p0159a4401">二結託事顯法</item></list></item>
 <lb ed="U" n="0159a45"/><item xml:id="itemU223p0159a4501">三緫結深廣<note place="inline">二</note>
-<lb ed="U" n="0159a46"/><list><item xml:id="itemU223p0159a4601">初結前<anchor xml:id="beg_39" type="cb-app"/>已<anchor xml:id="end_39"/>說</item>
+<lb ed="U" n="0159a46"/><list><item xml:id="itemU223p0159a4601">初結前<anchor xml:id="nkr_note_add_0159a4601" n="0159a4601"/><anchor xml:id="beg0159a4601" n="0159a4601"/>已<anchor xml:id="end0159a4601"/>說</item>
 <lb ed="U" n="0159a47"/><item xml:id="itemU223p0159a4701">二未說難窮</item></list></item>
 <lb ed="U" n="0159a48"/><item xml:id="itemU223p0159a4801">四結觀修行</item></list></item></list></item></list></item></list>
 <pb ed="U" xml:id="U223.1418.0159b" n="0159b"/>
@@ -14535,7 +14540,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0167a21"/><item xml:id="itemU223p0167a2101">三示方不同<note place="inline">四</note>
 <lb ed="U" n="0167a22"/><list><item xml:id="itemU223p0167a2201">初揔辨類勝<note place="inline">三示</note></item>
 <lb ed="U" n="0167a23"/><item xml:id="itemU223p0167a2301">二別釋南方<note place="inline">然南</note></item>
-<lb ed="U" n="0167a24"/><item xml:id="itemU223p0167a2401">三對釋料揀<note place="inline">此<anchor xml:id="beg_3a" type="cb-app"/>五<anchor xml:id="end_3a"/></note></item>
+<lb ed="U" n="0167a24"/><item xml:id="itemU223p0167a2401">三對釋料揀<note place="inline">此<anchor xml:id="nkr_note_add_0167a2401" n="0167a2401"/><anchor xml:id="beg0167a2401" n="0167a2401"/>五<anchor xml:id="end0167a2401"/></note></item>
 <lb ed="U" n="0167a25"/><item xml:id="itemU223p0167a2501">四敘其順違<note place="inline">有人</note></item></list></item>
 <lb ed="U" n="0167a26"/><item xml:id="itemU223p0167a2601">四見處差別<note place="inline">四見</note></item>
 <lb ed="U" n="0167a27"/><item xml:id="itemU223p0167a2701">五遣不遣別<note place="inline">五遣</note></item>
@@ -14570,7 +14575,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0167a56"/><item xml:id="itemU223p0167a5601">二科經<note place="inline">二</note>
 <pb ed="U" xml:id="U223.1418.0167b" n="0167b"/>
 <lb ed="U" n="0167b01"/><list><item xml:id="itemU223p0167b0101">揔敘說因<note place="inline">三</note>
-<lb ed="U" n="0167b02"/><list><item xml:id="itemU223p0167b0201">初出說因<note place="inline">由<anchor xml:id="beg_3b" type="cb-app"/>己<anchor xml:id="end_3b"/></note></item>
+<lb ed="U" n="0167b02"/><list><item xml:id="itemU223p0167b0201">初出說因<note place="inline">由<anchor xml:id="nkr_note_add_0167b0201" n="0167b0201"/><anchor xml:id="beg0167b0201" n="0167b0201"/>己<anchor xml:id="end0167b0201"/></note></item>
 <lb ed="U" n="0167b03"/><item xml:id="itemU223p0167b0301">二申正問<note place="inline">問此</note></item>
 <lb ed="U" n="0167b04"/><item xml:id="itemU223p0167b0401">三釋本文<note place="inline">四</note>
 <lb ed="U" n="0167b05"/><list><item xml:id="itemU223p0167b0501">初敘上古<note place="inline">古有</note></item>
@@ -14589,7 +14594,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0167b18"/><item xml:id="itemU223p0167b1801">正陳偈辭<note place="inline">二</note>
 <lb ed="U" n="0167b19"/><list><item xml:id="itemU223p0167b1901">示科<note place="inline">二正</note></item>
 <lb ed="U" n="0167b20"/><item xml:id="itemU223p0167b2001">釋頌<note place="inline">二</note>
-<lb ed="U" n="0167b21"/><list><item xml:id="itemU223p0167b2101">初傷<anchor xml:id="beg_3c" type="cb-app"/>己<anchor xml:id="end_3c"/>沉溺自勉不能<note place="inline">二</note>
+<lb ed="U" n="0167b21"/><list><item xml:id="itemU223p0167b2101">初傷<anchor xml:id="nkr_note_add_0167b2101" n="0167b2101"/><anchor xml:id="beg0167b2101" n="0167b2101"/>己<anchor xml:id="end0167b2101"/>沉溺自勉不能<note place="inline">二</note>
 <lb ed="U" n="0167b22"/><list><item xml:id="itemU223p0167b2201">初依果起因</item>
 <lb ed="U" n="0167b23"/><item xml:id="itemU223p0167b2301">二依因起果</item></list></item>
 <lb ed="U" n="0167b24"/><item xml:id="itemU223p0167b2401">二仰德依人請垂拔濟<note place="inline">三</note>
@@ -14658,7 +14663,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0168b01"/><list><item xml:id="itemU223p0168b0101">初依教趣求</item>
 <lb ed="U" n="0168b02"/><item xml:id="itemU223p0168b0201">二見敬諮問<note place="inline">四</note>
 <lb ed="U" n="0168b03"/><list><item xml:id="itemU223p0168b0301">初設敬儀則</item>
-<lb ed="U" n="0168b04"/><item xml:id="itemU223p0168b0401">二申<anchor xml:id="beg_3d" type="cb-app"/>已<anchor xml:id="end_3d"/>發心</item>
+<lb ed="U" n="0168b04"/><item xml:id="itemU223p0168b0401">二申<anchor xml:id="nkr_note_add_0168b0401" n="0168b0401"/><anchor xml:id="beg0168b0401" n="0168b0401"/>已<anchor xml:id="end0168b0401"/>發心</item>
 <lb ed="U" n="0168b05"/><item xml:id="itemU223p0168b0501">三正陳所問</item>
 <lb ed="U" n="0168b06"/><item xml:id="itemU223p0168b0601">四歎德請說</item></list></item>
 <lb ed="U" n="0168b07"/><item xml:id="itemU223p0168b0701">三稱讚授法<note place="inline">二</note>
@@ -14680,18 +14685,18 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0168b23"/><list><item xml:id="itemU223p0168b2301">初揔標所見</item>
 <lb ed="U" n="0168b24"/><item xml:id="itemU223p0168b2401">二所見數多</item>
 <lb ed="U" n="0168b25"/><item xml:id="itemU223p0168b2501">三所見事別</item></list></item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0168b26"/><item xml:id="itemU223p0168b2601">四謙<anchor xml:id="beg_3e" type="cb-app"/>己<anchor xml:id="end_3e"/>推勝<note place="inline">二</note>
-<lb ed="U" n="0168b27"/><list><item xml:id="itemU223p0168b2701">初謙<anchor xml:id="beg_3f" type="cb-app"/>己<anchor xml:id="end_3f"/>知一</item>
+<lb ed="U" n="0168b26"/><item xml:id="itemU223p0168b2601">四謙<anchor xml:id="nkr_note_add_0168b2601" n="0168b2601"/><anchor xml:id="beg0168b2601" n="0168b2601"/>己<anchor xml:id="end0168b2601"/>推勝<note place="inline">二</note>
+<lb ed="U" n="0168b27"/><list><item xml:id="itemU223p0168b2701">初謙<anchor xml:id="nkr_note_add_0168b2701" n="0168b2701"/><anchor xml:id="beg0168b2701" n="0168b2701"/>己<anchor xml:id="end0168b2701"/>知一</item>
 <lb ed="U" n="0168b28"/><item xml:id="itemU223p0168b2801">二推勝知多<note place="inline">三</note>
 <lb ed="U" n="0168b29"/><list><item xml:id="itemU223p0168b2901">初揔</item>
 <lb ed="U" n="0168b30"/><item xml:id="itemU223p0168b3001">二別<note place="inline">五</note>
 <pb ed="U" xml:id="U223.1418.0169a" n="0169a"/>
 <lb ed="U" n="0169a01"/><list><item xml:id="itemU223p0169a0101">初彰大意<note place="inline">有二</note></item>
-<lb ed="U" n="0169a02"/><item xml:id="itemU223p0169a0201">二敘古釋<note place="inline"><anchor xml:id="beg_40" type="cb-app"/>古德<anchor xml:id="end_40"/></note></item>
-<lb ed="U" n="0169a03"/><item xml:id="itemU223p0169a0301">三辨順違<anchor xml:id="beg_41" type="cb-app"/><note place="inline">尅實</note><anchor xml:id="end_41"/></item>
+<lb ed="U" n="0169a02"/><item xml:id="itemU223p0169a0201">二敘古釋<note place="inline"><anchor xml:id="nkr_note_add_0169a0201" n="0169a0201"/><anchor xml:id="beg0169a0201" n="0169a0201"/>古德<anchor xml:id="end0169a0201"/></note></item>
+<lb ed="U" n="0169a03"/><item xml:id="itemU223p0169a0301">三辨順違<anchor xml:id="nkr_note_add_0169a0301" n="0169a0301"/><anchor xml:id="beg0169a0301" n="0169a0301"/><note place="inline">尅實</note><anchor xml:id="end0169a0301"/></item>
 <lb ed="U" n="0169a04"/><item xml:id="itemU223p0169a0401">四別釋由致<note place="inline">又此</note></item>
 <lb ed="U" n="0169a05"/><item xml:id="itemU223p0169a0501">五開章別釋<note place="inline">三</note>
-<lb ed="U" n="0169a06"/><list><item xml:id="itemU223p0169a0601">初雙標所念<note place="inline"><anchor xml:id="beg_42" type="cb-app"/>然其<anchor xml:id="end_42"/></note></item>
+<lb ed="U" n="0169a06"/><list><item xml:id="itemU223p0169a0601">初雙標所念<note place="inline"><anchor xml:id="nkr_note_add_0169a0601" n="0169a0601"/><anchor xml:id="beg0169a0601" n="0169a0601"/>然其<anchor xml:id="end0169a0601"/></note></item>
 <lb ed="U" n="0169a07"/><item xml:id="itemU223p0169a0701">二約三身辨<note place="inline">三</note>
 <lb ed="U" n="0169a08"/><list><item xml:id="itemU223p0169a0801">初所念差別<note place="inline">且寄</note></item>
 <lb ed="U" n="0169a09"/><item xml:id="itemU223p0169a0901">二會釋經文<note place="inline">三</note>
@@ -14732,8 +14737,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0169b23"/><list><item xml:id="itemU223p0169b2301">初於空現變</item>
 <lb ed="U" n="0169b24"/><item xml:id="itemU223p0169b2401">二十方便供</item>
 <lb ed="U" n="0169b25"/><item xml:id="itemU223p0169b2501">三現形益物</item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0169b26"/><item xml:id="itemU223p0169b2601">四謙<anchor xml:id="beg_43" type="cb-app"/>己<anchor xml:id="end_43"/>推勝<note place="inline">二</note>
-<lb ed="U" n="0169b27"/><list><item xml:id="itemU223p0169b2701">初謙<anchor xml:id="beg_44" type="cb-app"/>己<anchor xml:id="end_44"/>知一</item>
+<lb ed="U" n="0169b26"/><item xml:id="itemU223p0169b2601">四謙<anchor xml:id="nkr_note_add_0169b2601" n="0169b2601"/><anchor xml:id="beg0169b2601" n="0169b2601"/>己<anchor xml:id="end0169b2601"/>推勝<note place="inline">二</note>
+<lb ed="U" n="0169b27"/><list><item xml:id="itemU223p0169b2701">初謙<anchor xml:id="nkr_note_add_0169b2701" n="0169b2701"/><anchor xml:id="beg0169b2701" n="0169b2701"/>己<anchor xml:id="end0169b2701"/>知一</item>
 <lb ed="U" n="0169b28"/><item xml:id="itemU223p0169b2801">二仰推勝進<note place="inline">二</note>
 <lb ed="U" n="0169b29"/><list><item xml:id="itemU223p0169b2901">初來位釋<note place="inline">而皆</note></item>
 <lb ed="U" n="0169b30"/><item xml:id="itemU223p0169b3001">二案文釋<note place="inline">有二</note></item></list></item></list></item>
@@ -14743,7 +14748,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0169b34"/><item xml:id="itemU223p0169b3401">四彌伽居士寄主貴住○</item>
 <lb ed="U" n="0169b35"/><item xml:id="itemU223p0169b3501">五解脫長者寄方便住○</item>
 <lb ed="U" n="0169b36"/><item xml:id="itemU223p0169b3601">六海幢比丘寄正心住○</item>
-<lb ed="U" n="0169b37"/><item xml:id="itemU223p0169b3701">七休捨<anchor xml:id="beg_45" type="cb-app"/>優婆<anchor xml:id="end_45"/>夷寄不退住○</item>
+<lb ed="U" n="0169b37"/><item xml:id="itemU223p0169b3701">七休捨<anchor xml:id="nkr_note_add_0169b3701" n="0169b3701"/><anchor xml:id="beg0169b3701" n="0169b3701"/>優婆<anchor xml:id="end0169b3701"/>夷寄不退住○</item>
 <lb ed="U" n="0169b38"/><item xml:id="itemU223p0169b3801">八毗目瞿沙仙人寄童真住○</item>
 <lb ed="U" n="0169b39"/><item xml:id="itemU223p0169b3901">九勝熱婆羅門寄王子住○</item>
 <lb ed="U" n="0169b40"/><item xml:id="itemU223p0169b4001">十慈行童子寄灌頂住○</item></list></item></list></item>
@@ -14781,7 +14786,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0170a31"/><item xml:id="itemU223p0170a3101">二別讚善友<note place="inline">二</note>
 <lb ed="U" n="0170a32"/><list><item xml:id="itemU223p0170a3201">初法</item>
 <lb ed="U" n="0170a33"/><item xml:id="itemU223p0170a3301">二喻</item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0170a34"/><item xml:id="itemU223p0170a3401">二授<anchor xml:id="beg_46" type="cb-app"/>己<anchor xml:id="end_46"/>法門<note place="inline">二</note>
+<lb ed="U" n="0170a34"/><item xml:id="itemU223p0170a3401">二授<anchor xml:id="nkr_note_add_0170a3401" n="0170a3401"/><anchor xml:id="beg0170a3401" n="0170a3401"/>己<anchor xml:id="end0170a3401"/>法門<note place="inline">二</note>
 <lb ed="U" n="0170a35"/><list><item xml:id="itemU223p0170a3501">初現通益物令其目覩<note place="inline">二</note>
 <lb ed="U" n="0170a36"/><list><item xml:id="itemU223p0170a3601">初明義<note place="inline">二</note>
 <lb ed="U" n="0170a37"/><list><item xml:id="itemU223p0170a3701">初敘昔<note place="inline">言輪</note></item>
@@ -14791,8 +14796,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0170a41"/><item xml:id="itemU223p0170a4101">三辨字義<note place="inline">其五</note></item></list></item></list></item>
 <lb ed="U" n="0170a42"/><item xml:id="itemU223p0170a4201">二辨次<note place="inline">所以</note></item></list></item>
 <lb ed="U" n="0170a43"/><item xml:id="itemU223p0170a4301">二升座說受令其聽聞</item></list></item></list></item>
-<lb ed="U" n="0170a44"/><item xml:id="itemU223p0170a4401">四謙<anchor xml:id="beg_47" type="cb-app"/>己<anchor xml:id="end_47"/>推勝<note place="inline">二</note>
-<lb ed="U" n="0170a45"/><list><item xml:id="itemU223p0170a4501">初謙<anchor xml:id="beg_48" type="cb-app"/>己<anchor xml:id="end_48"/>結前</item>
+<lb ed="U" n="0170a44"/><item xml:id="itemU223p0170a4401">四謙<anchor xml:id="nkr_note_add_0170a4401" n="0170a4401"/><anchor xml:id="beg0170a4401" n="0170a4401"/>己<anchor xml:id="end0170a4401"/>推勝<note place="inline">二</note>
+<lb ed="U" n="0170a45"/><list><item xml:id="itemU223p0170a4501">初謙<anchor xml:id="nkr_note_add_0170a4501" n="0170a4501"/><anchor xml:id="beg0170a4501" n="0170a4501"/>己<anchor xml:id="end0170a4501"/>結前</item>
 <lb ed="U" n="0170a46"/><item xml:id="itemU223p0170a4601">二仰推勝進</item></list></item>
 <lb ed="U" n="0170a47"/><item xml:id="itemU223p0170a4701">五指示後友</item>
 <lb ed="U" n="0170a48"/><item xml:id="itemU223p0170a4801">六戀德禮辭</item></list></item>
@@ -14840,7 +14845,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0170b41"/><item xml:id="itemU223p0170b4101">二結成<note place="inline">後結</note></item></list></item></list></item>
 <lb ed="U" n="0170b42"/><item xml:id="itemU223p0170b4201">三以唯心觀徧該萬法</item>
 <lb ed="U" n="0170b43"/><item xml:id="itemU223p0170b4301">四結勸修學令證唯心</item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0170b44"/><item xml:id="itemU223p0170b4401">四謙<anchor xml:id="beg_49" type="cb-app"/>己<anchor xml:id="end_49"/>推勝</item>
+<lb ed="U" n="0170b44"/><item xml:id="itemU223p0170b4401">四謙<anchor xml:id="nkr_note_add_0170b4401" n="0170b4401"/><anchor xml:id="beg0170b4401" n="0170b4401"/>己<anchor xml:id="end0170b4401"/>推勝</item>
 <lb ed="U" n="0170b45"/><item xml:id="itemU223p0170b4501">五指示後友</item>
 <lb ed="U" n="0170b46"/><item xml:id="itemU223p0170b4601">六戀德禮辭</item></list></item>
 <pb ed="U" xml:id="U223.1418.0171a" n="0171a"/>
@@ -14861,7 +14866,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0171a15"/><item xml:id="itemU223p0171a1501">二膝出剎利</item>
 <lb ed="U" n="0171a16"/><item xml:id="itemU223p0171a1601">三腰出仙人</item>
 <lb ed="U" n="0171a17"/><item xml:id="itemU223p0171a1701">四脇出諸龍</item>
-<lb ed="U" n="0171a18"/><item xml:id="itemU223p0171a1801">四<g ref="#CB15109">𦚾</g>出脩<anchor xml:id="beg_4a" type="cb-app"/>羅<anchor xml:id="end_4a"/></item>
+<lb ed="U" n="0171a18"/><item xml:id="itemU223p0171a1801">四<g ref="#CB15109">𦚾</g>出脩<anchor xml:id="nkr_note_add_0171a1801" n="0171a1801"/><anchor xml:id="beg0171a1801" n="0171a1801"/>羅<anchor xml:id="end0171a1801"/></item>
 <lb ed="U" n="0171a19"/><item xml:id="itemU223p0171a1901">六背出三乘</item>
 <lb ed="U" n="0171a20"/><item xml:id="itemU223p0171a2001">七肩出夜叉</item>
 <lb ed="U" n="0171a21"/><item xml:id="itemU223p0171a2101">八腹出緊那羅</item>
@@ -14895,8 +14900,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0171b21"/><list><item xml:id="itemU223p0171b2101">初於器世間無礙</item>
 <lb ed="U" n="0171b22"/><item xml:id="itemU223p0171b2201">二智正覺世間無礙</item>
 <lb ed="U" n="0171b23"/><item xml:id="itemU223p0171b2301">三於眾生世間無礙</item></list></item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0171b24"/><item xml:id="itemU223p0171b2401">三謙<anchor xml:id="beg_4b" type="cb-app"/>己<anchor xml:id="end_4b"/>推勝<note place="inline">二</note>
-<lb ed="U" n="0171b25"/><list><item xml:id="itemU223p0171b2501">初謙<anchor xml:id="beg_4c" type="cb-app"/>己<anchor xml:id="end_4c"/>知一</item>
+<lb ed="U" n="0171b24"/><item xml:id="itemU223p0171b2401">三謙<anchor xml:id="nkr_note_add_0171b2401" n="0171b2401"/><anchor xml:id="beg0171b2401" n="0171b2401"/>己<anchor xml:id="end0171b2401"/>推勝<note place="inline">二</note>
+<lb ed="U" n="0171b25"/><list><item xml:id="itemU223p0171b2501">初謙<anchor xml:id="nkr_note_add_0171b2501" n="0171b2501"/><anchor xml:id="beg0171b2501" n="0171b2501"/>己<anchor xml:id="end0171b2501"/>知一</item>
 <lb ed="U" n="0171b26"/><item xml:id="itemU223p0171b2601">二推勝知多<note place="inline">二</note>
 <lb ed="U" n="0171b27"/><list><item xml:id="itemU223p0171b2701">初舉彼所知</item>
 <lb ed="U" n="0171b28"/><item xml:id="itemU223p0171b2801">二顯不能測</item></list></item></list></item>
@@ -14961,7 +14966,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0172a25"/><list><item xml:id="itemU223p0172a2501">初問</item>
 <lb ed="U" n="0172a26"/><item xml:id="itemU223p0172a2601">二荅</item></list></item></list></item></list></item>
 <lb ed="U" n="0172a27"/><item xml:id="itemU223p0172a2701">四謙己推勝<note place="inline">二</note>
-<lb ed="U" n="0172a28"/><list><item xml:id="itemU223p0172a2801">初謙<anchor xml:id="beg_4d" type="cb-app"/>己<anchor xml:id="end_4d"/>知一</item>
+<lb ed="U" n="0172a28"/><list><item xml:id="itemU223p0172a2801">初謙<anchor xml:id="nkr_note_add_0172a2801" n="0172a2801"/><anchor xml:id="beg0172a2801" n="0172a2801"/>己<anchor xml:id="end0172a2801"/>知一</item>
 <lb ed="U" n="0172a29"/><item xml:id="itemU223p0172a2901">二推勝知多</item></list></item>
 <lb ed="U" n="0172a30"/><item xml:id="itemU223p0172a3001">五指示後友</item>
 <lb ed="U" n="0172a31"/><item xml:id="itemU223p0172a3101">六戀德禮辭</item></list></item>
@@ -14992,7 +14997,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0172b07"/><item xml:id="itemU223p0172b0701">三就揔別釋<note place="inline">若約</note></item></list></item>
 <lb ed="U" n="0172b08"/><item xml:id="itemU223p0172b0801">五明捨加持</item>
 <lb ed="U" n="0172b09"/><item xml:id="itemU223p0172b0901">六明言承願</item></list></item></list></item>
-<lb ed="U" n="0172b10"/><item xml:id="itemU223p0172b1001">四謙<anchor xml:id="beg_4e" type="cb-app"/>己<anchor xml:id="end_4e"/>推勝</item>
+<lb ed="U" n="0172b10"/><item xml:id="itemU223p0172b1001">四謙<anchor xml:id="nkr_note_add_0172b1001" n="0172b1001"/><anchor xml:id="beg0172b1001" n="0172b1001"/>己<anchor xml:id="end0172b1001"/>推勝</item>
 <lb ed="U" n="0172b11"/><item xml:id="itemU223p0172b1101">五指示後友</item>
 <lb ed="U" n="0172b12"/><item xml:id="itemU223p0172b1201">六戀德禮辭</item></list></item>
 <lb ed="U" n="0172b13"/><item xml:id="itemU223p0172b1301">○九勝熱婆羅門寄王子住<note place="inline">六</note>
@@ -15045,7 +15050,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0173a16"/><item xml:id="itemU223p0173a1601">六休教修證<note place="inline">二</note>
 <lb ed="U" n="0173a17"/><list><item xml:id="itemU223p0173a1701">初正修證</item>
 <lb ed="U" n="0173a18"/><item xml:id="itemU223p0173a1801">二陳所得</item></list></item></list></item>
-<lb ed="U" n="0173a19"/><item xml:id="itemU223p0173a1901">四謙<anchor xml:id="beg_4f" type="cb-app"/>己<anchor xml:id="end_4f"/>推勝</item>
+<lb ed="U" n="0173a19"/><item xml:id="itemU223p0173a1901">四謙<anchor xml:id="nkr_note_add_0173a1901" n="0173a1901"/><anchor xml:id="beg0173a1901" n="0173a1901"/>己<anchor xml:id="end0173a1901"/>推勝</item>
 <lb ed="U" n="0173a20"/><item xml:id="itemU223p0173a2001">五指示後友</item>
 <lb ed="U" n="0173a21"/><item xml:id="itemU223p0173a2101">六戀德禮辭</item></list></item>
 <lb ed="U" n="0173a22"/><item xml:id="itemU223p0173a2201">十慈行童女寄灌頂位<note place="inline">六</note>
@@ -15081,12 +15086,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0173a52"/><item xml:id="itemU223p0173a5201">八剎海自在持</item>
 <lb ed="U" n="0173a53"/><item xml:id="itemU223p0173a5301">九佛海自在持</item>
 <lb ed="U" n="0173a54"/><item xml:id="itemU223p0173a5401">十菩提因果持</item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0173a55"/><item xml:id="itemU223p0173a5501">四謙<anchor xml:id="beg_50" type="cb-app"/>己<anchor xml:id="end_50"/>推勝</item>
+<lb ed="U" n="0173a55"/><item xml:id="itemU223p0173a5501">四謙<anchor xml:id="nkr_note_add_0173a5501" n="0173a5501"/><anchor xml:id="beg0173a5501" n="0173a5501"/>己<anchor xml:id="end0173a5501"/>推勝</item>
 <lb ed="U" n="0173a56"/><item xml:id="itemU223p0173a5601">五指示後友</item>
 <lb ed="U" n="0173a57"/><item xml:id="itemU223p0173a5701">六戀德禮辭</item></list></item></list>
 <pb ed="U" xml:id="U223.1418.0175a" n="0175a"/>
 <lb ed="U" n="0175a01"/><milestone unit="juan" n="18"/><cb:mulu type="卷" n="18"></cb:mulu><cb:juan fun="open" n="18"><cb:jhead>華嚴經疏科卷第十八</cb:jhead></cb:juan><byline cb:type="author">清涼山沙門澄觀述</byline><byline cb:type="other">晉水沙門淨源直刊鉅八</byline>
-<lb ed="U" n="0175a02"/><list><item xml:id="itemU223p0175a0201">第三善見比丘<anchor xml:id="beg_51" type="cb-app"/>已<anchor xml:id="end_51"/>下有十善友寄十行<note place="inline">十</note>
+<lb ed="U" n="0175a02"/><list><item xml:id="itemU223p0175a0201">第三善見比丘<anchor xml:id="nkr_note_add_0175a0201" n="0175a0201"/><anchor xml:id="beg0175a0201" n="0175a0201"/>已<anchor xml:id="end0175a0201"/>下有十善友寄十行<note place="inline">十</note>
 <lb ed="U" n="0175a03"/><list><item xml:id="itemU223p0175a0301">初善見比丘寄歡喜行<note place="inline">六</note>
 <lb ed="U" n="0175a04"/><list><item xml:id="itemU223p0175a0401">初依教趣求<note place="inline">二</note>
 <lb ed="U" n="0175a05"/><list><item xml:id="itemU223p0175a0501">初念前友教</item>
@@ -15104,8 +15109,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0175a17"/><item xml:id="itemU223p0175a1701">二所修時分</item>
 <lb ed="U" n="0175a18"/><item xml:id="itemU223p0175a1801">三所作成益</item></list></item>
 <lb ed="U" n="0175a19"/><item xml:id="itemU223p0175a1901">二顯法業用</item></list></item>
-<lb ed="U" n="0175a20"/><item xml:id="itemU223p0175a2001">四謙<anchor xml:id="beg_52" type="cb-app"/>己<anchor xml:id="end_52"/>推勝<note place="inline">二</note>
-<lb ed="U" n="0175a21"/><list><item xml:id="itemU223p0175a2101">初謙<anchor xml:id="beg_53" type="cb-app"/>己<anchor xml:id="end_53"/>結前</item>
+<lb ed="U" n="0175a20"/><item xml:id="itemU223p0175a2001">四謙<anchor xml:id="nkr_note_add_0175a2001" n="0175a2001"/><anchor xml:id="beg0175a2001" n="0175a2001"/>己<anchor xml:id="end0175a2001"/>推勝<note place="inline">二</note>
+<lb ed="U" n="0175a21"/><list><item xml:id="itemU223p0175a2101">初謙<anchor xml:id="nkr_note_add_0175a2101" n="0175a2101"/><anchor xml:id="beg0175a2101" n="0175a2101"/>己<anchor xml:id="end0175a2101"/>結前</item>
 <lb ed="U" n="0175a22"/><item xml:id="itemU223p0175a2201">二推勝知多</item></list></item>
 <lb ed="U" n="0175a23"/><item xml:id="itemU223p0175a2301">五指示後友</item>
 <lb ed="U" n="0175a24"/><item xml:id="itemU223p0175a2401">六戀德禮辞</item></list></item>
@@ -15121,7 +15126,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0175b08"/><item xml:id="itemU223p0175b0801">三知筭<note place="inline">二</note>
 <lb ed="U" n="0175b09"/><list><item xml:id="itemU223p0175b0901">初辨能筭數</item>
 <lb ed="U" n="0175b10"/><item xml:id="itemU223p0175b1001">二筭彼筭數</item></list></item></list></item></list></item>
-<lb ed="U" n="0175b11"/><item xml:id="itemU223p0175b1101">四謙<anchor xml:id="beg_54" type="cb-app"/>己<anchor xml:id="end_54"/>推勝</item>
+<lb ed="U" n="0175b11"/><item xml:id="itemU223p0175b1101">四謙<anchor xml:id="nkr_note_add_0175b1101" n="0175b1101"/><anchor xml:id="beg0175b1101" n="0175b1101"/>己<anchor xml:id="end0175b1101"/>推勝</item>
 <lb ed="U" n="0175b12"/><item xml:id="itemU223p0175b1201">五指示後友</item>
 <lb ed="U" n="0175b13"/><item xml:id="itemU223p0175b1301">六戀德禮辞</item></list></item>
 <lb ed="U" n="0175b14"/><item xml:id="itemU223p0175b1401">三具足優婆夷寄無違逆行<note place="inline">六</note>
@@ -15148,7 +15153,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0175b35"/><item xml:id="itemU223p0175b3501">三益菩薩</item></list></item>
 <lb ed="U" n="0175b36"/><item xml:id="itemU223p0175b3601">二令見問益</item>
 <lb ed="U" n="0175b37"/><item xml:id="itemU223p0175b3701">三使其目驗</item></list></item></list></item>
-<lb ed="U" n="0175b38"/><item xml:id="itemU223p0175b3801">四謙<anchor xml:id="beg_55" type="cb-app"/>己<anchor xml:id="end_55"/>推勝</item>
+<lb ed="U" n="0175b38"/><item xml:id="itemU223p0175b3801">四謙<anchor xml:id="nkr_note_add_0175b3801" n="0175b3801"/><anchor xml:id="beg0175b3801" n="0175b3801"/>己<anchor xml:id="end0175b3801"/>推勝</item>
 <lb ed="U" n="0175b39"/><item xml:id="itemU223p0175b3901">五指示後友</item>
 <lb ed="U" n="0175b40"/><item xml:id="itemU223p0175b4001">六戀德禮辞</item></list></item>
 <lb ed="U" n="0175b41"/><item xml:id="itemU223p0175b4101">四明智居士寄無屈撓行<note place="inline">六</note>
@@ -15172,7 +15177,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0176a09"/><item xml:id="itemU223p0176a0901">二施財法<note place="inline">二</note>
 <lb ed="U" n="0176a10"/><list><item xml:id="itemU223p0176a1001">初施財</item>
 <lb ed="U" n="0176a11"/><item xml:id="itemU223p0176a1101">二施法</item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0176a12"/><item xml:id="itemU223p0176a1201">四謙<anchor xml:id="beg_56" type="cb-app"/>己<anchor xml:id="end_56"/>推勝</item>
+<lb ed="U" n="0176a12"/><item xml:id="itemU223p0176a1201">四謙<anchor xml:id="nkr_note_add_0176a1201" n="0176a1201"/><anchor xml:id="beg0176a1201" n="0176a1201"/>己<anchor xml:id="end0176a1201"/>推勝</item>
 <lb ed="U" n="0176a13"/><item xml:id="itemU223p0176a1301">五指示後友</item>
 <lb ed="U" n="0176a14"/><item xml:id="itemU223p0176a1401">六戀德禮辞</item></list></item>
 <lb ed="U" n="0176a15"/><item xml:id="itemU223p0176a1501">五法寶髻長者寄無癡亂行○</item>
@@ -15184,7 +15189,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0176a21"/><item xml:id="itemU223p0176a2101">○五法寶髻長者寄無癡亂行<note place="inline">六</note>
 <lb ed="U" n="0176a22"/><list><item xml:id="itemU223p0176a2201">初依教趣求</item>
 <lb ed="U" n="0176a23"/><item xml:id="itemU223p0176a2301">二見敬諮問</item>
-<lb ed="U" n="0176a24"/><item xml:id="itemU223p0176a2401">三受<anchor xml:id="beg_57" type="cb-app"/>己<anchor xml:id="end_57"/>法界<note place="inline">四</note>
+<lb ed="U" n="0176a24"/><item xml:id="itemU223p0176a2401">三受<anchor xml:id="nkr_note_add_0176a2401" n="0176a2401"/><anchor xml:id="beg0176a2401" n="0176a2401"/>己<anchor xml:id="end0176a2401"/>法界<note place="inline">四</note>
 <lb ed="U" n="0176a25"/><list><item xml:id="itemU223p0176a2501">初執手相引</item>
 <lb ed="U" n="0176a26"/><item xml:id="itemU223p0176a2601">二示其所住</item>
 <lb ed="U" n="0176a27"/><item xml:id="itemU223p0176a2701">三正證法界<note place="inline">二</note>
@@ -15196,7 +15201,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0176a33"/><item xml:id="itemU223p0176a3301">四問荅因緣<note place="inline">二</note>
 <lb ed="U" n="0176a34"/><list><item xml:id="itemU223p0176a3401">初問</item>
 <lb ed="U" n="0176a35"/><item xml:id="itemU223p0176a3501">二荅</item></list></item></list></item>
-<lb ed="U" n="0176a36"/><item xml:id="itemU223p0176a3601">四謙<anchor xml:id="beg_58" type="cb-app"/>己<anchor xml:id="end_58"/>推勝</item>
+<lb ed="U" n="0176a36"/><item xml:id="itemU223p0176a3601">四謙<anchor xml:id="nkr_note_add_0176a3601" n="0176a3601"/><anchor xml:id="beg0176a3601" n="0176a3601"/>己<anchor xml:id="end0176a3601"/>推勝</item>
 <lb ed="U" n="0176a37"/><item xml:id="itemU223p0176a3701">五指示後友</item>
 <lb ed="U" n="0176a38"/><item xml:id="itemU223p0176a3801">六戀德禮辞</item></list></item>
 <lb ed="U" n="0176a39"/><item xml:id="itemU223p0176a3901">○六普眼長者寄善現行<note place="inline">六</note>
@@ -15219,7 +15224,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0176b01"/><list><item xml:id="itemU223p0176b0101">初知其荅體</item>
 <lb ed="U" n="0176b02"/><item xml:id="itemU223p0176b0201">二興供起願</item>
 <lb ed="U" n="0176b03"/><item xml:id="itemU223p0176b0301">三能成大供</item></list></item></list></item></list></item>
-<lb ed="U" n="0176b04"/><item xml:id="itemU223p0176b0401">四謙<anchor xml:id="beg_59" type="cb-app"/>己<anchor xml:id="end_59"/>推勝</item>
+<lb ed="U" n="0176b04"/><item xml:id="itemU223p0176b0401">四謙<anchor xml:id="nkr_note_add_0176b0401" n="0176b0401"/><anchor xml:id="beg0176b0401" n="0176b0401"/>己<anchor xml:id="end0176b0401"/>推勝</item>
 <lb ed="U" n="0176b05"/><item xml:id="itemU223p0176b0501">五指示後友</item>
 <lb ed="U" n="0176b06"/><item xml:id="itemU223p0176b0601">六戀德禮辞</item></list></item>
 <lb ed="U" n="0176b07"/><item xml:id="itemU223p0176b0701">○七無猒足王寄無著行<note place="inline">六</note>
@@ -15239,7 +15244,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0176b21"/><item xml:id="itemU223p0176b2101">三通其伏難<note place="inline">貪益</note></item>
 <lb ed="U" n="0176b22"/><item xml:id="itemU223p0176b2201">四指示深玄<note place="inline">言深</note></item></list></item></list></item></list></item>
 <lb ed="U" n="0176b23"/><item xml:id="itemU223p0176b2301">二敬問</item></list></item>
-<lb ed="U" n="0176b24"/><item xml:id="itemU223p0176b2401">三授<anchor xml:id="beg_5a" type="cb-app"/>己<anchor xml:id="end_5a"/>法界<note place="inline">二</note>
+<lb ed="U" n="0176b24"/><item xml:id="itemU223p0176b2401">三授<anchor xml:id="nkr_note_add_0176b2401" n="0176b2401"/><anchor xml:id="beg0176b2401" n="0176b2401"/>己<anchor xml:id="end0176b2401"/>法界<note place="inline">二</note>
 <lb ed="U" n="0176b25"/><list><item xml:id="itemU223p0176b2501">初授法方便</item>
 <lb ed="U" n="0176b26"/><item xml:id="itemU223p0176b2601">二正示法界<note place="inline">四</note>
 <lb ed="U" n="0176b27"/><list><item xml:id="itemU223p0176b2701">初舉果令入</item>
@@ -15249,7 +15254,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0176b31"/><item xml:id="itemU223p0176b3101">二業用</item>
 <lb ed="U" n="0176b32"/><item xml:id="itemU223p0176b3201">三勝益</item></list></item>
 <lb ed="U" n="0176b33"/><item xml:id="itemU223p0176b3301">四直顯實德</item></list></item></list></item>
-<lb ed="U" n="0176b34"/><item xml:id="itemU223p0176b3401">四謙<anchor xml:id="beg_5b" type="cb-app"/>己<anchor xml:id="end_5b"/>推勝</item>
+<lb ed="U" n="0176b34"/><item xml:id="itemU223p0176b3401">四謙<anchor xml:id="nkr_note_add_0176b3401" n="0176b3401"/><anchor xml:id="beg0176b3401" n="0176b3401"/>己<anchor xml:id="end0176b3401"/>推勝</item>
 <lb ed="U" n="0176b35"/><item xml:id="itemU223p0176b3501">五指示後友</item>
 <lb ed="U" n="0176b36"/><item xml:id="itemU223p0176b3601">六戀德禮辞</item></list></item>
 <lb ed="U" n="0176b37"/><item xml:id="itemU223p0176b3701">○八大光王寄難得行<note place="inline">六</note>
@@ -15271,7 +15276,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0177a09"/><item xml:id="itemU223p0177a0901">三明施意</item></list></item></list></item>
 <lb ed="U" n="0177a10"/><item xml:id="itemU223p0177a1001">二敬</item>
 <lb ed="U" n="0177a11"/><item xml:id="itemU223p0177a1101">三問</item></list></item>
-<lb ed="U" n="0177a12"/><item xml:id="itemU223p0177a1201">三授<anchor xml:id="beg_5c" type="cb-app"/>己<anchor xml:id="end_5c"/>法界<note place="inline">三</note>
+<lb ed="U" n="0177a12"/><item xml:id="itemU223p0177a1201">三授<anchor xml:id="nkr_note_add_0177a1201" n="0177a1201"/><anchor xml:id="beg0177a1201" n="0177a1201"/>己<anchor xml:id="end0177a1201"/>法界<note place="inline">三</note>
 <lb ed="U" n="0177a13"/><list><item xml:id="itemU223p0177a1301">初揔示法門</item>
 <lb ed="U" n="0177a14"/><item xml:id="itemU223p0177a1401">二得法因緣</item>
 <lb ed="U" n="0177a15"/><item xml:id="itemU223p0177a1501">三明其業用<note place="inline">五</note>
@@ -15282,7 +15287,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0177a20"/><item xml:id="itemU223p0177a2001">五以三昧攝<note place="inline">二</note>
 <lb ed="U" n="0177a21"/><list><item xml:id="itemU223p0177a2101">初以言告</item>
 <lb ed="U" n="0177a22"/><item xml:id="itemU223p0177a2201">二以定示</item></list></item></list></item></list></item>
-<lb ed="U" n="0177a23"/><item xml:id="itemU223p0177a2301">四謙<anchor xml:id="beg_5d" type="cb-app"/>己<anchor xml:id="end_5d"/>推勝</item>
+<lb ed="U" n="0177a23"/><item xml:id="itemU223p0177a2301">四謙<anchor xml:id="nkr_note_add_0177a2301" n="0177a2301"/><anchor xml:id="beg0177a2301" n="0177a2301"/>己<anchor xml:id="end0177a2301"/>推勝</item>
 <lb ed="U" n="0177a24"/><item xml:id="itemU223p0177a2401">五指示後友</item>
 <lb ed="U" n="0177a25"/><item xml:id="itemU223p0177a2501">六戀德禮辞</item></list></item>
 <lb ed="U" n="0177a26"/><item xml:id="itemU223p0177a2601">○九不動優婆夷寄善法行<note place="inline">六</note>
@@ -15323,7 +15328,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0177b10"/><item xml:id="itemU223p0177b1001">二申請</item>
 <lb ed="U" n="0177b11"/><item xml:id="itemU223p0177b1101">三正現</item>
 <lb ed="U" n="0177b12"/><item xml:id="itemU223p0177b1201">四出定</item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0177b13"/><item xml:id="itemU223p0177b1301">四謙<anchor xml:id="beg_5e" type="cb-app"/>己<anchor xml:id="end_5e"/>推勝</item>
+<lb ed="U" n="0177b13"/><item xml:id="itemU223p0177b1301">四謙<anchor xml:id="nkr_note_add_0177b1301" n="0177b1301"/><anchor xml:id="beg0177b1301" n="0177b1301"/>己<anchor xml:id="end0177b1301"/>推勝</item>
 <lb ed="U" n="0177b14"/><item xml:id="itemU223p0177b1401">五指示後友</item>
 <lb ed="U" n="0177b15"/><item xml:id="itemU223p0177b1501">六戀德禮辞</item></list></item>
 <lb ed="U" n="0177b16"/><item xml:id="itemU223p0177b1601">○十徧行外道寄真實行<note place="inline">六</note>
@@ -15338,11 +15343,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0177b25"/><item xml:id="itemU223p0177b2501">二普觀世間用</item>
 <lb ed="U" n="0177b26"/><item xml:id="itemU223p0177b2601">三無作無依用</item>
 <lb ed="U" n="0177b27"/><item xml:id="itemU223p0177b2701">四普門般若用</item></list></item></list></item></list></item>
-<lb ed="U" n="0177b28"/><item xml:id="itemU223p0177b2801">四謙<anchor xml:id="beg_5f" type="cb-app"/>己<anchor xml:id="end_5f"/>推勝</item>
+<lb ed="U" n="0177b28"/><item xml:id="itemU223p0177b2801">四謙<anchor xml:id="nkr_note_add_0177b2801" n="0177b2801"/><anchor xml:id="beg0177b2801" n="0177b2801"/>己<anchor xml:id="end0177b2801"/>推勝</item>
 <lb ed="U" n="0177b29"/><item xml:id="itemU223p0177b2901">五指示後友</item>
 <lb ed="U" n="0177b30"/><item xml:id="itemU223p0177b3001">六戀德禮辞</item></list></item>
 <pb ed="U" xml:id="U223.1418.0178a" n="0178a"/>
-<lb ed="U" n="0178a01"/><item xml:id="itemU223p0178a0101">○第四鬻香長者<anchor xml:id="beg_60" type="cb-app"/>已<anchor xml:id="end_60"/>下有十善友寄十迴向<note place="inline">十</note>
+<lb ed="U" n="0178a01"/><item xml:id="itemU223p0178a0101">○第四鬻香長者<anchor xml:id="nkr_note_add_0178a0101" n="0178a0101"/><anchor xml:id="beg0178a0101" n="0178a0101"/>已<anchor xml:id="end0178a0101"/>下有十善友寄十迴向<note place="inline">十</note>
 <lb ed="U" n="0178a02"/><list><item xml:id="itemU223p0178a0201">初青蓮華長者寄離眾生相迴向<note place="inline">六</note>
 <lb ed="U" n="0178a03"/><list><item xml:id="itemU223p0178a0301">初依教趣求</item>
 <lb ed="U" n="0178a04"/><item xml:id="itemU223p0178a0401">二見敬諮問</item>
@@ -15363,7 +15368,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0178a19"/><list><item xml:id="itemU223p0178a1901">初約事<note place="inline">具前</note></item>
 <lb ed="U" n="0178a20"/><item xml:id="itemU223p0178a2001">二約法<note place="inline">若就</note></item></list></item>
 <lb ed="U" n="0178a21"/><item xml:id="itemU223p0178a2101">二釋餘九句<note place="inline">餘之</note></item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0178a22"/><item xml:id="itemU223p0178a2201">四謙<anchor xml:id="beg_61" type="cb-app"/>己<anchor xml:id="end_61"/>推勝</item>
+<lb ed="U" n="0178a22"/><item xml:id="itemU223p0178a2201">四謙<anchor xml:id="nkr_note_add_0178a2201" n="0178a2201"/><anchor xml:id="beg0178a2201" n="0178a2201"/>己<anchor xml:id="end0178a2201"/>推勝</item>
 <lb ed="U" n="0178a23"/><item xml:id="itemU223p0178a2301">五指示後友</item>
 <lb ed="U" n="0178a24"/><item xml:id="itemU223p0178a2401">六戀德禮辞</item></list></item>
 <lb ed="U" n="0178a25"/><item xml:id="itemU223p0178a2501">二婆施羅舩師寄不壞迴向<note place="inline">六</note>
@@ -15388,7 +15393,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0178b07"/><item xml:id="itemU223p0178b0701">四即能知時</item>
 <lb ed="U" n="0178b08"/><item xml:id="itemU223p0178b0801">五萬行不同</item></list></item>
 <lb ed="U" n="0178b09"/><item xml:id="itemU223p0178b0901">二彰化益</item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0178b10"/><item xml:id="itemU223p0178b1001">四謙<anchor xml:id="beg_62" type="cb-app"/>己<anchor xml:id="end_62"/>推勝</item>
+<lb ed="U" n="0178b10"/><item xml:id="itemU223p0178b1001">四謙<anchor xml:id="nkr_note_add_0178b1001" n="0178b1001"/><anchor xml:id="beg0178b1001" n="0178b1001"/>己<anchor xml:id="end0178b1001"/>推勝</item>
 <lb ed="U" n="0178b11"/><item xml:id="itemU223p0178b1101">五指示後友</item>
 <lb ed="U" n="0178b12"/><item xml:id="itemU223p0178b1201">六戀德禮辞</item></list></item>
 <lb ed="U" n="0178b13"/><item xml:id="itemU223p0178b1301">三無上勝長者字等一切佛迴向<note place="inline">六</note>
@@ -15406,7 +15411,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0178b25"/><item xml:id="itemU223p0178b2501">二釋<note place="inline">二</note>
 <lb ed="U" n="0178b26"/><list><item xml:id="itemU223p0178b2601">初舉三千</item>
 <lb ed="U" n="0178b27"/><item xml:id="itemU223p0178b2701">二類十方</item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0178b28"/><item xml:id="itemU223p0178b2801">四謙<anchor xml:id="beg_63" type="cb-app"/>己<anchor xml:id="end_63"/>推勝</item>
+<lb ed="U" n="0178b28"/><item xml:id="itemU223p0178b2801">四謙<anchor xml:id="nkr_note_add_0178b2801" n="0178b2801"/><anchor xml:id="beg0178b2801" n="0178b2801"/>己<anchor xml:id="end0178b2801"/>推勝</item>
 <lb ed="U" n="0178b29"/><item xml:id="itemU223p0178b2901">五指示後友</item>
 <lb ed="U" n="0178b30"/><item xml:id="itemU223p0178b3001">六戀德禮辞</item></list></item>
 <lb ed="U" n="0178b31"/><item xml:id="itemU223p0178b3101">四師子頻申比丘尼寄至一切處迴向<note place="inline">六</note>
@@ -15433,13 +15438,13 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0179a07"/><item xml:id="itemU223p0179a0701">三揔結多類聞法發心</item>
 <lb ed="U" n="0179a08"/><item xml:id="itemU223p0179a0801">四通顯所因釋成自在<note place="inline">二</note>
 <lb ed="U" n="0179a09"/><list><item xml:id="itemU223p0179a0901">初由能化具般若</item>
-<lb ed="U" n="0179a10"/><item xml:id="itemU223p0179a1001">二由所化根<anchor xml:id="beg_64" type="cb-app"/>已<anchor xml:id="end_64"/>熟</item></list></item></list></item></list></item>
+<lb ed="U" n="0179a10"/><item xml:id="itemU223p0179a1001">二由所化根<anchor xml:id="nkr_note_add_0179a1001" n="0179a1001"/><anchor xml:id="beg0179a1001" n="0179a1001"/>已<anchor xml:id="end0179a1001"/>熟</item></list></item></list></item></list></item>
 <lb ed="U" n="0179a11"/><item xml:id="itemU223p0179a1101">二敬<note place="inline">三</note>
 <lb ed="U" n="0179a12"/><list><item xml:id="itemU223p0179a1201">初覩勝發心</item>
 <lb ed="U" n="0179a13"/><item xml:id="itemU223p0179a1301">二放光攝受</item>
 <lb ed="U" n="0179a14"/><item xml:id="itemU223p0179a1401">三正申敬儀</item></list></item>
 <lb ed="U" n="0179a15"/><item xml:id="itemU223p0179a1501">三問</item></list></item>
-<lb ed="U" n="0179a16"/><item xml:id="itemU223p0179a1601">三授<anchor xml:id="beg_65" type="cb-app"/>己<anchor xml:id="end_65"/>法界<note place="inline">三</note>
+<lb ed="U" n="0179a16"/><item xml:id="itemU223p0179a1601">三授<anchor xml:id="nkr_note_add_0179a1601" n="0179a1601"/><anchor xml:id="beg0179a1601" n="0179a1601"/>己<anchor xml:id="end0179a1601"/>法界<note place="inline">三</note>
 <lb ed="U" n="0179a17"/><list><item xml:id="itemU223p0179a1701">初標示名體</item>
 <lb ed="U" n="0179a18"/><item xml:id="itemU223p0179a1801">二徵釋其體</item>
 <lb ed="U" n="0179a19"/><item xml:id="itemU223p0179a1901">三辨其業用<note place="inline">二</note>
@@ -15449,7 +15454,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0179a23"/><list><item xml:id="itemU223p0179a2301">初辨用所依</item>
 <lb ed="U" n="0179a24"/><item xml:id="itemU223p0179a2401">二能依業用</item></list></item>
 <lb ed="U" n="0179a25"/><item xml:id="itemU223p0179a2501">二辨智用</item></list></item></list></item></list></item>
-<lb ed="U" n="0179a26"/><item xml:id="itemU223p0179a2601">四謙<anchor xml:id="beg_66" type="cb-app"/>己<anchor xml:id="end_66"/>推勝</item>
+<lb ed="U" n="0179a26"/><item xml:id="itemU223p0179a2601">四謙<anchor xml:id="nkr_note_add_0179a2601" n="0179a2601"/><anchor xml:id="beg0179a2601" n="0179a2601"/>己<anchor xml:id="end0179a2601"/>推勝</item>
 <lb ed="U" n="0179a27"/><item xml:id="itemU223p0179a2701">五指示後友</item>
 <lb ed="U" n="0179a28"/><item xml:id="itemU223p0179a2801">六戀德禮辞</item></list></item>
 <lb ed="U" n="0179a29"/><item xml:id="itemU223p0179a2901">五婆須蜜女寄無盡功德藏迴向○</item>
@@ -15473,7 +15478,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0179a47"/><list><item xml:id="itemU223p0179a4701">初見依報</item>
 <lb ed="U" n="0179a48"/><item xml:id="itemU223p0179a4801">二見正報</item></list></item>
 <lb ed="U" n="0179a49"/><item xml:id="itemU223p0179a4901">二敬問</item></list></item>
-<lb ed="U" n="0179a50"/><item xml:id="itemU223p0179a5001">三授<anchor xml:id="beg_67" type="cb-app"/>己<anchor xml:id="end_67"/>法界<note place="inline">三</note>
+<lb ed="U" n="0179a50"/><item xml:id="itemU223p0179a5001">三授<anchor xml:id="nkr_note_add_0179a5001" n="0179a5001"/><anchor xml:id="beg0179a5001" n="0179a5001"/>己<anchor xml:id="end0179a5001"/>法界<note place="inline">三</note>
 <lb ed="U" n="0179a51"/><list><item xml:id="itemU223p0179a5101">初標名體</item>
 <lb ed="U" n="0179a52"/><item xml:id="itemU223p0179a5201">二顯業用<note place="inline">二</note>
 <lb ed="U" n="0179a53"/><list><item xml:id="itemU223p0179a5301">初身同類現</item>
@@ -15481,7 +15486,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0179a55"/><item xml:id="itemU223p0179a5501">三得法因<note place="inline">二</note>
 <lb ed="U" n="0179a56"/><list><item xml:id="itemU223p0179a5601">初問</item>
 <lb ed="U" n="0179a57"/><item xml:id="itemU223p0179a5701">二荅</item></list></item></list></item>
-<lb ed="U" n="0179a58"/><item xml:id="itemU223p0179a5801">四謙<anchor xml:id="beg_68" type="cb-app"/>己<anchor xml:id="end_68"/>推勝</item>
+<lb ed="U" n="0179a58"/><item xml:id="itemU223p0179a5801">四謙<anchor xml:id="nkr_note_add_0179a5801" n="0179a5801"/><anchor xml:id="beg0179a5801" n="0179a5801"/>己<anchor xml:id="end0179a5801"/>推勝</item>
 <lb ed="U" n="0179a59"/><item xml:id="itemU223p0179a5901">五指示後友</item>
 <lb ed="U" n="0179a60"/><item xml:id="itemU223p0179a6001">六戀德禮辞</item></list></item>
 <pb ed="U" xml:id="U223.1418.0179b" n="0179b"/>
@@ -15542,7 +15547,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0180a12"/><item xml:id="itemU223p0180a1201">○八正趣菩薩寄真如相迴向<note place="inline">六</note>
 <lb ed="U" n="0180a13"/><list><item xml:id="itemU223p0180a1301">初依教趣求</item>
 <lb ed="U" n="0180a14"/><item xml:id="itemU223p0180a1401">二見敬諮問</item>
-<lb ed="U" n="0180a15"/><item xml:id="itemU223p0180a1501">三授<anchor xml:id="beg_69" type="cb-app"/>己<anchor xml:id="end_69"/>法界<note place="inline">二</note>
+<lb ed="U" n="0180a15"/><item xml:id="itemU223p0180a1501">三授<anchor xml:id="nkr_note_add_0180a1501" n="0180a1501"/><anchor xml:id="beg0180a1501" n="0180a1501"/>己<anchor xml:id="end0180a1501"/>法界<note place="inline">二</note>
 <lb ed="U" n="0180a16"/><list><item xml:id="itemU223p0180a1601">初標名體</item>
 <lb ed="U" n="0180a17"/><item xml:id="itemU223p0180a1701">二顯業用<note place="inline">二</note>
 <lb ed="U" n="0180a18"/><list><item xml:id="itemU223p0180a1801">初申問</item>
@@ -15554,13 +15559,13 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0180a24"/><item xml:id="itemU223p0180a2401">三荅處近遠</item>
 <lb ed="U" n="0180a25"/><item xml:id="itemU223p0180a2501">四顯其成益</item>
 <lb ed="U" n="0180a26"/><item xml:id="itemU223p0180a2601">五類顯十方</item></list></item></list></item></list></item>
-<lb ed="U" n="0180a27"/><item xml:id="itemU223p0180a2701">四謙<anchor xml:id="beg_6a" type="cb-app"/>己<anchor xml:id="end_6a"/>推勝</item>
+<lb ed="U" n="0180a27"/><item xml:id="itemU223p0180a2701">四謙<anchor xml:id="nkr_note_add_0180a2701" n="0180a2701"/><anchor xml:id="beg0180a2701" n="0180a2701"/>己<anchor xml:id="end0180a2701"/>推勝</item>
 <lb ed="U" n="0180a28"/><item xml:id="itemU223p0180a2801">五指示後友</item>
 <lb ed="U" n="0180a29"/><item xml:id="itemU223p0180a2901">六戀德禮辞</item></list></item>
 <lb ed="U" n="0180a30"/><item xml:id="itemU223p0180a3001">○九大天神寄無縛無著解脫迴向<note place="inline">六</note>
 <lb ed="U" n="0180a31"/><list><item xml:id="itemU223p0180a3101">初依教趣求</item>
 <lb ed="U" n="0180a32"/><item xml:id="itemU223p0180a3201">二見敬諮問</item>
-<lb ed="U" n="0180a33"/><item xml:id="itemU223p0180a3301">三授<anchor xml:id="beg_6b" type="cb-app"/>己<anchor xml:id="end_6b"/>法界<note place="inline">二</note>
+<lb ed="U" n="0180a33"/><item xml:id="itemU223p0180a3301">三授<anchor xml:id="nkr_note_add_0180a3301" n="0180a3301"/><anchor xml:id="beg0180a3301" n="0180a3301"/>己<anchor xml:id="end0180a3301"/>法界<note place="inline">二</note>
 <lb ed="U" n="0180a34"/><list><item xml:id="itemU223p0180a3401">初授法方便</item>
 <lb ed="U" n="0180a35"/><item xml:id="itemU223p0180a3501">二正授所得<note place="inline">二</note>
 <lb ed="U" n="0180a36"/><list><item xml:id="itemU223p0180a3601">初名體</item>
@@ -15569,7 +15574,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0180a39"/><item xml:id="itemU223p0180a3901">二荅<note place="inline">二</note>
 <lb ed="U" n="0180a40"/><list><item xml:id="itemU223p0180a4001">初現寶令施</item>
 <lb ed="U" n="0180a41"/><item xml:id="itemU223p0180a4101">二類通教餘</item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0180a42"/><item xml:id="itemU223p0180a4201">四謙<anchor xml:id="beg_6c" type="cb-app"/>己<anchor xml:id="end_6c"/>推勝</item>
+<lb ed="U" n="0180a42"/><item xml:id="itemU223p0180a4201">四謙<anchor xml:id="nkr_note_add_0180a4201" n="0180a4201"/><anchor xml:id="beg0180a4201" n="0180a4201"/>己<anchor xml:id="end0180a4201"/>推勝</item>
 <lb ed="U" n="0180a43"/><item xml:id="itemU223p0180a4301">五指示後友</item>
 <lb ed="U" n="0180a44"/><item xml:id="itemU223p0180a4401">六戀德禮辞</item></list></item>
 <pb ed="U" xml:id="U223.1418.0180b" n="0180b"/>
@@ -15581,12 +15586,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0180b06"/><item xml:id="itemU223p0180b0601">三許示宿善</item>
 <lb ed="U" n="0180b07"/><item xml:id="itemU223p0180b0701">四設敬陳請</item>
 <lb ed="U" n="0180b08"/><item xml:id="itemU223p0180b0801">五正示昔因</item></list></item>
-<lb ed="U" n="0180b09"/><item xml:id="itemU223p0180b0901">三示<anchor xml:id="beg_6d" type="cb-app"/>己<anchor xml:id="end_6d"/>法界<note place="inline">四</note>
+<lb ed="U" n="0180b09"/><item xml:id="itemU223p0180b0901">三示<anchor xml:id="nkr_note_add_0180b0901" n="0180b0901"/><anchor xml:id="beg0180b0901" n="0180b0901"/>己<anchor xml:id="end0180b0901"/>法界<note place="inline">四</note>
 <lb ed="U" n="0180b10"/><list><item xml:id="itemU223p0180b1001">初標名體用</item>
 <lb ed="U" n="0180b11"/><item xml:id="itemU223p0180b1101">二別顯業用</item>
 <lb ed="U" n="0180b12"/><item xml:id="itemU223p0180b1201">三得法時<g ref="#CB30529">𠁅</g></item>
 <lb ed="U" n="0180b13"/><item xml:id="itemU223p0180b1301">四揔結純熟</item></list></item>
-<lb ed="U" n="0180b14"/><item xml:id="itemU223p0180b1401">四謙<anchor xml:id="beg_6e" type="cb-app"/>己<anchor xml:id="end_6e"/>推勝</item>
+<lb ed="U" n="0180b14"/><item xml:id="itemU223p0180b1401">四謙<anchor xml:id="nkr_note_add_0180b1401" n="0180b1401"/><anchor xml:id="beg0180b1401" n="0180b1401"/>己<anchor xml:id="end0180b1401"/>推勝</item>
 <lb ed="U" n="0180b15"/><item xml:id="itemU223p0180b1501">五指示後友</item>
 <lb ed="U" n="0180b16"/><item xml:id="itemU223p0180b1601">六戀德禮辞</item></list></item>
 <lb ed="U" n="0180b17"/><item xml:id="itemU223p0180b1701">○五婆珊婆演底主夜神下一十人寄十地<note place="inline">二</note>
@@ -15641,7 +15646,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0181b03"/><list><item xml:id="itemU223p0181b0301">初方便三昧</item>
 <lb ed="U" n="0181b04"/><item xml:id="itemU223p0181b0401">二得此解脫</item>
 <lb ed="U" n="0181b05"/><item xml:id="itemU223p0181b0501">三廣顯業用</item></list></item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0181b06"/><item xml:id="itemU223p0181b0601">四謙<anchor xml:id="beg_6f" type="cb-app"/>己<anchor xml:id="end_6f"/>推勝</item>
+<lb ed="U" n="0181b06"/><item xml:id="itemU223p0181b0601">四謙<anchor xml:id="nkr_note_add_0181b0601" n="0181b0601"/><anchor xml:id="beg0181b0601" n="0181b0601"/>己<anchor xml:id="end0181b0601"/>推勝</item>
 <lb ed="U" n="0181b07"/><item xml:id="itemU223p0181b0701">五指示後友</item>
 <lb ed="U" n="0181b08"/><item xml:id="itemU223p0181b0801">六戀德禮辞<note place="inline">二</note>
 <lb ed="U" n="0181b09"/><list><item xml:id="itemU223p0181b0901">初讚德<note place="inline">四</note>
@@ -15668,7 +15673,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0181b30"/><list><item xml:id="itemU223p0181b3001">初長行<note place="inline">三</note>
 <lb ed="U" n="0181b31"/><list><item xml:id="itemU223p0181b3101">初正授法門<note place="inline">二</note>
 <lb ed="U" n="0181b32"/><list><item xml:id="itemU223p0181b3201">初揔荅所問</item>
-<lb ed="U" n="0181b33"/><item xml:id="itemU223p0181b3301">二別示<anchor xml:id="beg_70" type="cb-app"/>己<anchor xml:id="end_70"/>法<note place="inline">二</note>
+<lb ed="U" n="0181b33"/><item xml:id="itemU223p0181b3301">二別示<anchor xml:id="nkr_note_add_0181b3301" n="0181b3301"/><anchor xml:id="beg0181b3301" n="0181b3301"/>己<anchor xml:id="end0181b3301"/>法<note place="inline">二</note>
 <lb ed="U" n="0181b34"/><list><item xml:id="itemU223p0181b3401">初名體</item>
 <lb ed="U" n="0181b35"/><item xml:id="itemU223p0181b3501">二業用<note place="inline">四</note>
 <lb ed="U" n="0181b36"/><list><item xml:id="itemU223p0181b3601">初攀緣如實禪</item>
@@ -15684,11 +15689,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0181b46"/><list><item xml:id="itemU223p0181b4601">初四念處等觀</item>
 <lb ed="U" n="0181b47"/><item xml:id="itemU223p0181b4701">二明作道因緣</item>
 <lb ed="U" n="0181b48"/><item xml:id="itemU223p0181b4801">三令修四正斷</item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0181b49"/><item xml:id="itemU223p0181b4901">二謙<anchor xml:id="beg_71" type="cb-app"/>己<anchor xml:id="end_71"/>推勝</item>
+<lb ed="U" n="0181b49"/><item xml:id="itemU223p0181b4901">二謙<anchor xml:id="nkr_note_add_0181b4901" n="0181b4901"/><anchor xml:id="beg0181b4901" n="0181b4901"/>己<anchor xml:id="end0181b4901"/>推勝</item>
 <lb ed="U" n="0181b50"/><item xml:id="itemU223p0181b5001">三指示後友</item></list></item>
 <lb ed="U" n="0181b51"/><item xml:id="itemU223p0181b5101">二偈頌<note place="inline">三</note>
 <lb ed="U" n="0181b52"/><list><item xml:id="itemU223p0181b5201">初正授法門</item>
-<lb ed="U" n="0181b53"/><item xml:id="itemU223p0181b5301">二謙<anchor xml:id="beg_72" type="cb-app"/>己<anchor xml:id="end_72"/>推勝</item>
+<lb ed="U" n="0181b53"/><item xml:id="itemU223p0181b5301">二謙<anchor xml:id="nkr_note_add_0181b5301" n="0181b5301"/><anchor xml:id="beg0181b5301" n="0181b5301"/>己<anchor xml:id="end0181b5301"/>推勝</item>
 <lb ed="U" n="0181b54"/><item xml:id="itemU223p0181b5401">三指示後友</item></list></item></list></item></list></item>
 <lb ed="U" n="0181b55"/><item xml:id="itemU223p0181b5501">四戀德禮辞</item></list></item>
 <pb ed="U" xml:id="U223.1418.0182a" n="0182a"/>
@@ -15701,7 +15706,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0182a07"/><item xml:id="itemU223p0182a0701">三加所成益</item>
 <lb ed="U" n="0182a08"/><item xml:id="itemU223p0182a0801">四正明趣後</item></list></item></list></item>
 <lb ed="U" n="0182a09"/><item xml:id="itemU223p0182a0901">二見敬諮問</item>
-<lb ed="U" n="0182a10"/><item xml:id="itemU223p0182a1001">三示<anchor xml:id="beg_73" type="cb-app"/>己<anchor xml:id="end_73"/>法界<note place="inline">三</note>
+<lb ed="U" n="0182a10"/><item xml:id="itemU223p0182a1001">三示<anchor xml:id="nkr_note_add_0182a1001" n="0182a1001"/><anchor xml:id="beg0182a1001" n="0182a1001"/>己<anchor xml:id="end0182a1001"/>法界<note place="inline">三</note>
 <lb ed="U" n="0182a11"/><list><item xml:id="itemU223p0182a1101">初標名體</item>
 <lb ed="U" n="0182a12"/><item xml:id="itemU223p0182a1201">二顯業用<note place="inline">三</note>
 <lb ed="U" n="0182a13"/><list><item xml:id="itemU223p0182a1301">初顯無涯用<note place="inline">二</note>
@@ -15733,7 +15738,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0182a39"/><item xml:id="itemU223p0182a3901">三慶益稱讚<note place="inline">四</note>
 <lb ed="U" n="0182a40"/><list><item xml:id="itemU223p0182a4001">初現說之因</item>
 <lb ed="U" n="0182a41"/><item xml:id="itemU223p0182a4101">二現說之意</item>
-<lb ed="U" n="0182a42"/><item xml:id="itemU223p0182a4201"><anchor xml:id="beg_74" type="cb-app"/>三<anchor xml:id="end_74"/>現說體相</item>
+<lb ed="U" n="0182a42"/><item xml:id="itemU223p0182a4201"><anchor xml:id="nkr_note_add_0182a4201" n="0182a4201"/><anchor xml:id="beg0182a4201" n="0182a4201"/>三<anchor xml:id="end0182a4201"/>現說體相</item>
 <lb ed="U" n="0182a43"/><item xml:id="itemU223p0182a4301">四現說無礙</item></list></item></list></item>
 <lb ed="U" n="0182a44"/><item xml:id="itemU223p0182a4401">三出所因<note place="inline">二</note>
 <lb ed="U" n="0182a45"/><list><item xml:id="itemU223p0182a4501">初興二問</item>
@@ -15764,7 +15769,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0182b23"/><item xml:id="itemU223p0182b2301">二成德之終</item>
 <lb ed="U" n="0182b24"/><item xml:id="itemU223p0182b2401">三揔結圓滿</item></list></item></list></item></list></item>
 <lb ed="U" n="0182b25"/><item xml:id="itemU223p0182b2501">二會古今</item></list></item></list></item></list></item>
-<lb ed="U" n="0182b26"/><item xml:id="itemU223p0182b2601">四謙<anchor xml:id="beg_75" type="cb-app"/>己<anchor xml:id="end_75"/>推勝</item>
+<lb ed="U" n="0182b26"/><item xml:id="itemU223p0182b2601">四謙<anchor xml:id="nkr_note_add_0182b2601" n="0182b2601"/><anchor xml:id="beg0182b2601" n="0182b2601"/>己<anchor xml:id="end0182b2601"/>推勝</item>
 <lb ed="U" n="0182b27"/><item xml:id="itemU223p0182b2701">五指示後友</item>
 <lb ed="U" n="0182b28"/><item xml:id="itemU223p0182b2801">六戀德禮辞</item></list></item>
 <lb ed="U" n="0182b29"/><item xml:id="itemU223p0182b2901">○四普救眾生主夜神寄燄慧地<note place="inline">五</note>
@@ -15877,7 +15882,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0183b63"/><list><item xml:id="itemU223p0183b6301">初最初一劫</item>
 <lb ed="U" n="0183b64"/><item xml:id="itemU223p0183b6401">二揔顯諸劫</item></list></item>
 <lb ed="U" n="0183b65"/><item xml:id="itemU223p0183b6501">三舉因勸修</item></list></item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0183b66"/><item xml:id="itemU223p0183b6601">三謙<anchor xml:id="beg_76" type="cb-app"/>己<anchor xml:id="end_76"/>推勝</item>
+<lb ed="U" n="0183b66"/><item xml:id="itemU223p0183b6601">三謙<anchor xml:id="nkr_note_add_0183b6601" n="0183b6601"/><anchor xml:id="beg0183b6601" n="0183b6601"/>己<anchor xml:id="end0183b6601"/>推勝</item>
 <lb ed="U" n="0183b67"/><item xml:id="itemU223p0183b6701">四指示後友</item>
 <lb ed="U" n="0183b68"/><item xml:id="itemU223p0183b6801">五戀得禮辞</item></list></item></list>
 <pb ed="U" xml:id="U223.1418.0185a" n="0185a"/>
@@ -15979,7 +15984,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0186a40"/><list><item xml:id="itemU223p0186a4001">初智行上供</item>
 <lb ed="U" n="0186a41"/><item xml:id="itemU223p0186a4101">二悲心下救</item></list></item>
 <lb ed="U" n="0186a42"/><item xml:id="itemU223p0186a4201">三結行分齊</item></list></item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0186a43"/><item xml:id="itemU223p0186a4301">四謙<anchor xml:id="beg_77" type="cb-app"/>己<anchor xml:id="end_77"/>推勝</item>
+<lb ed="U" n="0186a43"/><item xml:id="itemU223p0186a4301">四謙<anchor xml:id="nkr_note_add_0186a4301" n="0186a4301"/><anchor xml:id="beg0186a4301" n="0186a4301"/>己<anchor xml:id="end0186a4301"/>推勝</item>
 <lb ed="U" n="0186a44"/><item xml:id="itemU223p0186a4401">五指示後友</item>
 <lb ed="U" n="0186a45"/><item xml:id="itemU223p0186a4501">六戀德禮辭<note place="inline">三</note>
 <lb ed="U" n="0186a46"/><list><item xml:id="itemU223p0186a4601">初以心觀</item>
@@ -16031,8 +16036,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0187a07"/><item xml:id="itemU223p0187a0701">三略舉次前百佛</item>
 <lb ed="U" n="0187a08"/><item xml:id="itemU223p0187a0801">四結略顯廣</item></list></item></list></item>
 <lb ed="U" n="0187a09"/><item xml:id="itemU223p0187a0901">二類多劫成益</item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0187a10"/><item xml:id="itemU223p0187a1001">四謙<anchor xml:id="beg_78" type="cb-app"/>己<anchor xml:id="end_78"/>推勝<note place="inline">二</note>
-<lb ed="U" n="0187a11"/><list><item xml:id="itemU223p0187a1101">初謙<anchor xml:id="beg_79" type="cb-app"/>己<anchor xml:id="end_79"/>知一</item>
+<lb ed="U" n="0187a10"/><item xml:id="itemU223p0187a1001">四謙<anchor xml:id="nkr_note_add_0187a1001" n="0187a1001"/><anchor xml:id="beg0187a1001" n="0187a1001"/>己<anchor xml:id="end0187a1001"/>推勝<note place="inline">二</note>
+<lb ed="U" n="0187a11"/><list><item xml:id="itemU223p0187a1101">初謙<anchor xml:id="nkr_note_add_0187a1101" n="0187a1101"/><anchor xml:id="beg0187a1101" n="0187a1101"/>己<anchor xml:id="end0187a1101"/>知一</item>
 <lb ed="U" n="0187a12"/><item xml:id="itemU223p0187a1201">二推勝知多</item></list></item>
 <lb ed="U" n="0187a13"/><item xml:id="itemU223p0187a1301">五指示後友<note place="inline">三</note>
 <lb ed="U" n="0187a14"/><list><item xml:id="itemU223p0187a1401">初指示後位</item>
@@ -16057,7 +16062,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0187a33"/><item xml:id="itemU223p0187a3301">○七開敷樹華主夜神寄遠行地<note place="inline">六</note>
 <lb ed="U" n="0187a34"/><list><item xml:id="itemU223p0187a3401">初依教趣求</item>
 <lb ed="U" n="0187a35"/><item xml:id="itemU223p0187a3501">二見敬諮問</item>
-<lb ed="U" n="0187a36"/><item xml:id="itemU223p0187a3601">三授<anchor xml:id="beg_7a" type="cb-app"/>己<anchor xml:id="end_7a"/>法界<note place="inline">四</note>
+<lb ed="U" n="0187a36"/><item xml:id="itemU223p0187a3601">三授<anchor xml:id="nkr_note_add_0187a3601" n="0187a3601"/><anchor xml:id="beg0187a3601" n="0187a3601"/>己<anchor xml:id="end0187a3601"/>法界<note place="inline">四</note>
 <lb ed="U" n="0187a37"/><list><item xml:id="itemU223p0187a3701">初顯法行<note place="inline">二</note>
 <lb ed="U" n="0187a38"/><list><item xml:id="itemU223p0187a3801">初安樂眾生行</item>
 <lb ed="U" n="0187a39"/><item xml:id="itemU223p0187a3901">二利益眾生行<note place="inline">二</note>
@@ -16127,7 +16132,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0187b37"/><item xml:id="itemU223p0187b3701">四施田雲集</item>
 <lb ed="U" n="0187b38"/><item xml:id="itemU223p0187b3801">五施心嚴重</item>
 <lb ed="U" n="0187b39"/><item xml:id="itemU223p0187b3901">六施願深廣</item>
-<lb ed="U" n="0187b40"/><item xml:id="itemU223p0187b4001">七施<anchor xml:id="beg_7b" type="cb-app"/>慧<anchor xml:id="end_7b"/>玄<anchor xml:id="beg_7c" type="cb-app"/>微<anchor xml:id="end_7c"/></item>
+<lb ed="U" n="0187b40"/><item xml:id="itemU223p0187b4001">七施<anchor xml:id="nkr_note_add_0187b4001" n="0187b4001"/><anchor xml:id="beg0187b4001" n="0187b4001"/>慧<anchor xml:id="end0187b4001"/>玄<anchor xml:id="nkr_note_add_0187b4002" n="0187b4002"/><anchor xml:id="beg0187b4002" n="0187b4002"/>微<anchor xml:id="end0187b4002"/></item>
 <lb ed="U" n="0187b41"/><item xml:id="itemU223p0187b4101">八施時均普</item></list></item></list></item></list></item>
 <lb ed="U" n="0187b42"/><item xml:id="itemU223p0187b4201">四正顯發心本事<note place="inline">六</note>
 <lb ed="U" n="0187b43"/><list><item xml:id="itemU223p0187b4301">初發心身德</item>
@@ -16154,7 +16159,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0188a17"/><item xml:id="itemU223p0188a1701">二偈頌<note place="inline">二</note>
 <lb ed="U" n="0188a18"/><list><item xml:id="itemU223p0188a1801">初能知</item>
 <lb ed="U" n="0188a19"/><item xml:id="itemU223p0188a1901">二結勸</item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0188a20"/><item xml:id="itemU223p0188a2001">四謙<anchor xml:id="beg_7d" type="cb-app"/>己<anchor xml:id="end_7d"/>推勝</item>
+<lb ed="U" n="0188a20"/><item xml:id="itemU223p0188a2001">四謙<anchor xml:id="nkr_note_add_0188a2001" n="0188a2001"/><anchor xml:id="beg0188a2001" n="0188a2001"/>己<anchor xml:id="end0188a2001"/>推勝</item>
 <lb ed="U" n="0188a21"/><item xml:id="itemU223p0188a2101">五指示後友</item>
 <lb ed="U" n="0188a22"/><item xml:id="itemU223p0188a2201">六戀德禮辭</item></list></item>
 <lb ed="U" n="0188a23"/><item xml:id="itemU223p0188a2301">○八大願精進力主夜神寄不動地<note place="inline">六</note>
@@ -16177,7 +16182,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0188a40"/><item xml:id="itemU223p0188a4001">二頌深證懸同</item>
 <lb ed="U" n="0188a41"/><item xml:id="itemU223p0188a4101">三頌荷恩深重</item></list></item></list></item>
 <lb ed="U" n="0188a42"/><item xml:id="itemU223p0188a4201">三諮問法要</item></list></item></list></item>
-<lb ed="U" n="0188a43"/><item xml:id="itemU223p0188a4301">三授<anchor xml:id="beg_7e" type="cb-app"/>己<anchor xml:id="end_7e"/>法界<note place="inline">二</note>
+<lb ed="U" n="0188a43"/><item xml:id="itemU223p0188a4301">三授<anchor xml:id="nkr_note_add_0188a4301" n="0188a4301"/><anchor xml:id="beg0188a4301" n="0188a4301"/>己<anchor xml:id="end0188a4301"/>法界<note place="inline">二</note>
 <lb ed="U" n="0188a44"/><list><item xml:id="itemU223p0188a4401">初示義<note place="inline">三授</note></item>
 <lb ed="U" n="0188a45"/><item xml:id="itemU223p0188a4501">二科經<note place="inline">二</note>
 <lb ed="U" n="0188a46"/><list><item xml:id="itemU223p0188a4601">初荅解脫之名<note place="inline">二</note>
@@ -16252,7 +16257,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0189a38"/><list><item xml:id="itemU223p0189a3801">初略標</item>
 <lb ed="U" n="0189a39"/><item xml:id="itemU223p0189a3901">二結會</item>
 <lb ed="U" n="0189a40"/><item xml:id="itemU223p0189a4001">三得法</item></list></item></list></item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0189a41"/><item xml:id="itemU223p0189a4101">四謙<anchor xml:id="beg_7f" type="cb-app"/>己<anchor xml:id="end_7f"/>推勝</item>
+<lb ed="U" n="0189a41"/><item xml:id="itemU223p0189a4101">四謙<anchor xml:id="nkr_note_add_0189a4101" n="0189a4101"/><anchor xml:id="beg0189a4101" n="0189a4101"/>己<anchor xml:id="end0189a4101"/>推勝</item>
 <lb ed="U" n="0189a42"/><item xml:id="itemU223p0189a4201">五指示後友</item>
 <lb ed="U" n="0189a43"/><item xml:id="itemU223p0189a4301">六戀德禮辭</item></list></item>
 <lb ed="U" n="0189a44"/><item xml:id="itemU223p0189a4401">○九嵐毗尼林神寄善慧地<note place="inline">六</note>
@@ -16369,7 +16374,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0190a39"/><item xml:id="itemU223p0190a3901">三問<note place="inline">二</note>
 <lb ed="U" n="0190a40"/><list><item xml:id="itemU223p0190a4001">初發心</item>
 <lb ed="U" n="0190a41"/><item xml:id="itemU223p0190a4101">二正問</item></list></item></list></item>
-<lb ed="U" n="0190a42"/><item xml:id="itemU223p0190a4201">三示<anchor xml:id="beg_80" type="cb-app"/>己<anchor xml:id="end_80"/>法界<note place="inline">四</note>
+<lb ed="U" n="0190a42"/><item xml:id="itemU223p0190a4201">三示<anchor xml:id="nkr_note_add_0190a4201" n="0190a4201"/><anchor xml:id="beg0190a4201" n="0190a4201"/>己<anchor xml:id="end0190a4201"/>法界<note place="inline">四</note>
 <pb ed="U" xml:id="U223.1418.0190b" n="0190b"/>
 <lb ed="U" n="0190b01"/><list><item xml:id="itemU223p0190b0101">初顯法義<note place="inline">二</note>
 <lb ed="U" n="0190b02"/><list><item xml:id="itemU223p0190b0201">初長行<note place="inline">二</note>
@@ -16481,7 +16486,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0191b41"/><item xml:id="itemU223p0191b4101">三見眾生世間</item>
 <lb ed="U" n="0191b42"/><item xml:id="itemU223p0191b4201">四見菩薩修行</item>
 <lb ed="U" n="0191b43"/><item xml:id="itemU223p0191b4301">五揔結不窮深廣</item></list></item></list></item></list></item></list></item></list></item></list></item></list></item></list></item>
-<lb ed="U" n="0191b44"/><item xml:id="itemU223p0191b4401">四謙<anchor xml:id="beg_81" type="cb-app"/>己<anchor xml:id="end_81"/>推勝</item>
+<lb ed="U" n="0191b44"/><item xml:id="itemU223p0191b4401">四謙<anchor xml:id="nkr_note_add_0191b4401" n="0191b4401"/><anchor xml:id="beg0191b4401" n="0191b4401"/>己<anchor xml:id="end0191b4401"/>推勝</item>
 <lb ed="U" n="0191b45"/><item xml:id="itemU223p0191b4501">五指示後友<note place="inline">二</note>
 <lb ed="U" n="0191b46"/><list><item xml:id="itemU223p0191b4601">初指後位</item>
 <lb ed="U" n="0191b47"/><item xml:id="itemU223p0191b4701">二頌前法<note place="inline">三</note>
@@ -16553,12 +16558,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0192b10"/><item xml:id="itemU223p0192b1001">二二嚴行</item></list></item></list></item></list></item></list></item></list></item>
 <lb ed="U" n="0192b11"/><item xml:id="itemU223p0192b1101">二敬</item>
 <lb ed="U" n="0192b12"/><item xml:id="itemU223p0192b1201">三問</item></list></item>
-<lb ed="U" n="0192b13"/><item xml:id="itemU223p0192b1301">三受<anchor xml:id="beg_82" type="cb-app"/>己<anchor xml:id="end_82"/>法界○</item>
-<lb ed="U" n="0192b14"/><item xml:id="itemU223p0192b1401">四謙<anchor xml:id="beg_83" type="cb-app"/>己<anchor xml:id="end_83"/>推勝</item>
+<lb ed="U" n="0192b13"/><item xml:id="itemU223p0192b1301">三受<anchor xml:id="nkr_note_add_0192b1301" n="0192b1301"/><anchor xml:id="beg0192b1301" n="0192b1301"/>己<anchor xml:id="end0192b1301"/>法界○</item>
+<lb ed="U" n="0192b14"/><item xml:id="itemU223p0192b1401">四謙<anchor xml:id="nkr_note_add_0192b1401" n="0192b1401"/><anchor xml:id="beg0192b1401" n="0192b1401"/>己<anchor xml:id="end0192b1401"/>推勝</item>
 <lb ed="U" n="0192b15"/><item xml:id="itemU223p0192b1501">五指示後友</item>
 <lb ed="U" n="0192b16"/><item xml:id="itemU223p0192b1601">六戀德禮辭</item></list></item>
 <lb ed="U" n="0192b17"/><item xml:id="itemU223p0192b1701">三天主光女下十人為別○</item></list></item></list></item>
-<lb ed="U" n="0192b18"/><item xml:id="itemU223p0192b1801">○三授<anchor xml:id="beg_84" type="cb-app"/>己<anchor xml:id="end_84"/>法界<note place="inline">三</note>
+<lb ed="U" n="0192b18"/><item xml:id="itemU223p0192b1801">○三授<anchor xml:id="nkr_note_add_0192b1801" n="0192b1801"/><anchor xml:id="beg0192b1801" n="0192b1801"/>己<anchor xml:id="end0192b1801"/>法界<note place="inline">三</note>
 <lb ed="U" n="0192b19"/><list><item xml:id="itemU223p0192b1901">初名體</item>
 <lb ed="U" n="0192b20"/><item xml:id="itemU223p0192b2001">二業用<note place="inline">二</note>
 <lb ed="U" n="0192b21"/><list><item xml:id="itemU223p0192b2101">初緫</item>
@@ -16577,11 +16582,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0192b34"/><item xml:id="itemU223p0192b3401">二菩薩現通</item>
 <lb ed="U" n="0192b35"/><item xml:id="itemU223p0192b3501">三光明息苦</item>
 <lb ed="U" n="0192b36"/><item xml:id="itemU223p0192b3601">四現變入胎</item>
-<lb ed="U" n="0192b37"/><item xml:id="itemU223p0192b3701">五入<anchor xml:id="beg_85" type="cb-app"/>已<anchor xml:id="end_85"/>遊步</item></list></item>
+<lb ed="U" n="0192b37"/><item xml:id="itemU223p0192b3701">五入<anchor xml:id="nkr_note_add_0192b3701" n="0192b3701"/><anchor xml:id="beg0192b3701" n="0192b3701"/>已<anchor xml:id="end0192b3701"/>遊步</item></list></item>
 <lb ed="U" n="0192b38"/><item xml:id="itemU223p0192b3801">三腹包眾海</item>
 <lb ed="U" n="0192b39"/><item xml:id="itemU223p0192b3901">四舉類百億</item></list></item></list></item>
-<lb ed="U" n="0192b40"/><item xml:id="itemU223p0192b4001">二過去諸佛<anchor xml:id="beg_86" type="cb-app"/>母<anchor xml:id="end_86"/></item>
-<lb ed="U" n="0192b41"/><item xml:id="itemU223p0192b4101">三賢劫千佛<anchor xml:id="beg_87" type="cb-app"/>母<anchor xml:id="end_87"/></item>
+<lb ed="U" n="0192b40"/><item xml:id="itemU223p0192b4001">二過去諸佛<anchor xml:id="nkr_note_add_0192b4001" n="0192b4001"/><anchor xml:id="beg0192b4001" n="0192b4001"/>母<anchor xml:id="end0192b4001"/></item>
+<lb ed="U" n="0192b41"/><item xml:id="itemU223p0192b4101">三賢劫千佛<anchor xml:id="nkr_note_add_0192b4101" n="0192b4101"/><anchor xml:id="beg0192b4101" n="0192b4101"/>母<anchor xml:id="end0192b4101"/></item>
 <lb ed="U" n="0192b42"/><item xml:id="itemU223p0192b4201">四結橫竪無窮</item></list></item></list></item>
 <lb ed="U" n="0192b43"/><item xml:id="itemU223p0192b4301">三根源<note place="inline">二</note>
 <lb ed="U" n="0192b44"/><list><item xml:id="itemU223p0192b4401">初問</item>
@@ -16599,20 +16604,20 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0193a04"/><list><item xml:id="itemU223p0193a0401">初天主光女<note place="inline">六</note>
 <lb ed="U" n="0193a05"/><list><item xml:id="itemU223p0193a0501">初依教趣求</item>
 <lb ed="U" n="0193a06"/><item xml:id="itemU223p0193a0601">二見敬諮問</item>
-<lb ed="U" n="0193a07"/><item xml:id="itemU223p0193a0701">三示<anchor xml:id="beg_88" type="cb-app"/>己<anchor xml:id="end_88"/>法界<note place="inline">二</note>
+<lb ed="U" n="0193a07"/><item xml:id="itemU223p0193a0701">三示<anchor xml:id="nkr_note_add_0193a0701" n="0193a0701"/><anchor xml:id="beg0193a0701" n="0193a0701"/>己<anchor xml:id="end0193a0701"/>法界<note place="inline">二</note>
 <lb ed="U" n="0193a08"/><list><item xml:id="itemU223p0193a0801">初標名</item>
 <lb ed="U" n="0193a09"/><item xml:id="itemU223p0193a0901">二業用<note place="inline">三</note>
 <lb ed="U" n="0193a10"/><list><item xml:id="itemU223p0193a1001">初最初一劫</item>
 <lb ed="U" n="0193a11"/><item xml:id="itemU223p0193a1101">二中間諸劫</item>
 <lb ed="U" n="0193a12"/><item xml:id="itemU223p0193a1201">三揔結多劫</item></list></item></list></item>
-<lb ed="U" n="0193a13"/><item xml:id="itemU223p0193a1301">四謙<anchor xml:id="beg_89" type="cb-app"/>己<anchor xml:id="end_89"/>推勝</item>
+<lb ed="U" n="0193a13"/><item xml:id="itemU223p0193a1301">四謙<anchor xml:id="nkr_note_add_0193a1301" n="0193a1301"/><anchor xml:id="beg0193a1301" n="0193a1301"/>己<anchor xml:id="end0193a1301"/>推勝</item>
 <lb ed="U" n="0193a14"/><item xml:id="itemU223p0193a1401">五指示後友</item>
 <lb ed="U" n="0193a15"/><item xml:id="itemU223p0193a1501">六戀德禮辭</item></list></item>
 <lb ed="U" n="0193a16"/><item xml:id="itemU223p0193a1601">二童子師徧友</item>
 <lb ed="U" n="0193a17"/><item xml:id="itemU223p0193a1701">三知眾藝童子<note place="inline">六</note>
 <lb ed="U" n="0193a18"/><list><item xml:id="itemU223p0193a1801">初依教趣求</item>
 <lb ed="U" n="0193a19"/><item xml:id="itemU223p0193a1901">二見敬諮問</item>
-<lb ed="U" n="0193a20"/><item xml:id="itemU223p0193a2001">三授<anchor xml:id="beg_8a" type="cb-app"/>己<anchor xml:id="end_8a"/>法界<note place="inline">三</note>
+<lb ed="U" n="0193a20"/><item xml:id="itemU223p0193a2001">三授<anchor xml:id="nkr_note_add_0193a2001" n="0193a2001"/><anchor xml:id="beg0193a2001" n="0193a2001"/>己<anchor xml:id="end0193a2001"/>法界<note place="inline">三</note>
 <lb ed="U" n="0193a21"/><list><item xml:id="itemU223p0193a2101">初標名體</item>
 <lb ed="U" n="0193a22"/><item xml:id="itemU223p0193a2201">二顯業用<note place="inline">三</note>
 <lb ed="U" n="0193a23"/><list><item xml:id="itemU223p0193a2301">初標<note place="inline">字母</note></item>
@@ -16647,66 +16652,66 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0193b26"/><item xml:id="itemU223p0193b2601">二會上義<note place="inline">其中</note></item>
 <lb ed="U" n="0193b27"/><item xml:id="itemU223p0193b2701">三<g ref="#CB30341">󷚅</g>在餘<note place="inline">更有</note></item></list></item></list></item></list></item></list></item>
 <lb ed="U" n="0193b28"/><item xml:id="itemU223p0193b2801">三揔結示</item></list></item>
-<lb ed="U" n="0193b29"/><item xml:id="itemU223p0193b2901">四謙<anchor xml:id="beg_8b" type="cb-app"/>己<anchor xml:id="end_8b"/>推勝</item>
+<lb ed="U" n="0193b29"/><item xml:id="itemU223p0193b2901">四謙<anchor xml:id="nkr_note_add_0193b2901" n="0193b2901"/><anchor xml:id="beg0193b2901" n="0193b2901"/>己<anchor xml:id="end0193b2901"/>推勝</item>
 <lb ed="U" n="0193b30"/><item xml:id="itemU223p0193b3001">五指示後友</item>
 <lb ed="U" n="0193b31"/><item xml:id="itemU223p0193b3101">六戀德禮辭</item></list></item>
 <lb ed="U" n="0193b32"/><item xml:id="itemU223p0193b3201">四賢勝優婆夷<note place="inline">六</note>
 <lb ed="U" n="0193b33"/><list><item xml:id="itemU223p0193b3301">初依教趣求</item>
 <lb ed="U" n="0193b34"/><item xml:id="itemU223p0193b3401">二見敬諮問</item>
-<lb ed="U" n="0193b35"/><item xml:id="itemU223p0193b3501">三示<anchor xml:id="beg_8c" type="cb-app"/>己<anchor xml:id="end_8c"/>法界<note place="inline">二</note>
+<lb ed="U" n="0193b35"/><item xml:id="itemU223p0193b3501">三示<anchor xml:id="nkr_note_add_0193b3501" n="0193b3501"/><anchor xml:id="beg0193b3501" n="0193b3501"/>己<anchor xml:id="end0193b3501"/>法界<note place="inline">二</note>
 <lb ed="U" n="0193b36"/><list><item xml:id="itemU223p0193b3601">初得解脫</item>
 <lb ed="U" n="0193b37"/><item xml:id="itemU223p0193b3701">二得三昧</item></list></item>
-<lb ed="U" n="0193b38"/><item xml:id="itemU223p0193b3801">四謙<anchor xml:id="beg_8d" type="cb-app"/>己<anchor xml:id="end_8d"/>推勝</item>
+<lb ed="U" n="0193b38"/><item xml:id="itemU223p0193b3801">四謙<anchor xml:id="nkr_note_add_0193b3801" n="0193b3801"/><anchor xml:id="beg0193b3801" n="0193b3801"/>己<anchor xml:id="end0193b3801"/>推勝</item>
 <lb ed="U" n="0193b39"/><item xml:id="itemU223p0193b3901">五<g ref="#CB30341">󷚅</g>示後友</item>
 <lb ed="U" n="0193b40"/><item xml:id="itemU223p0193b4001">六戀德禮辭</item></list></item>
 <lb ed="U" n="0193b41"/><item xml:id="itemU223p0193b4101">五堅固長者<note place="inline">六</note>
 <lb ed="U" n="0193b42"/><list><item xml:id="itemU223p0193b4201">初依教趣求</item>
 <lb ed="U" n="0193b43"/><item xml:id="itemU223p0193b4301">二見敬諮問</item>
-<lb ed="U" n="0193b44"/><item xml:id="itemU223p0193b4401">三授<anchor xml:id="beg_8e" type="cb-app"/>己<anchor xml:id="end_8e"/>法界<note place="inline">二</note>
+<lb ed="U" n="0193b44"/><item xml:id="itemU223p0193b4401">三授<anchor xml:id="nkr_note_add_0193b4401" n="0193b4401"/><anchor xml:id="beg0193b4401" n="0193b4401"/>己<anchor xml:id="end0193b4401"/>法界<note place="inline">二</note>
 <lb ed="U" n="0193b45"/><list><item xml:id="itemU223p0193b4501">初顯名</item>
 <lb ed="U" n="0193b46"/><item xml:id="itemU223p0193b4601">二彰用</item></list></item>
-<lb ed="U" n="0193b47"/><item xml:id="itemU223p0193b4701">四謙<anchor xml:id="beg_8f" type="cb-app"/>己<anchor xml:id="end_8f"/>推勝</item>
+<lb ed="U" n="0193b47"/><item xml:id="itemU223p0193b4701">四謙<anchor xml:id="nkr_note_add_0193b4701" n="0193b4701"/><anchor xml:id="beg0193b4701" n="0193b4701"/>己<anchor xml:id="end0193b4701"/>推勝</item>
 <lb ed="U" n="0193b48"/><item xml:id="itemU223p0193b4801">五<g ref="#CB30341">󷚅</g>示後友</item>
 <lb ed="U" n="0193b49"/><item xml:id="itemU223p0193b4901">六戀德禮辭</item></list></item>
 <lb ed="U" n="0193b50"/><item xml:id="itemU223p0193b5001">六妙月長者<note place="inline">六</note>
 <lb ed="U" n="0193b51"/><list><item xml:id="itemU223p0193b5101">初依教趣求</item>
 <lb ed="U" n="0193b52"/><item xml:id="itemU223p0193b5201">二見敬諮問</item>
-<lb ed="U" n="0193b53"/><item xml:id="itemU223p0193b5301">三授<anchor xml:id="beg_90" type="cb-app"/>己<anchor xml:id="end_90"/>法界<note place="inline">二</note>
+<lb ed="U" n="0193b53"/><item xml:id="itemU223p0193b5301">三授<anchor xml:id="nkr_note_add_0193b5301" n="0193b5301"/><anchor xml:id="beg0193b5301" n="0193b5301"/>己<anchor xml:id="end0193b5301"/>法界<note place="inline">二</note>
 <lb ed="U" n="0193b54"/><list><item xml:id="itemU223p0193b5401">初示名</item>
 <lb ed="U" n="0193b55"/><item xml:id="itemU223p0193b5501">二釋名</item></list></item>
-<lb ed="U" n="0193b56"/><item xml:id="itemU223p0193b5601">四謙<anchor xml:id="beg_91" type="cb-app"/>己<anchor xml:id="end_91"/>推勝</item>
+<lb ed="U" n="0193b56"/><item xml:id="itemU223p0193b5601">四謙<anchor xml:id="nkr_note_add_0193b5601" n="0193b5601"/><anchor xml:id="beg0193b5601" n="0193b5601"/>己<anchor xml:id="end0193b5601"/>推勝</item>
 <lb ed="U" n="0193b57"/><item xml:id="itemU223p0193b5701">五<g ref="#CB30341">󷚅</g>示後友</item>
 <lb ed="U" n="0193b58"/><item xml:id="itemU223p0193b5801">六戀德禮辭</item></list></item>
 <lb ed="U" n="0193b59"/><item xml:id="itemU223p0193b5901">七無勝軍長者<note place="inline">六</note>
 <lb ed="U" n="0193b60"/><list><item xml:id="itemU223p0193b6001">初依教趣求</item>
 <lb ed="U" n="0193b61"/><item xml:id="itemU223p0193b6101">二見敬諮問</item>
-<lb ed="U" n="0193b62"/><item xml:id="itemU223p0193b6201">三授<anchor xml:id="beg_92" type="cb-app"/>己<anchor xml:id="end_92"/>法界</item>
-<lb ed="U" n="0193b63"/><item xml:id="itemU223p0193b6301">四謙<anchor xml:id="beg_93" type="cb-app"/>己<anchor xml:id="end_93"/>推勝</item>
+<lb ed="U" n="0193b62"/><item xml:id="itemU223p0193b6201">三授<anchor xml:id="nkr_note_add_0193b6201" n="0193b6201"/><anchor xml:id="beg0193b6201" n="0193b6201"/>己<anchor xml:id="end0193b6201"/>法界</item>
+<lb ed="U" n="0193b63"/><item xml:id="itemU223p0193b6301">四謙<anchor xml:id="nkr_note_add_0193b6301" n="0193b6301"/><anchor xml:id="beg0193b6301" n="0193b6301"/>己<anchor xml:id="end0193b6301"/>推勝</item>
 <lb ed="U" n="0193b64"/><item xml:id="itemU223p0193b6401">五<g ref="#CB30341">󷚅</g>示後友</item>
 <lb ed="U" n="0193b65"/><item xml:id="itemU223p0193b6501">六戀德禮辭</item></list></item>
 <lb ed="U" n="0193b66"/><item xml:id="itemU223p0193b6601">八寂靜婆羅門<note place="inline">六</note>
 <pb ed="U" xml:id="U223.1418.0194a" n="0194a"/>
 <lb ed="U" n="0194a01"/><list><item xml:id="itemU223p0194a0101">初依教趣求</item>
 <lb ed="U" n="0194a02"/><item xml:id="itemU223p0194a0201">二見敬諮問</item>
-<lb ed="U" n="0194a03"/><item xml:id="itemU223p0194a0301">三授<anchor xml:id="beg_94" type="cb-app"/>己<anchor xml:id="end_94"/>法界<note place="inline">二</note>
+<lb ed="U" n="0194a03"/><item xml:id="itemU223p0194a0301">三授<anchor xml:id="nkr_note_add_0194a0301" n="0194a0301"/><anchor xml:id="beg0194a0301" n="0194a0301"/>己<anchor xml:id="end0194a0301"/>法界<note place="inline">二</note>
 <lb ed="U" n="0194a04"/><list><item xml:id="itemU223p0194a0401">初標名</item>
 <lb ed="U" n="0194a05"/><item xml:id="itemU223p0194a0501">二釋名<note place="inline">二</note>
 <lb ed="U" n="0194a06"/><list><item xml:id="itemU223p0194a0601">初始終無妄</item>
 <lb ed="U" n="0194a07"/><item xml:id="itemU223p0194a0701">二隨行不虛</item></list></item></list></item>
-<lb ed="U" n="0194a08"/><item xml:id="itemU223p0194a0801">四謙<anchor xml:id="beg_95" type="cb-app"/>己<anchor xml:id="end_95"/>推勝</item>
+<lb ed="U" n="0194a08"/><item xml:id="itemU223p0194a0801">四謙<anchor xml:id="nkr_note_add_0194a0801" n="0194a0801"/><anchor xml:id="beg0194a0801" n="0194a0801"/>己<anchor xml:id="end0194a0801"/>推勝</item>
 <lb ed="U" n="0194a09"/><item xml:id="itemU223p0194a0901">五<g ref="#CB30341">󷚅</g>示後友</item>
 <lb ed="U" n="0194a10"/><item xml:id="itemU223p0194a1001">六戀德禮辭</item></list></item>
 <lb ed="U" n="0194a11"/><item xml:id="itemU223p0194a1101">九德生童子有德童女<note place="inline">六</note>
 <lb ed="U" n="0194a12"/><list><item xml:id="itemU223p0194a1201">初依教趣求</item>
 <lb ed="U" n="0194a13"/><item xml:id="itemU223p0194a1301">二見敬諮問</item>
-<lb ed="U" n="0194a14"/><item xml:id="itemU223p0194a1401">三示<anchor xml:id="beg_96" type="cb-app"/>己<anchor xml:id="end_96"/>法界<note place="inline">二</note>
+<lb ed="U" n="0194a14"/><item xml:id="itemU223p0194a1401">三示<anchor xml:id="nkr_note_add_0194a1401" n="0194a1401"/><anchor xml:id="beg0194a1401" n="0194a1401"/>己<anchor xml:id="end0194a1401"/>法界<note place="inline">二</note>
 <lb ed="U" n="0194a15"/><list><item xml:id="itemU223p0194a1501">初標名</item>
 <lb ed="U" n="0194a16"/><item xml:id="itemU223p0194a1601">二業用<note place="inline">二</note>
 <lb ed="U" n="0194a17"/><list><item xml:id="itemU223p0194a1701">初別明<note place="inline">二</note>
 <lb ed="U" n="0194a18"/><list><item xml:id="itemU223p0194a1801">初一句為揔<note place="inline">有十</note></item>
 <lb ed="U" n="0194a19"/><item xml:id="itemU223p0194a1901">二九句為別<note place="inline">餘九</note></item></list></item>
 <lb ed="U" n="0194a20"/><item xml:id="itemU223p0194a2001">二結歎</item></list></item></list></item>
-<lb ed="U" n="0194a21"/><item xml:id="itemU223p0194a2101">四謙<anchor xml:id="beg_97" type="cb-app"/>己<anchor xml:id="end_97"/>推勝</item>
+<lb ed="U" n="0194a21"/><item xml:id="itemU223p0194a2101">四謙<anchor xml:id="nkr_note_add_0194a2101" n="0194a2101"/><anchor xml:id="beg0194a2101" n="0194a2101"/>己<anchor xml:id="end0194a2101"/>推勝</item>
 <lb ed="U" n="0194a22"/><item xml:id="itemU223p0194a2201">五<g ref="#CB30341">󷚅</g>示後友<note place="inline">二</note>
 <lb ed="U" n="0194a23"/><list><item xml:id="itemU223p0194a2301">初以力<g ref="#CB07448">𡨋</g>加</item>
 <lb ed="U" n="0194a24"/><item xml:id="itemU223p0194a2401">二以言顯示<note place="inline">三</note>
@@ -17161,7 +17166,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="U" n="0200b10"/><item xml:id="itemU223p0200b1001">二觀見奇特<note place="inline">三</note>
 <lb ed="U" n="0200b11"/><list><item xml:id="itemU223p0200b1101">初見毛孔內含三世間</item>
 <lb ed="U" n="0200b12"/><item xml:id="itemU223p0200b1201">二見普賢身徧諸剎中</item>
-<lb ed="U" n="0200b13"/><item xml:id="itemU223p0200b1301">三自見<anchor xml:id="beg_98" type="cb-app"/>己<anchor xml:id="end_98"/>身等普賢化</item></list></item>
+<lb ed="U" n="0200b13"/><item xml:id="itemU223p0200b1301">三自見<anchor xml:id="nkr_note_add_0200b1301" n="0200b1301"/><anchor xml:id="beg0200b1301" n="0200b1301"/>己<anchor xml:id="end0200b1301"/>身等普賢化</item></list></item>
 <lb ed="U" n="0200b14"/><item xml:id="itemU223p0200b1401">三校量顯勝<note place="inline">三</note>
 <lb ed="U" n="0200b15"/><list><item xml:id="itemU223p0200b1501">初校量善根</item>
 <lb ed="U" n="0200b16"/><item xml:id="itemU223p0200b1601">二校量入剎</item>
@@ -17271,158 +17276,315 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>三</corr><sic>二</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>七</corr><sic>十</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>三</corr><sic>二</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>三</corr><sic>二</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>二</corr><sic>三</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>二</corr><sic>三</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>二</corr><sic>一</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_12" cb:to="#end_12"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_14" cb:to="#end_14"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_15" cb:to="#end_15"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_16" cb:to="#end_16"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_17" cb:to="#end_17"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_18" cb:to="#end_18"><corr>三</corr><sic>二</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_19" cb:to="#end_19"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1a" cb:to="#end_1a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1b" cb:to="#end_1b"><corr>三</corr><sic>二</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1c" cb:to="#end_1c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1d" cb:to="#end_1d"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1e" cb:to="#end_1e"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1f" cb:to="#end_1f"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_20" cb:to="#end_20"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_21" cb:to="#end_21"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_22" cb:to="#end_22"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_23" cb:to="#end_23"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_24" cb:to="#end_24"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_25" cb:to="#end_25"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_26" cb:to="#end_26"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_27" cb:to="#end_27"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_28" cb:to="#end_28"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_29" cb:to="#end_29"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2a" cb:to="#end_2a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2b" cb:to="#end_2b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2c" cb:to="#end_2c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2d" cb:to="#end_2d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2e" cb:to="#end_2e"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2f" cb:to="#end_2f"><corr>二</corr><sic>三</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_30" cb:to="#end_30"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_31" cb:to="#end_31"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_32" cb:to="#end_32"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_33" cb:to="#end_33"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_34" cb:to="#end_34"><corr>能治</corr><sic>　　</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_35" cb:to="#end_35"><corr>三</corr><sic>二</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_36" cb:to="#end_36"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_37" cb:to="#end_37"><corr>類</corr><sic>顯</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_38" cb:to="#end_38"><corr>集</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_39" cb:to="#end_39"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3a" cb:to="#end_3a"><corr>五</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3b" cb:to="#end_3b"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3c" cb:to="#end_3c"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3d" cb:to="#end_3d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3e" cb:to="#end_3e"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3f" cb:to="#end_3f"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_40" cb:to="#end_40"><corr>古德</corr><sic>■</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_41" cb:to="#end_41"><corr><note place="inline">尅實</note></corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_42" cb:to="#end_42"><corr>然其</corr><sic>■</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_43" cb:to="#end_43"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_44" cb:to="#end_44"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_45" cb:to="#end_45"><corr>優婆</corr><sic>婆優</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_46" cb:to="#end_46"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_47" cb:to="#end_47"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_48" cb:to="#end_48"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_49" cb:to="#end_49"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4a" cb:to="#end_4a"><corr>羅</corr><sic>龍</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4b" cb:to="#end_4b"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4c" cb:to="#end_4c"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4d" cb:to="#end_4d"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4e" cb:to="#end_4e"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4f" cb:to="#end_4f"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_50" cb:to="#end_50"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_51" cb:to="#end_51"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_52" cb:to="#end_52"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_53" cb:to="#end_53"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_54" cb:to="#end_54"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_55" cb:to="#end_55"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_56" cb:to="#end_56"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_57" cb:to="#end_57"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_58" cb:to="#end_58"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_59" cb:to="#end_59"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5a" cb:to="#end_5a"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5b" cb:to="#end_5b"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5c" cb:to="#end_5c"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5d" cb:to="#end_5d"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5e" cb:to="#end_5e"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5f" cb:to="#end_5f"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_60" cb:to="#end_60"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_61" cb:to="#end_61"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_62" cb:to="#end_62"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_63" cb:to="#end_63"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_64" cb:to="#end_64"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_65" cb:to="#end_65"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_66" cb:to="#end_66"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_67" cb:to="#end_67"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_68" cb:to="#end_68"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_69" cb:to="#end_69"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6a" cb:to="#end_6a"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6b" cb:to="#end_6b"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6c" cb:to="#end_6c"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6d" cb:to="#end_6d"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6e" cb:to="#end_6e"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6f" cb:to="#end_6f"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_70" cb:to="#end_70"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_71" cb:to="#end_71"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_72" cb:to="#end_72"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_73" cb:to="#end_73"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_74" cb:to="#end_74"><corr>三</corr><sic>二</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_75" cb:to="#end_75"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_76" cb:to="#end_76"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_77" cb:to="#end_77"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_78" cb:to="#end_78"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_79" cb:to="#end_79"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7a" cb:to="#end_7a"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7b" cb:to="#end_7b"><corr>慧</corr><sic>會</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7c" cb:to="#end_7c"><corr>微</corr><sic>徵</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7d" cb:to="#end_7d"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7e" cb:to="#end_7e"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7f" cb:to="#end_7f"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_80" cb:to="#end_80"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_81" cb:to="#end_81"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_82" cb:to="#end_82"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_83" cb:to="#end_83"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_84" cb:to="#end_84"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_85" cb:to="#end_85"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_86" cb:to="#end_86"><corr>母</corr><sic>毋</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_87" cb:to="#end_87"><corr>母</corr><sic>毋</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_88" cb:to="#end_88"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_89" cb:to="#end_89"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8a" cb:to="#end_8a"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8b" cb:to="#end_8b"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8c" cb:to="#end_8c"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8d" cb:to="#end_8d"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8e" cb:to="#end_8e"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8f" cb:to="#end_8f"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_90" cb:to="#end_90"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_91" cb:to="#end_91"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_92" cb:to="#end_92"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_93" cb:to="#end_93"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_94" cb:to="#end_94"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_95" cb:to="#end_95"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_96" cb:to="#end_96"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_97" cb:to="#end_97"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_98" cb:to="#end_98"><corr>己</corr><sic>已</sic></choice>
+<app from="#beg0003b4401" to="#end0003b4401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0003b4501" to="#end0003b4501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0008b2901" to="#end0008b2901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0013b1701" to="#end0013b1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0025a7101" to="#end0025a7101"><lem wit="#wit1" resp="#resp2">三</lem><rdg wit="#wit2">二</rdg></app>
+<app from="#beg0026a0801" to="#end0026a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0027a1201" to="#end0027a1201"><lem wit="#wit1" resp="#resp2">七</lem><rdg wit="#wit2">十</rdg></app>
+<app from="#beg0029b1801" to="#end0029b1801"><lem wit="#wit1" resp="#resp2">三</lem><rdg wit="#wit2">二</rdg></app>
+<app from="#beg0029b8001" to="#end0029b8001"><lem wit="#wit1" resp="#resp2">三</lem><rdg wit="#wit2">二</rdg></app>
+<app from="#beg0030b4401" to="#end0030b4401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0031a2001" to="#end0031a2001"><lem wit="#wit1" resp="#resp2">二</lem><rdg wit="#wit2">三</rdg></app>
+<app from="#beg0042a3401" to="#end0042a3401"><lem wit="#wit1" resp="#resp2">二</lem><rdg wit="#wit2">三</rdg></app>
+<app from="#beg0042a4601" to="#end0042a4601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0042b1601" to="#end0042b1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0043a3901" to="#end0043a3901"><lem wit="#wit1" resp="#resp2">二</lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0043b3801" to="#end0043b3801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0055a1501" to="#end0055a1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0057b4001" to="#end0057b4001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0058a0701" to="#end0058a0701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0058b6701" to="#end0058b6701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0066a2001" to="#end0066a2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0066b0301" to="#end0066b0301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0067a1701" to="#end0067a1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0067b0701" to="#end0067b0701"><lem wit="#wit1" resp="#resp2">三</lem><rdg wit="#wit2">二</rdg></app>
+<app from="#beg0068a0701" to="#end0068a0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0068b5901" to="#end0068b5901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0069a0801" to="#end0069a0801"><lem wit="#wit1" resp="#resp2">三</lem><rdg wit="#wit2">二</rdg></app>
+<app from="#beg0074b4501" to="#end0074b4501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0075a2001" to="#end0075a2001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0075a2901" to="#end0075a2901"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0075a3001" to="#end0075a3001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0077b1301" to="#end0077b1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0077b1501" to="#end0077b1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0086b0301" to="#end0086b0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0086b0302" to="#end0086b0302"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0089a0501" to="#end0089a0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0098a0101" to="#end0098a0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0102a0301" to="#end0102a0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0102a1101" to="#end0102a1101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0102a1201" to="#end0102a1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0110a4001" to="#end0110a4001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0112b1501" to="#end0112b1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0112b2401" to="#end0112b2401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0112b2402" to="#end0112b2402"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0114a0201" to="#end0114a0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0125b0901" to="#end0125b0901"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0126b0701" to="#end0126b0701"><lem wit="#wit1" resp="#resp2">二</lem><rdg wit="#wit2">三</rdg></app>
+<app from="#beg0137b0401" to="#end0137b0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0137b0701" to="#end0137b0701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0137b0801" to="#end0137b0801"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0137b0901" to="#end0137b0901"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0138a0201" to="#end0138a0201"><lem wit="#wit1" resp="#resp2">能治</lem><rdg wit="#wit2">　　</rdg></app>
+<app from="#beg0156b1101" to="#end0156b1101"><lem wit="#wit1" resp="#resp2">三</lem><rdg wit="#wit2">二</rdg></app>
+<app from="#beg0158a0701" to="#end0158a0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0158b0801" to="#end0158b0801"><lem wit="#wit1" resp="#resp2">類</lem><rdg wit="#wit2">顯</rdg></app>
+<app from="#beg0158b0802" to="#end0158b0802"><lem wit="#wit1" resp="#resp2">集</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0159a4601" to="#end0159a4601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0167a2401" to="#end0167a2401"><lem wit="#wit1" resp="#resp2">五</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0167b0201" to="#end0167b0201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0167b2101" to="#end0167b2101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0168b0401" to="#end0168b0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0168b2601" to="#end0168b2601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0168b2701" to="#end0168b2701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0169a0201" to="#end0169a0201"><lem wit="#wit1" resp="#resp2">古德</lem><rdg wit="#wit2">■</rdg></app>
+<app from="#beg0169a0301" to="#end0169a0301"><lem wit="#wit1" resp="#resp2"><note place="inline">尅實</note></lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0169a0601" to="#end0169a0601"><lem wit="#wit1" resp="#resp2">然其</lem><rdg wit="#wit2">■</rdg></app>
+<app from="#beg0169b2601" to="#end0169b2601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0169b2701" to="#end0169b2701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0169b3701" to="#end0169b3701"><lem wit="#wit1" resp="#resp2">優婆</lem><rdg wit="#wit2">婆優</rdg></app>
+<app from="#beg0170a3401" to="#end0170a3401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0170a4401" to="#end0170a4401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0170a4501" to="#end0170a4501"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0170b4401" to="#end0170b4401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0171a1801" to="#end0171a1801"><lem wit="#wit1" resp="#resp2">羅</lem><rdg wit="#wit2">龍</rdg></app>
+<app from="#beg0171b2401" to="#end0171b2401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0171b2501" to="#end0171b2501"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0172a2801" to="#end0172a2801"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0172b1001" to="#end0172b1001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0173a1901" to="#end0173a1901"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0173a5501" to="#end0173a5501"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0175a0201" to="#end0175a0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0175a2001" to="#end0175a2001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0175a2101" to="#end0175a2101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0175b1101" to="#end0175b1101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0175b3801" to="#end0175b3801"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0176a1201" to="#end0176a1201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0176a2401" to="#end0176a2401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0176a3601" to="#end0176a3601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0176b0401" to="#end0176b0401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0176b2401" to="#end0176b2401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0176b3401" to="#end0176b3401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0177a1201" to="#end0177a1201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0177a2301" to="#end0177a2301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0177b1301" to="#end0177b1301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0177b2801" to="#end0177b2801"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0178a0101" to="#end0178a0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0178a2201" to="#end0178a2201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0178b1001" to="#end0178b1001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0178b2801" to="#end0178b2801"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0179a1001" to="#end0179a1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0179a1601" to="#end0179a1601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0179a2601" to="#end0179a2601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0179a5001" to="#end0179a5001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0179a5801" to="#end0179a5801"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0180a1501" to="#end0180a1501"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0180a2701" to="#end0180a2701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0180a3301" to="#end0180a3301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0180a4201" to="#end0180a4201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0180b0901" to="#end0180b0901"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0180b1401" to="#end0180b1401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0181b0601" to="#end0181b0601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0181b3301" to="#end0181b3301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0181b4901" to="#end0181b4901"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0181b5301" to="#end0181b5301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0182a1001" to="#end0182a1001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0182a4201" to="#end0182a4201"><lem wit="#wit1" resp="#resp2">三</lem><rdg wit="#wit2">二</rdg></app>
+<app from="#beg0182b2601" to="#end0182b2601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0183b6601" to="#end0183b6601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0186a4301" to="#end0186a4301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0187a1001" to="#end0187a1001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0187a1101" to="#end0187a1101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0187a3601" to="#end0187a3601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0187b4001" to="#end0187b4001"><lem wit="#wit1" resp="#resp2">慧</lem><rdg wit="#wit2">會</rdg></app>
+<app from="#beg0187b4002" to="#end0187b4002"><lem wit="#wit1" resp="#resp2">微</lem><rdg wit="#wit2">徵</rdg></app>
+<app from="#beg0188a2001" to="#end0188a2001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0188a4301" to="#end0188a4301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0189a4101" to="#end0189a4101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0190a4201" to="#end0190a4201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0191b4401" to="#end0191b4401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0192b1301" to="#end0192b1301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0192b1401" to="#end0192b1401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0192b1801" to="#end0192b1801"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0192b3701" to="#end0192b3701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0192b4001" to="#end0192b4001"><lem wit="#wit1" resp="#resp2">母</lem><rdg wit="#wit2">毋</rdg></app>
+<app from="#beg0192b4101" to="#end0192b4101"><lem wit="#wit1" resp="#resp2">母</lem><rdg wit="#wit2">毋</rdg></app>
+<app from="#beg0193a0701" to="#end0193a0701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0193a1301" to="#end0193a1301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0193a2001" to="#end0193a2001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0193b2901" to="#end0193b2901"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0193b3501" to="#end0193b3501"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0193b3801" to="#end0193b3801"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0193b4401" to="#end0193b4401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0193b4701" to="#end0193b4701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0193b5301" to="#end0193b5301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0193b5601" to="#end0193b5601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0193b6201" to="#end0193b6201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0193b6301" to="#end0193b6301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0194a0301" to="#end0194a0301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0194a0801" to="#end0194a0801"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0194a1401" to="#end0194a1401"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0194a2101" to="#end0194a2101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0200b1301" to="#end0200b1301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0003b4401" resp="#resp1" type="add" target="#nkr_note_add_0003b4401">已【CB】，巳【洪武】</note>
+<note n="0003b4501" resp="#resp1" type="add" target="#nkr_note_add_0003b4501">已【CB】，巳【洪武】</note>
+<note n="0008b2901" resp="#resp1" type="add" target="#nkr_note_add_0008b2901">已【CB】，巳【洪武】</note>
+<note n="0013b1701" resp="#resp1" type="add" target="#nkr_note_add_0013b1701">已【CB】，巳【洪武】</note>
+<note n="0025a7101" resp="#resp1" type="add" target="#nkr_note_add_0025a7101">三【CB】，二【洪武】</note>
+<note n="0026a0801" resp="#resp1" type="add" target="#nkr_note_add_0026a0801">已【CB】，巳【洪武】</note>
+<note n="0027a1201" resp="#resp1" type="add" target="#nkr_note_add_0027a1201">七【CB】，十【洪武】</note>
+<note n="0029b1801" resp="#resp1" type="add" target="#nkr_note_add_0029b1801">三【CB】，二【洪武】</note>
+<note n="0029b8001" resp="#resp1" type="add" target="#nkr_note_add_0029b8001">三【CB】，二【洪武】</note>
+<note n="0030b4401" resp="#resp1" type="add" target="#nkr_note_add_0030b4401">己【CB】，巳【洪武】</note>
+<note n="0031a2001" resp="#resp1" type="add" target="#nkr_note_add_0031a2001">二【CB】，三【洪武】</note>
+<note n="0042a3401" resp="#resp1" type="add" target="#nkr_note_add_0042a3401">二【CB】，三【洪武】</note>
+<note n="0042a4601" resp="#resp1" type="add" target="#nkr_note_add_0042a4601">已【CB】，巳【洪武】</note>
+<note n="0042b1601" resp="#resp1" type="add" target="#nkr_note_add_0042b1601">已【CB】，巳【洪武】</note>
+<note n="0043a3901" resp="#resp1" type="add" target="#nkr_note_add_0043a3901">二【CB】，一【洪武】</note>
+<note n="0043b3801" resp="#resp1" type="add" target="#nkr_note_add_0043b3801">已【CB】，巳【洪武】</note>
+<note n="0055a1501" resp="#resp1" type="add" target="#nkr_note_add_0055a1501">已【CB】，巳【洪武】</note>
+<note n="0057b4001" resp="#resp1" type="add" target="#nkr_note_add_0057b4001">已【CB】，巳【洪武】</note>
+<note n="0058a0701" resp="#resp1" type="add" target="#nkr_note_add_0058a0701">己【CB】，巳【洪武】</note>
+<note n="0058b6701" resp="#resp1" type="add" target="#nkr_note_add_0058b6701">己【CB】，巳【洪武】</note>
+<note n="0066a2001" resp="#resp1" type="add" target="#nkr_note_add_0066a2001">已【CB】，巳【洪武】</note>
+<note n="0066b0301" resp="#resp1" type="add" target="#nkr_note_add_0066b0301">己【CB】，已【洪武】</note>
+<note n="0067a1701" resp="#resp1" type="add" target="#nkr_note_add_0067a1701">已【CB】，巳【洪武】</note>
+<note n="0067b0701" resp="#resp1" type="add" target="#nkr_note_add_0067b0701">三【CB】，二【洪武】</note>
+<note n="0068a0701" resp="#resp1" type="add" target="#nkr_note_add_0068a0701">已【CB】，巳【洪武】</note>
+<note n="0068b5901" resp="#resp1" type="add" target="#nkr_note_add_0068b5901">已【CB】，巳【洪武】</note>
+<note n="0069a0801" resp="#resp1" type="add" target="#nkr_note_add_0069a0801">三【CB】，二【洪武】</note>
+<note n="0074b4501" resp="#resp1" type="add" target="#nkr_note_add_0074b4501">已【CB】，巳【洪武】</note>
+<note n="0075a2001" resp="#resp1" type="add" target="#nkr_note_add_0075a2001">己【CB】，巳【洪武】</note>
+<note n="0075a2901" resp="#resp1" type="add" target="#nkr_note_add_0075a2901">己【CB】，巳【洪武】</note>
+<note n="0075a3001" resp="#resp1" type="add" target="#nkr_note_add_0075a3001">己【CB】，巳【洪武】</note>
+<note n="0077b1301" resp="#resp1" type="add" target="#nkr_note_add_0077b1301">已【CB】，巳【洪武】</note>
+<note n="0077b1501" resp="#resp1" type="add" target="#nkr_note_add_0077b1501">已【CB】，巳【洪武】</note>
+<note n="0086b0301" resp="#resp1" type="add" target="#nkr_note_add_0086b0301">已【CB】，巳【洪武】</note>
+<note n="0086b0302" resp="#resp1" type="add" target="#nkr_note_add_0086b0302">已【CB】，巳【洪武】</note>
+<note n="0089a0501" resp="#resp1" type="add" target="#nkr_note_add_0089a0501">已【CB】，巳【洪武】</note>
+<note n="0098a0101" resp="#resp1" type="add" target="#nkr_note_add_0098a0101">已【CB】，巳【洪武】</note>
+<note n="0102a0301" resp="#resp1" type="add" target="#nkr_note_add_0102a0301">已【CB】，巳【洪武】</note>
+<note n="0102a1101" resp="#resp1" type="add" target="#nkr_note_add_0102a1101">己【CB】，巳【洪武】</note>
+<note n="0102a1201" resp="#resp1" type="add" target="#nkr_note_add_0102a1201">已【CB】，巳【洪武】</note>
+<note n="0110a4001" resp="#resp1" type="add" target="#nkr_note_add_0110a4001">己【CB】，巳【洪武】</note>
+<note n="0112b1501" resp="#resp1" type="add" target="#nkr_note_add_0112b1501">已【CB】，巳【洪武】</note>
+<note n="0112b2401" resp="#resp1" type="add" target="#nkr_note_add_0112b2401">已【CB】，巳【洪武】</note>
+<note n="0112b2402" resp="#resp1" type="add" target="#nkr_note_add_0112b2402">已【CB】，巳【洪武】</note>
+<note n="0114a0201" resp="#resp1" type="add" target="#nkr_note_add_0114a0201">已【CB】，巳【洪武】</note>
+<note n="0125b0901" resp="#resp1" type="add" target="#nkr_note_add_0125b0901">己【CB】，已【洪武】</note>
+<note n="0126b0701" resp="#resp1" type="add" target="#nkr_note_add_0126b0701">二【CB】，三【洪武】</note>
+<note n="0137b0401" resp="#resp1" type="add" target="#nkr_note_add_0137b0401">已【CB】，巳【洪武】</note>
+<note n="0137b0701" resp="#resp1" type="add" target="#nkr_note_add_0137b0701">己【CB】，巳【洪武】</note>
+<note n="0137b0801" resp="#resp1" type="add" target="#nkr_note_add_0137b0801">己【CB】，巳【洪武】</note>
+<note n="0137b0901" resp="#resp1" type="add" target="#nkr_note_add_0137b0901">己【CB】，巳【洪武】</note>
+<note n="0138a0201" resp="#resp1" type="add" target="#nkr_note_add_0138a0201">能治【CB】，［－］【洪武】</note>
+<note n="0156b1101" resp="#resp1" type="add" target="#nkr_note_add_0156b1101">三【CB】，二【洪武】</note>
+<note n="0158a0701" resp="#resp1" type="add" target="#nkr_note_add_0158a0701">已【CB】，巳【洪武】</note>
+<note n="0158b0801" resp="#resp1" type="add" target="#nkr_note_add_0158b0801">類【CB】，顯【洪武】</note>
+<note n="0158b0802" resp="#resp1" type="add" target="#nkr_note_add_0158b0802">集【CB】，［－］【洪武】</note>
+<note n="0159a4601" resp="#resp1" type="add" target="#nkr_note_add_0159a4601">已【CB】，巳【洪武】</note>
+<note n="0167a2401" resp="#resp1" type="add" target="#nkr_note_add_0167a2401">五【CB】，［－］【洪武】</note>
+<note n="0167b0201" resp="#resp1" type="add" target="#nkr_note_add_0167b0201">己【CB】，巳【洪武】</note>
+<note n="0167b2101" resp="#resp1" type="add" target="#nkr_note_add_0167b2101">己【CB】，巳【洪武】</note>
+<note n="0168b0401" resp="#resp1" type="add" target="#nkr_note_add_0168b0401">已【CB】，巳【洪武】</note>
+<note n="0168b2601" resp="#resp1" type="add" target="#nkr_note_add_0168b2601">己【CB】，巳【洪武】</note>
+<note n="0168b2701" resp="#resp1" type="add" target="#nkr_note_add_0168b2701">己【CB】，巳【洪武】</note>
+<note n="0169a0201" resp="#resp1" type="add" target="#nkr_note_add_0169a0201">古德【CB】，■【洪武】</note>
+<note n="0169a0301" resp="#resp1" type="add" target="#nkr_note_add_0169a0301"><note place="inline">尅實</note>【CB】，［－］【洪武】</note>
+<note n="0169a0601" resp="#resp1" type="add" target="#nkr_note_add_0169a0601">然其【CB】，■【洪武】</note>
+<note n="0169b2601" resp="#resp1" type="add" target="#nkr_note_add_0169b2601">己【CB】，巳【洪武】</note>
+<note n="0169b2701" resp="#resp1" type="add" target="#nkr_note_add_0169b2701">己【CB】，巳【洪武】</note>
+<note n="0169b3701" resp="#resp1" type="add" target="#nkr_note_add_0169b3701">優婆【CB】，婆優【洪武】</note>
+<note n="0170a3401" resp="#resp1" type="add" target="#nkr_note_add_0170a3401">己【CB】，巳【洪武】</note>
+<note n="0170a4401" resp="#resp1" type="add" target="#nkr_note_add_0170a4401">己【CB】，巳【洪武】</note>
+<note n="0170a4501" resp="#resp1" type="add" target="#nkr_note_add_0170a4501">己【CB】，巳【洪武】</note>
+<note n="0170b4401" resp="#resp1" type="add" target="#nkr_note_add_0170b4401">己【CB】，巳【洪武】</note>
+<note n="0171a1801" resp="#resp1" type="add" target="#nkr_note_add_0171a1801">羅【CB】，龍【洪武】</note>
+<note n="0171b2401" resp="#resp1" type="add" target="#nkr_note_add_0171b2401">己【CB】，巳【洪武】</note>
+<note n="0171b2501" resp="#resp1" type="add" target="#nkr_note_add_0171b2501">己【CB】，巳【洪武】</note>
+<note n="0172a2801" resp="#resp1" type="add" target="#nkr_note_add_0172a2801">己【CB】，巳【洪武】</note>
+<note n="0172b1001" resp="#resp1" type="add" target="#nkr_note_add_0172b1001">己【CB】，巳【洪武】</note>
+<note n="0173a1901" resp="#resp1" type="add" target="#nkr_note_add_0173a1901">己【CB】，巳【洪武】</note>
+<note n="0173a5501" resp="#resp1" type="add" target="#nkr_note_add_0173a5501">己【CB】，已【洪武】</note>
+<note n="0175a0201" resp="#resp1" type="add" target="#nkr_note_add_0175a0201">已【CB】，巳【洪武】</note>
+<note n="0175a2001" resp="#resp1" type="add" target="#nkr_note_add_0175a2001">己【CB】，巳【洪武】</note>
+<note n="0175a2101" resp="#resp1" type="add" target="#nkr_note_add_0175a2101">己【CB】，巳【洪武】</note>
+<note n="0175b1101" resp="#resp1" type="add" target="#nkr_note_add_0175b1101">己【CB】，巳【洪武】</note>
+<note n="0175b3801" resp="#resp1" type="add" target="#nkr_note_add_0175b3801">己【CB】，巳【洪武】</note>
+<note n="0176a1201" resp="#resp1" type="add" target="#nkr_note_add_0176a1201">己【CB】，巳【洪武】</note>
+<note n="0176a2401" resp="#resp1" type="add" target="#nkr_note_add_0176a2401">己【CB】，巳【洪武】</note>
+<note n="0176a3601" resp="#resp1" type="add" target="#nkr_note_add_0176a3601">己【CB】，已【洪武】</note>
+<note n="0176b0401" resp="#resp1" type="add" target="#nkr_note_add_0176b0401">己【CB】，巳【洪武】</note>
+<note n="0176b2401" resp="#resp1" type="add" target="#nkr_note_add_0176b2401">己【CB】，巳【洪武】</note>
+<note n="0176b3401" resp="#resp1" type="add" target="#nkr_note_add_0176b3401">己【CB】，巳【洪武】</note>
+<note n="0177a1201" resp="#resp1" type="add" target="#nkr_note_add_0177a1201">己【CB】，巳【洪武】</note>
+<note n="0177a2301" resp="#resp1" type="add" target="#nkr_note_add_0177a2301">己【CB】，巳【洪武】</note>
+<note n="0177b1301" resp="#resp1" type="add" target="#nkr_note_add_0177b1301">己【CB】，巳【洪武】</note>
+<note n="0177b2801" resp="#resp1" type="add" target="#nkr_note_add_0177b2801">己【CB】，已【洪武】</note>
+<note n="0178a0101" resp="#resp1" type="add" target="#nkr_note_add_0178a0101">已【CB】，巳【洪武】</note>
+<note n="0178a2201" resp="#resp1" type="add" target="#nkr_note_add_0178a2201">己【CB】，巳【洪武】</note>
+<note n="0178b1001" resp="#resp1" type="add" target="#nkr_note_add_0178b1001">己【CB】，巳【洪武】</note>
+<note n="0178b2801" resp="#resp1" type="add" target="#nkr_note_add_0178b2801">己【CB】，已【洪武】</note>
+<note n="0179a1001" resp="#resp1" type="add" target="#nkr_note_add_0179a1001">已【CB】，巳【洪武】</note>
+<note n="0179a1601" resp="#resp1" type="add" target="#nkr_note_add_0179a1601">己【CB】，巳【洪武】</note>
+<note n="0179a2601" resp="#resp1" type="add" target="#nkr_note_add_0179a2601">己【CB】，巳【洪武】</note>
+<note n="0179a5001" resp="#resp1" type="add" target="#nkr_note_add_0179a5001">己【CB】，巳【洪武】</note>
+<note n="0179a5801" resp="#resp1" type="add" target="#nkr_note_add_0179a5801">己【CB】，巳【洪武】</note>
+<note n="0180a1501" resp="#resp1" type="add" target="#nkr_note_add_0180a1501">己【CB】，巳【洪武】</note>
+<note n="0180a2701" resp="#resp1" type="add" target="#nkr_note_add_0180a2701">己【CB】，巳【洪武】</note>
+<note n="0180a3301" resp="#resp1" type="add" target="#nkr_note_add_0180a3301">己【CB】，巳【洪武】</note>
+<note n="0180a4201" resp="#resp1" type="add" target="#nkr_note_add_0180a4201">己【CB】，巳【洪武】</note>
+<note n="0180b0901" resp="#resp1" type="add" target="#nkr_note_add_0180b0901">己【CB】，巳【洪武】</note>
+<note n="0180b1401" resp="#resp1" type="add" target="#nkr_note_add_0180b1401">己【CB】，巳【洪武】</note>
+<note n="0181b0601" resp="#resp1" type="add" target="#nkr_note_add_0181b0601">己【CB】，巳【洪武】</note>
+<note n="0181b3301" resp="#resp1" type="add" target="#nkr_note_add_0181b3301">己【CB】，巳【洪武】</note>
+<note n="0181b4901" resp="#resp1" type="add" target="#nkr_note_add_0181b4901">己【CB】，已【洪武】</note>
+<note n="0181b5301" resp="#resp1" type="add" target="#nkr_note_add_0181b5301">己【CB】，巳【洪武】</note>
+<note n="0182a1001" resp="#resp1" type="add" target="#nkr_note_add_0182a1001">己【CB】，巳【洪武】</note>
+<note n="0182a4201" resp="#resp1" type="add" target="#nkr_note_add_0182a4201">三【CB】，二【洪武】</note>
+<note n="0182b2601" resp="#resp1" type="add" target="#nkr_note_add_0182b2601">己【CB】，巳【洪武】</note>
+<note n="0183b6601" resp="#resp1" type="add" target="#nkr_note_add_0183b6601">己【CB】，巳【洪武】</note>
+<note n="0186a4301" resp="#resp1" type="add" target="#nkr_note_add_0186a4301">己【CB】，巳【洪武】</note>
+<note n="0187a1001" resp="#resp1" type="add" target="#nkr_note_add_0187a1001">己【CB】，巳【洪武】</note>
+<note n="0187a1101" resp="#resp1" type="add" target="#nkr_note_add_0187a1101">己【CB】，已【洪武】</note>
+<note n="0187a3601" resp="#resp1" type="add" target="#nkr_note_add_0187a3601">己【CB】，巳【洪武】</note>
+<note n="0187b4001" resp="#resp1" type="add" target="#nkr_note_add_0187b4001">慧【CB】，會【洪武】</note>
+<note n="0187b4002" resp="#resp1" type="add" target="#nkr_note_add_0187b4002">微【CB】，徵【洪武】</note>
+<note n="0188a2001" resp="#resp1" type="add" target="#nkr_note_add_0188a2001">己【CB】，已【洪武】</note>
+<note n="0188a4301" resp="#resp1" type="add" target="#nkr_note_add_0188a4301">己【CB】，已【洪武】</note>
+<note n="0189a4101" resp="#resp1" type="add" target="#nkr_note_add_0189a4101">己【CB】，已【洪武】</note>
+<note n="0190a4201" resp="#resp1" type="add" target="#nkr_note_add_0190a4201">己【CB】，巳【洪武】</note>
+<note n="0191b4401" resp="#resp1" type="add" target="#nkr_note_add_0191b4401">己【CB】，已【洪武】</note>
+<note n="0192b1301" resp="#resp1" type="add" target="#nkr_note_add_0192b1301">己【CB】，已【洪武】</note>
+<note n="0192b1401" resp="#resp1" type="add" target="#nkr_note_add_0192b1401">己【CB】，已【洪武】</note>
+<note n="0192b1801" resp="#resp1" type="add" target="#nkr_note_add_0192b1801">己【CB】，巳【洪武】</note>
+<note n="0192b3701" resp="#resp1" type="add" target="#nkr_note_add_0192b3701">已【CB】，巳【洪武】</note>
+<note n="0192b4001" resp="#resp1" type="add" target="#nkr_note_add_0192b4001">母【CB】，毋【洪武】</note>
+<note n="0192b4101" resp="#resp1" type="add" target="#nkr_note_add_0192b4101">母【CB】，毋【洪武】</note>
+<note n="0193a0701" resp="#resp1" type="add" target="#nkr_note_add_0193a0701">己【CB】，巳【洪武】</note>
+<note n="0193a1301" resp="#resp1" type="add" target="#nkr_note_add_0193a1301">己【CB】，巳【洪武】</note>
+<note n="0193a2001" resp="#resp1" type="add" target="#nkr_note_add_0193a2001">己【CB】，巳【洪武】</note>
+<note n="0193b2901" resp="#resp1" type="add" target="#nkr_note_add_0193b2901">己【CB】，已【洪武】</note>
+<note n="0193b3501" resp="#resp1" type="add" target="#nkr_note_add_0193b3501">己【CB】，巳【洪武】</note>
+<note n="0193b3801" resp="#resp1" type="add" target="#nkr_note_add_0193b3801">己【CB】，巳【洪武】</note>
+<note n="0193b4401" resp="#resp1" type="add" target="#nkr_note_add_0193b4401">己【CB】，巳【洪武】</note>
+<note n="0193b4701" resp="#resp1" type="add" target="#nkr_note_add_0193b4701">己【CB】，巳【洪武】</note>
+<note n="0193b5301" resp="#resp1" type="add" target="#nkr_note_add_0193b5301">己【CB】，巳【洪武】</note>
+<note n="0193b5601" resp="#resp1" type="add" target="#nkr_note_add_0193b5601">己【CB】，巳【洪武】</note>
+<note n="0193b6201" resp="#resp1" type="add" target="#nkr_note_add_0193b6201">己【CB】，巳【洪武】</note>
+<note n="0193b6301" resp="#resp1" type="add" target="#nkr_note_add_0193b6301">己【CB】，巳【洪武】</note>
+<note n="0194a0301" resp="#resp1" type="add" target="#nkr_note_add_0194a0301">己【CB】，巳【洪武】</note>
+<note n="0194a0801" resp="#resp1" type="add" target="#nkr_note_add_0194a0801">己【CB】，巳【洪武】</note>
+<note n="0194a1401" resp="#resp1" type="add" target="#nkr_note_add_0194a1401">己【CB】，巳【洪武】</note>
+<note n="0194a2101" resp="#resp1" type="add" target="#nkr_note_add_0194a2101">己【CB】，巳【洪武】</note>
+<note n="0200b1301" resp="#resp1" type="add" target="#nkr_note_add_0200b1301">己【CB】，已【洪武】</note>
 </p>
 </cb:div>
 </back></text></TEI>

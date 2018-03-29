@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2009/04/22 08:49:59 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 5, No. 230</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -384,7 +389,7 @@ basicx 程式 轉自 簡單標記
 <lb ed="X" n="0335a02"/><lb ed="R088" n="0849a01"/><item xml:id="itemX05p0335a0201">三結成<note place="inline">即於</note></item></list></item>
 <lb ed="X" n="0335a03"/><lb ed="R088" n="0849a01"/><item xml:id="itemX05p0335a0301">三釋不思議由<note place="inline">何故</note></item>
 <lb ed="X" n="0335a04"/><lb ed="R088" n="0849a01"/><item xml:id="itemX05p0335a0401">四辨不思議意<note place="inline">何用</note></item></list></item>
-<lb ed="X" n="0335a05"/><lb ed="R088" n="0849a01"/><item xml:id="itemX05p0335a0501">三通結<note place="inline"><anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>知</note></item></list></item>
+<lb ed="X" n="0335a05"/><lb ed="R088" n="0849a01"/><item xml:id="itemX05p0335a0501">三通結<note place="inline"><anchor xml:id="nkr_note_add_0335a0501" n="0335a0501"/><anchor xml:id="beg0335a0501" n="0335a0501"/>已<anchor xml:id="end0335a0501"/>知</note></item></list></item>
 <lb ed="X" n="0335a06"/><lb ed="R088" n="0849a01"/><item xml:id="itemX05p0335a0601">二釋能入<note place="inline">三</note>
 <lb ed="X" n="0335a07"/><lb ed="R088" n="0849a01"/><list><item xml:id="itemX05p0335a0701">初總指行願<note place="inline">第二</note></item>
 <lb ed="X" n="0335a08"/><lb ed="R088" n="0849a01"/><item xml:id="itemX05p0335a0801">二喻明行願之要<note place="inline">行之</note></item>
@@ -881,7 +886,13 @@ basicx 程式 轉自 簡單標記
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0335a0501" to="#end0335a0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0335a0501" resp="#resp1" type="add" target="#nkr_note_add_0335a0501">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

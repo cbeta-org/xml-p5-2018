@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2012/06/04 09:26:13 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2865</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -178,7 +183,7 @@ Added comment  for Emacs
 <pb n="1325b" xml:id="T85.2865.1325b" ed="T"/>
 <lb n="1325b01" ed="T"/>若有惡魔眾邪蠱毒不隨我語者。我當使此
 <lb n="1325b02" ed="T"/>魔遭眾邪蠱毒。如押油殃悉皆消滅無有遺
-<lb n="1325b03" ed="T"/>餘。佛即舉七佛名<anchor xml:id="beg_1" type="cb-app"/>字<anchor xml:id="end_1"/>。第一維衛佛。第二式佛。
+<lb n="1325b03" ed="T"/>餘。佛即舉七佛名<anchor xml:id="nkr_note_add_1325b0301" n="1325b0301"/><anchor xml:id="beg1325b0301" n="1325b0301"/>字<anchor xml:id="end1325b0301"/>。第一維衛佛。第二式佛。
 <lb n="1325b04" ed="T"/>第三隨葉佛。第四拘樓秦佛。第五拘那含牟
 <lb n="1325b05" ed="T"/>尼佛。第六迦葉佛。第七釋迦牟尼佛。若有苦
 <lb n="1325b06" ed="T"/>厄病痛者。便當讀誦此七佛名字。諸惡蠱毒
@@ -268,13 +273,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>字<note type="cf1">F03n0248_p0557a19</note></corr><sic>宇</sic></choice>
+<app from="#beg1325b0301" to="#end1325b0301"><lem wit="#wit1" resp="#resp3">字<note type="cf1">F03n0248_p0557a19</note></lem><rdg wit="#wit2">宇</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1325001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1325001">【原】佛蘭西國民圖書館藏燉煌本, P. 2340</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1325b0301" resp="#resp2" type="add" target="#nkr_note_add_1325b0301">字【CB】，宇【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.12 $<date>$Date: 2010/01/20 08:21:45 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 46, No. 1956</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -443,7 +448,7 @@ Added comment  for Emacs
 <lb n="1007b25" ed="T"/>心為本。外現威怒之相。顰眉厲聲而念是也。
 <lb n="1007b26" ed="T"/>如是四種雖有差別。不離一念為無二也。又
 <lb n="1007b27" ed="T"/>有二種。一無數持念。謂不持念珠不定時數。
-<lb n="1007b28" ed="T"/>行住坐臥恒常持念。二有數持念。謂手<anchor xml:id="beg_1" type="cb-app"/>掐<anchor xml:id="end_1"/>數
+<lb n="1007b28" ed="T"/>行住坐臥恒常持念。二有數持念。謂手<anchor xml:id="nkr_note_add_1007b2801" n="1007b2801"/><anchor xml:id="beg1007b2801" n="1007b2801"/>掐<anchor xml:id="end1007b2801"/>數
 <lb n="1007b29" ed="T"/>珠限定時數。或百或千隨應持念。若人誦持
 <pb n="1007c" xml:id="T46.1956.1007c" ed="T"/>
 <lb n="1007c01" ed="T"/>祕密神呪。要應依師依經而受持之。然須求
@@ -509,7 +514,7 @@ Added comment  for Emacs
 <lb n="1008b01" ed="T"/><l>所得諸功德</l><l>如我身無異</l>
 <lb n="1008b02" ed="T"/><l>此呪王功德</l><l>我今但略說</l></lg></cb:div>
 <lb n="1008b03" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">三字總持呪</cb:mulu><head>三字總持呪</head><p cb:type="dharani" xml:id="pT46p1008b0306" rend="inline">唵啞吽</p>
-<lb n="1008b04" ed="T"/><p xml:id="pT46p1008b0401">瑜伽大教<anchor xml:id="beg_2" type="cb-app"/>王<anchor xml:id="end_2"/>經云。唵字是大遍照如來。啞字
+<lb n="1008b04" ed="T"/><p xml:id="pT46p1008b0401">瑜伽大教<anchor xml:id="nkr_note_add_1008b0401" n="1008b0401"/><anchor xml:id="beg1008b0401" n="1008b0401"/>王<anchor xml:id="end1008b0401"/>經云。唵字是大遍照如來。啞字
 <lb n="1008b05" ed="T"/>是無量壽如來。吽字是阿閦如來。又成佛儀
 <lb n="1008b06" ed="T"/>軌云。</p>
 <lb n="1008b07" ed="T"/><lg xml:id="lgT46p1008b0701"><l>由誦此唵字</l><l>加持威力故</l>
@@ -974,14 +979,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>掐<note type="cf1">X59n1077_p0230b24</note></corr><sic>搯</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>王<note type="cf1">X23n0446_p0780b14</note></corr><sic>主</sic></choice>
+<app from="#beg1007b2801" to="#end1007b2801"><lem wit="#wit1" resp="#resp3">掐<note type="cf1">X59n1077_p0230b24</note></lem><rdg wit="#wit2">搯</rdg></app>
+<app from="#beg1008b0401" to="#end1008b0401"><lem wit="#wit1" resp="#resp3">王<note type="cf1">X23n0446_p0780b14</note></lem><rdg wit="#wit2">主</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1007001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1007001">【原】萬曆四十二年刊增上寺報恩藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1007b2801" resp="#resp2" type="add" target="#nkr_note_add_1007b2801">掐【CB】，搯【大】</note>
+<note n="1008b0401" resp="#resp2" type="add" target="#nkr_note_add_1008b0401">王【CB】，主【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

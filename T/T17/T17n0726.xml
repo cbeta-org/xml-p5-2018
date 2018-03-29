@@ -14,8 +14,9 @@
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2012/08/27 03:15:11 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,8 +34,8 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 17, No. 726</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【麗-CB】</witness>
 		<witness xml:id="wit3">【大】</witness>
 	</listWit>
 	</sourceDesc>
@@ -193,7 +194,7 @@ Added comment  for Emacs
 <lb n="0455b22" ed="T"/><l>如是罪眾生，</l><l>當墮號叫獄；</l>
 <lb n="0455b23" ed="T"/><l>彼熾猛火焰，</l><l>燒然無休息，</l>
 <lb n="0455b24" ed="T"/><l>常發大惡聲，</l><l>受如是苦報。</l>
-<lb n="0455b25" ed="T"/><l>若於佛法僧，</l><l>及諸<anchor xml:id="beg_1" type="cb-app"/>貧<anchor xml:id="end_1"/>乏者，</l>
+<lb n="0455b25" ed="T"/><l>若於佛法僧，</l><l>及諸<anchor xml:id="nkr_note_add_0455b2501" n="0455b2501"/><anchor xml:id="beg0455b2501" n="0455b2501"/>貧<anchor xml:id="end0455b2501"/>乏者，</l>
 <lb n="0455b26" ed="T"/><l>剽竊彼財物，</l><l>墮大號叫獄；</l>
 <lb n="0455b27" ed="T"/><l>為火所燒炙，</l><l>受最極熱惱，</l>
 <lb n="0455b28" ed="T"/><l>出大猛惡聲，</l><l>受如是苦報。</l>
@@ -355,7 +356,7 @@ Added comment  for Emacs
 <lb n="0457b04" ed="T"/><l>由昔行施故，</l><l>而作修羅主。</l></lg>
 <lb n="0457b05" ed="T"/><p xml:id="pT17p0457b0501">修羅趣竟。</p>
 <lb n="0457b06" ed="T"/><lg xml:id="lgT17p0457b0601"><l>樂修十善因，</l><l>於他無損害，</l>
-<lb n="0457b07" ed="T"/><l>諸天常<anchor xml:id="beg_2" type="cb-app"/>護<anchor xml:id="end_2"/>持，</l><l>得生四王天。</l>
+<lb n="0457b07" ed="T"/><l>諸天常<anchor xml:id="nkr_note_add_0457b0701" n="0457b0701"/><anchor xml:id="beg0457b0701" n="0457b0701"/>護<anchor xml:id="end0457b0701"/>持，</l><l>得生四王天。</l>
 <lb n="0457b08" ed="T"/><l>於父母三寶，</l><l>恭敬隨能施，</l>
 <lb n="0457b09" ed="T"/><l>具忍辱柔和，</l><l>得生忉利天。</l>
 <lb n="0457b10" ed="T"/><l>自不樂忿諍，</l><l>勸他令和順，</l>
@@ -382,14 +383,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg_1" to="#end_1"><lem resp="#resp2 resp3" wit="#wit1 #wit2">貧<note type="cf1">K41n1490_p0607b13</note></lem><rdg wit="#wit3">貪</rdg></app>
-<app from="#beg_2" to="#end_2"><lem resp="#resp2 resp3" wit="#wit1 #wit2">護<note type="cf1">K41n1490_p0609c09</note></lem><rdg wit="#wit3">獲</rdg></app>
+<app from="#beg0455b2501" to="#end0455b2501"><lem resp="#resp3 resp4" wit="#wit1 #wit2">貧<note type="cf1">K41n1490_p0607b13</note></lem><rdg wit="#wit3">貪</rdg></app>
+<app from="#beg0457b0701" to="#end0457b0701"><lem resp="#resp3 resp4" wit="#wit1 #wit2">護<note type="cf1">K41n1490_p0609c09</note></lem><rdg wit="#wit3">獲</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0455002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0455002">此經三本俱</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0455b2501" resp="#resp2" type="add" target="#nkr_note_add_0455b2501">貧【CB】【麗-CB】，貪【大】</note>
+<note n="0457b0701" resp="#resp2" type="add" target="#nkr_note_add_0457b0701">護【CB】【麗-CB】，獲【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

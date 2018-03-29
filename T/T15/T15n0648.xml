@@ -14,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.13 $<date>$Date: 2009/04/23 07:58:54 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -37,8 +37,8 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【明】</witness>
 		<witness xml:id="wit4">【宮】</witness>
-		<witness xml:id="wit5">【CBETA】</witness>
-		<witness xml:id="wit6">【麗】</witness>
+		<witness xml:id="wit5">【CB】</witness>
+		<witness xml:id="wit6">【麗-CB】</witness>
 		<witness xml:id="wit7">【元】</witness>
 	</listWit>
 	</sourceDesc>
@@ -163,8 +163,8 @@ Added comment  for Emacs
 <lb ed="T" n="0723a18"/><cb:docNumber>No. 648</cb:docNumber>
 <lb n="0723a19" ed="T"/><cb:juan fun="open" n="001"><cb:mulu type="卷" n="001"></cb:mulu><cb:jhead><title>寂照神變三摩地經</title></cb:jhead></cb:juan>
 <lb ed="T" n="0723a20"/>
-<lb n="0723a21" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0723001" n="0723001"/><anchor xml:id="beg0723001" n="0723001"/>大<anchor xml:id="end0723001"/>唐三藏法師玄奘奉　詔譯</byline>
-<lb ed="T" n="0723a22"/><cb:div type="jing"><p xml:id="pT15p0723a2201">如是我聞：</p><p xml:id="pT15p0723a2205" rend="inline">一時薄伽梵住王舍城鷲<anchor xml:id="beg_1" type="cb-app"/>峯<anchor xml:id="end_1"/>山中，
+<lb n="0723a21" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0723001" n="0723001"/><anchor xml:id="nkr_note_mod_0723001" n="0723001"/><anchor xml:id="beg0723001" n="0723001"/>大<anchor xml:id="end0723001"/>唐三藏法師玄奘奉　詔譯</byline>
+<lb ed="T" n="0723a22"/><cb:div type="jing"><p xml:id="pT15p0723a2201">如是我聞：</p><p xml:id="pT15p0723a2205" rend="inline">一時薄伽梵住王舍城鷲<anchor xml:id="nkr_note_add_0723a2201" n="0723a2201"/><anchor xml:id="beg0723a2201" n="0723a2201"/>峯<anchor xml:id="end0723a2201"/>山中，
 <lb n="0723a23" ed="T"/>與大苾芻眾千二百五十人俱，并十俱胝佛
 <lb n="0723a24" ed="T"/>土極微塵數等菩薩摩訶薩，其名曰曼殊室
 <lb ed="T" n="0723a25"/>利童子菩薩、觀自在菩薩、藥王菩薩、藥上菩
@@ -198,8 +198,8 @@ Added comment  for Emacs
 <lb ed="T" n="0723b23"/>菩薩、明光菩薩、一切如來神變光影末尼幢
 <lb n="0723b24" ed="T"/>王末尼寶網等覆頂髻菩薩、一切如來法輪
 <lb n="0723b25" ed="T"/>音聲頂髻菩薩、一切如來放大光輪末尼寶
-<lb n="0723b26" ed="T"/>珠<anchor xml:id="nkr_note_orig_0723002" n="0723002"/><anchor xml:id="beg0723002" n="0723002"/>雷音<anchor xml:id="end0723002"/>頂髻菩薩、一切空中眾雜顯照末尼
-<lb ed="T" n="0723b27"/>寶珠莊嚴頂髻菩薩、法光菩薩、<anchor xml:id="nkr_note_orig_0723003" n="0723003"/><anchor xml:id="beg0723003" n="0723003"/>淨光<anchor xml:id="end0723003"/>菩薩、
+<lb n="0723b26" ed="T"/>珠<anchor xml:id="nkr_note_orig_0723002" n="0723002"/><anchor xml:id="nkr_note_mod_0723002" n="0723002"/><anchor xml:id="beg0723002" n="0723002"/>雷音<anchor xml:id="end0723002"/>頂髻菩薩、一切空中眾雜顯照末尼
+<lb ed="T" n="0723b27"/>寶珠莊嚴頂髻菩薩、法光菩薩、<anchor xml:id="nkr_note_orig_0723003" n="0723003"/><anchor xml:id="nkr_note_mod_0723003" n="0723003"/><anchor xml:id="beg0723003" n="0723003"/>淨光<anchor xml:id="end0723003"/>菩薩、
 <lb n="0723b28" ed="T"/>日月光菩薩、神變光菩薩、天光菩薩、福德高
 <lb n="0723b29" ed="T"/>幢菩薩、智慧高幢菩薩、神通高幢菩薩、光明
 <pb xml:id="T15.0648.0723c" ed="T" n="0723c"/>
@@ -234,7 +234,7 @@ Added comment  for Emacs
 <lb n="0723c29" ed="T"/>沒若生：出胎出家，方便示行難行苦行，詣
 <pb n="0724a" xml:id="T15.0648.0724a" ed="T"/>
 <lb ed="T" n="0724a01"/>菩提座摧伏魔軍，成等正覺轉正法輪，最後
-<lb n="0724a02" ed="T"/>示現入大涅槃；成就於一結<anchor xml:id="nkr_note_orig_0724001" n="0724001"/><anchor xml:id="beg0724001" n="0724001"/>加<anchor xml:id="end0724001"/>趺坐，普於
+<lb n="0724a02" ed="T"/>示現入大涅槃；成就於一結<anchor xml:id="nkr_note_orig_0724001" n="0724001"/><anchor xml:id="nkr_note_mod_0724001" n="0724001"/><anchor xml:id="beg0724001" n="0724001"/>加<anchor xml:id="end0724001"/>趺坐，普於
 <lb n="0724a03" ed="T"/>十方一切世界能遍滿智，普於十方一切世
 <lb n="0724a04" ed="T"/>界一切如來所有眾會現一如來，於一如來
 <lb ed="T" n="0724a05"/>所有眾會普能示現一切如來；於一切法無
@@ -285,7 +285,7 @@ Added comment  for Emacs
 <lb ed="T" n="0724b20"/>法受持，皆得善巧，皆得一切妙陀羅尼，悟
 <lb n="0724b21" ed="T"/>入<anchor xml:id="nkr_note_orig_0724003" n="0724003"/><anchor xml:id="nkr_note_mod_0724003" n="0724003"/><anchor xml:id="beg0724003" n="0724003"/>任<anchor xml:id="end0724003"/>持善決定辯，宣說一切有情界根，皆
 <lb n="0724b22" ed="T"/>得善巧；一有情心為所緣境，不可說轉證大
-<lb n="0724b23" ed="T"/>菩提，覺悟一切有情心智，<anchor xml:id="beg_2" type="cb-app"/>皆<anchor xml:id="end_2"/>得善巧；以一言
+<lb n="0724b23" ed="T"/>菩提，覺悟一切有情心智，<anchor xml:id="nkr_note_add_0724b2301" n="0724b2301"/><anchor xml:id="beg0724b2301" n="0724b2301"/>皆<anchor xml:id="end0724b2301"/>得善巧；以一言
 <lb n="0724b24" ed="T"/>音普能告教一切世界，能遍了知一切有情
 <lb n="0724b25" ed="T"/>意樂差別，能顯照他有情相續，皆得善巧；
 <lb n="0724b26" ed="T"/>能以一心隨念悟入一切眾生先際劫數，普
@@ -312,11 +312,11 @@ Added comment  for Emacs
 <lb ed="T" n="0724c17"/>不損惱諸有情類，皆得善巧；一切皆已住法
 <lb n="0724c18" ed="T"/>雲地，能持十方所化有情所有廣大災橫、憂
 <lb n="0724c19" ed="T"/>惱、飢饉、險難，皆得善巧，而不損惱諸餘有情；
-<lb ed="T" n="0724c20"/>以神通力能<anchor xml:id="nkr_note_orig_0724004" n="0724004"/><anchor xml:id="beg0724004" n="0724004"/>於<anchor xml:id="end0724004"/>無佛諸世界中現佛興世：如
+<lb ed="T" n="0724c20"/>以神通力能<anchor xml:id="nkr_note_orig_0724004" n="0724004"/><anchor xml:id="nkr_note_mod_0724004" n="0724004"/><anchor xml:id="beg0724004" n="0724004"/>於<anchor xml:id="end0724004"/>無佛諸世界中現佛興世：如
 <lb ed="T" n="0724c21"/>是無量無邊功德皆悉成就。</p><p xml:id="pT15p0724c2112" rend="inline">復與五百菩薩
 <lb ed="T" n="0724c22"/>摩訶薩俱，賢護菩薩而為上首，一切皆住不
 <lb ed="T" n="0724c23"/>退轉位。</p>
-<lb ed="T" n="0724c24"/><p xml:id="pT15p0724c2401">爾時吠舍釐大城中，有黎呫毘童子名曰<anchor xml:id="nkr_note_orig_0724005" n="0724005"/><anchor xml:id="beg0724005" n="0724005"/>寶
+<lb ed="T" n="0724c24"/><p xml:id="pT15p0724c2401">爾時吠舍釐大城中，有黎呫毘童子名曰<anchor xml:id="nkr_note_orig_0724005" n="0724005"/><anchor xml:id="nkr_note_mod_0724005" n="0724005"/><anchor xml:id="beg0724005" n="0724005"/>寶
 <lb ed="T" n="0724c25"/>鑛<anchor xml:id="end0724005"/>，與二萬一千黎呫毘童子俱，前後圍繞往
 <lb ed="T" n="0724c26"/>鷲峯山，詣如來所，頂禮雙足退右邊坐，瞻仰
 <lb n="0724c27" ed="T"/>世尊目不暫捨，恭敬而住。</p>
@@ -374,7 +374,7 @@ Added comment  for Emacs
 <lb n="0725b19" ed="T"/>捨，恭敬而住。</p>
 <lb n="0725b20" ed="T"/><p xml:id="pT15p0725b2001">爾時於此三千大千世界，廣大威德天、龍、藥
 <lb n="0725b21" ed="T"/>叉、健達縛、阿素洛、揭路茶、緊捺洛、牟呼洛
-<lb n="0725b22" ed="T"/>伽、釋梵護世、人非人等，諸菩薩眾，<anchor xml:id="nkr_note_orig_0725002" n="0725002"/><anchor xml:id="beg0725002" n="0725002"/>側<anchor xml:id="end0725002"/>塞而
+<lb n="0725b22" ed="T"/>伽、釋梵護世、人非人等，諸菩薩眾，<anchor xml:id="nkr_note_orig_0725002" n="0725002"/><anchor xml:id="nkr_note_mod_0725002" n="0725002"/><anchor xml:id="beg0725002" n="0725002"/>側<anchor xml:id="end0725002"/>塞而
 <lb n="0725b23" ed="T"/>住，乃至無有如毛端量所不充滿。</p>
 <lb ed="T" n="0725b24"/><p xml:id="pT15p0725b2401">爾時眾中賢護菩薩從座而起，偏覆一肩右
 <lb n="0725b25" ed="T"/>膝著地，合掌恭敬而白佛言：「世尊！我於少
@@ -391,7 +391,7 @@ Added comment  for Emacs
 <lb n="0725c06" ed="T"/>無轉無退無有遍退，及於無上正等菩提勇
 <lb ed="T" n="0725c07"/>猛增進？云何如來有所行行熾然精進？云何
 <lb n="0725c08" ed="T"/>如來有其妙智？云何大慧及智善巧？云何淨
-<lb n="0725c09" ed="T"/>戒？云何具念，隨所聞法能不<anchor xml:id="beg_3" type="cb-app"/>忘<anchor xml:id="end_3"/>失？云何生念，
+<lb n="0725c09" ed="T"/>戒？云何具念，隨所聞法能不<anchor xml:id="nkr_note_add_0725c0901" n="0725c0901"/><anchor xml:id="beg0725c0901" n="0725c0901"/>忘<anchor xml:id="end0725c0901"/>失？云何生念，
 <lb n="0725c10" ed="T"/>隨其宿世所作善根悉能解了？云何宿住而
 <lb n="0725c11" ed="T"/>得善巧，悉能開覺他諸有情？云何具覺諸根
 <lb ed="T" n="0725c12"/>殊勝？云何具相見佛聞法承事眾僧？云何安
@@ -477,7 +477,7 @@ Added comment  for Emacs
 <lb ed="T" n="0726c02"/>諸事業不作加行，於諸內處而不作意，於諸
 <lb ed="T" n="0726c03"/>外處而不現行，不自高舉不輕蔑他，於諸善
 <lb n="0726c04" ed="T"/>中無所執著，於諸異生終不委任；尸羅等流
-<lb ed="T" n="0726c05"/>難<anchor xml:id="nkr_note_orig_0726004" n="0726004"/><anchor xml:id="beg0726004" n="0726004"/>辦<anchor xml:id="end0726004"/>能<anchor xml:id="beg_4" type="star"/>辦<anchor xml:id="end_4"/>，具大光蘊能自了知，離諸掉動
+<lb ed="T" n="0726c05"/>難<anchor xml:id="nkr_note_orig_0726004" n="0726004"/><anchor xml:id="nkr_note_mod_0726004" n="0726004"/><anchor xml:id="beg0726004" n="0726004"/>辦<anchor xml:id="end0726004"/>能<anchor xml:id="beg_1" type="star"/>辦<anchor xml:id="end_1"/>，具大光蘊能自了知，離諸掉動
 <lb ed="T" n="0726c06"/>立眾威儀，無有瞋恚離麁獷語，不損惱他隨
 <lb ed="T" n="0726c07"/>護善友，遠離怨害具淨尸羅，無所損害言辭
 <lb ed="T" n="0726c08"/>柔軟，不依三界守護親密，於一切法空無我
@@ -486,11 +486,11 @@ Added comment  for Emacs
 <lb ed="T" n="0726c11"/>足圓滿，心無擾濁離見所作；得陀羅尼趣入
 <lb n="0726c12" ed="T"/>妙智，於處非處具正解行，因理趣門教授教
 <lb n="0726c13" ed="T"/>誡，能正修行隨順忍地，遠離不忍安立智地，
-<lb ed="T" n="0726c14"/>永斷無知安立妙智，瑜<anchor xml:id="beg_5" type="cb-app"/>伽<anchor xml:id="end_5"/>師地菩薩所行，達
+<lb ed="T" n="0726c14"/>永斷無知安立妙智，瑜<anchor xml:id="nkr_note_add_0726c1401" n="0726c1401"/><anchor xml:id="beg0726c1401" n="0726c1401"/>伽<anchor xml:id="end0726c1401"/>師地菩薩所行，達
 <lb ed="T" n="0726c15"/>一切法自性妙智，焚盪其心不生不續，無滯
 <lb n="0726c16" ed="T"/>著智不運重擔；如來妙智療治貪欲，除去瞋
-<lb ed="T" n="0726c17"/>恚永斷愚癡，和合正理遠離非理，<anchor xml:id="nkr_note_orig_0726005" n="0726005"/><anchor xml:id="beg0726005" n="0726005"/>悕<anchor xml:id="end0726005"/>欲善
-<lb ed="T" n="0726c18"/>法行勝意樂，親近<anchor xml:id="nkr_note_orig_0726006" n="0726006"/><anchor xml:id="beg0726006" n="0726006"/>覺<anchor xml:id="end0726006"/>悟，不捨於斷防護白法，
+<lb ed="T" n="0726c17"/>恚永斷愚癡，和合正理遠離非理，<anchor xml:id="nkr_note_orig_0726005" n="0726005"/><anchor xml:id="nkr_note_mod_0726005" n="0726005"/><anchor xml:id="beg0726005" n="0726005"/>悕<anchor xml:id="end0726005"/>欲善
+<lb ed="T" n="0726c18"/>法行勝意樂，親近<anchor xml:id="nkr_note_orig_0726006" n="0726006"/><anchor xml:id="nkr_note_mod_0726006" n="0726006"/><anchor xml:id="beg0726006" n="0726006"/>覺<anchor xml:id="end0726006"/>悟，不捨於斷防護白法，
 <lb ed="T" n="0726c19"/>善根上首方便善巧；永斷諸相移轉諸想，引
 <lb ed="T" n="0726c20"/>發契經善毘奈耶，於諦決擇趣證解脫，言辭
 <lb ed="T" n="0726c21"/>定一緣不能引，生起如實若<anchor xml:id="nkr_note_orig_0726007" n="0726007"/><anchor xml:id="nkr_note_mod_0726007" n="0726007"/><anchor xml:id="beg0726007" n="0726007"/>智<anchor xml:id="end0726007"/>若見，樂求多
@@ -528,7 +528,7 @@ Added comment  for Emacs
 <lb ed="T" n="0727a23"/>於其一一有名無名諸宿住事能隨念智，能
 <lb ed="T" n="0727a24"/>正觀察遍行行智，漏盡永斷得證時智。無礙
 <lb ed="T" n="0727a25"/>天眼普正觀察，現一切色神通遊戲，於色非
-<lb n="0727a26" ed="T"/>色平等入智。了達種種言音<anchor xml:id="nkr_note_orig_0727003" n="0727003"/><anchor xml:id="beg0727003" n="0727003"/>支<anchor xml:id="end0727003"/>分，能隨悟
+<lb n="0727a26" ed="T"/>色平等入智。了達種種言音<anchor xml:id="nkr_note_orig_0727003" n="0727003"/><anchor xml:id="nkr_note_mod_0727003" n="0727003"/><anchor xml:id="beg0727003" n="0727003"/>支<anchor xml:id="end0727003"/>分，能隨悟
 <lb ed="T" n="0727a27"/>入陀羅尼智，一切色像、谷響、音聲。平等性智
 <lb ed="T" n="0727a28"/>隨其所應宣說正法，一切有情善說歡喜根
 <lb n="0727a29" ed="T"/>迴轉智，觀時非時入實際智。凡所說法終不
@@ -543,24 +543,24 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0723001" to="#end0723001"><lem wit="#wit1">大</lem><rdg wit="#wit2 #wit3 #wit4" resp="#resp1"><space quantity="0"/></rdg></app>
-<app from="#beg_1" to="#end_1"><lem wit="#wit5 #wit6" resp="#resp2">峯<note type="cf1">K13n0482_p1286a04</note></lem><rdg wit="#wit1">峰</rdg></app>
+<app from="#beg0723a2201" to="#end0723a2201"><lem wit="#wit5 #wit6" resp="#resp3">峯<note type="cf1">K13n0482_p1286a04</note></lem><rdg wit="#wit1">峰</rdg></app>
 <app from="#beg0723002" to="#end0723002"><lem wit="#wit1">雷音</lem><rdg wit="#wit4" resp="#resp1">雷者</rdg></app>
 <app from="#beg0723003" to="#end0723003"><lem wit="#wit1">淨光</lem><rdg resp="#resp1" wit="#wit4">靜光</rdg></app>
 <app from="#beg0724001" to="#end0724001"><lem wit="#wit1">加</lem><rdg resp="#resp1" wit="#wit2 #wit4">跏</rdg></app>
 <app from="#beg0724002" to="#end0724002"><lem wit="#wit1">成就</lem><rdg resp="#resp1" wit="#wit2 #wit7 #wit3 #wit4">成熟</rdg></app>
 <app from="#beg0724003" to="#end0724003"><lem wit="#wit1">任</lem><rdg wit="#wit2 #wit7 #wit3 #wit4" resp="#resp1">住</rdg></app>
-<app from="#beg_2" to="#end_2"><lem wit="#wit5 #wit6" resp="#resp2">皆<note type="cf1">K13n0482_p1288a08</note></lem><rdg wit="#wit1">智</rdg></app>
+<app from="#beg0724b2301" to="#end0724b2301"><lem wit="#wit5 #wit6" resp="#resp3">皆<note type="cf1">K13n0482_p1288a08</note></lem><rdg wit="#wit1">智</rdg></app>
 <app from="#beg0724004" to="#end0724004"><lem wit="#wit1">於</lem><rdg wit="#wit4" resp="#resp1">無</rdg></app>
 <app from="#beg0724005" to="#end0724005"><lem wit="#wit1">寶<lb ed="T" n="0724c25"/>鑛</lem><rdg resp="#resp1" wit="#wit4">寶<g ref="#CB02063">䤵</g></rdg></app>
 <app from="#beg0725001" to="#end0725001"><lem wit="#wit1">不</lem><rdg wit="#wit2 #wit7 #wit3 #wit4" resp="#resp1">不可</rdg></app>
 <app from="#beg0725002" to="#end0725002"><lem wit="#wit1">側</lem><rdg resp="#resp1" wit="#wit7 #wit3"><g ref="#CB03203">𡍫</g></rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>忘</corr><sic>妄</sic></choice>
+<app from="#beg0725c0901" to="#end0725c0901"><lem wit="#wit5" resp="#resp2">忘</lem><rdg wit="#wit1">妄</rdg></app>
 <app from="#beg0726001" to="#end0726001"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit2 #wit7 #wit3 #wit4">受</rdg></app>
 <app from="#beg0726002" to="#end0726002"><lem wit="#wit1">蹙</lem><rdg wit="#wit2 #wit7 #wit3 #wit4" resp="#resp1">慼</rdg></app>
 <app from="#beg0726003" to="#end0726003"><lem wit="#wit1">損</lem><rdg resp="#resp1" wit="#wit2 #wit7 #wit3 #wit4">捐</rdg></app>
 <app from="#beg0726004" to="#end0726004"><lem wit="#wit1">辦</lem><rdg resp="#resp1" wit="#wit4">辯</rdg></app>
-<app from="#beg_4" to="#end_4" corresp="#0726004"><lem wit="#wit1">辦</lem><rdg wit="#wit4" resp="#resp1">辯</rdg></app>
-<app from="#beg_5" to="#end_5"><lem resp="#resp2" wit="#wit5 #wit6">伽<note type="cf1">K13n0482_p1291b01</note></lem><rdg wit="#wit1">加</rdg></app>
+<app from="#beg_1" to="#end_1" corresp="#0726004"><lem wit="#wit1">辦</lem><rdg wit="#wit4" resp="#resp1">辯</rdg></app>
+<app from="#beg0726c1401" to="#end0726c1401"><lem resp="#resp3" wit="#wit5 #wit6">伽<note type="cf1">K13n0482_p1291b01</note></lem><rdg wit="#wit1">加</rdg></app>
 <app from="#beg0726005" to="#end0726005"><lem wit="#wit1">悕</lem><rdg resp="#resp1" wit="#wit4">怖</rdg></app>
 <app from="#beg0726006" to="#end0726006"><lem wit="#wit1">覺</lem><rdg wit="#wit2 #wit4" resp="#resp1">悎</rdg></app>
 <app from="#beg0726007" to="#end0726007"><lem wit="#wit1">智</lem><rdg wit="#wit2 #wit7 #wit3 #wit4" resp="#resp1">知</rdg></app>
@@ -572,15 +572,26 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0724002" type="mod" resp="#resp3" target="#nkr_note_mod_0724002">成就＝成熟【宋】【元】【明】【宮】</note>
-<note type="mod" resp="#resp3" n="0724003" target="#nkr_note_mod_0724003">任＝住【宋】【元】【明】【宮】</note>
-<note n="0725001" resp="#resp3" type="mod" target="#nkr_note_mod_0725001">不＋（可）【宋】【元】【明】【宮】</note>
-<note type="mod" resp="#resp3" n="0726001" target="#nkr_note_mod_0726001">愛＝受【宋】【元】【明】【宮】</note>
-<note resp="#resp3" type="mod" n="0726002" target="#nkr_note_mod_0726002">蹙＝慼【宋】【元】【明】【宮】</note>
-<note n="0726003" resp="#resp3" type="mod" target="#nkr_note_mod_0726003">損＝捐【宋】【元】【明】【宮】</note>
-<note n="0726007" type="mod" resp="#resp3" target="#nkr_note_mod_0726007">智＝知【宋】【元】【明】【宮】</note>
-<note n="0727001" resp="#resp3" type="mod" target="#nkr_note_mod_0727001">端直＝端嚴【宋】【元】【明】【宮】</note>
-<note n="0727002" resp="#resp3" type="mod" target="#nkr_note_mod_0727002">辯＝辦【宋】【元】【明】【宮】</note>
+<note n="0723001" resp="#resp2" type="mod" target="#nkr_note_mod_0723001">大【大】，〔－〕【宋】【明】【宮】</note>
+<note resp="#resp2" type="mod" n="0723002" target="#nkr_note_mod_0723002">雷音【大】，雷者【宮】</note>
+<note type="mod" resp="#resp2" n="0723003" target="#nkr_note_mod_0723003">淨光【大】，靜光【宮】</note>
+<note resp="#resp2" type="mod" n="0724001" target="#nkr_note_mod_0724001">加【大】，跏【宋】【宮】</note>
+<note n="0724002" type="mod" resp="#resp2" target="#nkr_note_mod_0724002">成就【大】，成熟【宋】【元】【明】【宮】</note>
+<note type="mod" resp="#resp2" n="0724003" target="#nkr_note_mod_0724003">任【大】，住【宋】【元】【明】【宮】</note>
+<note n="0724004" resp="#resp2" type="mod" target="#nkr_note_mod_0724004">於【大】，無【宮】</note>
+<note n="0724005" type="mod" resp="#resp2" target="#nkr_note_mod_0724005">寶鑛【大】，寶<g ref="#CB02063">䤵</g>【宮】</note>
+<note n="0725001" resp="#resp2" type="mod" target="#nkr_note_mod_0725001">不【大】，不可【宋】【元】【明】【宮】</note>
+<note n="0725002" resp="#resp2" type="mod" target="#nkr_note_mod_0725002">側【大】，<g ref="#CB03203">𡍫</g>【元】【明】</note>
+<note type="mod" resp="#resp2" n="0726001" target="#nkr_note_mod_0726001">愛【大】，受【宋】【元】【明】【宮】</note>
+<note resp="#resp2" type="mod" n="0726002" target="#nkr_note_mod_0726002">蹙【大】，慼【宋】【元】【明】【宮】</note>
+<note n="0726003" resp="#resp2" type="mod" target="#nkr_note_mod_0726003">損【大】，捐【宋】【元】【明】【宮】</note>
+<note n="0726004" type="mod" resp="#resp2" target="#nkr_note_mod_0726004">辦【大】＊，辯【宮】＊</note>
+<note n="0726005" type="mod" resp="#resp2" target="#nkr_note_mod_0726005">悕【大】，怖【宮】</note>
+<note resp="#resp2" type="mod" n="0726006" target="#nkr_note_mod_0726006">覺【大】，悎【宋】【宮】</note>
+<note n="0726007" type="mod" resp="#resp2" target="#nkr_note_mod_0726007">智【大】，知【宋】【元】【明】【宮】</note>
+<note n="0727001" resp="#resp2" type="mod" target="#nkr_note_mod_0727001">端直【大】，端嚴【宋】【元】【明】【宮】</note>
+<note n="0727002" resp="#resp2" type="mod" target="#nkr_note_mod_0727002">辯【大】，辦【宋】【元】【明】【宮】</note>
+<note type="mod" resp="#resp2" n="0727003" target="#nkr_note_mod_0727003">支【大】，枝【宋】【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -606,6 +617,15 @@ Added comment  for Emacs
 <note place="foot text" n="0727001" type="orig" resp="#resp1" target="#nkr_note_orig_0727001">端直＝端嚴【三】【宮】</note>
 <note n="0727002" place="foot text" resp="#resp1" type="orig" target="#nkr_note_orig_0727002">辯＝辦【三】【宮】</note>
 <note type="orig" resp="#resp1" place="foot text" n="0727003" target="#nkr_note_orig_0727003">支＝枝【宋】【宮】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0723a2201" resp="#resp2" type="add" target="#nkr_note_add_0723a2201">峯【CB】【麗-CB】，峰【大】</note>
+<note n="0724b2301" resp="#resp2" type="add" target="#nkr_note_add_0724b2301">皆【CB】【麗-CB】，智【大】</note>
+<note n="0725c0901" resp="#resp2" type="add" target="#nkr_note_add_0725c0901">忘【CB】，妄【大】</note>
+<note n="0726c1401" resp="#resp2" type="add" target="#nkr_note_add_0726c1401">伽【CB】【麗-CB】，加【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

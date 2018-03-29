@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2009/04/22 08:53:44 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 24, No. 463</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -73,7 +78,7 @@ basicx 程式 轉自 簡單標記版
 <pb ed="X" xml:id="X24.0463.0598a" n="0598a"/>
 <lb ed="X" n="0598a01"/>
 <milestone unit="juan" n="1"/><cb:docNumber>No. 463</cb:docNumber>
-<lb ed="X" n="0598a02"/><lb ed="R092" n="0165a01"/><cb:juan fun="open" n="1"><cb:mulu type="卷" n="1"></cb:mulu><cb:jhead>金剛般若經<anchor xml:id="beg_1" type="cb-app"/>采<anchor xml:id="end_1"/>微科</cb:jhead></cb:juan>
+<lb ed="X" n="0598a02"/><lb ed="R092" n="0165a01"/><cb:juan fun="open" n="1"><cb:mulu type="卷" n="1"></cb:mulu><cb:jhead>金剛般若經<anchor xml:id="nkr_note_add_0598a0201" n="0598a0201"/><anchor xml:id="beg0598a0201" n="0598a0201"/>采<anchor xml:id="end0598a0201"/>微科</cb:jhead></cb:juan>
 <lb ed="X" n="0598a03"/><lb ed="R092" n="0165a01"/>
 <lb ed="X" n="0598a04"/><lb ed="R092" n="0165a01"/><cb:div><list><item xml:id="itemX24p0598a0401">釋金剛般若波羅蜜經分<note place="inline">二</note>
 <lb ed="X" n="0598a05"/><lb ed="R092" n="0165a01"/><list><item xml:id="itemX24p0598a0501">初釋題<note place="inline">二</note>
@@ -132,7 +137,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0599a03"/><lb ed="R092" n="0166a01"/><list><item xml:id="itemX24p0599a0301">初言說法身<note place="inline">二</note>
 <lb ed="X" n="0599a04"/><lb ed="R092" n="0166a01"/><list><item xml:id="itemX24p0599a0401">初問</item>
 <lb ed="X" n="0599a05"/><lb ed="R092" n="0166a01"/><item xml:id="itemX24p0599a0501">二答<note place="inline">五</note>
-<lb ed="X" n="0599a06"/><lb ed="R092" n="0166a01"/><list><item xml:id="itemX24p0599a0601">初<anchor xml:id="beg_2" type="cb-app"/>顯<anchor xml:id="end_2"/>示修行</item>
+<lb ed="X" n="0599a06"/><lb ed="R092" n="0166a01"/><list><item xml:id="itemX24p0599a0601">初<anchor xml:id="nkr_note_add_0599a0601" n="0599a0601"/><anchor xml:id="beg0599a0601" n="0599a0601"/>顯<anchor xml:id="end0599a0601"/>示修行</item>
 <lb ed="X" n="0599a07"/><lb ed="R092" n="0166a01"/><item xml:id="itemX24p0599a0701">二顯示集因</item>
 <lb ed="X" n="0599a08"/><lb ed="R092" n="0166a01"/><item xml:id="itemX24p0599a0801">三顯示善友所攝</item>
 <lb ed="X" n="0599a09"/><lb ed="R092" n="0166a01"/><item xml:id="itemX24p0599a0901">四顯示福德相應</item>
@@ -386,15 +391,23 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0603a05"/><lb ed="R092" n="0170a01"/><item xml:id="itemX24p0603a0501">二流轉無染</item></list></item>
 <lb ed="X" n="0603a06"/><lb ed="R092" n="0170a01"/><item xml:id="itemX24p0603a0601">二四眾奉行</item></list></item></list>
 <lb ed="X" n="0603a07"/><lb ed="R092" n="0170a01"/>
-<lb ed="X" n="0603a08"/><lb ed="R092" n="0170a01"/><cb:juan fun="close" n="1"><cb:jhead>金剛般若經<anchor xml:id="beg_3" type="cb-app"/>采<anchor xml:id="end_3"/>微科<note place="inline">終</note></cb:jhead></cb:juan></cb:div>
+<lb ed="X" n="0603a08"/><lb ed="R092" n="0170a01"/><cb:juan fun="close" n="1"><cb:jhead>金剛般若經<anchor xml:id="nkr_note_add_0603a0801" n="0603a0801"/><anchor xml:id="beg0603a0801" n="0603a0801"/>采<anchor xml:id="end0603a0801"/>微科<note place="inline">終</note></cb:jhead></cb:juan></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>采</corr><sic>釆</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>顯</corr><sic>顧</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>采</corr><sic>釆</sic></choice>
+<app from="#beg0598a0201" to="#end0598a0201"><lem wit="#wit1" resp="#resp2">采</lem><rdg wit="#wit2">釆</rdg></app>
+<app from="#beg0599a0601" to="#end0599a0601"><lem wit="#wit1" resp="#resp2">顯</lem><rdg wit="#wit2">顧</rdg></app>
+<app from="#beg0603a0801" to="#end0603a0801"><lem wit="#wit1" resp="#resp2">采</lem><rdg wit="#wit2">釆</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0598a0201" resp="#resp1" type="add" target="#nkr_note_add_0598a0201">采【CB】，釆【卍續】</note>
+<note n="0599a0601" resp="#resp1" type="add" target="#nkr_note_add_0599a0601">顯【CB】，顧【卍續】</note>
+<note n="0603a0801" resp="#resp1" type="add" target="#nkr_note_add_0603a0801">采【CB】，釆【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

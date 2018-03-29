@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2010/10/12 10:07:54 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Fangshan shijing Vol. 27, No. 1056</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【房山】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -247,9 +252,9 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="F" xml:id="F27.1056.0430a" n="0430a"/>
 <lb ed="F" n="0430a01"/><milestone unit="juan" n="1"/><cb:mulu type="卷" n="1"></cb:mulu><cb:juan fun="open" n="1"><cb:jhead>梵本般若波羅蜜多心經　　　　　感</cb:jhead></cb:juan>
 <lb ed="F" n="0430a02"/><byline cb:type="translator">唐開元三朝灌頂國師和尚特進試鴻臚卿開府儀同三司肅國公食邑三千戶實封三伯戶贈司空
-<lb ed="F" n="0430a03"/><anchor xml:id="beg_1" type="cb-app"/>諡<anchor xml:id="end_1"/>辯正大廣智大興善寺三藏沙門　不空奉　詔譯</byline>
+<lb ed="F" n="0430a03"/><anchor xml:id="nkr_note_add_0430a0301" n="0430a0301"/><anchor xml:id="beg0430a0301" n="0430a0301"/>諡<anchor xml:id="end0430a0301"/>辯正大廣智大興善寺三藏沙門　不空奉　詔譯</byline>
 <lb ed="F" n="0430a04"/><cb:div type="dharani"><p cb:type="dharani" xml:id="pF27p0430a0401">鉢囉<note place="inline">二合</note>枳孃<note place="inline">二合</note>播囉弭跢<note place="inline">上</note><g ref="#CB03314">𠶹</g><g ref="#CB00069">㗚</g><note place="inline">二合</note>乃野素
-<lb ed="F" n="0430a05"/>怛囕<note place="inline">二合</note><note place="inline"><anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>上經題</note></p>
+<lb ed="F" n="0430a05"/>怛囕<note place="inline">二合</note><note place="inline"><anchor xml:id="nkr_note_add_0430a0501" n="0430a0501"/><anchor xml:id="beg0430a0501" n="0430a0501"/>已<anchor xml:id="end0430a0501"/>上經題</note></p>
 <lb ed="F" n="0430a06"/><p cb:type="dharani" xml:id="pF27p0430a0601">阿<note place="inline">上</note>哩也<note place="inline">二合</note>嚩路枳帝濕嚩<note place="inline">二合</note>嚕<g ref="#CB00155">󰂛</g>地<g ref="#CB16765">󴅽</g>怛舞
 <lb ed="F" n="0430a07"/><note place="inline">二合</note><note place="inline">一</note>　儼鼻<g ref="#CB00771">㘕</g>鉢囉<note place="inline">二合</note>枳孃<note place="inline">二合</note>播囉弭跢<note place="inline">上</note>左
 <lb ed="F" n="0430a08"/>哩演<note place="inline">二合</note>左囉麼喃弭也<note place="inline">二合</note><note place="inline">二</note>　嚩路迦野底<note place="inline">丁一反</note>
@@ -305,8 +310,15 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>諡</corr><sic>謚</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0430a0301" to="#end0430a0301"><lem wit="#wit1" resp="#resp2">諡</lem><rdg wit="#wit2">謚</rdg></app>
+<app from="#beg0430a0501" to="#end0430a0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0430a0301" resp="#resp1" type="add" target="#nkr_note_add_0430a0301">諡【CB】，謚【房山】</note>
+<note n="0430a0501" resp="#resp1" type="add" target="#nkr_note_add_0430a0501">已【CB】，巳【房山】</note>
 </p>
 </cb:div>
 </back></text></TEI>

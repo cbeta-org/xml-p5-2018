@@ -31,7 +31,11 @@
         </publicationStmt>
         <sourceDesc>
                 <bibl>Taishō Tripiṭaka Vol. 14, No. 492a</bibl>
-        </sourceDesc>
+        <listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
+	</sourceDesc>
 </fileDesc>
 <encodingDesc>
         <projectDesc>
@@ -266,7 +270,7 @@ Added comment  for Emacs
 <lb n="0754a29" ed="T"/><l>死入無擇獄，</l><l>頭上戴鐵輪。</l>
 <pb n="0754b" ed="T" xml:id="T14.0492a.0754b"/>
 <lb n="0754b01" ed="T"/><l>求死不得死，</l><l>須臾已變形，</l>
-<lb n="0754b02" ed="T"/><l>矛戟相貫<anchor xml:id="beg_1" type="cb-app"/>刺<anchor xml:id="end_1"/>，</l><l>軀體相殘截。</l>
+<lb n="0754b02" ed="T"/><l>矛戟相貫<anchor xml:id="nkr_note_add_0754b0201" n="0754b0201"/><anchor xml:id="beg0754b0201" n="0754b0201"/>刺<anchor xml:id="end0754b0201"/>，</l><l>軀體相殘截。</l>
 <lb n="0754b03" ed="T"/><l>曚曚不達事，</l><l>惡惡相牽拘，</l>
 <lb n="0754b04" ed="T"/><l>展轉眾徒趣，</l><l>禽獸六畜形，</l>
 <lb n="0754b05" ed="T"/><l>為人所屠割，</l><l>以肉償宿怨，</l>
@@ -295,19 +299,25 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>刺</corr><sic>剌</sic></choice>
+<app from="#beg0754b0201" to="#end0754b0201"><lem wit="#wit1" resp="#resp2">刺</lem><rdg wit="#wit2">剌</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0753001" resp="#resp2" type="mod" target="#nkr_note_mod_0753001">此經與【宋】【元】【明】【宮】大異，今以【明】對校，【宋】【元】【宮】別附卷末。cf. p. 754</note>
+<note n="0753001" resp="#resp2" type="mod" target="#nkr_note_mod_0753001"><!--CBETA todo type: newmod-->此經與【宋】【元】【明】【宮】大異，今以【明】對校，【宋】【元】【宮】別附卷末。cf. p. 754</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0753001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0753001">此經與【三】【宮】大異，今以【明】對校，【宋】【元】【宮】別附卷末。cf. p. 754</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0754b0201" resp="#resp2" type="add" target="#nkr_note_add_0754b0201">刺【CB】，剌【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

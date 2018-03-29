@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2858</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -801,7 +805,7 @@ Added comment  for Emacs
 <lb n="1313b25" ed="T"/><l>慳貪去得將心貪</l><l>只應過有餘殃</l>
 <lb n="1313b26" ed="T"/><l>阿師是孃孃孝順子</l><l>與我冷水濟虛腸</l></lg>
 <lb n="1313b27" ed="T"/><p xml:id="pT85p1313b2701">目連聞阿孃索水氣咽聲嘶。思寸中間忽憶
-<lb n="1313b28" ed="T"/>王舍城南有大水。闊浪無邊名曰<anchor xml:id="beg_1" type="cb-app"/>恒<anchor xml:id="end_1"/>河之水。
+<lb n="1313b28" ed="T"/>王舍城南有大水。闊浪無邊名曰<anchor xml:id="nkr_note_add_1313b2801" n="1313b2801"/><anchor xml:id="beg1313b2801" n="1313b2801"/>恒<anchor xml:id="end1313b2801"/>河之水。
 <lb n="1313b29" ed="T"/>亦應救得阿孃火難之苦。南閻浮提眾生見
 <pb n="1313c" xml:id="T85.2858.1313c" ed="T"/>
 <lb n="1313c01" ed="T"/>水即是清涼冷水。諸天見水即是瑠璃寶池。
@@ -868,13 +872,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>恒<note type="cf1">T49n2035_p0144c09</note></corr><sic>洹</sic></choice>
+<app from="#beg1313b2801" to="#end1313b2801"><lem wit="#wit1" resp="#resp2">恒<note type="cf1">T49n2035_p0144c09</note></lem><rdg wit="#wit2">洹</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1307001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1307001">【原】大英博物館藏燉煌本, S.2614</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1313b2801" resp="#resp2" type="add" target="#nkr_note_add_1313b2801">恒【CB】，洹【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

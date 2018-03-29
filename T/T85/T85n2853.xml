@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2853</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -165,7 +169,7 @@ Added comment  for Emacs
 <lb n="1301b11" ed="T"/>所見聞俱蒙勝益。此會事也時我□□□□
 <lb n="1301b12" ed="T"/>爰及教授闍梨為勸道之主也。將使真風廣
 <lb n="1301b13" ed="T"/>扇佛日重明□□□謝之端土庶展聽聞之
-<lb n="1301b14" ed="T"/>福。于時開寶地竪金<anchor xml:id="beg_1" type="cb-app"/>幢<anchor xml:id="end_1"/>。香煙與瑞□□□□
+<lb n="1301b14" ed="T"/>福。于時開寶地竪金<anchor xml:id="nkr_note_add_1301b1401" n="1301b1401"/><anchor xml:id="beg1301b1401" n="1301b1401"/>幢<anchor xml:id="end1301b1401"/>。香煙與瑞□□□□
 <lb n="1301b15" ed="T"/>清梵共笙歌而合響籌稱解脫頂戴受持戒號
 <lb n="1301b16" ed="T"/>防非深□□□菩提藏種霑甘露。以抽芳覺
 <lb n="1301b17" ed="T"/>樹祥花。結香園之味果。以斯一一□□□□
@@ -178,7 +182,7 @@ Added comment  for Emacs
 <lb n="1301b24" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">布薩文</cb:mulu><head>布薩文</head>
 <lb n="1301b25" ed="T"/><p xml:id="pT85p1301b2501">夫法王應現威振大千。法教興崇弘通是務。
 <lb n="1301b26" ed="T"/>況宣傳戒藏。每月二時精守不逾福資家國。
-<lb n="1301b27" ed="T"/>於是<anchor xml:id="beg_2" type="cb-app"/>幢<anchor xml:id="end_2"/>鍾召眾奏梵延僧。香騰五雲幡暉眾
+<lb n="1301b27" ed="T"/>於是<anchor xml:id="nkr_note_add_1301b2701" n="1301b2701"/><anchor xml:id="beg1301b2701" n="1301b2701"/>幢<anchor xml:id="end1301b2701"/>鍾召眾奏梵延僧。香騰五雲幡暉眾
 <lb n="1301b28" ed="T"/>綵。總斯多善無限良緣即用莊嚴。上界天仙
 <lb n="1301b29" ed="T"/>龍神八部。惟願威靈潛衛聖德冥加。使日月
 <pb n="1301c" xml:id="T85.2853.1301c" ed="T"/>
@@ -237,7 +241,7 @@ Added comment  for Emacs
 <lb n="1302a23" ed="T"/>相煥爛於四衢。銀毫暉舒於八極。隱隱振振
 <lb n="1302a24" ed="T"/>如旋白飯之城。巍巍峨峨似繞迦維之闕。尊
 <lb n="1302a25" ed="T"/>卑務集大小雲奔。笙歌競奏而啾留法曲。爭
-<lb n="1302a26" ed="T"/>陳而槽揆所冀百福被矣。千障雲<anchor xml:id="beg_3" type="cb-app"/>祛<anchor xml:id="end_3"/>覩勝相
+<lb n="1302a26" ed="T"/>陳而槽揆所冀百福被矣。千障雲<anchor xml:id="nkr_note_add_1302a2601" n="1302a2601"/><anchor xml:id="beg1302a2601" n="1302a2601"/>祛<anchor xml:id="end1302a2601"/>覩勝相
 <lb n="1302a27" ed="T"/>兮獲因。瞻妙色兮生福。總斯多善。莫限良緣。
 <lb n="1302a28" ed="T"/>先用莊嚴。釋梵四王龍天八部。唯願增威力
 <lb n="1302a29" ed="T"/>益神通。併妖氛驅疫癘。次持勝福奉用莊嚴。
@@ -350,9 +354,9 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>幢</corr><sic>憧</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>幢</corr><sic>憧</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>祛</corr><sic>袪</sic></choice>
+<app from="#beg1301b1401" to="#end1301b1401"><lem wit="#wit1" resp="#resp2">幢</lem><rdg wit="#wit2">憧</rdg></app>
+<app from="#beg1301b2701" to="#end1301b2701"><lem wit="#wit1" resp="#resp2">幢</lem><rdg wit="#wit2">憧</rdg></app>
+<app from="#beg1302a2601" to="#end1302a2601"><lem wit="#wit1" resp="#resp2">祛</lem><rdg wit="#wit2">袪</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -360,6 +364,14 @@ Added comment  for Emacs
 <p>
 <note n="1301002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1301002">大英博物館藏燉煌本, S. 2146</note>
 <note n="1301003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1301003">首缺</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1301b1401" resp="#resp2" type="add" target="#nkr_note_add_1301b1401">幢【CB】，憧【大】</note>
+<note n="1301b2701" resp="#resp2" type="add" target="#nkr_note_add_1301b2701">幢【CB】，憧【大】</note>
+<note n="1302a2601" resp="#resp2" type="add" target="#nkr_note_add_1302a2601">祛【CB】，袪【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

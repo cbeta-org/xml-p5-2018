@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:01:23 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 20, No. 1189</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -631,7 +636,7 @@ Added comment  for Emacs
 <lb n="0825a21" ed="T"/><p xml:id="pT20p0825a2101">已上第四輪功德計一十九頌句。</p>
 <lb n="0825a22" ed="T"/><p xml:id="pT20p0825a2201">金剛手執金剛菩薩摩訶薩。若有於此最勝
 <lb n="0825a23" ed="T"/>名義如佛頂髻大摩尼寶。每日三時精進無
-<lb n="0825a24" ed="T"/>懈。專一受持書<anchor xml:id="beg_1" type="cb-app"/>寫<anchor xml:id="end_1"/>讀誦正念思惟。文殊菩薩
+<lb n="0825a24" ed="T"/>懈。專一受持書<anchor xml:id="nkr_note_add_0825a2401" n="0825a2401"/><anchor xml:id="beg0825a2401" n="0825a2401"/>寫<anchor xml:id="end0825a2401"/>讀誦正念思惟。文殊菩薩
 <lb n="0825a25" ed="T"/>摩訶薩智身色相具足。由是力故不久速見
 <lb n="0825a26" ed="T"/>菩薩化身。又復得見諸佛菩薩住虛空中化
 <lb n="0825a27" ed="T"/>現無量種種色身。此大有情永不復墮一切
@@ -639,7 +644,7 @@ Added comment  for Emacs
 <lb n="0825a29" ed="T"/>具。又復不生諸邪見家。亦不受生無佛剎土。
 <pb n="0825b" xml:id="T20.1189.0825b" ed="T"/>
 <lb n="0825b01" ed="T"/>生值佛國不捨正法。永不生於長壽天中。不
-<lb n="0825b02" ed="T"/>生<anchor xml:id="beg_2" type="cb-app"/>飢<anchor xml:id="end_2"/>饉鬪戰劫中。不生五濁惡世。生生世世
+<lb n="0825b02" ed="T"/>生<anchor xml:id="nkr_note_add_0825b0201" n="0825b0201"/><anchor xml:id="beg0825b0201" n="0825b0201"/>飢<anchor xml:id="end0825b0201"/>饉鬪戰劫中。不生五濁惡世。生生世世
 <lb n="0825b03" ed="T"/>遠離王難盜賊怨對。不生貧窮及困苦處。不
 <lb n="0825b04" ed="T"/>聞輕賤毀謗惡語。生生世世生賢善家尊貴
 <lb n="0825b05" ed="T"/>人中。圓滿色相端嚴具足。於世間中無不愛
@@ -709,14 +714,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>寫<note type="cf1">T20n1188_p0819b03</note></corr><sic>富</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>飢<note type="cf1">T16n0704_p0811c27</note><note type="cf2">T38n1771_p0267b13</note></corr><sic>軌</sic></choice>
+<app from="#beg0825a2401" to="#end0825a2401"><lem wit="#wit1" resp="#resp3">寫<note type="cf1">T20n1188_p0819b03</note></lem><rdg wit="#wit2">富</rdg></app>
+<app from="#beg0825b0201" to="#end0825b0201"><lem wit="#wit1" resp="#resp3">飢<note type="cf1">T16n0704_p0811c27</note><note type="cf2">T38n1771_p0267b13</note></lem><rdg wit="#wit2">軌</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0820001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0820001">【原】元本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0825a2401" resp="#resp2" type="add" target="#nkr_note_add_0825a2401">寫【CB】，富【大】</note>
+<note n="0825b0201" resp="#resp2" type="add" target="#nkr_note_add_0825b0201">飢【CB】，軌【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 46, No. 1948</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -275,7 +279,7 @@ Added comment  for Emacs
 <lb n="0967b21" ed="T"/>生向邪見家生。世世出空無佛世。何緣今日
 <lb n="0967b22" ed="T"/>偶得人身。效雪嶺出家。值天台遺教。但恨昏
 <lb n="0967b23" ed="T"/>雲久覆。見網交纏。千如權實法門。濫稱染
-<lb n="0967b24" ed="T"/>指十法成乘妙觀。未始經心。空有臨池<anchor xml:id="beg_1" type="cb-app"/>羨<anchor xml:id="end_1"/>魚。
+<lb n="0967b24" ed="T"/>指十法成乘妙觀。未始經心。空有臨池<anchor xml:id="nkr_note_add_0967b2401" n="0967b2401"/><anchor xml:id="beg0967b2401" n="0967b2401"/>羨<anchor xml:id="end0967b2401"/>魚。
 <lb n="0967b25" ed="T"/>不解歸家結網。癡猿未鎖。五塵之林裏長飛。
 <lb n="0967b26" ed="T"/>渴鹿當陽。六欲之澤中永騖。故使身圍法座。
 <lb n="0967b27" ed="T"/>心繞塵緣。八音之徒震雷霆。四辯之謾陳乳
@@ -322,13 +326,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>羨</corr><sic>羡</sic></choice>
+<app from="#beg0967b2401" to="#end0967b2401"><lem wit="#wit1" resp="#resp2">羨</lem><rdg wit="#wit2">羡</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0966001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0966001">【原】康熙六年刊增上寺報恩藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0967b2401" resp="#resp2" type="add" target="#nkr_note_add_0967b2401">羨【CB】，羡【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

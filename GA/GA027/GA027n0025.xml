@@ -13,8 +13,9 @@
 		</titleStmt>
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>DILA</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>DILA</name></respStmt>
 		</editionStmt>
 		<extent>7卷</extent>
 		<publicationStmt>
@@ -31,7 +32,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Zhongguo Fosi Shizhi Huikan Vol. 27, No. 25</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【志彙】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -553,7 +558,7 @@ $Log:$
 <pb ed="GA" xml:id="GA027.0025.0016a" n="0016a"/>
 <lb ed="GA" n="0016a01"/>之原本重加攟摭不漏不支成志六卷俾天下後世
 <lb ed="GA" n="0016a02"/>莫不望武林而思名剎瞻經幢而景蘇趙<reg>即</reg>或給孤
-<lb ed="GA" n="0016a03"/>園<anchor xml:id="beg_1" type="cb-app"/>圮<anchor xml:id="end_1"/>布金地廢而雲居聖水之名猶表表塵寰間也
+<lb ed="GA" n="0016a03"/>園<anchor xml:id="nkr_note_add_0016a0301" n="0016a0301"/><anchor xml:id="beg0016a0301" n="0016a0301"/>圮<anchor xml:id="end0016a0301"/>布金地廢而雲居聖水之名猶表表塵寰間也
 <lb ed="GA" n="0016a04"/>世之士大夫悠悠忽忽于郡邑之志乘漫不加意<reg>即</reg>
 <lb ed="GA" n="0016a05"/>其家世譜牒亦茫然烏有以視通淵實懿之用心顧
 <lb ed="GA" n="0016a06"/>何如耶余家居時雖于祖德宗功暨桑梓之耆舊粗
@@ -588,7 +593,7 @@ $Log:$
 <lb ed="GA" n="0019a02"/><p xml:id="pGA027p0019a0201">雲居寺志先師尊<reg>寂</reg>湛草創於前吾師通淵掇拾於
 <lb ed="GA" n="0019a03"/>後雍正己酉仁和邑侯荊門胡公罷官居寺甄綜而
 <lb ed="GA" n="0019a04"/>薈萃之遂成完書科分條貫可謂備矣顧三十年來
-<lb ed="GA" n="0019a05"/>佛舍僧寮金碧輝映於山水間者化為烟雲<anchor xml:id="beg_2" type="cb-app"/>圮<anchor xml:id="end_2"/>為瓦
+<lb ed="GA" n="0019a05"/>佛舍僧寮金碧輝映於山水間者化為烟雲<anchor xml:id="nkr_note_add_0019a0501" n="0019a0501"/><anchor xml:id="beg0019a0501" n="0019a0501"/>圮<anchor xml:id="end0019a0501"/>為瓦
 <lb ed="GA" n="0019a06"/>礫見于志者十存四三而已可勝慨哉夫志以傳信
 <lb ed="GA" n="0019a07"/>倘不重為釐正一切仍舊則名存實亡將使覽者按
 <lb ed="GA" n="0019a08"/>圖索駿視為誕虛不且貽四方之誚乎懿因不揣譾
@@ -863,7 +868,7 @@ $Log:$
 <lb ed="GA" n="0046a03"/><cb:div type="other"><cb:mulu type="其他" level="2">東麓外房</cb:mulu><head>東麓外房</head><cb:div type="other"><cb:mulu type="其他" level="3">概述</cb:mulu><p xml:id="pGA027p0046a0305" rend="inline">守泉兼禪師用彰禪師之孫</p></cb:div>
 <lb ed="GA" n="0046a04"/><cb:div type="other"><cb:mulu type="其他" level="3">外麓山門聯</cb:mulu><head>外麓山門聯</head><lg xml:id="lgGA027p0046a0406" type="abnormal" cb:place="inline"><l rend="text-indent:0em">蓮社臨湖　三竺月波浮檻白</l><l rend="text-indent:1em">松關拱堞　六橋烟翠疊堦青</l></lg></cb:div>
 <lb ed="GA" n="0046a05"/><cb:div type="other"><cb:mulu type="其他" level="3">天醫院聯</cb:mulu><head>天醫院聯</head><lg xml:id="lgGA027p0046a0505" type="abnormal" cb:place="inline"><l rend="text-indent:0em">橘井泉香　大地無心融聖水</l><l rend="text-indent:1em">杏林花綻　陽春有腳遍吳山</l></lg><p xml:id="pGA027p0046a0527" rend="margin-left:2em;inline">俱實懿自題</p></cb:div>
-<lb ed="GA" n="0046a06"/><cb:div type="other"><cb:mulu type="其他" level="3">芝桂堂額聯</cb:mulu><head>芝桂堂額<anchor xml:id="beg_3" type="cb-app"/>聯<anchor xml:id="end_3"/></head><byline cb:type="author">趙蒼<anchor xml:id="beg_4" type="cb-app"/>璧<anchor xml:id="end_4"/>書</byline><lg xml:id="lgGA027p0046a0611" type="abnormal" cb:place="inline"><l rend="text-indent:0em">仁術通禪理</l><l rend="text-indent:1em">祗園<reg>即</reg>杏林</l></lg></cb:div></cb:div>
+<lb ed="GA" n="0046a06"/><cb:div type="other"><cb:mulu type="其他" level="3">芝桂堂額聯</cb:mulu><head>芝桂堂額<anchor xml:id="nkr_note_add_0046a0601" n="0046a0601"/><anchor xml:id="beg0046a0601" n="0046a0601"/>聯<anchor xml:id="end0046a0601"/></head><byline cb:type="author">趙蒼<anchor xml:id="nkr_note_add_0046a0602" n="0046a0602"/><anchor xml:id="beg0046a0602" n="0046a0602"/>璧<anchor xml:id="end0046a0602"/>書</byline><lg xml:id="lgGA027p0046a0611" type="abnormal" cb:place="inline"><l rend="text-indent:0em">仁術通禪理</l><l rend="text-indent:1em">祗園<reg>即</reg>杏林</l></lg></cb:div></cb:div>
 <lb ed="GA" n="0046a07"/><cb:div type="other"><cb:mulu type="其他" level="2">趺翠山樓</cb:mulu><head>趺翠山樓</head>
 <lb ed="GA" n="0046a08"/><cb:div type="other"><cb:mulu type="其他" level="3">清明日趺翠山樓同人訪風遠心學兩上人</cb:mulu><head>清明日趺翠山樓同人訪風遠心學兩上人</head><byline cb:type="author"><note place="inline">湘潭</note>陳
 <lb ed="GA" n="0046a09"/>鵬年<note place="inline">滄洲</note></byline><lg xml:id="lgGA027p0046a0905" type="abnormal" cb:place="inline"><l rend="text-indent:0em">紺宇吳山山背開　重湖鏡裏見蓮臺</l><l rend="text-indent:1em">六朝僧向雲中老　三笑人從雨後來</l><l rend="text-indent:1em">丈室
@@ -947,7 +952,7 @@ $Log:$
 <lb ed="GA" n="0053a10"/>比比皆是彼欲聚財帛廣田舍為子若孫計長久固宜若此其急也吾不解披緇衣脩白業之徒飄
 <pb ed="GA" xml:id="GA027.0025.0054a" n="0054a"/>
 <lb ed="GA" n="0054a01"/>然一身無世人之累然此心多營同於世人之罔覺或更甚焉豈亦有不得不然者在耶何明于佛
-<lb ed="GA" n="0054a02"/>氏之義者之鮮耶惟雲巢上人居雲居之山日以悟徹最上為事顧山之寮舍多傾<anchor xml:id="beg_5" type="cb-app"/>圮<anchor xml:id="end_5"/>無嚴淨之地
+<lb ed="GA" n="0054a02"/>氏之義者之鮮耶惟雲巢上人居雲居之山日以悟徹最上為事顧山之寮舍多傾<anchor xml:id="nkr_note_add_0054a0201" n="0054a0201"/><anchor xml:id="beg0054a0201" n="0054a0201"/>圮<anchor xml:id="end0054a0201"/>無嚴淨之地
 <lb ed="GA" n="0054a03"/>于是購材木運瓴甋度地之宜建樓三楹面西山之陽江光蕩其左湖影凝其右山月相對八窗晝
 <lb ed="GA" n="0054a04"/>白因額曰水明樓取杜陵四更山吐月殘夜水明樓之句其意實欲使此心皎然如月湛然如水絕
 <lb ed="GA" n="0054a05"/>去障翳空明洞徹覺悟上乘若師者庶幾不戾佛氏之旨有見於第一義哉人之登斯樓者能不泥
@@ -965,7 +970,7 @@ $Log:$
 <lb ed="GA" n="0055a06"/><cb:div type="other"><cb:mulu type="其他" level="3">雨霽登水明樓訪雲巢上人不值</cb:mulu><head>雨霽登水明樓訪雲巢上人不值</head><byline cb:type="author"><note place="inline">新安</note>汪聖揚<note place="inline">石儕</note></byline>
 <lb ed="GA" n="0055a07"/><lg xml:id="lgGA027p0055a0701" type="abnormal"><l rend="text-indent:0em">未識水明樓　取斯集中見</l><l rend="text-indent:1em">老樹繪陰森　遙峰寫蔥蒨</l><l rend="text-indent:1em">湖漾白千層　城圍青一線</l><l rend="text-indent:1em">禪榻作吟壇　茗椀供
 <lb ed="GA" n="0055a08"/>酣戰</l><l rend="text-indent:1em">恨我來何遲　不獲陪歡讌</l><l rend="text-indent:1em">久雨快初晴　軒窗開面面</l><l rend="text-indent:1em">登眺一憑闌　恍若披詩卷</l><l rend="text-indent:1em">藥香砭俗腸　爐
-<lb ed="GA" n="0055a09"/>烟妙清篆</l><l rend="text-indent:1em">餘生欲結緣　蓮社吾師羨</l><l rend="text-indent:1em">遠公出未歸　賦此以為<anchor xml:id="beg_6" type="cb-app"/>券<anchor xml:id="end_6"/></l></lg></cb:div>
+<lb ed="GA" n="0055a09"/>烟妙清篆</l><l rend="text-indent:1em">餘生欲結緣　蓮社吾師羨</l><l rend="text-indent:1em">遠公出未歸　賦此以為<anchor xml:id="nkr_note_add_0055a0901" n="0055a0901"/><anchor xml:id="beg0055a0901" n="0055a0901"/>券<anchor xml:id="end0055a0901"/></l></lg></cb:div>
 <lb ed="GA" n="0055a10"/><cb:div type="other"><cb:mulu type="其他" level="3">新霽同楊崑臺雲巢水明樓餞柳潔夫北上</cb:mulu><head>新霽同楊崑臺雲巢水明樓餞柳潔夫北上</head><byline cb:type="author">邵晉之
 <pb ed="GA" xml:id="GA027.0025.0056a" n="0056a"/>
 <lb ed="GA" n="0056a01"/><note place="inline">敘階</note></byline><lg xml:id="lgGA027p0056a0103" type="abnormal" cb:place="inline"><l rend="text-indent:0em">我家繡雲樓　日夕翠色浮蔚蓊</l><l rend="text-indent:1em">西南瞰視辨晴雨　最近一嶺森青楓</l><l rend="text-indent:1em">此間磴道迴轉處　知
@@ -1556,7 +1561,7 @@ $Log:$
 <lb ed="GA" n="0109a03"/><cb:div type="other"><cb:mulu type="其他" level="2">登雲居眺城南</cb:mulu><head>登雲居眺城南</head><byline cb:type="author"><note place="inline">會稽</note>徐渭<note place="inline">文長</note></byline><lg xml:id="lgGA027p0109a0313" type="abnormal" cb:place="inline"><l rend="text-indent:0em">夕照不曾殘　城頭月正圓</l><l rend="text-indent:1em">霞光翻鳥墮　江
 <lb ed="GA" n="0109a04"/>色上松寒</l><l rend="text-indent:1em">市客屠俱集　高空醉屢看</l><l rend="text-indent:1em">何妨高漸離　抱卻筑來彈</l></lg></cb:div>
 <lb ed="GA" n="0109a05"/><cb:div type="other"><cb:mulu type="其他" level="2">贈賓山上人</cb:mulu><head>贈賓山上人</head><byline cb:type="author">馬三才<note place="inline">松里</note></byline><lg xml:id="lgGA027p0109a0511" type="abnormal" cb:place="inline"><l rend="text-indent:0em">慧遠歸藏地　泉通靜惠林</l><l rend="text-indent:1em">一從傳鉢後　不盡築場心</l>
-<lb ed="GA" n="0109a06"/><l rend="text-indent:1em">藝圃開三昧　禪關破五陰</l><l rend="text-indent:1em">問年八十上　觀徧世<anchor xml:id="beg_7" type="cb-app"/>間<anchor xml:id="end_7"/>音</l></lg></cb:div>
+<lb ed="GA" n="0109a06"/><l rend="text-indent:1em">藝圃開三昧　禪關破五陰</l><l rend="text-indent:1em">問年八十上　觀徧世<anchor xml:id="nkr_note_add_0109a0601" n="0109a0601"/><anchor xml:id="beg0109a0601" n="0109a0601"/>間<anchor xml:id="end0109a0601"/>音</l></lg></cb:div>
 <lb ed="GA" n="0109a07"/><cb:div type="other"><cb:mulu type="其他" level="2">春日贈靜山上人</cb:mulu><head>春日贈靜山上人</head><byline cb:type="author">釋法聚<note place="inline">玉芝</note></byline><lg xml:id="lgGA027p0109a0713" type="abnormal" cb:place="inline"><l rend="text-indent:0em">巖居隨分得　已悟是還非</l><l rend="text-indent:1em">鳥聽談經下　雲
 <lb ed="GA" n="0109a08"/>隨乞食歸</l><l rend="text-indent:1em">病妨禪課減　夢驗世緣稀</l><l rend="text-indent:1em">別汝青春日　書成木葉飛</l></lg></cb:div>
 <lb ed="GA" n="0109a09"/><cb:div type="other"><cb:mulu type="其他" level="2">題山木堂</cb:mulu><head>題山木堂</head><byline cb:type="author">釋戒言<note place="inline">少林</note></byline><lg xml:id="lgGA027p0109a0910" type="abnormal" cb:place="inline"><l rend="text-indent:0em">文室西巖下　悠然興味長</l><l rend="text-indent:1em">開門落峰影　隱几映湖光</l><l rend="text-indent:1em">宿雨
@@ -1628,7 +1633,7 @@ $Log:$
 <lb ed="GA" n="0115a09"/><cb:div type="other"><cb:mulu type="其他" level="2">登雲居訪心學大師并誌乍歸復別之意</cb:mulu><head>登雲居訪心學大師并誌乍歸復別之意</head><byline cb:type="author">吳致一</byline><lg xml:id="lgGA027p0115a0920" type="abnormal" cb:place="inline"><l rend="text-indent:0em">江湖
 <lb ed="GA" n="0115a10"/>空老去　彈鋏暫歸來</l><l rend="text-indent:1em">禪榻依然近　香花特地開</l><l rend="text-indent:1em">路從雲外遶　山向座前迴</l><l rend="text-indent:1em">獨恨飢驅客　征帆已復誰</l></lg></cb:div>
 <pb ed="GA" xml:id="GA027.0025.0116a" n="0116a"/>
-<lb ed="GA" n="0116a01"/><cb:div type="other"><cb:mulu type="其他" level="2">過達方禪師園</cb:mulu><head>過達方禪師園</head><byline cb:type="author"><note place="inline">武林</note>趙蒼<anchor xml:id="beg_8" type="cb-app"/>璧<anchor xml:id="end_8"/><note place="inline">圜菴</note></byline><lg xml:id="lgGA027p0116a0115" type="abnormal" cb:place="inline"><l rend="text-indent:0em">雲樹為籬山作屏　月明荇藻橫中庭</l>
+<lb ed="GA" n="0116a01"/><cb:div type="other"><cb:mulu type="其他" level="2">過達方禪師園</cb:mulu><head>過達方禪師園</head><byline cb:type="author"><note place="inline">武林</note>趙蒼<anchor xml:id="nkr_note_add_0116a0101" n="0116a0101"/><anchor xml:id="beg0116a0101" n="0116a0101"/>璧<anchor xml:id="end0116a0101"/><note place="inline">圜菴</note></byline><lg xml:id="lgGA027p0116a0115" type="abnormal" cb:place="inline"><l rend="text-indent:0em">雲樹為籬山作屏　月明荇藻橫中庭</l>
 <lb ed="GA" n="0116a02"/><l rend="text-indent:1em">禪心映徹澄波碧　詩骨高淩夕照青</l><l rend="text-indent:1em">靜處見聞皆妙諦　定中色相盡忘形</l><l rend="text-indent:1em">塵緣愧我猶羈絆　得步靈
 <lb ed="GA" n="0116a03"/>巖昧已醒</l></lg><lg xml:id="lgGA027p0116a0305" type="abnormal" cb:place="inline"><l rend="text-indent:0em">上人趺坐翠篁中　冷韻秋懷味頗同</l><l rend="text-indent:1em">澹泊趣能高石隱　瀟疎致欲類簑翁</l><l rend="text-indent:1em">茶爐聲沸燒
 <lb ed="GA" n="0116a04"/>桐葉　竹徑風敲喧草蟲</l><l rend="text-indent:1em">真意已從佳句得　知師覺後蘊皆空</l></lg><lg xml:id="lgGA027p0116a0424" type="abnormal" cb:place="inline"><l rend="text-indent:0em">悟入空來身亦餘　方知出世勝華居</l>
@@ -2537,7 +2542,7 @@ $Log:$
 <lb ed="GA" n="0198a05"/>　一切在心</l><l rend="text-indent:1em">我苟無心　蓮葉可乘</l></lg>
 <lb ed="GA" n="0198a06"/><p xml:id="pGA027p0198a0601" rend="margin-left:2em">中峰老人書於浮玉山精舍</p></cb:div>
 <lb ed="GA" n="0198a07"/><cb:div type="other"><cb:mulu type="其他" level="2">懷淨土詩</cb:mulu><head>懷淨土詩</head><byline cb:type="author">明本</byline>
-<lb ed="GA" n="0198a08"/><lg xml:id="lgGA027p0198a0801" type="abnormal"><l rend="text-indent:0em">東海一丸金彈子　流光日日射西林</l><l rend="text-indent:1em">世<anchor xml:id="beg_9" type="cb-app"/>間<anchor xml:id="end_9"/>多少奇男
+<lb ed="GA" n="0198a08"/><lg xml:id="lgGA027p0198a0801" type="abnormal"><l rend="text-indent:0em">東海一丸金彈子　流光日日射西林</l><l rend="text-indent:1em">世<anchor xml:id="nkr_note_add_0198a0801" n="0198a0801"/><anchor xml:id="beg0198a0801" n="0198a0801"/>間<anchor xml:id="end0198a0801"/>多少奇男
 <lb ed="GA" n="0198a09"/>子　誰向窗前惜寸陰</l></lg>
 <lb ed="GA" n="0198a10"/><lg xml:id="lgGA027p0198a1001" type="abnormal"><l rend="text-indent:0em">迷時無悟悟無迷　究竟迷時<reg>即</reg>悟時</l><l rend="text-indent:1em">迷悟兩頭俱拽
 <pb ed="GA" xml:id="GA027.0025.0199a" n="0199a"/>
@@ -2586,7 +2591,7 @@ $Log:$
 <lb ed="GA" n="0202a10"/><lg xml:id="lgGA027p0202a1001" type="abnormal"><l rend="text-indent:0em">誰知九日東籬菊　便是西方四色花</l><l rend="text-indent:1em">一箇髑髏乾得
 <pb ed="GA" xml:id="GA027.0025.0203a" n="0203a"/>
 <lb ed="GA" n="0203a01"/>盡　百千聞見自無差</l></lg>
-<lb ed="GA" n="0203a02"/><lg xml:id="lgGA027p0203a0201" type="abnormal"><l rend="text-indent:0em">人<anchor xml:id="beg_a" type="cb-app"/>間<anchor xml:id="end_a"/>十月盡開爐　深撥寒灰問有無</l><l rend="text-indent:1em">金色願王元是
+<lb ed="GA" n="0203a02"/><lg xml:id="lgGA027p0203a0201" type="abnormal"><l rend="text-indent:0em">人<anchor xml:id="nkr_note_add_0203a0201" n="0203a0201"/><anchor xml:id="beg0203a0201" n="0203a0201"/>間<anchor xml:id="end0203a0201"/>十月盡開爐　深撥寒灰問有無</l><l rend="text-indent:1em">金色願王元是
 <lb ed="GA" n="0203a03"/>火　能燒千劫愛河枯</l></lg>
 <lb ed="GA" n="0203a04"/><lg xml:id="lgGA027p0203a0401" type="abnormal"><l rend="text-indent:0em">羣陰剝盡一陽來　五葉心花當地開</l><l rend="text-indent:1em">遍界枝條無著
 <lb ed="GA" n="0203a05"/>處　香風吹上玉樓臺</l></lg>
@@ -2623,7 +2628,7 @@ $Log:$
 <lb ed="GA" n="0206a03"/>世界　無時不散劫壺春</l></lg>
 <lb ed="GA" n="0206a04"/><lg xml:id="lgGA027p0206a0401" type="abnormal"><l rend="text-indent:0em">念佛不曾妨日用　人於日用事相妨</l><l rend="text-indent:1em">百年幻影誰能
 <lb ed="GA" n="0206a05"/>保　莫負西天老願王</l></lg>
-<lb ed="GA" n="0206a06"/><lg xml:id="lgGA027p0206a0601" type="abnormal"><l rend="text-indent:0em">富貴之人宜念佛　黃金滿庫穀盈倉</l><l rend="text-indent:1em">世<anchor xml:id="beg_b" type="cb-app"/>間<anchor xml:id="end_b"/>受用無虧
+<lb ed="GA" n="0206a06"/><lg xml:id="lgGA027p0206a0601" type="abnormal"><l rend="text-indent:0em">富貴之人宜念佛　黃金滿庫穀盈倉</l><l rend="text-indent:1em">世<anchor xml:id="nkr_note_add_0206a0601" n="0206a0601"/><anchor xml:id="beg0206a0601" n="0206a0601"/>間<anchor xml:id="end0206a0601"/>受用無虧
 <lb ed="GA" n="0206a07"/>缺　只欠臨終見願王</l></lg>
 <lb ed="GA" n="0206a08"/><lg xml:id="lgGA027p0206a0801" type="abnormal"><l rend="text-indent:0em">貧乏之人念佛時　且無家事涉思維</l><l rend="text-indent:1em">赤條條地空雙
 <lb ed="GA" n="0206a09"/>手　直上蓮花占一枝</l></lg>
@@ -2673,7 +2678,7 @@ $Log:$
 <lb ed="GA" n="0210a09"/>異世矣安有虛棄之理哉所以佛祖<reg>教</reg>人深信而不
 <lb ed="GA" n="0210a10"/>疑惟閣下於吾道信根未嘗不深獨未知其於信處
 <pb ed="GA" xml:id="GA027.0025.0211a" n="0211a"/>
-<lb ed="GA" n="0211a01"/>能脫略所知否世<anchor xml:id="beg_c" type="cb-app"/>間<anchor xml:id="end_c"/>浮光幻影能幾何時向者鄙偈
+<lb ed="GA" n="0211a01"/>能脫略所知否世<anchor xml:id="nkr_note_add_0211a0101" n="0211a0101"/><anchor xml:id="beg0211a0101" n="0211a0101"/>間<anchor xml:id="end0211a0101"/>浮光幻影能幾何時向者鄙偈
 <lb ed="GA" n="0211a02"/>中有披衣終日坐茅室之句嘗蒙閣下許我以踐之
 <lb ed="GA" n="0211a03"/>今日所謂貧人索舊債也</p></cb:div>
 <lb ed="GA" n="0211a04"/><cb:div type="other"><cb:mulu type="其他" level="2">募脩觀音閣疏</cb:mulu><head>募脩觀音閣疏</head><byline cb:type="author">虞湻熙</byline>
@@ -2693,10 +2698,10 @@ $Log:$
 <lb ed="GA" n="0212a07"/>像總阿那娑羅言吉低輸為主更指三洲韋馱尊天
 <lb ed="GA" n="0212a08"/>者為盟錙鐵甚少一時而奉常住之三尊福德極多
 <lb ed="GA" n="0212a09"/>彈指而登不退之九品謹疏</p></cb:div>
-<lb ed="GA" n="0212a10"/><cb:div type="other"><cb:mulu type="其他" level="2">募脩觀音閣偈</cb:mulu><head><anchor xml:id="beg_d" type="cb-app"/>募<anchor xml:id="end_d"/>脩觀音閣偈<note place="inline">并序</note></head><byline cb:type="author">黃汝亨</byline>
+<lb ed="GA" n="0212a10"/><cb:div type="other"><cb:mulu type="其他" level="2">募脩觀音閣偈</cb:mulu><head><anchor xml:id="nkr_note_add_0212a1001" n="0212a1001"/><anchor xml:id="beg0212a1001" n="0212a1001"/>募<anchor xml:id="end0212a1001"/>脩觀音閣偈<note place="inline">并序</note></head><byline cb:type="author">黃汝亨</byline>
 <pb ed="GA" xml:id="GA027.0025.0213a" n="0213a"/>
 <lb ed="GA" n="0213a01"/><p xml:id="pGA027p0213a0101">雲居聖水禪寺元中峰和尚卓錫茲土冠郡名剎朴
-<lb ed="GA" n="0213a02"/>公嗣之為建大士殿閣房廊之勝遞新遞<anchor xml:id="beg_e" type="cb-app"/>圮<anchor xml:id="end_e"/>剝落松
+<lb ed="GA" n="0213a02"/>公嗣之為建大士殿閣房廊之勝遞新遞<anchor xml:id="nkr_note_add_0213a0201" n="0213a0201"/><anchor xml:id="beg0213a0201" n="0213a0201"/>圮<anchor xml:id="end0213a0201"/>剝落松
 <lb ed="GA" n="0213a03"/>石見者慨然萬厤丁亥屬歲大旱直指蔡公按周禮
 <lb ed="GA" n="0213a04"/>荒政十二之一索神疏井而得磁相大士于前衞古
 <lb ed="GA" n="0213a05"/>井中相好妙莊嚴瑩淨如玉香鉢水盂涵八功德天
@@ -3333,12 +3338,12 @@ $Log:$
 <lb ed="GA" n="0270a09"/>修慈忍三昧今豎指入此三昧任其踐害以我三昧之力成熟故獅子之威不期自現觀佛之說乃
 <lb ed="GA" n="0270a10"/>禦難息謗之第一義也語言云乎哉機智云乎哉又世有所謂見德人之容使人意消心醉德人豈
 <pb ed="GA" xml:id="GA027.0025.0271a" n="0271a"/>
-<lb ed="GA" n="0271a01"/>亦使之然乎期亦禦象難<anchor xml:id="beg_f" type="cb-app"/>之浙也<anchor xml:id="end_f"/><anchor xml:id="nkr_note_orig_0271001" n="0271001"/>或不爾者皆自召也苟欲以語言言息之<anchor xml:id="beg_10" type="cb-app"/>適滋<anchor xml:id="end_10"/>之耳何益哉</p>
+<lb ed="GA" n="0271a01"/>亦使之然乎期亦禦象難<anchor xml:id="nkr_note_add_0271a0101" n="0271a0101"/><anchor xml:id="beg0271a0101" n="0271a0101"/>之浙也<anchor xml:id="end0271a0101"/><anchor xml:id="nkr_note_orig_0271001" n="0271001"/>或不爾者皆自召也苟欲以語言言息之<anchor xml:id="nkr_note_add_0271a0102" n="0271a0102"/><anchor xml:id="beg0271a0102" n="0271a0102"/>適滋<anchor xml:id="end0271a0102"/>之耳何益哉</p>
 <lb ed="GA" n="0271a02"/><p xml:id="pGA027p0271a0201">昔馮給事有偈云</p><lg xml:id="lgGA027p0271a0208" type="abnormal" cb:place="inline"><l rend="text-indent:0em">公事之餘喜坐禪　未嘗將脇到牀眠</l><l rend="text-indent:1em">雖然現出宰官相　長老之名四海傳</l></lg><p xml:id="pGA027p0271a0236" rend="inline">又李駙
 <lb ed="GA" n="0271a03"/>馬有偈云</p><lg xml:id="lgGA027p0271a0305" type="abnormal" cb:place="inline"><l rend="text-indent:0em">學道須是鐵漢　著手心頭便判</l><l rend="text-indent:1em">直趨無上菩提　一切是非莫管</l></lg><p xml:id="pGA027p0271a0329" rend="inline">又龎居士云</p><lg xml:id="lgGA027p0271a0334" type="abnormal" cb:place="inline"><l rend="text-indent:0em">日用事無別
 <lb ed="GA" n="0271a04"/>　惟准我自偶</l><l rend="text-indent:1em">諧頭頭非取　舍處處沒張</l><l rend="text-indent:1em">乖朱紫誰為　號邱山絕頂</l><l rend="text-indent:1em">埃神通及妙　用運水與搬柴</l></lg><p xml:id="pGA027p0271a0437" rend="inline">又張拙
 <lb ed="GA" n="0271a05"/>秀才云</p><lg xml:id="lgGA027p0271a0504" type="abnormal" cb:place="inline"><l rend="text-indent:0em">光明寂照遍河沙　凡聖含靈共我家</l><l rend="text-indent:1em">一念不生全體現　六根纔動被雲遮</l><l rend="text-indent:1em">斷除煩惱重增病
-<lb ed="GA" n="0271a06"/>　趣向真如亦是邪</l><l rend="text-indent:1em">隨順世<anchor xml:id="beg_11" type="cb-app"/>間<anchor xml:id="end_11"/>無罣礙　涅槃生死等空花</l></lg><p xml:id="pGA027p0271a0623" rend="inline">又趙清獻公有偈云</p><lg xml:id="lgGA027p0271a0631" type="abnormal" cb:place="inline"><l rend="text-indent:0em">默坐公堂虛隱几　心源
+<lb ed="GA" n="0271a06"/>　趣向真如亦是邪</l><l rend="text-indent:1em">隨順世<anchor xml:id="nkr_note_add_0271a0601" n="0271a0601"/><anchor xml:id="beg0271a0601" n="0271a0601"/>間<anchor xml:id="end0271a0601"/>無罣礙　涅槃生死等空花</l></lg><p xml:id="pGA027p0271a0623" rend="inline">又趙清獻公有偈云</p><lg xml:id="lgGA027p0271a0631" type="abnormal" cb:place="inline"><l rend="text-indent:0em">默坐公堂虛隱几　心源
 <lb ed="GA" n="0271a07"/>不動湛如水</l><l rend="text-indent:1em">一聲霹靂頂門開　喚起從前自家底</l></lg><p xml:id="pGA027p0271a0720" rend="inline">如上士大夫皆是不離功名富貴游戲大圓覺場
 <lb ed="GA" n="0271a08"/>豈古人獨能而今人獨不能耶惟在信之深行之力則古今可以一致更惑躊躇乃自畫之耳</p>
 <lb ed="GA" n="0271a09"/><p xml:id="pGA027p0271a0901">山可移也方可易也一定之業不可逃也所報之業有曰善曰惡而已善則報之以福惡則報之以
@@ -3386,7 +3391,7 @@ $Log:$
 <lb ed="GA" n="0275a07"/><cb:div type="w"><cb:mulu type="附文" level="2">少林初祖</cb:mulu><head>少林初祖</head><lg xml:id="lgGA027p0275a0705" type="abnormal" cb:place="inline"><l rend="text-indent:0em">揚子江心波　少林峰頭月</l><l rend="text-indent:1em">寥寥一片心　直指成曲折</l><l rend="text-indent:1em">謂其有傳兮胡為壁觀九年　謂
 <lb ed="GA" n="0275a08"/>其無傳兮因甚麽花開五葉</l><l rend="text-indent:1em">秋山木落猿晝嗁　行人眼底流鮮血</l></lg><lg xml:id="lgGA027p0275a0826" type="abnormal" cb:place="inline"><l rend="text-indent:0em">大鵬展翅取龍吞　一攪滄溟徹
 <lb ed="GA" n="0275a09"/>底渾</l><l rend="text-indent:1em">觸破珊瑚枝上月　至今千古暗昏昏</l></lg></cb:div>
-<lb ed="GA" n="0275a10"/><cb:div type="w"><cb:mulu type="附文" level="2">布袋</cb:mulu><head>布袋</head><lg xml:id="lgGA027p0275a1003" type="abnormal" cb:place="inline"><l rend="text-indent:0em">兜率天宮降人世　忘卻當來下生記</l><l rend="text-indent:1em">閒家潑具有許多　<anchor xml:id="beg_12" type="cb-app"/>勾<anchor xml:id="end_12"/>引兒童恣遊戲</l><l rend="text-indent:1em">袒肩赤膊當神通　揚
+<lb ed="GA" n="0275a10"/><cb:div type="w"><cb:mulu type="附文" level="2">布袋</cb:mulu><head>布袋</head><lg xml:id="lgGA027p0275a1003" type="abnormal" cb:place="inline"><l rend="text-indent:0em">兜率天宮降人世　忘卻當來下生記</l><l rend="text-indent:1em">閒家潑具有許多　<anchor xml:id="nkr_note_add_0275a1001" n="0275a1001"/><anchor xml:id="beg0275a1001" n="0275a1001"/>勾<anchor xml:id="end0275a1001"/>引兒童恣遊戲</l><l rend="text-indent:1em">袒肩赤膊當神通　揚
 <pb ed="GA" xml:id="GA027.0025.0276a" n="0276a"/>
 <lb ed="GA" n="0276a01"/>眉瞬目稱三昧</l><l rend="text-indent:1em">奪將拄杖劈頭揮　一齊趁入龍華會</l><l rend="text-indent:1em">黑拄杖　橫挑布袋轉頭忘</l><l rend="text-indent:1em">率陀天　茫茫不顧肩
 <lb ed="GA" n="0276a02"/>頭重　猶要逢人乞一錢</l></lg></cb:div>
@@ -3438,7 +3443,7 @@ $Log:$
 <lb ed="GA" n="0280a04"/>齊餓首陽為義而忍薛包勤灑埽為孝而忍寇恂屈
 <lb ed="GA" n="0280a05"/>賈復為忠而忍子卿甘嚙雪為節而忍險阻厯國文
 <lb ed="GA" n="0280a06"/>公忍而霸晉卧薪嘗膽句踐忍而沼吳屈體鴻門沛
-<lb ed="GA" n="0280a07"/>公忍而蹙項濳泣枕畔光武忍而興劉子房忍<anchor xml:id="beg_13" type="cb-app"/>圯<anchor xml:id="end_13"/>上
+<lb ed="GA" n="0280a07"/>公忍而蹙項濳泣枕畔光武忍而興劉子房忍<anchor xml:id="nkr_note_add_0280a0701" n="0280a0701"/><anchor xml:id="beg0280a0701" n="0280a0701"/>圯<anchor xml:id="end0280a0701"/>上
 <lb ed="GA" n="0280a08"/>王孫忍跨下夷吾忍檻車師德忍唾面劉寬忍污袍
 <lb ed="GA" n="0280a09"/>王旦忍墨飯終身讓路朱仁軌之忍也遜謝叩馬李
 <lb ed="GA" n="0280a10"/>文靖之忍也大耐官職向敏中之忍也污卷自陳夏
@@ -3463,7 +3468,7 @@ $Log:$
 <lb ed="GA" n="0282a07"/>公忍變故也繫獄讀書楊溥忍縲絏也遇刺不驚魏
 <lb ed="GA" n="0282a08"/>公忍授命也<note place="inline">韓琦</note>不究竊器齊賢以忍容人也不認原
 <lb ed="GA" n="0282a09"/>金知常以忍全交也先嫁令女鍾離瑾以忍恤孤也
-<lb ed="GA" n="0282a10"/>焚<anchor xml:id="beg_14" type="cb-app"/>券<anchor xml:id="end_14"/>擇配竇禹鈞以忍宥過也<note place="inline">五子皆為顯官</note>人情最難忍
+<lb ed="GA" n="0282a10"/>焚<anchor xml:id="nkr_note_add_0282a1001" n="0282a1001"/><anchor xml:id="beg0282a1001" n="0282a1001"/>券<anchor xml:id="end0282a1001"/>擇配竇禹鈞以忍宥過也<note place="inline">五子皆為顯官</note>人情最難忍
 <pb ed="GA" xml:id="GA027.0025.0283a" n="0283a"/>
 <lb ed="GA" n="0283a01"/>者色與財若靳翁之踰垣避女<note place="inline">子文僖為宰相</note>馮商之還妾
 <lb ed="GA" n="0283a02"/>贈金<note place="inline">子京為狀元</note>曹鼐之書名自戒<note place="inline">後為狀元</note>羅倫之拒女奔
@@ -3577,10 +3582,10 @@ $Log:$
 <pb ed="GA" xml:id="GA027.0025.0293a" n="0293a"/>
 <lb ed="GA" n="0293a01"/>批詳理合具呈</p><p xml:id="pGA027p0293a0107" rend="inline">浙江巡撫都察院加五級張批
 <lb ed="GA" n="0293a02"/><reg>既</reg>據聲明如詳銷案嗣後應歸寺僧管業聽其自便毋再借端擾累致干察究繳</p>
-<lb ed="GA" n="0293a03"/><list><item xml:id="itemGA027p0293a0301"><p xml:id="pGA027p0293a0301" rend="margin-left:1em"><anchor xml:id="beg_15" type="cb-app"/><space quantity="0"/><anchor xml:id="end_15"/>凡本寺各房沙彌初進山門本師<reg>即</reg>同伊親戚或父兄當詣寺長處通知面會稽其來厯并白大眾
+<lb ed="GA" n="0293a03"/><list><item xml:id="itemGA027p0293a0301"><p xml:id="pGA027p0293a0301" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0293a0301" n="0293a0301"/><anchor xml:id="beg0293a0301" n="0293a0301"/><space quantity="0"/><anchor xml:id="end0293a0301"/>凡本寺各房沙彌初進山門本師<reg>即</reg>同伊親戚或父兄當詣寺長處通知面會稽其來厯并白大眾
 <lb ed="GA" n="0293a04"/>可否收<g ref="#CB30298">󷙚</g>以便登常住大簿分別尊卑</p></item>
-<lb ed="GA" n="0293a05"/><item xml:id="itemGA027p0293a0501"><p xml:id="pGA027p0293a0501" rend="margin-left:1em"><anchor xml:id="beg_16" type="cb-app"/><space quantity="0"/><anchor xml:id="end_16"/>凡遇祠堂祭祀各房學生應到祠堂禮拜祖先不到者每人罰錠五百有事遠出不在此例</p></item>
-<lb ed="GA" n="0293a06"/><item xml:id="itemGA027p0293a0601"><p xml:id="pGA027p0293a0601" rend="margin-left:1em"><anchor xml:id="beg_17" type="cb-app"/><space quantity="0"/><anchor xml:id="end_17"/>常住法產祖課向託主管黃在邦收管倘有私自下鄉竊契戤押串通主管私自盜賣者一經察出
+<lb ed="GA" n="0293a05"/><item xml:id="itemGA027p0293a0501"><p xml:id="pGA027p0293a0501" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0293a0501" n="0293a0501"/><anchor xml:id="beg0293a0501" n="0293a0501"/><space quantity="0"/><anchor xml:id="end0293a0501"/>凡遇祠堂祭祀各房學生應到祠堂禮拜祖先不到者每人罰錠五百有事遠出不在此例</p></item>
+<lb ed="GA" n="0293a06"/><item xml:id="itemGA027p0293a0601"><p xml:id="pGA027p0293a0601" rend="margin-left:1em"><anchor xml:id="nkr_note_add_0293a0601" n="0293a0601"/><anchor xml:id="beg0293a0601" n="0293a0601"/><space quantity="0"/><anchor xml:id="end0293a0601"/>常住法產祖課向託主管黃在邦收管倘有私自下鄉竊契戤押串通主管私自盜賣者一經察出
 <lb ed="GA" n="0293a07"/>毋論尊卑立<reg>即</reg>擯逐鳴官存案盜賣之產仍歸常住此係至公之論永照此例</p></item></list></cb:div>
 <lb ed="GA" n="0293a08"/><cb:div type="w"><cb:mulu type="附文" level="2">元雲居寺中峰和尚札</cb:mulu><head>元雲居寺中峰和尚札</head>
 <lb ed="GA" n="0293a09"/><p xml:id="pGA027p0293a0901">正月十九明本頓首再拜上　福壽堂上山翁大和
@@ -3782,42 +3787,70 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>圮</corr><sic>圯</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>圮</corr><sic>圯</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>聯</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>璧</corr><sic>壁</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>圮</corr><sic><g ref="#CB04395">𡉏</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>券</corr><sic>劵</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>璧</corr><sic>壁</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_d" cb:to="#end_d"><corr>募</corr><sic>墓</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>圮</corr><sic>圯</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_f" cb:to="#end_f"><corr>之浙也</corr><sic><unclear></unclear>　<unclear></unclear></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_10" cb:to="#end_10"><corr>適滋</corr><sic>　　</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_12" cb:to="#end_12"><corr>勾</corr><sic>句</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>圯</corr><sic><g ref="#CB04395">𡉏</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_14" cb:to="#end_14"><corr>券</corr><sic>劵</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_15" cb:to="#end_15"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_16" cb:to="#end_16"><corr><space quantity="0"/></corr><sic>一</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_17" cb:to="#end_17"><corr><space quantity="0"/></corr><sic>一</sic></choice>
+<app from="#beg0016a0301" to="#end0016a0301"><lem wit="#wit1" resp="#resp2">圮</lem><rdg wit="#wit2">圯</rdg></app>
+<app from="#beg0019a0501" to="#end0019a0501"><lem wit="#wit1" resp="#resp2">圮</lem><rdg wit="#wit2">圯</rdg></app>
+<app from="#beg0046a0601" to="#end0046a0601"><lem wit="#wit1" resp="#resp3">聯</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0046a0602" to="#end0046a0602"><lem wit="#wit1" resp="#resp3">璧</lem><rdg wit="#wit2">壁</rdg></app>
+<app from="#beg0054a0201" to="#end0054a0201"><lem wit="#wit1" resp="#resp2">圮</lem><rdg wit="#wit2"><g ref="#CB04395">𡉏</g></rdg></app>
+<app from="#beg0055a0901" to="#end0055a0901"><lem wit="#wit1" resp="#resp2">券</lem><rdg wit="#wit2">劵</rdg></app>
+<app from="#beg0109a0601" to="#end0109a0601"><lem wit="#wit1" resp="#resp2">間</lem><rdg wit="#wit2">閒</rdg></app>
+<app from="#beg0116a0101" to="#end0116a0101"><lem wit="#wit1" resp="#resp3">璧</lem><rdg wit="#wit2">壁</rdg></app>
+<app from="#beg0198a0801" to="#end0198a0801"><lem wit="#wit1" resp="#resp2">間</lem><rdg wit="#wit2">閒</rdg></app>
+<app from="#beg0203a0201" to="#end0203a0201"><lem wit="#wit1" resp="#resp2">間</lem><rdg wit="#wit2">閒</rdg></app>
+<app from="#beg0206a0601" to="#end0206a0601"><lem wit="#wit1" resp="#resp2">間</lem><rdg wit="#wit2">閒</rdg></app>
+<app from="#beg0211a0101" to="#end0211a0101"><lem wit="#wit1" resp="#resp2">間</lem><rdg wit="#wit2">閒</rdg></app>
+<app from="#beg0212a1001" to="#end0212a1001"><lem wit="#wit1" resp="#resp3">募</lem><rdg wit="#wit2">墓</rdg></app>
+<app from="#beg0213a0201" to="#end0213a0201"><lem wit="#wit1" resp="#resp2">圮</lem><rdg wit="#wit2">圯</rdg></app>
+<app from="#beg0271a0101" to="#end0271a0101"><lem wit="#wit1" resp="#resp3">之浙也</lem><rdg wit="#wit2"><unclear></unclear>　<unclear></unclear></rdg></app>
+<app from="#beg0271a0102" to="#end0271a0102"><lem wit="#wit1" resp="#resp3">適滋</lem><rdg wit="#wit2">　　</rdg></app>
+<app from="#beg0271a0601" to="#end0271a0601"><lem wit="#wit1" resp="#resp2">間</lem><rdg wit="#wit2">閒</rdg></app>
+<app from="#beg0275a1001" to="#end0275a1001"><lem wit="#wit1" resp="#resp3">勾</lem><rdg wit="#wit2">句</rdg></app>
+<app from="#beg0280a0701" to="#end0280a0701"><lem wit="#wit1" resp="#resp2">圯</lem><rdg wit="#wit2"><g ref="#CB04395">𡉏</g></rdg></app>
+<app from="#beg0282a1001" to="#end0282a1001"><lem wit="#wit1" resp="#resp2">券</lem><rdg wit="#wit2">劵</rdg></app>
+<app from="#beg0293a0301" to="#end0293a0301"><lem wit="#wit1" resp="#resp2"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0293a0501" to="#end0293a0501"><lem wit="#wit1" resp="#resp2"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
+<app from="#beg0293a0601" to="#end0293a0601"><lem wit="#wit1" resp="#resp2"><space quantity="0"/></lem><rdg wit="#wit2">一</rdg></app>
 </p>
 </cb:div>
 <cb:div type="dila-notes">
 <head>法鼓文理學院 校註</head>
 <p>
-<note n="0024001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0024001">紫陽山、丁仙閣、天后宮、大觀臺、三荖觀、龍神廟、方丈、放懷亭、三丈堂、聽松樓、一滴泉、振衣亭、東嶺翠濤、眠牛石、三台石、正陽門、錢塘江、三佛泉。</note>
-<note n="0025001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0025001">觀音殿、大殿、天王殿、山門、外萬松嶺、水明樓、中峯塔、超然臺、外麓房、長廊、鼓兒井、古堞秋雲、白雲亭、疊翠亭、清波門、西山晴雪、鐵冶嶺、西湖。</note>
-<note n="0052001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0052001">此詩原以引言代標題、作者隨附；今另訂標題，作者移置引言之前、新標題之下。</note>
-<note n="0102001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0102001">此詩原以引言代標題、作者隨附；今另訂標題，作者移置引言之前、新標題之下。</note>
-<note n="0108001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0108001">此詩原以引言代標題、作者隨附；今另訂標題，作者移置引言之前、新標題之下。</note>
-<note n="0110001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0110001">此詩原以引言代標題、作者隨附；今另訂標題，作者移置引言之前、新標題之下。</note>
-<note n="0133001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0133001">此詩原以引言代標題、作者隨附；今另訂標題，作者移置引言之前、新標題之下。</note>
-<note n="0271001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0271001">據《杭州佛教文<reg>獻</reg><reg>叢</reg>刊．<reg>雲</reg>居<reg>聖</reg>水寺志》補。後文之補刊參考來源同。（<reg>釋</reg><reg>廣</reg><reg>賓</reg>撰，<reg>劉</reg>成<reg>國</reg><reg>點</reg>校，杭州出版社，2007）</note>
+<note n="0024001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0024001">紫陽山、丁仙閣、天后宮、大觀臺、三荖觀、龍神廟、方丈、放懷亭、三丈堂、聽松樓、一滴泉、振衣亭、東嶺翠濤、眠牛石、三台石、正陽門、錢塘江、三佛泉。</note>
+<note n="0025001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0025001">觀音殿、大殿、天王殿、山門、外萬松嶺、水明樓、中峯塔、超然臺、外麓房、長廊、鼓兒井、古堞秋雲、白雲亭、疊翠亭、清波門、西山晴雪、鐵冶嶺、西湖。</note>
+<note n="0052001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0052001">此詩原以引言代標題、作者隨附；今另訂標題，作者移置引言之前、新標題之下。</note>
+<note n="0102001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0102001">此詩原以引言代標題、作者隨附；今另訂標題，作者移置引言之前、新標題之下。</note>
+<note n="0108001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0108001">此詩原以引言代標題、作者隨附；今另訂標題，作者移置引言之前、新標題之下。</note>
+<note n="0110001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0110001">此詩原以引言代標題、作者隨附；今另訂標題，作者移置引言之前、新標題之下。</note>
+<note n="0133001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0133001">此詩原以引言代標題、作者隨附；今另訂標題，作者移置引言之前、新標題之下。</note>
+<note n="0271001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0271001">據《杭州佛教文<reg>獻</reg><reg>叢</reg>刊．<reg>雲</reg>居<reg>聖</reg>水寺志》補。後文之補刊參考來源同。（<reg>釋</reg><reg>廣</reg><reg>賓</reg>撰，<reg>劉</reg>成<reg>國</reg><reg>點</reg>校，杭州出版社，2007）</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0016a0301" resp="#resp1" type="add" target="#nkr_note_add_0016a0301">圮【CB】，圯【志彙】</note>
+<note n="0019a0501" resp="#resp1" type="add" target="#nkr_note_add_0019a0501">圮【CB】，圯【志彙】</note>
+<note n="0046a0601" resp="#resp1" type="add" target="#nkr_note_add_0046a0601">聯【CB】，［－］【志彙】</note>
+<note n="0046a0602" resp="#resp1" type="add" target="#nkr_note_add_0046a0602">璧【CB】，壁【志彙】</note>
+<note n="0054a0201" resp="#resp1" type="add" target="#nkr_note_add_0054a0201">圮【CB】，<g ref="#CB04395">𡉏</g>【志彙】</note>
+<note n="0055a0901" resp="#resp1" type="add" target="#nkr_note_add_0055a0901">券【CB】，劵【志彙】</note>
+<note n="0109a0601" resp="#resp1" type="add" target="#nkr_note_add_0109a0601">間【CB】，閒【志彙】</note>
+<note n="0116a0101" resp="#resp1" type="add" target="#nkr_note_add_0116a0101">璧【CB】，壁【志彙】</note>
+<note n="0198a0801" resp="#resp1" type="add" target="#nkr_note_add_0198a0801">間【CB】，閒【志彙】</note>
+<note n="0203a0201" resp="#resp1" type="add" target="#nkr_note_add_0203a0201">間【CB】，閒【志彙】</note>
+<note n="0206a0601" resp="#resp1" type="add" target="#nkr_note_add_0206a0601">間【CB】，閒【志彙】</note>
+<note n="0211a0101" resp="#resp1" type="add" target="#nkr_note_add_0211a0101">間【CB】，閒【志彙】</note>
+<note n="0212a1001" resp="#resp1" type="add" target="#nkr_note_add_0212a1001">募【CB】，墓【志彙】</note>
+<note n="0213a0201" resp="#resp1" type="add" target="#nkr_note_add_0213a0201">圮【CB】，圯【志彙】</note>
+<note n="0271a0101" resp="#resp1" type="add" target="#nkr_note_add_0271a0101">之浙也【CB】，<unclear></unclear><unclear></unclear>【志彙】</note>
+<note n="0271a0102" resp="#resp1" type="add" target="#nkr_note_add_0271a0102">適滋【CB】，［－］【志彙】</note>
+<note n="0271a0601" resp="#resp1" type="add" target="#nkr_note_add_0271a0601">間【CB】，閒【志彙】</note>
+<note n="0275a1001" resp="#resp1" type="add" target="#nkr_note_add_0275a1001">勾【CB】，句【志彙】</note>
+<note n="0280a0701" resp="#resp1" type="add" target="#nkr_note_add_0280a0701">圯【CB】，<g ref="#CB04395">𡉏</g>【志彙】</note>
+<note n="0282a1001" resp="#resp1" type="add" target="#nkr_note_add_0282a1001">券【CB】，劵【志彙】</note>
+<note n="0293a0301" resp="#resp1" type="add" target="#nkr_note_add_0293a0301">［－］【CB】，一【志彙】</note>
+<note n="0293a0501" resp="#resp1" type="add" target="#nkr_note_add_0293a0501">［－］【CB】，一【志彙】</note>
+<note n="0293a0601" resp="#resp1" type="add" target="#nkr_note_add_0293a0601">［－］【CB】，一【志彙】</note>
 </p>
 </cb:div>
 </back></text></TEI>

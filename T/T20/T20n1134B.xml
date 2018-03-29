@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:01:21 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -376,13 +377,13 @@ Added comment  for Emacs
 <lb n="0577c06" ed="T"/>我。何所作為。佛告降三世菩薩。汝今降伏彼
 <lb n="0577c07" ed="T"/>難調伏諸大天等。令悉歸依諸佛法僧發菩
 <lb n="0577c08" ed="T"/>提心。尋即降伏一切諸天。盡皆歸依佛法僧
-<lb n="0577c09" ed="T"/>眾。唯大自在天。<anchor xml:id="nkr_note_orig_0577009" n="0577009"/><anchor xml:id="beg0577009" n="0577009"/>特<anchor xml:id="end0577009"/>大威德而生拒敵。降三
+<lb n="0577c09" ed="T"/>眾。唯大自在天。<anchor xml:id="nkr_note_orig_0577009" n="0577009"/><anchor xml:id="nkr_note_mod_0577009" n="0577009"/><anchor xml:id="beg0577009" n="0577009"/>特<anchor xml:id="end0577009"/>大威德而生拒敵。降三
 <lb n="0577c10" ed="T"/>世菩薩種種苦治乃至於死<note place="inline">左踏大天右踏天后</note>於是毘盧
 <lb n="0577c11" ed="T"/>遮那如來。入大悲愍三摩地已。即說金剛壽
 <lb n="0577c12" ed="T"/>命陀羅尼。復入金剛壽命三昧耶。及結密印
 <lb n="0577c13" ed="T"/>加持摩醯首羅天王。還復得甦重增壽命。歸
 <lb n="0577c14" ed="T"/>依諸佛發菩提心。灌頂受記證得八地位。金
-<lb n="0577c15" ed="T"/>剛壽命真<anchor xml:id="nkr_note_orig_0577010" n="0577010"/><anchor xml:id="beg0577010" n="0577010"/>言<anchor xml:id="end0577010"/>。</p>
+<lb n="0577c15" ed="T"/>剛壽命真<anchor xml:id="nkr_note_orig_0577010" n="0577010"/><anchor xml:id="nkr_note_mod_0577010" n="0577010"/><anchor xml:id="beg0577010" n="0577010"/>言<anchor xml:id="end0577010"/>。</p>
 <lb n="0577c16" ed="T"/><p cb:type="dharani" xml:id="pT20p0577c1601"><cb:tt><cb:t xml:lang="sa-Sidd"><g ref="#SD-DA42">􇩂</g></cb:t><cb:t xml:lang="zh-Hant">唵</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd"><g ref="#SD-A656">􄙖</g></cb:t><cb:t xml:lang="zh-Hant">嚩</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd"><g ref="#SD-A9BD">􄦽</g></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>日囉</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd"><g ref="#SD-A5F5">􄗵</g></cb:t><cb:t xml:lang="zh-Hant">喻</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd"><g ref="#SD-A675">􄙵</g></cb:t><cb:t xml:lang="zh-Hant">曬</cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd"><g ref="#SD-B065">􅁥</g></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>薩嚩</cb:zi><cb:sg>二合</cb:sg></cb:yin></cb:t></cb:tt><cb:tt><cb:t xml:lang="sa-Sidd"><g ref="#SD-A6A9">􄚩</g></cb:t><cb:t xml:lang="zh-Hant"><cb:yin><cb:zi>訶</cb:zi><cb:sg>引</cb:sg></cb:yin></cb:t></cb:tt></p>
 <lb n="0577c17" ed="T"/>
 <lb n="0577c18" ed="T"/><p xml:id="pT20p0577c1801">佛告執金剛菩薩。若有善男子善女人。受持
@@ -414,6 +415,13 @@ Added comment  for Emacs
 <p>
 <app from="#beg0577009" to="#end0577009"><lem wit="#wit1">特</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">恃</rdg></app>
 <app from="#beg0577010" to="#end0577010"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">言曰</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0577009" resp="#resp2" type="mod" target="#nkr_note_mod_0577009">特【大】，恃【校異-原】</note>
+<note n="0577010" resp="#resp2" type="mod" target="#nkr_note_mod_0577010">言【大】，言曰【校異-原】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

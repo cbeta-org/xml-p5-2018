@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2012/08/27 03:15:10 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -34,8 +35,8 @@
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【明】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
-		<witness xml:id="wit4">【麗】</witness>
+		<witness xml:id="wit3">【CB】</witness>
+		<witness xml:id="wit4">【麗-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -123,8 +124,8 @@ Added comment  for Emacs
 <lb ed="T" n="0844a23"/><cb:docNumber>No. 718</cb:docNumber>
 <lb n="0844a24" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title>佛說分別緣生經</title></cb:jhead></cb:juan>
 <lb n="0844a25" ed="T"/>
-<lb n="0844a26" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0844003" n="0844003"/><anchor xml:id="beg0844003" n="0844003"/>西<anchor xml:id="end0844003"/>天譯經三藏朝奉大夫試鴻臚卿
-<lb n="0844a27" ed="T"/>傳教大師<anchor xml:id="nkr_note_orig_0844004" n="0844004"/><anchor xml:id="beg0844004" n="0844004"/>臣<anchor xml:id="end0844004"/>法天奉　詔譯</byline>
+<lb n="0844a26" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0844003" n="0844003"/><anchor xml:id="nkr_note_mod_0844003" n="0844003"/><anchor xml:id="beg0844003" n="0844003"/>西<anchor xml:id="end0844003"/>天譯經三藏朝奉大夫試鴻臚卿
+<lb n="0844a27" ed="T"/>傳教大師<anchor xml:id="nkr_note_orig_0844004" n="0844004"/><anchor xml:id="nkr_note_mod_0844004" n="0844004"/><anchor xml:id="beg0844004" n="0844004"/>臣<anchor xml:id="end0844004"/>法天奉　詔譯</byline>
 <lb n="0844a28" ed="T"/><cb:div type="jing"><p xml:id="pT16p0844a2801">如是我聞：</p><p xml:id="pT16p0844a2805" rend="inline">一時佛在烏盧尾螺池邊，泥連河
 <lb ed="T" n="0844a29"/>側菩提樹下，成佛未久，獨止其中，心生思
 <pb n="0844b" xml:id="T16.0718.0844b" ed="T"/>
@@ -155,7 +156,7 @@ Added comment  for Emacs
 <lb ed="T" n="0844b25"/>之所覆閉，是為無明。從無明緣而生於行，行
 <lb n="0844b26" ed="T"/>有三種，謂身、口、意。復從行緣而生於識，識
 <lb n="0844b27" ed="T"/>有六種，謂眼識、耳識、鼻識、舌識、身識、意識。從
-<lb n="0844b28" ed="T"/>於識緣而生名、色，名者除色，<anchor xml:id="beg_1" type="cb-app"/>名<anchor xml:id="end_1"/>有四種，謂
+<lb n="0844b28" ed="T"/>於識緣而生名、色，名者除色，<anchor xml:id="nkr_note_add_0844b2801" n="0844b2801"/><anchor xml:id="beg0844b2801" n="0844b2801"/>名<anchor xml:id="end0844b2801"/>有四種，謂
 <lb n="0844b29" ed="T"/>受、想、行、識；色者所謂四大，一切色法，由四
 <pb ed="T" xml:id="T16.0718.0844c" n="0844c"/>
 <lb ed="T" n="0844c01"/>大生。如是色蘊、名蘊二種，是為名、色。從名、
@@ -188,7 +189,14 @@ Added comment  for Emacs
 <p>
 <app from="#beg0844003" to="#end0844003"><lem wit="#wit1">西</lem><rdg resp="#resp1" wit="#wit2">宋西</rdg></app>
 <app from="#beg0844004" to="#end0844004"><lem wit="#wit1">臣</lem><rdg wit="#wit2" resp="#resp1"><space quantity="0"/></rdg></app>
-<app from="#beg_1" to="#end_1"><lem wit="#wit3 #wit4" resp="#resp2">名<note type="cf1">K40n1409_p0038a05</note></lem><rdg wit="#wit1">各</rdg></app>
+<app from="#beg0844b2801" to="#end0844b2801"><lem wit="#wit3 #wit4" resp="#resp3">名<note type="cf1">K40n1409_p0038a05</note></lem><rdg wit="#wit1">各</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0844003" type="mod" resp="#resp2" target="#nkr_note_mod_0844003">西【大】，宋西【明】</note>
+<note type="mod" resp="#resp2" n="0844004" target="#nkr_note_mod_0844004">臣【大】，〔－〕【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -196,6 +204,12 @@ Added comment  for Emacs
 <p>
 <note n="0844003" type="orig" place="foot text" resp="#resp1" target="#nkr_note_orig_0844003">（宋）＋西【明】</note>
 <note type="orig" place="foot text" resp="#resp1" n="0844004" target="#nkr_note_orig_0844004">〔臣〕－【明】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0844b2801" resp="#resp2" type="add" target="#nkr_note_add_0844b2801">名【CB】【麗-CB】，各【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

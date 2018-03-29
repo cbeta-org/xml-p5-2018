@@ -37,7 +37,8 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
-		<witness xml:id="wit5">【宮】</witness>
+		<witness xml:id="wit5">【CB】</witness>
+		<witness xml:id="wit6">【宮】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -141,7 +142,7 @@ Added comment  for Emacs
 <milestone n="1" unit="juan"/>
 <lb n="0949a21" ed="T"/>
 <lb n="0949a22" ed="T"/><cb:docNumber>No. 576 [Nos. 575, 577]</cb:docNumber>
-<lb n="0949a23" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0949001" n="0949001"/><anchor xml:id="beg0949001" n="0949001"/>佛說<anchor xml:id="end0949001"/>轉有經</cb:jhead></cb:juan>
+<lb n="0949a23" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0949001" n="0949001"/><anchor xml:id="nkr_note_mod_0949001" n="0949001"/><anchor xml:id="beg0949001" n="0949001"/>佛說<anchor xml:id="end0949001"/>轉有經</cb:jhead></cb:juan>
 <lb n="0949a24" ed="T"/>
 <lb n="0949a25" ed="T"/><byline cb:type="Translator">元魏<anchor xml:id="nkr_note_orig_0949002" n="0949002"/><anchor xml:id="nkr_note_mod_0949002" n="0949002"/><anchor xml:id="beg0949002" n="0949002"/>天竺三藏<anchor xml:id="end0949002"/>佛陀扇多譯</byline>
 <lb n="0949a26" ed="T"/><cb:div type="jing"><p xml:id="pT14p0949a2601">如是我聞：</p><p xml:id="pT14p0949a2605" rend="inline">一時，婆伽婆住王舍城迦蘭陀竹
@@ -172,7 +173,7 @@ Added comment  for Emacs
 <lb n="0949b21" ed="T"/>而受生也。</p><p xml:id="pT14p0949b2105" rend="inline">「大王！滅後識心是名為滅，是初
 <lb n="0949b22" ed="T"/>心識如託生者，是彼後生。大王！轉後識時，
 <lb n="0949b23" ed="T"/>彼法實不從彼處來而至於此，初識生已亦
-<lb n="0949b24" ed="T"/>無所至。何以故？法性相故。大王！最<anchor xml:id="beg_1" type="cb-app"/>後<anchor xml:id="end_1"/>識心
+<lb n="0949b24" ed="T"/>無所至。何以故？法性相故。大王！最<anchor xml:id="nkr_note_add_0949b2401" n="0949b2401"/><anchor xml:id="beg0949b2401" n="0949b2401"/>後<anchor xml:id="end0949b2401"/>識心
 <lb n="0949b25" ed="T"/>是後識空，業是業空，生是生空，最初心識
 <lb n="0949b26" ed="T"/>是初識空，所生之處是生處空，而於彼處不
 <lb n="0949b27" ed="T"/>失業果。大王！最後生識於彼即滅，後不斷
@@ -194,7 +195,7 @@ Added comment  for Emacs
 <lb n="0949c13" ed="T"/><p xml:id="pT14p0949c1301">說此法門時，頻婆娑羅王，及諸大眾、人、天、
 <lb n="0949c14" ed="T"/>龍、神、乾闥婆等，聞佛所說，皆大歡喜，信受
 <lb n="0949c15" ed="T"/>奉行。</p></cb:div>
-<lb n="0949c16" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><anchor xml:id="beg_2" type="star"/>佛說<anchor xml:id="end_2"/>轉有經</cb:jhead></cb:juan>
+<lb n="0949c16" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><anchor xml:id="beg_1" type="star"/>佛說<anchor xml:id="end_1"/>轉有經</cb:jhead></cb:juan>
 </body>
 <back>
 <cb:div type="apparatus">
@@ -202,16 +203,17 @@ Added comment  for Emacs
 <p>
 <app from="#beg0949001" to="#end0949001"><lem wit="#wit1">佛說</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0949002" to="#end0949002"><lem wit="#wit1">天竺三藏</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">三藏法師</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_1" cb:to="#end_1"><corr>後</corr><sic>初</sic></choice>
-<app from="#beg0949003" to="#end0949003"><lem wit="#wit1">在</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit5">生</rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0949001"><lem wit="#wit1">佛說</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0949b2401" to="#end0949b2401"><lem wit="#wit5" resp="#resp3">後</lem><rdg wit="#wit1">初</rdg></app>
+<app from="#beg0949003" to="#end0949003"><lem wit="#wit1">在</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit6">生</rdg></app>
+<app from="#beg_1" to="#end_1" corresp="#0949001"><lem wit="#wit1">佛說</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0949002" resp="#resp2" type="mod" target="#nkr_note_mod_0949002">天竺三藏＝三藏法師【宋】【元】【明】</note>
-<note n="0949003" resp="#resp2" type="mod" target="#nkr_note_mod_0949003">在＝生【宋】【元】【明】【宮】</note>
+<note n="0949001" resp="#resp2" type="mod" target="#nkr_note_mod_0949001">佛說【大】＊，〔－〕【宋】＊</note>
+<note n="0949002" resp="#resp2" type="mod" target="#nkr_note_mod_0949002">天竺三藏【大】，三藏法師【宋】【元】【明】</note>
+<note n="0949003" resp="#resp2" type="mod" target="#nkr_note_mod_0949003">在【大】，生【宋】【元】【明】【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -220,6 +222,12 @@ Added comment  for Emacs
 <note n="0949001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0949001">〔佛說〕－【宋】＊</note>
 <note n="0949002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0949002">天竺三藏＝三藏法師【三】</note>
 <note n="0949003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0949003">在＝生【三】【宮】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0949b2401" resp="#resp2" type="add" target="#nkr_note_add_0949b2401">後【CB】，初【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

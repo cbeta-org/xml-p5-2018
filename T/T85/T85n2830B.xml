@@ -14,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:15:19 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2830B</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -133,10 +137,10 @@ Added comment  for Emacs
 <lb n="1269a08" ed="T"/>不敢久停焉有龍神操　第五首。</p>
 <lb n="1269a09" ed="T"/><p xml:id="pT85p1269a0901">上東臺過北斗望見浮乘海畔龍神鬪雨雹相
 <lb n="1269a10" ed="T"/>和驚林藪霧捲雲收化現千般有吉祥鳴師子
-<lb n="1269a11" ed="T"/>吼聞者<anchor xml:id="beg_1" type="cb-app"/>狐<anchor xml:id="end_1"/>疑怕往羅筵走纔念文殊三五口大
+<lb n="1269a11" ed="T"/>吼聞者<anchor xml:id="nkr_note_add_1269a1101" n="1269a1101"/><anchor xml:id="beg1269a1101" n="1269a1101"/>狐<anchor xml:id="end1269a1101"/>疑怕往羅筵走纔念文殊三五口大
 <lb n="1269a12" ed="T"/>聖慈悲方便潛身救。</p>
 <lb n="1269a13" ed="T"/><p xml:id="pT85p1269a1301">大聖堂非凡地左右龍磻焉有臺相倚險突嵯
-<lb n="1269a14" ed="T"/>峨朝成<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>花木芬芳菩薩多靈異面慈悲心歡
+<lb n="1269a14" ed="T"/>峨朝成<anchor xml:id="nkr_note_add_1269a1401" n="1269a1401"/><anchor xml:id="beg1269a1401" n="1269a1401"/>已<anchor xml:id="end1269a1401"/>花木芬芳菩薩多靈異面慈悲心歡
 <lb n="1269a15" ed="T"/>喜印玉真僧往往來迎禮瑞彩時時簾下起福
 <lb n="1269a16" ed="T"/>祚唐川萬古千秋歲。</p></cb:div>
 </body>
@@ -144,8 +148,8 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>狐</corr><sic>孤</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg1269a1101" to="#end1269a1101"><lem wit="#wit1" resp="#resp3">狐</lem><rdg wit="#wit2">孤</rdg></app>
+<app from="#beg1269a1401" to="#end1269a1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -153,6 +157,13 @@ Added comment  for Emacs
 <p>
 <note n="1269001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1269001">【原】大英博物館藏燉煌本, S. 2985, 首題新加</note>
 <note n="1269002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1269002">首缺</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1269a1101" resp="#resp2" type="add" target="#nkr_note_add_1269a1101">狐【CB】，孤【大】</note>
+<note n="1269a1401" resp="#resp2" type="add" target="#nkr_note_add_1269a1401">已【CB】，巳【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -14,8 +14,9 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:15:21 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,6 +33,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2905</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -193,7 +198,7 @@ Added comment  for Emacs
 <lb n="1447b22" ed="T"/>至施與畜生一揣之食。或修淨行。所有善根
 <lb n="1447b23" ed="T"/>成就眾生。所有善根修行菩提。所有善根及
 <lb n="1447b24" ed="T"/>無上智。所有善根一切合聚校計籌量。皆悉
-<lb n="1447b25" ed="T"/>廻向阿<anchor xml:id="beg_1" type="cb-app"/>耨<anchor xml:id="end_1"/>多羅三藐三菩提。如過去未來現
+<lb n="1447b25" ed="T"/>廻向阿<anchor xml:id="nkr_note_add_1447b2501" n="1447b2501"/><anchor xml:id="beg1447b2501" n="1447b2501"/>耨<anchor xml:id="end1447b2501"/>多羅三藐三菩提。如過去未來現
 <lb n="1447b26" ed="T"/>在諸佛所作廻向。我亦如是廻向。</p>
 <lb n="1447b27" ed="T"/><p xml:id="pT85p1447b2701">次有六方三十八佛　出阿彌陀讚一切諸佛
 <lb n="1447b28" ed="T"/>所持之法經。</p>
@@ -375,7 +380,7 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2 resp3" cb:from="#beg_1" cb:to="#end_1"><corr>耨<note type="cf1">T47n1982_p0465a04</note><note type="cf2">T12n0325_p0039a21</note></corr><sic><g ref="#CB03264">𧂭</g></sic></choice>
+<app from="#beg1447b2501" to="#end1447b2501"><lem wit="#wit1" resp="#resp3 resp4">耨<note type="cf1">T47n1982_p0465a04</note><note type="cf2">T12n0325_p0039a21</note></lem><rdg wit="#wit2"><g ref="#CB03264">𧂭</g></rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -383,6 +388,12 @@ Added comment  for Emacs
 <p>
 <note n="1446003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1446003">【原】大英博物館藏燉煌本, S. 2180, 首題新加</note>
 <note n="1446004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1446004">首缺</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1447b2501" resp="#resp2" type="add" target="#nkr_note_add_1447b2501">耨【CB】，<g ref="#CB03264">𧂭</g>【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

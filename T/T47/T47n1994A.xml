@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 47, No. 1994A</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -532,7 +536,7 @@ Added comment  for Emacs
 <lb n="0644a09" ed="T"/>擬思量何劫悟。看取眉毛有幾許。去。</p>
 <lb n="0644a10" ed="T"/><p xml:id="pT47p0644a1001">上堂云。夜來雷聲震地。今朝細雨霏霏。乾枯
 <lb n="0644a11" ed="T"/>滋潤萬物萌芽。且道。嘉州大象髭鬚長得多
-<lb n="0644a12" ed="T"/>少。還有道得者麼。若也道得。<anchor xml:id="beg_1" type="cb-app"/>陝<anchor xml:id="end_1"/>府鐵牛。是常
+<lb n="0644a12" ed="T"/>少。還有道得者麼。若也道得。<anchor xml:id="nkr_note_add_0644a1201" n="0644a1201"/><anchor xml:id="beg0644a1201" n="0644a1201"/>陝<anchor xml:id="end0644a1201"/>府鐵牛。是常
 <lb n="0644a13" ed="T"/>不輕菩薩。若道不得。土宿拽脫爾鼻孔。</p>
 <lb n="0644a14" ed="T"/><p xml:id="pT47p0644a1401">上堂。若據祖令。到這裏總須茫然。放老僧一
 <lb n="0644a15" ed="T"/>線。且向眉睫裏東覷西覷。</p>
@@ -728,13 +732,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>陝</corr><sic>陜</sic></choice>
+<app from="#beg0644a1201" to="#end0644a1201"><lem wit="#wit1" resp="#resp2">陝</lem><rdg wit="#wit2">陜</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0640001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0640001">【原】增上寺報恩藏明本古尊宿語錄之內，題號新加</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0644a1201" resp="#resp2" type="add" target="#nkr_note_add_0644a1201">陝【CB】，陜【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

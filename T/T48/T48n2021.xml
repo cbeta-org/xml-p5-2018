@@ -32,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 48, No. 2021</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -593,7 +597,7 @@ Added comment  for Emacs
 <lb n="1014b06" ed="T"/>無言可措。只得拱手倒走三千。何故蓋謂到
 <lb n="1014b07" ed="T"/>此無他入門處。無他栖泊處。無他立身處。無
 <lb n="1014b08" ed="T"/>他開口處。云何如此。邪不干正。豈不聞古德
-<lb n="1014b09" ed="T"/>云。汝之伎倆有盡。我之不<anchor xml:id="beg_1" type="cb-app"/>采<anchor xml:id="end_1"/>無窮。誠哉是言
+<lb n="1014b09" ed="T"/>云。汝之伎倆有盡。我之不<anchor xml:id="nkr_note_add_1014b0901" n="1014b0901"/><anchor xml:id="beg1014b0901" n="1014b0901"/>采<anchor xml:id="end1014b0901"/>無窮。誠哉是言
 <lb n="1014b10" ed="T"/>也。前云五戒者。防邪止惡故名為戒。</p></cb:div>
 <lb n="1014b11" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">懺悔法門菩提行願</cb:mulu><head>懺悔法門菩提行願</head>
 <lb n="1014b12" ed="T"/><p xml:id="pT48p1014b1201" rend="margin-left:3em"><note place="inline">學人於二六時中。須向諸佛菩薩像前五體投地。然指然香發露懺悔。此下請三寶證明懺悔。
@@ -675,7 +679,7 @@ Added comment  for Emacs
 <lb n="1015a28" ed="T"/>學人有好多聞者。有根性遲鈍者。看前輩尊
 <lb n="1015a29" ed="T"/>宿警策法語。皆言往古善知識般若之力深
 <pb n="1015b" xml:id="T48.2021.1015b" ed="T"/>
-<lb n="1015b01" ed="T"/>根<anchor xml:id="beg_2" type="cb-app"/>固<anchor xml:id="end_2"/>蔕。纔入法門不用施工一聞千悟。此事
+<lb n="1015b01" ed="T"/>根<anchor xml:id="nkr_note_add_1015b0101" n="1015b0101"/><anchor xml:id="beg1015b0101" n="1015b0101"/>固<anchor xml:id="end1015b0101"/>蔕。纔入法門不用施工一聞千悟。此事
 <lb n="1015b02" ed="T"/>非吾輩淺機所為。我等今生且下些般若種
 <lb n="1015b03" ed="T"/>子待於來世。文敏見如是說者多矣。可憐自
 <lb n="1015b04" ed="T"/>生退屈。若將和尚日前工夫微密處。從頭舉
@@ -696,7 +700,7 @@ Added comment  for Emacs
 <lb n="1015b19" ed="T"/>從來去無妨。自是一般快活。於此不耐安閑。
 <lb n="1015b20" ed="T"/>遂將昔日行履陳爛葛藤一提提起。且與學
 <lb n="1015b21" ed="T"/>人熱亂一場。正眼傍觀却是平地起風波。把
-<lb n="1015b22" ed="T"/>學人手脚。打教七橫<anchor xml:id="beg_3" type="cb-app"/>八<anchor xml:id="end_3"/>竪。無安措處。到此不
+<lb n="1015b22" ed="T"/>學人手脚。打教七橫<anchor xml:id="nkr_note_add_1015b2201" n="1015b2201"/><anchor xml:id="beg1015b2201" n="1015b2201"/>八<anchor xml:id="end1015b2201"/>竪。無安措處。到此不
 <lb n="1015b23" ed="T"/>免與他整新安頓。諦當處更教諦當去也。且
 <lb n="1015b24" ed="T"/>道即今諦當事。作麼生分付學人。惺惺著諦
 <lb n="1015b25" ed="T"/>當事直下來也。各各努力承當記取。記取萬
@@ -776,15 +780,23 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>采</corr><sic>釆</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>固<note type="cf1">TW48n2021_p1015b01</note><note type="cf2">T47n1997_p0780a23</note></corr><sic>回</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>八<note type="cf1">TW48n2021_p1015b22</note></corr><sic>入</sic></choice>
+<app from="#beg1014b0901" to="#end1014b0901"><lem wit="#wit1" resp="#resp2">采</lem><rdg wit="#wit2">釆</rdg></app>
+<app from="#beg1015b0101" to="#end1015b0101"><lem wit="#wit1" resp="#resp3">固<note type="cf1">TW48n2021_p1015b01</note><note type="cf2">T47n1997_p0780a23</note></lem><rdg wit="#wit2">回</rdg></app>
+<app from="#beg1015b2201" to="#end1015b2201"><lem wit="#wit1" resp="#resp3">八<note type="cf1">TW48n2021_p1015b22</note></lem><rdg wit="#wit2">入</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1009001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1009001">【原】增上寺報恩藏明本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1014b0901" resp="#resp2" type="add" target="#nkr_note_add_1014b0901">采【CB】，釆【大】</note>
+<note n="1015b0101" resp="#resp2" type="add" target="#nkr_note_add_1015b0101">固【CB】，回【大】</note>
+<note n="1015b2201" resp="#resp2" type="add" target="#nkr_note_add_1015b2201">八【CB】，入【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

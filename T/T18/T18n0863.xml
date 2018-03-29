@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 07:59:44 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -2637,7 +2638,7 @@ Added comment  for Emacs
 <lb n="0193c29" ed="T"/>阿字者，亦名奢摩他、亦名毘鉢舍那之智、亦
 <pb n="0194a" ed="T" xml:id="T18.0863.0194a"/>
 <lb n="0194a01" ed="T"/>名真寶之智、亦名一切智智。所以經云：「一切
-<lb n="0194a02" ed="T"/>智、根本智<anchor xml:id="nkr_note_orig_0194001" n="0194001"/><anchor xml:id="beg0194001" n="0194001"/>智<anchor xml:id="end0194001"/>、後得智，從後得智起大悲，從
+<lb n="0194a02" ed="T"/>智、根本智<anchor xml:id="nkr_note_orig_0194001" n="0194001"/><anchor xml:id="nkr_note_mod_0194001" n="0194001"/><anchor xml:id="beg0194001" n="0194001"/>智<anchor xml:id="end0194001"/>、後得智，從後得智起大悲，從
 <lb n="0194a03" ed="T"/>大悲起三種化身。」</p><p xml:id="pT18p0194a0308" rend="inline">夫阿闍梨若觀此字而相
 <lb n="0194a04" ed="T"/>應者，即是自身同於毘盧遮那佛身，亦名金
 <lb n="0194a05" ed="T"/>剛不壞之身、亦名普現色身、亦名三種意生
@@ -2777,7 +2778,7 @@ Added comment  for Emacs
 <lb n="0195b17" ed="T"/>是阿字一相，亦非一亦非異。」</p><p xml:id="pT18p0195b1712" rend="inline">又經云：「諦聽、金
 <lb n="0195b18" ed="T"/>剛手！今說修行曼荼羅行，滿足一切智智法
 <lb n="0195b19" ed="T"/>門。」所以萬行圓極無可復增，應物之權究盡
-<lb n="0195b20" ed="T"/>能事，即醍醐妙果三密之源，<anchor xml:id="nkr_note_orig_0195001" n="0195001"/><anchor xml:id="beg0195001" n="0195001"/>智<anchor xml:id="end0195001"/>彼最真實，
+<lb n="0195b20" ed="T"/>能事，即醍醐妙果三密之源，<anchor xml:id="nkr_note_orig_0195001" n="0195001"/><anchor xml:id="nkr_note_mod_0195001" n="0195001"/><anchor xml:id="beg0195001" n="0195001"/>智<anchor xml:id="end0195001"/>彼最真實，
 <lb n="0195b21" ed="T"/>得名阿闍梨。故應具方便，了知佛所說，故經
 <lb n="0195b22" ed="T"/>云：</p>
 <lb n="0195b23" ed="T"/><lg xml:id="lgT18p0195b2301" rend="margin-left:1em;text-indent:-1em"><l>「復次祕密主！</l><l>諸佛所宣說；</l>
@@ -2792,7 +2793,7 @@ Added comment  for Emacs
 <lb n="0195c02" ed="T"/><l>多字最後分，</l><l>他字應知腹；</l>
 <lb n="0195c03" ed="T"/><l>娜字為二手，</l><l>馱安名為脇。</l>
 <lb n="0195c04" ed="T"/><l>波字以為背，</l><l>頗字應知胸；</l>
-<lb n="0195c05" ed="T"/><l>摩字為<anchor xml:id="nkr_note_orig_0195002" n="0195002"/><anchor xml:id="beg0195002" n="0195002"/>一<anchor xml:id="end0195002"/>肘，</l><l>婆字次臂下。</l>
+<lb n="0195c05" ed="T"/><l>摩字為<anchor xml:id="nkr_note_orig_0195002" n="0195002"/><anchor xml:id="nkr_note_mod_0195002" n="0195002"/><anchor xml:id="beg0195002" n="0195002"/>一<anchor xml:id="end0195002"/>肘，</l><l>婆字次臂下。</l>
 <lb n="0195c06" ed="T"/><l>莽字住於心，</l><l>野字陰藏相；</l>
 <lb n="0195c07" ed="T"/><l>囉字名為眼，</l><l>邏字為廣額。</l>
 <lb n="0195c08" ed="T"/><l>縊伊在二眦，</l><l>塢烏為二脣；</l>
@@ -2815,6 +2816,14 @@ Added comment  for Emacs
 <app from="#beg0194001" to="#end0194001"><lem resp="#resp1" wit="#wit1">智</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0195001" to="#end0195001"><lem resp="#resp1" wit="#wit1">智</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">知</rdg></app>
 <app from="#beg0195002" to="#end0195002"><lem resp="#resp1" wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">三</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0194001" resp="#resp2" type="mod" target="#nkr_note_mod_0194001">智【大】，〔－〕【考偽-原】</note>
+<note n="0195001" resp="#resp2" type="mod" target="#nkr_note_mod_0195001">智【大】，知【考偽-原】</note>
+<note n="0195002" resp="#resp2" type="mod" target="#nkr_note_mod_0195002">一【大】，三【考偽-原】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

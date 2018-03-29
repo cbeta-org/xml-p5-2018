@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:08:47 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -582,7 +583,7 @@ Added comment  for Emacs
 <lb n="0547c18" ed="T"/>未滿定有名色。又名色支亦是遍有有色化
 <lb n="0547c19" ed="T"/>生初受生位雖具五根而未有用。爾時未名
 <lb n="0547c20" ed="T"/>六處支故。初生無色雖定有意根而不明了
-<lb n="0547c21" ed="T"/>未<anchor xml:id="nkr_note_orig_0547001" n="0547001"/><anchor xml:id="beg0547001" n="0547001"/>名<anchor xml:id="end0547001"/>意處故。問愛非遍有寧別立支生惡趣
+<lb n="0547c21" ed="T"/>未<anchor xml:id="nkr_note_orig_0547001" n="0547001"/><anchor xml:id="nkr_note_mod_0547001" n="0547001"/><anchor xml:id="beg0547001" n="0547001"/>名<anchor xml:id="end0547001"/>意處故。問愛非遍有寧別立支生惡趣
 <lb n="0547c22" ed="T"/>者不愛彼故。答定故別立不求無有生善趣
 <lb n="0547c23" ed="T"/>者定有愛故。問若爾不還應無有愛。答雖不
 <lb n="0547c24" ed="T"/>現起然如彼取定有種故。又愛遍生惡趣者
@@ -596,7 +597,7 @@ Added comment  for Emacs
 <lb n="0548a02" ed="T"/>故總立二支以顯三苦。具說如彼。發潤別者
 <lb n="0548a03" ed="T"/>如彼論說。何緣發業總立無明潤業位中別
 <lb n="0548a04" ed="T"/>立愛取。雖諸煩惱皆能發潤。無明力勝具足
-<lb n="0548a05" ed="T"/>如彼<anchor xml:id="nkr_note_orig_0548001" n="0548001"/><anchor xml:id="beg0548001" n="0548001"/>而發業位無明力增以具十一殊勝事
+<lb n="0548a05" ed="T"/>如彼<anchor xml:id="nkr_note_orig_0548001" n="0548001"/><anchor xml:id="nkr_note_mod_0548001" n="0548001"/><anchor xml:id="beg0548001" n="0548001"/>而發業位無明力增以具十一殊勝事
 <lb n="0548a06" ed="T"/>故謂所緣等廣如經<anchor xml:id="end0548001"/>。於潤業位愛力偏增。說
 <lb n="0548a07" ed="T"/>愛如水能沃潤故要數溉灌方生有芽。且依
 <lb n="0548a08" ed="T"/>初後分愛取二無重發義。立一無明三約世
@@ -772,7 +773,7 @@ Added comment  for Emacs
 <lb n="0549c28" ed="T"/>翻此言諸說不同。一曰阿之言無耨多羅云
 <lb n="0549c29" ed="T"/>上三名正藐言真後三名正菩提曰道。總言
 <pb n="0550a" xml:id="T33.1711.0550a" ed="T"/>
-<lb n="0550a01" ed="T"/>無上正真正<anchor xml:id="nkr_note_orig_0550001" n="0550001"/><anchor xml:id="beg0550001" n="0550001"/>正<anchor xml:id="end0550001"/>道。一曰阿之言無耨多羅曰
+<lb n="0550a01" ed="T"/>無上正真正<anchor xml:id="nkr_note_orig_0550001" n="0550001"/><anchor xml:id="nkr_note_mod_0550001" n="0550001"/><anchor xml:id="beg0550001" n="0550001"/>正<anchor xml:id="end0550001"/>道。一曰阿之言無耨多羅曰
 <lb n="0550a02" ed="T"/>上三名正藐言遍三云知菩提名覺。如理智
 <lb n="0550a03" ed="T"/>緣真如名正。如量智緣俗言遍。無分別智斷
 <lb n="0550a04" ed="T"/>二無知名知。菩提出睡夢之表稱覺。此四智
@@ -967,6 +968,14 @@ Added comment  for Emacs
 <app from="#beg0547001" to="#end0547001"><lem resp="#resp1" wit="#wit1">名</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">明</rdg></app>
 <app from="#beg0548001" to="#end0548001"><lem resp="#resp1" wit="#wit1">而發業位無明力增以具十一殊勝事<lb n="0548a06" ed="T"/>故謂所緣等廣如經</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
 <app from="#beg0550001" to="#end0550001"><lem resp="#resp1" wit="#wit1">正</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0547001" resp="#resp2" type="mod" target="#nkr_note_mod_0547001">名【大】，明【考偽-大】</note>
+<note n="0548001" resp="#resp2" type="mod" target="#nkr_note_mod_0548001">（而發…經）二十三字【大】，〔－〕【考偽-大】</note>
+<note n="0550001" resp="#resp2" type="mod" target="#nkr_note_mod_0550001">正【大】，〔－〕【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

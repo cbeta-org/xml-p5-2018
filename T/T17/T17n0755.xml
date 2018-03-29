@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2012/10/08 08:17:38 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -129,8 +130,8 @@ Added comment  for Emacs
 <lb n="0588c07" ed="T"/><cb:docNumber>No. 755</cb:docNumber>
 <lb n="0588c08" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title>佛說淨意優婆塞所問經</title></cb:jhead></cb:juan>
 <lb n="0588c09" ed="T"/>
-<lb n="0588c10" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0588013" n="0588013"/><anchor xml:id="beg0588013" n="0588013"/>西天<anchor xml:id="end0588013"/><anchor xml:id="nkr_note_orig_0588014" n="0588014"/><anchor xml:id="beg0588014" n="0588014"/>譯經<anchor xml:id="end0588014"/>三藏朝奉大夫
-<lb n="0588c11" ed="T"/>試光祿卿傳法大師<anchor xml:id="nkr_note_orig_0588015" n="0588015"/><anchor xml:id="beg0588015" n="0588015"/>賜紫
+<lb n="0588c10" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0588013" n="0588013"/><anchor xml:id="nkr_note_mod_0588013" n="0588013"/><anchor xml:id="beg0588013" n="0588013"/>西天<anchor xml:id="end0588013"/><anchor xml:id="nkr_note_orig_0588014" n="0588014"/><anchor xml:id="nkr_note_mod_0588014" n="0588014"/><anchor xml:id="beg0588014" n="0588014"/>譯經<anchor xml:id="end0588014"/>三藏朝奉大夫
+<lb n="0588c11" ed="T"/>試光祿卿傳法大師<anchor xml:id="nkr_note_orig_0588015" n="0588015"/><anchor xml:id="nkr_note_mod_0588015" n="0588015"/><anchor xml:id="beg0588015" n="0588015"/>賜紫
 <lb n="0588c12" ed="T"/>臣<anchor xml:id="end0588015"/>施護奉　詔譯</byline>
 <lb n="0588c13" ed="T"/><cb:div type="jing"><p xml:id="pT17p0588c1301">如是我聞：</p><p xml:id="pT17p0588c1305" rend="inline">一時，佛在舍衛國祇樹給孤獨園，
 <lb n="0588c14" ed="T"/>與大眾俱。是時，城中有一族姓兜泥耶子，名
@@ -285,6 +286,14 @@ Added comment  for Emacs
 <app from="#beg0588013" to="#end0588013"><lem wit="#wit1">西天</lem><rdg resp="#resp1" wit="#wit2">宋西天</rdg></app>
 <app from="#beg0588014" to="#end0588014"><lem wit="#wit1">譯經</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0588015" to="#end0588015"><lem wit="#wit1">賜紫<lb n="0588c12" ed="T"/>臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0588013" resp="#resp2" type="mod" target="#nkr_note_mod_0588013">西天【大】，宋西天【明】</note>
+<note n="0588014" resp="#resp2" type="mod" target="#nkr_note_mod_0588014">譯經【大】，〔－〕【明】</note>
+<note n="0588015" resp="#resp2" type="mod" target="#nkr_note_mod_0588015">賜紫臣【大】，〔－〕【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2009/04/22 09:00:20 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 55, No. 913</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -88,7 +93,7 @@ no message
 <lb ed="X" n="0688c14"/><lb ed="R099" n="0114a08"/>大菩薩摩訶薩眾．諸賢聖僧．常住三寶。唯願神力。慈
 <lb ed="X" n="0688c15"/><lb ed="R099" n="0114a09"/>哀護念。願當證知。以此念誦。善根功德。專用莊嚴四
 <lb ed="X" n="0688c16"/><lb ed="R099" n="0114a10"/>恩三有．盡十方法界一切眾生。願共法界諸眾生等。
-<lb ed="X" n="0688c17"/><lb ed="R099" n="0114a11"/>從無始<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>來。至於今日。昏沈倒惑。六根．三業造一切
+<lb ed="X" n="0688c17"/><lb ed="R099" n="0114a11"/>從無始<anchor xml:id="nkr_note_add_0688c1701" n="0688c1701"/><anchor xml:id="beg0688c1701" n="0688c1701"/>已<anchor xml:id="end0688c1701"/>來。至於今日。昏沈倒惑。六根．三業造一切
 <lb ed="X" n="0688c18"/><lb ed="R099" n="0114a12"/>鄣道之罪。若麤若細。齊佛所知。一時消滅。生生世世。
 <lb ed="X" n="0688c19"/><lb ed="R099" n="0114a13"/>永離地獄．餓鬼．畜生身。永離女人身。永離邊地．下賤．
 <lb ed="X" n="0688c20"/><lb ed="R099" n="0114a14"/>八難身。願共法界諸眾生等。若於此生。若於餘生。常
@@ -137,7 +142,13 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0688c1701" to="#end0688c1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0688c1701" resp="#resp1" type="add" target="#nkr_note_add_0688c1701">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

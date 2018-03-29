@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:02:06 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,7 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【宮】</witness>
+		<witness xml:id="wit5">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -154,7 +156,7 @@ Added comment  for Emacs
 <lb n="0200b13" ed="T"/>
 <milestone n="1" unit="juan"/>
 <lb n="0200b14" ed="T"/>
-<lb n="0200b15" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor type="circle"/><anchor xml:id="nkr_note_orig_0200004" n="0200004"/><title>五分戒<anchor xml:id="nkr_note_orig_0200005" n="0200005"/><anchor xml:id="beg0200005" n="0200005"/>本<anchor xml:id="end0200005"/></title><note place="inline">亦名彌沙塞戒本</note></cb:jhead></cb:juan>
+<lb n="0200b15" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor type="circle"/><anchor xml:id="nkr_note_orig_0200004" n="0200004"/><title>五分戒<anchor xml:id="nkr_note_orig_0200005" n="0200005"/><anchor xml:id="nkr_note_mod_0200005" n="0200005"/><anchor xml:id="beg0200005" n="0200005"/>本<anchor xml:id="end0200005"/></title><note place="inline">亦名彌沙塞戒本</note></cb:jhead></cb:juan>
 <lb n="0200b16" ed="T"/>
 <lb n="0200b17" ed="T"/><byline cb:type="Translator">宋罽賓三藏佛陀什等譯</byline>
 <lb n="0200b18" ed="T"/><cb:div type="jing"><p xml:id="pT22p0200b1801">「大德僧聽！冬時一月過少一夜，餘有一夜
@@ -193,8 +195,8 @@ Added comment  for Emacs
 <lb n="0200c21" ed="T"/>戒羸不出想，行婬法乃至共畜生。是比丘
 <lb n="0200c22" ed="T"/>犯波羅夷罪，不應共事。</p>
 <lb n="0200c23" ed="T"/><p xml:id="pT22p0200c2301">「若比丘，若聚落中、若空地、曠野中物，不與
-<lb n="0200c24" ed="T"/>取名盜物。<anchor xml:id="nkr_note_orig_0200006" n="0200006"/><anchor xml:id="beg0200006" n="0200006"/>若<anchor xml:id="end0200006"/>不與物取故，若王、若王等，
-<lb n="0200c25" ed="T"/>若捉、若殺、若<anchor xml:id="beg_1" type="cb-app"/>輸<anchor xml:id="end_1"/>金罪，若如是言：『咄！汝小、汝
+<lb n="0200c24" ed="T"/>取名盜物。<anchor xml:id="nkr_note_orig_0200006" n="0200006"/><anchor xml:id="nkr_note_mod_0200006" n="0200006"/><anchor xml:id="beg0200006" n="0200006"/>若<anchor xml:id="end0200006"/>不與物取故，若王、若王等，
+<lb n="0200c25" ed="T"/>若捉、若殺、若<anchor xml:id="nkr_note_add_0200c2501" n="0200c2501"/><anchor xml:id="beg0200c2501" n="0200c2501"/>輸<anchor xml:id="end0200c2501"/>金罪，若如是言：『咄！汝小、汝
 <lb n="0200c26" ed="T"/>癡、汝賊。』有如是相比丘，是比丘犯波羅夷
 <lb n="0200c27" ed="T"/>罪，不應共事。</p>
 <lb n="0200c28" ed="T"/><p xml:id="pT22p0200c2801">「若比丘，若人、若似人，若自殺、若教人殺、若
@@ -272,7 +274,7 @@ Added comment  for Emacs
 <lb n="0201c10" ed="T"/>清淨，默然故，是事如是持。」</p>
 <lb n="0201c11" ed="T"/><p xml:id="pT22p0201c1101">「諸大德！是二不定法，半月半月戒經中
 <lb n="0201c12" ed="T"/>說。</p>
-<lb n="0201c13" ed="T"/><p xml:id="pT22p0201c1301">「若比丘，與一女人屏障內行<anchor xml:id="nkr_note_orig_0201001" n="0201001"/><anchor xml:id="beg0201001" n="0201001"/>淫<anchor xml:id="end0201001"/>處坐。隨
+<lb n="0201c13" ed="T"/><p xml:id="pT22p0201c1301">「若比丘，與一女人屏障內行<anchor xml:id="nkr_note_orig_0201001" n="0201001"/><anchor xml:id="nkr_note_mod_0201001" n="0201001"/><anchor xml:id="beg0201001" n="0201001"/>淫<anchor xml:id="end0201001"/>處坐。隨
 <lb n="0201c14" ed="T"/>可信優婆夷所見，是比丘隨三法中一一法
 <lb n="0201c15" ed="T"/>說，若僧伽婆尸沙、若波羅夷、若波夜提。隨
 <lb n="0201c16" ed="T"/>可信優婆夷所說，如法持。</p>
@@ -345,7 +347,7 @@ Added comment  for Emacs
 <lb n="0202b23" ed="T"/><p xml:id="pT22p0202b2301">「若比丘，先所畜鉢未滿五綴，為好故更畜
 <lb n="0202b24" ed="T"/>新者，尼薩耆波夜提。</p>
 <lb n="0202b25" ed="T"/><p xml:id="pT22p0202b2501">「若比丘，使非親里織師織，尼薩耆波夜提。</p>
-<lb n="0202b26" ed="T"/><p xml:id="pT22p0202b2601">「若比丘，非親里居士若居士婦使織師<anchor xml:id="beg_2" type="cb-app"/>為<anchor xml:id="end_2"/>
+<lb n="0202b26" ed="T"/><p xml:id="pT22p0202b2601">「若比丘，非親里居士若居士婦使織師<anchor xml:id="nkr_note_add_0202b2601" n="0202b2601"/><anchor xml:id="beg0202b2601" n="0202b2601"/>為<anchor xml:id="end0202b2601"/>
 <lb n="0202b27" ed="T"/>比丘織作衣。是比丘先不受自恣請，為好
 <lb n="0202b28" ed="T"/>衣故，往至織師所語言：『為我好織令緻廣
 <lb n="0202b29" ed="T"/>厚，當與汝少直。』若自語、若使人語，後得是
@@ -363,7 +365,7 @@ Added comment  for Emacs
 <lb n="0202c11" ed="T"/>若過，尼薩耆波夜提。</p>
 <lb n="0202c12" ed="T"/><p xml:id="pT22p0202c1201">「若比丘，知物向僧，自迴向己者，尼薩耆波
 <lb n="0202c13" ed="T"/>夜提。</p>
-<lb n="0202c14" ed="T"/><p xml:id="pT22p0202c1401">「若比丘，佛聽病比丘服四種含消藥：<anchor xml:id="nkr_note_orig_0202001" n="0202001"/><anchor xml:id="beg0202001" n="0202001"/>酥<anchor xml:id="end0202001"/>、油、
+<lb n="0202c14" ed="T"/><p xml:id="pT22p0202c1401">「若比丘，佛聽病比丘服四種含消藥：<anchor xml:id="nkr_note_orig_0202001" n="0202001"/><anchor xml:id="nkr_note_mod_0202001" n="0202001"/><anchor xml:id="beg0202001" n="0202001"/>酥<anchor xml:id="end0202001"/>、油、
 <lb n="0202c15" ed="T"/>蜜、石蜜乃至七日。若過，尼薩耆波夜提。」</p>
 <lb n="0202c16" ed="T"/><p xml:id="pT22p0202c1601">「諸大德！已說三十尼薩耆波夜提法竟。今
 <lb n="0202c17" ed="T"/>問，諸大德是中清淨不？」<note place="inline">如是三說</note>「諸大德是中
@@ -431,7 +433,7 @@ Added comment  for Emacs
 <lb n="0203b19" ed="T"/><p xml:id="pT22p0203b1901">「若比丘，與殘宿食，食者，波夜提。</p>
 <lb n="0203b20" ed="T"/><p xml:id="pT22p0203b2001">「若比丘，不受食著口中，除水及楊枝，波夜
 <lb n="0203b21" ed="T"/>提。</p>
-<lb n="0203b22" ed="T"/><p xml:id="pT22p0203b2201">「若比丘，不病，為己乞乳、酪、生<anchor xml:id="nkr_note_orig_0203001" n="0203001"/><anchor xml:id="beg0203001" n="0203001"/>酥<anchor xml:id="end0203001"/>、魚、肉脯者，
+<lb n="0203b22" ed="T"/><p xml:id="pT22p0203b2201">「若比丘，不病，為己乞乳、酪、生<anchor xml:id="nkr_note_orig_0203001" n="0203001"/><anchor xml:id="nkr_note_mod_0203001" n="0203001"/><anchor xml:id="beg0203001" n="0203001"/>酥<anchor xml:id="end0203001"/>、魚、肉脯者，
 <lb n="0203b23" ed="T"/>波夜提。</p>
 <lb n="0203b24" ed="T"/><p xml:id="pT22p0203b2401">「若比丘，知水有蟲，取用者，波夜提。</p>
 <lb n="0203b25" ed="T"/><p xml:id="pT22p0203b2501">「若比丘，食家中臥處坐者，波夜提。</p>
@@ -464,7 +466,7 @@ Added comment  for Emacs
 <lb n="0203c22" ed="T"/><p xml:id="pT22p0203c2201">「若比丘，減半月內沐浴，除因緣，波夜提</p>
 <lb n="0203c23" ed="T"/><p xml:id="pT22p0203c2301">「若比丘，故奪畜生命，波夜提。</p>
 <lb n="0203c24" ed="T"/><p xml:id="pT22p0203c2401">「若比丘，惱亂他比丘，波夜提。</p>
-<lb n="0203c25" ed="T"/><p xml:id="pT22p0203c2501">「若比丘，以指相擊<anchor xml:id="nkr_note_orig_0203002" n="0203002"/><anchor xml:id="beg0203002" n="0203002"/>攊<anchor xml:id="end0203002"/>，波夜提。</p>
+<lb n="0203c25" ed="T"/><p xml:id="pT22p0203c2501">「若比丘，以指相擊<anchor xml:id="nkr_note_orig_0203002" n="0203002"/><anchor xml:id="nkr_note_mod_0203002" n="0203002"/><anchor xml:id="beg0203002" n="0203002"/>攊<anchor xml:id="end0203002"/>，波夜提。</p>
 <lb n="0203c26" ed="T"/><p xml:id="pT22p0203c2601">「若比丘，以指戲水中者，波夜提。</p>
 <lb n="0203c27" ed="T"/><p xml:id="pT22p0203c2701">「若比丘，與女人同房舍宿。波夜提。</p>
 <lb n="0203c28" ed="T"/><p xml:id="pT22p0203c2801">「若比丘恐怖他比丘。波夜提。</p>
@@ -473,7 +475,7 @@ Added comment  for Emacs
 <lb n="0204a01" ed="T"/><p xml:id="pT22p0204a0101">「若比丘，先與五眾衣，輒還用，波夜提。</p>
 <lb n="0204a02" ed="T"/><p xml:id="pT22p0204a0201">「若比丘，以僧殘罪謗他比丘，波夜提。</p>
 <lb n="0204a03" ed="T"/><p xml:id="pT22p0204a0301">「若比丘，與女人同道行，至一聚落，波夜提。</p>
-<lb n="0204a04" ed="T"/><p xml:id="pT22p0204a0401">「若比丘，與賊同<anchor xml:id="beg_3" type="cb-app"/>道<anchor xml:id="end_3"/>行，至一聚落。波夜提。</p>
+<lb n="0204a04" ed="T"/><p xml:id="pT22p0204a0401">「若比丘，與賊同<anchor xml:id="nkr_note_add_0204a0401" n="0204a0401"/><anchor xml:id="beg0204a0401" n="0204a0401"/>道<anchor xml:id="end0204a0401"/>行，至一聚落。波夜提。</p>
 <lb n="0204a05" ed="T"/><p xml:id="pT22p0204a0501">「若比丘，未滿二十人與受具戒者，波夜提。</p>
 <lb n="0204a06" ed="T"/><p xml:id="pT22p0204a0601">「若比丘，自掘地、若使人掘，波夜提。</p>
 <lb n="0204a07" ed="T"/><p xml:id="pT22p0204a0701">「若比丘，有餘福德處，四月請僧一切藥施。
@@ -558,11 +560,11 @@ Added comment  for Emacs
 <lb n="0204c26" ed="T"/><p xml:id="pT22p0204c2601">「不反抄衣入白衣舍坐，應當學。</p>
 <lb n="0204c27" ed="T"/><p xml:id="pT22p0204c2701">「不左右反抄衣入白衣舍，應當學。</p>
 <lb n="0204c28" ed="T"/><p xml:id="pT22p0204c2801">「不左右反抄衣入白衣舍坐，應當學。</p>
-<lb n="0204c29" ed="T"/><p xml:id="pT22p0204c2901">「不放衣<anchor xml:id="nkr_note_orig_0204001" n="0204001"/><anchor xml:id="beg0204001" n="0204001"/>跳<anchor xml:id="end0204001"/>入白衣舍，應當學。</p>
+<lb n="0204c29" ed="T"/><p xml:id="pT22p0204c2901">「不放衣<anchor xml:id="nkr_note_orig_0204001" n="0204001"/><anchor xml:id="nkr_note_mod_0204001" n="0204001"/><anchor xml:id="beg0204001" n="0204001"/>跳<anchor xml:id="end0204001"/>入白衣舍，應當學。</p>
 <pb n="0205a" ed="T" xml:id="T22.1422b.0205a"/>
-<lb n="0205a01" ed="T"/><p xml:id="pT22p0205a0101">「不放衣<anchor xml:id="beg_4" type="star"/>跳<anchor xml:id="end_4"/>入白衣舍坐，應當學。</p>
-<lb n="0205a02" ed="T"/><p xml:id="pT22p0205a0201">「不<anchor xml:id="nkr_note_orig_0205001" n="0205001"/><anchor xml:id="beg0205001" n="0205001"/>掉<anchor xml:id="end0205001"/>臂入白衣舍，應當學。</p>
-<lb n="0205a03" ed="T"/><p xml:id="pT22p0205a0301">「不<anchor xml:id="beg_5" type="star"/>掉<anchor xml:id="end_5"/>臂入白衣舍坐，應當學。</p>
+<lb n="0205a01" ed="T"/><p xml:id="pT22p0205a0101">「不放衣<anchor xml:id="beg_1" type="star"/>跳<anchor xml:id="end_1"/>入白衣舍坐，應當學。</p>
+<lb n="0205a02" ed="T"/><p xml:id="pT22p0205a0201">「不<anchor xml:id="nkr_note_orig_0205001" n="0205001"/><anchor xml:id="nkr_note_mod_0205001" n="0205001"/><anchor xml:id="beg0205001" n="0205001"/>掉<anchor xml:id="end0205001"/>臂入白衣舍，應當學。</p>
+<lb n="0205a03" ed="T"/><p xml:id="pT22p0205a0301">「不<anchor xml:id="beg_2" type="star"/>掉<anchor xml:id="end_2"/>臂入白衣舍坐，應當學。</p>
 <lb n="0205a04" ed="T"/><p xml:id="pT22p0205a0401">「不搖肩入白衣舍，應當學。</p>
 <lb n="0205a05" ed="T"/><p xml:id="pT22p0205a0501">「不搖肩入白衣舍坐，應當學。</p>
 <lb n="0205a06" ed="T"/><p xml:id="pT22p0205a0601">「不搖頭入白衣舍，應當學。</p>
@@ -604,7 +606,7 @@ Added comment  for Emacs
 <lb n="0205b12" ed="T"/><p xml:id="pT22p0205b1201">「不得嫉心看比坐鉢中食，應當學。</p>
 <lb n="0205b13" ed="T"/><p xml:id="pT22p0205b1301">「一心觀鉢食，應當學。</p>
 <lb n="0205b14" ed="T"/><p xml:id="pT22p0205b1401">「次第食，應當學。</p>
-<lb n="0205b15" ed="T"/><p xml:id="pT22p0205b1501">「<anchor xml:id="nkr_note_orig_0205002" n="0205002"/><anchor xml:id="beg0205002" n="0205002"/>洗<anchor xml:id="end0205002"/>鉢汁不得棄白衣舍內，除語主人，應當
+<lb n="0205b15" ed="T"/><p xml:id="pT22p0205b1501">「<anchor xml:id="nkr_note_orig_0205002" n="0205002"/><anchor xml:id="nkr_note_mod_0205002" n="0205002"/><anchor xml:id="beg0205002" n="0205002"/>洗<anchor xml:id="end0205002"/>鉢汁不得棄白衣舍內，除語主人，應當
 <lb n="0205b16" ed="T"/>學。</p>
 <lb n="0205b17" ed="T"/><p xml:id="pT22p0205b1701">「騎乘人，不為說法，除病，應當學。</p>
 <lb n="0205b18" ed="T"/><p xml:id="pT22p0205b1801">「人在前、比丘在後，不為說法。除病應當學。</p>
@@ -652,7 +654,7 @@ Added comment  for Emacs
 <pb n="0206a" ed="T" xml:id="T22.1422b.0206a"/>
 <lb n="0206a01" ed="T"/><p xml:id="pT22p0206a0101">「諸大德！已說戒序、四波羅夷、十三僧殘、二
 <lb n="0206a02" ed="T"/>不定、三十尼薩耆波夜提、九十波夜提、四波
-<lb n="0206a03" ed="T"/>羅<anchor xml:id="nkr_note_orig_0206001" n="0206001"/><anchor xml:id="beg0206001" n="0206001"/>夷<anchor xml:id="end0206001"/>提提舍尼、眾學法、七滅諍法竟。是事
+<lb n="0206a03" ed="T"/>羅<anchor xml:id="nkr_note_orig_0206001" n="0206001"/><anchor xml:id="nkr_note_mod_0206001" n="0206001"/><anchor xml:id="beg0206001" n="0206001"/>夷<anchor xml:id="end0206001"/>提提舍尼、眾學法、七滅諍法竟。是事
 <lb n="0206a04" ed="T"/>入佛經中，半月半月戒經中說。若有餘學，
 <lb n="0206a05" ed="T"/>當一心學。如水乳合安樂行，應當學。」</p>
 <lb n="0206a06" ed="T"/><p xml:id="pT22p0206a0601">佛告比丘：「毘婆尸佛如來、應供、正遍知，為
@@ -698,7 +700,7 @@ Added comment  for Emacs
 <lb n="0206b16" ed="T"/><l rend="text-indent:1em">恭敬戒經已，</l><l>各各相恭敬，</l>
 <lb n="0206b17" ed="T"/><l rend="text-indent:1em">慚愧得具足，</l><l>能得無為道。」</l></lg>
 <lb n="0206b18" ed="T"/><p xml:id="pT22p0206b1801">「已說戒經竟，僧一心布薩。」</p>
-<lb n="0206b19" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title>五分戒<anchor xml:id="nkr_note_orig_0206002" n="0206002"/><anchor xml:id="beg0206002" n="0206002"/>本<anchor xml:id="end0206002"/></title></cb:jhead></cb:juan></cb:div>
+<lb n="0206b19" ed="T"/><cb:juan n="001" fun="close"><cb:jhead><title>五分戒<anchor xml:id="nkr_note_orig_0206002" n="0206002"/><anchor xml:id="nkr_note_mod_0206002" n="0206002"/><anchor xml:id="beg0206002" n="0206002"/>本<anchor xml:id="end0206002"/></title></cb:jhead></cb:juan></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
@@ -706,20 +708,36 @@ Added comment  for Emacs
 <p>
 <app from="#beg0200005" to="#end0200005"><lem wit="#wit1">本</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">本一卷</rdg></app>
 <app from="#beg0200006" to="#end0200006"><lem wit="#wit1">若</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">如</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>輸</corr><sic>偷</sic></choice>
+<app from="#beg0200c2501" to="#end0200c2501"><lem wit="#wit5" resp="#resp3">輸</lem><rdg wit="#wit1">偷</rdg></app>
 <app from="#beg0201001" to="#end0201001"><lem wit="#wit1">淫</lem><rdg resp="#resp1" wit="#wit4">婬</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>為</corr><sic>得</sic></choice>
+<app from="#beg0202b2601" to="#end0202b2601"><lem wit="#wit5" resp="#resp3">為</lem><rdg wit="#wit1">得</rdg></app>
 <app from="#beg0202001" to="#end0202001"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit2 #wit4">蘇</rdg></app>
 <app from="#beg0203001" to="#end0203001"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit4">蘇</rdg></app>
 <app from="#beg0203002" to="#end0203002"><lem wit="#wit1">攊</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">歷</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>道</corr><sic>盜</sic></choice>
+<app from="#beg0204a0401" to="#end0204a0401"><lem wit="#wit5" resp="#resp3">道</lem><rdg wit="#wit1">盜</rdg></app>
 <app from="#beg0204001" to="#end0204001"><lem wit="#wit1">跳</lem><rdg resp="#resp1" wit="#wit4">挑</rdg></app>
-<app from="#beg_4" to="#end_4" corresp="#0204001"><lem wit="#wit1">跳</lem><rdg resp="#resp1" wit="#wit4">挑</rdg></app>
+<app from="#beg_1" to="#end_1" corresp="#0204001"><lem wit="#wit1">跳</lem><rdg resp="#resp1" wit="#wit4">挑</rdg></app>
 <app from="#beg0205001" to="#end0205001"><lem wit="#wit1">掉</lem><rdg resp="#resp1" wit="#wit4">挑</rdg></app>
-<app from="#beg_5" to="#end_5" corresp="#0205001"><lem wit="#wit1">掉</lem><rdg resp="#resp1" wit="#wit4">挑</rdg></app>
+<app from="#beg_2" to="#end_2" corresp="#0205001"><lem wit="#wit1">掉</lem><rdg resp="#resp1" wit="#wit4">挑</rdg></app>
 <app from="#beg0205002" to="#end0205002"><lem wit="#wit1">洗</lem><rdg resp="#resp1" wit="#wit4">洒</rdg></app>
 <app from="#beg0206001" to="#end0206001"><lem wit="#wit1">夷</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0206002" to="#end0206002"><lem wit="#wit1">本</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">本一卷</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0200005" resp="#resp2" type="mod" target="#nkr_note_mod_0200005">本【大】，本一卷【宋】【元】【宮】</note>
+<note n="0200006" resp="#resp2" type="mod" target="#nkr_note_mod_0200006">若【大】，如【宋】【元】【宮】</note>
+<note n="0201001" resp="#resp2" type="mod" target="#nkr_note_mod_0201001">淫【大】，婬【宮】</note>
+<note n="0202001" resp="#resp2" type="mod" target="#nkr_note_mod_0202001">酥【大】，蘇【宋】【宮】</note>
+<note n="0203001" resp="#resp2" type="mod" target="#nkr_note_mod_0203001">酥【大】，蘇【宮】</note>
+<note n="0203002" resp="#resp2" type="mod" target="#nkr_note_mod_0203002">攊【大】，歷【宋】【元】【宮】</note>
+<note n="0204001" resp="#resp2" type="mod" target="#nkr_note_mod_0204001">跳【大】＊，挑【宮】＊</note>
+<note n="0205001" resp="#resp2" type="mod" target="#nkr_note_mod_0205001">掉【大】＊，挑【宮】＊</note>
+<note n="0205002" resp="#resp2" type="mod" target="#nkr_note_mod_0205002">洗【大】，洒【宮】</note>
+<note n="0206001" resp="#resp2" type="mod" target="#nkr_note_mod_0206001">夷【大】，〔－〕【宋】【元】【宮】</note>
+<note n="0206002" resp="#resp2" type="mod" target="#nkr_note_mod_0206002">本【大】，本一卷【宋】【元】【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -737,6 +755,14 @@ Added comment  for Emacs
 <note n="0205002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0205002">洗＝洒【宮】</note>
 <note n="0206001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0206001">〔夷〕－【宋】【元】【宮】</note>
 <note n="0206002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0206002">本＋（一卷）【宋】【元】【宮】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0200c2501" resp="#resp2" type="add" target="#nkr_note_add_0200c2501">輸【CB】，偷【大】</note>
+<note n="0202b2601" resp="#resp2" type="add" target="#nkr_note_add_0202b2601">為【CB】，得【大】</note>
+<note n="0204a0401" resp="#resp2" type="add" target="#nkr_note_add_0204a0401">道【CB】，盜【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

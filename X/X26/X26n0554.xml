@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 08:54:12 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 26, No. 554</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -93,7 +98,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0876b06"/><lb ed="R041" n="0935b09"/><cb:div type="w"><cb:mulu type="附文" level="1">附　大般若經受持功德</cb:mulu><head>附　大般若經受持功德</head>
 <lb ed="X" n="0876b07"/><lb ed="R041" n="0935b10"/><p xml:id="pX26p0876b0701">佛告善勇猛菩薩言。若諸菩薩手執如是甚深般若
 <lb ed="X" n="0876b08"/><lb ed="R041" n="0935b11"/>波羅蜜多。方便善巧相應法教。是諸菩薩。設不現前
-<lb ed="X" n="0876b09"/><lb ed="R041" n="0935b12"/>蒙佛授記。當知<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>蒙佛授記。或復不久當蒙佛現前
+<lb ed="X" n="0876b09"/><lb ed="R041" n="0935b12"/>蒙佛授記。當知<anchor xml:id="nkr_note_add_0876b0901" n="0876b0901"/><anchor xml:id="beg0876b0901" n="0876b0901"/>已<anchor xml:id="end0876b0901"/>蒙佛授記。或復不久當蒙佛現前
 <lb ed="X" n="0876b10"/><lb ed="R041" n="0935b13"/>授記。如是菩薩。若手執如此甚深般若波羅蜜多。當
 <lb ed="X" n="0876b11"/><lb ed="R041" n="0935b14"/>知鄰近所求無上正等菩提。定無疑惑。速坐妙菩提
 <lb ed="X" n="0876b12"/><lb ed="R041" n="0935b15"/>座。又速獲一切智智。乃至云。菩薩若以般若波羅蜜
@@ -181,7 +186,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0877b19"/><lb ed="R041" n="0938a04"/>槃界。何以故。憍尸迦。如是般若波羅蜜多。普攝一切
 <lb ed="X" n="0877b20"/><lb ed="R041" n="0938a05"/>菩提分法。若諸佛法。若菩薩法。若獨覺法。若聲聞法。
 <lb ed="X" n="0877b21"/><lb ed="R041" n="0938a06"/>皆俱攝故。</p><p xml:id="pX26p0877b2105" rend="inline">若善男子善女人等。暫聽如是般若波
-<lb ed="X" n="0877b22"/><lb ed="R041" n="0938a07"/>羅蜜多。聞<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>書寫。讀誦受持。思惟修習。是善男子善
+<lb ed="X" n="0877b22"/><lb ed="R041" n="0938a07"/>羅蜜多。聞<anchor xml:id="nkr_note_add_0877b2201" n="0877b2201"/><anchor xml:id="beg0877b2201" n="0877b2201"/>已<anchor xml:id="end0877b2201"/>書寫。讀誦受持。思惟修習。是善男子善
 <lb ed="X" n="0877b23"/><lb ed="R041" n="0938a08"/>女人等。速出生死。證得涅槃。摩訶般若經云。若人為
 <lb ed="X" n="0877b24"/><lb ed="R041" n="0938a09"/>佛起七寶塔。滿三千大千世界。皆高一由旬。盡壽以
 <pb ed="X" xml:id="X26.0554.0877c" n="0877c"/>
@@ -253,8 +258,15 @@ basicx 程式 轉自 簡單標記版
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0876b0901" to="#end0876b0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0877b2201" to="#end0877b2201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0876b0901" resp="#resp1" type="add" target="#nkr_note_add_0876b0901">已【CB】，巳【卍續】</note>
+<note n="0877b2201" resp="#resp1" type="add" target="#nkr_note_add_0877b2201">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

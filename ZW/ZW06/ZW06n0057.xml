@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.5 $<date>$Date: 2011/03/08 09:20:42 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>ZangWai</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 6, No. 57</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -245,7 +250,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="ZW" n="0395a07"/>佛教的一些較早的形式。換句話說，《金剛經科儀》至今仍為雲
 <lb ed="ZW" n="0395a08"/>南劍川阿吒力廣泛使用，可以說明今天的阿吒力的所作所為，是
 <lb ed="ZW" n="0395a09"/>漢地佛教的部分較早形式的遺存。</p>
-<lb ed="ZW" n="0395a10"/><p xml:id="pZW06p0395a1001" rend="margin-left:0em;text-indent:2em">既然阿吒力經典是漢地佛教經典，它們是何時傳<anchor xml:id="beg_1" type="cb-app"/>入<anchor xml:id="end_1"/>的？阿
+<lb ed="ZW" n="0395a10"/><p xml:id="pZW06p0395a1001" rend="margin-left:0em;text-indent:2em">既然阿吒力經典是漢地佛教經典，它們是何時傳<anchor xml:id="nkr_note_add_0395a1001" n="0395a1001"/><anchor xml:id="beg0395a1001" n="0395a1001"/>入<anchor xml:id="end0395a1001"/>的？阿
 <lb ed="ZW" n="0395a11"/>吒力又是漢地佛教中的哪一支呢？</p>
 <lb ed="ZW" n="0395a12"/><p xml:id="pZW06p0395a1201" rend="margin-left:0em;text-indent:2em">就雲南地方史來看，「宋揮玉斧」儘管不盡符合歷史事實，但
 <lb ed="ZW" n="0395a13"/>大理國與宋代交往不多，且主要以經濟往來為主，這是不容否認
@@ -382,7 +387,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>入</corr><sic>人</sic></choice>
+<app from="#beg0395a1001" to="#end0395a1001"><lem wit="#wit1" resp="#resp3">入</lem><rdg wit="#wit2">人</rdg></app>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
@@ -396,6 +401,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <note n="0396004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0396004">洪仁撰〈故考大阿拶哩段公墓誌銘〉，見石鐘，《滇西考古報告》附錄IV（雲南省立龍淵中學油印，民國三十三年六月），頁33。</note>
 <note n="0397001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0397001">楊森撰〈老人趙公壽藏銘〉，引自《弘圭山碑文摘錄》，見雲南省社會科學院圖書館檔案白族部分第192卷。</note>
 <note n="0399001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0399001">李四龍〈民俗佛教的形成與特徵〉，載《北京大學學報》（哲社版）1996年第四期。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0395a1001" resp="#resp2" type="add" target="#nkr_note_add_0395a1001">入【CB】，人【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

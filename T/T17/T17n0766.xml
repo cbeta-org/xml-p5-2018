@@ -15,7 +15,6 @@
 		<edition>$Revision: 1.12 $<date>$Date: 2012/10/08 08:17:38 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -186,7 +185,7 @@ Added comment  for Emacs
 <lb ed="T" n="0700a02"/>蘊。三種學法，謂戒、定、慧學。有三種修，謂戒修、
 <lb n="0700a03" ed="T"/>定修、慧修，有學、無學、非有學非無學。有三種
 <lb n="0700a04" ed="T"/>道，謂見道、修道、無學道。有三種根，謂未知
-<lb n="0700a05" ed="T"/>根、已知根、具知<anchor xml:id="nkr_note_orig_0700001" n="0700001"/><anchor xml:id="beg0700001" n="0700001"/>根<anchor xml:id="end0700001"/>。有三種行法，謂聖行、天
+<lb n="0700a05" ed="T"/>根、已知根、具知<anchor xml:id="nkr_note_orig_0700001" n="0700001"/><anchor xml:id="nkr_note_mod_0700001" n="0700001"/><anchor xml:id="beg0700001" n="0700001"/>根<anchor xml:id="end0700001"/>。有三種行法，謂聖行、天
 <lb ed="T" n="0700a06"/>行、梵行。有三分別，謂蘊、處、界。了三法已獲大
 <lb ed="T" n="0700a07"/>福聚，證得解脫寂靜涅<anchor xml:id="nkr_note_orig_0700002" n="0700002"/><anchor xml:id="nkr_note_mod_0700002" n="0700002"/><anchor xml:id="beg0700002" n="0700002"/>盤<anchor xml:id="end0700002"/>，三不空念住。如
 <lb ed="T" n="0700a08"/>來於諸眾生平等覆護，三種蘊法，有三補特
@@ -221,7 +220,7 @@ Added comment  for Emacs
 <lb ed="T" n="0700b07"/>通、六念。復六種法、五種離<anchor xml:id="beg_2" type="star"/>慾<anchor xml:id="end_2"/>、六種修法、六
 <lb ed="T" n="0700b08"/>見道位、六相續行、六證明想。七補特伽羅、七
 <lb ed="T" n="0700b09"/>大丈夫行、七識住、七覺支、七無過失法、七
-<lb n="0700b10" ed="T"/>三摩地受用法、七種妙法、<anchor xml:id="nkr_note_orig_0700003" n="0700003"/><anchor xml:id="beg0700003" n="0700003"/>七<anchor xml:id="end0700003"/>種界分、七善
+<lb n="0700b10" ed="T"/>三摩地受用法、七種妙法、<anchor xml:id="nkr_note_orig_0700003" n="0700003"/><anchor xml:id="nkr_note_mod_0700003" n="0700003"/><anchor xml:id="beg0700003" n="0700003"/>七<anchor xml:id="end0700003"/>種界分、七善
 <lb ed="T" n="0700b11"/>解處、七種修道。八正道分、八種補特伽羅、八
 <lb ed="T" n="0700b12"/>種別解脫戒。復八解脫、八處、八智、八道、八戒、
 <lb n="0700b13" ed="T"/>八會，及八種世法，如來相續、真常、精進、清淨
@@ -269,10 +268,12 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note resp="#resp2" n="0699004" type="mod" target="#nkr_note_mod_0699004">（西天譯經三藏朝奉大夫試光祿卿明教大師臣）<choice cb:resp="#resp3"><corr>十</corr><sic><space quantity="0"/></sic></choice>九字＝（三藏法師）四字【宋】【元】【宮】，＝（宋三藏法師）五字【明】</note>
-<note resp="#resp2" n="0699005" type="mod" target="#nkr_note_mod_0699005">慾＝欲【宋】【元】【明】【宮】＊</note>
-<note n="0699006" resp="#resp2" type="mod" target="#nkr_note_mod_0699006">苦＝若【宋】【元】【明】【宮】</note>
-<note resp="#resp2" n="0700002" type="mod" target="#nkr_note_mod_0700002">盤＝槃【宋】【元】【明】【宮】＊</note>
+<note resp="#resp2" n="0699004" type="mod" target="#nkr_note_mod_0699004">西天譯經三藏朝奉大夫試光祿卿明教大師臣【大】，三藏法師【宋】【元】【宮】，宋三藏法師【明】</note>
+<note resp="#resp2" n="0699005" type="mod" target="#nkr_note_mod_0699005">慾【大】＊，欲【宋】【元】【明】【宮】＊</note>
+<note n="0699006" resp="#resp2" type="mod" target="#nkr_note_mod_0699006">苦【大】，若【宋】【元】【明】【宮】</note>
+<note resp="#resp2" n="0700001" type="mod" target="#nkr_note_mod_0700001">根【大】，相【宋】【元】</note>
+<note resp="#resp2" n="0700002" type="mod" target="#nkr_note_mod_0700002">盤【大】＊，槃【宋】【元】【明】【宮】＊</note>
+<note type="mod" n="0700003" resp="#resp2" target="#nkr_note_mod_0700003">七【大】，十【宋】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

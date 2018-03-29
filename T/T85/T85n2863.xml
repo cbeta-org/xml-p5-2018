@@ -32,7 +32,8 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2863</bibl>
 	<listWit>
-		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -168,7 +169,7 @@ Added comment  for Emacs
 <lb n="1323a28" ed="T"/>絹筐悉皆咸臻。知罪福懃耕懇苦足口糧。一
 <lb n="1323a29" ed="T"/>志五情不改易。東州西郡並稱揚。但令讀此
 <pb n="1323b" xml:id="T85.2863.1323b" ed="T"/>
-<lb n="1323b01" ed="T"/>篇章熟。頑愚暗<anchor xml:id="beg_1" type="cb-app"/>憃<anchor xml:id="end_1"/>悉賢良。</p>
+<lb n="1323b01" ed="T"/>篇章熟。頑愚暗<anchor xml:id="nkr_note_add_1323b0101" n="1323b0101"/><anchor xml:id="beg1323b0101" n="1323b0101"/>憃<anchor xml:id="end1323b0101"/>悉賢良。</p>
 <lb n="1323b02" ed="T"/><p xml:id="pT85p1323b0201">遙看世間人。村坊安社邑。一家有死生。合村
 <lb n="1323b03" ed="T"/>相就泣。張口哭他屍。不知身去急。本是長眠
 <lb n="1323b04" ed="T"/>鬼。暫來地上立。欲似養兒氈。迴乾且就濕。
@@ -191,7 +192,7 @@ Added comment  for Emacs
 <lb n="1323b21" ed="T"/>苦煩惱。夜眠遊鬼界。天曉歸人道。忽起相羅
 <lb n="1323b22" ed="T"/>拽啾唧索祖調。貧苦無處得。相接彼鞭拷。生
 <lb n="1323b23" ed="T"/>時有苦痛。不如早死好。</p>
-<lb n="1323b24" ed="T"/><p xml:id="pT85p1323b2401">他家咲吾貧<anchor xml:id="nkr_note_orig_1323002" n="1323002"/><anchor xml:id="beg1323002" n="1323002"/>吾貧<anchor xml:id="end1323002"/>。吾貧極快樂。無牛亦無
+<lb n="1323b24" ed="T"/><p xml:id="pT85p1323b2401">他家咲吾貧<anchor xml:id="nkr_note_orig_1323002" n="1323002"/><anchor xml:id="nkr_note_mod_1323002" n="1323002"/><anchor xml:id="beg1323002" n="1323002"/>吾貧<anchor xml:id="end1323002"/>。吾貧極快樂。無牛亦無
 <lb n="1323b25" ed="T"/>馬。不愁賤抄掠。儞富戶役高。羞利並用却。吾
 <lb n="1323b26" ed="T"/>無呼喚處。飽喫長展脚。</p>
 <lb n="1323b27" ed="T"/><p xml:id="pT85p1323b2701">儞富披錦袍。尋常被纏縛。窮苦無煩惱。草衣
@@ -253,8 +254,14 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>憃</corr><sic>惷</sic></choice>
-<app from="#beg1323002" to="#end1323002"><lem resp="#resp1" wit="#wit1">吾貧</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
+<app from="#beg1323b0101" to="#end1323b0101"><lem wit="#wit1" resp="#resp2">憃</lem><rdg wit="#wit2">惷</rdg></app>
+<app from="#beg1323002" to="#end1323002"><lem resp="#resp1" wit="#wit2">吾貧</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="1323002" resp="#resp2" type="mod" target="#nkr_note_mod_1323002">吾貧【大】，〔－〕【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -263,6 +270,12 @@ Added comment  for Emacs
 <note n="1323001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1323001">大英博物館藏燉煌本, S. 778</note>
 <note n="1323002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1323002">〔吾貧〕－？</note>
 <note n="1324001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1324001">以下缺</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1323b0101" resp="#resp2" type="add" target="#nkr_note_add_1323b0101">憃【CB】，惷【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

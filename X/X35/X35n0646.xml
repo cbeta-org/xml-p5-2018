@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2009/04/22 08:55:53 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 35, No. 646</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -247,7 +252,7 @@ Revision 1.1  2006/09/29 03:42:52  duncan
 <lb ed="X" n="0165c24"/><lb ed="R055" n="0291a18"/>水火難稀鬼虎事寡運衰方值諍訟事眾世之諍
 <pb ed="X" xml:id="X35.0646.0166a" n="0166a"/>
 <lb ed="X" n="0166a01"/><lb ed="R055" n="0291b01"/>本財色田宅日用有之勸持則要也刀杖幽執有
-<lb ed="X" n="0166a02"/><lb ed="R055" n="0291b02"/>過方遭軍陣王役事非由<anchor xml:id="beg_1" type="cb-app"/>己<anchor xml:id="end_1"/>又捔力相持自刃森
+<lb ed="X" n="0166a02"/><lb ed="R055" n="0291b02"/>過方遭軍陣王役事非由<anchor xml:id="nkr_note_add_0166a0201" n="0166a0201"/><anchor xml:id="beg0166a0201" n="0166a0201"/>己<anchor xml:id="end0166a0201"/>又捔力相持自刃森
 <lb ed="X" n="0166a03"/><lb ed="R055" n="0291b03"/>目刀杖案籍賖死之難賊奪有財非如師旅斯亦
 <lb ed="X" n="0166a04"/><lb ed="R055" n="0291b04"/>勸之要也。</p>
 <lb ed="X" n="0166a05"/><lb ed="R055" n="0291b05"/><p xml:id="pX35p0166a0501" rend="margin-left:1em">△次一行一句正勸又二初三句約權實格量次
@@ -300,7 +305,13 @@ Revision 1.1  2006/09/29 03:42:52  duncan
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>巳</sic></choice>
+<app from="#beg0166a0201" to="#end0166a0201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0166a0201" resp="#resp1" type="add" target="#nkr_note_add_0166a0201">己【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

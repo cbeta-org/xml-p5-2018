@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 09:00:45 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 57, No. 959</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -94,10 +99,10 @@ no message
 <lb ed="X" n="0097b10"/><lb ed="R101" n="0408b10"/>境之旨却以一念而為真心不立陰境四明斥云大
 <lb ed="X" n="0097b11"/><lb ed="R101" n="0408b11"/>失宗旨所以特立陰妄而為所觀顯於妙理故曰指
 <lb ed="X" n="0097b12"/><lb ed="R101" n="0408b12"/>介爾之心為事理解行之要豈非中興境觀之說乎
-<lb ed="X" n="0097b13"/><lb ed="R101" n="0408b13"/>得此意<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>方可與論四明中與教觀之說其如三諦
+<lb ed="X" n="0097b13"/><lb ed="R101" n="0408b13"/>得此意<anchor xml:id="nkr_note_add_0097b1301" n="0097b1301"/><anchor xml:id="beg0097b1301" n="0097b1301"/>已<anchor xml:id="end0097b1301"/>方可與論四明中與教觀之說其如三諦
 <lb ed="X" n="0097b14"/><lb ed="R101" n="0408b14"/>事理三千總別有相無相二境三觀三身壽量播在
 <lb ed="X" n="0097b15"/><lb ed="R101" n="0408b15"/>章記從而可知寄語學者宣宗思之稟承教觀須識
-<lb ed="X" n="0097b16"/><lb ed="R101" n="0408b16"/>源流不可望風而<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>。</p>
+<lb ed="X" n="0097b16"/><lb ed="R101" n="0408b16"/>源流不可望風而<anchor xml:id="nkr_note_add_0097b1601" n="0097b1601"/><anchor xml:id="beg0097b1601" n="0097b1601"/>已<anchor xml:id="end0097b1601"/>。</p>
 <lb ed="X" n="0097b17"/><lb ed="R101" n="0408b17"/>
 <lb ed="X" n="0097b18"/><lb ed="R101" n="0408b18"/><cb:juan fun="close" n="1"><cb:jhead>議中興教觀<note place="inline">終</note></cb:jhead></cb:juan></cb:div>
 </body>
@@ -105,8 +110,15 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0097b1301" to="#end0097b1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0097b1601" to="#end0097b1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0097b1301" resp="#resp1" type="add" target="#nkr_note_add_0097b1301">已【CB】，巳【卍續】</note>
+<note n="0097b1601" resp="#resp1" type="add" target="#nkr_note_add_0097b1601">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

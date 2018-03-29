@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 34, No. 1725</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -161,7 +165,7 @@ Added comment  for Emacs
 <lb n="0870c24" ed="T"/>非玄。則離麁之軌乃稱妙法。權華開敷實菓
 <lb n="0870c25" ed="T"/>泰彰。無染之美假喻蓮花。然妙法妙絕。何三
 <lb n="0870c26" ed="T"/>何一至久至冥。誰短誰長茲□□總入之不
-<lb n="0870c27" ed="T"/>易。諸子瀾漫出之良難。是如來引之□權<anchor xml:id="beg_1" type="cb-app"/>羨<anchor xml:id="end_1"/>
+<lb n="0870c27" ed="T"/>易。諸子瀾漫出之良難。是如來引之□權<anchor xml:id="nkr_note_add_0870c2701" n="0870c2701"/><anchor xml:id="beg0870c2701" n="0870c2701"/>羨<anchor xml:id="end0870c2701"/>
 <lb n="0870c28" ed="T"/>□車。於鹿苑示有□之麁身。駕白牛於鷲岳
 <lb n="0870c29" ed="T"/>顯無限之長命。斯迺□一以破三。三除一捨。
 <pb n="0871a" xml:id="T34.1725.0871a" ed="T"/>
@@ -609,13 +613,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>羨</corr><sic>羡</sic></choice>
+<app from="#beg0870c2701" to="#end0870c2701"><lem wit="#wit1" resp="#resp2">羨</lem><rdg wit="#wit2">羡</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0870040" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0870040">【原】弘安六年相承仁和寺藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0870c2701" resp="#resp2" type="add" target="#nkr_note_add_0870c2701">羨【CB】，羡【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

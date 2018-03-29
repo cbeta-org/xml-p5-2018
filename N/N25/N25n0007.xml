@@ -14,7 +14,8 @@
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>NanChuan</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>2卷</extent>
 		<publicationStmt>
@@ -31,7 +32,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Chinese Translation of the Pāḷi Tipiṭaka (Yuan Heng Temple Edition) Vol. 25, No. 7</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【南傳】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -64,7 +69,7 @@ $Log:$
 <lb ed="N" n="0001a06"/>
 <lb ed="N" n="0001a07"/><cb:div type="other"><cb:mulu type="其他" level="2">第二之五十經下</cb:mulu>
 <lb ed="N" n="0001a08"/><cb:div type="other"><cb:mulu type="其他" level="3">第七　雙品</cb:mulu><head>第七　雙品</head>
-<lb ed="N" n="0001a09"/><cb:div type="other"><cb:mulu type="其他" level="4">六十一　無明</cb:mulu><head>六十一　無明<anchor xml:id="nkr_note_orig_0001001" n="0001001"/></head>
+<lb ed="N" n="0001a09"/><cb:div type="other"><cb:mulu type="其他" level="4">六十一　無明</cb:mulu><head>六十一　無明<anchor xml:id="nkr_note_orig_0001001" n="0001001"/><anchor xml:id="nkr_note_mod_0001001" n="0001001"/></head>
 <lb ed="N" n="0001a10"/><p xml:id="pN25p0001a1001">一</p><p xml:id="pN25p0001a1002" rend="margin-left:2em;text-indent:2em;inline">「諸比丘！不了知無明之本際：『從此前無無明，其後生無明』，諸比丘！如是
 <lb ed="N" n="0001a11"/>被〔他人〕說也。然而，當知所謂『緣此而有無明』者。諸比丘！復次，我說於無
 <lb ed="N" n="0001a12"/>明有食非無食；何謂為無明之食耶？當說五蓋為食。諸比丘！復次，我說於五蓋有
@@ -1011,7 +1016,7 @@ $Log:$
 <lb ed="N" n="0064a08"/>
 <lb ed="N" n="0064a09"/>
 <lb ed="N" n="0064a10"/>
-<lb ed="N" n="0064a11"/><cb:div type="other"><cb:mulu type="其他" level="4">八十九　拘迦利</cb:mulu><head><ref target="#PTS.A.5.170"></ref>八十九　拘迦利<anchor xml:id="nkr_note_orig_0064001" n="0064001"/></head>
+<lb ed="N" n="0064a11"/><cb:div type="other"><cb:mulu type="其他" level="4">八十九　拘迦利</cb:mulu><head><ref target="#PTS.A.5.170"></ref>八十九　拘迦利<anchor xml:id="nkr_note_orig_0064001" n="0064001"/><anchor xml:id="nkr_note_mod_0064001" n="0064001"/></head>
 <lb ed="N" n="0064a12"/><p xml:id="pN25p0064a1201">一</p><p xml:id="pN25p0064a1202" rend="margin-left:2em;text-indent:2em;inline">時，拘迦利比丘往詣世尊所在之處，至已禮敬世尊，退坐一面。坐於一面之拘
 <lb ed="N" n="0064a13"/>迦利比丘白世尊言：</p>
 <lb ed="N" n="0064a14"/><p xml:id="pN25p0064a1401" rend="margin-left:2em;text-indent:2em">「大德！舍利弗、目犍連有惡欲，制於惡欲。」</p>
@@ -1052,7 +1057,7 @@ $Log:$
 <lb ed="N" n="0067a04"/><l rend="text-indent:7em">更加大之惡運也</l></lg>
 <lb ed="N" n="0067a05"/><lg xml:id="lgN25p0067a0501" type="abnormal"><l rend="text-indent:7em">若起惡語意而呵責聖者</l>
 <lb ed="N" n="0067a06"/><l rend="text-indent:7em">則趣向</l>
-<lb ed="N" n="0067a07"/><l rend="text-indent:7em">十萬三十六尼<anchor xml:id="beg_1" type="cb-app"/>剌<anchor xml:id="end_1"/>部陀歲</l>
+<lb ed="N" n="0067a07"/><l rend="text-indent:7em">十萬三十六尼<anchor xml:id="nkr_note_add_0067a0701" n="0067a0701"/><anchor xml:id="beg0067a0701" n="0067a0701"/>剌<anchor xml:id="end0067a0701"/>部陀歲</l>
 <lb ed="N" n="0067a08"/><l rend="text-indent:7em">與五頞部陀歲間之地獄」</l></lg>
 <lb ed="N" n="0067a09"/><p xml:id="pN25p0067a0901"><ref target="#PTS.A.5.172"></ref>四</p><p xml:id="pN25p0067a0902" rend="margin-left:2em;text-indent:2em;inline">時，拘迦利比丘即以其病命終。命終之拘迦利比丘對舍利弗、目犍連起害心故，
 <lb ed="N" n="0067a10"/>生於紅蓮地獄。</p>
@@ -1076,7 +1081,7 @@ $Log:$
 <lb ed="N" n="0068a13"/><p xml:id="pN25p0068a1301" rend="margin-left:2em;text-indent:2em">「比丘！譬如有二十拘薩羅量胡麻之載量，人從此經百歲每出一粒之胡麻，比
 <lb ed="N" n="0068a14"/>丘！依此方便而二十拘薩羅量之胡麻盡，則此一頞部陀地獄還迅速。比丘！二十頞
 <pb ed="N" xml:id="N25.0007.0069a" n="0069a"/>
-<lb ed="N" n="0069a01"/>部陀地獄等於一尼<anchor xml:id="beg_2" type="cb-app"/>剌<anchor xml:id="end_2"/>部陀地獄。比丘！二十尼<anchor xml:id="beg_3" type="cb-app"/>剌<anchor xml:id="end_3"/>部陀地獄等於一阿婆婆地獄。比丘！
+<lb ed="N" n="0069a01"/>部陀地獄等於一尼<anchor xml:id="nkr_note_add_0069a0101" n="0069a0101"/><anchor xml:id="beg0069a0101" n="0069a0101"/>剌<anchor xml:id="end0069a0101"/>部陀地獄。比丘！二十尼<anchor xml:id="nkr_note_add_0069a0102" n="0069a0102"/><anchor xml:id="beg0069a0102" n="0069a0102"/>剌<anchor xml:id="end0069a0102"/>部陀地獄等於一阿婆婆地獄。比丘！
 <lb ed="N" n="0069a02"/>二十阿婆婆地獄等於一阿訶訶地獄。比丘！二十阿訶訶地獄等於一阿吒吒地獄。比
 <lb ed="N" n="0069a03"/>丘！二十阿吒吒地獄等於一白睡蓮地獄。比丘！二十白睡蓮地獄等於一青睡蓮地
 <lb ed="N" n="0069a04"/>獄。比丘！二十青睡蓮地獄等於一青蓮地獄。比丘！〔二十〕青蓮地獄等於一白蓮
@@ -1098,7 +1103,7 @@ $Log:$
 <lb ed="N" n="0070a05"/><l rend="text-indent:7em">更加大之惡運也</l></lg>
 <lb ed="N" n="0070a06"/><lg xml:id="lgN25p0070a0601" type="abnormal"><l rend="text-indent:7em">若起惡語意而呵責聖者</l>
 <lb ed="N" n="0070a07"/><l rend="text-indent:7em">則趣向</l>
-<lb ed="N" n="0070a08"/><l rend="text-indent:7em">十萬三十六尼<anchor xml:id="beg_4" type="cb-app"/>剌<anchor xml:id="end_4"/>部陀歲</l>
+<lb ed="N" n="0070a08"/><l rend="text-indent:7em">十萬三十六尼<anchor xml:id="nkr_note_add_0070a0801" n="0070a0801"/><anchor xml:id="beg0070a0801" n="0070a0801"/>剌<anchor xml:id="end0070a0801"/>部陀歲</l>
 <lb ed="N" n="0070a09"/><l rend="text-indent:7em">與五頞部陀歲間之地獄」</l></lg></cb:div>
 <lb ed="N" n="0070a10"/>
 <lb ed="N" n="0070a11"/>
@@ -1106,7 +1111,7 @@ $Log:$
 <lb ed="N" n="0070a13"/>
 <lb ed="N" n="0070a14"/>
 <pb ed="N" xml:id="N25.0007.0071a" n="0071a"/>
-<lb ed="N" n="0071a01"/><cb:div type="other"><cb:mulu type="其他" level="4">九十　力</cb:mulu><head>九十　力<anchor xml:id="nkr_note_orig_0071001" n="0071001"/></head>
+<lb ed="N" n="0071a01"/><cb:div type="other"><cb:mulu type="其他" level="4">九十　力</cb:mulu><head>九十　力<anchor xml:id="nkr_note_orig_0071001" n="0071001"/><anchor xml:id="nkr_note_mod_0071001" n="0071001"/></head>
 <lb ed="N" n="0071a02"/><p xml:id="pN25p0071a0201">一</p><p xml:id="pN25p0071a0202" rend="margin-left:2em;text-indent:2em;inline">時，具壽舍利弗往詣世尊所在之處，至已禮敬世尊，退坐一面。坐於一面之時，
 <lb ed="N" n="0071a03"/>世尊對具壽舍利弗，言：</p>
 <lb ed="N" n="0071a04"/><p xml:id="pN25p0071a0401" rend="margin-left:2em;text-indent:2em">「舍利弗！於漏盡比丘有幾何之力，成就其力而漏盡比丘稱『我漏已盡』，為漏
@@ -1397,7 +1402,7 @@ $Log:$
 <lb ed="N" n="0090a04"/>
 <lb ed="N" n="0090a05"/>
 <lb ed="N" n="0090a06"/><cb:div type="other"><cb:mulu type="其他" level="4">九十四　跋耆</cb:mulu><head>九十四　跋耆</head>
-<lb ed="N" n="0090a07"/><p xml:id="pN25p0090a0701">一</p><p xml:id="pN25p0090a0702" rend="margin-left:2em;text-indent:2em;inline">爾時，世尊住<anchor xml:id="beg_5" type="cb-app"/>瞻<anchor xml:id="end_5"/>波城伽伽池邊。時，跋耆居士於日出時，出瞻波城，詣見世尊。
+<lb ed="N" n="0090a07"/><p xml:id="pN25p0090a0701">一</p><p xml:id="pN25p0090a0702" rend="margin-left:2em;text-indent:2em;inline">爾時，世尊住<anchor xml:id="nkr_note_add_0090a0701" n="0090a0701"/><anchor xml:id="beg0090a0701" n="0090a0701"/>瞻<anchor xml:id="end0090a0701"/>波城伽伽池邊。時，跋耆居士於日出時，出瞻波城，詣見世尊。
 <lb ed="N" n="0090a08"/>時，跋耆居士即思念：</p>
 <lb ed="N" n="0090a09"/><p xml:id="pN25p0090a0901" rend="margin-left:2em;text-indent:2em">「且非詣見世尊之時，世尊宴默〔未起〕，亦非參見意修習比丘之時，意修習之
 <lb ed="N" n="0090a10"/>比丘亦宴默〔未起〕。我宜往詣外道修行者之園。」</p>
@@ -1610,7 +1615,7 @@ $Log:$
 <lb ed="N" n="0104a07"/>風車戲、桀戲、車戲、弓戲而遊戲。優波離！於汝意云何，此遊戲不比前之遊戲更
 <lb ed="N" n="0104a08"/>勝、更妙耶？」</p>
 <lb ed="N" n="0104a09"/><p xml:id="pN25p0104a0901" rend="margin-left:2em;text-indent:2em">「如是，大德！」</p>
-<lb ed="N" n="0104a10"/><p xml:id="pN25p0104a1001" rend="margin-left:2em;text-indent:2em">「優波離！彼童子後時生長，諸根成熟，五妙欲<anchor xml:id="beg_6" type="cb-app"/>豐<anchor xml:id="end_6"/>足全備而樂，謂：眼所識之可
+<lb ed="N" n="0104a10"/><p xml:id="pN25p0104a1001" rend="margin-left:2em;text-indent:2em">「優波離！彼童子後時生長，諸根成熟，五妙欲<anchor xml:id="nkr_note_add_0104a1001" n="0104a1001"/><anchor xml:id="beg0104a1001" n="0104a1001"/>豐<anchor xml:id="end0104a1001"/>足全備而樂，謂：眼所識之可
 <lb ed="N" n="0104a11"/>愛、可樂、可意、種種可愛、引欲、可染之色；耳所識之……聲；鼻所識之……香；
 <lb ed="N" n="0104a12"/><ref target="#PTS.A.5.204"></ref>舌所識之……味；身所識之可樂、可意、種種可愛、引欲、可染之所觸也。優波離！
 <lb ed="N" n="0104a13"/>於汝意云何，此遊戲不比前之遊戲更勝、更妙耶？」</p>
@@ -1740,7 +1745,7 @@ $Log:$
 <lb ed="N" n="0113a02"/>身壞命終而往生於惡生、惡趣、墮處、地獄；嗟！又，此諸有情成就身善行，成就
 <lb ed="N" n="0113a03"/>語善行，成就意善行，不誹謗聖者，有正見，取正見之業，身壞命終而往生於善趣、
 <lb ed="N" n="0113a04"/>天世』。如是以清淨超人之天眼，見有情之死、生，了知有情隨業而受劣、勝、美、
-<lb ed="N" n="0113a05"/>醜、善趣、惡趣〕。諸漏<anchor xml:id="beg_7" type="cb-app"/>已<anchor xml:id="end_7"/>盡，無漏之心解脫、慧解脫，於現法自證知，〕現證具足
+<lb ed="N" n="0113a05"/>醜、善趣、惡趣〕。諸漏<anchor xml:id="nkr_note_add_0113a0501" n="0113a0501"/><anchor xml:id="beg0113a0501" n="0113a0501"/>已<anchor xml:id="end0113a0501"/>盡，無漏之心解脫、慧解脫，於現法自證知，〕現證具足
 <lb ed="N" n="0113a06"/>而住。</p>
 <lb ed="N" n="0113a07"/><p xml:id="pN25p0113a0701" rend="margin-left:2em;text-indent:2em">諸比丘！若能修習多修此七覺支，則能圓滿此三明。」</p></cb:div>
 <lb ed="N" n="0113a08"/><cb:div type="other"><cb:mulu type="其他" level="4">一百三　邪性</cb:mulu><head>一百三　邪性<anchor xml:id="nkr_note_orig_0113001" n="0113001"/></head>
@@ -1763,7 +1768,7 @@ $Log:$
 <lb ed="N" n="0114a10"/>解脫之人、補特伽羅者，隨見而所完全執取之身業、〔隨見而所完全執取之〕語業、
 <lb ed="N" n="0114a11"/>隨見而所完全執取之意業、思、欲、願、行之一切法，資於不可樂、不可愛、不可
 <lb ed="N" n="0114a12"/>意、不利益、苦。何以故耶？諸比丘！其見惡也。</p>
-<lb ed="N" n="0114a13"/><p xml:id="pN25p0114a1301"><ref target="#PTS.A.5.213"></ref>二</p><p xml:id="pN25p0114a1302" rend="margin-left:2em;text-indent:2em;inline">諸比丘！譬如<anchor xml:id="beg_8" type="cb-app"/>菴<anchor xml:id="end_8"/>婆樹之種子、葫蘆樹之種、苦瓢之種子，播種於濕地，取地味、
+<lb ed="N" n="0114a13"/><p xml:id="pN25p0114a1301"><ref target="#PTS.A.5.213"></ref>二</p><p xml:id="pN25p0114a1302" rend="margin-left:2em;text-indent:2em;inline">諸比丘！譬如<anchor xml:id="nkr_note_add_0114a1301" n="0114a1301"/><anchor xml:id="beg0114a1301" n="0114a1301"/>菴<anchor xml:id="end0114a1301"/>婆樹之種子、葫蘆樹之種、苦瓢之種子，播種於濕地，取地味、
 <lb ed="N" n="0114a14"/>取水味，亦皆資於一切之苦、辛、不悅。何以故耶？諸比丘！種子惡也。諸比丘！
 <pb ed="N" xml:id="N25.0007.0115a" n="0115a"/>
 <lb ed="N" n="0115a01"/>如是邪見、邪思惟、邪語、邪業、邪命、邪精進、邪念、邪定、邪智、邪解脫之人、
@@ -3944,7 +3949,7 @@ $Log:$
 <lb ed="N" n="0260a01"/><cb:div type="other"><cb:mulu type="其他" level="3">七　想（一）</cb:mulu><head>七　想<anchor xml:id="nkr_note_orig_0260001" n="0260001"/>（一）</head>
 <lb ed="N" n="0260a02"/><p xml:id="pN25p0260a0201">一</p><p xml:id="pN25p0260a0202" rend="margin-left:2em;text-indent:2em;inline">時，具壽阿難往詣世尊之處，至已，禮敬世尊，坐於一面。坐於一面之具壽阿
 <lb ed="N" n="0260a03"/>難白世尊言：</p>
-<lb ed="N" n="0260a04"/><p xml:id="pN25p0260a0401" rend="margin-left:2em;text-indent:2em">大德！比丘可獲得如是之三<anchor xml:id="beg_9" type="cb-app"/>昧<anchor xml:id="end_9"/>耶？謂：於地無地想，於水無水想，於火無火想，
+<lb ed="N" n="0260a04"/><p xml:id="pN25p0260a0401" rend="margin-left:2em;text-indent:2em">大德！比丘可獲得如是之三<anchor xml:id="nkr_note_add_0260a0401" n="0260a0401"/><anchor xml:id="beg0260a0401" n="0260a0401"/>昧<anchor xml:id="end0260a0401"/>耶？謂：於地無地想，於水無水想，於火無火想，
 <lb ed="N" n="0260a05"/>於風無風想，於空無邊處無空無邊處想，於識無邊處無識無邊處想，於無所有處無
 <lb ed="N" n="0260a06"/>無所有處想，於非想非非想處無非想非非想處想，於此世無此世想，於他世無他世
 <lb ed="N" n="0260a07"/>想，見、聞、覺、知、得、求，於意所尋亦無想，然有想也。</p>
@@ -3965,10 +3970,10 @@ $Log:$
 <lb ed="N" n="0261a07"/>
 <lb ed="N" n="0261a08"/>
 <lb ed="N" n="0261a09"/><cb:div type="other"><cb:mulu type="其他" level="3">八　想（二）</cb:mulu><head>八　想<anchor xml:id="nkr_note_orig_0261001" n="0261001"/>（二）</head>
-<lb ed="N" n="0261a10"/><p xml:id="pN25p0261a1001">一</p><p xml:id="pN25p0261a1002" rend="margin-left:2em;text-indent:2em;inline">時，具壽阿難歡喜<anchor xml:id="beg_a" type="cb-app"/>隨<anchor xml:id="end_a"/>喜世尊之所說，從座而起，禮敬世尊，作右繞，往具壽舍
+<lb ed="N" n="0261a10"/><p xml:id="pN25p0261a1001">一</p><p xml:id="pN25p0261a1002" rend="margin-left:2em;text-indent:2em;inline">時，具壽阿難歡喜<anchor xml:id="nkr_note_add_0261a1001" n="0261a1001"/><anchor xml:id="beg0261a1001" n="0261a1001"/>隨<anchor xml:id="end0261a1001"/>喜世尊之所說，從座而起，禮敬世尊，作右繞，往具壽舍
 <lb ed="N" n="0261a11"/><ref target="#PTS.A.5.320"></ref>利弗之處。往已與具壽舍利弗相俱交換慶慰，歡喜銘感之語已，坐於一面。坐於一
 <lb ed="N" n="0261a12"/>面之具壽阿難對具壽舍利弗言：</p>
-<lb ed="N" n="0261a13"/><p xml:id="pN25p0261a1301" rend="margin-left:2em;text-indent:2em">「友舍利弗！比丘可獲得如是之三<anchor xml:id="beg_b" type="cb-app"/>昧<anchor xml:id="end_b"/>耶？謂：於地無地想，〔於水無水想，於火
+<lb ed="N" n="0261a13"/><p xml:id="pN25p0261a1301" rend="margin-left:2em;text-indent:2em">「友舍利弗！比丘可獲得如是之三<anchor xml:id="nkr_note_add_0261a1301" n="0261a1301"/><anchor xml:id="beg0261a1301" n="0261a1301"/>昧<anchor xml:id="end0261a1301"/>耶？謂：於地無地想，〔於水無水想，於火
 <lb ed="N" n="0261a14"/>無火想，於風無風想，於空無邊處無空無邊處想，於識無邊處無識無邊處想，於無
 <pb ed="N" xml:id="N25.0007.0262a" n="0262a"/>
 <lb ed="N" n="0262a01"/>所有處無無所有處想，於非想非非想處無非想非非想處想，於此世無此世想，於他
@@ -3977,7 +3982,7 @@ $Log:$
 <lb ed="N" n="0262a04"/>想，於風無風想，於空無邊處無空無邊處想，於識無邊處無識無邊處想，於無所有
 <lb ed="N" n="0262a05"/>處無無所有處想，於非想非非想處無非想非非想處想，於此世無此世想，於他世無
 <lb ed="N" n="0262a06"/>他世想，〕見、聞、覺、知、得、求，於意所尋亦無想，然有想也。」</p>
-<lb ed="N" n="0262a07"/><p xml:id="pN25p0262a0701">三</p><p xml:id="pN25p0262a0702" rend="margin-left:2em;text-indent:2em;inline">「友舍利弗！云何比丘可獲得如是之三<anchor xml:id="beg_c" type="cb-app"/>昧<anchor xml:id="end_c"/>耶？謂：於地無地想，〔於水無水想，
+<lb ed="N" n="0262a07"/><p xml:id="pN25p0262a0701">三</p><p xml:id="pN25p0262a0702" rend="margin-left:2em;text-indent:2em;inline">「友舍利弗！云何比丘可獲得如是之三<anchor xml:id="nkr_note_add_0262a0701" n="0262a0701"/><anchor xml:id="beg0262a0701" n="0262a0701"/>昧<anchor xml:id="end0262a0701"/>耶？謂：於地無地想，〔於水無水想，
 <lb ed="N" n="0262a08"/>於火無火想，於風無風想，於空無邊處無空無邊處想，於識無邊處無識無邊處想，
 <lb ed="N" n="0262a09"/>於無所有處無無所有處想，於非想非非想處無非想非非想處想，於此世無此世想，
 <lb ed="N" n="0262a10"/>於他世無他世想，〕見、聞、覺、知、得、求，於意所尋亦無想，然有想也。」</p>
@@ -4392,7 +4397,7 @@ $Log:$
 <lb ed="N" n="0290a01"/>比丘。」</p>
 <lb ed="N" n="0290a02"/><p xml:id="pN25p0290a0201">一四</p><p xml:id="pN25p0290a0203" rend="margin-left:2em;text-indent:2em;inline">「善哉！善哉！須菩提！須菩提！果爾，汝當與此比丘信俱住。須菩提！又，
 <lb ed="N" n="0290a03"/>汝欲見如來之時，當與此比丘信俱來而見如來。」</p></cb:div>
-<lb ed="N" n="0290a04"/><cb:div type="other"><cb:mulu type="其他" level="3">十六　慈</cb:mulu><head><ref target="#PTS.A.5.342"></ref>十六　慈<anchor xml:id="nkr_note_orig_0290001" n="0290001"/></head>
+<lb ed="N" n="0290a04"/><cb:div type="other"><cb:mulu type="其他" level="3">十六　慈</cb:mulu><head><ref target="#PTS.A.5.342"></ref>十六　慈<anchor xml:id="nkr_note_orig_0290001" n="0290001"/><anchor xml:id="nkr_note_mod_0290001" n="0290001"/></head>
 <lb ed="N" n="0290a05"/><p xml:id="pN25p0290a0501">一</p><p xml:id="pN25p0290a0502" rend="margin-left:2em;text-indent:2em;inline">「諸比丘！若習、修習、多修慈心解脫，作乘、作基、隨成、積習、善能造作，
 <lb ed="N" n="0290a06"/>可期則有十一種之功德。何等為十一耶？</p>
 <lb ed="N" n="0290a07"/><p xml:id="pN25p0290a0701">二</p><p xml:id="pN25p0290a0702" rend="margin-left:2em;text-indent:2em;inline">即眠樂，覺樂，不見惡夢，為人愛樂，為非人愛樂，為諸天所守護，不受火、
@@ -4776,24 +4781,25 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>剌</corr><sic>刺</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>剌</corr><sic>刺</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>剌</corr><sic>刺</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>剌</corr><sic>刺</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>瞻</corr><sic>膽</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>豐</corr><sic>豊</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>菴</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>昧</corr><sic>味</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr>隨</corr><sic>隋</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_b" cb:to="#end_b"><corr>昧</corr><sic>味</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_c" cb:to="#end_c"><corr>昧</corr><sic>味</sic></choice>
+<app from="#beg0067a0701" to="#end0067a0701"><lem wit="#wit1" resp="#resp3">剌</lem><rdg wit="#wit2">刺</rdg></app>
+<app from="#beg0069a0101" to="#end0069a0101"><lem wit="#wit1" resp="#resp3">剌</lem><rdg wit="#wit2">刺</rdg></app>
+<app from="#beg0069a0102" to="#end0069a0102"><lem wit="#wit1" resp="#resp3">剌</lem><rdg wit="#wit2">刺</rdg></app>
+<app from="#beg0070a0801" to="#end0070a0801"><lem wit="#wit1" resp="#resp3">剌</lem><rdg wit="#wit2">刺</rdg></app>
+<app from="#beg0090a0701" to="#end0090a0701"><lem wit="#wit1" resp="#resp3">瞻</lem><rdg wit="#wit2">膽</rdg></app>
+<app from="#beg0104a1001" to="#end0104a1001"><lem wit="#wit1" resp="#resp3">豐</lem><rdg wit="#wit2">豊</rdg></app>
+<app from="#beg0113a0501" to="#end0113a0501"><lem wit="#wit1" resp="#resp3">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0114a1301" to="#end0114a1301"><lem wit="#wit1" resp="#resp3">菴</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0260a0401" to="#end0260a0401"><lem wit="#wit1" resp="#resp3">昧</lem><rdg wit="#wit2">味</rdg></app>
+<app from="#beg0261a1001" to="#end0261a1001"><lem wit="#wit1" resp="#resp3">隨</lem><rdg wit="#wit2">隋</rdg></app>
+<app from="#beg0261a1301" to="#end0261a1301"><lem wit="#wit1" resp="#resp3">昧</lem><rdg wit="#wit2">味</rdg></app>
+<app from="#beg0262a0701" to="#end0262a0701"><lem wit="#wit1" resp="#resp3">昧</lem><rdg wit="#wit2">味</rdg></app>
 </p>
 </cb:div>
 <cb:div type="nanchuan-notes">
 <head>漢譯南傳大藏經 校註</head>
 <p>
 <note n="0001001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0001001">漢譯中阿含五二～五三（大正藏一、四八七c～四八九c）。同上五一（大正藏一、四八七b）參照。</note>
+<note n="0001001" resp="#resp1" type="mod" target="#nkr_note_mod_0001001">漢譯中阿含五二【南傳】，～五三（大正藏一、四八七c～四八九c）。同上五一（大正藏一、四八七b）參照。</note>
 <note n="0005001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0005001">前經參照。</note>
 <note n="0008001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0008001">參照人施設論第十章（南傳大藏經第五十卷人施設論十章）。</note>
 <note n="0009001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0009001">前經參照。</note>
@@ -4811,7 +4817,9 @@ $Log:$
 <note n="0058001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0058001">漢譯中阿含九四（大正藏一、五七六a）。</note>
 <note n="0063001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0063001">參照十一集第六經。</note>
 <note n="0064001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0064001">參照相應部經典六．一．九～一〇（漢譯南傳大藏經第十二卷二五〇頁）、經集三．一〇（漢譯南傳大藏經第二十六卷三大品拘迦利耶經）。漢譯相當之個處則出於漢譯南傳大藏經第二十四卷拘迦利耶經註[01]。</note>
+<note n="0064001" resp="#resp1" type="mod" target="#nkr_note_mod_0064001">參照相應部經典六．一．九【南傳】，～一〇（漢譯南傳大藏經第十二卷二五〇頁）、經集三．一〇（漢譯南傳大藏經第二十六卷三大品拘迦利耶經）。漢譯相當之個處則出於漢譯南傳大藏經第二十四卷拘迦利耶經註[01]。</note>
 <note n="0071001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0071001">參照八集第三經（漢譯南傳大藏經第二十三卷八六～八七頁）、雜阿含二六．五七～五八（大正藏二．一八八c）。</note>
+<note n="0071001" resp="#resp1" type="mod" target="#nkr_note_mod_0071001">參照八集第三經（漢譯南傳大藏經第二十三卷八六【南傳】，～八七頁）、雜阿含二六．五七～五八（大正藏二．一八八c）。</note>
 <note n="0074001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0074001">漢譯中阿含一二六行欲經（大正藏一．六一五a）、伏婬經（大正藏一．八六三）。相應部經典原典第四卷一二三一頁（漢譯南傳大藏經第十六卷三一頁）。</note>
 <note n="0081001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0081001">參照九集第二七經（南傳大藏經第二十四卷上七〇頁）。</note>
 <note n="0084001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0084001">漢譯雜阿含三四．三〇（大正藏二．二四八c）、別譯雜阿含一一．四（大正藏二．四四八b）。</note>
@@ -4871,11 +4879,29 @@ $Log:$
 <note n="0281002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0281002">「住」。底本 viharitaṁ 者乃 viharataṁ 之誤。</note>
 <note n="0282003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0282003">「非時解脫之比丘」。漏盡比丘也，（原註）。「時解脫」，（增支部經典原典第三卷一七三頁）之對。</note>
 <note n="0290001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0290001">參照漢譯增阿含四九．一〇（大正藏二．八〇六a）。八集第一經（漢譯南傳大藏經第二十三卷一～三頁）。</note>
+<note n="0290001" resp="#resp1" type="mod" target="#nkr_note_mod_0290001">參照漢譯增阿含四九．一〇（大正藏二．八〇六a）。八集第一經（漢譯南傳大藏經第二十三卷一【南傳】，～三頁）。</note>
 <note n="0291001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0291001">中部經典第五二經（漢譯南傳大藏經第十卷八八頁）及漢譯中阿含二一七（大正藏一．八〇二a）、十古居八城人經（大正藏一．九一六a）。</note>
 <note n="0295002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0295002">「聞」。底本之 sevanaya 者依異本而改為 savanāya。</note>
 <note n="0296001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0296001">中部經典第三三經（漢譯南傳大藏經第九卷二九四頁）。漢譯增一阿含四六．一（大正藏二．七九四a）、雜阿含四七．九（大正藏二．三四二c）、放牛經（大正藏二．五四六a）。</note>
 <note n="0304001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0304001">參照上之第七經。</note>
 <note n="0314001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0314001">底本「為徧知」之前之「為證知」abhiññāya 者乃衍文。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0067a0701" resp="#resp2" type="add" target="#nkr_note_add_0067a0701">剌【CB】，刺【南傳】</note>
+<note n="0069a0101" resp="#resp2" type="add" target="#nkr_note_add_0069a0101">剌【CB】，刺【南傳】</note>
+<note n="0069a0102" resp="#resp2" type="add" target="#nkr_note_add_0069a0102">剌【CB】，刺【南傳】</note>
+<note n="0070a0801" resp="#resp2" type="add" target="#nkr_note_add_0070a0801">剌【CB】，刺【南傳】</note>
+<note n="0090a0701" resp="#resp2" type="add" target="#nkr_note_add_0090a0701">瞻【CB】，膽【南傳】</note>
+<note n="0104a1001" resp="#resp2" type="add" target="#nkr_note_add_0104a1001">豐【CB】，豊【南傳】</note>
+<note n="0113a0501" resp="#resp2" type="add" target="#nkr_note_add_0113a0501">已【CB】，己【南傳】</note>
+<note n="0114a1301" resp="#resp2" type="add" target="#nkr_note_add_0114a1301">菴【CB】，<unclear></unclear>【南傳】</note>
+<note n="0260a0401" resp="#resp2" type="add" target="#nkr_note_add_0260a0401">昧【CB】，味【南傳】</note>
+<note n="0261a1001" resp="#resp2" type="add" target="#nkr_note_add_0261a1001">隨【CB】，隋【南傳】</note>
+<note n="0261a1301" resp="#resp2" type="add" target="#nkr_note_add_0261a1301">昧【CB】，味【南傳】</note>
+<note n="0262a0701" resp="#resp2" type="add" target="#nkr_note_add_0262a0701">昧【CB】，味【南傳】</note>
 </p>
 </cb:div>
 </back></text></TEI>

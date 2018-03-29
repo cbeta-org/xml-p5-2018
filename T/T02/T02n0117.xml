@@ -36,6 +36,7 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -134,7 +135,7 @@ Added comment  for Emacs
 <lb n="0508a09" ed="T"/>明教大師臣法賢奉，　詔譯<anchor xml:id="end0508001"/></byline>
 <lb n="0508a10" ed="T"/><p xml:id="pT02p0508a1001">如是我聞：</p><p xml:id="pT02p0508a1005" rend="inline">一時，佛在舍衛國祇樹給孤獨園，
 <lb n="0508a11" ed="T"/>與大比丘眾俱。爾時，尊者阿難來詣佛所，到
-<lb n="0508a12" ed="T"/>已頭<anchor xml:id="beg_1" type="cb-app"/>面<anchor xml:id="end_1"/>禮足，合掌恭敬而白佛言：「世尊！我
+<lb n="0508a12" ed="T"/>已頭<anchor xml:id="nkr_note_add_0508a1201" n="0508a1201"/><anchor xml:id="beg0508a1201" n="0508a1201"/>面<anchor xml:id="end0508a1201"/>禮足，合掌恭敬而白佛言：「世尊！我
 <lb n="0508a13" ed="T"/>有少疑欲當啟問，唯願世尊為我解說。我見
 <lb n="0508a14" ed="T"/>世間有三種香，所謂根香、花香、子香，此三種
 <lb n="0508a15" ed="T"/>香遍一切處，有風而聞，無風亦聞，其香云
@@ -156,7 +157,7 @@ Added comment  for Emacs
 <lb n="0508b01" ed="T"/><p xml:id="pT02p0508b0101">爾時，世尊而說頌曰：</p>
 <lb n="0508b02" ed="T"/><lg xml:id="lgT02p0508b0201" rend="margin-left:1em;text-indent:-1em"><l>「世間所有諸花果，</l><l>乃至沈檀龍麝香，</l>
 <lb n="0508b03" ed="T"/><l>如是等香非遍聞，</l><l>唯聞戒香遍一切。</l>
-<lb n="0508b04" ed="T"/><l><anchor xml:id="nkr_note_orig_0508002" n="0508002"/><anchor xml:id="beg0508002" n="0508002"/>旃<anchor xml:id="end0508002"/>檀欝金與蘇合，</l><l>優鉢羅并摩隷花，</l>
+<lb n="0508b04" ed="T"/><l><anchor xml:id="nkr_note_orig_0508002" n="0508002"/><anchor xml:id="nkr_note_mod_0508002" n="0508002"/><anchor xml:id="beg0508002" n="0508002"/>旃<anchor xml:id="end0508002"/>檀欝金與蘇合，</l><l>優鉢羅并摩隷花，</l>
 <lb n="0508b05" ed="T"/><l>如是諸妙花香中，</l><l>唯有戒香而最上。</l>
 <lb n="0508b06" ed="T"/><l>所有世間沈檀等，</l><l>其香微少非遍聞，</l>
 <lb n="0508b07" ed="T"/><l>若人持佛淨戒香，</l><l>諸天普聞皆愛敬。</l>
@@ -171,14 +172,15 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0508001" to="#end0508001"><lem wit="#wit1">西天譯經三藏朝散大夫試光祿卿<lb n="0508a09" ed="T"/>明教大師臣法賢奉，　詔譯</lem><rdg resp="#resp1" wit="#wit2 #wit3">三藏法師法賢奉詔譯</rdg><rdg resp="#resp1" wit="#wit4">宋三藏法師法賢奉詔譯</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>面</corr><sic>而</sic></choice>
+<app from="#beg0508a1201" to="#end0508a1201"><lem wit="#wit5" resp="#resp2">面</lem><rdg wit="#wit1">而</rdg></app>
 <app from="#beg0508002" to="#end0508002"><lem wit="#wit1">旃</lem><rdg resp="#resp1" wit="#wit2 #wit3">栴</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0508001" resp="#resp2" type="mod" target="#nkr_note_mod_0508001">西天譯經三藏朝散大夫試光祿卿明教大師臣法賢奉詔譯＝三藏法師法賢奉詔譯【宋】【元】，＝宋三藏法師法賢奉詔譯【明】</note>
+<note n="0508001" resp="#resp2" type="mod" target="#nkr_note_mod_0508001">西天譯經三藏朝散大夫試光祿卿明教大師臣法賢奉詔譯【大】，三藏法師法賢奉詔譯【宋】【元】，宋三藏法師法賢奉詔譯【明】</note>
+<note n="0508002" resp="#resp2" type="mod" target="#nkr_note_mod_0508002">旃【大】，栴【宋】【元】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -186,6 +188,12 @@ Added comment  for Emacs
 <p>
 <note n="0508001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0508001">西天…譯＝三藏法師法賢奉詔譯【三】，但【明】（宋）＋三藏…譯</note>
 <note n="0508002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0508002">旃＝栴【宋】【元】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0508a1201" resp="#resp2" type="add" target="#nkr_note_add_0508a1201">面【CB】，而【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

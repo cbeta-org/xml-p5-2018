@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2009/04/22 08:53:57 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 25, No. 480</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -65,7 +70,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0149a06"/><lb ed="R039" n="0296a01"/><cb:juan fun="open" n="1"><cb:mulu type="卷" n="1"></cb:mulu><cb:jhead>金剛般若波羅蜜經觀心釋</cb:jhead></cb:juan>
 <lb ed="X" n="0149a07"/>
 <lb ed="X" n="0149a08"/><lb ed="R039" n="0296a02"/><byline cb:type="author">菩薩沙彌　智旭際明　述</byline>
-<lb ed="X" n="0149a09"/><lb ed="R039" n="0296a03"/><cb:div type="jing"><lg xml:id="lgX25p0149a0901"><l><anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>申如實不空義</l><l>如如演說不取著</l>
+<lb ed="X" n="0149a09"/><lb ed="R039" n="0296a03"/><cb:div type="jing"><lg xml:id="lgX25p0149a0901"><l><anchor xml:id="nkr_note_add_0149a0901" n="0149a0901"/><anchor xml:id="beg0149a0901" n="0149a0901"/>已<anchor xml:id="end0149a0901"/>申如實不空義</l><l>如如演說不取著</l>
 <lb ed="X" n="0149a10"/><lb ed="R039" n="0296a04"/><l>攝彼名句及文身</l><l>融歸一念成觀行</l></lg>
 <lb ed="X" n="0149a11"/><lb ed="R039" n="0296a05"/><p xml:id="pX25p0149a1101">金剛者。喻現前一念心也。譬如金剛。體則無上至寶。
 <lb ed="X" n="0149a12"/><lb ed="R039" n="0296a06"/>相則純淨無雜。用則廣能利益。現前一念。亦復如是。
@@ -89,7 +94,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0149b05"/><lb ed="R039" n="0296b05"/>心。名為世尊。一切時中。常應觀察自心。名食時。自心
 <lb ed="X" n="0149b06"/><lb ed="R039" n="0296b06"/>本具慚愧法忍。名衣。自心事理和合相應。名鉢。歷陰
 <lb ed="X" n="0149b07"/><lb ed="R039" n="0296b07"/>界處觀察理性。名入城乞食。於一一法得見理性。名
-<lb ed="X" n="0149b08"/><lb ed="R039" n="0296b08"/>次第乞<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>。會事歸理。名還本處。觀理究竟。名飯食訖。
+<lb ed="X" n="0149b08"/><lb ed="R039" n="0296b08"/>次第乞<anchor xml:id="nkr_note_add_0149b0801" n="0149b0801"/><anchor xml:id="beg0149b0801" n="0149b0801"/>已<anchor xml:id="end0149b0801"/>。會事歸理。名還本處。觀理究竟。名飯食訖。
 <lb ed="X" n="0149b09"/><lb ed="R039" n="0296b09"/>全修在性。名收衣鉢。福慧明顯。名洗足。證於第一義
 <lb ed="X" n="0149b10"/><lb ed="R039" n="0296b10"/>空。名敷座而坐。</p><p xml:id="pX25p0149b1007" rend="inline">復次。相應解心所。名須菩提。此解有
 <lb ed="X" n="0149b11"/><lb ed="R039" n="0296b11"/>殊勝力。名為長老。諸心所中能為導首。名為在大眾
@@ -156,8 +161,15 @@ basicx 程式 轉自 簡單標記版
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0149a0901" to="#end0149a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0149b0801" to="#end0149b0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0149a0901" resp="#resp1" type="add" target="#nkr_note_add_0149a0901">已【CB】，巳【卍續】</note>
+<note n="0149b0801" resp="#resp1" type="add" target="#nkr_note_add_0149b0801">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

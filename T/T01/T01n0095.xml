@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2012/08/27 03:13:55 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -139,8 +140,8 @@ Added comment  for Emacs
 <lb n="0918b20" ed="T"/><cb:docNumber>No. 95 [~M. 23, Vammīka sutta.]</cb:docNumber><cb:div type="jing">
 <lb n="0918b21" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead>佛說蟻喻經</cb:jhead></cb:juan>
 <lb n="0918b22" ed="T"/>
-<lb n="0918b23" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0918005" n="0918005"/><anchor xml:id="beg0918005" n="0918005"/>西天譯經<anchor xml:id="end0918005"/>三藏朝奉大夫試光祿卿
-<lb n="0918b24" ed="T"/>傳法大師<anchor xml:id="nkr_note_orig_0918006" n="0918006"/><anchor xml:id="beg0918006" n="0918006"/>賜紫臣<anchor xml:id="end0918006"/>施護奉　詔譯</byline>
+<lb n="0918b23" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0918005" n="0918005"/><anchor xml:id="nkr_note_mod_0918005" n="0918005"/><anchor xml:id="beg0918005" n="0918005"/>西天譯經<anchor xml:id="end0918005"/>三藏朝奉大夫試光祿卿
+<lb n="0918b24" ed="T"/>傳法大師<anchor xml:id="nkr_note_orig_0918006" n="0918006"/><anchor xml:id="nkr_note_mod_0918006" n="0918006"/><anchor xml:id="beg0918006" n="0918006"/>賜紫臣<anchor xml:id="end0918006"/>施護奉　詔譯</byline>
 <lb n="0918b25" ed="T"/><p xml:id="pT01p0918b2501">爾時，世尊放大光明普照耀已，告苾芻眾言：
 <lb n="0918b26" ed="T"/>「汝等當知！於一時中有諸蟻聚，夜中出煙，晝
 <lb n="0918b27" ed="T"/>日火然。有一婆羅門，見是事已，乃作是言：『若
@@ -202,6 +203,13 @@ Added comment  for Emacs
 <p>
 <app from="#beg0918005" to="#end0918005"><lem wit="#wit1">西天譯經</lem><rdg resp="#resp1" wit="#wit2">宋西</rdg></app>
 <app from="#beg0918006" to="#end0918006"><lem wit="#wit1">賜紫臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0918005" resp="#resp2" type="mod" target="#nkr_note_mod_0918005">西天譯經【大】，宋西【明】</note>
+<note n="0918006" resp="#resp2" type="mod" target="#nkr_note_mod_0918006">賜紫臣【大】，〔－〕【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

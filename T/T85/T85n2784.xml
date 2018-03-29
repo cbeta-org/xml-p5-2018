@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.6 $<date>$Date: 2009/04/23 08:15:17 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -121,7 +122,7 @@ Added comment  for Emacs
 <lb n="0557c03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0557001" n="0557001"/>大乘四法經釋抄</cb:jhead></cb:juan>
 <lb n="0557c04" ed="T"/>
 <lb n="0557c05" ed="T"/><cb:div type="other"><p xml:id="pT85p0557c0501">大乘四法經　夫立經名者。皆約四種而立
-<lb n="0557c06" ed="T"/>其名。<anchor xml:id="nkr_note_orig_0557002" n="0557002"/><anchor xml:id="beg0557002" n="0557002"/>者<anchor xml:id="end0557002"/>人。如維摩經等是　二處者。如楞
+<lb n="0557c06" ed="T"/>其名。<anchor xml:id="nkr_note_orig_0557002" n="0557002"/><anchor xml:id="nkr_note_mod_0557002" n="0557002"/><anchor xml:id="beg0557002" n="0557002"/>者<anchor xml:id="end0557002"/>人。如維摩經等是　二處者。如楞
 <lb n="0557c07" ed="T"/>伽經。世尊謂楞伽王名羅波羅王。就楞伽山
 <lb n="0557c08" ed="T"/>說法。遂約□立其名　三法者。如大般若經
 <lb n="0557c09" ed="T"/>說。蘊界等法。內外俱空。不執人法二我故。
@@ -251,6 +252,12 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0557002" to="#end0557002"><lem resp="#resp1" wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">一者</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0557002" resp="#resp2" type="mod" target="#nkr_note_mod_0557002">者【大】，一者【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

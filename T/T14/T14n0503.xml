@@ -38,8 +38,8 @@
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【宮】</witness>
 		<witness xml:id="wit5">【明】</witness>
-		<witness xml:id="wit6">【CBETA】</witness>
-		<witness xml:id="wit7">【麗】</witness>
+		<witness xml:id="wit6">【CB】</witness>
+		<witness xml:id="wit7">【麗-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -153,7 +153,7 @@ Added comment  for Emacs
 <lb n="0771c25" ed="T"/><l>執心堅住者，</l><l>是則出家法。</l>
 <lb n="0771c26" ed="T"/><l>不由他人語，</l><l>令汝成劫賊，</l>
 <lb n="0771c27" ed="T"/><l>亦不由<anchor xml:id="nkr_note_orig_0771012" n="0771012"/><anchor xml:id="nkr_note_mod_0771012" n="0771012"/><anchor xml:id="beg0771012" n="0771012"/>他人<anchor xml:id="end0771012"/>，</l><l>令汝得羅漢；</l>
-<lb n="0771c28" ed="T"/><l>如<anchor xml:id="beg_1" type="cb-app"/>汝<anchor xml:id="end_1"/>自知已，</l><l>諸天亦復知。」</l></lg>
+<lb n="0771c28" ed="T"/><l>如<anchor xml:id="nkr_note_add_0771c2801" n="0771c2801"/><anchor xml:id="beg0771c2801" n="0771c2801"/>汝<anchor xml:id="end0771c2801"/>自知已，</l><l>諸天亦復知。」</l></lg>
 <lb ed="T" n="0771c29"/><p xml:id="pT14p0771c2901">爾時比丘為彼天神所開悟已，專精思惟，斷
 <pb n="0772a" ed="T" xml:id="T14.0503.0772a"/>
 <lb ed="T" n="0772a01"/>除煩惱，得阿羅漢。</p></cb:div>
@@ -166,15 +166,15 @@ Added comment  for Emacs
 <app from="#beg0771010" to="#end0771010"><lem wit="#wit1">沙門</lem><rdg wit="#wit2 #wit3 #wit4" resp="#resp1">釋</rdg><rdg resp="#resp1" wit="#wit5">沙門釋</rdg></app>
 <app from="#beg0771011" to="#end0771011"><lem wit="#wit1">止</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit5 #wit4">正</rdg></app>
 <app from="#beg0771012" to="#end0771012"><lem wit="#wit1">他人</lem><rdg wit="#wit2 #wit3 #wit5" resp="#resp1">他語</rdg></app>
-<app from="#beg_1" to="#end_1"><lem wit="#wit6 #wit7" resp="#resp3">汝<note type="cf1">K20n0886_p1260b03</note><note type="cf2">T02n0099_p0370b24</note></lem><rdg wit="#wit1">法</rdg></app>
+<app from="#beg0771c2801" to="#end0771c2801"><lem wit="#wit6 #wit7" resp="#resp3">汝<note type="cf1">K20n0886_p1260b03</note><note type="cf2">T02n0099_p0370b24</note></lem><rdg wit="#wit1">法</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note resp="#resp2" type="mod" n="0771010" target="#nkr_note_mod_0771010">沙門＝釋【宋】【元】【宮】，＝沙門釋【明】</note>
-<note n="0771011" type="mod" resp="#resp2" target="#nkr_note_mod_0771011">止＝正【宋】【元】【明】【宮】</note>
-<note type="mod" n="0771012" resp="#resp2" target="#nkr_note_mod_0771012">他人＝他語【宋】【元】【明】</note>
+<note resp="#resp2" type="mod" n="0771010" target="#nkr_note_mod_0771010">沙門【大】，釋【宋】【元】【宮】，沙門釋【明】</note>
+<note n="0771011" type="mod" resp="#resp2" target="#nkr_note_mod_0771011">止【大】，正【宋】【元】【明】【宮】</note>
+<note type="mod" n="0771012" resp="#resp2" target="#nkr_note_mod_0771012">他人【大】，他語【宋】【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -183,6 +183,12 @@ Added comment  for Emacs
 <note type="orig" n="0771010" resp="#resp1" place="foot text" target="#nkr_note_orig_0771010">沙門＝釋【宋】【元】【宮】，沙門釋【明】</note>
 <note type="orig" n="0771011" place="foot text" resp="#resp1" target="#nkr_note_orig_0771011">止＝正【三】【宮】</note>
 <note place="foot text" resp="#resp1" n="0771012" type="orig" target="#nkr_note_orig_0771012">他人＝他語【三】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0771c2801" resp="#resp2" type="add" target="#nkr_note_add_0771c2801">汝【CB】【麗-CB】，法【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>
