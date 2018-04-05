@@ -1724,6 +1724,7 @@ tei_note =
     
     ## describes the type of note.
     attribute type { xsd:Name }?,
+    attribute subtype { xsd:Name }?,
     
     ## (responsible party) indicates who is responsible for the annotation: author, editor, translator, etc.
     attribute resp { xsd:anyURI }?,
