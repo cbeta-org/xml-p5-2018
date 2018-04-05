@@ -32,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 18, No. 849</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -658,7 +662,7 @@ Added comment  for Emacs
 <lb n="0057c13" ed="T"/>支葉相次光明交映。重重行列覆以寶網。從
 <lb n="0057c14" ed="T"/>於寶網垂妙摩尼。摩尼珠光照佛宮殿及彼
 <lb n="0057c15" ed="T"/>世界。如百千日共處虛空。光明過彼不可為
-<lb n="0057c16" ed="T"/>喻。有諸<anchor xml:id="beg_1" type="cb-app"/>婇<anchor xml:id="end_1"/>女從佛智生菩提妙華而為嚴飾
+<lb n="0057c16" ed="T"/>喻。有諸<anchor xml:id="nkr_note_add_0057c1601" n="0057c1601"/><anchor xml:id="beg0057c1601" n="0057c1601"/>婇<anchor xml:id="end0057c1601"/>女從佛智生菩提妙華而為嚴飾
 <lb n="0057c17" ed="T"/>各居華座。如從定起以方便力。出妙音聲歌
 <lb n="0057c18" ed="T"/>讚佛德。言詞清雅句義深遠。入是觀時見如
 <lb n="0057c19" ed="T"/>斯事當作是念。以我至願蒙佛加持。由如來
@@ -1137,7 +1141,7 @@ Added comment  for Emacs
 <lb n="0063a12" ed="T"/>請或僧中食。所得之食。當離一切魚肉熏菜。
 <lb n="0063a13" ed="T"/>供養本尊諸佛之餘。乃至種種殘宿不淨果
 <lb n="0063a14" ed="T"/>木。諸漿可醉人者皆不應受。若得如法清淨
-<lb n="0063a15" ed="T"/>餘食。先以<anchor xml:id="beg_2" type="cb-app"/>摶<anchor xml:id="end_2"/>食用獻本尊。然後隨食。食分有
+<lb n="0063a15" ed="T"/>餘食。先以<anchor xml:id="nkr_note_add_0063a1501" n="0063a1501"/><anchor xml:id="beg0063a1501" n="0063a1501"/>摶<anchor xml:id="end0063a1501"/>食用獻本尊。然後隨食。食分有
 <lb n="0063a16" ed="T"/>餘施諸飢乏貧窮乞食者。當作是念我為持
 <lb n="0063a17" ed="T"/>身安穩行道。是故受食。不以滋味悅澤增減
 <lb n="0063a18" ed="T"/>於心亦如膏車運載諸物不傷敗故。作是念
@@ -1224,14 +1228,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>婇</corr><sic>綵</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>摶<note type="cf1">T54n2128_p0425a09</note><note type="cf2">X16n0318_p0889c08</note></corr><sic>搏</sic></choice>
+<app from="#beg0057c1601" to="#end0057c1601"><lem wit="#wit1" resp="#resp2">婇</lem><rdg wit="#wit2">綵</rdg></app>
+<app from="#beg0063a1501" to="#end0063a1501"><lem wit="#wit1" resp="#resp3">摶<note type="cf1">T54n2128_p0425a09</note><note type="cf2">X16n0318_p0889c08</note></lem><rdg wit="#wit2">搏</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0055006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0055006">【原】大日本縮刷大藏經，原本冠註曰此經依五部祕經載之</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0057c1601" resp="#resp2" type="add" target="#nkr_note_add_0057c1601">婇【CB】，綵【大】</note>
+<note n="0063a1501" resp="#resp2" type="add" target="#nkr_note_add_0063a1501">摶【CB】，搏【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

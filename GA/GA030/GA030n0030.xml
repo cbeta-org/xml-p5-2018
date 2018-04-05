@@ -14,7 +14,8 @@
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>DILA</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>4卷</extent>
 		<publicationStmt>
@@ -31,7 +32,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Zhongguo Fosi Shizhi Huikan Vol. 30, No. 30</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【志彙】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -222,7 +227,7 @@ $Log:$
 <lb ed="GA" n="b010a01"/>之地具荷
 <lb ed="GA" n="b010a02"/>　皇慈次第修葺杭州艮山門外崇福寺者臨濟祖庭之
 <lb ed="GA" n="b010a03"/>一也剏於宋燬於元復建於明厯年七百餘載琳宮
-<lb ed="GA" n="b010a04"/>傾<anchor xml:id="beg_1" type="cb-app"/>圮<anchor xml:id="end_1"/>鐘鼓寂寥
+<lb ed="GA" n="b010a04"/>傾<anchor xml:id="nkr_note_add_b010a0401" n="b010a0401"/><anchor xml:id="begb010a0401" n="b010a0401"/>圮<anchor xml:id="endb010a0401"/>鐘鼓寂寥
 <lb ed="GA" n="b010a05"/>　皇考命以內幣之嬴重加修整經始於雍正十二年九
 <lb ed="GA" n="b010a06"/>月落成於十三年七月梵宇莊嚴禪林載煥用記始
 <lb ed="GA" n="b010a07"/>末勒諸貞珉維爾緇流居是寺者當念
@@ -535,7 +540,7 @@ $Log:$
 <lb ed="GA" n="b038a06"/><p xml:id="pGA030pb038a0601" rend="margin-left:2em">聖聖陰　中平　<figure><graphic url="../figures/GA/GA030pb038_01.gif"></graphic></figure>　離下坤上明夷卦</p>
 <lb ed="GA" n="b038a07"/><lg xml:id="lgGA030pb038a0701" type="abnormal"><l rend="text-indent:1em">男子行藏事合成　買賣何須用一人</l>
 <lb ed="GA" n="b038a08"/><l rend="text-indent:1em">防他久遠遭他計　利不成時反受虧</l></lg>
-<lb ed="GA" n="b038a09"/><p xml:id="pGA030pb038a0901" rend="margin-left:2em">離<reg>為</reg>明象而逼於三陰小人<anchor xml:id="beg_2" type="cb-app"/>間<anchor xml:id="end_2"/>阻故買賣不宜
+<lb ed="GA" n="b038a09"/><p xml:id="pGA030pb038a0901" rend="margin-left:2em">離<reg>為</reg>明象而逼於三陰小人<anchor xml:id="nkr_note_add_b038a0901" n="b038a0901"/><anchor xml:id="begb038a0901" n="b038a0901"/>間<anchor xml:id="endb038a0901"/>阻故買賣不宜
 <lb ed="GA" n="b038a10"/>專任一人也小人用事遭計受虧害所必至矣</p>
 <pb ed="GA" xml:id="GA030.0030.b039a" n="b039a"/>
 <lb ed="GA" n="b039a01"/><p xml:id="pGA030pb039a0101" rend="margin-left:2em">聖陽陽　上上　<figure><graphic url="../figures/GA/GA030pb039_01.gif"></graphic></figure>　離下乾上同人卦</p>
@@ -774,7 +779,7 @@ $Log:$
 <lb ed="GA" n="b060a03"/>辛丑仲春龍溪胡衡<reg>為</reg>四航和尚右一聯云竹籟
 <lb ed="GA" n="b060a04"/>松濤供棒喝花香鳥語逗禪機秋塍魯曾煜<reg>為</reg>靜
 <lb ed="GA" n="b060a05"/>山和尚題方丈後一聯云拓開兜率月吼破涅槃
-<lb ed="GA" n="b060a06"/>心閬庭楊士棟<reg>為</reg>四航和尚題後軒中<anchor xml:id="beg_3" type="cb-app"/>間<anchor xml:id="end_3"/>向年供
+<lb ed="GA" n="b060a06"/>心閬庭楊士棟<reg>為</reg>四航和尚題後軒中<anchor xml:id="nkr_note_add_b060a0601" n="b060a0601"/><anchor xml:id="begb060a0601" n="b060a0601"/>間<anchor xml:id="endb060a0601"/>向年供
 <lb ed="GA" n="b060a07"/>奉心經碑搨一幅碑刻佛塔一座準提菩薩像居
 <lb ed="GA" n="b060a08"/>中周刻心經一卷準提左右刻二十諸天十八羅
 <lb ed="GA" n="b060a09"/>漢像旁題曰雍正十三年元旦刻和親王沐手敬
@@ -1370,7 +1375,7 @@ $Log:$
 <lb ed="GA" n="b115a05"/>今道場　旛幢金朱昭輝光</l><l rend="text-indent:1em">渤海善成施果成　大知識
 <lb ed="GA" n="b115a06"/>來橫海鯨</l><l rend="text-indent:1em">捧拂宣闡微妙聲　法雷一震羣夢驚</l><l rend="text-indent:1em">邪櫱
 <lb ed="GA" n="b115a07"/>菀枯智性萌　百川注壑波瀾清</l><l rend="text-indent:1em">繼功次第搆恢宏　更
-<lb ed="GA" n="b115a08"/>千萬年無<anchor xml:id="beg_4" type="cb-app"/>圮<anchor xml:id="end_4"/>傾</l><l rend="text-indent:1em">踵我道躅堅化城</l></lg>
+<lb ed="GA" n="b115a08"/>千萬年無<anchor xml:id="nkr_note_add_b115a0801" n="b115a0801"/><anchor xml:id="begb115a0801" n="b115a0801"/>圮<anchor xml:id="endb115a0801"/>傾</l><l rend="text-indent:1em">踵我道躅堅化城</l></lg>
 <lb ed="GA" n="b115a09"/><p xml:id="pGA030pb115a0901" rend="margin-left:2em">右文見翟氏灝艮山雜志朱氏文藻所輯寺志
 <lb ed="GA" n="b115a10"/>未載當時似未上石也按咸湻臨安志城東有
 <pb ed="GA" xml:id="GA030.0030.b116a" n="b116a"/>
@@ -1385,10 +1390,10 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>圮</corr><sic><g ref="#CB04395">𡉏</g></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>間</corr><sic>閒</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>圮</corr><sic><g ref="#CB04395">𡉏</g></sic></choice>
+<app from="#begb010a0401" to="#endb010a0401"><lem wit="#wit1" resp="#resp3">圮</lem><rdg wit="#wit2"><g ref="#CB04395">𡉏</g></rdg></app>
+<app from="#begb038a0901" to="#endb038a0901"><lem wit="#wit1" resp="#resp3">間</lem><rdg wit="#wit2">閒</rdg></app>
+<app from="#begb060a0601" to="#endb060a0601"><lem wit="#wit1" resp="#resp3">間</lem><rdg wit="#wit2">閒</rdg></app>
+<app from="#begb115a0801" to="#endb115a0801"><lem wit="#wit1" resp="#resp3">圮</lem><rdg wit="#wit2"><g ref="#CB04395">𡉏</g></rdg></app>
 </p>
 </cb:div>
 <cb:div type="dila-notes">
@@ -1396,6 +1401,15 @@ $Log:$
 <p>
 <note n="b006001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_b006001">圖：北通下菩薩、蕩、田、菜園、門後、東、彌六樓、方丈、水月居、庫房、東房址入寺內、骨池、關帝廟、地、南、寺內地、寺前橋、中房、天王殿、大殿、祖堂、伽藍殿、祖師殿、禪堂、大悲閣、北、報本堂、齋堂、柴房、沐浴房、清房、東出范家衖通走馬塘、此處舊有雲水堂延壽堂今廢為隙庙。</note>
 <note n="b007001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_b007001">圖：放生池、各房公產、西、西北房、東北房、南房、聞王廟、後殿、戲臺、花園衖村居、西房、井亭社、西達艮山門。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="b010a0401" resp="#resp2" type="add" target="#nkr_note_add_b010a0401">圮【CB】，<g ref="#CB04395">𡉏</g>【志彙】</note>
+<note n="b038a0901" resp="#resp2" type="add" target="#nkr_note_add_b038a0901">間【CB】，閒【志彙】</note>
+<note n="b060a0601" resp="#resp2" type="add" target="#nkr_note_add_b060a0601">間【CB】，閒【志彙】</note>
+<note n="b115a0801" resp="#resp2" type="add" target="#nkr_note_add_b115a0801">圮【CB】，<g ref="#CB04395">𡉏</g>【志彙】</note>
 </p>
 </cb:div>
 </back></text></TEI>

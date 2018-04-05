@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.5 $<date>$Date: 2012/06/27 08:14:16 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Jiaxing Canon (Shinwenfeng Edition) Vol. 29, No. B242</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【嘉興】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -90,7 +95,7 @@ modified: BM 轉 XML
 <lb ed="J" n="0679a23"/>甚麼師云毫毛出大樹問第一義即不問開堂事作
 <lb ed="J" n="0679a24"/>麼生師云緊水灘頭拋繡毬進云恁麼則學人有賴
 <lb ed="J" n="0679a25"/>師云有緣遇著無緣錯過若論有緣對面不睹若論
-<lb ed="J" n="0679a26"/>無緣千里不遙莫道有緣無緣但辦<anchor xml:id="beg_1" type="cb-app"/>己<anchor xml:id="end_1"/>事勿論他非
+<lb ed="J" n="0679a26"/>無緣千里不遙莫道有緣無緣但辦<anchor xml:id="nkr_note_add_0679a2601" n="0679a2601"/><anchor xml:id="beg0679a2601" n="0679a2601"/>己<anchor xml:id="end0679a2601"/>事勿論他非
 <lb ed="J" n="0679a27"/>參得悟得在在安身立命莫說是閻家老子縱千百
 <lb ed="J" n="0679a28"/>億釋迦也沒奈你何若未悟未了百草頭邊橫不得
 <lb ed="J" n="0679a29"/>豎不得大爐鞴中又如何下得手卓一卓。</p>
@@ -369,7 +374,7 @@ modified: BM 轉 XML
 <lb ed="J" n="0682a23"/>寒泉湧如花山前白雪飛片片山外風寒霧氣霞山
 <lb ed="J" n="0682a24"/>中古寺空王殿山僧日飲趙州茶</l></lg></cb:div>
 <lb ed="J" n="0682a25"/><cb:div type="other"><cb:mulu type="其他" level="2">解脫歌</cb:mulu><head>解脫歌</head>
-<lb ed="J" n="0682a26"/><lg xml:id="lgJ29p0682a2601" type="abnormal" rend="text-indent:0em"><l>若參自<anchor xml:id="beg_2" type="cb-app"/>己<anchor xml:id="end_2"/>本來面汀上蘆花分兩岸要知自家妙慧
+<lb ed="J" n="0682a26"/><lg xml:id="lgJ29p0682a2601" type="abnormal" rend="text-indent:0em"><l>若參自<anchor xml:id="nkr_note_add_0682a2601" n="0682a2601"/><anchor xml:id="beg0682a2601" n="0682a2601"/>己<anchor xml:id="end0682a2601"/>本來面汀上蘆花分兩岸要知自家妙慧
 <lb ed="J" n="0682a27"/>心青山流翠一溪雲聽不見新豐曲子無間斷尋不
 <lb ed="J" n="0682a28"/>著這個種子好摸索且由他只在東村王老家罷罷
 <lb ed="J" n="0682a29"/>罷晝夜免把心頭掛忽然見雪裡炭來會一面決得
@@ -456,8 +461,15 @@ modified: BM 轉 XML
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>己</corr><sic>已</sic></choice>
+<app from="#beg0679a2601" to="#end0679a2601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0682a2601" to="#end0682a2601"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0679a2601" resp="#resp1" type="add" target="#nkr_note_add_0679a2601">己【CB】，已【嘉興】</note>
+<note n="0682a2601" resp="#resp1" type="add" target="#nkr_note_add_0682a2601">己【CB】，已【嘉興】</note>
 </p>
 </cb:div>
 </back></text></TEI>

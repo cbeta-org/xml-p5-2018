@@ -33,9 +33,9 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 20, No. 1045a</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
-		<witness xml:id="wit3">【大】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+		<witness xml:id="wit3">【麗-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -166,7 +166,7 @@ Added comment  for Emacs
 <lb n="0039c06" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0039023" n="0039023"/>佛說六字神呪王經</cb:jhead></cb:juan>
 <lb n="0039c07" ed="T"/>
 <lb n="0039c08" ed="T"/><byline cb:type="Translator">失譯人名今附梁錄</byline>
-<lb n="0039c09" ed="T"/><cb:div type="jing"><p xml:id="pT20p0039c0901">如是我聞。一時佛在舍衛國<anchor xml:id="beg_1" type="cb-app"/>祇<anchor xml:id="end_1"/>陀林中。爾時
+<lb n="0039c09" ed="T"/><cb:div type="jing"><p xml:id="pT20p0039c0901">如是我聞。一時佛在舍衛國<anchor xml:id="nkr_note_add_0039c0901" n="0039c0901"/><anchor xml:id="beg0039c0901" n="0039c0901"/>祇<anchor xml:id="end0039c0901"/>陀林中。爾時
 <lb n="0039c10" ed="T"/>有一外道旃陀羅女。專行眾惡符書厭禱。或
 <lb n="0039c11" ed="T"/>事山神樹神樹下鬼神。日月五星南斗北辰。
 <lb n="0039c12" ed="T"/>一切魍魎雜魔邪魅。惑尊者阿難及諸善人。
@@ -234,7 +234,7 @@ Added comment  for Emacs
 <lb n="0040b14" ed="T"/>惡呪詛。及與毒藥悉皆滅之。若佉傴陀若毘
 <lb n="0040b15" ed="T"/>陀羅。若吉遮若富多那所為悉皆滅之。</p>
 <lb n="0040b16" ed="T"/><p xml:id="pT20p0040b1601">眾惡都盡眾善補處。願此呪常吉。以此真實
-<lb n="0040b17" ed="T"/>章句。使某甲<anchor xml:id="beg_2" type="cb-app"/>晝<anchor xml:id="end_2"/>安夜安晝夜常安。得受百歲
+<lb n="0040b17" ed="T"/>章句。使某甲<anchor xml:id="nkr_note_add_0040b1701" n="0040b1701"/><anchor xml:id="beg0040b1701" n="0040b1701"/>晝<anchor xml:id="end0040b1701"/>安夜安晝夜常安。得受百歲
 <lb n="0040b18" ed="T"/>得見百秋。何以故世間最上無過於佛。天尊
 <lb n="0040b19" ed="T"/>所上眾神仰奉。若有行惡呪道。若作已作若
 <lb n="0040b20" ed="T"/>當作。若中作若成就若未成就悉皆滅之。及
@@ -341,14 +341,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>祇</corr><sic>祗</sic></choice>
-<app from="#beg_2" to="#end_2"><lem resp="#resp3" wit="#wit1 #wit2">晝<note type="cf1">K12n0341_p0042a14</note></lem><rdg wit="#wit3">書</rdg></app>
+<app from="#beg0039c0901" to="#end0039c0901"><lem wit="#wit1" resp="#resp2">祇</lem><rdg wit="#wit2">祗</rdg></app>
+<app from="#beg0040b1701" to="#end0040b1701"><lem resp="#resp3" wit="#wit1 #wit3">晝<note type="cf1">K12n0341_p0042a14</note></lem><rdg wit="#wit2">書</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0039023" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0039023">【原】麗本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0039c0901" resp="#resp2" type="add" target="#nkr_note_add_0039c0901">祇【CB】，祗【大】</note>
+<note n="0040b1701" resp="#resp2" type="add" target="#nkr_note_add_0040b1701">晝【CB】【麗-CB】，書【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

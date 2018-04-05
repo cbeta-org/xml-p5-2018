@@ -13,8 +13,9 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.5 $<date>$Date: 2010/03/17 08:57:20 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>ZangWai</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>ZangWai</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 4, No. 41</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -152,7 +157,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="ZW" n="0336a15"/>佛道場，無相法身隱在眾生之內。佛是眾生，眾生是佛。</p>
 <lb ed="ZW" n="0336a16"/><p xml:id="pZW04p0336a1601" rend="margin-left:0em;text-indent:2em">本文獻為武周時代抄本，有武周新字多個。文中俗字甚多，
 <lb ed="ZW" n="0336a17"/>辨認較難。有些字的辨認尚無把握，還祈高明指正。</p>
-<lb ed="ZW" n="0336a18"/><p xml:id="pZW04p0336a1801" rend="margin-left:0em;text-indent:2em">本文獻<anchor xml:id="beg_1" type="cb-app"/>未<anchor xml:id="end_1"/>為歷代大藏經所收錄，現據北京圖書館所藏敦煌
+<lb ed="ZW" n="0336a18"/><p xml:id="pZW04p0336a1801" rend="margin-left:0em;text-indent:2em">本文獻<anchor xml:id="nkr_note_add_0336a1801" n="0336a1801"/><anchor xml:id="beg0336a1801" n="0336a1801"/>未<anchor xml:id="end0336a1801"/>為歷代大藏經所收錄，現據北京圖書館所藏敦煌
 <lb ed="ZW" n="0336a19"/>遺書北新1002號整理錄文，無校本。</p></cb:div>
 <lb ed="ZW" n="0336a20"/>
 <lb ed="ZW" n="0336a21"/><cb:div type="other"><cb:mulu type="其他" level="1">錄文</cb:mulu><head>〔錄文〕</head>
@@ -764,88 +769,94 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>未</corr><sic>末</sic></choice>
+<app from="#beg0336a1801" to="#end0336a1801"><lem wit="#wit1" resp="#resp2">未</lem><rdg wit="#wit2">末</rdg></app>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
 <head>方廣錩 校註</head>
 <p>
-<note n="0337001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0337001">「賓」，底本作「賈」，據文意改。</note>
-<note n="0337002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0337002">「答」，底本無，據文意補。</note>
-<note n="0337003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0337003">「憔」，底本作「燋」，據文意改。</note>
-<note n="0337004" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0337004">「之」，底本作「子」，據文意改。</note>
-<note n="0337005" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0337005">「憔」，底本作「燋」，據文意改。</note>
-<note n="0337006" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0337006">「免」，底本作「勉」，據文意改。</note>
-<note n="0338001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0338001">「士」，底本作「土」，據文意改。</note>
-<note n="0338002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0338002">「怒」，底本作「努」，據文意改。</note>
-<note n="0338003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0338003">「焦」，底本作「燋」，據文意改。</note>
-<note n="0339001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0339001">「焦」，底本作「燋」，據文意改。</note>
-<note n="0339002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0339002">「士」，底本作「土」，據文意改。</note>
-<note n="0340001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0340001">「悟」，底本作「悞」，據文意改。下同，不一一出註。</note>
-<note n="0340002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0340002">「醒」，底本作「惺」，據文意改。</note>
-<note n="0341001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0341001">「測」，底本作「惻」，據文意改。</note>
-<note n="0341002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0341002">「猶」，底本作「由」，據文意改。</note>
-<note n="0343001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0343001">「愚」，底本作「息」，據文意改。</note>
-<note n="0344001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0344001">「今」，底本作「金」，據文意改。</note>
-<note n="0344002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0344002">「猶」，底本作「由」，據文意改。</note>
-<note n="0345001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0345001">「耀」，底本作「曜」，據文意改。</note>
-<note n="0345002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0345002">「形」，底本作「刑」，據文意改。</note>
-<note n="0345003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0345003">「迷」，底本作「悉」，據文意改。</note>
-<note n="0346001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0346001">「代」，底本作「伐」，據文意改。</note>
-<note n="0346002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0346002">「猶」，底本作「由」，據文意改。</note>
-<note n="0346003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0346003">「鑑」，底本作「監」，據文意改。</note>
-<note n="0347001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0347001">「院」，底本作「阮」，據文意改。</note>
-<note n="0347002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0347002">「停」，底本作「亭」，據文意改。</note>
-<note n="0347003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0347003">「咽」，底本作「唵」，據文意改。</note>
-<note n="0347004" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0347004">「免」，底本作「勉」，據文意改。</note>
-<note n="0348001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0348001">「邪」，底本作「耶」，據文意改。</note>
-<note n="0348002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0348002">「形」，底本作「刑」，據文意改。</note>
-<note n="0348003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0348003">「蹤」，底本作「縱」，據文意改。</note>
-<note n="0349001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0349001">「盤」，底本作「槃」，據文意改，下同。</note>
-<note n="0349002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0349002">「邪」，底本作「耶」，據文意改。</note>
-<note n="0349003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0349003">「稱」，底本作「秤」，據文意改。</note>
-<note n="0349004" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0349004">「想」，底本作「相」，據文意改。</note>
-<note n="0349005" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0349005">「俯」，底本作「府」，據文意改。</note>
-<note n="0350001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0350001">「形」，底本作「刑」，據文意改。</note>
-<note n="0350002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0350002">「箜」，底本作「空」，據文意改。</note>
-<note n="0350003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0350003">「形」，底本作「刑」，據文意改。</note>
-<note n="0350004" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0350004">「臍」，底本作「齊」，據文意改。</note>
-<note n="0350005" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0350005">「窄」，底本作「責」，據文意改。</note>
-<note n="0350006" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0350006">「猶」，底本作「由」，據文意改。</note>
-<note n="0351001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0351001">「形」，底本作「刑」，據文意改。</note>
-<note n="0351002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0351002">「愚」，底本作「遇」，據文意改。</note>
-<note n="0351003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0351003">「愚」，底本作「遇」，據文意改。</note>
-<note n="0351004" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0351004">「猶」，底本作「由」，據文意改。</note>
-<note n="0351005" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0351005">「畫」，底本作「盡」，據文意改。</note>
-<note n="0352001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0352001">「姿」，底本作「恣」，據文意改。</note>
-<note n="0352002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0352002">「諦」，底本作「帝」，據文意改。</note>
-<note n="0352003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0352003">「俯」，底本作「府」，據文意改。</note>
-<note n="0353001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0353001">「獎」，底本作「將」，據文意改。</note>
-<note n="0353002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0353002">「惑」，底本作「或」，據文意改。</note>
-<note n="0354001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0354001">「孩」，底本作「咳」，據文意改。</note>
-<note n="0354002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0354002">「孩」，底本作「咳」，據文意改。</note>
-<note n="0354003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0354003">「胞」，疑為「薄」誤。</note>
-<note n="0354004" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0354004">「賀」，底本作「荷」，據文意改。</note>
-<note n="0354005" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0354005">「喜」，底本作「憘」，據文意改。</note>
-<note n="0354006" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0354006">「焦」，底本作「燋」，據文意改。</note>
-<note n="0354007" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0354007">「遇」，底本作「愚」，據文意改。</note>
-<note n="0355001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0355001">「已」，底本作「以」，據文意改。</note>
-<note n="0356001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0356001">「剪」，底本作「煎」，據文意改。</note>
-<note n="0356002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0356002">「測」，底本作「惻」，據文意改。</note>
-<note n="0357001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0357001">「始」，底本作「如」，據文意改。</note>
-<note n="0358001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0358001">「入」，底本作「人」，據文意改。</note>
-<note n="0358002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0358002">「邪」，底本作「耶」，據文意改。</note>
-<note n="0359001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0359001">「邪」，底本作「耶」，據文意改。</note>
-<note n="0359002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0359002">「智」，底本作「知」，據文意改。</note>
-<note n="0359003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0359003">「惑」，底本作「或」，據文意改。</note>
-<note n="0359004" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0359004">「響」，底本作「嚮」，據文意改。</note>
-<note n="0361001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0361001">「免」，底本作「勉」，據文意改。</note>
-<note n="0361002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0361002">「增」，底本作「憎」，據文意改。</note>
-<note n="0361003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0361003">「增」，底本作「憎」，據文意改。</note>
-<note n="0361004" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0361004">「弟」，底本作「第」，據文意改。</note>
-<note n="0361005" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0361005">「增」，底本作「憎」，據文意改。</note>
-<note n="0361006" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0361006">「過」，底本作「遇」，據文意改。</note>
-<note n="0362001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0362001">「腑」，底本作「府」，據文意改。</note>
+<note n="0337001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0337001">「賓」，底本作「賈」，據文意改。</note>
+<note n="0337002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0337002">「答」，底本無，據文意補。</note>
+<note n="0337003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0337003">「憔」，底本作「燋」，據文意改。</note>
+<note n="0337004" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0337004">「之」，底本作「子」，據文意改。</note>
+<note n="0337005" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0337005">「憔」，底本作「燋」，據文意改。</note>
+<note n="0337006" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0337006">「免」，底本作「勉」，據文意改。</note>
+<note n="0338001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0338001">「士」，底本作「土」，據文意改。</note>
+<note n="0338002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0338002">「怒」，底本作「努」，據文意改。</note>
+<note n="0338003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0338003">「焦」，底本作「燋」，據文意改。</note>
+<note n="0339001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0339001">「焦」，底本作「燋」，據文意改。</note>
+<note n="0339002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0339002">「士」，底本作「土」，據文意改。</note>
+<note n="0340001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0340001">「悟」，底本作「悞」，據文意改。下同，不一一出註。</note>
+<note n="0340002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0340002">「醒」，底本作「惺」，據文意改。</note>
+<note n="0341001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0341001">「測」，底本作「惻」，據文意改。</note>
+<note n="0341002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0341002">「猶」，底本作「由」，據文意改。</note>
+<note n="0343001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0343001">「愚」，底本作「息」，據文意改。</note>
+<note n="0344001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0344001">「今」，底本作「金」，據文意改。</note>
+<note n="0344002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0344002">「猶」，底本作「由」，據文意改。</note>
+<note n="0345001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0345001">「耀」，底本作「曜」，據文意改。</note>
+<note n="0345002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0345002">「形」，底本作「刑」，據文意改。</note>
+<note n="0345003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0345003">「迷」，底本作「悉」，據文意改。</note>
+<note n="0346001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0346001">「代」，底本作「伐」，據文意改。</note>
+<note n="0346002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0346002">「猶」，底本作「由」，據文意改。</note>
+<note n="0346003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0346003">「鑑」，底本作「監」，據文意改。</note>
+<note n="0347001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0347001">「院」，底本作「阮」，據文意改。</note>
+<note n="0347002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0347002">「停」，底本作「亭」，據文意改。</note>
+<note n="0347003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0347003">「咽」，底本作「唵」，據文意改。</note>
+<note n="0347004" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0347004">「免」，底本作「勉」，據文意改。</note>
+<note n="0348001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0348001">「邪」，底本作「耶」，據文意改。</note>
+<note n="0348002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0348002">「形」，底本作「刑」，據文意改。</note>
+<note n="0348003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0348003">「蹤」，底本作「縱」，據文意改。</note>
+<note n="0349001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0349001">「盤」，底本作「槃」，據文意改，下同。</note>
+<note n="0349002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0349002">「邪」，底本作「耶」，據文意改。</note>
+<note n="0349003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0349003">「稱」，底本作「秤」，據文意改。</note>
+<note n="0349004" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0349004">「想」，底本作「相」，據文意改。</note>
+<note n="0349005" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0349005">「俯」，底本作「府」，據文意改。</note>
+<note n="0350001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0350001">「形」，底本作「刑」，據文意改。</note>
+<note n="0350002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0350002">「箜」，底本作「空」，據文意改。</note>
+<note n="0350003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0350003">「形」，底本作「刑」，據文意改。</note>
+<note n="0350004" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0350004">「臍」，底本作「齊」，據文意改。</note>
+<note n="0350005" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0350005">「窄」，底本作「責」，據文意改。</note>
+<note n="0350006" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0350006">「猶」，底本作「由」，據文意改。</note>
+<note n="0351001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0351001">「形」，底本作「刑」，據文意改。</note>
+<note n="0351002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0351002">「愚」，底本作「遇」，據文意改。</note>
+<note n="0351003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0351003">「愚」，底本作「遇」，據文意改。</note>
+<note n="0351004" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0351004">「猶」，底本作「由」，據文意改。</note>
+<note n="0351005" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0351005">「畫」，底本作「盡」，據文意改。</note>
+<note n="0352001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0352001">「姿」，底本作「恣」，據文意改。</note>
+<note n="0352002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0352002">「諦」，底本作「帝」，據文意改。</note>
+<note n="0352003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0352003">「俯」，底本作「府」，據文意改。</note>
+<note n="0353001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0353001">「獎」，底本作「將」，據文意改。</note>
+<note n="0353002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0353002">「惑」，底本作「或」，據文意改。</note>
+<note n="0354001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0354001">「孩」，底本作「咳」，據文意改。</note>
+<note n="0354002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0354002">「孩」，底本作「咳」，據文意改。</note>
+<note n="0354003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0354003">「胞」，疑為「薄」誤。</note>
+<note n="0354004" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0354004">「賀」，底本作「荷」，據文意改。</note>
+<note n="0354005" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0354005">「喜」，底本作「憘」，據文意改。</note>
+<note n="0354006" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0354006">「焦」，底本作「燋」，據文意改。</note>
+<note n="0354007" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0354007">「遇」，底本作「愚」，據文意改。</note>
+<note n="0355001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0355001">「已」，底本作「以」，據文意改。</note>
+<note n="0356001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0356001">「剪」，底本作「煎」，據文意改。</note>
+<note n="0356002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0356002">「測」，底本作「惻」，據文意改。</note>
+<note n="0357001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0357001">「始」，底本作「如」，據文意改。</note>
+<note n="0358001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0358001">「入」，底本作「人」，據文意改。</note>
+<note n="0358002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0358002">「邪」，底本作「耶」，據文意改。</note>
+<note n="0359001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0359001">「邪」，底本作「耶」，據文意改。</note>
+<note n="0359002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0359002">「智」，底本作「知」，據文意改。</note>
+<note n="0359003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0359003">「惑」，底本作「或」，據文意改。</note>
+<note n="0359004" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0359004">「響」，底本作「嚮」，據文意改。</note>
+<note n="0361001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0361001">「免」，底本作「勉」，據文意改。</note>
+<note n="0361002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0361002">「增」，底本作「憎」，據文意改。</note>
+<note n="0361003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0361003">「增」，底本作「憎」，據文意改。</note>
+<note n="0361004" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0361004">「弟」，底本作「第」，據文意改。</note>
+<note n="0361005" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0361005">「增」，底本作「憎」，據文意改。</note>
+<note n="0361006" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0361006">「過」，底本作「遇」，據文意改。</note>
+<note n="0362001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0362001">「腑」，底本作「府」，據文意改。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0336a1801" resp="#resp1" type="add" target="#nkr_note_add_0336a1801">未【CB】，末【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

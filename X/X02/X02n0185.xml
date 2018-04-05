@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2009/04/22 08:48:36 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 2, No. 185</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -141,7 +146,7 @@ no message
 <lb ed="X" n="0841b07"/><lb ed="R003" n="0739a10"/><p xml:id="pX02p0841b0701">以是真言誦三時每時一百八遍三日三夜亦七日
 <lb ed="X" n="0841b08"/><lb ed="R003" n="0739a11"/>七夜奉供即權現迦那婆底九目天王如影隨形順
 <lb ed="X" n="0841b09"/><lb ed="R003" n="0739a12"/>真言師心駈使示善惡又上品持我者我為人中王
-<lb ed="X" n="0841b10"/><lb ed="R003" n="0739a13"/>中品持我者我為王師下品持我者福貴無窮<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>凡
+<lb ed="X" n="0841b10"/><lb ed="R003" n="0739a13"/>中品持我者我為王師下品持我者福貴無窮<anchor xml:id="nkr_note_add_0841b1001" n="0841b1001"/><anchor xml:id="beg0841b1001" n="0841b1001"/>已<anchor xml:id="end0841b1001"/>凡
 <lb ed="X" n="0841b11"/><lb ed="R003" n="0739a14"/>一切善惡事所求願必無不果遂。</p>
 <lb ed="X" n="0841b12"/><lb ed="R003" n="0739a15"/>
 <lb ed="X" n="0841b13"/><lb ed="R003" n="0739a16"/><cb:div type="w"><p xml:id="pX02p0841b1301">安元二年五月二十七日於法住寺法華堂僧坊
@@ -152,7 +157,13 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0841b1001" to="#end0841b1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0841b1001" resp="#resp1" type="add" target="#nkr_note_add_0841b1001">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

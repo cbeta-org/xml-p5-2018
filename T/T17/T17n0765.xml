@@ -14,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.24 $<date>$Date: 2012/10/08 08:17:38 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>7卷</extent>
 	<publicationStmt>
@@ -34,7 +34,7 @@
 		<bibl>Taishō Tripiṭaka Vol. 17, No. 765</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
-		<witness xml:id="wit10">【磧砂】</witness>
+		<witness xml:id="wit10">【磧-CB】</witness>
 		<witness xml:id="wit11">【久】</witness>
 		<witness xml:id="wit2">【聖】</witness>
 		<witness xml:id="wit3">【聖乙】</witness>
@@ -42,8 +42,8 @@
 		<witness xml:id="wit5">【元】</witness>
 		<witness xml:id="wit6">【宮】</witness>
 		<witness xml:id="wit7">【明】</witness>
-		<witness xml:id="wit8">【CBETA】</witness>
-		<witness xml:id="wit9">【麗】</witness>
+		<witness xml:id="wit8">【CB】</witness>
+		<witness xml:id="wit9">【麗-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -213,14 +213,14 @@ Added comment  for Emacs
 <milestone n="1" unit="juan"/>
 <lb n="0662b09" ed="T"/>
 <lb n="0662b10" ed="T"/><cb:docNumber>No. 765</cb:docNumber>
-<lb n="0662b11" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title>本事經</title><anchor xml:id="nkr_note_orig_0662002" n="0662002"/><anchor xml:id="beg0662002" n="0662002"/>卷<anchor xml:id="end0662002"/>第一</cb:jhead></cb:juan>
+<lb n="0662b11" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title>本事經</title><anchor xml:id="nkr_note_orig_0662002" n="0662002"/><anchor xml:id="nkr_note_mod_0662002" n="0662002"/><anchor xml:id="beg0662002" n="0662002"/>卷<anchor xml:id="end0662002"/>第一</cb:jhead></cb:juan>
 <lb n="0662b12" ed="T"/>
-<lb n="0662b13" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0662003" n="0662003"/><anchor xml:id="beg0662003" n="0662003"/>大唐<anchor xml:id="end0662003"/><anchor xml:id="nkr_note_orig_0662004" n="0662004"/><anchor xml:id="beg0662004" n="0662004"/>三藏法師<anchor xml:id="end0662004"/>玄奘奉　<anchor xml:id="nkr_note_orig_0662005" n="0662005"/><anchor xml:id="beg0662005" n="0662005"/>詔<anchor xml:id="end0662005"/>譯</byline>
-<lb n="0662b14" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="1" type="品">1 一法品(一-二)</cb:mulu><cb:mulu level="2">1</cb:mulu><head><anchor xml:id="nkr_note_orig_0662006" n="0662006"/><anchor xml:id="beg0662006" n="0662006"/>一法<anchor xml:id="end0662006"/>品<anchor xml:id="nkr_note_orig_0662007" n="0662007"/><anchor xml:id="beg0662007" n="0662007"/>第一<anchor xml:id="end0662007"/><anchor xml:id="nkr_note_orig_0662008" n="0662008"/><anchor xml:id="beg0662008" n="0662008"/>之一<anchor xml:id="end0662008"/></head>
+<lb n="0662b13" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0662003" n="0662003"/><anchor xml:id="nkr_note_mod_0662003" n="0662003"/><anchor xml:id="beg0662003" n="0662003"/>大唐<anchor xml:id="end0662003"/><anchor xml:id="nkr_note_orig_0662004" n="0662004"/><anchor xml:id="nkr_note_mod_0662004" n="0662004"/><anchor xml:id="beg0662004" n="0662004"/>三藏法師<anchor xml:id="end0662004"/>玄奘奉　<anchor xml:id="nkr_note_orig_0662005" n="0662005"/><anchor xml:id="nkr_note_mod_0662005" n="0662005"/><anchor xml:id="beg0662005" n="0662005"/>詔<anchor xml:id="end0662005"/>譯</byline>
+<lb n="0662b14" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="1" type="品">1 一法品(一-二)</cb:mulu><cb:mulu level="2">1</cb:mulu><head><anchor xml:id="nkr_note_orig_0662006" n="0662006"/><anchor xml:id="nkr_note_mod_0662006" n="0662006"/><anchor xml:id="beg0662006" n="0662006"/>一法<anchor xml:id="end0662006"/>品<anchor xml:id="nkr_note_orig_0662007" n="0662007"/><anchor xml:id="nkr_note_mod_0662007" n="0662007"/><anchor xml:id="beg0662007" n="0662007"/>第一<anchor xml:id="end0662007"/><anchor xml:id="nkr_note_orig_0662008" n="0662008"/><anchor xml:id="nkr_note_mod_0662008" n="0662008"/><anchor xml:id="beg0662008" n="0662008"/>之一<anchor xml:id="end0662008"/></head>
 <lb n="0662b15" ed="T"/><p xml:id="pT17p0662b1501">吾從世尊聞如是語：「苾芻當知！我觀世間，無
 <lb n="0662b16" ed="T"/>別一法，覆障群生，馳騁流轉生死長途，如無
 <lb n="0662b17" ed="T"/>明蓋。所以者何？世間群生，由無明蓋所覆障
-<lb n="0662b18" ed="T"/>故，馳騁流轉生死長<anchor xml:id="nkr_note_orig_0662009" n="0662009"/><anchor xml:id="beg0662009" n="0662009"/>途<anchor xml:id="end0662009"/>。是故汝等應如是
+<lb n="0662b18" ed="T"/>故，馳騁流轉生死長<anchor xml:id="nkr_note_orig_0662009" n="0662009"/><anchor xml:id="nkr_note_mod_0662009" n="0662009"/><anchor xml:id="beg0662009" n="0662009"/>途<anchor xml:id="end0662009"/>。是故汝等應如是
 <lb n="0662b19" ed="T"/>學：我當云何修起慧明，破無明蓋，出貪愛
 <lb n="0662b20" ed="T"/>網？汝等苾芻，應如是學。」爾時，世尊重攝此
 <lb n="0662b21" ed="T"/>義而說頌曰：</p>
@@ -235,18 +235,18 @@ Added comment  for Emacs
 <pb n="0662c" ed="T" xml:id="T17.0765.0662c"/>
 <lb n="0662c01" ed="T"/>愛結。所以者何？世間群生，由貪愛結所繫縛
 <lb n="0662c02" ed="T"/>故，馳騁流轉生死長途。是故汝等應如是學：
-<lb n="0662c03" ed="T"/>我當云何修瑩慧<anchor xml:id="nkr_note_orig_0662010" n="0662010"/><anchor xml:id="beg0662010" n="0662010"/>刀<anchor xml:id="end0662010"/>，斷貪愛結，破大闇聚？汝
+<lb n="0662c03" ed="T"/>我當云何修瑩慧<anchor xml:id="nkr_note_orig_0662010" n="0662010"/><anchor xml:id="nkr_note_mod_0662010" n="0662010"/><anchor xml:id="beg0662010" n="0662010"/>刀<anchor xml:id="end0662010"/>，斷貪愛結，破大闇聚？汝
 <lb n="0662c04" ed="T"/>等苾芻，應如是學。」爾時，世尊重攝此義而說
 <lb n="0662c05" ed="T"/>頌曰：</p>
 <lb n="0662c06" ed="T"/><lg xml:id="lgT17p0662c0601" rend="margin-left:1em;text-indent:-1em"><l>「無別有一法，</l><l>繫縛諸群生，</l>
 <lb n="0662c07" ed="T"/><l>馳流生死途，</l><l>如貪愛結者。</l>
 <lb n="0662c08" ed="T"/><l>貪愛大繫縛，</l><l>由斯久流轉，</l>
 <lb n="0662c09" ed="T"/><l>彼此有往來，</l><l>昇沈高下趣。</l>
-<lb n="0662c10" ed="T"/><l>若斷貪愛<anchor xml:id="nkr_note_orig_0662011" n="0662011"/><anchor xml:id="beg0662011" n="0662011"/>縛<anchor xml:id="end0662011"/>，</l><l>破大黑闇聚，</l>
+<lb n="0662c10" ed="T"/><l>若斷貪愛<anchor xml:id="nkr_note_orig_0662011" n="0662011"/><anchor xml:id="nkr_note_mod_0662011" n="0662011"/><anchor xml:id="beg0662011" n="0662011"/>縛<anchor xml:id="end0662011"/>，</l><l>破大黑闇聚，</l>
 <lb n="0662c11" ed="T"/><l>不處生死流，</l><l>以無彼因故。」</l></lg>
 <lb n="0662c12" ed="T"/><p xml:id="pT17p0662c1201">吾從世尊聞如是語：「苾芻當知！若一有情，於
 <lb n="0662c13" ed="T"/>一劫中流轉生死，所受身骨，假使有能積聚
-<lb n="0662c14" ed="T"/><anchor xml:id="beg_1" type="cb-app"/>不<anchor xml:id="end_1"/>爛，其聚高廣，如王舍城毘補羅山。況彼有
+<lb n="0662c14" ed="T"/><anchor xml:id="nkr_note_add_0662c1401" n="0662c1401"/><anchor xml:id="beg0662c1401" n="0662c1401"/>不<anchor xml:id="end0662c1401"/>爛，其聚高廣，如王舍城毘補羅山。況彼有
 <lb n="0662c15" ed="T"/>情，無初後際，馳騁流轉生死長途，所受身骨
 <lb n="0662c16" ed="T"/>而可測量。所以者何？苾芻當知！我說有情，於
 <lb n="0662c17" ed="T"/>四聖諦不了知故、不照見故、不現觀故、不通
@@ -267,7 +267,7 @@ Added comment  for Emacs
 <lb n="0663a02" ed="T"/><l>定斷一切結，</l><l>能盡諸苦邊。」</l></lg>
 <lb n="0663a03" ed="T"/><p xml:id="pT17p0663a0301">吾從世尊聞如是語：「苾芻當知！我以佛眼遍
 <lb n="0663a04" ed="T"/>觀世間，諸有業果皆緣心意。一類有情，心意
-<lb n="0663a05" ed="T"/>所使，行如是<anchor xml:id="nkr_note_orig_0663001" n="0663001"/><anchor xml:id="beg0663001" n="0663001"/>行，履如是<anchor xml:id="end0663001"/>道；身壞命終，如捨
+<lb n="0663a05" ed="T"/>所使，行如是<anchor xml:id="nkr_note_orig_0663001" n="0663001"/><anchor xml:id="nkr_note_mod_0663001" n="0663001"/><anchor xml:id="beg0663001" n="0663001"/>行，履如是<anchor xml:id="end0663001"/>道；身壞命終，如捨
 <lb n="0663a06" ed="T"/>重擔，墮諸惡趣，生地獄中。所以者何？彼諸有
 <lb n="0663a07" ed="T"/>情，心意染污。由此為因，身壞命終，墮諸惡
 <lb n="0663a08" ed="T"/>趣，生地獄中。」爾時，世尊重攝此義而說頌
@@ -283,7 +283,7 @@ Added comment  for Emacs
 <lb n="0663a18" ed="T"/>所使，行如是行，履如是道；身壞命終，如捐重
 <lb n="0663a19" ed="T"/>擔，昇諸善趣，生於天中。所以者何？彼諸有
 <lb n="0663a20" ed="T"/>情，心意清淨。由此為因，身壞命終，昇諸善
-<lb n="0663a21" ed="T"/>趣，<anchor xml:id="nkr_note_orig_0663002" n="0663002"/><anchor xml:id="beg0663002" n="0663002"/>生<anchor xml:id="end0663002"/>天<anchor xml:id="nkr_note_orig_0663003" n="0663003"/><anchor xml:id="beg0663003" n="0663003"/>界<anchor xml:id="end0663003"/>中。」爾時，世尊重攝此義而說頌
+<lb n="0663a21" ed="T"/>趣，<anchor xml:id="nkr_note_orig_0663002" n="0663002"/><anchor xml:id="nkr_note_mod_0663002" n="0663002"/><anchor xml:id="beg0663002" n="0663002"/>生<anchor xml:id="end0663002"/>天<anchor xml:id="nkr_note_orig_0663003" n="0663003"/><anchor xml:id="nkr_note_mod_0663003" n="0663003"/><anchor xml:id="beg0663003" n="0663003"/>界<anchor xml:id="end0663003"/>中。」爾時，世尊重攝此義而說頌
 <lb n="0663a22" ed="T"/>曰：</p>
 <lb n="0663a23" ed="T"/><lg xml:id="lgT17p0663a2301" rend="margin-left:1em;text-indent:-1em"><l>「一類諸有情，</l><l>心意起清淨，</l>
 <lb n="0663a24" ed="T"/><l>我今當為汝，</l><l>記別其所生；</l>
@@ -302,7 +302,7 @@ Added comment  for Emacs
 <lb n="0663b07" ed="T"/>如是應知諸業自性。既正了知業自性已，云
 <lb n="0663b08" ed="T"/>何應知諸業因緣？業因緣者，謂諸貪愛。如是
 <lb n="0663b09" ed="T"/>應知諸業因緣。既正了知諸<anchor xml:id="nkr_note_orig_0663005" n="0663005"/><anchor xml:id="nkr_note_mod_0663005" n="0663005"/><anchor xml:id="beg0663005" n="0663005"/>業<anchor xml:id="end0663005"/>自性、業因緣
-<lb n="0663b10" ed="T"/>已，云何應知諸業品類？業品類者，<anchor xml:id="nkr_note_orig_0663006" n="0663006"/><anchor xml:id="beg0663006" n="0663006"/>謂<anchor xml:id="end0663006"/>別
+<lb n="0663b10" ed="T"/>已，云何應知諸業品類？業品類者，<anchor xml:id="nkr_note_orig_0663006" n="0663006"/><anchor xml:id="nkr_note_mod_0663006" n="0663006"/><anchor xml:id="beg0663006" n="0663006"/>謂<anchor xml:id="end0663006"/>別
 <lb n="0663b11" ed="T"/>品類業，趣地獄身；別品類業，趣傍生身；別品
 <lb n="0663b12" ed="T"/>類業，趣鬼界身；別品類業，趣阿素洛界身；別
 <lb n="0663b13" ed="T"/>品類業，趣人界身；別品類業，趣天界身。如
@@ -345,7 +345,7 @@ Added comment  for Emacs
 <lb n="0663c20" ed="T"/><l>當來諸有情，</l><l>雖受如是業，</l>
 <lb n="0663c21" ed="T"/><l>若能依佛教，</l><l>正信而出家，</l>
 <lb n="0663c22" ed="T"/><l>彼於愚癡類，</l><l>無師開導中，</l>
-<lb n="0663c23" ed="T"/><l>名能善<anchor xml:id="nkr_note_orig_0663008" n="0663008"/><anchor xml:id="beg0663008" n="0663008"/>修<anchor xml:id="end0663008"/>行，</l><l>不愚正法者。</l>
+<lb n="0663c23" ed="T"/><l>名能善<anchor xml:id="nkr_note_orig_0663008" n="0663008"/><anchor xml:id="nkr_note_mod_0663008" n="0663008"/><anchor xml:id="beg0663008" n="0663008"/>修<anchor xml:id="end0663008"/>行，</l><l>不愚正法者。</l>
 <lb n="0663c24" ed="T"/><l>故汝等苾芻，</l><l>精勤勿放逸，</l>
 <lb n="0663c25" ed="T"/><l>應善知諸業，</l><l>相續正修行。</l>
 <lb n="0663c26" ed="T"/><l>為盡業自性，</l><l>及業因緣等，</l>
@@ -374,7 +374,7 @@ Added comment  for Emacs
 <lb n="0664a19" ed="T"/>生起時，與多眾生為不利益、為不安樂；引諸
 <lb n="0664a20" ed="T"/>世間天人大眾，作無義利，感大苦果。云何
 <lb n="0664a21" ed="T"/>一法？是謂破僧。所以者何？苾芻當知！僧若破
-<lb n="0664a22" ed="T"/>壞，一切大眾互興諍論，遞相訶責、遞相<anchor xml:id="nkr_note_orig_0664001" n="0664001"/><anchor xml:id="beg0664001" n="0664001"/>陵<anchor xml:id="end0664001"/>
+<lb n="0664a22" ed="T"/>壞，一切大眾互興諍論，遞相訶責、遞相<anchor xml:id="nkr_note_orig_0664001" n="0664001"/><anchor xml:id="nkr_note_mod_0664001" n="0664001"/><anchor xml:id="beg0664001" n="0664001"/>陵<anchor xml:id="end0664001"/>
 <lb n="0664a23" ed="T"/>蔑、遞相罵辱、遞相毀呰、遞相怨嫌、遞相惱
 <lb n="0664a24" ed="T"/>觸、遞相<anchor xml:id="nkr_note_orig_0664002" n="0664002"/><anchor xml:id="nkr_note_mod_0664002" n="0664002"/><anchor xml:id="beg0664002" n="0664002"/>反<anchor xml:id="end0664002"/>戾、遞相誹謗、遞相棄捨。當於爾
 <lb n="0664a25" ed="T"/>時，一切世間未敬信者，轉不敬信；已敬信
@@ -384,16 +384,16 @@ Added comment  for Emacs
 <lb n="0664a29" ed="T"/>世尊重攝此義而說頌曰：</p>
 <pb n="0664b" ed="T" xml:id="T17.0765.0664b"/>
 <lb n="0664b01" ed="T"/><lg xml:id="lgT17p0664b0101" rend="margin-left:1em;text-indent:-1em"><l>「世有一法生，</l><l>能起無量惡，</l>
-<lb n="0664b02" ed="T"/><l>所謂僧破壞，</l><l>愚<anchor xml:id="nkr_note_orig_0664003" n="0664003"/><anchor xml:id="beg0664003" n="0664003"/>癡<anchor xml:id="end0664003"/>者隨喜；</l>
+<lb n="0664b02" ed="T"/><l>所謂僧破壞，</l><l>愚<anchor xml:id="nkr_note_orig_0664003" n="0664003"/><anchor xml:id="nkr_note_mod_0664003" n="0664003"/><anchor xml:id="beg0664003" n="0664003"/>癡<anchor xml:id="end0664003"/>者隨喜；</l>
 <lb n="0664b03" ed="T"/><l>能破壞僧苦，</l><l>破壞眾亦苦，</l>
 <lb n="0664b04" ed="T"/><l>僧和合令壞，</l><l>經劫無間苦。」</l></lg>
 <lb n="0664b05" ed="T"/><p xml:id="pT17p0664b0501">吾從世尊聞如是語：「苾芻當知！世有一法，於
 <lb n="0664b06" ed="T"/>生起時，與多眾生為大利益、為大安樂；引諸
 <lb n="0664b07" ed="T"/>世間天人大眾，作大義利，感大樂果。云何一
 <lb n="0664b08" ed="T"/>法？是謂僧和。所以者何？苾芻當知！僧若和
-<lb n="0664b09" ed="T"/>合，一切大眾互無諍論，不相訶責，不相<anchor xml:id="beg_2" type="star"/>陵<anchor xml:id="end_2"/>
+<lb n="0664b09" ed="T"/>合，一切大眾互無諍論，不相訶責，不相<anchor xml:id="beg_1" type="star"/>陵<anchor xml:id="end_1"/>
 <lb n="0664b10" ed="T"/>蔑，不相罵辱，不相毀呰，不相怨嫌、不相惱
-<lb n="0664b11" ed="T"/>觸、不相<anchor xml:id="beg_3" type="star"/>反<anchor xml:id="end_3"/>戾、不相誹謗、不相棄捨。當於爾
+<lb n="0664b11" ed="T"/>觸、不相<anchor xml:id="beg_2" type="star"/>反<anchor xml:id="end_2"/>戾、不相誹謗、不相棄捨。當於爾
 <lb n="0664b12" ed="T"/>時，一切世間未敬信者，便生敬信；已敬信
 <lb n="0664b13" ed="T"/>者，轉增敬信。苾芻當知！如是名為世有一
 <lb n="0664b14" ed="T"/>法，於生起時，與多眾生為大利益、為大安
@@ -437,7 +437,7 @@ Added comment  for Emacs
 <lb n="0664c22" ed="T"/><lg xml:id="lgT17p0664c2201" rend="margin-left:1em;text-indent:-1em"><l>「諸有多聞人，</l><l>能捨貪財位，</l>
 <lb n="0664c23" ed="T"/><l>勤修不放逸，</l><l>證常樂涅槃。</l>
 <lb n="0664c24" ed="T"/><l>智人無放逸，</l><l>能攝持二利，</l>
-<lb n="0664c25" ed="T"/><l>謂現法當來，</l><l>俱<anchor xml:id="nkr_note_orig_0664005" n="0664005"/><anchor xml:id="beg0664005" n="0664005"/>令<anchor xml:id="end0664005"/>至圓滿。</l>
+<lb n="0664c25" ed="T"/><l>謂現法當來，</l><l>俱<anchor xml:id="nkr_note_orig_0664005" n="0664005"/><anchor xml:id="nkr_note_mod_0664005" n="0664005"/><anchor xml:id="beg0664005" n="0664005"/>令<anchor xml:id="end0664005"/>至圓滿。</l>
 <lb n="0664c26" ed="T"/><l>諸有善能成，</l><l>現後俱利樂，</l>
 <lb n="0664c27" ed="T"/><l>前後眾賢聖，</l><l>皆稱為智人。」</l></lg>
 <lb n="0664c28" ed="T"/><p xml:id="pT17p0664c2801">重攝前經嗢<anchor xml:id="nkr_note_orig_0664006" n="0664006"/><anchor xml:id="nkr_note_mod_0664006" n="0664006"/><anchor xml:id="beg0664006" n="0664006"/>拕<anchor xml:id="end0664006"/>南曰：</p>
@@ -557,16 +557,16 @@ Added comment  for Emacs
 <lb n="0666a26" ed="T"/><l>定得不還果，</l><l>不來生此間。」</l></lg>
 <lb n="0666a27" ed="T"/><p xml:id="pT17p0666a2701">吾從世尊聞如是語：「苾芻當知！若諸有情
 <lb n="0666a28" ed="T"/>永斷一法，我證彼定得不還果。云何一法？謂
-<lb n="0666a29" ed="T"/>是於<anchor xml:id="nkr_note_orig_0666001" n="0666001"/><anchor xml:id="nkr_note_mod_0666001" n="0666001"/><anchor xml:id="beg0666001" n="0666001"/>耽<anchor xml:id="end0666001"/>。所以者何？一切有情由<anchor xml:id="beg_4" type="star"/>耽<anchor xml:id="end_4"/>染故，數
+<lb n="0666a29" ed="T"/>是於<anchor xml:id="nkr_note_orig_0666001" n="0666001"/><anchor xml:id="nkr_note_mod_0666001" n="0666001"/><anchor xml:id="beg0666001" n="0666001"/>耽<anchor xml:id="end0666001"/>。所以者何？一切有情由<anchor xml:id="beg_3" type="star"/>耽<anchor xml:id="end_3"/>染故，數
 <pb n="0666b" ed="T" xml:id="T17.0765.0666b"/>
 <lb n="0666b01" ed="T"/>數還來墮諸惡趣受生死苦。若能永斷如是
 <lb n="0666b02" ed="T"/>一法，我證彼定得不還果，不復還來生此世
 <lb n="0666b03" ed="T"/>間。是故我說：若諸有情永斷一法，我證彼
 <lb n="0666b04" ed="T"/>定得不還果。」爾時，世尊重攝此義而說頌
 <lb n="0666b05" ed="T"/>曰：</p>
-<lb n="0666b06" ed="T"/><lg xml:id="lgT17p0666b0601" rend="margin-left:1em;text-indent:-1em"><l>「我觀諸有情，</l><l>由<anchor xml:id="beg_5" type="star"/>耽<anchor xml:id="end_5"/>之所染，</l>
+<lb n="0666b06" ed="T"/><lg xml:id="lgT17p0666b0601" rend="margin-left:1em;text-indent:-1em"><l>「我觀諸有情，</l><l>由<anchor xml:id="beg_4" type="star"/>耽<anchor xml:id="end_4"/>之所染，</l>
 <lb n="0666b07" ed="T"/><l>還來墮惡趣，</l><l>受生死輪迴。</l>
-<lb n="0666b08" ed="T"/><l>若能正了知，</l><l>永斷此<anchor xml:id="beg_6" type="star"/>耽<anchor xml:id="end_6"/>者，</l>
+<lb n="0666b08" ed="T"/><l>若能正了知，</l><l>永斷此<anchor xml:id="beg_5" type="star"/>耽<anchor xml:id="end_5"/>者，</l>
 <lb n="0666b09" ed="T"/><l>定得不還果，</l><l>不來生此間。」</l></lg>
 <lb n="0666b10" ed="T"/><p xml:id="pT17p0666b1001">吾從世尊聞如是語：「苾芻當知！若諸有情
 <lb n="0666b11" ed="T"/>永斷一法，我證彼定得不還果。云何一法？謂
@@ -593,7 +593,7 @@ Added comment  for Emacs
 <lb n="0666c02" ed="T"/><l>還來墮惡趣，</l><l>受生死輪迴。</l>
 <lb n="0666c03" ed="T"/><l>若能正了知，</l><l>永斷此害者，</l>
 <lb n="0666c04" ed="T"/><l>定得不還果，</l><l>不來生此間。」</l></lg>
-<lb n="0666c05" ed="T"/><p xml:id="pT17p0666c0501">重攝前經嗢<anchor xml:id="beg_7" type="star"/>拕<anchor xml:id="end_7"/>南曰：</p>
+<lb n="0666c05" ed="T"/><p xml:id="pT17p0666c0501">重攝前經嗢<anchor xml:id="beg_6" type="star"/>拕<anchor xml:id="end_6"/>南曰：</p>
 <lb n="0666c06" ed="T"/><lg xml:id="lgT17p0666c0601"><l>貪欲、瞋恚、癡</l><l>覆藏、<anchor xml:id="nkr_note_orig_0666002" n="0666002"/><anchor xml:id="nkr_note_mod_0666002" n="0666002"/><anchor xml:id="beg0666002" n="0666002"/>惱及<anchor xml:id="end0666002"/>忿</l>
 <lb n="0666c07" ed="T"/><l>怨恨、嫉與慳</l><l>耽嗜、慢、將害</l></lg>
 <lb n="0666c08" ed="T"/><p xml:id="pT17p0666c0801"><anchor xml:id="nkr_note_orig_0666003" n="0666003"/>吾從世尊聞如是語：「苾芻當知！若諸有情
@@ -650,7 +650,7 @@ Added comment  for Emacs
 <lb n="0667a29" ed="T"/>數還來墮諸惡趣受生死苦。若能常念如是
 <pb n="0667b" ed="T" xml:id="T17.0765.0667b"/>
 <lb n="0667b01" ed="T"/>一法，我證彼定得不還果，不復還來生此
-<lb n="0667b02" ed="T"/><anchor xml:id="nkr_note_orig_0667001" n="0667001"/><anchor xml:id="beg0667001" n="0667001"/>世<anchor xml:id="end0667001"/>間。是故我說：若諸有情能念一法，我證
+<lb n="0667b02" ed="T"/><anchor xml:id="nkr_note_orig_0667001" n="0667001"/><anchor xml:id="nkr_note_mod_0667001" n="0667001"/><anchor xml:id="beg0667001" n="0667001"/>世<anchor xml:id="end0667001"/>間。是故我說：若諸有情能念一法，我證
 <lb n="0667b03" ed="T"/>彼定得不還果。」爾時，世尊重攝此義而說
 <lb n="0667b04" ed="T"/>頌曰：</p>
 <lb n="0667b05" ed="T"/><lg xml:id="lgT17p0667b0501" rend="margin-left:1em;text-indent:-1em"><l>「我觀諸有情，</l><l>由不念施故，</l>
@@ -661,8 +661,8 @@ Added comment  for Emacs
 <lb n="0667b10" ed="T"/>永念一法，我證彼定得不還果。云何為一法？
 <lb n="0667b11" ed="T"/>謂是念天。所以者何？一切有情由不念天故，
 <lb n="0667b12" ed="T"/>數數還來墮諸惡趣受生死苦。若能常念如
-<lb n="0667b13" ed="T"/>是一法，我<anchor xml:id="nkr_note_orig_0667002" n="0667002"/><anchor xml:id="nkr_note_mod_0667002" n="0667002"/><anchor xml:id="beg0667002" n="0667002"/>證<anchor xml:id="end0667002"/>彼定得不還果，不復還來<anchor xml:id="nkr_note_orig_0667003" n="0667003"/><anchor xml:id="beg0667003" n="0667003"/>生<anchor xml:id="end0667003"/>
-<lb n="0667b14" ed="T"/>此<anchor xml:id="beg_8" type="star"/>世<anchor xml:id="end_8"/>間。是故我說：若諸有情能念一法，我
+<lb n="0667b13" ed="T"/>是一法，我<anchor xml:id="nkr_note_orig_0667002" n="0667002"/><anchor xml:id="nkr_note_mod_0667002" n="0667002"/><anchor xml:id="beg0667002" n="0667002"/>證<anchor xml:id="end0667002"/>彼定得不還果，不復還來<anchor xml:id="nkr_note_orig_0667003" n="0667003"/><anchor xml:id="nkr_note_mod_0667003" n="0667003"/><anchor xml:id="beg0667003" n="0667003"/>生<anchor xml:id="end0667003"/>
+<lb n="0667b14" ed="T"/>此<anchor xml:id="beg_7" type="star"/>世<anchor xml:id="end_7"/>間。是故我說：若諸有情能念一法，我
 <lb n="0667b15" ed="T"/>證彼定得不還果。」爾時，世尊重攝此義而
 <lb n="0667b16" ed="T"/>說頌曰：</p>
 <lb n="0667b17" ed="T"/><lg xml:id="lgT17p0667b1701" rend="margin-left:1em;text-indent:-1em"><l>「我觀諸有情，</l><l>由不念天故，</l>
@@ -674,12 +674,12 @@ Added comment  for Emacs
 <lb n="0667b23" ed="T"/>是念休息。所以者何？一切有情由不念休息
 <lb n="0667b24" ed="T"/>故，數數還來墮諸惡趣受生死苦。若能常
 <lb n="0667b25" ed="T"/>念如是一法，我證彼定得不還果，不復還來
-<lb n="0667b26" ed="T"/>生此<anchor xml:id="beg_9" type="star"/>世<anchor xml:id="end_9"/>間。是故我說：若諸有情能念一法，
+<lb n="0667b26" ed="T"/>生此<anchor xml:id="beg_8" type="star"/>世<anchor xml:id="end_8"/>間。是故我說：若諸有情能念一法，
 <lb n="0667b27" ed="T"/>我證彼定得不還果。」爾時，世尊重攝此義
 <lb n="0667b28" ed="T"/>而說頌曰：</p>
 <lb n="0667b29" ed="T"/><lg xml:id="lgT17p0667b2901" rend="margin-left:1em;text-indent:-1em"><l>「我觀諸有情，</l><l>由不念休息，</l>
 <pb n="0667c" ed="T" xml:id="T17.0765.0667c"/>
-<lb n="0667c01" ed="T"/><l>還來墮<anchor xml:id="nkr_note_orig_0667005" n="0667005"/><anchor xml:id="beg0667005" n="0667005"/>惡趣<anchor xml:id="end0667005"/>，</l><l>受生死輪迴。</l>
+<lb n="0667c01" ed="T"/><l>還來墮<anchor xml:id="nkr_note_orig_0667005" n="0667005"/><anchor xml:id="nkr_note_mod_0667005" n="0667005"/><anchor xml:id="beg0667005" n="0667005"/>惡趣<anchor xml:id="end0667005"/>，</l><l>受生死輪迴。</l>
 <lb n="0667c02" ed="T"/><l>若能正了知，</l><l>永念於休息，</l>
 <lb n="0667c03" ed="T"/><l>定得不還果，</l><l>不來生此間。」</l></lg>
 <lb n="0667c04" ed="T"/><p xml:id="pT17p0667c0401">吾從世尊聞如是語：「苾芻當知！若諸有情永
@@ -690,7 +690,7 @@ Added comment  for Emacs
 <lb n="0667c09" ed="T"/>來生此世間。是故我說：若諸有情能念一
 <lb n="0667c10" ed="T"/>法，我證彼定得不還果。」爾時，世尊重攝此
 <lb n="0667c11" ed="T"/>義而說頌曰：</p>
-<lb n="0667c12" ed="T"/><lg xml:id="lgT17p0667c1201" rend="margin-left:1em;text-indent:-1em"><l>「我觀諸有情，</l><l>由不<anchor xml:id="nkr_note_orig_0667006" n="0667006"/><anchor xml:id="beg0667006" n="0667006"/>念安般<anchor xml:id="end0667006"/>，</l>
+<lb n="0667c12" ed="T"/><lg xml:id="lgT17p0667c1201" rend="margin-left:1em;text-indent:-1em"><l>「我觀諸有情，</l><l>由不<anchor xml:id="nkr_note_orig_0667006" n="0667006"/><anchor xml:id="nkr_note_mod_0667006" n="0667006"/><anchor xml:id="beg0667006" n="0667006"/>念安般<anchor xml:id="end0667006"/>，</l>
 <lb n="0667c13" ed="T"/><l>還來墮惡趣，</l><l>受生死輪迴。</l>
 <lb n="0667c14" ed="T"/><l>若能正了知，</l><l>永念於安般，</l>
 <lb n="0667c15" ed="T"/><l>定得不還果，</l><l>不來生此間。」</l></lg>
@@ -725,10 +725,10 @@ Added comment  for Emacs
 <lb n="0668a13" ed="T"/>
 <lb n="0668a14" ed="T"/><cb:juan n="002" fun="open"><cb:mulu n="002" type="卷"></cb:mulu><cb:mulu level="2">2</cb:mulu><cb:jhead><title>本事經</title>卷第二</cb:jhead>
 <lb n="0668a15" ed="T"/>
-<lb n="0668a16" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0668002" n="0668002"/><anchor xml:id="beg0668002" n="0668002"/>大唐<anchor xml:id="end0668002"/>三藏法師玄奘奉　<anchor xml:id="nkr_note_orig_0668003" n="0668003"/><anchor xml:id="beg0668003" n="0668003"/>詔<anchor xml:id="end0668003"/>譯</byline>
-<lb n="0668a17" ed="T"/><cb:jhead type="pin"><anchor xml:id="nkr_note_orig_0668004" n="0668004"/><anchor xml:id="beg0668004" n="0668004"/>一法<anchor xml:id="end0668004"/>品第一之二</cb:jhead></cb:juan>
+<lb n="0668a16" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0668002" n="0668002"/><anchor xml:id="nkr_note_mod_0668002" n="0668002"/><anchor xml:id="beg0668002" n="0668002"/>大唐<anchor xml:id="end0668002"/>三藏法師玄奘奉　<anchor xml:id="nkr_note_orig_0668003" n="0668003"/><anchor xml:id="nkr_note_mod_0668003" n="0668003"/><anchor xml:id="beg0668003" n="0668003"/>詔<anchor xml:id="end0668003"/>譯</byline>
+<lb n="0668a17" ed="T"/><cb:jhead type="pin"><anchor xml:id="nkr_note_orig_0668004" n="0668004"/><anchor xml:id="nkr_note_mod_0668004" n="0668004"/><anchor xml:id="beg0668004" n="0668004"/>一法<anchor xml:id="end0668004"/>品第一之二</cb:jhead></cb:juan>
 <lb n="0668a18" ed="T"/><p xml:id="pT17p0668a1801">吾從世尊聞如是語：「苾芻當知！若有於貪未
-<lb n="0668a19" ed="T"/>如實知、未正遍知、未能永斷，<anchor xml:id="nkr_note_orig_0668005" n="0668005"/><anchor xml:id="beg0668005" n="0668005"/>彼於<anchor xml:id="end0668005"/>自心未
+<lb n="0668a19" ed="T"/>如實知、未正遍知、未能永斷，<anchor xml:id="nkr_note_orig_0668005" n="0668005"/><anchor xml:id="nkr_note_mod_0668005" n="0668005"/><anchor xml:id="beg0668005" n="0668005"/>彼於<anchor xml:id="end0668005"/>自心未
 <lb n="0668a20" ed="T"/>離貪故，不能通達、不能遍知、不能等覺、不
 <lb n="0668a21" ed="T"/>能涅槃、不能證得無上安樂。若有於貪已如
 <lb n="0668a22" ed="T"/>實知、已正遍知、已能永斷，彼於自心已離
@@ -877,14 +877,14 @@ Added comment  for Emacs
 <lb n="0669c15" ed="T"/>應正遍知、應求永斷，於佛法中當修梵行。」爾
 <lb n="0669c16" ed="T"/>時，世尊重攝上義而說頌曰：</p>
 <lb n="0669c17" ed="T"/><lg xml:id="lgT17p0669c1701" rend="margin-left:1em;text-indent:-1em"><l>「若於耽未知，</l><l>彼去涅槃遠，</l>
-<lb n="0669c18" ed="T"/><l>於耽已知者，</l><l>去涅槃不<anchor xml:id="nkr_note_orig_0669003" n="0669003"/><anchor xml:id="beg0669003" n="0669003"/>遙<anchor xml:id="end0669003"/>。</l>
+<lb n="0669c18" ed="T"/><l>於耽已知者，</l><l>去涅槃不<anchor xml:id="nkr_note_orig_0669003" n="0669003"/><anchor xml:id="nkr_note_mod_0669003" n="0669003"/><anchor xml:id="beg0669003" n="0669003"/>遙<anchor xml:id="end0669003"/>。</l>
 <lb n="0669c19" ed="T"/><l>我觀諸有情，</l><l>由耽之所染，</l>
 <lb n="0669c20" ed="T"/><l>還來墮惡趣，</l><l>受生死輪迴。</l>
 <lb n="0669c21" ed="T"/><l>若能正了知，</l><l>永斷此耽者，</l>
 <lb n="0669c22" ed="T"/><l>得上沙門果，</l><l>畢竟不受生。」</l></lg>
 <lb n="0669c23" ed="T"/><p xml:id="pT17p0669c2301">吾從世尊聞如是語：「苾芻當知！若有於慢未
 <lb n="0669c24" ed="T"/>如實知、未正遍知、未能永斷，彼於自心未離
-<lb n="0669c25" ed="T"/>慢故，不能通達、不能遍知、不能等覺、不<anchor xml:id="nkr_note_orig_0669004" n="0669004"/><anchor xml:id="beg0669004" n="0669004"/>能<anchor xml:id="end0669004"/>
+<lb n="0669c25" ed="T"/>慢故，不能通達、不能遍知、不能等覺、不<anchor xml:id="nkr_note_orig_0669004" n="0669004"/><anchor xml:id="nkr_note_mod_0669004" n="0669004"/><anchor xml:id="beg0669004" n="0669004"/>能<anchor xml:id="end0669004"/>
 <lb n="0669c26" ed="T"/>涅槃、不能證得無上安樂。若有於慢已如實
 <lb n="0669c27" ed="T"/>知、已正遍知、已能永斷，彼於自心已離慢
 <lb n="0669c28" ed="T"/>故，即能通達、即能遍知、即能等覺、即能涅
@@ -928,7 +928,7 @@ Added comment  for Emacs
 <lb n="0670b06" ed="T"/><l>我觀諸有情，</l><l>由一切所染，</l>
 <lb n="0670b07" ed="T"/><l>還來墮惡趣，</l><l>受生死輪迴。」</l></lg>
 <lb n="0670b08" ed="T"/><p xml:id="pT17p0670b0801">重攝前經嗢<anchor xml:id="nkr_note_orig_0670002" n="0670002"/><anchor xml:id="nkr_note_mod_0670002" n="0670002"/><anchor xml:id="beg0670002" n="0670002"/>拕<anchor xml:id="end0670002"/>南曰：</p>
-<lb n="0670b09" ed="T"/><lg xml:id="lgT17p0670b0901"><l><anchor xml:id="beg_a" type="cb-app"/>貪<anchor xml:id="end_a"/>、<anchor xml:id="nkr_note_orig_0670003" n="0670003"/><anchor xml:id="nkr_note_mod_0670003" n="0670003"/><anchor xml:id="beg0670003" n="0670003"/>恚<anchor xml:id="end0670003"/>及愚癡</l><l>覆藏、惱、忿、恨</l>
+<lb n="0670b09" ed="T"/><lg xml:id="lgT17p0670b0901"><l><anchor xml:id="nkr_note_add_0670b0901" n="0670b0901"/><anchor xml:id="beg0670b0901" n="0670b0901"/>貪<anchor xml:id="end0670b0901"/>、<anchor xml:id="nkr_note_orig_0670003" n="0670003"/><anchor xml:id="nkr_note_mod_0670003" n="0670003"/><anchor xml:id="beg0670003" n="0670003"/>恚<anchor xml:id="end0670003"/>及愚癡</l><l>覆藏、惱、忿、恨</l>
 <lb n="0670b10" ed="T"/><l>嫉、慳與耽嗜</l><l>慢、害、將一切</l></lg>
 <lb n="0670b11" ed="T"/><p xml:id="pT17p0670b1101">吾從世尊聞如是語：「苾芻當知！一切修習福
 <lb n="0670b12" ed="T"/>業事中，慈心解脫最為第一。所以者何？慈心
@@ -1003,9 +1003,9 @@ Added comment  for Emacs
 <lb n="0671a21" ed="T"/><p xml:id="pT17p0671a2101">吾從世尊聞如是語：「苾芻當知！若諸有情能
 <lb n="0671a22" ed="T"/>知犯戒所感果報明了現前如我知者，行住
 <lb n="0671a23" ed="T"/>坐臥皆不能安，言笑飲食都無思念，其心驚
-<lb n="0671a24" ed="T"/>惶<anchor xml:id="nkr_note_orig_0671001" n="0671001"/><anchor xml:id="beg0671001" n="0671001"/>狂<anchor xml:id="end0671001"/>亂吐血，身形萎悴如<anchor xml:id="nkr_note_orig_0671002" n="0671002"/><anchor xml:id="beg0671002" n="0671002"/>被<anchor xml:id="end0671002"/>刈蘆。以不知
+<lb n="0671a24" ed="T"/>惶<anchor xml:id="nkr_note_orig_0671001" n="0671001"/><anchor xml:id="nkr_note_mod_0671001" n="0671001"/><anchor xml:id="beg0671001" n="0671001"/>狂<anchor xml:id="end0671001"/>亂吐血，身形萎悴如<anchor xml:id="nkr_note_orig_0671002" n="0671002"/><anchor xml:id="nkr_note_mod_0671002" n="0671002"/><anchor xml:id="beg0671002" n="0671002"/>被<anchor xml:id="end0671002"/>刈蘆。以不知
 <lb n="0671a25" ed="T"/>故，安然無畏。所以者何？諸犯戒罪能感惡
-<lb n="0671a26" ed="T"/>趣，增上猛利諸苦果報。」爾時，<anchor xml:id="beg_b" type="cb-app"/>世<anchor xml:id="end_b"/>尊重攝此
+<lb n="0671a26" ed="T"/>趣，增上猛利諸苦果報。」爾時，<anchor xml:id="nkr_note_add_0671a2601" n="0671a2601"/><anchor xml:id="beg0671a2601" n="0671a2601"/>世<anchor xml:id="end0671a2601"/>尊重攝此
 <lb n="0671a27" ed="T"/>義而說頌曰：</p>
 <lb n="0671a28" ed="T"/><lg xml:id="lgT17p0671a2801" rend="margin-left:1em;text-indent:-1em"><l>「世間諸有情，</l><l>若了知犯戒，</l>
 <lb n="0671a29" ed="T"/><l>能感苦果報，</l><l>明見似如來；</l>
@@ -1015,7 +1015,7 @@ Added comment  for Emacs
 <lb n="0671b03" ed="T"/><l>由不知犯戒，</l><l>能感惡趣苦，</l>
 <lb n="0671b04" ed="T"/><l>明見似如來，</l><l>安然不驚懼。</l>
 <lb n="0671b05" ed="T"/><l>諸有犯戒人，</l><l>定墮於惡趣，</l>
-<lb n="0671b06" ed="T"/><l>受增上猛利，</l><l><anchor xml:id="nkr_note_orig_0671003" n="0671003"/><anchor xml:id="beg0671003" n="0671003"/>苦<anchor xml:id="end0671003"/>果報無邊。」</l></lg>
+<lb n="0671b06" ed="T"/><l>受增上猛利，</l><l><anchor xml:id="nkr_note_orig_0671003" n="0671003"/><anchor xml:id="nkr_note_mod_0671003" n="0671003"/><anchor xml:id="beg0671003" n="0671003"/>苦<anchor xml:id="end0671003"/>果報無邊。」</l></lg>
 <lb n="0671b07" ed="T"/><p xml:id="pT17p0671b0701">吾從世尊聞如是語：「苾芻當知！若諸有情能
 <lb n="0671b08" ed="T"/>知持戒所感果報明了現前如我知者，彼於
 <lb n="0671b09" ed="T"/>自身深生厭離、欣樂當來，堅持禁戒。以不知
@@ -1025,7 +1025,7 @@ Added comment  for Emacs
 <lb n="0671b13" ed="T"/><lg xml:id="lgT17p0671b1301" rend="margin-left:1em;text-indent:-1em"><l>「世間諸有情，</l><l>若了知持戒，</l>
 <lb n="0671b14" ed="T"/><l>能感樂果報，</l><l>明見似如來；</l>
 <lb n="0671b15" ed="T"/><l>便於不淨身，</l><l>深能生厭離，</l>
-<lb n="0671b16" ed="T"/><l>求當來勝果，</l><l>堅<anchor xml:id="nkr_note_orig_0671004" n="0671004"/><anchor xml:id="beg0671004" n="0671004"/>守<anchor xml:id="end0671004"/>淨尸羅。</l>
+<lb n="0671b16" ed="T"/><l>求當來勝果，</l><l>堅<anchor xml:id="nkr_note_orig_0671004" n="0671004"/><anchor xml:id="nkr_note_mod_0671004" n="0671004"/><anchor xml:id="beg0671004" n="0671004"/>守<anchor xml:id="end0671004"/>淨尸羅。</l>
 <lb n="0671b17" ed="T"/><l>由不知持戒，</l><l>能感善趣樂，</l>
 <lb n="0671b18" ed="T"/><l>明見似如來，</l><l>故毀犯淨戒。</l>
 <lb n="0671b19" ed="T"/><l>諸有持戒人，</l><l>得生於善趣，</l>
@@ -1143,7 +1143,7 @@ Added comment  for Emacs
 <lb n="0672c11" ed="T"/>為有內貪欲纏而不覺耶？我今為無內貪
 <lb n="0672c12" ed="T"/>欲纏而不覺耶？</p><p xml:id="pT17p0672c1207" rend="inline">「審觀察已，復應作意思惟隨
 <lb n="0672c13" ed="T"/>一可愛境相。如是作意思惟隨一可愛相時，
-<lb n="0672c14" ed="T"/>若心隨順趣向喜樂可愛境相，當<anchor xml:id="nkr_note_orig_0672001" n="0672001"/><anchor xml:id="beg0672001" n="0672001"/>知<anchor xml:id="end0672001"/>此心
+<lb n="0672c14" ed="T"/>若心隨順趣向喜樂可愛境相，當<anchor xml:id="nkr_note_orig_0672001" n="0672001"/><anchor xml:id="nkr_note_mod_0672001" n="0672001"/><anchor xml:id="beg0672001" n="0672001"/>知<anchor xml:id="end0672001"/>此心
 <lb n="0672c15" ed="T"/>隨順諸欲、違背出離。汝等爾時應自覺了：我
 <lb n="0672c16" ed="T"/>今猶有內貪欲纏而不能覺，非為無有；我
 <lb n="0672c17" ed="T"/>今未斷五欲貪纏，所證與前未有差別；我今
@@ -1172,7 +1172,7 @@ Added comment  for Emacs
 <lb n="0673a10" ed="T"/>義，而說頌曰：</p>
 <lb n="0673a11" ed="T"/><lg xml:id="lgT17p0673a1101" rend="margin-left:1em;text-indent:-1em"><l>「無別有一法，</l><l>性躁動如心，</l>
 <lb n="0673a12" ed="T"/><l>難調御難防，</l><l>大仙之所說。</l>
-<lb n="0673a13" ed="T"/><l>譬如有智人，</l><l>以火等眾<anchor xml:id="nkr_note_orig_0673002" n="0673002"/><anchor xml:id="beg0673002" n="0673002"/>具<anchor xml:id="end0673002"/>，</l>
+<lb n="0673a13" ed="T"/><l>譬如有智人，</l><l>以火等眾<anchor xml:id="nkr_note_orig_0673002" n="0673002"/><anchor xml:id="nkr_note_mod_0673002" n="0673002"/><anchor xml:id="beg0673002" n="0673002"/>具<anchor xml:id="end0673002"/>，</l>
 <lb n="0673a14" ed="T"/><l>調直於利箭，</l><l>令遠有所中。</l>
 <lb n="0673a15" ed="T"/><l>如是諸苾芻，</l><l>應善學方便，</l>
 <lb n="0673a16" ed="T"/><l>調直於心性，</l><l>令速證涅槃。」</l></lg>
@@ -1185,8 +1185,8 @@ Added comment  for Emacs
 <lb n="0673a22" ed="T"/>
 <lb n="0673a23" ed="T"/><cb:juan n="003" fun="open"><cb:mulu n="003" type="卷"></cb:mulu><cb:jhead><title>本事經</title>卷第三</cb:jhead></cb:juan>
 <lb n="0673a24" ed="T"/>
-<lb n="0673a25" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0673004" n="0673004"/><anchor xml:id="beg0673004" n="0673004"/>大唐<anchor xml:id="end0673004"/>三藏法師玄奘奉　<anchor xml:id="nkr_note_orig_0673005" n="0673005"/><anchor xml:id="beg0673005" n="0673005"/>詔<anchor xml:id="end0673005"/>譯</byline>
-<lb n="0673a26" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="2" type="品">2 二法品(三-五)</cb:mulu><cb:mulu level="2">1</cb:mulu><head>二法品第二<anchor xml:id="nkr_note_orig_0673006" n="0673006"/><anchor xml:id="beg0673006" n="0673006"/>之一<anchor xml:id="end0673006"/></head>
+<lb n="0673a25" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0673004" n="0673004"/><anchor xml:id="nkr_note_mod_0673004" n="0673004"/><anchor xml:id="beg0673004" n="0673004"/>大唐<anchor xml:id="end0673004"/>三藏法師玄奘奉　<anchor xml:id="nkr_note_orig_0673005" n="0673005"/><anchor xml:id="nkr_note_mod_0673005" n="0673005"/><anchor xml:id="beg0673005" n="0673005"/>詔<anchor xml:id="end0673005"/>譯</byline>
+<lb n="0673a26" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="2" type="品">2 二法品(三-五)</cb:mulu><cb:mulu level="2">1</cb:mulu><head>二法品第二<anchor xml:id="nkr_note_orig_0673006" n="0673006"/><anchor xml:id="nkr_note_mod_0673006" n="0673006"/><anchor xml:id="beg0673006" n="0673006"/>之一<anchor xml:id="end0673006"/></head>
 <lb n="0673a27" ed="T"/><p xml:id="pT17p0673a2701">吾從世尊聞如是語：「苾芻當知！若有苾芻成
 <lb n="0673a28" ed="T"/>就二分，於現法中多諸憂苦，無喜樂住，有災
 <lb n="0673a29" ed="T"/>有患、有惱有燒、有罪有責，為諸有情同梵行
@@ -1201,7 +1201,7 @@ Added comment  for Emacs
 <lb n="0673b08" ed="T"/><l>飲食不知量，</l><l>成不信懈怠。</l>
 <lb n="0673b09" ed="T"/><l>彼於現法中，</l><l>身心多受苦，</l>
 <lb n="0673b10" ed="T"/><l>及有災有患，</l><l>有惱有燒然；</l>
-<lb n="0673b11" ed="T"/><l>行住<anchor xml:id="nkr_note_orig_0673007" n="0673007"/><anchor xml:id="beg0673007" n="0673007"/>與<anchor xml:id="end0673007"/>坐臥，</l><l>若覺若夢中，</l>
+<lb n="0673b11" ed="T"/><l>行住<anchor xml:id="nkr_note_orig_0673007" n="0673007"/><anchor xml:id="nkr_note_mod_0673007" n="0673007"/><anchor xml:id="beg0673007" n="0673007"/>與<anchor xml:id="end0673007"/>坐臥，</l><l>若覺若夢中，</l>
 <lb n="0673b12" ed="T"/><l>由彼二因緣，</l><l>恒有罪有責。</l>
 <lb n="0673b13" ed="T"/><l>居聚落空閑，</l><l>眾中及靜處，</l>
 <lb n="0673b14" ed="T"/><l>有智常訶責，</l><l>當生惡趣中。」</l></lg>
@@ -1227,9 +1227,9 @@ Added comment  for Emacs
 <lb n="0673c04" ed="T"/>生焦惱。云何為二？謂有一類補特伽羅<anchor xml:id="nkr_note_orig_0673009" n="0673009"/><anchor xml:id="nkr_note_mod_0673009" n="0673009"/><anchor xml:id="beg0673009" n="0673009"/>唯<anchor xml:id="end0673009"/>
 <lb n="0673c05" ed="T"/>造眾惡、唯作凶狂、唯起雜穢，不修眾善、不習
 <lb n="0673c06" ed="T"/>調柔、不救怖畏，彼於後時身嬰重疾，遍體發
-<lb n="0673c07" ed="T"/>生增上猛利嚴切苦受，<anchor xml:id="nkr_note_orig_0673010" n="0673010"/><anchor xml:id="beg0673010" n="0673010"/>楚<anchor xml:id="end0673010"/>毒垂終不可醫
+<lb n="0673c07" ed="T"/>生增上猛利嚴切苦受，<anchor xml:id="nkr_note_orig_0673010" n="0673010"/><anchor xml:id="nkr_note_mod_0673010" n="0673010"/><anchor xml:id="beg0673010" n="0673010"/>楚<anchor xml:id="end0673010"/>毒垂終不可醫
 <lb n="0673c08" ed="T"/>療。受此苦時呻吟怨歎，作是念言：『我從昔
-<lb n="0673c09" ed="T"/>來唯造眾惡、唯作凶狂、唯起雜穢，<anchor xml:id="beg_c" type="cb-app"/>不<anchor xml:id="end_c"/>修眾善、
+<lb n="0673c09" ed="T"/>來唯造眾惡、唯作凶狂、唯起雜穢，<anchor xml:id="nkr_note_add_0673c0901" n="0673c0901"/><anchor xml:id="beg0673c0901" n="0673c0901"/>不<anchor xml:id="end0673c0901"/>修眾善、
 <lb n="0673c10" ed="T"/>不習調柔、不救怖畏。若諸有情唯造眾惡、唯
 <lb n="0673c11" ed="T"/>作凶狂、唯起雜穢，不修眾善、不習調柔、不
 <lb n="0673c12" ed="T"/>救怖畏，彼之所趣，我定當往。』彼由唯造眾惡
@@ -1241,7 +1241,7 @@ Added comment  for Emacs
 <lb n="0673c18" ed="T"/><l>後遭病苦時，</l><l>呻吟而怨歎，</l>
 <lb n="0673c19" ed="T"/><l>恨有罪無福，</l><l>心悔惱焦然。</l>
 <lb n="0673c20" ed="T"/><l>有罪無福人，</l><l>所生諸惡趣，</l>
-<lb n="0673c21" ed="T"/><l>我亦當隨<anchor xml:id="nkr_note_orig_0673011" n="0673011"/><anchor xml:id="beg0673011" n="0673011"/>往<anchor xml:id="end0673011"/>，</l><l>決定無有疑。」</l></lg>
+<lb n="0673c21" ed="T"/><l>我亦當隨<anchor xml:id="nkr_note_orig_0673011" n="0673011"/><anchor xml:id="nkr_note_mod_0673011" n="0673011"/><anchor xml:id="beg0673011" n="0673011"/>往<anchor xml:id="end0673011"/>，</l><l>決定無有疑。」</l></lg>
 <lb n="0673c22" ed="T"/><p xml:id="pT17p0673c2201">吾從世尊聞如是語：「苾芻當知！有二種法，心
 <lb n="0673c23" ed="T"/>不焦惱。云何為二？謂有一類補特伽羅唯修
 <lb n="0673c24" ed="T"/>眾善、唯習調柔、唯救怖畏，不造眾惡、不作凶
@@ -1259,7 +1259,7 @@ Added comment  for Emacs
 <lb n="0674a06" ed="T"/><lg xml:id="lgT17p0674a0601" rend="margin-left:1em;text-indent:-1em"><l>「有二法能生，</l><l>智者心歡喜，</l>
 <lb n="0674a07" ed="T"/><l>謂唯修福業，</l><l>及不作罪因。</l>
 <lb n="0674a08" ed="T"/><l>後遭病苦時，</l><l>呻吟無怨歎，</l>
-<lb n="0674a09" ed="T"/><l>慶有福無<anchor xml:id="nkr_note_orig_0674001" n="0674001"/><anchor xml:id="beg0674001" n="0674001"/>罪<anchor xml:id="end0674001"/>，</l><l>不悔惱焦然。</l>
+<lb n="0674a09" ed="T"/><l>慶有福無<anchor xml:id="nkr_note_orig_0674001" n="0674001"/><anchor xml:id="nkr_note_mod_0674001" n="0674001"/><anchor xml:id="beg0674001" n="0674001"/>罪<anchor xml:id="end0674001"/>，</l><l>不悔惱焦然。</l>
 <lb n="0674a10" ed="T"/><l>有福無罪人，</l><l>所生諸善趣，</l>
 <lb n="0674a11" ed="T"/><l>我亦當隨往，</l><l>決定無有疑。」</l></lg>
 <lb n="0674a12" ed="T"/><p xml:id="pT17p0674a1201">吾從世尊聞如是語：「苾芻當知！為汝略說二
@@ -1293,17 +1293,17 @@ Added comment  for Emacs
 <lb n="0674b10" ed="T"/>特伽羅，成就二法，不能發生白淨善法；設已
 <lb n="0674b11" ed="T"/>發生，不能決定；設已決定，不能圓滿。彼於如
 <lb n="0674b12" ed="T"/>是白淨善法能為障礙、能作衰損、能生憂悔，
-<lb n="0674b13" ed="T"/>身壞命終，如棄重<anchor xml:id="nkr_note_orig_0674002" n="0674002"/><anchor xml:id="beg0674002" n="0674002"/>擔<anchor xml:id="end0674002"/>，墮於地獄受諸劇苦。
+<lb n="0674b13" ed="T"/>身壞命終，如棄重<anchor xml:id="nkr_note_orig_0674002" n="0674002"/><anchor xml:id="nkr_note_mod_0674002" n="0674002"/><anchor xml:id="beg0674002" n="0674002"/>擔<anchor xml:id="end0674002"/>，墮於地獄受諸劇苦。
 <lb n="0674b14" ed="T"/>云何為二？一者惡戒；二者惡見。諸有一類補
 <lb n="0674b15" ed="T"/>特伽羅，成就如是所說二法，定不能生白淨
 <lb n="0674b16" ed="T"/>善法；設復已生，不能決定，廣說乃至身壞
-<lb n="0674b17" ed="T"/>命終，如棄重<anchor xml:id="beg_d" type="star"/>擔<anchor xml:id="end_d"/>，墮於地獄受諸劇苦。」爾時，
+<lb n="0674b17" ed="T"/>命終，如棄重<anchor xml:id="beg_9" type="star"/>擔<anchor xml:id="end_9"/>，墮於地獄受諸劇苦。」爾時，
 <lb n="0674b18" ed="T"/>世尊重攝此義而說頌曰：</p>
 <lb n="0674b19" ed="T"/><lg xml:id="lgT17p0674b1901" rend="margin-left:1em;text-indent:-1em"><l>「若成就二法，</l><l>謂惡戒、惡見，</l>
 <lb n="0674b20" ed="T"/><l>彼人終不能，</l><l>生白淨善法。</l>
 <lb n="0674b21" ed="T"/><l>雖生而不定，</l><l>設定不圓滿，</l>
 <lb n="0674b22" ed="T"/><l>於白淨善法，</l><l>能衰損障礙。</l>
-<lb n="0674b23" ed="T"/><l>彼臨命終時，</l><l>有憂悔<anchor xml:id="nkr_note_orig_0674003" n="0674003"/><anchor xml:id="beg0674003" n="0674003"/>悲<anchor xml:id="end0674003"/><anchor xml:id="nkr_note_orig_0674004" n="0674004"/><anchor xml:id="beg0674004" n="0674004"/>惱<anchor xml:id="end0674004"/>，</l>
+<lb n="0674b23" ed="T"/><l>彼臨命終時，</l><l>有憂悔<anchor xml:id="nkr_note_orig_0674003" n="0674003"/><anchor xml:id="nkr_note_mod_0674003" n="0674003"/><anchor xml:id="beg0674003" n="0674003"/>悲<anchor xml:id="end0674003"/><anchor xml:id="nkr_note_orig_0674004" n="0674004"/><anchor xml:id="nkr_note_mod_0674004" n="0674004"/><anchor xml:id="beg0674004" n="0674004"/>惱<anchor xml:id="end0674004"/>，</l>
 <lb n="0674b24" ed="T"/><l>如棄捨重擔，</l><l>定生地獄中。」</l></lg>
 <lb n="0674b25" ed="T"/><p xml:id="pT17p0674b2501">吾從世尊聞如是語：「苾芻當知！若有一類補
 <lb n="0674b26" ed="T"/>特伽羅，成就二法，定能發生白淨善法；若先
@@ -1314,14 +1314,14 @@ Added comment  for Emacs
 <lb n="0674c01" ed="T"/>何為二？一者善戒；二者善見。諸有一類補特
 <lb n="0674c02" ed="T"/>伽羅，成就如是所說二法，決定能生白淨善
 <lb n="0674c03" ed="T"/>法；若先已生，能令決定，廣說乃至身壞命
-<lb n="0674c04" ed="T"/>終，如棄重<anchor xml:id="nkr_note_orig_0674005" n="0674005"/><anchor xml:id="beg0674005" n="0674005"/>擔<anchor xml:id="end0674005"/>，生天趣中受諸快樂。」爾時，世
+<lb n="0674c04" ed="T"/>終，如棄重<anchor xml:id="nkr_note_orig_0674005" n="0674005"/><anchor xml:id="nkr_note_mod_0674005" n="0674005"/><anchor xml:id="beg0674005" n="0674005"/>擔<anchor xml:id="end0674005"/>，生天趣中受諸快樂。」爾時，世
 <lb n="0674c05" ed="T"/>尊重攝此義而說頌曰：</p>
 <lb n="0674c06" ed="T"/><lg xml:id="lgT17p0674c0601" rend="margin-left:1em;text-indent:-1em"><l>「若成就二法，</l><l>謂善戒、善見，</l>
 <lb n="0674c07" ed="T"/><l>彼人終定能，</l><l>生白淨善法。</l>
 <lb n="0674c08" ed="T"/><l>若生而決定，</l><l>決定必圓滿，</l>
 <lb n="0674c09" ed="T"/><l>於白淨善法，</l><l>不衰損障礙。</l>
 <lb n="0674c10" ed="T"/><l>彼臨命終時，</l><l>無憂悔悲惱，</l>
-<lb n="0674c11" ed="T"/><l>如棄捨重<anchor xml:id="beg_e" type="star"/>擔<anchor xml:id="end_e"/>，</l><l>定生天趣中。」</l></lg>
+<lb n="0674c11" ed="T"/><l>如棄捨重<anchor xml:id="beg_a" type="star"/>擔<anchor xml:id="end_a"/>，</l><l>定生天趣中。」</l></lg>
 <lb n="0674c12" ed="T"/><p xml:id="pT17p0674c1201">吾從世尊聞如是語：「苾芻當知！若有一類補
 <lb n="0674c13" ed="T"/>特伽羅，成就二法，臨命終時能生憂悔，身壞
 <lb n="0674c14" ed="T"/>命終，墮諸惡趣，生地獄中。云何為二？謂作、不
@@ -1332,7 +1332,7 @@ Added comment  for Emacs
 <lb n="0674c19" ed="T"/>墮諸惡趣，生地獄中。」爾時，世尊重攝此義而
 <lb n="0674c20" ed="T"/>說頌曰：</p>
 <lb n="0674c21" ed="T"/><lg xml:id="lgT17p0674c2101" rend="margin-left:1em;text-indent:-1em"><l>「諸有愚癡人，</l><l>作三種惡行，</l>
-<lb n="0674c22" ed="T"/><l>不作三妙<anchor xml:id="nkr_note_orig_0674007" n="0674007"/><anchor xml:id="beg0674007" n="0674007"/>行<anchor xml:id="end0674007"/>，</l><l>引餘過令生。</l>
+<lb n="0674c22" ed="T"/><l>不作三妙<anchor xml:id="nkr_note_orig_0674007" n="0674007"/><anchor xml:id="nkr_note_mod_0674007" n="0674007"/><anchor xml:id="beg0674007" n="0674007"/>行<anchor xml:id="end0674007"/>，</l><l>引餘過令生。</l>
 <lb n="0674c23" ed="T"/><l>彼臨命終時，</l><l>決定有憂悔，</l>
 <lb n="0674c24" ed="T"/><l>死墮諸惡趣，</l><l>生於地獄中。」</l></lg>
 <lb n="0674c25" ed="T"/><p xml:id="pT17p0674c2501">吾從世尊聞如是語：「苾芻當知！若有一類補
@@ -1350,7 +1350,7 @@ Added comment  for Emacs
 <lb n="0675a07" ed="T"/><l>彼臨命終時，</l><l>決定無憂悔，</l>
 <lb n="0675a08" ed="T"/><l>死昇諸善趣，</l><l>生於天界中。」</l></lg>
 <lb n="0675a09" ed="T"/><p xml:id="pT17p0675a0901">吾從世尊聞如是語：「苾芻當知！有二妙智，
-<lb n="0675a10" ed="T"/><anchor xml:id="nkr_note_orig_0675001" n="0675001"/><anchor xml:id="beg0675001" n="0675001"/>應<anchor xml:id="end0675001"/>修令生；能得未得、能觸未觸、能證未證，
+<lb n="0675a10" ed="T"/><anchor xml:id="nkr_note_orig_0675001" n="0675001"/><anchor xml:id="nkr_note_mod_0675001" n="0675001"/><anchor xml:id="beg0675001" n="0675001"/>應<anchor xml:id="end0675001"/>修令生；能得未得、能觸未觸、能證未證，
 <lb n="0675a11" ed="T"/>能超愁歎、能滅憂苦、能會正理、能獲甘露、能
 <lb n="0675a12" ed="T"/>證涅槃。云何為二？一者法智；二者類智。法智
 <lb n="0675a13" ed="T"/>生時，便能無倒，遍知有為。於有為法既遍知
@@ -1361,7 +1361,7 @@ Added comment  for Emacs
 <lb n="0675a18" ed="T"/>慳嫉；無慳嫉故，便無種種執持刀<anchor xml:id="nkr_note_orig_0675002" n="0675002"/><anchor xml:id="nkr_note_mod_0675002" n="0675002"/><anchor xml:id="beg0675002" n="0675002"/>杖<anchor xml:id="end0675002"/>違害
 <lb n="0675a19" ed="T"/>鬪諍、互相罵辱、不真實語、相離間語、諸雜
 <lb n="0675a20" ed="T"/>穢語及餘無量惡不善法；無彼諸惡不善法
-<lb n="0675a21" ed="T"/>故，<anchor xml:id="nkr_note_orig_0675003" n="0675003"/><anchor xml:id="beg0675003" n="0675003"/>感<anchor xml:id="end0675003"/>後有業，便不增長；感後有業不增長
+<lb n="0675a21" ed="T"/>故，<anchor xml:id="nkr_note_orig_0675003" n="0675003"/><anchor xml:id="nkr_note_mod_0675003" n="0675003"/><anchor xml:id="beg0675003" n="0675003"/>感<anchor xml:id="end0675003"/>後有業，便不增長；感後有業不增長
 <lb n="0675a22" ed="T"/>故，諸業滅盡；業滅盡故，眾苦滅盡；苦滅盡
 <lb n="0675a23" ed="T"/>故，生死路絕。此路絕已，便自了知：我生已盡，
 <lb n="0675a24" ed="T"/>梵行已立，所作已辦，不受後有。如是名為
@@ -1373,7 +1373,7 @@ Added comment  for Emacs
 <pb n="0675b" ed="T" xml:id="T17.0765.0675b"/>
 <lb n="0675b01" ed="T"/><l>能得未得等，</l><l>謂法智、類智。</l>
 <lb n="0675b02" ed="T"/><l>若法智生時，</l><l>遍知有為法，</l>
-<lb n="0675b03" ed="T"/><l>便能<anchor xml:id="nkr_note_orig_0675004" n="0675004"/><anchor xml:id="beg0675004" n="0675004"/>令<anchor xml:id="end0675004"/>後有，</l><l>因不生不增。</l>
+<lb n="0675b03" ed="T"/><l>便能<anchor xml:id="nkr_note_orig_0675004" n="0675004"/><anchor xml:id="nkr_note_mod_0675004" n="0675004"/><anchor xml:id="beg0675004" n="0675004"/>令<anchor xml:id="end0675004"/>後有，</l><l>因不生不增。</l>
 <lb n="0675b04" ed="T"/><l>若類智生時，</l><l>無明便斷滅，</l>
 <lb n="0675b05" ed="T"/><l>由此展轉<anchor xml:id="nkr_note_orig_0675005" n="0675005"/><anchor xml:id="nkr_note_mod_0675005" n="0675005"/><anchor xml:id="beg0675005" n="0675005"/>法<anchor xml:id="end0675005"/>，</l><l>絕生死輪迴。</l>
 <lb n="0675b06" ed="T"/><l>自知我生盡，</l><l>及梵行已立，</l>
@@ -1427,7 +1427,7 @@ Added comment  for Emacs
 <lb n="0675c24" ed="T"/>彼生法有情永脫生不？為能令彼老法有情
 <lb n="0675c25" ed="T"/>永脫老不？病法、死法、愁法、歎法、憂法、苦法、
 <lb n="0675c26" ed="T"/>不安隱法，亦復如是。既審察已，能正了知：此
-<lb n="0675c27" ed="T"/>出世智正修習時，定能<anchor xml:id="beg_f" type="star"/>令<anchor xml:id="end_f"/>彼生法有情永脫
+<lb n="0675c27" ed="T"/>出世智正修習時，定能<anchor xml:id="beg_b" type="star"/>令<anchor xml:id="end_b"/>彼生法有情永脫
 <lb n="0675c28" ed="T"/>於生，定能令彼老法有情永脫於老，病法、
 <lb n="0675c29" ed="T"/>死法、愁法、歎法、憂法、苦法、不安隱法，亦復
 <pb n="0676a" ed="T" xml:id="T17.0765.0676a"/>
@@ -1453,12 +1453,12 @@ Added comment  for Emacs
 <lb n="0676a20" ed="T"/><l>謂世出、世間，</l><l>能正盡眾苦。</l>
 <lb n="0676a21" ed="T"/><l>應觀世間智，</l><l>發生怖畏想，</l>
 <lb n="0676a22" ed="T"/><l>都無有執受，</l><l>展轉證涅槃；</l>
-<lb n="0676a23" ed="T"/><l>應觀出世智，</l><l>發生珍<anchor xml:id="nkr_note_orig_0676003" n="0676003"/><anchor xml:id="beg0676003" n="0676003"/>寶<anchor xml:id="end0676003"/>想，</l>
+<lb n="0676a23" ed="T"/><l>應觀出世智，</l><l>發生珍<anchor xml:id="nkr_note_orig_0676003" n="0676003"/><anchor xml:id="nkr_note_mod_0676003" n="0676003"/><anchor xml:id="beg0676003" n="0676003"/>寶<anchor xml:id="end0676003"/>想，</l>
 <lb n="0676a24" ed="T"/><l>由此生歡喜，</l><l>便得身輕安。</l>
 <lb n="0676a25" ed="T"/><l>輕安故悅樂，</l><l>悅樂故心定，</l>
 <lb n="0676a26" ed="T"/><l>由心得定故，</l><l>便能生覺支；</l>
 <lb n="0676a27" ed="T"/><l>覺支觀聖諦，</l><l>永斷諸疑網，</l>
-<lb n="0676a28" ed="T"/><l>無疑無所取，</l><l>永<anchor xml:id="nkr_note_orig_0676004" n="0676004"/><anchor xml:id="beg0676004" n="0676004"/>脫<anchor xml:id="end0676004"/>眾苦邊。」</l></lg>
+<lb n="0676a28" ed="T"/><l>無疑無所取，</l><l>永<anchor xml:id="nkr_note_orig_0676004" n="0676004"/><anchor xml:id="nkr_note_mod_0676004" n="0676004"/><anchor xml:id="beg0676004" n="0676004"/>脫<anchor xml:id="end0676004"/>眾苦邊。」</l></lg>
 <lb n="0676a29" ed="T"/><p xml:id="pT17p0676a2901">重攝前經嗢柁南曰：</p>
 <pb n="0676b" ed="T" xml:id="T17.0765.0676b"/>
 <lb n="0676b01" ed="T"/><lg xml:id="lgT17p0676b0101"><l>二根、二焦惱</l><l>二行、二戒見</l>
@@ -1622,7 +1622,7 @@ Added comment  for Emacs
 <lb n="0678a09" ed="T"/>是一正也。又按諸本，第四卷中七幅有結
 <lb n="0678a10" ed="T"/>頌云「為通達律儀，厭知不淨果，纏覺悟
 <lb n="0678a11" ed="T"/>宴坐，愧所作尋求」者，則結十二經為一頌。
-<lb n="0678a12" ed="T"/>其覺悟已下五經，即是諸本<anchor xml:id="beg_10" type="cb-app"/>第<anchor xml:id="end_10"/>四卷卷初
+<lb n="0678a12" ed="T"/>其覺悟已下五經，即是諸本<anchor xml:id="nkr_note_add_0678a1201" n="0678a1201"/><anchor xml:id="beg0678a1201" n="0678a1201"/>第<anchor xml:id="end0678a1201"/>四卷卷初
 <lb n="0678a13" ed="T"/>五經。其纏經、果經已上七經，即是丹本此
 <lb n="0678a14" ed="T"/>卷卷末七經耳。則列結相應，是二正也。餘
 <lb n="0678a15" ed="T"/>本則非，故今取此丹本為正云。</p><anchor xml:id="end0677004"/></cb:div></cb:div>
@@ -1649,12 +1649,12 @@ Added comment  for Emacs
 <lb n="0678b06" ed="T"/><l>此二涅槃界，</l><l>最上無等倫，</l>
 <lb n="0678b07" ed="T"/><l>謂現法當來，</l><l>寂靜常安樂。」</l></lg>
 <lb n="0678b08" ed="T"/><p xml:id="pT17p0678b0801">吾從世尊聞如是語：「苾芻當知！由二纏故，
-<lb n="0678b09" ed="T"/><anchor xml:id="nkr_note_orig_0678002" n="0678002"/><anchor xml:id="beg0678002" n="0678002"/>令<anchor xml:id="end0678002"/>諸天人，一類怯劣、一類勇猛。有慧眼者
+<lb n="0678b09" ed="T"/><anchor xml:id="nkr_note_orig_0678002" n="0678002"/><anchor xml:id="nkr_note_mod_0678002" n="0678002"/><anchor xml:id="beg0678002" n="0678002"/>令<anchor xml:id="end0678002"/>諸天人，一類怯劣、一類勇猛。有慧眼者
 <lb n="0678b10" ed="T"/>能正觀察。云何二纏？謂有見纏；無有見纏。
 <lb n="0678b11" ed="T"/>云何天人一類怯劣？謂有天人，愛有、樂有、欣
 <lb n="0678b12" ed="T"/>有、喜有，為滅有故說正法時，不能恭敬攝耳
 <lb n="0678b13" ed="T"/>聽受，亦復不能住奉教心，不能隨順修如實
-<lb n="0678b14" ed="T"/>見，<anchor xml:id="nkr_note_orig_0678003" n="0678003"/><anchor xml:id="beg0678003" n="0678003"/>惟<anchor xml:id="end0678003"/>生怯劣，退轉驚怖：我等爾時當何
+<lb n="0678b14" ed="T"/>見，<anchor xml:id="nkr_note_orig_0678003" n="0678003"/><anchor xml:id="nkr_note_mod_0678003" n="0678003"/><anchor xml:id="beg0678003" n="0678003"/>惟<anchor xml:id="end0678003"/>生怯劣，退轉驚怖：我等爾時當何
 <lb n="0678b15" ed="T"/>所有？我等爾時當如何有？如是天人一類怯
 <lb n="0678b16" ed="T"/>劣。云何天人一類勇猛？謂有天人，怖有、厭有、
 <lb n="0678b17" ed="T"/>欣求無有，彼彼苦法所逼切故，攝受、執著如
@@ -1729,7 +1729,7 @@ Added comment  for Emacs
 <lb n="0679a25" ed="T"/>有二種所應作事。若能正作，得所未得、觸所
 <lb n="0679a26" ed="T"/>未觸、證所未證，能超愁歎、能滅憂苦、能觸如
 <lb n="0679a27" ed="T"/>理、能得甘露、能證涅槃。云何為二？一者靜
-<lb n="0679a28" ed="T"/><anchor xml:id="nkr_note_orig_0679001" n="0679001"/><anchor xml:id="beg0679001" n="0679001"/>慮<anchor xml:id="end0679001"/>；二者聽說。云何靜慮？謂諸苾芻遠離諸
+<lb n="0679a28" ed="T"/><anchor xml:id="nkr_note_orig_0679001" n="0679001"/><anchor xml:id="nkr_note_mod_0679001" n="0679001"/><anchor xml:id="beg0679001" n="0679001"/>慮<anchor xml:id="end0679001"/>；二者聽說。云何靜慮？謂諸苾芻遠離諸
 <lb n="0679a29" ed="T"/>欲、惡不善法，有尋有伺，離生喜樂，具足安住
 <pb n="0679b" ed="T" xml:id="T17.0765.0679b"/>
 <lb n="0679b01" ed="T"/>最初靜慮。尋伺靜息，內淨一趣，無尋無伺，定
@@ -1738,7 +1738,7 @@ Added comment  for Emacs
 <lb n="0679b04" ed="T"/>快樂，具足安住第三靜慮。斷苦、斷樂，先滅憂
 <lb n="0679b05" ed="T"/>喜；不苦、不樂，捨念清淨，具足安住第四靜慮。
 <lb n="0679b06" ed="T"/>云何聽說？謂諸苾芻於佛所說，初、中、後善，文
-<lb n="0679b07" ed="T"/>義<anchor xml:id="nkr_note_orig_0679002" n="0679002"/><anchor xml:id="beg0679002" n="0679002"/>巧<anchor xml:id="end0679002"/>妙，純滿清白梵行之法，所謂契經、應
+<lb n="0679b07" ed="T"/>義<anchor xml:id="nkr_note_orig_0679002" n="0679002"/><anchor xml:id="nkr_note_mod_0679002" n="0679002"/><anchor xml:id="beg0679002" n="0679002"/>巧<anchor xml:id="end0679002"/>妙，純滿清白梵行之法，所謂契經、應
 <lb n="0679b08" ed="T"/>頌、記別、伽<anchor xml:id="nkr_note_orig_0679003" n="0679003"/><anchor xml:id="nkr_note_mod_0679003" n="0679003"/><anchor xml:id="beg0679003" n="0679003"/>他<anchor xml:id="end0679003"/>、自說、本事、本生及與方廣、未曾
 <lb n="0679b09" ed="T"/>有法，於如是法，受誦聽習令其通利，宣暢解
 <lb n="0679b10" ed="T"/>釋，是名聽說。如是名為諸出家者，略有二
@@ -1754,7 +1754,7 @@ Added comment  for Emacs
 <lb n="0679b20" ed="T"/><l>設經百千歲，</l><l>無一得涅槃。</l>
 <lb n="0679b21" ed="T"/><l>勤修智慧人，</l><l>樂聽法說法，</l>
 <lb n="0679b22" ed="T"/><l>歛念須臾頃，</l><l>能速證涅槃。」</l></lg>
-<lb n="0679b23" ed="T"/><p xml:id="pT17p0679b2301">吾從世尊聞如是語：「<anchor xml:id="beg_11" type="cb-app"/>苾<anchor xml:id="end_11"/>芻當知！尋求有二，更
+<lb n="0679b23" ed="T"/><p xml:id="pT17p0679b2301">吾從世尊聞如是語：「<anchor xml:id="nkr_note_add_0679b2301" n="0679b2301"/><anchor xml:id="beg0679b2301" n="0679b2301"/>苾<anchor xml:id="end0679b2301"/>芻當知！尋求有二，更
 <lb n="0679b24" ed="T"/>無第三。云何為二？謂聖尋求、非聖尋求。云何
 <lb n="0679b25" ed="T"/>名為非聖尋求？謂有一類，已有老法，尋求
 <lb n="0679b26" ed="T"/>老法；已有病法，尋求病法；已有死法，尋求死
@@ -1781,7 +1781,7 @@ Added comment  for Emacs
 <lb n="0679c17" ed="T"/>通慧、非成等覺、非證涅槃；由此尋求，能引
 <lb n="0679c18" ed="T"/>一切生、老、病、死、愁、歎、憂、苦、諸熱惱法。是故如
 <lb n="0679c19" ed="T"/>是非聖尋求，如來終不稱揚讚歎，唯勸導之，
-<lb n="0679c20" ed="T"/><anchor xml:id="nkr_note_orig_0679006" n="0679006"/><anchor xml:id="beg0679006" n="0679006"/>令<anchor xml:id="end0679006"/>知捨離。</p><p xml:id="pT17p0679c2005" rend="inline">「云何名為是聖尋求？謂有一類
+<lb n="0679c20" ed="T"/><anchor xml:id="nkr_note_orig_0679006" n="0679006"/><anchor xml:id="nkr_note_mod_0679006" n="0679006"/><anchor xml:id="beg0679006" n="0679006"/>令<anchor xml:id="end0679006"/>知捨離。</p><p xml:id="pT17p0679c2005" rend="inline">「云何名為是聖尋求？謂有一類
 <lb n="0679c21" ed="T"/>已有老法，能自了知我有老法，能如實知老
 <lb n="0679c22" ed="T"/>法過患，尋求畢竟無老無上安樂涅槃。已
 <lb n="0679c23" ed="T"/>有病法，能自了知我有病法，能如實知病法
@@ -1798,7 +1798,7 @@ Added comment  for Emacs
 <lb n="0680a04" ed="T"/>尋求是賢聖法，能永出離、能趣涅槃、能厭能
 <lb n="0680a05" ed="T"/>離、能滅能靜、能得通慧、能成等覺、能證涅
 <lb n="0680a06" ed="T"/>槃。由此尋求，能超一切生、老、病、死、愁、歎、憂、
-<lb n="0680a07" ed="T"/>苦，生<anchor xml:id="nkr_note_orig_0680001" n="0680001"/><anchor xml:id="beg0680001" n="0680001"/>死<anchor xml:id="end0680001"/>熱惱。是故如是是聖尋求，一切如
+<lb n="0680a07" ed="T"/>苦，生<anchor xml:id="nkr_note_orig_0680001" n="0680001"/><anchor xml:id="nkr_note_mod_0680001" n="0680001"/><anchor xml:id="beg0680001" n="0680001"/>死<anchor xml:id="end0680001"/>熱惱。是故如是是聖尋求，一切如
 <lb n="0680a08" ed="T"/>來稱揚讚歎。如是名為尋求有二，更無第三。
 <lb n="0680a09" ed="T"/>是故汝等應如是學：我當云何遠離如是非
 <lb n="0680a10" ed="T"/>聖尋求，修行如是是聖尋求？汝等苾芻，應如
@@ -1814,15 +1814,15 @@ Added comment  for Emacs
 <lb n="0680a20" ed="T"/><l>此損減眾苦，</l><l>速證於涅槃，</l>
 <lb n="0680a21" ed="T"/><l>永安樂清涼，</l><l>常無漏無怖。</l>
 <lb n="0680a22" ed="T"/><l>彼非聖尋求，</l><l>諸佛所呵毀，</l>
-<lb n="0680a23" ed="T"/><l>是生死根本，</l><l>智者<anchor xml:id="nkr_note_orig_0680002" n="0680002"/><anchor xml:id="beg0680002" n="0680002"/>當<anchor xml:id="end0680002"/>遠離。</l>
+<lb n="0680a23" ed="T"/><l>是生死根本，</l><l>智者<anchor xml:id="nkr_note_orig_0680002" n="0680002"/><anchor xml:id="nkr_note_mod_0680002" n="0680002"/><anchor xml:id="beg0680002" n="0680002"/>當<anchor xml:id="end0680002"/>遠離。</l>
 <lb n="0680a24" ed="T"/><l>此真聖尋求，</l><l>諸佛所稱讚，</l>
 <lb n="0680a25" ed="T"/><l>是趣涅槃道，</l><l>有智者應修。」</l></lg>
 <lb n="0680a26" ed="T"/><p xml:id="pT17p0680a2601">重攝前經嗢<anchor xml:id="nkr_note_orig_0680003" n="0680003"/><anchor xml:id="nkr_note_mod_0680003" n="0680003"/><anchor xml:id="beg0680003" n="0680003"/>拕<anchor xml:id="end0680003"/>南曰：</p>
 <lb n="0680a27" ed="T"/><lg xml:id="lgT17p0680a2701"><l>為通達、律儀</l><l>厭、知、不淨、界</l>
-<lb n="0680a28" ed="T"/><l><anchor xml:id="beg_12" type="cb-app"/>纏<anchor xml:id="end_12"/>、覺悟、宴坐</l><l>愧、所作、尋求</l></lg>
+<lb n="0680a28" ed="T"/><l><anchor xml:id="nkr_note_add_0680a2801" n="0680a2801"/><anchor xml:id="beg0680a2801" n="0680a2801"/>纏<anchor xml:id="end0680a2801"/>、覺悟、宴坐</l><l>愧、所作、尋求</l></lg>
 <lb n="0680a29" ed="T"/><p xml:id="pT17p0680a2901">吾從世尊聞如是語：「苾芻當知！略有二種
 <pb n="0680b" ed="T" xml:id="T17.0765.0680b"/>
-<lb n="0680b01" ed="T"/><anchor xml:id="nkr_note_orig_0680004" n="0680004"/><anchor xml:id="beg0680004" n="0680004"/>白淨<anchor xml:id="end0680004"/>善法，能護世間。云何為二？謂慚與愧。
+<lb n="0680b01" ed="T"/><anchor xml:id="nkr_note_orig_0680004" n="0680004"/><anchor xml:id="nkr_note_mod_0680004" n="0680004"/><anchor xml:id="beg0680004" n="0680004"/>白淨<anchor xml:id="end0680004"/>善法，能護世間。云何為二？謂慚與愧。
 <lb n="0680b02" ed="T"/>若無此二白淨善法，世間有情皆成穢雜，猶
 <lb n="0680b03" ed="T"/>如牛羊、鷄猪、狗等，不識父母、兄弟、姊妹，不識
 <lb n="0680b04" ed="T"/>軌範、親教、導師、似導師等。由有此二白淨善
@@ -1845,7 +1845,7 @@ Added comment  for Emacs
 <lb n="0680b21" ed="T"/>尋思。云何為二？一者如來居菩薩位，多分安
 <lb n="0680b22" ed="T"/>住不害尋思欣喜悅樂。如是安住不害尋思
 <lb n="0680b23" ed="T"/>欣喜悅樂，是名第一多分尋思。由住如是修
-<lb n="0680b24" ed="T"/>習行迹，於諸有情都無<anchor xml:id="beg_13" type="cb-app"/>損<anchor xml:id="end_13"/>害，由此尋思，證得
+<lb n="0680b24" ed="T"/>習行迹，於諸有情都無<anchor xml:id="nkr_note_add_0680b2401" n="0680b2401"/><anchor xml:id="beg0680b2401" n="0680b2401"/>損<anchor xml:id="end0680b2401"/>害，由此尋思，證得
 <lb n="0680b25" ed="T"/>無量圓滿梵住。二者如來居菩薩位，多分安
 <lb n="0680b26" ed="T"/>住永斷尋思欣喜悅樂。如是安住永斷尋思
 <lb n="0680b27" ed="T"/>欣喜悅樂，是名第二多分尋思。由住如是修
@@ -1876,7 +1876,7 @@ Added comment  for Emacs
 <lb n="0680c22" ed="T"/>芻，多有所作，謂能為彼宣說正法，初、中、後善，
 <lb n="0680c23" ed="T"/>文義巧妙，純滿清白梵行之法。由此俱能解
 <lb n="0680c24" ed="T"/>脫生法、老病死法、愁歎憂苦熱惱之法。汝等
-<lb n="0680c25" ed="T"/>與彼<anchor xml:id="nkr_note_orig_0680005" n="0680005"/><anchor xml:id="beg0680005" n="0680005"/>力<anchor xml:id="end0680005"/>輪、法輪，展轉相依，於如來所，勤修
+<lb n="0680c25" ed="T"/>與彼<anchor xml:id="nkr_note_orig_0680005" n="0680005"/><anchor xml:id="nkr_note_mod_0680005" n="0680005"/><anchor xml:id="beg0680005" n="0680005"/>力<anchor xml:id="end0680005"/>輪、法輪，展轉相依，於如來所，勤修
 <lb n="0680c26" ed="T"/>梵行，速至無上般涅槃城。」爾時，世尊重攝此
 <lb n="0680c27" ed="T"/>義而說頌曰：</p>
 <lb n="0680c28" ed="T"/><lg xml:id="lgT17p0680c2801" rend="margin-left:1em;text-indent:-1em"><l>「出家與居家，</l><l>展轉互相依，</l>
@@ -1900,7 +1900,7 @@ Added comment  for Emacs
 <lb n="0681a16" ed="T"/>諸聖弟子正證如是心解脫者，若他罵詈、訶
 <lb n="0681a17" ed="T"/>責、輕弄、毀辱等時，不由此緣發生種種不忍、
 <lb n="0681a18" ed="T"/>不信、害恨等心。所以者何？以能照見他罵詈
-<lb n="0681a19" ed="T"/>等，於彼有罪、於<anchor xml:id="beg_14" type="cb-app"/>己<anchor xml:id="end_14"/>無損。諸聖弟子正證如
+<lb n="0681a19" ed="T"/>等，於彼有罪、於<anchor xml:id="nkr_note_add_0681a1901" n="0681a1901"/><anchor xml:id="beg0681a1901" n="0681a1901"/>己<anchor xml:id="end0681a1901"/>無損。諸聖弟子正證如
 <lb n="0681a20" ed="T"/>是心解脫者，若他讚美、恭敬、禮拜、供養等時，
 <lb n="0681a21" ed="T"/>不由此緣發生種種歡喜、踊躍、悅豫等心。所
 <lb n="0681a22" ed="T"/>以者何？以能照見他讚美等，於彼有福、於
@@ -1929,13 +1929,13 @@ Added comment  for Emacs
 <lb n="0681b15" ed="T"/>依般涅槃界，或不還果。」爾時，世尊重攝此義
 <lb n="0681b16" ed="T"/>而說頌曰：</p>
 <lb n="0681b17" ed="T"/><lg xml:id="lgT17p0681b1701" rend="margin-left:1em;text-indent:-1em"><l>「修學勝利人，</l><l>依佛修梵行，</l>
-<lb n="0681b18" ed="T"/><l>慧為其上首，</l><l>及<anchor xml:id="beg_15" type="cb-app"/>解<anchor xml:id="end_15"/>脫堅牢，</l>
+<lb n="0681b18" ed="T"/><l>慧為其上首，</l><l>及<anchor xml:id="nkr_note_add_0681b1801" n="0681b1801"/><anchor xml:id="beg0681b1801" n="0681b1801"/>解<anchor xml:id="end0681b1801"/>脫堅牢，</l>
 <lb n="0681b19" ed="T"/><l>念最居尊勝，</l><l>二果隨證一，</l>
 <lb n="0681b20" ed="T"/><l>謂現法涅槃，</l><l>及永不還果。</l>
 <lb n="0681b21" ed="T"/><l>由慧為上首，</l><l>貪不擾其心，</l>
 <lb n="0681b22" ed="T"/><l>無隨色等緣，</l><l>相貌所生識。</l>
 <lb n="0681b23" ed="T"/><l>學勝利圓滿，</l><l>生勝定上慧，</l>
-<lb n="0681b24" ed="T"/><l>盡生老<anchor xml:id="beg_16" type="star"/>死<anchor xml:id="end_16"/>邊，</l><l>證有餘依界。</l>
+<lb n="0681b24" ed="T"/><l>盡生老<anchor xml:id="beg_c" type="star"/>死<anchor xml:id="end_c"/>邊，</l><l>證有餘依界。</l>
 <lb n="0681b25" ed="T"/><l>故汝等苾芻，</l><l>應勤修戒定，</l>
 <lb n="0681b26" ed="T"/><l>生微妙勝慧，</l><l>盡生老病死。</l>
 <lb n="0681b27" ed="T"/><l>住我法律中，</l><l>能無放逸者，</l>
@@ -1943,13 +1943,13 @@ Added comment  for Emacs
 <lb n="0681b29" ed="T"/><p xml:id="pT17p0681b2901">吾從世尊聞如是語：「苾芻當知！一切世間惡
 <pb n="0681c" ed="T" xml:id="T17.0765.0681c"/>
 <lb n="0681c01" ed="T"/>不善法，皆以無明為其前導而得生長；以無
-<lb n="0681c02" ed="T"/>慚愧為其後助而不損<anchor xml:id="nkr_note_orig_0681003" n="0681003"/><anchor xml:id="beg0681003" n="0681003"/>減<anchor xml:id="end0681003"/>。所以者何？諸趣
+<lb n="0681c02" ed="T"/>慚愧為其後助而不損<anchor xml:id="nkr_note_orig_0681003" n="0681003"/><anchor xml:id="nkr_note_mod_0681003" n="0681003"/><anchor xml:id="beg0681003" n="0681003"/>減<anchor xml:id="end0681003"/>。所以者何？諸趣
 <lb n="0681c03" ed="T"/>有生，生老病死、愁歎憂苦熱惱等法，一切皆
 <lb n="0681c04" ed="T"/>用無明為根而得生長。既生長已，依之復
 <lb n="0681c05" ed="T"/>能生起一切惡不善法。惡法既生，由無慚愧，
-<lb n="0681c06" ed="T"/>都無悔變。無悔變故而不損<anchor xml:id="beg_17" type="star"/>減<anchor xml:id="end_17"/>。一切世間
+<lb n="0681c06" ed="T"/>都無悔變。無悔變故而不損<anchor xml:id="beg_d" type="star"/>減<anchor xml:id="end_d"/>。一切世間
 <lb n="0681c07" ed="T"/>善清淨法，皆以慧明為其前導而得生長；以
-<lb n="0681c08" ed="T"/>慚與愧，為其後助而不損<anchor xml:id="beg_18" type="star"/>減<anchor xml:id="end_18"/>。所以者何？明
+<lb n="0681c08" ed="T"/>慚與愧，為其後助而不損<anchor xml:id="beg_e" type="star"/>減<anchor xml:id="end_e"/>。所以者何？明
 <lb n="0681c09" ed="T"/>處其前，慚愧為後，能永斷滅諸趣有生生
 <lb n="0681c10" ed="T"/>老病死、能超一切愁歎憂苦熱惱等法，能
 <lb n="0681c11" ed="T"/>觸如理、能得甘露、能證涅槃。是故汝等應如
@@ -1970,7 +1970,7 @@ Added comment  for Emacs
 <lb n="0681c26" ed="T"/>正等覺，憐愍世間出興於世，為欲永斷、除捨
 <lb n="0681c27" ed="T"/>二法，轉於賢聖無上法輪。一切世間，所有沙
 <lb n="0681c28" ed="T"/>門或婆羅門、天、魔、梵等，曾未有能如法轉者。
-<lb n="0681c29" ed="T"/>云何二法？一者無明；二者有<anchor xml:id="nkr_note_orig_0681004" n="0681004"/><anchor xml:id="beg0681004" n="0681004"/>愛<anchor xml:id="end0681004"/>。一切如來、
+<lb n="0681c29" ed="T"/>云何二法？一者無明；二者有<anchor xml:id="nkr_note_orig_0681004" n="0681004"/><anchor xml:id="nkr_note_mod_0681004" n="0681004"/><anchor xml:id="beg0681004" n="0681004"/>愛<anchor xml:id="end0681004"/>。一切如來、
 <pb n="0682a" ed="T" xml:id="T17.0765.0682a"/>
 <lb n="0682a01" ed="T"/>應、正等覺，憐愍世間出興於世，皆為永斷、
 <lb n="0682a02" ed="T"/>除捨此二，轉於賢聖無上法輪，廣說乃至曾
@@ -1988,7 +1988,7 @@ Added comment  for Emacs
 <lb n="0682a14" ed="T"/><l>是苦是苦因，</l><l>是眾苦永滅，</l>
 <lb n="0682a15" ed="T"/><l>是八支聖道，</l><l>趣滅苦涅槃。</l>
 <lb n="0682a16" ed="T"/><l>智者聞斯法，</l><l>信解等堅牢，</l>
-<lb n="0682a17" ed="T"/><l>達諸法正<anchor xml:id="nkr_note_orig_0682001" n="0682001"/><anchor xml:id="beg0682001" n="0682001"/>真<anchor xml:id="end0682001"/>，</l><l>斷無明、有愛。</l>
+<lb n="0682a17" ed="T"/><l>達諸法正<anchor xml:id="nkr_note_orig_0682001" n="0682001"/><anchor xml:id="nkr_note_mod_0682001" n="0682001"/><anchor xml:id="beg0682001" n="0682001"/>真<anchor xml:id="end0682001"/>，</l><l>斷無明、有愛。</l>
 <lb n="0682a18" ed="T"/><l>無明、有愛除，</l><l>諸雜染皆滅，</l>
 <lb n="0682a19" ed="T"/><l>至善調順地，</l><l>名世良福田。」</l></lg>
 <lb n="0682a20" ed="T"/><p xml:id="pT17p0682a2001">吾從世尊聞如是語：「苾芻當知！有二苦事最
@@ -1996,7 +1996,7 @@ Added comment  for Emacs
 <lb n="0682a22" ed="T"/>怨嫌興呪詛者，作是願言：『願彼貧窮，剃除鬚
 <lb n="0682a23" ed="T"/>髮，服故弊衣，手持瓦器，從家至家行乞自
 <lb n="0682a24" ed="T"/>活。』諸有淨信善男子等，受持此法而出家者，
-<lb n="0682a25" ed="T"/>非為王、賊、<anchor xml:id="nkr_note_orig_0682002" n="0682002"/><anchor xml:id="beg0682002" n="0682002"/>債<anchor xml:id="end0682002"/>主怖畏之所逼切，非恐不活
+<lb n="0682a25" ed="T"/>非為王、賊、<anchor xml:id="nkr_note_orig_0682002" n="0682002"/><anchor xml:id="nkr_note_mod_0682002" n="0682002"/><anchor xml:id="beg0682002" n="0682002"/>債<anchor xml:id="end0682002"/>主怖畏之所逼切，非恐不活
 <lb n="0682a26" ed="T"/>而捨居家，但為超度生老病死、愁歎憂苦熱
 <lb n="0682a27" ed="T"/>惱等法，但為滅除純大苦蘊。我諸弟子，求
 <lb n="0682a28" ed="T"/>如是事，正信出家，為利自他，受持此法。或有
@@ -2007,7 +2007,7 @@ Added comment  for Emacs
 <lb n="0682b03" ed="T"/>知，耽染諸欲虛妄思惟，毀諸禁戒。實非沙
 <lb n="0682b04" ed="T"/>門自稱沙門，實非梵行自稱梵行，內朽順
 <lb n="0682b05" ed="T"/>流，如穢蝸螺，貝音狗行，覆藏己惡，詐現自善，
-<lb n="0682b06" ed="T"/><anchor xml:id="beg_19" type="cb-app"/>成<anchor xml:id="end_19"/>就種種惡不善法。譬如有人從闇入闇、
+<lb n="0682b06" ed="T"/><anchor xml:id="nkr_note_add_0682b0601" n="0682b0601"/><anchor xml:id="beg0682b0601" n="0682b0601"/>成<anchor xml:id="end0682b0601"/>就種種惡不善法。譬如有人從闇入闇、
 <lb n="0682b07" ed="T"/>從坑墮坑、從怨至怨，我說如是癡出家人，
 <lb n="0682b08" ed="T"/>亦復如是。又如有木，兩頭火燃，中塗糞穢，若
 <lb n="0682b09" ed="T"/>在聚落及與空閑，皆無復用。我說如是癡出
@@ -2039,7 +2039,7 @@ Added comment  for Emacs
 <lb n="0682c05" ed="T"/><l>如是二種人，</l><l>俱名為下賤，</l>
 <lb n="0682c06" ed="T"/><l>現在人所鄙，</l><l>受苦在當來。</l>
 <lb n="0682c07" ed="T"/><l>是故諸苾芻，</l><l>常應不放逸，</l>
-<lb n="0682c08" ed="T"/><l>受持清淨戒，</l><l>勿<anchor xml:id="nkr_note_orig_0682003" n="0682003"/><anchor xml:id="beg0682003" n="0682003"/>毀<anchor xml:id="end0682003"/>謗他人。」</l></lg>
+<lb n="0682c08" ed="T"/><l>受持清淨戒，</l><l>勿<anchor xml:id="nkr_note_orig_0682003" n="0682003"/><anchor xml:id="nkr_note_mod_0682003" n="0682003"/><anchor xml:id="beg0682003" n="0682003"/>毀<anchor xml:id="end0682003"/>謗他人。」</l></lg>
 <lb n="0682c09" ed="T"/><p xml:id="pT17p0682c0901">吾從世尊聞如是語：「苾芻當知！世有二種補
 <lb n="0682c10" ed="T"/>特伽羅，恩深難報。云何為二？所謂父、母。假使
 <lb n="0682c11" ed="T"/>有人一肩荷父、一肩擔母，盡其壽量曾無暫
@@ -2047,15 +2047,15 @@ Added comment  for Emacs
 <lb n="0682c13" ed="T"/>報父母深恩。所以者何？父母於子，恩極深重。
 <lb n="0682c14" ed="T"/>所謂產生，慈心乳哺、洗拭將養令其長大，供
 <lb n="0682c15" ed="T"/>給種種資身眾具，教示世間所有儀式，心常
-<lb n="0682c16" ed="T"/>欲令離苦得樂，<anchor xml:id="nkr_note_orig_0682004" n="0682004"/><anchor xml:id="beg0682004" n="0682004"/>曾<anchor xml:id="end0682004"/>無暫捨，如影隨形。父母
+<lb n="0682c16" ed="T"/>欲令離苦得樂，<anchor xml:id="nkr_note_orig_0682004" n="0682004"/><anchor xml:id="nkr_note_mod_0682004" n="0682004"/><anchor xml:id="beg0682004" n="0682004"/>曾<anchor xml:id="end0682004"/>無暫捨，如影隨形。父母
 <lb n="0682c17" ed="T"/>於子，既有如是所說深恩，當云何報？若彼父
 <lb n="0682c18" ed="T"/>母於佛、法、僧無清淨信，其子方便示現、勸導、
 <lb n="0682c19" ed="T"/>讚勵、慶慰，令生淨信。若彼父母無清淨戒，其
 <lb n="0682c20" ed="T"/>子方便示現、勸導、讚勵、慶慰，令其受持清淨
-<lb n="0682c21" ed="T"/>禁戒。若彼父母無<anchor xml:id="nkr_note_orig_0682005" n="0682005"/><anchor xml:id="beg0682005" n="0682005"/>有<anchor xml:id="end0682005"/>多聞，其子方便示現、
+<lb n="0682c21" ed="T"/>禁戒。若彼父母無<anchor xml:id="nkr_note_orig_0682005" n="0682005"/><anchor xml:id="nkr_note_mod_0682005" n="0682005"/><anchor xml:id="beg0682005" n="0682005"/>有<anchor xml:id="end0682005"/>多聞，其子方便示現、
 <lb n="0682c22" ed="T"/>勸導、讚勵、慶慰，令其聽聞諸佛正法。若彼父
 <lb n="0682c23" ed="T"/>母為性慳貪，不樂布施，其子方便示現、勸導、
-<lb n="0682c24" ed="T"/>讚勵、慶慰，令行布施。若彼父母為性<anchor xml:id="nkr_note_orig_0682006" n="0682006"/><anchor xml:id="beg0682006" n="0682006"/>闇<anchor xml:id="end0682006"/>鈍
+<lb n="0682c24" ed="T"/>讚勵、慶慰，令行布施。若彼父母為性<anchor xml:id="nkr_note_orig_0682006" n="0682006"/><anchor xml:id="nkr_note_mod_0682006" n="0682006"/><anchor xml:id="beg0682006" n="0682006"/>闇<anchor xml:id="end0682006"/>鈍
 <lb n="0682c25" ed="T"/>無有勝慧，其子方便示現、勸導、讚勵、慶慰，令
 <lb n="0682c26" ed="T"/>修勝慧。其子如是，乃名真實報父母恩。」爾時，
 <lb n="0682c27" ed="T"/>世尊重攝此義而說頌曰：</p>
@@ -2070,7 +2070,7 @@ Added comment  for Emacs
 <lb n="0683a06" ed="T"/><l>子令其修習，</l><l>名真實報恩；</l>
 <lb n="0683a07" ed="T"/><l>恭敬給所須，</l><l>唯現世安樂，</l>
 <lb n="0683a08" ed="T"/><l>令修信戒等，</l><l>究竟證涅槃。」</l></lg>
-<lb n="0683a09" ed="T"/><p xml:id="pT17p0683a0901"><anchor xml:id="nkr_note_orig_0683001" n="0683001"/><anchor xml:id="beg0683001" n="0683001"/>吾從世尊聞如是語：「苾芻當知！世有二種
+<lb n="0683a09" ed="T"/><p xml:id="pT17p0683a0901"><anchor xml:id="nkr_note_orig_0683001" n="0683001"/><anchor xml:id="nkr_note_mod_0683001" n="0683001"/><anchor xml:id="beg0683001" n="0683001"/>吾從世尊聞如是語：「苾芻當知！世有二種
 <lb n="0683a10" ed="T"/>無<anchor xml:id="end0683001"/>欺誑法。云何為二？謂業與智。若諸有情已
 <lb n="0683a11" ed="T"/>集諸業，其異熟果若未現前，終不盡滅。若諸
 <lb n="0683a12" ed="T"/>有情已生諸智，一切煩惱若未永除，終不捨
@@ -2088,7 +2088,7 @@ Added comment  for Emacs
 <lb n="0683a24" ed="T"/>父母，深心尊重、禮拜、供養，以敬愛心親近而
 <lb n="0683a25" ed="T"/>住，生無量福。諸有智人咸共稱歎，聲譽普
 <lb n="0683a26" ed="T"/>聞，處眾無畏，後不焦惱，無悔命終，身壞死後
-<lb n="0683a27" ed="T"/>昇諸善趣，<anchor xml:id="nkr_note_orig_0683002" n="0683002"/><anchor xml:id="beg0683002" n="0683002"/>生<anchor xml:id="end0683002"/>於天中。何緣有情應於父母
+<lb n="0683a27" ed="T"/>昇諸善趣，<anchor xml:id="nkr_note_orig_0683002" n="0683002"/><anchor xml:id="nkr_note_mod_0683002" n="0683002"/><anchor xml:id="beg0683002" n="0683002"/>生<anchor xml:id="end0683002"/>於天中。何緣有情應於父母
 <lb n="0683a28" ed="T"/>深心尊重、禮拜、供養，以敬愛心親近而住？父
 <lb n="0683a29" ed="T"/>母於子有深重恩，所謂產生，慈心乳哺、洗拭
 <pb n="0683b" ed="T" xml:id="T17.0765.0683b"/>
@@ -2115,7 +2115,7 @@ Added comment  for Emacs
 <lb n="0683b21" ed="T"/><l>死生天善趣，</l><l>受妙樂無窮。</l>
 <lb n="0683b22" ed="T"/><l>欲得生天人，</l><l>受五欲妙樂，</l>
 <lb n="0683b23" ed="T"/><l>猶如天帝釋，</l><l>當供養父母。」</l></lg>
-<lb n="0683b24" ed="T"/><p xml:id="pT17p0683b2401">重攝前經嗢<anchor xml:id="beg_1a" type="star"/>拕<anchor xml:id="end_1a"/>南曰：</p>
+<lb n="0683b24" ed="T"/><p xml:id="pT17p0683b2401">重攝前經嗢<anchor xml:id="beg_f" type="star"/>拕<anchor xml:id="end_f"/>南曰：</p>
 <lb n="0683b25" ed="T"/><lg xml:id="lgT17p0683b2501"><l>善、尋、輪、戒、學</l><l>無明慧、斷除</l>
 <lb n="0683b26" ed="T"/><l>苦、毀謗、報恩</l><l>無欺誑、父母</l></lg>
 <lb n="0683b27" ed="T"/><cb:juan n="004" fun="close"><cb:jhead><title>本事經</title>卷第四</cb:jhead></cb:juan>
@@ -2130,12 +2130,12 @@ Added comment  for Emacs
 <lb n="0683c07" ed="T"/>何為二？一者財施；二者法施。云何財施？謂有
 <lb n="0683c08" ed="T"/>一類補特伽羅，能施種種美妙飲食、香鬘、衣、
 <lb n="0683c09" ed="T"/>乘、房舍、臥具、資產、燈明、病緣醫藥，捨如是等，
-<lb n="0683c10" ed="T"/>分布<anchor xml:id="nkr_note_orig_0683003" n="0683003"/><anchor xml:id="beg0683003" n="0683003"/>惠<anchor xml:id="end0683003"/>他，名為財施。云何法施？謂廣為他
+<lb n="0683c10" ed="T"/>分布<anchor xml:id="nkr_note_orig_0683003" n="0683003"/><anchor xml:id="nkr_note_mod_0683003" n="0683003"/><anchor xml:id="beg0683003" n="0683003"/>惠<anchor xml:id="end0683003"/>他，名為財施。云何法施？謂廣為他
 <lb n="0683c11" ed="T"/>宣說正法，初、中、後善，文義巧妙，純滿清白梵
 <lb n="0683c12" ed="T"/>行之法，令諸有情聞已解脫生、老、病、死、愁、歎、
 <lb n="0683c13" ed="T"/>憂、苦，諸熱惱法，是名法施。於此財、法二種施
 <lb n="0683c14" ed="T"/>中，法施最上勝妙第一。譬如世間，從牛出乳，
-<lb n="0683c15" ed="T"/>從乳出酪，酪出生<anchor xml:id="nkr_note_orig_0683004" n="0683004"/><anchor xml:id="beg0683004" n="0683004"/>酥<anchor xml:id="end0683004"/>，從此生酥，出於熟酥，
+<lb n="0683c15" ed="T"/>從乳出酪，酪出生<anchor xml:id="nkr_note_orig_0683004" n="0683004"/><anchor xml:id="nkr_note_mod_0683004" n="0683004"/><anchor xml:id="beg0683004" n="0683004"/>酥<anchor xml:id="end0683004"/>，從此生酥，出於熟酥，
 <lb n="0683c16" ed="T"/>復從熟酥出於醍醐。於是種種牛諸味中，醍
 <lb n="0683c17" ed="T"/>醐最上勝妙第一。如是財、法二種施中，法施
 <lb n="0683c18" ed="T"/>最上勝妙第一。於法施中，能無顛倒行法施
@@ -2145,7 +2145,7 @@ Added comment  for Emacs
 <lb n="0683c22" ed="T"/><lg xml:id="lgT17p0683c2201" rend="margin-left:1em;text-indent:-1em"><l>「於二種施中，</l><l>法施為第一，</l>
 <lb n="0683c23" ed="T"/><l>能行法施者，</l><l>善逝最為尊。</l>
 <lb n="0683c24" ed="T"/><l>受財施田中，</l><l>如來為第一，</l>
-<lb n="0683c25" ed="T"/><l>行財施不<anchor xml:id="nkr_note_orig_0683005" n="0683005"/><anchor xml:id="beg0683005" n="0683005"/>定<anchor xml:id="end0683005"/>，</l><l>受法施眾生。</l>
+<lb n="0683c25" ed="T"/><l>行財施不<anchor xml:id="nkr_note_orig_0683005" n="0683005"/><anchor xml:id="nkr_note_mod_0683005" n="0683005"/><anchor xml:id="beg0683005" n="0683005"/>定<anchor xml:id="end0683005"/>，</l><l>受法施眾生。</l>
 <lb n="0683c26" ed="T"/><l>財施令眾生，</l><l>得世安隱樂；</l>
 <lb n="0683c27" ed="T"/><l>法施令受者，</l><l>究竟證涅槃。」</l></lg>
 <lb n="0683c28" ed="T"/><p xml:id="pT17p0683c2801">吾從世尊聞如是語：「苾芻當知！祠祀有二。
@@ -2167,9 +2167,9 @@ Added comment  for Emacs
 <lb n="0684a14" ed="T"/>曰：</p>
 <lb n="0684a15" ed="T"/><lg xml:id="lgT17p0684a1501" rend="margin-left:1em;text-indent:-1em"><l>「於二種祠中，</l><l>法祠為第一，</l>
 <lb n="0684a16" ed="T"/><l>能行法祠者，</l><l>善逝最為尊。</l>
-<lb n="0684a17" ed="T"/><l>受財<anchor xml:id="nkr_note_orig_0684003" n="0684003"/><anchor xml:id="nkr_note_mod_0684003" n="0684003"/><anchor xml:id="beg0684003" n="0684003"/>祀<anchor xml:id="end0684003"/><anchor xml:id="nkr_note_orig_0684004" n="0684004"/><anchor xml:id="beg0684004" n="0684004"/>田<anchor xml:id="end0684004"/>中，</l><l>如來為第一，</l>
-<lb n="0684a18" ed="T"/><l>行財<anchor xml:id="beg_1b" type="star"/>祀<anchor xml:id="end_1b"/>不定，</l><l>受法祀眾生。</l>
-<lb n="0684a19" ed="T"/><l>財<anchor xml:id="beg_1c" type="star"/>祀<anchor xml:id="end_1c"/>令眾生，</l><l>得世安隱樂；</l>
+<lb n="0684a17" ed="T"/><l>受財<anchor xml:id="nkr_note_orig_0684003" n="0684003"/><anchor xml:id="nkr_note_mod_0684003" n="0684003"/><anchor xml:id="beg0684003" n="0684003"/>祀<anchor xml:id="end0684003"/><anchor xml:id="nkr_note_orig_0684004" n="0684004"/><anchor xml:id="nkr_note_mod_0684004" n="0684004"/><anchor xml:id="beg0684004" n="0684004"/>田<anchor xml:id="end0684004"/>中，</l><l>如來為第一，</l>
+<lb n="0684a18" ed="T"/><l>行財<anchor xml:id="beg_10" type="star"/>祀<anchor xml:id="end_10"/>不定，</l><l>受法祀眾生。</l>
+<lb n="0684a19" ed="T"/><l>財<anchor xml:id="beg_11" type="star"/>祀<anchor xml:id="end_11"/>令眾生，</l><l>得世安隱樂；</l>
 <lb n="0684a20" ed="T"/><l>法祠令受者，</l><l>究竟證涅槃。」</l></lg>
 <lb n="0684a21" ed="T"/><p xml:id="pT17p0684a2101">吾從世尊聞如是語：「苾芻當知！諸修行者，同
 <lb n="0684a22" ed="T"/>集會時，應作二事：一者法言；二者宴默。由法
@@ -2199,7 +2199,7 @@ Added comment  for Emacs
 <lb n="0684b16" ed="T"/><l>謂寂然宴默，</l><l>及說正法言。</l>
 <lb n="0684b17" ed="T"/><l>由說正法言，</l><l>及寂然宴默，</l>
 <lb n="0684b18" ed="T"/><l>知諸法實相，</l><l>究竟證涅槃。</l>
-<lb n="0684b19" ed="T"/><l>汝等<anchor xml:id="beg_1d" type="cb-app"/>諸<anchor xml:id="end_1d"/>苾芻，</l><l>若說了上法，</l>
+<lb n="0684b19" ed="T"/><l>汝等<anchor xml:id="nkr_note_add_0684b1901" n="0684b1901"/><anchor xml:id="beg0684b1901" n="0684b1901"/>諸<anchor xml:id="end0684b1901"/>苾芻，</l><l>若說了上法，</l>
 <lb n="0684b20" ed="T"/><l>乃得名真實，</l><l>攝受大仙幢。</l>
 <lb n="0684b21" ed="T"/><l>我常處眾中，</l><l>宣說照了法，</l>
 <lb n="0684b22" ed="T"/><l>是故名第一，</l><l>攝受大仙幢。</l>
@@ -2215,7 +2215,7 @@ Added comment  for Emacs
 <lb n="0684c02" ed="T"/>向惡魔、惡不善法，為諸惡魔、惡不善法之所
 <lb n="0684c03" ed="T"/>摧伏，增長一切惡不善法。若諸苾芻於宴
 <lb n="0684c04" ed="T"/>默時非理作意，廣說乃至增長一切惡不
-<lb n="0684c05" ed="T"/>善法。如是苾芻，為諸有智同梵行者之<anchor xml:id="nkr_note_orig_0684006" n="0684006"/><anchor xml:id="beg0684006" n="0684006"/>所<anchor xml:id="end0684006"/>
+<lb n="0684c05" ed="T"/>善法。如是苾芻，為諸有智同梵行者之<anchor xml:id="nkr_note_orig_0684006" n="0684006"/><anchor xml:id="nkr_note_mod_0684006" n="0684006"/><anchor xml:id="beg0684006" n="0684006"/>所<anchor xml:id="end0684006"/>
 <lb n="0684c06" ed="T"/>訶毀，我亦於彼常不稱讚。如是苾芻，雖得出
 <lb n="0684c07" ed="T"/>家受具足戒，而<anchor xml:id="nkr_note_orig_0684007" n="0684007"/><anchor xml:id="nkr_note_mod_0684007" n="0684007"/><anchor xml:id="beg0684007" n="0684007"/>名<anchor xml:id="end0684007"/>惡慧樂有癡人。是故汝
 <lb n="0684c08" ed="T"/>等應如是學：我當云何方便斷除非理作意，
@@ -2227,17 +2227,17 @@ Added comment  for Emacs
 <lb n="0684c14" ed="T"/><l>離非理作意，</l><l>當如理思惟。</l>
 <lb n="0684c15" ed="T"/><l>汝等若正勤，</l><l>語默無放逸，</l>
 <lb n="0684c16" ed="T"/><l>不久度生死，</l><l>證無上涅槃。」</l></lg>
-<lb n="0684c17" ed="T"/><p xml:id="pT17p0684c1701">吾從世尊聞如是語：「苾芻當知！若<anchor xml:id="nkr_note_orig_0684008" n="0684008"/><anchor xml:id="beg0684008" n="0684008"/>諸<anchor xml:id="end0684008"/>苾芻
+<lb n="0684c17" ed="T"/><p xml:id="pT17p0684c1701">吾從世尊聞如是語：「苾芻當知！若<anchor xml:id="nkr_note_orig_0684008" n="0684008"/><anchor xml:id="nkr_note_mod_0684008" n="0684008"/><anchor xml:id="beg0684008" n="0684008"/>諸<anchor xml:id="end0684008"/>苾芻
 <lb n="0684c18" ed="T"/>於言說時如理作意，出離尋思、無恚尋思、無
 <lb n="0684c19" ed="T"/>害尋思，如是苾芻，名多善者、無慢緩者。趣向
-<lb n="0684c20" ed="T"/>多善為方便故，於斷於離<anchor xml:id="nkr_note_orig_0684009" n="0684009"/><anchor xml:id="beg0684009" n="0684009"/>不<anchor xml:id="end0684009"/>捨善軛，離諸
+<lb n="0684c20" ed="T"/>多善為方便故，於斷於離<anchor xml:id="nkr_note_orig_0684009" n="0684009"/><anchor xml:id="nkr_note_mod_0684009" n="0684009"/><anchor xml:id="beg0684009" n="0684009"/>不<anchor xml:id="end0684009"/>捨善軛，離諸
 <lb n="0684c21" ed="T"/>放逸、勇猛精進，正念正知、心定無亂、密護諸
 <lb n="0684c22" ed="T"/>根，有出離見，能知出離、如實正慧，棄背惡魔、
 <lb n="0684c23" ed="T"/>惡不善法，摧伏惡魔、惡不善法，損減一切
 <lb n="0684c24" ed="T"/>惡不善法。若諸苾芻於宴默時如理作意，廣
 <lb n="0684c25" ed="T"/>說乃至損減一切惡不善法。如是苾芻，為
 <lb n="0684c26" ed="T"/>諸有智同梵行者之所稱讚，我亦於彼恒常
-<lb n="0684c27" ed="T"/>稱讚。如是<anchor xml:id="nkr_note_orig_0684010" n="0684010"/><anchor xml:id="beg0684010" n="0684010"/>苾芻<anchor xml:id="end0684010"/>，名真出家受具足戒，有大
+<lb n="0684c27" ed="T"/>稱讚。如是<anchor xml:id="nkr_note_orig_0684010" n="0684010"/><anchor xml:id="nkr_note_mod_0684010" n="0684010"/><anchor xml:id="beg0684010" n="0684010"/>苾芻<anchor xml:id="end0684010"/>，名真出家受具足戒，有大
 <lb n="0684c28" ed="T"/>智慧，不樂諸有，名不癡人。是故汝等應如
 <lb n="0684c29" ed="T"/>是學：我當云何方便修習如理作意，方便
 <pb n="0685a" ed="T" xml:id="T17.0765.0685a"/>
@@ -2299,13 +2299,13 @@ Added comment  for Emacs
 <lb n="0685b26" ed="T"/>其明，即有其焰。若無其焰，即無其明；若無其
 <lb n="0685b27" ed="T"/>明，即無其焰。業、壽亦爾。若有其業，即有其
 <lb n="0685b28" ed="T"/>壽；若有其壽，即有其業。若無其業，即無其壽；
-<lb n="0685b29" ed="T"/>若無其壽，即無其業。如是二<anchor xml:id="nkr_note_orig_0685001" n="0685001"/><anchor xml:id="beg0685001" n="0685001"/>法<anchor xml:id="end0685001"/>盡滅故死。」
+<lb n="0685b29" ed="T"/>若無其壽，即無其業。如是二<anchor xml:id="nkr_note_orig_0685001" n="0685001"/><anchor xml:id="nkr_note_mod_0685001" n="0685001"/><anchor xml:id="beg0685001" n="0685001"/>法<anchor xml:id="end0685001"/>盡滅故死。」
 <pb n="0685c" ed="T" xml:id="T17.0765.0685c"/>
-<lb n="0685c01" ed="T"/>爾時，世尊重攝此義而說<anchor xml:id="beg_1e" type="cb-app"/>頌<anchor xml:id="end_1e"/>曰：</p>
+<lb n="0685c01" ed="T"/>爾時，世尊重攝此義而說<anchor xml:id="nkr_note_add_0685c0101" n="0685c0101"/><anchor xml:id="beg0685c0101" n="0685c0101"/>頌<anchor xml:id="end0685c0101"/>曰：</p>
 <lb n="0685c02" ed="T"/><lg xml:id="lgT17p0685c0201" rend="margin-left:1em;text-indent:-1em"><l>「二法恒相隨，</l><l>謂業及與壽，</l>
 <lb n="0685c03" ed="T"/><l>業有壽亦有，</l><l>業無壽亦無。</l>
 <lb n="0685c04" ed="T"/><l>壽業未消亡，</l><l>有情終不死，</l>
-<lb n="0685c05" ed="T"/><l>壽<anchor xml:id="nkr_note_orig_0685002" n="0685002"/><anchor xml:id="beg0685002" n="0685002"/>業<anchor xml:id="end0685002"/>若盡滅，</l><l>含識死無疑。」</l></lg>
+<lb n="0685c05" ed="T"/><l>壽<anchor xml:id="nkr_note_orig_0685002" n="0685002"/><anchor xml:id="nkr_note_mod_0685002" n="0685002"/><anchor xml:id="beg0685002" n="0685002"/>業<anchor xml:id="end0685002"/>若盡滅，</l><l>含識死無疑。」</l></lg>
 <lb n="0685c06" ed="T"/><p xml:id="pT17p0685c0601">吾從世尊聞如是語：「苾芻當知！有二種行，世
 <lb n="0685c07" ed="T"/>間眾生皆共造作。云何為二？一者能感短壽
 <lb n="0685c08" ed="T"/>之行；二者能感長壽之行。云何能感短壽之
@@ -2325,7 +2325,7 @@ Added comment  for Emacs
 <lb n="0685c22" ed="T"/><l>常樂離殺生，</l><l>棄捨諸殺具，</l>
 <lb n="0685c23" ed="T"/><l>有慚羞慈愍，</l><l>感長壽無疑。」</l></lg>
 <lb n="0685c24" ed="T"/><p xml:id="pT17p0685c2401">吾從世尊聞如是語：「苾芻當知！由二行相應
-<lb n="0685c25" ed="T"/>取心相。云何為二？一者名為所緣行<anchor xml:id="nkr_note_orig_0685003" n="0685003"/><anchor xml:id="beg0685003" n="0685003"/>相<anchor xml:id="end0685003"/>；二
+<lb n="0685c25" ed="T"/>取心相。云何為二？一者名為所緣行<anchor xml:id="nkr_note_orig_0685003" n="0685003"/><anchor xml:id="nkr_note_mod_0685003" n="0685003"/><anchor xml:id="beg0685003" n="0685003"/>相<anchor xml:id="end0685003"/>；二
 <lb n="0685c26" ed="T"/>者名為作意行相。所有一切已取、現取、當取
 <lb n="0685c27" ed="T"/>心相，皆由如是二種行相。汝等苾芻由二
 <lb n="0685c28" ed="T"/>行相，應當正勤善取心相；取心相已，應善
@@ -2364,11 +2364,11 @@ Added comment  for Emacs
 <lb n="0686b01" ed="T"/><l>如是正安住，</l><l>能棄捨諸欲，</l>
 <lb n="0686b02" ed="T"/><l>於世八法中，</l><l>名善巧無染。」</l></lg>
 <lb n="0686b03" ed="T"/><p xml:id="pT17p0686b0301">吾從世尊聞如是語：「苾芻當知！有二種法，雖
-<lb n="0686b04" ed="T"/>共乖違未<anchor xml:id="nkr_note_orig_0686001" n="0686001"/><anchor xml:id="beg0686001" n="0686001"/>甞<anchor xml:id="end0686001"/>和合，然於其中無缺無間。云
+<lb n="0686b04" ed="T"/>共乖違未<anchor xml:id="nkr_note_orig_0686001" n="0686001"/><anchor xml:id="nkr_note_mod_0686001" n="0686001"/><anchor xml:id="beg0686001" n="0686001"/>甞<anchor xml:id="end0686001"/>和合，然於其中無缺無間。云
 <lb n="0686b05" ed="T"/>何為二？謂生與死。譬如世間光明、影闇，雖
-<lb n="0686b06" ed="T"/>共乖違未<anchor xml:id="beg_1f" type="star"/>甞<anchor xml:id="end_1f"/>和合，然於其中無缺無間。光
+<lb n="0686b06" ed="T"/>共乖違未<anchor xml:id="beg_12" type="star"/>甞<anchor xml:id="end_12"/>和合，然於其中無缺無間。光
 <lb n="0686b07" ed="T"/>明發時，影闇便沒；影闇起時，光明便謝。生、死
-<lb n="0686b08" ed="T"/>亦爾，恒共乖違未<anchor xml:id="beg_20" type="star"/>甞<anchor xml:id="end_20"/>和合，然於其中無缺
+<lb n="0686b08" ed="T"/>亦爾，恒共乖違未<anchor xml:id="beg_13" type="star"/>甞<anchor xml:id="end_13"/>和合，然於其中無缺
 <lb n="0686b09" ed="T"/>無間。生法有時，死法便沒；死法有時，生法便
 <lb n="0686b10" ed="T"/>謝。」爾時，世尊重攝此義而說頌曰：</p>
 <lb n="0686b11" ed="T"/><lg xml:id="lgT17p0686b1101" rend="margin-left:1em;text-indent:-1em"><l>「如光明、影闇，</l><l>雖恒共乖違，</l>
@@ -2391,7 +2391,7 @@ Added comment  for Emacs
 <lb n="0686b28" ed="T"/>好。由是因緣，於其眼根不能正念防守而
 <lb n="0686b29" ed="T"/>住，發起貪憂，便有無量惡不善法隨心流漏
 <pb n="0686c" ed="T" xml:id="T17.0765.0686c"/>
-<lb n="0686c01" ed="T"/>不可<anchor xml:id="nkr_note_orig_0686002" n="0686002"/><anchor xml:id="beg0686002" n="0686002"/>堰<anchor xml:id="end0686002"/>塞。於其眼根不能防守，縱蕩眼根
+<lb n="0686c01" ed="T"/>不可<anchor xml:id="nkr_note_orig_0686002" n="0686002"/><anchor xml:id="nkr_note_mod_0686002" n="0686002"/><anchor xml:id="beg0686002" n="0686002"/>堰<anchor xml:id="end0686002"/>塞。於其眼根不能防守，縱蕩眼根
 <lb n="0686c02" ed="T"/>行諸境界，貪著色味，纏擾其心。緣此貪故，受
 <lb n="0686c03" ed="T"/>長夜苦、受猛利苦、受匱乏苦，增血鑊身、增空
 <lb n="0686c04" ed="T"/>曠路，無量往返生那落迦、傍生、鬼界及阿素
@@ -2400,7 +2400,7 @@ Added comment  for Emacs
 <lb n="0686c07" ed="T"/>覺觸已、意了法已，執取其相、執取隨好。由是
 <lb n="0686c08" ed="T"/>因緣，於其意根不能正念防守而住，發生
 <lb n="0686c09" ed="T"/>貪憂，便有無量惡不善法隨心流漏不可
-<lb n="0686c10" ed="T"/><anchor xml:id="beg_21" type="star"/>堰<anchor xml:id="end_21"/>塞。於其意根不能防守，縱蕩意根行諸
+<lb n="0686c10" ed="T"/><anchor xml:id="beg_14" type="star"/>堰<anchor xml:id="end_14"/>塞。於其意根不能防守，縱蕩意根行諸
 <lb n="0686c11" ed="T"/>境界，貪著法味纏擾其心。緣此貪故，受長夜
 <lb n="0686c12" ed="T"/>苦、受猛利苦、受匱乏苦，增血鑊身、增空曠
 <lb n="0686c13" ed="T"/>路，無量往返生那落迦、傍生、鬼界及阿素洛、
@@ -2416,7 +2416,7 @@ Added comment  for Emacs
 <lb n="0686c23" ed="T"/>見：識即是我，識屬於我，識在我中，我在識
 <lb n="0686c24" ed="T"/>中。眼見色已，不執其相、不執隨好。由是因
 <lb n="0686c25" ed="T"/>緣，於其眼根善能正念防守而住，不起貪憂，
-<lb n="0686c26" ed="T"/>所有無量惡不善法隨心流漏皆能<anchor xml:id="beg_22" type="star"/>堰<anchor xml:id="end_22"/>塞。
+<lb n="0686c26" ed="T"/>所有無量惡不善法隨心流漏皆能<anchor xml:id="beg_15" type="star"/>堰<anchor xml:id="end_15"/>塞。
 <lb n="0686c27" ed="T"/>於其眼根善能防守，不縱眼根行諸境界、不
 <lb n="0686c28" ed="T"/>貪色味纏擾其心。不緣此貪，受長夜苦、受猛
 <lb n="0686c29" ed="T"/>利苦、受匱乏苦，增血鑊身、增空曠路，不復
@@ -2426,7 +2426,7 @@ Added comment  for Emacs
 <lb n="0687a03" ed="T"/>耳聞聲已、鼻嗅香已、舌甞味已、身覺觸已、意
 <lb n="0687a04" ed="T"/>了法已，不執其相、不執隨好。由是因緣，於其
 <lb n="0687a05" ed="T"/>意根善能正念防守而住，不起貪憂，所有無
-<lb n="0687a06" ed="T"/>量惡不善法隨心流漏皆能<anchor xml:id="nkr_note_orig_0687001" n="0687001"/><anchor xml:id="beg0687001" n="0687001"/>堰<anchor xml:id="end0687001"/>塞。於其意
+<lb n="0687a06" ed="T"/>量惡不善法隨心流漏皆能<anchor xml:id="nkr_note_orig_0687001" n="0687001"/><anchor xml:id="nkr_note_mod_0687001" n="0687001"/><anchor xml:id="beg0687001" n="0687001"/>堰<anchor xml:id="end0687001"/>塞。於其意
 <lb n="0687a07" ed="T"/>根善能防守，不縱意根行諸境界，不貪法
 <lb n="0687a08" ed="T"/>味纏擾其心。不緣此貪，受長夜苦、受猛利苦、
 <lb n="0687a09" ed="T"/>受匱乏苦，增血鑊身、增空曠路，不復往返生
@@ -2451,14 +2451,14 @@ Added comment  for Emacs
 <lb n="0687a28" ed="T"/>悉敗壞；身、語、意業皆敗壞故，其心即有擾濁、
 <lb n="0687a29" ed="T"/>垢穢。心有擾濁及垢穢者，能正了知自利樂
 <pb n="0687b" ed="T" xml:id="T17.0765.0687b"/>
-<lb n="0687b01" ed="T"/>事、<anchor xml:id="nkr_note_orig_0687003" n="0687003"/><anchor xml:id="beg0687003" n="0687003"/>他<anchor xml:id="end0687003"/>利樂事、俱利樂事，無有是處；能正了
+<lb n="0687b01" ed="T"/>事、<anchor xml:id="nkr_note_orig_0687003" n="0687003"/><anchor xml:id="nkr_note_mod_0687003" n="0687003"/><anchor xml:id="beg0687003" n="0687003"/>他<anchor xml:id="end0687003"/>利樂事、俱利樂事，無有是處；能正了
 <lb n="0687b02" ed="T"/>知善言說義、惡言說義，無有是處；能證一
 <lb n="0687b03" ed="T"/>切勝上人法真聖智見，亦無是處。所以者何？
 <lb n="0687b04" ed="T"/>心有擾濁及垢穢故。</p><p xml:id="pT17p0687b0409" rend="inline">「譬如世間所有臺觀，若
-<lb n="0687b05" ed="T"/>一中心<anchor xml:id="nkr_note_orig_0687004" n="0687004"/><anchor xml:id="beg0687004" n="0687004"/>不<anchor xml:id="end0687004"/>善覆<anchor xml:id="nkr_note_orig_0687005" n="0687005"/><anchor xml:id="beg0687005" n="0687005"/>蔽<anchor xml:id="end0687005"/>，則椽梁壁皆被淋漏，
+<lb n="0687b05" ed="T"/>一中心<anchor xml:id="nkr_note_orig_0687004" n="0687004"/><anchor xml:id="nkr_note_mod_0687004" n="0687004"/><anchor xml:id="beg0687004" n="0687004"/>不<anchor xml:id="end0687004"/>善覆<anchor xml:id="nkr_note_orig_0687005" n="0687005"/><anchor xml:id="nkr_note_mod_0687005" n="0687005"/><anchor xml:id="beg0687005" n="0687005"/>蔽<anchor xml:id="end0687005"/>，則椽梁壁皆被淋漏，
 <lb n="0687b06" ed="T"/>以椽梁壁被淋漏故，皆悉敗壞。又如世間隣
 <lb n="0687b07" ed="T"/>近村邑、聚落池沼，擾濁、垢穢，有明眼人住
-<lb n="0687b08" ed="T"/><anchor xml:id="nkr_note_orig_0687006" n="0687006"/><anchor xml:id="beg0687006" n="0687006"/>其<anchor xml:id="end0687006"/>岸上，作意觀察，其中所有螺、蛤、龜、魚、礫
+<lb n="0687b08" ed="T"/><anchor xml:id="nkr_note_orig_0687006" n="0687006"/><anchor xml:id="nkr_note_mod_0687006" n="0687006"/><anchor xml:id="beg0687006" n="0687006"/>其<anchor xml:id="end0687006"/>岸上，作意觀察，其中所有螺、蛤、龜、魚、礫
 <lb n="0687b09" ed="T"/>石等類，行住普側，極難可見。所以者何？水有
 <lb n="0687b10" ed="T"/>擾濁及垢穢故。如是眾生，若有於心不能守
 <lb n="0687b11" ed="T"/>護，則不能護身、語、意業；若不能護身、語、意業，
@@ -2472,11 +2472,11 @@ Added comment  for Emacs
 <lb n="0687b19" ed="T"/>護身、語、意業，是人即為身、語、意業皆不敗壞；
 <lb n="0687b20" ed="T"/>身、語、意業不敗壞故，其心即無擾濁、垢穢。心
 <lb n="0687b21" ed="T"/>無擾濁及垢穢者，能正了知自利樂事、他利
-<lb n="0687b22" ed="T"/>樂事、俱利樂事，<anchor xml:id="beg_23" type="cb-app"/>斯<anchor xml:id="end_23"/>有是處；能正了知善言說
+<lb n="0687b22" ed="T"/>樂事、俱利樂事，<anchor xml:id="nkr_note_add_0687b2201" n="0687b2201"/><anchor xml:id="beg0687b2201" n="0687b2201"/>斯<anchor xml:id="end0687b2201"/>有是處；能正了知善言說
 <lb n="0687b23" ed="T"/>義、惡言說義，斯有是處；能證一切勝上人法
 <lb n="0687b24" ed="T"/>真聖智見，斯有是處。所以者何？心無擾濁及
 <lb n="0687b25" ed="T"/>垢穢故。</p><p xml:id="pT17p0687b2504" rend="inline">「譬如世間所有臺觀，若一中心極善
-<lb n="0687b26" ed="T"/>覆<anchor xml:id="beg_24" type="star"/>蔽<anchor xml:id="end_24"/>，則椽梁壁皆無淋漏；以椽梁壁無淋
+<lb n="0687b26" ed="T"/>覆<anchor xml:id="beg_16" type="star"/>蔽<anchor xml:id="end_16"/>，則椽梁壁皆無淋漏；以椽梁壁無淋
 <lb n="0687b27" ed="T"/>漏故，皆不敗壞。又如世間遠離村邑、聚落池
 <lb n="0687b28" ed="T"/>沼，無有擾濁及諸垢穢，有明眼人住其岸上，
 <lb n="0687b29" ed="T"/>作意觀察，其中所有螺、蛤、龜、魚、礫石等類，
@@ -2490,7 +2490,7 @@ Added comment  for Emacs
 <lb n="0687c07" ed="T"/>有是處；能正了知善言說義、惡言說義，斯
 <lb n="0687c08" ed="T"/>有是處；能證一切勝上人法真聖智見，斯有
 <lb n="0687c09" ed="T"/>是處。所以者何？<anchor xml:id="nkr_note_orig_0687007" n="0687007"/><anchor xml:id="nkr_note_mod_0687007" n="0687007"/><anchor xml:id="beg0687007" n="0687007"/>心<anchor xml:id="end0687007"/>無擾濁及垢穢故。</p><p xml:id="pT17p0687c0915" rend="inline">「苾芻
-<lb n="0687c10" ed="T"/>當<anchor xml:id="nkr_note_orig_0687008" n="0687008"/><anchor xml:id="beg0687008" n="0687008"/>知<anchor xml:id="end0687008"/>！心雜染故，有情雜染；心清淨故，有情
+<lb n="0687c10" ed="T"/>當<anchor xml:id="nkr_note_orig_0687008" n="0687008"/><anchor xml:id="nkr_note_mod_0687008" n="0687008"/><anchor xml:id="beg0687008" n="0687008"/>知<anchor xml:id="end0687008"/>！心雜染故，有情雜染；心清淨故，有情
 <lb n="0687c11" ed="T"/>清淨。是故雜染、清淨二法，皆依止心，從心所
 <lb n="0687c12" ed="T"/>起。」爾時，世尊重攝此義而說頌曰：</p>
 <lb n="0687c13" ed="T"/><lg xml:id="lgT17p0687c1301" rend="margin-left:1em;text-indent:-1em"><l>「若不護於心，</l><l>隨順於諸欲，</l>
@@ -2535,7 +2535,7 @@ Added comment  for Emacs
 <lb n="0688a22" ed="T"/>未得、能觸未觸、能證未證、能超愁歎、能滅憂
 <lb n="0688a23" ed="T"/>苦、能得如理、能觸甘露、能證涅槃。云何為
 <lb n="0688a24" ed="T"/>二？所謂一切世間正見、出世正見。</p><p xml:id="pT17p0688a2414" rend="inline">「云何名為
-<lb n="0688a25" ed="T"/>世間正見？謂<anchor xml:id="nkr_note_orig_0688002" n="0688002"/><anchor xml:id="beg0688002" n="0688002"/>有<anchor xml:id="end0688002"/>一類起如是見，立如是論：
+<lb n="0688a25" ed="T"/>世間正見？謂<anchor xml:id="nkr_note_orig_0688002" n="0688002"/><anchor xml:id="nkr_note_mod_0688002" n="0688002"/><anchor xml:id="beg0688002" n="0688002"/>有<anchor xml:id="end0688002"/>一類起如是見，立如是論：
 <lb n="0688a26" ed="T"/>決定有施，有受有祠，有善惡業，有異熟果，有
 <lb n="0688a27" ed="T"/>此世間，有彼世間，有父有母，有諸有情化
 <lb n="0688a28" ed="T"/>生種類於其世間，有諸沙門、婆羅門等，正
@@ -2548,7 +2548,7 @@ Added comment  for Emacs
 <lb n="0688b05" ed="T"/>知：依此所說世間正見，不令眾生畢竟解脫
 <lb n="0688b06" ed="T"/>生老病死、愁歎憂苦熱惱等法。所以者何？如
 <lb n="0688b07" ed="T"/>是所說世間正見，非真聖見、非出離見、非
-<lb n="0688b08" ed="T"/>能<anchor xml:id="nkr_note_orig_0688004" n="0688004"/><anchor xml:id="beg0688004" n="0688004"/>究<anchor xml:id="end0688004"/>竟證涅槃見，非厭、非離，非滅、非靜，不
+<lb n="0688b08" ed="T"/>能<anchor xml:id="nkr_note_orig_0688004" n="0688004"/><anchor xml:id="nkr_note_mod_0688004" n="0688004"/><anchor xml:id="beg0688004" n="0688004"/>究<anchor xml:id="end0688004"/>竟證涅槃見，非厭、非離，非滅、非靜，不
 <lb n="0688b09" ed="T"/>證通慧，非成等覺、非得涅槃，而能感得生老
 <lb n="0688b10" ed="T"/>病死、愁歎憂苦熱惱等法。如是知已，於世間
 <lb n="0688b11" ed="T"/>法生怖畏想，於出世法生安靜想。以於世間
@@ -2561,15 +2561,15 @@ Added comment  for Emacs
 <lb n="0688b18" ed="T"/>如是名為出世正見。</p><p xml:id="pT17p0688b1809" rend="inline">「諸聖弟子於此所說出
 <lb n="0688b19" ed="T"/>世正見，應諦尋思、稱量、觀察：依此所說出世
 <lb n="0688b20" ed="T"/>正見，能令眾生畢竟解脫生老病死、愁歎憂
-<lb n="0688b21" ed="T"/>苦熱惱<anchor xml:id="beg_25" type="star"/>等<anchor xml:id="end_25"/>法不？諦觀察已，便正了知：依此
-<lb n="0688b22" ed="T"/>所說出世正見，能<anchor xml:id="nkr_note_orig_0688005" n="0688005"/><anchor xml:id="beg0688005" n="0688005"/>令<anchor xml:id="end0688005"/>眾生畢竟解脫生老病
+<lb n="0688b21" ed="T"/>苦熱惱<anchor xml:id="beg_17" type="star"/>等<anchor xml:id="end_17"/>法不？諦觀察已，便正了知：依此
+<lb n="0688b22" ed="T"/>所說出世正見，能<anchor xml:id="nkr_note_orig_0688005" n="0688005"/><anchor xml:id="nkr_note_mod_0688005" n="0688005"/><anchor xml:id="beg0688005" n="0688005"/>令<anchor xml:id="end0688005"/>眾生畢竟解脫生老病
 <lb n="0688b23" ed="T"/>死、愁歎憂苦熱惱等法。所以者何？如是所說
 <lb n="0688b24" ed="T"/>出世正見，是真聖見、是出離見、是能究竟證
 <lb n="0688b25" ed="T"/>涅槃見，能厭、能離，能滅、能靜，能證通慧、能成
 <lb n="0688b26" ed="T"/>等覺、能得涅槃，能超一切生老病死、愁歎憂
 <lb n="0688b27" ed="T"/>苦熱惱等法。如是知已，於出世法生珍寶
 <lb n="0688b28" ed="T"/>想，於世間法生下賤想。於出世法生珍寶想
-<lb n="0688b29" ed="T"/>故，便生歡喜；<anchor xml:id="nkr_note_orig_0688006" n="0688006"/><anchor xml:id="beg0688006" n="0688006"/>生歡喜<anchor xml:id="end0688006"/>故，其心安適；心安適
+<lb n="0688b29" ed="T"/>故，便生歡喜；<anchor xml:id="nkr_note_orig_0688006" n="0688006"/><anchor xml:id="nkr_note_mod_0688006" n="0688006"/><anchor xml:id="beg0688006" n="0688006"/>生歡喜<anchor xml:id="end0688006"/>故，其心安適；心安適
 <pb n="0688c" ed="T" xml:id="T17.0765.0688c"/>
 <lb n="0688c01" ed="T"/>故，身得輕安；身輕安故，便受悅樂；受悅樂
 <lb n="0688c02" ed="T"/>故，心得寂定；心寂定故，能實知見；實知見
@@ -2584,11 +2584,11 @@ Added comment  for Emacs
 <lb n="0688c11" ed="T"/><lg xml:id="lgT17p0688c1101" rend="margin-left:1em;text-indent:-1em"><l>「正見有二種，</l><l>世間、出世間，</l>
 <lb n="0688c12" ed="T"/><l>智者諦尋思，</l><l>能正盡眾苦。</l>
 <lb n="0688c13" ed="T"/><l>諦思於世間，</l><l>便生怖畏想，</l>
-<lb n="0688c14" ed="T"/><l>由無<anchor xml:id="nkr_note_orig_0688007" n="0688007"/><anchor xml:id="beg0688007" n="0688007"/>執<anchor xml:id="end0688007"/>受等，</l><l>究竟證涅槃。</l>
+<lb n="0688c14" ed="T"/><l>由無<anchor xml:id="nkr_note_orig_0688007" n="0688007"/><anchor xml:id="nkr_note_mod_0688007" n="0688007"/><anchor xml:id="beg0688007" n="0688007"/>執<anchor xml:id="end0688007"/>受等，</l><l>究竟證涅槃。</l>
 <lb n="0688c15" ed="T"/><l>諦思出世間，</l><l>便生珍寶想，</l>
 <lb n="0688c16" ed="T"/><l>歡喜心安適，</l><l>從此獲輕安；</l>
 <lb n="0688c17" ed="T"/><l>輕安故受樂，</l><l>樂故心寂定，</l>
-<lb n="0688c18" ed="T"/><l>心定生覺支，</l><l>知見<anchor xml:id="nkr_note_orig_0688008" n="0688008"/><anchor xml:id="beg0688008" n="0688008"/>四如實<anchor xml:id="end0688008"/>；</l>
+<lb n="0688c18" ed="T"/><l>心定生覺支，</l><l>知見<anchor xml:id="nkr_note_orig_0688008" n="0688008"/><anchor xml:id="nkr_note_mod_0688008" n="0688008"/><anchor xml:id="beg0688008" n="0688008"/>四如實<anchor xml:id="end0688008"/>；</l>
 <lb n="0688c19" ed="T"/><l>見實斷諸疑，</l><l>疑除無所取，</l>
 <lb n="0688c20" ed="T"/><l><anchor xml:id="nkr_note_orig_0688009" n="0688009"/><anchor xml:id="nkr_note_mod_0688009" n="0688009"/><anchor xml:id="beg0688009" n="0688009"/>解<anchor xml:id="end0688009"/>脫一切苦，</l><l>證無上涅槃。」</l></lg>
 <lb n="0688c21" ed="T"/><p xml:id="pT17p0688c2101">重攝前經嗢<anchor xml:id="nkr_note_orig_0688010" n="0688010"/><anchor xml:id="nkr_note_mod_0688010" n="0688010"/><anchor xml:id="beg0688010" n="0688010"/>拕<anchor xml:id="end0688010"/>南曰：</p>
@@ -2601,7 +2601,7 @@ Added comment  for Emacs
 <lb n="0689a02" ed="T"/><cb:juan n="006" fun="open"><cb:mulu n="006" type="卷"></cb:mulu><cb:jhead><title>本事經</title>卷第六</cb:jhead></cb:juan>
 <lb n="0689a03" ed="T"/>
 <lb n="0689a04" ed="T"/><byline cb:type="Translator"><anchor xml:id="fxT17p0689a01"/>大唐三藏法師玄奘奉　<anchor xml:id="fxT17p0689a02"/>詔譯</byline>
-<lb n="0689a05" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="6" type="品">3 三法品(六-七)</cb:mulu><cb:mulu level="2">1</cb:mulu><head>三法品第三<anchor xml:id="nkr_note_orig_0689001" n="0689001"/><anchor xml:id="beg0689001" n="0689001"/>之一<anchor xml:id="end0689001"/></head>
+<lb n="0689a05" ed="T"/><cb:div type="pin"><cb:mulu level="1" n="6" type="品">3 三法品(六-七)</cb:mulu><cb:mulu level="2">1</cb:mulu><head>三法品第三<anchor xml:id="nkr_note_orig_0689001" n="0689001"/><anchor xml:id="nkr_note_mod_0689001" n="0689001"/><anchor xml:id="beg0689001" n="0689001"/>之一<anchor xml:id="end0689001"/></head>
 <lb n="0689a06" ed="T"/><p xml:id="pT17p0689a0601">吾從世尊聞如是語：「苾芻當知！諸有情界互
 <lb n="0689a07" ed="T"/>相親近不相乖違：諸劣勝解種類有情與
 <lb n="0689a08" ed="T"/>劣勝解種類有情，更相親近參染承事；諸妙
@@ -2625,17 +2625,17 @@ Added comment  for Emacs
 <lb n="0689a26" ed="T"/>行。大目乾連與其同類，有無量人，恒集同
 <lb n="0689a27" ed="T"/>修大神通行。拘瑟祉羅與其同類，有無量人，
 <lb n="0689a28" ed="T"/>恒集同修無礙解行。其滿慈子與其同類，
-<lb n="0689a29" ed="T"/>有無量人，恒集同修說正法行。迦多<anchor xml:id="nkr_note_orig_0689002" n="0689002"/><anchor xml:id="beg0689002" n="0689002"/>衍<anchor xml:id="end0689002"/>那
+<lb n="0689a29" ed="T"/>有無量人，恒集同修說正法行。迦多<anchor xml:id="nkr_note_orig_0689002" n="0689002"/><anchor xml:id="nkr_note_mod_0689002" n="0689002"/><anchor xml:id="beg0689002" n="0689002"/>衍<anchor xml:id="end0689002"/>那
 <pb n="0689b" ed="T" xml:id="T17.0765.0689b"/>
-<lb n="0689b01" ed="T"/>與其同類，有無量人，恒集同修<anchor xml:id="nkr_note_orig_0689003" n="0689003"/><anchor xml:id="beg0689003" n="0689003"/>辯<anchor xml:id="end0689003"/>釋經行。
+<lb n="0689b01" ed="T"/>與其同類，有無量人，恒集同修<anchor xml:id="nkr_note_orig_0689003" n="0689003"/><anchor xml:id="nkr_note_mod_0689003" n="0689003"/><anchor xml:id="beg0689003" n="0689003"/>辯<anchor xml:id="end0689003"/>釋經行。
 <lb n="0689b02" ed="T"/>尊者善現與其同類，有無量人，恒集同修無
 <lb n="0689b03" ed="T"/>諍住行。纈麗伐多與其同類，有無量人，恒集
-<lb n="0689b04" ed="T"/>同修諸靜慮行。其優波離與其<anchor xml:id="nkr_note_orig_0689004" n="0689004"/><anchor xml:id="beg0689004" n="0689004"/>同類<anchor xml:id="end0689004"/>，有無
+<lb n="0689b04" ed="T"/>同修諸靜慮行。其優波離與其<anchor xml:id="nkr_note_orig_0689004" n="0689004"/><anchor xml:id="nkr_note_mod_0689004" n="0689004"/><anchor xml:id="beg0689004" n="0689004"/>同類<anchor xml:id="end0689004"/>，有無
 <lb n="0689b05" ed="T"/>量人，恒集同修持律之行。物力士子與其同
 <lb n="0689b06" ed="T"/>類，有無量人，恒集同修為僧敷設臥具等行。
-<lb n="0689b07" ed="T"/>尊者不滅與其同類，有無量人，恒<anchor xml:id="nkr_note_orig_0689005" n="0689005"/><anchor xml:id="beg0689005" n="0689005"/>同修集<anchor xml:id="end0689005"/>
+<lb n="0689b07" ed="T"/>尊者不滅與其同類，有無量人，恒<anchor xml:id="nkr_note_orig_0689005" n="0689005"/><anchor xml:id="nkr_note_mod_0689005" n="0689005"/><anchor xml:id="beg0689005" n="0689005"/>同修集<anchor xml:id="end0689005"/>
 <lb n="0689b08" ed="T"/>淨天眼行。尊者阿難與其同類，有無量人，
-<lb n="0689b09" ed="T"/>恒集同<anchor xml:id="beg_26" type="cb-app"/>修<anchor xml:id="end_26"/>樂多聞行。其羅怙羅與其同類，
+<lb n="0689b09" ed="T"/>恒集同<anchor xml:id="nkr_note_add_0689b0901" n="0689b0901"/><anchor xml:id="beg0689b0901" n="0689b0901"/>修<anchor xml:id="end0689b0901"/>樂多聞行。其羅怙羅與其同類，
 <lb n="0689b10" ed="T"/>有無量人，恒集同修樂持戒行。童子迦葉與
 <lb n="0689b11" ed="T"/>其同類，有無量人，恒集同修巧辯說行。其
 <lb n="0689b12" ed="T"/>劫<anchor xml:id="nkr_note_orig_0689006" n="0689006"/><anchor xml:id="nkr_note_mod_0689006" n="0689006"/><anchor xml:id="beg0689006" n="0689006"/>比<anchor xml:id="end0689006"/>拏與其同類，有無量人，恒集同修教
@@ -2657,13 +2657,13 @@ Added comment  for Emacs
 <lb n="0689b28" ed="T"/><l>親近怠慢者，</l><l>定失智光明；</l>
 <lb n="0689b29" ed="T"/><l>故應捨怠慢，</l><l>樂栖止空閑，</l>
 <pb n="0689c" ed="T" xml:id="T17.0765.0689c"/>
-<lb n="0689c01" ed="T"/><l>親近有智人，</l><l>速能<anchor xml:id="nkr_note_orig_0689008" n="0689008"/><anchor xml:id="beg0689008" n="0689008"/>殄<anchor xml:id="end0689008"/>眾苦。」</l></lg>
+<lb n="0689c01" ed="T"/><l>親近有智人，</l><l>速能<anchor xml:id="nkr_note_orig_0689008" n="0689008"/><anchor xml:id="nkr_note_mod_0689008" n="0689008"/><anchor xml:id="beg0689008" n="0689008"/>殄<anchor xml:id="end0689008"/>眾苦。」</l></lg>
 <lb n="0689c02" ed="T"/><p xml:id="pT17p0689c0201">吾從世尊聞如是語：「苾芻當知！三因、三緣，能
 <lb n="0689c03" ed="T"/>感後有。云何為三？所謂無明未永斷故，愛未
 <lb n="0689c04" ed="T"/>棄故，業未息故。由是因緣，能感後有。所以者
 <lb n="0689c05" ed="T"/>何？業為良田，識為種子，愛為溉灌，無明、無
 <lb n="0689c06" ed="T"/>智、無了、無見之所覆蔽，識便安住欲有、色有、
-<lb n="0689c07" ed="T"/>無色有處，欲<anchor xml:id="nkr_note_orig_0689009" n="0689009"/><anchor xml:id="beg0689009" n="0689009"/>最<anchor xml:id="end0689009"/>為下，色為其中，無色為妙。</p>
+<lb n="0689c07" ed="T"/>無色有處，欲<anchor xml:id="nkr_note_orig_0689009" n="0689009"/><anchor xml:id="nkr_note_mod_0689009" n="0689009"/><anchor xml:id="beg0689009" n="0689009"/>最<anchor xml:id="end0689009"/>為下，色為其中，無色為妙。</p>
 <lb n="0689c08" ed="T"/><p xml:id="pT17p0689c0801">「若欲界業，感異熟果不現在前，不可施設此
 <lb n="0689c09" ed="T"/>為欲有。由欲界業，感異熟果正現在前，故可
 <lb n="0689c10" ed="T"/>施設此為欲有。當於爾時，業為良田，識為種
@@ -2687,7 +2687,7 @@ Added comment  for Emacs
 <lb n="0689c28" ed="T"/>住最初靜慮。能以正慧如實隨觀，其中諸
 <lb n="0689c29" ed="T"/>色、受、想、行、識，如是法性皆是無常，皆是其
 <pb n="0690a" ed="T" xml:id="T17.0765.0690a"/>
-<lb n="0690a01" ed="T"/>苦，如病如癰、如中毒箭，有惱有害、有怖<anchor xml:id="nkr_note_orig_0690001" n="0690001"/><anchor xml:id="beg0690001" n="0690001"/>有
+<lb n="0690a01" ed="T"/>苦，如病如癰、如中毒箭，有惱有害、有怖<anchor xml:id="nkr_note_orig_0690001" n="0690001"/><anchor xml:id="nkr_note_mod_0690001" n="0690001"/><anchor xml:id="beg0690001" n="0690001"/>有
 <lb n="0690a02" ed="T"/>猜<anchor xml:id="end0690001"/>、有怨有敵，迅速敗壞，多諸疾疫、多諸災
 <lb n="0690a03" ed="T"/>橫，虛偽不實、離散無我、不可保信。如是汝
 <lb n="0690a04" ed="T"/>等，應以正慧如實隨觀，出離欲有。</p><p xml:id="pT17p0690a0414" rend="inline">「云何汝等，
@@ -2711,7 +2711,7 @@ Added comment  for Emacs
 <lb n="0690a22" ed="T"/><lg xml:id="lgT17p0690a2201" rend="margin-left:1em;text-indent:-1em"><l>「以正慧隨觀，</l><l>三界出離相，</l>
 <lb n="0690a23" ed="T"/><l>能止息諸行，</l><l>得最上涅槃。</l>
 <lb n="0690a24" ed="T"/><l>已解脫諸漏，</l><l>善修習瑜伽，</l>
-<lb n="0690a25" ed="T"/><l>任持最後<anchor xml:id="nkr_note_orig_0690002" n="0690002"/><anchor xml:id="beg0690002" n="0690002"/>身<anchor xml:id="end0690002"/>，</l><l>降伏魔所使。」</l></lg>
+<lb n="0690a25" ed="T"/><l>任持最後<anchor xml:id="nkr_note_orig_0690002" n="0690002"/><anchor xml:id="nkr_note_mod_0690002" n="0690002"/><anchor xml:id="beg0690002" n="0690002"/>身<anchor xml:id="end0690002"/>，</l><l>降伏魔所使。」</l></lg>
 <lb n="0690a26" ed="T"/><p xml:id="pT17p0690a2601">吾從世尊聞如是語：「苾芻當知！三因、三緣，令
 <lb n="0690a27" ed="T"/>諸有情希求利養，生多過患。云何為三？一者
 <lb n="0690a28" ed="T"/>貪欲為因、為緣，令諸有情希求利養，生多過
@@ -2721,7 +2721,7 @@ Added comment  for Emacs
 <lb n="0690b02" ed="T"/>令諸有情希求利養，生多過患。汝等苾芻，
 <lb n="0690b03" ed="T"/>不應起此三因、三緣，希求利養生多過患。</p><p xml:id="pT17p0690b0317" rend="inline">「有
 <lb n="0690b04" ed="T"/>諸苾芻，具此所說三因、三緣，往施主家求
-<lb n="0690b05" ed="T"/>勝利養，或時其家，<anchor xml:id="beg_27" type="cb-app"/>怱<anchor xml:id="end_27"/>遽無賴，見已慼然，默不
+<lb n="0690b05" ed="T"/>勝利養，或時其家，<anchor xml:id="nkr_note_add_0690b0501" n="0690b0501"/><anchor xml:id="beg0690b0501" n="0690b0501"/>怱<anchor xml:id="end0690b0501"/>遽無賴，見已慼然，默不
 <lb n="0690b06" ed="T"/>敬問，不起承迎、不延就座、不共談論。彼見此
 <lb n="0690b07" ed="T"/>相，便起念言：『此施主家，恒相敬待，誰所詭
 <lb n="0690b08" ed="T"/>侫，頓使其然？』由此因緣，便於彼所，不忍、不
@@ -2779,7 +2779,7 @@ Added comment  for Emacs
 <pb n="0691a" ed="T" xml:id="T17.0765.0691a"/>
 <lb n="0691a01" ed="T"/>我亦是真沙門釋子。』如世有驢隨牛群後，高
 <lb n="0691a02" ed="T"/>聲唱言：『我亦是牛，宜相顧待。』然此驢身、頭、
-<lb n="0691a03" ed="T"/>耳、蹄、喙、毛、<anchor xml:id="nkr_note_orig_0691001" n="0691001"/><anchor xml:id="beg0691001" n="0691001"/>色<anchor xml:id="end0691001"/>、音聲皆與牛別，而隨牛後，高
+<lb n="0691a03" ed="T"/>耳、蹄、喙、毛、<anchor xml:id="nkr_note_orig_0691001" n="0691001"/><anchor xml:id="nkr_note_mod_0691001" n="0691001"/><anchor xml:id="beg0691001" n="0691001"/>色<anchor xml:id="end0691001"/>、音聲皆與牛別，而隨牛後，高
 <lb n="0691a04" ed="T"/>聲唱言：『我亦是牛，宜相顧待。』如是一類諸惡
 <lb n="0691a05" ed="T"/>苾芻，實無其德而隨僧眾，唱如是言：『具壽
 <lb n="0691a06" ed="T"/>當知，我亦是真沙門釋子。』然此一類諸惡苾
@@ -2816,7 +2816,7 @@ Added comment  for Emacs
 <lb n="0691b07" ed="T"/>已生諸漏令永盡滅。」爾時，世尊重攝此義而
 <lb n="0691b08" ed="T"/>說頌曰：</p>
 <lb n="0691b09" ed="T"/><lg xml:id="lgT17p0691b0901" rend="margin-left:1em;text-indent:-1em"><l>「戒、心、慧學三，</l><l>智者應修學，</l>
-<lb n="0691b10" ed="T"/><l>勤精進常<anchor xml:id="nkr_note_orig_0691002" n="0691002"/><anchor xml:id="beg0691002" n="0691002"/>安<anchor xml:id="end0691002"/>，</l><l>密禁守諸根；</l>
+<lb n="0691b10" ed="T"/><l>勤精進常<anchor xml:id="nkr_note_orig_0691002" n="0691002"/><anchor xml:id="nkr_note_mod_0691002" n="0691002"/><anchor xml:id="beg0691002" n="0691002"/>安<anchor xml:id="end0691002"/>，</l><l>密禁守諸根；</l>
 <lb n="0691b11" ed="T"/><l>晝夜處空閑，</l><l>絕世諸緣務，</l>
 <lb n="0691b12" ed="T"/><l>勤修戒心慧，</l><l>如救自頭燃；</l>
 <lb n="0691b13" ed="T"/><l>名學聖學處，</l><l>至所學後邊，</l>
@@ -2839,7 +2839,7 @@ Added comment  for Emacs
 <pb n="0691c" ed="T" xml:id="T17.0765.0691c"/>
 <lb n="0691c01" ed="T"/>尊重等持，定為增上；不重般若，慧非增上。彼
 <lb n="0691c02" ed="T"/>於少小所學戒中，微有所犯即能出離。所以
-<lb n="0691c03" ed="T"/>者何？我說彼人終不毀犯所制學處不<anchor xml:id="nkr_note_orig_0691005" n="0691005"/><anchor xml:id="beg0691005" n="0691005"/>深<anchor xml:id="end0691005"/>
+<lb n="0691c03" ed="T"/>者何？我說彼人終不毀犯所制學處不<anchor xml:id="nkr_note_orig_0691005" n="0691005"/><anchor xml:id="nkr_note_mod_0691005" n="0691005"/><anchor xml:id="beg0691005" n="0691005"/>深<anchor xml:id="end0691005"/>
 <lb n="0691c04" ed="T"/>慚愧，定能隨順清淨梵行、定能成辦清淨梵
 <lb n="0691c05" ed="T"/>行，於諸學處，能住等持，能住所學。彼定能
 <lb n="0691c06" ed="T"/>盡五下分結，證不還果，得不還<anchor xml:id="nkr_note_orig_0691006" n="0691006"/><anchor xml:id="nkr_note_mod_0691006" n="0691006"/><anchor xml:id="beg0691006" n="0691006"/>法<anchor xml:id="end0691006"/>，當受
@@ -2848,7 +2848,7 @@ Added comment  for Emacs
 <lb n="0691c09" ed="T"/>羅，戒為增上；尊重等持，定為增上；尊重般若，
 <lb n="0691c10" ed="T"/>慧為增上，彼於少小所學戒中，微有所犯即
 <lb n="0691c11" ed="T"/>能出離。所以者何？我說彼人終不毀犯所制
-<lb n="0691c12" ed="T"/>學處不<anchor xml:id="beg_28" type="star"/>深<anchor xml:id="end_28"/>慚愧，定能隨順清淨梵行、定能
+<lb n="0691c12" ed="T"/>學處不<anchor xml:id="beg_18" type="star"/>深<anchor xml:id="end_18"/>慚愧，定能隨順清淨梵行、定能
 <lb n="0691c13" ed="T"/>成辦清淨梵行，於諸學處，能住般若，能住所
 <lb n="0691c14" ed="T"/>學。彼人定能永盡諸漏，得真無漏，心善解脫，
 <lb n="0691c15" ed="T"/>慧善解脫，於現法中具足安住，自證通慧，能
@@ -2874,7 +2874,7 @@ Added comment  for Emacs
 <lb n="0692a05" ed="T"/>重尸羅，戒為增上；不重等持，定非增上；不重
 <lb n="0692a06" ed="T"/>般若，慧非增上。彼於少小所學戒中，微有所
 <lb n="0692a07" ed="T"/>犯即能出離。所以者何？我說彼人終不毀犯
-<lb n="0692a08" ed="T"/>所制學處不<anchor xml:id="beg_29" type="star"/>深<anchor xml:id="end_29"/>慚愧，定能隨順清淨梵行、
+<lb n="0692a08" ed="T"/>所制學處不<anchor xml:id="beg_19" type="star"/>深<anchor xml:id="end_19"/>慚愧，定能隨順清淨梵行、
 <lb n="0692a09" ed="T"/>定能成辦清淨梵行，於諸學處，能住尸羅，能
 <lb n="0692a10" ed="T"/>住所學。彼人定能永盡三結，證預流果，得無
 <lb n="0692a11" ed="T"/>墮法，定趣菩提，極於七返人天往來，盡諸苦
@@ -2883,8 +2883,8 @@ Added comment  for Emacs
 <lb n="0692a14" ed="T"/>等名為增上心學？謂諸苾芻尊重尸羅，戒為
 <lb n="0692a15" ed="T"/>增上；尊重等持，定為增上；不重般若，慧非增
 <lb n="0692a16" ed="T"/>上。彼於少小所學戒中，微有所犯即能出離。
-<lb n="0692a17" ed="T"/>所以者何？我說彼人終不毀犯所<anchor xml:id="beg_2a" type="cb-app"/>制<anchor xml:id="end_2a"/>學處不
-<lb n="0692a18" ed="T"/><anchor xml:id="beg_2b" type="star"/>深<anchor xml:id="end_2b"/>慚愧，定能隨順清淨梵行、定能成辦清淨
+<lb n="0692a17" ed="T"/>所以者何？我說彼人終不毀犯所<anchor xml:id="nkr_note_add_0692a1701" n="0692a1701"/><anchor xml:id="beg0692a1701" n="0692a1701"/>制<anchor xml:id="end0692a1701"/>學處不
+<lb n="0692a18" ed="T"/><anchor xml:id="beg_1a" type="star"/>深<anchor xml:id="end_1a"/>慚愧，定能隨順清淨梵行、定能成辦清淨
 <lb n="0692a19" ed="T"/>梵行，於諸學處，能住等持，能住所學。彼定能
 <lb n="0692a20" ed="T"/>盡五下分結，證不還果，得不還法，當受化生，
 <lb n="0692a21" ed="T"/>於彼世間當般涅槃，如是名為增上心學。</p>
@@ -2892,7 +2892,7 @@ Added comment  for Emacs
 <lb n="0692a23" ed="T"/>為增上；尊重等持，定為增上；尊重般若，慧為
 <lb n="0692a24" ed="T"/>增上。彼於少小所學戒中，微有所犯即能出
 <lb n="0692a25" ed="T"/>離。所以者何？我說彼人終不毀犯所制學處
-<lb n="0692a26" ed="T"/>不<anchor xml:id="beg_2c" type="star"/>深<anchor xml:id="end_2c"/>慚愧，定能隨順清淨梵行、定能成辦
+<lb n="0692a26" ed="T"/>不<anchor xml:id="beg_1b" type="star"/>深<anchor xml:id="end_1b"/>慚愧，定能隨順清淨梵行、定能成辦
 <lb n="0692a27" ed="T"/>清淨梵行，於諸學處，能住般若，能住所學。彼
 <lb n="0692a28" ed="T"/>人定能永盡諸漏，得真無漏，心善解脫，慧
 <lb n="0692a29" ed="T"/>善解脫，於現法中具足安住，自證通慧，能
@@ -2916,7 +2916,7 @@ Added comment  for Emacs
 <lb n="0692b17" ed="T"/>重尸羅，戒為增上；不重等持，定非增上；不重
 <lb n="0692b18" ed="T"/>般若，慧非增上。彼於少小所學戒中，微有所
 <lb n="0692b19" ed="T"/>犯即能出離。所以者何？我說彼人終不毀犯
-<lb n="0692b20" ed="T"/>所制學處不<anchor xml:id="beg_2d" type="star"/>深<anchor xml:id="end_2d"/>慚愧，定能隨順清淨梵行、
+<lb n="0692b20" ed="T"/>所制學處不<anchor xml:id="beg_1c" type="star"/>深<anchor xml:id="end_1c"/>慚愧，定能隨順清淨梵行、
 <lb n="0692b21" ed="T"/>定能成辦清淨梵行，於諸學處，能住尸羅，
 <lb n="0692b22" ed="T"/>能住所學。彼人定能永盡三結，證預流果，得
 <lb n="0692b23" ed="T"/>無墮法，定趣菩提，極於七返人天往來；或成
@@ -2925,7 +2925,7 @@ Added comment  for Emacs
 <lb n="0692b26" ed="T"/>羅，戒為增上；尊重等持，定為增上；不重般若，
 <lb n="0692b27" ed="T"/>慧非增上。彼於少小所學戒中，微有所犯即
 <lb n="0692b28" ed="T"/>能出離。所以者何？我說彼人終不毀犯所制
-<lb n="0692b29" ed="T"/>學處不<anchor xml:id="beg_2e" type="star"/>深<anchor xml:id="end_2e"/>慚愧，定能隨順清淨梵行、定能
+<lb n="0692b29" ed="T"/>學處不<anchor xml:id="beg_1d" type="star"/>深<anchor xml:id="end_1d"/>慚愧，定能隨順清淨梵行、定能
 <pb n="0692c" ed="T" xml:id="T17.0765.0692c"/>
 <lb n="0692c01" ed="T"/>成辦清淨梵行，於諸學處，能住等持，能住
 <lb n="0692c02" ed="T"/>所學。彼定能盡五下分結，證不還果，得不還
@@ -2936,7 +2936,7 @@ Added comment  for Emacs
 <lb n="0692c07" ed="T"/>諸苾芻尊重尸羅，戒為增上；尊重等持，定為
 <lb n="0692c08" ed="T"/>增上；尊重般若，慧為增上。彼於少小所學戒
 <lb n="0692c09" ed="T"/>中，微有所犯即能出離。所以者何？我說彼
-<lb n="0692c10" ed="T"/>人終不毀犯所制學處不<anchor xml:id="beg_2f" type="star"/>深<anchor xml:id="end_2f"/>慚愧，定能隨
+<lb n="0692c10" ed="T"/>人終不毀犯所制學處不<anchor xml:id="beg_1e" type="star"/>深<anchor xml:id="end_1e"/>慚愧，定能隨
 <lb n="0692c11" ed="T"/>順清淨梵行、定能成辦清淨梵行，於諸學
 <lb n="0692c12" ed="T"/>處，能住般若，能住所學。彼人定能永盡諸漏，
 <lb n="0692c13" ed="T"/>得真無漏，心善解脫，慧善解脫，於現法中具
@@ -3060,7 +3060,7 @@ Added comment  for Emacs
 <lb n="0694a10" ed="T"/>
 <lb n="0694a11" ed="T"/><cb:juan n="007" fun="open"><cb:mulu n="007" type="卷"></cb:mulu><cb:mulu level="2">2</cb:mulu><cb:jhead><title>本事經</title>卷第七</cb:jhead>
 <lb n="0694a12" ed="T"/>
-<lb n="0694a13" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0694003" n="0694003"/><anchor xml:id="beg0694003" n="0694003"/>大唐<anchor xml:id="end0694003"/>三藏法師玄奘奉　詔譯</byline>
+<lb n="0694a13" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0694003" n="0694003"/><anchor xml:id="nkr_note_mod_0694003" n="0694003"/><anchor xml:id="beg0694003" n="0694003"/>大唐<anchor xml:id="end0694003"/>三藏法師玄奘奉　詔譯</byline>
 <lb n="0694a14" ed="T"/><cb:jhead type="pin">三法品第三之二</cb:jhead></cb:juan>
 <lb n="0694a15" ed="T"/><p xml:id="pT17p0694a1501">吾從世尊聞如是語：「苾芻當知！於此世間子
 <lb n="0694a16" ed="T"/>有三種。云何為三？一者等子；二者勝子；三者
@@ -3102,7 +3102,7 @@ Added comment  for Emacs
 <lb n="0694b22" ed="T"/>已，修習五力亦令圓滿。修習五力得圓滿
 <lb n="0694b23" ed="T"/>已，修七覺支亦令圓滿。修七覺支得圓滿
 <lb n="0694b24" ed="T"/>已，修八聖道支亦令圓滿。修八聖道支得圓
-<lb n="0694b25" ed="T"/>滿已，明及解脫皆得圓滿。」爾<anchor xml:id="nkr_note_orig_0694005" n="0694005"/><anchor xml:id="beg0694005" n="0694005"/>時<anchor xml:id="end0694005"/>，世尊重攝
+<lb n="0694b25" ed="T"/>滿已，明及解脫皆得圓滿。」爾<anchor xml:id="nkr_note_orig_0694005" n="0694005"/><anchor xml:id="nkr_note_mod_0694005" n="0694005"/><anchor xml:id="beg0694005" n="0694005"/>時<anchor xml:id="end0694005"/>，世尊重攝
 <lb n="0694b26" ed="T"/>此義而說頌曰：</p>
 <lb n="0694b27" ed="T"/><lg xml:id="lgT17p0694b2701" rend="margin-left:1em;text-indent:-1em"><l>「尊重法樂法，</l><l>欣法樂法行，</l>
 <lb n="0694b28" ed="T"/><l>於法常隨念，</l><l>能不退正法。</l>
@@ -3110,7 +3110,7 @@ Added comment  for Emacs
 <pb n="0694c" ed="T" xml:id="T17.0765.0694c"/>
 <lb n="0694c01" ed="T"/><l>行法定能招，</l><l>此世他世樂。</l>
 <lb n="0694c02" ed="T"/><l>法護行法人，</l><l>如雨時大傘，</l>
-<lb n="0694c03" ed="T"/><l>行法<anchor xml:id="nkr_note_orig_0694006" n="0694006"/><anchor xml:id="beg0694006" n="0694006"/>獲<anchor xml:id="end0694006"/>法利，</l><l>定不墜三塗。」</l></lg>
+<lb n="0694c03" ed="T"/><l>行法<anchor xml:id="nkr_note_orig_0694006" n="0694006"/><anchor xml:id="nkr_note_mod_0694006" n="0694006"/><anchor xml:id="beg0694006" n="0694006"/>獲<anchor xml:id="end0694006"/>法利，</l><l>定不墜三塗。」</l></lg>
 <lb n="0694c04" ed="T"/><p xml:id="pT17p0694c0401">吾從世尊聞如是語：「苾芻當知！世間略有三
 <lb n="0694c05" ed="T"/>種尋思，有學苾芻未得心者，欣求無上安樂
 <lb n="0694c06" ed="T"/>法時，能令退失。云何為三？一者親里相應尋
@@ -3145,7 +3145,7 @@ Added comment  for Emacs
 <lb n="0695a05" ed="T"/><l>有學諸苾芻，</l><l>若具此三法，</l>
 <lb n="0695a06" ed="T"/><l>終不能證得，</l><l>最勝三菩提。</l>
 <lb n="0695a07" ed="T"/><l>若欲求速證，</l><l>最勝三菩提，</l>
-<lb n="0695a08" ed="T"/><l>應少事、話、眠，</l><l>正勤修<anchor xml:id="nkr_note_orig_0695001" n="0695001"/><anchor xml:id="beg0695001" n="0695001"/>止<anchor xml:id="end0695001"/>觀。」</l></lg>
+<lb n="0695a08" ed="T"/><l>應少事、話、眠，</l><l>正勤修<anchor xml:id="nkr_note_orig_0695001" n="0695001"/><anchor xml:id="nkr_note_mod_0695001" n="0695001"/><anchor xml:id="beg0695001" n="0695001"/>止<anchor xml:id="end0695001"/>觀。」</l></lg>
 <lb n="0695a09" ed="T"/><p xml:id="pT17p0695a0901">吾從世尊聞如是語：「苾芻當知！有三種法和
 <lb n="0695a10" ed="T"/>合現前，能令淨信諸善男子生無量福。云何
 <lb n="0695a11" ed="T"/>為三？一者淨信和合現前，能令淨信諸善男
@@ -3171,7 +3171,7 @@ Added comment  for Emacs
 <lb n="0695b01" ed="T"/>身貿易堅身；三者應以不堅之命貿易堅命。</p>
 <lb n="0695b02" ed="T"/><p xml:id="pT17p0695b0201">「云何應以不堅之財貿易堅財？謂有淨信諸
 <lb n="0695b03" ed="T"/>善男子或善女人，如法精勤，勞役手足，竭
-<lb n="0695b04" ed="T"/>力流<anchor xml:id="nkr_note_orig_0695003" n="0695003"/><anchor xml:id="beg0695003" n="0695003"/>汗<anchor xml:id="end0695003"/>，所獲珍財，應自供身、奉上父母，賑
+<lb n="0695b04" ed="T"/>力流<anchor xml:id="nkr_note_orig_0695003" n="0695003"/><anchor xml:id="nkr_note_mod_0695003" n="0695003"/><anchor xml:id="beg0695003" n="0695003"/>汗<anchor xml:id="end0695003"/>，所獲珍財，應自供身、奉上父母，賑
 <lb n="0695b05" ed="T"/>給妻子、奴婢、僕使、朋友、眷屬，晝夜集會，歡娛
 <lb n="0695b06" ed="T"/>受樂。而遇沙門或婆羅門——具淨尸羅，成調善
 <lb n="0695b07" ed="T"/>法，勤修梵行，除去憍逸，忍辱、柔和，履正直
@@ -3258,7 +3258,7 @@ Added comment  for Emacs
 <lb n="0696a28" ed="T"/><l>親勝為已德，</l><l>圓滿<anchor xml:id="nkr_note_orig_0696001" n="0696001"/><anchor xml:id="nkr_note_mod_0696001" n="0696001"/><anchor xml:id="beg0696001" n="0696001"/>或<anchor xml:id="end0696001"/>堅持。</l>
 <lb n="0696a29" ed="T"/><l>親下士德劣，</l><l>親中士德中，</l>
 <pb n="0696b" ed="T" xml:id="T17.0765.0696b"/>
-<lb n="0696b01" ed="T"/><l>親上<anchor xml:id="nkr_note_orig_0696002" n="0696002"/><anchor xml:id="beg0696002" n="0696002"/>士<anchor xml:id="end0696002"/>德勝，</l><l>故應親上<anchor xml:id="nkr_note_orig_0696003" n="0696003"/><anchor xml:id="beg0696003" n="0696003"/>士<anchor xml:id="end0696003"/>。」</l></lg>
+<lb n="0696b01" ed="T"/><l>親上<anchor xml:id="nkr_note_orig_0696002" n="0696002"/><anchor xml:id="nkr_note_mod_0696002" n="0696002"/><anchor xml:id="beg0696002" n="0696002"/>士<anchor xml:id="end0696002"/>德勝，</l><l>故應親上<anchor xml:id="nkr_note_orig_0696003" n="0696003"/><anchor xml:id="nkr_note_mod_0696003" n="0696003"/><anchor xml:id="beg0696003" n="0696003"/>士<anchor xml:id="end0696003"/>。」</l></lg>
 <lb n="0696b02" ed="T"/><p xml:id="pT17p0696b0201">吾從世尊聞如是語：「苾芻當知！應於其身住
 <lb n="0696b03" ed="T"/>不淨觀；應於其息住隨息念；應於諸行住無
 <lb n="0696b04" ed="T"/>常觀、苦、無我觀。若能於身住不淨觀，便於淨
@@ -3272,7 +3272,7 @@ Added comment  for Emacs
 <lb n="0696b12" ed="T"/><lg xml:id="lgT17p0696b1201" rend="margin-left:1em;text-indent:-1em"><l>「於身觀不淨，</l><l>於息住隨念，</l>
 <lb n="0696b13" ed="T"/><l>觀諸行無常，</l><l>及與苦、無我；</l>
 <lb n="0696b14" ed="T"/><l>達諸行性空，</l><l>得最勝寂靜，</l>
-<lb n="0696b15" ed="T"/><l><anchor xml:id="nkr_note_orig_0696004" n="0696004"/><anchor xml:id="beg0696004" n="0696004"/>愛<anchor xml:id="end0696004"/>盡無執受，</l><l>證究竟涅槃。」</l></lg>
+<lb n="0696b15" ed="T"/><l><anchor xml:id="nkr_note_orig_0696004" n="0696004"/><anchor xml:id="nkr_note_mod_0696004" n="0696004"/><anchor xml:id="beg0696004" n="0696004"/>愛<anchor xml:id="end0696004"/>盡無執受，</l><l>證究竟涅槃。」</l></lg>
 <lb n="0696b16" ed="T"/><p xml:id="pT17p0696b1601">吾從世尊聞如是語：「苾芻當知！諸有情身，常
 <lb n="0696b17" ed="T"/>為三種勇健怨賊隨逐切害。云何為三？一者
 <lb n="0696b18" ed="T"/>衰老勇健怨賊；二者疾病勇健怨賊；三者無
@@ -3286,15 +3286,15 @@ Added comment  for Emacs
 <lb n="0696b26" ed="T"/>夫無明所覆，<anchor xml:id="nkr_note_orig_0696005" n="0696005"/><anchor xml:id="nkr_note_mod_0696005" n="0696005"/><anchor xml:id="beg0696005" n="0696005"/>寶<anchor xml:id="end0696005"/>愛耽著無厭捨心。我聖弟
 <lb n="0696b27" ed="T"/>子，能於如是假合成身，如實知見多諸過患，
 <lb n="0696b28" ed="T"/>便於一切內外身中能深厭背；深厭背故，能
-<lb n="0696b29" ed="T"/>離貪欲；離貪欲故，便<anchor xml:id="nkr_note_orig_0696006" n="0696006"/><anchor xml:id="beg0696006" n="0696006"/>得解脫<anchor xml:id="end0696006"/>。得解脫已，便
+<lb n="0696b29" ed="T"/>離貪欲；離貪欲故，便<anchor xml:id="nkr_note_orig_0696006" n="0696006"/><anchor xml:id="nkr_note_mod_0696006" n="0696006"/><anchor xml:id="beg0696006" n="0696006"/>得解脫<anchor xml:id="end0696006"/>。得解脫已，便
 <pb n="0696c" ed="T" xml:id="T17.0765.0696c"/>
-<lb n="0696c01" ed="T"/>自了<anchor xml:id="nkr_note_orig_0696007" n="0696007"/><anchor xml:id="beg0696007" n="0696007"/>知：我生<anchor xml:id="end0696007"/>已盡，梵行已立，所作已辦，不受
+<lb n="0696c01" ed="T"/>自了<anchor xml:id="nkr_note_orig_0696007" n="0696007"/><anchor xml:id="nkr_note_mod_0696007" n="0696007"/><anchor xml:id="beg0696007" n="0696007"/>知：我生<anchor xml:id="end0696007"/>已盡，梵行已立，所作已辦，不受
 <lb n="0696c02" ed="T"/>後有。」爾時，世尊重攝此義而說頌曰：</p>
 <lb n="0696c03" ed="T"/><lg xml:id="lgT17p0696c0301" rend="margin-left:1em;text-indent:-1em"><l>「一切有情身，</l><l>三怨賊隨害，</l>
 <lb n="0696c04" ed="T"/><l>所謂老、病、死，</l><l>曾無暫捨時。</l>
 <lb n="0696c05" ed="T"/><l>眾法合成身，</l><l>虛偽無堅實，</l>
 <lb n="0696c06" ed="T"/><l>若捨壽、煖、識，</l><l>棄之於塚間。</l>
-<lb n="0696c07" ed="T"/><l>愚夫無所知，</l><l>常<anchor xml:id="beg_30" type="star"/>寶<anchor xml:id="end_30"/>愛耽著，</l>
+<lb n="0696c07" ed="T"/><l>愚夫無所知，</l><l>常<anchor xml:id="beg_1f" type="star"/>寶<anchor xml:id="end_1f"/>愛耽著，</l>
 <lb n="0696c08" ed="T"/><l>賢聖有智見，</l><l>厭之<anchor xml:id="nkr_note_orig_0696008" n="0696008"/><anchor xml:id="nkr_note_mod_0696008" n="0696008"/><anchor xml:id="beg0696008" n="0696008"/>踰<anchor xml:id="end0696008"/>糞坑。</l>
 <lb n="0696c09" ed="T"/><l>修無漏聖道，</l><l>斷三賊因緣，</l>
 <lb n="0696c10" ed="T"/><l>證常樂涅槃，</l><l>永解脫三賊。</l>
@@ -3304,13 +3304,13 @@ Added comment  for Emacs
 <lb n="0696c14" ed="T"/>有三種，應修、應習、應多修習。云何為三？一者
 <lb n="0696c15" ed="T"/>施福業事；二者戒福業事；三者修福業事。</p><p xml:id="pT17p0696c1517" rend="inline">「何
 <lb n="0696c16" ed="T"/>等名為施福業事？謂有淨信諸善男子或善
-<lb n="0696c17" ed="T"/>女人，能施種種飲食餚<anchor xml:id="nkr_note_orig_0696009" n="0696009"/><anchor xml:id="beg0696009" n="0696009"/>饍<anchor xml:id="end0696009"/>、香鬘衣服、車乘臥
+<lb n="0696c17" ed="T"/>女人，能施種種飲食餚<anchor xml:id="nkr_note_orig_0696009" n="0696009"/><anchor xml:id="nkr_note_mod_0696009" n="0696009"/><anchor xml:id="beg0696009" n="0696009"/>饍<anchor xml:id="end0696009"/>、香鬘衣服、車乘臥
 <lb n="0696c18" ed="T"/>具、堂宇室宅、燈燭庭燎、諸資生具，如是名為
 <lb n="0696c19" ed="T"/>施福業事。</p><p xml:id="pT17p0696c1905" rend="inline">「何等名為戒福業事？謂有淨信
 <lb n="0696c20" ed="T"/>諸善男子或善女人，能離殺生，究竟圓滿
 <lb n="0696c21" ed="T"/>無犯清淨；離不與取，究竟圓滿無犯清淨；離
 <lb n="0696c22" ed="T"/>欲邪行，究竟圓滿無犯清淨；離虛誑語，究竟
-<lb n="0696c23" ed="T"/>圓滿無犯清淨；離飲諸酒生放逸處，<anchor xml:id="beg_31" type="cb-app"/>究<anchor xml:id="end_31"/>竟圓
+<lb n="0696c23" ed="T"/>圓滿無犯清淨；離飲諸酒生放逸處，<anchor xml:id="nkr_note_add_0696c2301" n="0696c2301"/><anchor xml:id="beg0696c2301" n="0696c2301"/>究<anchor xml:id="end0696c2301"/>竟圓
 <lb n="0696c24" ed="T"/>滿無犯清淨。如是名為戒福業事。</p><p xml:id="pT17p0696c2414" rend="inline">「云何名為
 <lb n="0696c25" ed="T"/>修福業事？謂有淨信諸善男子或善女人，修
 <lb n="0696c26" ed="T"/>慈俱心，遍滿一方，具足安住。如是第二、第三、
@@ -3341,10 +3341,10 @@ Added comment  for Emacs
 <lb n="0697a21" ed="T"/>想非非想中，佛為最勝，所謂如來、應、正等覺、
 <lb n="0697a22" ed="T"/>明行圓滿、善逝、世間解、無上丈夫、調御士、天人
 <lb n="0697a23" ed="T"/>師、佛、薄伽梵。若於佛所起淨信心，於諸信中
-<lb n="0697a24" ed="T"/>最為第一。如是<anchor xml:id="nkr_note_orig_0697001" n="0697001"/><anchor xml:id="beg0697001" n="0697001"/>淨<anchor xml:id="end0697001"/>信所感果報，於天人中
+<lb n="0697a24" ed="T"/>最為第一。如是<anchor xml:id="nkr_note_orig_0697001" n="0697001"/><anchor xml:id="nkr_note_mod_0697001" n="0697001"/><anchor xml:id="beg0697001" n="0697001"/>淨<anchor xml:id="end0697001"/>信所感果報，於天人中
 <lb n="0697a25" ed="T"/>最為第一。二、於一切施設法門，世出、世間，為
 <lb n="0697a26" ed="T"/>無、為等諸法門中，涅槃最勝，<anchor xml:id="nkr_note_orig_0697002" n="0697002"/><anchor xml:id="nkr_note_mod_0697002" n="0697002"/><anchor xml:id="beg0697002" n="0697002"/>諸<anchor xml:id="end0697002"/>離憍慢，息
-<lb n="0697a27" ed="T"/>諸渴愛，滅阿賴耶，斷諸<anchor xml:id="nkr_note_orig_0697003" n="0697003"/><anchor xml:id="beg0697003" n="0697003"/>徑<anchor xml:id="end0697003"/>路，愛盡離欲，寂
+<lb n="0697a27" ed="T"/>諸渴愛，滅阿賴耶，斷諸<anchor xml:id="nkr_note_orig_0697003" n="0697003"/><anchor xml:id="nkr_note_mod_0697003" n="0697003"/><anchor xml:id="beg0697003" n="0697003"/>徑<anchor xml:id="end0697003"/>路，愛盡離欲，寂
 <lb n="0697a28" ed="T"/>靜涅槃。若於如是涅槃法中起淨信心，於諸
 <lb n="0697a29" ed="T"/>信中最為第一。如是淨信所感果報，於天人
 <pb n="0697b" ed="T" xml:id="T17.0765.0697b"/>
@@ -3354,7 +3354,7 @@ Added comment  for Emacs
 <lb n="0697b04" ed="T"/>一。應奉延請、恭敬供養、稱揚讚歎，不悋身
 <lb n="0697b05" ed="T"/>財，是諸世間人天等眾無上福田。若於如是
 <lb n="0697b06" ed="T"/>賢聖僧中起淨信心，於諸信中最為第一。
-<lb n="0697b07" ed="T"/>如是淨<anchor xml:id="beg_32" type="cb-app"/>信<anchor xml:id="end_32"/>所感果報，於天人中最為第一。如
+<lb n="0697b07" ed="T"/>如是淨<anchor xml:id="nkr_note_add_0697b0701" n="0697b0701"/><anchor xml:id="beg0697b0701" n="0697b0701"/>信<anchor xml:id="end0697b0701"/>所感果報，於天人中最為第一。如
 <lb n="0697b08" ed="T"/>是名為三種最勝。」爾時，世尊重攝此義而
 <lb n="0697b09" ed="T"/>說頌曰：</p>
 <lb n="0697b10" ed="T"/><lg xml:id="lgT17p0697b1001" rend="margin-left:1em;text-indent:-1em"><l>「最勝有三種，</l><l>所謂佛、法、僧，</l>
@@ -3386,7 +3386,7 @@ Added comment  for Emacs
 <lb n="0697c06" ed="T"/>師出現世間，利益、安樂無量眾生，哀愍世間
 <lb n="0697c07" ed="T"/>天人大眾，令得無量義利、安樂。</p><p xml:id="pT17p0697c0713" rend="inline">「復有如來、應、
 <lb n="0697c08" ed="T"/>正等覺無學弟子——是阿羅漢，諸漏已盡，梵
-<lb n="0697c09" ed="T"/>行已立，所作已<anchor xml:id="beg_33" type="cb-app"/>辦<anchor xml:id="end_33"/>，棄諸重擔，得自義利，盡諸
+<lb n="0697c09" ed="T"/>行已立，所作已<anchor xml:id="nkr_note_add_0697c0901" n="0697c0901"/><anchor xml:id="beg0697c0901" n="0697c0901"/>辦<anchor xml:id="end0697c0901"/>，棄諸重擔，得自義利，盡諸
 <lb n="0697c10" ed="T"/>有結，已正奉行如來聖教、已得解脫、已證
 <lb n="0697c11" ed="T"/>遍知——出現世間，為諸眾生開闡正法，初、中、後
 <lb n="0697c12" ed="T"/>善，文義巧妙，示現純滿、清白梵行，謂是苦
@@ -3395,7 +3395,7 @@ Added comment  for Emacs
 <lb n="0697c15" ed="T"/>無量眾生，哀愍世間天人大眾，令得無量義
 <lb n="0697c16" ed="T"/>利、安樂。</p><p xml:id="pT17p0697c1604" rend="inline">「復有如來、應、正等覺有學弟子——具
 <lb n="0697c17" ed="T"/>修梵行，具正多聞，所謂正聞契經、應頌、記別、
-<lb n="0697c18" ed="T"/>伽<anchor xml:id="nkr_note_orig_0697005" n="0697005"/><anchor xml:id="beg0697005" n="0697005"/>陀<anchor xml:id="end0697005"/>、無問自說、本事、本生、方廣、希法，善知其
+<lb n="0697c18" ed="T"/>伽<anchor xml:id="nkr_note_orig_0697005" n="0697005"/><anchor xml:id="nkr_note_mod_0697005" n="0697005"/><anchor xml:id="beg0697005" n="0697005"/>陀<anchor xml:id="end0697005"/>、無問自說、本事、本生、方廣、希法，善知其
 <lb n="0697c19" ed="T"/>義——出現世間，為諸眾生開闡正法，初、中、後
 <lb n="0697c20" ed="T"/>善，文義巧妙，示現純滿、清白梵行，謂是苦
 <lb n="0697c21" ed="T"/>諦、是苦集諦、是苦滅諦、是能趣向苦滅道
@@ -3413,8 +3413,8 @@ Added comment  for Emacs
 <lb n="0698a03" ed="T"/><l>如是三大師，</l><l>天人等應供，</l>
 <lb n="0698a04" ed="T"/><l>能宣說正法，</l><l>廣開甘露門，</l>
 <lb n="0698a05" ed="T"/><l>令無量眾生，</l><l>永盡諸有結，</l>
-<lb n="0698a06" ed="T"/><l>解脫生死苦，</l><l><anchor xml:id="nkr_note_orig_0698001" n="0698001"/><anchor xml:id="beg0698001" n="0698001"/>證<anchor xml:id="end0698001"/>常樂涅槃。</l>
-<lb n="0698a07" ed="T"/><l>譬如善導師，</l><l>能示人善<anchor xml:id="nkr_note_orig_0698002" n="0698002"/><anchor xml:id="beg0698002" n="0698002"/>道<anchor xml:id="end0698002"/>，</l>
+<lb n="0698a06" ed="T"/><l>解脫生死苦，</l><l><anchor xml:id="nkr_note_orig_0698001" n="0698001"/><anchor xml:id="nkr_note_mod_0698001" n="0698001"/><anchor xml:id="beg0698001" n="0698001"/>證<anchor xml:id="end0698001"/>常樂涅槃。</l>
+<lb n="0698a07" ed="T"/><l>譬如善導師，</l><l>能示人善<anchor xml:id="nkr_note_orig_0698002" n="0698002"/><anchor xml:id="nkr_note_mod_0698002" n="0698002"/><anchor xml:id="beg0698002" n="0698002"/>道<anchor xml:id="end0698002"/>，</l>
 <lb n="0698a08" ed="T"/><l>正順而行者，</l><l>得安樂無疑。</l>
 <lb n="0698a09" ed="T"/><l>如是三大師，</l><l>示眾生四諦，</l>
 <lb n="0698a10" ed="T"/><l>修行無放逸，</l><l>定超生死邊。」</l></lg>
@@ -3519,7 +3519,7 @@ Added comment  for Emacs
 <lb n="0699a19" ed="T"/>際。」爾時，世尊重攝此義而說頌曰：</p>
 <lb n="0699a20" ed="T"/><lg xml:id="lgT17p0699a2001" rend="margin-left:1em;text-indent:-1em"><l>「諸天三事勝，</l><l>長壽、端嚴、樂，</l>
 <lb n="0699a21" ed="T"/><l>人中與挍量，</l><l>算數甚難及。</l>
-<lb n="0699a22" ed="T"/><l>如<anchor xml:id="nkr_note_orig_0699002" n="0699002"/><anchor xml:id="beg0699002" n="0699002"/>是<anchor xml:id="end0699002"/>三勝事，</l><l>非常亦非恒，</l>
+<lb n="0699a22" ed="T"/><l>如<anchor xml:id="nkr_note_orig_0699002" n="0699002"/><anchor xml:id="nkr_note_mod_0699002" n="0699002"/><anchor xml:id="beg0699002" n="0699002"/>是<anchor xml:id="end0699002"/>三勝事，</l><l>非常亦非恒，</l>
 <lb n="0699a23" ed="T"/><l>難保變壞法，</l><l>死魔力所繫。</l>
 <lb n="0699a24" ed="T"/><l>天將捨命時，</l><l>餘天集其所，</l>
 <lb n="0699a25" ed="T"/><l>善教授教誡，</l><l>令生歡喜心。</l>
@@ -3556,7 +3556,7 @@ Added comment  for Emacs
 <app from="#beg0662009" to="#end0662009"><lem wit="#wit1">途</lem><rdg resp="#resp1" wit="#wit6">遠</rdg></app>
 <app from="#beg0662010" to="#end0662010"><lem wit="#wit1">刀</lem><rdg resp="#resp1" wit="#wit2 #wit3">力</rdg></app>
 <app from="#beg0662011" to="#end0662011"><lem wit="#wit1">縛</lem><rdg resp="#resp1" wit="#wit2 #wit3">結</rdg></app>
-<app from="#beg_1" to="#end_1"><lem wit="#wit8 #wit9" resp="#resp2">不<note type="cf1">K20n0803_p0993b09</note></lem><rdg wit="#wit1">下</rdg></app>
+<app from="#beg0662c1401" to="#end0662c1401"><lem wit="#wit8 #wit9" resp="#resp3">不<note type="cf1">K20n0803_p0993b09</note></lem><rdg wit="#wit1">下</rdg></app>
 <app from="#beg0663001" to="#end0663001"><lem wit="#wit1">行，履如是</lem><rdg resp="#resp1" wit="#wit4 #wit6"><space quantity="0"/></rdg></app>
 <app from="#beg0663002" to="#end0663002"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit2 #wit3">生於</rdg></app>
 <app from="#beg0663003" to="#end0663003"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
@@ -3568,8 +3568,8 @@ Added comment  for Emacs
 <app from="#beg0664001" to="#end0664001"><lem wit="#wit1">陵</lem><rdg resp="#resp1" wit="#wit5 #wit7">凌</rdg></app>
 <app from="#beg0664002" to="#end0664002"><lem wit="#wit1">反</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6 #wit3">返</rdg></app>
 <app from="#beg0664003" to="#end0664003"><lem wit="#wit1">癡</lem><rdg resp="#resp1" wit="#wit2 #wit3">鈍</rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#0664001"><lem wit="#wit1">陵</lem><rdg resp="#resp1" wit="#wit5 #wit7">凌</rdg></app>
-<app from="#beg_3" to="#end_3" corresp="#0664002"><lem wit="#wit1">反</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6 #wit3">返</rdg></app>
+<app from="#beg_1" to="#end_1" corresp="#0664001"><lem wit="#wit1">陵</lem><rdg resp="#resp1" wit="#wit5 #wit7">凌</rdg></app>
+<app from="#beg_2" to="#end_2" corresp="#0664002"><lem wit="#wit1">反</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6 #wit3">返</rdg></app>
 <app from="#beg0664004" to="#end0664004"><lem wit="#wit1">墮落</lem><rdg resp="#resp1" wit="#wit4 #wit6">落墮</rdg><rdg resp="#resp1" wit="#wit5 #wit7">隨落</rdg></app>
 <app from="#beg0664005" to="#end0664005"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit3">今</rdg></app>
 <app from="#beg0664006" to="#end0664006"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">柁</rdg></app>
@@ -3579,18 +3579,18 @@ Added comment  for Emacs
 <app from="#beg0665004" to="#end0665004"><lem wit="#wit1">吾</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">吾從世尊聞如是語苾芻當知若諸有情永斷一法我證彼定得不還果云何一法謂是於恚所以者何一切有情由恚染故數數還來墮諸惡趣受生死苦若能永斷如是一法我證彼定得不還果不復還來生此世間是故我說若諸有情永斷一法我證彼定得不還果爾時世尊重攝此義而說頌曰　我觀諸有情，由恚之所染，還來墮惡趣，受生死輪迴，若能正了知，永斷此恚者，定得不還果，不來生此間吾</rdg></app>
 <app from="#beg0665005" to="#end0665005"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">死</rdg></app>
 <app from="#beg0666001" to="#end0666001"><lem wit="#wit1">耽</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">嗜</rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0666001"><lem wit="#wit1">耽</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">嗜</rdg></app>
 <app from="#beg_4" to="#end_4" corresp="#0666001"><lem wit="#wit1">耽</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">嗜</rdg></app>
 <app from="#beg_5" to="#end_5" corresp="#0666001"><lem wit="#wit1">耽</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">嗜</rdg></app>
-<app from="#beg_6" to="#end_6" corresp="#0666001"><lem wit="#wit1">耽</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">嗜</rdg></app>
-<app from="#beg_7" to="#end_7" corresp="#0664006"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">柁</rdg></app>
+<app from="#beg_6" to="#end_6" corresp="#0664006"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">柁</rdg></app>
 <app from="#beg0666002" to="#end0666002"><lem wit="#wit1">惱及</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">及惱</rdg></app>
-<app from="#beg0666004" to="#end0666004"><lem wit="#wit8 #wit9" resp="#resp2"><space quantity="0"/><note type="cf1">K20n0803_p0998b14</note></lem><rdg wit="#wit1">故</rdg><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0666004" to="#end0666004"><lem wit="#wit8 #wit9" resp="#resp3"><space quantity="0"/><note type="cf1">K20n0803_p0998b14</note></lem><rdg wit="#wit1">故</rdg><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6"><space quantity="0"/></rdg></app>
 <app from="#beg0667001" to="#end0667001"><lem wit="#wit1">世</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
-<app from="#beg0667002" to="#end0667002"><lem resp="#resp2" wit="#wit8 #wit10">證<note type="cf1">Q20_p0005b12</note></lem><rdg wit="#wit1">說</rdg><rdg resp="#resp1" wit="#wit5 #wit7">證</rdg></app>
+<app from="#beg0667002" to="#end0667002"><lem resp="#resp3" wit="#wit8 #wit10">證<note type="cf1">Q20_p0005b12</note></lem><rdg wit="#wit1">說</rdg><rdg resp="#resp1" wit="#wit5 #wit7">證</rdg></app>
 <app from="#beg0667003" to="#end0667003"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit4 #wit6">至</rdg></app>
+<app from="#beg_7" to="#end_7" corresp="#0667001"><lem wit="#wit1">世</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0667004" to="#end0667004"><lem resp="#resp3" wit="#wit8">此<note type="cf1">Q20_p0005b16</note></lem><rdg wit="#wit1">世</rdg><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">此</rdg></app>
 <app from="#beg_8" to="#end_8" corresp="#0667001"><lem wit="#wit1">世</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
-<app from="#beg0667004" to="#end0667004"><lem resp="#resp2" wit="#wit8">此<note type="cf1">Q20_p0005b16</note></lem><rdg wit="#wit1">世</rdg><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">此</rdg></app>
-<app from="#beg_9" to="#end_9" corresp="#0667001"><lem wit="#wit1">世</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
 <app from="#beg0667005" to="#end0667005"><lem wit="#wit1">惡趣</lem><rdg resp="#resp1" wit="#wit4 #wit6">諸惡</rdg></app>
 <app from="#beg0667006" to="#end0667006"><lem wit="#wit1">念安般</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6">安般故</rdg></app>
 <app from="#beg0668002" to="#end0668002"><lem wit="#wit1">大唐</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6 #wit2"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit7">唐</rdg></app>
@@ -3604,12 +3604,12 @@ Added comment  for Emacs
 <app from="#beg0669004" to="#end0669004"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit7">得</rdg></app>
 <app from="#beg0670001" to="#end0670001"><lem wit="#wit1">實</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">是</rdg></app>
 <app from="#beg0670002" to="#end0670002"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6 #wit2">柁</rdg></app>
-<app from="#beg_a" to="#end_a"><lem resp="#resp2" wit="#wit8 #wit9">貪<note type="cf1">K20n0803_p1003a17</note></lem><rdg wit="#wit1">食</rdg></app>
+<app from="#beg0670b0901" to="#end0670b0901"><lem resp="#resp3" wit="#wit8 #wit9">貪<note type="cf1">K20n0803_p1003a17</note></lem><rdg wit="#wit1">食</rdg></app>
 <app from="#beg0670003" to="#end0670003"><lem wit="#wit1">恚</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">瞋</rdg></app>
 <app from="#beg0670004" to="#end0670004"><lem wit="#wit1">光</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">德</rdg></app>
 <app from="#beg0671001" to="#end0671001"><lem wit="#wit1">狂</lem><rdg resp="#resp1" wit="#wit2">犯</rdg></app>
 <app from="#beg0671002" to="#end0671002"><lem wit="#wit1">被</lem><rdg resp="#resp1" wit="#wit2">彼</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_b" cb:to="#end_b"><corr>世</corr><sic>至</sic></choice>
+<app from="#beg0671a2601" to="#end0671a2601"><lem wit="#wit8" resp="#resp2">世</lem><rdg wit="#wit1">至</rdg></app>
 <app from="#beg0671003" to="#end0671003"><lem wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit6">善</rdg></app>
 <app from="#beg0671004" to="#end0671004"><lem wit="#wit1">守</lem><rdg resp="#resp1" wit="#wit5 #wit7 #wit2">持</rdg></app>
 <app from="#beg0671005" to="#end0671005"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6 #wit2">安</rdg></app>
@@ -3623,15 +3623,15 @@ Added comment  for Emacs
 <app from="#beg0673008" to="#end0673008"><lem wit="#wit1">自能</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">能自</rdg></app>
 <app from="#beg0673009" to="#end0673009"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">惟</rdg></app>
 <app from="#beg0673010" to="#end0673010"><lem wit="#wit1">楚</lem><rdg resp="#resp1" wit="#wit2 #wit3">梵</rdg></app>
-<app from="#beg_c" to="#end_c"><lem resp="#resp2" wit="#wit8 #wit9">不<note type="cf1">K20n0803_p1007b24</note></lem><rdg wit="#wit1">本</rdg></app>
+<app from="#beg0673c0901" to="#end0673c0901"><lem resp="#resp3" wit="#wit8 #wit9">不<note type="cf1">K20n0803_p1007b24</note></lem><rdg wit="#wit1">本</rdg></app>
 <app from="#beg0673011" to="#end0673011"><lem wit="#wit1">往</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6 #wit2">生</rdg></app>
 <app from="#beg0674001" to="#end0674001"><lem wit="#wit1">罪</lem><rdg resp="#resp1" wit="#wit4 #wit7 #wit6">福</rdg></app>
 <app from="#beg0674002" to="#end0674002"><lem wit="#wit1">擔</lem><rdg resp="#resp1" wit="#wit5 #wit7">檐</rdg></app>
-<app from="#beg_d" to="#end_d" corresp="#0674002"><lem wit="#wit1">擔</lem><rdg resp="#resp1" wit="#wit5 #wit7">檐</rdg></app>
+<app from="#beg_9" to="#end_9" corresp="#0674002"><lem wit="#wit1">擔</lem><rdg resp="#resp1" wit="#wit5 #wit7">檐</rdg></app>
 <app from="#beg0674003" to="#end0674003"><lem wit="#wit1">悲</lem><rdg resp="#resp1" wit="#wit2 #wit3">慧</rdg></app>
 <app from="#beg0674004" to="#end0674004"><lem wit="#wit1">惱</lem><rdg resp="#resp1" wit="#wit4 #wit6">悔</rdg></app>
 <app from="#beg0674005" to="#end0674005"><lem wit="#wit1">擔</lem><rdg resp="#resp1" wit="#wit7">檐</rdg></app>
-<app from="#beg_e" to="#end_e" corresp="#0674005"><lem wit="#wit1">擔</lem><rdg resp="#resp1" wit="#wit7">檐</rdg></app>
+<app from="#beg_a" to="#end_a" corresp="#0674005"><lem wit="#wit1">擔</lem><rdg resp="#resp1" wit="#wit7">檐</rdg></app>
 <app from="#beg0674006" to="#end0674006"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">謂</rdg></app>
 <app from="#beg0674007" to="#end0674007"><lem wit="#wit1">行</lem><rdg resp="#resp1" wit="#wit6">門</rdg></app>
 <app from="#beg0675001" to="#end0675001"><lem wit="#wit1">應</lem><rdg resp="#resp1" wit="#wit2 #wit3">慧</rdg></app>
@@ -3640,51 +3640,51 @@ Added comment  for Emacs
 <app from="#beg0675004" to="#end0675004"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit3">今</rdg></app>
 <app from="#beg0675005" to="#end0675005"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">故</rdg></app>
 <app from="#beg0675006" to="#end0675006"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6 #wit2 #wit3">彼</rdg></app>
-<app from="#beg_f" to="#end_f" corresp="#0675004"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit3">今</rdg></app>
+<app from="#beg_b" to="#end_b" corresp="#0675004"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit3">今</rdg></app>
 <app from="#beg0676001" to="#end0676001"><lem wit="#wit1">已</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">故</rdg></app>
 <app from="#beg0676002" to="#end0676002"><lem wit="#wit1">知</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">智</rdg></app>
 <app from="#beg0676003" to="#end0676003"><lem wit="#wit1">寶</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6">貴</rdg></app>
 <app from="#beg0676004" to="#end0676004"><lem wit="#wit1">脫</lem><rdg resp="#resp1" wit="#wit3">既</rdg></app>
 <app from="#beg0677002" to="#end0677002"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">除</rdg></app>
-<app from="#beg_10" to="#end_10"><lem wit="#wit8 #wit9" resp="#resp2">第<note type="cf1">K20n0803_p1013a32</note></lem><rdg wit="#wit1">萬</rdg><rdg resp="#resp2" wit="#wit9">苐<note type="cf1">K20n0803_p1013a32</note></rdg></app>
+<app from="#beg0678a1201" to="#end0678a1201"><lem wit="#wit8 #wit9" resp="#resp3">第<note type="cf1">K20n0803_p1013a32</note></lem><rdg wit="#wit1">萬</rdg><rdg resp="#resp3" wit="#wit9">苐<note type="cf1">K20n0803_p1013a32</note></rdg></app>
 <app cb:word-count="414" from="#beg0677004" to="#end0677004"><lem wit="#wit1"><head>挍正後序</head>
 <lb n="0677c18" ed="T"/>
-<lb n="0677c19" ed="T"/><p>此一卷經宋、鄉則同，同有四十三段，丹本<lb n="0677c20" ed="T"/>唯有十八段耳。多少如是不同文義，始終<lb n="0677c21" ed="T"/>逈異如何去取？今撿宋、鄉本經有四大錯，<lb n="0677c22" ed="T"/>丹有二事以知其正。何則？此卷品名既是<lb n="0677c23" ed="T"/>二法，則應始終唯說二法；而宋、鄉本經四<lb n="0677c24" ed="T"/>十三段皆是一法，則名義不相當，是一錯<lb n="0677c25" ed="T"/>也。又宋、鄉本卷初二段及第三段前六行<lb n="0677c26" ed="T"/>文，則是諸本初卷三幅《心義經》一段十二<lb n="0677c27" ed="T"/>行耳。宋、鄉於此三重重寫，是二錯也。第<lb n="0677c28" ed="T"/>三段中「一類有情」已下，即是諸本初卷七<lb n="0677c29" ed="T"/>幅《破僧經》一段十七行耳。宋、鄉於此重重<lb n="0678a01" ed="T"/>寫之，其乃至於四十一重，是三錯也。其卷<lb n="0678a02" ed="T"/>末頌云「貪欲瞋恚癡，覆藏及惱忿，不恨嫉<lb n="0678a03" ed="T"/>與慳，耽嗜慢將害」者，即是諸本第二卷九<lb n="0678a04" ed="T"/>幅結經頌，正云「貪恚及愚癡，覆藏惱忿恨，<lb n="0678a05" ed="T"/>嫉慳與貪嗜，慢害將一切」之小訛變耳。宋、<lb n="0678a06" ed="T"/>鄉於此閑重寫之，是四錯也，故知大錯耳。<lb n="0678a07" ed="T"/>今此丹本十八段經，始從成就二分，終至<lb n="0678a08" ed="T"/>二果二纏，皆是二法，即與品目名義相當，<lb n="0678a09" ed="T"/>是一正也。又按諸本，第四卷中七幅有結<lb n="0678a10" ed="T"/>頌云「為通達律儀，厭知不淨果，纏覺悟<lb n="0678a11" ed="T"/>宴坐，愧所作尋求」者，則結十二經為一頌。<lb n="0678a12" ed="T"/>其覺悟已下五經，即是諸本<app><lem wit="#wit8 #wit9" resp="#resp2">第<note type="cf1">K20n0803_p1013a32</note></lem><rdg wit="#wit1">萬</rdg><rdg resp="#resp2" wit="#wit9">苐<note type="cf1">K20n0803_p1013a32</note></rdg></app>四卷卷初<lb n="0678a13" ed="T"/>五經。其纏經、果經已上七經，即是丹本此<lb n="0678a14" ed="T"/>卷卷末七經耳。則列結相應，是二正也。餘<lb n="0678a15" ed="T"/>本則非，故今取此丹本為正云。</p></lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6"><space quantity="0"/></rdg></app>
+<lb n="0677c19" ed="T"/><p>此一卷經宋、鄉則同，同有四十三段，丹本<lb n="0677c20" ed="T"/>唯有十八段耳。多少如是不同文義，始終<lb n="0677c21" ed="T"/>逈異如何去取？今撿宋、鄉本經有四大錯，<lb n="0677c22" ed="T"/>丹有二事以知其正。何則？此卷品名既是<lb n="0677c23" ed="T"/>二法，則應始終唯說二法；而宋、鄉本經四<lb n="0677c24" ed="T"/>十三段皆是一法，則名義不相當，是一錯<lb n="0677c25" ed="T"/>也。又宋、鄉本卷初二段及第三段前六行<lb n="0677c26" ed="T"/>文，則是諸本初卷三幅《心義經》一段十二<lb n="0677c27" ed="T"/>行耳。宋、鄉於此三重重寫，是二錯也。第<lb n="0677c28" ed="T"/>三段中「一類有情」已下，即是諸本初卷七<lb n="0677c29" ed="T"/>幅《破僧經》一段十七行耳。宋、鄉於此重重<lb n="0678a01" ed="T"/>寫之，其乃至於四十一重，是三錯也。其卷<lb n="0678a02" ed="T"/>末頌云「貪欲瞋恚癡，覆藏及惱忿，不恨嫉<lb n="0678a03" ed="T"/>與慳，耽嗜慢將害」者，即是諸本第二卷九<lb n="0678a04" ed="T"/>幅結經頌，正云「貪恚及愚癡，覆藏惱忿恨，<lb n="0678a05" ed="T"/>嫉慳與貪嗜，慢害將一切」之小訛變耳。宋、<lb n="0678a06" ed="T"/>鄉於此閑重寫之，是四錯也，故知大錯耳。<lb n="0678a07" ed="T"/>今此丹本十八段經，始從成就二分，終至<lb n="0678a08" ed="T"/>二果二纏，皆是二法，即與品目名義相當，<lb n="0678a09" ed="T"/>是一正也。又按諸本，第四卷中七幅有結<lb n="0678a10" ed="T"/>頌云「為通達律儀，厭知不淨果，纏覺悟<lb n="0678a11" ed="T"/>宴坐，愧所作尋求」者，則結十二經為一頌。<lb n="0678a12" ed="T"/>其覺悟已下五經，即是諸本<note n="0678a1201" resp="#resp2" type="add">第【CB】【麗-CB】，萬【大】，苐【麗-CB】</note><app n="0678a1201"><lem wit="#wit8 #wit9" resp="#resp3">第<note type="cf1">K20n0803_p1013a32</note></lem><rdg wit="#wit1">萬</rdg><rdg resp="#resp3" wit="#wit9">苐<note type="cf1">K20n0803_p1013a32</note></rdg></app>四卷卷初<lb n="0678a13" ed="T"/>五經。其纏經、果經已上七經，即是丹本此<lb n="0678a14" ed="T"/>卷卷末七經耳。則列結相應，是二正也。餘<lb n="0678a15" ed="T"/>本則非，故今取此丹本為正云。</p></lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6"><space quantity="0"/></rdg></app>
 <app from="#beg0678002" to="#end0678002"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit3">今</rdg></app>
 <app from="#beg0678003" to="#end0678003"><lem wit="#wit1">惟</lem><rdg resp="#resp1" wit="#wit2 #wit3">唯</rdg></app>
 <app from="#beg0679001" to="#end0679001"><lem wit="#wit1">慮</lem><rdg resp="#resp1" wit="#wit3">虛</rdg></app>
 <app from="#beg0679002" to="#end0679002"><lem wit="#wit1">巧</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0679003" to="#end0679003"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">陀</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_11" cb:to="#end_11"><corr>苾</corr><sic>苑</sic></choice>
+<app from="#beg0679b2301" to="#end0679b2301"><lem wit="#wit8" resp="#resp2">苾</lem><rdg wit="#wit1">苑</rdg></app>
 <app from="#beg0679004" to="#end0679004"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">謂</rdg></app>
 <app from="#beg0679005" to="#end0679005"><lem wit="#wit1">耽</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">貪</rdg></app>
 <app from="#beg0679006" to="#end0679006"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit4 #wit6">今</rdg></app>
 <app from="#beg0680001" to="#end0680001"><lem wit="#wit1">死</lem><rdg resp="#resp1" wit="#wit3">無</rdg></app>
 <app from="#beg0680002" to="#end0680002"><lem wit="#wit1">當</lem><rdg resp="#resp1" wit="#wit4 #wit6">常</rdg></app>
 <app from="#beg0680003" to="#end0680003"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">柁</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_12" cb:to="#end_12"><corr>纏</corr><sic>經</sic></choice>
+<app from="#beg0680a2801" to="#end0680a2801"><lem wit="#wit8" resp="#resp3">纏</lem><rdg wit="#wit1">經</rdg></app>
 <app from="#beg0680004" to="#end0680004"><lem wit="#wit1">白淨</lem><rdg resp="#resp1" wit="#wit3">自淨淨</rdg></app>
-<app from="#beg_13" to="#end_13"><lem wit="#wit8 #wit9" resp="#resp2">損<note type="cf1">K20n0803_p1015c07</note></lem><rdg wit="#wit1">捐</rdg><rdg resp="#resp2" wit="#wit9"><g ref="#CB02167">󰡷</g><note type="cf1">K20n0803_p1015c07</note></rdg></app>
+<app from="#beg0680b2401" to="#end0680b2401"><lem wit="#wit8 #wit9" resp="#resp3">損<note type="cf1">K20n0803_p1015c07</note></lem><rdg wit="#wit1">捐</rdg><rdg resp="#resp3" wit="#wit9"><g ref="#CB02167">󰡷</g><note type="cf1">K20n0803_p1015c07</note></rdg></app>
 <app from="#beg0680005" to="#end0680005"><lem wit="#wit1">力</lem><rdg resp="#resp1" wit="#wit3">刀</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_14" cb:to="#end_14"><corr>己</corr><sic>已</sic></choice>
+<app from="#beg0681a1901" to="#end0681a1901"><lem wit="#wit8" resp="#resp3">己</lem><rdg wit="#wit1">已</rdg></app>
 <app from="#beg0681001" to="#end0681001"><lem wit="#wit1">慼</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">戚</rdg></app>
 <app from="#beg0681002" to="#end0681002"><lem wit="#wit1">密</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">察</rdg></app>
-<app from="#beg_15" to="#end_15"><lem wit="#wit8 #wit9" resp="#resp2">解<note type="cf1">K20n0803_p1016c23</note></lem><rdg wit="#wit1">懈</rdg></app>
-<app from="#beg_16" to="#end_16" corresp="#0680001"><lem wit="#wit1">死</lem><rdg resp="#resp1" wit="#wit3">無</rdg></app>
+<app from="#beg0681b1801" to="#end0681b1801"><lem wit="#wit8 #wit9" resp="#resp3">解<note type="cf1">K20n0803_p1016c23</note></lem><rdg wit="#wit1">懈</rdg></app>
+<app from="#beg_c" to="#end_c" corresp="#0680001"><lem wit="#wit1">死</lem><rdg resp="#resp1" wit="#wit3">無</rdg></app>
 <app from="#beg0681003" to="#end0681003"><lem wit="#wit1">減</lem><rdg resp="#resp1" wit="#wit6">滅</rdg></app>
-<app from="#beg_17" to="#end_17" corresp="#0681003"><lem wit="#wit1">減</lem><rdg resp="#resp1" wit="#wit6">滅</rdg></app>
-<app from="#beg_18" to="#end_18" corresp="#0681003"><lem wit="#wit1">減</lem><rdg resp="#resp1" wit="#wit6">滅</rdg></app>
+<app from="#beg_d" to="#end_d" corresp="#0681003"><lem wit="#wit1">減</lem><rdg resp="#resp1" wit="#wit6">滅</rdg></app>
+<app from="#beg_e" to="#end_e" corresp="#0681003"><lem wit="#wit1">減</lem><rdg resp="#resp1" wit="#wit6">滅</rdg></app>
 <app from="#beg0681004" to="#end0681004"><lem wit="#wit1">愛</lem><rdg resp="#resp1" wit="#wit3">受</rdg></app>
 <app from="#beg0682001" to="#end0682001"><lem wit="#wit1">真</lem><rdg resp="#resp1" wit="#wit3">直</rdg></app>
 <app from="#beg0682002" to="#end0682002"><lem wit="#wit1">債</lem><rdg resp="#resp1" wit="#wit3">責</rdg></app>
-<app from="#beg_19" to="#end_19"><lem wit="#wit8 #wit9" resp="#resp2">成<note type="cf1">K20n0803_p1018a05</note></lem><rdg wit="#wit1">或</rdg></app>
+<app from="#beg0682b0601" to="#end0682b0601"><lem wit="#wit8 #wit9" resp="#resp3">成<note type="cf1">K20n0803_p1018a05</note></lem><rdg wit="#wit1">或</rdg></app>
 <app from="#beg0682003" to="#end0682003"><lem wit="#wit1">毀</lem><rdg resp="#resp1" wit="#wit7">誹</rdg></app>
 <app from="#beg0682004" to="#end0682004"><lem wit="#wit1">曾</lem><rdg resp="#resp1" wit="#wit7">會</rdg></app>
 <app from="#beg0682005" to="#end0682005"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit5 #wit7">彼</rdg></app>
 <app from="#beg0682006" to="#end0682006"><lem wit="#wit1">闇</lem><rdg resp="#resp1" wit="#wit3">闍</rdg></app>
 <app cb:word-count="17" from="#beg0683001" to="#end0683001"><lem wit="#wit1">吾從世尊聞如是語：「苾芻當知！世有二種<lb n="0683a10" ed="T"/>無</lem><rdg resp="#resp1" wit="#wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0683002" to="#end0683002"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit4 #wit5">母</rdg></app>
-<app from="#beg_1a" to="#end_1a" corresp="#0680003"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">柁</rdg></app>
+<app from="#beg_f" to="#end_f" corresp="#0680003"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">柁</rdg></app>
 <app from="#beg0683003" to="#end0683003"><lem wit="#wit1">惠</lem><rdg resp="#resp1" wit="#wit3">慧</rdg></app>
 <app from="#beg0683004" to="#end0683004"><lem wit="#wit1">酥</lem><rdg resp="#resp1" wit="#wit4 #wit6 #wit2 #wit3">蘇</rdg></app>
 <app from="#beg0683005" to="#end0683005"><lem wit="#wit1">定</lem><rdg resp="#resp1" wit="#wit3">足</rdg></app>
@@ -3692,9 +3692,9 @@ Added comment  for Emacs
 <app from="#beg0684002" to="#end0684002"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">陀</rdg></app>
 <app from="#beg0684003" to="#end0684003"><lem wit="#wit1">祀</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">祠</rdg></app>
 <app from="#beg0684004" to="#end0684004"><lem wit="#wit1">田</lem><rdg resp="#resp1" wit="#wit2 #wit3">思</rdg></app>
-<app from="#beg_1b" to="#end_1b" corresp="#0684003"><lem wit="#wit1">祀</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">祠</rdg></app>
-<app from="#beg_1c" to="#end_1c" corresp="#0684003"><lem wit="#wit1">祀</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">祠</rdg></app>
-<app from="#beg_1d" to="#end_1d"><lem wit="#wit8 #wit9" resp="#resp2">諸<note type="cf1">K20n0803_p1020c10</note></lem><rdg wit="#wit1">當</rdg></app>
+<app from="#beg_10" to="#end_10" corresp="#0684003"><lem wit="#wit1">祀</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">祠</rdg></app>
+<app from="#beg_11" to="#end_11" corresp="#0684003"><lem wit="#wit1">祀</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">祠</rdg></app>
+<app from="#beg0684b1901" to="#end0684b1901"><lem wit="#wit8 #wit9" resp="#resp3">諸<note type="cf1">K20n0803_p1020c10</note></lem><rdg wit="#wit1">當</rdg></app>
 <app from="#beg0684005" to="#end0684005"><lem wit="#wit1">亡</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">忘</rdg></app>
 <app from="#beg0684006" to="#end0684006"><lem wit="#wit1">所</lem><rdg resp="#resp1" wit="#wit2 #wit3">不</rdg></app>
 <app from="#beg0684007" to="#end0684007"><lem wit="#wit1">名</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">多</rdg></app>
@@ -3702,30 +3702,30 @@ Added comment  for Emacs
 <app from="#beg0684009" to="#end0684009"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit2 #wit3">下</rdg></app>
 <app from="#beg0684010" to="#end0684010"><lem wit="#wit1">苾芻</lem><rdg resp="#resp1" wit="#wit2 #wit3">是苾芻</rdg></app>
 <app from="#beg0685001" to="#end0685001"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit6">種</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_1e" cb:to="#end_1e"><corr>頌</corr><sic>頒</sic></choice>
+<app from="#beg0685c0101" to="#end0685c0101"><lem wit="#wit8" resp="#resp2">頌</lem><rdg wit="#wit1">頒</rdg></app>
 <app from="#beg0685002" to="#end0685002"><lem wit="#wit1">業</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6">滅</rdg></app>
 <app from="#beg0685003" to="#end0685003"><lem wit="#wit1">相</lem><rdg resp="#resp1" wit="#wit4">者</rdg></app>
 <app from="#beg0686001" to="#end0686001"><lem wit="#wit1">甞</lem><rdg resp="#resp1" wit="#wit2 #wit3">當</rdg></app>
-<app from="#beg_1f" to="#end_1f" corresp="#0686001"><lem wit="#wit1">甞</lem><rdg resp="#resp1" wit="#wit2 #wit3">當</rdg></app>
-<app from="#beg_20" to="#end_20" corresp="#0686001"><lem wit="#wit1">甞</lem><rdg resp="#resp1" wit="#wit2 #wit3">當</rdg></app>
+<app from="#beg_12" to="#end_12" corresp="#0686001"><lem wit="#wit1">甞</lem><rdg resp="#resp1" wit="#wit2 #wit3">當</rdg></app>
+<app from="#beg_13" to="#end_13" corresp="#0686001"><lem wit="#wit1">甞</lem><rdg resp="#resp1" wit="#wit2 #wit3">當</rdg></app>
 <app from="#beg0686002" to="#end0686002"><lem wit="#wit1">堰</lem><rdg resp="#resp1" wit="#wit2 #wit3">偃</rdg></app>
-<app from="#beg_21" to="#end_21" corresp="#0686002"><lem wit="#wit1">堰</lem><rdg resp="#resp1" wit="#wit2 #wit3">偃</rdg></app>
-<app from="#beg_22" to="#end_22" corresp="#0686002"><lem wit="#wit1">堰</lem><rdg resp="#resp1" wit="#wit2 #wit3">偃</rdg></app>
+<app from="#beg_14" to="#end_14" corresp="#0686002"><lem wit="#wit1">堰</lem><rdg resp="#resp1" wit="#wit2 #wit3">偃</rdg></app>
+<app from="#beg_15" to="#end_15" corresp="#0686002"><lem wit="#wit1">堰</lem><rdg resp="#resp1" wit="#wit2 #wit3">偃</rdg></app>
 <app from="#beg0687001" to="#end0687001"><lem wit="#wit1">堰</lem><rdg resp="#resp1" wit="#wit2 #wit3">優</rdg></app>
 <app from="#beg0687002" to="#end0687002"><lem wit="#wit1">種</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">法</rdg></app>
 <app from="#beg0687003" to="#end0687003"><lem wit="#wit1">他</lem><rdg resp="#resp1" wit="#wit2 #wit3">地</rdg></app>
 <app from="#beg0687004" to="#end0687004"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit7">極</rdg></app>
 <app from="#beg0687005" to="#end0687005"><lem wit="#wit1">蔽</lem><rdg resp="#resp1" wit="#wit2 #wit3">弊</rdg></app>
 <app from="#beg0687006" to="#end0687006"><lem wit="#wit1">其</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6">在</rdg></app>
-<app from="#beg_23" to="#end_23"><lem wit="#wit8 #wit9" resp="#resp2">斯<note type="cf1">K20n0803_p1024c19</note></lem><rdg wit="#wit1">期</rdg></app>
-<app from="#beg_24" to="#end_24" corresp="#0687005"><lem wit="#wit1">蔽</lem><rdg resp="#resp1" wit="#wit2 #wit3">弊</rdg></app>
+<app from="#beg0687b2201" to="#end0687b2201"><lem wit="#wit8 #wit9" resp="#resp3">斯<note type="cf1">K20n0803_p1024c19</note></lem><rdg wit="#wit1">期</rdg></app>
+<app from="#beg_16" to="#end_16" corresp="#0687005"><lem wit="#wit1">蔽</lem><rdg resp="#resp1" wit="#wit2 #wit3">弊</rdg></app>
 <app from="#beg0687007" to="#end0687007"><lem wit="#wit1">心</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">以</rdg></app>
 <app from="#beg0687008" to="#end0687008"><lem wit="#wit1">知</lem><rdg resp="#resp1" wit="#wit2">心</rdg></app>
 <app from="#beg0688001" to="#end0688001"><lem wit="#wit1">等</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">苦</rdg></app>
 <app from="#beg0688002" to="#end0688002"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
 <app from="#beg0688003" to="#end0688003"><lem wit="#wit1">等</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6 #wit2 #wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0688004" to="#end0688004"><lem wit="#wit1">究</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg_25" to="#end_25" corresp="#0688003"><lem wit="#wit1">等</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6 #wit2 #wit3"><space quantity="0"/></rdg></app>
+<app from="#beg_17" to="#end_17" corresp="#0688003"><lem wit="#wit1">等</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6 #wit2 #wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0688005" to="#end0688005"><lem wit="#wit1">令</lem><rdg resp="#resp1" wit="#wit3">今</rdg></app>
 <app from="#beg0688006" to="#end0688006"><lem wit="#wit1">生歡喜</lem><rdg resp="#resp1" wit="#wit2 #wit3">故其喜</rdg></app>
 <app from="#beg0688007" to="#end0688007"><lem wit="#wit1">執</lem><rdg resp="#resp1" wit="#wit2 #wit3">熱</rdg></app>
@@ -3737,29 +3737,29 @@ Added comment  for Emacs
 <app from="#beg0689003" to="#end0689003"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit2 #wit3">辨</rdg></app>
 <app from="#beg0689004" to="#end0689004"><lem wit="#wit1">同類</lem><rdg resp="#resp1" wit="#wit2 #wit3">無量</rdg></app>
 <app from="#beg0689005" to="#end0689005"><lem wit="#wit1">同修集</lem><rdg resp="#resp1" wit="#wit5 #wit7">集同修</rdg></app>
-<app from="#beg_26" to="#end_26"><lem wit="#wit8 #wit9" resp="#resp2">修<note type="cf1">K20n0803_p1027b20</note></lem><rdg wit="#wit1">集</rdg></app>
+<app from="#beg0689b0901" to="#end0689b0901"><lem wit="#wit8 #wit9" resp="#resp3">修<note type="cf1">K20n0803_p1027b20</note></lem><rdg wit="#wit1">集</rdg></app>
 <app from="#beg0689006" to="#end0689006"><lem wit="#wit1">比</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">庀</rdg></app>
 <app from="#beg0689007" to="#end0689007"><lem wit="#wit1">凭</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6 #wit2 #wit3">憑</rdg></app>
 <app from="#beg0689008" to="#end0689008"><lem wit="#wit1">殄</lem><rdg resp="#resp1" wit="#wit3">彌</rdg></app>
 <app from="#beg0689009" to="#end0689009"><lem wit="#wit1">最</lem><rdg resp="#resp1" wit="#wit3">罪</rdg></app>
 <app from="#beg0690001" to="#end0690001"><lem wit="#wit1">有<lb n="0690a02" ed="T"/>猜</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0690002" to="#end0690002"><lem wit="#wit1">身</lem><rdg resp="#resp1" wit="#wit4 #wit6">有</rdg></app>
-<app from="#beg_27" to="#end_27"><lem wit="#wit8 #wit9" resp="#resp2">怱<note type="cf1">K20n0803_p1028c22</note></lem><rdg wit="#wit1">忽</rdg><rdg resp="#resp2" wit="#wit9">忩<note type="cf1">K20n0803_p1028c22</note></rdg></app>
+<app from="#beg0690b0501" to="#end0690b0501"><lem wit="#wit8 #wit9" resp="#resp3">怱<note type="cf1">K20n0803_p1028c22</note></lem><rdg wit="#wit1">忽</rdg><rdg resp="#resp3" wit="#wit9">忩<note type="cf1">K20n0803_p1028c22</note></rdg></app>
 <app from="#beg0691001" to="#end0691001"><lem wit="#wit1">色</lem><rdg resp="#resp1" wit="#wit6">牛</rdg></app>
 <app from="#beg0691002" to="#end0691002"><lem wit="#wit1">安</lem><rdg resp="#resp1" wit="#wit6 #wit2 #wit3">委</rdg></app>
 <app from="#beg0691003" to="#end0691003"><lem wit="#wit1">終</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">絕</rdg></app>
 <app from="#beg0691004" to="#end0691004"><lem wit="#wit1">能</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">得</rdg></app>
 <app from="#beg0691005" to="#end0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
 <app from="#beg0691006" to="#end0691006"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7">果</rdg></app>
-<app from="#beg_28" to="#end_28" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
+<app from="#beg_18" to="#end_18" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
 <app from="#beg0691007" to="#end0691007"><lem wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">上</rdg></app>
-<app from="#beg_29" to="#end_29" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_2a" cb:to="#end_2a"><corr>制</corr><sic>刺</sic></choice>
-<app from="#beg_2b" to="#end_2b" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
-<app from="#beg_2c" to="#end_2c" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
-<app from="#beg_2d" to="#end_2d" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
-<app from="#beg_2e" to="#end_2e" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
-<app from="#beg_2f" to="#end_2f" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
+<app from="#beg_19" to="#end_19" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
+<app from="#beg0692a1701" to="#end0692a1701"><lem wit="#wit8" resp="#resp3">制</lem><rdg wit="#wit1">刺</rdg></app>
+<app from="#beg_1a" to="#end_1a" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
+<app from="#beg_1b" to="#end_1b" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
+<app from="#beg_1c" to="#end_1c" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
+<app from="#beg_1d" to="#end_1d" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
+<app from="#beg_1e" to="#end_1e" corresp="#0691005"><lem wit="#wit1">深</lem><rdg resp="#resp1" wit="#wit6">染</rdg></app>
 <app from="#beg0693001" to="#end0693001"><lem wit="#wit1">茅</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">草</rdg></app>
 <app from="#beg0694001" to="#end0694001"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6 #wit2 #wit3">柁</rdg></app>
 <app from="#beg0694003" to="#end0694003"><lem wit="#wit1">大唐</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6"><space quantity="0"/></rdg><rdg resp="#resp1" wit="#wit7">唐</rdg></app>
@@ -3776,16 +3776,16 @@ Added comment  for Emacs
 <app from="#beg0696005" to="#end0696005"><lem wit="#wit1">寶</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">貪</rdg></app>
 <app from="#beg0696006" to="#end0696006"><lem wit="#wit1">得解脫</lem><rdg resp="#resp1" wit="#wit11"><space quantity="0"/></rdg></app>
 <app from="#beg0696007" to="#end0696007"><lem wit="#wit1">知：我生</lem><rdg resp="#resp1" wit="#wit11"><space quantity="0"/></rdg></app>
-<app from="#beg_30" to="#end_30" corresp="#0696005"><lem wit="#wit1">寶</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">貪</rdg></app>
+<app from="#beg_1f" to="#end_1f" corresp="#0696005"><lem wit="#wit1">寶</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">貪</rdg></app>
 <app from="#beg0696008" to="#end0696008"><lem wit="#wit1">踰</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">喻</rdg></app>
 <app from="#beg0696009" to="#end0696009"><lem wit="#wit1">饍</lem><rdg resp="#resp1" wit="#wit7">饌</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_31" cb:to="#end_31"><corr>究</corr><sic>突</sic></choice>
+<app from="#beg0696c2301" to="#end0696c2301"><lem wit="#wit8" resp="#resp2">究</lem><rdg wit="#wit1">突</rdg></app>
 <app from="#beg0697001" to="#end0697001"><lem wit="#wit1">淨</lem><rdg resp="#resp1" wit="#wit11">清</rdg></app>
 <app from="#beg0697002" to="#end0697002"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">謂</rdg></app>
 <app from="#beg0697003" to="#end0697003"><lem wit="#wit1">徑</lem><rdg resp="#resp1" wit="#wit6 #wit11">俓</rdg></app>
-<app from="#beg_32" to="#end_32"><lem wit="#wit8 #wit9" resp="#resp2">信<note type="cf1">K20n0803_p1038b03</note></lem><rdg wit="#wit1">心</rdg></app>
+<app from="#beg0697b0701" to="#end0697b0701"><lem wit="#wit8 #wit9" resp="#resp3">信<note type="cf1">K20n0803_p1038b03</note></lem><rdg wit="#wit1">心</rdg></app>
 <app from="#beg0697004" to="#end0697004"><lem wit="#wit1">拕</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit7 #wit6">柁</rdg></app>
-<app from="#beg_33" to="#end_33"><lem wit="#wit8 #wit9" resp="#resp2">辦<note type="cf1">K20n0803_p1038c09</note></lem><rdg wit="#wit1">辨</rdg></app>
+<app from="#beg0697c0901" to="#end0697c0901"><lem wit="#wit8 #wit9" resp="#resp3">辦<note type="cf1">K20n0803_p1038c09</note></lem><rdg wit="#wit1">辨</rdg></app>
 <app from="#beg0697005" to="#end0697005"><lem wit="#wit1">陀</lem><rdg resp="#resp1" wit="#wit4 #wit5 #wit6">他</rdg></app>
 <app from="#beg0698001" to="#end0698001"><lem wit="#wit1">證</lem><rdg resp="#resp1" wit="#wit6">謂</rdg></app>
 <app from="#beg0698002" to="#end0698002"><lem wit="#wit1">道</lem><rdg resp="#resp1" wit="#wit7">導</rdg></app>
@@ -3798,77 +3798,201 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0663004" resp="#resp3" type="mod" target="#nkr_note_mod_0663004">已業＝業已【宋】【元】【明】【宮】</note>
-<note n="0663005" resp="#resp3" type="mod" target="#nkr_note_mod_0663005">業＋（因緣既正了知諸業）【宋】【元】【明】【宮】</note>
-<note n="0663007" resp="#resp3" type="mod" target="#nkr_note_mod_0663007">〔業異熟〕－【宋】【元】【明】【宮】</note>
-<note n="0664002" resp="#resp3" type="mod" target="#nkr_note_mod_0664002">反＝返【宋】【元】【明】【宮】【聖乙】＊</note>
-<note n="0664004" resp="#resp3" type="mod" target="#nkr_note_mod_0664004">墮落＝落墮【宋】【宮】，＝隨落【元】【明】</note>
-<note n="0664006" resp="#resp3" type="mod" target="#nkr_note_mod_0664006">拕＝柁【宋】【元】【明】【宮】＊</note>
-<note n="0665001" resp="#resp3" type="mod" target="#nkr_note_mod_0665001">於＝捨【宋】【元】【明】【宮】</note>
-<note n="0665002" resp="#resp3" type="mod" target="#nkr_note_mod_0665002">（吾從世尊聞如是語苾芻當知若諸有情永斷一法我證彼定得不還果云何一法謂是於欲所以者何一切有情由欲染故數數還來墮諸惡趣受生死苦若能永斷如是一法我證彼定得不還果不復還來生此世間是故我說若諸有情永斷一法我證彼定得不還果爾時世尊重攝此義而說頌曰　我觀諸有情，由欲之所染，還來墮惡道，受生死輪迴，若能正了知，永斷此欲者，定得不還果，不來生世間）＋吾【宋】【元】【明】【宮】</note>
-<note n="0665003" resp="#resp3" type="mod" target="#nkr_note_mod_0665003">此＝世【宋】【元】【明】【宮】</note>
-<note n="0665004" resp="#resp3" type="mod" target="#nkr_note_mod_0665004">（吾從世尊聞如是語苾芻當知若諸有情永斷一法我證彼定得不還果云何一法謂是於恚所以者何一切有情由恚染故數數還來墮諸惡趣受生死苦若能永斷如是一法我證彼定得不還果不復還來生此世間是故我說若諸有情永斷一法我證彼定得不還果爾時世尊重攝此義而說頌曰　我觀諸有情，由恚之所染，還來墮惡趣，受生死輪迴，若能正了知，永斷此恚者，定得不還果，不來生此間）＋吾【宋】【元】【明】【宮】</note>
-<note n="0665005" resp="#resp3" type="mod" target="#nkr_note_mod_0665005">此＝死【宋】【元】【明】【宮】</note>
-<note n="0666001" resp="#resp3" type="mod" target="#nkr_note_mod_0666001">耽＝嗜【宋】【元】【明】【宮】＊</note>
-<note n="0666002" resp="#resp3" type="mod" target="#nkr_note_mod_0666002">惱及＝及惱【宋】【元】【明】【宮】</note>
-<note n="0666004" resp="#resp3" type="mod" target="#nkr_note_mod_0666004">〔故〕－【宋】【元】【明】【宮】【麗-CB】【CB】</note>
-<note n="0667002" resp="#resp3" type="mod" target="#nkr_note_mod_0667002">說＝證【元】【明】【磧砂-CB】【CB】</note>
-<note n="0667004" resp="#resp3" type="mod" target="#nkr_note_mod_0667004">世＝此【宋】【元】【明】【宮】【磧砂-CB】【CB】</note>
-<note n="0668006" resp="#resp3" type="mod" target="#nkr_note_mod_0668006">偈言＝頌曰【宋】【元】【明】【宮】</note>
-<note n="0669001" resp="#resp3" type="mod" target="#nkr_note_mod_0669001">有＝能【宋】【元】【明】【宮】【聖】</note>
-<note n="0669002" resp="#resp3" type="mod" target="#nkr_note_mod_0669002">彼於＝於彼【宋】【元】【明】【宮】</note>
-<note n="0670001" resp="#resp3" type="mod" target="#nkr_note_mod_0670001">實＝是【宋】【元】【明】【宮】</note>
-<note n="0670002" resp="#resp3" type="mod" target="#nkr_note_mod_0670002">拕＝柁【宋】【元】【明】【宮】【聖】</note>
-<note n="0670003" resp="#resp3" type="mod" target="#nkr_note_mod_0670003">恚＝瞋【宋】【元】【明】【宮】</note>
-<note n="0670004" resp="#resp3" type="mod" target="#nkr_note_mod_0670004">光＝德【宋】【元】【明】【宮】</note>
-<note n="0671005" resp="#resp3" type="mod" target="#nkr_note_mod_0671005">上＝安【宋】【元】【明】【宮】【聖】</note>
-<note n="0673001" resp="#resp3" type="mod" target="#nkr_note_mod_0673001">卷＝捲【宋】【元】【明】【宮】【聖】</note>
-<note n="0673008" resp="#resp3" type="mod" target="#nkr_note_mod_0673008">自能＝能自【宋】【元】【明】【宮】</note>
-<note n="0673009" resp="#resp3" type="mod" target="#nkr_note_mod_0673009">唯＝惟【宋】【元】【明】【宮】下同</note>
-<note n="0674006" resp="#resp3" type="mod" target="#nkr_note_mod_0674006">諸＝謂【宋】【元】【明】【宮】</note>
-<note n="0675002" resp="#resp3" type="mod" target="#nkr_note_mod_0675002">杖＝仗【宋】【元】【明】【宮】</note>
-<note n="0675005" resp="#resp3" type="mod" target="#nkr_note_mod_0675005">法＝故【宋】【元】【明】【宮】</note>
-<note n="0675006" resp="#resp3" type="mod" target="#nkr_note_mod_0675006">生＝彼【宋】【元】【明】【宮】【聖】【聖乙】</note>
-<note n="0676001" resp="#resp3" type="mod" target="#nkr_note_mod_0676001">已＝故【宋】【元】【明】【宮】</note>
-<note n="0676002" resp="#resp3" type="mod" target="#nkr_note_mod_0676002">知＝智【宋】【元】【明】【宮】</note>
-<note n="0677001" resp="#resp3" type="mod" target="#nkr_note_mod_0677001"><!--CBETA todo type: a-->等＋（雖復…性）六百五十六字【宋】【元】【明】【宮】【聖】【聖乙】卷末出之 cf. p. 678</note>
-<note n="0677002" resp="#resp3" type="mod" target="#nkr_note_mod_0677002">諸＝除【宋】【元】【明】【宮】</note>
-<note n="0677004" resp="#resp3" type="mod" target="#nkr_note_mod_0677004">〔挍正…云〕四百十四字－【宋】【元】【明】【宮】</note>
-<note n="0679003" resp="#resp3" type="mod" target="#nkr_note_mod_0679003">他＝陀【宋】【元】【明】【宮】</note>
-<note n="0679004" resp="#resp3" type="mod" target="#nkr_note_mod_0679004">諸＝謂【宋】【元】【明】【宮】</note>
-<note n="0679005" resp="#resp3" type="mod" target="#nkr_note_mod_0679005">耽＝貪【宋】【元】【明】【宮】</note>
-<note n="0680003" resp="#resp3" type="mod" target="#nkr_note_mod_0680003">拕＝柁【宋】【元】【明】【宮】＊</note>
-<note n="0681001" resp="#resp3" type="mod" target="#nkr_note_mod_0681001">慼＝戚【宋】【元】【明】【宮】</note>
-<note n="0681002" resp="#resp3" type="mod" target="#nkr_note_mod_0681002">密＝察【宋】【元】【明】【宮】</note>
-<note n="0684001" resp="#resp3" type="mod" target="#nkr_note_mod_0684001">謂＝諸【宋】【元】【明】【宮】</note>
-<note n="0684002" resp="#resp3" type="mod" target="#nkr_note_mod_0684002">他＝陀【宋】【元】【明】【宮】</note>
-<note n="0684003" resp="#resp3" type="mod" target="#nkr_note_mod_0684003">祀＝祠【宋】【元】【明】【宮】＊</note>
-<note n="0684005" resp="#resp3" type="mod" target="#nkr_note_mod_0684005">亡＝忘【宋】【元】【明】【宮】</note>
-<note n="0684007" resp="#resp3" type="mod" target="#nkr_note_mod_0684007">名＝多【宋】【元】【明】【宮】</note>
-<note n="0687002" resp="#resp3" type="mod" target="#nkr_note_mod_0687002">種＝法【宋】【元】【明】【宮】</note>
-<note n="0687007" resp="#resp3" type="mod" target="#nkr_note_mod_0687007">心＝以【宋】【元】【明】【宮】</note>
-<note n="0688001" resp="#resp3" type="mod" target="#nkr_note_mod_0688001">等＝苦【宋】【元】【明】【宮】</note>
-<note n="0688003" resp="#resp3" type="mod" target="#nkr_note_mod_0688003">〔等〕－【宋】【元】【明】【宮】【聖】【聖乙】＊</note>
-<note n="0688009" resp="#resp3" type="mod" target="#nkr_note_mod_0688009">解＝能【宋】【元】【明】【宮】</note>
-<note n="0688010" resp="#resp3" type="mod" target="#nkr_note_mod_0688010">拕＝柁【宋】【元】【明】【宮】【聖】【聖乙】</note>
-<note n="0689006" resp="#resp3" type="mod" target="#nkr_note_mod_0689006">比＝庀【宋】【元】【明】【宮】</note>
-<note n="0689007" resp="#resp3" type="mod" target="#nkr_note_mod_0689007">凭＝憑【宋】【元】【明】【宮】【聖】【聖乙】</note>
-<note n="0691003" resp="#resp3" type="mod" target="#nkr_note_mod_0691003">終＝絕【宋】【元】【明】【宮】</note>
-<note n="0691004" resp="#resp3" type="mod" target="#nkr_note_mod_0691004">能＝得【宋】【元】【明】【宮】</note>
-<note n="0691006" resp="#resp3" type="mod" target="#nkr_note_mod_0691006">法＝果【宋】【元】【明】</note>
-<note n="0691007" resp="#resp3" type="mod" target="#nkr_note_mod_0691007">生＝上【宋】【元】【明】【宮】</note>
-<note n="0693001" resp="#resp3" type="mod" target="#nkr_note_mod_0693001">茅＝草【宋】【元】【明】【宮】</note>
-<note n="0694001" resp="#resp3" type="mod" target="#nkr_note_mod_0694001">拕＝柁【宋】【元】【明】【宮】【聖】【聖乙】</note>
-<note n="0694004" resp="#resp3" type="mod" target="#nkr_note_mod_0694004">慳悋＝悋慳【宋】【元】【明】【宮】</note>
-<note n="0695004" resp="#resp3" type="mod" target="#nkr_note_mod_0695004">如＝知【宋】【元】【明】【宮】</note>
-<note n="0696001" resp="#resp3" type="mod" target="#nkr_note_mod_0696001">或＝成【宋】【元】【明】【宮】</note>
-<note n="0696005" resp="#resp3" type="mod" target="#nkr_note_mod_0696005">寶＝貪【宋】【元】【明】【宮】＊</note>
-<note n="0696008" resp="#resp3" type="mod" target="#nkr_note_mod_0696008">踰＝喻【宋】【元】【明】【宮】</note>
-<note n="0697002" resp="#resp3" type="mod" target="#nkr_note_mod_0697002">諸＝謂【宋】【元】【明】【宮】</note>
-<note n="0697004" resp="#resp3" type="mod" target="#nkr_note_mod_0697004">拕＝柁【宋】【元】【明】【宮】</note>
-<note n="0698003" resp="#resp3" type="mod" target="#nkr_note_mod_0698003">貴＝重【宋】【元】【明】【宮】</note>
-<note n="0698004" resp="#resp3" type="mod" target="#nkr_note_mod_0698004">〔歲〕－【宋】【元】【明】【宮】【久】</note>
-<note n="0699001" resp="#resp3" type="mod" target="#nkr_note_mod_0699001">諸＝汝【宋】【元】【明】【宮】</note>
+<note n="0662002" resp="#resp2" type="mod" target="#nkr_note_mod_0662002">卷【大】，〔－〕【聖】【聖乙】</note>
+<note n="0662003" resp="#resp2" type="mod" target="#nkr_note_mod_0662003">大唐【大】，〔－〕【宋】【元】【宮】【聖】【聖乙】，唐【明】</note>
+<note n="0662004" resp="#resp2" type="mod" target="#nkr_note_mod_0662004">三藏法師【大】，沙門【聖】</note>
+<note n="0662005" resp="#resp2" type="mod" target="#nkr_note_mod_0662005">詔【大】，制【聖】【聖乙】</note>
+<note n="0662006" resp="#resp2" type="mod" target="#nkr_note_mod_0662006">一法【大】，本事經一法【宋】【元】【宮】</note>
+<note n="0662007" resp="#resp2" type="mod" target="#nkr_note_mod_0662007">第一【大】，〔－〕【聖】【聖乙】</note>
+<note n="0662008" resp="#resp2" type="mod" target="#nkr_note_mod_0662008">之一【大】，〔－〕【宋】【元】【宮】【聖】【聖乙】</note>
+<note n="0662009" resp="#resp2" type="mod" target="#nkr_note_mod_0662009">途【大】，遠【宮】</note>
+<note n="0662010" resp="#resp2" type="mod" target="#nkr_note_mod_0662010">刀【大】，力【聖】【聖乙】</note>
+<note n="0662011" resp="#resp2" type="mod" target="#nkr_note_mod_0662011">縛【大】，結【聖】【聖乙】</note>
+<note n="0663001" resp="#resp2" type="mod" target="#nkr_note_mod_0663001">行履如是【大】，〔－〕【宋】【宮】</note>
+<note n="0663002" resp="#resp2" type="mod" target="#nkr_note_mod_0663002">生【大】，生於【聖】【聖乙】</note>
+<note n="0663003" resp="#resp2" type="mod" target="#nkr_note_mod_0663003">界【大】，〔－〕【聖】【聖乙】</note>
+<note n="0663004" resp="#resp2" type="mod" target="#nkr_note_mod_0663004">已業【大】，業已【宋】【元】【明】【宮】</note>
+<note n="0663005" resp="#resp2" type="mod" target="#nkr_note_mod_0663005">業【大】，業因緣既正了知諸業【宋】【元】【明】【宮】</note>
+<note n="0663006" resp="#resp2" type="mod" target="#nkr_note_mod_0663006">謂【大】，諸【聖】【聖乙】</note>
+<note n="0663007" resp="#resp2" type="mod" target="#nkr_note_mod_0663007">業異熟【大】，〔－〕【宋】【元】【明】【宮】</note>
+<note n="0663008" resp="#resp2" type="mod" target="#nkr_note_mod_0663008">修【大】，能【宋】【宮】</note>
+<note n="0664001" resp="#resp2" type="mod" target="#nkr_note_mod_0664001">陵【大】＊，凌【元】【明】＊</note>
+<note n="0664002" resp="#resp2" type="mod" target="#nkr_note_mod_0664002">反【大】＊，返【宋】【元】【明】【宮】【聖乙】＊</note>
+<note n="0664003" resp="#resp2" type="mod" target="#nkr_note_mod_0664003">癡【大】，鈍【聖】【聖乙】</note>
+<note n="0664004" resp="#resp2" type="mod" target="#nkr_note_mod_0664004">墮落【大】，落墮【宋】【宮】，隨落【元】【明】</note>
+<note n="0664005" resp="#resp2" type="mod" target="#nkr_note_mod_0664005">令【大】，今【聖乙】</note>
+<note n="0664006" resp="#resp2" type="mod" target="#nkr_note_mod_0664006">拕【大】＊，柁【宋】【元】【明】【宮】＊</note>
+<note n="0665001" resp="#resp2" type="mod" target="#nkr_note_mod_0665001">於【大】，捨【宋】【元】【明】【宮】</note>
+<note n="0665002" resp="#resp2" type="mod" target="#nkr_note_mod_0665002">吾【大】，（吾從世尊聞如是語苾芻當知若諸有情永斷一法我證彼定得不還果云何一法謂是於欲所以者何一切有情由欲染故數數還來墮諸惡趣受生死苦若能永斷如是一法我證彼定得不還果不復還來生此世間是故我說若諸有情永斷一法我證彼定得不還果爾時世尊重攝此義而說頌曰　我觀諸有情，由欲之所染，還來墮惡道，受生死輪迴，若能正了知，永斷此欲者，定得不還果，不來生世間吾）【宋】【元】【明】【宮】</note>
+<note n="0665003" resp="#resp2" type="mod" target="#nkr_note_mod_0665003">此【大】，世【宋】【元】【明】【宮】</note>
+<note n="0665004" resp="#resp2" type="mod" target="#nkr_note_mod_0665004">吾【大】，（吾從世尊聞如是語苾芻當知若諸有情永斷一法我證彼定得不還果云何一法謂是於恚所以者何一切有情由恚染故數數還來墮諸惡趣受生死苦若能永斷如是一法我證彼定得不還果不復還來生此世間是故我說若諸有情永斷一法我證彼定得不還果爾時世尊重攝此義而說頌曰　我觀諸有情，由恚之所染，還來墮惡趣，受生死輪迴，若能正了知，永斷此恚者，定得不還果，不來生此間吾）【宋】【元】【明】【宮】</note>
+<note n="0665005" resp="#resp2" type="mod" target="#nkr_note_mod_0665005">此【大】，死【宋】【元】【明】【宮】</note>
+<note n="0666001" resp="#resp2" type="mod" target="#nkr_note_mod_0666001">耽【大】＊，嗜【宋】【元】【明】【宮】＊</note>
+<note n="0666002" resp="#resp2" type="mod" target="#nkr_note_mod_0666002">惱及【大】，及惱【宋】【元】【明】【宮】</note>
+<note n="0666004" resp="#resp2" type="mod" target="#nkr_note_mod_0666004">〔－〕【CB】【麗-CB】【宋】【元】【明】【宮】，故【大】</note>
+<note n="0667001" resp="#resp2" type="mod" target="#nkr_note_mod_0667001">世【大】＊，〔－〕【宮】＊</note>
+<note n="0667002" resp="#resp2" type="mod" target="#nkr_note_mod_0667002">證【CB】【磧-CB】【元】【明】，說【大】</note>
+<note n="0667003" resp="#resp2" type="mod" target="#nkr_note_mod_0667003">生【大】，至【宋】【宮】</note>
+<note n="0667004" resp="#resp2" type="mod" target="#nkr_note_mod_0667004">此【CB】【磧-CB】【宋】【元】【明】【宮】，世【大】</note>
+<note n="0667005" resp="#resp2" type="mod" target="#nkr_note_mod_0667005">惡趣【大】，諸惡【宋】【宮】</note>
+<note n="0667006" resp="#resp2" type="mod" target="#nkr_note_mod_0667006">念安般【大】，安般故【宋】【元】【宮】</note>
+<note n="0668002" resp="#resp2" type="mod" target="#nkr_note_mod_0668002">大唐【大】，〔－〕【宋】【元】【宮】【聖】，唐【明】</note>
+<note n="0668003" resp="#resp2" type="mod" target="#nkr_note_mod_0668003">詔【大】，制【聖】</note>
+<note n="0668004" resp="#resp2" type="mod" target="#nkr_note_mod_0668004">一法【大】，本事經一法【聖】</note>
+<note n="0668005" resp="#resp2" type="mod" target="#nkr_note_mod_0668005">彼於【大】，於彼【聖】</note>
+<note n="0668006" resp="#resp2" type="mod" target="#nkr_note_mod_0668006">偈言【大】，頌曰【宋】【元】【明】【宮】</note>
+<note n="0669001" resp="#resp2" type="mod" target="#nkr_note_mod_0669001">有【大】，能【宋】【元】【明】【宮】【聖】</note>
+<note n="0669002" resp="#resp2" type="mod" target="#nkr_note_mod_0669002">彼於【大】，於彼【宋】【元】【明】【宮】</note>
+<note n="0669003" resp="#resp2" type="mod" target="#nkr_note_mod_0669003">遙【大】，遠【元】</note>
+<note n="0669004" resp="#resp2" type="mod" target="#nkr_note_mod_0669004">能【大】，得【明】</note>
+<note n="0670001" resp="#resp2" type="mod" target="#nkr_note_mod_0670001">實【大】，是【宋】【元】【明】【宮】</note>
+<note n="0670002" resp="#resp2" type="mod" target="#nkr_note_mod_0670002">拕【大】，柁【宋】【元】【明】【宮】【聖】</note>
+<note n="0670003" resp="#resp2" type="mod" target="#nkr_note_mod_0670003">恚【大】，瞋【宋】【元】【明】【宮】</note>
+<note n="0670004" resp="#resp2" type="mod" target="#nkr_note_mod_0670004">光【大】，德【宋】【元】【明】【宮】</note>
+<note n="0671001" resp="#resp2" type="mod" target="#nkr_note_mod_0671001">狂【大】，犯【聖】</note>
+<note n="0671002" resp="#resp2" type="mod" target="#nkr_note_mod_0671002">被【大】，彼【聖】</note>
+<note n="0671003" resp="#resp2" type="mod" target="#nkr_note_mod_0671003">苦【大】，善【宮】</note>
+<note n="0671004" resp="#resp2" type="mod" target="#nkr_note_mod_0671004">守【大】，持【元】【明】【聖】</note>
+<note n="0671005" resp="#resp2" type="mod" target="#nkr_note_mod_0671005">上【大】，安【宋】【元】【明】【宮】【聖】</note>
+<note n="0672001" resp="#resp2" type="mod" target="#nkr_note_mod_0672001">知【大】，如【宋】【元】【宮】</note>
+<note n="0673001" resp="#resp2" type="mod" target="#nkr_note_mod_0673001">卷【大】，捲【宋】【元】【明】【宮】【聖】</note>
+<note n="0673002" resp="#resp2" type="mod" target="#nkr_note_mod_0673002">具【大】，其【聖】</note>
+<note n="0673004" resp="#resp2" type="mod" target="#nkr_note_mod_0673004">大唐【大】＊，〔－〕【宋】【元】【宮】【聖乙】＊，唐【明】＊</note>
+<note n="0673005" resp="#resp2" type="mod" target="#nkr_note_mod_0673005">詔【大】＊，制【聖乙】＊</note>
+<note n="0673006" resp="#resp2" type="mod" target="#nkr_note_mod_0673006">之一【大】，〔－〕【聖乙】</note>
+<note n="0673007" resp="#resp2" type="mod" target="#nkr_note_mod_0673007">與【大】，於【明】</note>
+<note n="0673008" resp="#resp2" type="mod" target="#nkr_note_mod_0673008">自能【大】，能自【宋】【元】【明】【宮】</note>
+<note n="0673009" resp="#resp2" type="mod" target="#nkr_note_mod_0673009">唯【大】下同，惟【宋】【元】【明】【宮】下同</note>
+<note n="0673010" resp="#resp2" type="mod" target="#nkr_note_mod_0673010">楚【大】，梵【聖】【聖乙】</note>
+<note n="0673011" resp="#resp2" type="mod" target="#nkr_note_mod_0673011">往【大】，生【宋】【元】【宮】【聖】</note>
+<note n="0674001" resp="#resp2" type="mod" target="#nkr_note_mod_0674001">罪【大】，福【宋】【明】【宮】</note>
+<note n="0674002" resp="#resp2" type="mod" target="#nkr_note_mod_0674002">擔【大】＊，檐【元】【明】＊</note>
+<note n="0674003" resp="#resp2" type="mod" target="#nkr_note_mod_0674003">悲【大】，慧【聖】【聖乙】</note>
+<note n="0674004" resp="#resp2" type="mod" target="#nkr_note_mod_0674004">惱【大】，悔【宋】【宮】</note>
+<note n="0674005" resp="#resp2" type="mod" target="#nkr_note_mod_0674005">擔【大】＊，檐【明】＊</note>
+<note n="0674006" resp="#resp2" type="mod" target="#nkr_note_mod_0674006">諸【大】，謂【宋】【元】【明】【宮】</note>
+<note n="0674007" resp="#resp2" type="mod" target="#nkr_note_mod_0674007">行【大】，門【宮】</note>
+<note n="0675001" resp="#resp2" type="mod" target="#nkr_note_mod_0675001">應【大】，慧【聖】【聖乙】</note>
+<note n="0675002" resp="#resp2" type="mod" target="#nkr_note_mod_0675002">杖【大】，仗【宋】【元】【明】【宮】</note>
+<note n="0675003" resp="#resp2" type="mod" target="#nkr_note_mod_0675003">感【大】，威【聖乙】</note>
+<note n="0675004" resp="#resp2" type="mod" target="#nkr_note_mod_0675004">令【大】＊，今【聖乙】＊</note>
+<note n="0675005" resp="#resp2" type="mod" target="#nkr_note_mod_0675005">法【大】，故【宋】【元】【明】【宮】</note>
+<note n="0675006" resp="#resp2" type="mod" target="#nkr_note_mod_0675006">生【大】，彼【宋】【元】【明】【宮】【聖】【聖乙】</note>
+<note n="0676001" resp="#resp2" type="mod" target="#nkr_note_mod_0676001">已【大】，故【宋】【元】【明】【宮】</note>
+<note n="0676002" resp="#resp2" type="mod" target="#nkr_note_mod_0676002">知【大】，智【宋】【元】【明】【宮】</note>
+<note n="0676003" resp="#resp2" type="mod" target="#nkr_note_mod_0676003">寶【大】，貴【宋】【元】【宮】</note>
+<note n="0676004" resp="#resp2" type="mod" target="#nkr_note_mod_0676004">脫【大】，既【聖乙】</note>
+<note n="0677001" resp="#resp2" type="mod" target="#nkr_note_mod_0677001"><!--CBETA todo type: a--><!--CBETA todo type: newmod-->等＋（雖復…性）六百五十六字【宋】【元】【明】【宮】【聖】【聖乙】卷末出之 cf. p. 678</note>
+<note n="0677002" resp="#resp2" type="mod" target="#nkr_note_mod_0677002">諸【大】，除【宋】【元】【明】【宮】</note>
+<note n="0677004" resp="#resp2" type="mod" target="#nkr_note_mod_0677004">（挍正…云）四百十四字【大】，〔－〕【宋】【元】【明】【宮】</note>
+<note n="0678002" resp="#resp2" type="mod" target="#nkr_note_mod_0678002">令【大】，今【聖乙】</note>
+<note n="0678003" resp="#resp2" type="mod" target="#nkr_note_mod_0678003">惟【大】，唯【聖】【聖乙】</note>
+<note n="0679001" resp="#resp2" type="mod" target="#nkr_note_mod_0679001">慮【大】，虛【聖乙】</note>
+<note n="0679002" resp="#resp2" type="mod" target="#nkr_note_mod_0679002">巧【大】，〔－〕【聖乙】</note>
+<note n="0679003" resp="#resp2" type="mod" target="#nkr_note_mod_0679003">他【大】，陀【宋】【元】【明】【宮】</note>
+<note n="0679004" resp="#resp2" type="mod" target="#nkr_note_mod_0679004">諸【大】，謂【宋】【元】【明】【宮】</note>
+<note n="0679005" resp="#resp2" type="mod" target="#nkr_note_mod_0679005">耽【大】，貪【宋】【元】【明】【宮】</note>
+<note n="0679006" resp="#resp2" type="mod" target="#nkr_note_mod_0679006">令【大】，今【宋】【宮】</note>
+<note n="0680001" resp="#resp2" type="mod" target="#nkr_note_mod_0680001">死【大】＊，無【聖乙】＊</note>
+<note n="0680002" resp="#resp2" type="mod" target="#nkr_note_mod_0680002">當【大】，常【宋】【宮】</note>
+<note n="0680003" resp="#resp2" type="mod" target="#nkr_note_mod_0680003">拕【大】＊，柁【宋】【元】【明】【宮】＊</note>
+<note n="0680004" resp="#resp2" type="mod" target="#nkr_note_mod_0680004">白淨【大】，自淨淨【聖乙】</note>
+<note n="0680005" resp="#resp2" type="mod" target="#nkr_note_mod_0680005">力【大】，刀【聖乙】</note>
+<note n="0681001" resp="#resp2" type="mod" target="#nkr_note_mod_0681001">慼【大】，戚【宋】【元】【明】【宮】</note>
+<note n="0681002" resp="#resp2" type="mod" target="#nkr_note_mod_0681002">密【大】，察【宋】【元】【明】【宮】</note>
+<note n="0681003" resp="#resp2" type="mod" target="#nkr_note_mod_0681003">減【大】＊，滅【宮】＊</note>
+<note n="0681004" resp="#resp2" type="mod" target="#nkr_note_mod_0681004">愛【大】，受【聖乙】</note>
+<note n="0682001" resp="#resp2" type="mod" target="#nkr_note_mod_0682001">真【大】，直【聖乙】</note>
+<note n="0682002" resp="#resp2" type="mod" target="#nkr_note_mod_0682002">債【大】，責【聖乙】</note>
+<note n="0682003" resp="#resp2" type="mod" target="#nkr_note_mod_0682003">毀【大】，誹【明】</note>
+<note n="0682004" resp="#resp2" type="mod" target="#nkr_note_mod_0682004">曾【大】，會【明】</note>
+<note n="0682005" resp="#resp2" type="mod" target="#nkr_note_mod_0682005">有【大】，彼【元】【明】</note>
+<note n="0682006" resp="#resp2" type="mod" target="#nkr_note_mod_0682006">闇【大】，闍【聖乙】</note>
+<note n="0683001" resp="#resp2" type="mod" target="#nkr_note_mod_0683001">（吾從…無）十七字【大】，〔－〕【聖乙】</note>
+<note n="0683002" resp="#resp2" type="mod" target="#nkr_note_mod_0683002">生【大】，母【宋】【元】</note>
+<note n="0683003" resp="#resp2" type="mod" target="#nkr_note_mod_0683003">惠【大】，慧【聖乙】</note>
+<note n="0683004" resp="#resp2" type="mod" target="#nkr_note_mod_0683004">酥【大】下同，蘇【宋】【宮】【聖】【聖乙】下同</note>
+<note n="0683005" resp="#resp2" type="mod" target="#nkr_note_mod_0683005">定【大】，足【聖乙】</note>
+<note n="0684001" resp="#resp2" type="mod" target="#nkr_note_mod_0684001">謂【大】，諸【宋】【元】【明】【宮】</note>
+<note n="0684002" resp="#resp2" type="mod" target="#nkr_note_mod_0684002">他【大】，陀【宋】【元】【明】【宮】</note>
+<note n="0684003" resp="#resp2" type="mod" target="#nkr_note_mod_0684003">祀【大】＊，祠【宋】【元】【明】【宮】＊</note>
+<note n="0684004" resp="#resp2" type="mod" target="#nkr_note_mod_0684004">田【大】，思【聖】【聖乙】</note>
+<note n="0684005" resp="#resp2" type="mod" target="#nkr_note_mod_0684005">亡【大】，忘【宋】【元】【明】【宮】</note>
+<note n="0684006" resp="#resp2" type="mod" target="#nkr_note_mod_0684006">所【大】，不【聖】【聖乙】</note>
+<note n="0684007" resp="#resp2" type="mod" target="#nkr_note_mod_0684007">名【大】，多【宋】【元】【明】【宮】</note>
+<note n="0684008" resp="#resp2" type="mod" target="#nkr_note_mod_0684008">諸【大】，語【聖】【聖乙】</note>
+<note n="0684009" resp="#resp2" type="mod" target="#nkr_note_mod_0684009">不【大】，下【聖】【聖乙】</note>
+<note n="0684010" resp="#resp2" type="mod" target="#nkr_note_mod_0684010">苾芻【大】，是苾芻【聖】【聖乙】</note>
+<note n="0685001" resp="#resp2" type="mod" target="#nkr_note_mod_0685001">法【大】，種【宮】</note>
+<note n="0685002" resp="#resp2" type="mod" target="#nkr_note_mod_0685002">業【大】，滅【宋】【元】【宮】</note>
+<note n="0685003" resp="#resp2" type="mod" target="#nkr_note_mod_0685003">相【大】，者【宋】</note>
+<note n="0686001" resp="#resp2" type="mod" target="#nkr_note_mod_0686001">甞【大】＊，當【聖】【聖乙】＊</note>
+<note n="0686002" resp="#resp2" type="mod" target="#nkr_note_mod_0686002">堰【大】＊，偃【聖】【聖乙】＊</note>
+<note n="0687001" resp="#resp2" type="mod" target="#nkr_note_mod_0687001">堰【大】，優【聖】【聖乙】</note>
+<note n="0687002" resp="#resp2" type="mod" target="#nkr_note_mod_0687002">種【大】，法【宋】【元】【明】【宮】</note>
+<note n="0687003" resp="#resp2" type="mod" target="#nkr_note_mod_0687003">他【大】，地【聖】【聖乙】</note>
+<note n="0687004" resp="#resp2" type="mod" target="#nkr_note_mod_0687004">不【大】，極【明】</note>
+<note n="0687005" resp="#resp2" type="mod" target="#nkr_note_mod_0687005">蔽【大】＊，弊【聖】【聖乙】＊</note>
+<note n="0687006" resp="#resp2" type="mod" target="#nkr_note_mod_0687006">其【大】，在【宋】【元】【宮】</note>
+<note n="0687007" resp="#resp2" type="mod" target="#nkr_note_mod_0687007">心【大】，以【宋】【元】【明】【宮】</note>
+<note n="0687008" resp="#resp2" type="mod" target="#nkr_note_mod_0687008">知【大】，心【聖】</note>
+<note n="0688001" resp="#resp2" type="mod" target="#nkr_note_mod_0688001">等【大】，苦【宋】【元】【明】【宮】</note>
+<note n="0688002" resp="#resp2" type="mod" target="#nkr_note_mod_0688002">有【大】，〔－〕【宮】</note>
+<note n="0688003" resp="#resp2" type="mod" target="#nkr_note_mod_0688003">等【大】＊，〔－〕【宋】【元】【明】【宮】【聖】【聖乙】＊</note>
+<note n="0688004" resp="#resp2" type="mod" target="#nkr_note_mod_0688004">究【大】，〔－〕【聖】</note>
+<note n="0688005" resp="#resp2" type="mod" target="#nkr_note_mod_0688005">令【大】，今【聖乙】</note>
+<note n="0688006" resp="#resp2" type="mod" target="#nkr_note_mod_0688006">生歡喜【大】，故其喜【聖】【聖乙】</note>
+<note n="0688007" resp="#resp2" type="mod" target="#nkr_note_mod_0688007">執【大】，熱【聖】【聖乙】</note>
+<note n="0688008" resp="#resp2" type="mod" target="#nkr_note_mod_0688008">四如實【大】，如四實【宮】</note>
+<note n="0688009" resp="#resp2" type="mod" target="#nkr_note_mod_0688009">解【大】，能【宋】【元】【明】【宮】</note>
+<note n="0688010" resp="#resp2" type="mod" target="#nkr_note_mod_0688010">拕【大】，柁【宋】【元】【明】【宮】【聖】【聖乙】</note>
+<note n="0689001" resp="#resp2" type="mod" target="#nkr_note_mod_0689001">之一【大】，〔－〕【宋】【元】【宮】【聖乙】</note>
+<note n="0689002" resp="#resp2" type="mod" target="#nkr_note_mod_0689002">衍【大】，行【聖】【聖乙】</note>
+<note n="0689003" resp="#resp2" type="mod" target="#nkr_note_mod_0689003">辯【大】，辨【聖】【聖乙】</note>
+<note n="0689004" resp="#resp2" type="mod" target="#nkr_note_mod_0689004">同類【大】，無量【聖】【聖乙】</note>
+<note n="0689005" resp="#resp2" type="mod" target="#nkr_note_mod_0689005">同修集【大】，集同修【元】【明】</note>
+<note n="0689006" resp="#resp2" type="mod" target="#nkr_note_mod_0689006">比【大】，庀【宋】【元】【明】【宮】</note>
+<note n="0689007" resp="#resp2" type="mod" target="#nkr_note_mod_0689007">凭【大】，憑【宋】【元】【明】【宮】【聖】【聖乙】</note>
+<note n="0689008" resp="#resp2" type="mod" target="#nkr_note_mod_0689008">殄【大】，彌【聖乙】</note>
+<note n="0689009" resp="#resp2" type="mod" target="#nkr_note_mod_0689009">最【大】，罪【聖乙】</note>
+<note n="0690001" resp="#resp2" type="mod" target="#nkr_note_mod_0690001">有猜【大】，〔－〕【聖】【聖乙】</note>
+<note n="0690002" resp="#resp2" type="mod" target="#nkr_note_mod_0690002">身【大】，有【宋】【宮】</note>
+<note n="0691001" resp="#resp2" type="mod" target="#nkr_note_mod_0691001">色【大】，牛【宮】</note>
+<note n="0691002" resp="#resp2" type="mod" target="#nkr_note_mod_0691002">安【大】，委【宮】【聖】【聖乙】</note>
+<note n="0691003" resp="#resp2" type="mod" target="#nkr_note_mod_0691003">終【大】，絕【宋】【元】【明】【宮】</note>
+<note n="0691004" resp="#resp2" type="mod" target="#nkr_note_mod_0691004">能【大】，得【宋】【元】【明】【宮】</note>
+<note n="0691005" resp="#resp2" type="mod" target="#nkr_note_mod_0691005">深【大】＊，染【宮】＊</note>
+<note n="0691006" resp="#resp2" type="mod" target="#nkr_note_mod_0691006">法【大】，果【宋】【元】【明】</note>
+<note n="0691007" resp="#resp2" type="mod" target="#nkr_note_mod_0691007">生【大】，上【宋】【元】【明】【宮】</note>
+<note n="0693001" resp="#resp2" type="mod" target="#nkr_note_mod_0693001">茅【大】，草【宋】【元】【明】【宮】</note>
+<note n="0694001" resp="#resp2" type="mod" target="#nkr_note_mod_0694001">拕【大】，柁【宋】【元】【明】【宮】【聖】【聖乙】</note>
+<note n="0694003" resp="#resp2" type="mod" target="#nkr_note_mod_0694003">大唐【大】，〔－〕【宋】【元】【宮】，唐【明】</note>
+<note n="0694004" resp="#resp2" type="mod" target="#nkr_note_mod_0694004">慳悋【大】，悋慳【宋】【元】【明】【宮】</note>
+<note n="0694005" resp="#resp2" type="mod" target="#nkr_note_mod_0694005">時【大】，〔－〕【明】</note>
+<note n="0694006" resp="#resp2" type="mod" target="#nkr_note_mod_0694006">獲【大】，護【元】【明】</note>
+<note n="0695001" resp="#resp2" type="mod" target="#nkr_note_mod_0695001">止【大】，正【宮】</note>
+<note n="0695003" resp="#resp2" type="mod" target="#nkr_note_mod_0695003">汗【大】，污【明】</note>
+<note n="0695004" resp="#resp2" type="mod" target="#nkr_note_mod_0695004">如【大】，知【宋】【元】【明】【宮】</note>
+<note n="0696001" resp="#resp2" type="mod" target="#nkr_note_mod_0696001">或【大】，成【宋】【元】【明】【宮】</note>
+<note n="0696002" resp="#resp2" type="mod" target="#nkr_note_mod_0696002">士【大】，玄【久】</note>
+<note n="0696003" resp="#resp2" type="mod" target="#nkr_note_mod_0696003">士【大】，云【久】</note>
+<note n="0696004" resp="#resp2" type="mod" target="#nkr_note_mod_0696004">愛【大】，受【久】</note>
+<note n="0696005" resp="#resp2" type="mod" target="#nkr_note_mod_0696005">寶【大】＊，貪【宋】【元】【明】【宮】＊</note>
+<note n="0696006" resp="#resp2" type="mod" target="#nkr_note_mod_0696006">得解脫【大】，〔－〕【久】</note>
+<note n="0696007" resp="#resp2" type="mod" target="#nkr_note_mod_0696007">知我生【大】，〔－〕【久】</note>
+<note n="0696008" resp="#resp2" type="mod" target="#nkr_note_mod_0696008">踰【大】，喻【宋】【元】【明】【宮】</note>
+<note n="0696009" resp="#resp2" type="mod" target="#nkr_note_mod_0696009">饍【大】，饌【明】</note>
+<note n="0697001" resp="#resp2" type="mod" target="#nkr_note_mod_0697001">淨【大】，清【久】</note>
+<note n="0697002" resp="#resp2" type="mod" target="#nkr_note_mod_0697002">諸【大】，謂【宋】【元】【明】【宮】</note>
+<note n="0697003" resp="#resp2" type="mod" target="#nkr_note_mod_0697003">徑【大】，俓【宮】【久】</note>
+<note n="0697004" resp="#resp2" type="mod" target="#nkr_note_mod_0697004">拕【大】，柁【宋】【元】【明】【宮】</note>
+<note n="0697005" resp="#resp2" type="mod" target="#nkr_note_mod_0697005">陀【大】，他【宋】【元】【宮】</note>
+<note n="0698001" resp="#resp2" type="mod" target="#nkr_note_mod_0698001">證【大】，謂【宮】</note>
+<note n="0698002" resp="#resp2" type="mod" target="#nkr_note_mod_0698002">道【大】，導【明】</note>
+<note n="0698003" resp="#resp2" type="mod" target="#nkr_note_mod_0698003">貴【大】，重【宋】【元】【明】【宮】</note>
+<note n="0698004" resp="#resp2" type="mod" target="#nkr_note_mod_0698004">歲【大】，〔－〕【宋】【元】【明】【宮】【久】</note>
+<note n="0699001" resp="#resp2" type="mod" target="#nkr_note_mod_0699001">諸【大】，汝【宋】【元】【明】【宮】</note>
+<note n="0699002" resp="#resp2" type="mod" target="#nkr_note_mod_0699002">是【大】，此【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -4078,6 +4202,31 @@ Added comment  for Emacs
 <note n="0699001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0699001">諸＝汝【三】【宮】</note>
 <note n="0699002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0699002">是＝此【元】【明】</note>
 <note n="0699003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0699003">此下久原本有光明皇后願文</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0662c1401" resp="#resp2" type="add" target="#nkr_note_add_0662c1401">不【CB】【麗-CB】，下【大】</note>
+<note n="0670b0901" resp="#resp2" type="add" target="#nkr_note_add_0670b0901">貪【CB】【麗-CB】，食【大】</note>
+<note n="0671a2601" resp="#resp2" type="add" target="#nkr_note_add_0671a2601">世【CB】，至【大】</note>
+<note n="0673c0901" resp="#resp2" type="add" target="#nkr_note_add_0673c0901">不【CB】【麗-CB】，本【大】</note>
+<note n="0678a1201" resp="#resp2" type="add" target="#nkr_note_add_0678a1201">第【CB】【麗-CB】，萬【大】，苐【麗-CB】</note>
+<note n="0679b2301" resp="#resp2" type="add" target="#nkr_note_add_0679b2301">苾【CB】，苑【大】</note>
+<note n="0680a2801" resp="#resp2" type="add" target="#nkr_note_add_0680a2801">纏【CB】，經【大】</note>
+<note n="0680b2401" resp="#resp2" type="add" target="#nkr_note_add_0680b2401">損【CB】【麗-CB】，捐【大】，<g ref="#CB02167">󰡷</g>【麗-CB】</note>
+<note n="0681a1901" resp="#resp2" type="add" target="#nkr_note_add_0681a1901">己【CB】，已【大】</note>
+<note n="0681b1801" resp="#resp2" type="add" target="#nkr_note_add_0681b1801">解【CB】【麗-CB】，懈【大】</note>
+<note n="0682b0601" resp="#resp2" type="add" target="#nkr_note_add_0682b0601">成【CB】【麗-CB】，或【大】</note>
+<note n="0684b1901" resp="#resp2" type="add" target="#nkr_note_add_0684b1901">諸【CB】【麗-CB】，當【大】</note>
+<note n="0685c0101" resp="#resp2" type="add" target="#nkr_note_add_0685c0101">頌【CB】，頒【大】</note>
+<note n="0687b2201" resp="#resp2" type="add" target="#nkr_note_add_0687b2201">斯【CB】【麗-CB】，期【大】</note>
+<note n="0689b0901" resp="#resp2" type="add" target="#nkr_note_add_0689b0901">修【CB】【麗-CB】，集【大】</note>
+<note n="0690b0501" resp="#resp2" type="add" target="#nkr_note_add_0690b0501">怱【CB】【麗-CB】，忽【大】，忩【麗-CB】</note>
+<note n="0692a1701" resp="#resp2" type="add" target="#nkr_note_add_0692a1701">制【CB】，刺【大】</note>
+<note n="0696c2301" resp="#resp2" type="add" target="#nkr_note_add_0696c2301">究【CB】，突【大】</note>
+<note n="0697b0701" resp="#resp2" type="add" target="#nkr_note_add_0697b0701">信【CB】【麗-CB】，心【大】</note>
+<note n="0697c0901" resp="#resp2" type="add" target="#nkr_note_add_0697c0901">辦【CB】【麗-CB】，辨【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -14,7 +14,8 @@
             <editionStmt>
                 <edition>$Revision: 1.6 $<date>$Date: 2011/05/19 01:44:08 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>ihp</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
             </editionStmt>
             <extent>1卷</extent>
             <publicationStmt>
@@ -34,7 +35,7 @@
             <listWit>
 		<witness xml:id="wit1">【史】</witness>
 		<witness xml:id="wit2">【原】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
+		<witness xml:id="wit3">【CB】</witness>
 	</listWit>
 	</sourceDesc>
         </fileDesc>
@@ -68,7 +69,7 @@
 <cb:div>
 <lb ed="I" n="0013b01" type="honorific"/><p xml:id="pI01p0013b0101">高才高啟高都　高倭仁高曇助高天念高神龍高郡生　<unclear cert="medium" reason="damage">高</unclear>　保
 <lb ed="I" n="0013b02" type="honorific"/>高權高伏連高道豐高煙歲高普慈高市鑒高僧德高雙居高衍
-<lb ed="I" n="0013b03" type="honorific"/>高騾高<anchor xml:id="nkr_note_orig_0013001" n="0013001"/><anchor xml:id="beg0013001" n="0013001"/>溫<anchor xml:id="end0013001"/>高寅業高舍我高<unclear cert="medium" reason="damage">德</unclear>祖高醜高神虎高鄰居高僧恭高善明
+<lb ed="I" n="0013b03" type="honorific"/>高騾高<anchor xml:id="nkr_note_orig_0013001" n="0013001"/><anchor xml:id="nkr_note_mod_0013001" n="0013001"/><anchor xml:id="beg0013001" n="0013001"/>溫<anchor xml:id="end0013001"/>高寅業高舍我高<unclear cert="medium" reason="damage">德</unclear>祖高醜高神虎高鄰居高僧恭高善明
 <lb ed="I" n="0013b04" type="honorific"/>高僧愛高伏助高阿次高道暢高解愁高同利高副孫高次文高伯端
 <lb ed="I" n="0013b05" type="honorific"/>高同高樹高僧次高永<unclear cert="medium" reason="damage">受</unclear>高保孫高琛高天護高延興史寄王高買虎
 <lb ed="I" n="0013b06" type="honorific"/>高文高惠隆高歸安高瓮生高僧敬高保慶高社奴高保榮高保山
@@ -78,7 +79,7 @@
 <lb ed="I" n="0013b10" type="honorific"/>高醜奴高次保高次恭高胡□高伯慶高興光高明達高次難高恒生
 <lb ed="I" n="0013b11" type="honorific"/>高楞高叵當高今龍劉次文劉小保高舒劉白駒李百揆李零
 <lb ed="I" n="0013b12" type="honorific"/>高珍高万年高思順劉芒時高伯奇卓道安劉清奴李干高寄安高阿因
-<lb ed="I" n="0013b13" type="honorific"/>高非高副周高<anchor xml:id="beg_1" type="cb-app"/>无<anchor xml:id="end_1"/>諱劉永得高卿世高惠規劉黑堆李永高舍安
+<lb ed="I" n="0013b13" type="honorific"/>高非高副周高<anchor xml:id="nkr_note_add_0013b1301" n="0013b1301"/><anchor xml:id="beg0013b1301" n="0013b1301"/>无<anchor xml:id="end0013b1301"/>諱劉永得高卿世高惠規劉黑堆李永高舍安
 <lb ed="I" n="0013b14" type="honorific"/>高宗敬高糞高勉興劉僧達高保蓋高法顯劉淂伏生李午生劉原始
 <lb ed="I" n="0013b15" type="honorific"/>高玉高門高定宗劉普文王法敬王仵龍高長生劉龍居李虎高零安
 <lb ed="I" n="0013b16" type="honorific"/>高愍高法崇高寄周劉僧副高惠高犢憐高思得王矜王伏生李原隆
@@ -113,13 +114,20 @@
 <head>校註</head>
 <p>
 <app from="#beg0013001" to="#end0013001"><lem resp="#resp1" wit="#wit1">溫</lem><rdg wit="#wit2">薀</rdg></app>
-<app from="#beg_1" to="#end_1"><lem wit="#wit3" resp="#resp2">无</lem><rdg wit="#wit2 #wit1">旡</rdg></app>
+<app from="#beg0013b1301" to="#end0013b1301"><lem wit="#wit3" resp="#resp3">无</lem><rdg wit="#wit2 #wit1">旡</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0013b1301" resp="#resp2" type="add" target="#nkr_note_add_0013b1301">无【CB】，旡【原】【史】</note>
 </p>
 </cb:div>
 <cb:div type="ihp-notes">
 <head>中央研究院歷史語言研究所 校註</head>
 <p>
 <note n="0013001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0013001">薀＝溫【史】</note>
+<note n="0013001" resp="#resp1" type="mod" target="#nkr_note_mod_0013001">薀【佛拓】，溫【史】</note>
 </p>
 </cb:div>
 </back></text>

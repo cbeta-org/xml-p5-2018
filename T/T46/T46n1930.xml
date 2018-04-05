@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:12:23 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -174,7 +175,7 @@ Added comment  for Emacs
 <lb n="0769c08" ed="T"/>支佛名為獨覺。生於佛世聞說因緣頓悟支
 <lb n="0769c09" ed="T"/>佛名為緣覺。並福厚根利謂四生一百劫所
 <lb n="0769c10" ed="T"/>修因也。三明菩薩乘者。從初發心緣生滅四
-<lb n="0769c11" ed="T"/>諦。發四弘誓願一<anchor xml:id="nkr_note_orig_0769003" n="0769003"/><anchor xml:id="beg0769003" n="0769003"/>味<anchor xml:id="end0769003"/>度者令度。即眾生無邊
+<lb n="0769c11" ed="T"/>諦。發四弘誓願一<anchor xml:id="nkr_note_orig_0769003" n="0769003"/><anchor xml:id="nkr_note_mod_0769003" n="0769003"/><anchor xml:id="beg0769003" n="0769003"/>味<anchor xml:id="end0769003"/>度者令度。即眾生無邊
 <lb n="0769c12" ed="T"/>誓願度。謂度天魔外道。愛見二種六道眾生。
 <lb n="0769c13" ed="T"/>此緣苦諦境而發心也。二未解者令解。即煩
 <lb n="0769c14" ed="T"/>惱無數誓願斷願斷。愛見六道眾生二十五
@@ -234,7 +235,7 @@ Added comment  for Emacs
 <lb n="0770b08" ed="T"/>如阿毘曇廣說。不同外道計微塵世性及自
 <lb n="0770b09" ed="T"/>然等。二真正發心者。既識無明乃至老死。正
 <lb n="0770b10" ed="T"/>求涅槃發三乘心。出離見愛不要名利唯志
-<lb n="0770b11" ed="T"/>無餘。三遵定慧者既誓求出有。依木<anchor xml:id="nkr_note_orig_0770001" n="0770001"/><anchor xml:id="beg0770001" n="0770001"/>又<anchor xml:id="end0770001"/>住
+<lb n="0770b11" ed="T"/>無餘。三遵定慧者既誓求出有。依木<anchor xml:id="nkr_note_orig_0770001" n="0770001"/><anchor xml:id="nkr_note_mod_0770001" n="0770001"/><anchor xml:id="beg0770001" n="0770001"/>又<anchor xml:id="end0770001"/>住
 <lb n="0770b12" ed="T"/>修道。但遮障紛馳道。何由剋為修四念學五
 <lb n="0770b13" ed="T"/>停心。破五種障名停。事觀名定念處即慧。慧
 <lb n="0770b14" ed="T"/>定均停故名安心。四破法遍令見有得道。以
@@ -546,6 +547,13 @@ Added comment  for Emacs
 <p>
 <app from="#beg0769003" to="#end0769003"><lem wit="#wit1">味</lem><rdg resp="#resp1" wit="#wit2">未</rdg></app>
 <app from="#beg0770001" to="#end0770001"><lem wit="#wit1">又</lem><rdg resp="#resp1" wit="#wit2">叉</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0769003" resp="#resp2" type="mod" target="#nkr_note_mod_0769003">味【大】，未【甲】</note>
+<note n="0770001" resp="#resp2" type="mod" target="#nkr_note_mod_0770001">又【大】，叉【甲】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

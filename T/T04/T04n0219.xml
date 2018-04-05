@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2012/08/27 03:14:10 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -116,12 +117,12 @@ Added comment  for Emacs
 <lb n="0802a15" ed="T"/><cb:docNumber>No. 219</cb:docNumber>
 <lb n="0802a16" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead>佛說醫喻經</cb:jhead></cb:juan>
 <lb n="0802a17" ed="T"/>
-<lb n="0802a18" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0802001" n="0802001"/><anchor xml:id="beg0802001" n="0802001"/>西天譯經<anchor xml:id="end0802001"/>三藏朝奉大
+<lb n="0802a18" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0802001" n="0802001"/><anchor xml:id="nkr_note_mod_0802001" n="0802001"/><anchor xml:id="beg0802001" n="0802001"/>西天譯經<anchor xml:id="end0802001"/>三藏朝奉大
 <lb n="0802a19" ed="T"/>夫試光祿卿傳法大師
-<lb n="0802a20" ed="T"/><anchor xml:id="nkr_note_orig_0802002" n="0802002"/><anchor xml:id="beg0802002" n="0802002"/>賜紫臣<anchor xml:id="end0802002"/>施護奉　詔譯</byline>
+<lb n="0802a20" ed="T"/><anchor xml:id="nkr_note_orig_0802002" n="0802002"/><anchor xml:id="nkr_note_mod_0802002" n="0802002"/><anchor xml:id="beg0802002" n="0802002"/>賜紫臣<anchor xml:id="end0802002"/>施護奉　詔譯</byline>
 <lb n="0802a21" ed="T"/><cb:div type="jing"><p xml:id="pT04p0802a2101">如是我聞：</p><p xml:id="pT04p0802a2105" rend="inline">一時世尊在舍衛國中，與苾芻眾
 <lb n="0802a22" ed="T"/>俱。是時世尊，告諸苾芻言：「汝等當知，如世良
-<lb n="0802a23" ed="T"/>醫，知病識藥，有<anchor xml:id="nkr_note_orig_0802003" n="0802003"/><anchor xml:id="beg0802003" n="0802003"/>其<anchor xml:id="end0802003"/>四種，若具足者，得名醫
+<lb n="0802a23" ed="T"/>醫，知病識藥，有<anchor xml:id="nkr_note_orig_0802003" n="0802003"/><anchor xml:id="nkr_note_mod_0802003" n="0802003"/><anchor xml:id="beg0802003" n="0802003"/>其<anchor xml:id="end0802003"/>四種，若具足者，得名醫
 <lb n="0802a24" ed="T"/>王。何等為四？一者識知某病，應用某藥；二者
 <lb n="0802a25" ed="T"/>知病所起，隨起用藥；三者已生諸病，治令病
 <lb n="0802a26" ed="T"/>出；四者斷除病源，令後不生；是為四種。</p><p xml:id="pT04p0802a2616" rend="inline">「云何
@@ -158,6 +159,14 @@ Added comment  for Emacs
 <app from="#beg0802001" to="#end0802001"><lem wit="#wit1">西天譯經</lem><rdg resp="#resp1" wit="#wit2">宋西天</rdg></app>
 <app from="#beg0802002" to="#end0802002"><lem wit="#wit1">賜紫臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0802003" to="#end0802003"><lem wit="#wit1">其</lem><rdg resp="#resp1" wit="#wit2">於</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0802001" resp="#resp2" type="mod" target="#nkr_note_mod_0802001">西天譯經【大】，宋西天【明】</note>
+<note n="0802002" resp="#resp2" type="mod" target="#nkr_note_mod_0802002">賜紫臣【大】，〔－〕【明】</note>
+<note n="0802003" resp="#resp2" type="mod" target="#nkr_note_mod_0802003">其【大】，於【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

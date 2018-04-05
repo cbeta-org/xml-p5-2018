@@ -34,8 +34,8 @@
         <sourceDesc>
                 <bibl>Taishō Tripiṭaka Vol. 14, No. 540a</bibl>
         <listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【麗-CB】</witness>
 		<witness xml:id="wit3">【大】</witness>
 	</listWit>
 	</sourceDesc>
@@ -212,7 +212,7 @@ Added comment  for Emacs
 <lb n="0825c11" ed="T"/>臣皆言：「宜可取之。」王即興四十萬眾，搥鐘鳴
 <lb n="0825c12" ed="T"/>鼓，往圍樹提伽舍數百餘重。</p><p xml:id="pT14p0825c1212" rend="inline">樹提伽家門中，
 <lb n="0825c13" ed="T"/>有一力士，手捉金杖一擬，四十萬眾一時俱
-<lb n="0825c14" ed="T"/>倒，手脚繚戾，尻髖妸婆，狀似醉容，<anchor xml:id="beg_1" type="cb-app"/>搖<anchor xml:id="end_1"/>頭頗<g ref="#CB02627">𩒰</g>，臥
+<lb n="0825c14" ed="T"/>倒，手脚繚戾，尻髖妸婆，狀似醉容，<anchor xml:id="nkr_note_add_0825c1401" n="0825c1401"/><anchor xml:id="beg0825c1401" n="0825c1401"/>搖<anchor xml:id="end0825c1401"/>頭頗<g ref="#CB02627">𩒰</g>，臥
 <lb n="0825c15" ed="T"/>地不起。樹提伽乘飛雲輪，車在虛空中問諸
 <lb n="0825c16" ed="T"/>人等：「來時何意，臥地不起？」諸人答樹提伽言：
 <lb n="0825c17" ed="T"/>「國王遣我來，欲伐長者。長者門中有一力士，
@@ -237,19 +237,25 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg_1" to="#end_1"><lem resp="#resp3 resp4" wit="#wit1 #wit2">搖<note type="cf1">K14n0505_p0029c19</note></lem><rdg wit="#wit3">捶</rdg></app>
+<app from="#beg0825c1401" to="#end0825c1401"><lem resp="#resp3 resp4" wit="#wit1 #wit2">搖<note type="cf1">K14n0505_p0029c19</note></lem><rdg wit="#wit3">捶</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0825004" resp="#resp2" type="mod" target="#nkr_note_mod_0825004">此經【麗】與【宋】【元】【明】俱大異，今以【宋】【元】對校【明】，別附卷末</note>
+<note n="0825004" resp="#resp2" type="mod" target="#nkr_note_mod_0825004"><!--CBETA todo type: newmod-->此經【麗】與【宋】【元】【明】俱大異，今以【宋】【元】對校【明】，別附卷末</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0825004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0825004">此經【麗】與【三】俱大異，今以【宋】【元】對校【明】，別附卷末</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0825c1401" resp="#resp2" type="add" target="#nkr_note_add_0825c1401">搖【CB】【麗-CB】，捶【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

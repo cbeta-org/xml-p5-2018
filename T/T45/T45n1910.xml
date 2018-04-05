@@ -14,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.12 $<date>$Date: 2010/07/26 07:00:06 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -32,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 45, No. 1910</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -684,7 +688,7 @@ Added comment  for Emacs
 <lb n="0973b14" ed="T"/>無量無邊。今日發露皆悉懺悔。又復無始以
 <lb n="0973b15" ed="T"/>來至于今日。或墮胎破卵。毒藥蠱道傷殺眾
 <lb n="0973b16" ed="T"/>生。墾土掘地種植田園養蠶煮繭。傷殺滋甚。
-<lb n="0973b17" ed="T"/>或打撲蚊蚋<anchor xml:id="beg_1" type="cb-app"/>掐<anchor xml:id="end_1"/>嚙蚤虱。或燒除糞掃開決溝
+<lb n="0973b17" ed="T"/>或打撲蚊蚋<anchor xml:id="nkr_note_add_0973b1701" n="0973b1701"/><anchor xml:id="beg0973b1701" n="0973b1701"/>掐<anchor xml:id="end0973b1701"/>嚙蚤虱。或燒除糞掃開決溝
 <lb n="0973b18" ed="T"/>渠。枉害一切。或噉果實。或用穀米。或用菜
 <lb n="0973b19" ed="T"/>茹。橫殺眾生。或然樵薪。或露燈燭燒諸蟲
 <lb n="0973b20" ed="T"/>類。或取醬醋不先搖動。或瀉湯水澆殺蟲蟻。
@@ -1114,7 +1118,7 @@ Added comment  for Emacs
 <lb n="0978a23" ed="T"/>月不瘥枕臥床席不能起居罪報。懺悔人間
 <lb n="0978a24" ed="T"/>冬瘟夏疫毒癘傷寒罪報。懺悔人間賊風腫
 <lb n="0978a25" ed="T"/>滿否塞罪報。懺悔人間為諸惡神伺求其便
-<lb n="0978a26" ed="T"/>欲作禍<anchor xml:id="beg_2" type="cb-app"/>祟<anchor xml:id="end_2"/>罪報。懺悔人間鳥嗚百怪飛屍邪
+<lb n="0978a26" ed="T"/>欲作禍<anchor xml:id="nkr_note_add_0978a2601" n="0978a2601"/><anchor xml:id="beg0978a2601" n="0978a2601"/>祟<anchor xml:id="end0978a2601"/>罪報。懺悔人間鳥嗚百怪飛屍邪
 <lb n="0978a27" ed="T"/>鬼為作妖異罪報。懺悔人間為虎豹豺狼水
 <lb n="0978a28" ed="T"/>陸一切諸惡禽獸所傷罪報。懺悔人間自縊
 <lb n="0978a29" ed="T"/>自殺罪報。懺悔人間投坑赴火自沈自墮罪
@@ -1152,14 +1156,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>掐<note type="cf1">X74n1495_p0698a02</note></corr><sic>搯</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>祟<note type="cf1">T14n0441_p0236a04</note></corr><sic>崇</sic></choice>
+<app from="#beg0973b1701" to="#end0973b1701"><lem wit="#wit1" resp="#resp3">掐<note type="cf1">X74n1495_p0698a02</note></lem><rdg wit="#wit2">搯</rdg></app>
+<app from="#beg0978a2601" to="#end0978a2601"><lem wit="#wit1" resp="#resp2">祟<note type="cf1">T14n0441_p0236a04</note></lem><rdg wit="#wit2">崇</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0967022" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0967022">【原】明萬曆十八年刊增上寺報恩藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0973b1701" resp="#resp2" type="add" target="#nkr_note_add_0973b1701">掐【CB】，搯【大】</note>
+<note n="0978a2601" resp="#resp2" type="add" target="#nkr_note_add_0978a2601">祟【CB】，崇【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

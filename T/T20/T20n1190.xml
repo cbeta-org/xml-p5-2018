@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2011/07/26 06:28:29 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,8 +33,8 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 20, No. 1190</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【磧砂】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【磧-CB】</witness>
 		<witness xml:id="wit3">【大】</witness>
 	</listWit>
 	</sourceDesc>
@@ -472,7 +473,7 @@ Added comment  for Emacs
 <lb n="0826b19" ed="T"/>此云誦聖妙吉祥真實名經
 <lb n="0826b20" ed="T"/>聖妙吉祥真實名經</cb:jhead></cb:juan>
 <lb n="0826b21" ed="T"/>
-<lb n="0826b22" ed="T"/><byline cb:type="Translator">元講經律論習<anchor xml:id="beg_1" type="cb-app"/>密<anchor xml:id="end_1"/>教
+<lb n="0826b22" ed="T"/><byline cb:type="Translator">元講經律論習<anchor xml:id="nkr_note_add_0826b2201" n="0826b2201"/><anchor xml:id="beg0826b2201" n="0826b2201"/>密<anchor xml:id="end0826b2201"/>教
 <lb n="0826b23" ed="T"/>土番譯主聶崖沙門釋智譯</byline>
 <lb n="0826b24" ed="T"/><cb:div type="jing"><p xml:id="pT20p0826b2401">敬禮孺童相妙吉祥。</p>
 <lb n="0826b25" ed="T"/><lg xml:id="lgT20p0826b2501"><l>復次吉祥持金剛</l><l>難調伏中勝調伏</l>
@@ -739,7 +740,7 @@ Added comment  for Emacs
 <lb n="0829b16" ed="T"/><l>無二一義法之義</l><l>即微妙義無怖義</l>
 <lb n="0829b17" ed="T"/><l>亦種種識具色義</l><l>於心意識具相續</l>
 <lb n="0829b18" ed="T"/><l>體義無餘數歡喜</l><l>愛空之性殊勝智</l>
-<lb n="0829b19" ed="T"/><l>捨離三有之貪欲</l><l><anchor xml:id="beg_2" type="cb-app"/>三<anchor xml:id="end_2"/>有歡喜廣大者</l>
+<lb n="0829b19" ed="T"/><l>捨離三有之貪欲</l><l><anchor xml:id="nkr_note_add_0829b1901" n="0829b1901"/><anchor xml:id="beg0829b1901" n="0829b1901"/>三<anchor xml:id="end0829b1901"/>有歡喜廣大者</l>
 <lb n="0829b20" ed="T"/><l>色貌鮮潔若白雲</l><l>光明殊勝如秋月</l>
 <lb n="0829b21" ed="T"/><l>亦如初出妙日輪</l><l>爪如赤銅光皎潔</l>
 <lb n="0829b22" ed="T"/><l>頭冠殊勝尖末青</l><l>勝髮亦復紺青色</l>
@@ -1173,14 +1174,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg_1" to="#end_1"><lem resp="#resp2" wit="#wit1 #wit2">密<note type="cf1">Q37_p0201b19</note></lem><rdg wit="#wit3">蜜</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>三<note type="cf1">T20n1188_p0817c12</note><note type="cf2">T20n1189_p0823a19</note></corr><sic>二</sic></choice>
+<app from="#beg0826b2201" to="#end0826b2201"><lem resp="#resp3" wit="#wit1 #wit2">密<note type="cf1">Q37_p0201b19</note></lem><rdg wit="#wit3">蜜</rdg></app>
+<app from="#beg0829b1901" to="#end0829b1901"><lem wit="#wit1" resp="#resp3">三<note type="cf1">T20n1188_p0817c12</note><note type="cf2">T20n1189_p0823a19</note></lem><rdg wit="#wit3">二</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0826001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0826001">【原】明本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0826b2201" resp="#resp2" type="add" target="#nkr_note_add_0826b2201">密【CB】【磧-CB】，蜜【大】</note>
+<note n="0829b1901" resp="#resp2" type="add" target="#nkr_note_add_0829b1901">三【CB】，二【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

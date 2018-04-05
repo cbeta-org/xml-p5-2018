@@ -14,7 +14,8 @@
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>NanChuan</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>12卷</extent>
 		<publicationStmt>
@@ -31,7 +32,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Chinese Translation of the Pāḷi Tipiṭaka (Yuan Heng Temple Edition) Vol. 4, No. 2</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【南傳】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -528,7 +533,7 @@ $Log:$
 <lb ed="N" n="0029a13"/><p xml:id="pN04p0029a1301" rend="margin-left:22em">———依不見罪〔行〕舉罪羯磨之「若欲者」六事終———</p></cb:div></cb:div>
 <lb ed="N" n="0029a14"/><cb:div type="other"><cb:mulu type="其他" level="4">二七　舉罪羯磨四十三事</cb:mulu><head>二七</head><cb:div type="other"><cb:mulu type="其他" level="5">（一）</cb:mulu><head>（一）</head><p xml:id="pN04p0029a1404" rend="margin-left:0em;text-indent:2em;inline">「諸比丘！依不見罪而受舉罪羯磨之比丘應正行。此中應正行者，〔謂：〕
 <pb ed="N" xml:id="N04.0002.0030a" n="0030a"/>
-<lb ed="N" n="0030a01"/>不可授人具足戒，不可為人依止，不可蓄沙<anchor xml:id="beg_1" type="cb-app"/>彌<anchor xml:id="end_1"/>，不可受選任教誡比丘尼，選任亦不
+<lb ed="N" n="0030a01"/>不可授人具足戒，不可為人依止，不可蓄沙<anchor xml:id="nkr_note_add_0030a0101" n="0030a0101"/><anchor xml:id="beg0030a0101" n="0030a0101"/>彌<anchor xml:id="end0030a0101"/>，不可受選任教誡比丘尼，選任亦不
 <lb ed="N" n="0030a02"/>可〔往〕教誡比丘尼，不可犯僧伽已行舉罪羯磨之罪，不可犯相似之罪，不可犯比
 <lb ed="N" n="0030a03"/>此更惡之罪，不可罵羯磨，不可罵行羯磨者，不可受清淨比丘之敬禮、起迎、合掌、
 <lb ed="N" n="0030a04"/>恭敬、設座具、設臥具，不可收受彼〔所置〕之洗足水、足臺、足布，不可受彼〔因
@@ -6333,7 +6338,7 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>彌</corr><sic>瀰</sic></choice>
+<app from="#beg0030a0101" to="#end0030a0101"><lem wit="#wit1" resp="#resp3">彌</lem><rdg wit="#wit2">瀰</rdg></app>
 </p>
 </cb:div>
 <cb:div type="nanchuan-notes">
@@ -6502,6 +6507,12 @@ $Log:$
 <note n="0412030" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0412030">「喚」，兩本皆有 majjhesi，m 是插入二個母音之中間。</note>
 <note n="0412031" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0412031">「溯流」，原本 sa ujji，依暹羅本 ujjavi 譯之。</note>
 <note n="0412032" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0412032">以下三語，兩本其句中意義皆不明白。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0030a0101" resp="#resp2" type="add" target="#nkr_note_add_0030a0101">彌【CB】，瀰【南傳】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:15:15 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -142,7 +143,7 @@ Added comment  for Emacs
 <lb n="0129b28" ed="T"/>便見能害所害之殊。我於爾時依經修行。既
 <lb n="0129b29" ed="T"/>無兩我之執。則不見歌利為能害我身為所
 <pb n="0129c" xml:id="T85.2738.0129c" ed="T"/>
-<lb n="0129c01" ed="T"/>害。既無兩害之體。苦受從誰<anchor xml:id="nkr_note_orig_0129004" n="0129004"/><anchor xml:id="beg0129004" n="0129004"/>兩<anchor xml:id="end0129004"/>生。論經云。
+<lb n="0129c01" ed="T"/>害。既無兩害之體。苦受從誰<anchor xml:id="nkr_note_orig_0129004" n="0129004"/><anchor xml:id="nkr_note_mod_0129004" n="0129004"/><anchor xml:id="beg0129004" n="0129004"/>兩<anchor xml:id="end0129004"/>生。論經云。
 <lb n="0129c02" ed="T"/>無我相人相眾生相壽者。相無相亦非無相。
 <lb n="0129c03" ed="T"/>真諦云。無我等相者無自相也。無相者無他
 <lb n="0129c04" ed="T"/>也。亦非無相者非不有悲智相也。無著云。能
@@ -165,7 +166,7 @@ Added comment  for Emacs
 <lb n="0129c21" ed="T"/>者作忍仙人顯有慈悲。無我等相明無嗔恨。
 <lb n="0129c22" ed="T"/>無嗔恨故無苦。有慈悲故有樂。偈曰。</p>
 <lb n="0129c23" ed="T"/><lg xml:id="lgT85p0129c2301"><l>離我及恚相</l><l>實無於苦惱</l>
-<lb n="0129c24" ed="T"/><l><anchor xml:id="nkr_note_orig_0129005" n="0129005"/><anchor xml:id="beg0129005" n="0129005"/>苦<anchor xml:id="end0129005"/>樂有慈悲</l><l>如是苦行果</l></lg>
+<lb n="0129c24" ed="T"/><l><anchor xml:id="nkr_note_orig_0129005" n="0129005"/><anchor xml:id="nkr_note_mod_0129005" n="0129005"/><anchor xml:id="beg0129005" n="0129005"/>苦<anchor xml:id="end0129005"/>樂有慈悲</l><l>如是苦行果</l></lg>
 <lb n="0129c25" ed="T"/><p xml:id="pT85p0129c2501">案上半明無苦無自他相故。下半明有樂有
 <lb n="0129c26" ed="T"/>悲智相故。由悲有樂。由智無苦。悲智和合故
 <lb n="0129c27" ed="T"/>名共也。</p>
@@ -198,7 +199,7 @@ Added comment  for Emacs
 <lb n="0130a24" ed="T"/><p xml:id="pT85p0130a2401">經曰。不應住色生心至應生無所住心者。此
 <lb n="0130a25" ed="T"/>示無住境也。不住色生心。令離報恩障。不住
 <lb n="0130a26" ed="T"/>聲香味觸法生心。令離果報障。應生無所住
-<lb n="0130a27" ed="T"/><anchor xml:id="nkr_note_orig_0130001" n="0130001"/><anchor xml:id="beg0130001" n="0130001"/>也<anchor xml:id="end0130001"/>。令離相疑障也。真諦云。此中應具離三
+<lb n="0130a27" ed="T"/><anchor xml:id="nkr_note_orig_0130001" n="0130001"/><anchor xml:id="nkr_note_mod_0130001" n="0130001"/><anchor xml:id="beg0130001" n="0130001"/>也<anchor xml:id="end0130001"/>。令離相疑障也。真諦云。此中應具離三
 <lb n="0130a28" ed="T"/>障。一己身。二報恩。三果報。己身者若著己身
 <lb n="0130a29" ed="T"/>即起二見。謂常見斷見。由常故不求未來。由
 <pb n="0130b" xml:id="T85.2738.0130b" ed="T"/>
@@ -435,6 +436,14 @@ Added comment  for Emacs
 <app from="#beg0129004" to="#end0129004"><lem resp="#resp1" wit="#wit1">兩</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">而</rdg></app>
 <app from="#beg0129005" to="#end0129005"><lem resp="#resp1" wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">共</rdg></app>
 <app from="#beg0130001" to="#end0130001"><lem resp="#resp1" wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">心</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0129004" resp="#resp2" type="mod" target="#nkr_note_mod_0129004">兩【大】，而【考偽-大】</note>
+<note n="0129005" resp="#resp2" type="mod" target="#nkr_note_mod_0129005">苦【大】，共【考偽-大】</note>
+<note n="0130001" resp="#resp2" type="mod" target="#nkr_note_mod_0130001">也【大】，心【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

@@ -32,7 +32,8 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2760</bibl>
 	<listWit>
-		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -195,7 +196,7 @@ Added comment  for Emacs
 <lb n="0250a02" ed="T"/>間昇沈各異。是行者深須自誡。豈非大事者
 <lb n="0250a03" ed="T"/>哉　自下次明往生相。初明宮殿迎接。二明
 <lb n="0250a04" ed="T"/>光照其身。三讚其行業。四正明往生。五明生
-<lb n="0250a05" ed="T"/>已悟道。如彈指<anchor xml:id="beg_1" type="cb-app"/>頃<anchor xml:id="end_1"/>往生彼國者。由業力增上
+<lb n="0250a05" ed="T"/>已悟道。如彈指<anchor xml:id="nkr_note_add_0250a0501" n="0250a0501"/><anchor xml:id="beg0250a0501" n="0250a0501"/>頃<anchor xml:id="end0250a0501"/>往生彼國者。由業力增上
 <lb n="0250a06" ed="T"/>故受生速疾。不同人中業力羸劣故多時方
 <lb n="0250a07" ed="T"/>得受生。如惡業猛利故剎那即入惡道。此亦
 <lb n="0250a08" ed="T"/>如是即悟無生法忍者。初地無生忍也。歷事
@@ -435,7 +436,7 @@ Added comment  for Emacs
 <lb n="0252c02" ed="T"/>蓮華。二正明往生。三明已獲益。為其廣說諸
 <lb n="0252c03" ed="T"/>法實相者。此謂大乘之深極。若思能滅重罪
 <lb n="0252c04" ed="T"/>故。普賢菩薩觀經云。其有眾生思第一義甚
-<lb n="0252c05" ed="T"/>深空法。一彈指<anchor xml:id="beg_2" type="cb-app"/>頃<anchor xml:id="end_2"/>除百萬億阿僧祇生死之
+<lb n="0252c05" ed="T"/>深空法。一彈指<anchor xml:id="nkr_note_add_0252c0501" n="0252c0501"/><anchor xml:id="beg0252c0501" n="0252c0501"/>頃<anchor xml:id="end0252c0501"/>除百萬億阿僧祇生死之
 <lb n="0252c06" ed="T"/>罪。是名具足菩薩戒者。不須羯磨自然成就。
 <lb n="0252c07" ed="T"/>應受一切人天供養。即其義也　自下總結
 <lb n="0252c08" ed="T"/>可解。</p>
@@ -461,7 +462,7 @@ Added comment  for Emacs
 <lb n="0252c28" ed="T"/>可解。讚修益中言現身見佛者。此明現在之
 <lb n="0252c29" ed="T"/>益。由三昧之力故現身必見佛也。故華嚴經
 <pb n="0253a" xml:id="T85.2760.0253a" ed="T"/>
-<lb n="0253a01" ed="T"/>云。念佛三昧必見佛。<anchor xml:id="nkr_note_orig_0253001" n="0253001"/><anchor xml:id="beg0253001" n="0253001"/>念<anchor xml:id="end0253001"/>終之後生佛前。此
+<lb n="0253a01" ed="T"/>云。念佛三昧必見佛。<anchor xml:id="nkr_note_orig_0253001" n="0253001"/><anchor xml:id="nkr_note_mod_0253001" n="0253001"/><anchor xml:id="beg0253001" n="0253001"/>念<anchor xml:id="end0253001"/>終之後生佛前。此
 <lb n="0253a02" ed="T"/>之謂也。下次舉劣顯勝。但聞佛名二菩薩名
 <lb n="0253a03" ed="T"/>除無量罪。何況繫心憶念也。故華嚴經云。若
 <lb n="0253a04" ed="T"/>能須臾念如來。乃至一念功德力。因此永離
@@ -493,9 +494,15 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>頃</corr><sic>須</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>頃</corr><sic>須</sic></choice>
-<app from="#beg0253001" to="#end0253001"><lem resp="#resp1" wit="#wit1">念</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">命</rdg></app>
+<app from="#beg0250a0501" to="#end0250a0501"><lem wit="#wit1" resp="#resp2">頃</lem><rdg wit="#wit2">須</rdg></app>
+<app from="#beg0252c0501" to="#end0252c0501"><lem wit="#wit1" resp="#resp2">頃</lem><rdg wit="#wit2">須</rdg></app>
+<app from="#beg0253001" to="#end0253001"><lem resp="#resp1" wit="#wit2">念</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">命</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0253001" resp="#resp2" type="mod" target="#nkr_note_mod_0253001">念【大】，命【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -505,6 +512,13 @@ Added comment  for Emacs
 <note n="0249002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0249002">首闕</note>
 <note n="0251001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0251001">人善經作仁義，又作仁慈</note>
 <note n="0253001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0253001">念＝命？</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0250a0501" resp="#resp2" type="add" target="#nkr_note_add_0250a0501">頃【CB】，須【大】</note>
+<note n="0252c0501" resp="#resp2" type="add" target="#nkr_note_add_0252c0501">頃【CB】，須【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2010/10/25 08:45:25 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 58, No. 1026</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -205,7 +210,7 @@ no message
 <lb ed="X" n="0698b19"/><lb ed="R104" n="0137a04"/><item xml:id="itemX58p0698b1901">四加<note place="inline">斷前十向習盡。進伏初地習氣</note></item></list></cb:div>
 <lb ed="X" n="0698b20"/><lb ed="R104" n="0137a05"/><cb:div type="other"><cb:mulu type="其他" level="2">〔隨分〕</cb:mulu><head>〔隨分〕</head>
 <lb ed="X" n="0698b21"/><lb ed="R104" n="0137a06"/><list><item xml:id="itemX58p0698b2101">初地<note place="inline">頓斷斷習氣十一分。與終等覺齊</note></item>
-<lb ed="X" n="0698b22"/><lb ed="R104" n="0137a07"/><item xml:id="itemX58p0698b2201">二地<note place="inline">頓斷習氣十二分。與終妙覺齊三地<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>去。終教不知名目</note></item>
+<lb ed="X" n="0698b22"/><lb ed="R104" n="0137a07"/><item xml:id="itemX58p0698b2201">二地<note place="inline">頓斷習氣十二分。與終妙覺齊三地<anchor xml:id="nkr_note_add_0698b2201" n="0698b2201"/><anchor xml:id="beg0698b2201" n="0698b2201"/>已<anchor xml:id="end0698b2201"/>去。終教不知名目</note></item>
 <lb ed="X" n="0698b23"/><lb ed="R104" n="0137a08"/><item xml:id="itemX58p0698b2301">等覺<note place="inline">頓斷習氣二十一分。進斷佛地習氣一分</note></item></list></cb:div>
 <lb ed="X" n="0698b24"/><lb ed="R104" n="0137a09"/><cb:div type="other"><cb:mulu type="其他" level="2">〔圓〕</cb:mulu><head>〔圓〕</head><list><item xml:id="itemX58p0698b2402">妙覺<note place="inline">頓斷二執現種習盡。在法性土。成法性佛。坐虗空座。說一乘真性法。令漸教三乘并上根
 <pb ed="X" xml:id="X58.1026.0698c" n="0698c"/>
@@ -221,7 +226,7 @@ no message
 <lb ed="X" n="0698c10"/><lb ed="R104" n="0137b01"/><cb:div type="other"><cb:mulu type="其他" level="2">〔相似〕</cb:mulu><head>〔相似〕</head>
 <lb ed="X" n="0698c11"/><lb ed="R104" n="0137b02"/><list><item xml:id="itemX58p0698c1101">初住<note place="inline">除煩惱分別俱生現。與小初果。始初地齊</note></item>
 <lb ed="X" n="0698c12"/><lb ed="R104" n="0137b03"/><item xml:id="itemX58p0698c1201">七住<note place="inline">除所知分別俱生現。與小四果。始七地齊</note></item>
-<lb ed="X" n="0698c13"/><lb ed="R104" n="0137b04"/><item xml:id="itemX58p0698c1301">二行<note place="inline">伏二障分別俱生麤種。與始妙覺齊。三行<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>去。始教人不知名目</note></item>
+<lb ed="X" n="0698c13"/><lb ed="R104" n="0137b04"/><item xml:id="itemX58p0698c1301">二行<note place="inline">伏二障分別俱生麤種。與始妙覺齊。三行<anchor xml:id="nkr_note_add_0698c1301" n="0698c1301"/><anchor xml:id="beg0698c1301" n="0698c1301"/>已<anchor xml:id="end0698c1301"/>去。始教人不知名目</note></item>
 <lb ed="X" n="0698c14"/><lb ed="R104" n="0137b05"/><item xml:id="itemX58p0698c1401">十行<note place="inline">伏二障分別俱生細種</note></item>
 <lb ed="X" n="0698c15"/><lb ed="R104" n="0137b06"/><item xml:id="itemX58p0698c1501">初向<note place="inline">除二障分別俱生麤種</note></item>
 <lb ed="X" n="0698c16"/><lb ed="R104" n="0137b07"/><item xml:id="itemX58p0698c1601">十向<note place="inline">除二障分別俱生細種</note></item>
@@ -249,9 +254,9 @@ no message
 <lb ed="X" n="0699a13"/><lb ed="R104" n="0138a10"/><list><item xml:id="itemX58p0699a1301">初地<note place="inline">始斷二障分別種。進斷俱生種現一分。相見道空八人見地。與小初果齊</note></item>
 <lb ed="X" n="0699a14"/><lb ed="R104" n="0138a11"/><item xml:id="itemX58p0699a1401">三地<note place="inline">斷二障俱生種現三分。空薄欲地。與小二果齊</note></item>
 <lb ed="X" n="0699a15"/><lb ed="R104" n="0138a12"/><item xml:id="itemX58p0699a1501">五地<note place="inline">斷二障俱生種現五分。空離欲地。與小三果齊</note></item>
-<lb ed="X" n="0699a16"/><lb ed="R104" n="0138a13"/><item xml:id="itemX58p0699a1601">七地<note place="inline">斷二障俱生種現七分。空<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>辦地。與小四果齊</note></item>
+<lb ed="X" n="0699a16"/><lb ed="R104" n="0138a13"/><item xml:id="itemX58p0699a1601">七地<note place="inline">斷二障俱生種現七分。空<anchor xml:id="nkr_note_add_0699a1601" n="0699a1601"/><anchor xml:id="beg0699a1601" n="0699a1601"/>已<anchor xml:id="end0699a1601"/>辦地。與小四果齊</note></item>
 <lb ed="X" n="0699a17"/><lb ed="R104" n="0138a14"/><item xml:id="itemX58p0699a1701">八地<note place="inline">斷二障俱生種現八分。空辟支佛地。與小支佛齊</note></item>
-<lb ed="X" n="0699a18"/><lb ed="R104" n="0138a15"/><item xml:id="itemX58p0699a1801">九地<note place="inline">斷二障俱生種現九分。與小佛果齊十地<anchor xml:id="beg_4" type="cb-app"/>已<anchor xml:id="end_4"/>上。小教不知名目</note></item>
+<lb ed="X" n="0699a18"/><lb ed="R104" n="0138a15"/><item xml:id="itemX58p0699a1801">九地<note place="inline">斷二障俱生種現九分。與小佛果齊十地<anchor xml:id="nkr_note_add_0699a1801" n="0699a1801"/><anchor xml:id="beg0699a1801" n="0699a1801"/>已<anchor xml:id="end0699a1801"/>上。小教不知名目</note></item>
 <lb ed="X" n="0699a19"/><lb ed="R104" n="0138a16"/><item xml:id="itemX58p0699a1901">等覺<note place="inline">斷二障俱生種現十一分。進斷佛地一分。空菩薩地。相修習位</note></item></list></cb:div>
 <lb ed="X" n="0699a20"/><lb ed="R104" n="0138a17"/><cb:div type="other"><cb:mulu type="其他" level="2">〔圓〕</cb:mulu><head>〔圓〕</head><list><item xml:id="itemX58p0699a2002">妙覺<note place="inline">頓斷二障分別俱生種現盡。空佛地。相究竟位。在淨化土。成勝應佛。天衣座上。說空相法。
 <lb ed="X" n="0699a21"/><lb ed="R104" n="0138a18"/>令小乘及下根凡夫外道。轉小成大也</note></item></list></cb:div></cb:div>
@@ -265,16 +270,16 @@ no message
 <lb ed="X" n="0699b04"/><lb ed="R104" n="0138b07"/><cb:div type="other"><cb:mulu type="其他" level="2">〔相似〕</cb:mulu><head>〔相似〕</head>
 <lb ed="X" n="0699b05"/><lb ed="R104" n="0138b08"/><list><item xml:id="itemX58p0699b0501">別相念<note place="inline">觀身不淨。觀受是苦。觀心無常。觀法無我</note></item>
 <lb ed="X" n="0699b06"/><lb ed="R104" n="0138b09"/><item xml:id="itemX58p0699b0601">總相念<note place="inline">觀身不淨。受心法皆不淨。乃至觀法無我。身受心亦無我</note></item></list>
-<lb ed="X" n="0699b07"/><lb ed="R104" n="0138b10"/><p xml:id="pX58p0699b0701" rend="margin-left:3em"><note place="inline">此上二位。唯觀欲界苦諦。伏煩惱惑</note>。</p><p xml:id="pX58p0699b0715" rend="margin-left:4em;inline"><note place="inline"><anchor xml:id="beg_5" type="cb-app"/>已<anchor xml:id="end_5"/>上資糧位</note>。</p>
+<lb ed="X" n="0699b07"/><lb ed="R104" n="0138b10"/><p xml:id="pX58p0699b0701" rend="margin-left:3em"><note place="inline">此上二位。唯觀欲界苦諦。伏煩惱惑</note>。</p><p xml:id="pX58p0699b0715" rend="margin-left:4em;inline"><note place="inline"><anchor xml:id="nkr_note_add_0699b0701" n="0699b0701"/><anchor xml:id="beg0699b0701" n="0699b0701"/>已<anchor xml:id="end0699b0701"/>上資糧位</note>。</p>
 <lb ed="X" n="0699b08"/><lb ed="R104" n="0138b11"/><list><item xml:id="itemX58p0699b0801">煖<note place="inline">剏觀欲界四諦。修十六行</note></item>
 <lb ed="X" n="0699b09"/><lb ed="R104" n="0138b12"/><item xml:id="itemX58p0699b0901">頂<note place="inline">用觀同前。轉更明朗</note></item>
 <lb ed="X" n="0699b10"/><lb ed="R104" n="0138b13"/><item xml:id="itemX58p0699b1001"><p xml:id="pX58p0699b1001">忍</p><p xml:id="pX58p0699b1002" rend="inline"><note place="inline">下忍遍觀八諦。修三十二行</note></p><p xml:id="pX58p0699b1013" rend="inline"><note place="inline">中忍漸減緣行。乃至一行二剎那在</note></p>
 <lb ed="X" n="0699b11"/><lb ed="R104" n="0138b14"/><p xml:id="pX58p0699b1101"><note place="inline">上忍亦唯觀欲界苦。於一行二剎那中。前一剎那盡</note></p></item>
-<lb ed="X" n="0699b12"/><lb ed="R104" n="0138b15"/><item xml:id="itemX58p0699b1201">世第一<note place="inline">一行二剎那中。後一剎那盡。伏除分別煩惱</note></item></list><p xml:id="pX58p0699b1221" rend="margin-left:4em;inline"><note place="inline"><anchor xml:id="beg_6" type="cb-app"/>已<anchor xml:id="end_6"/>上加行位</note>。</p></cb:div>
+<lb ed="X" n="0699b12"/><lb ed="R104" n="0138b15"/><item xml:id="itemX58p0699b1201">世第一<note place="inline">一行二剎那中。後一剎那盡。伏除分別煩惱</note></item></list><p xml:id="pX58p0699b1221" rend="margin-left:4em;inline"><note place="inline"><anchor xml:id="nkr_note_add_0699b1201" n="0699b1201"/><anchor xml:id="beg0699b1201" n="0699b1201"/>已<anchor xml:id="end0699b1201"/>上加行位</note>。</p></cb:div>
 <lb ed="X" n="0699b13"/><lb ed="R104" n="0138b16"/><cb:div type="other"><cb:mulu type="其他" level="2">〔隨分〕</cb:mulu><head>〔隨分〕</head>
 <lb ed="X" n="0699b14"/><lb ed="R104" n="0138b17"/><list><item xml:id="itemX58p0699b1401">須陀洹<note place="inline">斷三界八十八使分別見煩惱</note></item></list><p xml:id="pX58p0699b1416" rend="margin-left:4em;inline"><note place="inline">通達位</note>。</p>
 <lb ed="X" n="0699b15"/><lb ed="R104" n="0138b18"/><list><item xml:id="itemX58p0699b1501">斯陀含<note place="inline">斷欲界前六品俱生思</note></item>
-<lb ed="X" n="0699b16"/><lb ed="R104" n="0139a01"/><item xml:id="itemX58p0699b1601">阿那含<note place="inline">斷欲界後三品。進斷上二界七十二品俱生思煩惱</note></item></list><p xml:id="pX58p0699b1624" rend="margin-left:4em;inline"><note place="inline"><anchor xml:id="beg_7" type="cb-app"/>已<anchor xml:id="end_7"/>上修習位</note>。</p></cb:div>
+<lb ed="X" n="0699b16"/><lb ed="R104" n="0139a01"/><item xml:id="itemX58p0699b1601">阿那含<note place="inline">斷欲界後三品。進斷上二界七十二品俱生思煩惱</note></item></list><p xml:id="pX58p0699b1624" rend="margin-left:4em;inline"><note place="inline"><anchor xml:id="nkr_note_add_0699b1601" n="0699b1601"/><anchor xml:id="beg0699b1601" n="0699b1601"/>已<anchor xml:id="end0699b1601"/>上修習位</note>。</p></cb:div>
 <lb ed="X" n="0699b17"/><lb ed="R104" n="0139a02"/><cb:div type="other"><cb:mulu type="其他" level="2">〔圓〕阿羅漢</cb:mulu><head>〔圓〕</head><list><item xml:id="itemX58p0699b1702">阿羅漢<note place="inline">斷我執分別俱生煩惱盡。證生空理。住有餘無餘涅槃</note></item></list><p xml:id="pX58p0699b1728" rend="margin-left:4em;inline"><note place="inline">無學位</note>。</p></cb:div>
 <lb ed="X" n="0699b18"/><lb ed="R104" n="0139a03"/><cb:div type="other"><cb:mulu type="其他" level="2">〔圓〕辟支</cb:mulu><head>〔圓〕</head><list><item xml:id="itemX58p0699b1802">辟支<note place="inline">斷見思煩惱障。與聲聞同。更侵習氣。故居其上。餘理果亦同</note></item></list><p xml:id="pX58p0699b1829" rend="margin-left:4em;inline"><note place="inline">無學位</note>。</p></cb:div>
 <lb ed="X" n="0699b19"/><lb ed="R104" n="0139a04"/><cb:div type="other"><cb:mulu type="其他" level="2">〔圓〕佛</cb:mulu><head>〔圓〕</head><list><item xml:id="itemX58p0699b1902">佛<note place="inline">從初發心。發四弘願。三祇百劫。修行種相。次入補處。托胎出家安坐不動。發真無漏。頓斷見思
@@ -293,13 +298,25 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0698b2201" to="#end0698b2201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0698c1301" to="#end0698c1301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0699a1601" to="#end0699a1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0699a1801" to="#end0699a1801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0699b0701" to="#end0699b0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0699b1201" to="#end0699b1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0699b1601" to="#end0699b1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0698b2201" resp="#resp1" type="add" target="#nkr_note_add_0698b2201">已【CB】，巳【卍續】</note>
+<note n="0698c1301" resp="#resp1" type="add" target="#nkr_note_add_0698c1301">已【CB】，巳【卍續】</note>
+<note n="0699a1601" resp="#resp1" type="add" target="#nkr_note_add_0699a1601">已【CB】，巳【卍續】</note>
+<note n="0699a1801" resp="#resp1" type="add" target="#nkr_note_add_0699a1801">已【CB】，巳【卍續】</note>
+<note n="0699b0701" resp="#resp1" type="add" target="#nkr_note_add_0699b0701">已【CB】，巳【卍續】</note>
+<note n="0699b1201" resp="#resp1" type="add" target="#nkr_note_add_0699b1201">已【CB】，巳【卍續】</note>
+<note n="0699b1601" resp="#resp1" type="add" target="#nkr_note_add_0699b1601">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

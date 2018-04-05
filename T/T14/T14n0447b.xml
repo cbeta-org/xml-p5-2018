@@ -31,7 +31,11 @@
         </publicationStmt>
         <sourceDesc>
                 <bibl>Taishō Tripiṭaka Vol. 14, No. 447b</bibl>
-        </sourceDesc>
+        <listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
+	</sourceDesc>
 </fileDesc>
 <encodingDesc>
         <projectDesc>
@@ -133,7 +137,7 @@ Added comment  for Emacs
 <lb n="0383b22" ed="T"/>
 <milestone n="1" unit="juan"/>
 <lb n="0383b23" ed="T"/>
-<lb n="0383b24" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><anchor xml:id="nkr_note_orig_0383009" n="0383009"/><cb:jhead>現在賢劫千佛名經<note place="inline">一名「集諸佛大功德山」</note></cb:jhead></cb:juan>
+<lb n="0383b24" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><anchor xml:id="nkr_note_orig_0383009" n="0383009"/><anchor xml:id="nkr_note_mod_0383009" n="0383009"/><cb:jhead>現在賢劫千佛名經<note place="inline">一名「集諸佛大功德山」</note></cb:jhead></cb:juan>
 <lb n="0383b25" ed="T"/>
 <lb n="0383b26" ed="T"/><byline cb:type="Translator">開元拾遺附梁錄</byline>
 <lb n="0383b27" ed="T"/><cb:div type="jing"><p xml:id="pT14p0383b2701">爾時喜王菩薩白佛言：「世尊，今此眾中，頗有
@@ -448,7 +452,7 @@ Added comment  for Emacs
 <lb n="0387a06" ed="T"/>淨佛、南無等定佛、南無不壞佛、南無滅
 <lb n="0387a07" ed="T"/>垢佛、南無不失方便佛、南無無嬈佛、南
 <lb n="0387a08" ed="T"/>無妙面佛、南無智制住佛、南無法師王佛、
-<lb n="0387a09" ed="T"/>南無大天佛、南無深意佛、南<anchor xml:id="beg_1" type="cb-app"/>無<anchor xml:id="end_1"/>無量佛、
+<lb n="0387a09" ed="T"/>南無大天佛、南無深意佛、南<anchor xml:id="nkr_note_add_0387a0901" n="0387a0901"/><anchor xml:id="beg0387a0901" n="0387a0901"/>無<anchor xml:id="end0387a0901"/>無量佛、
 <lb n="0387a10" ed="T"/>南無無礙見佛、南無世供養佛、南無普散
 <lb n="0387a11" ed="T"/>華佛、南無三世供佛、南無應日藏佛、南
 <lb n="0387a12" ed="T"/>無天供養佛、南無上智人佛。</p>
@@ -532,7 +536,7 @@ Added comment  for Emacs
 <pb n="0388a" ed="T" xml:id="T14.0447b.0388a"/>
 <lb n="0388a01" ed="T"/>南無欲樂佛、南無樓至佛。</p>
 <lb n="0388a02" ed="T"/><p xml:id="pT14p0388a0201">一千佛竟。</p>
-<lb n="0388a03" ed="T"/><p xml:id="pT14p0388a0301"><anchor xml:id="nkr_note_orig_0388001" n="0388001"/>此賢劫中，諸佛出世名號如是。若人聞此
+<lb n="0388a03" ed="T"/><p xml:id="pT14p0388a0301"><anchor xml:id="nkr_note_orig_0388001" n="0388001"/><anchor xml:id="nkr_note_mod_0388001" n="0388001"/>此賢劫中，諸佛出世名號如是。若人聞此
 <lb n="0388a04" ed="T"/>千佛名字，不畏謬錯，必得涅槃。諸有智者，聞
 <lb n="0388a05" ed="T"/>諸佛名字，應當一心勿懷放逸，勤行精進；
 <lb n="0388a06" ed="T"/>無失是緣，還墮惡趣，受諸苦惱。安住持戒，隨
@@ -549,7 +553,14 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>無</corr><sic>佛</sic></choice>
+<app from="#beg0387a0901" to="#end0387a0901"><lem wit="#wit1" resp="#resp2">無</lem><rdg wit="#wit2">佛</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0383009" resp="#resp2" type="mod" target="#nkr_note_mod_0383009"><!--CBETA todo type: newmod-->別出【明】 p.376 參照</note>
+<note n="0388001" resp="#resp2" type="mod" target="#nkr_note_mod_0388001"><!--CBETA todo type: newmod-->（此賢…法）百八十字【宋】【元】與【麗】大異故以【宋】【元】對校於此</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -557,6 +568,12 @@ Added comment  for Emacs
 <p>
 <note n="0383009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0383009">別出【明】 p.376 參照</note>
 <note n="0388001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0388001">（此賢…法）百八十字【宋】【元】與【麗】大異故以【宋】【元】對校於此</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0387a0901" resp="#resp2" type="add" target="#nkr_note_add_0387a0901">無【CB】，佛【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

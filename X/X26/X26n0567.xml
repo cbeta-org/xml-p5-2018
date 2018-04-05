@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2009/04/22 08:54:12 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 26, No. 567</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -117,8 +122,8 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0929c08"/><lb ed="R092" n="0954a17"/>第一智慧身子。不能修也。色不異空以下二十四
 <lb ed="X" n="0929c09"/><lb ed="R092" n="0954a18"/>言□□□機頓悟頓證甚深般若妙旨謂舍利子
 <lb ed="X" n="0929c10"/><lb ed="R092" n="0954b01"/>所說照見五蘊皆空者。是何五蘊。謂即是色不異
-<lb ed="X" n="0929c11"/><lb ed="R092" n="0954b02"/>空。空不異色。色即是空。空即是色。又謂汝既<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>知
-<lb ed="X" n="0929c12"/><lb ed="R092" n="0954b03"/>蘊空之初。堅固色體。如是而<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>即知虗名之受。融
+<lb ed="X" n="0929c11"/><lb ed="R092" n="0954b02"/>空。空不異色。色即是空。空即是色。又謂汝既<anchor xml:id="nkr_note_add_0929c1101" n="0929c1101"/><anchor xml:id="beg0929c1101" n="0929c1101"/>已<anchor xml:id="end0929c1101"/>知
+<lb ed="X" n="0929c12"/><lb ed="R092" n="0954b03"/>蘊空之初。堅固色體。如是而<anchor xml:id="nkr_note_add_0929c1201" n="0929c1201"/><anchor xml:id="beg0929c1201" n="0929c1201"/>已<anchor xml:id="end0929c1201"/>即知虗名之受。融
 <lb ed="X" n="0929c13"/><lb ed="R092" n="0954b04"/>通之想。幽隱之行。罔象之識。亦復如是也。</p></cb:div>
 <lb ed="X" n="0929c14"/><lb ed="R092" n="0954b05"/><cb:div type="orig"><p xml:id="pX26p0929c1401">舍利子。是諸法空相。不生不滅。不垢不淨。不增不減。
 <lb ed="X" n="0929c15"/><lb ed="R092" n="0954b06"/>是故空中。無色。無受想行識。無眼耳鼻舌身意。無色
@@ -257,7 +262,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0931b23"/><lb ed="R092" n="0958a08"/>本心本體。本來是佛。不假修成。不屬漸次。不落邊
 <lb ed="X" n="0931b24"/><lb ed="R092" n="0958a09"/>見。無有一法可得。所謂本來無一物。何處惹塵埃。
 <pb ed="X" xml:id="X26.0567.0931c" n="0931c"/>
-<lb ed="X" n="0931c01"/><lb ed="R092" n="0958a10"/>故佛云。我於菩提。實無所得。默契而<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>。若人能觀
+<lb ed="X" n="0931c01"/><lb ed="R092" n="0958a10"/>故佛云。我於菩提。實無所得。默契而<anchor xml:id="nkr_note_add_0931c0101" n="0931c0101"/><anchor xml:id="beg0931c0101" n="0931c0101"/>已<anchor xml:id="end0931c0101"/>。若人能觀
 <lb ed="X" n="0931c02"/><lb ed="R092" n="0958a11"/>五蘊皆空。四大無我。心本太虗。無往無來。湛然圓
 <lb ed="X" n="0931c03"/><lb ed="R092" n="0958a12"/>寂。心境一如但能如是。直下頓了。不為三世所拘
 <lb ed="X" n="0931c04"/><lb ed="R092" n="0958a13"/>繫。便遠離一切苦厄。為出世人也。切不得有分毫
@@ -274,9 +279,17 @@ basicx 程式 轉自 簡單標記版
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0929c1101" to="#end0929c1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0929c1201" to="#end0929c1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0931c0101" to="#end0931c0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0929c1101" resp="#resp1" type="add" target="#nkr_note_add_0929c1101">已【CB】，巳【卍續】</note>
+<note n="0929c1201" resp="#resp1" type="add" target="#nkr_note_add_0929c1201">已【CB】，巳【卍續】</note>
+<note n="0931c0101" resp="#resp1" type="add" target="#nkr_note_add_0931c0101">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

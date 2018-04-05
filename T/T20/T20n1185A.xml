@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:01:23 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 20, No. 1185A</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -339,8 +344,8 @@ Added comment  for Emacs
 <lb n="0793a01" ed="T"/><p xml:id="pT20p0793a0101">次說維摩詰菩薩陀羅尼。</p>
 <lb n="0793a02" ed="T"/><p cb:type="dharani" xml:id="pT20p0793a0201">曩莫阿<note place="inline">引</note>哩夜<note place="inline">二合</note>尾麼攞吉多曳<g ref="#CB00155">󰂛</g>地薩怛
 <lb n="0793a03" ed="T"/>嚩<note place="inline">二合</note>野怛儞也<note place="inline">二合</note>他<note place="inline">引</note>言底跢薩嚩爾乃囉
-<lb n="0793a04" ed="T"/>底吉底哆薩嚩爾嚩<anchor xml:id="beg_1" type="cb-app"/>日<anchor xml:id="end_1"/>囉<note place="inline">二合</note>迦<g ref="#CB00942">㘑</g>嚩<anchor xml:id="beg_2" type="cb-app"/>日<anchor xml:id="end_2"/>囉<note place="inline">二合</note>
-<lb n="0793a05" ed="T"/>婆吠嚩<anchor xml:id="beg_3" type="cb-app"/>日<anchor xml:id="end_3"/>囉<note place="inline">二合</note>陛娜迦<g ref="#CB00942">㘑</g>娑嚩<note place="inline">二合</note>賀</p>
+<lb n="0793a04" ed="T"/>底吉底哆薩嚩爾嚩<anchor xml:id="nkr_note_add_0793a0401" n="0793a0401"/><anchor xml:id="beg0793a0401" n="0793a0401"/>日<anchor xml:id="end0793a0401"/>囉<note place="inline">二合</note>迦<g ref="#CB00942">㘑</g>嚩<anchor xml:id="nkr_note_add_0793a0402" n="0793a0402"/><anchor xml:id="beg0793a0402" n="0793a0402"/>日<anchor xml:id="end0793a0402"/>囉<note place="inline">二合</note>
+<lb n="0793a05" ed="T"/>婆吠嚩<anchor xml:id="nkr_note_add_0793a0501" n="0793a0501"/><anchor xml:id="beg0793a0501" n="0793a0501"/>日<anchor xml:id="end0793a0501"/>囉<note place="inline">二合</note>陛娜迦<g ref="#CB00942">㘑</g>娑嚩<note place="inline">二合</note>賀</p>
 <lb n="0793a06" ed="T"/><p xml:id="pT20p0793a0601">次說除一切障菩薩陀羅尼。</p>
 <lb n="0793a07" ed="T"/><p cb:type="dharani" xml:id="pT20p0793a0701">曩莫薩嚩<g ref="#CB00576">𩕳</g><note place="inline">引</note>嚩囉拏<note place="inline">鼻</note>尾瑟劍鼻抳<note place="inline">尼貞反</note><g ref="#CB00155">󰂛</g>
 <lb n="0793a08" ed="T"/>地薩怛嚩<note place="inline">二合引</note>野怛儞也<note place="inline">二合</note>他<note place="inline">引</note>薩嚩<note place="inline">引</note>嚩囉
@@ -623,7 +628,7 @@ Added comment  for Emacs
 <lb n="0796a15" ed="T"/>主白佛言世尊。其印云何唯願如來為我宣
 <lb n="0796a16" ed="T"/>說。</p>
 <lb n="0796a17" ed="T"/><p xml:id="pT20p0796a1701">爾時世尊告金剛密迹主言。凡欲作印。先須
-<lb n="0796a18" ed="T"/>淨水洗手。用白檀欝金龍腦<anchor xml:id="beg_4" type="cb-app"/>沈<anchor xml:id="end_4"/>水及諸上妙
+<lb n="0796a18" ed="T"/>淨水洗手。用白檀欝金龍腦<anchor xml:id="nkr_note_add_0796a1801" n="0796a1801"/><anchor xml:id="beg0796a1801" n="0796a1801"/>沈<anchor xml:id="end0796a1801"/>水及諸上妙
 <lb n="0796a19" ed="T"/>好香。石上以水磨之相和。以塗其手揩令入
 <lb n="0796a20" ed="T"/>肉香潔。然即廣發其願頂禮諸佛<note place="inline">而作是言</note>。</p>
 <lb n="0796a21" ed="T"/><p xml:id="pT20p0796a2101">敬禮婆羅王佛<note place="inline">梵名</note>娑<note place="inline">引</note>禮捺囉囉<note place="inline">引</note>惹。</p>
@@ -783,16 +788,25 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>日</corr><sic>曰</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>日</corr><sic>曰</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>日</corr><sic>曰</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>沈<note type="cf1">T20n1185Bp0804b26</note></corr><sic>沆</sic></choice>
+<app from="#beg0793a0401" to="#end0793a0401"><lem wit="#wit1" resp="#resp3">日</lem><rdg wit="#wit2">曰</rdg></app>
+<app from="#beg0793a0402" to="#end0793a0402"><lem wit="#wit1" resp="#resp3">日</lem><rdg wit="#wit2">曰</rdg></app>
+<app from="#beg0793a0501" to="#end0793a0501"><lem wit="#wit1" resp="#resp3">日</lem><rdg wit="#wit2">曰</rdg></app>
+<app from="#beg0796a1801" to="#end0796a1801"><lem wit="#wit1" resp="#resp3">沈<note type="cf1">T20n1185Bp0804b26</note></lem><rdg wit="#wit2">沆</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0791019" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0791019">【原】麗本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0793a0401" resp="#resp2" type="add" target="#nkr_note_add_0793a0401">日【CB】，曰【大】</note>
+<note n="0793a0402" resp="#resp2" type="add" target="#nkr_note_add_0793a0402">日【CB】，曰【大】</note>
+<note n="0793a0501" resp="#resp2" type="add" target="#nkr_note_add_0793a0501">日【CB】，曰【大】</note>
+<note n="0796a1801" resp="#resp2" type="add" target="#nkr_note_add_0796a1801">沈【CB】，沆【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

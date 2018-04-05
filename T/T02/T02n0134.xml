@@ -36,6 +36,7 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -168,7 +169,7 @@ Added comment  for Emacs
 <lb n="0857b24" ed="T"/>伽羅摩足，便作是言：「願尊者，懺悔我愚癡所
 <lb n="0857b25" ed="T"/>為亦不別真。」僧伽羅摩言：「願妹常安隱壽命
 <lb n="0857b26" ed="T"/>延長。」時，僧伽羅摩婦便語母言：「僧伽羅摩稱
-<lb n="0857b27" ed="T"/>我為<anchor xml:id="beg_1" type="cb-app"/>妹<anchor xml:id="end_1"/>，此必不復樂欲。」便語僧伽羅摩言：「願
+<lb n="0857b27" ed="T"/>我為<anchor xml:id="nkr_note_add_0857b2701" n="0857b2701"/><anchor xml:id="beg0857b2701" n="0857b2701"/>妹<anchor xml:id="end0857b2701"/>，此必不復樂欲。」便語僧伽羅摩言：「願
 <lb n="0857b28" ed="T"/>尊者僧伽羅摩，懺悔愚癡所為然不別真。」僧
 <lb n="0857b29" ed="T"/>伽羅摩言：「願妹安隱壽命延長。」時，僧伽羅摩
 <pb n="0857c" ed="T" xml:id="T02.0134.0857c"/>
@@ -198,7 +199,7 @@ Added comment  for Emacs
 <app from="#beg0857005" to="#end0857005"><lem wit="#wit1">原</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">源</rdg></app>
 <app from="#beg0857006" to="#end0857006"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0857007" to="#end0857007"><lem wit="#wit1">姤</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">妬</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>妹</corr><sic>姝</sic></choice>
+<app from="#beg0857b2701" to="#end0857b2701"><lem wit="#wit5" resp="#resp2">妹</lem><rdg wit="#wit1">姝</rdg></app>
 <app from="#beg0857008" to="#end0857008"><lem wit="#wit1">檀</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">壇</rdg></app>
 <app from="#beg0857009" to="#end0857009"><lem wit="#wit1">曰</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">言</rdg></app>
 <app from="#beg0857010" to="#end0857010"><lem wit="#wit1">渧</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">滴</rdg></app>
@@ -207,15 +208,15 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0857002" resp="#resp2" type="mod" target="#nkr_note_mod_0857002">沙門＝三藏法師【宋】【元】【明】</note>
-<note n="0857003" resp="#resp2" type="mod" target="#nkr_note_mod_0857003">六＋（過）【宋】【元】【明】</note>
-<note n="0857004" resp="#resp2" type="mod" target="#nkr_note_mod_0857004">即＝比丘【宋】【元】【明】</note>
-<note n="0857005" resp="#resp2" type="mod" target="#nkr_note_mod_0857005">原＝源【宋】【元】【明】</note>
-<note n="0857006" resp="#resp2" type="mod" target="#nkr_note_mod_0857006">〔如〕－【宋】【元】【明】</note>
-<note n="0857007" resp="#resp2" type="mod" target="#nkr_note_mod_0857007">姤＝妬【宋】【元】【明】</note>
-<note n="0857008" resp="#resp2" type="mod" target="#nkr_note_mod_0857008">檀＝壇【宋】【元】【明】</note>
-<note n="0857009" resp="#resp2" type="mod" target="#nkr_note_mod_0857009">曰＝言【宋】【元】【明】</note>
-<note n="0857010" resp="#resp2" type="mod" target="#nkr_note_mod_0857010">渧＝滴【宋】【元】【明】</note>
+<note n="0857002" resp="#resp2" type="mod" target="#nkr_note_mod_0857002">沙門【大】，三藏法師【宋】【元】【明】</note>
+<note n="0857003" resp="#resp2" type="mod" target="#nkr_note_mod_0857003">六【大】，六過【宋】【元】【明】</note>
+<note n="0857004" resp="#resp2" type="mod" target="#nkr_note_mod_0857004">即【大】，比丘【宋】【元】【明】</note>
+<note n="0857005" resp="#resp2" type="mod" target="#nkr_note_mod_0857005">原【大】，源【宋】【元】【明】</note>
+<note n="0857006" resp="#resp2" type="mod" target="#nkr_note_mod_0857006">如【大】，〔－〕【宋】【元】【明】</note>
+<note n="0857007" resp="#resp2" type="mod" target="#nkr_note_mod_0857007">姤【大】，妬【宋】【元】【明】</note>
+<note n="0857008" resp="#resp2" type="mod" target="#nkr_note_mod_0857008">檀【大】，壇【宋】【元】【明】</note>
+<note n="0857009" resp="#resp2" type="mod" target="#nkr_note_mod_0857009">曰【大】，言【宋】【元】【明】</note>
+<note n="0857010" resp="#resp2" type="mod" target="#nkr_note_mod_0857010">渧【大】，滴【宋】【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -230,6 +231,12 @@ Added comment  for Emacs
 <note n="0857008" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0857008">檀＝壇【三】</note>
 <note n="0857009" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0857009">曰＝言【三】</note>
 <note n="0857010" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0857010">渧＝滴【三】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0857b2701" resp="#resp2" type="add" target="#nkr_note_add_0857b2701">妹【CB】，姝【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

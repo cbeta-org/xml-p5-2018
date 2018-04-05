@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2009/04/23 08:08:47 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,7 +33,8 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 33, No. 1714</bibl>
 	<listWit>
-		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -183,7 +185,7 @@ Added comment  for Emacs
 <lb n="0569b20" ed="T"/><byline cb:type="other">大明天界善世禪寺
 <lb n="0569b21" ed="T"/>住持<note place="inline">臣</note>僧<note place="inline">宗泐</note>
 <lb n="0569b22" ed="T"/>演福講寺
-<lb n="0569b23" ed="T"/>住持<note place="inline">臣</note>僧<note place="inline">如<anchor xml:id="beg_1" type="cb-app"/>玘<anchor xml:id="end_1"/></note>奉詔同註</byline>
+<lb n="0569b23" ed="T"/>住持<note place="inline">臣</note>僧<note place="inline">如<anchor xml:id="nkr_note_add_0569b2301" n="0569b2301"/><anchor xml:id="beg0569b2301" n="0569b2301"/>玘<anchor xml:id="end0569b2301"/></note>奉詔同註</byline>
 <lb n="0569b24" ed="T"/><p xml:id="pT33p0569b2401">按施護譯本。世尊在靈鷲山中。入甚深光明。
 <lb n="0569b25" ed="T"/>宣說正法三摩提。舍利子白觀自在菩薩言。
 <lb n="0569b26" ed="T"/>若有人欲修學甚深般若法門者。當云何修
@@ -294,7 +296,7 @@ Added comment  for Emacs
 <lb n="0570c11" ed="T"/>得也。</p>
 <lb n="0570c12" ed="T"/><p xml:id="pT33p0570c1201">以無所得故　此結前起後之言。</p>
 <lb n="0570c13" ed="T"/><p xml:id="pT33p0570c1301">菩提薩埵。依般若波羅蜜多。故心無罣礙。無
-<lb n="0570c14" ed="T"/>罣礙故無有恐怖。遠離<anchor xml:id="nkr_note_orig_0570001" n="0570001"/><anchor xml:id="beg0570001" n="0570001"/>顛<anchor xml:id="end0570001"/>倒夢想。究竟涅槃
+<lb n="0570c14" ed="T"/>罣礙故無有恐怖。遠離<anchor xml:id="nkr_note_orig_0570001" n="0570001"/><anchor xml:id="nkr_note_mod_0570001" n="0570001"/><anchor xml:id="beg0570001" n="0570001"/>顛<anchor xml:id="end0570001"/>倒夢想。究竟涅槃
 <lb n="0570c15" ed="T"/>　菩提薩埵者。能依之人也。般若波羅蜜多
 <lb n="0570c16" ed="T"/>者。所依之法也。菩薩之人依此般若法門修
 <lb n="0570c17" ed="T"/>學。功成理顯。故得心無業縛。因無業縛故。無
@@ -338,8 +340,14 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>玘</corr><sic><g ref="#CB00215">󰃗</g></sic></choice>
-<app from="#beg0570001" to="#end0570001"><lem resp="#resp1" wit="#wit1">顛</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">一切顛</rdg></app>
+<app from="#beg0569b2301" to="#end0569b2301"><lem wit="#wit1" resp="#resp3">玘</lem><rdg wit="#wit2"><g ref="#CB00215">󰃗</g></rdg></app>
+<app from="#beg0570001" to="#end0570001"><lem resp="#resp1" wit="#wit2">顛</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">一切顛</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0570001" resp="#resp2" type="mod" target="#nkr_note_mod_0570001">顛【大】，一切顛【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -347,6 +355,12 @@ Added comment  for Emacs
 <p>
 <note n="0569001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0569001">【原】增上寺報恩藏明本</note>
 <note n="0570001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0570001">（一切）＋顛？</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0569b2301" resp="#resp2" type="add" target="#nkr_note_add_0569b2301">玘【CB】，<g ref="#CB00215">󰃗</g>【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

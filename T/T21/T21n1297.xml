@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2011/02/24 08:01:11 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -34,6 +35,7 @@
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【原】</witness>
+		<witness xml:id="wit3">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -160,7 +162,7 @@ Added comment  for Emacs
 <lb n="0384a16" ed="T"/>此天瞋時魔眾皆現國土荒亂。天帝釋者地
 <lb n="0384a17" ed="T"/>居之主。注記眾生所作善惡。此天喜時國土
 <lb n="0384a18" ed="T"/>安穩人民不亂。此天瞋時刀兵相戰。地居諸
-<lb n="0384a19" ed="T"/>王皆<anchor xml:id="nkr_note_orig_0384001" n="0384001"/><anchor xml:id="beg0384001" n="0384001"/>悉<anchor xml:id="end0384001"/>安。焰魔天喜時人無橫死疫氣不發。
+<lb n="0384a19" ed="T"/>王皆<anchor xml:id="nkr_note_orig_0384001" n="0384001"/><anchor xml:id="nkr_note_mod_0384001" n="0384001"/><anchor xml:id="beg0384001" n="0384001"/>悉<anchor xml:id="end0384001"/>安。焰魔天喜時人無橫死疫氣不發。
 <lb n="0384a20" ed="T"/>此天瞋時人非時死疫氣充滿。梵天者上天
 <lb n="0384a21" ed="T"/>之主眾生之父。此天喜時器世間安穩無有
 <lb n="0384a22" ed="T"/>亂動。何以故。劫初之時。此天成立器世間
@@ -218,7 +220,7 @@ Added comment  for Emacs
 <lb n="0384c14" ed="T"/>法界實相妙供。二由大慈悲。三由彼諸天主
 <lb n="0384c15" ed="T"/>福力多。如龍得少水以自福力遍灑諸國。呪
 <lb n="0384c16" ed="T"/>於諸天所以滿四天下人福。不及四王天一
-<lb n="0384c17" ed="T"/>人福財。隨持主<anchor xml:id="nkr_note_orig_0384002" n="0384002"/><anchor xml:id="beg0384002" n="0384002"/>志<anchor xml:id="end0384002"/>有增減。而諸天福多故。
+<lb n="0384c17" ed="T"/>人福財。隨持主<anchor xml:id="nkr_note_orig_0384002" n="0384002"/><anchor xml:id="nkr_note_mod_0384002" n="0384002"/><anchor xml:id="beg0384002" n="0384002"/>志<anchor xml:id="end0384002"/>有增減。而諸天福多故。
 <lb n="0384c18" ed="T"/>得乏少供遍與一切。譬如少火隨薪有增減。
 <lb n="0384c19" ed="T"/>少供亦爾。天福多故付彼成廣。又縱雖色味
 <lb n="0384c20" ed="T"/>下劣。由先三義皆成清淨微妙醍醐。如耆婆
@@ -249,7 +251,7 @@ Added comment  for Emacs
 <lb n="0385a15" ed="T"/><note place="inline">日天除寒月天除熱</note>若有四大病。隨用四大精天。如是為
 <lb n="0385a16" ed="T"/>首。餘次第迴順供之。為富用毘沙門。為貴
 <lb n="0385a17" ed="T"/>更用梵天。其供養具各儲一器。香水塗香時
-<lb n="0385a18" ed="T"/>華五穀飯<note place="inline">若粥</note><anchor xml:id="beg_1" type="cb-app"/>蠟<anchor xml:id="end_1"/>燭等。插盛一器而供養之。燒
+<lb n="0385a18" ed="T"/>華五穀飯<note place="inline">若粥</note><anchor xml:id="nkr_note_add_0385a1801" n="0385a1801"/><anchor xml:id="beg0385a1801" n="0385a1801"/>蠟<anchor xml:id="end0385a1801"/>燭等。插盛一器而供養之。燒
 <lb n="0385a19" ed="T"/>香普薰清淨如法。供養儀式各別印明。及彼
 <lb n="0385a20" ed="T"/>畫像種種法義如餘部說。普賢菩薩為度眾
 <lb n="0385a21" ed="T"/>生。自問自答如是因緣。如是報恩如是祈願。
@@ -271,7 +273,14 @@ Added comment  for Emacs
 <p>
 <app from="#beg0384001" to="#end0384001"><lem wit="#wit1">悉</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">悉不</rdg></app>
 <app from="#beg0384002" to="#end0384002"><lem resp="#resp1" wit="#wit1">志</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">應</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>蠟</corr><sic>臘</sic></choice>
+<app from="#beg0385a1801" to="#end0385a1801"><lem wit="#wit3" resp="#resp3">蠟</lem><rdg wit="#wit1">臘</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0384001" resp="#resp2" type="mod" target="#nkr_note_mod_0384001">悉【大】，悉不【校異-原】</note>
+<note n="0384002" resp="#resp2" type="mod" target="#nkr_note_mod_0384002">志【大】，應【考偽-原】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -280,6 +289,12 @@ Added comment  for Emacs
 <note n="0383001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0383001">【原】享保年間刊豐山大學藏本</note>
 <note n="0384001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0384001">悉＋（不）ィ【原】</note>
 <note n="0384002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0384002">志＝應ヵ【原】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0385a1801" resp="#resp2" type="add" target="#nkr_note_add_0385a1801">蠟【CB】，臘【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

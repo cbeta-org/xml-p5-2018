@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.1 $<date>$Date: 2011/12/13 09:00:21 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Supplement to the Dazangjing Vol. 6, No. 6</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【補編】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -140,7 +145,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0281a39"/><item xml:id="itemB06p0281a3901"><p xml:id="pB06p0281a3901">九、惡品　　二七～二八</p></item>
 <lb ed="B" n="0281a40"/><item xml:id="itemB06p0281a4001"><p xml:id="pB06p0281a4001">十、刑害品　　二八～三〇</p></item>
 <lb ed="B" n="0281a41"/><item xml:id="itemB06p0281a4101"><p xml:id="pB06p0281a4101">十一、老品　　三〇～三一</p></item>
-<lb ed="B" n="0281a42"/><item xml:id="itemB06p0281a4201"><p xml:id="pB06p0281a4201">十二、自<anchor xml:id="beg_1" type="cb-app"/>己<anchor xml:id="end_1"/>品　　三一～三二</p></item>
+<lb ed="B" n="0281a42"/><item xml:id="itemB06p0281a4201"><p xml:id="pB06p0281a4201">十二、自<anchor xml:id="nkr_note_add_0281a4201" n="0281a4201"/><anchor xml:id="beg0281a4201" n="0281a4201"/>己<anchor xml:id="end0281a4201"/>品　　三一～三二</p></item>
 <lb ed="B" n="0281a43"/><item xml:id="itemB06p0281a4301"><p xml:id="pB06p0281a4301">十三、世間品　　三三～三四</p></item>
 <lb ed="B" n="0281a44"/><item xml:id="itemB06p0281a4401"><p xml:id="pB06p0281a4401">十四、佛陀品　　三四～三六</p></item>
 <lb ed="B" n="0281a45"/><item xml:id="itemB06p0281a4501"><p xml:id="pB06p0281a4501">十五、安樂品　　三六～三七</p></item>
@@ -160,7 +165,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0281b10"/><list><item xml:id="itemB06p0281b1001"><p xml:id="pB06p0281b1001">一、菩提品　　六七～七九</p>
 <lb ed="B" n="0281b11"/><p xml:id="pB06p0281b1101" rend="margin-left:2em">菩提一，二，三。牧羊者尼
 <lb ed="B" n="0281b12"/>拘律林。長老。大迦葉。波
-<lb ed="B" n="0281b13"/>吒。戰勝。結髮。<anchor xml:id="beg_2" type="cb-app"/>婆<anchor xml:id="end_2"/>希。</p></item>
+<lb ed="B" n="0281b13"/>吒。戰勝。結髮。<anchor xml:id="nkr_note_add_0281b1301" n="0281b1301"/><anchor xml:id="beg0281b1301" n="0281b1301"/>婆<anchor xml:id="end0281b1301"/>希。</p></item>
 <lb ed="B" n="0281b14"/><item xml:id="itemB06p0281b1401"><p xml:id="pB06p0281b1401">二、目真鄰陀品　　八〇～九五</p>
 <lb ed="B" n="0281b15"/><p xml:id="pB06p0281b1501" rend="margin-left:2em">目真鄰陀。王。刑害。供養。
 <lb ed="B" n="0281b16"/>優婆塞。胎婦。一子。蘇波
@@ -172,7 +177,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0281b22"/><item xml:id="itemB06p0281b2201"><p xml:id="pB06p0281b2201">四、彌醯品　　一一四～一三〇</p>
 <lb ed="B" n="0281b23"/><p xml:id="pB06p0281b2301" rend="margin-left:2em">彌希。憍慢。牧牛人。月明。
 <lb ed="B" n="0281b24"/>象。賓頭盧。舍利弗。優婆
-<lb ed="B" n="0281b25"/>先那<anchor xml:id="beg_3" type="cb-app"/>婆<anchor xml:id="end_3"/>檀提子。舍利弗。</p></item>
+<lb ed="B" n="0281b25"/>先那<anchor xml:id="nkr_note_add_0281b2501" n="0281b2501"/><anchor xml:id="beg0281b2501" n="0281b2501"/>婆<anchor xml:id="end0281b2501"/>檀提子。舍利弗。</p></item>
 <lb ed="B" n="0281b26"/><item xml:id="itemB06p0281b2601"><p xml:id="pB06p0281b2601">五、蘇那長老品
 <lb ed="B" n="0281b27"/>　　一三一～一五一</p>
 <lb ed="B" n="0281b28"/><p xml:id="pB06p0281b2801" rend="margin-left:2em">王。短命。癩病者。兒童。
@@ -219,9 +224,9 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0282a04"/><list><item xml:id="itemB06p0282a0401"><p xml:id="pB06p0282a0401">第一品　　二五二～二六〇</p>
 <lb ed="B" n="0282a05"/><p xml:id="pB06p0282a0501" rend="margin-left:2em">不善報。界。受之一。受之
 <lb ed="B" n="0282a06"/>二。求之一。求之二。漏之
-<lb ed="B" n="0282a07"/>一。漏之二。<anchor xml:id="beg_4" type="cb-app"/>愛。<anchor xml:id="end_4"/>魔罥。</p></item>
+<lb ed="B" n="0282a07"/>一。漏之二。<anchor xml:id="nkr_note_add_0282a0701" n="0282a0701"/><anchor xml:id="beg0282a0701" n="0282a0701"/>愛。<anchor xml:id="end0282a0701"/>魔罥。</p></item>
 <lb ed="B" n="0282a08"/><item xml:id="itemB06p0282a0801"><p xml:id="pB06p0282a0801">第二品　　二六〇～二七〇</p>
-<lb ed="B" n="0282a09"/><p xml:id="pB06p0282a0901" rend="margin-left:2em">福業事。眼<anchor xml:id="beg_5" type="cb-app"/><space quantity="0"/><anchor xml:id="end_5"/>。根。時。惡
+<lb ed="B" n="0282a09"/><p xml:id="pB06p0282a0901" rend="margin-left:2em">福業事。眼<anchor xml:id="nkr_note_add_0282a0901" n="0282a0901"/><anchor xml:id="beg0282a0901" n="0282a0901"/><space quantity="0"/><anchor xml:id="end0282a0901"/>。根。時。惡
 <lb ed="B" n="0282a10"/>行。善行。清淨。寂。貪之
 <lb ed="B" n="0282a11"/>一。貪之二。</p></item>
 <lb ed="B" n="0282a12"/><item xml:id="itemB06p0282a1201"><p xml:id="pB06p0282a1201">第三品</p>
@@ -233,7 +238,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0282a18"/>婆達多。</p></item>
 <lb ed="B" n="0282a19"/><item xml:id="itemB06p0282a1901"><p xml:id="pB06p0282a1901">第五品</p>
 <lb ed="B" n="0282a20"/><p xml:id="pB06p0282a2001" rend="margin-left:2em">信。活命。和合衣。火。觀
-<lb ed="B" n="0282a21"/>察。生。<anchor xml:id="beg_6" type="cb-app"/>欲。<anchor xml:id="end_6"/>善。施。法。</p></item></list></item>
+<lb ed="B" n="0282a21"/>察。生。<anchor xml:id="nkr_note_add_0282a2101" n="0282a2101"/><anchor xml:id="beg0282a2101" n="0282a2101"/>欲。<anchor xml:id="end0282a2101"/>善。施。法。</p></item></list></item>
 <lb ed="B" n="0282a22"/><item xml:id="itemB06p0282a2201"><p xml:id="pB06p0282a2201">第四集　　三〇六～三一九</p>
 <lb ed="B" n="0282a23"/><p xml:id="pB06p0282a2301" rend="margin-left:2em">婆羅門。四事。知。沙門。
 <lb ed="B" n="0282a24"/>戒。愛。梵。資護。欺誑。
@@ -276,7 +281,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0282b14"/>
 <lb ed="B" n="0282b15"/><cb:div type="other"><cb:mulu type="其他" level="2">五、吉祥經</cb:mulu><head>五、吉祥經</head>
 <lb ed="B" n="0282b16"/><p xml:id="pB06p0282b1601" rend="margin-left:0em;text-indent:1em">如是我聞。</p>
-<lb ed="B" n="0282b17"/><p xml:id="pB06p0282b1701" rend="margin-left:0em;text-indent:1em">一時。世尊在舍衛城。祇陀林給孤獨長者園住。時初夜<anchor xml:id="beg_7" type="cb-app"/>已<anchor xml:id="end_7"/>。有一天
+<lb ed="B" n="0282b17"/><p xml:id="pB06p0282b1701" rend="margin-left:0em;text-indent:1em">一時。世尊在舍衛城。祇陀林給孤獨長者園住。時初夜<anchor xml:id="nkr_note_add_0282b1701" n="0282b1701"/><anchor xml:id="beg0282b1701" n="0282b1701"/>已<anchor xml:id="end0282b1701"/>。有一天
 <lb ed="B" n="0282b18"/>人，體發金光，偏照祇園，來至佛所，向佛作禮，却立一面，以偈問
 <lb ed="B" n="0282b19"/>佛。</p>
 <lb ed="B" n="0282b20"/><lg xml:id="lgB06p0282b2001" type="abnormal"><l rend="text-indent:1em">眾多天人等。</l><l rend="text-indent:1em">願得諸吉祥。</l><l rend="text-indent:1em">願佛為宣說。</l><l rend="text-indent:1em">最上諸吉祥。</l></lg>
@@ -355,7 +360,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0284a06"/>如是（生活）故。</p>
 <lb ed="B" n="0284a07"/><p xml:id="pB06p0284a0701" rend="margin-left:0em;text-indent:1em">於僧伽中，所作布施，立益餓鬼，經於長遠，此諸親法，今已開演
 <lb ed="B" n="0284a08"/>無上供養，汝等亦已為逝去諸親而作，汝等亦為比丘眾，增長大力，
-<lb ed="B" n="0284a09"/>汝等<anchor xml:id="beg_8" type="cb-app"/>已<anchor xml:id="end_8"/>得不小之福。</p></cb:div>
+<lb ed="B" n="0284a09"/>汝等<anchor xml:id="nkr_note_add_0284a0901" n="0284a0901"/><anchor xml:id="beg0284a0901" n="0284a0901"/>已<anchor xml:id="end0284a0901"/>得不小之福。</p></cb:div>
 <lb ed="B" n="0284a10"/>
 <lb ed="B" n="0284a11"/><cb:div type="other"><cb:mulu type="其他" level="2">八、伏藏經</cb:mulu><head>八、伏藏經</head>
 <lb ed="B" n="0284a12"/><p xml:id="pB06p0284a1201" rend="margin-left:0em;text-indent:1em">有諸人等，將其財寶，埋於深穴，作如是念，有事故時，財能益我
@@ -421,7 +426,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0285a16"/><p cb:type="head1" xml:id="pB06p0285a1601">第二　法句經</p>
 <lb ed="B" n="0285a17"/>
 <lb ed="B" n="0285a18"/><p xml:id="pB06p0285a1801">歸命應供，正等覺，佛，世尊。</p>
-<lb ed="B" n="0285a19"/><cb:div type="other"><cb:mulu type="其他" level="2">1 第一品　雙品</cb:mulu><head>第一<anchor xml:id="beg_9" type="cb-app"/>品<anchor xml:id="end_9"/>　雙品</head>
+<lb ed="B" n="0285a19"/><cb:div type="other"><cb:mulu type="其他" level="2">1 第一品　雙品</cb:mulu><head>第一<anchor xml:id="nkr_note_add_0285a1901" n="0285a1901"/><anchor xml:id="beg0285a1901" n="0285a1901"/>品<anchor xml:id="end0285a1901"/>　雙品</head>
 <lb ed="B" n="0285a20"/><p xml:id="pB06p0285a2001" rend="margin-left:0em;text-indent:1em">諸法以意為首。以意為主。以意成就。有惡意者。若言若行。苦即
 <lb ed="B" n="0285a21"/>隨彼。以三惡故。譬如車輪。隨牛而行。</p>
 <lb ed="B" n="0285a22"/><p xml:id="pB06p0285a2201" rend="margin-left:0em;text-indent:1em">諸法以意為首。以意為主。以意成就。有淨意者。若言若行。樂即
@@ -436,7 +441,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0285b02"/>住諸眾，同歸毀滅，諸（作善）等眾，則知所有執著（私見），能在和敬
 <lb ed="B" n="0285b03"/>共住眾中，滅盡（無諍）。</p>
 <lb ed="B" n="0285b04"/><p xml:id="pB06p0285b0401" rend="margin-left:1em">（註：本段泰日譯本，甚難解。原出波利耶象林故事，佛因僧眾諍
-<lb ed="B" n="0285b05"/>論廁所蓄水，犯不犯戒，相持不<anchor xml:id="beg_a" type="cb-app"/>已<anchor xml:id="end_a"/>。佛乃往波利耶林安居，返而說此。
+<lb ed="B" n="0285b05"/>論廁所蓄水，犯不犯戒，相持不<anchor xml:id="nkr_note_add_0285b0501" n="0285b0501"/><anchor xml:id="beg0285b0501" n="0285b0501"/>已<anchor xml:id="end0285b0501"/>。佛乃往波利耶林安居，返而說此。
 <lb ed="B" n="0285b06"/>茲據泰本本生經釋義意譯之。）</p>
 <lb ed="B" n="0285b07"/><p xml:id="pB06p0285b0701" rend="margin-left:0em;text-indent:1em">以欲樂為美好，不攝諸根，不節量飲食，懈怠不勤，則為魔所困擾
 <lb ed="B" n="0285b08"/>譬如大風，搖撼弱樹。</p>
@@ -465,7 +470,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0286a02"/><p xml:id="pB06p0286a0201" rend="margin-left:0em;text-indent:1em">有人少作善語，但遵法行，捨貪瞋癡，住於正智，心得解脫，不執
 <lb ed="B" n="0286a03"/>著現世來世，如是之人，真沙門列。</p></cb:div>
 <lb ed="B" n="0286a04"/>
-<lb ed="B" n="0286a05"/><cb:div type="other"><cb:mulu type="其他" level="2">2 第二品　不放逸品</cb:mulu><head>第二<anchor xml:id="beg_b" type="cb-app"/>品<anchor xml:id="end_b"/>　不放逸品</head>
+<lb ed="B" n="0286a05"/><cb:div type="other"><cb:mulu type="其他" level="2">2 第二品　不放逸品</cb:mulu><head>第二<anchor xml:id="nkr_note_add_0286a0501" n="0286a0501"/><anchor xml:id="beg0286a0501" n="0286a0501"/>品<anchor xml:id="end0286a0501"/>　不放逸品</head>
 <lb ed="B" n="0286a06"/><p xml:id="pB06p0286a0601" rend="margin-left:0em;text-indent:1em">不放逸是不死道，放逸是死道，不放逸人，如人未死，放逸之人，
 <lb ed="B" n="0286a07"/>與死人同。</p>
 <lb ed="B" n="0286a08"/><p xml:id="pB06p0286a0801" rend="margin-left:0em;text-indent:1em">賢者住不放逸，通達其理，樂不放逸，歡慕諸聖者所行之法。</p>
@@ -535,7 +540,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0287a14"/><cb:div type="other"><cb:mulu type="其他" level="2">5 第五品　愚品</cb:mulu><head>第五品　愚品</head>
 <lb ed="B" n="0287a15"/><p xml:id="pB06p0287a1501" rend="margin-left:0em;text-indent:1em">不眠者，則夜長。疲乏者，則一由旬路長。不知正法之愚者，則輪
 <lb ed="B" n="0287a16"/>迴流轉長。</p>
-<lb ed="B" n="0287a17"/><p xml:id="pB06p0287a1701" rend="margin-left:0em;text-indent:1em">人旅行時，不遇勝<anchor xml:id="beg_c" type="cb-app"/>己<anchor xml:id="end_c"/>者，不遇等<anchor xml:id="beg_d" type="cb-app"/>己<anchor xml:id="end_d"/>者，則應奮勇獨行。以愚者不可
+<lb ed="B" n="0287a17"/><p xml:id="pB06p0287a1701" rend="margin-left:0em;text-indent:1em">人旅行時，不遇勝<anchor xml:id="nkr_note_add_0287a1701" n="0287a1701"/><anchor xml:id="beg0287a1701" n="0287a1701"/>己<anchor xml:id="end0287a1701"/>者，不遇等<anchor xml:id="nkr_note_add_0287a1702" n="0287a1702"/><anchor xml:id="beg0287a1702" n="0287a1702"/>己<anchor xml:id="end0287a1702"/>者，則應奮勇獨行。以愚者不可
 <lb ed="B" n="0287a18"/>為友伴故。</p>
 <lb ed="B" n="0287a19"/><p xml:id="pB06p0287a1901" rend="margin-left:0em;text-indent:1em">愚者常苦惱，謂我有子有財，（實則）我已不是我所有，何況有子有
 <lb ed="B" n="0287a20"/>財。</p>
@@ -587,7 +592,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0288a08"/>空。</p>
 <lb ed="B" n="0288a09"/><p xml:id="pB06p0288a0901" rend="margin-left:0em;text-indent:1em">煩惱見執滅盡，不依飲食，住空解脫，無相解脫之比丘。其行跡難
 <lb ed="B" n="0288a10"/>追，如空中鳥跡。</p>
-<lb ed="B" n="0288a11"/><p xml:id="pB06p0288a1101" rend="margin-left:0em;text-indent:1em">諸根寂靜，如馬師調御馬已，我慢斷已，煩惱滅<anchor xml:id="beg_e" type="cb-app"/>已<anchor xml:id="end_e"/>之比丘，一切人
+<lb ed="B" n="0288a11"/><p xml:id="pB06p0288a1101" rend="margin-left:0em;text-indent:1em">諸根寂靜，如馬師調御馬已，我慢斷已，煩惱滅<anchor xml:id="nkr_note_add_0288a1101" n="0288a1101"/><anchor xml:id="beg0288a1101" n="0288a1101"/>已<anchor xml:id="end0288a1101"/>之比丘，一切人
 <lb ed="B" n="0288a12"/>天，皆所羨慕。</p>
 <lb ed="B" n="0288a13"/><p xml:id="pB06p0288a1301" rend="margin-left:0em;text-indent:1em">比丘盡諸煩惱，心如大地，定如標木，有戒，無有泥土煩惱，則無
 <lb ed="B" n="0288a14"/>瞋恚，如是安住比丘，不受輪迴。</p>
@@ -712,7 +717,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0290a17"/>
 <lb ed="B" n="0290a18"/><cb:div type="other"><cb:mulu type="其他" level="2">13 第十三品　世間品</cb:mulu><head>第十三品　世間品</head>
 <lb ed="B" n="0290a19"/><p xml:id="pB06p0290a1901" rend="margin-left:0em;text-indent:1em">人不應從下劣法，不應放逸，不從邪見，不作世間所厭惡之人。</p>
-<lb ed="B" n="0290a20"/><p xml:id="pB06p0290a2001" rend="margin-left:0em;text-indent:1em">比丘不應放逸（而<anchor xml:id="beg_f" type="cb-app"/>摶<anchor xml:id="end_f"/>食），應行善行，行善法之人，此世來世，皆得
+<lb ed="B" n="0290a20"/><p xml:id="pB06p0290a2001" rend="margin-left:0em;text-indent:1em">比丘不應放逸（而<anchor xml:id="nkr_note_add_0290a2001" n="0290a2001"/><anchor xml:id="beg0290a2001" n="0290a2001"/>摶<anchor xml:id="end0290a2001"/>食），應行善行，行善法之人，此世來世，皆得
 <lb ed="B" n="0290a21"/>安樂。</p>
 <lb ed="B" n="0290a22"/><p xml:id="pB06p0290a2201" rend="margin-left:0em;text-indent:1em">應行善行，勿行惡行，行善法者，此世來世，皆得安樂。</p>
 <lb ed="B" n="0290a23"/><p xml:id="pB06p0290a2301" rend="margin-left:0em;text-indent:1em">見世間如水泡，如陽燄，則死亡王，不能見比人。</p>
@@ -743,7 +748,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0290b19"/><p xml:id="pB06p0290b1901" rend="margin-left:0em;text-indent:1em">忍受即忍辱，是最上苦行。諸有智者，以涅槃為最勝法。侵害眾生
 <lb ed="B" n="0290b20"/>者，不名為出家沙門。</p>
 <lb ed="B" n="0290b21"/><p xml:id="pB06p0290b2101" rend="margin-left:0em;text-indent:1em">不誹罵，不殺，持戒，節量而食，靜處坐臥，精勤正念，是諸佛法。</p>
-<lb ed="B" n="0290b22"/><p xml:id="pB06p0290b2201" rend="margin-left:0em;text-indent:1em">雖天雨金，亦不能滿足欲心，欲心少樂，又是大苦，賢者如是知<anchor xml:id="beg_10" type="cb-app"/>已<anchor xml:id="end_10"/>
+<lb ed="B" n="0290b22"/><p xml:id="pB06p0290b2201" rend="margin-left:0em;text-indent:1em">雖天雨金，亦不能滿足欲心，欲心少樂，又是大苦，賢者如是知<anchor xml:id="nkr_note_add_0290b2201" n="0290b2201"/><anchor xml:id="beg0290b2201" n="0290b2201"/>已<anchor xml:id="end0290b2201"/>
 <lb ed="B" n="0290b23"/>故不欲樂，雖有天欲（亦不樂之）。</p>
 <lb ed="B" n="0290b24"/><p xml:id="pB06p0290b2401" rend="margin-left:0em;text-indent:1em">佛正等覺者之弟子，樂於滅斷愛欲之法。</p>
 <lb ed="B" n="0290b25"/><p xml:id="pB06p0290b2501" rend="margin-left:0em;text-indent:1em">人被苦難驅迫，多往山嶽，森林，園苑依住。但所依處，非安穩處
@@ -823,14 +828,14 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0292a12"/><p xml:id="pB06p0292a1201" rend="margin-left:0em;text-indent:1em">比丘應攝護大慢之身，應制御身，棄捨身之惡行，修身善行。</p>
 <lb ed="B" n="0292a13"/><p xml:id="pB06p0292a1301" rend="margin-left:0em;text-indent:1em">應攝護大慢之語，應制御語，棄捨惡行（語），修語善行。</p>
 <lb ed="B" n="0292a14"/><p xml:id="pB06p0292a1401" rend="margin-left:0em;text-indent:1em">應攝護大慢之心，應制御心，棄捨惡行之心，修心善行。</p>
-<lb ed="B" n="0292a15"/><p xml:id="pB06p0292a1501" rend="margin-left:0em;text-indent:1em">賢者制御其身，制御其語，制御其心。如是諸賢者，<anchor xml:id="beg_11" type="cb-app"/>已<anchor xml:id="end_11"/>制御己。</p></cb:div>
+<lb ed="B" n="0292a15"/><p xml:id="pB06p0292a1501" rend="margin-left:0em;text-indent:1em">賢者制御其身，制御其語，制御其心。如是諸賢者，<anchor xml:id="nkr_note_add_0292a1501" n="0292a1501"/><anchor xml:id="beg0292a1501" n="0292a1501"/>已<anchor xml:id="end0292a1501"/>制御己。</p></cb:div>
 <lb ed="B" n="0292a16"/>
 <lb ed="B" n="0292a17"/><cb:div type="other"><cb:mulu type="其他" level="2">18 第十八品　垢穢品</cb:mulu><head>第十八品　垢穢品</head>
 <lb ed="B" n="0292a18"/><p xml:id="pB06p0292a1801" rend="margin-left:0em;text-indent:1em">汝正如（枯）黃葉，閻摩羅王之使者，亦正近汝。汝正在衰敗之門，
 <lb ed="B" n="0292a19"/>旅路之糧食，汝亦無有。</p>
 <lb ed="B" n="0292a20"/><p xml:id="pB06p0292a2001" rend="margin-left:0em;text-indent:1em">汝當求歸依之所，勇猛精勤，力為賢者，拂除垢穢罪惡者，無有煩
 <lb ed="B" n="0292a21"/>惱，則汝當能到天界。</p>
-<lb ed="B" n="0292a22"/><p xml:id="pB06p0292a2201" rend="margin-left:0em;text-indent:1em">汝<anchor xml:id="beg_12" type="cb-app"/>已<anchor xml:id="end_12"/>是老年，正在到達閻羅王所，旅程之住宿及糧食，汝亦無有。</p>
+<lb ed="B" n="0292a22"/><p xml:id="pB06p0292a2201" rend="margin-left:0em;text-indent:1em">汝<anchor xml:id="nkr_note_add_0292a2201" n="0292a2201"/><anchor xml:id="beg0292a2201" n="0292a2201"/>已<anchor xml:id="end0292a2201"/>是老年，正在到達閻羅王所，旅程之住宿及糧食，汝亦無有。</p>
 <lb ed="B" n="0292a23"/><p xml:id="pB06p0292a2301" rend="margin-left:0em;text-indent:1em">汝當求歸依之所，勇猛精勤，力為賢者，拂除垢穢罪惡者，無有煩
 <lb ed="B" n="0292a24"/>惱，則不再有生老（之苦）。</p>
 <lb ed="B" n="0292a25"/><p xml:id="pB06p0292a2501" rend="margin-left:0em;text-indent:1em">賢者作小小善，剎那不停，漸次除斷垢穢，如金匠鍛金，金垢漸盡。</p>
@@ -876,7 +881,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0293a07"/><p xml:id="pB06p0293a0701" rend="margin-left:0em;text-indent:1em">諦實，正法，不害（不殺生），自制，調御。而心垢既謝者。則是賢
 <lb ed="B" n="0293a08"/>者。我稱之為長老。</p>
 <lb ed="B" n="0293a09"/><p xml:id="pB06p0293a0901" rend="margin-left:0em;text-indent:1em">嫉妒，慳貪，虛偽，多言，容色之美。不得稱之為端正之人。</p>
-<lb ed="B" n="0293a10"/><p xml:id="pB06p0293a1001" rend="margin-left:0em;text-indent:1em">能斷嫉妒等（惡），而拔去其根源者，是人罪惡<anchor xml:id="beg_13" type="cb-app"/>已<anchor xml:id="end_13"/>謝，是有慧人，我
+<lb ed="B" n="0293a10"/><p xml:id="pB06p0293a1001" rend="margin-left:0em;text-indent:1em">能斷嫉妒等（惡），而拔去其根源者，是人罪惡<anchor xml:id="nkr_note_add_0293a1001" n="0293a1001"/><anchor xml:id="beg0293a1001" n="0293a1001"/>已<anchor xml:id="end0293a1001"/>謝，是有慧人，我
 <lb ed="B" n="0293a11"/>稱之為端正之人。</p>
 <lb ed="B" n="0293a12"/><p xml:id="pB06p0293a1201" rend="margin-left:0em;text-indent:1em">人不因剃髮而名為沙門。破戒，妄語，多欲，多貪，如何可名沙門。</p>
 <lb ed="B" n="0293a13"/><p xml:id="pB06p0293a1301" rend="margin-left:0em;text-indent:1em">人能壓伏一切大小諸惡。我稱是人。是真沙門。以能壓伏惡業故。</p>
@@ -892,7 +897,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0293a23"/><p xml:id="pB06p0293a2301" rend="margin-left:1em">（註：二世，日譯本為「善惡」。）</p>
 <lb ed="B" n="0293a24"/><p xml:id="pB06p0293a2401" rend="margin-left:0em;text-indent:1em">人不因侵害眾生，而名為聖，以不侵害眾生，名為聖者故。</p>
 <lb ed="B" n="0293a25"/><p xml:id="pB06p0293a2501" rend="margin-left:0em;text-indent:1em">比丘當知，比丘未滅盡煩惱，勿輕忽戒律，戒行，多聞，禪定，獨
-<lb ed="B" n="0293a26"/>臥，勿自命為<anchor xml:id="beg_14" type="cb-app"/>已<anchor xml:id="end_14"/>出家學道，<anchor xml:id="beg_15" type="cb-app"/>已<anchor xml:id="end_15"/>得凡夫所不能得之安樂。</p></cb:div>
+<lb ed="B" n="0293a26"/>臥，勿自命為<anchor xml:id="nkr_note_add_0293a2601" n="0293a2601"/><anchor xml:id="beg0293a2601" n="0293a2601"/>已<anchor xml:id="end0293a2601"/>出家學道，<anchor xml:id="nkr_note_add_0293a2602" n="0293a2602"/><anchor xml:id="beg0293a2602" n="0293a2602"/>已<anchor xml:id="end0293a2602"/>得凡夫所不能得之安樂。</p></cb:div>
 <lb ed="B" n="0293a27"/>
 <lb ed="B" n="0293a28"/><cb:div type="other"><cb:mulu type="其他" level="2">20 第二十品　道品</cb:mulu><head>第二十品　道品</head>
 <pb ed="B" xml:id="B06.0006.0293b" n="0293b"/>
@@ -903,7 +908,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0293b05"/>所不見（汝等）故。</p>
 <lb ed="B" n="0293b06"/><p xml:id="pB06p0293b0601" rend="margin-left:1em">（註：不見，日譯本為幻滅。）</p>
 <lb ed="B" n="0293b07"/><p xml:id="pB06p0293b0701" rend="margin-left:0em;text-indent:1em">汝行此道，必能熄苦，我如實知此道，是除欲道，如拔箭出。</p>
-<lb ed="B" n="0293b08"/><p xml:id="pB06p0293b0801" rend="margin-left:0em;text-indent:1em">我<anchor xml:id="beg_16" type="cb-app"/>已<anchor xml:id="end_16"/>告汝，汝當勤除熱烈煩惱。諸佛如來，唯能示道，有觀有伺者
+<lb ed="B" n="0293b08"/><p xml:id="pB06p0293b0801" rend="margin-left:0em;text-indent:1em">我<anchor xml:id="nkr_note_add_0293b0801" n="0293b0801"/><anchor xml:id="beg0293b0801" n="0293b0801"/>已<anchor xml:id="end0293b0801"/>告汝，汝當勤除熱烈煩惱。諸佛如來，唯能示道，有觀有伺者
 <lb ed="B" n="0293b09"/>得脫魔縛。</p>
 <lb ed="B" n="0293b10"/><p xml:id="pB06p0293b1001" rend="margin-left:1em">（註：觀伺，日譯本為禪定。）</p>
 <lb ed="B" n="0293b11"/><p xml:id="pB06p0293b1101" rend="margin-left:0em;text-indent:1em">人能以慧觀諸行，是無常時，則當厭離於苦，此是淨道。</p>
@@ -917,7 +922,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0293b19"/>賢者知此二道，當自令慧生。</p>
 <lb ed="B" n="0293b20"/><p xml:id="pB06p0293b2001" rend="margin-left:1em">（註：大地，日譯本為瑜伽（冥想）。）</p>
 <lb ed="B" n="0293b21"/><p xml:id="pB06p0293b2101" rend="margin-left:0em;text-indent:1em">汝等當伐林，但莫伐樹，怖畏生於林，比丘當知，汝等伐林及叢木
-<lb ed="B" n="0293b22"/><anchor xml:id="beg_17" type="cb-app"/>已<anchor xml:id="end_17"/>，則是無林人。</p>
+<lb ed="B" n="0293b22"/><anchor xml:id="nkr_note_add_0293b2201" n="0293b2201"/><anchor xml:id="beg0293b2201" n="0293b2201"/>已<anchor xml:id="end0293b2201"/>，則是無林人。</p>
 <lb ed="B" n="0293b23"/><p xml:id="pB06p0293b2301" rend="margin-left:0em;text-indent:1em">男子對女子之欲情，雖少小如林中之叢木，但未斬伐，則其心縛著
 <lb ed="B" n="0293b24"/>（女子），如犢牛縛著母牛之乳。</p>
 <lb ed="B" n="0293b25"/><p xml:id="pB06p0293b2501" rend="margin-left:1em">（註：林，日譯本作「欲林」，叢木作「欲叢」。）</p>
@@ -932,7 +937,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0294a05"/><p xml:id="pB06p0294a0501" rend="margin-left:0em;text-indent:1em">賢者既知此義，當攝護戒律，急趣清淨涅槃之道。</p></cb:div>
 <lb ed="B" n="0294a06"/>
 <lb ed="B" n="0294a07"/><cb:div type="other"><cb:mulu type="其他" level="2">21 第二十一品　雜品</cb:mulu><head>第二十一品　雜品</head>
-<lb ed="B" n="0294a08"/><p xml:id="pB06p0294a0801" rend="margin-left:0em;text-indent:1em">賢者若見捨小樂，而得大樂，賢者見<anchor xml:id="beg_18" type="cb-app"/>已<anchor xml:id="end_18"/>，即棄小樂，而取大樂。</p>
+<lb ed="B" n="0294a08"/><p xml:id="pB06p0294a0801" rend="margin-left:0em;text-indent:1em">賢者若見捨小樂，而得大樂，賢者見<anchor xml:id="nkr_note_add_0294a0801" n="0294a0801"/><anchor xml:id="beg0294a0801" n="0294a0801"/>已<anchor xml:id="end0294a0801"/>，即棄小樂，而取大樂。</p>
 <lb ed="B" n="0294a09"/><p xml:id="pB06p0294a0901" rend="margin-left:0em;text-indent:1em">人為己樂，而令人苦，則受怨憎縛執，永不能脫去（他人）怨執。</p>
 <lb ed="B" n="0294a10"/><p xml:id="pB06p0294a1001" rend="margin-left:0em;text-indent:1em">有諸比丘，應作而不作，不應作而作。如是比丘，煩惱增長，我慢
 <lb ed="B" n="0294a11"/>如蘆草之生長，是放逸者。</p>
@@ -972,7 +977,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0294b16"/><p xml:id="pB06p0294b1601" rend="margin-left:0em;text-indent:1em">人多有以袈裟纏頸，而行惡法，不攝護（諸根）。是惡劣人，以惡業
 <lb ed="B" n="0294b17"/>故，必墮地獄。</p>
 <lb ed="B" n="0294b18"/><p xml:id="pB06p0294b1801" rend="margin-left:0em;text-indent:1em">食火燄灼熱之鐵丸，勝於破戒人，不攝護（諸根）而食各方（所供養）
-<lb ed="B" n="0294b19"/>之<anchor xml:id="beg_19" type="cb-app"/>摶<anchor xml:id="end_19"/>飯。</p>
+<lb ed="B" n="0294b19"/>之<anchor xml:id="nkr_note_add_0294b1901" n="0294b1901"/><anchor xml:id="beg0294b1901" n="0294b1901"/>摶<anchor xml:id="end0294b1901"/>飯。</p>
 <lb ed="B" n="0294b20"/><p xml:id="pB06p0294b2001" rend="margin-left:0em;text-indent:1em">放逸人，犯他人妻，則得四事。即：一、不得福。二、不得安睡。
 <lb ed="B" n="0294b21"/>三、被責謗。四、墮地獄。彼不得福，故墮惡趣。國王刑罰亦酷，故
 <lb ed="B" n="0294b22"/>不應犯他人妻。男女怯於婬樂者少。</p>
@@ -1005,7 +1010,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0295a20"/><p xml:id="pB06p0295a2001" rend="margin-left:0em;text-indent:1em">此心從前依隨求，依隨欲，依隨樂，徘徊遊行。今我將以微妙方便
 <lb ed="B" n="0295a21"/>制之，猶如象師持鈎，制御醉象。</p>
 <lb ed="B" n="0295a22"/><p xml:id="pB06p0295a2201" rend="margin-left:0em;text-indent:1em">汝等當喜樂不放逸，守護自心，自拔出所難拔出之煩惱坑中，猶如
-<lb ed="B" n="0295a23"/>陷在<anchor xml:id="beg_1a" type="cb-app"/>泥<anchor xml:id="end_1a"/>中之象，自拔而出（於泥）。</p>
+<lb ed="B" n="0295a23"/>陷在<anchor xml:id="nkr_note_add_0295a2301" n="0295a2301"/><anchor xml:id="beg0295a2301" n="0295a2301"/>泥<anchor xml:id="end0295a2301"/>中之象，自拔而出（於泥）。</p>
 <lb ed="B" n="0295a24"/><p xml:id="pB06p0295a2401" rend="margin-left:0em;text-indent:1em">人若能與有慧者，行正業者，賢明之人同行。則能免諸危難，喜樂
 <lb ed="B" n="0295a25"/>熟慮而同行。</p>
 <lb ed="B" n="0295a26"/><p xml:id="pB06p0295a2601" rend="margin-left:0em;text-indent:1em">人若不能與有慧者，行正業者，賢明之人同行，則應獨行，猶如帝
@@ -1018,7 +1023,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0295b04"/><p xml:id="pB06p0295b0401" rend="margin-left:0em;text-indent:1em">供護母親，導來世間喜樂。供護父親，導來喜樂。供護沙門，導來
 <lb ed="B" n="0295b05"/>世間喜樂。供護婆羅門，導來世間喜樂。</p>
 <lb ed="B" n="0295b06"/><p xml:id="pB06p0295b0601" rend="margin-left:0em;text-indent:1em">持戒，導來直至老年之喜樂。安住正信，導來喜樂。獲得智慧，導
-<lb ed="B" n="0295b07"/>來喜樂。不作一切惡，導來喜<anchor xml:id="beg_1b" type="cb-app"/>樂<anchor xml:id="end_1b"/>。</p></cb:div>
+<lb ed="B" n="0295b07"/>來喜樂。不作一切惡，導來喜<anchor xml:id="nkr_note_add_0295b0701" n="0295b0701"/><anchor xml:id="beg0295b0701" n="0295b0701"/>樂<anchor xml:id="end0295b0701"/>。</p></cb:div>
 <lb ed="B" n="0295b08"/>
 <lb ed="B" n="0295b09"/><cb:div type="other"><cb:mulu type="其他" level="2">24 第二十四品　愛欲品</cb:mulu><head>第二十四品　愛欲品</head>
 <lb ed="B" n="0295b10"/><p xml:id="pB06p0295b1001" rend="margin-left:0em;text-indent:1em">愛欲生長於放逸之人，如蔓草之生長。故彼人必從生至生，漂流無
@@ -1039,31 +1044,31 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0295b25"/>芽生長，應以智慧，伐斷其根。</p>
 <lb ed="B" n="0295b26"/><p xml:id="pB06p0295b2601" rend="margin-left:0em;text-indent:1em">眾生有因喜悅之熾盛，而又戀著者。如是眾生，則耽於歡樂，求於
 <lb ed="B" n="0295b27"/>世樂，如是之人，必（再）生老。</p>
-<lb ed="B" n="0295b28"/><p xml:id="pB06p0295b2801" rend="margin-left:0em;text-indent:1em">眾生被愛欲圍困<anchor xml:id="beg_1c" type="cb-app"/>已<anchor xml:id="end_1c"/>，彷徨不安，有如兔之羅網，彷徨不安，眾生著
+<lb ed="B" n="0295b28"/><p xml:id="pB06p0295b2801" rend="margin-left:0em;text-indent:1em">眾生被愛欲圍困<anchor xml:id="nkr_note_add_0295b2801" n="0295b2801"/><anchor xml:id="beg0295b2801" n="0295b2801"/>已<anchor xml:id="end0295b2801"/>，彷徨不安，有如兔之羅網，彷徨不安，眾生著
 <pb ed="B" xml:id="B06.0006.0296a" n="0296a"/>
 <lb ed="B" n="0296a01"/>於輪迴，著於諸法。於長時中，常受苦惱。</p>
-<lb ed="B" n="0296a02"/><p xml:id="pB06p0296a0201" rend="margin-left:0em;text-indent:1em">眾生被愛欲圍困<anchor xml:id="beg_1d" type="cb-app"/>已<anchor xml:id="end_1d"/>，彷徨不安。有如兔之羅網，彷徨不安。以此之
+<lb ed="B" n="0296a02"/><p xml:id="pB06p0296a0201" rend="margin-left:0em;text-indent:1em">眾生被愛欲圍困<anchor xml:id="nkr_note_add_0296a0201" n="0296a0201"/><anchor xml:id="beg0296a0201" n="0296a0201"/>已<anchor xml:id="end0296a0201"/>，彷徨不安。有如兔之羅網，彷徨不安。以此之
 <lb ed="B" n="0296a03"/>故，比丘志求離欲，應除愛欲。</p>
-<lb ed="B" n="0296a04"/><p xml:id="pB06p0296a0401" rend="margin-left:0em;text-indent:1em">汝等當見無煩惱人，如（欲）林之無叢木。有人既離欲林<anchor xml:id="beg_1e" type="cb-app"/>已<anchor xml:id="end_1e"/>，而心向
+<lb ed="B" n="0296a04"/><p xml:id="pB06p0296a0401" rend="margin-left:0em;text-indent:1em">汝等當見無煩惱人，如（欲）林之無叢木。有人既離欲林<anchor xml:id="nkr_note_add_0296a0401" n="0296a0401"/><anchor xml:id="beg0296a0401" n="0296a0401"/>已<anchor xml:id="end0296a0401"/>，而心向
 <lb ed="B" n="0296a05"/>（欲）林，仍趣入（欲）林，如是之人，則是已脫繫縛，而願再受繫縛者。</p>
 <lb ed="B" n="0296a06"/><p xml:id="pB06p0296a0601" rend="margin-left:0em;text-indent:1em">諸賢者告言，鐵（鍊）之繫縛，木（桎梏）之繫縛，草繩繫縛，非堅牢
 <lb ed="B" n="0296a07"/>縛。眾生戀著一切寶石，寶珠，珠璫及妻子之罣慮，賢者告言，此是
 <lb ed="B" n="0296a08"/>下墮之繫縛。人所難脫，是堅牢繫縛。</p>
-<lb ed="B" n="0296a09"/><p xml:id="pB06p0296a0901" rend="margin-left:0em;text-indent:1em">諸智者斷繫縛<anchor xml:id="beg_1f" type="cb-app"/>已<anchor xml:id="end_1f"/>，無有罣慮，棄捨欲樂。（而離輪迴）</p>
+<lb ed="B" n="0296a09"/><p xml:id="pB06p0296a0901" rend="margin-left:0em;text-indent:1em">諸智者斷繫縛<anchor xml:id="nkr_note_add_0296a0901" n="0296a0901"/><anchor xml:id="beg0296a0901" n="0296a0901"/>已<anchor xml:id="end0296a0901"/>，無有罣慮，棄捨欲樂。（而離輪迴）</p>
 <lb ed="B" n="0296a10"/><p xml:id="pB06p0296a1001" rend="margin-left:1em">（註：輪迴，日譯本為出家。）</p>
-<lb ed="B" n="0296a11"/><p xml:id="pB06p0296a1101" rend="margin-left:0em;text-indent:1em">眾生被貪欲染著<anchor xml:id="beg_20" type="cb-app"/>已<anchor xml:id="end_20"/>，則隨欲流而去。如蜘蛛隨自己所結之網而行。
-<lb ed="B" n="0296a12"/>智者斷如是縛<anchor xml:id="beg_21" type="cb-app"/>已<anchor xml:id="end_21"/>，無有罣慮，斷一切苦。</p>
+<lb ed="B" n="0296a11"/><p xml:id="pB06p0296a1101" rend="margin-left:0em;text-indent:1em">眾生被貪欲染著<anchor xml:id="nkr_note_add_0296a1101" n="0296a1101"/><anchor xml:id="beg0296a1101" n="0296a1101"/>已<anchor xml:id="end0296a1101"/>，則隨欲流而去。如蜘蛛隨自己所結之網而行。
+<lb ed="B" n="0296a12"/>智者斷如是縛<anchor xml:id="nkr_note_add_0296a1201" n="0296a1201"/><anchor xml:id="beg0296a1201" n="0296a1201"/>已<anchor xml:id="end0296a1201"/>，無有罣慮，斷一切苦。</p>
 <lb ed="B" n="0296a13"/><p xml:id="pB06p0296a1301" rend="margin-left:0em;text-indent:1em">汝當放下戀著過去之蘊，放下戀著未來之蘊，放下戀著現在之蘊，
 <lb ed="B" n="0296a14"/>則為達彼岸者，心離一切有為法者，不再入於生老（生死）。</p>
 <lb ed="B" n="0296a15"/><p xml:id="pB06p0296a1501" rend="margin-left:0em;text-indent:1em">疑惑，則增長貪欲之侵擾。愛欲熾盛，以世樂為美好，如是之人，
 <lb ed="B" n="0296a16"/>令繫縛堅牢。</p>
 <lb ed="B" n="0296a17"/><p xml:id="pB06p0296a1701" rend="margin-left:0em;text-indent:1em">止息疑惑，樂住禪定，常有智慮，作不淨觀，如是之人，能斷貪欲
 <lb ed="B" n="0296a18"/>能斷魔縛。</p>
-<lb ed="B" n="0296a19"/><p xml:id="pB06p0296a1901" rend="margin-left:0em;text-indent:1em">比丘成就<anchor xml:id="beg_22" type="cb-app"/>已<anchor xml:id="end_22"/>，無有畏怖，遠離愛欲，無有煩惱，斷除入生死之箭，
+<lb ed="B" n="0296a19"/><p xml:id="pB06p0296a1901" rend="margin-left:0em;text-indent:1em">比丘成就<anchor xml:id="nkr_note_add_0296a1901" n="0296a1901"/><anchor xml:id="beg0296a1901" n="0296a1901"/>已<anchor xml:id="end0296a1901"/>，無有畏怖，遠離愛欲，無有煩惱，斷除入生死之箭，
 <lb ed="B" n="0296a20"/>如是比丘，此生是最後生。（更無生死輪迴）。</p>
 <lb ed="B" n="0296a21"/><p xml:id="pB06p0296a2101" rend="margin-left:0em;text-indent:1em">比丘離諸愛欲，不著愛欲，通達（經典）句義，初後順序文字。如是
 <lb ed="B" n="0296a22"/>比丘，是最後身，有大智慧，是大丈夫。</p>
-<lb ed="B" n="0296a23"/><p xml:id="pB06p0296a2301" rend="margin-left:0em;text-indent:1em">我<anchor xml:id="beg_23" type="cb-app"/>已<anchor xml:id="end_23"/>伏一切法，徹知一切法，離一切（惡）法，此是自悟，更能稱誰
+<lb ed="B" n="0296a23"/><p xml:id="pB06p0296a2301" rend="margin-left:0em;text-indent:1em">我<anchor xml:id="nkr_note_add_0296a2301" n="0296a2301"/><anchor xml:id="beg0296a2301" n="0296a2301"/>已<anchor xml:id="end0296a2301"/>伏一切法，徹知一切法，離一切（惡）法，此是自悟，更能稱誰
 <lb ed="B" n="0296a24"/>為師。</p>
 <lb ed="B" n="0296a25"/><p xml:id="pB06p0296a2501" rend="margin-left:0em;text-indent:1em">一切施中，法施最勝。一切味中，法味最勝。一切樂中，法樂最勝
 <lb ed="B" n="0296a26"/>能滅貪欲，滅一切苦。</p>
@@ -1099,7 +1104,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0296b27"/><p xml:id="pB06p0296b2701" rend="margin-left:0em;text-indent:1em">比丘當知，汝等當汲去舟中之水，則舟能疾行。汝等能斷貪欲瞋恚
 <lb ed="B" n="0296b28"/>則達涅槃。</p>
 <pb ed="B" xml:id="B06.0006.0297a" n="0297a"/>
-<lb ed="B" n="0297a01"/><p xml:id="pB06p0297a0101" rend="margin-left:0em;text-indent:1em">比丘應斷五下分結，五上分結，勤修五根，比丘越五著<anchor xml:id="beg_24" type="cb-app"/>已<anchor xml:id="end_24"/>，則能渡
+<lb ed="B" n="0297a01"/><p xml:id="pB06p0297a0101" rend="margin-left:0em;text-indent:1em">比丘應斷五下分結，五上分結，勤修五根，比丘越五著<anchor xml:id="nkr_note_add_0297a0101" n="0297a0101"/><anchor xml:id="beg0297a0101" n="0297a0101"/>已<anchor xml:id="end0297a0101"/>，則能渡
 <lb ed="B" n="0297a02"/>（煩惱）暴流。</p>
 <lb ed="B" n="0297a03"/><p xml:id="pB06p0297a0301" rend="margin-left:1em">（註：五下分結，欲界之貪、瞋、身見、戒禁取見、疑。五上分結，
 <lb ed="B" n="0297a04"/>色界貪、無色界貪、掉舉、慢、無明。五根，信、勤、念、定、慧。
@@ -1128,7 +1133,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0297a27"/><p xml:id="pB06p0297a2701" rend="margin-left:0em;text-indent:1em">婆羅門，汝當斷愛欲之流，捨去諸欲。婆羅門，若汝知滅斷諸行，
 <lb ed="B" n="0297a28"/>則當知涅槃，是無作無為之法。</p>
 <pb ed="B" xml:id="B06.0006.0297b" n="0297b"/>
-<lb ed="B" n="0297b01"/><p xml:id="pB06p0297b0101" rend="margin-left:0em;text-indent:1em">婆羅門若能以二法（止觀）到達彼岸，則此明見婆羅門，<anchor xml:id="beg_25" type="cb-app"/>已<anchor xml:id="end_25"/>滅煩惱。</p>
+<lb ed="B" n="0297b01"/><p xml:id="pB06p0297b0101" rend="margin-left:0em;text-indent:1em">婆羅門若能以二法（止觀）到達彼岸，則此明見婆羅門，<anchor xml:id="nkr_note_add_0297b0101" n="0297b0101"/><anchor xml:id="beg0297b0101" n="0297b0101"/>已<anchor xml:id="end0297b0101"/>滅煩惱。</p>
 <lb ed="B" n="0297b02"/><p xml:id="pB06p0297b0201" rend="margin-left:0em;text-indent:1em">無彼岸此岸之人，我說是人，無諸怖畏，無諸繫縛，名婆羅門。</p>
 <lb ed="B" n="0297b03"/><p xml:id="pB06p0297b0301" rend="margin-left:0em;text-indent:1em">住於禪定，無有垢穢，獨自安坐，所作已辦，無有煩惱，達最上義
 <lb ed="B" n="0297b04"/>名婆羅門。</p>
@@ -1141,7 +1146,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0297b11"/>門之人，我責彼執怨婆羅門之人，但不甚於前（二者）。</p>
 <lb ed="B" n="0297b12"/><p xml:id="pB06p0297b1201" rend="margin-left:0em;text-indent:1em">婆羅門能制止心所愛著，則利益不少，侵害之心既滅，則苦惱滅。</p>
 <lb ed="B" n="0297b13"/><p xml:id="pB06p0297b1301" rend="margin-left:0em;text-indent:1em">我說無身語意之惡業者，三處之攝護者，是婆羅門。</p>
-<lb ed="B" n="0297b14"/><p xml:id="pB06p0297b1401" rend="margin-left:0em;text-indent:1em">聞正等覺佛陀所說法<anchor xml:id="beg_26" type="cb-app"/>已<anchor xml:id="end_26"/>。而明見法者，應禮敬之，如婆羅門之禮敬
+<lb ed="B" n="0297b14"/><p xml:id="pB06p0297b1401" rend="margin-left:0em;text-indent:1em">聞正等覺佛陀所說法<anchor xml:id="nkr_note_add_0297b1401" n="0297b1401"/><anchor xml:id="beg0297b1401" n="0297b1401"/>已<anchor xml:id="end0297b1401"/>。而明見法者，應禮敬之，如婆羅門之禮敬
 <lb ed="B" n="0297b15"/>祀火祭者。</p>
 <lb ed="B" n="0297b16"/><p xml:id="pB06p0297b1601" rend="margin-left:0em;text-indent:1em">人非因螺髻，因族姓，因姓氏，而名為婆羅門，有諦實，有法，而
 <lb ed="B" n="0297b17"/>清淨者，其人是婆羅門。</p>
@@ -1154,7 +1159,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0297b24"/>煩惱執著者。我說無煩惱而不執著者，是婆羅門。</p>
 <lb ed="B" n="0297b25"/><p xml:id="pB06p0297b2501" rend="margin-left:0em;text-indent:1em">我說能斷一切結縛，無諸怖畏，超越執著，無作無為者，是婆羅門。</p>
 <lb ed="B" n="0297b26"/><p xml:id="pB06p0297b2601" rend="margin-left:0em;text-indent:1em">我說能斷瞋恚之紐，能斷愛欲之緒，能裂邪見之網。乃至能斷無明
-<lb ed="B" n="0297b27"/>之索，已解脫無明之閂，<anchor xml:id="beg_27" type="cb-app"/>已<anchor xml:id="end_27"/>悟證者，是婆羅門。</p>
+<lb ed="B" n="0297b27"/>之索，已解脫無明之閂，<anchor xml:id="nkr_note_add_0297b2701" n="0297b2701"/><anchor xml:id="beg0297b2701" n="0297b2701"/>已<anchor xml:id="end0297b2701"/>悟證者，是婆羅門。</p>
 <lb ed="B" n="0297b28"/><p xml:id="pB06p0297b2801" rend="margin-left:0em;text-indent:1em">我說不打害者，能忍罵詈，捶打，刑縛，有安忍力者，有安忍軍兵
 <pb ed="B" xml:id="B06.0006.0298a" n="0298a"/>
 <lb ed="B" n="0298a01"/>者，是婆羅門。</p>
@@ -1200,7 +1205,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0298b12"/><p xml:id="pB06p0298b1201">法句經終</p></cb:div></cb:div>
 <lb ed="B" n="0298b13"/>
 <lb ed="B" n="0298b14"/>
-<lb ed="B" n="0298b15"/><cb:div type="other"><cb:mulu type="其他" level="1">第三　自說經</cb:mulu><head><anchor xml:id="beg_28" type="cb-app"/>第三　<anchor xml:id="end_28"/>自說經</head>
+<lb ed="B" n="0298b15"/><cb:div type="other"><cb:mulu type="其他" level="1">第三　自說經</cb:mulu><head><anchor xml:id="nkr_note_add_0298b1501" n="0298b1501"/><anchor xml:id="beg0298b1501" n="0298b1501"/>第三　<anchor xml:id="end0298b1501"/>自說經</head>
 <lb ed="B" n="0298b16"/>
 <lb ed="B" n="0298b17"/><p xml:id="pB06p0298b1701">歸命應供，正等覺，佛，世尊。</p>
 <lb ed="B" n="0298b18"/><cb:div type="other"><cb:mulu type="其他" level="2">1 第一品　菩提品</cb:mulu><head>第一品　菩提品</head>
@@ -1211,7 +1216,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0298b23"/>順觀緣起諸法，謂此有，故彼有。此生，故彼生。即無明緣行，行緣
 <lb ed="B" n="0298b24"/>識，識緣名色，名色緣六入，六入緣觸，觸緣受，受緣愛，愛緣取，
 <lb ed="B" n="0298b25"/>取緣有，有緣生，生緣老死憂悲苦惱愁歎。如是苦聚，如是而生。</p>
-<lb ed="B" n="0298b26"/><p xml:id="pB06p0298b2601" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知<anchor xml:id="beg_29" type="cb-app"/>已<anchor xml:id="end_29"/>，而自說言。</p>
+<lb ed="B" n="0298b26"/><p xml:id="pB06p0298b2601" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知<anchor xml:id="nkr_note_add_0298b2601" n="0298b2601"/><anchor xml:id="beg0298b2601" n="0298b2601"/>已<anchor xml:id="end0298b2601"/>，而自說言。</p>
 <lb ed="B" n="0298b27"/><p xml:id="pB06p0298b2701" rend="margin-left:0em;text-indent:1em">諦修禪觀之婆羅門，悟諸法（緣起）時，彼諸疑惑，即能銷盡，以悟
 <lb ed="B" n="0298b28"/>諸法，如是因生故。</p>
 <pb ed="B" xml:id="B06.0006.0299a" n="0299a"/>
@@ -1223,8 +1228,8 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0299a06"/>爾時世尊，單跏趺坐，享解脫樂，經七日已，乃從定起，於中夜分，
 <lb ed="B" n="0299a07"/>逆觀緣起諸法，謂此無，故彼無，此滅，故彼滅，即無明滅，緣行滅。
 <lb ed="B" n="0299a08"/>行滅，緣識滅。識滅，緣名色滅。名色滅，緣六入滅。六入滅，緣
-<lb ed="B" n="0299a09"/>觸滅。觸滅，緣受滅。受滅，緣愛滅。愛滅，緣取滅。取<anchor xml:id="beg_2a" type="cb-app"/>滅<anchor xml:id="end_2a"/>。緣有滅。
-<lb ed="B" n="0299a10"/>有滅，緣生<anchor xml:id="beg_2b" type="cb-app"/>滅<anchor xml:id="end_2b"/>。生滅，緣老死憂悲苦惱愁歎滅。如是苦聚，如是而
+<lb ed="B" n="0299a09"/>觸滅。觸滅，緣受滅。受滅，緣愛滅。愛滅，緣取滅。取<anchor xml:id="nkr_note_add_0299a0901" n="0299a0901"/><anchor xml:id="beg0299a0901" n="0299a0901"/>滅<anchor xml:id="end0299a0901"/>。緣有滅。
+<lb ed="B" n="0299a10"/>有滅，緣生<anchor xml:id="nkr_note_add_0299a1001" n="0299a1001"/><anchor xml:id="beg0299a1001" n="0299a1001"/>滅<anchor xml:id="end0299a1001"/>。生滅，緣老死憂悲苦惱愁歎滅。如是苦聚，如是而
 <lb ed="B" n="0299a11"/>滅。爾時世尊，如是知已，而自說言：</p>
 <lb ed="B" n="0299a12"/><p xml:id="pB06p0299a1201" rend="margin-left:0em;text-indent:1em">諦修禪觀之婆羅門，悟諸法（緣滅）時，彼諸疑惑，即能銷盡，以悟
 <lb ed="B" n="0299a13"/>諸法，如是緣滅故。</p>
@@ -1276,8 +1281,8 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0300a01"/><p xml:id="pB06p0300a0101" rend="margin-left:0em;text-indent:1em">如是我聞。</p>
 <lb ed="B" n="0300a02"/><p xml:id="pB06p0300a0201" rend="margin-left:0em;text-indent:1em">一時，世尊在王舍城，竹林迦蘭陀迦園住。爾時，大迦葉尊者，在
 <lb ed="B" n="0300a03"/>七葉窟中，病篤甚苦。後病癒自思，我當往王舍城托鉢。爾時，五百
-<lb ed="B" n="0300a04"/>天眾，請大迦葉尊者托鉢（受食），大迦葉尊者<anchor xml:id="beg_2c" type="cb-app"/>已<anchor xml:id="end_2c"/>却諸五百天眾（供食）
-<lb ed="B" n="0300a05"/><anchor xml:id="beg_2d" type="cb-app"/>已<anchor xml:id="end_2d"/>。即於朝時，著衣持鉢，入王舍城，向貧乏人住處，孤獨人住處，
+<lb ed="B" n="0300a04"/>天眾，請大迦葉尊者托鉢（受食），大迦葉尊者<anchor xml:id="nkr_note_add_0300a0401" n="0300a0401"/><anchor xml:id="beg0300a0401" n="0300a0401"/>已<anchor xml:id="end0300a0401"/>却諸五百天眾（供食）
+<lb ed="B" n="0300a05"/><anchor xml:id="nkr_note_add_0300a0501" n="0300a0501"/><anchor xml:id="beg0300a0501" n="0300a0501"/>已<anchor xml:id="end0300a0501"/>。即於朝時，著衣持鉢，入王舍城，向貧乏人住處，孤獨人住處，
 <lb ed="B" n="0300a06"/>織工匠住處托鉢，爾時世尊，見大迦葉尊者，在王舍城，向貧乏人住
 <lb ed="B" n="0300a07"/>處，孤獨人住處，織工匠住處，遊行托鉢。</p>
 <lb ed="B" n="0300a08"/><p xml:id="pB06p0300a0801" rend="margin-left:0em;text-indent:1em">爾時世尊，知是知已，而自說言：</p>
@@ -1346,12 +1351,12 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0301a13"/>婆伽梵應供正等覺佛陀世尊，今在何處，我欲禮敬於彼應供正等覺佛
 <lb ed="B" n="0301a14"/>陀世尊。比丘眾答言，婆希，彼世尊入城托鉢。時婆希即疾出祗園，
 <lb ed="B" n="0301a15"/>入舍衛城，見世尊在舍衛城內，次第托鉢，甚可皈敬，應為皈敬，諸
-<lb ed="B" n="0301a16"/>根寂靜，正念堅固，<anchor xml:id="beg_2e" type="cb-app"/>已<anchor xml:id="end_2e"/>調御<anchor xml:id="beg_2f" type="cb-app"/>已<anchor xml:id="end_2f"/>，最極寂定，有自調御，有自攝護，守
+<lb ed="B" n="0301a16"/>根寂靜，正念堅固，<anchor xml:id="nkr_note_add_0301a1601" n="0301a1601"/><anchor xml:id="beg0301a1601" n="0301a1601"/>已<anchor xml:id="end0301a1601"/>調御<anchor xml:id="nkr_note_add_0301a1602" n="0301a1602"/><anchor xml:id="beg0301a1602" n="0301a1602"/>已<anchor xml:id="end0301a1602"/>，最極寂定，有自調御，有自攝護，守
 <lb ed="B" n="0301a17"/>護諸根，是大德者。</p>
 <lb ed="B" n="0301a18"/><p xml:id="pB06p0301a1801" rend="margin-left:1em">（註：日譯本，大德譯為龍象。）</p>
 <lb ed="B" n="0301a19"/><p xml:id="pB06p0301a1901" rend="margin-left:0em;text-indent:1em">婆希近世尊已，頭面頂禮，佛世尊足，即白佛言，大德世尊，請為
 <lb ed="B" n="0301a20"/>我說法。善逝世尊，請為我說無盡利益安樂之法。</p>
-<lb ed="B" n="0301a21"/><p xml:id="pB06p0301a2101" rend="margin-left:0em;text-indent:1em">婆希如是說<anchor xml:id="beg_30" type="cb-app"/>已<anchor xml:id="end_30"/>，世尊告言，婆希，此非宜時，我沿家托鉢故。婆希
+<lb ed="B" n="0301a21"/><p xml:id="pB06p0301a2101" rend="margin-left:0em;text-indent:1em">婆希如是說<anchor xml:id="nkr_note_add_0301a2101" n="0301a2101"/><anchor xml:id="beg0301a2101" n="0301a2101"/>已<anchor xml:id="end0301a2101"/>，世尊告言，婆希，此非宜時，我沿家托鉢故。婆希
 <lb ed="B" n="0301a22"/>再白佛言，大德世尊，世尊有命難，乃至我有命難，最為難知。大德
 <lb ed="B" n="0301a23"/>世尊，請為我說法，善逝世尊，請為我說無盡利益安樂之法。</p>
 <lb ed="B" n="0301a24"/><p xml:id="pB06p0301a2401" rend="margin-left:0em;text-indent:1em">如是再說，乃至三說，大德世尊，世尊有命難，乃至我有命難，最
@@ -1373,10 +1378,10 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0301b11"/>等茶毗訖，摩希之塔，我等造訖，摩希之趣如何，彼之來生如何。</p>
 <lb ed="B" n="0301b12"/><p xml:id="pB06p0301b1201" rend="margin-left:0em;text-indent:1em">佛言，諸比丘眾，摩希是賢者，於法修行，以問法故，不惱難我，
 <lb ed="B" n="0301b13"/>摩希已入涅槃。</p>
-<lb ed="B" n="0301b14"/><p xml:id="pB06p0301b1401" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知<anchor xml:id="beg_31" type="cb-app"/>已<anchor xml:id="end_31"/>，而自說言。</p>
+<lb ed="B" n="0301b14"/><p xml:id="pB06p0301b1401" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知<anchor xml:id="nkr_note_add_0301b1401" n="0301b1401"/><anchor xml:id="beg0301b1401" n="0301b1401"/>已<anchor xml:id="end0301b1401"/>，而自說言。</p>
 <lb ed="B" n="0301b15"/><p xml:id="pB06p0301b1501" rend="margin-left:0em;text-indent:1em">地水火風，不著涅槃，而涅槃界，星無光明，日亦不現，月無光輝
 <lb ed="B" n="0301b16"/>亦無黑暗。</p>
-<lb ed="B" n="0301b17"/><p xml:id="pB06p0301b1701" rend="margin-left:0em;text-indent:1em"><anchor xml:id="beg_32" type="cb-app"/>婆<anchor xml:id="end_32"/>羅門能自悟（四諦），名聖者時，則彼婆羅門，當能解脫於色及無
+<lb ed="B" n="0301b17"/><p xml:id="pB06p0301b1701" rend="margin-left:0em;text-indent:1em"><anchor xml:id="nkr_note_add_0301b1701" n="0301b1701"/><anchor xml:id="beg0301b1701" n="0301b1701"/>婆<anchor xml:id="end0301b1701"/>羅門能自悟（四諦），名聖者時，則彼婆羅門，當能解脫於色及無
 <lb ed="B" n="0301b18"/>色（界）之苦樂。</p>
 <lb ed="B" n="0301b19"/><p xml:id="pB06p0301b1901">摩希經終</p></cb:div>
 <lb ed="B" n="0301b20"/>
@@ -1393,11 +1398,11 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0302a02"/><cb:div type="other"><cb:mulu type="其他" level="3">1 第一　目真隣陀經</cb:mulu><head>第一　目真隣陀經</head>
 <lb ed="B" n="0302a03"/><p xml:id="pB06p0302a0301" rend="margin-left:0em;text-indent:1em">如是我聞。</p>
 <lb ed="B" n="0302a04"/><p xml:id="pB06p0302a0401" rend="margin-left:0em;text-indent:1em">一時，世尊初成正覺，在優樓比螺村，尼連禪河，目真鄰陀樹住。
-<lb ed="B" n="0302a05"/>爾時，世尊，單跏趺坐，享解脫樂，經七日<anchor xml:id="beg_33" type="cb-app"/>已<anchor xml:id="end_33"/>。爾時，非時雲起，大
+<lb ed="B" n="0302a05"/>爾時，世尊，單跏趺坐，享解脫樂，經七日<anchor xml:id="nkr_note_add_0302a0501" n="0302a0501"/><anchor xml:id="beg0302a0501" n="0302a0501"/>已<anchor xml:id="end0302a0501"/>。爾時，非時雲起，大
 <lb ed="B" n="0302a06"/>雨續降，經於七日，寒風來侵。時目真隣陀龍王，從其居出，來至佛
 <lb ed="B" n="0302a07"/>所，以身繞佛，七重捲之，驤首張頸，覆護佛頂。而自念言，寒氣莫
 <lb ed="B" n="0302a08"/>侵世尊，暑氣莫侵世尊，蝱、蚊、風、日光、爬虫，莫侵世尊。</p>
-<lb ed="B" n="0302a09"/><p xml:id="pB06p0302a0901" rend="margin-left:0em;text-indent:1em">如是，經七日<anchor xml:id="beg_34" type="cb-app"/>已<anchor xml:id="end_34"/>，世尊始從定起，目真隣陀龍王，知空霽無雲，乃
+<lb ed="B" n="0302a09"/><p xml:id="pB06p0302a0901" rend="margin-left:0em;text-indent:1em">如是，經七日<anchor xml:id="nkr_note_add_0302a0901" n="0302a0901"/><anchor xml:id="beg0302a0901" n="0302a0901"/>已<anchor xml:id="end0302a0901"/>，世尊始從定起，目真隣陀龍王，知空霽無雲，乃
 <lb ed="B" n="0302a10"/>解捲體，化為人身。立於佛前，合掌禮拜。</p>
 <lb ed="B" n="0302a11"/><p xml:id="pB06p0302a1101" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知已，而自說言。</p>
 <lb ed="B" n="0302a12"/><p xml:id="pB06p0302a1201" rend="margin-left:0em;text-indent:1em">靜處獨居，為聞法智見者之樂。不加侵害，攝護眾生，是世間樂，
@@ -1460,7 +1465,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0303a11"/>
 <lb ed="B" n="0303a12"/><cb:div type="other"><cb:mulu type="其他" level="3">5 第五　優婆塞經</cb:mulu><head>第五　優婆塞經</head>
 <lb ed="B" n="0303a13"/><p xml:id="pB06p0303a1301" rend="margin-left:0em;text-indent:1em">如是我聞。</p>
-<lb ed="B" n="0303a14"/><p xml:id="pB06p0303a1401" rend="margin-left:0em;text-indent:1em">一時，世尊在<anchor xml:id="beg_35" type="cb-app"/>舍衛<anchor xml:id="end_35"/>城，祗陀林，給孤獨長者園住。時伊車能伽羅村
+<lb ed="B" n="0303a14"/><p xml:id="pB06p0303a1401" rend="margin-left:0em;text-indent:1em">一時，世尊在<anchor xml:id="nkr_note_add_0303a1401" n="0303a1401"/><anchor xml:id="beg0303a1401" n="0303a1401"/>舍衛<anchor xml:id="end0303a1401"/>城，祗陀林，給孤獨長者園住。時伊車能伽羅村
 <lb ed="B" n="0303a15"/>一優婆塞，因事入舍衛城，優婆塞在舍衛城事畢，往見世尊，禮世尊
 <lb ed="B" n="0303a16"/>已，却坐一旁，世尊問言，優婆塞，汝已久念來此，聞法否耶，優婆
 <lb ed="B" n="0303a17"/>塞言，大德世尊，我已久念來見世尊，以事務煩阻故，未能即來。</p>
@@ -1569,7 +1574,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0305a04"/><p xml:id="pB06p0305a0401" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知已，而自說言。</p>
 <lb ed="B" n="0305a05"/><p xml:id="pB06p0305a0501" rend="margin-left:0em;text-indent:1em">不可喜之苦，放逸者以為可喜。</p>
 <lb ed="B" n="0305a06"/><p xml:id="pB06p0305a0601" rend="margin-left:0em;text-indent:1em">不可愛之苦，放逸者以為可愛。放逸者以苦為樂。</p>
-<lb ed="B" n="0305a07"/><p xml:id="pB06p0305a0701">蘇波<anchor xml:id="beg_36" type="cb-app"/>婆<anchor xml:id="end_36"/>沙經終</p></cb:div>
+<lb ed="B" n="0305a07"/><p xml:id="pB06p0305a0701">蘇波<anchor xml:id="nkr_note_add_0305a0701" n="0305a0701"/><anchor xml:id="beg0305a0701" n="0305a0701"/>婆<anchor xml:id="end0305a0701"/>沙經終</p></cb:div>
 <lb ed="B" n="0305a08"/>
 <lb ed="B" n="0305a09"/><cb:div type="other"><cb:mulu type="其他" level="3">9 第九　毗舍佉經</cb:mulu><head>第九　毗舍佉經</head>
 <lb ed="B" n="0305a10"/><p xml:id="pB06p0305a1001" rend="margin-left:0em;text-indent:1em">如是我聞。</p>
@@ -1578,26 +1583,26 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0305a13"/>舍佉，即往佛所，禮世尊已，却坐一旁。時佛問言，毗舍佉女，因何
 <lb ed="B" n="0305a14"/>日中，而來至此。鹿母毗舍佉答言，大德世尊，我有利益，繫於波斯
 <lb ed="B" n="0305a15"/>匿王，而波斯匿王，不依願與我。</p>
-<lb ed="B" n="0305a16"/><p xml:id="pB06p0305a1601" rend="margin-left:0em;text-indent:1em">時佛世尊，如是知<anchor xml:id="beg_37" type="cb-app"/>已<anchor xml:id="end_37"/>，而自說言。</p>
+<lb ed="B" n="0305a16"/><p xml:id="pB06p0305a1601" rend="margin-left:0em;text-indent:1em">時佛世尊，如是知<anchor xml:id="nkr_note_add_0305a1601" n="0305a1601"/><anchor xml:id="beg0305a1601" n="0305a1601"/>已<anchor xml:id="end0305a1601"/>，而自說言。</p>
 <lb ed="B" n="0305a17"/><p xml:id="pB06p0305a1701" rend="margin-left:0em;text-indent:1em">利益屬他，引來苦惱。得大權勢，成就公眾利益，引來安樂。</p>
 <lb ed="B" n="0305a18"/><p xml:id="pB06p0305a1801" rend="margin-left:0em;text-indent:1em">眾生多有熱惱，以煩惱結縛，為眾生所難超越故。</p>
 <lb ed="B" n="0305a19"/><p xml:id="pB06p0305a1901">毗舍佉經終</p></cb:div>
 <lb ed="B" n="0305a20"/>
 <lb ed="B" n="0305a21"/><cb:div type="other"><cb:mulu type="其他" level="3">10 第十　迦利瞿陀經</cb:mulu><head>第十　迦利瞿陀經</head>
 <lb ed="B" n="0305a22"/><p xml:id="pB06p0305a2201" rend="margin-left:0em;text-indent:1em">如是我聞。</p>
-<lb ed="B" n="0305a23"/><p xml:id="pB06p0305a2301" rend="margin-left:0em;text-indent:1em">一時，佛在阿<anchor xml:id="beg_38" type="cb-app"/><g ref="#CB00145">㝹</g><anchor xml:id="end_38"/>夷之菴摩羅林住。時迦利瞿陀王妃之子，跋提梨迦
+<lb ed="B" n="0305a23"/><p xml:id="pB06p0305a2301" rend="margin-left:0em;text-indent:1em">一時，佛在阿<anchor xml:id="nkr_note_add_0305a2301" n="0305a2301"/><anchor xml:id="beg0305a2301" n="0305a2301"/><g ref="#CB00145">㝹</g><anchor xml:id="end0305a2301"/>夷之菴摩羅林住。時迦利瞿陀王妃之子，跋提梨迦
 <lb ed="B" n="0305a24"/>尊者，或在森林，或在樹下，或在空屋，常自說言，樂哉樂哉。時比
 <lb ed="B" n="0305a25"/>丘眾，常聞迦利瞿陀王妃之子，跋提梨迦尊者，或在森林，或在樹下
 <lb ed="B" n="0305a26"/>或在空屋，常自說言，樂哉樂哉。如是諸比丘眾，共憂思言，諸壽者
 <lb ed="B" n="0305a27"/>迦利瞿陀王妃之子，跋提梨迦尊者，不樂梵行，彼在森林，或在樹下
 <lb ed="B" n="0305a28"/>或在空屋，彼當念昔時在俗王位之樂，故常自說，樂哉樂哉。</p>
 <pb ed="B" xml:id="B06.0006.0305b" n="0305b"/>
-<lb ed="B" n="0305b01"/><p xml:id="pB06p0305b0101" rend="margin-left:0em;text-indent:1em">時諸比丘，即往佛所，禮世尊<anchor xml:id="beg_39" type="cb-app"/>已<anchor xml:id="end_39"/>，却坐一旁，而白佛言，大德世尊
+<lb ed="B" n="0305b01"/><p xml:id="pB06p0305b0101" rend="margin-left:0em;text-indent:1em">時諸比丘，即往佛所，禮世尊<anchor xml:id="nkr_note_add_0305b0101" n="0305b0101"/><anchor xml:id="beg0305b0101" n="0305b0101"/>已<anchor xml:id="end0305b0101"/>，却坐一旁，而白佛言，大德世尊
 <lb ed="B" n="0305b02"/>迦利瞿陀王妃之子，跋提利迦尊者，當不樂梵行，彼在森林，或在樹
 <lb ed="B" n="0305b03"/>下，或在空屋，當念昔時在俗王位之樂，故常自說，樂哉樂哉。</p>
 <lb ed="B" n="0305b04"/><p xml:id="pB06p0305b0401" rend="margin-left:0em;text-indent:1em">爾時佛告一比丘言，比丘，汝往跋提梨迦所，如我辭言，跋提梨迦
 <lb ed="B" n="0305b05"/>師召汝往。比丘受佛敕已，往迦利瞿陀王妃之子，跋提梨迦尊者所，
-<lb ed="B" n="0305b06"/>而告之言，慧命跋提梨迦，師召汝往。跋提梨迦尊者，諾比丘<anchor xml:id="beg_3a" type="cb-app"/>已<anchor xml:id="end_3a"/>，即
+<lb ed="B" n="0305b06"/>而告之言，慧命跋提梨迦，師召汝往。跋提梨迦尊者，諾比丘<anchor xml:id="nkr_note_add_0305b0601" n="0305b0601"/><anchor xml:id="beg0305b0601" n="0305b0601"/>已<anchor xml:id="end0305b0601"/>，即
 <lb ed="B" n="0305b07"/>往佛所，禮世尊已，却坐一旁。世尊問迦利瞿陀王妃子，跋迦提梨尊
 <lb ed="B" n="0305b08"/>者言，跋提梨迦，我聞汝或在森林，或在樹下，或在空屋，常自說言
 <lb ed="B" n="0305b09"/>樂哉樂哉，如是否耶。跋提梨迦尊者答言，如是，世尊。</p>
@@ -1673,7 +1678,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0306b21"/>憤，厭嫌，乃離眾獨居，住不放逸，精勤堅固，於不久時，以現法自
 <lb ed="B" n="0306b22"/>慧力，證無上梵行，為出家族姓子所共希慕，自知此生已盡，梵行已
 <lb ed="B" n="0306b23"/>立，所作已辦，更無後有，難陀尊者，是諸阿羅漢之一阿羅漢。</p>
-<lb ed="B" n="0306b24"/><p xml:id="pB06p0306b2401" rend="margin-left:0em;text-indent:1em">時初夜分<anchor xml:id="beg_3b" type="cb-app"/>已<anchor xml:id="end_3b"/>，有一天女，最極美麗，詣祗陀林，光明遍照，來至佛
+<lb ed="B" n="0306b24"/><p xml:id="pB06p0306b2401" rend="margin-left:0em;text-indent:1em">時初夜分<anchor xml:id="nkr_note_add_0306b2401" n="0306b2401"/><anchor xml:id="beg0306b2401" n="0306b2401"/>已<anchor xml:id="end0306b2401"/>，有一天女，最極美麗，詣祗陀林，光明遍照，來至佛
 <lb ed="B" n="0306b25"/>所，禮世尊已，却坐一旁。而白佛言，大德世尊。難陀尊者，世尊之
 <lb ed="B" n="0306b26"/>弟，佛叔母之子，以現法自慧力故。證心解脫，證慧解脫，諸漏已盡
 <lb ed="B" n="0306b27"/>世尊亦已智見，難陀尊者，以現法自慧力故，證心解脫，證慧解脫，
@@ -1681,12 +1686,12 @@ bm 轉 xml 標記作業上傳
 <pb ed="B" xml:id="B06.0006.0307a" n="0307a"/>
 <lb ed="B" n="0307a01"/><p xml:id="pB06p0307a0101" rend="margin-left:0em;text-indent:1em">是夜分盡，難陀尊者，往見世尊，禮世尊已，却坐一旁，而白佛言
 <lb ed="B" n="0307a02"/>大德世尊，世尊保任我得五百鴿足天女，我今來求世尊，除脫此約。
-<lb ed="B" n="0307a03"/>佛言，難陀，我心<anchor xml:id="beg_3c" type="cb-app"/>已<anchor xml:id="end_3c"/>知汝心，難陀，以現法自慧力故，證心解脫，證
-<lb ed="B" n="0307a04"/>慧解脫，諸漏<anchor xml:id="beg_3d" type="cb-app"/>已<anchor xml:id="end_3d"/>盡。諸天等眾，亦告我言，難陀尊者，世尊之弟，佛
+<lb ed="B" n="0307a03"/>佛言，難陀，我心<anchor xml:id="nkr_note_add_0307a0301" n="0307a0301"/><anchor xml:id="beg0307a0301" n="0307a0301"/>已<anchor xml:id="end0307a0301"/>知汝心，難陀，以現法自慧力故，證心解脫，證
+<lb ed="B" n="0307a04"/>慧解脫，諸漏<anchor xml:id="nkr_note_add_0307a0401" n="0307a0401"/><anchor xml:id="beg0307a0401" n="0307a0401"/>已<anchor xml:id="end0307a0401"/>盡。諸天等眾，亦告我言，難陀尊者，世尊之弟，佛
 <lb ed="B" n="0307a05"/>叔母之子，以現法自慧力故，證心解脫，證慧解脫，諸漏已盡。難陀
-<lb ed="B" n="0307a06"/>汝心以不執著故，解脫諸漏時，我約亦除脫<anchor xml:id="beg_3e" type="cb-app"/>已<anchor xml:id="end_3e"/>。</p>
+<lb ed="B" n="0307a06"/>汝心以不執著故，解脫諸漏時，我約亦除脫<anchor xml:id="nkr_note_add_0307a0601" n="0307a0601"/><anchor xml:id="beg0307a0601" n="0307a0601"/>已<anchor xml:id="end0307a0601"/>。</p>
 <lb ed="B" n="0307a07"/><p xml:id="pB06p0307a0701" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知已，而自說言。</p>
-<lb ed="B" n="0307a08"/><p xml:id="pB06p0307a0801" rend="margin-left:0em;text-indent:1em">比丘能越，諸欲泥沼，能破除彼，諸欲荊刺。則此比丘，<anchor xml:id="beg_3f" type="cb-app"/>已<anchor xml:id="end_3f"/>滅愚癡
+<lb ed="B" n="0307a08"/><p xml:id="pB06p0307a0801" rend="margin-left:0em;text-indent:1em">比丘能越，諸欲泥沼，能破除彼，諸欲荊刺。則此比丘，<anchor xml:id="nkr_note_add_0307a0801" n="0307a0801"/><anchor xml:id="beg0307a0801" n="0307a0801"/>已<anchor xml:id="end0307a0801"/>滅愚癡
 <lb ed="B" n="0307a09"/>於諸苦樂，心不動搖。</p>
 <lb ed="B" n="0307a10"/><p xml:id="pB06p0307a1001">難陀經終</p></cb:div>
 <lb ed="B" n="0307a11"/>
@@ -1735,12 +1740,12 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0307b25"/>已久，請佛世尊，與比丘眾，而共言說，乃至再說，世尊默然。</p>
 <lb ed="B" n="0307b26"/><p xml:id="pB06p0307b2601" rend="margin-left:0em;text-indent:1em">後夜分已，晨光既現，阿難尊者，即從座起，整鬱多羅僧衣，偏袒
 <lb ed="B" n="0307b27"/>一肩，向佛世尊，合掌禮敬，而白佛言，大德世尊，後夜分已，晨光
-<lb ed="B" n="0307b28"/>既現，諸來比丘，坐候<anchor xml:id="beg_40" type="cb-app"/>已<anchor xml:id="end_40"/>久，請佛世尊，與比丘眾，而共言說。</p>
+<lb ed="B" n="0307b28"/>既現，諸來比丘，坐候<anchor xml:id="nkr_note_add_0307b2801" n="0307b2801"/><anchor xml:id="beg0307b2801" n="0307b2801"/>已<anchor xml:id="end0307b2801"/>久，請佛世尊，與比丘眾，而共言說。</p>
 <pb ed="B" xml:id="B06.0006.0308a" n="0308a"/>
 <lb ed="B" n="0308a01"/><p xml:id="pB06p0308a0101" rend="margin-left:0em;text-indent:1em">時佛世尊，從三昧起，告阿難言，阿難，汝若能知，當不說此。阿
 <lb ed="B" n="0308a02"/>難，我與五百比丘，同入不動三昧。</p>
 <lb ed="B" n="0308a03"/><p xml:id="pB06p0308a0301" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知已，而自說言。</p>
-<lb ed="B" n="0308a04"/><p xml:id="pB06p0308a0401" rend="margin-left:0em;text-indent:1em">諸有比丘，能勝欲<anchor xml:id="beg_41" type="cb-app"/>刺<anchor xml:id="end_41"/>，能勝惡口，能不殺生，能無縛著。則彼比丘
+<lb ed="B" n="0308a04"/><p xml:id="pB06p0308a0401" rend="margin-left:0em;text-indent:1em">諸有比丘，能勝欲<anchor xml:id="nkr_note_add_0308a0401" n="0308a0401"/><anchor xml:id="beg0308a0401" n="0308a0401"/>刺<anchor xml:id="end0308a0401"/>，能勝惡口，能不殺生，能無縛著。則彼比丘
 <lb ed="B" n="0308a05"/>不動如山。則彼比丘，不因苦樂，而有搖動。</p>
 <lb ed="B" n="0308a06"/><p xml:id="pB06p0308a0601">耶輸闍經終</p></cb:div>
 <lb ed="B" n="0308a07"/>
@@ -1767,7 +1772,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0308a28"/><p xml:id="pB06p0308a2801" rend="margin-left:0em;text-indent:1em">如是我聞。</p>
 <pb ed="B" xml:id="B06.0006.0308b" n="0308b"/>
 <lb ed="B" n="0308b01"/><p xml:id="pB06p0308b0101" rend="margin-left:0em;text-indent:1em">一時，世尊在王舍城，竹林迦蘭陀迦園住。時畢陵迦婆差尊者，常
-<lb ed="B" n="0308b02"/>呼諸比丘，為下賤人。時諸比丘，往世尊所，禮世尊<anchor xml:id="beg_42" type="cb-app"/>已<anchor xml:id="end_42"/>，却坐一旁，
+<lb ed="B" n="0308b02"/>呼諸比丘，為下賤人。時諸比丘，往世尊所，禮世尊<anchor xml:id="nkr_note_add_0308b0201" n="0308b0201"/><anchor xml:id="beg0308b0201" n="0308b0201"/>已<anchor xml:id="end0308b0201"/>，却坐一旁，
 <lb ed="B" n="0308b03"/>而白佛言，大德世尊，畢陵迦婆差尊者，常呼諸比丘眾，為下賤人。
 <lb ed="B" n="0308b04"/>時世尊告一比丘言，比丘，汝往畢陵迦所，如我辭言，慧命婆差，師
 <lb ed="B" n="0308b05"/>召汝往。彼比丘諾佛已，往畢陵迦尊者所，而告之言，慧命，師召汝
@@ -1962,7 +1967,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0311b20"/>而坐。時一牧牛者，至世尊所，禮世尊已，却坐一旁，坐已。佛以法
 <lb ed="B" n="0311b21"/>語，教其立志，奮勵，悅樂。時牧牛人，聞佛說立志奮勵悅樂等教示
 <lb ed="B" n="0311b22"/>即白佛言，大德世尊，請佛世尊及比丘眾，明日受我供食，世尊默然
-<lb ed="B" n="0311b23"/>應諾，牧牛人知世尊諾<anchor xml:id="beg_43" type="cb-app"/>已<anchor xml:id="end_43"/>，即從座起，作禮右繞，而自辭去。</p>
+<lb ed="B" n="0311b23"/>應諾，牧牛人知世尊諾<anchor xml:id="nkr_note_add_0311b2301" n="0311b2301"/><anchor xml:id="beg0311b2301" n="0311b2301"/>已<anchor xml:id="end0311b2301"/>，即從座起，作禮右繞，而自辭去。</p>
 <lb ed="B" n="0311b24"/><p xml:id="pB06p0311b2401" rend="margin-left:0em;text-indent:1em">夜分過已，牧牛人於其家中，調諸眾多乳糜，蔗水，熟酥等已。即
 <lb ed="B" n="0311b25"/>往佛所，而白佛言，大德世尊，飯食備訖，今正是時。時朝時分，世
 <lb ed="B" n="0311b26"/>尊著衣持鉢，與比丘眾，往牧牛人家，敷座而坐。時牧牛人，以乳糜
@@ -1972,7 +1977,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0312a01"/>歸佛所。</p>
 <lb ed="B" n="0312a02"/><p xml:id="pB06p0312a0201" rend="margin-left:0em;text-indent:1em">時世尊歸未久，一男人入牧牛人家，殺牧牛人死。時諸比丘，同往
 <lb ed="B" n="0312a03"/>佛所，却坐一旁，而白佛言，大德世尊，我聞牧牛人。以乳糜，蔗水
-<lb ed="B" n="0312a04"/>熟酥，以佛為首。供比丘眾<anchor xml:id="beg_44" type="cb-app"/>已<anchor xml:id="end_44"/>，被一男子，入其家中，殺牧牛人死。</p>
+<lb ed="B" n="0312a04"/>熟酥，以佛為首。供比丘眾<anchor xml:id="nkr_note_add_0312a0401" n="0312a0401"/><anchor xml:id="beg0312a0401" n="0312a0401"/>已<anchor xml:id="end0312a0401"/>，被一男子，入其家中，殺牧牛人死。</p>
 <lb ed="B" n="0312a05"/><p xml:id="pB06p0312a0501" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知已，而自說言。</p>
 <lb ed="B" n="0312a06"/><p xml:id="pB06p0312a0601" rend="margin-left:0em;text-indent:1em">諸惡者人，與惡者遇，則互殘苦。諸執怨人，與執怨遇，則互殘苦
 <lb ed="B" n="0312a07"/>人立心惡，則更多苦。</p>
@@ -2005,7 +2010,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0312b05"/><p xml:id="pB06p0312b0501" rend="margin-left:0em;text-indent:1em">舍利弗言，慧命大目建連，奇哉，奇哉，昔所未有，大目建連尊者
 <lb ed="B" n="0312b06"/>有大神力，有大威力，能見夜叉，而我至今，乃不能見彼玩弄塵泥之
 <lb ed="B" n="0312b07"/>俾舍遮鬼。</p>
-<lb ed="B" n="0312b08"/><p xml:id="pB06p0312b0801" rend="margin-left:0em;text-indent:1em">爾時世尊，以超過人耳，清淨天耳，聞二尊者語，如是知<anchor xml:id="beg_45" type="cb-app"/>已<anchor xml:id="end_45"/>，而自
+<lb ed="B" n="0312b08"/><p xml:id="pB06p0312b0801" rend="margin-left:0em;text-indent:1em">爾時世尊，以超過人耳，清淨天耳，聞二尊者語，如是知<anchor xml:id="nkr_note_add_0312b0801" n="0312b0801"/><anchor xml:id="beg0312b0801" n="0312b0801"/>已<anchor xml:id="end0312b0801"/>，而自
 <lb ed="B" n="0312b09"/>說言。</p>
 <lb ed="B" n="0312b10"/><p xml:id="pB06p0312b1001" rend="margin-left:0em;text-indent:1em">若心堅固，不動如山，不染著於－染著所立，不忿恨於－忿恨所立
 <lb ed="B" n="0312b11"/>如是修習，於自心已，則彼眾苦，從何處來。</p>
@@ -2079,19 +2084,19 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0313b21"/>門，有如是業，諸釋迦子沙門，無慚，無愧，破戒，惡行，妄語，非
 <lb ed="B" n="0313b22"/>梵行。此諸釋迦子沙門，自發誓言，是法行者，和敬住者，梵行者，
 <lb ed="B" n="0313b23"/>實語者，持戒者，善行者。而諸釋迦子沙門，實無沙門行，諸釋迦子
-<lb ed="B" n="0313b24"/>沙門，實無梵行，諸釋迦子沙門之沙門行<anchor xml:id="beg_46" type="cb-app"/>已<anchor xml:id="end_46"/>滅盡，諸釋迦子沙門之梵
-<lb ed="B" n="0313b25"/>行已滅盡，諸釋迦子沙門之沙門行，<anchor xml:id="beg_47" type="cb-app"/>已<anchor xml:id="end_47"/>何所有，諸釋迦子沙門之梵行
-<lb ed="B" n="0313b26"/>已何所有，諸釋迦子沙門，<anchor xml:id="beg_48" type="cb-app"/>已<anchor xml:id="end_48"/>非沙門，諸釋迦子沙門，已非梵行者。
+<lb ed="B" n="0313b24"/>沙門，實無梵行，諸釋迦子沙門之沙門行<anchor xml:id="nkr_note_add_0313b2401" n="0313b2401"/><anchor xml:id="beg0313b2401" n="0313b2401"/>已<anchor xml:id="end0313b2401"/>滅盡，諸釋迦子沙門之梵
+<lb ed="B" n="0313b25"/>行已滅盡，諸釋迦子沙門之沙門行，<anchor xml:id="nkr_note_add_0313b2501" n="0313b2501"/><anchor xml:id="beg0313b2501" n="0313b2501"/>已<anchor xml:id="end0313b2501"/>何所有，諸釋迦子沙門之梵行
+<lb ed="B" n="0313b26"/>已何所有，諸釋迦子沙門，<anchor xml:id="nkr_note_add_0313b2601" n="0313b2601"/><anchor xml:id="beg0313b2601" n="0313b2601"/>已<anchor xml:id="end0313b2601"/>非沙門，諸釋迦子沙門，已非梵行者。
 <lb ed="B" n="0313b27"/>男子作男子（之婬行）事已，而殺死女子。</p>
 <lb ed="B" n="0313b28"/><p xml:id="pB06p0313b2801" rend="margin-left:0em;text-indent:1em">爾時，舍衛城人，見比丘眾，輒以粗惡語，忿恨，誹罵，辱責，比
 <pb ed="B" xml:id="B06.0006.0314a" n="0314a"/>
 <lb ed="B" n="0314a01"/>丘。而共同言，諸釋迦子沙門，無慚，無愧……乃至男子作男子（之
-<lb ed="B" n="0314a02"/>婬行）事<anchor xml:id="beg_49" type="cb-app"/>已<anchor xml:id="end_49"/>，而殺死女子。</p>
+<lb ed="B" n="0314a02"/>婬行）事<anchor xml:id="nkr_note_add_0314a0201" n="0314a0201"/><anchor xml:id="beg0314a0201" n="0314a0201"/>已<anchor xml:id="end0314a0201"/>，而殺死女子。</p>
 <lb ed="B" n="0314a03"/><p xml:id="pB06p0314a0301" rend="margin-left:0em;text-indent:1em">爾時朝時，諸比丘著衣持鉢，入舍衛城托鉢，托鉢回，飯食訖，往
 <lb ed="B" n="0314a04"/>見世尊，禮世尊已，却坐一旁，而白佛言，大德世尊，舍衛城人，見
 <lb ed="B" n="0314a05"/>比丘眾，輒以非淨人語，粗惡語，忿恨誹罵……乃至男子作男子（之
 <lb ed="B" n="0314a06"/>婬行）事已，而殺死女子。</p>
-<lb ed="B" n="0314a07"/><p xml:id="pB06p0314a0701" rend="margin-left:0em;text-indent:1em">佛告諸比丘，如是諸語，不能久有，僅有七日，七日過<anchor xml:id="beg_4a" type="cb-app"/>已<anchor xml:id="end_4a"/>，即自銷
+<lb ed="B" n="0314a07"/><p xml:id="pB06p0314a0701" rend="margin-left:0em;text-indent:1em">佛告諸比丘，如是諸語，不能久有，僅有七日，七日過<anchor xml:id="nkr_note_add_0314a0701" n="0314a0701"/><anchor xml:id="beg0314a0701" n="0314a0701"/>已<anchor xml:id="end0314a0701"/>，即自銷
 <lb ed="B" n="0314a08"/>失。諸比丘，汝當對彼以非淨人語，粗惡語，忿恨，誹罵，辱責比丘
 <lb ed="B" n="0314a09"/>者言。妄語者，作惡而言不作者，必墮地獄。此二種作惡人，捨命之
 <lb ed="B" n="0314a10"/>後，來世（生惡）趣同。</p>
@@ -2102,9 +2107,9 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0314a15"/>無有作惡。彼（誹罵辱責）語，不能久有，僅有七日，七日過已，即自
 <lb ed="B" n="0314a16"/>銷失。時諸比丘，往見世尊，禮世尊已，却坐一旁，而白佛言，大德
 <lb ed="B" n="0314a17"/>世尊，奇哉奇哉。大德世尊，昔所未有。世尊告諸比丘，如是諸語，
-<lb ed="B" n="0314a18"/>不能久有，七日過<anchor xml:id="beg_4b" type="cb-app"/>已<anchor xml:id="end_4b"/>，即當銷失，如今諸語，已銷失已。</p>
+<lb ed="B" n="0314a18"/>不能久有，七日過<anchor xml:id="nkr_note_add_0314a1801" n="0314a1801"/><anchor xml:id="beg0314a1801" n="0314a1801"/>已<anchor xml:id="end0314a1801"/>，即當銷失，如今諸語，已銷失已。</p>
 <lb ed="B" n="0314a19"/><p xml:id="pB06p0314a1901" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知已，而自說言。</p>
-<lb ed="B" n="0314a20"/><p xml:id="pB06p0314a2001" rend="margin-left:0em;text-indent:1em">不自攝護。常以惡語，<anchor xml:id="beg_4c" type="cb-app"/>刺<anchor xml:id="end_4c"/>傷於人，猶如敵軍，以箭<anchor xml:id="beg_4d" type="cb-app"/>刺<anchor xml:id="end_4d"/>象。以此之故
+<lb ed="B" n="0314a20"/><p xml:id="pB06p0314a2001" rend="margin-left:0em;text-indent:1em">不自攝護。常以惡語，<anchor xml:id="nkr_note_add_0314a2001" n="0314a2001"/><anchor xml:id="beg0314a2001" n="0314a2001"/>刺<anchor xml:id="end0314a2001"/>傷於人，猶如敵軍，以箭<anchor xml:id="nkr_note_add_0314a2002" n="0314a2002"/><anchor xml:id="beg0314a2002" n="0314a2002"/>刺<anchor xml:id="end0314a2002"/>象。以此之故
 <lb ed="B" n="0314a21"/>比丘當以－無害之心，安忍他人，諸粗惡語。</p>
 <lb ed="B" n="0314a22"/><p xml:id="pB06p0314a2201">舍利弗經終</p></cb:div>
 <lb ed="B" n="0314a23"/>
@@ -2153,7 +2158,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0315a08"/>勝於愛汝自己者否，我如是問言，勝鬘妃言，大王，我所愛人，無有
 <lb ed="B" n="0315a09"/>勝於愛我自己者，大王，而大王所愛人，有勝於愛大王自己者否，我
 <lb ed="B" n="0315a10"/>答言，勝鬘，我所愛人，亦無有勝於愛我自己者。</p>
-<lb ed="B" n="0315a11"/><p xml:id="pB06p0315a1101" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知<anchor xml:id="beg_4e" type="cb-app"/>已<anchor xml:id="end_4e"/>，而自說言。</p>
+<lb ed="B" n="0315a11"/><p xml:id="pB06p0315a1101" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知<anchor xml:id="nkr_note_add_0315a1101" n="0315a1101"/><anchor xml:id="beg0315a1101" n="0315a1101"/>已<anchor xml:id="end0315a1101"/>，而自說言。</p>
 <lb ed="B" n="0315a12"/><p xml:id="pB06p0315a1201" rend="margin-left:0em;text-indent:1em">人於四方，至心尋求，無有何方。有較自己，為更可愛。諸有眾生
 <lb ed="B" n="0315a13"/>各愛自己。以此之故，愛自己者，不應害他。</p>
 <lb ed="B" n="0315a14"/><p xml:id="pB06p0315a1401">王經終</p></cb:div>
@@ -2204,7 +2209,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0316a01"/>來必證正覺。</p>
 <lb ed="B" n="0316a02"/><p xml:id="pB06p0316a0201" rend="margin-left:0em;text-indent:1em">世尊白已。一比丘問言，大德世尊，以何因緣，令善覺貧乏孤獨困
 <lb ed="B" n="0316a03"/>苦。佛言，善覺夙生，是王舍城長者子，在園遊行，見多迦羅尸棄辟
-<lb ed="B" n="0316a04"/>支佛（獨覺佛），城中托鉢，而自念言，此癩病者，將往何處。言<anchor xml:id="beg_4f" type="cb-app"/>已<anchor xml:id="end_4f"/>，
+<lb ed="B" n="0316a04"/>支佛（獨覺佛），城中托鉢，而自念言，此癩病者，將往何處。言<anchor xml:id="nkr_note_add_0316a0401" n="0316a0401"/><anchor xml:id="beg0316a0401" n="0316a0401"/>已<anchor xml:id="end0316a0401"/>，
 <lb ed="B" n="0316a05"/>吐唾而去。以此之故，墮入地獄，極為多年，百年千年，乃至十萬年
 <lb ed="B" n="0316a06"/>已，而以餘業，生王舍城，貧乏孤獨困苦。彼因我教，信受持戒，修
 <lb ed="B" n="0316a07"/>學，修捨，修慧。又依我教。信受持戒，修學，修捨，修慧。今身壞
@@ -2220,7 +2225,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0316a17"/>見眾多兒童，在舍衛城與祗陀林間捕魚。即往問言，汝諸兒童，汝等
 <lb ed="B" n="0316a18"/>怖畏苦否，苦非汝等所愛否。諸兒童言，如是大德，我等怖畏苦，苦
 <lb ed="B" n="0316a19"/>非我等所愛。</p>
-<lb ed="B" n="0316a20"/><p xml:id="pB06p0316a2001" rend="margin-left:0em;text-indent:1em">爾時<anchor xml:id="beg_50" type="cb-app"/>世<anchor xml:id="end_50"/>尊，如是知<anchor xml:id="beg_51" type="cb-app"/>已<anchor xml:id="end_51"/>，而自說言。</p>
+<lb ed="B" n="0316a20"/><p xml:id="pB06p0316a2001" rend="margin-left:0em;text-indent:1em">爾時<anchor xml:id="nkr_note_add_0316a2001" n="0316a2001"/><anchor xml:id="beg0316a2001" n="0316a2001"/>世<anchor xml:id="end0316a2001"/>尊，如是知<anchor xml:id="nkr_note_add_0316a2002" n="0316a2002"/><anchor xml:id="beg0316a2002" n="0316a2002"/>已<anchor xml:id="end0316a2002"/>，而自說言。</p>
 <lb ed="B" n="0316a21"/><p xml:id="pB06p0316a2101" rend="margin-left:0em;text-indent:1em">若怖畏苦，苦非所愛。則不當於，露處隱處，而作惡行，若汝將作
 <lb ed="B" n="0316a22"/>若作惡業，則汝等眾，飛逃何處，不能脫苦。</p>
 <lb ed="B" n="0316a23"/><p xml:id="pB06p0316a2301">兒童經終</p></cb:div>
@@ -2236,7 +2241,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0316b04"/>向佛世尊，合掌作禮，而白佛言，大德世尊，中夜已過，僧眾坐久，
 <lb ed="B" n="0316b05"/>請佛世尊，為僧眾說波羅提木叉。乃至再說，世尊默然，乃至三說。
 <lb ed="B" n="0316b06"/>後夜已過，晨光出現，天將亮時，阿難尊者，即從座起，整袈裟衣，
-<lb ed="B" n="0316b07"/>偏袒一肩，向佛世尊，合掌作禮，而白佛言，大德世尊，後夜<anchor xml:id="beg_52" type="cb-app"/>已<anchor xml:id="end_52"/>過，
+<lb ed="B" n="0316b07"/>偏袒一肩，向佛世尊，合掌作禮，而白佛言，大德世尊，後夜<anchor xml:id="nkr_note_add_0316b0701" n="0316b0701"/><anchor xml:id="beg0316b0701" n="0316b0701"/>已<anchor xml:id="end0316b0701"/>過，
 <lb ed="B" n="0316b08"/>晨光出現，天將亮時，僧眾坐久，請佛世尊，為僧眾說波羅提木叉。
 <lb ed="B" n="0316b09"/>爾時，佛言，阿難，眾中不淨。時大目建連尊者，自思念言，世尊說
 <lb ed="B" n="0316b10"/>言，阿難，眾中不淨。如是，誰為不淨，時大目建連尊者，以自心知
@@ -2246,7 +2251,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0316b14"/>能與比丘共住。彼人默然，乃至再說，乃至三說，大目建連尊者，復
 <lb ed="B" n="0316b15"/>告彼人言，汝當起，世尊已見汝，汝不能與比丘共住，乃至三說，彼
 <lb ed="B" n="0316b16"/>人默然。時大目建連尊者。即捉彼臂，挽出門外，關門下閂已。回返
-<lb ed="B" n="0316b17"/>見佛，而白佛言，大德世尊。我已令彼人出<anchor xml:id="beg_53" type="cb-app"/>已<anchor xml:id="end_53"/>，眾中清淨，請佛世尊
+<lb ed="B" n="0316b17"/>見佛，而白佛言，大德世尊。我已令彼人出<anchor xml:id="nkr_note_add_0316b1701" n="0316b1701"/><anchor xml:id="beg0316b1701" n="0316b1701"/>已<anchor xml:id="end0316b1701"/>，眾中清淨，請佛世尊
 <lb ed="B" n="0316b18"/>為僧眾說波羅提木叉，佛言，目建連，奇哉奇哉，昔所未有，如是愚
 <lb ed="B" n="0316b19"/>者，乃能強坐，令人捉臂挽出。爾時世尊，告比丘言，諸比丘，始自
 <lb ed="B" n="0316b20"/>今日，我不作布薩，不說波羅提木叉。始自今日，汝等當自作布薩，
@@ -2396,7 +2401,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0319a19"/>尊，見疑惑離婆多尊者，離佛不遠，結雙跏趺，端身正坐，自觀超越
 <lb ed="B" n="0319a20"/>疑惑之清淨。</p>
 <lb ed="B" n="0319a21"/><p xml:id="pB06p0319a2101" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知已，而自說言。</p>
-<lb ed="B" n="0319a22"/><p xml:id="pB06p0319a2201" rend="margin-left:0em;text-indent:1em">若人於此－世或他世，自<anchor xml:id="beg_54" type="cb-app"/>己<anchor xml:id="end_54"/>或他，之所疑惑，能住禪思，精進勤
+<lb ed="B" n="0319a22"/><p xml:id="pB06p0319a2201" rend="margin-left:0em;text-indent:1em">若人於此－世或他世，自<anchor xml:id="nkr_note_add_0319a2201" n="0319a2201"/><anchor xml:id="beg0319a2201" n="0319a2201"/>己<anchor xml:id="end0319a2201"/>或他，之所疑惑，能住禪思，精進勤
 <lb ed="B" n="0319a23"/>修，行於梵行，則能捨之。</p>
 <lb ed="B" n="0319a24"/><p xml:id="pB06p0319a2401">離婆多經終</p></cb:div>
 <lb ed="B" n="0319a25"/>
@@ -2578,7 +2583,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0322a27"/><p xml:id="pB06p0322a2701" rend="margin-left:0em;text-indent:1em">有諸沙門婆羅門，有如是言，有如是見，</p>
 <lb ed="B" n="0322a28"/><p xml:id="pB06p0322a2801" rend="margin-left:0em;text-indent:1em">十、有情死後，亦非有，亦非無，此是真實，他則虛妄。</p>
 <pb ed="B" xml:id="B06.0006.0322b" n="0322b"/>
-<lb ed="B" n="0322b01"/><p xml:id="pB06p0322b0101" rend="margin-left:0em;text-indent:1em">如是諸沙門婆羅門，各有異見，爭論鬥諍，以如矛之口，互相<anchor xml:id="beg_55" type="cb-app"/>刺<anchor xml:id="end_55"/>擊
+<lb ed="B" n="0322b01"/><p xml:id="pB06p0322b0101" rend="margin-left:0em;text-indent:1em">如是諸沙門婆羅門，各有異見，爭論鬥諍，以如矛之口，互相<anchor xml:id="nkr_note_add_0322b0101" n="0322b0101"/><anchor xml:id="beg0322b0101" n="0322b0101"/>刺<anchor xml:id="end0322b0101"/>擊
 <lb ed="B" n="0322b02"/>而各自謂，法如是，法不如是，法不如是，法如是。</p>
 <lb ed="B" n="0322b03"/><p xml:id="pB06p0322b0301" rend="margin-left:0em;text-indent:1em">爾時朝時，眾多比丘，著衣持鉢，入舍衛城托鉢，托鉢回，飯食訖
 <lb ed="B" n="0322b04"/>往世尊所，禮世尊已，却坐一旁，而白佛言，大德世尊，眾多沙門婆
@@ -2587,7 +2592,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0322b07"/>世界是常，此是真實，乃至法如是，法不如是，法不如是，法如是。</p>
 <lb ed="B" n="0322b08"/><p xml:id="pB06p0322b0801" rend="margin-left:0em;text-indent:1em">世尊告言，諸比丘，諸外道眾，是生盲者，無有眼目。不知利，不
 <lb ed="B" n="0322b09"/>知非利，不知法，不知非法。以不知利，不知非利，不知法，不知非
-<lb ed="B" n="0322b10"/>法故。各有異見，爭論鬥諍，以如矛之口，互相<anchor xml:id="beg_56" type="cb-app"/>刺<anchor xml:id="end_56"/>擊，而各自謂，法
+<lb ed="B" n="0322b10"/>法故。各有異見，爭論鬥諍，以如矛之口，互相<anchor xml:id="nkr_note_add_0322b1001" n="0322b1001"/><anchor xml:id="beg0322b1001" n="0322b1001"/>刺<anchor xml:id="end0322b1001"/>擊，而各自謂，法
 <lb ed="B" n="0322b11"/>如是，法不如是，法不如是，法如是。</p>
 <lb ed="B" n="0322b12"/><p xml:id="pB06p0322b1201" rend="margin-left:0em;text-indent:1em">諸比丘，往昔此王舍城，有一國王，今王家臣，召全城生盲者，來
 <lb ed="B" n="0322b13"/>集王宮。家臣諾已，即往召全城生盲，來集王宮，而白王言，大王，
@@ -2732,7 +2737,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0325a07"/>在室外露處坐，（室中）燃胡麻油燈，時諸飛蛾，在燈週趺落，遭苦災
 <lb ed="B" n="0325a08"/>禍，而自陷滅。時佛世尊，見諸飛蛾，在燈週趺落，遭苦災禍，而自
 <lb ed="B" n="0325a09"/>陷滅。</p>
-<lb ed="B" n="0325a10"/><p xml:id="pB06p0325a1001" rend="margin-left:0em;text-indent:1em">爾時世尊，如知是<anchor xml:id="beg_57" type="cb-app"/>已<anchor xml:id="end_57"/>，而自說言。</p>
+<lb ed="B" n="0325a10"/><p xml:id="pB06p0325a1001" rend="margin-left:0em;text-indent:1em">爾時世尊，如知是<anchor xml:id="nkr_note_add_0325a1001" n="0325a1001"/><anchor xml:id="beg0325a1001" n="0325a1001"/>已<anchor xml:id="end0325a1001"/>，而自說言。</p>
 <lb ed="B" n="0325a11"/><p xml:id="pB06p0325a1101" rend="margin-left:0em;text-indent:1em">有諸沙門，及婆羅門，（修習）過度，反增新縛，執著見聞，有如飛
 <lb ed="B" n="0325a12"/>蛾，落於燈邊。</p>
 <lb ed="B" n="0325a13"/><p xml:id="pB06p0325a1301">過度經終</p></cb:div>
@@ -2740,7 +2745,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0325a15"/><cb:div type="other"><cb:mulu type="其他" level="3">10 第十　出現經</cb:mulu><head>第十　出現經</head>
 <lb ed="B" n="0325a16"/><p xml:id="pB06p0325a1601" rend="margin-left:0em;text-indent:1em">如是我聞。</p>
 <lb ed="B" n="0325a17"/><p xml:id="pB06p0325a1701" rend="margin-left:0em;text-indent:1em">一時，世尊在舍衛城，祗陀林，給孤獨長者園住。時阿難尊者，往
-<lb ed="B" n="0325a18"/>世尊所，禮世尊<anchor xml:id="beg_58" type="cb-app"/>已<anchor xml:id="end_58"/>，却坐一旁，而白佛言，大德世尊，如來應供正等
+<lb ed="B" n="0325a18"/>世尊所，禮世尊<anchor xml:id="nkr_note_add_0325a1801" n="0325a1801"/><anchor xml:id="beg0325a1801" n="0325a1801"/>已<anchor xml:id="end0325a1801"/>，却坐一旁，而白佛言，大德世尊，如來應供正等
 <lb ed="B" n="0325a19"/>覺佛世尊，不出現世間，則諸外道，為眾所供養，承事尊重，信受恭
 <lb ed="B" n="0325a20"/>敬，多得衣服，飲食，坐臥具，醫藥。</p>
 <lb ed="B" n="0325a21"/><p xml:id="pB06p0325a2101" rend="margin-left:0em;text-indent:1em">但如來應供正等覺佛世尊，出現世間，則諸外道，不為眾所供養，
@@ -2749,7 +2754,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0325a24"/>飲食，坐臥具，醫藥。</p>
 <lb ed="B" n="0325a25"/><p xml:id="pB06p0325a2501" rend="margin-left:0em;text-indent:1em">佛言，阿難，此是諦實。阿難，此是諦實，如來應正等覺佛世尊，
 <lb ed="B" n="0325a26"/>不出現世間，乃至如來應正等覺佛世尊，出現世間。</p>
-<lb ed="B" n="0325a27"/><p xml:id="pB06p0325a2701" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知<anchor xml:id="beg_59" type="cb-app"/>已<anchor xml:id="end_59"/>，而自說言。</p>
+<lb ed="B" n="0325a27"/><p xml:id="pB06p0325a2701" rend="margin-left:0em;text-indent:1em">爾時世尊，如是知<anchor xml:id="nkr_note_add_0325a2701" n="0325a2701"/><anchor xml:id="beg0325a2701" n="0325a2701"/>已<anchor xml:id="end0325a2701"/>，而自說言。</p>
 <lb ed="B" n="0325a28"/><p xml:id="pB06p0325a2801" rend="margin-left:0em;text-indent:1em">日未出時，螢是有光，日既出已，螢即無光，亦不能光。</p>
 <pb ed="B" xml:id="B06.0006.0325b" n="0325b"/>
 <lb ed="B" n="0325b01"/><p xml:id="pB06p0325b0101" rend="margin-left:0em;text-indent:1em">外道如螢，佛未出現，小有光照，佛一出現，諸外道輩，及彼弟子。
@@ -3071,7 +3076,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0330b27"/>佛却去，時優婆塞眾去已，世尊即入室。</p>
 <lb ed="B" n="0330b28"/><p xml:id="pB06p0330b2801" rend="margin-left:0em;text-indent:1em">爾時，摩竭陀大臣，名須尼陀及禹舍（婆沙迦羅）。將在波吒離村建
 <pb ed="B" xml:id="B06.0006.0331a" n="0331a"/>
-<lb ed="B" n="0331a01"/>城，防<anchor xml:id="beg_5a" type="cb-app"/>衛<anchor xml:id="end_5a"/>跋闍諸王，時守護波吒離村眾多百千天眾，諸大位天，則其
+<lb ed="B" n="0331a01"/>城，防<anchor xml:id="nkr_note_add_0331a0101" n="0331a0101"/><anchor xml:id="beg0331a0101" n="0331a0101"/>衛<anchor xml:id="end0331a0101"/>跋闍諸王，時守護波吒離村眾多百千天眾，諸大位天，則其
 <lb ed="B" n="0331a02"/>大位王之王臣，傾心於其地，建立住家。諸中位天，則其中位王之王
 <lb ed="B" n="0331a03"/>臣，傾心於其地，建立住家。諸小位天，則其小位王之王臣，傾心於
 <lb ed="B" n="0331a04"/>其地，建立住家。世尊以清淨天眼，超諸人眼，見彼守護波吒離村多
@@ -3096,7 +3101,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0331a23"/><lg xml:id="lgB06p0331a2301" type="abnormal"><l rend="text-indent:1em">賢種性人，</l><l rend="text-indent:1em">住居地已，</l><l rend="text-indent:1em">則當供養，</l><l rend="text-indent:1em">彼有戒人，</l><l rend="text-indent:1em">自調御人，</l><l rend="text-indent:1em">行梵行人，</l>
 <lb ed="B" n="0331a24"/><l rend="text-indent:1em">應當供養－</l><l rend="text-indent:1em">彼地天眾。</l><l rend="text-indent:1em">天眾受彼，</l><l rend="text-indent:1em">賢種性人，</l><l rend="text-indent:1em">供養恭敬，</l><l rend="text-indent:1em">則恭敬彼，</l>
 <lb ed="B" n="0331a25"/><l rend="text-indent:1em">賢種性人，</l><l rend="text-indent:1em">如母護子，</l><l rend="text-indent:1em">善福增上。</l></lg>
-<lb ed="B" n="0331a26"/><p xml:id="pB06p0331a2601" rend="margin-left:0em;text-indent:1em">時世尊唱隨喜偈已，即從座起，却行而去。時摩竭<anchor xml:id="beg_5b" type="cb-app"/>陀<anchor xml:id="end_5b"/>國大臣，名須
+<lb ed="B" n="0331a26"/><p xml:id="pB06p0331a2601" rend="margin-left:0em;text-indent:1em">時世尊唱隨喜偈已，即從座起，却行而去。時摩竭<anchor xml:id="nkr_note_add_0331a2601" n="0331a2601"/><anchor xml:id="beg0331a2601" n="0331a2601"/>陀<anchor xml:id="end0331a2601"/>國大臣，名須
 <lb ed="B" n="0331a27"/>尼陀及禹舍，隨世尊後，而自念言，今日，瞿曇沙門，行出何門，彼
 <lb ed="B" n="0331a28"/>門則名為瞿曇門，渡恒河處，則名為瞿曇渡，時恒河水滿（河岸）。可
 <pb ed="B" xml:id="B06.0006.0331b" n="0331b"/>
@@ -3254,11 +3259,11 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0334a07"/><p xml:id="pB06p0334a0701">第四經終</p></cb:div>
 <lb ed="B" n="0334a08"/>
 <lb ed="B" n="0334a09"/><cb:div type="other"><cb:mulu type="其他" level="3">5 第五　覆經</cb:mulu><head>第五　覆經</head>
-<lb ed="B" n="0334a10"/><p xml:id="pB06p0334a1001" rend="margin-left:0em;text-indent:1em">此是諦實，世尊說如是語，此經是世尊證阿羅漢<anchor xml:id="beg_5c" type="cb-app"/>已<anchor xml:id="end_5c"/>，說。</p>
+<lb ed="B" n="0334a10"/><p xml:id="pB06p0334a1001" rend="margin-left:0em;text-indent:1em">此是諦實，世尊說如是語，此經是世尊證阿羅漢<anchor xml:id="nkr_note_add_0334a1001" n="0334a1001"/><anchor xml:id="beg0334a1001" n="0334a1001"/>已<anchor xml:id="end0334a1001"/>，說。</p>
 <lb ed="B" n="0334a11"/><p xml:id="pB06p0334a1101" rend="margin-left:0em;text-indent:1em">如是我聞，諸比丘，汝等能斷一法，我說汝等，是證不還果者。一
 <lb ed="B" n="0334a12"/>法云何，諸比丘，汝等能斷一法，所謂覆法，我說汝等，是證不還果
 <lb ed="B" n="0334a13"/>者。</p>
-<lb ed="B" n="0334a14"/><p xml:id="pB06p0334a1401" rend="margin-left:0em;text-indent:1em">如來說如是義<anchor xml:id="beg_5d" type="cb-app"/>已<anchor xml:id="end_5d"/>，於彼經中，世尊說如是偈。</p>
+<lb ed="B" n="0334a14"/><p xml:id="pB06p0334a1401" rend="margin-left:0em;text-indent:1em">如來說如是義<anchor xml:id="nkr_note_add_0334a1401" n="0334a1401"/><anchor xml:id="beg0334a1401" n="0334a1401"/>已<anchor xml:id="end0334a1401"/>，於彼經中，世尊說如是偈。</p>
 <lb ed="B" n="0334a15"/><lg xml:id="lgB06p0334a1501" type="abnormal"><l rend="text-indent:1em">明見之人，</l><l rend="text-indent:1em">真知覆藏，</l><l rend="text-indent:1em">令諸眾生，</l><l rend="text-indent:1em">墮入惡趣，</l><l rend="text-indent:1em">而能斷之，</l><l rend="text-indent:1em">既能斷已，</l>
 <lb ed="B" n="0334a16"/><l rend="text-indent:1em">不再來生。</l></lg>
 <lb ed="B" n="0334a17"/><p xml:id="pB06p0334a1701" rend="margin-left:0em;text-indent:1em">世尊說如是義，如是我聞。</p>
@@ -3341,8 +3346,8 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0335b07"/><p xml:id="pB06p0335b0701" rend="margin-left:0em;text-indent:1em">如是我聞，諸比丘，比丘不真知不遍知忿，不令心棄捨，樂著忿，
 <lb ed="B" n="0335b08"/>不能斷忿，則是不能令苦盡者，諸比丘，比丘能真知遍知忿，能令心
 <lb ed="B" n="0335b09"/>棄捨樂著忿，能真斷已，則是能令苦盡者。</p>
-<lb ed="B" n="0335b10"/><p xml:id="pB06p0335b1001" rend="margin-left:0em;text-indent:1em">如來說如是義<anchor xml:id="beg_5e" type="cb-app"/>已<anchor xml:id="end_5e"/>，於彼經中，世尊說如是偈。</p>
-<lb ed="B" n="0335b11"/><lg xml:id="lgB06p0335b1101" type="abnormal"><l rend="text-indent:1em">明見正知，</l><l rend="text-indent:1em">忿令眾生，</l><l rend="text-indent:1em">墮入惡趣，</l><l rend="text-indent:1em">即能棄捨，</l><l rend="text-indent:1em">既棄捨<anchor xml:id="beg_5f" type="cb-app"/>已<anchor xml:id="end_5f"/>，</l><l rend="text-indent:1em">於一切時，</l>
+<lb ed="B" n="0335b10"/><p xml:id="pB06p0335b1001" rend="margin-left:0em;text-indent:1em">如來說如是義<anchor xml:id="nkr_note_add_0335b1001" n="0335b1001"/><anchor xml:id="beg0335b1001" n="0335b1001"/>已<anchor xml:id="end0335b1001"/>，於彼經中，世尊說如是偈。</p>
+<lb ed="B" n="0335b11"/><lg xml:id="lgB06p0335b1101" type="abnormal"><l rend="text-indent:1em">明見正知，</l><l rend="text-indent:1em">忿令眾生，</l><l rend="text-indent:1em">墮入惡趣，</l><l rend="text-indent:1em">即能棄捨，</l><l rend="text-indent:1em">既棄捨<anchor xml:id="nkr_note_add_0335b1101" n="0335b1101"/><anchor xml:id="beg0335b1101" n="0335b1101"/>已<anchor xml:id="end0335b1101"/>，</l><l rend="text-indent:1em">於一切時，</l>
 <lb ed="B" n="0335b12"/><l rend="text-indent:1em">不再來生。</l></lg>
 <lb ed="B" n="0335b13"/><p xml:id="pB06p0335b1301" rend="margin-left:0em;text-indent:1em">世尊說如是義，如是我聞。</p>
 <lb ed="B" n="0335b14"/><p xml:id="pB06p0335b1401">第二經終</p></cb:div>
@@ -3549,7 +3554,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0339a12"/><cb:div type="other"><cb:mulu type="其他" level="3">總攝經目</cb:mulu><p xml:id="pB06p0339a1201">本品總攝經。共：
 <lb ed="B" n="0339a13"/>一、定心經。二、福經。三、二種利經。四、毗補羅山經。
 <lb ed="B" n="0339a14"/>五、知而故妄語經。六、布施經。七、慈修經。</p></cb:div>
-<lb ed="B" n="0339a15"/><p xml:id="pB06p0339a1501">第三品<anchor xml:id="beg_60" type="cb-app"/>終<anchor xml:id="end_60"/></p>
+<lb ed="B" n="0339a15"/><p xml:id="pB06p0339a1501">第三品<anchor xml:id="nkr_note_add_0339a1501" n="0339a1501"/><anchor xml:id="beg0339a1501" n="0339a1501"/>終<anchor xml:id="end0339a1501"/></p>
 <lb ed="B" n="0339a16"/>
 <lb ed="B" n="0339a17"/><p xml:id="pB06p0339a1701">本集共有二十七經，本品有七經，合前二十經也。</p>
 <lb ed="B" n="0339a18"/><p xml:id="pB06p0339a1801">第一集終</p></cb:div>
@@ -3979,7 +3984,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0346b07"/><p xml:id="pB06p0346b0701" rend="margin-left:0em;text-indent:1em">如是我聞，諸比丘，如是三種漏，云何是三，謂一是欲漏，一是後
 <lb ed="B" n="0346b08"/>有漏，一是無明漏，諸比丘，如是，是三種漏。</p>
 <lb ed="B" n="0346b09"/><p xml:id="pB06p0346b0901" rend="margin-left:0em;text-indent:1em">世尊說是義已，於彼經中，世尊說如是偈。</p>
-<lb ed="B" n="0346b10"/><lg xml:id="lgB06p0346b1001" type="abnormal"><l rend="text-indent:1em">有諸比丘，</l><l rend="text-indent:1em">欲漏盡已，</l><l rend="text-indent:1em">無明捨<anchor xml:id="beg_61" type="cb-app"/>已<anchor xml:id="end_61"/>，</l><l rend="text-indent:1em">破有漏已。</l><l rend="text-indent:1em">如是比丘，</l><l rend="text-indent:1em">是解脫者，</l>
+<lb ed="B" n="0346b10"/><lg xml:id="lgB06p0346b1001" type="abnormal"><l rend="text-indent:1em">有諸比丘，</l><l rend="text-indent:1em">欲漏盡已，</l><l rend="text-indent:1em">無明捨<anchor xml:id="nkr_note_add_0346b1001" n="0346b1001"/><anchor xml:id="beg0346b1001" n="0346b1001"/>已<anchor xml:id="end0346b1001"/>，</l><l rend="text-indent:1em">破有漏已。</l><l rend="text-indent:1em">如是比丘，</l><l rend="text-indent:1em">是解脫者，</l>
 <lb ed="B" n="0346b11"/><l rend="text-indent:1em">無有生緣，</l><l rend="text-indent:1em">伏魔象乘，</l><l rend="text-indent:1em">得最後身。</l></lg>
 <lb ed="B" n="0346b12"/><p xml:id="pB06p0346b1201" rend="margin-left:0em;text-indent:1em">世尊說如是義，如是我聞。</p>
 <lb ed="B" n="0346b13"/><p xml:id="pB06p0346b1301">第八經終</p></cb:div>
@@ -4064,10 +4069,10 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0348a04"/><p xml:id="pB06p0348a0401">第四經終</p></cb:div>
 <lb ed="B" n="0348a05"/>
 <lb ed="B" n="0348a06"/><cb:div type="other"><cb:mulu type="其他" level="3">5 第五　惡行經</cb:mulu><head>第五　惡行經</head>
-<lb ed="B" n="0348a07"/><p xml:id="pB06p0348a0701" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="beg_62" type="cb-app"/>已<anchor xml:id="end_62"/>，說。</p>
+<lb ed="B" n="0348a07"/><p xml:id="pB06p0348a0701" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="nkr_note_add_0348a0701" n="0348a0701"/><anchor xml:id="beg0348a0701" n="0348a0701"/>已<anchor xml:id="end0348a0701"/>，說。</p>
 <lb ed="B" n="0348a08"/><p xml:id="pB06p0348a0801" rend="margin-left:0em;text-indent:1em">如是我聞，諸比丘，如是三種惡行，云何是三。謂一是身惡行，一
 <lb ed="B" n="0348a09"/>是語惡行，一是意惡行，諸比丘，如是，是三種惡行。</p>
-<lb ed="B" n="0348a10"/><p xml:id="pB06p0348a1001" rend="margin-left:0em;text-indent:1em">世尊說是義<anchor xml:id="beg_63" type="cb-app"/>已<anchor xml:id="end_63"/>，於彼經中，世尊說如是偈。</p>
+<lb ed="B" n="0348a10"/><p xml:id="pB06p0348a1001" rend="margin-left:0em;text-indent:1em">世尊說是義<anchor xml:id="nkr_note_add_0348a1001" n="0348a1001"/><anchor xml:id="beg0348a1001" n="0348a1001"/>已<anchor xml:id="end0348a1001"/>，於彼經中，世尊說如是偈。</p>
 <lb ed="B" n="0348a11"/><lg xml:id="lgB06p0348a1101" type="abnormal"><l rend="text-indent:1em">劣智之人，</l><l rend="text-indent:1em">行身惡行，</l><l rend="text-indent:1em">行語惡行，</l><l rend="text-indent:1em">行意惡行，</l><l rend="text-indent:1em">及諸罪業，</l><l rend="text-indent:1em">惡不善行，</l>
 <lb ed="B" n="0348a12"/><l rend="text-indent:1em">不行善業，</l><l rend="text-indent:1em">多行惡業，</l><l rend="text-indent:1em">身壞命終，</l><l rend="text-indent:1em">必墮地獄。</l></lg>
 <lb ed="B" n="0348a13"/><p xml:id="pB06p0348a1301" rend="margin-left:0em;text-indent:1em">世尊說如是義，如是我聞。</p>
@@ -4083,12 +4088,12 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0348a23"/><p xml:id="pB06p0348a2301">第六經終</p></cb:div>
 <lb ed="B" n="0348a24"/>
 <lb ed="B" n="0348a25"/><cb:div type="other"><cb:mulu type="其他" level="3">7 第七　清淨經</cb:mulu><head>第七　清淨經</head>
-<lb ed="B" n="0348a26"/><p xml:id="pB06p0348a2601" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="beg_64" type="cb-app"/>已<anchor xml:id="end_64"/>，說。</p>
+<lb ed="B" n="0348a26"/><p xml:id="pB06p0348a2601" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="nkr_note_add_0348a2601" n="0348a2601"/><anchor xml:id="beg0348a2601" n="0348a2601"/>已<anchor xml:id="end0348a2601"/>，說。</p>
 <lb ed="B" n="0348a27"/><p xml:id="pB06p0348a2701" rend="margin-left:0em;text-indent:1em">如是我聞，諸比丘，如是三種清淨人，云何是三，謂一是身清淨人，
 <lb ed="B" n="0348a28"/>一是語清淨人，一是意清淨人。</p>
 <pb ed="B" xml:id="B06.0006.0348b" n="0348b"/>
 <lb ed="B" n="0348b01"/><p xml:id="pB06p0348b0101" rend="margin-left:0em;text-indent:1em">諸比丘，如是，是三種清淨人。</p>
-<lb ed="B" n="0348b02"/><p xml:id="pB06p0348b0201" rend="margin-left:0em;text-indent:1em">世尊說是義<anchor xml:id="beg_65" type="cb-app"/>已<anchor xml:id="end_65"/>，於彼經中，世尊說如是偈。</p>
+<lb ed="B" n="0348b02"/><p xml:id="pB06p0348b0201" rend="margin-left:0em;text-indent:1em">世尊說是義<anchor xml:id="nkr_note_add_0348b0201" n="0348b0201"/><anchor xml:id="beg0348b0201" n="0348b0201"/>已<anchor xml:id="end0348b0201"/>，於彼經中，世尊說如是偈。</p>
 <lb ed="B" n="0348b03"/><lg xml:id="lgB06p0348b0301" type="abnormal"><l rend="text-indent:1em">佛陀世尊，</l><l rend="text-indent:1em">諸聖之首，</l><l rend="text-indent:1em">嘗作是言，</l><l rend="text-indent:1em">身清淨者，</l><l rend="text-indent:1em">語清淨者，</l><l rend="text-indent:1em">意清淨者，</l>
 <lb ed="B" n="0348b04"/><l rend="text-indent:1em">無有諸漏，</l><l rend="text-indent:1em">是清淨人，</l><l rend="text-indent:1em">具足清淨，</l><l rend="text-indent:1em">是斷漏者。</l></lg>
 <lb ed="B" n="0348b05"/><p xml:id="pB06p0348b0501" rend="margin-left:0em;text-indent:1em">世尊說如是義，如是我聞。</p>
@@ -4108,12 +4113,12 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0348b19"/><p xml:id="pB06p0348b1901">第八經終</p></cb:div>
 <lb ed="B" n="0348b20"/>
 <lb ed="B" n="0348b21"/><cb:div type="other"><cb:mulu type="其他" level="3">9 第九　貪經之一</cb:mulu><head>第九　貪經之一</head>
-<lb ed="B" n="0348b22"/><p xml:id="pB06p0348b2201" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="beg_66" type="cb-app"/>已<anchor xml:id="end_66"/>，說。</p>
+<lb ed="B" n="0348b22"/><p xml:id="pB06p0348b2201" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="nkr_note_add_0348b2201" n="0348b2201"/><anchor xml:id="beg0348b2201" n="0348b2201"/>已<anchor xml:id="end0348b2201"/>，說。</p>
 <lb ed="B" n="0348b23"/><p xml:id="pB06p0348b2301" rend="margin-left:0em;text-indent:1em">如是我聞，諸比丘，若人不能斷貪瞋癡，我說是人，是魔所縛，是
 <lb ed="B" n="0348b24"/>魔所罥，魔能役使。諸比丘，若人能斷貪瞋癡，我說是人，魔不能縛，
 <lb ed="B" n="0348b25"/>魔不能罥，魔不能役使。</p>
-<lb ed="B" n="0348b26"/><p xml:id="pB06p0348b2601" rend="margin-left:0em;text-indent:1em">世尊說如是義<anchor xml:id="beg_67" type="cb-app"/>已<anchor xml:id="end_67"/>，於彼經中，世尊說如是偈。</p>
-<lb ed="B" n="0348b27"/><lg xml:id="lgB06p0348b2701" type="abnormal"><l rend="text-indent:1em">佛陀世尊，</l><l rend="text-indent:1em">諸聖之首，</l><l rend="text-indent:1em">嘗作是言，</l><l rend="text-indent:1em">能離貪瞋，</l><l rend="text-indent:1em">痴及無明，</l><l rend="text-indent:1em">自調御<anchor xml:id="beg_68" type="cb-app"/>已<anchor xml:id="end_68"/>，</l>
+<lb ed="B" n="0348b26"/><p xml:id="pB06p0348b2601" rend="margin-left:0em;text-indent:1em">世尊說如是義<anchor xml:id="nkr_note_add_0348b2601" n="0348b2601"/><anchor xml:id="beg0348b2601" n="0348b2601"/>已<anchor xml:id="end0348b2601"/>，於彼經中，世尊說如是偈。</p>
+<lb ed="B" n="0348b27"/><lg xml:id="lgB06p0348b2701" type="abnormal"><l rend="text-indent:1em">佛陀世尊，</l><l rend="text-indent:1em">諸聖之首，</l><l rend="text-indent:1em">嘗作是言，</l><l rend="text-indent:1em">能離貪瞋，</l><l rend="text-indent:1em">痴及無明，</l><l rend="text-indent:1em">自調御<anchor xml:id="nkr_note_add_0348b2701" n="0348b2701"/><anchor xml:id="beg0348b2701" n="0348b2701"/>已<anchor xml:id="end0348b2701"/>，</l>
 <lb ed="B" n="0348b28"/><l rend="text-indent:1em">是最勝人，</l><l rend="text-indent:1em">如是而逝，</l><l rend="text-indent:1em">是悟證者，</l><l rend="text-indent:1em">越諸怨結，</l><l rend="text-indent:1em">及諸患難，</l><l rend="text-indent:1em">能斷煩惱。</l></lg>
 <pb ed="B" xml:id="B06.0006.0349a" n="0349a"/>
 <lb ed="B" n="0349a01"/><p xml:id="pB06p0349a0101" rend="margin-left:0em;text-indent:1em">世尊說如是義，如是我聞。</p>
@@ -4124,7 +4129,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0349a06"/><p xml:id="pB06p0349a0601" rend="margin-left:0em;text-indent:1em">如是我聞，諸比丘，若諸比丘，比丘尼眾，不能斷貪瞋痴，我說是
 <lb ed="B" n="0349a07"/>人，不能得渡，有浪，有旋渦，有惡獸，有羅剎之海。諸比丘，若比
 <lb ed="B" n="0349a08"/>丘，比丘尼眾，能斷貪瞋痴，我說是人，能渡有波有浪，有旋渦，有
-<lb ed="B" n="0349a09"/>惡獸，有羅剎之海，能到彼岸，住於<anchor xml:id="beg_69" type="cb-app"/>陸<anchor xml:id="end_69"/>地。</p>
+<lb ed="B" n="0349a09"/>惡獸，有羅剎之海，能到彼岸，住於<anchor xml:id="nkr_note_add_0349a0901" n="0349a0901"/><anchor xml:id="beg0349a0901" n="0349a0901"/>陸<anchor xml:id="end0349a0901"/>地。</p>
 <lb ed="B" n="0349a10"/><p xml:id="pB06p0349a1001" rend="margin-left:0em;text-indent:1em">世尊說如是義已，於彼經中，世尊說如是偈。</p>
 <lb ed="B" n="0349a11"/><lg xml:id="lgB06p0349a1101" type="abnormal"><l rend="text-indent:1em">我告說言，</l><l rend="text-indent:1em">能斷貪瞋，</l><l rend="text-indent:1em">痴及無明，</l><l rend="text-indent:1em">則能越渡，</l><l rend="text-indent:1em">惡獸羅剎，</l><l rend="text-indent:1em">可怖波浪，</l>
 <lb ed="B" n="0349a12"/><l rend="text-indent:1em">難渡之海。</l><l rend="text-indent:1em">如是之人，</l><l rend="text-indent:1em">越諸法著，</l><l rend="text-indent:1em">遠離死亡，</l><l rend="text-indent:1em">無有生緣，</l><l rend="text-indent:1em">棄再生苦，</l>
@@ -4140,7 +4145,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0349a22"/><cb:div type="other"><cb:mulu type="其他" level="2">8 第三集　第三品</cb:mulu><head>第三集　第三品</head>
 <lb ed="B" n="0349a23"/>
 <lb ed="B" n="0349a24"/><cb:div type="other"><cb:mulu type="其他" level="3">1 第一　邪見經</cb:mulu><head>第一　邪見經</head>
-<lb ed="B" n="0349a25"/><p xml:id="pB06p0349a2501" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="beg_6a" type="cb-app"/>已<anchor xml:id="end_6a"/>，說。</p>
+<lb ed="B" n="0349a25"/><p xml:id="pB06p0349a2501" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="nkr_note_add_0349a2501" n="0349a2501"/><anchor xml:id="beg0349a2501" n="0349a2501"/>已<anchor xml:id="end0349a2501"/>，說。</p>
 <lb ed="B" n="0349a26"/><p xml:id="pB06p0349a2601" rend="margin-left:0em;text-indent:1em">如是我聞，諸比丘，我見眾生，成就身惡行，語惡行，意惡行，誹
 <lb ed="B" n="0349a27"/>謗聖者，如是邪見，執邪見力，而行邪業，身壞命終，生於無幸處，
 <lb ed="B" n="0349a28"/>惡趣，墮處，地獄。諸比丘，我作是言，諸比丘，我見眾生，成就身
@@ -4163,7 +4168,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0349b16"/>我非從沙門婆羅門得聞，而為我所知，所見所解。故我說言，我見眾
 <lb ed="B" n="0349b17"/>生，成就身善行，語善行，意善行，不非難聖者，如是正見，以正見
 <lb ed="B" n="0349b18"/>力，而行正業，身壞命終，必生善趣天界。</p>
-<lb ed="B" n="0349b19"/><p xml:id="pB06p0349b1901" rend="margin-left:0em;text-indent:1em">世尊說如是義<anchor xml:id="beg_6b" type="cb-app"/>已<anchor xml:id="end_6b"/>，於彼經中，世尊說如是偈。</p>
+<lb ed="B" n="0349b19"/><p xml:id="pB06p0349b1901" rend="margin-left:0em;text-indent:1em">世尊說如是義<anchor xml:id="nkr_note_add_0349b1901" n="0349b1901"/><anchor xml:id="beg0349b1901" n="0349b1901"/>已<anchor xml:id="end0349b1901"/>，於彼經中，世尊說如是偈。</p>
 <lb ed="B" n="0349b20"/><lg xml:id="lgB06p0349b2001" type="abnormal"><l rend="text-indent:1em">此世間人，</l><l rend="text-indent:1em">建立正心，</l><l rend="text-indent:1em">而說正語，</l><l rend="text-indent:1em">更以正身，</l><l rend="text-indent:1em">而行正事。</l><l rend="text-indent:1em">多聞之人，</l>
 <lb ed="B" n="0349b21"/><l rend="text-indent:1em">在短生間，</l><l rend="text-indent:1em">造作福業，</l><l rend="text-indent:1em">此有智人，</l><l rend="text-indent:1em">於此人間，</l><l rend="text-indent:1em">身壞命終，</l><l rend="text-indent:1em">必生天界。</l></lg>
 <lb ed="B" n="0349b22"/><p xml:id="pB06p0349b2201" rend="margin-left:0em;text-indent:1em">世尊說如是義，如是我聞。</p>
@@ -4184,7 +4189,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0350a08"/>
 <lb ed="B" n="0350a09"/><cb:div type="other"><cb:mulu type="其他" level="3">4 第四　色經</cb:mulu><head>第四　色經</head>
 <lb ed="B" n="0350a10"/><p xml:id="pB06p0350a1001" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢已，說。</p>
-<lb ed="B" n="0350a11"/><p xml:id="pB06p0350a1101" rend="margin-left:0em;text-indent:1em">如是我聞，諸<anchor xml:id="beg_6c" type="cb-app"/>比丘<anchor xml:id="end_6c"/>，無色則勝色，滅盡則勝無色。</p>
+<lb ed="B" n="0350a11"/><p xml:id="pB06p0350a1101" rend="margin-left:0em;text-indent:1em">如是我聞，諸<anchor xml:id="nkr_note_add_0350a1101" n="0350a1101"/><anchor xml:id="beg0350a1101" n="0350a1101"/>比丘<anchor xml:id="end0350a1101"/>，無色則勝色，滅盡則勝無色。</p>
 <lb ed="B" n="0350a12"/><p xml:id="pB06p0350a1201" rend="margin-left:0em;text-indent:1em">世尊說是義已，於彼經中，世尊說如是偈。</p>
 <lb ed="B" n="0350a13"/><lg xml:id="lgB06p0350a1301" type="abnormal"><l rend="text-indent:1em">有諸眾生，</l><l rend="text-indent:1em">生於色界，</l><l rend="text-indent:1em">又諸眾生，</l><l rend="text-indent:1em">住無色界，</l><l rend="text-indent:1em">如是眾生，</l><l rend="text-indent:1em">不知滅界，</l>
 <lb ed="B" n="0350a14"/><l rend="text-indent:1em">必再來生。</l></lg>
@@ -4218,7 +4223,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0350b13"/><p xml:id="pB06p0350b1301" rend="margin-left:0em;text-indent:1em">諸比丘，此世間有如是三種兒子。</p>
 <lb ed="B" n="0350b14"/><p xml:id="pB06p0350b1401" rend="margin-left:0em;text-indent:1em">世尊說如是義已，於彼經中，世尊說如是偈。</p>
 <lb ed="B" n="0350b15"/><lg xml:id="lgB06p0350b1501" type="abnormal"><l rend="text-indent:1em">諸智者眾，</l><l rend="text-indent:1em">望得優生，</l><l rend="text-indent:1em">及隨生子，</l><l rend="text-indent:1em">不望劣生，</l><l rend="text-indent:1em">壞族姓子。</l></lg>
-<lb ed="B" n="0350b16"/><lg xml:id="lgB06p0350b1601" type="abnormal"><l rend="text-indent:1em">有諸兒子，</l><l rend="text-indent:1em">是優<anchor xml:id="beg_6d" type="cb-app"/>婆<anchor xml:id="end_6d"/>塞。</l><l rend="text-indent:1em">如是兒子，</l><l rend="text-indent:1em">是世間子，</l><l rend="text-indent:1em">有信有戒，</l><l rend="text-indent:1em">知父母心，</l>
+<lb ed="B" n="0350b16"/><lg xml:id="lgB06p0350b1601" type="abnormal"><l rend="text-indent:1em">有諸兒子，</l><l rend="text-indent:1em">是優<anchor xml:id="nkr_note_add_0350b1601" n="0350b1601"/><anchor xml:id="beg0350b1601" n="0350b1601"/>婆<anchor xml:id="end0350b1601"/>塞。</l><l rend="text-indent:1em">如是兒子，</l><l rend="text-indent:1em">是世間子，</l><l rend="text-indent:1em">有信有戒，</l><l rend="text-indent:1em">知父母心，</l>
 <lb ed="B" n="0350b17"/><l rend="text-indent:1em">無有慳吝。</l><l rend="text-indent:1em">於諸眾中，</l><l rend="text-indent:1em">最為榮美，</l><l rend="text-indent:1em">如明分月，</l><l rend="text-indent:1em">無黑雲蔽。</l></lg>
 <lb ed="B" n="0350b18"/><p xml:id="pB06p0350b1801" rend="margin-left:0em;text-indent:1em">世尊說如是義。如是我聞。</p>
 <lb ed="B" n="0350b19"/><p xml:id="pB06p0350b1901">第五經終</p></cb:div>
@@ -4270,7 +4275,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0351b07"/><p xml:id="pB06p0351b0701" rend="margin-left:0em;text-indent:1em">世尊說如是義，如是我聞。</p>
 <lb ed="B" n="0351b08"/><p xml:id="pB06p0351b0801">第七經終</p></cb:div>
 <lb ed="B" n="0351b09"/>
-<lb ed="B" n="0351b10"/><cb:div type="other"><cb:mulu type="其他" level="3">8 第八　滅壞經</cb:mulu><head>第八　<anchor xml:id="beg_6e" type="cb-app"/>滅<anchor xml:id="end_6e"/>壞經</head>
+<lb ed="B" n="0351b10"/><cb:div type="other"><cb:mulu type="其他" level="3">8 第八　滅壞經</cb:mulu><head>第八　<anchor xml:id="nkr_note_add_0351b1001" n="0351b1001"/><anchor xml:id="beg0351b1001" n="0351b1001"/>滅<anchor xml:id="end0351b1001"/>壞經</head>
 <lb ed="B" n="0351b11"/><p xml:id="pB06p0351b1101" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢已，說。</p>
 <lb ed="B" n="0351b12"/><p xml:id="pB06p0351b1201" rend="margin-left:0em;text-indent:1em">如是我聞，諸比丘，色身必歸滅壞，識必捨去，一切五蘊，無常。
 <lb ed="B" n="0351b13"/>是苦，是變異法。</p>
@@ -4281,7 +4286,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0351b18"/><p xml:id="pB06p0351b1801">第八經終</p></cb:div>
 <lb ed="B" n="0351b19"/>
 <lb ed="B" n="0351b20"/><cb:div type="other"><cb:mulu type="其他" level="3">9 第九　界經</cb:mulu><head>第九　界經</head>
-<lb ed="B" n="0351b21"/><p xml:id="pB06p0351b2101" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="beg_6f" type="cb-app"/>已<anchor xml:id="end_6f"/>，說。</p>
+<lb ed="B" n="0351b21"/><p xml:id="pB06p0351b2101" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="nkr_note_add_0351b2101" n="0351b2101"/><anchor xml:id="beg0351b2101" n="0351b2101"/>已<anchor xml:id="end0351b2101"/>，說。</p>
 <lb ed="B" n="0351b22"/><p xml:id="pB06p0351b2201" rend="margin-left:0em;text-indent:1em">如是我聞，諸比丘，一切眾生，界是相等，謂諸劣習眾生，必友劣
 <lb ed="B" n="0351b23"/>習眾生。善習眾生，必友善習眾生。</p>
 <lb ed="B" n="0351b24"/><p xml:id="pB06p0351b2401" rend="margin-left:0em;text-indent:1em">諸比丘，乃至過去時，一切眾生，乃至未來時，一切眾生，乃至現
@@ -4298,7 +4303,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0352a06"/><p xml:id="pB06p0352a0601">第九經終</p></cb:div>
 <lb ed="B" n="0352a07"/>
 <lb ed="B" n="0352a08"/><cb:div type="other"><cb:mulu type="其他" level="3">10 第十　退失經</cb:mulu><head>第十　退失經</head>
-<lb ed="B" n="0352a09"/><p xml:id="pB06p0352a0901" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="beg_70" type="cb-app"/>已<anchor xml:id="end_70"/>，說。</p>
+<lb ed="B" n="0352a09"/><p xml:id="pB06p0352a0901" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="nkr_note_add_0352a0901" n="0352a0901"/><anchor xml:id="beg0352a0901" n="0352a0901"/>已<anchor xml:id="end0352a0901"/>，說。</p>
 <lb ed="B" n="0352a10"/><p xml:id="pB06p0352a1001" rend="margin-left:0em;text-indent:1em">如是我聞，諸比丘，有如是三種法，能令有學比丘退失，云何是三，
 <lb ed="B" n="0352a11"/>諸比丘，謂一是有學比丘，以俗務為悅樂，悅樂俗務，耽著俗務。一
 <lb ed="B" n="0352a12"/>是以談話為悅樂，悅樂談話，耽著談話。一是以睡眠為悅樂，悅樂睡
@@ -4325,11 +4330,11 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0352b04"/><cb:div type="other"><cb:mulu type="其他" level="2">9 第三集　第四品</cb:mulu><head>第三集　第四品</head>
 <lb ed="B" n="0352b05"/>
 <lb ed="B" n="0352b06"/><cb:div type="other"><cb:mulu type="其他" level="3">1 第一　尋思經</cb:mulu><head>第一　尋思經（尋伺之尋）</head>
-<lb ed="B" n="0352b07"/><p xml:id="pB06p0352b0701" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="beg_71" type="cb-app"/>已<anchor xml:id="end_71"/>，說。</p>
+<lb ed="B" n="0352b07"/><p xml:id="pB06p0352b0701" rend="margin-left:0em;text-indent:1em">此是諦實，世尊如是語，此經是世尊證阿羅漢<anchor xml:id="nkr_note_add_0352b0701" n="0352b0701"/><anchor xml:id="beg0352b0701" n="0352b0701"/>已<anchor xml:id="end0352b0701"/>，說。</p>
 <lb ed="B" n="0352b08"/><p xml:id="pB06p0352b0801" rend="margin-left:0em;text-indent:1em">如是我聞，諸比丘，有三種不善（惡）尋思。云何是三，謂一是不令
 <lb ed="B" n="0352b09"/>他輕蔑相應尋思，一是為利養恭敬稱譽相應尋思，一是為憫他相應尋
 <lb ed="B" n="0352b10"/>思。諸比丘，如是，是三種不善尋思。</p>
-<lb ed="B" n="0352b11"/><p xml:id="pB06p0352b1101" rend="margin-left:0em;text-indent:1em">世尊說如是義<anchor xml:id="beg_72" type="cb-app"/>已<anchor xml:id="end_72"/>，於彼經中，世尊說如是偈。</p>
+<lb ed="B" n="0352b11"/><p xml:id="pB06p0352b1101" rend="margin-left:0em;text-indent:1em">世尊說如是義<anchor xml:id="nkr_note_add_0352b1101" n="0352b1101"/><anchor xml:id="beg0352b1101" n="0352b1101"/>已<anchor xml:id="end0352b1101"/>，於彼經中，世尊說如是偈。</p>
 <lb ed="B" n="0352b12"/><lg xml:id="lgB06p0352b1201" type="abnormal"><l rend="text-indent:1em">人若因於，</l><l rend="text-indent:1em">不令他蔑，</l><l rend="text-indent:1em">利養恭敬，</l><l rend="text-indent:1em">樂交大臣，</l><l rend="text-indent:1em">如是之人，</l><l rend="text-indent:1em">遠於斷結。</l></lg>
 <lb ed="B" n="0352b13"/><lg xml:id="lgB06p0352b1301" type="abnormal"><l rend="text-indent:1em">諸比丘眾，</l><l rend="text-indent:1em">能捨兒女，</l><l rend="text-indent:1em">家畜婚事，</l><l rend="text-indent:1em">及慳吝心，</l><l rend="text-indent:1em">如是比丘，</l><l rend="text-indent:1em">當證最上，</l>
 <lb ed="B" n="0352b14"/><l rend="text-indent:1em">正等正覺。</l></lg>
@@ -4387,7 +4392,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0353b08"/>沙門，婆羅門，天，魔。梵天，及諸人間，所不能奪。諸比丘，如是
 <lb ed="B" n="0353b09"/>是諸天善為安立。</p>
 <lb ed="B" n="0353b10"/><p xml:id="pB06p0353b1001" rend="margin-left:0em;text-indent:1em">天壽將終，則諸天眾，以三種語，慰彼天言，大德天子，當生善趣，
-<lb ed="B" n="0353b11"/>為人眾友。汝為人<anchor xml:id="beg_73" type="cb-app"/>已<anchor xml:id="end_73"/>，當信正法。而汝之信，為所安立。於如來教，
+<lb ed="B" n="0353b11"/>為人眾友。汝為人<anchor xml:id="nkr_note_add_0353b1101" n="0353b1101"/><anchor xml:id="beg0353b1101" n="0353b1101"/>已<anchor xml:id="end0353b1101"/>，當信正法。而汝之信，為所安立。於如來教，
 <lb ed="B" n="0353b12"/>根長堅固，於生生中，人不能取。汝當棄捨，身之惡行，語之惡行，
 <lb ed="B" n="0353b13"/>意之惡行，乃至其他，惡不善業，以身行善，多行語善，無量意善，
 <lb ed="B" n="0353b14"/>到無依著。
@@ -4456,7 +4461,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0354b19"/>中，達安穩處。</p>
 <lb ed="B" n="0354b20"/><p xml:id="pB06p0354b2001">第八經終</p></cb:div>
 <lb ed="B" n="0354b21"/>
-<lb ed="B" n="0354b22"/><cb:div type="other"><cb:mulu type="其他" level="3">9 第九　污經</cb:mulu><head>第九<anchor xml:id="beg_74" type="cb-app"/><space quantity="0"/><anchor xml:id="end_74"/>　污經</head>
+<lb ed="B" n="0354b22"/><cb:div type="other"><cb:mulu type="其他" level="3">9 第九　污經</cb:mulu><head>第九<anchor xml:id="nkr_note_add_0354b2201" n="0354b2201"/><anchor xml:id="beg0354b2201" n="0354b2201"/><space quantity="0"/><anchor xml:id="end0354b2201"/>　污經</head>
 <lb ed="B" n="0354b23"/><p xml:id="pB06p0354b2301" rend="margin-left:0em;text-indent:1em">諸比丘，如是三種內污。是內非友，是內冤怨，是內殺者，是內敵
 <lb ed="B" n="0354b24"/>人。云何是三，謂一是貪，一是瞋，一是痴。諸比丘，如是三種內污，
 <lb ed="B" n="0354b25"/>是內非友，是內冤怨，是內殺者，是內敵人。</p>
@@ -4556,7 +4561,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0356b03"/>－無怖畏者，滅熱惱者。但彼多欲，如是之人，名遙見佛。</p>
 <lb ed="B" n="0356b04"/><p xml:id="pB06p0356b0401" rend="margin-left:0em;text-indent:1em">有智之人，知最上法，是無怖畏，住於寂靜，如水無波，如是無畏，
 <lb ed="B" n="0356b05"/>能滅熱惱，無愛欲者，名近見佛。</p>
-<lb ed="B" n="0356b06"/><p xml:id="pB06p0356b0601">第<anchor xml:id="beg_75" type="cb-app"/>三<anchor xml:id="end_75"/>經終</p></cb:div>
+<lb ed="B" n="0356b06"/><p xml:id="pB06p0356b0601">第<anchor xml:id="nkr_note_add_0356b0601" n="0356b0601"/><anchor xml:id="beg0356b0601" n="0356b0601"/>三<anchor xml:id="end0356b0601"/>經終</p></cb:div>
 <lb ed="B" n="0356b07"/>
 <lb ed="B" n="0356b08"/><cb:div type="other"><cb:mulu type="其他" level="3">4 第四　火經</cb:mulu><head>第四　火經</head>
 <lb ed="B" n="0356b09"/><p xml:id="pB06p0356b0901" rend="margin-left:0em;text-indent:1em">諸比丘，如是三火聚。云何是三，謂一是貪火，一是瞋火，一是癡
@@ -4635,17 +4640,17 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0357b24"/><p xml:id="pB06p0357b2401">第九經終</p></cb:div>
 <lb ed="B" n="0357b25"/>
 <lb ed="B" n="0357b26"/><cb:div type="other"><cb:mulu type="其他" level="3">10 第十　法經</cb:mulu><head>第十　法經</head>
-<lb ed="B" n="0357b27"/><p xml:id="pB06p0357b2701" rend="margin-left:0em;text-indent:1em">諸比丘，我說證三明者，是婆<anchor xml:id="beg_76" type="cb-app"/>羅門<anchor xml:id="end_76"/>。我不說彼，諸依人說，而隨說
-<lb ed="B" n="0357b28"/>者，是婆<anchor xml:id="beg_77" type="cb-app"/>羅門<anchor xml:id="end_77"/>。諸比丘，云何我說證三明者，是婆羅門。而不說彼，
+<lb ed="B" n="0357b27"/><p xml:id="pB06p0357b2701" rend="margin-left:0em;text-indent:1em">諸比丘，我說證三明者，是婆<anchor xml:id="nkr_note_add_0357b2701" n="0357b2701"/><anchor xml:id="beg0357b2701" n="0357b2701"/>羅門<anchor xml:id="end0357b2701"/>。我不說彼，諸依人說，而隨說
+<lb ed="B" n="0357b28"/>者，是婆<anchor xml:id="nkr_note_add_0357b2801" n="0357b2801"/><anchor xml:id="beg0357b2801" n="0357b2801"/>羅門<anchor xml:id="end0357b2801"/>。諸比丘，云何我說證三明者，是婆羅門。而不說彼，
 <pb ed="B" xml:id="B06.0006.0358a" n="0358a"/>
-<lb ed="B" n="0358a01"/>諸依人說，而隨說者，是婆<anchor xml:id="beg_78" type="cb-app"/>羅門<anchor xml:id="end_78"/>。</p>
+<lb ed="B" n="0358a01"/>諸依人說，而隨說者，是婆<anchor xml:id="nkr_note_add_0358a0101" n="0358a0101"/><anchor xml:id="beg0358a0101" n="0358a0101"/>羅門<anchor xml:id="end0358a0101"/>。</p>
 <lb ed="B" n="0358a02"/><p xml:id="pB06p0358a0201" rend="margin-left:0em;text-indent:1em">諸比丘，住法律儀比丘，得宿住隨念，謂得一生，二生，三生，四
 <lb ed="B" n="0358a03"/>生，五生，六生，七生，八生，九生，十生，二十生，三十生，四十
 <lb ed="B" n="0358a04"/>生，五十生，百生，千生，百千生，幾壞刼，幾成刼，幾壞成刼。我
 <lb ed="B" n="0358a05"/>於彼處，有如是名，有如是姓，有如是色身，有如是食，有如是樂受
 <lb ed="B" n="0358a06"/>苦受，有如是壽限，於彼處死，生彼彼處，而於彼彼處，有如是名，
 <lb ed="B" n="0358a07"/>有如是姓，有如是色身，有如是食，有如是樂受苦受，有如是壽限，
-<lb ed="B" n="0358a08"/>於彼彼處死，生於此處。汝等當得如彼種種相狀宿住隨念。如是汝<anchor xml:id="beg_79" type="cb-app"/>已<anchor xml:id="end_79"/>
+<lb ed="B" n="0358a08"/>於彼彼處死，生於此處。汝等當得如彼種種相狀宿住隨念。如是汝<anchor xml:id="nkr_note_add_0358a0801" n="0358a0801"/><anchor xml:id="beg0358a0801" n="0358a0801"/>已<anchor xml:id="end0358a0801"/>
 <lb ed="B" n="0358a09"/>證第一明，已斷無明，而明已生，已滅黑暗，而生光明，是不放逸人
 <lb ed="B" n="0358a10"/>勇猛精進。</p>
 <lb ed="B" n="0358a11"/><p xml:id="pB06p0358a1101" rend="margin-left:0em;text-indent:1em">復次，比丘以超過人眼，清淨天眼，知諸眾生，死，生，劣，勝，
@@ -4740,8 +4745,8 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0359b13"/><cb:div type="other"><cb:mulu type="其他" level="3">6 第六　愛經</cb:mulu><head>第六　愛經</head>
 <lb ed="B" n="0359b14"/><p xml:id="pB06p0359b1401" rend="margin-left:0em;text-indent:1em">諸比丘，比丘起愛，起於如是四種愛。云何為四，諸比丘，比丘起
 <lb ed="B" n="0359b15"/>愛，一是起於三衣，一是起於摶飯，一是起於坐臥處，一是起於此生
-<lb ed="B" n="0359b16"/>彼滅。諸比丘，比丘起<anchor xml:id="beg_7a" type="cb-app"/>愛<anchor xml:id="end_7a"/>，起於如是四種愛。</p>
-<lb ed="B" n="0359b17"/><p xml:id="pB06p0359b1701" rend="margin-left:0em;text-indent:1em">以愛為友，則<anchor xml:id="beg_7b" type="cb-app"/>永<anchor xml:id="end_7b"/>流轉，不能超出，此生彼滅，生死輪迴。比丘當知
+<lb ed="B" n="0359b16"/>彼滅。諸比丘，比丘起<anchor xml:id="nkr_note_add_0359b1601" n="0359b1601"/><anchor xml:id="beg0359b1601" n="0359b1601"/>愛<anchor xml:id="end0359b1601"/>，起於如是四種愛。</p>
+<lb ed="B" n="0359b17"/><p xml:id="pB06p0359b1701" rend="margin-left:0em;text-indent:1em">以愛為友，則<anchor xml:id="nkr_note_add_0359b1701" n="0359b1701"/><anchor xml:id="beg0359b1701" n="0359b1701"/>永<anchor xml:id="end0359b1701"/>流轉，不能超出，此生彼滅，生死輪迴。比丘當知
 <lb ed="B" n="0359b18"/>愛是苦因，人若無愛，無有執著，住於正念，則無輪迴。</p>
 <lb ed="B" n="0359b19"/>
 <lb ed="B" n="0359b20"/><p xml:id="pB06p0359b2001">第六經終</p></cb:div>
@@ -4863,7 +4868,7 @@ bm 轉 xml 標記作業上傳
 <lb ed="B" n="0361b20"/>
 <lb ed="B" n="0361b21"/><cb:div type="other"><cb:mulu type="其他" level="3">總攝經目</cb:mulu><p xml:id="pB06p0361b2101">本品共攝經：
 <lb ed="B" n="0361b22"/>一、婆羅門經。二、四事經。三、知經。四、沙門經。五、戒經。
-<lb ed="B" n="0361b23"/>六、愛經。七、梵經。八、<anchor xml:id="beg_7c" type="cb-app"/>賢<anchor xml:id="end_7c"/>護經。九、欺誑經。十、人經。
+<lb ed="B" n="0361b23"/>六、愛經。七、梵經。八、<anchor xml:id="nkr_note_add_0361b2301" n="0361b2301"/><anchor xml:id="beg0361b2301" n="0361b2301"/>賢<anchor xml:id="end0361b2301"/>護經。九、欺誑經。十、人經。
 <lb ed="B" n="0361b24"/>十一、行經。十二、具足戒經。十三、世間經。</p></cb:div>
 <lb ed="B" n="0361b25"/><p xml:id="pB06p0361b2501">第四集　終</p></cb:div>
 <lb ed="B" n="0361b26"/><p xml:id="pB06p0361b2601">如是語經終</p></cb:div>
@@ -4874,130 +4879,259 @@ bm 轉 xml 標記作業上傳
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>婆</corr><sic>摩</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>婆</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>愛。</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr><space quantity="0"/></corr><sic>經</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6" cb:to="#end_6"><corr>欲。</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>品</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>品</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_c" cb:to="#end_c"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_d" cb:to="#end_d"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_e" cb:to="#end_e"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_f" cb:to="#end_f"><corr>摶</corr><sic>搏</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_10" cb:to="#end_10"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_11" cb:to="#end_11"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_12" cb:to="#end_12"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_13" cb:to="#end_13"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_14" cb:to="#end_14"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_15" cb:to="#end_15"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_16" cb:to="#end_16"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_17" cb:to="#end_17"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_18" cb:to="#end_18"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_19" cb:to="#end_19"><corr>摶</corr><sic>搏</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1a" cb:to="#end_1a"><corr>泥</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1b" cb:to="#end_1b"><corr>樂</corr><sic>槃</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1c" cb:to="#end_1c"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1d" cb:to="#end_1d"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1e" cb:to="#end_1e"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_1f" cb:to="#end_1f"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_20" cb:to="#end_20"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_21" cb:to="#end_21"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_22" cb:to="#end_22"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_23" cb:to="#end_23"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_24" cb:to="#end_24"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_25" cb:to="#end_25"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_26" cb:to="#end_26"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_27" cb:to="#end_27"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_28" cb:to="#end_28"><corr>第三　</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_29" cb:to="#end_29"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2a" cb:to="#end_2a"><corr>滅</corr><sic>減</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2b" cb:to="#end_2b"><corr>滅</corr><sic>減</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2c" cb:to="#end_2c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2d" cb:to="#end_2d"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2e" cb:to="#end_2e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2f" cb:to="#end_2f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_30" cb:to="#end_30"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_31" cb:to="#end_31"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_32" cb:to="#end_32"><corr>婆</corr><sic>娑</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_33" cb:to="#end_33"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_34" cb:to="#end_34"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_35" cb:to="#end_35"><corr>舍衛</corr><sic>衛舍</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_36" cb:to="#end_36"><corr>婆</corr><sic>娑</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_37" cb:to="#end_37"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_38" cb:to="#end_38"><corr><g ref="#CB00145">㝹</g></corr><sic><g ref="#CB00144">󰂐</g></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_39" cb:to="#end_39"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3a" cb:to="#end_3a"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3b" cb:to="#end_3b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3c" cb:to="#end_3c"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3d" cb:to="#end_3d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3e" cb:to="#end_3e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3f" cb:to="#end_3f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_40" cb:to="#end_40"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_41" cb:to="#end_41"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_42" cb:to="#end_42"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_43" cb:to="#end_43"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_44" cb:to="#end_44"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_45" cb:to="#end_45"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_46" cb:to="#end_46"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_47" cb:to="#end_47"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_48" cb:to="#end_48"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_49" cb:to="#end_49"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4a" cb:to="#end_4a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4b" cb:to="#end_4b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4c" cb:to="#end_4c"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4d" cb:to="#end_4d"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4e" cb:to="#end_4e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4f" cb:to="#end_4f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_50" cb:to="#end_50"><corr>世</corr><sic>尊</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_51" cb:to="#end_51"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_52" cb:to="#end_52"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_53" cb:to="#end_53"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_54" cb:to="#end_54"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_55" cb:to="#end_55"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_56" cb:to="#end_56"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_57" cb:to="#end_57"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_58" cb:to="#end_58"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_59" cb:to="#end_59"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5a" cb:to="#end_5a"><corr>衛</corr><sic>衝</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5b" cb:to="#end_5b"><corr>陀</corr><sic>阮</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5c" cb:to="#end_5c"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5d" cb:to="#end_5d"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5e" cb:to="#end_5e"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5f" cb:to="#end_5f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_60" cb:to="#end_60"><corr>終</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_61" cb:to="#end_61"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_62" cb:to="#end_62"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_63" cb:to="#end_63"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_64" cb:to="#end_64"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_65" cb:to="#end_65"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_66" cb:to="#end_66"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_67" cb:to="#end_67"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_68" cb:to="#end_68"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_69" cb:to="#end_69"><corr>陸</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6a" cb:to="#end_6a"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6b" cb:to="#end_6b"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6c" cb:to="#end_6c"><corr>比丘</corr><sic>丘比</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6d" cb:to="#end_6d"><corr>婆</corr><sic>娑</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6e" cb:to="#end_6e"><corr>滅</corr><sic>破</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_6f" cb:to="#end_6f"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_70" cb:to="#end_70"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_71" cb:to="#end_71"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_72" cb:to="#end_72"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_73" cb:to="#end_73"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_74" cb:to="#end_74"><corr><space quantity="0"/></corr><sic>經</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_75" cb:to="#end_75"><corr>三</corr><sic>二</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_76" cb:to="#end_76"><corr>羅門</corr><sic>門羅</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_77" cb:to="#end_77"><corr>羅門</corr><sic>門羅</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_78" cb:to="#end_78"><corr>羅門</corr><sic>門羅</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_79" cb:to="#end_79"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7a" cb:to="#end_7a"><corr>愛</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7b" cb:to="#end_7b"><corr>永</corr><sic><unclear></unclear></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7c" cb:to="#end_7c"><corr>賢</corr><sic>資</sic></choice>
+<app from="#beg0281a4201" to="#end0281a4201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0281b1301" to="#end0281b1301"><lem wit="#wit1" resp="#resp2">婆</lem><rdg wit="#wit2">摩</rdg></app>
+<app from="#beg0281b2501" to="#end0281b2501"><lem wit="#wit1" resp="#resp2">婆</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0282a0701" to="#end0282a0701"><lem wit="#wit1" resp="#resp2">愛。</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0282a0901" to="#end0282a0901"><lem wit="#wit1" resp="#resp2"><space quantity="0"/></lem><rdg wit="#wit2">經</rdg></app>
+<app from="#beg0282a2101" to="#end0282a2101"><lem wit="#wit1" resp="#resp2">欲。</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0282b1701" to="#end0282b1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0284a0901" to="#end0284a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0285a1901" to="#end0285a1901"><lem wit="#wit1" resp="#resp2">品</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0285b0501" to="#end0285b0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0286a0501" to="#end0286a0501"><lem wit="#wit1" resp="#resp2">品</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0287a1701" to="#end0287a1701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0287a1702" to="#end0287a1702"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0288a1101" to="#end0288a1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0290a2001" to="#end0290a2001"><lem wit="#wit1" resp="#resp2">摶</lem><rdg wit="#wit2">搏</rdg></app>
+<app from="#beg0290b2201" to="#end0290b2201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0292a1501" to="#end0292a1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0292a2201" to="#end0292a2201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0293a1001" to="#end0293a1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0293a2601" to="#end0293a2601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0293a2602" to="#end0293a2602"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0293b0801" to="#end0293b0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0293b2201" to="#end0293b2201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0294a0801" to="#end0294a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0294b1901" to="#end0294b1901"><lem wit="#wit1" resp="#resp2">摶</lem><rdg wit="#wit2">搏</rdg></app>
+<app from="#beg0295a2301" to="#end0295a2301"><lem wit="#wit1" resp="#resp2">泥</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0295b0701" to="#end0295b0701"><lem wit="#wit1" resp="#resp2">樂</lem><rdg wit="#wit2">槃</rdg></app>
+<app from="#beg0295b2801" to="#end0295b2801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0296a0201" to="#end0296a0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0296a0401" to="#end0296a0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0296a0901" to="#end0296a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0296a1101" to="#end0296a1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0296a1201" to="#end0296a1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0296a1901" to="#end0296a1901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0296a2301" to="#end0296a2301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0297a0101" to="#end0297a0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0297b0101" to="#end0297b0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0297b1401" to="#end0297b1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0297b2701" to="#end0297b2701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0298b1501" to="#end0298b1501"><lem wit="#wit1" resp="#resp2">第三　</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0298b2601" to="#end0298b2601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0299a0901" to="#end0299a0901"><lem wit="#wit1" resp="#resp2">滅</lem><rdg wit="#wit2">減</rdg></app>
+<app from="#beg0299a1001" to="#end0299a1001"><lem wit="#wit1" resp="#resp2">滅</lem><rdg wit="#wit2">減</rdg></app>
+<app from="#beg0300a0401" to="#end0300a0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0300a0501" to="#end0300a0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0301a1601" to="#end0301a1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0301a1602" to="#end0301a1602"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0301a2101" to="#end0301a2101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0301b1401" to="#end0301b1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0301b1701" to="#end0301b1701"><lem wit="#wit1" resp="#resp2">婆</lem><rdg wit="#wit2">娑</rdg></app>
+<app from="#beg0302a0501" to="#end0302a0501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0302a0901" to="#end0302a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0303a1401" to="#end0303a1401"><lem wit="#wit1" resp="#resp2">舍衛</lem><rdg wit="#wit2">衛舍</rdg></app>
+<app from="#beg0305a0701" to="#end0305a0701"><lem wit="#wit1" resp="#resp2">婆</lem><rdg wit="#wit2">娑</rdg></app>
+<app from="#beg0305a1601" to="#end0305a1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0305a2301" to="#end0305a2301"><lem wit="#wit1" resp="#resp2"><g ref="#CB00145">㝹</g></lem><rdg wit="#wit2"><g ref="#CB00144">󰂐</g></rdg></app>
+<app from="#beg0305b0101" to="#end0305b0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0305b0601" to="#end0305b0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0306b2401" to="#end0306b2401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0307a0301" to="#end0307a0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0307a0401" to="#end0307a0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0307a0601" to="#end0307a0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0307a0801" to="#end0307a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0307b2801" to="#end0307b2801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0308a0401" to="#end0308a0401"><lem wit="#wit1" resp="#resp2">刺</lem><rdg wit="#wit2">剌</rdg></app>
+<app from="#beg0308b0201" to="#end0308b0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0311b2301" to="#end0311b2301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0312a0401" to="#end0312a0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0312b0801" to="#end0312b0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0313b2401" to="#end0313b2401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0313b2501" to="#end0313b2501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0313b2601" to="#end0313b2601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0314a0201" to="#end0314a0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0314a0701" to="#end0314a0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0314a1801" to="#end0314a1801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0314a2001" to="#end0314a2001"><lem wit="#wit1" resp="#resp2">刺</lem><rdg wit="#wit2">剌</rdg></app>
+<app from="#beg0314a2002" to="#end0314a2002"><lem wit="#wit1" resp="#resp2">刺</lem><rdg wit="#wit2">剌</rdg></app>
+<app from="#beg0315a1101" to="#end0315a1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0316a0401" to="#end0316a0401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0316a2001" to="#end0316a2001"><lem wit="#wit1" resp="#resp2">世</lem><rdg wit="#wit2">尊</rdg></app>
+<app from="#beg0316a2002" to="#end0316a2002"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0316b0701" to="#end0316b0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0316b1701" to="#end0316b1701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0319a2201" to="#end0319a2201"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0322b0101" to="#end0322b0101"><lem wit="#wit1" resp="#resp2">刺</lem><rdg wit="#wit2">剌</rdg></app>
+<app from="#beg0322b1001" to="#end0322b1001"><lem wit="#wit1" resp="#resp2">刺</lem><rdg wit="#wit2">剌</rdg></app>
+<app from="#beg0325a1001" to="#end0325a1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0325a1801" to="#end0325a1801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0325a2701" to="#end0325a2701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0331a0101" to="#end0331a0101"><lem wit="#wit1" resp="#resp2">衛</lem><rdg wit="#wit2">衝</rdg></app>
+<app from="#beg0331a2601" to="#end0331a2601"><lem wit="#wit1" resp="#resp2">陀</lem><rdg wit="#wit2">阮</rdg></app>
+<app from="#beg0334a1001" to="#end0334a1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0334a1401" to="#end0334a1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0335b1001" to="#end0335b1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0335b1101" to="#end0335b1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0339a1501" to="#end0339a1501"><lem wit="#wit1" resp="#resp2">終</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0346b1001" to="#end0346b1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0348a0701" to="#end0348a0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0348a1001" to="#end0348a1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0348a2601" to="#end0348a2601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0348b0201" to="#end0348b0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0348b2201" to="#end0348b2201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0348b2601" to="#end0348b2601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0348b2701" to="#end0348b2701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0349a0901" to="#end0349a0901"><lem wit="#wit1" resp="#resp2">陸</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0349a2501" to="#end0349a2501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0349b1901" to="#end0349b1901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0350a1101" to="#end0350a1101"><lem wit="#wit1" resp="#resp2">比丘</lem><rdg wit="#wit2">丘比</rdg></app>
+<app from="#beg0350b1601" to="#end0350b1601"><lem wit="#wit1" resp="#resp2">婆</lem><rdg wit="#wit2">娑</rdg></app>
+<app from="#beg0351b1001" to="#end0351b1001"><lem wit="#wit1" resp="#resp2">滅</lem><rdg wit="#wit2">破</rdg></app>
+<app from="#beg0351b2101" to="#end0351b2101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0352a0901" to="#end0352a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0352b0701" to="#end0352b0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0352b1101" to="#end0352b1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0353b1101" to="#end0353b1101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0354b2201" to="#end0354b2201"><lem wit="#wit1" resp="#resp2"><space quantity="0"/></lem><rdg wit="#wit2">經</rdg></app>
+<app from="#beg0356b0601" to="#end0356b0601"><lem wit="#wit1" resp="#resp2">三</lem><rdg wit="#wit2">二</rdg></app>
+<app from="#beg0357b2701" to="#end0357b2701"><lem wit="#wit1" resp="#resp2">羅門</lem><rdg wit="#wit2">門羅</rdg></app>
+<app from="#beg0357b2801" to="#end0357b2801"><lem wit="#wit1" resp="#resp2">羅門</lem><rdg wit="#wit2">門羅</rdg></app>
+<app from="#beg0358a0101" to="#end0358a0101"><lem wit="#wit1" resp="#resp2">羅門</lem><rdg wit="#wit2">門羅</rdg></app>
+<app from="#beg0358a0801" to="#end0358a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0359b1601" to="#end0359b1601"><lem wit="#wit1" resp="#resp2">愛</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0359b1701" to="#end0359b1701"><lem wit="#wit1" resp="#resp2">永</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
+<app from="#beg0361b2301" to="#end0361b2301"><lem wit="#wit1" resp="#resp2">賢</lem><rdg wit="#wit2">資</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0281a4201" resp="#resp1" type="add" target="#nkr_note_add_0281a4201">己【CB】，巳【補編】</note>
+<note n="0281b1301" resp="#resp1" type="add" target="#nkr_note_add_0281b1301">婆【CB】，摩【補編】</note>
+<note n="0281b2501" resp="#resp1" type="add" target="#nkr_note_add_0281b2501">婆【CB】，［－］【補編】</note>
+<note n="0282a0701" resp="#resp1" type="add" target="#nkr_note_add_0282a0701">愛【CB】，［－］【補編】</note>
+<note n="0282a0901" resp="#resp1" type="add" target="#nkr_note_add_0282a0901">［－］【CB】，經【補編】</note>
+<note n="0282a2101" resp="#resp1" type="add" target="#nkr_note_add_0282a2101">欲【CB】，［－］【補編】</note>
+<note n="0282b1701" resp="#resp1" type="add" target="#nkr_note_add_0282b1701">已【CB】，巳【補編】</note>
+<note n="0284a0901" resp="#resp1" type="add" target="#nkr_note_add_0284a0901">已【CB】，己【補編】</note>
+<note n="0285a1901" resp="#resp1" type="add" target="#nkr_note_add_0285a1901">品【CB】，［－］【補編】</note>
+<note n="0285b0501" resp="#resp1" type="add" target="#nkr_note_add_0285b0501">已【CB】，巳【補編】</note>
+<note n="0286a0501" resp="#resp1" type="add" target="#nkr_note_add_0286a0501">品【CB】，［－］【補編】</note>
+<note n="0287a1701" resp="#resp1" type="add" target="#nkr_note_add_0287a1701">己【CB】，巳【補編】</note>
+<note n="0287a1702" resp="#resp1" type="add" target="#nkr_note_add_0287a1702">己【CB】，巳【補編】</note>
+<note n="0288a1101" resp="#resp1" type="add" target="#nkr_note_add_0288a1101">已【CB】，己【補編】</note>
+<note n="0290a2001" resp="#resp1" type="add" target="#nkr_note_add_0290a2001">摶【CB】，搏【補編】</note>
+<note n="0290b2201" resp="#resp1" type="add" target="#nkr_note_add_0290b2201">已【CB】，己【補編】</note>
+<note n="0292a1501" resp="#resp1" type="add" target="#nkr_note_add_0292a1501">已【CB】，巳【補編】</note>
+<note n="0292a2201" resp="#resp1" type="add" target="#nkr_note_add_0292a2201">已【CB】，己【補編】</note>
+<note n="0293a1001" resp="#resp1" type="add" target="#nkr_note_add_0293a1001">已【CB】，巳【補編】</note>
+<note n="0293a2601" resp="#resp1" type="add" target="#nkr_note_add_0293a2601">已【CB】，巳【補編】</note>
+<note n="0293a2602" resp="#resp1" type="add" target="#nkr_note_add_0293a2602">已【CB】，巳【補編】</note>
+<note n="0293b0801" resp="#resp1" type="add" target="#nkr_note_add_0293b0801">已【CB】，巳【補編】</note>
+<note n="0293b2201" resp="#resp1" type="add" target="#nkr_note_add_0293b2201">已【CB】，己【補編】</note>
+<note n="0294a0801" resp="#resp1" type="add" target="#nkr_note_add_0294a0801">已【CB】，巳【補編】</note>
+<note n="0294b1901" resp="#resp1" type="add" target="#nkr_note_add_0294b1901">摶【CB】，搏【補編】</note>
+<note n="0295a2301" resp="#resp1" type="add" target="#nkr_note_add_0295a2301">泥【CB】，<unclear></unclear>【補編】</note>
+<note n="0295b0701" resp="#resp1" type="add" target="#nkr_note_add_0295b0701">樂【CB】，槃【補編】</note>
+<note n="0295b2801" resp="#resp1" type="add" target="#nkr_note_add_0295b2801">已【CB】，己【補編】</note>
+<note n="0296a0201" resp="#resp1" type="add" target="#nkr_note_add_0296a0201">已【CB】，己【補編】</note>
+<note n="0296a0401" resp="#resp1" type="add" target="#nkr_note_add_0296a0401">已【CB】，己【補編】</note>
+<note n="0296a0901" resp="#resp1" type="add" target="#nkr_note_add_0296a0901">已【CB】，己【補編】</note>
+<note n="0296a1101" resp="#resp1" type="add" target="#nkr_note_add_0296a1101">已【CB】，己【補編】</note>
+<note n="0296a1201" resp="#resp1" type="add" target="#nkr_note_add_0296a1201">已【CB】，己【補編】</note>
+<note n="0296a1901" resp="#resp1" type="add" target="#nkr_note_add_0296a1901">已【CB】，己【補編】</note>
+<note n="0296a2301" resp="#resp1" type="add" target="#nkr_note_add_0296a2301">已【CB】，己【補編】</note>
+<note n="0297a0101" resp="#resp1" type="add" target="#nkr_note_add_0297a0101">已【CB】，己【補編】</note>
+<note n="0297b0101" resp="#resp1" type="add" target="#nkr_note_add_0297b0101">已【CB】，己【補編】</note>
+<note n="0297b1401" resp="#resp1" type="add" target="#nkr_note_add_0297b1401">已【CB】，巳【補編】</note>
+<note n="0297b2701" resp="#resp1" type="add" target="#nkr_note_add_0297b2701">已【CB】，己【補編】</note>
+<note n="0298b1501" resp="#resp1" type="add" target="#nkr_note_add_0298b1501">第三【CB】，［－］【補編】</note>
+<note n="0298b2601" resp="#resp1" type="add" target="#nkr_note_add_0298b2601">已【CB】，己【補編】</note>
+<note n="0299a0901" resp="#resp1" type="add" target="#nkr_note_add_0299a0901">滅【CB】，減【補編】</note>
+<note n="0299a1001" resp="#resp1" type="add" target="#nkr_note_add_0299a1001">滅【CB】，減【補編】</note>
+<note n="0300a0401" resp="#resp1" type="add" target="#nkr_note_add_0300a0401">已【CB】，巳【補編】</note>
+<note n="0300a0501" resp="#resp1" type="add" target="#nkr_note_add_0300a0501">已【CB】，己【補編】</note>
+<note n="0301a1601" resp="#resp1" type="add" target="#nkr_note_add_0301a1601">已【CB】，巳【補編】</note>
+<note n="0301a1602" resp="#resp1" type="add" target="#nkr_note_add_0301a1602">已【CB】，巳【補編】</note>
+<note n="0301a2101" resp="#resp1" type="add" target="#nkr_note_add_0301a2101">已【CB】，巳【補編】</note>
+<note n="0301b1401" resp="#resp1" type="add" target="#nkr_note_add_0301b1401">已【CB】，巳【補編】</note>
+<note n="0301b1701" resp="#resp1" type="add" target="#nkr_note_add_0301b1701">婆【CB】，娑【補編】</note>
+<note n="0302a0501" resp="#resp1" type="add" target="#nkr_note_add_0302a0501">已【CB】，己【補編】</note>
+<note n="0302a0901" resp="#resp1" type="add" target="#nkr_note_add_0302a0901">已【CB】，己【補編】</note>
+<note n="0303a1401" resp="#resp1" type="add" target="#nkr_note_add_0303a1401">舍衛【CB】，衛舍【補編】</note>
+<note n="0305a0701" resp="#resp1" type="add" target="#nkr_note_add_0305a0701">婆【CB】，娑【補編】</note>
+<note n="0305a1601" resp="#resp1" type="add" target="#nkr_note_add_0305a1601">已【CB】，巳【補編】</note>
+<note n="0305a2301" resp="#resp1" type="add" target="#nkr_note_add_0305a2301"><g ref="#CB00145">㝹</g>【CB】，<g ref="#CB00144">󰂐</g>【補編】</note>
+<note n="0305b0101" resp="#resp1" type="add" target="#nkr_note_add_0305b0101">已【CB】，巳【補編】</note>
+<note n="0305b0601" resp="#resp1" type="add" target="#nkr_note_add_0305b0601">已【CB】，己【補編】</note>
+<note n="0306b2401" resp="#resp1" type="add" target="#nkr_note_add_0306b2401">已【CB】，巳【補編】</note>
+<note n="0307a0301" resp="#resp1" type="add" target="#nkr_note_add_0307a0301">已【CB】，巳【補編】</note>
+<note n="0307a0401" resp="#resp1" type="add" target="#nkr_note_add_0307a0401">已【CB】，巳【補編】</note>
+<note n="0307a0601" resp="#resp1" type="add" target="#nkr_note_add_0307a0601">已【CB】，巳【補編】</note>
+<note n="0307a0801" resp="#resp1" type="add" target="#nkr_note_add_0307a0801">已【CB】，巳【補編】</note>
+<note n="0307b2801" resp="#resp1" type="add" target="#nkr_note_add_0307b2801">已【CB】，巳【補編】</note>
+<note n="0308a0401" resp="#resp1" type="add" target="#nkr_note_add_0308a0401">刺【CB】，剌【補編】</note>
+<note n="0308b0201" resp="#resp1" type="add" target="#nkr_note_add_0308b0201">已【CB】，巳【補編】</note>
+<note n="0311b2301" resp="#resp1" type="add" target="#nkr_note_add_0311b2301">已【CB】，己【補編】</note>
+<note n="0312a0401" resp="#resp1" type="add" target="#nkr_note_add_0312a0401">已【CB】，巳【補編】</note>
+<note n="0312b0801" resp="#resp1" type="add" target="#nkr_note_add_0312b0801">已【CB】，巳【補編】</note>
+<note n="0313b2401" resp="#resp1" type="add" target="#nkr_note_add_0313b2401">已【CB】，巳【補編】</note>
+<note n="0313b2501" resp="#resp1" type="add" target="#nkr_note_add_0313b2501">已【CB】，巳【補編】</note>
+<note n="0313b2601" resp="#resp1" type="add" target="#nkr_note_add_0313b2601">已【CB】，己【補編】</note>
+<note n="0314a0201" resp="#resp1" type="add" target="#nkr_note_add_0314a0201">已【CB】，巳【補編】</note>
+<note n="0314a0701" resp="#resp1" type="add" target="#nkr_note_add_0314a0701">已【CB】，巳【補編】</note>
+<note n="0314a1801" resp="#resp1" type="add" target="#nkr_note_add_0314a1801">已【CB】，巳【補編】</note>
+<note n="0314a2001" resp="#resp1" type="add" target="#nkr_note_add_0314a2001">刺【CB】，剌【補編】</note>
+<note n="0314a2002" resp="#resp1" type="add" target="#nkr_note_add_0314a2002">刺【CB】，剌【補編】</note>
+<note n="0315a1101" resp="#resp1" type="add" target="#nkr_note_add_0315a1101">已【CB】，巳【補編】</note>
+<note n="0316a0401" resp="#resp1" type="add" target="#nkr_note_add_0316a0401">已【CB】，巳【補編】</note>
+<note n="0316a2001" resp="#resp1" type="add" target="#nkr_note_add_0316a2001">世【CB】，尊【補編】</note>
+<note n="0316a2002" resp="#resp1" type="add" target="#nkr_note_add_0316a2002">已【CB】，巳【補編】</note>
+<note n="0316b0701" resp="#resp1" type="add" target="#nkr_note_add_0316b0701">已【CB】，巳【補編】</note>
+<note n="0316b1701" resp="#resp1" type="add" target="#nkr_note_add_0316b1701">已【CB】，巳【補編】</note>
+<note n="0319a2201" resp="#resp1" type="add" target="#nkr_note_add_0319a2201">己【CB】，已【補編】</note>
+<note n="0322b0101" resp="#resp1" type="add" target="#nkr_note_add_0322b0101">刺【CB】，剌【補編】</note>
+<note n="0322b1001" resp="#resp1" type="add" target="#nkr_note_add_0322b1001">刺【CB】，剌【補編】</note>
+<note n="0325a1001" resp="#resp1" type="add" target="#nkr_note_add_0325a1001">已【CB】，巳【補編】</note>
+<note n="0325a1801" resp="#resp1" type="add" target="#nkr_note_add_0325a1801">已【CB】，巳【補編】</note>
+<note n="0325a2701" resp="#resp1" type="add" target="#nkr_note_add_0325a2701">已【CB】，巳【補編】</note>
+<note n="0331a0101" resp="#resp1" type="add" target="#nkr_note_add_0331a0101">衛【CB】，衝【補編】</note>
+<note n="0331a2601" resp="#resp1" type="add" target="#nkr_note_add_0331a2601">陀【CB】，阮【補編】</note>
+<note n="0334a1001" resp="#resp1" type="add" target="#nkr_note_add_0334a1001">已【CB】，己【補編】</note>
+<note n="0334a1401" resp="#resp1" type="add" target="#nkr_note_add_0334a1401">已【CB】，巳【補編】</note>
+<note n="0335b1001" resp="#resp1" type="add" target="#nkr_note_add_0335b1001">已【CB】，巳【補編】</note>
+<note n="0335b1101" resp="#resp1" type="add" target="#nkr_note_add_0335b1101">已【CB】，巳【補編】</note>
+<note n="0339a1501" resp="#resp1" type="add" target="#nkr_note_add_0339a1501">終【CB】，［－］【補編】</note>
+<note n="0346b1001" resp="#resp1" type="add" target="#nkr_note_add_0346b1001">已【CB】，巳【補編】</note>
+<note n="0348a0701" resp="#resp1" type="add" target="#nkr_note_add_0348a0701">已【CB】，巳【補編】</note>
+<note n="0348a1001" resp="#resp1" type="add" target="#nkr_note_add_0348a1001">已【CB】，巳【補編】</note>
+<note n="0348a2601" resp="#resp1" type="add" target="#nkr_note_add_0348a2601">已【CB】，巳【補編】</note>
+<note n="0348b0201" resp="#resp1" type="add" target="#nkr_note_add_0348b0201">已【CB】，巳【補編】</note>
+<note n="0348b2201" resp="#resp1" type="add" target="#nkr_note_add_0348b2201">已【CB】，巳【補編】</note>
+<note n="0348b2601" resp="#resp1" type="add" target="#nkr_note_add_0348b2601">已【CB】，巳【補編】</note>
+<note n="0348b2701" resp="#resp1" type="add" target="#nkr_note_add_0348b2701">已【CB】，巳【補編】</note>
+<note n="0349a0901" resp="#resp1" type="add" target="#nkr_note_add_0349a0901">陸【CB】，<unclear></unclear>【補編】</note>
+<note n="0349a2501" resp="#resp1" type="add" target="#nkr_note_add_0349a2501">已【CB】，巳【補編】</note>
+<note n="0349b1901" resp="#resp1" type="add" target="#nkr_note_add_0349b1901">已【CB】，巳【補編】</note>
+<note n="0350a1101" resp="#resp1" type="add" target="#nkr_note_add_0350a1101">比丘【CB】，丘比【補編】</note>
+<note n="0350b1601" resp="#resp1" type="add" target="#nkr_note_add_0350b1601">婆【CB】，娑【補編】</note>
+<note n="0351b1001" resp="#resp1" type="add" target="#nkr_note_add_0351b1001">滅【CB】，破【補編】</note>
+<note n="0351b2101" resp="#resp1" type="add" target="#nkr_note_add_0351b2101">已【CB】，巳【補編】</note>
+<note n="0352a0901" resp="#resp1" type="add" target="#nkr_note_add_0352a0901">已【CB】，巳【補編】</note>
+<note n="0352b0701" resp="#resp1" type="add" target="#nkr_note_add_0352b0701">已【CB】，巳【補編】</note>
+<note n="0352b1101" resp="#resp1" type="add" target="#nkr_note_add_0352b1101">已【CB】，巳【補編】</note>
+<note n="0353b1101" resp="#resp1" type="add" target="#nkr_note_add_0353b1101">已【CB】，巳【補編】</note>
+<note n="0354b2201" resp="#resp1" type="add" target="#nkr_note_add_0354b2201">［－］【CB】，經【補編】</note>
+<note n="0356b0601" resp="#resp1" type="add" target="#nkr_note_add_0356b0601">三【CB】，二【補編】</note>
+<note n="0357b2701" resp="#resp1" type="add" target="#nkr_note_add_0357b2701">羅門【CB】，門羅【補編】</note>
+<note n="0357b2801" resp="#resp1" type="add" target="#nkr_note_add_0357b2801">羅門【CB】，門羅【補編】</note>
+<note n="0358a0101" resp="#resp1" type="add" target="#nkr_note_add_0358a0101">羅門【CB】，門羅【補編】</note>
+<note n="0358a0801" resp="#resp1" type="add" target="#nkr_note_add_0358a0801">已【CB】，巳【補編】</note>
+<note n="0359b1601" resp="#resp1" type="add" target="#nkr_note_add_0359b1601">愛【CB】，<unclear></unclear>【補編】</note>
+<note n="0359b1701" resp="#resp1" type="add" target="#nkr_note_add_0359b1701">永【CB】，<unclear></unclear>【補編】</note>
+<note n="0361b2301" resp="#resp1" type="add" target="#nkr_note_add_0361b2301">賢【CB】，資【補編】</note>
 </p>
 </cb:div>
 </back></text></TEI>

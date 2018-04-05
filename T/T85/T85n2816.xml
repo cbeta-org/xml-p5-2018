@@ -14,8 +14,9 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:15:19 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,6 +33,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2816</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -144,7 +149,7 @@ Added comment  for Emacs
 <lb n="1178b01" ed="T"/>稱普聞。具諸德者之所造也。</p>
 <lb n="1178b02" ed="T"/><p xml:id="pT85p1178b0201">二言明造論之因者。謂龍猛大師為欲斷除
 <lb n="1178b03" ed="T"/>五德弟子諸疑網故摧滅外道斷常等。見諸
-<lb n="1178b04" ed="T"/>僻執故欲令未來<anchor xml:id="beg_1" type="cb-app"/>鈍<anchor xml:id="end_1"/>根異生利根有情善解緣
+<lb n="1178b04" ed="T"/>僻執故欲令未來<anchor xml:id="nkr_note_add_1178b0401" n="1178b0401"/><anchor xml:id="beg1178b0401" n="1178b0401"/>鈍<anchor xml:id="end1178b0401"/>根異生利根有情善解緣
 <lb n="1178b05" ed="T"/>起明了二諦。速趣無上菩提正因故造斯論
 <lb n="1178b06" ed="T"/>　夫欲修行無上菩提正因之者。先須善解緣
 <lb n="1178b07" ed="T"/>起緣性雜染淨品明了分別二諦之理。言二
@@ -564,7 +569,7 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2 resp3" cb:from="#beg_1" cb:to="#end_1"><corr>鈍</corr><sic>純</sic></choice>
+<app from="#beg1178b0401" to="#end1178b0401"><lem wit="#wit1" resp="#resp3 resp4">鈍</lem><rdg wit="#wit2">純</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -573,6 +578,12 @@ Added comment  for Emacs
 <note n="1178002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1178002">【原】大英博物館藏燉煌本, S. 269</note>
 <note n="1180001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1180001">互字經作手</note>
 <note n="1182001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1182001">已下斷缺</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1178b0401" resp="#resp2" type="add" target="#nkr_note_add_1178b0401">鈍【CB】，純【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

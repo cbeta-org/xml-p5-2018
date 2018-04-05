@@ -33,9 +33,9 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 20, No. 1103a</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
-		<witness xml:id="wit3">【大】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+		<witness xml:id="wit3">【麗-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -523,7 +523,7 @@ Added comment  for Emacs
 <lb n="0461b07" ed="T"/><p cb:type="dharani" xml:id="pT20p0461b0701">唵<note place="inline">一</note>薩婆那庾多<note place="inline">二</note>慕陀囉<note place="inline">二合</note>耶<note place="inline">三</note>盤陀盤陀
 <lb n="0461b08" ed="T"/><note place="inline">四</note>莎<note place="inline">去</note>訶<note place="inline">五</note></p>
 <lb n="0461b09" ed="T"/><p xml:id="pT20p0461b0901">此總攝印呪。能總攝一切印呪等。若受持此
-<lb n="0461b10" ed="T"/>呪者。盡一形不得食五辛酒肉葫荽芸<anchor xml:id="beg_1" type="cb-app"/>薹<anchor xml:id="end_1"/>。勿
+<lb n="0461b10" ed="T"/>呪者。盡一形不得食五辛酒肉葫荽芸<anchor xml:id="nkr_note_add_0461b1001" n="0461b1001"/><anchor xml:id="beg0461b1001" n="0461b1001"/>薹<anchor xml:id="end0461b1001"/>。勿
 <lb n="0461b11" ed="T"/>婬。清淨梵行常念觀世音菩薩名號。齋戒一
 <lb n="0461b12" ed="T"/>心者。誦此呪滿十萬遍已。滅八萬億劫生死
 <lb n="0461b13" ed="T"/>重罪。若滿二十萬遍。命終生無量壽國。面見
@@ -566,7 +566,7 @@ Added comment  for Emacs
 <lb n="0461c20" ed="T"/>增加色力。</p><p xml:id="pT20p0461c2005" rend="inline">又法日未出時及日沒後。以左
 <lb n="0461c21" ed="T"/>手撮取粳米細糠呪之。一遍一擲火中燒之。
 <lb n="0461c22" ed="T"/>一一稱其姓名。如是七夜為之。滿一千八遍。
-<lb n="0461c23" ed="T"/>隨心所念男女皆<anchor xml:id="beg_2" type="cb-app"/>歡<anchor xml:id="end_2"/>喜愛樂。</p><p xml:id="pT20p0461c2312" rend="inline">又法取白芥子
+<lb n="0461c23" ed="T"/>隨心所念男女皆<anchor xml:id="nkr_note_add_0461c2301" n="0461c2301"/><anchor xml:id="beg0461c2301" n="0461c2301"/>歡<anchor xml:id="end0461c2301"/>喜愛樂。</p><p xml:id="pT20p0461c2312" rend="inline">又法取白芥子
 <lb n="0461c24" ed="T"/>一枚。呪一遍一擲火中燒之。如是滿一千
 <lb n="0461c25" ed="T"/>八遍。則喝囉闍波弭歡喜敬信。諸餘妃主亦
 <lb n="0461c26" ed="T"/>同准此。一切所求善事皆吉。唯不得生染著
@@ -634,7 +634,7 @@ Added comment  for Emacs
 <lb n="0462b28" ed="T"/>冬根白昌蒲白芥子大麥等分。和一處置一
 <lb n="0462b29" ed="T"/>淨器中。日三時一一時間呪二十一遍。經七
 <pb n="0462c" xml:id="T20.1103a.0462c" ed="T"/>
-<lb n="0462c01" ed="T"/>七日已後。所有上人皆得隨順自<anchor xml:id="beg_3" type="cb-app"/>己<anchor xml:id="end_3"/>。</p>
+<lb n="0462c01" ed="T"/>七日已後。所有上人皆得隨順自<anchor xml:id="nkr_note_add_0462c0101" n="0462c0101"/><anchor xml:id="beg0462c0101" n="0462c0101"/>己<anchor xml:id="end0462c0101"/>。</p>
 <lb n="0462c02" ed="T"/><p xml:id="pT20p0462c0201">又法欲得穀米無盡者。取稻穀一撮白汁木
 <lb n="0462c03" ed="T"/>火中燒之。呪至一千八遍即得。</p><p xml:id="pT20p0462c0313" rend="inline">又法若為
 <lb n="0462c04" ed="T"/>他作功德。隨意一切皆須請一切諸佛為護。
@@ -697,15 +697,23 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>薹</corr><sic><g ref="#CB03951">󰽯</g></sic></choice>
-<app from="#beg_2" to="#end_2"><lem wit="#wit1 #wit2" resp="#resp3">歡<note type="cf1">K11n0317_p1261a21</note></lem><rdg wit="#wit3">歎</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>己</corr><sic>已</sic></choice>
+<app from="#beg0461b1001" to="#end0461b1001"><lem wit="#wit1" resp="#resp2">薹</lem><rdg wit="#wit2"><g ref="#CB03951">󰽯</g></rdg></app>
+<app from="#beg0461c2301" to="#end0461c2301"><lem wit="#wit1 #wit3" resp="#resp3">歡<note type="cf1">K11n0317_p1261a21</note></lem><rdg wit="#wit2">歎</rdg></app>
+<app from="#beg0462c0101" to="#end0462c0101"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0457038" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0457038">【原】麗本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0461b1001" resp="#resp2" type="add" target="#nkr_note_add_0461b1001">薹【CB】，<g ref="#CB03951">󰽯</g>【大】</note>
+<note n="0461c2301" resp="#resp2" type="add" target="#nkr_note_add_0461c2301">歡【CB】【麗-CB】，歎【大】</note>
+<note n="0462c0101" resp="#resp2" type="add" target="#nkr_note_add_0462c0101">己【CB】，已【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.5 $<date>$Date: 2010/03/17 08:57:30 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>ZangWai</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 5, No. 50</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -177,7 +182,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="ZW" n="0401a10"/><p xml:id="pZW05p0401a1001" rend="margin-left:0em;text-indent:2em">當然，應該指出，當時大藏經的主流形態是基本不收中華佛
 <lb ed="ZW" n="0401a11"/>教撰著，所以智果所編纂的這部內道場藏經屬於非主流形態。
 <lb ed="ZW" n="0401a12"/>雖然這是一部皇家官藏，但當時的皇家官藏對各地藏經缺乏權
-<lb ed="ZW" n="0401a13"/>威性與規<anchor xml:id="beg_1" type="cb-app"/>範<anchor xml:id="end_1"/>力，各地藏經的形態由各地造藏僧人自行決定，百花
+<lb ed="ZW" n="0401a13"/>威性與規<anchor xml:id="nkr_note_add_0401a1301" n="0401a1301"/><anchor xml:id="beg0401a1301" n="0401a1301"/>範<anchor xml:id="end0401a1301"/>力，各地藏經的形態由各地造藏僧人自行決定，百花
 <lb ed="ZW" n="0401a14"/>齊放。再說，隋祚短促，如同煬帝特意到揚州觀賞的曇花。因
 <lb ed="ZW" n="0401a15"/>此，雖說天台教典在隋代曾經被收入東都內道場的大藏經中，但
 <lb ed="ZW" n="0401a16"/>從全局看，此事並不足以改變它在宋以前基本上一直被排斥在
@@ -414,7 +419,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="ZW" n="0410a15"/>全部重新作了整理。第二部分則大體按照譯出的年代先後排
 <lb ed="ZW" n="0410a16"/>序。</p>
 <lb ed="ZW" n="0410a17"/><p xml:id="pZW05p0410a1701" rend="margin-left:0em;text-indent:2em">也就是說，《開寶藏》的續藏部分本來是一個大雜燴，沒有什
-<lb ed="ZW" n="0410a18"/>麼結構體例可言。但在《天聖釋教錄》中，惟淨對《<anchor xml:id="beg_2" type="cb-app"/>開<anchor xml:id="end_2"/>寶藏》的結
+<lb ed="ZW" n="0410a18"/>麼結構體例可言。但在《天聖釋教錄》中，惟淨對《<anchor xml:id="nkr_note_add_0410a1801" n="0410a1801"/><anchor xml:id="beg0410a1801" n="0410a1801"/>開<anchor xml:id="end0410a1801"/>寶藏》的結
 <lb ed="ZW" n="0410a19"/>構作了大規模的調整。以使各種典籍的編排更加符合其年代的
 <lb ed="ZW" n="0410a20"/>先後順序與內容的思想傾向。經過惟淨這樣一整理，《開寶藏》
 <lb ed="ZW" n="0410a21"/>的結構的確要合理得多。由此看來，惟淨編纂《天聖釋教錄》，是
@@ -484,8 +489,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>範</corr><sic>范</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>開</corr><sic>關</sic></choice>
+<app from="#beg0401a1301" to="#end0401a1301"><lem wit="#wit1" resp="#resp3">範</lem><rdg wit="#wit2">范</rdg></app>
+<app from="#beg0410a1801" to="#end0410a1801"><lem wit="#wit1" resp="#resp3">開</lem><rdg wit="#wit2">關</rdg></app>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
@@ -519,6 +524,13 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <note n="0410001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0410001">限於篇幅，本文祇對該三部分典籍作一個粗略地、鳥瞰地的敘述。一些更為細緻的情況在此祇能先予忽略。</note>
 <note n="0412001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0412001">前7帙為宋仁宗令入藏部分，後14帙是其後增加部分。</note>
 <note n="0412002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0412002">從內容看，祇相當於《趙城金藏》從「岫」到「農」的7帙。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0401a1301" resp="#resp2" type="add" target="#nkr_note_add_0401a1301">範【CB】，范【藏外】</note>
+<note n="0410a1801" resp="#resp2" type="add" target="#nkr_note_add_0410a1801">開【CB】，關【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

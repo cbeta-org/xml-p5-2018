@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2012/02/20 02:26:27 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 20, No. 1198</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -116,7 +121,7 @@ Added comment  for Emacs
 <lb n="0940a01" ed="T"/>
 <milestone n="1" unit="juan"/>
 <lb n="0940a02" ed="T"/><cb:docNumber>No. 1198</cb:docNumber>
-<lb n="0940a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><anchor xml:id="nkr_note_orig_0940001" n="0940001"/><cb:jhead>聖者文殊<anchor xml:id="beg_1" type="cb-app"/>師<anchor xml:id="end_1"/>利發菩提心願文</cb:jhead></cb:juan>
+<lb n="0940a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><anchor xml:id="nkr_note_orig_0940001" n="0940001"/><cb:jhead>聖者文殊<anchor xml:id="nkr_note_add_0940a0301" n="0940a0301"/><anchor xml:id="beg0940a0301" n="0940a0301"/>師<anchor xml:id="end0940a0301"/>利發菩提心願文</cb:jhead></cb:juan>
 <lb n="0940a04" ed="T"/>
 <lb n="0940a05" ed="T"/><byline cb:type="author">巴看落目瓦傳</byline>
 <lb n="0940a06" ed="T"/><byline cb:type="Translator">元甘泉馬蹄山中川守分真師
@@ -140,13 +145,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>師</corr><sic><space quantity="0"/></sic></choice>
+<app from="#beg0940a0301" to="#end0940a0301"><lem wit="#wit1" resp="#resp3">師</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0940001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0940001">【原】明本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0940a0301" resp="#resp2" type="add" target="#nkr_note_add_0940a0301">師【CB】，［－］【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

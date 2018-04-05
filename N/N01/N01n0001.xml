@@ -14,7 +14,8 @@
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>NanChuan</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>4卷</extent>
 		<publicationStmt>
@@ -31,7 +32,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Chinese Translation of the Pāḷi Tipiṭaka (Yuan Heng Temple Edition) Vol. 1, No. 1</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【南傳】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -2444,7 +2449,7 @@ $Log:$
 <lb ed="N" n="0158a08"/>健康、為戲樂而行泄者僧殘。</p>
 <lb ed="N" n="0158a09"/><p xml:id="pN01p0158a0901" rend="margin-left:22em">———一根分斷章終———</p></cb:div>
 <lb ed="N" n="0158a10"/><cb:div type="other"><cb:mulu type="其他" level="6">（五）</cb:mulu><head>（五）</head><p xml:id="pN01p0158a1002" rend="margin-left:0em;text-indent:2em;inline">思為受樂、為藥……僧殘。思為受樂、為施與……思為受樂、為戲樂……
-<lb ed="N" n="0158a11"/>僧殘。<anchor xml:id="beg_1" type="cb-app"/>思<anchor xml:id="end_1"/>為受樂、為健康……僧殘。為藥、為施與……思為戲樂、為自試……僧殘。</p>
+<lb ed="N" n="0158a11"/>僧殘。<anchor xml:id="nkr_note_add_0158a1101" n="0158a1101"/><anchor xml:id="beg0158a1101" n="0158a1101"/>思<anchor xml:id="end0158a1101"/>為受樂、為健康……僧殘。為藥、為施與……思為戲樂、為自試……僧殘。</p>
 <lb ed="N" n="0158a12"/><p xml:id="pN01p0158a1201" rend="margin-left:22em">———一根結合章終———</p>
 <lb ed="N" n="0158a13"/><p xml:id="pN01p0158a1301" rend="margin-left:0em;text-indent:2em">二根等亦如是進行。</p>
 <lb ed="N" n="0158a14"/><p xml:id="pN01p0158a1401" rend="margin-left:0em;text-indent:2em">思為健康、為樂、為藥……為戲樂而行泄者僧殘。</p>
@@ -5780,7 +5785,7 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>思</corr><sic>恩</sic></choice>
+<app from="#beg0158a1101" to="#end0158a1101"><lem wit="#wit1" resp="#resp3">思</lem><rdg wit="#wit2">恩</rdg></app>
 </p>
 </cb:div>
 <cb:div type="nanchuan-notes">
@@ -5909,6 +5914,12 @@ $Log:$
 <note n="0372007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0372007">雨安居竟，底本之原語為 vutthavassā，日譯為「入雨安居」，從原語之意義，以及其下文，有迦提賊來襲事件而判斷，應為「雨安居竟」。</note>
 <note n="0372008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0372008">迦提賊（kattikacoraka），迦提月即比丘雨安居竟之後，是雨期後之月所起之賊，因此時比丘多得布施物，故易被襲。《五分律》言八月賊，謂殺人以祠天。</note>
 <note n="0373009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0373009">後迦提月之滿月（kattikacātumāsini），雨期四月之最後之滿月，即後迦提月之滿月（八月十五日）也。參照註[06]。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0158a1101" resp="#resp2" type="add" target="#nkr_note_add_0158a1101">思【CB】，恩【南傳】</note>
 </p>
 </cb:div>
 </back></text></TEI>

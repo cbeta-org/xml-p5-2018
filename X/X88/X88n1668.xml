@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.4 $<date>$Date: 2009/04/22 09:07:53 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 88, No. 1668</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -107,7 +112,7 @@ no message
 <lb ed="X" n="0567c17"/><lb ed="R150" n="0541b17"/>冠為黃色。不屑同於紅教之人。宗喀巴臨終。遺囑二
 <lb ed="X" n="0567c18"/><lb ed="R150" n="0541b18"/>大弟子。世世以呼畢勒罕。應身轉世。不迷本性。能知
 <lb ed="X" n="0567c19"/><lb ed="R150" n="0542a01"/>夙世。還來為坐牀掌教之師。二大弟子者。一名達賴。
-<lb ed="X" n="0567c20"/><lb ed="R150" n="0542a02"/>一名班禪。至乾隆中<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>第六次轉生矣。</p>
+<lb ed="X" n="0567c20"/><lb ed="R150" n="0542a02"/>一名班禪。至乾隆中<anchor xml:id="nkr_note_add_0567c2001" n="0567c2001"/><anchor xml:id="beg0567c2001" n="0567c2001"/>已<anchor xml:id="end0567c2001"/>第六次轉生矣。</p>
 <lb ed="X" n="0567c21"/><lb ed="R150" n="0542a03"/><p xml:id="pX88p0567c2101">又有第一世達賴之大弟子。名哲卜尊丹巴者。一支
 <lb ed="X" n="0567c22"/><lb ed="R150" n="0542a04"/>住持蒙古庫倫。亦能仿達賴班禪。以呼畢勒罕。不迷
 <lb ed="X" n="0567c23"/><lb ed="R150" n="0542a05"/>本性。世世轉生者。</p>
@@ -147,7 +152,13 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0567c2001" to="#end0567c2001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0567c2001" resp="#resp1" type="add" target="#nkr_note_add_0567c2001">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

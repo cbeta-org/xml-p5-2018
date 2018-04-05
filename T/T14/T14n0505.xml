@@ -34,8 +34,8 @@
         <sourceDesc>
                 <bibl>Taishō Tripiṭaka Vol. 14, No. 505</bibl>
         <listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【麗-CB】</witness>
 		<witness xml:id="wit3">【大】</witness>
 	</listWit>
 	</sourceDesc>
@@ -221,7 +221,7 @@ Added comment  for Emacs
 <lb n="0773c12" ed="T"/><l>世尊正法毒不侵，</l><l>法真實力能破毒；</l>
 <lb n="0773c13" ed="T"/><l>所有貪瞋及癡法，</l><l>此三世間為大毒，</l>
 <lb n="0773c14" ed="T"/><l>世尊淨眾毒不侵，</l><l>僧真實力能破毒，</l>
-<lb n="0773c15" ed="T"/><l>世間所有諸毒中，</l><l>而<anchor xml:id="beg_1" type="cb-app"/>彼貪<anchor xml:id="end_1"/>毒最為上，</l>
+<lb n="0773c15" ed="T"/><l>世間所有諸毒中，</l><l>而<anchor xml:id="nkr_note_add_0773c1501" n="0773c1501"/><anchor xml:id="beg0773c1501" n="0773c1501"/>彼貪<anchor xml:id="end0773c1501"/>毒最為上，</l>
 <lb n="0773c16" ed="T"/><l>唯佛能破能攝持，</l><l>由斯諸毒皆息滅。」</l></lg>
 <lb n="0773c17" ed="T"/><p xml:id="pT14p0773c1701">爾時，世尊說大明曰：</p>
 <lb n="0773c18" ed="T"/><p cb:type="dharani" xml:id="pT14p0773c1801">「怛<g ref="#CB00853">𭔞</g><note place="inline">切身</note>佗<note place="inline">一句</note>　唵<note place="inline">引</note>凍蜜里<note place="inline">引</note><note place="inline">二</note>　凍蜜里<note place="inline">引</note><note place="inline">三</note>　凍彌<note place="inline">引</note><note place="inline">四</note>
@@ -245,19 +245,25 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg_1" to="#end_1"><lem resp="#resp3 resp4" wit="#wit1 #wit2">彼貪<note type="cf1">K40n1472_p0844c20</note></lem><rdg wit="#wit3">貪彼</rdg></app>
+<app from="#beg0773c1501" to="#end0773c1501"><lem resp="#resp3 resp4" wit="#wit1 #wit2">彼貪<note type="cf1">K40n1472_p0844c20</note></lem><rdg wit="#wit3">貪彼</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0773001" resp="#resp2" type="mod" target="#nkr_note_mod_0773001">【宋】【元】【明】不<choice cb:resp="#resp3"><corr>載</corr><sic>戴</sic></choice>此經</note>
+<note n="0773001" resp="#resp2" type="mod" target="#nkr_note_mod_0773001"><!--CBETA todo type: newmod-->【宋】【元】【明】不載此經</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0773001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0773001">【三】不戴此經</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0773c1501" resp="#resp2" type="add" target="#nkr_note_add_0773c1501">彼貪【CB】【麗-CB】，貪彼【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

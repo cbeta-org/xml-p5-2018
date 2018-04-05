@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:15:17 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2789</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -388,7 +393,7 @@ Added comment  for Emacs
 <lb n="0647c02" ed="T"/>明舉過呵嘖。就第一修不淨觀中有三子句。
 <lb n="0647c03" ed="T"/>第一從諸比丘作是念以下訖歎死勸死講死
 <lb n="0647c04" ed="T"/>已來。明順教修行便生厭患身命。第二從時
-<lb n="0647c05" ed="T"/>有比丘字未力伽難提以下訖<anchor xml:id="beg_1" type="cb-app"/>狀<anchor xml:id="end_1"/>若塚間已
+<lb n="0647c05" ed="T"/>有比丘字未力伽難提以下訖<anchor xml:id="nkr_note_add_0647c0501" n="0647c0501"/><anchor xml:id="beg0647c0501" n="0647c0501"/>狀<anchor xml:id="end0647c0501"/>若塚間已
 <lb n="0647c06" ed="T"/>來。正明起過。第三從有諸居士以下訖不復
 <lb n="0647c07" ed="T"/>往返已來。明俗人譏嫌。因不淨觀六十人捨
 <lb n="0647c08" ed="T"/>身者。欲明此人過去時有其誓願。要因此觀
@@ -875,7 +880,7 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>狀<note type="cf1">T22n1428_p0576a15</note><note type="cf2">X40n0720_p0505c02</note></corr><sic>扙</sic></choice>
+<app from="#beg0647c0501" to="#end0647c0501"><lem wit="#wit1" resp="#resp3">狀<note type="cf1">T22n1428_p0576a15</note><note type="cf2">X40n0720_p0505c02</note></lem><rdg wit="#wit2">扙</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -884,6 +889,12 @@ Added comment  for Emacs
 <note n="0644002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0644002">【原】大英博物館藏燉煌本, S. 2664, 首題新加</note>
 <note n="0644003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0644003">首缺</note>
 <note n="0645001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0645001">原本押紙曰　□推功有在表<unclear></unclear>可信足故此文名生信序□□又初三偈正明可信十句義以下合明持戒□□半是流通文初生信序有五句初半偈□□□□佛欲使息於諍論□□□□</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0647c0501" resp="#resp2" type="add" target="#nkr_note_add_0647c0501">狀【CB】，扙【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

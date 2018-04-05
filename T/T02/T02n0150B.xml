@@ -37,8 +37,8 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
-		<witness xml:id="wit5">【CBETA】</witness>
-		<witness xml:id="wit6">【麗】</witness>
+		<witness xml:id="wit5">【CB】</witness>
+		<witness xml:id="wit6">【麗-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -165,7 +165,7 @@ Added comment  for Emacs
 <lb n="0883b02" ed="T"/>舌、飲酒——亦有餘戒，以犯便入縣官，或絃死，或
 <lb ed="T" n="0883b03"/>捶杖、利刃所斫刺，或辜飢渴而終；或以得脫，
 <lb n="0883b04" ed="T"/>從怨家得手死，或驚怖念罪憂死。</p>
-<lb ed="T" n="0883b05"/><p xml:id="pT02p0883b0501">「七、為近惡知識者，名為惡知識已作惡，便<anchor xml:id="nkr_note_orig_0883008" n="0883008"/><anchor xml:id="beg0883008" n="0883008"/>反<anchor xml:id="end0883008"/>
+<lb ed="T" n="0883b05"/><p xml:id="pT02p0883b0501">「七、為近惡知識者，名為惡知識已作惡，便<anchor xml:id="nkr_note_orig_0883008" n="0883008"/><anchor xml:id="nkr_note_mod_0883008" n="0883008"/><anchor xml:id="beg0883008" n="0883008"/>反<anchor xml:id="end0883008"/>
 <lb ed="T" n="0883b06"/>坐。何以故坐？不離惡知識故，不覺善惡，不計
 <lb n="0883b07" ed="T"/>惡知識惡<anchor xml:id="nkr_note_orig_0883009" n="0883009"/><anchor xml:id="nkr_note_mod_0883009" n="0883009"/><anchor xml:id="beg0883009" n="0883009"/>態<anchor xml:id="end0883009"/>，不思惡知識惡。</p>
 <lb n="0883b08" ed="T"/><p xml:id="pT02p0883b0801">「八、為入里不時者，名為冥行，亦里有諍時行，
@@ -177,7 +177,7 @@ Added comment  for Emacs
 <lb ed="T" n="0883b14"/><anchor xml:id="nkr_note_orig_0883011" n="0883011"/><anchor xml:id="nkr_note_mod_0883011" n="0883011"/><anchor xml:id="beg0883011" n="0883011"/>犇<anchor xml:id="end0883011"/>、車、蛇虺、坑井、水火、拔刀醉人、惡人，亦餘若
 <lb ed="T" n="0883b15"/>干惡。如是為九因緣輩人命未盡當坐是盡，
 <lb ed="T" n="0883b16"/>慧人當識當避是因緣，以避乃得兩福：一者、
-<lb n="0883b17" ed="T"/>得長壽，二<anchor xml:id="beg_2" type="cb-app"/><anchor xml:id="end_2"/>、以長壽乃得聞道，好語言亦能
+<lb n="0883b17" ed="T"/>得長壽，二<anchor xml:id="nkr_note_add_0883b1701" n="0883b1701"/><anchor xml:id="beg0883b1701" n="0883b1701"/><anchor xml:id="end0883b1701"/>、以長壽乃得聞道，好語言亦能
 <lb ed="T" n="0883b18"/>行。」</p><p xml:id="pT02p0883b1802" rend="inline">諸比丘歡喜受<anchor xml:id="nkr_note_orig_0883012" n="0883012"/><anchor xml:id="nkr_note_mod_0883012" n="0883012"/><anchor xml:id="beg0883012" n="0883012"/>行<anchor xml:id="end0883012"/>。</p>
 <lb n="0883b19" ed="T"/><cb:juan fun="close" n="001"><cb:jhead>佛說九橫經</cb:jhead></cb:juan></cb:div>
 </body>
@@ -195,22 +195,23 @@ Added comment  for Emacs
 <app from="#beg0883010" to="#end0883010"><lem wit="#wit1">弊</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">憋</rdg></app>
 <app from="#beg_1" to="#end_1" corresp="#0883010"><lem wit="#wit1">弊</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">憋</rdg></app>
 <app from="#beg0883011" to="#end0883011"><lem wit="#wit1">犇</lem><rdg wit="#wit2 #wit3 #wit4" resp="#resp1">奔</rdg></app>
-<app from="#beg_2" to="#end_2"><lem resp="#resp3" wit="#wit5 #wit6"><note type="cf1">K20n0882_p1256c21</note></lem><rdg wit="#wit1">者</rdg></app>
+<app from="#beg0883b1701" to="#end0883b1701"><lem resp="#resp3" wit="#wit5 #wit6"><note type="cf1">K20n0882_p1256c21</note></lem><rdg wit="#wit1">者</rdg></app>
 <app from="#beg0883012" to="#end0883012"><lem wit="#wit1">行</lem><rdg wit="#wit2 #wit3 #wit4" resp="#resp1"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0883003" resp="#resp2" type="mod" target="#nkr_note_mod_0883003">安息國三藏＝沙門【宋】【元】【明】</note>
-<note resp="#resp2" n="0883004" type="mod" target="#nkr_note_mod_0883004">腹＝腸【宋】【元】【明】</note>
-<note resp="#resp2" n="0883005" type="mod" target="#nkr_note_mod_0883005">過足＋（飯）【宋】【元】【明】</note>
-<note type="mod" resp="#resp2" n="0883006" target="#nkr_note_mod_0883006">三＋（者）【宋】【元】【明】</note>
-<note n="0883007" resp="#resp2" type="mod" target="#nkr_note_mod_0883007">消＝稍【宋】【元】【明】</note>
-<note resp="#resp2" n="0883009" type="mod" target="#nkr_note_mod_0883009">態＝能【宋】【元】【明】</note>
-<note resp="#resp2" n="0883010" type="mod" target="#nkr_note_mod_0883010">弊＝憋【宋】＊【元】＊【明】＊</note>
-<note type="mod" resp="#resp2" n="0883011" target="#nkr_note_mod_0883011">犇＝奔【宋】【元】【明】</note>
-<note type="mod" resp="#resp2" n="0883012" target="#nkr_note_mod_0883012">〔行〕－【宋】【元】【明】</note>
+<note n="0883003" resp="#resp2" type="mod" target="#nkr_note_mod_0883003">安息國三藏【大】，沙門【宋】【元】【明】</note>
+<note resp="#resp2" n="0883004" type="mod" target="#nkr_note_mod_0883004">腹【大】，腸【宋】【元】【明】</note>
+<note resp="#resp2" n="0883005" type="mod" target="#nkr_note_mod_0883005">過足【大】，過足飯【宋】【元】【明】</note>
+<note type="mod" resp="#resp2" n="0883006" target="#nkr_note_mod_0883006">三【大】，三者【宋】【元】【明】</note>
+<note n="0883007" resp="#resp2" type="mod" target="#nkr_note_mod_0883007">消【大】，稍【宋】【元】【明】</note>
+<note resp="#resp2" n="0883008" type="mod" target="#nkr_note_mod_0883008">反【大】，及【元】【明】</note>
+<note resp="#resp2" n="0883009" type="mod" target="#nkr_note_mod_0883009">態【大】，能【宋】【元】【明】</note>
+<note resp="#resp2" n="0883010" type="mod" target="#nkr_note_mod_0883010">弊【大】＊，憋【宋】＊【元】＊【明】＊</note>
+<note type="mod" resp="#resp2" n="0883011" target="#nkr_note_mod_0883011">犇【大】，奔【宋】【元】【明】</note>
+<note type="mod" resp="#resp2" n="0883012" target="#nkr_note_mod_0883012">行【大】，〔－〕【宋】【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -226,6 +227,12 @@ Added comment  for Emacs
 <note type="orig" n="0883010" resp="#resp1" place="foot text" target="#nkr_note_orig_0883010">弊＝憋【三】＊</note>
 <note place="foot text" type="orig" n="0883011" resp="#resp1" target="#nkr_note_orig_0883011">犇＝奔【三】</note>
 <note place="foot text" n="0883012" resp="#resp1" type="orig" target="#nkr_note_orig_0883012">〔行〕－【三】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0883b1701" resp="#resp2" type="add" target="#nkr_note_add_0883b1701">［－］【CB】【麗-CB】，者【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

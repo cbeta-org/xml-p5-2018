@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 08:48:36 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 2, No. 182</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -142,7 +147,7 @@ no message
 <lb ed="X" n="0839a08"/><lb ed="R003" n="0735b05"/>通威德能於十方世界覆護一切眾生為除衰患厄
 <lb ed="X" n="0839a09"/><lb ed="R003" n="0735b06"/>難之事有四藥叉大將住在東面擁護東方所有眾
 <lb ed="X" n="0839a10"/><lb ed="R003" n="0735b07"/>生令離憂苦其名曰。</p>
-<lb ed="X" n="0839a11"/><lb ed="R003" n="0735b08"/><list><item xml:id="itemX02p0839a1101">地嘌伽<note place="inline">長大</note></item><item xml:id="itemX02p0839a1106">蘇<anchor xml:id="nkr_note_orig_0839001" n="0839001"/>泥怛羅<note place="inline">妙目</note></item><item xml:id="itemX02p0839a1112">晡<g ref="#CB02976">𠷈</g>拏<note place="inline">圓滿</note></item><item xml:id="itemX02p0839a1117">却畢羅<note place="inline">黃色</note></item></list><p xml:id="pX02p0839a1122" rend="inline">唱<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>說
+<lb ed="X" n="0839a11"/><lb ed="R003" n="0735b08"/><list><item xml:id="itemX02p0839a1101">地嘌伽<note place="inline">長大</note></item><item xml:id="itemX02p0839a1106">蘇<anchor xml:id="nkr_note_orig_0839001" n="0839001"/>泥怛羅<note place="inline">妙目</note></item><item xml:id="itemX02p0839a1112">晡<g ref="#CB02976">𠷈</g>拏<note place="inline">圓滿</note></item><item xml:id="itemX02p0839a1117">却畢羅<note place="inline">黃色</note></item></list><p xml:id="pX02p0839a1122" rend="inline">唱<anchor xml:id="nkr_note_add_0839a1101" n="0839a1101"/><anchor xml:id="beg0839a1101" n="0839a1101"/>已<anchor xml:id="end0839a1101"/>說
 <lb ed="X" n="0839a12"/><lb ed="R003" n="0735b09"/>所求事<note place="inline">下准此</note>。</p>
 <lb ed="X" n="0839a13"/><lb ed="R003" n="0735b10"/><p xml:id="pX02p0839a1301">阿難陀有四藥叉大將住在南面擁護南方所有眾
 <lb ed="X" n="0839a14"/><lb ed="R003" n="0735b11"/>生令離憂苦其名曰。</p>
@@ -165,27 +170,35 @@ no message
 <lb ed="X" n="0839b06"/><lb ed="R003" n="0736a09"/><list><item xml:id="itemX02p0839b0601">蘇利耶<note place="inline">日神</note></item><item xml:id="itemX02p0839b0606">蘇摩<note place="inline">月神</note></item><item xml:id="itemX02p0839b0610">惡祁尼<note place="inline">火神</note></item><item xml:id="itemX02p0839b0615">婆庾<note place="inline">風神</note></item></list>
 <lb ed="X" n="0839b07"/><lb ed="R003" n="0736a10"/><p xml:id="pX02p0839b0701">佛言此鎮護法如說唱其名號守護八方上下利安
 <lb ed="X" n="0839b08"/><lb ed="R003" n="0736a11"/>一切眾生其藥叉利生相無量無邊略說少分佛說
-<lb ed="X" n="0839b09"/><lb ed="R003" n="0736a12"/>此法<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>若召請之時名字之終加速來句不越本誓
+<lb ed="X" n="0839b09"/><lb ed="R003" n="0736a12"/>此法<anchor xml:id="nkr_note_add_0839b0901" n="0839b0901"/><anchor xml:id="beg0839b0901" n="0839b0901"/>已<anchor xml:id="end0839b0901"/>若召請之時名字之終加速來句不越本誓
 <lb ed="X" n="0839b10"/><lb ed="R003" n="0736a13"/>必垂來影印尋之。</p>
 <lb ed="X" n="0839b11"/>
 <lb ed="X" n="0839b12"/><lb ed="R003" n="0736a15"/><cb:juan fun="close" n="1"><cb:jhead>正了知王藥叉眷屬法</cb:jhead></cb:juan>
 <lb ed="X" n="0839b13"/>
-<lb ed="X" n="0839b14"/><lb ed="R003" n="0736a17"/><cb:div type="w"><p xml:id="pX02p0839b1401">孔<g ref="#CB15179">󳭋</g>明王經云蘇師奴藥叉住那羯羅國<note place="inline"><anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>上</note>
+<lb ed="X" n="0839b14"/><lb ed="R003" n="0736a17"/><cb:div type="w"><p xml:id="pX02p0839b1401">孔<g ref="#CB15179">󳭋</g>明王經云蘇師奴藥叉住那羯羅國<note place="inline"><anchor xml:id="nkr_note_add_0839b1401" n="0839b1401"/><anchor xml:id="beg0839b1401" n="0839b1401"/>已<anchor xml:id="end0839b1401"/>上</note>
 <lb ed="X" n="0839b15"/><lb ed="R003" n="0736a18"/>師曰蘇師奴此云正了知亦云妙了知<note place="inline">云云</note>。</p></cb:div></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0839a1101" to="#end0839a1101"><lem wit="#wit1" resp="#resp3">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0839b0901" to="#end0839b0901"><lem wit="#wit1" resp="#resp3">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0839b1401" to="#end0839b1401"><lem wit="#wit1" resp="#resp3">已</lem><rdg wit="#wit2">巳</rdg></app>
 </p>
 </cb:div>
 <cb:div type="xuzang-notes">
 <head>卍續藏 校註</head>
 <p>
 <note n="0839001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0839001">泥異作爾</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0839a1101" resp="#resp2" type="add" target="#nkr_note_add_0839a1101">已【CB】，巳【卍續】</note>
+<note n="0839b0901" resp="#resp2" type="add" target="#nkr_note_add_0839b0901">已【CB】，巳【卍續】</note>
+<note n="0839b1401" resp="#resp2" type="add" target="#nkr_note_add_0839b1401">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

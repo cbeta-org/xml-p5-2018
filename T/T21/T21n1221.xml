@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 21, No. 1221</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -540,7 +544,7 @@ Added comment  for Emacs
 <lb n="0100b11" ed="T"/>
 <lb n="0100b12" ed="T"/>
 <lb n="0100b13" ed="T"/>
-<lb n="0100b14" ed="T"/><anchor xml:id="nkr_1"/><figure><graphic url="../figures/T/T21p0100_01.gif"></graphic></figure></p>
+<lb n="0100b14" ed="T"/><anchor xml:id="nkr_note_add_0100b1401" n="0100b1401"/><figure><graphic url="../figures/T/T21p0100_01.gif"></graphic></figure></p>
 <lb n="0100b15" ed="T"/>
 <lb n="0100b16" ed="T"/>
 <lb n="0100b17" ed="T"/>
@@ -614,7 +618,7 @@ Added comment  for Emacs
 <lb n="0101a25" ed="T"/>藥叉執三股刃。此四大藥叉□足爪皆長利
 <lb n="0101a26" ed="T"/>如釰。首各將八萬□□□叉眷屬護持南閻
 <lb n="0101a27" ed="T"/>浮提一切眾生。□此曼荼羅已。日月蝕時。俄
-<lb n="0101a28" ed="T"/>作一小壇莊嚴此曼荼羅。隨力所堪<anchor xml:id="beg_2" type="cb-app"/>辦<anchor xml:id="end_2"/>備飲
+<lb n="0101a28" ed="T"/>作一小壇莊嚴此曼荼羅。隨力所堪<anchor xml:id="nkr_note_add_0101a2801" n="0101a2801"/><anchor xml:id="beg0101a2801" n="0101a2801"/>辦<anchor xml:id="end0101a2801"/>備飲
 <lb n="0101a29" ed="T"/>食□□□□□□□待日月復滿之時□□□
 <pb n="0101b" xml:id="T21.1221.0101b" ed="T"/>
 <lb n="0101b01" ed="T"/>□□□□食之者□□□□□若有行□□□
@@ -694,19 +698,20 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>辦</corr><sic>辨</sic></choice>
-</p>
-</cb:div>
-<cb:div type="cbeta-notes">
-<head>CBETA 校註</head>
-<p>
-<note resp="#resp2" target="#nkr_1">此圖在原書中跨越中、下兩欄。</note>
+<app from="#beg0101a2801" to="#end0101a2801"><lem wit="#wit1" resp="#resp2">辦</lem><rdg wit="#wit2">辨</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0099044" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0099044">【原】東寺寶菩提院三密藏藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0100b1401" resp="#resp2" type="add" target="#nkr_note_add_0100b1401">此圖在原書中跨越中、下兩欄。</note>
+<note n="0101a2801" resp="#resp2" type="add" target="#nkr_note_add_0101a2801">辦【CB】，辨【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

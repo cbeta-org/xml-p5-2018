@@ -15,7 +15,6 @@
                 <edition>$Revision: 1.9 $<date>$Date: 2012/08/27 03:14:52 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -176,7 +175,7 @@ Added comment  for Emacs
 <lb ed="T" n="0769a09"/>已見法知法，次法不受於法，已般涅槃，汝
 <lb ed="T" n="0769a10"/>等當往供養其身。」</p><p xml:id="pT14p0769a1008" rend="inline">爾時，世尊為阿支羅迦葉
 <lb ed="T" n="0769a11"/>受第一記。</p>
-<lb ed="T" n="0769a12"/><cb:juan n="001" fun="close"><cb:jhead><anchor xml:id="nkr_note_orig_0769001" n="0769001"/><anchor xml:id="beg0769001" n="0769001"/>佛說為阿支羅迦葉自化作苦經一卷<anchor xml:id="end0769001"/></cb:jhead></cb:juan></cb:div>
+<lb ed="T" n="0769a12"/><cb:juan n="001" fun="close"><cb:jhead><anchor xml:id="nkr_note_orig_0769001" n="0769001"/><anchor xml:id="nkr_note_mod_0769001" n="0769001"/><anchor xml:id="beg0769001" n="0769001"/>佛說為阿支羅迦葉自化作苦經一卷<anchor xml:id="end0769001"/></cb:jhead></cb:juan></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
@@ -188,7 +187,8 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0768001" resp="#resp2" type="mod" target="#nkr_note_mod_0768001">【麗】不<choice cb:resp="#resp3"><corr>載</corr><sic>戴</sic></choice>此經今依【宋】對校以【元】【明】</note>
+<note n="0768001" resp="#resp2" type="mod" target="#nkr_note_mod_0768001">【麗】不載此經今依【宋】對校以【元】【明】</note>
+<note n="0769001" type="mod" resp="#resp2" target="#nkr_note_mod_0769001">（佛說…卷）十五字【大】，〔－〕【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

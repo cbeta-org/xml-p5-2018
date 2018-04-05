@@ -35,7 +35,7 @@
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【明】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
+		<witness xml:id="wit3">【CB】</witness>
 		<witness xml:id="wit4">【宋】</witness>
 		<witness xml:id="wit5">【元】</witness>
 	</listWit>
@@ -122,8 +122,8 @@ Added comment  for Emacs
 <lb n="1104b13" ed="T"/><cb:docNumber>No. 1498</cb:docNumber>
 <lb n="1104b14" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title>佛說八種長養功德經</title></cb:jhead></cb:juan>
 <lb n="1104b15" ed="T"/>
-<lb n="1104b16" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_1104009" n="1104009"/><anchor xml:id="beg1104009" n="1104009"/>西<anchor xml:id="end1104009"/>天<anchor xml:id="nkr_note_orig_1104010" n="1104010"/><anchor xml:id="beg1104010" n="1104010"/>譯經<anchor xml:id="end1104010"/>三藏朝散大夫試鴻臚卿
-<lb n="1104b17" ed="T"/>傳梵大師<anchor xml:id="nkr_note_orig_1104011" n="1104011"/><anchor xml:id="beg1104011" n="1104011"/>賜紫沙門臣<anchor xml:id="end1104011"/>法護等奉詔譯</byline>
+<lb n="1104b16" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_1104009" n="1104009"/><anchor xml:id="nkr_note_mod_1104009" n="1104009"/><anchor xml:id="beg1104009" n="1104009"/>西<anchor xml:id="end1104009"/>天<anchor xml:id="nkr_note_orig_1104010" n="1104010"/><anchor xml:id="nkr_note_mod_1104010" n="1104010"/><anchor xml:id="beg1104010" n="1104010"/>譯經<anchor xml:id="end1104010"/>三藏朝散大夫試鴻臚卿
+<lb n="1104b17" ed="T"/>傳梵大師<anchor xml:id="nkr_note_orig_1104011" n="1104011"/><anchor xml:id="nkr_note_mod_1104011" n="1104011"/><anchor xml:id="beg1104011" n="1104011"/>賜紫沙門臣<anchor xml:id="end1104011"/>法護等奉詔譯</byline>
 <lb n="1104b18" ed="T"/><cb:div type="jing"><p xml:id="pT24p1104b1801">歸命一切佛！惟願一切佛、菩薩眾攝受於我！
 <lb n="1104b19" ed="T"/>即說伽陀頌曰：</p>
 <lb n="1104b20" ed="T"/><lg xml:id="lgT24p1104b2001" rend="margin-left:1em;text-indent:-1em"><l>「我今歸命勝菩提，</l><l>最上清淨佛法眾，</l>
@@ -166,7 +166,10 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="1104012" resp="#resp2" type="mod" target="#nkr_note_mod_1104012">汔＝訖【宋】【元】【明】【CB】</note>
+<note n="1104009" resp="#resp2" type="mod" target="#nkr_note_mod_1104009">西【大】，宋西【明】</note>
+<note n="1104010" resp="#resp2" type="mod" target="#nkr_note_mod_1104010">譯經【大】，〔－〕【明】</note>
+<note n="1104011" resp="#resp2" type="mod" target="#nkr_note_mod_1104011">賜紫沙門臣【大】，〔－〕【明】</note>
+<note n="1104012" resp="#resp2" type="mod" target="#nkr_note_mod_1104012">訖【CB】【宋】【元】【明】，汔【大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

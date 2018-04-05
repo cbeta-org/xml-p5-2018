@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2009/04/22 08:53:56 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 25, No. 473</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -163,7 +168,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0056b04"/><lb ed="R039" n="0110b07"/>眾而始有者。則世界當一合相住時。住本無住。合本
 <lb ed="X" n="0056b05"/><lb ed="R039" n="0110b08"/>無合。豈待碎世界而為微塵眾。然後一合相始破哉。</p>
 <lb ed="X" n="0056b06"/><lb ed="R039" n="0110b09"/><p xml:id="pX25p0056b0601">又須菩提以為我與如來。碎世界而為微塵。合微塵
-<lb ed="X" n="0056b07"/><lb ed="R039" n="0110b10"/>而為世界。合合碎碎重疊翻騰。上根與中根。固<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>皆
+<lb ed="X" n="0056b07"/><lb ed="R039" n="0110b10"/>而為世界。合合碎碎重疊翻騰。上根與中根。固<anchor xml:id="nkr_note_add_0056b0701" n="0056b0701"/><anchor xml:id="beg0056b0701" n="0056b0701"/>已<anchor xml:id="end0056b0701"/>皆
 <lb ed="X" n="0056b08"/><lb ed="R039" n="0110b11"/>悟世界本無。合微塵而有。微塵亦無。碎世界而有。至
 <lb ed="X" n="0056b09"/><lb ed="R039" n="0110b12"/>此。則一多之執情。不待觀空然後破也。奈下根之難
 <lb ed="X" n="0056b10"/><lb ed="R039" n="0110b13"/>悟。所以須菩提復拈三千大千世界即非世界。是名
@@ -192,7 +197,13 @@ basicx 程式 轉自 簡單標記版
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0056b0701" to="#end0056b0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0056b0701" resp="#resp1" type="add" target="#nkr_note_add_0056b0701">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

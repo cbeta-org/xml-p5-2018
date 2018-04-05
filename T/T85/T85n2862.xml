@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:15:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2862</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -159,10 +164,10 @@ Added comment  for Emacs
 <lb n="1322c26" ed="T"/>王願護國。王常於國內顯敞之。據香水灑地
 <lb n="1322c27" ed="T"/>置一道場。為我讀一字。師講誦金光明經我。
 <lb n="1322c28" ed="T"/>於是時無量百千天神。并護國王諸舊善神。
-<lb n="1322c29" ed="T"/>及我<anchor xml:id="beg_1" type="cb-app"/>眷屬<anchor xml:id="end_1"/>各自隱形為作護助。今彼怨敵自
+<lb n="1322c29" ed="T"/>及我<anchor xml:id="nkr_note_add_1322c2901" n="1322c2901"/><anchor xml:id="beg1322c2901" n="1322c2901"/>眷屬<anchor xml:id="end1322c2901"/>各自隱形為作護助。今彼怨敵自
 <pb n="1323a" xml:id="T85.2862.1323a" ed="T"/>
 <lb n="1323a01" ed="T"/>然降伏。憂愁疾疫亦令除差。所有軍兵悉皆
-<lb n="1323a02" ed="T"/>勇健。國內人民受請使樂。世尊告曰。是事<anchor xml:id="beg_2" type="cb-app"/>實<anchor xml:id="end_2"/>
+<lb n="1323a02" ed="T"/>勇健。國內人民受請使樂。世尊告曰。是事<anchor xml:id="nkr_note_add_1323a0201" n="1323a0201"/><anchor xml:id="beg1323a0201" n="1323a0201"/>實<anchor xml:id="end1323a0201"/>
 <lb n="1323a03" ed="T"/>不。時毘沙門天王答。世尊曰。若有人王佐如
 <lb n="1323a04" ed="T"/>是請召我時。如我不列彼處不護其王。願莫
 <lb n="1323a05" ed="T"/>見大國兄弟。願破作七分見。未來諸佛發是
@@ -178,14 +183,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>眷屬<note type="cf1">T16n0665_p0427c25</note><note type="cf2">T39n1788_p0289a12</note></corr><sic>春層</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>實<note type="cf1">T12n0352_p0213b15</note><note type="cf2">T23n1442_p0660a22</note></corr><sic>寶</sic></choice>
+<app from="#beg1322c2901" to="#end1322c2901"><lem wit="#wit1" resp="#resp3">眷屬<note type="cf1">T16n0665_p0427c25</note><note type="cf2">T39n1788_p0289a12</note></lem><rdg wit="#wit2">春層</rdg></app>
+<app from="#beg1323a0201" to="#end1323a0201"><lem wit="#wit1" resp="#resp3">實<note type="cf1">T12n0352_p0213b15</note><note type="cf2">T23n1442_p0660a22</note></lem><rdg wit="#wit2">寶</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1322001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1322001">【原】大英博物館藏燉煌本, S. 779, 首題新加</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1322c2901" resp="#resp2" type="add" target="#nkr_note_add_1322c2901">眷屬【CB】，春層【大】</note>
+<note n="1323a0201" resp="#resp2" type="add" target="#nkr_note_add_1323a0201">實【CB】，寶【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

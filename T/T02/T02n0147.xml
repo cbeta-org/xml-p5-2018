@@ -33,8 +33,8 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 2, No. 147</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【麗-CB】</witness>
 		<witness xml:id="wit3">【大】</witness>
 	</listWit>
 	</sourceDesc>
@@ -142,7 +142,7 @@ Added comment  for Emacs
 <lb n="0872a20" ed="T"/>
 <lb n="0872a21" ed="T"/><byline cb:type="Translator">附西晉錄</byline>
 <lb n="0872a22" ed="T"/><p xml:id="pT02p0872a2201">聞如是：</p><p xml:id="pT02p0872a2204" rend="inline">一時，佛在舍衛國精舍，時有國王名
-<lb n="0872a23" ed="T"/>波斯匿，夜夢十事：一者、三釜羅，<anchor xml:id="beg_1" type="cb-app"/>兩<anchor xml:id="end_1"/>邊釜沸氣
+<lb n="0872a23" ed="T"/>波斯匿，夜夢十事：一者、三釜羅，<anchor xml:id="nkr_note_add_0872a2301" n="0872a2301"/><anchor xml:id="beg0872a2301" n="0872a2301"/>兩<anchor xml:id="end0872a2301"/>邊釜沸氣
 <lb n="0872a24" ed="T"/>交往來，不入中央空釜中。二者、王夢見馬口
 <lb n="0872a25" ed="T"/>亦食，尻亦食。三者、見大樹生花。四者、見小樹
 <lb n="0872a26" ed="T"/>生菓。五者、見一人切繩，人後有羊，羊主食繩。
@@ -213,7 +213,7 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg_1" to="#end_1"><lem wit="#wit1 #wit2" resp="#resp3">兩<note type="cf1">K19n0735_p0667a05</note></lem><rdg wit="#wit3">雨</rdg></app>
+<app from="#beg0872a2301" to="#end0872a2301"><lem wit="#wit1 #wit2" resp="#resp3">兩<note type="cf1">K19n0735_p0667a05</note></lem><rdg wit="#wit3">雨</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
@@ -226,6 +226,12 @@ Added comment  for Emacs
 <head>大正 校註</head>
 <p>
 <note n="0872002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0872002">此經不載【三】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0872a2301" resp="#resp2" type="add" target="#nkr_note_add_0872a2301">兩【CB】【麗-CB】，雨【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

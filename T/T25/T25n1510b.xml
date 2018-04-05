@@ -14,7 +14,8 @@
         <editionStmt>
                 <edition>$Revision: 1.12 $<date>$Date: 2009/12/11 05:36:24 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>3卷</extent>
         <publicationStmt>
@@ -34,7 +35,8 @@
         <listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【宋】</witness>
-		<witness xml:id="wit3">【元】</witness>
+		<witness xml:id="wit3">【CB】</witness>
+		<witness xml:id="wit4">【元】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -146,18 +148,18 @@ Added comment  for Emacs
 <pb n="0766b" ed="T" xml:id="T25.1510b.0766b"/>
 <lb n="0766b01" ed="T"/>
 <milestone n="1" unit="juan"/>
-<lb n="0766b02" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><anchor type="circle"/><anchor xml:id="nkr_note_orig_0766001" n="0766001"/><cb:jhead><title>金剛般若波羅蜜經論</title>卷上<anchor xml:id="nkr_note_orig_0766002" n="0766002"/><anchor xml:id="beg0766002" n="0766002"/><note place="inline">亦名金剛
+<lb n="0766b02" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><anchor type="circle"/><anchor xml:id="nkr_note_orig_0766001" n="0766001"/><cb:jhead><title>金剛般若波羅蜜經論</title>卷上<anchor xml:id="nkr_note_orig_0766002" n="0766002"/><anchor xml:id="nkr_note_mod_0766002" n="0766002"/><anchor xml:id="beg0766002" n="0766002"/><note place="inline">亦名金剛
 <lb n="0766b03" ed="T"/>能斷般若</note><anchor xml:id="end0766002"/></cb:jhead></cb:juan>
 <lb n="0766b04" ed="T"/>
 <lb n="0766b05" ed="T"/><byline cb:type="author">無著菩薩造</byline>
-<lb n="0766b06" ed="T"/><byline cb:type="Translator">隋<anchor xml:id="nkr_note_orig_0766003" n="0766003"/><anchor xml:id="beg0766003" n="0766003"/>南<anchor xml:id="end0766003"/>天竺三藏法師<anchor xml:id="nkr_note_orig_0766004" n="0766004"/><anchor xml:id="beg0766004" n="0766004"/>達摩<anchor xml:id="end0766004"/>岌多譯</byline>
+<lb n="0766b06" ed="T"/><byline cb:type="Translator">隋<anchor xml:id="nkr_note_orig_0766003" n="0766003"/><anchor xml:id="nkr_note_mod_0766003" n="0766003"/><anchor xml:id="beg0766003" n="0766003"/>南<anchor xml:id="end0766003"/>天竺三藏法師<anchor xml:id="nkr_note_orig_0766004" n="0766004"/><anchor xml:id="nkr_note_mod_0766004" n="0766004"/><anchor xml:id="beg0766004" n="0766004"/>達摩<anchor xml:id="end0766004"/>岌多譯</byline>
 <lb n="0766b07" ed="T"/><cb:div type="jing"><lg xml:id="lgT25p0766b0701"><l>出生佛法無與等，</l><l>顯了法界最第一；</l>
 <lb n="0766b08" ed="T"/><l>金剛難壞句義聚，</l><l>一切聖人不能入。</l>
 <lb n="0766b09" ed="T"/><l>此小金剛波羅蜜，</l><l>以如是名顯勢力；</l>
 <lb n="0766b10" ed="T"/><l>智者所說教及義，</l><l>聞已轉為我等說。</l>
 <lb n="0766b11" ed="T"/><l>歸命彼類及此輩，</l><l>皆以正心而頂禮；</l>
 <lb n="0766b12" ed="T"/><l>我應精勤立彼義，</l><l>解釋相續為自他。</l></lg>
-<lb n="0766b13" ed="T"/><p xml:id="pT25p0766b1301">論曰：</p><p xml:id="pT25p0766b1303" rend="inline">成立<anchor xml:id="beg_1" type="cb-app"/>七<anchor xml:id="end_1"/>種義句已，此般若波羅蜜即
+<lb n="0766b13" ed="T"/><p xml:id="pT25p0766b1301">論曰：</p><p xml:id="pT25p0766b1303" rend="inline">成立<anchor xml:id="nkr_note_add_0766b1301" n="0766b1301"/><anchor xml:id="beg0766b1301" n="0766b1301"/>七<anchor xml:id="end0766b1301"/>種義句已，此般若波羅蜜即
 <lb n="0766b14" ed="T"/>得成立。七義句者，一種性不斷，二發起行
 <lb n="0766b15" ed="T"/>相，三行所住處，四對治，五不失，六地，七
 <lb n="0766b16" ed="T"/>立名。此等七義，於般若波羅蜜經中成立，
@@ -186,7 +188,7 @@ Added comment  for Emacs
 <lb n="0766c09" ed="T"/>是等。八、成熟眾生。經言「須菩提！譬如有人，
 <lb n="0766c10" ed="T"/>身如須彌山王」如是等。九、遠離隨順外論
 <lb n="0766c11" ed="T"/>散亂。經言「須菩提！於意云何？如恒河中所
-<lb n="0766c12" ed="T"/>有沙數」如是等。十、色及眾生身<anchor xml:id="nkr_note_orig_0766005" n="0766005"/><anchor xml:id="beg0766005" n="0766005"/>摶<anchor xml:id="end0766005"/>取中觀
+<lb n="0766c12" ed="T"/>有沙數」如是等。十、色及眾生身<anchor xml:id="nkr_note_orig_0766005" n="0766005"/><anchor xml:id="nkr_note_mod_0766005" n="0766005"/><anchor xml:id="beg0766005" n="0766005"/>摶<anchor xml:id="end0766005"/>取中觀
 <lb n="0766c13" ed="T"/>破相應行。經言「須菩提！於意云何？三千大
 <lb n="0766c14" ed="T"/>千世界所有微塵」如是等。十一、供養給侍
 <lb n="0766c15" ed="T"/>如來。經言「須菩提！於意云何？可以三十二
@@ -210,7 +212,7 @@ Added comment  for Emacs
 <lb n="0767a03" ed="T"/>八、甚深住處。於中，攝住處者，謂發心。波羅
 <lb n="0767a04" ed="T"/>蜜淨住處者，謂波羅蜜相應行。欲住處者，
 <lb n="0767a05" ed="T"/>謂欲得色身、法身。離障礙住處者，謂餘十
-<lb n="0767a06" ed="T"/>二種。淨心住處者，謂<anchor xml:id="beg_2" type="cb-app"/>證<anchor xml:id="end_2"/>道。究竟住處者，謂
+<lb n="0767a06" ed="T"/>二種。淨心住處者，謂<anchor xml:id="nkr_note_add_0767a0601" n="0767a0601"/><anchor xml:id="beg0767a0601" n="0767a0601"/>證<anchor xml:id="end0767a0601"/>道。究竟住處者，謂
 <lb n="0767a07" ed="T"/>上求佛地。廣大及甚深住處者，通一切住
 <lb n="0767a08" ed="T"/>處。於初住處中，若說「菩薩應生如是心：『所
 <lb n="0767a09" ed="T"/>有眾生』」如是等，此為廣大。又復說言「若菩
@@ -371,7 +373,7 @@ Added comment  for Emacs
 <lb n="0768c14" ed="T"/>故？若菩薩有眾生相，即非菩薩者。此何義？
 <lb n="0768c15" ed="T"/>若菩薩於眾生所他想轉，非自體想，不名
 <lb n="0768c16" ed="T"/>菩薩故。何以故？若菩薩起眾生想、人想、壽
-<lb n="0768c17" ed="T"/>者<anchor xml:id="nkr_note_orig_0768001" n="0768001"/><anchor xml:id="beg0768001" n="0768001"/>想<anchor xml:id="end0768001"/>，則不名菩薩者。此何義？若以煩惱，取
+<lb n="0768c17" ed="T"/>者<anchor xml:id="nkr_note_orig_0768001" n="0768001"/><anchor xml:id="nkr_note_mod_0768001" n="0768001"/><anchor xml:id="beg0768001" n="0768001"/>想<anchor xml:id="end0768001"/>，則不名菩薩者。此何義？若以煩惱，取
 <lb n="0768c18" ed="T"/>眾生、命、人想轉，彼則有我想，及於眾生中
 <lb n="0768c19" ed="T"/>有眾生想轉。菩薩於彼不轉已，斷我見故，
 <lb n="0768c20" ed="T"/>得自行<note place="inline">行者謂五陰行</note>平等相故，信解自他平等。彼
@@ -409,7 +411,7 @@ Added comment  for Emacs
 <lb n="0769a22" ed="T"/>波羅蜜，六攝一切檀那體性故。檀那有三
 <lb n="0769a23" ed="T"/>種：一資生施者，謂檀那波羅蜜；二無畏施
 <lb n="0769a24" ed="T"/>者，謂尸羅波羅蜜、羼提波羅蜜；三法施者，
-<lb n="0769a25" ed="T"/>謂毘梨耶波羅蜜、禪<anchor xml:id="beg_3" type="cb-app"/>那<anchor xml:id="end_3"/>波羅蜜、般若波羅蜜
+<lb n="0769a25" ed="T"/>謂毘梨耶波羅蜜、禪<anchor xml:id="nkr_note_add_0769a2501" n="0769a2501"/><anchor xml:id="beg0769a2501" n="0769a2501"/>那<anchor xml:id="end0769a2501"/>波羅蜜、般若波羅蜜
 <lb n="0769a26" ed="T"/>等。若無精進，於受法人所為說法時，疲倦
 <lb n="0769a27" ed="T"/>故不能說法。若無禪定，則貪於信敬供養，
 <lb n="0769a28" ed="T"/>及不能忍寒熱逼惱故，染心說法。若無智
@@ -450,7 +452,7 @@ Added comment  for Emacs
 <lb n="0769c03" ed="T"/>非相，則非妄語，如是諸相非相，則見如來。」</p>
 <lb n="0769c04" ed="T"/><p xml:id="pT25p0769c0401">論曰：</p><p xml:id="pT25p0769c0403" rend="inline">此下第三欲得色身住處。</p><p xml:id="pT25p0769c0413" rend="inline">經言「須菩
 <lb n="0769c05" ed="T"/>提！於意云何？可以相成就見如來不」者，此
-<lb n="0769c06" ed="T"/>為依義應<anchor xml:id="beg_4" type="cb-app"/>知<anchor xml:id="end_4"/>，顯示對治如來色身慢故。經
+<lb n="0769c06" ed="T"/>為依義應<anchor xml:id="nkr_note_add_0769c0601" n="0769c0601"/><anchor xml:id="beg0769c0601" n="0769c0601"/>知<anchor xml:id="end0769c0601"/>，顯示對治如來色身慢故。經
 <lb n="0769c07" ed="T"/>言「相成就」者，此為說相，顯示如來色身故。
 <lb n="0769c08" ed="T"/>上座須菩提言「不也」，為成滿此義故。世尊
 <lb n="0769c09" ed="T"/>說「須菩提！凡所有相，皆是妄語」，即顯欲願。
@@ -527,7 +529,7 @@ Added comment  for Emacs
 <lb n="0770b20" ed="T"/>生實想者，此為依義應知，顯示對治不實
 <lb n="0770b21" ed="T"/>想故。言於此修多羅章句說中者，此為說
 <lb n="0770b22" ed="T"/>相，顯示言說法身故，即彼當生實想。中言
-<lb n="0770b23" ed="T"/>當生者，是<anchor xml:id="beg_5" type="cb-app"/>欲<anchor xml:id="end_5"/>願攝持故。是諸菩薩無復我
+<lb n="0770b23" ed="T"/>當生者，是<anchor xml:id="nkr_note_add_0770b2301" n="0770b2301"/><anchor xml:id="beg0770b2301" n="0770b2301"/>欲<anchor xml:id="end0770b2301"/>願攝持故。是諸菩薩無復我
 <lb n="0770b24" ed="T"/>想轉等者，是安立第一義。「須菩提！不應取
 <lb n="0770b25" ed="T"/>法，非不取法」者，是顯了，謂相應三摩鉢帝
 <lb n="0770b26" ed="T"/>及散心時，不應取法者，於法體及法無我
@@ -575,7 +577,7 @@ Added comment  for Emacs
 <lb n="0771a08" ed="T"/>提言：「甚多，婆伽婆！甚多，修伽陀！彼善男子、
 <lb n="0771a09" ed="T"/>善女人，得福甚多。何以故？世尊！是福德聚，
 <lb n="0771a10" ed="T"/>即非福德聚，是故如來說福德聚。」</p><p xml:id="pT25p0771a1014" rend="inline">佛言：「須
-<lb n="0771a11" ed="T"/>菩提！<anchor xml:id="beg_6" type="cb-app"/>若<anchor xml:id="end_6"/>善男子、善女人，以滿三千大千世
+<lb n="0771a11" ed="T"/>菩提！<anchor xml:id="nkr_note_add_0771a1101" n="0771a1101"/><anchor xml:id="beg0771a1101" n="0771a1101"/>若<anchor xml:id="end0771a1101"/>善男子、善女人，以滿三千大千世
 <lb n="0771a12" ed="T"/>界七寶，持用布施。若復於此經中，受持乃
 <lb n="0771a13" ed="T"/>至四句偈等，為他人說，其福勝彼，無量不
 <lb n="0771a14" ed="T"/>可數。何以故？須菩提！一切諸佛阿耨多羅
@@ -640,7 +642,7 @@ Added comment  for Emacs
 <lb n="0771c12" ed="T"/>而少聞，三、多聞而小攀緣作念修道，四、不
 <lb n="0771c13" ed="T"/>小攀緣作念修道而捨眾生，五、不捨眾生
 <lb n="0771c14" ed="T"/>而樂隨外論散動，六、雖不散動而破影像
-<lb n="0771c15" ed="T"/>相中無巧便，<anchor xml:id="nkr_note_orig_0771001" n="0771001"/><anchor xml:id="beg0771001" n="0771001"/>七<anchor xml:id="end0771001"/>、雖有巧便而福資糧不具，
+<lb n="0771c15" ed="T"/>相中無巧便，<anchor xml:id="nkr_note_orig_0771001" n="0771001"/><anchor xml:id="nkr_note_mod_0771001" n="0771001"/><anchor xml:id="beg0771001" n="0771001"/>七<anchor xml:id="end0771001"/>、雖有巧便而福資糧不具，
 <lb n="0771c16" ed="T"/>八、雖具福資糧而樂味懈怠及利養等，九、
 <lb n="0771c17" ed="T"/>雖離懈怠利養而不能忍苦，十、雖能忍苦
 <lb n="0771c18" ed="T"/>而智資糧不具，十一、雖具智資糧而不自
@@ -717,7 +719,7 @@ Added comment  for Emacs
 <lb n="0772b29" ed="T"/>「世尊！如來無所說法。」</p>
 <pb n="0772c" ed="T" xml:id="T25.1510b.0772c"/>
 <lb n="0772c01" ed="T"/><p xml:id="pT25p0772c0101">論曰：</p><p xml:id="pT25p0772c0103" rend="inline">此下第九為遠離隨順外論散亂。</p><p xml:id="pT25p0772c0116" rend="inline">依
-<lb n="0772c02" ed="T"/>離障礙十二種中，為離樂外<anchor xml:id="beg_7" type="cb-app"/>論<anchor xml:id="end_7"/>散亂故，經
+<lb n="0772c02" ed="T"/>離障礙十二種中，為離樂外<anchor xml:id="nkr_note_add_0772c0201" n="0772c0201"/><anchor xml:id="beg0772c0201" n="0772c0201"/>論<anchor xml:id="end0772c0201"/>散亂故，經
 <lb n="0772c03" ed="T"/>說四種因緣，顯示此法勝異也：一、攝取福
 <lb n="0772c04" ed="T"/>德，二、天等供養，三、難作，四、起如來等念。經
 <lb n="0772c05" ed="T"/>言「須菩提！如恒河中所有沙數」等者，是攝
@@ -737,7 +739,7 @@ Added comment  for Emacs
 <lb n="0772c19" ed="T"/>有微塵，是為多不？」須菩提言：「彼微塵甚多。
 <lb n="0772c20" ed="T"/>世尊！」</p><p xml:id="pT25p0772c2003" rend="inline">「須菩提！是諸微塵如來說，非微塵，是
 <lb n="0772c21" ed="T"/>名微塵。如來說世界，非世界，是名世界。」</p>
-<lb n="0772c22" ed="T"/><p xml:id="pT25p0772c2201">論曰：</p><p xml:id="pT25p0772c2203" rend="inline">此下第十明色及眾生身<anchor xml:id="nkr_note_orig_0772001" n="0772001"/><anchor xml:id="beg0772001" n="0772001"/>摶<anchor xml:id="end0772001"/>取中觀
+<lb n="0772c22" ed="T"/><p xml:id="pT25p0772c2201">論曰：</p><p xml:id="pT25p0772c2203" rend="inline">此下第十明色及眾生身<anchor xml:id="nkr_note_orig_0772001" n="0772001"/><anchor xml:id="nkr_note_mod_0772001" n="0772001"/><anchor xml:id="beg0772001" n="0772001"/>摶<anchor xml:id="end0772001"/>取中觀
 <lb n="0772c23" ed="T"/>破相應行。</p><p xml:id="pT25p0772c2305" rend="inline">依離障礙十二種中，為離於影
 <lb n="0772c24" ed="T"/>像相自在中無巧便故，經言「須菩提！於意
 <lb n="0772c25" ed="T"/>云何？三千大千世界所有微塵」如是等。彼
@@ -750,13 +752,13 @@ Added comment  for Emacs
 <lb n="0773a02" ed="T"/>塵，是名微塵」故。為破眾生身影像相故，經
 <lb n="0773a03" ed="T"/>言「如來說世界，非世界，是名世界」故。於中，
 <lb n="0773a04" ed="T"/>世界，顯眾生世也，但以名身，名為眾生世。
-<lb n="0773a05" ed="T"/>不念名身方便，即是顯示<anchor xml:id="beg_8" type="cb-app"/>破<anchor xml:id="end_8"/>彼影像相，不
+<lb n="0773a05" ed="T"/>不念名身方便，即是顯示<anchor xml:id="nkr_note_add_0773a0501" n="0773a0501"/><anchor xml:id="beg0773a0501" n="0773a0501"/>破<anchor xml:id="end0773a0501"/>彼影像相，不
 <lb n="0773a06" ed="T"/>復說細作方便也。</p>
 <lb n="0773a07" ed="T"/><p xml:id="pT25p0773a0701">經曰：</p><p xml:id="pT25p0773a0703" rend="inline">佛言：「須菩提！於意云何？可以三十二
 <lb n="0773a08" ed="T"/>大人相見如來不？」須菩提言：「不也。世尊！何
 <lb n="0773a09" ed="T"/>以故？如來說三十二大人相，即是非相，是
 <lb n="0773a10" ed="T"/>名三十二大人相。」</p>
-<lb n="0773a11" ed="T"/><p xml:id="pT25p0773a1101">論曰：</p><p xml:id="pT25p0773a1103" rend="inline">此下第十一明供養給<anchor xml:id="nkr_note_orig_0773001" n="0773001"/><anchor xml:id="beg0773001" n="0773001"/>侍<anchor xml:id="end0773001"/>如來。</p><p xml:id="pT25p0773a1115" rend="inline">依離
+<lb n="0773a11" ed="T"/><p xml:id="pT25p0773a1101">論曰：</p><p xml:id="pT25p0773a1103" rend="inline">此下第十一明供養給<anchor xml:id="nkr_note_orig_0773001" n="0773001"/><anchor xml:id="nkr_note_mod_0773001" n="0773001"/><anchor xml:id="beg0773001" n="0773001"/>侍<anchor xml:id="end0773001"/>如來。</p><p xml:id="pT25p0773a1115" rend="inline">依離
 <lb n="0773a12" ed="T"/>障礙十二種中，為離不具福資糧故，經言
 <lb n="0773a13" ed="T"/>「於意云何？可以三十二大人相見如來不」
 <lb n="0773a14" ed="T"/>者，顯示為福資糧故，親近、供養如來時，不
@@ -773,7 +775,7 @@ Added comment  for Emacs
 <lb n="0773a25" ed="T"/>羅蜜。」</p><p xml:id="pT25p0773a2503" rend="inline">「世尊！若復有人得聞是經，信心清淨，
 <lb n="0773a26" ed="T"/>則生實相，當知是人成就第一希有功德。
 <lb n="0773a27" ed="T"/>世尊！是實相者，則是非相，是故如來說名
-<lb n="0773a28" ed="T"/>實相、實相。世尊！我今得聞<anchor xml:id="nkr_note_orig_0773002" n="0773002"/><anchor xml:id="beg0773002" n="0773002"/>如<anchor xml:id="end0773002"/>是法門，信解
+<lb n="0773a28" ed="T"/>實相、實相。世尊！我今得聞<anchor xml:id="nkr_note_orig_0773002" n="0773002"/><anchor xml:id="nkr_note_mod_0773002" n="0773002"/><anchor xml:id="beg0773002" n="0773002"/>如<anchor xml:id="end0773002"/>是法門，信解
 <lb n="0773a29" ed="T"/>受持，不足為難。若當來世，其有眾生得聞
 <pb n="0773b" ed="T" xml:id="T25.1510b.0773b"/>
 <lb n="0773b01" ed="T"/>是法門，信解受持，是人則為第一希有。何
@@ -837,7 +839,7 @@ Added comment  for Emacs
 <lb n="0773c29" ed="T"/>眾生相、人相、壽者相，應生瞋恨。須菩提！又
 <pb n="0774a" ed="T" xml:id="T25.1510b.0774a"/>
 <lb n="0774a01" ed="T"/>念過去於五百世作忍辱仙人，於爾所世，
-<lb n="0774a02" ed="T"/>無我相、無眾生相、無人相、無<anchor xml:id="nkr_note_orig_0774001" n="0774001"/><anchor xml:id="beg0774001" n="0774001"/>壽<anchor xml:id="end0774001"/>者相。是故，
+<lb n="0774a02" ed="T"/>無我相、無眾生相、無人相、無<anchor xml:id="nkr_note_orig_0774001" n="0774001"/><anchor xml:id="nkr_note_mod_0774001" n="0774001"/><anchor xml:id="beg0774001" n="0774001"/>壽<anchor xml:id="end0774001"/>者相。是故，
 <lb n="0774a03" ed="T"/>須菩提！菩薩應離一切相，發阿耨多羅三藐
 <lb n="0774a04" ed="T"/>三菩提心。何以故？若心有住，則為非住。不
 <lb n="0774a05" ed="T"/>應住色生心，不應住聲、香、味、觸、法生心，應
@@ -901,7 +903,7 @@ Added comment  for Emacs
 <lb n="0774c03" ed="T"/>者，不如言說自性有故。</p><p xml:id="pT25p0774c0310" rend="inline">經言「須菩提！譬如
 <lb n="0774c04" ed="T"/>有人入闇」如是等，顯示乏受用苦忍因緣
 <lb n="0774c05" ed="T"/>對治。若為果報布施，便著於事而行捨施。
-<lb n="0774c06" ed="T"/>於彼喜，於欲樂、<anchor xml:id="beg_9" type="cb-app"/>苦<anchor xml:id="end_9"/>受中不解出離，猶如入
+<lb n="0774c06" ed="T"/>於彼喜，於欲樂、<anchor xml:id="nkr_note_add_0774c0601" n="0774c0601"/><anchor xml:id="beg0774c0601" n="0774c0601"/>苦<anchor xml:id="end0774c0601"/>受中不解出離，猶如入
 <lb n="0774c07" ed="T"/>闇，不知「我何所趣。」彼喜、欲樂亦爾。若不著
 <lb n="0774c08" ed="T"/>於事而行布施，如有眼丈夫，夜過日出，見
 <lb n="0774c09" ed="T"/>種種色，隨意所趣，應如是見。彼無明夜過，
@@ -936,7 +938,7 @@ Added comment  for Emacs
 <lb n="0775a08" ed="T"/>罪業應墮惡道，以今世人輕賤故，先世罪
 <lb n="0775a09" ed="T"/>業則為消滅，當得阿耨多羅三藐三菩提。</p>
 <lb n="0775a10" ed="T"/><p xml:id="pT25p0775a1001">「須菩提！我念過去無量阿僧祇、阿僧祇劫，
-<lb n="0775a11" ed="T"/>於然燈佛前，得值八<anchor xml:id="nkr_note_orig_0775001" n="0775001"/><anchor xml:id="beg0775001" n="0775001"/>千<anchor xml:id="end0775001"/>四億那由他百千
+<lb n="0775a11" ed="T"/>於然燈佛前，得值八<anchor xml:id="nkr_note_orig_0775001" n="0775001"/><anchor xml:id="nkr_note_mod_0775001" n="0775001"/><anchor xml:id="beg0775001" n="0775001"/>千<anchor xml:id="end0775001"/>四億那由他百千
 <lb n="0775a12" ed="T"/>萬諸佛，我皆親承供養，無空過者。須菩提！
 <lb n="0775a13" ed="T"/>如是無量諸佛，我皆親承供養，無空過者。
 <lb n="0775a14" ed="T"/>若復有人，於後世末世能受持、讀誦、修行
@@ -1042,8 +1044,8 @@ Added comment  for Emacs
 <lb n="0776a24" ed="T"/>實不妄語，是故如來說一切法皆是佛法。
 <lb n="0776a25" ed="T"/>須菩提！所言一切法、一切法者，即非一切
 <lb n="0776a26" ed="T"/>法，是故名一切法。」</p>
-<lb n="0776a27" ed="T"/><p xml:id="pT25p0776a2701">論曰：</p><p xml:id="pT25p0776a2703" rend="inline">此下第十六求<anchor xml:id="nkr_note_orig_0776001" n="0776001"/><anchor xml:id="beg0776001" n="0776001"/>教<anchor xml:id="end0776001"/>授。</p><p xml:id="pT25p0776a2711" rend="inline">依離障礙十
-<lb n="0776a28" ed="T"/><anchor xml:id="nkr_note_orig_0776002" n="0776002"/><anchor xml:id="beg0776002" n="0776002"/>二<anchor xml:id="end0776002"/>種中，為離無教授故，經言「須菩提！於
+<lb n="0776a27" ed="T"/><p xml:id="pT25p0776a2701">論曰：</p><p xml:id="pT25p0776a2703" rend="inline">此下第十六求<anchor xml:id="nkr_note_orig_0776001" n="0776001"/><anchor xml:id="nkr_note_mod_0776001" n="0776001"/><anchor xml:id="beg0776001" n="0776001"/>教<anchor xml:id="end0776001"/>授。</p><p xml:id="pT25p0776a2711" rend="inline">依離障礙十
+<lb n="0776a28" ed="T"/><anchor xml:id="nkr_note_orig_0776002" n="0776002"/><anchor xml:id="nkr_note_mod_0776002" n="0776002"/><anchor xml:id="beg0776002" n="0776002"/>二<anchor xml:id="end0776002"/>種中，為離無教授故，經言「須菩提！於
 <lb n="0776a29" ed="T"/>意云何？如來於然燈佛所，有法得阿耨多
 <pb n="0776b" ed="T" xml:id="T25.1510b.0776b"/>
 <lb n="0776b01" ed="T"/>羅三藐三菩提不」如是等。</p><p xml:id="pT25p0776b0111" rend="inline">又，經言「須菩提！
@@ -1076,7 +1078,7 @@ Added comment  for Emacs
 <lb n="0776c01" ed="T"/>
 <lb n="0776c02" ed="T"/><cb:juan n="003" fun="open"><cb:mulu n="003" type="卷"></cb:mulu><cb:jhead><title>金剛般若波羅蜜經論</title>卷下</cb:jhead></cb:juan>
 <lb n="0776c03" ed="T"/>
-<lb n="0776c04" ed="T"/><byline cb:type="author">無著菩薩<anchor xml:id="nkr_note_orig_0776003" n="0776003"/><anchor xml:id="beg0776003" n="0776003"/>造<anchor xml:id="end0776003"/></byline>
+<lb n="0776c04" ed="T"/><byline cb:type="author">無著菩薩<anchor xml:id="nkr_note_orig_0776003" n="0776003"/><anchor xml:id="nkr_note_mod_0776003" n="0776003"/><anchor xml:id="beg0776003" n="0776003"/>造<anchor xml:id="end0776003"/></byline>
 <lb n="0776c05" ed="T"/><byline cb:type="Translator">隋<anchor xml:id="fxT25p0776c01"/>南天竺三藏法師<anchor xml:id="fxT25p0776c02"/>達摩岌多譯</byline>
 <lb n="0776c06" ed="T"/><p xml:id="pT25p0776c0601">經曰：</p><p xml:id="pT25p0776c0603" rend="inline">「須菩提！譬如有人，其身妙大。」須菩提
 <lb n="0776c07" ed="T"/>言：「世尊！如來說人身妙大，則非大身，是故
@@ -1177,7 +1179,7 @@ Added comment  for Emacs
 <lb n="0777c12" ed="T"/>大千世界七寶持用布施，是善男子、善女
 <lb n="0777c13" ed="T"/>人，以是因緣得福多不？」須菩提言：「如是。世
 <lb n="0777c14" ed="T"/>尊！此人以是因緣，得福甚多。」</p><p xml:id="pT25p0777c1412" rend="inline">佛言：「如是，如
-<lb n="0777c15" ed="T"/>是。須菩提！彼善男子、善女人<anchor xml:id="beg_a" type="cb-app"/><space quantity="0"/><anchor xml:id="end_a"/>，以是因緣，
+<lb n="0777c15" ed="T"/>是。須菩提！彼善男子、善女人<anchor xml:id="nkr_note_add_0777c1501" n="0777c1501"/><anchor xml:id="beg0777c1501" n="0777c1501"/><space quantity="0"/><anchor xml:id="end0777c1501"/>，以是因緣，
 <lb n="0777c16" ed="T"/>得福德聚多。須菩提！若福德聚有實，如來
 <lb n="0777c17" ed="T"/>則不說福德聚、福德聚。」</p>
 <lb n="0777c18" ed="T"/><p xml:id="pT25p0777c1801">論曰：</p><p xml:id="pT25p0777c1803" rend="inline">此下第三為福自在具足故，經言「須
@@ -1259,7 +1261,7 @@ Added comment  for Emacs
 <lb n="0778c04" ed="T"/>彌山王，如是等七寶聚，有人持用布施。若
 <lb n="0778c05" ed="T"/>人以此般若波羅蜜經，乃至四句偈等，受
 <lb n="0778c06" ed="T"/>持、讀誦、為他人說，於前福德，百分不及一，
-<lb n="0778c07" ed="T"/>千分不及一，百千萬分不及一，<anchor xml:id="beg_b" type="cb-app"/>歌<anchor xml:id="end_b"/>羅分不
+<lb n="0778c07" ed="T"/>千分不及一，百千萬分不及一，<anchor xml:id="nkr_note_add_0778c0701" n="0778c0701"/><anchor xml:id="beg0778c0701" n="0778c0701"/>歌<anchor xml:id="end0778c0701"/>羅分不
 <lb n="0778c08" ed="T"/>及一，數分不及一，優波尼沙陀分不及一，
 <lb n="0778c09" ed="T"/>乃至算數譬喻所不能及。須菩提！於意云
 <lb n="0778c10" ed="T"/>何？汝謂如來作是念『我度眾生』耶？須菩
@@ -1300,7 +1302,7 @@ Added comment  for Emacs
 <lb n="0779a15" ed="T"/>得見如來不」如是等。於中，初偈顯示如所
 <lb n="0779a16" ed="T"/>不應見、不可見故。云何不可見？諸見世諦
 <lb n="0779a17" ed="T"/>故。是人行邪靜者，定名為靜，以得禪者說
-<lb n="0779a18" ed="T"/>名寂靜<anchor xml:id="beg_c" type="cb-app"/><space quantity="0"/><anchor xml:id="end_c"/>者故。又復禪名思惟修
+<lb n="0779a18" ed="T"/>名寂靜<anchor xml:id="nkr_note_add_0779a1801" n="0779a1801"/><anchor xml:id="beg0779a1801" n="0779a1801"/><space quantity="0"/><anchor xml:id="end0779a1801"/>者故。又復禪名思惟修
 <lb n="0779a19" ed="T"/>故，於中，思者，意所攝；修者，識所攝。言寂靜
 <lb n="0779a20" ed="T"/>者，即說覺及識，此世諦所攝應知。彼不能
 <lb n="0779a21" ed="T"/>見者，謂彼世諦行者。</p><p xml:id="pT25p0779a2109" rend="inline">第二偈顯示如彼不
@@ -1371,7 +1373,7 @@ Added comment  for Emacs
 <lb n="0779c26" ed="T"/>為多不？」</p><p xml:id="pT25p0779c2604" rend="inline">須菩提言：「彼微塵眾甚多。世尊！何
 <lb n="0779c27" ed="T"/>以故？若是微塵眾實有者，佛則不說是微
 <lb n="0779c28" ed="T"/>塵眾。何以故？佛說微塵眾，則非微塵眾，是
-<lb n="0779c29" ed="T"/>故佛說微塵眾。世<anchor xml:id="beg_d" type="cb-app"/>尊<anchor xml:id="end_d"/>！如來所說三千大千
+<lb n="0779c29" ed="T"/>故佛說微塵眾。世<anchor xml:id="nkr_note_add_0779c2901" n="0779c2901"/><anchor xml:id="beg0779c2901" n="0779c2901"/>尊<anchor xml:id="end0779c2901"/>！如來所說三千大千
 <pb n="0780a" ed="T" xml:id="T25.1510b.0780a"/>
 <lb n="0780a01" ed="T"/>世界，則非世界，是故佛說三千大千世界。
 <lb n="0780a02" ed="T"/>何以故？若世界實有者，則是一合相。如來
@@ -1389,7 +1391,7 @@ Added comment  for Emacs
 <lb n="0780a14" ed="T"/>者，如來說即非法相，是名法相。」</p>
 <lb n="0780a15" ed="T"/><p xml:id="pT25p0780a1501">論曰：</p><p xml:id="pT25p0780a1503" rend="inline">此下第二為破名色身自在行住故，
 <lb n="0780a16" ed="T"/>經言「須菩提！若善男子、善女人，以三千大
-<lb n="0780a17" ed="T"/>千世界微塵」如是等。於中，細末方便<anchor xml:id="beg_e" type="cb-app"/>及<anchor xml:id="end_e"/>無
+<lb n="0780a17" ed="T"/>千世界微塵」如是等。於中，細末方便<anchor xml:id="nkr_note_add_0780a1701" n="0780a1701"/><anchor xml:id="beg0780a1701" n="0780a1701"/>及<anchor xml:id="end0780a1701"/>無
 <lb n="0780a18" ed="T"/>所見方便等，此破如前說應知。經言「彼微
 <lb n="0780a19" ed="T"/>塵眾甚多。世尊」者，是細末方便。經言「若是
 <lb n="0780a20" ed="T"/>微塵眾實有者，佛則不說是微塵眾」等者，
@@ -1403,19 +1405,19 @@ Added comment  for Emacs
 <lb n="0780a28" ed="T"/>故。彼唯名身得名故，經言「若世界實有者，
 <lb n="0780a29" ed="T"/>則是一合相」者。於中，為竝說若世界、若微
 <pb n="0780b" ed="T" xml:id="T25.1510b.0780b"/>
-<lb n="0780b01" ed="T"/>塵界故，有二種<anchor xml:id="nkr_note_orig_0780001" n="0780001"/><anchor xml:id="beg0780001" n="0780001"/>摶<anchor xml:id="end0780001"/>取，謂一<anchor xml:id="beg_f" type="star"/>摶<anchor xml:id="end_f"/>取及差別
-<lb n="0780b02" ed="T"/><anchor xml:id="beg_10" type="star"/>摶<anchor xml:id="end_10"/>取。眾生類、眾生世界有者，此為一<anchor xml:id="beg_11" type="star"/>摶<anchor xml:id="end_11"/>
-<lb n="0780b03" ed="T"/>取。微塵有者，此為差別<anchor xml:id="beg_12" type="star"/>摶<anchor xml:id="end_12"/>取，以取微塵
+<lb n="0780b01" ed="T"/>塵界故，有二種<anchor xml:id="nkr_note_orig_0780001" n="0780001"/><anchor xml:id="nkr_note_mod_0780001" n="0780001"/><anchor xml:id="beg0780001" n="0780001"/>摶<anchor xml:id="end0780001"/>取，謂一<anchor xml:id="beg_1" type="star"/>摶<anchor xml:id="end_1"/>取及差別
+<lb n="0780b02" ed="T"/><anchor xml:id="beg_2" type="star"/>摶<anchor xml:id="end_2"/>取。眾生類、眾生世界有者，此為一<anchor xml:id="beg_3" type="star"/>摶<anchor xml:id="end_3"/>
+<lb n="0780b03" ed="T"/>取。微塵有者，此為差別<anchor xml:id="beg_4" type="star"/>摶<anchor xml:id="end_4"/>取，以取微塵
 <lb n="0780b04" ed="T"/>眾集故。經言「如來說一合相，則非一合相」
 <lb n="0780b05" ed="T"/>等者，此上座須菩提安立第一義故，世尊
 <lb n="0780b06" ed="T"/>為成就如是義故。經說「一合相者，即是不
-<lb n="0780b07" ed="T"/>可說」等，此何所顯示？世言說故，有彼<anchor xml:id="beg_13" type="star"/>摶<anchor xml:id="end_13"/>
+<lb n="0780b07" ed="T"/>可說」等，此何所顯示？世言說故，有彼<anchor xml:id="beg_5" type="star"/>摶<anchor xml:id="end_5"/>
 <lb n="0780b08" ed="T"/>取；第一義故，彼法不可說。彼小兒凡夫如
 <lb n="0780b09" ed="T"/>言說取，非第一義。</p><p xml:id="pT25p0780b0908" rend="inline">已說無所見方便，破義
 <lb n="0780b10" ed="T"/>未說。無所見中，入相應三昧時不分別，謂：
 <lb n="0780b11" ed="T"/>如所不分別，及何人？何法？何方便？云何不
 <lb n="0780b12" ed="T"/>分別？此後具說。</p><p xml:id="pT25p0780b1207" rend="inline">經言「須菩提！若人如是
-<lb n="0780b13" ed="T"/>言：『佛說我見』」等，<anchor xml:id="beg_14" type="cb-app"/>此<anchor xml:id="end_14"/>等顯示如所不分別。云
+<lb n="0780b13" ed="T"/>言：『佛說我見』」等，<anchor xml:id="nkr_note_add_0780b1301" n="0780b1301"/><anchor xml:id="beg0780b1301" n="0780b1301"/>此<anchor xml:id="end0780b1301"/>等顯示如所不分別。云
 <lb n="0780b14" ed="T"/>何得顯示？如外道說我，如來說為我見故，
 <lb n="0780b15" ed="T"/>安置人無我；又為說有此我見故，安置法
 <lb n="0780b16" ed="T"/>無我。若有彼我見，是見所攝。如是觀察，菩
@@ -1495,38 +1497,58 @@ Added comment  for Emacs
 <app from="#beg0766002" to="#end0766002"><lem wit="#wit1"><note place="inline">亦名金剛<lb n="0766b03" ed="T"/>能斷般若</note></lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0766003" to="#end0766003"><lem wit="#wit1">南</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0766004" to="#end0766004"><lem wit="#wit1">達摩</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>七</corr><sic>九</sic></choice>
+<app from="#beg0766b1301" to="#end0766b1301"><lem wit="#wit3" resp="#resp3">七</lem><rdg wit="#wit1">九</rdg></app>
 <app from="#beg0766005" to="#end0766005"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>證</corr><sic>燈</sic></choice>
-<app from="#beg0768001" to="#end0768001"><lem wit="#wit1">想</lem><rdg resp="#resp1" wit="#wit2 #wit3">相</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>那</corr><sic>耶</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>知</corr><sic>如</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>欲</corr><sic>故</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>若</corr><sic>共</sic></choice>
-<app from="#beg0771001" to="#end0771001"><lem wit="#wit1">七</lem><rdg resp="#resp1" wit="#wit2 #wit3">十</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>論</corr><sic>離</sic></choice>
+<app from="#beg0767a0601" to="#end0767a0601"><lem wit="#wit3" resp="#resp3">證</lem><rdg wit="#wit1">燈</rdg></app>
+<app from="#beg0768001" to="#end0768001"><lem wit="#wit1">想</lem><rdg resp="#resp1" wit="#wit2 #wit4">相</rdg></app>
+<app from="#beg0769a2501" to="#end0769a2501"><lem wit="#wit3" resp="#resp3">那</lem><rdg wit="#wit1">耶</rdg></app>
+<app from="#beg0769c0601" to="#end0769c0601"><lem wit="#wit3" resp="#resp3">知</lem><rdg wit="#wit1">如</rdg></app>
+<app from="#beg0770b2301" to="#end0770b2301"><lem wit="#wit3" resp="#resp3">欲</lem><rdg wit="#wit1">故</rdg></app>
+<app from="#beg0771a1101" to="#end0771a1101"><lem wit="#wit3" resp="#resp3">若</lem><rdg wit="#wit1">共</rdg></app>
+<app from="#beg0771001" to="#end0771001"><lem wit="#wit1">七</lem><rdg resp="#resp1" wit="#wit2 #wit4">十</rdg></app>
+<app from="#beg0772c0201" to="#end0772c0201"><lem wit="#wit3" resp="#resp3">論</lem><rdg wit="#wit1">離</rdg></app>
 <app from="#beg0772001" to="#end0772001"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>破</corr><sic>故</sic></choice>
-<app from="#beg0773001" to="#end0773001"><lem wit="#wit1">侍</lem><rdg resp="#resp1" wit="#wit3">待</rdg></app>
-<app from="#beg0773002" to="#end0773002"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit3">知</rdg></app>
-<app from="#beg0774001" to="#end0774001"><lem wit="#wit1">壽</lem><rdg resp="#resp1" wit="#wit2 #wit3">受</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr>苦</corr><sic>若</sic></choice>
+<app from="#beg0773a0501" to="#end0773a0501"><lem wit="#wit3" resp="#resp3">破</lem><rdg wit="#wit1">故</rdg></app>
+<app from="#beg0773001" to="#end0773001"><lem wit="#wit1">侍</lem><rdg resp="#resp1" wit="#wit4">待</rdg></app>
+<app from="#beg0773002" to="#end0773002"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit4">知</rdg></app>
+<app from="#beg0774001" to="#end0774001"><lem wit="#wit1">壽</lem><rdg resp="#resp1" wit="#wit2 #wit4">受</rdg></app>
+<app from="#beg0774c0601" to="#end0774c0601"><lem wit="#wit3" resp="#resp3">苦</lem><rdg wit="#wit1">若</rdg></app>
 <app from="#beg0775001" to="#end0775001"><lem wit="#wit1">千</lem><rdg resp="#resp1" wit="#wit2">十</rdg></app>
-<app from="#beg0776001" to="#end0776001"><lem wit="#wit1">教</lem><rdg resp="#resp1" wit="#wit2 #wit3">故</rdg></app>
+<app from="#beg0776001" to="#end0776001"><lem wit="#wit1">教</lem><rdg resp="#resp1" wit="#wit2 #wit4">故</rdg></app>
 <app from="#beg0776002" to="#end0776002"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2">一</rdg></app>
 <app from="#beg0776003" to="#end0776003"><lem wit="#wit1">造</lem><rdg resp="#resp1" wit="#wit2">論</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr><space quantity="0"/></corr><sic>人</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_b" cb:to="#end_b"><corr>歌</corr><sic>歐</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_c" cb:to="#end_c"><corr><space quantity="0"/></corr><sic>說名寂靜</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_d" cb:to="#end_d"><corr>尊</corr><sic>界</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_e" cb:to="#end_e"><corr>及</corr><sic>乃</sic></choice>
+<app from="#beg0777c1501" to="#end0777c1501"><lem wit="#wit3" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit1">人</rdg></app>
+<app from="#beg0778c0701" to="#end0778c0701"><lem wit="#wit3" resp="#resp3">歌</lem><rdg wit="#wit1">歐</rdg></app>
+<app from="#beg0779a1801" to="#end0779a1801"><lem wit="#wit3" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit1">說名寂靜</rdg></app>
+<app from="#beg0779c2901" to="#end0779c2901"><lem wit="#wit3" resp="#resp3">尊</lem><rdg wit="#wit1">界</rdg></app>
+<app from="#beg0780a1701" to="#end0780a1701"><lem wit="#wit3" resp="#resp3">及</lem><rdg wit="#wit1">乃</rdg></app>
 <app from="#beg0780001" to="#end0780001"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
-<app from="#beg_f" to="#end_f" corresp="#0780001"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
-<app from="#beg_10" to="#end_10" corresp="#0780001"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
-<app from="#beg_11" to="#end_11" corresp="#0780001"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
-<app from="#beg_12" to="#end_12" corresp="#0780001"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
-<app from="#beg_13" to="#end_13" corresp="#0780001"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_14" cb:to="#end_14"><corr>此</corr><sic>以</sic></choice>
+<app from="#beg_1" to="#end_1" corresp="#0780001"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
+<app from="#beg_2" to="#end_2" corresp="#0780001"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
+<app from="#beg_3" to="#end_3" corresp="#0780001"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
+<app from="#beg_4" to="#end_4" corresp="#0780001"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
+<app from="#beg_5" to="#end_5" corresp="#0780001"><lem wit="#wit1">摶</lem><rdg resp="#resp1" wit="#wit2">搏</rdg></app>
+<app from="#beg0780b1301" to="#end0780b1301"><lem wit="#wit3" resp="#resp3">此</lem><rdg wit="#wit1">以</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0766002" resp="#resp2" type="mod" target="#nkr_note_mod_0766002">亦名金剛能斷般若【大】，〔－〕【宋】</note>
+<note n="0766003" resp="#resp2" type="mod" target="#nkr_note_mod_0766003">南【大】＊，〔－〕【宋】＊</note>
+<note n="0766004" resp="#resp2" type="mod" target="#nkr_note_mod_0766004">達摩【大】＊，〔－〕【宋】＊</note>
+<note n="0766005" resp="#resp2" type="mod" target="#nkr_note_mod_0766005">摶【大】，搏【宋】</note>
+<note n="0768001" resp="#resp2" type="mod" target="#nkr_note_mod_0768001">想【大】，相【宋】【元】</note>
+<note n="0771001" resp="#resp2" type="mod" target="#nkr_note_mod_0771001">七【大】，十【宋】【元】</note>
+<note n="0772001" resp="#resp2" type="mod" target="#nkr_note_mod_0772001">摶【大】，搏【宋】</note>
+<note n="0773001" resp="#resp2" type="mod" target="#nkr_note_mod_0773001">侍【大】，待【元】</note>
+<note n="0773002" resp="#resp2" type="mod" target="#nkr_note_mod_0773002">如【大】，知【元】</note>
+<note n="0774001" resp="#resp2" type="mod" target="#nkr_note_mod_0774001">壽【大】，受【宋】【元】</note>
+<note n="0775001" resp="#resp2" type="mod" target="#nkr_note_mod_0775001">千【大】，十【宋】</note>
+<note n="0776001" resp="#resp2" type="mod" target="#nkr_note_mod_0776001">教【大】，故【宋】【元】</note>
+<note n="0776002" resp="#resp2" type="mod" target="#nkr_note_mod_0776002">二【大】，一【宋】</note>
+<note n="0776003" resp="#resp2" type="mod" target="#nkr_note_mod_0776003">造【大】，論【宋】</note>
+<note n="0780001" resp="#resp2" type="mod" target="#nkr_note_mod_0780001">摶【大】＊，搏【宋】＊</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -1548,6 +1570,26 @@ Added comment  for Emacs
 <note n="0776002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0776002">二＝一【宋】</note>
 <note n="0776003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0776003">造＝論【宋】</note>
 <note n="0780001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0780001">摶＝搏【宋】＊</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0766b1301" resp="#resp2" type="add" target="#nkr_note_add_0766b1301">七【CB】，九【大】</note>
+<note n="0767a0601" resp="#resp2" type="add" target="#nkr_note_add_0767a0601">證【CB】，燈【大】</note>
+<note n="0769a2501" resp="#resp2" type="add" target="#nkr_note_add_0769a2501">那【CB】，耶【大】</note>
+<note n="0769c0601" resp="#resp2" type="add" target="#nkr_note_add_0769c0601">知【CB】，如【大】</note>
+<note n="0770b2301" resp="#resp2" type="add" target="#nkr_note_add_0770b2301">欲【CB】，故【大】</note>
+<note n="0771a1101" resp="#resp2" type="add" target="#nkr_note_add_0771a1101">若【CB】，共【大】</note>
+<note n="0772c0201" resp="#resp2" type="add" target="#nkr_note_add_0772c0201">論【CB】，離【大】</note>
+<note n="0773a0501" resp="#resp2" type="add" target="#nkr_note_add_0773a0501">破【CB】，故【大】</note>
+<note n="0774c0601" resp="#resp2" type="add" target="#nkr_note_add_0774c0601">苦【CB】，若【大】</note>
+<note n="0777c1501" resp="#resp2" type="add" target="#nkr_note_add_0777c1501">［－］【CB】，人【大】</note>
+<note n="0778c0701" resp="#resp2" type="add" target="#nkr_note_add_0778c0701">歌【CB】，歐【大】</note>
+<note n="0779a1801" resp="#resp2" type="add" target="#nkr_note_add_0779a1801">［－］【CB】，說名寂靜【大】</note>
+<note n="0779c2901" resp="#resp2" type="add" target="#nkr_note_add_0779c2901">尊【CB】，界【大】</note>
+<note n="0780a1701" resp="#resp2" type="add" target="#nkr_note_add_0780a1701">及【CB】，乃【大】</note>
+<note n="0780b1301" resp="#resp2" type="add" target="#nkr_note_add_0780b1301">此【CB】，以【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

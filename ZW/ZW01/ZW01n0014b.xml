@@ -13,8 +13,9 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.4 $<date>$Date: 2009/04/23 08:15:34 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>ZangWai</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>ZangWai</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 1, No. 14b</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -67,7 +72,7 @@ BM→XML標記作業
 <lb ed="ZW" n="0371a14"/>
 <lb ed="ZW" n="0371a15"/><cb:juan fun="open" n="1"><cb:mulu type="卷" n="1"></cb:mulu><cb:jhead>佛說天公經</cb:jhead></cb:juan>
 <lb ed="ZW" n="0371a16"/>
-<lb ed="ZW" n="0371a17"/><p xml:id="pZW01p0371a1701" rend="margin-left:0em;text-indent:2em">鎘銅灌作柱，<anchor xml:id="beg_1" type="cb-app"/>象<anchor xml:id="end_1"/>牙<anchor xml:id="nkr_note_orig_0371003" n="0371003"/>作屋，虎珀作屋脊，真珠作羅網，星宿
+<lb ed="ZW" n="0371a17"/><p xml:id="pZW01p0371a1701" rend="margin-left:0em;text-indent:2em">鎘銅灌作柱，<anchor xml:id="nkr_note_add_0371a1701" n="0371a1701"/><anchor xml:id="beg0371a1701" n="0371a1701"/>象<anchor xml:id="end0371a1701"/>牙<anchor xml:id="nkr_note_orig_0371003" n="0371003"/>作屋，虎珀作屋脊，真珠作羅網，星宿
 <lb ed="ZW" n="0371a18"/>作鵲頭，日月作繚窗，可得萬萬九千年。上有一小劫，下有一由
 <lb ed="ZW" n="0371a19"/>旬。此經雖小，大有威神。亦等《法華》，亦等《涅槃》，亦勝<anchor xml:id="nkr_note_orig_0371004" n="0371004"/>雜
 <lb ed="ZW" n="0371a20"/>經。譬如東海，喻如太山。入海取寶，隨其多少，亦得重來。入
@@ -88,17 +93,23 @@ BM→XML標記作業
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>象</corr><sic>像</sic></choice>
+<app from="#beg0371a1701" to="#end0371a1701"><lem wit="#wit1" resp="#resp2">象</lem><rdg wit="#wit2">像</rdg></app>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
 <head>方廣錩 校註</head>
 <p>
-<note n="0371003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0371003">「牙」，底本不清，似作「芽」，據北新627號錄文。</note>
-<note n="0371004" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0371004">「勝」，底本作「朦」，據北新627號改。</note>
-<note n="0372001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0372001">「經」，底本無，據北新627號補。</note>
-<note n="0372002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0372002">「靈」，底本無，據北新627號補。</note>
-<note n="0372003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0372003">「壁」，底本作「譬」，據文意改。</note>
+<note n="0371003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0371003">「牙」，底本不清，似作「芽」，據北新627號錄文。</note>
+<note n="0371004" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0371004">「勝」，底本作「朦」，據北新627號改。</note>
+<note n="0372001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0372001">「經」，底本無，據北新627號補。</note>
+<note n="0372002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0372002">「靈」，底本無，據北新627號補。</note>
+<note n="0372003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0372003">「壁」，底本作「譬」，據文意改。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0371a1701" resp="#resp1" type="add" target="#nkr_note_add_0371a1701">象【CB】，像【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

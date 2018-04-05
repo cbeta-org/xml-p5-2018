@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2009/04/22 09:00:20 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 55, No. 911</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -62,13 +67,13 @@ no message
 <lb ed="X" n="0687a03"/><lb ed="R099" n="0110a01"/><cb:juan fun="open" n="1"><cb:mulu type="卷" n="1"></cb:mulu><cb:jhead>觀心食法</cb:jhead></cb:juan>
 <lb ed="X" n="0687a04"/>
 <lb ed="X" n="0687a05"/><lb ed="R099" n="0110a02"/><byline cb:type="author">天台　智者大師</byline>
-<lb ed="X" n="0687a06"/><lb ed="R099" n="0110a03"/><cb:div><p xml:id="pX55p0687a0601">既敷座<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>。聽維那進止。鳴鐘後<anchor xml:id="beg_2" type="cb-app"/>斂<anchor xml:id="end_2"/>手供養一體三寶。
+<lb ed="X" n="0687a06"/><lb ed="R099" n="0110a03"/><cb:div><p xml:id="pX55p0687a0601">既敷座<anchor xml:id="nkr_note_add_0687a0601" n="0687a0601"/><anchor xml:id="beg0687a0601" n="0687a0601"/>已<anchor xml:id="end0687a0601"/>。聽維那進止。鳴鐘後<anchor xml:id="nkr_note_add_0687a0602" n="0687a0602"/><anchor xml:id="beg0687a0602" n="0687a0602"/>斂<anchor xml:id="end0687a0602"/>手供養一體三寶。
 <lb ed="X" n="0687a07"/><lb ed="R099" n="0110a04"/>徧十方界施作佛事。次出生飯稱施六道。即表六波
 <lb ed="X" n="0687a08"/><lb ed="R099" n="0110a05"/>羅密。然後受此食。夫食者。眾生之外命。若不入觀即
 <lb ed="X" n="0687a09"/><lb ed="R099" n="0110a06"/>潤生死。若能知入觀。分別生死有邊無邊。不問分衛
 <lb ed="X" n="0687a10"/><lb ed="R099" n="0110a07"/>與清眾淨食皆須作觀觀之者。自恐此身內舊食皆
 <lb ed="X" n="0687a11"/><lb ed="R099" n="0110a08"/>是無明煩惱潤益生死。今之所食皆是般若。想於舊
-<lb ed="X" n="0687a12"/><lb ed="R099" n="0110a09"/>食從毛孔次第而出。食既出<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>心路即開。食今新食。
+<lb ed="X" n="0687a12"/><lb ed="R099" n="0110a09"/>食從毛孔次第而出。食既出<anchor xml:id="nkr_note_add_0687a1201" n="0687a1201"/><anchor xml:id="beg0687a1201" n="0687a1201"/>已<anchor xml:id="end0687a1201"/>心路即開。食今新食。
 <lb ed="X" n="0687a13"/><lb ed="R099" n="0110a10"/>照諸暗滅成於般若。故淨名云。於食等者於法亦等。
 <lb ed="X" n="0687a14"/><lb ed="R099" n="0110a11"/>是為明證。以此食故成般若食。能養法身。法身得立
 <lb ed="X" n="0687a15"/><lb ed="R099" n="0110a12"/>即得解脫。是為三德照此食者。非新非故。而有舊食
@@ -84,9 +89,17 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0687a0601" to="#end0687a0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0687a0602" to="#end0687a0602"><lem wit="#wit1" resp="#resp2">斂</lem><rdg wit="#wit2">歛</rdg></app>
+<app from="#beg0687a1201" to="#end0687a1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0687a0601" resp="#resp1" type="add" target="#nkr_note_add_0687a0601">已【CB】，巳【卍續】</note>
+<note n="0687a0602" resp="#resp1" type="add" target="#nkr_note_add_0687a0602">斂【CB】，歛【卍續】</note>
+<note n="0687a1201" resp="#resp1" type="add" target="#nkr_note_add_0687a1201">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

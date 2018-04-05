@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 08:48:44 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 3, No. 218</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -127,11 +132,11 @@ no message
 <lb ed="X" n="0554c24"/><lb ed="R004" n="0907b09"/>故乃至普賢知識不就善財不往而忽得見表法界
 <pb ed="X" xml:id="X03.0218.0555a" n="0555a"/>
 <lb ed="X" n="0555a01"/><lb ed="R004" n="0907b10"/>位滿無來去故。</p></sp></cb:dialog>
-<lb ed="X" n="0555a02"/><lb ed="R004" n="0907b11"/><cb:dialog type="qa"><sp cb:type="question"><p xml:id="pX03p0555a0201">問諸善知識皆徧通達何要謙<anchor xml:id="beg_1" type="cb-app"/>己<anchor xml:id="end_1"/>知一推勝知多。</p></sp>
+<lb ed="X" n="0555a02"/><lb ed="R004" n="0907b11"/><cb:dialog type="qa"><sp cb:type="question"><p xml:id="pX03p0555a0201">問諸善知識皆徧通達何要謙<anchor xml:id="nkr_note_add_0555a0201" n="0555a0201"/><anchor xml:id="beg0555a0201" n="0555a0201"/>己<anchor xml:id="end0555a0201"/>知一推勝知多。</p></sp>
 <lb ed="X" n="0555a03"/><lb ed="R004" n="0907b12"/><sp cb:type="answer"><p xml:id="pX03p0555a0301">答顯法界深故乃至多意略舉一二一者為後之軌
 <lb ed="X" n="0555a04"/><lb ed="R004" n="0907b13"/>令善財求法無倦善友說法無悋故二顯勝緣須善
 <lb ed="X" n="0555a05"/><lb ed="R004" n="0907b14"/>友故三破愚執自師心故四破宅慢今無偏執故五
-<lb ed="X" n="0555a06"/><lb ed="R004" n="0907b15"/>顯佛法無有盡故不應言我<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>窮<anchor xml:id="nkr_note_orig_0555001" n="0555001"/>言妙攝他屬<anchor xml:id="beg_3" type="cb-app"/>己<anchor xml:id="end_3"/>不
+<lb ed="X" n="0555a06"/><lb ed="R004" n="0907b15"/>顯佛法無有盡故不應言我<anchor xml:id="nkr_note_add_0555a0601" n="0555a0601"/><anchor xml:id="beg0555a0601" n="0555a0601"/>已<anchor xml:id="end0555a0601"/>窮<anchor xml:id="nkr_note_orig_0555001" n="0555001"/>言妙攝他屬<anchor xml:id="nkr_note_add_0555a0602" n="0555a0602"/><anchor xml:id="beg0555a0602" n="0555a0602"/>己<anchor xml:id="end0555a0602"/>不
 <lb ed="X" n="0555a07"/><lb ed="R004" n="0907b16"/>欲推<anchor xml:id="nkr_note_orig_0555002" n="0555002"/>人。</p></sp></cb:dialog>
 <lb ed="X" n="0555a08"/><lb ed="R004" n="0907b17"/><cb:dialog type="qa"><sp cb:type="question"><p xml:id="pX03p0555a0801">問最初令見德雲法門無邊何以先明念佛三昧耶。</p></sp>
 <lb ed="X" n="0555a09"/><lb ed="R004" n="0907b18"/><sp cb:type="answer"><p xml:id="pX03p0555a0901">答念佛三昧功高易進眾行先故通淺深能普收
@@ -164,9 +169,9 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>己</corr><sic>巳</sic></choice>
+<app from="#beg0555a0201" to="#end0555a0201"><lem wit="#wit1" resp="#resp3">己</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0555a0601" to="#end0555a0601"><lem wit="#wit1" resp="#resp3">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0555a0602" to="#end0555a0602"><lem wit="#wit1" resp="#resp3">己</lem><rdg wit="#wit2">巳</rdg></app>
 </p>
 </cb:div>
 <cb:div type="xuzang-notes">
@@ -181,6 +186,14 @@ no message
 <note n="0555002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0555002">人異作之</note>
 <note n="0555003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0555003"><g ref="#CB01576">㳅</g>與流同</note>
 <note n="0555004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0555004">他異作地</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0555a0201" resp="#resp2" type="add" target="#nkr_note_add_0555a0201">己【CB】，巳【卍續】</note>
+<note n="0555a0601" resp="#resp2" type="add" target="#nkr_note_add_0555a0601">已【CB】，巳【卍續】</note>
+<note n="0555a0602" resp="#resp2" type="add" target="#nkr_note_add_0555a0602">己【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

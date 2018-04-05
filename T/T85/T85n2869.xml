@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:15:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2869</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -232,7 +237,7 @@ Added comment  for Emacs
 <lb n="1334c02" ed="T"/><l>譬如春花敷</l><l>妙色悅眾心</l><l>如是諸功德</l>
 <lb n="1334c03" ed="T"/><l>得聞寶車經</l><l>佛道高於天</l><l>福德重於地</l>
 <lb n="1334c04" ed="T"/><l>寶車大菩薩</l><l>教我作懺悔</l><l>世間愚癡人</l>
-<lb n="1334c05" ed="T"/><l>不信寶車經</l><l>死墮地獄中</l><l><anchor xml:id="beg_1" type="cb-app"/>餓<anchor xml:id="end_1"/>鬼竟來前</l>
+<lb n="1334c05" ed="T"/><l>不信寶車經</l><l>死墮地獄中</l><l><anchor xml:id="nkr_note_add_1334c0501" n="1334c0501"/><anchor xml:id="beg1334c0501" n="1334c0501"/>餓<anchor xml:id="end1334c0501"/>鬼竟來前</l>
 <lb n="1334c06" ed="T"/><l>牽頭向刀山</l><l>面白如脣青</l><l>不見日月光</l>
 <lb n="1334c07" ed="T"/><l>但聞打鬼聲</l><l>如是諸苦痛</l><l>幽幽何冥冥</l>
 <lb n="1334c08" ed="T"/><l>生時不受戒</l><l>事至知何陳</l><l>或有鐵嘴鳥</l>
@@ -334,7 +339,7 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>餓<note type="cf1">T85n2850_p1300a21</note></corr><sic>我</sic></choice>
+<app from="#beg1334c0501" to="#end1334c0501"><lem wit="#wit1" resp="#resp3">餓<note type="cf1">T85n2850_p1300a21</note></lem><rdg wit="#wit2">我</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -342,6 +347,12 @@ Added comment  for Emacs
 <p>
 <note n="1333001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1333001">【原】中村不折氏藏燉煌本，首題新加</note>
 <note n="1333002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1333002">首缺</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1334c0501" resp="#resp2" type="add" target="#nkr_note_add_1334c0501">餓【CB】，我【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

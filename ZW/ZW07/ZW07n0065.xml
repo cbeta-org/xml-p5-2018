@@ -32,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 7, No. 65</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -1059,7 +1063,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml; 執行校注插入 XML 作業。
 <lb ed="ZW" n="0407a20"/><p xml:id="pZW07p0407a2001" rend="margin-left:0em;text-indent:2em">木刻本的1折面，11×29釐米，欄面11×25釐米。單
 <lb ed="ZW" n="0407a21"/>欄，經文的一部分，首尾殘缺。5行，行13字，宋體字。
 <lb ed="ZW" n="0407a22"/>紙色淺黃灰，澀滯，厚0.10～0.12毫米，每釐米6道簾紋，
-<lb ed="ZW" n="0407a23"/>無書題。根據開本和樣式看，<anchor xml:id="beg_1" type="cb-app"/>像<anchor xml:id="end_1"/>1189年的御覽本。</p>
+<lb ed="ZW" n="0407a23"/>無書題。根據開本和樣式看，<anchor xml:id="nkr_note_add_0407a2301" n="0407a2301"/><anchor xml:id="beg0407a2301" n="0407a2301"/>像<anchor xml:id="end0407a2301"/>1189年的御覽本。</p>
 <lb ed="ZW" n="0407a24"/><p xml:id="pZW07p0407a2401" rend="margin-left:0em;text-indent:2em">從：「安風雨依時五穀豐熟花果茂盛」；</p>
 <lb ed="ZW" n="0407a25"/><p xml:id="pZW07p0407a2501" rend="margin-left:0em;text-indent:2em">到：「念三十五佛而為上首及與佛剎」。</p>
 <lb ed="ZW" n="0407a26"/>
@@ -1285,13 +1289,13 @@ modified: 執行 basicx.bat  將 bm 轉 xml; 執行校注插入 XML 作業。
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp3" cb:from="#beg_1" cb:to="#end_1"><corr>像</corr><sic>象</sic></choice>
+<app from="#beg0407a2301" to="#end0407a2301"><lem wit="#wit1" resp="#resp3">像</lem><rdg wit="#wit2">象</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0385001" resp="#resp2" type="mod" target="#nkr_note_mod_0385001">「＊」號以<choice cb:resp="#resp3"><corr>前</corr><sic>為</sic></choice>的文字為西夏本所不存，按照房山石經甲本行款錄文。「＊」以後文字按照西夏本行款錄文。</note>
+<note n="0385001" resp="#resp2" type="mod" target="#nkr_note_mod_0385001">「＊」號以前的文字為西夏本所不存，按照房山石經甲本行款錄文。「＊」以後文字按照西夏本行款錄文。</note>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
@@ -1334,6 +1338,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml; 執行校注插入 XML 作業。
 <note n="0400001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0400001">《墨莊漫錄》卷四，第十九葉。參見《四部叢刊》，第三編（第34冊），上海書店影印本，1985年10月。</note>
 <note n="0406001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0406001">《大正藏》第12卷第43頁中。</note>
 <note n="0408001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0408001">卷軸裝行距相等，經折裝則於折縫處留空。這是卷軸裝與經折裝的基本區別。但經折裝出現以後，往往有將原來的卷軸裝按一定寬度對折而改裝為經折裝的。故頗疑黑城本之經折裝實際由原卷軸裝改裝而成。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0407a2301" resp="#resp2" type="add" target="#nkr_note_add_0407a2301">像【CB】，象【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

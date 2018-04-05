@@ -13,7 +13,8 @@
 		</titleStmt>
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>1卷</extent>
 		<publicationStmt>
@@ -30,7 +31,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Supplement to the Dazangjing Vol. 32, No. 187</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【補編】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -673,7 +678,7 @@ $Log:$
 <lb ed="B" n="0717a06"/>共依故。又末那自性本來清淨、唯由相應且被染耳。故離倒時即正思量。如思所
 <lb ed="B" n="0717a07"/>成地頌曰。染污意恒時諸惑俱生滅。若解脫諸惑非先亦非後。非彼法生已後淨
 <lb ed="B" n="0717a08"/>異而生。彼先無染污說解脫諸惑。其有染污者畢竟性清淨等。下即釋言。又顯所
-<lb ed="B" n="0717a09"/>說解脫之相、謂非即彼生<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>後方清淨、別有所餘清淨意生。即彼先來無染污故
+<lb ed="B" n="0717a09"/>說解脫之相、謂非即彼生<anchor xml:id="nkr_note_add_0717a0901" n="0717a0901"/><anchor xml:id="beg0717a0901" n="0717a0901"/>已<anchor xml:id="end0717a0901"/>後方清淨、別有所餘清淨意生。即彼先來無染污故
 <lb ed="B" n="0717a10"/>說為解脫。乃至廣說。依此等文當知、出世意識必有出世末那。惣相雖然於中分
 <lb ed="B" n="0717a11"/>別者、菩薩見道證二空故末那二執悉不現行。即與二空平等智俱。二乘見道但
 <lb ed="B" n="0717a12"/>證人空、末那法執猶得現行。唯與人空平等智俱。如意識中證人空邊成無漏智、
@@ -1068,7 +1073,13 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0717a0901" to="#end0717a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0717a0901" resp="#resp1" type="add" target="#nkr_note_add_0717a0901">已【CB】，巳【補編】</note>
 </p>
 </cb:div>
 </back></text></TEI>

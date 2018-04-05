@@ -33,6 +33,7 @@
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2903</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -168,7 +169,7 @@ Added comment  for Emacs
 <lb n="1445b09" ed="T"/>種善果。思尋此經。不可思量。不可稱盡。</p>
 <lb n="1445b10" ed="T"/><p xml:id="pT85p1445b1001">爾時如來語諸菩薩。我說此語。重如太山。眾
 <lb n="1445b11" ed="T"/>生聞者輕如微塵。此法難聞亦復難見。佛語
-<lb n="1445b12" ed="T"/>阿難。若有眾生聞此經者。心生<anchor xml:id="nkr_note_orig_1445003" n="1445003"/><anchor xml:id="beg1445003" n="1445003"/>歎<anchor xml:id="end1445003"/>喜。如此
+<lb n="1445b12" ed="T"/>阿難。若有眾生聞此經者。心生<anchor xml:id="nkr_note_orig_1445003" n="1445003"/><anchor xml:id="nkr_note_mod_1445003" n="1445003"/><anchor xml:id="beg1445003" n="1445003"/>歎<anchor xml:id="end1445003"/>喜。如此
 <lb n="1445b13" ed="T"/>之人盡心為說。爾時世尊復語阿難。我見眾
 <lb n="1445b14" ed="T"/>生墮落三塗。若將刀割。我身體由斯可忍。我
 <lb n="1445b15" ed="T"/>不忍見於眾生受大苦惱。酸悲忍苦。身上演
@@ -197,7 +198,7 @@ Added comment  for Emacs
 <lb n="1445c08" ed="T"/>捉得苦刑。印面非理苦持。佛語菩薩。伽藍中
 <lb n="1445c09" ed="T"/>二種心。一者善心。二者惡心。云何為惡人。若
 <lb n="1445c10" ed="T"/>有眾生入寺之時。唯從眾僧乞索。或求僧長
-<lb n="1445c11" ed="T"/>短或噉德食都無<anchor xml:id="beg_1" type="cb-app"/>慚<anchor xml:id="end_1"/>愧。餅果菜茹懷狹歸家。
+<lb n="1445c11" ed="T"/>短或噉德食都無<anchor xml:id="nkr_note_add_1445c1101" n="1445c1101"/><anchor xml:id="beg1445c1101" n="1445c1101"/>慚<anchor xml:id="end1445c1101"/>愧。餅果菜茹懷狹歸家。
 <lb n="1445c12" ed="T"/>如此之死墮鐵叉地獄。云何名為善人。若有
 <lb n="1445c13" ed="T"/>眾生入寺之時。見僧恭敬。見佛禮拜。受戒懺
 <lb n="1445c14" ed="T"/>悔。捨於財物。經營三寶。不惜身命。護持大法。
@@ -224,7 +225,13 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg1445003" to="#end1445003"><lem resp="#resp1" wit="#wit1">歎</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">歡</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>慚</corr><sic>漸</sic></choice>
+<app from="#beg1445c1101" to="#end1445c1101"><lem wit="#wit2" resp="#resp2">慚</lem><rdg wit="#wit1">漸</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="1445003" resp="#resp2" type="mod" target="#nkr_note_mod_1445003">歎【大】＊，歡【考偽-大】＊</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -233,6 +240,12 @@ Added comment  for Emacs
 <note n="1445001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1445001">大英博物館藏燉煌本, S. 1627, 首題新加</note>
 <note n="1445002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1445002">首缺</note>
 <note n="1445003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1445003">歎＝歡？＊</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1445c1101" resp="#resp2" type="add" target="#nkr_note_add_1445c1101">慚【CB】，漸【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

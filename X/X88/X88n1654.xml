@@ -13,7 +13,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 09:07:53 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 88, No. 1654</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -124,7 +129,7 @@ no message
 <lb ed="X" n="0390c10"/><lb ed="R150" n="0193a10"/>瓶合竹。并得成就。　帝乃大喜。至大曆十年。於當寺。
 <lb ed="X" n="0390c11"/><lb ed="R150" n="0193a11"/>別　勑賜東塔院一所。置毗盧遮那灌頂道場。七僧
 <lb ed="X" n="0390c12"/><lb ed="R150" n="0193a12"/>持念。至大曆十一年。加持代宗皇帝。應時便差。　勅
-<lb ed="X" n="0390c13"/><lb ed="R150" n="0193a13"/>賜紫衣一對。口奏不敢受。應時却進。　勅云。朕<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>賜
+<lb ed="X" n="0390c13"/><lb ed="R150" n="0193a13"/>賜紫衣一對。口奏不敢受。應時却進。　勅云。朕<anchor xml:id="nkr_note_add_0390c1301" n="0390c1301"/><anchor xml:id="beg0390c1301" n="0390c1301"/>已<anchor xml:id="end0390c1301"/>賜
 <lb ed="X" n="0390c14"/><lb ed="R150" n="0193a14"/>師紫衣。何得不受。奏云。一界微僧。賜紫不勝頂荷。即
 <lb ed="X" n="0390c15"/><lb ed="R150" n="0193a15"/>合便受。伏緣和上先皇賜紫。弟子不合與師齊。帝云。
 <lb ed="X" n="0390c16"/><lb ed="R150" n="0193a16"/>師大孝。是朕之錯。　勅云。他宗異姓上。存遵奉孝敬
@@ -148,7 +153,7 @@ no message
 <lb ed="X" n="0391a09"/><lb ed="R150" n="0193b15"/>兩具。銅□瓶四。□奉上和上。充供養。求授胎藏毗盧
 <lb ed="X" n="0391a10"/><lb ed="R150" n="0193b16"/>遮那大法。建中二年。新羅國僧惠日。將本國信物。奉
 <lb ed="X" n="0391a11"/><lb ed="R150" n="0193b17"/>上和上。求授胎藏金剛界蘇悉地等。并諸尊瑜伽三
-<lb ed="X" n="0391a12"/><lb ed="R150" n="0193b18"/>十本。<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>來授訖。精通後時。却歸本國。廣弘大教。精誠
+<lb ed="X" n="0391a12"/><lb ed="R150" n="0193b18"/>十本。<anchor xml:id="nkr_note_add_0391a1201" n="0391a1201"/><anchor xml:id="beg0391a1201" n="0391a1201"/>已<anchor xml:id="end0391a1201"/>來授訖。精通後時。却歸本國。廣弘大教。精誠
 <lb ed="X" n="0391a13"/><lb ed="R150" n="0194a01"/>絕粒持念。悉地現前。遂白日冲天。其國王宮中瞻禮。
 <lb ed="X" n="0391a14"/><lb ed="R150" n="0194a02"/>求乞其法。空中□言西大唐國。有秘密法法有青龍
 <lb ed="X" n="0391a15"/><lb ed="R150" n="0194a03"/>寺。同年新羅國僧悟真。授胎藏毗盧遮那及諸尊持
@@ -198,8 +203,8 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0390c1301" to="#end0390c1301"><lem wit="#wit1" resp="#resp3">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0391a1201" to="#end0391a1201"><lem wit="#wit1" resp="#resp3">已</lem><rdg wit="#wit2">巳</rdg></app>
 </p>
 </cb:div>
 <cb:div type="xuzang-notes">
@@ -217,6 +222,13 @@ no message
 <note n="0391004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0391004">索疑素</note>
 <note n="0391005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0391005">贊疑替</note>
 <note n="0391006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0391006">物下疑佚失或未脫稿歟</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0390c1301" resp="#resp2" type="add" target="#nkr_note_add_0390c1301">已【CB】，巳【卍續】</note>
+<note n="0391a1201" resp="#resp2" type="add" target="#nkr_note_add_0391a1201">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

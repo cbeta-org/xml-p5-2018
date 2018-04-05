@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 39, No. 1800</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -483,7 +487,7 @@ Added comment  for Emacs
 <lb n="0971c23" ed="T"/>此解。但此土西土同是應佛。淨穢相形故有
 <lb n="0971c24" ed="T"/>優劣。若作真語不復得移動。辨其優劣。若彼
 <lb n="0971c25" ed="T"/>是真佛土應極淨。此則不可。若作本迹語。此
-<lb n="0971c26" ed="T"/>為迹彼為本。本迹相<anchor xml:id="beg_1" type="cb-app"/>傳<anchor xml:id="end_1"/>。望此語則寬。雖然今
+<lb n="0971c26" ed="T"/>為迹彼為本。本迹相<anchor xml:id="nkr_note_add_0971c2601" n="0971c2601"/><anchor xml:id="beg0971c2601" n="0971c2601"/>傳<anchor xml:id="end0971c2601"/>。望此語則寬。雖然今
 <lb n="0971c27" ed="T"/>亦不用。那知釋迦是迹無量是本。二佛各有
 <lb n="0971c28" ed="T"/>本迹。那互為本迹。此又不可。今明此土為穢
 <lb n="0971c29" ed="T"/>彼即為淨。今穢國眾生見思毒害。欲借淨土
@@ -960,13 +964,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>傳</corr><sic>傅</sic></choice>
+<app from="#beg0971c2601" to="#end0971c2601"><lem wit="#wit1" resp="#resp2">傳</lem><rdg wit="#wit2">傅</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0968001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0968001">【原】清康熙三年八月刊增上寺報恩藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0971c2601" resp="#resp2" type="add" target="#nkr_note_add_0971c2601">傳【CB】，傅【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

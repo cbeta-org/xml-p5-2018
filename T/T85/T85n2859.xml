@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:15:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,6 +34,7 @@
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2859</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -256,7 +258,7 @@ Added comment  for Emacs
 <lb n="1314c24" ed="T"/>賢愚。是共老苦不如聞。早須造福田。人命剎
 <lb n="1314c25" ed="T"/>那看看過世。大須用意。便乃修行。一失身無
 <lb n="1314c26" ed="T"/>由再復。此即名為老苦。相公是夜乃為夫人
-<lb n="1314c27" ed="T"/>說其病苦。夫人又聞。何名<anchor xml:id="nkr_note_orig_1314003" n="1314003"/><anchor xml:id="beg1314003" n="1314003"/>為<anchor xml:id="end1314003"/>者。四處大之
+<lb n="1314c27" ed="T"/>說其病苦。夫人又聞。何名<anchor xml:id="nkr_note_orig_1314003" n="1314003"/><anchor xml:id="nkr_note_mod_1314003" n="1314003"/><anchor xml:id="beg1314003" n="1314003"/>為<anchor xml:id="end1314003"/>者。四處大之
 <lb n="1314c28" ed="T"/>何曾有實。眾緣假合地水火風。一脈不調是
 <lb n="1314c29" ed="T"/>病。俱起忽然用重著床。魂魄不安五神俱失。
 <pb n="1315a" xml:id="T85.2859.1315a" ed="T"/>
@@ -270,7 +272,7 @@ Added comment  for Emacs
 <lb n="1315a08" ed="T"/>中七早希三人同受百歲能得幾時人生在
 <lb n="1315a09" ed="T"/>世。若有妙術。合有千歲之人何不用意。三
 <lb n="1315a10" ed="T"/>思狂受師人誑赫。此即名為病苦。相公是夜
-<lb n="1315a11" ed="T"/>為夫人<anchor xml:id="nkr_note_orig_1315001" n="1315001"/><anchor xml:id="beg1315001" n="1315001"/>苦<anchor xml:id="end1315001"/>者。四大欲將歸滅魂魄逐風摧。兄
+<lb n="1315a11" ed="T"/>為夫人<anchor xml:id="nkr_note_orig_1315001" n="1315001"/><anchor xml:id="nkr_note_mod_1315001" n="1315001"/><anchor xml:id="beg1315001" n="1315001"/>苦<anchor xml:id="end1315001"/>者。四大欲將歸滅魂魄逐風摧。兄
 <lb n="1315a12" ed="T"/>弟長辭那孃永隔。妻兒男女無由再會。支期
 <lb n="1315a13" ed="T"/>朋友往還一剎。無由再見。金銀錢物一任分
 <lb n="1315a14" ed="T"/>將。底店莊園不能將去。貪愛死苦四大分離。
@@ -329,7 +331,7 @@ Added comment  for Emacs
 <lb n="1315c07" ed="T"/>鳥靈禽飛來。滿似祥震不散常遊紫殿之傍。
 <lb n="1315c08" ed="T"/>瑞氣盤旋不離朱樓之側。諸天聞法十類聞
 <lb n="1315c09" ed="T"/>經有形無形無相皆為涅槃而行滅度。善慶思
-<lb n="1315c10" ed="T"/>惟既畢滿<anchor xml:id="beg_1" type="cb-app"/>目<anchor xml:id="end_1"/>是淚。相公怪之問善慶曰。吾為
+<lb n="1315c10" ed="T"/>惟既畢滿<anchor xml:id="nkr_note_add_1315c1001" n="1315c1001"/><anchor xml:id="beg1315c1001" n="1315c1001"/>目<anchor xml:id="end1315c1001"/>是淚。相公怪之問善慶曰。吾為
 <lb n="1315c11" ed="T"/>儞講經。有何事理頻啼泣。汝且為復怨恨阿
 <lb n="1315c12" ed="T"/>誰解事速說情由不說眼看喫杖。善慶進步
 <lb n="1315c13" ed="T"/>向前啟相公曰。賤奴並不怨恨他別人。只為
@@ -722,7 +724,14 @@ Added comment  for Emacs
 <p>
 <app from="#beg1314003" to="#end1314003"><lem resp="#resp1" wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">為病</rdg></app>
 <app from="#beg1315001" to="#end1315001"><lem resp="#resp1" wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">說死死苦</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>目</corr><sic>日</sic></choice>
+<app from="#beg1315c1001" to="#end1315c1001"><lem wit="#wit2" resp="#resp3">目</lem><rdg wit="#wit1">日</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="1314003" resp="#resp2" type="mod" target="#nkr_note_mod_1314003">為【大】，為病【考偽-大】</note>
+<note n="1315001" resp="#resp2" type="mod" target="#nkr_note_mod_1315001">苦【大】，說死死苦【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -732,6 +741,12 @@ Added comment  for Emacs
 <note n="1314002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1314002">首缺</note>
 <note n="1314003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1314003">為＋（病）？</note>
 <note n="1315001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1315001">（說死死）＋苦？</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1315c1001" resp="#resp2" type="add" target="#nkr_note_add_1315c1001">目【CB】，日【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

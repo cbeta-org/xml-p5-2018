@@ -14,8 +14,9 @@
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2012/05/28 05:27:56 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.say</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,6 +33,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 19, No. 944A</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -394,7 +399,7 @@ Added comment  for Emacs
 <lb n="0100c16" ed="T"/>也<note place="inline">二合引</note>怛他建者曩麼理迦俱蘇唵<note place="inline">二合</note>婆囉
 <lb n="0100c17" ed="T"/>哆曩制嚩吠嚧<note place="inline">引</note>者曩俱娜<note place="inline">引</note>囉菟<note place="inline">二合</note>瑟膩<note place="inline">二
 <lb n="0100c18" ed="T"/>合</note>娑<note place="inline">引</note>尾<g ref="#CB00036">𧂐</g><g ref="#CB01236">𡄦</g><note place="inline">二合</note>波摩<note place="inline">引</note>拏<note place="inline">引</note>者嚩日囉<note place="inline">二合</note>
-<lb n="0100c19" ed="T"/>迦曩迦鉢囉<note place="inline">二合</note>波魯<anchor xml:id="beg_1" type="cb-app"/><space quantity="0"/><anchor xml:id="end_1"/>者囊嚩日囉<note place="inline">二合</note>頓膩
+<lb n="0100c19" ed="T"/>迦曩迦鉢囉<note place="inline">二合</note>波魯<anchor xml:id="nkr_note_add_0100c1901" n="0100c1901"/><anchor xml:id="beg0100c1901" n="0100c1901"/><space quantity="0"/><anchor xml:id="end0100c1901"/>者囊嚩日囉<note place="inline">二合</note>頓膩
 <lb n="0100c20" ed="T"/>者始吠<note place="inline">二合</note>跢<note place="inline">引</note>者迦麼攞<note place="inline">引</note>訖叉<note place="inline">二合</note>捨施鉢
 <lb n="0100c21" ed="T"/>囉<note place="inline">二合</note>婆<note place="inline">引</note>伊底曳<note place="inline">二合引</note>帝母捺囉<note place="inline">二合</note>誐拏薩
 <lb n="0100c22" ed="T"/>吠<g ref="#CB00080">𡀔</g>訖刪<note place="inline">二合</note>俱囉挽<note place="inline">二合</note>覩麼麼寫唵<note place="inline">引</note>唎史
@@ -570,7 +575,7 @@ Added comment  for Emacs
 <lb n="0102c12" ed="T"/><note place="inline">引</note>弭怛儞也<note place="inline">二合</note>他<note place="inline">引</note>唵阿曩囇<note place="inline">引</note>阿曩<note place="inline">引</note>囇尾
 <lb n="0102c13" ed="T"/>舍娜尾舍娜滿馱滿馱滿<note place="inline">引</note>馱儞滿馱儞吠<note place="inline">引</note>
 <lb n="0102c14" ed="T"/>囉嚩日囉<note place="inline">二合</note>播<note place="inline">引</note>抳泮吒吽<note place="inline">引</note><g ref="#CB03677">𢻵</g>啉<note place="inline">二合引</note>泮吒
-<lb n="0102c15" ed="T"/>娑嚩<note place="inline">二合引</note><anchor xml:id="beg_2" type="cb-app"/>訶<anchor xml:id="end_2"/>曩謨<note place="inline">引</note>娑哆<note place="inline">二合</note>他<note place="inline">引</note>誐跢<note place="inline">引</note>耶蘇
+<lb n="0102c15" ed="T"/>娑嚩<note place="inline">二合引</note><anchor xml:id="nkr_note_add_0102c1501" n="0102c1501"/><anchor xml:id="beg0102c1501" n="0102c1501"/>訶<anchor xml:id="end0102c1501"/>曩謨<note place="inline">引</note>娑哆<note place="inline">二合</note>他<note place="inline">引</note>誐跢<note place="inline">引</note>耶蘇
 <lb n="0102c16" ed="T"/>誐跢<note place="inline">引</note>耶囉訶<note place="inline">二合</note>帝<note place="inline">引</note>三<note place="inline">去</note>藐三<note place="inline">去</note>沒馱<note place="inline">引</note>耶
 <lb n="0102c17" ed="T"/>悉殿覩曼怛囉<note place="inline">二合</note>跛娜<note place="inline">引</note>娑嚩<note place="inline">二合引</note>訶</p></cb:div>
 <lb n="0102c18" ed="T"/><cb:div type="w"><p xml:id="pT19p0102c1801">大唐青龍寺內供奉沙門曇貞修建真言碑本。</p>
@@ -581,14 +586,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr><space quantity="0"/></corr><sic><note place="inline">二</note></sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>訶<note type="cf1">T19n0944Bp0105b19</note></corr><sic>阿</sic></choice>
+<app from="#beg0100c1901" to="#end0100c1901"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2"><note place="inline">二</note></rdg></app>
+<app from="#beg0102c1501" to="#end0102c1501"><lem wit="#wit1" resp="#resp4">訶<note type="cf1">T19n0944Bp0105b19</note></lem><rdg wit="#wit2">阿</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0100001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0100001">【原】黃檗版淨嚴等加筆本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0100c1901" resp="#resp2" type="add" target="#nkr_note_add_0100c1901">［－］【CB】，<note place="inline">二</note>【大】</note>
+<note n="0102c1501" resp="#resp2" type="add" target="#nkr_note_add_0102c1501">訶【CB】，阿【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

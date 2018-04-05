@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.6 $<date>$Date: 2009/04/23 08:01:45 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 21, No. 1252a</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -147,7 +152,7 @@ Added comment  for Emacs
 <lb n="0252b29" ed="T"/>曰。</p>
 <pb n="0252c" xml:id="T21.1252a.0252c" ed="T"/>
 <lb n="0252c01" ed="T"/><p cb:type="dharani" xml:id="pT21p0252c0101">怛儞也<note place="inline">二合</note>他室哩<note place="inline">二合</note>抳室哩<note place="inline">二合</note>抳<note place="inline">二</note>薩嚩
-<lb n="0252c02" ed="T"/>迦哩野<anchor xml:id="beg_1" type="cb-app"/>娑<anchor xml:id="end_1"/>馱<g ref="#CB00576">𩕳</g>悉<g ref="#CB00576">𩕳</g>悉<g ref="#CB00576">𩕳</g><g ref="#CB00576">𩕳</g><g ref="#CB00576">𩕳</g><g ref="#CB00576">𩕳</g><g ref="#CB00576">𩕳</g>阿落乞史
+<lb n="0252c02" ed="T"/>迦哩野<anchor xml:id="nkr_note_add_0252c0201" n="0252c0201"/><anchor xml:id="beg0252c0201" n="0252c0201"/>娑<anchor xml:id="end0252c0201"/>馱<g ref="#CB00576">𩕳</g>悉<g ref="#CB00576">𩕳</g>悉<g ref="#CB00576">𩕳</g><g ref="#CB00576">𩕳</g><g ref="#CB00576">𩕳</g><g ref="#CB00576">𩕳</g><g ref="#CB00576">𩕳</g>阿落乞史
 <lb n="0252c03" ed="T"/>茗　曩捨野　娑嚩<note place="inline">二合引</note>訶</p>
 <lb n="0252c04" ed="T"/><p xml:id="pT21p0252c0401">爾時世尊說是陀羅尼已。告觀自在菩薩言。
 <lb n="0252c05" ed="T"/>此大吉祥陀羅尼及十二名號。能除貧窮一
@@ -163,13 +168,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>娑<note type="cf1">T21n1252bp0253a07</note></corr><sic>婆</sic></choice>
+<app from="#beg0252c0201" to="#end0252c0201"><lem wit="#wit1" resp="#resp3">娑<note type="cf1">T21n1252bp0253a07</note></lem><rdg wit="#wit2">婆</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0252001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0252001">【原】麗本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0252c0201" resp="#resp2" type="add" target="#nkr_note_add_0252c0201">娑【CB】，婆【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

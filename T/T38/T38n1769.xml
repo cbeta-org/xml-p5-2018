@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:10:16 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -1433,7 +1434,7 @@ Added comment  for Emacs
 <lb n="0253a15" ed="T"/>三世未至理原。無非三世。如經云。後身菩薩
 <lb n="0253a16" ed="T"/>佛性因故亦是過去現在未來。果亦如是。九
 <lb n="0253a17" ed="T"/>地菩薩佛性因故亦是過去現在未來。果亦如
-<lb n="0253a18" ed="T"/>是。<anchor xml:id="nkr_note_orig_0253001" n="0253001"/><anchor xml:id="beg0253001" n="0253001"/>九地菩薩佛性因故亦是過去現在未來。
+<lb n="0253a18" ed="T"/>是。<anchor xml:id="nkr_note_orig_0253001" n="0253001"/><anchor xml:id="nkr_note_mod_0253001" n="0253001"/><anchor xml:id="beg0253001" n="0253001"/>九地菩薩佛性因故亦是過去現在未來。
 <lb n="0253a19" ed="T"/>果亦如是<anchor xml:id="end0253001"/>乃至廣說故。問第二句中明如來
 <lb n="0253a20" ed="T"/>因乃取未成佛時因性。今第三句明菩薩果
 <lb n="0253a21" ed="T"/>廣說當成時果性。何故此中不取當果。解云。
@@ -1671,6 +1672,12 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0253001" to="#end0253001"><lem resp="#resp1" wit="#wit1">九地菩薩佛性因故亦是過去現在未來。<lb n="0253a19" ed="T"/>果亦如是</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0253001" resp="#resp2" type="mod" target="#nkr_note_mod_0253001">（九地…是）二十字【大】，〔－〕【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

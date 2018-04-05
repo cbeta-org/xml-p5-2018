@@ -14,6 +14,7 @@
         <editionStmt>
                 <edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:08:32 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -114,8 +115,8 @@ Added comment  for Emacs
 <lb n="0773a02" ed="T"/><cb:docNumber>No. 1685</cb:docNumber>
 <lb n="0773a03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead>佛說八大靈塔名號經</cb:jhead></cb:juan>
 <lb n="0773a04" ed="T"/>
-<lb n="0773a05" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0773001" n="0773001"/><anchor xml:id="beg0773001" n="0773001"/>西天<anchor xml:id="end0773001"/>譯經三藏朝散大夫試光祿卿
-<lb n="0773a06" ed="T"/>明教大師<anchor xml:id="nkr_note_orig_0773002" n="0773002"/><anchor xml:id="beg0773002" n="0773002"/>臣<anchor xml:id="end0773002"/>法賢奉　詔譯</byline>
+<lb n="0773a05" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0773001" n="0773001"/><anchor xml:id="nkr_note_mod_0773001" n="0773001"/><anchor xml:id="beg0773001" n="0773001"/>西天<anchor xml:id="end0773001"/>譯經三藏朝散大夫試光祿卿
+<lb n="0773a06" ed="T"/>明教大師<anchor xml:id="nkr_note_orig_0773002" n="0773002"/><anchor xml:id="nkr_note_mod_0773002" n="0773002"/><anchor xml:id="beg0773002" n="0773002"/>臣<anchor xml:id="end0773002"/>法賢奉　詔譯</byline>
 <lb n="0773a07" ed="T"/><cb:div type="jing"><p xml:id="pT32p0773a0701">爾時世尊告諸苾芻：「我今稱揚八大靈塔名
 <lb n="0773a08" ed="T"/>號。汝等諦聽，當為汝說。何等為八？所謂第一
 <lb n="0773a09" ed="T"/>迦毘羅城龍彌儞園是佛生處，第二摩伽陀
@@ -143,7 +144,7 @@ Added comment  for Emacs
 <lb n="0773b01" ed="T"/>此八大靈塔，向此生中至誠供養，是人命終
 <lb n="0773b02" ed="T"/>速生天界。」</p>
 <lb n="0773b03" ed="T"/><p xml:id="pT32p0773b0301">爾時世尊復告諸苾芻：「汝等諦聽，我今當說，
-<lb n="0773b04" ed="T"/><anchor xml:id="nkr_note_orig_0773003" n="0773003"/><anchor xml:id="beg0773003" n="0773003"/>遊<anchor xml:id="end0773003"/>止國城及於住世。」而說頌曰：</p>
+<lb n="0773b04" ed="T"/><anchor xml:id="nkr_note_orig_0773003" n="0773003"/><anchor xml:id="nkr_note_mod_0773003" n="0773003"/><anchor xml:id="beg0773003" n="0773003"/>遊<anchor xml:id="end0773003"/>止國城及於住世。」而說頌曰：</p>
 <lb n="0773b05" ed="T"/><lg xml:id="lgT32p0773b0501" rend="margin-left:1em;text-indent:-1em"><l>「二十九載處王宮，</l><l>六年雪山修苦行，</l>
 <lb n="0773b06" ed="T"/><l>五歲王舍城化度，</l><l>四年在於毘沙林，</l>
 <lb n="0773b07" ed="T"/><l>二年惹里巖安居，</l><l>二十三載止舍衛，</l>
@@ -161,6 +162,14 @@ Added comment  for Emacs
 <app from="#beg0773001" to="#end0773001"><lem wit="#wit1">西天</lem><rdg resp="#resp1" wit="#wit2">宋西天</rdg></app>
 <app from="#beg0773002" to="#end0773002"><lem wit="#wit1">臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0773003" to="#end0773003"><lem wit="#wit1">遊</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit5">游</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note resp="#resp2" n="0773001" type="mod" target="#nkr_note_mod_0773001">西天【大】，宋西天【明】</note>
+<note resp="#resp2" n="0773002" type="mod" target="#nkr_note_mod_0773002">臣【大】，〔－〕【明】</note>
+<note resp="#resp2" n="0773003" type="mod" target="#nkr_note_mod_0773003">遊【大】，游【宋】【元】【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

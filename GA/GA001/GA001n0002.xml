@@ -14,7 +14,8 @@
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>DILA</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>6卷</extent>
 		<publicationStmt>
@@ -31,7 +32,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Zhongguo Fosi Shizhi Huikan Vol. 1, No. 2</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【志彙】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -528,7 +533,7 @@ $Log:$
 <pb ed="GA" xml:id="GA001.0002.0229a" n="0229a"/>
 <lb ed="GA" n="0229a01"/><p xml:id="pGA001p0229a0101" rend="margin-left:1em"><figure><graphic url="../figures/GA/GA001p0229_01.gif"></graphic></figure><anchor xml:id="nkr_note_orig_0229001" n="0229001"/></p></cb:div>
 <pb ed="GA" xml:id="GA001.0002.0230a" n="0230a"/>
-<lb ed="GA" n="0230a01"/><cb:juan fun="open" n="1"><cb:jhead>洛陽伽藍記卷<anchor xml:id="beg_1" type="cb-app"/>第<anchor xml:id="end_1"/>一</cb:jhead></cb:juan>
+<lb ed="GA" n="0230a01"/><cb:juan fun="open" n="1"><cb:jhead>洛陽伽藍記卷<anchor xml:id="nkr_note_add_0230a0101" n="0230a0101"/><anchor xml:id="beg0230a0101" n="0230a0101"/>第<anchor xml:id="end0230a0101"/>一</cb:jhead></cb:juan>
 <lb ed="GA" n="0230a02"/><byline cb:type="author">魏撫軍府司馬楊衒之譔</byline>
 <lb ed="GA" n="0230a03"/><cb:div type="other"><cb:mulu type="其他" level="2">城內</cb:mulu><head>城內</head>
 <lb ed="GA" n="0230a04"/><cb:div type="other"><cb:mulu type="其他" level="3">永<g ref="#CB33491">󸋓</g>寺</cb:mulu><head>永<g ref="#CB33491">󸋓</g>寺</head><p xml:id="pGA001p0230a0404" rend="inline">熙平元年靈太后胡氏所立也在宮前閶闔門南一
@@ -568,11 +573,11 @@ $Log:$
 <lb ed="GA" n="0230b13"/>通知名海內太和十九年為高祖所器拔為律學博士刑
 <lb ed="GA" n="0230b14"/>法疑獄多訪於景正始初詔刊律令永作通式敕景共治
 <lb ed="GA" n="0230b15"/>書侍御史高僧裕羽林監王元龜尚書<reg>郎</reg>祖瑩員外散騎
-<lb ed="GA" n="0230b16"/>侍<reg>郎</reg>李琰之等譔集其議又詔太師彭城王勰青州<anchor xml:id="beg_2" type="cb-app"/>刺<anchor xml:id="end_2"/>史
+<lb ed="GA" n="0230b16"/>侍<reg>郎</reg>李琰之等譔集其議又詔太師彭城王勰青州<anchor xml:id="nkr_note_add_0230b1601" n="0230b1601"/><anchor xml:id="beg0230b1601" n="0230b1601"/>刺<anchor xml:id="end0230b1601"/>史
 <lb ed="GA" n="0230b17"/>劉芳入預其議景討正科條商搉古今甚有倫序見行於
 <lb ed="GA" n="0230b18"/>世今律二十篇是也又共芳造洛陽宮殿門閣之名經涂
 <lb ed="GA" n="0230b19"/>里邑之號出除長安令時人比之潘岳其後歷位中書舍
-<lb ed="GA" n="0230b20"/>人黃門侍<reg>郎</reg>秘書監幽州<anchor xml:id="beg_3" type="cb-app"/>刺<anchor xml:id="end_3"/>史儀同三司學徒以為榮焉
+<lb ed="GA" n="0230b20"/>人黃門侍<reg>郎</reg>秘書監幽州<anchor xml:id="nkr_note_add_0230b2001" n="0230b2001"/><anchor xml:id="beg0230b2001" n="0230b2001"/>刺<anchor xml:id="end0230b2001"/>史儀同三司學徒以為榮焉
 <lb ed="GA" n="0230b21"/>景入參近侍出為侯牧居室貧儉事等農家惟有經史盈
 <lb ed="GA" n="0230b22"/>車滿架所箸文集數百餘篇給事封暐伯作序行於世</p>
 <lb ed="GA" n="0230b23"/><p xml:id="pGA001p0230b2301" rend="margin-left:1em"><reg>裝</reg>飾畢功明帝與太后共登之視宮內如掌中臨京師若
@@ -672,7 +677,7 @@ $Log:$
 <lb ed="GA" n="0232b17"/>不問卿等何為不降官爵如故歸曰臣從太原王來朝陛
 <lb ed="GA" n="0232b18"/>下何忽今日枉致無理臣欲往晉陽不忍空去願得太原
 <lb ed="GA" n="0232b19"/>王尸喪生死無恨發言雨淚哀不自勝羣胡慟哭聲振京
-<lb ed="GA" n="0232b20"/>師帝聞之亦為傷懷遣侍中朱元龍齎鐵<anchor xml:id="beg_4" type="cb-app"/>券<anchor xml:id="end_4"/>與世隆待之
+<lb ed="GA" n="0232b20"/>師帝聞之亦為傷懷遣侍中朱元龍齎鐵<anchor xml:id="nkr_note_add_0232b2001" n="0232b2001"/><anchor xml:id="beg0232b2001" n="0232b2001"/>券<anchor xml:id="end0232b2001"/>與世隆待之
 <lb ed="GA" n="0232b21"/>不死官位如故世隆謂元龍曰太原王功格天地造濟生
 <lb ed="GA" n="0232b22"/>民赤心奉國神明所知長樂不顧信誓枉害忠良今日兩
 <lb ed="GA" n="0232b23"/>行鐵字何足可信吾為太原王報仇終不歸降元龍見世
@@ -864,9 +869,9 @@ $Log:$
 <lb ed="GA" n="0236b09"/>魃為虐穀水注之不竭離畢滂潤陽穀泄之不盈至於鱗
 <lb ed="GA" n="0236b10"/>甲異品羽毛殊類濯波浮浪如似自然也</p></cb:div></cb:div>
 <lb ed="GA" n="0236b11"/>
-<lb ed="GA" n="0236b12"/><cb:juan fun="close" n="1"><cb:jhead>洛陽伽藍記卷<anchor xml:id="beg_5" type="cb-app"/>第<anchor xml:id="end_5"/>一</cb:jhead></cb:juan>
+<lb ed="GA" n="0236b12"/><cb:juan fun="close" n="1"><cb:jhead>洛陽伽藍記卷<anchor xml:id="nkr_note_add_0236b1201" n="0236b1201"/><anchor xml:id="beg0236b1201" n="0236b1201"/>第<anchor xml:id="end0236b1201"/>一</cb:jhead></cb:juan>
 <pb ed="GA" xml:id="GA001.0002.0237a" n="0237a"/>
-<lb ed="GA" n="0237a01"/><milestone unit="juan" n="2"/><cb:mulu type="卷" n="2"></cb:mulu><cb:juan fun="open" n="2"><cb:jhead>洛陽伽藍記卷<anchor xml:id="beg_6" type="cb-app"/>第<anchor xml:id="end_6"/>二</cb:jhead></cb:juan>
+<lb ed="GA" n="0237a01"/><milestone unit="juan" n="2"/><cb:mulu type="卷" n="2"></cb:mulu><cb:juan fun="open" n="2"><cb:jhead>洛陽伽藍記卷<anchor xml:id="nkr_note_add_0237a0101" n="0237a0101"/><anchor xml:id="beg0237a0101" n="0237a0101"/>第<anchor xml:id="end0237a0101"/>二</cb:jhead></cb:juan>
 <lb ed="GA" n="0237a02"/><byline cb:type="author">魏撫軍府司馬楊衒之譔</byline>
 <lb ed="GA" n="0237a03"/><cb:div type="other"><cb:mulu type="其他" level="2">城東</cb:mulu><head>城東</head>
 <lb ed="GA" n="0237a04"/><cb:div type="other"><cb:mulu type="其他" level="3">明懸尼寺</cb:mulu><head>明懸尼寺</head><p xml:id="pGA001p0237a0405" rend="inline">彭城武宣王勰所立也在建春門外石樓南</p>
@@ -1037,21 +1042,21 @@ $Log:$
 <lb ed="GA" n="0240a19"/>放</l><l rend="text-indent:1em">爾乃決石通泉　拔嶺巖前</l><l rend="text-indent:1em">斜與危雲等曲　危與曲棟相
 <lb ed="GA" n="0240a20"/>連</l><l rend="text-indent:1em">下天津之高霧　納滄海之遠煙</l><l rend="text-indent:1em">纖列之狀如一古　崩剝
 <lb ed="GA" n="0240a21"/>之勢似千年</l><l rend="text-indent:1em">若乃絕嶺懸坡　蹭蹬蹉跎</l><l rend="text-indent:1em">水紆徐如浪峭
-<lb ed="GA" n="0240a22"/>　山<anchor xml:id="beg_7" type="cb-app"/>石<anchor xml:id="end_7"/><anchor xml:id="nkr_note_orig_0240001" n="0240001"/>高下復危多</l><l rend="text-indent:1em">五尋百拔　十步千過　則知巫山弗及　<anchor xml:id="beg_8" type="cb-app"/>未<anchor xml:id="end_8"/>
-<lb ed="GA" n="0240a23"/><anchor xml:id="beg_9" type="cb-app"/>審<anchor xml:id="end_9"/>蓬萊如何</l><l rend="text-indent:1em">其中煙花霧草　或傾或倒</l><l rend="text-indent:1em">霜幹風枝　半聳半
+<lb ed="GA" n="0240a22"/>　山<anchor xml:id="nkr_note_add_0240a2201" n="0240a2201"/><anchor xml:id="beg0240a2201" n="0240a2201"/>石<anchor xml:id="end0240a2201"/><anchor xml:id="nkr_note_orig_0240001" n="0240001"/>高下復危多</l><l rend="text-indent:1em">五尋百拔　十步千過　則知巫山弗及　<anchor xml:id="nkr_note_add_0240a2202" n="0240a2202"/><anchor xml:id="beg0240a2202" n="0240a2202"/>未<anchor xml:id="end0240a2202"/>
+<lb ed="GA" n="0240a23"/><anchor xml:id="nkr_note_add_0240a2301" n="0240a2301"/><anchor xml:id="beg0240a2301" n="0240a2301"/>審<anchor xml:id="end0240a2301"/>蓬萊如何</l><l rend="text-indent:1em">其中煙花霧草　或傾或倒</l><l rend="text-indent:1em">霜幹風枝　半聳半
 <lb ed="GA" n="0240a24"/>垂</l><l rend="text-indent:1em">玉葉金莖　散滿堦墀</l><l rend="text-indent:1em">然目之綺　裂鼻之馨　既共陽春等
 <pb ed="GA" xml:id="GA001.0002.0240b" n="0240b"/>
 <lb ed="GA" n="0240b01"/>茂　復與白雪齊清</l><l rend="text-indent:1em">或言神明之骨　陰陽之精　天地未覺生
 <lb ed="GA" n="0240b02"/>此　異人焉識其中</l><l rend="text-indent:1em">羽徒紛泊　色雜蒼黃</l><l rend="text-indent:1em">綠頭紫頰　好翠連
 <lb ed="GA" n="0240b03"/>芳</l><l rend="text-indent:1em">白鶴生於異縣　丹足出自它鄉</l><l rend="text-indent:1em">皆遠來以臻此　藉水木
 <lb ed="GA" n="0240b04"/>以翱翔</l><l rend="text-indent:1em">不憶春於沙漠　遂忘秋於高陽</l><l rend="text-indent:1em">非斯人之感至　伺
-<lb ed="GA" n="0240b05"/>候鳥之迷方</l><l rend="text-indent:1em">豈下俗之所務　實神怪之異<anchor xml:id="beg_a" type="cb-app"/>趣<anchor xml:id="end_a"/></l><l rend="text-indent:1em">能造者其必
+<lb ed="GA" n="0240b05"/>候鳥之迷方</l><l rend="text-indent:1em">豈下俗之所務　實神怪之異<anchor xml:id="nkr_note_add_0240b0501" n="0240b0501"/><anchor xml:id="beg0240b0501" n="0240b0501"/>趣<anchor xml:id="end0240b0501"/></l><l rend="text-indent:1em">能造者其必
 <lb ed="GA" n="0240b06"/>詩　敢往者無不賦</l><l rend="text-indent:1em">或就饒風之地　或入多雲之處</l><l rend="text-indent:1em">氣嶺與
 <lb ed="GA" n="0240b07"/>梅岑　隨春之所悟</l><l rend="text-indent:1em">遠為神仙所賞　近為朝士所知</l><l rend="text-indent:1em">求解脫
 <lb ed="GA" n="0240b08"/>於服佩　預參次於山垂</l><l rend="text-indent:1em">子英游魚於玉質　王喬繫鵠於松
 <lb ed="GA" n="0240b09"/>枝</l><l rend="text-indent:1em">方丈不足以妙詠歌此處態多奇</l><l rend="text-indent:1em">嗣宗聞之動魄　叔夜
 <lb ed="GA" n="0240b10"/>聽此驚魂</l><l rend="text-indent:1em">恨不能鑽地一出　醉此山門</l><l rend="text-indent:1em">別有王孫公子　遜
-<lb ed="GA" n="0240b11"/>遁容儀　思山念水　命駕相隨</l><l rend="text-indent:1em">逢岑愛曲　值石凌欹</l><l rend="text-indent:1em"><anchor xml:id="beg_b" type="cb-app"/>庭<anchor xml:id="end_b"/>為仁
+<lb ed="GA" n="0240b11"/>遁容儀　思山念水　命駕相隨</l><l rend="text-indent:1em">逢岑愛曲　值石凌欹</l><l rend="text-indent:1em"><anchor xml:id="nkr_note_add_0240b1101" n="0240b1101"/><anchor xml:id="beg0240b1101" n="0240b1101"/>庭<anchor xml:id="end0240b1101"/>為仁
 <lb ed="GA" n="0240b12"/>智之田　故能種此石山</l><l rend="text-indent:1em">森羅兮草木　長育兮風煙</l><l rend="text-indent:1em">孤松既
 <lb ed="GA" n="0240b13"/>能卻老　半石亦可留年</l><l rend="text-indent:1em">若不坐臥兮於其側　春夏兮其游
 <lb ed="GA" n="0240b14"/>陟</l><l rend="text-indent:1em">白骨兮徒自朽　方寸心兮何所憶</l></lg></cb:div>
@@ -1080,7 +1085,7 @@ $Log:$
 <lb ed="GA" n="0241a12"/>禪文曰皇帝咨廣陵王恭自我皇魏之有天下也累聖開
 <lb ed="GA" n="0241a13"/>輔重基衍業奄有萬邦光宅四海故道溢百王德漸無外
 <lb ed="GA" n="0241a14"/>而孝明晏駕人神□主故柱國大將軍大丞相太原王榮
-<lb ed="GA" n="0241a15"/>地實封<anchor xml:id="beg_c" type="cb-app"/>陝<anchor xml:id="end_c"/>任惟外相乃心王室大懼崩淪故推立長樂王
+<lb ed="GA" n="0241a15"/>地實封<anchor xml:id="nkr_note_add_0241a1501" n="0241a1501"/><anchor xml:id="beg0241a1501" n="0241a1501"/>陝<anchor xml:id="end0241a1501"/>任惟外相乃心王室大懼崩淪故推立長樂王
 <lb ed="GA" n="0241a16"/>子攸以續絕業庶九鼎之命日隆七百之祚惟永然羣飛
 <lb ed="GA" n="0241a17"/>未<g ref="#CB33491">󸋓</g>橫流且及皆狼顧鴟張岳立基趾丞相一揮大定海
 <lb ed="GA" n="0241a18"/>內而子攸不顧宗社讐忌勳德招散輕俠左右壬人遂虐
@@ -1214,9 +1219,9 @@ $Log:$
 <lb ed="GA" n="0243b21"/>
 <lb ed="GA" n="0243b22"/>
 <lb ed="GA" n="0243b23"/>
-<lb ed="GA" n="0243b24"/><cb:juan fun="close" n="2"><cb:jhead>洛陽伽藍記卷<anchor xml:id="beg_d" type="cb-app"/>第<anchor xml:id="end_d"/>二</cb:jhead></cb:juan>
+<lb ed="GA" n="0243b24"/><cb:juan fun="close" n="2"><cb:jhead>洛陽伽藍記卷<anchor xml:id="nkr_note_add_0243b2401" n="0243b2401"/><anchor xml:id="beg0243b2401" n="0243b2401"/>第<anchor xml:id="end0243b2401"/>二</cb:jhead></cb:juan>
 <pb ed="GA" xml:id="GA001.0002.0244a" n="0244a"/>
-<lb ed="GA" n="0244a01"/><milestone unit="juan" n="3"/><cb:mulu type="卷" n="3"></cb:mulu><cb:juan fun="open" n="3"><cb:jhead>洛陽伽藍記卷<anchor xml:id="beg_e" type="cb-app"/>第<anchor xml:id="end_e"/>三</cb:jhead></cb:juan>
+<lb ed="GA" n="0244a01"/><milestone unit="juan" n="3"/><cb:mulu type="卷" n="3"></cb:mulu><cb:juan fun="open" n="3"><cb:jhead>洛陽伽藍記卷<anchor xml:id="nkr_note_add_0244a0101" n="0244a0101"/><anchor xml:id="beg0244a0101" n="0244a0101"/>第<anchor xml:id="end0244a0101"/>三</cb:jhead></cb:juan>
 <lb ed="GA" n="0244a02"/><byline cb:type="author">魏撫軍府司馬楊衒之譔</byline>
 <lb ed="GA" n="0244a03"/><cb:div type="other"><cb:mulu type="其他" level="2">城南</cb:mulu><head>城南</head>
 <lb ed="GA" n="0244a04"/><cb:div type="other"><cb:mulu type="其他" level="3">景明寺</cb:mulu><head>景明寺</head><p xml:id="pGA001p0244a0404" rend="inline">宣武皇帝所立也</p>
@@ -1274,7 +1279,7 @@ $Log:$
 <lb ed="GA" n="0245a06"/>立者靈臺東辟雍是魏武所立者至我正光中造明堂於
 <lb ed="GA" n="0245a07"/>辟雍之西南上圓下方八窗四闥汝南王復造甎浮圖於
 <lb ed="GA" n="0245a08"/>靈臺之上孝昌初妖賊四侵州郡失據朝廷設募征格於
-<lb ed="GA" n="0245a09"/>堂之上從戎者拜矌掖將軍偏將軍裨將軍當時甲<anchor xml:id="beg_f" type="cb-app"/>冑<anchor xml:id="end_f"/>之
+<lb ed="GA" n="0245a09"/>堂之上從戎者拜矌掖將軍偏將軍裨將軍當時甲<anchor xml:id="nkr_note_add_0245a0901" n="0245a0901"/><anchor xml:id="beg0245a0901" n="0245a0901"/>冑<anchor xml:id="end0245a0901"/>之
 <lb ed="GA" n="0245a10"/>士號明堂隊</p>
 <lb ed="GA" n="0245a11"/><p xml:id="pGA001p0245a1101" rend="margin-left:1em">時虎賁駱子淵者自云洛陽人孝昌年戌在彭城其同營
 <lb ed="GA" n="0245a12"/>人樊元寶得假還京師子淵附書一封令達其家云宅在
@@ -1452,9 +1457,9 @@ $Log:$
 <lb ed="GA" n="0248b09"/>
 <lb ed="GA" n="0248b10"/>
 <lb ed="GA" n="0248b11"/>
-<lb ed="GA" n="0248b12"/><cb:juan fun="close" n="3"><cb:jhead>洛陽伽藍記卷<anchor xml:id="beg_10" type="cb-app"/>第<anchor xml:id="end_10"/>三</cb:jhead></cb:juan>
+<lb ed="GA" n="0248b12"/><cb:juan fun="close" n="3"><cb:jhead>洛陽伽藍記卷<anchor xml:id="nkr_note_add_0248b1201" n="0248b1201"/><anchor xml:id="beg0248b1201" n="0248b1201"/>第<anchor xml:id="end0248b1201"/>三</cb:jhead></cb:juan>
 <pb ed="GA" xml:id="GA001.0002.0249a" n="0249a"/>
-<lb ed="GA" n="0249a01"/><milestone unit="juan" n="4"/><cb:mulu type="卷" n="4"></cb:mulu><cb:juan fun="open" n="4"><cb:jhead>洛陽伽藍記卷<anchor xml:id="beg_11" type="cb-app"/>第<anchor xml:id="end_11"/>四</cb:jhead></cb:juan>
+<lb ed="GA" n="0249a01"/><milestone unit="juan" n="4"/><cb:mulu type="卷" n="4"></cb:mulu><cb:juan fun="open" n="4"><cb:jhead>洛陽伽藍記卷<anchor xml:id="nkr_note_add_0249a0101" n="0249a0101"/><anchor xml:id="beg0249a0101" n="0249a0101"/>第<anchor xml:id="end0249a0101"/>四</cb:jhead></cb:juan>
 <lb ed="GA" n="0249a02"/><byline cb:type="author">魏撫軍府司馬楊衒之譔</byline>
 <lb ed="GA" n="0249a03"/><cb:div type="other"><cb:mulu type="其他" level="2">城西</cb:mulu><head>城西</head>
 <lb ed="GA" n="0249a04"/><cb:div type="other"><cb:mulu type="其他" level="3">沖覺寺</cb:mulu><head>沖覺寺</head><p xml:id="pGA001p0249a0404" rend="inline">太傅清河王懌舍宅所立也在西明門外一里御道
@@ -1584,7 +1589,7 @@ $Log:$
 <lb ed="GA" n="0251b03"/>車騎成列延伯危冠長劒耀武於前僧超吹壯士笛曲於
 <lb ed="GA" n="0251b04"/>後聞之者懦夫成勇劒客思奮延伯膽畧不羣威名早著
 <lb ed="GA" n="0251b05"/>為國展力二十餘年攻無全城戰無橫陳是以朝廷傾心
-<lb ed="GA" n="0251b06"/>送之延伯每臨場令僧超為壯士聲甲<anchor xml:id="beg_12" type="cb-app"/>冑<anchor xml:id="end_12"/>之士踴躍單馬
+<lb ed="GA" n="0251b06"/>送之延伯每臨場令僧超為壯士聲甲<anchor xml:id="nkr_note_add_0251b0601" n="0251b0601"/><anchor xml:id="beg0251b0601" n="0251b0601"/>冑<anchor xml:id="end0251b0601"/>之士踴躍單馬
 <lb ed="GA" n="0251b07"/>入陳旁若無人勇冠三軍威鎮戎豎二年之間獻捷相繼
 <lb ed="GA" n="0251b08"/>醜奴募善射者射僧超亡延伯悲惜哀慟左右謂伯牙之
 <lb ed="GA" n="0251b09"/>失鍾子期不能過也後延伯為流矢所中卒於軍中於是
@@ -1670,7 +1675,7 @@ $Log:$
 <lb ed="GA" n="0253a14"/>人竝罹塗炭惟畧一身逃命江右蕭衍素聞畧名見其器
 <lb ed="GA" n="0253a15"/>度寛雅文學優瞻甚敬重之謂曰洛中如王者幾人畧對
 <lb ed="GA" n="0253a16"/>曰臣在本朝之日承乏攝官至於宗廟之美百官之富鴛
-<lb ed="GA" n="0253a17"/>鸞接翼<anchor xml:id="beg_13" type="cb-app"/>杞<anchor xml:id="end_13"/>梓成陰如臣之比趙咨所云車載斗量不可數
+<lb ed="GA" n="0253a17"/>鸞接翼<anchor xml:id="nkr_note_add_0253a1701" n="0253a1701"/><anchor xml:id="beg0253a1701" n="0253a1701"/>杞<anchor xml:id="end0253a1701"/>梓成陰如臣之比趙咨所云車載斗量不可數
 <lb ed="GA" n="0253a18"/>盡衍大笑乃封畧為中山王食邑千<reg>戶</reg>儀比王子又除宣
 <lb ed="GA" n="0253a19"/>城太守給鼓吹一部劒卒千人畧為政清肅甚有治聲江
 <lb ed="GA" n="0253a20"/>東朝貴侈於矜尚見略入朝莫不憚其進止尋遷信武將
@@ -1752,9 +1757,9 @@ $Log:$
 <lb ed="GA" n="0254b21"/>
 <lb ed="GA" n="0254b22"/>
 <lb ed="GA" n="0254b23"/>
-<lb ed="GA" n="0254b24"/><cb:juan fun="close" n="4"><cb:jhead>洛陽伽藍記卷<anchor xml:id="beg_14" type="cb-app"/>第<anchor xml:id="end_14"/>四</cb:jhead></cb:juan>
+<lb ed="GA" n="0254b24"/><cb:juan fun="close" n="4"><cb:jhead>洛陽伽藍記卷<anchor xml:id="nkr_note_add_0254b2401" n="0254b2401"/><anchor xml:id="beg0254b2401" n="0254b2401"/>第<anchor xml:id="end0254b2401"/>四</cb:jhead></cb:juan>
 <pb ed="GA" xml:id="GA001.0002.0255a" n="0255a"/>
-<lb ed="GA" n="0255a01"/><milestone unit="juan" n="5"/><cb:mulu type="卷" n="5"></cb:mulu><cb:juan fun="open" n="5"><cb:jhead>洛陽伽藍記卷<anchor xml:id="beg_15" type="cb-app"/>第<anchor xml:id="end_15"/>五</cb:jhead></cb:juan>
+<lb ed="GA" n="0255a01"/><milestone unit="juan" n="5"/><cb:mulu type="卷" n="5"></cb:mulu><cb:juan fun="open" n="5"><cb:jhead>洛陽伽藍記卷<anchor xml:id="nkr_note_add_0255a0101" n="0255a0101"/><anchor xml:id="beg0255a0101" n="0255a0101"/>第<anchor xml:id="end0255a0101"/>五</cb:jhead></cb:juan>
 <lb ed="GA" n="0255a02"/><byline cb:type="author">魏撫軍府司馬楊衒之譔</byline>
 <lb ed="GA" n="0255a03"/><cb:div type="other"><cb:mulu type="其他" level="2">城北</cb:mulu><head>城北</head>
 <lb ed="GA" n="0255a04"/><cb:div type="other"><cb:mulu type="其他" level="3">禪虛寺</cb:mulu><head>禪虛寺</head><p xml:id="pGA001p0255a0404" rend="inline">在大夏門御道西</p>
@@ -2015,7 +2020,7 @@ $Log:$
 <lb ed="GA" n="0260a09"/>
 <lb ed="GA" n="0260a10"/>
 <lb ed="GA" n="0260a11"/>
-<lb ed="GA" n="0260a12"/><cb:juan fun="close" n="5"><cb:jhead>洛陽伽藍記卷<anchor xml:id="beg_16" type="cb-app"/>第<anchor xml:id="end_16"/>五</cb:jhead></cb:juan>
+<lb ed="GA" n="0260a12"/><cb:juan fun="close" n="5"><cb:jhead>洛陽伽藍記卷<anchor xml:id="nkr_note_add_0260a1201" n="0260a1201"/><anchor xml:id="beg0260a1201" n="0260a1201"/>第<anchor xml:id="end0260a1201"/>五</cb:jhead></cb:juan>
 <pb ed="GA" xml:id="GA001.0002.0261a" n="0261a"/>
 <lb ed="GA" n="0261a01"/><cb:div type="other"><cb:mulu type="其他" level="2">朱紫貴跋</cb:mulu><p xml:id="pGA001p0261a0101">曩者顧丈澗萍嘗病今世通行本伽藍記綱目混淆子註羼
 <lb ed="GA" n="0261a02"/>雜謂紫貴曰子多暇日能重為分晰一如劉氏知幾之所云
@@ -2055,7 +2060,7 @@ $Log:$
 <lb ed="GA" n="0261b11"/>註穀水又東曆大夏門下故夏門也陸機與弟書云門有三層高百尺魏明帝造據此則嘗字當从何本作帝其上脫去
 <lb ed="GA" n="0261b12"/>魏明二字二字當从何本衍何本此下又有高祖世宗造三層樓去地二十丈十三字誤多</note>廣莫門以西
 <lb ed="GA" n="0261b13"/><note place="inline">廣字上何本有自字</note>所謂九軌<note place="inline">軌何作逵毛本註曰軌一作逵</note></p></cb:div>
-<lb ed="GA" n="0261b14"/><cb:div type="other"><head>城內卷<anchor xml:id="beg_17" type="cb-app"/>第<anchor xml:id="end_17"/><cb:mulu type="其他" level="2">城內卷第弟一</cb:mulu>一</head>
+<lb ed="GA" n="0261b14"/><cb:div type="other"><head>城內卷<anchor xml:id="nkr_note_add_0261b1401" n="0261b1401"/><anchor xml:id="beg0261b1401" n="0261b1401"/>第<anchor xml:id="end0261b1401"/><cb:mulu type="其他" level="2">城內卷第弟一</cb:mulu>一</head>
 <lb ed="GA" n="0261b15"/><p xml:id="pGA001p0261b1501">在宮前閶闔門<note place="inline">桉水經註曰魏明帝上法太極於洛陽起南宮太極殿之故處改雉門為閶闔門此言宮
 <lb ed="GA" n="0261b16"/>前明非西面火北之閶闔門也</note>閶闔門御道東<note place="inline">各本門字下有一前字</note>司徒府南有國
 <lb ed="GA" n="0261b17"/>子學堂<note place="inline">何本無司徒府三字</note>已遙見之<note place="inline">已遙何作遙已</note>金象三千軀<note place="inline">千何本作十毛本註
@@ -2132,7 +2137,7 @@ $Log:$
 <lb ed="GA" n="0263a13"/>子閑居之義不可縱奢以忘儉自安以忘危故此堂後作茅茨堂則苗字是茅字之誤也桉說文茨以茅葦蓋屋衒之蓋
 <lb ed="GA" n="0263a14"/>據之以釋碑蒿疑茅字之訛蒿<g ref="#CB34414">𦱽</g>也即香蒿也不可以覆屋也</note>若旱魃為虐<note place="inline">虐各本作害誤</note>陽穀泄
 <lb ed="GA" n="0263a15"/>之不盈<note place="inline">穀當作渠</note>　<note place="inline">景林寺</note></p></cb:div></cb:div>
-<lb ed="GA" n="0263a16"/><cb:div type="other"><head>城東卷<anchor xml:id="beg_18" type="cb-app"/>第<anchor xml:id="end_18"/><cb:mulu type="其他" level="1">城東卷第弟二</cb:mulu>二</head>
+<lb ed="GA" n="0263a16"/><cb:div type="other"><head>城東卷<anchor xml:id="nkr_note_add_0263a1601" n="0263a1601"/><anchor xml:id="beg0263a1601" n="0263a1601"/>第<anchor xml:id="end0263a1601"/><cb:mulu type="其他" level="1">城東卷第弟二</cb:mulu>二</head>
 <lb ed="GA" n="0263a17"/><p xml:id="pGA001p0263a1701">在建春門外石樓南<note place="inline">樓當作橋各本俱誤</note>假因行役<note place="inline">假何作暇行各本作征非是</note>天
 <lb ed="GA" n="0263a18"/>下貢賦所聚也<note place="inline">聚字下各本有一蓄字</note>　<note place="inline">明懸尼寺</note></p>
 <lb ed="GA" n="0263a19"/><p xml:id="pGA001p0263a1901">宿衛羽林虎賁等所立也<note place="inline">各本脫等字</note>寺南有租場里<note place="inline">各本無里字</note>初
@@ -2258,7 +2263,7 @@ $Log:$
 <lb ed="GA" n="0265b14"/>途<note place="inline">方當从各本作萬此因万而誤也</note>鄰人謂胡兄弟相敺鬥<note place="inline">何本無鄰字敺字廣記無鬥字
 <lb ed="GA" n="0265b15"/>下句無而字</note>即舍宅為歸覺寺<note place="inline">即字上廣記有胡字</note>合家人入道焉<note place="inline">廣記無人字</note>
 <lb ed="GA" n="0265b16"/>廣陵被廢死<note place="inline">死字下廣記有焉字</note>　<note place="inline">景<g ref="#CB33491">󸋓</g>寺</note></p>
-<lb ed="GA" n="0265b17"/><cb:div type="other"><head>城南卷<anchor xml:id="beg_19" type="cb-app"/>第<anchor xml:id="end_19"/><cb:mulu type="其他" level="2">城南卷第弟三</cb:mulu>三</head>
+<lb ed="GA" n="0265b17"/><cb:div type="other"><head>城南卷<anchor xml:id="nkr_note_add_0265b1701" n="0265b1701"/><anchor xml:id="beg0265b1701" n="0265b1701"/>第<anchor xml:id="end0265b1701"/><cb:mulu type="其他" level="2">城南卷第弟三</cb:mulu>三</head>
 <lb ed="GA" n="0265b18"/><p xml:id="pGA001p0265b1801">山懸堂光觀盛一千餘間<note place="inline">案此十字疑有脫誤各本俱作山縣臺觀光盛一千餘閒</note>交疏
 <lb ed="GA" n="0265b19"/>對霤<note place="inline">此句上各本有複殿重房四字</note>竹松蘭芷<note place="inline">竹松何作松竹</note>青鳧白雁<note place="inline">青字上各本有或字</note>
 <lb ed="GA" n="0265b20"/>最得稱首<note place="inline">得何作為</note>至八月節<note place="inline">月節二字各本俱作日字以上句四月七日校之當从各本為長</note>
@@ -2345,14 +2350,14 @@ $Log:$
 <lb ed="GA" n="0267b01"/>問才曰何往曰往城南<note place="inline">各本俱作才曰何為住城南</note>城南有四夷館<note place="inline">夷字下何
 <lb ed="GA" n="0267b02"/>本有里字</note>信非虛言也<note place="inline">言字何本無</note>即漢之躍龍閣也<note place="inline">閣各本作園字</note>室華蓋
 <lb ed="GA" n="0267b03"/>之座<note place="inline">室當从各本作設</note>　<note place="inline">高陽王寺</note></p></cb:div>
-<lb ed="GA" n="0267b04"/><cb:div type="other"><head>城西卷<anchor xml:id="beg_1a" type="cb-app"/>第<anchor xml:id="end_1a"/><cb:mulu type="其他" level="2">城西卷第弟四</cb:mulu>四</head>
+<lb ed="GA" n="0267b04"/><cb:div type="other"><head>城西卷<anchor xml:id="nkr_note_add_0267b0401" n="0267b0401"/><anchor xml:id="beg0267b0401" n="0267b0401"/>第<anchor xml:id="end0267b0401"/><cb:mulu type="其他" level="2">城西卷第弟四</cb:mulu>四</head>
 <lb ed="GA" n="0267b05"/><p xml:id="pGA001p0267b0501">土山釣臺<note place="inline">臺何作池</note>斜峰入牖<note place="inline">牖何作墉</note>竝選雋俊<note place="inline">俊何作民</note>至於清晨明
 <lb ed="GA" n="0267b06"/>景<note place="inline">明何作美</note>使梁王愧兔園之游<note place="inline">園何作苑</note>太子還總萬幾<note place="inline">子當从各本作后</note>
 <lb ed="GA" n="0267b07"/>拔清河國令<note place="inline">何本國字下有<reg>郎</reg>中二字案魏書百官志有矦伯國<reg>郎</reg>中令何本殆据之以增此也</note>從王
 <lb ed="GA" n="0267b08"/>國三卿為執戟者<note place="inline">從當从各本作徙</note>　<note place="inline">沖覺寺</note></p>
 <lb ed="GA" n="0267b09"/><p xml:id="pGA001p0267b0901">侍中司州牧城陽王所立也<note place="inline">王字下各本有<reg>巖</reg>字</note>永康中<note place="inline">康當从各本作安</note>婦生產子<note place="inline">何本作婦
 <lb ed="GA" n="0267b10"/>生產子毛本作婦人產子</note>遣徽特至太原王弟<note place="inline">特何本作馳詔毛作特詔</note>
-<lb ed="GA" n="0267b11"/>連索酒飲之<note place="inline">何本無連字</note>祖仁一門<anchor xml:id="beg_1b" type="cb-app"/>刺<anchor xml:id="end_1b"/>史<note place="inline">何本無祖仁二字</note>皆是徽之將
+<lb ed="GA" n="0267b11"/>連索酒飲之<note place="inline">何本無連字</note>祖仁一門<anchor xml:id="nkr_note_add_0267b1101" n="0267b1101"/><anchor xml:id="beg0267b1101" n="0267b1101"/>刺<anchor xml:id="end0267b1101"/>史<note place="inline">何本無祖仁二字</note>皆是徽之將
 <lb ed="GA" n="0267b12"/><note place="inline">將字下各本有校字</note>少有舊恩<note place="inline">少各本作以</note>故往投之<note place="inline">何本無故字</note>時聞尒朱兆
 <lb ed="GA" n="0267b13"/>募城陽王甚重<note place="inline">時何作始</note>我有黃金二百斤<note place="inline">何本無黃字</note>祿位隆重<note place="inline">祿位
 <lb ed="GA" n="0267b14"/>何本作位望</note>盡送致兆<note place="inline">何本無致字</note>猶不滿數<note place="inline">滿毛作充</note>積禍之門<note place="inline">禍何作惡</note>殃
@@ -2437,7 +2442,7 @@ $Log:$
 <lb ed="GA" n="0269a18"/>安息身毒諸國<note place="inline">西國之國字當从各本作域</note>浮浪乘風<note place="inline">浪何本作海</note>愛人好事
 <lb ed="GA" n="0269a19"/><note place="inline">事何本作士</note>夙善元言<note place="inline">夙何本作尤</note>安置佛徒<note place="inline">佛何本作僧</note>暉遂造人中夾
 <lb ed="GA" n="0269a20"/>貯象一軀<note place="inline">貯當是紵之訛</note>其年冬而京師遷鄴<note place="inline">何本無而字</note>　<note place="inline">永明寺</note></p></cb:div>
-<lb ed="GA" n="0269a21"/><cb:div type="other"><head>城北卷<anchor xml:id="beg_1c" type="cb-app"/>第<anchor xml:id="end_1c"/><cb:mulu type="其他" level="2">城北卷第弟五</cb:mulu>五</head>
+<lb ed="GA" n="0269a21"/><cb:div type="other"><head>城北卷<anchor xml:id="nkr_note_add_0269a2101" n="0269a2101"/><anchor xml:id="beg0269a2101" n="0269a2101"/>第<anchor xml:id="end0269a2101"/><cb:mulu type="其他" level="2">城北卷第弟五</cb:mulu>五</head>
 <lb ed="GA" n="0269a22"/><p xml:id="pGA001p0269a2201">有羽林馬僧相善觝角戲<note place="inline">何本無有字</note>虎賁張車<note place="inline">車字下何本有渠字桉魏書靈
 <lb ed="GA" n="0269a23"/>后補傳太后從子都統僧敬與備身左右張車渠等數十人謀殺乂復奉太后臨朝則此當从何本補一渠字也</note>宣
 <lb ed="GA" n="0269a24"/>武場<note place="inline">場字下何本有在字</note>　<note place="inline">禪虛寺</note></p>
@@ -2503,34 +2508,34 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>券</corr><sic>劵</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_7" cb:to="#end_7"><corr>石</corr><sic>□</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_8" cb:to="#end_8"><corr>未</corr><sic>□</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_9" cb:to="#end_9"><corr>審</corr><sic>□</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_a" cb:to="#end_a"><corr>趣</corr><sic>□</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_b" cb:to="#end_b"><corr>庭</corr><sic>□</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_c" cb:to="#end_c"><corr>陝</corr><sic>陜</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_d" cb:to="#end_d"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_e" cb:to="#end_e"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_f" cb:to="#end_f"><corr>冑</corr><sic>胃</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_10" cb:to="#end_10"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_11" cb:to="#end_11"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_12" cb:to="#end_12"><corr>冑</corr><sic>胃</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_13" cb:to="#end_13"><corr>杞</corr><sic><g ref="#CB01096">𣏌</g></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_14" cb:to="#end_14"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_15" cb:to="#end_15"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_16" cb:to="#end_16"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_17" cb:to="#end_17"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_18" cb:to="#end_18"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_19" cb:to="#end_19"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_1a" cb:to="#end_1a"><corr>第</corr><sic>弟</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_1b" cb:to="#end_1b"><corr>刺</corr><sic>剌</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_1c" cb:to="#end_1c"><corr>第</corr><sic>弟</sic></choice>
+<app from="#beg0230a0101" to="#end0230a0101"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0230b1601" to="#end0230b1601"><lem wit="#wit1" resp="#resp3">刺</lem><rdg wit="#wit2">剌</rdg></app>
+<app from="#beg0230b2001" to="#end0230b2001"><lem wit="#wit1" resp="#resp3">刺</lem><rdg wit="#wit2">剌</rdg></app>
+<app from="#beg0232b2001" to="#end0232b2001"><lem wit="#wit1" resp="#resp3">券</lem><rdg wit="#wit2">劵</rdg></app>
+<app from="#beg0236b1201" to="#end0236b1201"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0237a0101" to="#end0237a0101"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0240a2201" to="#end0240a2201"><lem wit="#wit1" resp="#resp1">石</lem><rdg wit="#wit2">□</rdg></app>
+<app from="#beg0240a2202" to="#end0240a2202"><lem wit="#wit1" resp="#resp1">未</lem><rdg wit="#wit2">□</rdg></app>
+<app from="#beg0240a2301" to="#end0240a2301"><lem wit="#wit1" resp="#resp1">審</lem><rdg wit="#wit2">□</rdg></app>
+<app from="#beg0240b0501" to="#end0240b0501"><lem wit="#wit1" resp="#resp1">趣</lem><rdg wit="#wit2">□</rdg></app>
+<app from="#beg0240b1101" to="#end0240b1101"><lem wit="#wit1" resp="#resp1">庭</lem><rdg wit="#wit2">□</rdg></app>
+<app from="#beg0241a1501" to="#end0241a1501"><lem wit="#wit1" resp="#resp3">陝</lem><rdg wit="#wit2">陜</rdg></app>
+<app from="#beg0243b2401" to="#end0243b2401"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0244a0101" to="#end0244a0101"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0245a0901" to="#end0245a0901"><lem wit="#wit1" resp="#resp3">冑</lem><rdg wit="#wit2">胃</rdg></app>
+<app from="#beg0248b1201" to="#end0248b1201"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0249a0101" to="#end0249a0101"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0251b0601" to="#end0251b0601"><lem wit="#wit1" resp="#resp3">冑</lem><rdg wit="#wit2">胃</rdg></app>
+<app from="#beg0253a1701" to="#end0253a1701"><lem wit="#wit1" resp="#resp3">杞</lem><rdg wit="#wit2"><g ref="#CB01096">𣏌</g></rdg></app>
+<app from="#beg0254b2401" to="#end0254b2401"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0255a0101" to="#end0255a0101"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0260a1201" to="#end0260a1201"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0261b1401" to="#end0261b1401"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0263a1601" to="#end0263a1601"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0265b1701" to="#end0265b1701"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0267b0401" to="#end0267b0401"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
+<app from="#beg0267b1101" to="#end0267b1101"><lem wit="#wit1" resp="#resp3">刺</lem><rdg wit="#wit2">剌</rdg></app>
+<app from="#beg0269a2101" to="#end0269a2101"><lem wit="#wit1" resp="#resp3">第</lem><rdg wit="#wit2">弟</rdg></app>
 </p>
 </cb:div>
 <cb:div type="dila-notes">
@@ -2539,6 +2544,39 @@ $Log:$
 <note n="0229001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0229001">七里橋、崇義里、靈應、綏民里、馬市、敬義里、東安里、正始、孝義里、平等、殖貨里、小市、景寧里、延賢里、勤學里、正覺、大覺、龍華、三寶、追聖、報德、寧遠、雙女、明堂、永橋、利民里、大統、景明、靈臺、白象坊、獅子坊、四館、伊、嵩山、少靈、菩提、歸正、四通市、中甘里、高陽、崇虛、建春門、東陽門、青陽門、開陽門、平昌門、宣陽門、津陽門、衣冠里、宜壽里、永和里、昭儀、池、閶闔宮門、將作曹、太尉府、右衛府、九級府、太社、左衛府、司徒府、太廟、國子學堂、宗正寺、護軍府、義井里、太倉署、導官署、治粟里、勾盾署、典農署、籍田署、晉太倉、步廣里、翟泉、天淵池、華林園、永康里、永寧、胡統、千秋門、金市、西明門、西陽門、閶闔門、承明門、洛、穀、陽渠、山土、大市、長分橋、千金堨、邙山、河、宣武場、閱武場、禪虛、上高里、凝圓、永平里。</note>
 <note n="0240001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0240001">「石」字底本闕漏，茲依《中國佛寺史志彙刊．第二輯．第2冊．重刊洛陽伽藍記》p. 52 補入。（杜潔祥主編，台北：明文書局，1980）。後文之補刊參考來源同此。</note>
 <note n="0246001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0246001">人名，《洛陽伽藍記合校本》作「肱」。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0230a0101" resp="#resp2" type="add" target="#nkr_note_add_0230a0101">第【CB】，弟【志彙】</note>
+<note n="0230b1601" resp="#resp2" type="add" target="#nkr_note_add_0230b1601">刺【CB】，剌【志彙】</note>
+<note n="0230b2001" resp="#resp2" type="add" target="#nkr_note_add_0230b2001">刺【CB】，剌【志彙】</note>
+<note n="0232b2001" resp="#resp2" type="add" target="#nkr_note_add_0232b2001">券【CB】，劵【志彙】</note>
+<note n="0236b1201" resp="#resp2" type="add" target="#nkr_note_add_0236b1201">第【CB】，弟【志彙】</note>
+<note n="0237a0101" resp="#resp2" type="add" target="#nkr_note_add_0237a0101">第【CB】，弟【志彙】</note>
+<note n="0240a2201" resp="#resp2" type="add" target="#nkr_note_add_0240a2201">石【CB】，□【志彙】</note>
+<note n="0240a2202" resp="#resp2" type="add" target="#nkr_note_add_0240a2202">未【CB】，□【志彙】</note>
+<note n="0240a2301" resp="#resp2" type="add" target="#nkr_note_add_0240a2301">審【CB】，□【志彙】</note>
+<note n="0240b0501" resp="#resp2" type="add" target="#nkr_note_add_0240b0501">趣【CB】，□【志彙】</note>
+<note n="0240b1101" resp="#resp2" type="add" target="#nkr_note_add_0240b1101">庭【CB】，□【志彙】</note>
+<note n="0241a1501" resp="#resp2" type="add" target="#nkr_note_add_0241a1501">陝【CB】，陜【志彙】</note>
+<note n="0243b2401" resp="#resp2" type="add" target="#nkr_note_add_0243b2401">第【CB】，弟【志彙】</note>
+<note n="0244a0101" resp="#resp2" type="add" target="#nkr_note_add_0244a0101">第【CB】，弟【志彙】</note>
+<note n="0245a0901" resp="#resp2" type="add" target="#nkr_note_add_0245a0901">冑【CB】，胃【志彙】</note>
+<note n="0248b1201" resp="#resp2" type="add" target="#nkr_note_add_0248b1201">第【CB】，弟【志彙】</note>
+<note n="0249a0101" resp="#resp2" type="add" target="#nkr_note_add_0249a0101">第【CB】，弟【志彙】</note>
+<note n="0251b0601" resp="#resp2" type="add" target="#nkr_note_add_0251b0601">冑【CB】，胃【志彙】</note>
+<note n="0253a1701" resp="#resp2" type="add" target="#nkr_note_add_0253a1701">杞【CB】，<g ref="#CB01096">𣏌</g>【志彙】</note>
+<note n="0254b2401" resp="#resp2" type="add" target="#nkr_note_add_0254b2401">第【CB】，弟【志彙】</note>
+<note n="0255a0101" resp="#resp2" type="add" target="#nkr_note_add_0255a0101">第【CB】，弟【志彙】</note>
+<note n="0260a1201" resp="#resp2" type="add" target="#nkr_note_add_0260a1201">第【CB】，弟【志彙】</note>
+<note n="0261b1401" resp="#resp2" type="add" target="#nkr_note_add_0261b1401">第【CB】，弟【志彙】</note>
+<note n="0263a1601" resp="#resp2" type="add" target="#nkr_note_add_0263a1601">第【CB】，弟【志彙】</note>
+<note n="0265b1701" resp="#resp2" type="add" target="#nkr_note_add_0265b1701">第【CB】，弟【志彙】</note>
+<note n="0267b0401" resp="#resp2" type="add" target="#nkr_note_add_0267b0401">第【CB】，弟【志彙】</note>
+<note n="0267b1101" resp="#resp2" type="add" target="#nkr_note_add_0267b1101">刺【CB】，剌【志彙】</note>
+<note n="0269a2101" resp="#resp2" type="add" target="#nkr_note_add_0269a2101">第【CB】，弟【志彙】</note>
 </p>
 </cb:div>
 </back></text></TEI>

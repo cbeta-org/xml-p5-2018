@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:01:44 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -373,7 +374,7 @@ Added comment  for Emacs
 <lb n="0168c10" ed="T"/><note place="inline">引</note>蘖哆喃唵<note place="inline">引</note>尾囉爾<note place="inline">茲以反</note>尾囉爾摩賀<note place="inline">引</note>作
 <lb n="0168c11" ed="T"/>訖囉<note place="inline">二合</note>嚩日哩<note place="inline">二合</note>娑哆娑哆娑<note place="inline">引</note>囉底<note place="inline">丁以反</note>
 <lb n="0168c12" ed="T"/>娑囉底<note place="inline">準上</note>怛囉<note place="inline">二合</note>以怛羅<note place="inline">二合</note>以尾馱麼儞
-<lb n="0168c13" ed="T"/>三<note place="inline">去</note>畔若儞怛囉<note place="inline">二合</note>摩<anchor xml:id="nkr_note_orig_0168001" n="0168001"/><anchor xml:id="beg0168001" n="0168001"/><note place="inline">上</note>底<anchor xml:id="end0168001"/>悉馱<note place="inline">引</note>儗哩<note place="inline">二合</note>
+<lb n="0168c13" ed="T"/>三<note place="inline">去</note>畔若儞怛囉<note place="inline">二合</note>摩<anchor xml:id="nkr_note_orig_0168001" n="0168001"/><anchor xml:id="nkr_note_mod_0168001" n="0168001"/><anchor xml:id="beg0168001" n="0168001"/><note place="inline">上</note>底<anchor xml:id="end0168001"/>悉馱<note place="inline">引</note>儗哩<note place="inline">二合</note>
 <lb n="0168c14" ed="T"/>曳怛囕<note place="inline">二合</note>娑嚩<note place="inline">二合</note>賀<note place="inline">引</note></p>
 <lb n="0168c15" ed="T"/><lg xml:id="lgT21p0168c1501"><l>次拍金剛掌</l><l>令聖眾歡喜</l></lg>
 <lb n="0168c16" ed="T"/><p xml:id="pT21p0168c1601">真言曰。</p>
@@ -423,6 +424,12 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0168001" to="#end0168001"><lem resp="#resp1" wit="#wit1"><note place="inline">上</note>底</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">摩</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0168001" resp="#resp2" type="mod" target="#nkr_note_mod_0168001">上底【大】，摩【考偽-原】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

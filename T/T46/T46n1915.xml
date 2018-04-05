@@ -14,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.15 $<date>$Date: 2012/08/27 03:15:22 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -35,7 +35,7 @@
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
-		<witness xml:id="wit3">【CBETA】</witness>
+		<witness xml:id="wit3">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -210,7 +210,7 @@ Added comment  for Emacs
 <lb n="0462b02" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead>修習止觀坐禪法要<note place="inline">一曰童蒙止觀，亦名小止觀</note></cb:jhead></cb:juan>
 <lb n="0462b03" ed="T"/>
 <lb n="0462b04" ed="T"/><byline cb:type="author">天台山修禪寺沙門智顗述</byline>
-<lb n="0462b05" ed="T"/><cb:div type="other"><p xml:id="pT46p0462b0501" rend="margin-left:2em"><anchor xml:id="nkr_note_orig_0462002" n="0462002"/><anchor xml:id="beg0462002" n="0462002"/>諸<anchor xml:id="end0462002"/>惡莫作，眾善奉行，自淨其意，是諸佛
+<lb n="0462b05" ed="T"/><cb:div type="other"><p xml:id="pT46p0462b0501" rend="margin-left:2em"><anchor xml:id="nkr_note_orig_0462002" n="0462002"/><anchor xml:id="nkr_note_mod_0462002" n="0462002"/><anchor xml:id="beg0462002" n="0462002"/>諸<anchor xml:id="end0462002"/>惡莫作，眾善奉行，自淨其意，是諸佛
 <lb n="0462b06" ed="T"/>教。</p>
 <lb n="0462b07" ed="T"/><p xml:id="pT46p0462b0701">若夫泥洹之法，入乃多途。論其急要，不出止
 <lb n="0462b08" ed="T"/>觀二法。所以然者，止乃伏結之初門，觀是斷
@@ -353,7 +353,7 @@ Added comment  for Emacs
 <lb n="0463c25" ed="T"/>云：「哀哉眾生！常為五欲所惱，而猶求之不已。」
 <lb n="0463c26" ed="T"/>此五欲者，得之轉劇，如火益薪，其焰轉熾。五
 <lb n="0463c27" ed="T"/>欲無樂，如狗嚙枯骨。五欲增諍，如鳥競肉。五
-<lb n="0463c28" ed="T"/>欲燒人，如逆風執炬。五欲害人，如<anchor xml:id="beg_1" type="cb-app"/>踐<anchor xml:id="end_1"/>毒蛇。五
+<lb n="0463c28" ed="T"/>欲燒人，如逆風執炬。五欲害人，如<anchor xml:id="nkr_note_add_0463c2801" n="0463c2801"/><anchor xml:id="beg0463c2801" n="0463c2801"/>踐<anchor xml:id="end0463c2801"/>毒蛇。五
 <lb n="0463c29" ed="T"/>欲無實，如夢所得。五欲不久，假借須臾，如擊
 <pb n="0464a" ed="T" xml:id="T46.1915.0464a"/>
 <lb n="0464a01" ed="T"/>石火。智者思之，亦如怨賊。世人愚惑，貪著五
@@ -460,7 +460,7 @@ Added comment  for Emacs
 <lb n="0465a12" ed="T"/><l>善不善法中，</l><l>生死及涅槃，</l>
 <lb n="0465a13" ed="T"/><l>定實真有法，</l><l>於中莫生疑。</l>
 <lb n="0465a14" ed="T"/><l>汝若懷疑惑，</l><l>死王獄吏縛，</l>
-<lb n="0465a15" ed="T"/><l>如師子<anchor xml:id="beg_2" type="cb-app"/>搏<anchor xml:id="end_2"/>鹿，</l><l>不能得解脫。</l>
+<lb n="0465a15" ed="T"/><l>如師子<anchor xml:id="nkr_note_add_0465a1501" n="0465a1501"/><anchor xml:id="beg0465a1501" n="0465a1501"/>搏<anchor xml:id="end0465a1501"/>鹿，</l><l>不能得解脫。</l>
 <lb n="0465a16" ed="T"/><l>在世雖有疑，</l><l>當隨喜善法，</l>
 <lb n="0465a17" ed="T"/><l>譬如觀岐道，</l><l>利好者應逐。」</l></lg>
 <lb n="0465a18" ed="T"/><p xml:id="pT46p0465a1801">佛法之中，信為能入，若無信者，雖在佛法，終
@@ -568,7 +568,7 @@ Added comment  for Emacs
 <pb n="0466b" ed="T" xml:id="T46.1915.0466b"/>
 <lb n="0466b01" ed="T"/>知。是為初入定調心方法。</p><p xml:id="pT46p0466b0111" rend="inline">夫入定本是從麁
 <lb n="0466b02" ed="T"/>入細，是以身既為麁，息居其中，心最為細
-<lb n="0466b03" ed="T"/>靜。調麁就細，令心安靜，此則<anchor xml:id="beg_3" type="cb-app"/>入<anchor xml:id="end_3"/>定初方便也。
+<lb n="0466b03" ed="T"/>靜。調麁就細，令心安靜，此則<anchor xml:id="nkr_note_add_0466b0301" n="0466b0301"/><anchor xml:id="beg0466b0301" n="0466b0301"/>入<anchor xml:id="end0466b0301"/>定初方便也。
 <lb n="0466b04" ed="T"/>是名初入定時調二事也。</p><p xml:id="pT46p0466b0411" rend="inline">二、住坐中調三事
 <lb n="0466b05" ed="T"/>者，行人當於一坐之時，隨時長短，十二時、或
 <lb n="0466b06" ed="T"/>經一時，或至二三時，攝念用心，是中應須善
@@ -635,7 +635,7 @@ Added comment  for Emacs
 <lb n="0467a07" ed="T"/>端臍間等處，令心不散故。經云：「繫心不放逸。
 <lb n="0467a08" ed="T"/>亦如猿著鎖。」二者、制心止，所謂隨心所起即
 <lb n="0467a09" ed="T"/>便制之，不令馳散。故經云：「此五根者，心為其
-<lb n="0467a10" ed="T"/>主；是故汝等，當好<anchor xml:id="beg_4" type="cb-app"/>制<anchor xml:id="end_4"/>心。」此二種皆是事相，不
+<lb n="0467a10" ed="T"/>主；是故汝等，當好<anchor xml:id="nkr_note_add_0467a1001" n="0467a1001"/><anchor xml:id="beg0467a1001" n="0467a1001"/>制<anchor xml:id="end0467a1001"/>心。」此二種皆是事相，不
 <lb n="0467a11" ed="T"/>須分別。三者、體真止，所謂隨心所念一切諸
 <lb n="0467a12" ed="T"/>法，悉知從因緣生，無有自性，則心不取。若心
 <lb n="0467a13" ed="T"/>不取，則妄念心息，故名為止。如經中說云：</p>
@@ -924,7 +924,7 @@ Added comment  for Emacs
 <lb n="0470a26" ed="T"/>用止觀長養諸善根者。若於坐中諸善根發
 <lb n="0470a27" ed="T"/>時，應用止觀二法修令增進。若宜用止、則以
 <lb n="0470a28" ed="T"/>止修之；若宜用觀，則以觀修之。具如前說略
-<lb n="0470a29" ed="T"/>示大意<anchor xml:id="nkr_note_orig_0470001" n="0470001"/><anchor xml:id="beg0470001" n="0470001"/>矣<anchor xml:id="end0470001"/>。</p></cb:div>
+<lb n="0470a29" ed="T"/>示大意<anchor xml:id="nkr_note_orig_0470001" n="0470001"/><anchor xml:id="nkr_note_mod_0470001" n="0470001"/><anchor xml:id="beg0470001" n="0470001"/>矣<anchor xml:id="end0470001"/>。</p></cb:div>
 <pb n="0470b" ed="T" xml:id="T46.1915.0470b"/>
 <lb n="0470b01" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">8 覺知魔事</cb:mulu><head>覺知魔事第八</head>
 <lb n="0470b02" ed="T"/><p xml:id="pT46p0470b0201">梵音魔羅，秦言殺者，奪行人功德之財，殺行
@@ -941,7 +941,7 @@ Added comment  for Emacs
 <lb n="0470b13" ed="T"/>精魅，欲惱行人，各當其時而來，善須別識。若
 <lb n="0470b14" ed="T"/>於寅時來者，必是虎獸等；若於卯時來者，必
 <lb n="0470b15" ed="T"/>是兔、鹿等；若於辰時來者，必是龍、鼈等；若於
-<lb n="0470b16" ed="T"/><anchor xml:id="beg_5" type="cb-app"/>巳<anchor xml:id="end_5"/>時來者，必是蛇、蟒等；若於午時來者，必是
+<lb n="0470b16" ed="T"/><anchor xml:id="nkr_note_add_0470b1601" n="0470b1601"/><anchor xml:id="beg0470b1601" n="0470b1601"/>巳<anchor xml:id="end0470b1601"/>時來者，必是蛇、蟒等；若於午時來者，必是
 <lb n="0470b17" ed="T"/>馬、驢、駝等；若於未時來者，必是羊等；若於申
 <lb n="0470b18" ed="T"/>時來者，必是猿猴等；若於酉時來者，必是鷄、
 <lb n="0470b19" ed="T"/>烏等；若於戌時來者，必是狗、狼等；若於亥時
@@ -1031,7 +1031,7 @@ Added comment  for Emacs
 <lb n="0471b13" ed="T"/>結沈重，身體枯瘠，如是等百一患生。若水大
 <lb n="0471b14" ed="T"/>增者，則痰陰脹滿，食飲不消，腹痛下痢等百
 <lb n="0471b15" ed="T"/>一患生。若火大增者，即煎寒壯熱，支節皆
-<lb n="0471b16" ed="T"/>痛，口氣，大小便<anchor xml:id="beg_6" type="cb-app"/>利<anchor xml:id="end_6"/>不通等百一患生。若風大
+<lb n="0471b16" ed="T"/>痛，口氣，大小便<anchor xml:id="nkr_note_add_0471b1601" n="0471b1601"/><anchor xml:id="beg0471b1601" n="0471b1601"/>利<anchor xml:id="end0471b1601"/>不通等百一患生。若風大
 <lb n="0471b17" ed="T"/>增者，則身體虛懸，戰掉疼痛，肺悶脹急，嘔逆
 <lb n="0471b18" ed="T"/>氣急，如是等百一患生。故經云：「一大不調，
 <lb n="0471b19" ed="T"/>百一病起。四大不調，四百四病一時俱動。」四
@@ -1186,7 +1186,7 @@ Added comment  for Emacs
 <lb n="0473a18" ed="T"/>槃。</p><p xml:id="pT46p0473a1802" rend="inline">已略說初心菩薩因修止觀證果之相，次
 <lb n="0473a19" ed="T"/>明後心證果之相。後心所證境界，則不可知；
 <lb n="0473a20" ed="T"/>今推教所明，終不離止觀二法。所以者何？如
-<lb n="0473a21" ed="T"/>《法華經》云「殷勤稱歎諸佛智慧」，<anchor xml:id="beg_7" type="cb-app"/>智慧<anchor xml:id="end_7"/>則觀義，此即
+<lb n="0473a21" ed="T"/>《法華經》云「殷勤稱歎諸佛智慧」，<anchor xml:id="nkr_note_add_0473a2101" n="0473a2101"/><anchor xml:id="beg0473a2101" n="0473a2101"/>智慧<anchor xml:id="end0473a2101"/>則觀義，此即
 <lb n="0473a22" ed="T"/>約觀以明果也。《涅槃經》廣辯百句解脫以
 <lb n="0473a23" ed="T"/>釋大涅槃者，涅槃則止義，是約止以明果也，
 <lb n="0473a24" ed="T"/>故云「大般涅槃名常寂定」，定者，即是止義。《法
@@ -1242,7 +1242,7 @@ Added comment  for Emacs
 <lb n="0473c13" ed="T"/>故復作方便，使嘗一滴知百川味，使由一漚
 <lb n="0473c14" ed="T"/>見全潮體。故於大經之外，又為此書。詞簡旨
 <lb n="0473c15" ed="T"/>要讀之易曉，應病之藥盡在是矣。善用藥者
-<lb n="0473c16" ed="T"/>不治<anchor xml:id="beg_8" type="cb-app"/>已<anchor xml:id="end_8"/>病，止乎其未散，觀乎其未昏，方止方
+<lb n="0473c16" ed="T"/>不治<anchor xml:id="nkr_note_add_0473c1601" n="0473c1601"/><anchor xml:id="beg0473c1601" n="0473c1601"/>已<anchor xml:id="end0473c1601"/>病，止乎其未散，觀乎其未昏，方止方
 <lb n="0473c17" ed="T"/>觀而未嘗昏未嘗散也。如鳥雙翼、如車兩輪，
 <lb n="0473c18" ed="T"/>窮遠極高無往不可及，其至也不出於此。嗚
 <lb n="0473c19" ed="T"/>呼！不知則已，知止觀之可以入道者，可不勉
@@ -1367,22 +1367,24 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0462002" to="#end0462002"><lem wit="#wit1">諸</lem><rdg resp="#resp1" wit="#wit2">偈云諸</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>踐</corr><sic>賤</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>搏</corr><sic>摶</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>入</corr><sic>人</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>制</corr><sic>止</sic></choice>
+<app from="#beg0463c2801" to="#end0463c2801"><lem wit="#wit3" resp="#resp3">踐</lem><rdg wit="#wit1">賤</rdg></app>
+<app from="#beg0465a1501" to="#end0465a1501"><lem wit="#wit3" resp="#resp3">搏</lem><rdg wit="#wit1">摶</rdg></app>
+<app from="#beg0466b0301" to="#end0466b0301"><lem wit="#wit3" resp="#resp2">入</lem><rdg wit="#wit1">人</rdg></app>
+<app from="#beg0467a1001" to="#end0467a1001"><lem wit="#wit3" resp="#resp3">制</lem><rdg wit="#wit1">止</rdg></app>
 <app from="#beg0470001" to="#end0470001"><lem wit="#wit1">矣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>巳</corr><sic>已</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>利</corr><sic>痢</sic></choice>
-<app from="#beg0472001" to="#end0472001"><lem resp="#resp2" wit="#wit3">二</lem><rdg wit="#wit1">一</rdg><rdg resp="#resp1" wit="#wit2">二</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>智慧</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>已</corr><sic>己</sic></choice>
+<app from="#beg0470b1601" to="#end0470b1601"><lem wit="#wit3" resp="#resp3">巳</lem><rdg wit="#wit1">已</rdg></app>
+<app from="#beg0471b1601" to="#end0471b1601"><lem wit="#wit3" resp="#resp3">利</lem><rdg wit="#wit1">痢</rdg></app>
+<app from="#beg0472001" to="#end0472001"><lem resp="#resp3" wit="#wit3">二</lem><rdg wit="#wit1">一</rdg><rdg resp="#resp1" wit="#wit2">二</rdg></app>
+<app from="#beg0473a2101" to="#end0473a2101"><lem wit="#wit3" resp="#resp3">智慧</lem><rdg wit="#wit1"><space quantity="0"/></rdg></app>
+<app from="#beg0473c1601" to="#end0473c1601"><lem wit="#wit3" resp="#resp3">已</lem><rdg wit="#wit1">己</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0472001" resp="#resp3" type="mod" target="#nkr_note_mod_0472001">一＝二【甲】【CB】</note>
+<note n="0462002" resp="#resp2" type="mod" target="#nkr_note_mod_0462002">諸【大】，偈云諸【甲】</note>
+<note n="0470001" resp="#resp2" type="mod" target="#nkr_note_mod_0470001">矣【大】，〔－〕【甲】</note>
+<note n="0472001" resp="#resp2" type="mod" target="#nkr_note_mod_0472001">二【CB】【甲】，一【大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -1392,6 +1394,19 @@ Added comment  for Emacs
 <note n="0462002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0462002">（偈云）＋諸【甲】</note>
 <note n="0470001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0470001">〔矣〕－【甲】</note>
 <note n="0472001" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0472001">一＝二【甲】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0463c2801" resp="#resp2" type="add" target="#nkr_note_add_0463c2801">踐【CB】，賤【大】</note>
+<note n="0465a1501" resp="#resp2" type="add" target="#nkr_note_add_0465a1501">搏【CB】，摶【大】</note>
+<note n="0466b0301" resp="#resp2" type="add" target="#nkr_note_add_0466b0301">入【CB】，人【大】</note>
+<note n="0467a1001" resp="#resp2" type="add" target="#nkr_note_add_0467a1001">制【CB】，止【大】</note>
+<note n="0470b1601" resp="#resp2" type="add" target="#nkr_note_add_0470b1601">巳【CB】，已【大】</note>
+<note n="0471b1601" resp="#resp2" type="add" target="#nkr_note_add_0471b1601">利【CB】，痢【大】</note>
+<note n="0473a2101" resp="#resp2" type="add" target="#nkr_note_add_0473a2101">智慧【CB】，［－］【大】</note>
+<note n="0473c1601" resp="#resp2" type="add" target="#nkr_note_add_0473c1601">已【CB】，己【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

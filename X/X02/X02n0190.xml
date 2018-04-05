@@ -13,8 +13,9 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 08:48:36 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>Xuzangjing</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 2, No. 190</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -102,12 +107,12 @@ no message
 <lb ed="X" n="0852c15"/><lb ed="R003" n="0761a09"/>跢姪他<note place="inline">四</note>闍曳闍曳<note place="inline">二合</note>闍夜<note place="inline">五</note>婆醯你闍榆跢利<note place="inline">六</note>
 <lb ed="X" n="0852c16"/><lb ed="R003" n="0761a10"/>迦囉迦羅摩羅摩羅者羅器拏器拏<note place="inline">八</note>薩婆羯磨<g ref="#CB02494">䟦</g>
 <lb ed="X" n="0852c17"/><lb ed="R003" n="0761a11"/>羅拏你<note place="inline">九</note>迷婆底莎呵</p>
-<lb ed="X" n="0852c18"/><lb ed="R003" n="0761a12"/><p xml:id="pX02p0852c1801">誦此呪<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>惡業消滅誦至七遍五逆罪滅若滿千遍
-<lb ed="X" n="0852c19"/><lb ed="R003" n="0761a13"/><anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>罪無不滅滿十萬遍面見觀音種種莊嚴者七日
+<lb ed="X" n="0852c18"/><lb ed="R003" n="0761a12"/><p xml:id="pX02p0852c1801">誦此呪<anchor xml:id="nkr_note_add_0852c1801" n="0852c1801"/><anchor xml:id="beg0852c1801" n="0852c1801"/>已<anchor xml:id="end0852c1801"/>惡業消滅誦至七遍五逆罪滅若滿千遍
+<lb ed="X" n="0852c19"/><lb ed="R003" n="0761a13"/><anchor xml:id="nkr_note_add_0852c1901" n="0852c1901"/><anchor xml:id="beg0852c1901" n="0852c1901"/>已<anchor xml:id="end0852c1901"/>罪無不滅滿十萬遍面見觀音種種莊嚴者七日
 <lb ed="X" n="0852c20"/><lb ed="R003" n="0761a14"/>之中初作法時唯得食乳糜蘇最後一日勿食十五
 <lb ed="X" n="0852c21"/><lb ed="R003" n="0761a15"/>日夜佛前念誦無定限數見像搖出聲唱言善哉善
 <lb ed="X" n="0852c22"/><lb ed="R003" n="0761a16"/>哉故光明照曜復以真珠寶物安呪師頂上即<anchor xml:id="nkr_note_orig_0852002" n="0852002"/>智成
-<lb ed="X" n="0852c23"/><lb ed="R003" n="0761a17"/>驗面見觀音<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>得滿一切善願。</p>
+<lb ed="X" n="0852c23"/><lb ed="R003" n="0761a17"/>驗面見觀音<anchor xml:id="nkr_note_add_0852c2301" n="0852c2301"/><anchor xml:id="beg0852c2301" n="0852c2301"/>已<anchor xml:id="end0852c2301"/>得滿一切善願。</p>
 <lb ed="X" n="0852c24"/><lb ed="R003" n="0761a18"/><p xml:id="pX02p0852c2401">又於<anchor xml:id="nkr_note_orig_0852003" n="0852003"/>垂眠中夢見觀音種種莊嚴者一切善事成就
 <pb ed="X" xml:id="X02.0190.0853a" n="0853a"/>
 <lb ed="X" n="0853a01"/><lb ed="R003" n="0761b01"/>一切惡業消滅直轉讀者亦得滅罪。</p>
@@ -149,16 +154,24 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0852c1801" to="#end0852c1801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0852c1901" to="#end0852c1901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0852c2301" to="#end0852c2301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 </p>
 </cb:div>
 <cb:div type="xuzang-notes">
 <head>卍續藏 校註</head>
 <p>
-<note n="0852002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0852002">智疑知</note>
-<note n="0852003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0852003">垂疑睡</note>
+<note n="0852002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0852002">智疑知</note>
+<note n="0852003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0852003">垂疑睡</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0852c1801" resp="#resp1" type="add" target="#nkr_note_add_0852c1801">已【CB】，巳【卍續】</note>
+<note n="0852c1901" resp="#resp1" type="add" target="#nkr_note_add_0852c1901">已【CB】，巳【卍續】</note>
+<note n="0852c2301" resp="#resp1" type="add" target="#nkr_note_add_0852c2301">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

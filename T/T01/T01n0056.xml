@@ -37,6 +37,7 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -142,12 +143,12 @@ Added comment  for Emacs
 <lb n="0851b10" ed="T"/>知虛空處、識處、無所有處、無想處。或一或若
 <lb n="0851b11" ed="T"/>干，或別聞<anchor xml:id="nkr_note_orig_0851004" n="0851004"/><anchor xml:id="nkr_note_mod_0851004" n="0851004"/><anchor xml:id="beg0851004" n="0851004"/>聞<anchor xml:id="end0851004"/>見識知得觀覺行，從今世至
 <lb n="0851b12" ed="T"/>後世，從後世至今世，彼盡以神通示不樂亦
-<lb n="0851b13" ed="T"/>不樂，亦不計我，亦不言是我；我說彼<anchor xml:id="nkr_note_orig_0851005" n="0851005"/><anchor xml:id="beg0851005" n="0851005"/>以<anchor xml:id="end0851005"/>知。
+<lb n="0851b13" ed="T"/>不樂，亦不計我，亦不言是我；我說彼<anchor xml:id="nkr_note_orig_0851005" n="0851005"/><anchor xml:id="nkr_note_mod_0851005" n="0851005"/><anchor xml:id="beg0851005" n="0851005"/>以<anchor xml:id="end0851005"/>知。
 <lb n="0851b14" ed="T"/>復次，我以地為神通，不樂地，不樂地，不以
 <lb n="0851b15" ed="T"/>地為我，我不計地，我以知水火風。神天、梵
 <lb n="0851b16" ed="T"/>天、阿婆天、阿鞞婆天，彼神通不以為淨，不
 <lb n="0851b17" ed="T"/>以為淨，不計淨為我，我以知此虛空處、識處、
-<lb n="0851b18" ed="T"/>無所有處、無想<anchor xml:id="beg_1" type="cb-app"/>處<anchor xml:id="end_1"/>。或一或若干，或別見聞識
+<lb n="0851b18" ed="T"/>無所有處、無想<anchor xml:id="nkr_note_add_0851b1801" n="0851b1801"/><anchor xml:id="beg0851b1801" n="0851b1801"/>處<anchor xml:id="end0851b1801"/>。或一或若干，或別見聞識
 <lb n="0851b19" ed="T"/>知得觀覺行，從今世至後世，從後世至今
 <lb n="0851b20" ed="T"/>世，盡已神通不樂，不樂，不計為我；我已知此。」
 <lb n="0851b21" ed="T"/>佛如是說。彼諸比丘聞世尊所說，歡喜而樂，
@@ -162,15 +163,16 @@ Added comment  for Emacs
 <app from="#beg0851003" to="#end0851003"><lem wit="#wit1">我</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">惑</rdg></app>
 <app from="#beg0851004" to="#end0851004"><lem wit="#wit1">聞</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
 <app from="#beg0851005" to="#end0851005"><lem wit="#wit1">以</lem><rdg resp="#resp1" wit="#wit4">已</rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_1" cb:to="#end_1"><corr>處</corr><sic><space quantity="0"/></sic></choice>
+<app from="#beg0851b1801" to="#end0851b1801"><lem wit="#wit5" resp="#resp3">處</lem><rdg wit="#wit1"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0851002" resp="#resp2" type="mod" target="#nkr_note_mod_0851002">月支國三藏＝沙門【宋】【元】【明】</note>
-<note n="0851003" resp="#resp2" type="mod" target="#nkr_note_mod_0851003">我＝惑【宋】【元】【明】</note>
-<note n="0851004" resp="#resp2" type="mod" target="#nkr_note_mod_0851004">〔聞〕－【宋】【元】【明】</note>
+<note n="0851002" resp="#resp2" type="mod" target="#nkr_note_mod_0851002">月支國三藏【大】，沙門【宋】【元】【明】</note>
+<note n="0851003" resp="#resp2" type="mod" target="#nkr_note_mod_0851003">我【大】，惑【宋】【元】【明】</note>
+<note n="0851004" resp="#resp2" type="mod" target="#nkr_note_mod_0851004">聞【大】，〔－〕【宋】【元】【明】</note>
+<note n="0851005" resp="#resp2" type="mod" target="#nkr_note_mod_0851005">以【大】，已【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -180,6 +182,12 @@ Added comment  for Emacs
 <note n="0851003" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0851003">我＝惑【三】</note>
 <note n="0851004" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0851004">〔聞〕－【三】</note>
 <note n="0851005" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0851005">以＝已【明】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0851b1801" resp="#resp2" type="add" target="#nkr_note_add_0851b1801">處【CB】，［－］【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

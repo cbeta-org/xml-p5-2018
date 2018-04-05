@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.4 $<date>$Date: 2009/04/23 08:15:50 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>ZangWai</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 3, No. 31b</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -190,7 +195,7 @@ BM→XML標記作業
 <lb ed="ZW" n="0419a10"/>如日輪。<note place="inline">三念佛。</note></p>
 <lb ed="ZW" n="0419a11"/><p xml:id="pZW03p0419a1101" rend="margin-left:0em;text-indent:2em">佛兩<g ref="#CB00170">䏶</g>周圓漸次而斂。<note place="inline">三念佛。</note></p>
 <lb ed="ZW" n="0419a12"/><p xml:id="pZW03p0419a1201" rend="margin-left:0em;text-indent:2em">佛兩膝骨圓著好。<note place="inline">三念佛。</note></p>
-<lb ed="ZW" n="0419a13"/><p xml:id="pZW03p0419a1301" rend="margin-left:0em;text-indent:2em">如來伊尼鹿王腨相。<anchor xml:id="beg_1" type="cb-app"/><note place="inline">三念佛</note>。<anchor xml:id="end_1"/></p>
+<lb ed="ZW" n="0419a13"/><p xml:id="pZW03p0419a1301" rend="margin-left:0em;text-indent:2em">如來伊尼鹿王腨相。<anchor xml:id="nkr_note_add_0419a1301" n="0419a1301"/><anchor xml:id="beg0419a1301" n="0419a1301"/><note place="inline">三念佛</note>。<anchor xml:id="end0419a1301"/></p>
 <lb ed="ZW" n="0419a14"/><p xml:id="pZW03p0419a1401" rend="margin-left:0em;text-indent:2em">如來足跟圓長有梵王頂相，眾類不異，各生一華，其
 <lb ed="ZW" n="0419a15"/>華微妙，猶<anchor xml:id="nkr_note_orig_0419007" n="0419007"/>如淨國優鉢羅華。<note place="inline">三念佛。</note></p>
 <lb ed="ZW" n="0419a16"/><p xml:id="pZW03p0419a1601" rend="margin-left:0em;text-indent:2em">佛兩足踝不見<anchor xml:id="nkr_note_orig_0419008" n="0419008"/>相。<note place="inline">三念佛。</note></p>
@@ -242,7 +247,7 @@ BM→XML標記作業
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr><note place="inline">三念佛</note>。</corr><sic>三念佛</sic></choice>
+<app from="#beg0419a1301" to="#end0419a1301"><lem wit="#wit1" resp="#resp3"><note place="inline">三念佛</note>。</lem><rdg wit="#wit2">三念佛</rdg></app>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
@@ -311,6 +316,12 @@ BM→XML標記作業
 <note n="0421009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0421009">「陀」，底本作「馱」，據文意改。</note>
 <note n="0421010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0421010">本錄文尾題甲本作「佛相好經一卷」。</note>
 <note n="0421011" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0421011">底本卷尾有題記一則，為「清信佛弟子敦煌郡司法參軍馮如皂在住所自寫記之」。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0419a1301" resp="#resp2" type="add" target="#nkr_note_add_0419a1301"><note place="inline">三念佛</note>【CB】，三念佛【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

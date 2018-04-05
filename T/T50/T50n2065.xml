@@ -14,9 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.15 $<date>$Date: 2009/04/23 08:13:17 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -35,6 +34,7 @@
 		<bibl>Taishō Tripiṭaka Vol. 50, No. 2065</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -324,7 +324,7 @@ Added comment  for Emacs
 <lb n="1015b13" ed="T"/>隨機普被。任器方圓。其猶一風而萬竅齊號。
 <lb n="1015b14" ed="T"/>孤月而千江皆現。四十九年度脫群品。列子
 <lb n="1015b15" ed="T"/>所謂西方有聖人者是也。是時文殊與目連
-<lb n="1015b16" ed="T"/>為化人亦<anchor xml:id="nkr_note_orig_1015001" n="1015001"/><anchor xml:id="beg1015001" n="1015001"/><g ref="#CB05849">󱛙</g>子<anchor xml:id="end1015001"/>震旦。佛年七十九。以穆王壬
+<lb n="1015b16" ed="T"/>為化人亦<anchor xml:id="nkr_note_orig_1015001" n="1015001"/><anchor xml:id="nkr_note_mod_1015001" n="1015001"/><anchor xml:id="beg1015001" n="1015001"/><g ref="#CB05849">󱛙</g>子<anchor xml:id="end1015001"/>震旦。佛年七十九。以穆王壬
 <lb n="1015b17" ed="T"/>申二月十五日入滅於瓊林。白虹十二道。連
 <lb n="1015b18" ed="T"/>夜不滅。王問太史扈多。曰。西方大聖人方滅
 <lb n="1015b19" ed="T"/>度耳。於是阿難等結集金言。具載貝牒。經律
@@ -337,7 +337,7 @@ Added comment  for Emacs
 <lb n="1015b26" ed="T"/>時當周敬王二十六年丁未也。塔興周世。經
 <lb n="1015b27" ed="T"/>二十二王。至秦始皇三十四年。焚燒典籍。育
 <lb n="1015b28" ed="T"/>王寶塔由是隱亡。當是時。沙門利方。十八賢
-<lb n="1015b29" ed="T"/>者。<anchor xml:id="beg_1" type="cb-app"/>賫<anchor xml:id="end_1"/>持佛經。來化咸陽。秦始皇不從而囚之。
+<lb n="1015b29" ed="T"/>者。<anchor xml:id="nkr_note_add_1015b2901" n="1015b2901"/><anchor xml:id="beg1015b2901" n="1015b2901"/>賫<anchor xml:id="end1015b2901"/>持佛經。來化咸陽。秦始皇不從而囚之。
 <pb n="1015c" xml:id="T50.2065.1015c" ed="T"/>
 <lb n="1015c01" ed="T"/>夜有金剛丈人。破獄出之而去。蓋機緣未熟
 <lb n="1015c02" ed="T"/>故也及後漢永平十二年。摩騰．竺法蘭．來儀
@@ -347,7 +347,7 @@ Added comment  for Emacs
 <lb n="1015c06" ed="T"/>來傳浮屠經教。乃知前漢已行。六十三年而
 <lb n="1015c07" ed="T"/>後明帝方感金人夢耳。若我海東。則高句麗
 <lb n="1015c08" ed="T"/>解味留王時。順道至平壤城。繼有摩羅難陀。
-<lb n="1015c09" ed="T"/>從晉來<anchor xml:id="nkr_note_orig_1015002" n="1015002"/><anchor xml:id="beg1015002" n="1015002"/>千<anchor xml:id="end1015002"/>百濟國。則枕流王代也。後於新羅
+<lb n="1015c09" ed="T"/>從晉來<anchor xml:id="nkr_note_orig_1015002" n="1015002"/><anchor xml:id="nkr_note_mod_1015002" n="1015002"/><anchor xml:id="beg1015002" n="1015002"/>千<anchor xml:id="end1015002"/>百濟國。則枕流王代也。後於新羅
 <lb n="1015c10" ed="T"/>第二十三法興王踐祚．梁大通元年丁未三
 <lb n="1015c11" ed="T"/>月十一日。阿道來止一善縣。因信士毛禮隱
 <lb n="1015c12" ed="T"/>焉。屬有吳使者。香道指其焚點之儀。由是延
@@ -460,12 +460,12 @@ Added comment  for Emacs
 <lb n="1016c29" ed="T"/><p xml:id="pT50p1016c2901">釋<anchor xml:id="nkr_note_orig_1016005" n="1016005"/>曇始．關中人也。自出家多有異跡。足白
 <pb n="1017a" xml:id="T50.2065.1017a" ed="T"/>
 <lb n="1017a01" ed="T"/>於面。雖涉泥水。未甞沾濕。天下咸稱白足和
-<lb n="1017a02" ed="T"/>尚。以晉大元末年<anchor xml:id="beg_2" type="cb-app"/>賫<anchor xml:id="end_2"/>持經律數十部。往化遼
+<lb n="1017a02" ed="T"/>尚。以晉大元末年<anchor xml:id="nkr_note_add_1017a0201" n="1017a0201"/><anchor xml:id="beg1017a0201" n="1017a0201"/>賫<anchor xml:id="end1017a0201"/>持經律數十部。往化遼
 <lb n="1017a03" ed="T"/>東。乘機宣化。顯授三乘。立以歸戒。梁<anchor xml:id="nkr_note_orig_1017001" n="1017001"/>僧傳
 <lb n="1017a04" ed="T"/>以此為高句麗開法之始。時當開土王五年．
 <lb n="1017a05" ed="T"/>新羅奈勿王四十一年．百濟阿莘王五年。而
 <lb n="1017a06" ed="T"/>秦符堅送經像後二十五年也。是後四年。法
-<lb n="1017a07" ed="T"/>顯西入天竺。又二年羅什<anchor xml:id="nkr_note_orig_1017002" n="1017002"/><anchor xml:id="beg1017002" n="1017002"/>生<anchor xml:id="end1017002"/>來。玄高法師生
+<lb n="1017a07" ed="T"/>顯西入天竺。又二年羅什<anchor xml:id="nkr_note_orig_1017002" n="1017002"/><anchor xml:id="nkr_note_mod_1017002" n="1017002"/><anchor xml:id="beg1017002" n="1017002"/>生<anchor xml:id="end1017002"/>來。玄高法師生
 <lb n="1017a08" ed="T"/>焉。晉義熙初。師復還關中。唱道三輔。長安人
 <lb n="1017a09" ed="T"/>王胡之叔父某死已數年矣。一日夢中忽來
 <lb n="1017a10" ed="T"/>現形。接引王胡。遊遍地獄。示諸果報。胡辭還
@@ -485,7 +485,7 @@ Added comment  for Emacs
 <lb n="1017a24" ed="T"/>算知燾化之將至。乃於元會日。手策金錫。即
 <lb n="1017a25" ed="T"/>到宮門。有司奏云。有白足道人。從官門徑入。
 <lb n="1017a26" ed="T"/>儀形可怪燾聞已。即令猛卒斬之。不傷。燾大
-<lb n="1017a27" ed="T"/>怒自以所<anchor xml:id="beg_3" type="cb-app"/>佩<anchor xml:id="end_3"/>利劍斫焉。惟劍所著處有痕如紅
+<lb n="1017a27" ed="T"/>怒自以所<anchor xml:id="nkr_note_add_1017a2701" n="1017a2701"/><anchor xml:id="beg1017a2701" n="1017a2701"/>佩<anchor xml:id="end1017a2701"/>利劍斫焉。惟劍所著處有痕如紅
 <lb n="1017a28" ed="T"/>綿。體無餘異。時有北園養虎子檻。燾驅令貽
 <lb n="1017a29" ed="T"/>之。虎皆潛伏。終不敢近。燾試遣天師近檻。猛
 <pb n="1017b" xml:id="T50.2065.1017b" ed="T"/>
@@ -532,7 +532,7 @@ Added comment  for Emacs
 <lb n="1017c11" ed="T"/>頂。即月岳也。此處聖住未易殫書。然百濟
 <lb n="1017c12" ed="T"/>乃馬韓之謂矣。宋僧傳云。難陀得如幻三昧。
 <lb n="1017c13" ed="T"/>入水不濡。投火無灼。能變金石。化現無窮。
-<lb n="1017c14" ed="T"/>時當建中。年代相<anchor xml:id="nkr_note_orig_1017006" n="1017006"/><anchor xml:id="beg1017006" n="1017006"/>拒<anchor xml:id="end1017006"/>而不同。恐非一人之
+<lb n="1017c14" ed="T"/>時當建中。年代相<anchor xml:id="nkr_note_orig_1017006" n="1017006"/><anchor xml:id="nkr_note_mod_1017006" n="1017006"/><anchor xml:id="beg1017006" n="1017006"/>拒<anchor xml:id="end1017006"/>而不同。恐非一人之
 <lb n="1017c15" ed="T"/>跡也。</p>
 <lb n="1017c16" ed="T"/><p xml:id="pT50p1017c1601" rend="margin-left:1em">贊曰。世之流民。性多<g ref="#CB00395">𢤱</g>戾。王命有所不從。
 <lb n="1017c17" ed="T"/>國令有所不順。一旦聞所未聞。見所未見。
@@ -546,7 +546,7 @@ Added comment  for Emacs
 <lb n="1017c25" ed="T"/>妙花。始新羅訥祇王時。有黑胡子者。從句高
 <lb n="1017c26" ed="T"/>麗至一善郡。宣化有緣。郡人<anchor xml:id="nkr_note_orig_1017008" n="1017008"/>毛禮。家中作
 <lb n="1017c27" ed="T"/>窟室安置。於是梁遣使賜衣著香物。君臣不
-<lb n="1017c28" ed="T"/>知香名及與所用。乃遣中使<anchor xml:id="beg_4" type="cb-app"/>賫<anchor xml:id="end_4"/>香遍問中外。
+<lb n="1017c28" ed="T"/>知香名及與所用。乃遣中使<anchor xml:id="nkr_note_add_1017c2801" n="1017c2801"/><anchor xml:id="beg1017c2801" n="1017c2801"/>賫<anchor xml:id="end1017c2801"/>香遍問中外。
 <lb n="1017c29" ed="T"/>胡子見之稱其名目曰。焚此則香氣芬馥。所
 <pb n="1018a" xml:id="T50.2065.1018a" ed="T"/>
 <lb n="1018a01" ed="T"/>以達誠於神靈。所謂神聖不過三寶。一曰佛
@@ -584,7 +584,7 @@ Added comment  for Emacs
 <lb n="1018b03" ed="T"/>受業十九年。歸寧於母。母諭曰。此國機緣未
 <lb n="1018b04" ed="T"/>熟。難行佛法。惟彼新羅今雖無聲教。爾後三
 <lb n="1018b05" ed="T"/>十餘月有護法明王御宇。大興佛事。又其國
-<lb n="1018b06" ed="T"/>京師有七法住之處。一曰金<anchor xml:id="nkr_note_orig_1018002" n="1018002"/>橋天鏡林<note place="inline"><anchor xml:id="beg_5" type="cb-app"/>今<anchor xml:id="end_5"/>與<anchor xml:id="nkr_note_orig_1018003" n="1018003"/>輪寺</note>。
+<lb n="1018b06" ed="T"/>京師有七法住之處。一曰金<anchor xml:id="nkr_note_orig_1018002" n="1018002"/>橋天鏡林<note place="inline"><anchor xml:id="nkr_note_add_1018b0601" n="1018b0601"/><anchor xml:id="beg1018b0601" n="1018b0601"/>今<anchor xml:id="end1018b0601"/>與<anchor xml:id="nkr_note_orig_1018003" n="1018003"/>輪寺</note>。
 <lb n="1018b07" ed="T"/>二曰三川岐<note place="inline">今永興寺</note>。三曰龍宮南<note place="inline">今皇龍寺</note>。四曰龍宮北
 <lb n="1018b08" ed="T"/><note place="inline">今芬皇寺</note>。五曰神遊林<note place="inline">今天王寺</note>。六曰沙川尾<note place="inline">今靈妙寺</note>。七曰婿
 <lb n="1018b09" ed="T"/>請田<note place="inline">今曇嚴寺</note>。此等佛法不滅前劫時伽藍墟也。
@@ -689,7 +689,7 @@ Added comment  for Emacs
 <lb n="1019b18" ed="T"/>夫何間言。以梁武比之非也。彼以人主為
 <lb n="1019b19" ed="T"/>大同寺奴。帝業墜地。法空既遜讓以固其
 <lb n="1019b20" ed="T"/>嗣。自引為沙門。何有於我哉。髑經所謂王
-<lb n="1019b21" ed="T"/>比丘殊身同體矣。若<anchor xml:id="nkr_note_orig_1019001" n="1019001"/><anchor xml:id="beg1019001" n="1019001"/>乎<anchor xml:id="end1019001"/>掃迷雲放性空之
+<lb n="1019b21" ed="T"/>比丘殊身同體矣。若<anchor xml:id="nkr_note_orig_1019001" n="1019001"/><anchor xml:id="nkr_note_mod_1019001" n="1019001"/><anchor xml:id="beg1019001" n="1019001"/>乎<anchor xml:id="end1019001"/>掃迷雲放性空之
 <lb n="1019b22" ed="T"/>慧日挾之以飛者。惟厭髑之力乎。</p>
 <lb n="1019b23" ed="T"/><p xml:id="pT50p1019b2301">釋法雲．俗名公夌宗。諡曰真興。而法興王弟
 <lb n="1019b24" ed="T"/>葛文王之子也。母金氏。生七歲即位。克寬克
@@ -754,7 +754,7 @@ Added comment  for Emacs
 <lb n="1020a22" ed="T"/>化。謂曰遷喬必出谷。學道務求師。若安々而
 <lb n="1020a23" ed="T"/>居。遲々而行。非釋子棄恩之本意。即附舶入
 <lb n="1020a24" ed="T"/>梁。為求法之先鋒。但不知第何年耳。此新羅
-<lb n="1020a25" ed="T"/>入學之始。遂歷事明師。備承口<anchor xml:id="nkr_note_orig_1020001" n="1020001"/><anchor xml:id="beg1020001" n="1020001"/>訅<anchor xml:id="end1020001"/>如除翳膜。
+<lb n="1020a25" ed="T"/>入學之始。遂歷事明師。備承口<anchor xml:id="nkr_note_orig_1020001" n="1020001"/><anchor xml:id="nkr_note_mod_1020001" n="1020001"/><anchor xml:id="beg1020001" n="1020001"/>訅<anchor xml:id="end1020001"/>如除翳膜。
 <lb n="1020a26" ed="T"/>如去盯矃。有始有終。無荒無怠。德高行峻。道
 <lb n="1020a27" ed="T"/>望彌隆。以採寶者非但自用。當還故國普振
 <lb n="1020a28" ed="T"/>群貧。乃於真興王十年。與梁使齎佛舍利。還
@@ -1012,14 +1012,14 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg1015001" to="#end1015001"><lem resp="#resp1" wit="#wit1"><g ref="#CB05849">󱛙</g>子</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">迹于</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>賫<note type="cf1">T54n2128_p0380b06</note></corr><sic>賚</sic></choice>
+<app from="#beg1015b2901" to="#end1015b2901"><lem wit="#wit2" resp="#resp3">賫<note type="cf1">T54n2128_p0380b06</note></lem><rdg wit="#wit1">賚</rdg></app>
 <app from="#beg1015002" to="#end1015002"><lem resp="#resp1" wit="#wit1">千</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">于</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>賫<note type="cf1">T54n2128_p0380b06</note></corr><sic>賚</sic></choice>
+<app from="#beg1017a0201" to="#end1017a0201"><lem wit="#wit2" resp="#resp3">賫<note type="cf1">T54n2128_p0380b06</note></lem><rdg wit="#wit1">賚</rdg></app>
 <app from="#beg1017002" to="#end1017002"><lem resp="#resp1" wit="#wit1">生</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
-<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>佩</corr><sic><g ref="#CB01887">󰝟</g></sic></choice>
+<app from="#beg1017a2701" to="#end1017a2701"><lem wit="#wit2" resp="#resp2">佩</lem><rdg wit="#wit1"><g ref="#CB01887">󰝟</g></rdg></app>
 <app from="#beg1017006" to="#end1017006"><lem resp="#resp1" wit="#wit1">拒</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">距</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>賫<note type="cf1">J25nB154_p0033c16</note></corr><sic>賚</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_5" cb:to="#end_5"><corr>今</corr><sic>令</sic></choice>
+<app from="#beg1017c2801" to="#end1017c2801"><lem wit="#wit2" resp="#resp3">賫<note type="cf1">J25nB154_p0033c16</note></lem><rdg wit="#wit1">賚</rdg></app>
+<app from="#beg1018b0601" to="#end1018b0601"><lem wit="#wit2" resp="#resp2">今</lem><rdg wit="#wit1">令</rdg></app>
 <app from="#beg1019001" to="#end1019001"><lem resp="#resp1" wit="#wit1">乎</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">手</rdg></app>
 <app from="#beg1020001" to="#end1020001"><lem resp="#resp1" wit="#wit1">訅</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">訓</rdg></app>
 </p>
@@ -1028,7 +1028,7 @@ Added comment  for Emacs
 <head>多語詞條對照</head>
 <p>
 <cb:tt type="app" from="#beg1021015" to="#end1021015">
-	<cb:t resp="#resp3" xml:lang="zh-Hant">農伽<lb n="1021c24" ed="T"/>陀</cb:t>
+	<cb:t resp="#resp2" xml:lang="zh-Hant">農伽<lb n="1021c24" ed="T"/>陀</cb:t>
 	<cb:t resp="#resp1" xml:lang="sa" place="foot">Naugata</cb:t>
 </cb:tt>
 </p>
@@ -1036,8 +1036,14 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="1016001" resp="#resp3" type="mod" target="#nkr_note_mod_1016001"><!--CBETA todo type: a-->續高僧傳卷八</note>
-<note n="1021015" resp="#resp3" type="mod" target="#nkr_note_mod_1021015"><choice cb:resp="#resp3"><corr>農伽陀</corr><sic><space quantity="0"/></sic></choice> Naugata<choice cb:resp="#resp4"><corr><space quantity="0"/></corr><sic>[＊]</sic></choice></note>
+<note n="1015001" resp="#resp2" type="mod" target="#nkr_note_mod_1015001"><g ref="#CB05849">󱛙</g>子【大】，迹于【考偽-大】</note>
+<note n="1015002" resp="#resp2" type="mod" target="#nkr_note_mod_1015002">千【大】，于【考偽-大】</note>
+<note n="1016001" resp="#resp2" type="mod" target="#nkr_note_mod_1016001"><!--CBETA todo type: a-->續高僧傳卷八</note>
+<note n="1017002" resp="#resp2" type="mod" target="#nkr_note_mod_1017002">生【大】，〔－〕【考偽-大】</note>
+<note n="1017006" resp="#resp2" type="mod" target="#nkr_note_mod_1017006">拒【大】，距【考偽-大】</note>
+<note n="1019001" resp="#resp2" type="mod" target="#nkr_note_mod_1019001">乎【大】，手【考偽-大】</note>
+<note n="1020001" resp="#resp2" type="mod" target="#nkr_note_mod_1020001">訅【大】，訓【考偽-大】</note>
+<note n="1021015" resp="#resp2" type="mod" target="#nkr_note_mod_1021015">農伽陀 Naugata</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -1106,6 +1112,16 @@ Added comment  for Emacs
 <note n="1022015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1022015">梵宜下在名字上</note>
 <note n="1022016" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1022016">法字宜削之</note>
 <note n="1022017" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1022017">Sarvajña-deva</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1015b2901" resp="#resp2" type="add" target="#nkr_note_add_1015b2901">賫【CB】，賚【大】</note>
+<note n="1017a0201" resp="#resp2" type="add" target="#nkr_note_add_1017a0201">賫【CB】，賚【大】</note>
+<note n="1017a2701" resp="#resp2" type="add" target="#nkr_note_add_1017a2701">佩【CB】，<g ref="#CB01887">󰝟</g>【大】</note>
+<note n="1017c2801" resp="#resp2" type="add" target="#nkr_note_add_1017c2801">賫【CB】，賚【大】</note>
+<note n="1018b0601" resp="#resp2" type="add" target="#nkr_note_add_1018b0601">今【CB】，令【大】</note>
 </p>
 </cb:div>
 <cb:div type="rest-notes">

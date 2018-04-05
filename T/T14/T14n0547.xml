@@ -15,7 +15,6 @@
                 <edition>$Revision: 1.10 $<date>$Date: 2012/08/27 03:14:54 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -180,7 +179,7 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note type="mod" n="0853001" resp="#resp2" target="#nkr_note_mod_0853001">【宋】【元】【明】不<choice cb:resp="#resp3"><corr>載</corr><sic>戴</sic></choice>此經</note>
+<note type="mod" n="0853001" resp="#resp2" target="#nkr_note_mod_0853001"><!--CBETA todo type: newmod-->【宋】【元】【明】不載此經</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:15:17 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -149,7 +150,7 @@ Added comment  for Emacs
 <lb n="0556c21" ed="T"/>生而說。是有不應道理。若已生相即果。已生
 <lb n="0556c22" ed="T"/>復從因生。不應道理。是故因中非先有果。然
 <lb n="0556c23" ed="T"/>要有因待緣果生。又有相法。於有相法中。由
-<lb n="0556c24" ed="T"/>五種相故。方可了知。<anchor xml:id="nkr_note_orig_0556011" n="0556011"/><anchor xml:id="beg0556011" n="0556011"/>於一<anchor xml:id="end0556011"/>處所可得。如瓶
+<lb n="0556c24" ed="T"/>五種相故。方可了知。<anchor xml:id="nkr_note_orig_0556011" n="0556011"/><anchor xml:id="nkr_note_mod_0556011" n="0556011"/><anchor xml:id="beg0556011" n="0556011"/>於一<anchor xml:id="end0556011"/>處所可得。如瓶
 <lb n="0556c25" ed="T"/>中水。二於所依可得。如眼中眼識。三即自相
 <lb n="0556c26" ed="T"/>可得。如因自體不由比度。四即由自作業可
 <lb n="0556c27" ed="T"/>得。五由因變異故成變異。或由緣變異故果
@@ -220,6 +221,12 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0556011" to="#end0556011"><lem resp="#resp1" wit="#wit1">於一</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">一於</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0556011" resp="#resp2" type="mod" target="#nkr_note_mod_0556011">於一【大】，一於【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

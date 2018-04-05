@@ -120,7 +120,7 @@ Added comment  for Emacs
 <lb n="0799c08" ed="T"/><cb:docNumber>No. 214</cb:docNumber>
 <lb n="0799c09" ed="T"/><cb:juan n="001" fun="open"><cb:mulu type="卷" n="001"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0799002" n="0799002"/><anchor xml:id="nkr_note_mod_0799002" n="0799002"/><anchor xml:id="beg0799002" n="0799002"/>佛說<anchor xml:id="end0799002"/>猘狗經</cb:jhead></cb:juan>
 <lb n="0799c10" ed="T"/>
-<lb ed="T" n="0799c11"/><byline cb:type="Translator">吳<anchor xml:id="nkr_note_orig_0799003" n="0799003"/><anchor xml:id="beg0799003" n="0799003"/>月支國<anchor xml:id="nkr_note_orig_0799004" n="0799004"/><anchor xml:id="beg0799004" n="0799004"/>居士<anchor xml:id="end0799004"/><anchor xml:id="end0799003"/>支謙譯</byline>
+<lb ed="T" n="0799c11"/><byline cb:type="Translator">吳<anchor xml:id="nkr_note_orig_0799003" n="0799003"/><anchor xml:id="nkr_note_mod_0799003" n="0799003"/><anchor xml:id="beg0799003" n="0799003"/>月支國<anchor xml:id="nkr_note_orig_0799004" n="0799004"/><anchor xml:id="nkr_note_mod_0799004" n="0799004"/><anchor xml:id="beg0799004" n="0799004"/>居士<anchor xml:id="end0799004"/><anchor xml:id="end0799003"/>支謙譯</byline>
 <lb ed="T" n="0799c12"/><cb:div type="jing"><p xml:id="pT04p0799c1201">佛在羅閱祇耆闍崛山中，月十五日說戒。時
 <lb ed="T" n="0799c13"/>阿難長跪白佛言：「今佛為一切救，開化五道
 <lb n="0799c14" ed="T"/>童<anchor xml:id="nkr_note_orig_0799005" n="0799005"/><anchor xml:id="nkr_note_mod_0799005" n="0799005"/><anchor xml:id="beg0799005" n="0799005"/>曚<anchor xml:id="end0799005"/>盲冥者，使脫惡道。佛般泥洹後，留舍利、
@@ -174,7 +174,7 @@ Added comment  for Emacs
 <p>
 <app from="#beg0799002" to="#end0799002"><lem wit="#wit1">佛說</lem><rdg wit="#wit2 #wit3 #wit4" resp="#resp1"><space quantity="0"/></rdg></app>
 <app from="#beg0799004" to="#end0799004"><lem wit="#wit1">居士</lem><rdg wit="#wit4" resp="#resp1">優婆塞</rdg></app>
-<app from="#beg0799003" to="#end0799003"><lem wit="#wit1">月支國<note type="orig" resp="#resp1" n="0799004" place="foot text">居士＝優婆塞【明】</note><app n="0799004"><lem wit="#wit1">居士</lem><rdg wit="#wit4" resp="#resp1">優婆塞</rdg></app></lem><rdg wit="#wit2 #wit3" resp="#resp1"><space quantity="0"/></rdg></app>
+<app from="#beg0799003" to="#end0799003"><lem wit="#wit1">月支國<note type="orig" resp="#resp1" n="0799004" place="foot text">居士＝優婆塞【明】</note><note type="mod" resp="#resp2" n="0799004">居士【大】，優婆塞【明】</note><app n="0799004"><lem wit="#wit1">居士</lem><rdg wit="#wit4" resp="#resp1">優婆塞</rdg></app></lem><rdg wit="#wit2 #wit3" resp="#resp1"><space quantity="0"/></rdg></app>
 <app from="#beg0799005" to="#end0799005"><lem wit="#wit1">曚</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">蒙</rdg></app>
 <app from="#beg0799006" to="#end0799006"><lem wit="#wit1">主</lem><rdg wit="#wit2 #wit3 #wit4" resp="#resp1">至</rdg></app>
 <app from="#beg0800001" to="#end0800001"><lem wit="#wit1">了</lem><rdg wit="#wit2 #wit3 #wit4" resp="#resp1">不了</rdg></app>
@@ -185,12 +185,14 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note type="mod" n="0799002" resp="#resp2" target="#nkr_note_mod_0799002">〔佛說〕－【宋】【元】【明】</note>
-<note type="mod" resp="#resp2" n="0799005" target="#nkr_note_mod_0799005">曚＝蒙【宋】【元】【明】</note>
-<note type="mod" n="0799006" resp="#resp2" target="#nkr_note_mod_0799006">主＝至【宋】【元】【明】</note>
-<note type="mod" resp="#resp2" n="0800001" target="#nkr_note_mod_0800001">（不）＋了【宋】【元】【明】</note>
-<note n="0800002" resp="#resp2" type="mod" target="#nkr_note_mod_0800002">湔＝懺【宋】【元】【明】</note>
-<note type="mod" resp="#resp2" n="0800003" target="#nkr_note_mod_0800003">是為＝為是【宋】【元】【明】</note>
+<note type="mod" n="0799002" resp="#resp2" target="#nkr_note_mod_0799002">佛說【大】，〔－〕【宋】【元】【明】</note>
+<note type="mod" n="0799003" resp="#resp2" target="#nkr_note_mod_0799003">月支國居士【大】，〔－〕【宋】【元】</note>
+<note type="mod" resp="#resp2" n="0799004" target="#nkr_note_mod_0799004">居士【大】，優婆塞【明】</note>
+<note type="mod" resp="#resp2" n="0799005" target="#nkr_note_mod_0799005">曚【大】，蒙【宋】【元】【明】</note>
+<note type="mod" n="0799006" resp="#resp2" target="#nkr_note_mod_0799006">主【大】，至【宋】【元】【明】</note>
+<note type="mod" resp="#resp2" n="0800001" target="#nkr_note_mod_0800001">了【大】，不了【宋】【元】【明】</note>
+<note n="0800002" resp="#resp2" type="mod" target="#nkr_note_mod_0800002">湔【大】，懺【宋】【元】【明】</note>
+<note type="mod" resp="#resp2" n="0800003" target="#nkr_note_mod_0800003">是為【大】，為是【宋】【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

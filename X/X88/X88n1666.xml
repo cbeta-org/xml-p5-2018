@@ -12,7 +12,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 09:07:53 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -29,6 +30,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 88, No. 1666</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -219,7 +224,7 @@ no message
 <lb ed="X" n="0558b06"/><lb ed="R150" n="0523a12"/><lg xml:id="lgX88p0558b0601"><l>有情來下種</l><l>因地果還生</l><l>無情既無種</l>
 <lb ed="X" n="0558b07"/><lb ed="R150" n="0523a13"/><l>無性亦無生</l></lg></cb:div>
 <lb ed="X" n="0558b08"/><lb ed="R150" n="0523a14"/><cb:div type="other"><cb:mulu type="其他" level="2">慧能大師(第三十三祖中華六祖)</cb:mulu><head>慧能大師<note place="inline">第三十三祖中華六祖</note></head>
-<lb ed="X" n="0558b09"/><lb ed="R150" n="0523a15"/><lg xml:id="lgX88p0558b0901"><l>心地含諸種</l><l>普雨悉皆生</l><l>頓悟華情<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/></l>
+<lb ed="X" n="0558b09"/><lb ed="R150" n="0523a15"/><lg xml:id="lgX88p0558b0901"><l>心地含諸種</l><l>普雨悉皆生</l><l>頓悟華情<anchor xml:id="nkr_note_add_0558b0901" n="0558b0901"/><anchor xml:id="beg0558b0901" n="0558b0901"/>已<anchor xml:id="end0558b0901"/></l>
 <lb ed="X" n="0558b10"/><lb ed="R150" n="0523a16"/><l>菩提果自成</l></lg></cb:div></cb:div>
 <lb ed="X" n="0558b11"/><lb ed="R150" n="0523a17"/>
 <lb ed="X" n="0558b12"/><lb ed="R150" n="0523a18"/>
@@ -265,7 +270,13 @@ no message
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0558b0901" to="#end0558b0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0558b0901" resp="#resp1" type="add" target="#nkr_note_add_0558b0901">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

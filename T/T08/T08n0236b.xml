@@ -8,9 +8,10 @@
 <resp>Electronic Version by</resp><name>CBETA</name></respStmt></titleStmt>
 <editionStmt><edition>$Revision: 1.21 $<date>$Date: 2012/08/27 03:14:21 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt></editionStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.pan</name></respStmt>
+		<respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.say</name></respStmt></editionStmt>
 <extent>1卷</extent>
 <publicationStmt><distributor><name>中華電子佛典協會 (CBETA)</name>
 <address><addrLine>service@cbeta.org</addrLine></address>
@@ -21,6 +22,7 @@
 <listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【宮】</witness>
+		<witness xml:id="wit3">【CB】</witness>
 	</listWit></p>
 	</sourceDesc></fileDesc>
 <encodingDesc><projectDesc>
@@ -102,9 +104,9 @@ add cvs log
 <lb n="0757a20" ed="T"/>
 <milestone n="1" unit="juan"/>
 <lb n="0757a21" ed="T"/>
-<lb n="0757a22" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead><title><anchor xml:id="nkr_note_orig_0757005" n="0757005"/><anchor xml:id="beg0757005" n="0757005"/>金剛<anchor xml:id="end0757005"/>般若波羅蜜經</title></cb:jhead></cb:juan>
+<lb n="0757a22" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="1" type="卷"></cb:mulu><cb:jhead><title><anchor xml:id="nkr_note_orig_0757005" n="0757005"/><anchor xml:id="nkr_note_mod_0757005" n="0757005"/><anchor xml:id="beg0757005" n="0757005"/>金剛<anchor xml:id="end0757005"/>般若波羅蜜經</title></cb:jhead></cb:juan>
 <lb n="0757a23" ed="T"/>
-<lb n="0757a24" ed="T"/><anchor xml:id="nkr_1"/><byline>元魏留支三藏奉　詔譯</byline>
+<lb n="0757a24" ed="T"/><anchor xml:id="nkr_note_add_0757a2401" n="0757a2401"/><byline>元魏留支三藏奉　詔譯</byline>
 <lb n="0757a25" ed="T"/><cb:div type="jing"><p xml:id="pT08p0757a2501">如是我聞：</p><p xml:id="pT08p0757a2505" rend="inline">一時佛婆伽婆，住舍衛國祇陀
 <lb n="0757a26" ed="T"/>樹林給孤獨園。與大比丘眾千二百五十
 <lb n="0757a27" ed="T"/>人俱。爾時世尊，於日前分，著衣持鉢，入
@@ -132,13 +134,13 @@ add cvs log
 <lb n="0757b19" ed="T"/>善男子、善女人發菩提心行菩薩乘，應如
 <lb n="0757b20" ed="T"/>是發心：『所有一切眾生類攝，若卵生、若胎
 <lb n="0757b21" ed="T"/>生、若濕生、若化生，若有色、若無色，若有想、
-<lb n="0757b22" ed="T"/>若無想，若非有<anchor xml:id="beg_2" type="cb-app"/>想<anchor xml:id="end_2"/>、若非無想，乃至眾生界
+<lb n="0757b22" ed="T"/>若無想，若非有<anchor xml:id="nkr_note_add_0757b2201" n="0757b2201"/><anchor xml:id="beg0757b2201" n="0757b2201"/>想<anchor xml:id="end0757b2201"/>、若非無想，乃至眾生界
 <lb n="0757b23" ed="T"/>及假名說，如是眾生，我皆安置於無餘涅
 <lb n="0757b24" ed="T"/>槃。』如是般涅槃無量眾生已，無一眾生被
 <lb n="0757b25" ed="T"/>涅槃者。何以故？須菩提，若菩薩有眾生想，
 <lb n="0757b26" ed="T"/>即不應說名為菩薩。何以故？須菩提！一切
 <lb n="0757b27" ed="T"/>菩薩無我想、眾生想、壽者想、受者想。</p><p xml:id="pT08p0757b2715" rend="inline">「復次，
-<lb n="0757b28" ed="T"/>須菩提！菩<anchor xml:id="beg_3" type="cb-app"/>薩<anchor xml:id="end_3"/>不著己類而行布施，不著所
+<lb n="0757b28" ed="T"/>須菩提！菩<anchor xml:id="nkr_note_add_0757b2801" n="0757b2801"/><anchor xml:id="beg0757b2801" n="0757b2801"/>薩<anchor xml:id="end0757b2801"/>不著己類而行布施，不著所
 <lb n="0757b29" ed="T"/>餘行於布施，不著色、聲、香、味、觸、法應行布
 <pb n="0757c" xml:id="T08.0236b.0757c" ed="T"/>
 <lb n="0757c01" ed="T"/>施。須菩提！菩薩應如是行施不著相想。何
@@ -332,7 +334,7 @@ add cvs log
 <lb n="0759c09" ed="T"/>見、壽者見、受者見如此等人，能聽能修讀
 <lb n="0759c10" ed="T"/>誦教他正說，無有是處。</p><p xml:id="pT08p0759c1010" rend="inline">「復次，須菩提！隨所
 <lb n="0759c11" ed="T"/>在處顯說此經，一切世間天、人、阿脩羅等，
-<lb n="0759c12" ed="T"/>皆應供養作禮右遶。當知此處於世間<anchor xml:id="nkr_note_orig_0759001" n="0759001"/><anchor xml:id="beg0759001" n="0759001"/>此<anchor xml:id="end0759001"/>
+<lb n="0759c12" ed="T"/>皆應供養作禮右遶。當知此處於世間<anchor xml:id="nkr_note_orig_0759001" n="0759001"/><anchor xml:id="nkr_note_mod_0759001" n="0759001"/><anchor xml:id="beg0759001" n="0759001"/>此<anchor xml:id="end0759001"/>
 <lb n="0759c13" ed="T"/>即成支提。</p><p xml:id="pT08p0759c1305" rend="inline">「須菩提！若有善男子、善女人，受
 <lb n="0759c14" ed="T"/>持讀誦教他修行，正說如是等經。此人現
 <lb n="0759c15" ed="T"/>身受輕賤等，過去世中所造惡業，應感生
@@ -359,7 +361,7 @@ add cvs log
 <lb n="0760a06" ed="T"/>發起菩薩心？」</p><p xml:id="pT08p0760a0606" rend="inline">佛告須菩提：「善男子、善女人，
 <lb n="0760a07" ed="T"/>發阿耨多羅三藐三菩提心者，當生如是
 <lb n="0760a08" ed="T"/>心：『我應安置一切眾生，令入無餘涅槃。如
-<lb n="0760a09" ed="T"/>是<anchor xml:id="beg_4" type="cb-app"/>般<anchor xml:id="end_4"/>涅槃無量眾生已，無一眾生被涅槃
+<lb n="0760a09" ed="T"/>是<anchor xml:id="nkr_note_add_0760a0901" n="0760a0901"/><anchor xml:id="beg0760a0901" n="0760a0901"/>般<anchor xml:id="end0760a0901"/>涅槃無量眾生已，無一眾生被涅槃
 <lb n="0760a10" ed="T"/>者。』何以故？須菩提！若菩薩有眾生想，則
 <lb n="0760a11" ed="T"/>不應說名為菩薩。何以故？須菩提！實無有
 <lb n="0760a12" ed="T"/>法名為能行菩薩上乘。須菩提！汝意云何？
@@ -536,16 +538,17 @@ add cvs log
 <head>校註</head>
 <p>
 <app from="#beg0757005" to="#end0757005"><lem wit="#wit1">金剛</lem><rdg resp="#resp1" wit="#wit2">佛說金剛</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>想</corr><sic>相</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_3" cb:to="#end_3"><corr>薩</corr><sic>提</sic></choice>
+<app from="#beg0757b2201" to="#end0757b2201"><lem wit="#wit3" resp="#resp3">想</lem><rdg wit="#wit1">相</rdg></app>
+<app from="#beg0757b2801" to="#end0757b2801"><lem wit="#wit3" resp="#resp4">薩</lem><rdg wit="#wit1">提</rdg></app>
 <app from="#beg0759001" to="#end0759001"><lem wit="#wit1">此</lem><rdg resp="#resp1" wit="#wit2">中</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_4" cb:to="#end_4"><corr>般<note type="cf1">T08n0236bp0757b24</note><note type="cf2">T08n0237_p0764c14</note></corr><sic>槃</sic></choice>
+<app from="#beg0760a0901" to="#end0760a0901"><lem wit="#wit3" resp="#resp5">般<note type="cf1">T08n0236bp0757b24</note><note type="cf2">T08n0237_p0764c14</note></lem><rdg wit="#wit1">槃</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note resp="#resp2" target="#nkr_1">此經疑為真諦譯本。</note>
+<note n="0757005" resp="#resp2" type="mod" target="#nkr_note_mod_0757005">金剛【大】，佛說金剛【宮】</note>
+<note n="0759001" resp="#resp2" type="mod" target="#nkr_note_mod_0759001">此【大】，中【宮】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -553,6 +556,15 @@ add cvs log
 <p>
 <note n="0757005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0757005">（佛說）＋金剛【宮】</note>
 <note n="0759001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0759001">此＝中【宮】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0757a2401" resp="#resp3" type="add" target="#nkr_note_add_0757a2401">此經疑為真諦譯本。</note>
+<note n="0757b2201" resp="#resp2" type="add" target="#nkr_note_add_0757b2201">想【CB】，相【大】</note>
+<note n="0757b2801" resp="#resp2" type="add" target="#nkr_note_add_0757b2801">薩【CB】，提【大】</note>
+<note n="0760a0901" resp="#resp2" type="add" target="#nkr_note_add_0760a0901">般【CB】，槃【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

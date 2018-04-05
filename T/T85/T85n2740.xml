@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:15:15 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2740</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -361,7 +366,7 @@ Added comment  for Emacs
 <pb n="0140b" xml:id="T85.2740.0140b" ed="T"/>
 <lb n="0140b01" ed="T"/>釋云。理雖無我。而不壞假名。若不言我。則
 <lb n="0140b02" ed="T"/>亦無聞。化道則絕。是故□□□我而得說我。
-<lb n="0140b03" ed="T"/>如人以金易銅。賣買法爾。人無咲者世俗<anchor xml:id="beg_1" type="cb-app"/>諦<anchor xml:id="end_1"/>
+<lb n="0140b03" ed="T"/>如人以金易銅。賣買法爾。人無咲者世俗<anchor xml:id="nkr_note_add_0140b0301" n="0140b0301"/><anchor xml:id="beg0140b0301" n="0140b0301"/>諦<anchor xml:id="end0140b0301"/>
 <lb n="0140b04" ed="T"/>中假名說我。智者不怪也。聞者耳根不壞。
 <lb n="0140b05" ed="T"/>聲在可聞境。意欲作聞相。因緣和合。應言
 <lb n="0140b06" ed="T"/>耳聞。云何言我聞。釋云。雖無神主。而不無
@@ -433,7 +438,7 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>諦<note type="cf1">T39n1799_p0851c14</note></corr><sic>帝</sic></choice>
+<app from="#beg0140b0301" to="#end0140b0301"><lem wit="#wit1" resp="#resp3">諦<note type="cf1">T39n1799_p0851c14</note></lem><rdg wit="#wit2">帝</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -441,6 +446,12 @@ Added comment  for Emacs
 <p>
 <note n="0137002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0137002">【原】大英博物館藏燉煌本, S. 1037</note>
 <note n="0141001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0141001">以下闕</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0140b0301" resp="#resp2" type="add" target="#nkr_note_add_0140b0301">諦【CB】，帝【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

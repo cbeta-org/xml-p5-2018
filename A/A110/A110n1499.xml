@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2011/01/26 09:11:31 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>2卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Jin Edition of the Canon Vol. 110, No. 1499</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【金藏】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -205,7 +210,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="A" xml:id="A110.1499.0661b" n="0661b"/>
 <lb ed="A" n="0661b01"/><milestone unit="juan" n="1"/><cb:mulu type="卷" n="1"></cb:mulu>
 <lb ed="A" n="0661b02"/><cb:div type="other"><cb:mulu type="其他" level="1">舊入藏錄</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">小乘重單合譯經</cb:mulu>
-<lb ed="A" n="0661b03"/><list><item xml:id="itemA110p0661b0301"><anchor xml:id="beg_1" type="cb-app"/>四諦經一卷<anchor xml:id="end_1"/>
+<lb ed="A" n="0661b03"/><list><item xml:id="itemA110p0661b0301"><anchor xml:id="nkr_note_add_0661b0301" n="0661b0301"/><anchor xml:id="beg0661b0301" n="0661b0301"/>四諦經一卷<anchor xml:id="end0661b0301"/>
 <lb ed="A" n="0661b04"/><list><item xml:id="itemA110p0661b0401">三藏安世高譯</item></list></item>
 <lb ed="A" n="0661b05"/><item xml:id="itemA110p0661b0501">恒水經一卷
 <lb ed="A" n="0661b06"/><list><item xml:id="itemA110p0661b0601">西晉釋法炬譯</item></list></item>
@@ -499,7 +504,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0672b09"/><list><item xml:id="itemA110p0672b0901">上二十二經二十三卷同帙竟字号</item></list></item></list></item>
 <lb ed="A" n="0672b10"/><item xml:id="itemA110p0672b1001">五百弟子自說本起經一卷</item>
 <lb ed="A" n="0672b11"/><item xml:id="itemA110p0672b1101">大迦葉本經一卷</item>
-<lb ed="A" n="0672b12"/><item xml:id="itemA110p0672b1201">四自侵經<anchor xml:id="beg_2" type="cb-app"/>一卷<anchor xml:id="end_2"/></item></list></cb:div></cb:div>
+<lb ed="A" n="0672b12"/><item xml:id="itemA110p0672b1201">四自侵經<anchor xml:id="nkr_note_add_0672b1201" n="0672b1201"/><anchor xml:id="beg0672b1201" n="0672b1201"/>一卷<anchor xml:id="end0672b1201"/></item></list></cb:div></cb:div>
 <pb ed="A" xml:id="A110.1499.0673b" n="0673b"/>
 <lb ed="A" n="0673b01"/><milestone unit="juan" n="2"/><cb:mulu type="卷" n="2"></cb:mulu><cb:div type="other"><cb:mulu type="其他" level="1">新入藏錄</cb:mulu><cb:div type="other"><cb:mulu type="其他" level="2">皇朝新翻藏乘統收錄上</cb:mulu><list><item xml:id="itemA110p0673b0101">廣品歷章三十卷三帙<note place="inline">亦名一<unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear>
 <lb ed="A" n="0673b02"/>入<unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear><unclear></unclear></note>
@@ -681,7 +686,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0680a09"/>論及念誦法讚錄等計一百二十五部
 <lb ed="A" n="0680a10"/>二百四十二卷二十四帙并廣品歷章三
 <lb ed="A" n="0680a11"/>十卷本錄三卷勒成三帙附正元錄之
-<lb ed="A" n="0680a12"/>首<anchor xml:id="beg_3" type="cb-app"/>已<anchor xml:id="end_3"/>上緫二百七十五卷二十七帙。</p></cb:div>
+<lb ed="A" n="0680a12"/>首<anchor xml:id="nkr_note_add_0680a1201" n="0680a1201"/><anchor xml:id="beg0680a1201" n="0680a1201"/>已<anchor xml:id="end0680a1201"/>上緫二百七十五卷二十七帙。</p></cb:div>
 <pb ed="A" xml:id="A110.1499.0680b" n="0680b"/>
 <lb ed="A" n="0680b01"/><cb:div type="other"><cb:mulu type="其他" level="2">皇朝新翻藏乘統收錄下</cb:mulu><head>皇朝新翻藏乘統收錄下</head>
 <lb ed="A" n="0680b02"/><cb:div type="xu"><cb:mulu type="序" level="3">皇宋大中祥符法寶錄序文</cb:mulu><head>皇宋大中祥符法寶錄
@@ -707,7 +712,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0681a09" type="honorific"/>天姿達於性理述宣奧妙開導昏蒙鑒鷲
 <lb ed="A" n="0681a10"/>嶺之希微協祇園之敷暢故令絕域罔不
 <lb ed="A" n="0681a11"/>賔王顧彼寶坊盈茲貝葉期慧日之普照
-<lb ed="A" n="0681a12"/>庶法雨之徧霑有詔<anchor xml:id="beg_4" type="cb-app"/>方<anchor xml:id="end_4"/>袍悉從翻譯申命
+<lb ed="A" n="0681a12"/>庶法雨之徧霑有詔<anchor xml:id="nkr_note_add_0681a1201" n="0681a1201"/><anchor xml:id="beg0681a1201" n="0681a1201"/>方<anchor xml:id="end0681a1201"/>袍悉從翻譯申命
 <pb ed="A" xml:id="A110.1499.0681b" n="0681b"/>
 <lb ed="A" n="0681b01"/>鴻筆共加詳研歲序<g ref="#CB12629">󳅕</g>更篇<g ref="#CB14245">󳞥</g>滋廣暨
 <lb ed="A" n="0681b02"/>予沖眇祗嗣慶靈<g ref="#CB05064">󱏈</g>懷
@@ -1292,7 +1297,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="A" n="0703b09"/>海意菩薩所問淨印法門經緫一十七部
 <lb ed="A" n="0703b10"/>一百七卷未經編收名錄今且以卷部
 <lb ed="A" n="0703b11"/>年次勒成一十帙附大中祥符法寶
-<lb ed="A" n="0703b12"/>錄後收所<g ref="#CB00042">󰀪</g>未再編修續錄<anchor xml:id="beg_5" type="cb-app"/>已<anchor xml:id="end_5"/>來
+<lb ed="A" n="0703b12"/>錄後收所<g ref="#CB00042">󰀪</g>未再編修續錄<anchor xml:id="nkr_note_add_0703b1201" n="0703b1201"/><anchor xml:id="beg0703b1201" n="0703b1201"/>已<anchor xml:id="end0703b1201"/>來
 <lb ed="A" n="0703b13"/>不至湮墜經本今列于左。</p>
 <pb ed="A" xml:id="A110.1499.0704a" n="0704a"/>
 <lb ed="A" n="0704a01"/><list><item xml:id="itemA110p0704a0101">佛說白衣金幢二婆羅門緣起經一部三卷</item>
@@ -1404,11 +1409,21 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>四諦經一卷</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>一卷</corr><sic><space quantity="0"/></sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_4" cb:to="#end_4"><corr>方</corr><sic>万</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_5" cb:to="#end_5"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0661b0301" to="#end0661b0301"><lem wit="#wit1" resp="#resp2">四諦經一卷</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0672b1201" to="#end0672b1201"><lem wit="#wit1" resp="#resp2">一卷</lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0680a1201" to="#end0680a1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0681a1201" to="#end0681a1201"><lem wit="#wit1" resp="#resp2">方</lem><rdg wit="#wit2">万</rdg></app>
+<app from="#beg0703b1201" to="#end0703b1201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0661b0301" resp="#resp1" type="add" target="#nkr_note_add_0661b0301">四諦經一卷【CB】，［－］【金藏】</note>
+<note n="0672b1201" resp="#resp1" type="add" target="#nkr_note_add_0672b1201">一卷【CB】，［－］【金藏】</note>
+<note n="0680a1201" resp="#resp1" type="add" target="#nkr_note_add_0680a1201">已【CB】，巳【金藏】</note>
+<note n="0681a1201" resp="#resp1" type="add" target="#nkr_note_add_0681a1201">方【CB】，万【金藏】</note>
+<note n="0703b1201" resp="#resp1" type="add" target="#nkr_note_add_0703b1201">已【CB】，巳【金藏】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -13,8 +13,9 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2010/03/17 08:56:43 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>ZangWai</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>ZangWai</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 1, No. 4</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -110,7 +115,7 @@ BM→XML標記作業
 <lb ed="ZW" n="0060a08"/><p xml:id="pZW01p0060a0801" rend="margin-left:0em;text-indent:2em">本典籍所述為密教戒律，共計八條，故名。本典籍未為我國歷
 <lb ed="ZW" n="0060a09"/>代經錄所著錄，亦不為歷代大藏經所收，現藏於俄羅斯科學院東方
 <lb ed="ZW" n="0060a10"/>研究所聖彼得堡分所，編號為Ф221，被視為敦煌遺書。但從種種迹
-<lb ed="ZW" n="0060a11"/><anchor xml:id="beg_1" type="cb-app"/>象<anchor xml:id="end_1"/>分析，該典籍並非敦煌遺書，應為在西夏故地黑城出土的西夏文
+<lb ed="ZW" n="0060a11"/><anchor xml:id="nkr_note_add_0060a1101" n="0060a1101"/><anchor xml:id="beg0060a1101" n="0060a1101"/>象<anchor xml:id="end0060a1101"/>分析，該典籍並非敦煌遺書，應為在西夏故地黑城出土的西夏文
 <lb ed="ZW" n="0060a12"/>獻<anchor xml:id="nkr_note_orig_0060001" n="0060001"/>。本文獻對研究西夏佛教具有相當的參考價值。</p>
 <lb ed="ZW" n="0060a13"/><p xml:id="pZW01p0060a1301" rend="margin-left:0em;text-indent:2em">整理者1991年在聖彼得堡考察時曾據原卷錄文。整理本據上
 <lb ed="ZW" n="0060a14"/>述錄文及上海古籍出版社《俄藏敦煌文獻》（第四冊）發表的照片錄
@@ -193,28 +198,34 @@ BM→XML標記作業
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>象</corr><sic>像</sic></choice>
+<app from="#beg0060a1101" to="#end0060a1101"><lem wit="#wit1" resp="#resp2">象</lem><rdg wit="#wit2">像</rdg></app>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
 <head>方廣錩 校註</head>
 <p>
-<note n="0060001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0060001">參見：方廣錩，《俄藏〈大乘入藏錄卷上〉研究》，載《北京圖書館館刊》，1992年第一期。</note>
-<note n="0061001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0061001">「誠」，底本作「成」，據文意改。</note>
-<note n="0061002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0061002">「第一頌云」，底本無，據文意補。</note>
-<note n="0061003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0061003">「誑」，底本作「<g ref="#CB21713">𤞘</g>」，據文意改。</note>
-<note n="0061004" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0061004">「側」，底本作「<g ref="#CB21714">𢯩</g>」，據文意改。</note>
-<note n="0061005" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0061005">「遂」，底本作「逐」，據文意改。</note>
-<note n="0061006" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0061006">「聚」，底本作「趣」，據文意改。</note>
-<note n="0062001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0062001">「作」，底本殘，據殘存字形補。</note>
-<note n="0062002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0062002">「第三頌云」，底本無，據文意補。</note>
-<note n="0062003" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0062003">「時」，底本殘，據殘存字形補。</note>
-<note n="0062004" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0062004">「說」，底本殘，據殘存字形補。</note>
-<note n="0062005" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0062005">「說句師不解秘密法第二習故」等字，原書寫在兩頁接縫處，後斷裂。重新粘接時，字跡迭壓，故照片上該幾字較難辨認。但原卷這些字尚可辨認。</note>
-<note n="0062006" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0062006">「此一人法」，底本殘，據殘存字形補。</note>
-<note n="0062007" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0062007">「秘密」，底本殘，據殘存字形補。</note>
-<note n="0063001" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0063001">「念」，底本作「令」，據文意改。</note>
-<note n="0063002" resp="#resp2" place="foot text" type="orig" target="#nkr_note_orig_0063002">「誑」，底本作「<g ref="#CB21713">𤞘</g>」，據文意改。</note>
+<note n="0060001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0060001">參見：方廣錩，《俄藏〈大乘入藏錄卷上〉研究》，載《北京圖書館館刊》，1992年第一期。</note>
+<note n="0061001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0061001">「誠」，底本作「成」，據文意改。</note>
+<note n="0061002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0061002">「第一頌云」，底本無，據文意補。</note>
+<note n="0061003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0061003">「誑」，底本作「<g ref="#CB21713">𤞘</g>」，據文意改。</note>
+<note n="0061004" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0061004">「側」，底本作「<g ref="#CB21714">𢯩</g>」，據文意改。</note>
+<note n="0061005" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0061005">「遂」，底本作「逐」，據文意改。</note>
+<note n="0061006" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0061006">「聚」，底本作「趣」，據文意改。</note>
+<note n="0062001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0062001">「作」，底本殘，據殘存字形補。</note>
+<note n="0062002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0062002">「第三頌云」，底本無，據文意補。</note>
+<note n="0062003" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0062003">「時」，底本殘，據殘存字形補。</note>
+<note n="0062004" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0062004">「說」，底本殘，據殘存字形補。</note>
+<note n="0062005" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0062005">「說句師不解秘密法第二習故」等字，原書寫在兩頁接縫處，後斷裂。重新粘接時，字跡迭壓，故照片上該幾字較難辨認。但原卷這些字尚可辨認。</note>
+<note n="0062006" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0062006">「此一人法」，底本殘，據殘存字形補。</note>
+<note n="0062007" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0062007">「秘密」，底本殘，據殘存字形補。</note>
+<note n="0063001" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0063001">「念」，底本作「令」，據文意改。</note>
+<note n="0063002" resp="#resp3" place="foot text" type="orig" target="#nkr_note_orig_0063002">「誑」，底本作「<g ref="#CB21713">𤞘</g>」，據文意改。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0060a1101" resp="#resp1" type="add" target="#nkr_note_add_0060a1101">象【CB】，像【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

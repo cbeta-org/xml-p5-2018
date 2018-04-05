@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:12:37 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -295,7 +296,7 @@ Added comment  for Emacs
 <lb n="0647c16" ed="T"/><p xml:id="pT47p0647c1601">上堂。云無邊剎境。自他不隔於毫端。十世古
 <lb n="0647c17" ed="T"/>今。始終不離於當念。遂拍禪床一下云。釋迦
 <lb n="0647c18" ed="T"/>老子年多少。還知麼。若也知得。人間天上。出
-<lb n="0647c19" ed="T"/>入自由。若也不知。雲蓋自道。<anchor xml:id="nkr_note_orig_0647001" n="0647001"/><anchor xml:id="beg0647001" n="0647001"/>恒薩訶<anchor xml:id="end0647001"/>竭二
+<lb n="0647c19" ed="T"/>入自由。若也不知。雲蓋自道。<anchor xml:id="nkr_note_orig_0647001" n="0647001"/><anchor xml:id="nkr_note_mod_0647001" n="0647001"/><anchor xml:id="beg0647001" n="0647001"/>恒薩訶<anchor xml:id="end0647001"/>竭二
 <lb n="0647c20" ed="T"/>千年。</p>
 <lb n="0647c21" ed="T"/><p xml:id="pT47p0647c2101">上堂。云把定乾坤幾萬般。文殊普賢豈能觀。
 <lb n="0647c22" ed="T"/>今日為君重注破。鼈鼻南山子細看。以拄杖
@@ -403,6 +404,12 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0647001" to="#end0647001"><lem resp="#resp1" wit="#wit1">恒薩訶</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">怛薩阿</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0647001" resp="#resp2" type="mod" target="#nkr_note_mod_0647001">恒薩訶【大】，怛薩阿【考偽-原】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

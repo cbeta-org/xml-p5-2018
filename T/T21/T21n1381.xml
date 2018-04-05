@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.6 $<date>$Date: 2009/04/23 08:01:49 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -132,8 +133,8 @@ Added comment  for Emacs
 <lb n="0903c12" ed="T"/><cb:docNumber>No. 1381</cb:docNumber><cb:div type="jing">
 <lb n="0903c13" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0903002" n="0903002"/>佛說大吉祥陀羅尼經</cb:jhead></cb:juan>
 <lb n="0903c14" ed="T"/>
-<lb n="0903c15" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0903003" n="0903003"/><anchor xml:id="beg0903003" n="0903003"/>西<anchor xml:id="end0903003"/>天<anchor xml:id="nkr_note_orig_0903004" n="0903004"/><anchor xml:id="beg0903004" n="0903004"/>譯經<anchor xml:id="end0903004"/>三藏朝散大夫試光祿卿
-<lb n="0903c16" ed="T"/>明教大師<anchor xml:id="nkr_note_orig_0903005" n="0903005"/><anchor xml:id="beg0903005" n="0903005"/>臣<anchor xml:id="end0903005"/>法賢奉　詔譯</byline>
+<lb n="0903c15" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0903003" n="0903003"/><anchor xml:id="nkr_note_mod_0903003" n="0903003"/><anchor xml:id="beg0903003" n="0903003"/>西<anchor xml:id="end0903003"/>天<anchor xml:id="nkr_note_orig_0903004" n="0903004"/><anchor xml:id="nkr_note_mod_0903004" n="0903004"/><anchor xml:id="beg0903004" n="0903004"/>譯經<anchor xml:id="end0903004"/>三藏朝散大夫試光祿卿
+<lb n="0903c16" ed="T"/>明教大師<anchor xml:id="nkr_note_orig_0903005" n="0903005"/><anchor xml:id="nkr_note_mod_0903005" n="0903005"/><anchor xml:id="beg0903005" n="0903005"/>臣<anchor xml:id="end0903005"/>法賢奉　詔譯</byline>
 <lb n="0903c17" ed="T"/><p xml:id="pT21p0903c1701">如是我聞。一時佛在蘇珂嚩帝佛剎。與諸大
 <lb n="0903c18" ed="T"/>菩薩并部多眾俱。爾時觀自在菩薩摩訶薩。
 <lb n="0903c19" ed="T"/>來詣佛所到已頭面禮足於一面坐。復有菩
@@ -144,7 +145,7 @@ Added comment  for Emacs
 <lb n="0903c24" ed="T"/>世中。有比丘比丘尼優婆塞優婆夷等。見聞
 <lb n="0903c25" ed="T"/>隨喜讀誦受持。信解此法思惟記念。是貧苦
 <lb n="0903c26" ed="T"/>者獲大富貴。乃至部多普令愛敬。如是功德
-<lb n="0903c27" ed="T"/>不可具說。時觀自在菩薩聞佛<anchor xml:id="nkr_note_orig_0903006" n="0903006"/><anchor xml:id="beg0903006" n="0903006"/>語<anchor xml:id="end0903006"/>已。歡喜踊
+<lb n="0903c27" ed="T"/>不可具說。時觀自在菩薩聞佛<anchor xml:id="nkr_note_orig_0903006" n="0903006"/><anchor xml:id="nkr_note_mod_0903006" n="0903006"/><anchor xml:id="beg0903006" n="0903006"/>語<anchor xml:id="end0903006"/>已。歡喜踊
 <lb n="0903c28" ed="T"/>躍即從座起。合掌白佛言。世尊我今樂聞。唯
 <lb n="0903c29" ed="T"/>願世尊為我宣說。</p>
 <pb n="0904a" xml:id="T21.1381.0904a" ed="T"/>
@@ -173,6 +174,15 @@ Added comment  for Emacs
 <app from="#beg0903004" to="#end0903004"><lem wit="#wit1">譯經</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0903005" to="#end0903005"><lem wit="#wit1">臣</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg0903006" to="#end0903006"><lem wit="#wit1">語</lem><rdg resp="#resp1" wit="#wit2">說</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0903003" resp="#resp2" type="mod" target="#nkr_note_mod_0903003">西【大】，宋西【明】</note>
+<note n="0903004" resp="#resp2" type="mod" target="#nkr_note_mod_0903004">譯經【大】，〔－〕【明】</note>
+<note n="0903005" resp="#resp2" type="mod" target="#nkr_note_mod_0903005">臣【大】，〔－〕【明】</note>
+<note n="0903006" resp="#resp2" type="mod" target="#nkr_note_mod_0903006">語【大】，說【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

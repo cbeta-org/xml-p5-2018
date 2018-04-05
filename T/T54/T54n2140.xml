@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 54, No. 2140</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -467,7 +471,7 @@ add cvs log
 <lb n="1271c26" ed="T"/><l>速降光明慈悲手</l><l>更勿棄擲□魔□</l>
 <lb n="1271c27" ed="T"/><l>懇切悲嘷誠心啟</l><l>降大慈悲恒遮護</l>
 <lb n="1271c28" ed="T"/><l>恕我曠劫諸愆咎</l><l>如彼過去諸男女</l>
-<lb n="1271c29" ed="T"/><l>我是大聖明羔子</l><l>垂淚含啼<anchor xml:id="beg_1" type="cb-app"/>訴<anchor xml:id="end_1"/>冤屈</l>
+<lb n="1271c29" ed="T"/><l>我是大聖明羔子</l><l>垂淚含啼<anchor xml:id="nkr_note_add_1271c2901" n="1271c2901"/><anchor xml:id="beg1271c2901" n="1271c2901"/>訴<anchor xml:id="end1271c2901"/>冤屈</l>
 <pb n="1272a" xml:id="T54.2140.1272a" ed="T"/>
 <lb n="1272a01" ed="T"/><l>卒被犲狼諸猛獸</l><l>劫我離善光明牧</l>
 <lb n="1272a02" ed="T"/><l>降大慈悲乞收採</l><l>放入柔濡光明群</l>
@@ -957,7 +961,7 @@ add cvs log
 <lb n="1277b06" ed="T"/><l>彼處殿堂諸宮室</l><l>皆非手作而成堅</l>
 <lb n="1277b07" ed="T"/><l>不假功夫法自爾</l><l>若言修造無是處</l>
 <lb n="1277b08" ed="T"/><l>所從寶地涌出者</l><l>皆有見聞及覺知</l>
-<lb n="1277b09" ed="T"/><l>得覩無上涅槃王</l><l>稱讚歌<anchor xml:id="beg_2" type="cb-app"/>揚<anchor xml:id="end_2"/>大聖威</l>
+<lb n="1277b09" ed="T"/><l>得覩無上涅槃王</l><l>稱讚歌<anchor xml:id="nkr_note_add_1277b0901" n="1277b0901"/><anchor xml:id="beg1277b0901" n="1277b0901"/>揚<anchor xml:id="end1277b0901"/>大聖威</l>
 <lb n="1277b10" ed="T"/><l>彼處暗影本元無</l><l>所有內外明無比</l>
 <lb n="1277b11" ed="T"/><l>一切身相甚希奇</l><l>於寶地者恒青翠</l>
 <lb n="1277b12" ed="T"/><l>聖眾形軀甚奇特</l><l>高廣嚴容實難思</l>
@@ -983,7 +987,7 @@ add cvs log
 <lb n="1277c02" ed="T"/><l>讚禮稱楊無疲厭</l><l>普歎明尊善業威</l>
 <lb n="1277c03" ed="T"/><l>讚唄妙音皆可悅</l><l>其聲清美皆安靜</l>
 <lb n="1277c04" ed="T"/><l>上下齊同震妙響</l><l>周遍伽藍元不寧</l>
-<lb n="1277c05" ed="T"/><l>其音演暢甚殊特</l><l>遍互歌<anchor xml:id="beg_3" type="cb-app"/>揚<anchor xml:id="end_3"/>述妙德</l>
+<lb n="1277c05" ed="T"/><l>其音演暢甚殊特</l><l>遍互歌<anchor xml:id="nkr_note_add_1277c0501" n="1277c0501"/><anchor xml:id="beg1277c0501" n="1277c0501"/>揚<anchor xml:id="end1277c0501"/>述妙德</l>
 <lb n="1277c06" ed="T"/><l>諸聖快樂皆究竟</l><l>常住恒安無疲極</l>
 <lb n="1277c07" ed="T"/><l>光明寶地無邊際</l><l>欲尋厓岸無是處</l>
 <lb n="1277c08" ed="T"/><l>元無迫迮及遮護</l><l>各自逍遙任處所</l>
@@ -1174,15 +1178,23 @@ add cvs log
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>訴</corr><sic>訢</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>揚</corr><sic>楊</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>揚</corr><sic>楊</sic></choice>
+<app from="#beg1271c2901" to="#end1271c2901"><lem wit="#wit1" resp="#resp2">訴</lem><rdg wit="#wit2">訢</rdg></app>
+<app from="#beg1277b0901" to="#end1277b0901"><lem wit="#wit1" resp="#resp2">揚</lem><rdg wit="#wit2">楊</rdg></app>
+<app from="#beg1277c0501" to="#end1277c0501"><lem wit="#wit1" resp="#resp2">揚</lem><rdg wit="#wit2">楊</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1270001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1270001">唐代寫燉煌本大英博物館藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1271c2901" resp="#resp2" type="add" target="#nkr_note_add_1271c2901">訴【CB】，訢【大】</note>
+<note n="1277b0901" resp="#resp2" type="add" target="#nkr_note_add_1277b0901">揚【CB】，楊【大】</note>
+<note n="1277c0501" resp="#resp2" type="add" target="#nkr_note_add_1277c0501">揚【CB】，楊【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

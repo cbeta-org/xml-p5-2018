@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2009/04/22 08:54:12 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 26, No. 564</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -89,8 +94,8 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0912c12"/><lb ed="R042" n="0038b06"/>其曰不生不滅言。過去未來性。固存存也。不垢不淨。
 <lb ed="X" n="0912c13"/><lb ed="R042" n="0038b07"/>言狂愚聖哲性。自惺惺也。不增不減。言壽殀福極性。
 <lb ed="X" n="0912c14"/><lb ed="R042" n="0038b08"/>本如如也。奈彼螾螾不解。無始本旨。妄起生滅垢淨
-<lb ed="X" n="0912c15"/><lb ed="R042" n="0038b09"/>增減諸想。由是五蘊六識。顛倒于中。則藤葛<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>甚。纏
-<lb ed="X" n="0912c16"/><lb ed="R042" n="0038b10"/>結<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>劇。欲證般若。是猶南馳而北轅。舍樹若仲子滙。
+<lb ed="X" n="0912c15"/><lb ed="R042" n="0038b09"/>增減諸想。由是五蘊六識。顛倒于中。則藤葛<anchor xml:id="nkr_note_add_0912c1501" n="0912c1501"/><anchor xml:id="beg0912c1501" n="0912c1501"/>已<anchor xml:id="end0912c1501"/>甚。纏
+<lb ed="X" n="0912c16"/><lb ed="R042" n="0038b10"/>結<anchor xml:id="nkr_note_add_0912c1601" n="0912c1601"/><anchor xml:id="beg0912c1601" n="0912c1601"/>已<anchor xml:id="end0912c1601"/>劇。欲證般若。是猶南馳而北轅。舍樹若仲子滙。
 <lb ed="X" n="0912c17"/><lb ed="R042" n="0038b11"/>唄梵五千之旨。全孕以經。爰為註疏。註者釋彼藤葛。
 <lb ed="X" n="0912c18"/><lb ed="R042" n="0038b12"/>疏者解彼纏結。試讀此編。是即五千餘卷之要領。不
 <lb ed="X" n="0912c19"/><lb ed="R042" n="0038b13"/>立文字之祕藏。則知心經乃諸經之指歸。而註疏又
@@ -134,7 +139,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0913b07"/><lb ed="R042" n="0039b07"/>總承。觀者覺也。自則寂照自然。在則如如不動。覺
 <lb ed="X" n="0913b08"/><lb ed="R042" n="0039b08"/>而自在斯成菩薩。自在菩薩。人人皆是。只因六根
 <lb ed="X" n="0913b09"/><lb ed="R042" n="0039b09"/>障蔽。不能觀省。萬情所牽。不得自在若智慧人。一
-<lb ed="X" n="0913b10"/><lb ed="R042" n="0039b10"/>心清淨。靜觀本性。覺自<anchor xml:id="beg_3" type="cb-app"/>己<anchor xml:id="end_3"/>斷絕法緣之菩薩。優游
+<lb ed="X" n="0913b10"/><lb ed="R042" n="0039b10"/>心清淨。靜觀本性。覺自<anchor xml:id="nkr_note_add_0913b1001" n="0913b1001"/><anchor xml:id="beg0913b1001" n="0913b1001"/>己<anchor xml:id="end0913b1001"/>斷絕法緣之菩薩。優游
 <lb ed="X" n="0913b11"/><lb ed="R042" n="0039b11"/>自在矣。故觀自在者。能修般若之菩薩也。般若波
 <lb ed="X" n="0913b12"/><lb ed="R042" n="0039b12"/>羅蜜多者。菩薩所修之法也。菩薩用般若。觀慧照
 <lb ed="X" n="0913b13"/><lb ed="R042" n="0039b13"/>了。圓融無礙。故稱自在。此自行也。復閔在迷眾生。
@@ -293,9 +298,17 @@ basicx 程式 轉自 簡單標記版
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_3" cb:to="#end_3"><corr>己</corr><sic>巳</sic></choice>
+<app from="#beg0912c1501" to="#end0912c1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0912c1601" to="#end0912c1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0913b1001" to="#end0913b1001"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0912c1501" resp="#resp1" type="add" target="#nkr_note_add_0912c1501">已【CB】，巳【卍續】</note>
+<note n="0912c1601" resp="#resp1" type="add" target="#nkr_note_add_0912c1601">已【CB】，巳【卍續】</note>
+<note n="0913b1001" resp="#resp1" type="add" target="#nkr_note_add_0913b1001">己【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

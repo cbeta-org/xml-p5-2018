@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:12:23 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 46, No. 1917</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -408,7 +413,7 @@ Added comment  for Emacs
 <lb n="0552a28" ed="T"/>了息相。隨妄見生分別。即是數息戲論。四邊
 <lb n="0552a29" ed="T"/>火燒。生煩惱處。長夜貪著邪見。造諸邪行。斷
 <pb n="0552b" xml:id="T46.1917.0552b" ed="T"/>
-<lb n="0552b01" ed="T"/>滅善根。不<anchor xml:id="beg_1" type="cb-app"/>會<anchor xml:id="end_1"/>無生。心行理外。故名外道。如是
+<lb n="0552b01" ed="T"/>滅善根。不<anchor xml:id="nkr_note_add_0552b0101" n="0552b0101"/><anchor xml:id="beg0552b0101" n="0552b0101"/>會<anchor xml:id="end0552b0101"/>無生。心行理外。故名外道。如是
 <lb n="0552b02" ed="T"/>二人鈍利雖殊。三界生死輪迴無別。復次云
 <lb n="0552b03" ed="T"/>何名為聲聞數息相。行者欲速出三界。自求
 <lb n="0552b04" ed="T"/>涅槃故。修數息以調其心爾時於數息中。不
@@ -720,13 +725,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>會<note type="cf1">TW46n1917_p0552b01</note><note type="cf2">X68n1319_p0746b11</note></corr><sic>曾</sic></choice>
+<app from="#beg0552b0101" to="#end0552b0101"><lem wit="#wit1" resp="#resp3">會<note type="cf1">TW46n1917_p0552b01</note><note type="cf2">X68n1319_p0746b11</note></lem><rdg wit="#wit2">曾</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0549001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0549001">【原】縮刷大藏經</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0552b0101" resp="#resp2" type="add" target="#nkr_note_add_0552b0101">會【CB】，曾【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

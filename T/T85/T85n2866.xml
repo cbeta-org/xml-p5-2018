@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:15:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -157,7 +158,7 @@ Added comment  for Emacs
 <lb n="1326b08" ed="T"/>守持禁戒廣度群生。十一者博學眾智宣示
 <lb n="1326b09" ed="T"/>四輩。十二者常願與佛世世相值廣說道要
 <lb n="1326b10" ed="T"/>度人無量。是為十二聖慧者。</p>
-<lb n="1326b11" ed="T"/><p xml:id="pT85p1326b1101">佛告阿難。若有比<anchor xml:id="nkr_note_orig_1326003" n="1326003"/><anchor xml:id="beg1326003" n="1326003"/>丘<anchor xml:id="end1326003"/>尼優婆塞優婆夷國王
+<lb n="1326b11" ed="T"/><p xml:id="pT85p1326b1101">佛告阿難。若有比<anchor xml:id="nkr_note_orig_1326003" n="1326003"/><anchor xml:id="nkr_note_mod_1326003" n="1326003"/><anchor xml:id="beg1326003" n="1326003"/>丘<anchor xml:id="end1326003"/>尼優婆塞優婆夷國王
 <lb n="1326b12" ed="T"/>子及諸婇女。有能奉行此十二法者。在所墮
 <lb n="1326b13" ed="T"/>生常得值佛。周旋教化長離眾苦入三法門
 <lb n="1326b14" ed="T"/>功得成就。疾得至佛猶步三界。無所罣礙無
@@ -187,12 +188,12 @@ Added comment  for Emacs
 <lb n="1326c08" ed="T"/>白佛言。世尊信等女人罪穢嬰身。蒙佛慈恩
 <lb n="1326c09" ed="T"/>得聞聖法。不以女賤願為弟子。佛言。善來
 <lb n="1326c10" ed="T"/>諸女。汝宿有福應得值佛。樂聞法者真得度
-<lb n="1326c11" ed="T"/>苦。生生之處遠離女身。佛<anchor xml:id="nkr_note_orig_1326004" n="1326004"/><anchor xml:id="beg1326004" n="1326004"/>受<anchor xml:id="end1326004"/>五戒為清信
+<lb n="1326c11" ed="T"/>苦。生生之處遠離女身。佛<anchor xml:id="nkr_note_orig_1326004" n="1326004"/><anchor xml:id="nkr_note_mod_1326004" n="1326004"/><anchor xml:id="beg1326004" n="1326004"/>受<anchor xml:id="end1326004"/>五戒為清信
 <lb n="1326c12" ed="T"/>女。眾會無不歡喜。各前以頭面著地悉受五
 <lb n="1326c13" ed="T"/>戒。佛告阿難。善信女等久生於世。未聞佛時
 <lb n="1326c14" ed="T"/>未聞法時。為怨師所怪。隨世因緣或毀滅正
 <lb n="1326c15" ed="T"/>法。或破塔寺。或殺真人。或負三尊財物。或殺
-<lb n="1326c16" ed="T"/>父母。或犯眾怨。不自覺<anchor xml:id="nkr_note_orig_1326005" n="1326005"/><anchor xml:id="beg1326005" n="1326005"/>智<anchor xml:id="end1326005"/>。所作眾罪不可
+<lb n="1326c16" ed="T"/>父母。或犯眾怨。不自覺<anchor xml:id="nkr_note_orig_1326005" n="1326005"/><anchor xml:id="nkr_note_mod_1326005" n="1326005"/><anchor xml:id="beg1326005" n="1326005"/>智<anchor xml:id="end1326005"/>。所作眾罪不可
 <lb n="1326c17" ed="T"/>稱計。今得見佛。心開意解。及知前世所行為
 <lb n="1326c18" ed="T"/>非。信等同輩自今以後。改住修來奉佛尊戒。
 <lb n="1326c19" ed="T"/>并持此經。世世不犯。願佛哀愍悉賜五戒。</p>
@@ -234,6 +235,14 @@ Added comment  for Emacs
 <app from="#beg1326003" to="#end1326003"><lem resp="#resp1" wit="#wit1">丘</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">丘比丘</rdg></app>
 <app from="#beg1326004" to="#end1326004"><lem resp="#resp1" wit="#wit1">受</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">授</rdg></app>
 <app from="#beg1326005" to="#end1326005"><lem resp="#resp1" wit="#wit1">智</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">知</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="1326003" resp="#resp2" type="mod" target="#nkr_note_mod_1326003">丘【大】，丘比丘【考偽-大】</note>
+<note n="1326004" resp="#resp2" type="mod" target="#nkr_note_mod_1326004">受【大】，授【考偽-大】</note>
+<note n="1326005" resp="#resp2" type="mod" target="#nkr_note_mod_1326005">智【大】，知【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

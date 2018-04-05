@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.2 $<date>$Date: 2009/04/22 08:54:11 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 26, No. 536</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -123,7 +128,7 @@ basicx 程式 轉自 簡單標記版
 <pb ed="X" xml:id="X26.0536.0811b" n="0811b"/>
 <lb ed="X" n="0811b01"/><lb ed="R041" n="0811a10"/>自釋日出乃消五蘊乃至十八界十二因緣等法
 <lb ed="X" n="0811b02"/><lb ed="R041" n="0811a11"/>氷也霜也觀照般若如春如日氷霜既化所謂春
-<lb ed="X" n="0811b03"/><lb ed="R041" n="0811a12"/>之與日何啻<anchor xml:id="beg_1" type="cb-app"/>己<anchor xml:id="end_1"/>陳芻狗故曰無智亦無得。</p></cb:div>
+<lb ed="X" n="0811b03"/><lb ed="R041" n="0811a12"/>之與日何啻<anchor xml:id="nkr_note_add_0811b0301" n="0811b0301"/><anchor xml:id="beg0811b0301" n="0811b0301"/>己<anchor xml:id="end0811b0301"/>陳芻狗故曰無智亦無得。</p></cb:div>
 <lb ed="X" n="0811b04"/><lb ed="R041" n="0811a13"/><cb:div type="orig"><p xml:id="pX26p0811b0401">以無所得故菩提薩埵依般若波羅蜜多故心無罣
 <lb ed="X" n="0811b05"/><lb ed="R041" n="0811a14"/>礙無罣礙故無有恐怖遠離顛倒夢想究竟涅槃三
 <lb ed="X" n="0811b06"/><lb ed="R041" n="0811a15"/>世諸佛依般若波羅蜜多故得阿耨多羅三藐三菩
@@ -146,7 +151,7 @@ basicx 程式 轉自 簡單標記版
 <lb ed="X" n="0811b23"/><lb ed="R041" n="0811b14"/>眾生無壽者毋意毋必毋固毋我及本來無一物
 <lb ed="X" n="0811b24"/><lb ed="R041" n="0811b15"/>天理上著不得人欲等語遂牢記胸中逢人高談
 <pb ed="X" xml:id="X26.0536.0811c" n="0811c"/>
-<lb ed="X" n="0811c01"/><lb ed="R041" n="0811b16"/>危論以為<anchor xml:id="beg_2" type="cb-app"/>已<anchor xml:id="end_2"/>悟如是之人誠可哀憫且汝現前日
+<lb ed="X" n="0811c01"/><lb ed="R041" n="0811b16"/>危論以為<anchor xml:id="nkr_note_add_0811c0101" n="0811c0101"/><anchor xml:id="beg0811c0101" n="0811c0101"/>已<anchor xml:id="end0811c0101"/>悟如是之人誠可哀憫且汝現前日
 <lb ed="X" n="0811c02"/><lb ed="R041" n="0811b17"/>用之間七情六欲三毒無明如蛇如蝎誰敢觸著
 <lb ed="X" n="0811c03"/><lb ed="R041" n="0811b18"/>不幸而有觸之者未有不遭螫囓既自家毒氣曾
 <lb ed="X" n="0811c04"/><lb ed="R041" n="0812a01"/>未消得纖毫說甚大話汝欲消此毒氣須服清涼
@@ -199,8 +204,15 @@ basicx 程式 轉自 簡單標記版
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0811b0301" to="#end0811b0301"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0811c0101" to="#end0811c0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0811b0301" resp="#resp1" type="add" target="#nkr_note_add_0811b0301">己【CB】，已【卍續】</note>
+<note n="0811c0101" resp="#resp1" type="add" target="#nkr_note_add_0811c0101">已【CB】，巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

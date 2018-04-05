@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.15 $<date>$Date: 2009/04/23 08:14:17 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 54, No. 2144</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -170,7 +175,7 @@ add cvs log
 <lb n="1289b17" ed="T"/>壁。天姿汎彩。英朗景門。聖迹騰祥。永輝法
 <lb n="1289b18" ed="T"/>界。案西域圖記及漢魏史策。大秦國南統珊
 <lb n="1289b19" ed="T"/>瑚之海。北極眾寶之山。西望仙境花林。東接
-<lb n="1289b20" ed="T"/>長風弱水。其土出火<anchor xml:id="beg_1" type="cb-app"/>浣<anchor xml:id="end_1"/>布．返魂香．明月珠．夜
+<lb n="1289b20" ed="T"/>長風弱水。其土出火<anchor xml:id="nkr_note_add_1289b2001" n="1289b2001"/><anchor xml:id="beg1289b2001" n="1289b2001"/>浣<anchor xml:id="end1289b2001"/>布．返魂香．明月珠．夜
 <lb n="1289b21" ed="T"/>光璧。俗無寇盜。人有樂康。法非景不行。主非
 <lb n="1289b22" ed="T"/>德不立。土宇廣濶。文物昌明。　高宗大帝。克
 <lb n="1289b23" ed="T"/>恭纘祖。潤色真宗。而於諸州各置景寺。仍崇
@@ -269,13 +274,19 @@ add cvs log
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>浣<note type="cf1">T32n1675_p0754c21</note><note type="cf2">T48n2003_p0200a02</note></corr><sic>綄</sic></choice>
+<app from="#beg1289b2001" to="#end1289b2001"><lem wit="#wit1" resp="#resp3">浣<note type="cf1">T32n1675_p0754c21</note><note type="cf2">T48n2003_p0200a02</note></lem><rdg wit="#wit2">綄</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1289001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1289001">【原】拓本石田幹之助氏藏</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1289b2001" resp="#resp2" type="add" target="#nkr_note_add_1289b2001">浣【CB】，綄【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

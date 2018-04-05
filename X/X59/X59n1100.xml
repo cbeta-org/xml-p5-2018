@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.4 $<date>$Date: 2009/04/22 09:01:12 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 59, No. 1100</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -119,7 +124,7 @@ no message
 <pb ed="X" xml:id="X59.1100.0604a" n="0604a"/>
 <lb ed="X" n="0604a01"/><lb ed="R105" n="0483b01"/>與香積之變現無殊比自然之天供何別咨爾同舟
 <lb ed="X" n="0604a02"/><lb ed="R105" n="0483b02"/>宜自<g ref="#CB17283">󴎃</g>括不耕不粒不鋤不割有生之命自何而活
-<lb ed="X" n="0604a03"/><lb ed="R105" n="0483b03"/>且夫口腹無厭貪源叵竭正念微乖羅剎<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>奪嗜一
+<lb ed="X" n="0604a03"/><lb ed="R105" n="0483b03"/>且夫口腹無厭貪源叵竭正念微乖羅剎<anchor xml:id="nkr_note_add_0604a0301" n="0604a0301"/><anchor xml:id="beg0604a0301" n="0604a0301"/>已<anchor xml:id="end0604a0301"/>奪嗜一
 <lb ed="X" n="0604a04"/><lb ed="R105" n="0483b04"/>時之甘味為萬劫之飢渴萬金可受保君未徹杯水
 <lb ed="X" n="0604a05"/><lb ed="R105" n="0483b05"/>難堪聖教明說是宜五觀無違三匙有節慎勿抂彼
 <lb ed="X" n="0604a06"/><lb ed="R105" n="0483b06"/>信施以養穢軀會須藉此資緣早求自脫。</p></cb:div>
@@ -148,14 +153,21 @@ no message
 <lb ed="X" n="0604b04"/><lb ed="R105" n="0484a10"/>兮其鳴歷歷直欲使諸有門開三途苦息隨身所止
 <lb ed="X" n="0604b05"/><lb ed="R105" n="0484a11"/>懸之屋壁塵垢易生長須拂拭擲雲外兮不以為難
 <lb ed="X" n="0604b06"/><lb ed="R105" n="0484a12"/>解虎競兮未須勞力幸哉凡愚踏夫聖跡外露麁暴
-<lb ed="X" n="0604b07"/><lb ed="R105" n="0484a13"/>內懷荊棘用之捨之兮能無夕<anchor xml:id="beg_2" type="cb-app"/>惕<anchor xml:id="end_2"/>。</p></cb:div>
+<lb ed="X" n="0604b07"/><lb ed="R105" n="0484a13"/>內懷荊棘用之捨之兮能無夕<anchor xml:id="nkr_note_add_0604b0701" n="0604b0701"/><anchor xml:id="beg0604b0701" n="0604b0701"/>惕<anchor xml:id="end0604b0701"/>。</p></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>惕</corr><sic>愓</sic></choice>
+<app from="#beg0604a0301" to="#end0604a0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0604b0701" to="#end0604b0701"><lem wit="#wit1" resp="#resp2">惕</lem><rdg wit="#wit2">愓</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0604a0301" resp="#resp1" type="add" target="#nkr_note_add_0604a0301">已【CB】，巳【卍續】</note>
+<note n="0604b0701" resp="#resp1" type="add" target="#nkr_note_add_0604b0701">惕【CB】，愓【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

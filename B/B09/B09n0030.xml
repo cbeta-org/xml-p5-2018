@@ -13,7 +13,8 @@
 		</titleStmt>
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>1卷</extent>
 		<publicationStmt>
@@ -30,7 +31,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Supplement to the Dazangjing Vol. 9, No. 30</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【補編】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -64,7 +69,7 @@ $Log:$
 <lb ed="B" n="0002a07"/>解一下。以後有了空。再寫個解釋給你。你該喜歡吧。</p>
 <lb ed="B" n="0002a08"/><p xml:id="pB09p0002a0801">現觀莊嚴論。即是把般若經。無論那一會。分作八大段來解釋。換句話說。牠就是一本般若經的科目。八段的名字。一。
 <lb ed="B" n="0002a09"/>一切相智。又名一切種智。二。道相智。又呌道種智。三一切智。四圓滿一切相現觀加行。五頂現觀加行。六漸次現觀加
-<lb ed="B" n="0002a10"/>行。或叫次第現觀加行。七一剎那現觀菩堤加行。八法身。這八段就是全論廣開的八品了。若稍為收<anchor xml:id="beg_1" type="cb-app"/>斂<anchor xml:id="end_1"/>一下。前三品
+<lb ed="B" n="0002a10"/>行。或叫次第現觀加行。七一剎那現觀菩堤加行。八法身。這八段就是全論廣開的八品了。若稍為收<anchor xml:id="nkr_note_add_0002a1001" n="0002a1001"/><anchor xml:id="beg0002a1001" n="0002a1001"/>斂<anchor xml:id="end0002a1001"/>一下。前三品
 <lb ed="B" n="0002a11"/>呌性相。次呌彼加行。次彼極頂。次彼次第。次彼邊際。後呌異熟。共是六段。若更收一下。前三品是境。次四品加行是因。
 <lb ed="B" n="0002a12"/>後一品法身及事業是果。攝為境因果三大段亦可。若把這八段分開。初段中便有十事。二段有十一事。三段九事。四
 <lb ed="B" n="0002a13"/>段十一事。五段八事。六段十三事。第七八段各有四事。湊在一齊就是七十件事了。這七十件事。又名呌七十義。八品
@@ -218,7 +223,7 @@ $Log:$
 <lb ed="B" n="0009a14"/>界限唯在大乘加行道才有。論中「此煖等所緣」等三頌。即是廣釋。</p>
 <lb ed="B" n="0009a15"/><p xml:id="pB09p0009a1501">八。有學不退眾者。遣除色等上之實執現行等相。證得此諸相隨一之菩薩瑜伽。即是有學不退轉僧之相。分別有三。
 <lb ed="B" n="0009a16"/>界限從大乘加行道煖位。乃至十地。論中「從順決擇分」等二十二頌。即是廣釋。此不退僧之行相也。</p>
-<lb ed="B" n="0009a17"/><p xml:id="pB09p0009a1701">九。有寂靜平等者。由<anchor xml:id="beg_2" type="cb-app"/>己<anchor xml:id="end_2"/>摧伏粗相之功用。堵絕實執現起之機會的淨地瑜伽。即是三有寂靜平等加行之相。界限唯
+<lb ed="B" n="0009a17"/><p xml:id="pB09p0009a1701">九。有寂靜平等者。由<anchor xml:id="nkr_note_add_0009a1701" n="0009a1701"/><anchor xml:id="beg0009a1701" n="0009a1701"/>己<anchor xml:id="end0009a1701"/>摧伏粗相之功用。堵絕實執現起之機會的淨地瑜伽。即是三有寂靜平等加行之相。界限唯
 <lb ed="B" n="0009a18"/>在三淨地乃有。論中「諸法同夢故」等一頌。即廣釋此義。</p>
 <lb ed="B" n="0009a19"/><p xml:id="pB09p0009a1901">十。無上淨剎者。自己當來成佛之殊勝國土。現前淨修之淨地。「即第八九十三地」瑜伽。即是清淨剎土加行之相。分別
 <lb ed="B" n="0009a20"/>有二。界限同前。論中「有情世如是」等一頌。即廣釋也。</p>
@@ -279,8 +284,15 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>斂</corr><sic>歛</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>己</corr><sic>已</sic></choice>
+<app from="#beg0002a1001" to="#end0002a1001"><lem wit="#wit1" resp="#resp2">斂</lem><rdg wit="#wit2">歛</rdg></app>
+<app from="#beg0009a1701" to="#end0009a1701"><lem wit="#wit1" resp="#resp2">己</lem><rdg wit="#wit2">已</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0002a1001" resp="#resp1" type="add" target="#nkr_note_add_0002a1001">斂【CB】，歛【補編】</note>
+<note n="0009a1701" resp="#resp1" type="add" target="#nkr_note_add_0009a1701">己【CB】，已【補編】</note>
 </p>
 </cb:div>
 </back></text></TEI>

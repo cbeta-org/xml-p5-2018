@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 47, No. 1989</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -512,8 +516,8 @@ Added comment  for Emacs
 <lb n="0580c28" ed="T"/>嚴。香嚴云。何不且住。疎山云。某甲與和尚無
 <pb n="0581a" xml:id="T47.1989.0581a" ed="T"/>
 <lb n="0581a01" ed="T"/>緣。香嚴云。有何因緣。試舉看。疎山遂舉前
-<lb n="0581a02" ed="T"/>話香嚴云。某甲有箇語。<anchor xml:id="beg_1" type="cb-app"/>疎<anchor xml:id="end_1"/>山云。道甚麼。香
-<lb n="0581a03" ed="T"/>嚴云。言發非聲。色前不物。<anchor xml:id="beg_2" type="cb-app"/>疎<anchor xml:id="end_2"/>山云。元來此中
+<lb n="0581a02" ed="T"/>話香嚴云。某甲有箇語。<anchor xml:id="nkr_note_add_0581a0201" n="0581a0201"/><anchor xml:id="beg0581a0201" n="0581a0201"/>疎<anchor xml:id="end0581a0201"/>山云。道甚麼。香
+<lb n="0581a03" ed="T"/>嚴云。言發非聲。色前不物。<anchor xml:id="nkr_note_add_0581a0301" n="0581a0301"/><anchor xml:id="beg0581a0301" n="0581a0301"/>疎<anchor xml:id="end0581a0301"/>山云。元來此中
 <lb n="0581a04" ed="T"/>有人。遂囑香嚴云。向後有住處。某甲却來相
 <lb n="0581a05" ed="T"/>見。乃去。師問香嚴云。問聲色話底矮闍黎在
 <lb n="0581a06" ed="T"/>麼。香嚴云。已去也。師云。試舉看。香嚴舉前
@@ -543,7 +547,7 @@ Added comment  for Emacs
 <pb n="0581b" xml:id="T47.1989.0581b" ed="T"/>
 <lb n="0581b01" ed="T"/>眾無語。師以拄杖一時趕散</note>。</p>
 <lb n="0581b02" ed="T"/><p xml:id="pT47p0581b0201">師一日喚院主。院主便來。師云。我喚院主。汝
-<lb n="0581b03" ed="T"/>來作甚麼。院主無對<note place="inline">曹山代云。也知和<anchor xml:id="beg_3" type="cb-app"/>尚<anchor xml:id="end_3"/>不喚某甲</note>又令侍者
+<lb n="0581b03" ed="T"/>來作甚麼。院主無對<note place="inline">曹山代云。也知和<anchor xml:id="nkr_note_add_0581b0301" n="0581b0301"/><anchor xml:id="beg0581b0301" n="0581b0301"/>尚<anchor xml:id="end0581b0301"/>不喚某甲</note>又令侍者
 <lb n="0581b04" ed="T"/>喚首座。首座便至。師云。我喚首座。汝來作甚
 <lb n="0581b05" ed="T"/>麼。首座亦無對<note place="inline">曹山代云。若令侍者喚。恐不來。法眼云。適來侍者喚</note>。</p>
 <lb n="0581b06" ed="T"/><p xml:id="pT47p0581b0601">上堂。僧出云。請和尚為眾說法。師云。我為汝
@@ -605,23 +609,32 @@ Added comment  for Emacs
 <lb n="0582a02" ed="T"/>勇云。和尚一等是入泥入水</note>。</p>
 <lb n="0582a03" ed="T"/><p xml:id="pT47p0582a0301">師。敷揚宗教。凡四十餘年。達者不可勝數。大
 <lb n="0582a04" ed="T"/>中七年正月九日。盥漱敷坐。怡然而寂。壽八
-<lb n="0582a05" ed="T"/>十三。臘六十四。塔於本山。<anchor xml:id="beg_4" type="cb-app"/>諡<anchor xml:id="end_4"/>大圓禪師。塔曰
+<lb n="0582a05" ed="T"/>十三。臘六十四。塔於本山。<anchor xml:id="nkr_note_add_0582a0501" n="0582a0501"/><anchor xml:id="beg0582a0501" n="0582a0501"/>諡<anchor xml:id="end0582a0501"/>大圓禪師。塔曰
 <lb n="0582a06" ed="T"/>清淨。</p></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>疎</corr><sic>踈</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>疎</corr><sic>踈</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>尚</corr><sic>向</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>諡</corr><sic>謚</sic></choice>
+<app from="#beg0581a0201" to="#end0581a0201"><lem wit="#wit1" resp="#resp2">疎</lem><rdg wit="#wit2">踈</rdg></app>
+<app from="#beg0581a0301" to="#end0581a0301"><lem wit="#wit1" resp="#resp2">疎</lem><rdg wit="#wit2">踈</rdg></app>
+<app from="#beg0581b0301" to="#end0581b0301"><lem wit="#wit1" resp="#resp2">尚</lem><rdg wit="#wit2">向</rdg></app>
+<app from="#beg0582a0501" to="#end0582a0501"><lem wit="#wit1" resp="#resp2">諡</lem><rdg wit="#wit2">謚</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0577001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0577001">【原】大日本續藏經五家語錄之內</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0581a0201" resp="#resp2" type="add" target="#nkr_note_add_0581a0201">疎【CB】，踈【大】</note>
+<note n="0581a0301" resp="#resp2" type="add" target="#nkr_note_add_0581a0301">疎【CB】，踈【大】</note>
+<note n="0581b0301" resp="#resp2" type="add" target="#nkr_note_add_0581b0301">尚【CB】，向【大】</note>
+<note n="0582a0501" resp="#resp2" type="add" target="#nkr_note_add_0582a0501">諡【CB】，謚【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.4 $<date>$Date: 2009/04/23 08:15:50 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>ZangWai</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 3, No. 31a</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -246,7 +251,7 @@ BM→XML標記作業
 <lb ed="ZW" n="0411a09"/>入網縵中。<note place="inline">三念佛。</note></p>
 <lb ed="ZW" n="0411a10"/><p xml:id="pZW03p0411a1001" rend="margin-left:0em;text-indent:2em">佛如來手足柔軟如天劫貝。<note place="inline">三念佛。</note></p>
 <lb ed="ZW" n="0411a11"/><p xml:id="pZW03p0411a1101" rend="margin-left:0em;text-indent:2em">佛如來手內外握。<note place="inline">三念佛。</note></p>
-<lb ed="ZW" n="0411a12"/><p xml:id="pZW03p0411a1201" rend="margin-left:0em;text-indent:2em">佛如來身上胸<anchor xml:id="beg_1" type="cb-app"/>臆<anchor xml:id="end_1"/>廣厚如師子王。<note place="inline">三念佛。</note></p>
+<lb ed="ZW" n="0411a12"/><p xml:id="pZW03p0411a1201" rend="margin-left:0em;text-indent:2em">佛如來身上胸<anchor xml:id="nkr_note_add_0411a1201" n="0411a1201"/><anchor xml:id="beg0411a1201" n="0411a1201"/>臆<anchor xml:id="end0411a1201"/>廣厚如師子王。<note place="inline">三念佛。</note></p>
 <lb ed="ZW" n="0411a13"/><p xml:id="pZW03p0411a1301" rend="margin-left:0em;text-indent:2em">佛如來胸德字萬印相，中放三摩尼光。<note place="inline">三念佛。</note></p>
 <lb ed="ZW" n="0411a14"/><p xml:id="pZW03p0411a1401" rend="margin-left:0em;text-indent:2em">佛如來腋下平滿，懸生五珠如摩尼珠，上著於腋，有
 <lb ed="ZW" n="0411a15"/>五百色光明，共相影發。<note place="inline">三念佛。</note></p>
@@ -318,7 +323,7 @@ BM→XML標記作業
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>臆</corr><sic>億</sic></choice>
+<app from="#beg0411a1201" to="#end0411a1201"><lem wit="#wit1" resp="#resp3">臆</lem><rdg wit="#wit2">億</rdg></app>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
@@ -398,6 +403,12 @@ BM→XML標記作業
 <note n="0413004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0413004">「戒齋」，底本作「齋戒」，據北8299號改。</note>
 <note n="0413005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0413005">「名」，底本無，據文意補。</note>
 <note n="0414001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0414001">「迷」，底本無，據北8299號補。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0411a1201" resp="#resp2" type="add" target="#nkr_note_add_0411a1201">臆【CB】，億【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -14,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.13 $<date>$Date: 2009/04/23 08:12:10 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 45, No. 1894</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -403,7 +407,7 @@ Added comment  for Emacs
 <lb n="0836b22" ed="T"/>道。事不獲已。供其衣食。終號養怨。無所益
 <lb n="0836b23" ed="T"/>也。如能志節高劭。情割浮華。敬重正宗。死而
 <lb n="0836b24" ed="T"/>無恨者。斯則比丘法行。列聖崇之。如草繫海
-<lb n="0836b25" ed="T"/><anchor xml:id="beg_1" type="cb-app"/>板<anchor xml:id="end_1"/>之儔也。約戒命難是所通開。約心忍死奉
+<lb n="0836b25" ed="T"/><anchor xml:id="nkr_note_add_0836b2501" n="0836b2501"/><anchor xml:id="beg0836b2501" n="0836b2501"/>板<anchor xml:id="end0836b2501"/>之儔也。約戒命難是所通開。約心忍死奉
 <lb n="0836b26" ed="T"/>而不捨。故為幽冥之所翼贊經論之所昌言。
 <lb n="0836b27" ed="T"/>此但遮戒以死持之。何況性重多而不厭。誠
 <lb n="0836b28" ed="T"/>可怪也。問。繒纊過本。非仁育所懷。微行供
@@ -503,7 +507,7 @@ Added comment  for Emacs
 <lb n="0837c02" ed="T"/><cb:div type="other"><cb:mulu level="1" type="其他">5 裁製應法篇</cb:mulu><head>裁製應法篇第五</head>
 <lb n="0837c03" ed="T"/><p xml:id="pT45p0837c0301">問。出家靜節省事為先。隨得受用。安心行道。
 <lb n="0837c04" ed="T"/>比見法衣。橫加割截。方復連綴號曰聖儀。損
-<lb n="0837c05" ed="T"/>功妨道。豈復過此。幸賜誠文。用<anchor xml:id="beg_2" type="cb-app"/>祛<anchor xml:id="end_2"/>昏漠。答。
+<lb n="0837c05" ed="T"/>功妨道。豈復過此。幸賜誠文。用<anchor xml:id="nkr_note_add_0837c0501" n="0837c0501"/><anchor xml:id="beg0837c0501" n="0837c0501"/>祛<anchor xml:id="end0837c0501"/>昏漠。答。
 <lb n="0837c06" ed="T"/>論其本制。出自聖心。義不徒張。深有弘致。故
 <lb n="0837c07" ed="T"/>僧祇云。三衣者賢聖標幟。理越凡心也。故律
 <lb n="0837c08" ed="T"/>中。沙門衣有三種賤。初體賤者。人世所棄之
@@ -667,14 +671,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>板<note type="cf1">X59n1096_p0538c09</note><note type="cf2">X60n1110_p0060c10</note></corr><sic>版</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>祛</corr><sic>袪</sic></choice>
+<app from="#beg0836b2501" to="#end0836b2501"><lem wit="#wit1" resp="#resp3">板<note type="cf1">X59n1096_p0538c09</note><note type="cf2">X60n1110_p0060c10</note></lem><rdg wit="#wit2">版</rdg></app>
+<app from="#beg0837c0501" to="#end0837c0501"><lem wit="#wit1" resp="#resp2">祛</lem><rdg wit="#wit2">袪</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0834001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0834001">【原】寬文七年刊宗教大學藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0836b2501" resp="#resp2" type="add" target="#nkr_note_add_0836b2501">板【CB】，版【大】</note>
+<note n="0837c0501" resp="#resp2" type="add" target="#nkr_note_add_0837c0501">祛【CB】，袪【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

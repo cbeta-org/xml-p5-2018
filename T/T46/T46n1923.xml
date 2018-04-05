@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 46, No. 1923</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -820,7 +824,7 @@ Added comment  for Emacs
 <lb n="0635a14" ed="T"/>人。放下光明。普及三塗一切眾生。集會聽法。
 <lb n="0635a15" ed="T"/>悉為受記。受記之法。凡有九種。三乘及六道。
 <lb n="0635a16" ed="T"/>是名九種差別受記。如摩訶般若放光論中
-<lb n="0635a17" ed="T"/>說。若放頂上<anchor xml:id="beg_1" type="cb-app"/>肉<anchor xml:id="end_1"/>髻光明。遍照十方。集大菩薩。
+<lb n="0635a17" ed="T"/>說。若放頂上<anchor xml:id="nkr_note_add_0635a1701" n="0635a1701"/><anchor xml:id="beg0635a1701" n="0635a1701"/>肉<anchor xml:id="end0635a1701"/>髻光明。遍照十方。集大菩薩。
 <lb n="0635a18" ed="T"/>并集過去多寶佛等。又及十方分身應化無
 <lb n="0635a19" ed="T"/>量諸佛十方世界。為一切佛土滿中諸佛。移
 <lb n="0635a20" ed="T"/>諸天人三塗八難。置於他土。不令在會。無餘
@@ -1341,7 +1345,7 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>肉</corr><sic>內</sic></choice>
+<app from="#beg0635a1701" to="#end0635a1701"><lem wit="#wit1" resp="#resp2">肉</lem><rdg wit="#wit2">內</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -1350,6 +1354,12 @@ Added comment  for Emacs
 <note n="0627026" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0627026">【原】萬曆十九年刊增上寺報思藏本</note>
 <note n="0628001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0628001">原本註曰於南藏作主</note>
 <note n="0632001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0632001">原本註曰住南藏作注</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0635a1701" resp="#resp2" type="add" target="#nkr_note_add_0635a1701">肉【CB】，內【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

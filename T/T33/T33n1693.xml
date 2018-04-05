@@ -14,8 +14,9 @@
 	<editionStmt>
 		<edition>$Revision: 1.11 $<date>$Date: 2009/04/23 08:08:45 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,6 +33,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 33, No. 1693</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -342,7 +347,7 @@ Added comment  for Emacs
 <lb n="0003a14" ed="T"/>不　解無發往。則不有受與至彼也。普不往
 <lb n="0003a15" ed="T"/>受豈慳惜也本未上。</p>
 <lb n="0003a16" ed="T"/><p xml:id="pT33p0003a1601">如是阿難從是起從是本從是習從是因緣令
-<lb n="0003a17" ed="T"/>慳難捨為發往受故亦為發有因緣故阿難<anchor xml:id="beg_1" type="cb-app"/>令<anchor xml:id="end_1"/>
+<lb n="0003a17" ed="T"/>慳難捨為發往受故亦為發有因緣故阿難<anchor xml:id="nkr_note_add_0003a1701" n="0003a1701"/><anchor xml:id="beg0003a1701" n="0003a1701"/>令<anchor xml:id="end0003a1701"/>
 <lb n="0003a18" ed="T"/>有慳難捨　從發習發遂至不捨也。</p>
 <lb n="0003a19" ed="T"/><p xml:id="pT33p0003a1901">欲貪因緣阿難令有發是故說是當從是因緣
 <lb n="0003a20" ed="T"/>阿難知為從欲貪因緣令發　婬貪內足則發
@@ -432,7 +437,7 @@ Added comment  for Emacs
 <lb n="0004a14" ed="T"/><p xml:id="pT33p0004a1401">若阿難從所處有亦從所處應受無有為有更
 <lb n="0004a15" ed="T"/>有名字不阿難言不　如有知無受之與有。
 <lb n="0004a16" ed="T"/>豈有更而因名字耶。</p>
-<lb n="0004a17" ed="T"/><p xml:id="pT33p0004a1701">若阿難從所處有亦從所應受無有<anchor xml:id="beg_2" type="cb-app"/>令<anchor xml:id="end_2"/>名身有
+<lb n="0004a17" ed="T"/><p xml:id="pT33p0004a1701">若阿難從所處有亦從所應受無有<anchor xml:id="nkr_note_add_0004a1701" n="0004a1701"/><anchor xml:id="beg0004a1701" n="0004a1701"/>令<anchor xml:id="end0004a1701"/>名身有
 <lb n="0004a18" ed="T"/>無有寧當有對更不阿難言不　反覆明之。
 <lb n="0004a19" ed="T"/>上句云。豈有更因名字不此句言寧有名字
 <lb n="0004a20" ed="T"/>與更對為因也。</p>
@@ -901,14 +906,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2 resp3" cb:from="#beg_1" cb:to="#end_1"><corr>令<note type="cf1">T01n0014_p0242c21</note></corr><sic>受</sic></choice>
-<choice cb:resp="#resp2 resp3" cb:from="#beg_2" cb:to="#end_2"><corr>令<note type="cf1">T01n0014_p0243b08-10</note></corr><sic>今</sic></choice>
+<app from="#beg0003a1701" to="#end0003a1701"><lem wit="#wit1" resp="#resp3 resp4">令<note type="cf1">T01n0014_p0242c21</note></lem><rdg wit="#wit2">受</rdg></app>
+<app from="#beg0004a1701" to="#end0004a1701"><lem wit="#wit1" resp="#resp3 resp4">令<note type="cf1">T01n0014_p0243b08-10</note></lem><rdg wit="#wit2">今</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0001001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0001001">【原】增上寺藏麗本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0003a1701" resp="#resp2" type="add" target="#nkr_note_add_0003a1701">令【CB】，受【大】</note>
+<note n="0004a1701" resp="#resp2" type="add" target="#nkr_note_add_0004a1701">令【CB】，今【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

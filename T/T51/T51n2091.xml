@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:13:31 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -134,7 +135,7 @@ Added comment  for Emacs
 <lb n="0997c11" ed="T"/>則猛下。至今如然。其二師廟在路傍。久廢。但
 <lb n="0997c12" ed="T"/>有積石。駝馬行人祈福之所。次東入瓜州界。
 <lb n="0997c13" ed="T"/>州南有莫高窟。去州二十五里。中過石磧。帶
-<lb n="0997c14" ed="T"/>山坡至彼。<anchor xml:id="nkr_note_orig_0997002" n="0997002"/><anchor xml:id="beg0997002" n="0997002"/>斗<anchor xml:id="end0997002"/>下谷中。其東即三危山。西即
+<lb n="0997c14" ed="T"/>山坡至彼。<anchor xml:id="nkr_note_orig_0997002" n="0997002"/><anchor xml:id="nkr_note_mod_0997002" n="0997002"/><anchor xml:id="beg0997002" n="0997002"/>斗<anchor xml:id="end0997002"/>下谷中。其東即三危山。西即
 <lb n="0997c15" ed="T"/>鳴沙山。中有自南流水。名之宕泉。古寺僧舍
 <lb n="0997c16" ed="T"/>絕多。亦有洪鐘。其谷南北兩頭有天王堂及
 <lb n="0997c17" ed="T"/>神祠。壁畫吐蕃贊普部從。其山西壁南北二
@@ -161,7 +162,7 @@ Added comment  for Emacs
 <lb n="0998a08" ed="T"/><p xml:id="pT51p0998a0801">州西有陽關。即故玉門關。因沙州刺史陽明
 <lb n="0998a09" ed="T"/>詔追拒命奔出此關。後人呼為陽關。接鄯善
 <lb n="0998a10" ed="T"/>城。險阻乏水草。不通人行。其關後移州東。城
-<lb n="0998a11" ed="T"/>西八十五里。有玉女泉。人傳頗有<anchor xml:id="nkr_note_orig_0998001" n="0998001"/><anchor xml:id="beg0998001" n="0998001"/>虛<anchor xml:id="end0998001"/>。每歲
+<lb n="0998a11" ed="T"/>西八十五里。有玉女泉。人傳頗有<anchor xml:id="nkr_note_orig_0998001" n="0998001"/><anchor xml:id="nkr_note_mod_0998001" n="0998001"/><anchor xml:id="beg0998001" n="0998001"/>虛<anchor xml:id="end0998001"/>。每歲
 <lb n="0998a12" ed="T"/>此郡率童男女各一人。充祭湫神。年則順成。
 <lb n="0998a13" ed="T"/>不爾損苗。父母雖苦生離兒女。為神所錄。歡
 <lb n="0998a14" ed="T"/>然携手而沒神龍中。刺史張孝嵩下車求。郡
@@ -190,6 +191,13 @@ Added comment  for Emacs
 <p>
 <app from="#beg0997002" to="#end0997002"><lem resp="#resp1" wit="#wit1">斗</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">阧</rdg></app>
 <app from="#beg0998001" to="#end0998001"><lem resp="#resp1" wit="#wit1">虛</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">靈</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0997002" resp="#resp2" type="mod" target="#nkr_note_mod_0997002">斗【大】，阧【考偽-大】</note>
+<note n="0998001" resp="#resp2" type="mod" target="#nkr_note_mod_0998001">虛【大】，靈【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

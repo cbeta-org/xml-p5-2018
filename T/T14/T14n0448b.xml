@@ -14,6 +14,7 @@
         <editionStmt>
                 <edition>$Revision: 1.11 $<date>$Date: 2012/08/27 03:14:48 $</date>新式標點版</edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
         </editionStmt>
         <extent>1卷</extent>
         <publicationStmt>
@@ -143,7 +144,7 @@ Added comment  for Emacs
 <pb n="0393c" ed="T" xml:id="T14.0448b.0393c"/>
 <lb n="0393c01" ed="T"/>
 <milestone n="1" unit="juan"/>
-<lb n="0393c02" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><anchor xml:id="nkr_note_orig_0393014" n="0393014"/><cb:jhead>未來星宿劫千佛名經<note place="inline">一名集諸佛大功德山</note></cb:jhead></cb:juan>
+<lb n="0393c02" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><anchor xml:id="nkr_note_orig_0393014" n="0393014"/><anchor xml:id="nkr_note_mod_0393014" n="0393014"/><cb:jhead>未來星宿劫千佛名經<note place="inline">一名集諸佛大功德山</note></cb:jhead></cb:juan>
 <lb n="0393c03" ed="T"/>
 <lb n="0393c04" ed="T"/><byline cb:type="Translator">開元拾遺附梁錄</byline>
 <lb n="0393c05" ed="T"/><cb:div type="jing"><p xml:id="pT14p0393c0501">夫修善福臻，為惡禍徵；明理皎然，而信悟者
@@ -634,6 +635,12 @@ Added comment  for Emacs
 <lb n="0399a10" ed="T"/>恐無誤。</p></cb:div>
 </body>
 <back>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0393014" resp="#resp2" type="mod" target="#nkr_note_mod_0393014"><!--CBETA todo type: newmod-->別出【明】 p.388 參照</note>
+</p>
+</cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>

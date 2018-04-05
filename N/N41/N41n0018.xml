@@ -14,8 +14,8 @@
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>NanChuan</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>1卷</extent>
 		<publicationStmt>
@@ -32,7 +32,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Chinese Translation of the Pāḷi Tipiṭaka (Yuan Heng Temple Edition) Vol. 41, No. 18</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【南傳】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -337,7 +341,7 @@ $Log:$
 <lb ed="N" n="0019a08"/>子之愛情，常觀察護持菩薩，然恰好其日彼女陶醉於神之幸福，未曾觀護於彼——亦
 <lb ed="N" n="0019a09"/>云行諸神之集會——。女神於彼失意識之時自思：「吾子究為如何之狀？」觀察而得
 <lb ed="N" n="0019a10"/>其事。「迦夷王用毒箭射吾之子，仆倒於密伽桑瑪達河岸砂洲，彼王正大聲哭泣。
-<lb ed="N" n="0019a11"/>——若自<anchor xml:id="beg_1" type="cb-app"/>己<anchor xml:id="end_1"/>不往，則予子黃金睒摩即原地死於彼處，彼王之心臟亦將張裂，睒摩之
+<lb ed="N" n="0019a11"/>——若自<anchor xml:id="nkr_note_add_0019a1101" n="0019a1101"/><anchor xml:id="beg0019a1101" n="0019a1101"/>己<anchor xml:id="end0019a1101"/>不往，則予子黃金睒摩即原地死於彼處，彼王之心臟亦將張裂，睒摩之
 <lb ed="N" n="0019a12"/><ref target="#PTS.Ja.6.84"></ref>兩親亦無持來飲水之人，渴盡而死；然予如往，則彼王持飲水之甕往兩親之處，而
 <lb ed="N" n="0019a13"/>聞兩親之言伴二人來其子之處，於是予與彼等以為誓言，和解睒摩之毒，如是則予
 <lb ed="N" n="0019a14"/>子生命將為取回，兩親之眼將與恢復，而王聞睒摩正法之教，歸後行大布施，成再
@@ -513,7 +517,7 @@ $Log:$
 <lb ed="N" n="0031a04"/><p xml:id="pN41p0031a0401" rend="margin-left:0em;text-indent:2em">佛為說明此事而言曰：</p>
 <lb ed="N" n="0031a05"/><p xml:id="pN41p0031a0501" rend="margin-left:4em">九四</p><lg xml:id="lgN41p0031a0501" type="abnormal"><l rend="text-indent:7em">仆臥塵土所塗蓋</l><l rend="text-indent:5em">其子睒摩被捨棄</l>
 <lb ed="N" n="0031a06"/><l rend="text-indent:7em">此父見子胸中痛</l><l rend="text-indent:5em">嘆子解毒宣誓言</l></lg>
-<lb ed="N" n="0031a07"/><p xml:id="pN41p0031a0701" rend="margin-left:4em">九五<anchor xml:id="nkr_note_orig_0031028" n="0031028"/></p><lg xml:id="lgN41p0031a0701" type="abnormal"><l rend="text-indent:6em">「睒摩依此真</l><l rend="text-indent:5em">若前行正法</l>
+<lb ed="N" n="0031a07"/><p xml:id="pN41p0031a0701" rend="margin-left:4em">九五<anchor xml:id="nkr_note_orig_0031028" n="0031028"/><anchor xml:id="nkr_note_mod_0031028" n="0031028"/></p><lg xml:id="lgN41p0031a0701" type="abnormal"><l rend="text-indent:6em">「睒摩依此真</l><l rend="text-indent:5em">若前行正法</l>
 <lb ed="N" n="0031a08"/><l rend="text-indent:7em">依此真實言</l><l rend="text-indent:5em">睒摩毒將滅</l></lg>
 <lb ed="N" n="0031a09"/><p xml:id="pN41p0031a0901" rend="margin-left:4em">九六</p><lg xml:id="lgN41p0031a0901" type="abnormal"><l rend="text-indent:7em">睒摩依此真</l><l rend="text-indent:5em">若前行梵行</l>
 <lb ed="N" n="0031a10"/><l rend="text-indent:7em">依此真實言</l><l rend="text-indent:5em">睒摩毒將滅</l></lg>
@@ -542,7 +546,7 @@ $Log:$
 <lb ed="N" n="0033a03"/><p xml:id="pN41p0033a0301" rend="margin-left:3em">一〇六</p><lg xml:id="lgN41p0033a0301" type="abnormal"><l rend="text-indent:7em">父母有幸福</l><l rend="text-indent:5em">吾得安穩起</l>
 <lb ed="N" n="0033a04"/><l rend="text-indent:7em">爾等去悲嘆</l><l rend="text-indent:5em">樂聲以迎吾</l></lg>
 <lb ed="N" n="0033a05"/><p xml:id="pN41p0033a0501" rend="margin-left:0em;text-indent:2em">而又歡迎王云：</p>
-<lb ed="N" n="0033a06"/><p xml:id="pN41p0033a0601" rend="margin-left:3em">一〇七</p><lg xml:id="lgN41p0033a0601" type="abnormal"><l rend="text-indent:7em">大王！<anchor xml:id="nkr_note_orig_0033029" n="0033029"/>善來</l><l rend="text-indent:5em">尚未被歡待</l>
+<lb ed="N" n="0033a06"/><p xml:id="pN41p0033a0601" rend="margin-left:3em">一〇七</p><lg xml:id="lgN41p0033a0601" type="abnormal"><l rend="text-indent:7em">大王！<anchor xml:id="nkr_note_orig_0033029" n="0033029"/><anchor xml:id="nkr_note_mod_0033029" n="0033029"/>善來</l><l rend="text-indent:5em">尚未被歡待</l>
 <lb ed="N" n="0033a07"/><l rend="text-indent:7em">君王爾到來</l><l rend="text-indent:5em">善知此間物</l></lg>
 <lb ed="N" n="0033a08"/><p xml:id="pN41p0033a0801" rend="margin-left:3em">一〇八</p><lg xml:id="lgN41p0033a0801" type="abnormal"><l rend="text-indent:7em">鎮頭迦與毘雅羅</l><l rend="text-indent:5em">未度迦、迦斯瑪黎</l>
 <lb ed="N" n="0033a09"/><l rend="text-indent:7em">諸樹果小其數尠</l><l rend="text-indent:5em">請王食其最優者</l></lg>
@@ -869,7 +873,7 @@ $Log:$
 <lb ed="N" n="0055a02"/><p xml:id="pN41p0055a0201" rend="margin-left:4em">四九</p><lg xml:id="lgN41p0055a0201" type="abnormal"><l rend="text-indent:6em">「彼等人世更為惡</l><l rend="text-indent:5em">捕獲諸鳥緊勒首</l>
 <lb ed="N" n="0055a03"/><l rend="text-indent:7em">人王彼更害人羣</l><l rend="text-indent:5em">彼等生惡無法業</l>
 <lb ed="N" n="0055a04"/><l rend="text-indent:7em">〔死後生入此地獄〕</l><l rend="text-indent:5em">頭破摧臥滾釜中」</l></lg>
-<lb ed="N" n="0055a05"/><p xml:id="pN41p0055a0501" rend="margin-left:4em">五〇</p><lg xml:id="lgN41p0055a0501" type="abnormal"><l rend="text-indent:6em">「岸邊不深水又<anchor xml:id="beg_2" type="cb-app"/>豐<anchor xml:id="end_2"/></l><l rend="text-indent:5em">渡津更善此河流</l>
+<lb ed="N" n="0055a05"/><p xml:id="pN41p0055a0501" rend="margin-left:4em">五〇</p><lg xml:id="lgN41p0055a0501" type="abnormal"><l rend="text-indent:6em">「岸邊不深水又<anchor xml:id="nkr_note_add_0055a0501" n="0055a0501"/><anchor xml:id="beg0055a0501" n="0055a0501"/>豐<anchor xml:id="end0055a0501"/></l><l rend="text-indent:5em">渡津更善此河流</l>
 <lb ed="N" n="0055a06"/><l rend="text-indent:7em">熱火焦燒將飲水</l><l rend="text-indent:5em">將飲之水成穀殼</l></lg>
 <lb ed="N" n="0055a07"/><p xml:id="pN41p0055a0701" rend="margin-left:4em">五一</p><lg xml:id="lgN41p0055a0701" type="abnormal"><l rend="text-indent:7em">御者見此吾恐怖</l><l rend="text-indent:5em">神之馭者將問爾</l>
 <lb ed="N" n="0055a08"/><l rend="text-indent:7em">將飲之水成穀殼</l><l rend="text-indent:5em">究竟彼等犯何惡」</l></lg>
@@ -1187,7 +1191,7 @@ $Log:$
 <lb ed="N" n="0076a05"/>達樓門之處往迎，而供養香等，導王入善法會堂。王由車降下入會堂之中，諸神勸
 <lb ed="N" n="0076a06"/>彼就坐，帝釋亦勸王就座，且以愛樂之態行止。</p>
 <lb ed="N" n="0076a07"/><p xml:id="pN41p0076a0701" rend="margin-left:0em;text-indent:2em">佛為說明此事而言曰：</p>
-<lb ed="N" n="0076a08"/><p xml:id="pN41p0076a0801" rend="margin-left:3em">一六〇</p><lg xml:id="lgN41p0076a0801" type="abnormal"><l rend="text-indent:7em"><anchor xml:id="nkr_note_orig_0076032" n="0076032"/>乍見彼王來</l><l rend="text-indent:5em">諸神出歡迎</l>
+<lb ed="N" n="0076a08"/><p xml:id="pN41p0076a0801" rend="margin-left:3em">一六〇</p><lg xml:id="lgN41p0076a0801" type="abnormal"><l rend="text-indent:7em"><anchor xml:id="nkr_note_orig_0076032" n="0076032"/><anchor xml:id="nkr_note_mod_0076032" n="0076032"/>乍見彼王來</l><l rend="text-indent:5em">諸神出歡迎</l>
 <lb ed="N" n="0076a09"/><l rend="text-indent:6em">「大王汝善來</l><l rend="text-indent:5em">尚未將歡待</l>
 <lb ed="N" n="0076a10"/><l rend="text-indent:7em">王仙汝請進</l><l rend="text-indent:5em">神王之前坐」</l></lg>
 <lb ed="N" n="0076a11"/><p xml:id="pN41p0076a1101" rend="margin-left:3em">一六一</p><lg xml:id="lgN41p0076a1101" type="abnormal"><l rend="text-indent:7em">帝釋致歡迎</l><l rend="text-indent:5em">彌絺羅之主</l>
@@ -1197,7 +1201,7 @@ $Log:$
 <pb ed="N" xml:id="N41.0018.0077a" n="0077a"/>
 <lb ed="N" n="0077a01"/><l rend="text-indent:7em">此非人世之愛樂</l><l rend="text-indent:5em">此為三天所享受」</l></lg>
 <lb ed="N" n="0077a02"/><p xml:id="pN41p0077a0201" rend="margin-left:0em;text-indent:2em">如此王由帝釋勸受愛樂而答謝云：</p>
-<lb ed="N" n="0077a03"/><p xml:id="pN41p0077a0301" rend="margin-left:3em">一六三</p><lg xml:id="lgN41p0077a0301" type="abnormal"><l rend="text-indent:7em"><anchor xml:id="nkr_note_orig_0077033" n="0077033"/>恰似請得乘天輿</l><l rend="text-indent:5em">如同冀望獲財物</l>
+<lb ed="N" n="0077a03"/><p xml:id="pN41p0077a0301" rend="margin-left:3em">一六三</p><lg xml:id="lgN41p0077a0301" type="abnormal"><l rend="text-indent:7em"><anchor xml:id="nkr_note_orig_0077033" n="0077033"/><anchor xml:id="nkr_note_mod_0077033" n="0077033"/>恰似請得乘天輿</l><l rend="text-indent:5em">如同冀望獲財物</l>
 <lb ed="N" n="0077a04"/><l rend="text-indent:7em">由此將能得幸福</l><l rend="text-indent:5em">此為依據他人施</l></lg>
 <lb ed="N" n="0077a05"/><p xml:id="pN41p0077a0501" rend="margin-left:3em"><ref target="#PTS.Ja.6.128"></ref>一六四</p><lg xml:id="lgN41p0077a0501" type="abnormal"><l rend="text-indent:7em"><anchor xml:id="nkr_note_orig_0077034" n="0077034"/>吾將不求他人施</l><l rend="text-indent:5em">依據他人得幸福</l>
 <lb ed="N" n="0077a06"/><l rend="text-indent:7em">自求積德有幸福</l><l rend="text-indent:5em">此吾特異之財物</l></lg>
@@ -1679,7 +1683,7 @@ $Log:$
 <lb ed="N" n="0109a05"/><l rend="text-indent:7em">迷王以此四王女</l><l rend="text-indent:5em">將為奉獻作犧牲</l></lg>
 <lb ed="N" n="0109a06"/><p xml:id="pN41p0109a0601" rend="margin-left:4em">九九</p><lg xml:id="lgN41p0109a0601" type="abnormal"><l rend="text-indent:7em">黃金色美為如何</l><l rend="text-indent:5em">此等之身塗栴檀</l>
 <lb ed="N" n="0109a07"/><l rend="text-indent:7em">迷王以此四后妃</l><l rend="text-indent:5em">將為奉獻作犧牲</l></lg>
-<lb ed="N" n="0109a08"/><p xml:id="pN41p0109a0801" rend="margin-left:3em">一〇〇</p><lg xml:id="lgN41p0109a0801" type="abnormal"><l rend="text-indent:7em">黃金色美為如何</l><l rend="text-indent:5em">此等之身塗<anchor xml:id="beg_3" type="cb-app"/>栴<anchor xml:id="end_3"/>檀</l>
+<lb ed="N" n="0109a08"/><p xml:id="pN41p0109a0801" rend="margin-left:3em">一〇〇</p><lg xml:id="lgN41p0109a0801" type="abnormal"><l rend="text-indent:7em">黃金色美為如何</l><l rend="text-indent:5em">此等之身塗<anchor xml:id="nkr_note_add_0109a0801" n="0109a0801"/><anchor xml:id="beg0109a0801" n="0109a0801"/>栴<anchor xml:id="end0109a0801"/>檀</l>
 <lb ed="N" n="0109a09"/><l rend="text-indent:7em">迷王以此四商主</l><l rend="text-indent:5em">將為奉獻作犧牲</l></lg>
 <lb ed="N" n="0109a10"/><p xml:id="pN41p0109a1001" rend="margin-left:3em">一〇一</p><lg xml:id="lgN41p0109a1001" type="abnormal"><l rend="text-indent:7em">恰如空虛之村市</l><l rend="text-indent:5em">又如無人之森林</l>
 <lb ed="N" n="0109a11"/><l rend="text-indent:7em">布泊瓦提成斯果</l><l rend="text-indent:5em">戰達羅等犧牲時</l></lg>
@@ -2280,7 +2284,7 @@ $Log:$
 <lb ed="N" n="0149a08"/>故意，故無罪。」「龍之方面如何？尊者！」「龍殺此樹，並非摑拔，因此彼亦無罪。」
 <lb ed="N" n="0149a09"/>金翅鳥喜苦行者之言：「予金翅鳥之王，尊者！貴君對予之問所答甚為可喜，請貴君
 <lb ed="N" n="0149a10"/>住此林中。而予有一『阿蘭婆耶那』咒文<anchor xml:id="nkr_note_orig_0149017" n="0149017"/>——應知此為無價尊貴之咒文，予以此授
-<lb ed="N" n="0149a11"/>君以為謝師之禮。請與接受。」「咒文對予<anchor xml:id="beg_4" type="cb-app"/>已<anchor xml:id="end_4"/>經滿足無需，請貴君行之。」彼再三乞願，
+<lb ed="N" n="0149a11"/>君以為謝師之禮。請與接受。」「咒文對予<anchor xml:id="nkr_note_add_0149a1101" n="0149a1101"/><anchor xml:id="beg0149a1101" n="0149a1101"/>已<anchor xml:id="end0149a1101"/>經滿足無需，請貴君行之。」彼再三乞願，
 <lb ed="N" n="0149a12"/>苦行者接受，遂授與咒文並教示藥草種類而去。</p>
 <lb ed="N" n="0149a13"/><p xml:id="pN41p0149a1301" rend="margin-left:0em;text-indent:2em">爾時，在波羅奈有一貧人之婆羅門，彼負債甚多，頻受債權者催討，彼思：「予
 <lb ed="N" n="0149a14"/>住此世何為，莫如入林中尋死。」於是出發，漸入彼仙處。彼來見苦行者，以其勤勉
@@ -3149,7 +3153,7 @@ $Log:$
 <lb ed="N" n="0207a10"/>之胎，再生而來。但其他一萬六千之宮女等皆石女不能生育，是故王對此王女特別
 <lb ed="N" n="0207a11"/>歡喜疼愛。王為彼女以種種之花入滿二十五個花籠，與精密之織錦著物，王云：「以
 <lb ed="N" n="0207a12"/><ref target="#PTS.Ja.6.221"></ref>此可為自己最美之裝飾」，每日贈與其女；又云：「一切食物有無限際之多，每半月
-<lb ed="N" n="0207a13"/>須布施一次。」贈與千金。此王有毘闍耶、蘇那瑪、阿拉陀三位大臣，如是於四月<anchor xml:id="nkr_note_orig_0207007" n="0207007"/>
+<lb ed="N" n="0207a13"/>須布施一次。」贈與千金。此王有毘闍耶、蘇那瑪、阿拉陀三位大臣，如是於四月<anchor xml:id="nkr_note_orig_0207007" n="0207007"/><anchor xml:id="nkr_note_mod_0207007" n="0207007"/>
 <lb ed="N" n="0207a14"/>滿月之日催開祭祀，王使其街市與宮中裝飾為諸神都城之狀時，王充分施行熱水之
 <pb ed="N" xml:id="N41.0018.0208a" n="0208a"/>
 <lb ed="N" n="0208a01"/>浴，身體充分塗以塗膏，以一切莊嚴之具飾身，開放天窗，在殿上之大廣間中，受
@@ -3180,7 +3184,7 @@ $Log:$
 <lb ed="N" n="0209a11"/><l rend="text-indent:7em">無上今宵祭</l><l rend="text-indent:5em">將不喜戰鬥</l></lg>
 <lb ed="N" n="0209a12"/><p xml:id="pN41p0209a1201" rend="margin-left:5em">九</p><lg xml:id="lgN41p0209a1201" type="abnormal"><l rend="text-indent:7em">咀啖飲食物</l><l rend="text-indent:5em">疾疾齎彼等</l>
 <lb ed="N" n="0209a13"/><l rend="text-indent:7em">王浸與諸愛</l><l rend="text-indent:5em">歌舞音典戲」</l></lg>
-<lb ed="N" n="0209a14"/><p xml:id="pN41p0209a1401" rend="margin-left:4em">一〇</p><lg xml:id="lgN41p0209a1401" type="abnormal"><l rend="text-indent:7em">聞其言語畢</l><l rend="text-indent:5em">毘<anchor xml:id="beg_5" type="cb-app"/>闍<anchor xml:id="end_5"/>耶斯語</l>
+<lb ed="N" n="0209a14"/><p xml:id="pN41p0209a1401" rend="margin-left:4em">一〇</p><lg xml:id="lgN41p0209a1401" type="abnormal"><l rend="text-indent:7em">聞其言語畢</l><l rend="text-indent:5em">毘<anchor xml:id="nkr_note_add_0209a1401" n="0209a1401"/><anchor xml:id="beg0209a1401" n="0209a1401"/>闍<anchor xml:id="end0209a1401"/>耶斯語</l>
 <pb ed="N" xml:id="N41.0018.0210a" n="0210a"/>
 <lb ed="N" n="0210a01"/><l rend="text-indent:6em">「大王！諸愛欲</l><l rend="text-indent:5em">常為爾所具</l></lg>
 <lb ed="N" n="0210a02"/><p xml:id="pN41p0210a0201" rend="margin-left:4em">一一</p><lg xml:id="lgN41p0210a0201" type="abnormal"><l rend="text-indent:7em">諸愛將浸樂</l><l rend="text-indent:5em">爾亦誠不難</l>
@@ -3283,7 +3287,7 @@ $Log:$
 <lb ed="N" n="0216a09"/><p xml:id="pN41p0216a0901" rend="margin-left:4em">五〇</p><lg xml:id="lgN41p0216a0901" type="abnormal"><l rend="text-indent:7em">此處有名畢伽克</l><l rend="text-indent:5em">彼為貧者一奴僕</l>
 <lb ed="N" n="0216a10"/><l rend="text-indent:7em">彼為住於布薩者</l><l rend="text-indent:5em">古納之前彼近來</l></lg>
 <lb ed="N" n="0216a11"/><p xml:id="pN41p0216a1101" rend="margin-left:4em">五一</p><lg xml:id="lgN41p0216a1101" type="abnormal"><l rend="text-indent:7em">彼今聞此迦葉言</l><l rend="text-indent:5em">又聞阿拉陀之語</l>
-<lb ed="N" n="0216a12"/><l rend="text-indent:7em">暫時心熱呼大息</l><l rend="text-indent:5em"><anchor xml:id="beg_6" type="cb-app"/>潸<anchor xml:id="end_6"/>然流淚不能已</l></lg>
+<lb ed="N" n="0216a12"/><l rend="text-indent:7em">暫時心熱呼大息</l><l rend="text-indent:5em"><anchor xml:id="nkr_note_add_0216a1201" n="0216a1201"/><anchor xml:id="beg0216a1201" n="0216a1201"/>潸<anchor xml:id="end0216a1201"/>然流淚不能已</l></lg>
 <lb ed="N" n="0216a13"/><p xml:id="pN41p0216a1301" rend="margin-left:4em">五二</p><lg xml:id="lgN41p0216a1301" type="abnormal"><l rend="text-indent:7em">毘提訶王詢問彼</l><l rend="text-indent:5em">「汝今如何生嘆息</l>
 <lb ed="N" n="0216a14"/><l rend="text-indent:7em">耳聞何耶目見何</l><l rend="text-indent:5em">如何感受使吾知」</l></lg>
 <pb ed="N" xml:id="N41.0018.0217a" n="0217a"/>
@@ -3327,7 +3331,7 @@ $Log:$
 <lb ed="N" n="0219a08"/><l rend="text-indent:7em">室前呼集廷臣等</l><l rend="text-indent:5em">彼王宣布次言語</l></lg>
 <lb ed="N" n="0219a09"/><p xml:id="pN41p0219a0901" rend="margin-left:4em">六七</p><lg xml:id="lgN41p0219a0901" type="abnormal"><l rend="text-indent:6em">「羌達佳宮為予設</l><l rend="text-indent:5em">常期準備為愛樂</l>
 <lb ed="N" n="0219a10"/><l rend="text-indent:7em">秘密非密諸文件</l><l rend="text-indent:5em">一切外用勿近吾</l></lg>
-<lb ed="N" n="0219a11"/><p xml:id="pN41p0219a1101" rend="margin-left:4em">六八</p><lg xml:id="lgN41p0219a1101" type="abnormal"><l rend="text-indent:7em">毘<anchor xml:id="beg_7" type="cb-app"/>闍<anchor xml:id="end_7"/>耶與蘇那瑪</l><l rend="text-indent:5em">還有將軍阿拉陀</l>
+<lb ed="N" n="0219a11"/><p xml:id="pN41p0219a1101" rend="margin-left:4em">六八</p><lg xml:id="lgN41p0219a1101" type="abnormal"><l rend="text-indent:7em">毘<anchor xml:id="nkr_note_add_0219a1101" n="0219a1101"/><anchor xml:id="beg0219a1101" n="0219a1101"/>闍<anchor xml:id="end0219a1101"/>耶與蘇那瑪</l><l rend="text-indent:5em">還有將軍阿拉陀</l>
 <lb ed="N" n="0219a12"/><l rend="text-indent:7em">此之三人巧裁判</l><l rend="text-indent:5em">事件辦理坐裁決」</l></lg>
 <lb ed="N" n="0219a13"/><p xml:id="pN41p0219a1301" rend="margin-left:4em">六九</p><lg xml:id="lgN41p0219a1301" type="abnormal"><l rend="text-indent:7em">毘提訶王如是云</l><l rend="text-indent:5em">彼王只思愛慾樂</l>
 <lb ed="N" n="0219a14"/><l rend="text-indent:7em">而於富商婆羅門</l><l rend="text-indent:5em">如何事亦不向意</l></lg>
@@ -3900,7 +3904,7 @@ $Log:$
 <lb ed="N" n="0257a11"/><p xml:id="pN41p0257a1101" rend="margin-left:5em">六（2）</p><lg xml:id="lgN41p0257a1101" type="abnormal"><l rend="text-indent:7em">而聞父語彼龍女</l><l rend="text-indent:5em">彷徨欲求夜出去</l></lg>
 <lb ed="N" n="0257a12"/><p xml:id="pN41p0257a1201" rend="margin-left:0em;text-indent:2em"><ref target="#PTS.Ja.6.265"></ref>彼女彷徨來至雪山，摘取色、香、味皆佳之華，以高價摩尼珠之狀美飾全山，
 <lb ed="N" n="0257a13"/>於山頂平地設華之座席，而以感興之狀舞踊，歌唱美歌，唱第七之偈：</p>
-<lb ed="N" n="0257a14"/><p xml:id="pN41p0257a1401" rend="margin-left:5em">七</p><lg xml:id="lgN41p0257a1401" type="abnormal"><l rend="text-indent:7em">乾闥婆或羅剎<anchor xml:id="beg_8" type="cb-app"/>娑<anchor xml:id="end_8"/></l><l rend="text-indent:5em">人間那伽緊那羅</l>
+<lb ed="N" n="0257a14"/><p xml:id="pN41p0257a1401" rend="margin-left:5em">七</p><lg xml:id="lgN41p0257a1401" type="abnormal"><l rend="text-indent:7em">乾闥婆或羅剎<anchor xml:id="nkr_note_add_0257a1401" n="0257a1401"/><anchor xml:id="beg0257a1401" n="0257a1401"/>娑<anchor xml:id="end0257a1401"/></l><l rend="text-indent:5em">人間那伽緊那羅</l>
 <pb ed="N" xml:id="N41.0018.0258a" n="0258a"/>
 <lb ed="N" n="0258a01"/><l rend="text-indent:7em">任誰賢明奉諸愛</l><l rend="text-indent:5em">長久可為吾夫者</l></lg>
 <lb ed="N" n="0258a02"/><p xml:id="pN41p0258a0201" rend="margin-left:0em;text-indent:2em">恰於其時毘沙門大王之甥不那奇<anchor xml:id="nkr_note_orig_0258006" n="0258006"/>夜叉將軍跨乘大有三伽浮他之不可思議之信度
@@ -4146,7 +4150,7 @@ $Log:$
 <lb ed="N" n="0274a02"/><l rend="text-indent:7em">瑪洽王與摩達王</l><l rend="text-indent:5em">還有開佳佳國王</l>
 <lb ed="N" n="0274a03"/><l rend="text-indent:7em">不用狡詐吾等鬥</l><l rend="text-indent:5em">會堂何事不得為」</l></lg>
 <lb ed="N" n="0274a04"/><p xml:id="pN41p0274a0401" rend="margin-left:0em;text-indent:2em"><ref target="#PTS.Ja.6.281"></ref>如此王隨百人之王伴不那奇入於賭博勝負之屋，皆坐各各適當之座席，每人於
-<lb ed="N" n="0274a05"/>銀臺之上載有金骰子。不那奇立即云：「大王！骰子遊戲之方法有<anchor xml:id="beg_9" type="cb-app"/><space quantity="0"/><anchor xml:id="end_9"/>馬利伽、薩瓦
+<lb ed="N" n="0274a05"/>銀臺之上載有金骰子。不那奇立即云：「大王！骰子遊戲之方法有<anchor xml:id="nkr_note_add_0274a0501" n="0274a0501"/><anchor xml:id="beg0274a0501" n="0274a0501"/><space quantity="0"/><anchor xml:id="end0274a0501"/>馬利伽、薩瓦
 <lb ed="N" n="0274a06"/>陀、巴夫羅、巴都拉<anchor xml:id="nkr_note_orig_0274016" n="0274016"/><anchor xml:id="nkr_note_mod_0274016" n="0274016"/>等二十四種，其中貴君可選擇合乎自己手勢之方法。」王云甚善，
 <lb ed="N" n="0274a07"/>採用巴夫羅之作法，不那奇則採用薩瓦陀之作法。於是王向彼云：「如是青年！請汝
 <lb ed="N" n="0274a08"/>投扔骰子。」「大王！最初不為予參加之次序，請貴君先投。」王云甚善，依其所言。
@@ -4398,7 +4402,7 @@ $Log:$
 <lb ed="N" n="0290a14"/><p xml:id="pN41p0290a1401" rend="margin-left:0em;text-indent:2em">如斯無能較者，先導者比豆梨以佛之善巧說王住之語。</p>
 <pb ed="N" xml:id="N41.0018.0291a" n="0291a"/>
 <lb ed="N" n="0291a01"/><p xml:id="pN41p0291a0101" rend="margin-left:22em">王住之章終了</p>
-<lb ed="N" n="0291a02"/><p xml:id="pN41p0291a0201" rend="margin-left:0em;text-indent:2em">如此向妻子朋友說教之中，三日<anchor xml:id="beg_a" type="cb-app"/>已<anchor xml:id="end_a"/>過。彼知期日已滿之事，早晨早起，喫食種
+<lb ed="N" n="0291a02"/><p xml:id="pN41p0291a0201" rend="margin-left:0em;text-indent:2em">如此向妻子朋友說教之中，三日<anchor xml:id="nkr_note_add_0291a0201" n="0291a0201"/><anchor xml:id="beg0291a0201" n="0291a0201"/>已<anchor xml:id="end0291a0201"/>過。彼知期日已滿之事，早晨早起，喫食種
 <lb ed="N" n="0291a03"/>種美味，彼思：「先須向王告別申述後，與青年一同前行。」隨從親族一羣，出發向
 <lb ed="N" n="0291a04"/>王宮而行。向王敬禮立於傍側，彼向王申訴適當之忠言。</p>
 <lb ed="N" n="0291a05"/><p xml:id="pN41p0291a0501" rend="margin-left:0em;text-indent:2em">佛為說明此事而言曰：</p>
@@ -4958,70 +4962,70 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>己</corr><sic>已</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>豐</corr><sic>豊</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>栴</corr><sic>梅</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>已</corr><sic>己</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>闍</corr><sic>闇</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_6" cb:to="#end_6"><corr>潸</corr><sic>潛</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_7" cb:to="#end_7"><corr>闍</corr><sic>闇</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_8" cb:to="#end_8"><corr>娑<note type="cf1">《佛光大辭典》：梵語 rāksasa。惡鬼之名。又作羅剎娑（羅剎婆為誤寫）。</note></corr><sic>婆</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_9" cb:to="#end_9"><corr><space quantity="0"/></corr><sic>[15]</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_a" cb:to="#end_a"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0019a1101" to="#end0019a1101"><lem wit="#wit1" resp="#resp3">己</lem><rdg wit="#wit2">已</rdg></app>
+<app from="#beg0055a0501" to="#end0055a0501"><lem wit="#wit1" resp="#resp3">豐</lem><rdg wit="#wit2">豊</rdg></app>
+<app from="#beg0109a0801" to="#end0109a0801"><lem wit="#wit1" resp="#resp3">栴</lem><rdg wit="#wit2">梅</rdg></app>
+<app from="#beg0149a1101" to="#end0149a1101"><lem wit="#wit1" resp="#resp3">已</lem><rdg wit="#wit2">己</rdg></app>
+<app from="#beg0209a1401" to="#end0209a1401"><lem wit="#wit1" resp="#resp3">闍</lem><rdg wit="#wit2">闇</rdg></app>
+<app from="#beg0216a1201" to="#end0216a1201"><lem wit="#wit1" resp="#resp3">潸</lem><rdg wit="#wit2">潛</rdg></app>
+<app from="#beg0219a1101" to="#end0219a1101"><lem wit="#wit1" resp="#resp3">闍</lem><rdg wit="#wit2">闇</rdg></app>
+<app from="#beg0257a1401" to="#end0257a1401"><lem wit="#wit1" resp="#resp3">娑<note type="cf1">《佛光大辭典》：梵語 rāksasa。惡鬼之名。又作羅剎娑（羅剎婆為誤寫）。</note></lem><rdg wit="#wit2">婆</rdg></app>
+<app from="#beg0274a0501" to="#end0274a0501"><lem wit="#wit1" resp="#resp3"><space quantity="0"/></lem><rdg wit="#wit2">[15]</rdg></app>
+<app from="#beg0291a0201" to="#end0291a0201"><lem wit="#wit1" resp="#resp3">已</lem><rdg wit="#wit2">巳</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0036033" resp="#resp3" type="mod" target="#nkr_note_mod_0036033">Sa-indadevā 為帝釋（Sakka-devānaṁ-inda）支配之天，即三十三天（Tāvatiṁsa）。（CBETA 按：漢譯南傳大藏經此頁中缺相對應之註標[33]，今於此處加上[33]之註標。）</note>
-<note n="0182036" resp="#resp3" type="mod" target="#nkr_note_mod_0182036">在底本雖為 asamatthatejo，依註釋讀為 asamatta-tejo。（CBETA 按：漢譯南傳大藏經此頁中缺相對應之註標[36]，今於此處加上[36]之註標。）</note>
-<note n="0225020" resp="#resp3" type="mod" target="#nkr_note_mod_0225020">註中言——從惡事者，惡友從<choice cb:resp="#resp2"><corr>己</corr><sic>巳</sic></choice>而來之他者，又接觸惡事者向他者接觸時，未染惡者與己同一意向而染著。</note>
-<note n="0271015" resp="#resp3" type="mod" target="#nkr_note_mod_0271015">心蘿苑原文為 cittalata 應音寫為質多羅陀苑。（CBETA 按：漢譯南傳大藏經274頁對應之註標[15]與章節校注內容不符，故今將此處修訂為[15]之註標。）</note>
-<note n="0274016" resp="#resp3" type="mod" target="#nkr_note_mod_0274016">mālika, sāvaṭa, bahvla, bhadra 均意義不明。（CBETA 按：漢譯南傳大藏經此頁對應之註標[16]與章節校注內容不符，故今將此處修訂為[16]之註標。）</note>
-<note n="0274017" resp="#resp3" type="mod" target="#nkr_note_mod_0274017">其歌在異本舉出六偈。（CBETA 按：漢譯南傳大藏經此頁對應之註標[16]與章節校注內容不符，故今將此處的[16]註標修訂成[17]註標。）</note>
-<note n="0276018" resp="#resp3" type="mod" target="#nkr_note_mod_0276018">此處為 Kaccāna。（CBETA 按：漢譯南傳大藏經此頁對應之註標[17]與章節校注內容不符，故今將此處的[17]註標修訂成[18]註標。）</note>
-<note n="0278019" resp="#resp3" type="mod" target="#nkr_note_mod_0278019">底本之 Vatti 依異本讀為 Vutti。（CBETA 按：漢譯南傳大藏經此頁對應之註標[18]與章節校注內容不符，故今將此處的[18]註標修訂成[19]註標。）</note>
-<note n="0279020" resp="#resp3" type="mod" target="#nkr_note_mod_0279020">底本之 Saṁkhātā 依異本讀為 Saṁkhato。（CBETA 按：漢譯南傳大藏經此頁對應之註標[19]與章節校注內容不符，故今將此處的[19]註標修訂成[20]註標。）</note>
-<note n="0279021" resp="#resp3" type="mod" target="#nkr_note_mod_0279021">lokāyatika 所謂順世外道。然在此處並非指一宗派之團體。在註釋中謂為據無義，不與天道、不導天道之詭辯的對話者。（CBETA 按：漢譯南傳大藏經此頁對應之註標[20]與章節校注內容不符，故今將此處的[20]註標修訂成[21]註標。）</note>
-<note n="0282022" resp="#resp3" type="mod" target="#nkr_note_mod_0282022">varāvaraṁ 意義不明。（CBETA 按：漢譯南傳大藏經此頁對應之註標[21]與章節校注內容不符，故今將此處的[21]註標修訂成[22]註標。）</note>
-<note n="0282023" resp="#resp3" type="mod" target="#nkr_note_mod_0282023">Dhamonapāla 指比豆梨賢者。（CBETA 按：漢譯南傳大藏經此頁對應之註標[22]與章節校注內容不符，故今將此處的[22]註標修訂成[23]註標。）</note>
-<note n="0286024" resp="#resp3" type="mod" target="#nkr_note_mod_0286024">niddannaṁ 或應讀為 niddan nam。（CBETA 按：漢譯南傳大藏經此頁對應之註標[23]與章節校注內容不符，故今將此處的[23]註標修訂成[24]註標。）</note>
-<note n="0287025" resp="#resp3" type="mod" target="#nkr_note_mod_0287025">註釋中言：「如魚無舌而無語，對愚人之言為無舌。」（CBETA 按：漢譯南傳大藏經此頁對應之註標[24]與章節校注內容不符，故今將此處的[24]註標修訂成[25]註標。）</note>
-<note n="0288026" resp="#resp3" type="mod" target="#nkr_note_mod_0288026">在異本加入其次一偈（又一本插入於一五一偈與一五二偈之間）。「彼對父母與支持，彼對族長之上敬，彼時具有慚愧心，如是得於住王宮。」（CBETA 按：漢譯南傳大藏經此頁對應之註標[25]與章節校注內容不符，故今將此處的[25]註標修訂成[26]註標。）</note>
-<note n="0288027" resp="#resp3" type="mod" target="#nkr_note_mod_0288027">依註釋補入者。（CBETA 按：漢譯南傳大藏經此頁對應之註標[26]與章節校注內容不符，故今將此處的[26]註標修訂成[27]註標。）</note>
-<note n="0289028" resp="#resp3" type="mod" target="#nkr_note_mod_0289028">依註釋補入者。（CBETA 按：漢譯南傳大藏經此頁對應之註標[27]與章節校注內容不符，故今將此處的[27]註標修訂成[28]註標。）</note>
-<note n="0289029" resp="#resp3" type="mod" target="#nkr_note_mod_0289029">註釋中謂——兄弟於此世為人之一肢（身體之一部分）然無法者，其肢不等（身體之一部分）恰如棄墓場之死鬼之狀……。（CBETA 按：漢譯南傳大藏經此頁對應之註標[28]與章節校注內容不符，故今將此處的[28]註標修訂成[29]註標。）</note>
-<note n="0290030" resp="#resp3" type="mod" target="#nkr_note_mod_0290030">註釋言，望繁榮者如斯。（CBETA 按：漢譯南傳大藏經此頁對應之註標[29]與章節校注內容不符，故今將此處的[29]註標修訂成[30]註標。）</note>
-<note n="0292031" resp="#resp3" type="mod" target="#nkr_note_mod_0292031">依註釋如次——彼躓仆於地上，而如於其場所站立之人之狀，即為予傾躓於貴君等之上，而於貴君等之上站立。……此青年人問予：「王為貴君之何人？」予未善見貴君之事，予望真實，故答：「予為奴隷。」——予承認此為予之罪業。然予非王之奴隷，請王怒予此罪。此謹存留於心，予去之後，請勿處罰予妻子等。（CBETA 按：漢譯南傳大藏經此頁對應之註標[30]與章節校注內容不符，故今將此處的[30]註標修訂成[31]註標。）</note>
-<note n="0293032" resp="#resp3" type="mod" target="#nkr_note_mod_0293032">殆為同一之偈，出於 J. Vl. P. 189。（CBETA 按：漢譯南傳大藏經此頁對應之註標[31]與章節校注內容不符，故今將此處的[31]註標修訂成[32]註標。）</note>
-<note n="0296033" resp="#resp3" type="mod" target="#nkr_note_mod_0296033">依註釋記為，夜叉思欲殺賢者取其心臟，胡亂驅使菩薩於樹枝之間及岩山之中。（CBETA 按：漢譯南傳大藏經此頁對應之註標[32]與章節校注內容不符，故今將此處的[32]註標修訂成[33]註標。）</note>
-<note n="0296034" resp="#resp3" type="mod" target="#nkr_note_mod_0296034">此處為 Kālagiri。（CBETA 按：漢譯南傳大藏經此頁對應之註標[33]與章節校注內容不符，故今將此處的[33]註標修訂成[34]註標。）</note>
-<note n="0298035" resp="#resp3" type="mod" target="#nkr_note_mod_0298035">在註釋中插入次一段下文：等正覺者尚有槃涅槃之時，予等將飛投入火中而死。而無有一人再能言者。摩訶薩誠善住此市。（CBETA 按：漢譯南傳大藏經此頁對應之註標[34]與章節校注內容不符，故今將此處的[34]註標修訂成[35]註標。）</note>
-<note n="0298036" resp="#resp3" type="mod" target="#nkr_note_mod_0298036">暹羅本 Pāde gahetvā（摑捉兩足），應如斯讀。（CBETA 按：漢譯南傳大藏經此頁對應之註標[35]與章節校注內容不符，故今將此處的[35]註標修訂成[36]註標。）</note>
-<note n="0299037" resp="#resp3" type="mod" target="#nkr_note_mod_0299037">ṭhatvā Patitvā 讀為 ṭhapetvā Pātetvā。（CBETA 按：漢譯南傳大藏經此頁對應之註標[36]與章節校注內容不符，故今將此處的[36]註標修訂成[37]註標。）</note>
-<note n="0299038" resp="#resp3" type="mod" target="#nkr_note_mod_0299038">Khajjūri 野生之棗棕櫚。（CBETA 按：漢譯南傳大藏經此頁對應之註標[37]與章節校注內容不符，故今將此處的[37]註標修訂成[38]註標。）</note>
-<note n="0301039" resp="#resp3" type="mod" target="#nkr_note_mod_0301039">指龍女之父 Varuṇa。（CBETA 按：漢譯南傳大藏經此頁對應之註標[38]與章節校注內容不符，故今將此處的[38]註標修訂成[39]註標。）</note>
-<note n="0304040" resp="#resp3" type="mod" target="#nkr_note_mod_0304040">底本 adubbha-Pāniṁ（無害之掌）。暹羅本為 allañ Ca Paṇiṁ（濡濕之掌）。在註釋中，燒自己食物之手為欺友者，於是此濡濕之手有受火災之虞。故在此處可讀為 allaṁPāṇiṁ 或 addañ ca pāṇiṁ。（CBETA 按：漢譯南傳大藏經此頁對應之註標[39]與章節校注內容不符，故今將此處的[39]註標修訂成[40]註標。）</note>
-<note n="0304041" resp="#resp3" type="mod" target="#nkr_note_mod_0304041">同偈出於 J. V. P. 240。（CBETA 按：漢譯南傳大藏經此頁對應之註標[40]與章節校注內容不符，故今將此處的[40]註標修訂成[41]註標。）</note>
-<note n="0305042" resp="#resp3" type="mod" target="#nkr_note_mod_0305042">此處為尊敬不那奇之言。（CBETA 按：漢譯南傳大藏經此頁對應之註標[41]與章節校注內容不符，故今將此處的[41]註標修訂成[42]註標。）</note>
-<note n="0306043" resp="#resp3" type="mod" target="#nkr_note_mod_0306043">Nalini 註釋云為 Vessavana 之王城。然在漢譯之長阿含等中為毘沙門天王之蓮池（例如長阿含經三〇、大正藏卷一、一三〇b）。（CBETA 按：漢譯南傳大藏經此頁對應之註標[42]與章節校注內容不符，故今將此處的[42]註標修訂成[43]註標。）</note>
-<note n="0308044" resp="#resp3" type="mod" target="#nkr_note_mod_0308044">最初二節出於 J. V. P. 171。（CBETA 按：漢譯南傳大藏經此頁對應之註標[43]與章節校注內容不符，故今將此處的[43]註標修訂成[44]註標。）</note>
-<note n="0308045" resp="#resp3" type="mod" target="#nkr_note_mod_0308045">出於同偈同上。（CBETA 按：漢譯南傳大藏經此頁對應之註標[44]與章節校注內容不符，故今將此處的[44]註標修訂成[45]註標。）</note>
-<note n="0309046" resp="#resp3" type="mod" target="#nkr_note_mod_0309046">最初之二節出於同上。Sumaṅgala I. P. 177。（CBETA 按：漢譯南傳大藏經此頁對應之註標[45]與章節校注內容不符，故今將此處的[45]註標修訂成[46]註標。）</note>
-<note n="0309047" resp="#resp3" type="mod" target="#nkr_note_mod_0309047">同偈 Sumaṅgala I. P. 177。（CBETA 按：漢譯南傳大藏經此頁對應之註標[46]與章節校注內容不符，故今將此處的[46]註標修訂成[47]註標。）</note>
-<note n="0309048" resp="#resp3" type="mod" target="#nkr_note_mod_0309048">註釋為鴦伽國之瞻波市。（CBETA 按：漢譯南傳大藏經此頁對應之註標[47]與章節校注內容不符，故今將此處的[47]註標修訂成[48]註標。）</note>
-<note n="0311049" resp="#resp3" type="mod" target="#nkr_note_mod_0311049">指夜叉不那奇。（CBETA 按：漢譯南傳大藏經此頁對應之註標[48]與章節校注內容不符，故今將此處的[48]註標修訂成[49]註標。）</note>
-<note n="0313050" resp="#resp3" type="mod" target="#nkr_note_mod_0313050">底本之 Ca 讀為 Ce，原文二五四偈參照。（CBETA 按：漢譯南傳大藏經此頁對應之註標[49]與章節校注內容不符，故今將此處的[49]註標修訂成[50]註標。）</note>
-<note n="0313051" resp="#resp3" type="mod" target="#nkr_note_mod_0313051">底本之 atthi 讀為 santi，原文二五五偈參照。（CBETA 按：漢譯南傳大藏經此頁對應之註標[50]與章節校注內容不符，故今將此處的[50]註標修訂成[51]註標。）</note>
-<note n="0315052" resp="#resp3" type="mod" target="#nkr_note_mod_0315052">底本之 Karoti 依暹羅本讀為 Karohi。（CBETA 按：漢譯南傳大藏經此頁對應之註標[51]與章節校注內容不符，故今將此處的[51]註標修訂成[52]註標。）</note>
-<note n="0315053" resp="#resp3" type="mod" target="#nkr_note_mod_0315053">指不那奇。（CBETA 按：漢譯南傳大藏經此頁對應之註標[52]與章節校注內容不符，故今將此處的[52]註標修訂成[53]註標。）</note>
-<note n="0317054" resp="#resp3" type="mod" target="#nkr_note_mod_0317054">gorasa 由牛所造之五味，即乳、酪、酪漿、生酥、酥。（CBETA 按：漢譯南傳大藏經此頁對應之註標[53]與章節校注內容不符，故今將此處的[53]註標修訂成[54]註標。）</note>
-<note n="0317055" resp="#resp3" type="mod" target="#nkr_note_mod_0317055">底本之 Kaṇṇapūro 依異本讀為。Kaṇṇadharo。（CBETA 按：漢譯南傳大藏經此頁對應之註標[54]與章節校注內容不符，故今將此處的[54]註標修訂成[55]註標。）</note>
-<note n="0317056" resp="#resp3" type="mod" target="#nkr_note_mod_0317056">底本之 Saniṭṭhānaṁ 讀為 Sannitthānaṁ。（CBETA 按：漢譯南傳大藏經此頁對應之註標[55]與章節校注內容不符，故今將此處的[55]註標修訂成[56]註標。）</note>
-<note n="0320057" resp="#resp3" type="mod" target="#nkr_note_mod_0320057">unnaṅgala 註釋釋此一節言，此月舉耕作之鋤置於傍側，市內以大鼓巡迴宣布人人皆可為大祭。（CBETA 按：漢譯南傳大藏經此頁對應之註標[56]與章節校注內容不符，故今將此處的[56]註標修訂成[57]註標。）</note>
-<note n="0321058" resp="#resp3" type="mod" target="#nkr_note_mod_0321058">此節不明。原文為 amajjapā majjarahā Pipantu。（CBETA 按：漢譯南傳大藏經此頁對應之註標[57]與章節校注內容不符，故今將此處的[57]註標修訂成[58]註標。）</note>
-<note n="0321059" resp="#resp3" type="mod" target="#nkr_note_mod_0321059">註釋中謂，將裝飾之大馬車置於王用之道路附近，吠舍族之人等（第三階級之人等）在不斷煩惱中（愛欲）繼續呼喚叫喊望煩惱之人等。（CBETA 按：漢譯南傳大藏經此頁對應之註標[58]與章節校注內容不符，故今將此處的[58]註標修訂成[59]註標。）</note>
-<note n="0321060" resp="#resp3" type="mod" target="#nkr_note_mod_0321060">cela-ukkhepa 為表現歡喜喝采等，將布與衣物一切使之風靡飄蕩。（CBETA 按：漢譯南傳大藏經此頁對應之註標[59]與章節校注內容不符，故今將此處的[59]註標修訂成[60]註標。）</note>
+<note n="0036033" resp="#resp2" type="mod" target="#nkr_note_mod_0036033">Sa-indadevā 為帝釋（Sakka-devānaṁ-inda）支配之天，即三十三天（Tāvatiṁsa）。（CBETA 按：漢譯南傳大藏經此頁中缺相對應之註標[33]，今於此處加上[33]之註標。）</note>
+<note n="0182036" resp="#resp2" type="mod" target="#nkr_note_mod_0182036">在底本雖為 asamatthatejo，依註釋讀為 asamatta-tejo。（CBETA 按：漢譯南傳大藏經此頁中缺相對應之註標[36]，今於此處加上[36]之註標。）</note>
+<note n="0225020" resp="#resp2" type="mod" target="#nkr_note_mod_0225020">註中言——從惡事者，惡友從己而來之他者，又接觸惡事者向他者接觸時，未染惡者與己同一意向而染著。</note>
+<note n="0271015" resp="#resp2" type="mod" target="#nkr_note_mod_0271015">心蘿苑原文為 cittalata 應音寫為質多羅陀苑。（CBETA 按：漢譯南傳大藏經274頁對應之註標[15]與章節校注內容不符，故今將此處修訂為[15]之註標。）</note>
+<note n="0274016" resp="#resp2" type="mod" target="#nkr_note_mod_0274016">mālika, sāvaṭa, bahvla, bhadra 均意義不明。（CBETA 按：漢譯南傳大藏經此頁對應之註標[16]與章節校注內容不符，故今將此處修訂為[16]之註標。）</note>
+<note n="0274017" resp="#resp2" type="mod" target="#nkr_note_mod_0274017">其歌在異本舉出六偈。（CBETA 按：漢譯南傳大藏經此頁對應之註標[16]與章節校注內容不符，故今將此處的[16]註標修訂成[17]註標。）</note>
+<note n="0276018" resp="#resp2" type="mod" target="#nkr_note_mod_0276018">此處為 Kaccāna。（CBETA 按：漢譯南傳大藏經此頁對應之註標[17]與章節校注內容不符，故今將此處的[17]註標修訂成[18]註標。）</note>
+<note n="0278019" resp="#resp2" type="mod" target="#nkr_note_mod_0278019">底本之 Vatti 依異本讀為 Vutti。（CBETA 按：漢譯南傳大藏經此頁對應之註標[18]與章節校注內容不符，故今將此處的[18]註標修訂成[19]註標。）</note>
+<note n="0279020" resp="#resp2" type="mod" target="#nkr_note_mod_0279020">底本之 Saṁkhātā 依異本讀為 Saṁkhato。（CBETA 按：漢譯南傳大藏經此頁對應之註標[19]與章節校注內容不符，故今將此處的[19]註標修訂成[20]註標。）</note>
+<note n="0279021" resp="#resp2" type="mod" target="#nkr_note_mod_0279021">lokāyatika 所謂順世外道。然在此處並非指一宗派之團體。在註釋中謂為據無義，不與天道、不導天道之詭辯的對話者。（CBETA 按：漢譯南傳大藏經此頁對應之註標[20]與章節校注內容不符，故今將此處的[20]註標修訂成[21]註標。）</note>
+<note n="0282022" resp="#resp2" type="mod" target="#nkr_note_mod_0282022">varāvaraṁ 意義不明。（CBETA 按：漢譯南傳大藏經此頁對應之註標[21]與章節校注內容不符，故今將此處的[21]註標修訂成[22]註標。）</note>
+<note n="0282023" resp="#resp2" type="mod" target="#nkr_note_mod_0282023">Dhamonapāla 指比豆梨賢者。（CBETA 按：漢譯南傳大藏經此頁對應之註標[22]與章節校注內容不符，故今將此處的[22]註標修訂成[23]註標。）</note>
+<note n="0286024" resp="#resp2" type="mod" target="#nkr_note_mod_0286024">niddannaṁ 或應讀為 niddan nam。（CBETA 按：漢譯南傳大藏經此頁對應之註標[23]與章節校注內容不符，故今將此處的[23]註標修訂成[24]註標。）</note>
+<note n="0287025" resp="#resp2" type="mod" target="#nkr_note_mod_0287025">註釋中言：「如魚無舌而無語，對愚人之言為無舌。」（CBETA 按：漢譯南傳大藏經此頁對應之註標[24]與章節校注內容不符，故今將此處的[24]註標修訂成[25]註標。）</note>
+<note n="0288026" resp="#resp2" type="mod" target="#nkr_note_mod_0288026">在異本加入其次一偈（又一本插入於一五一偈與一五二偈之間）。「彼對父母與支持，彼對族長之上敬，彼時具有慚愧心，如是得於住王宮。」（CBETA 按：漢譯南傳大藏經此頁對應之註標[25]與章節校注內容不符，故今將此處的[25]註標修訂成[26]註標。）</note>
+<note n="0288027" resp="#resp2" type="mod" target="#nkr_note_mod_0288027">依註釋補入者。（CBETA 按：漢譯南傳大藏經此頁對應之註標[26]與章節校注內容不符，故今將此處的[26]註標修訂成[27]註標。）</note>
+<note n="0289028" resp="#resp2" type="mod" target="#nkr_note_mod_0289028">依註釋補入者。（CBETA 按：漢譯南傳大藏經此頁對應之註標[27]與章節校注內容不符，故今將此處的[27]註標修訂成[28]註標。）</note>
+<note n="0289029" resp="#resp2" type="mod" target="#nkr_note_mod_0289029">註釋中謂——兄弟於此世為人之一肢（身體之一部分）然無法者，其肢不等（身體之一部分）恰如棄墓場之死鬼之狀……。（CBETA 按：漢譯南傳大藏經此頁對應之註標[28]與章節校注內容不符，故今將此處的[28]註標修訂成[29]註標。）</note>
+<note n="0290030" resp="#resp2" type="mod" target="#nkr_note_mod_0290030">註釋言，望繁榮者如斯。（CBETA 按：漢譯南傳大藏經此頁對應之註標[29]與章節校注內容不符，故今將此處的[29]註標修訂成[30]註標。）</note>
+<note n="0292031" resp="#resp2" type="mod" target="#nkr_note_mod_0292031">依註釋如次——彼躓仆於地上，而如於其場所站立之人之狀，即為予傾躓於貴君等之上，而於貴君等之上站立。……此青年人問予：「王為貴君之何人？」予未善見貴君之事，予望真實，故答：「予為奴隷。」——予承認此為予之罪業。然予非王之奴隷，請王怒予此罪。此謹存留於心，予去之後，請勿處罰予妻子等。（CBETA 按：漢譯南傳大藏經此頁對應之註標[30]與章節校注內容不符，故今將此處的[30]註標修訂成[31]註標。）</note>
+<note n="0293032" resp="#resp2" type="mod" target="#nkr_note_mod_0293032">殆為同一之偈，出於 J. Vl. P. 189。（CBETA 按：漢譯南傳大藏經此頁對應之註標[31]與章節校注內容不符，故今將此處的[31]註標修訂成[32]註標。）</note>
+<note n="0296033" resp="#resp2" type="mod" target="#nkr_note_mod_0296033">依註釋記為，夜叉思欲殺賢者取其心臟，胡亂驅使菩薩於樹枝之間及岩山之中。（CBETA 按：漢譯南傳大藏經此頁對應之註標[32]與章節校注內容不符，故今將此處的[32]註標修訂成[33]註標。）</note>
+<note n="0296034" resp="#resp2" type="mod" target="#nkr_note_mod_0296034">此處為 Kālagiri。（CBETA 按：漢譯南傳大藏經此頁對應之註標[33]與章節校注內容不符，故今將此處的[33]註標修訂成[34]註標。）</note>
+<note n="0298035" resp="#resp2" type="mod" target="#nkr_note_mod_0298035">在註釋中插入次一段下文：等正覺者尚有槃涅槃之時，予等將飛投入火中而死。而無有一人再能言者。摩訶薩誠善住此市。（CBETA 按：漢譯南傳大藏經此頁對應之註標[34]與章節校注內容不符，故今將此處的[34]註標修訂成[35]註標。）</note>
+<note n="0298036" resp="#resp2" type="mod" target="#nkr_note_mod_0298036">暹羅本 Pāde gahetvā（摑捉兩足），應如斯讀。（CBETA 按：漢譯南傳大藏經此頁對應之註標[35]與章節校注內容不符，故今將此處的[35]註標修訂成[36]註標。）</note>
+<note n="0299037" resp="#resp2" type="mod" target="#nkr_note_mod_0299037">ṭhatvā Patitvā 讀為 ṭhapetvā Pātetvā。（CBETA 按：漢譯南傳大藏經此頁對應之註標[36]與章節校注內容不符，故今將此處的[36]註標修訂成[37]註標。）</note>
+<note n="0299038" resp="#resp2" type="mod" target="#nkr_note_mod_0299038">Khajjūri 野生之棗棕櫚。（CBETA 按：漢譯南傳大藏經此頁對應之註標[37]與章節校注內容不符，故今將此處的[37]註標修訂成[38]註標。）</note>
+<note n="0301039" resp="#resp2" type="mod" target="#nkr_note_mod_0301039">指龍女之父 Varuṇa。（CBETA 按：漢譯南傳大藏經此頁對應之註標[38]與章節校注內容不符，故今將此處的[38]註標修訂成[39]註標。）</note>
+<note n="0304040" resp="#resp2" type="mod" target="#nkr_note_mod_0304040">底本 adubbha-Pāniṁ（無害之掌）。暹羅本為 allañ Ca Paṇiṁ（濡濕之掌）。在註釋中，燒自己食物之手為欺友者，於是此濡濕之手有受火災之虞。故在此處可讀為 allaṁPāṇiṁ 或 addañ ca pāṇiṁ。（CBETA 按：漢譯南傳大藏經此頁對應之註標[39]與章節校注內容不符，故今將此處的[39]註標修訂成[40]註標。）</note>
+<note n="0304041" resp="#resp2" type="mod" target="#nkr_note_mod_0304041">同偈出於 J. V. P. 240。（CBETA 按：漢譯南傳大藏經此頁對應之註標[40]與章節校注內容不符，故今將此處的[40]註標修訂成[41]註標。）</note>
+<note n="0305042" resp="#resp2" type="mod" target="#nkr_note_mod_0305042">此處為尊敬不那奇之言。（CBETA 按：漢譯南傳大藏經此頁對應之註標[41]與章節校注內容不符，故今將此處的[41]註標修訂成[42]註標。）</note>
+<note n="0306043" resp="#resp2" type="mod" target="#nkr_note_mod_0306043">Nalini 註釋云為 Vessavana 之王城。然在漢譯之長阿含等中為毘沙門天王之蓮池（例如長阿含經三〇、大正藏卷一、一三〇b）。（CBETA 按：漢譯南傳大藏經此頁對應之註標[42]與章節校注內容不符，故今將此處的[42]註標修訂成[43]註標。）</note>
+<note n="0308044" resp="#resp2" type="mod" target="#nkr_note_mod_0308044">最初二節出於 J. V. P. 171。（CBETA 按：漢譯南傳大藏經此頁對應之註標[43]與章節校注內容不符，故今將此處的[43]註標修訂成[44]註標。）</note>
+<note n="0308045" resp="#resp2" type="mod" target="#nkr_note_mod_0308045">出於同偈同上。（CBETA 按：漢譯南傳大藏經此頁對應之註標[44]與章節校注內容不符，故今將此處的[44]註標修訂成[45]註標。）</note>
+<note n="0309046" resp="#resp2" type="mod" target="#nkr_note_mod_0309046">最初之二節出於同上。Sumaṅgala I. P. 177。（CBETA 按：漢譯南傳大藏經此頁對應之註標[45]與章節校注內容不符，故今將此處的[45]註標修訂成[46]註標。）</note>
+<note n="0309047" resp="#resp2" type="mod" target="#nkr_note_mod_0309047">同偈 Sumaṅgala I. P. 177。（CBETA 按：漢譯南傳大藏經此頁對應之註標[46]與章節校注內容不符，故今將此處的[46]註標修訂成[47]註標。）</note>
+<note n="0309048" resp="#resp2" type="mod" target="#nkr_note_mod_0309048">註釋為鴦伽國之瞻波市。（CBETA 按：漢譯南傳大藏經此頁對應之註標[47]與章節校注內容不符，故今將此處的[47]註標修訂成[48]註標。）</note>
+<note n="0311049" resp="#resp2" type="mod" target="#nkr_note_mod_0311049">指夜叉不那奇。（CBETA 按：漢譯南傳大藏經此頁對應之註標[48]與章節校注內容不符，故今將此處的[48]註標修訂成[49]註標。）</note>
+<note n="0313050" resp="#resp2" type="mod" target="#nkr_note_mod_0313050">底本之 Ca 讀為 Ce，原文二五四偈參照。（CBETA 按：漢譯南傳大藏經此頁對應之註標[49]與章節校注內容不符，故今將此處的[49]註標修訂成[50]註標。）</note>
+<note n="0313051" resp="#resp2" type="mod" target="#nkr_note_mod_0313051">底本之 atthi 讀為 santi，原文二五五偈參照。（CBETA 按：漢譯南傳大藏經此頁對應之註標[50]與章節校注內容不符，故今將此處的[50]註標修訂成[51]註標。）</note>
+<note n="0315052" resp="#resp2" type="mod" target="#nkr_note_mod_0315052">底本之 Karoti 依暹羅本讀為 Karohi。（CBETA 按：漢譯南傳大藏經此頁對應之註標[51]與章節校注內容不符，故今將此處的[51]註標修訂成[52]註標。）</note>
+<note n="0315053" resp="#resp2" type="mod" target="#nkr_note_mod_0315053">指不那奇。（CBETA 按：漢譯南傳大藏經此頁對應之註標[52]與章節校注內容不符，故今將此處的[52]註標修訂成[53]註標。）</note>
+<note n="0317054" resp="#resp2" type="mod" target="#nkr_note_mod_0317054">gorasa 由牛所造之五味，即乳、酪、酪漿、生酥、酥。（CBETA 按：漢譯南傳大藏經此頁對應之註標[53]與章節校注內容不符，故今將此處的[53]註標修訂成[54]註標。）</note>
+<note n="0317055" resp="#resp2" type="mod" target="#nkr_note_mod_0317055">底本之 Kaṇṇapūro 依異本讀為。Kaṇṇadharo。（CBETA 按：漢譯南傳大藏經此頁對應之註標[54]與章節校注內容不符，故今將此處的[54]註標修訂成[55]註標。）</note>
+<note n="0317056" resp="#resp2" type="mod" target="#nkr_note_mod_0317056">底本之 Saniṭṭhānaṁ 讀為 Sannitthānaṁ。（CBETA 按：漢譯南傳大藏經此頁對應之註標[55]與章節校注內容不符，故今將此處的[55]註標修訂成[56]註標。）</note>
+<note n="0320057" resp="#resp2" type="mod" target="#nkr_note_mod_0320057">unnaṅgala 註釋釋此一節言，此月舉耕作之鋤置於傍側，市內以大鼓巡迴宣布人人皆可為大祭。（CBETA 按：漢譯南傳大藏經此頁對應之註標[56]與章節校注內容不符，故今將此處的[56]註標修訂成[57]註標。）</note>
+<note n="0321058" resp="#resp2" type="mod" target="#nkr_note_mod_0321058">此節不明。原文為 amajjapā majjarahā Pipantu。（CBETA 按：漢譯南傳大藏經此頁對應之註標[57]與章節校注內容不符，故今將此處的[57]註標修訂成[58]註標。）</note>
+<note n="0321059" resp="#resp2" type="mod" target="#nkr_note_mod_0321059">註釋中謂，將裝飾之大馬車置於王用之道路附近，吠舍族之人等（第三階級之人等）在不斷煩惱中（愛欲）繼續呼喚叫喊望煩惱之人等。（CBETA 按：漢譯南傳大藏經此頁對應之註標[58]與章節校注內容不符，故今將此處的[58]註標修訂成[59]註標。）</note>
+<note n="0321060" resp="#resp2" type="mod" target="#nkr_note_mod_0321060">cela-ukkhepa 為表現歡喜喝采等，將布與衣物一切使之風靡飄蕩。（CBETA 按：漢譯南傳大藏經此頁對應之註標[59]與章節校注內容不符，故今將此處的[59]註標修訂成[60]註標。）</note>
 </p>
 </cb:div>
 <cb:div type="nanchuan-notes">
@@ -5055,7 +5059,9 @@ $Log:$
 <note n="0024026" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0024026">assattha 又謂為畢波羅樹（Pipphala）。因釋迦牟尼佛在此樹下成道，又謂為菩提樹（bodhirukha）。</note>
 <note n="0027027" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0027027">底本之 Knṇḍitaṁ 讀為 guṇḍitaṁ。</note>
 <note n="0031028" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0031028">九五～一〇〇偈＝八七～九二偈。</note>
+<note n="0031028" resp="#resp1" type="mod" target="#nkr_note_mod_0031028">九五【南傳】，～一〇〇偈＝八七～九二偈。</note>
 <note n="0033029" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0033029">一〇七～一〇九偈＝四六～四八偈。</note>
+<note n="0033029" resp="#resp1" type="mod" target="#nkr_note_mod_0033029">一〇七【南傳】，～一〇九偈＝四六～四八偈。</note>
 <note n="0033030" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0033030">底本之 medisa 讀為 me disā。</note>
 <note n="0035031" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0035031">以下之十偈出自 J. V. P. 123，更見於 J. IV. 434。</note>
 <note n="0035032" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0035032">一一六～一一八偈，就 mtu. I. P. 281 參照。</note>
@@ -5093,7 +5099,9 @@ $Log:$
 <note n="0074030" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0074030">七金山乃為四天王（Cātumnahārājā）之封邑。</note>
 <note n="0074031" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0074031">註釋有須彌山頂，三十三天即存在於須彌山頂。</note>
 <note n="0076032" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0076032">一六〇～一六二偈出自 J. IV. P. 336。</note>
+<note n="0076032" resp="#resp1" type="mod" target="#nkr_note_mod_0076032">一六〇【南傳】，～一六二偈出自 J. IV. P. 336。</note>
 <note n="0077033" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0077033">一六三～一六五偈出自 J. IV. P. 338。</note>
+<note n="0077033" resp="#resp1" type="mod" target="#nkr_note_mod_0077033">一六三【南傳】，～一六五偈出自 J. IV. P. 338。</note>
 <note n="0077034" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0077034">就此偈 J. II. P. 257 參照。</note>
 <note n="0084001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0084001">暹羅本為 Candakumāra-j. CP. 7. Candakumāra 參照。</note>
 <note n="0084002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0084002">Saṅghabheda-khandha CV. VII. 3（Vin. II. P. 180）就同一之傳說從略五分二五（大正藏卷二二、一六四a），四分五二（大正藏卷二二、九〇九b），有部破僧事（大正藏卷二四、一六七c）J. I. P. 142，增阿含四九（大正藏卷二、八〇二b）等參照。</note>
@@ -5172,6 +5180,7 @@ $Log:$
 <note n="0206005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0206005">此二偈出於 J. I. P. 83 及 Vin. i. p. 36。尚有漢譯類似之偈，見四分律三三（大正藏卷二二、七九七c）、五分律一六（大正藏卷二二、一〇九c）。</note>
 <note n="0207006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0207006">tāla 高度之單位。</note>
 <note n="0207007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0207007">Komudī Kattika（Kārttika. 迦剌底迦）月（今之十～十一月）之滿月之日。通常稱為四月 Komudī（K. cātumāsinī）即雨期四個月之最後之日。</note>
+<note n="0207007" resp="#resp1" type="mod" target="#nkr_note_mod_0207007">Komudī Kattika（Kārttika. 迦剌底迦）月（今之十【南傳】，～十一月）之滿月之日。通常稱為四月 Komudī（K. cātumāsinī）即雨期四個月之最後之日。</note>
 <note n="0208008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0208008">此處讀為 Alātaka。</note>
 <note n="0211009" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0211009">讀為 iddha（Stede）。</note>
 <note n="0212010" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0212010">此為貴君之訊問一切之事行之甚佳，最後所言疾病及眼目之事亦甚相宜之意。</note>
@@ -5258,6 +5267,21 @@ $Log:$
 <note n="0321058" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0321058">[57]</note>
 <note n="0321059" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0321059">[58]</note>
 <note n="0321060" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0321060">[59]</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0019a1101" resp="#resp2" type="add" target="#nkr_note_add_0019a1101">己【CB】，已【南傳】</note>
+<note n="0055a0501" resp="#resp2" type="add" target="#nkr_note_add_0055a0501">豐【CB】，豊【南傳】</note>
+<note n="0109a0801" resp="#resp2" type="add" target="#nkr_note_add_0109a0801">栴【CB】，梅【南傳】</note>
+<note n="0149a1101" resp="#resp2" type="add" target="#nkr_note_add_0149a1101">已【CB】，己【南傳】</note>
+<note n="0209a1401" resp="#resp2" type="add" target="#nkr_note_add_0209a1401">闍【CB】，闇【南傳】</note>
+<note n="0216a1201" resp="#resp2" type="add" target="#nkr_note_add_0216a1201">潸【CB】，潛【南傳】</note>
+<note n="0219a1101" resp="#resp2" type="add" target="#nkr_note_add_0219a1101">闍【CB】，闇【南傳】</note>
+<note n="0257a1401" resp="#resp2" type="add" target="#nkr_note_add_0257a1401">娑【CB】，婆【南傳】</note>
+<note n="0274a0501" resp="#resp2" type="add" target="#nkr_note_add_0274a0501">［－］【CB】，[15]【南傳】</note>
+<note n="0291a0201" resp="#resp2" type="add" target="#nkr_note_add_0291a0201">已【CB】，巳【南傳】</note>
 </p>
 </cb:div>
 </back></text></TEI>

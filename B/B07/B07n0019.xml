@@ -14,7 +14,8 @@
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>BuBian</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>1卷</extent>
 		<publicationStmt>
@@ -31,7 +32,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Supplement to the Dazangjing Vol. 7, No. 19</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【補編】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -84,7 +89,7 @@ $Log:$
 <lb ed="B" n="0139a11"/>業．會稽陳慧．尤執持不倦。至三國康僧會助陳慧作注．約同時沙門嚴佛調撰沙
 <lb ed="B" n="0139a12"/>門十慧經．則亦繹安般之餘緒。<anchor xml:id="nkr_note_orig_0139004" n="0139004"/>六朝定學稱為禪數．數者安般守意六事之
 <pb ed="B" xml:id="B07.0019.0140a" n="0140a"/>
-<lb ed="B" n="0140a01"/>一也。蕭梁慧皎序．習禪自世高以至於玄高日．出入盡於數隨．往反窮乎還<anchor xml:id="beg_1" type="cb-app"/>淨<anchor xml:id="end_1"/>．則
+<lb ed="B" n="0140a01"/>一也。蕭梁慧皎序．習禪自世高以至於玄高日．出入盡於數隨．往反窮乎還<anchor xml:id="nkr_note_add_0140a0101" n="0140a0101"/><anchor xml:id="beg0140a0101" n="0140a0101"/>淨<anchor xml:id="end0140a0101"/>．則
 <lb ed="B" n="0140a02"/>彼時念安般之重要概可知矣。</p>
 <lb ed="B" n="0140a03"/><p xml:id="pB07p0140a0301" rend="margin-left:1em">本篇譯文出巴利文中阿含．次在第一百十八．題曰念安般經。（Ānāpānasati-
 <lb ed="B" n="0140a04"/>sutta）尋其文義可分三大部．初緣起．二佛說．後總結。佛說又分為三．一獎挹僧
@@ -338,7 +343,7 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>淨</corr><sic>凈</sic></choice>
+<app from="#beg0140a0101" to="#end0140a0101"><lem wit="#wit1" resp="#resp3">淨</lem><rdg wit="#wit2">凈</rdg></app>
 </p>
 </cb:div>
 <cb:div type="bubian-notes">
@@ -351,6 +356,12 @@ $Log:$
 <note n="0140005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0140005">引安般守意經謝敷序文中語。</note>
 <note n="0146006" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0146006">assassati 前接字之 a 字有入義．passassati 前接字之 pa 字有出義．解脫道論想據此以譯。清淨道論釋此．不知何以恰相反對。今以彼論為南傳．從之以見南方佛教之真相。參看忽滑谷快天「禪學思想史」卷上．一二六至一三七頁。</note>
 <note n="0148007" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0148007">按解脫道論譯文「知一切身我入息如是學」（下闕）係照原文直譯。惟了知一切身等為十六特勝。即念安般時力學所得之果．故今改之．俾稍明晰。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0140a0101" resp="#resp2" type="add" target="#nkr_note_add_0140a0101">淨【CB】，凈【補編】</note>
 </p>
 </cb:div>
 </back></text></TEI>

@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:15:15 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -226,7 +227,7 @@ Added comment  for Emacs
 <pb n="0235c" xml:id="T85.2757.0235c" ed="T"/>
 <lb n="0235c01" ed="T"/>其進入佛智境界。初中亦二。前嘆自覺覺他
 <lb n="0235c02" ed="T"/>無上之智。後讚無染無毀無上之德。後八頌
-<lb n="0235c03" ed="T"/>中四雙<anchor xml:id="nkr_note_orig_0235001" n="0235001"/><anchor xml:id="beg0235001" n="0235001"/>不現<anchor xml:id="end0235001"/>。第一雙者進入佛智進入法海。
+<lb n="0235c03" ed="T"/>中四雙<anchor xml:id="nkr_note_orig_0235001" n="0235001"/><anchor xml:id="nkr_note_mod_0235001" n="0235001"/><anchor xml:id="beg0235001" n="0235001"/>不現<anchor xml:id="end0235001"/>。第一雙者進入佛智進入法海。
 <lb n="0235c04" ed="T"/>第二雙者正轉法輪正思佛道。第三雙者順
 <lb n="0235c05" ed="T"/>佛真教知佛實德。第四雙者觀察寂滅了知
 <lb n="0235c06" ed="T"/>平等。是謂進首進入法門也。第八偈中有二
@@ -280,6 +281,12 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg0235001" to="#end0235001"><lem resp="#resp1" wit="#wit1">不現</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0235001" resp="#resp2" type="mod" target="#nkr_note_mod_0235001">不現【大】，〔－〕【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

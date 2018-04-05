@@ -14,8 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:15:20 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 85, No. 2888</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -160,7 +164,7 @@ Added comment  for Emacs
 <lb n="1404b21" ed="T"/>隱。不聞父母三寶名字。一日之中千生萬死
 <lb n="1404b22" ed="T"/>生。從地獄出復受種種諸惡□生身。或作駱
 <lb n="1404b23" ed="T"/>駝身。或生驢中身。常負重常因饑渴。若生
-<lb n="1404b24" ed="T"/>人中<anchor xml:id="beg_1" type="cb-app"/>貧<anchor xml:id="end_1"/>窮下賤。為人所使。衣不蓋形。食不充
+<lb n="1404b24" ed="T"/>人中<anchor xml:id="nkr_note_add_1404b2401" n="1404b2401"/><anchor xml:id="beg1404b2401" n="1404b2401"/>貧<anchor xml:id="end1404b2401"/>窮下賤。為人所使。衣不蓋形。食不充
 <lb n="1404b25" ed="T"/>口。或有富貴而無男女。或有貧窮而多子息。
 <lb n="1404b26" ed="T"/>或有眾生惡□在床痿黃困篤篤。連年累月
 <lb n="1404b27" ed="T"/>形消肉盡。惡瘡膿血遍體常流。人所惡賤。或
@@ -182,7 +186,7 @@ Added comment  for Emacs
 <lb n="1404c13" ed="T"/><l>寂滅如空不可見</l><l>定知三界永無生</l>
 <lb n="1404c14" ed="T"/><l>佛法滅定起災殃</l><l>魔王毒心競相向</l>
 <lb n="1404c15" ed="T"/><l>一切聲聞及菩薩</l><l>一切人民四部眾</l>
-<lb n="1404c16" ed="T"/><l>法河涸竭法<anchor xml:id="beg_2" type="cb-app"/>幢<anchor xml:id="end_2"/>摧</l><l>法山崩倒法舡沒</l>
+<lb n="1404c16" ed="T"/><l>法河涸竭法<anchor xml:id="nkr_note_add_1404c1601" n="1404c1601"/><anchor xml:id="beg1404c1601" n="1404c1601"/>幢<anchor xml:id="end1404c1601"/>摧</l><l>法山崩倒法舡沒</l>
 <lb n="1404c17" ed="T"/><l>八國諸王皆自撲</l><l>血汗流淚如暴雨</l>
 <lb n="1404c18" ed="T"/><l>何期大師入涅槃</l><l>我等凡夫更久住</l>
 <lb n="1404c19" ed="T"/><l>聲聞緣覺稱善哉</l><l>一切眾生失依附</l></lg>
@@ -200,14 +204,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>貧</corr><sic>貪</sic></choice>
-<choice cb:resp="#resp3" cb:from="#beg_2" cb:to="#end_2"><corr>幢</corr><sic>憧</sic></choice>
+<app from="#beg1404b2401" to="#end1404b2401"><lem wit="#wit1" resp="#resp3">貧</lem><rdg wit="#wit2">貪</rdg></app>
+<app from="#beg1404c1601" to="#end1404c1601"><lem wit="#wit1" resp="#resp2">幢</lem><rdg wit="#wit2">憧</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="1404008" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1404008">【原】大英博物館藏燉煌本, S. 2428</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1404b2401" resp="#resp2" type="add" target="#nkr_note_add_1404b2401">貧【CB】，貪【大】</note>
+<note n="1404c1601" resp="#resp2" type="add" target="#nkr_note_add_1404c1601">幢【CB】，憧【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

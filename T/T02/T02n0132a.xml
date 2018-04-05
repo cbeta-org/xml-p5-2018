@@ -33,9 +33,9 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 2, No. 132a</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
-		<witness xml:id="wit3">【大】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+		<witness xml:id="wit3">【麗-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -143,10 +143,10 @@ Added comment  for Emacs
 <lb n="0854c13" ed="T"/>七日奄忽壽終，是故智者則為施食，其施食
 <lb n="0854c14" ed="T"/>者則為施命。其施命者，世世長壽生天世間，
 <lb n="0854c15" ed="T"/>壽命延長而不夭傷，自然福報財富無量，是
-<lb n="0854c16" ed="T"/>為施命。</p><p xml:id="pT02p0854c1604" rend="inline">「何謂施色？人不得食時，顏色<anchor xml:id="beg_1" type="cb-app"/>憔<anchor xml:id="end_1"/>悴不
+<lb n="0854c16" ed="T"/>為施命。</p><p xml:id="pT02p0854c1604" rend="inline">「何謂施色？人不得食時，顏色<anchor xml:id="nkr_note_add_0854c1601" n="0854c1601"/><anchor xml:id="beg0854c1601" n="0854c1601"/>憔<anchor xml:id="end0854c1601"/>悴不
 <lb n="0854c17" ed="T"/>可顯示，是故智者則為施食，其施食者則為
 <lb n="0854c18" ed="T"/>施色。其施色者，世世端正生天世間，顏華煒
-<lb n="0854c19" ed="T"/><anchor xml:id="beg_2" type="cb-app"/>曄<anchor xml:id="end_2"/>人見歡喜稽首作禮，是為施色。</p><p xml:id="pT02p0854c1914" rend="inline">「何謂施力？
+<lb n="0854c19" ed="T"/><anchor xml:id="nkr_note_add_0854c1901" n="0854c1901"/><anchor xml:id="beg0854c1901" n="0854c1901"/>曄<anchor xml:id="end0854c1901"/>人見歡喜稽首作禮，是為施色。</p><p xml:id="pT02p0854c1914" rend="inline">「何謂施力？
 <lb n="0854c20" ed="T"/>人不得食時，身羸意弱所作不能，是故智者
 <lb n="0854c21" ed="T"/>則為施食，其施食者則為施力。其施力者，世
 <lb n="0854c22" ed="T"/>世多力，生天人間力無等雙，出入進止力不
@@ -174,14 +174,21 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>憔</corr><sic>燋</sic></choice>
-<app from="#beg_2" to="#end_2"><lem wit="#wit1 #wit2" resp="#resp3">曄<note type="cf1">K19n0699_p0586a18</note></lem><rdg wit="#wit3">嘩</rdg></app>
+<app from="#beg0854c1601" to="#end0854c1601"><lem wit="#wit1" resp="#resp2">憔</lem><rdg wit="#wit2">燋</rdg></app>
+<app from="#beg0854c1901" to="#end0854c1901"><lem wit="#wit1 #wit3" resp="#resp3">曄<note type="cf1">K19n0699_p0586a18</note></lem><rdg wit="#wit2">嘩</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0854002" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0854002">此經與宋元明大異對校甚難故今以宋元對明本別附載卷末</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0854c1601" resp="#resp2" type="add" target="#nkr_note_add_0854c1601">憔【CB】，燋【大】</note>
+<note n="0854c1901" resp="#resp2" type="add" target="#nkr_note_add_0854c1901">曄【CB】【麗-CB】，嘩【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

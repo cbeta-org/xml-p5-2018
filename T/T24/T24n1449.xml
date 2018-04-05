@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:02:36 $</date>新式標點版</edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,8 +32,8 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 24, No. 1449</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【麗-CB】</witness>
 		<witness xml:id="wit3">【大】</witness>
 	</listWit>
 	</sourceDesc>
@@ -181,7 +182,7 @@ Added comment  for Emacs
 <lb n="0098a08" ed="T"/>某甲苾芻。白如是。』羯磨准白應作。</p>
 <lb n="0098a09" ed="T"/><p xml:id="pT24p0098a0901">「作羯恥那衣苾芻，制其行法。作衣之處，當須
 <lb n="0098a10" ed="T"/>在前洗浣染治、割截縫刺，乃至刺三兩針共
-<lb n="0098a11" ed="T"/>作。復須再三作如是念：『此衣當為僧<anchor xml:id="beg_1" type="cb-app"/>伽<anchor xml:id="end_1"/>張作
+<lb n="0098a11" ed="T"/>作。復須再三作如是念：『此衣當為僧<anchor xml:id="nkr_note_add_0098a1101" n="0098a1101"/><anchor xml:id="beg0098a1101" n="0098a1101"/>伽<anchor xml:id="end0098a1101"/>張作
 <lb n="0098a12" ed="T"/>羯恥那衣、現張作羯恥那衣、已張作羯恥那
 <lb n="0098a13" ed="T"/>衣。』於此三心，但為後二，亦成作法。若不作
 <lb n="0098a14" ed="T"/>者，得惡作罪。次至八月白半十五日，其知事
@@ -279,7 +280,13 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg_1" to="#end_1"><lem resp="#resp1" wit="#wit1 #wit2">伽<note type="cf1">K37n1395_p0952b07</note></lem><rdg wit="#wit3">迦</rdg></app>
+<app from="#beg0098a1101" to="#end0098a1101"><lem resp="#resp2" wit="#wit1 #wit2">伽<note type="cf1">K37n1395_p0952b07</note></lem><rdg wit="#wit3">迦</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0098a1101" resp="#resp1" type="add" target="#nkr_note_add_0098a1101">伽【CB】【麗-CB】，迦【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

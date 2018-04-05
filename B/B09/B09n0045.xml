@@ -13,7 +13,8 @@
 		</titleStmt>
 		<editionStmt>
 			<edition>$Revision:$<date>$Date:$</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 		</editionStmt>
 		<extent>1卷</extent>
 		<publicationStmt>
@@ -30,7 +31,11 @@
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>Supplement to the Dazangjing Vol. 9, No. 45</bibl>
-		</sourceDesc>
+		<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【補編】</witness>
+	</listWit>
+	</sourceDesc>
 	</fileDesc>
 	<encodingDesc>
 		<projectDesc>
@@ -455,7 +460,7 @@ $Log:$
 <lb ed="B" n="0722a27"/>無不忍之念。又觀彼眾生，由作損害於大福田，將墮大苦，轉生悲憫。如子病狂，傷害其
 <lb ed="B" n="0722a28"/>母，母不嗔恚，念子病劇，轉增愛憐，求拔其苦。</p></cb:div>
 <pb ed="B" xml:id="B09.0045.0722b" n="0722b"/>
-<lb ed="B" n="0722b01"/><cb:div type="orig"><lg xml:id="lgB09p0722b0101" type="abnormal"><l rend="text-indent:4em"><anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>見無我諸菩薩，能所何時何相割，</l>
+<lb ed="B" n="0722b01"/><cb:div type="orig"><lg xml:id="lgB09p0722b0101" type="abnormal"><l rend="text-indent:4em"><anchor xml:id="nkr_note_add_0722b0101" n="0722b0101"/><anchor xml:id="beg0722b0101" n="0722b0101"/>已<anchor xml:id="end0722b0101"/>見無我諸菩薩，能所何時何相割，</l>
 <lb ed="B" n="0722b02"/><l rend="text-indent:4em">彼見諸法如影像，由此亦能善安忍。</l></lg></cb:div>
 <lb ed="B" n="0722b03"/><cb:div type="commentary"><p xml:id="pB09p0722b0301" rend="margin-left:0em;text-indent:2em">上一頌顯由悲故忍，此一頌顯由慧故忍。菩薩已達無我，見諸法如影像，幻化不實，
 <lb ed="B" n="0722b04"/>由此空慧力，不見有能割者割時割相可得，亦能安忍。如佛往昔為忍辱仙人，被歌利王割
@@ -2284,7 +2289,13 @@ $Log:$
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
+<app from="#beg0722b0101" to="#end0722b0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0722b0101" resp="#resp1" type="add" target="#nkr_note_add_0722b0101">已【CB】，巳【補編】</note>
 </p>
 </cb:div>
 </back></text></TEI>

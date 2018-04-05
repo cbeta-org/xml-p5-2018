@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:15:15 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -173,7 +174,7 @@ Added comment  for Emacs
 <lb n="0195a28" ed="T"/>勸彼二依。流通之時。應彼二依。通化之時。
 <lb n="0195a29" ed="T"/>應□佛成頌　第三從時諸菩薩已下訖願不
 <pb n="0195b" xml:id="T85.2751.0195b" ed="T"/>
-<lb n="0195b01" ed="T"/>有慮。明諸菩薩敬諾施行也　第四從<anchor xml:id="nkr_note_orig_0195001" n="0195001"/><anchor xml:id="beg0195001" n="0195001"/>命<anchor xml:id="end0195001"/>時
+<lb n="0195b01" ed="T"/>有慮。明諸菩薩敬諾施行也　第四從<anchor xml:id="nkr_note_orig_0195001" n="0195001"/><anchor xml:id="nkr_note_mod_0195001" n="0195001"/><anchor xml:id="beg0195001" n="0195001"/>命<anchor xml:id="end0195001"/>時
 <lb n="0195b02" ed="T"/>釋迦已下訖於長行。明此如來說經也。訖唱
 <lb n="0195b03" ed="T"/>散隨意。以右手摩無量菩薩頂者。明其一手
 <lb n="0195b04" ed="T"/>及於眾頂。亦是神力隱其神力存口告之名。
@@ -235,7 +236,7 @@ Added comment  for Emacs
 <pb n="0196a" xml:id="T85.2751.0196a" ed="T"/>
 <lb n="0196a01" ed="T"/>無量。上明理深。何以得知下。明此經能除物
 <lb n="0196a02" ed="T"/>患利益無量證知深理也　第六從若有人聞
-<lb n="0196a03" ed="T"/>是藥王菩薩本事品已下。應當如是<anchor xml:id="nkr_note_orig_0196001" n="0196001"/><anchor xml:id="beg0196001" n="0196001"/>□□□<anchor xml:id="end0196001"/>
+<lb n="0196a03" ed="T"/>是藥王菩薩本事品已下。應當如是<anchor xml:id="nkr_note_orig_0196001" n="0196001"/><anchor xml:id="nkr_note_mod_0196001" n="0196001"/><anchor xml:id="beg0196001" n="0196001"/>□□□<anchor xml:id="end0196001"/>
 <lb n="0196a04" ed="T"/>心。付囑此品並勸二人。在於末代受持流通。
 <lb n="0196a05" ed="T"/>從若有女人聞是品能受持者。先勸弟子未
 <lb n="0196a06" ed="T"/>來應當懃加聽受。從若如來滅後二五歲以
@@ -251,7 +252,7 @@ Added comment  for Emacs
 <lb n="0196a16" ed="T"/><p xml:id="pT85p0196a1601">其人乃法身大士先應東方。此土有緣放光
 <lb n="0196a17" ed="T"/>召之。就此品中凡有五文　第一從初已下
 <lb n="0196a18" ed="T"/>訖而為說法。明其妙音行之之處。此中放光
-<lb n="0196a19" ed="T"/>在略說後廣說。初也。所以放二光者放肉<anchor xml:id="nkr_note_orig_0196002" n="0196002"/><anchor xml:id="beg0196002" n="0196002"/>結<anchor xml:id="end0196002"/>
+<lb n="0196a19" ed="T"/>在略說後廣說。初也。所以放二光者放肉<anchor xml:id="nkr_note_orig_0196002" n="0196002"/><anchor xml:id="nkr_note_mod_0196002" n="0196002"/><anchor xml:id="beg0196002" n="0196002"/>結<anchor xml:id="end0196002"/>
 <lb n="0196a20" ed="T"/>光者結本最上表明一乘最上高勝。放眉間
 <lb n="0196a21" ed="T"/>者表明中道不偏之理也　第二從釋已下訖
 <lb n="0196a22" ed="T"/>亦欲聽是法華經故。明其妙音將來之相
@@ -523,6 +524,14 @@ Added comment  for Emacs
 <app from="#beg0195001" to="#end0195001"><lem resp="#resp1" wit="#wit1">命</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">爾</rdg></app>
 <app from="#beg0196001" to="#end0196001"><lem resp="#resp1" wit="#wit1">□□□</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">生恭敬</rdg></app>
 <app from="#beg0196002" to="#end0196002"><lem resp="#resp1" wit="#wit1">結</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">髻</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0195001" resp="#resp2" type="mod" target="#nkr_note_mod_0195001">命【大】，爾【考偽-大】</note>
+<note n="0196001" resp="#resp2" type="mod" target="#nkr_note_mod_0196001">□□□【大】，生恭敬【考偽-大】</note>
+<note n="0196002" resp="#resp2" type="mod" target="#nkr_note_mod_0196002">結【大】，髻【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

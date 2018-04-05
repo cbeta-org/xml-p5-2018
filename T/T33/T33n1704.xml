@@ -31,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 33, No. 1704</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -656,7 +660,7 @@ Added comment  for Emacs
 <lb n="0244c09" ed="T"/>如佛塔廟何況有人盡能受持讀誦此經須菩
 <lb n="0244c10" ed="T"/>提當知是人成就最上第一希有之法若是經
 <lb n="0244c11" ed="T"/>典所在之處則為有佛若尊重似佛　就第四
-<lb n="0244c12" ed="T"/>顯德殊勝文中。大分有二。初有三句。以少<anchor xml:id="beg_1" type="cb-app"/>彰<anchor xml:id="end_1"/>
+<lb n="0244c12" ed="T"/>顯德殊勝文中。大分有二。初有三句。以少<anchor xml:id="nkr_note_add_0244c1201" n="0244c1201"/><anchor xml:id="beg0244c1201" n="0244c1201"/>彰<anchor xml:id="end0244c1201"/>
 <lb n="0244c13" ed="T"/>多。顯德殊勝。二須菩提當知已下。就多功德。
 <lb n="0244c14" ed="T"/>以明殊勝。此中勝有二種勝。一所說處勝。隨
 <lb n="0244c15" ed="T"/>何等處說此經。令生奇特尊重想故。二能說
@@ -898,7 +902,7 @@ Added comment  for Emacs
 <lb n="0247b10" ed="T"/>阿耨多羅三藐三菩提。佛言。如是如是。須菩提。
 <lb n="0247b11" ed="T"/>實無有法如來於然燈佛所得阿耨多羅三藐
 <lb n="0247b12" ed="T"/>三菩提。須菩提。若有法如來得阿耨多羅三藐
-<lb n="0247b13" ed="T"/>三菩提者。然燈佛則不與我受記。汝於來世<anchor xml:id="beg_2" type="cb-app"/>當<anchor xml:id="end_2"/>
+<lb n="0247b13" ed="T"/>三菩提者。然燈佛則不與我受記。汝於來世<anchor xml:id="nkr_note_add_0247b1301" n="0247b1301"/><anchor xml:id="beg0247b1301" n="0247b1301"/>當<anchor xml:id="end0247b1301"/>
 <lb n="0247b14" ed="T"/>得作佛。號釋迦牟尼。以實無有法得阿耨多羅
 <lb n="0247b15" ed="T"/>三藐三菩提。是故然燈佛與我受記。作如是言。
 <lb n="0247b16" ed="T"/>摩那婆。汝於來世當得作佛。號釋迦牟尼。何以
@@ -936,7 +940,7 @@ Added comment  for Emacs
 <lb n="0247c18" ed="T"/>無壽者　前文有三句可知。所以成法分量
 <lb n="0247c19" ed="T"/>者。為其行體離煩惱障及智障。畢竟具足法
 <lb n="0247c20" ed="T"/>身故。此中妙大有二種。一者遍一切處。二者
-<lb n="0247c21" ed="T"/>功德大。是故名<anchor xml:id="beg_3" type="cb-app"/>大<anchor xml:id="end_3"/>身。遍一切大者。真如一切
+<lb n="0247c21" ed="T"/>功德大。是故名<anchor xml:id="nkr_note_add_0247c2101" n="0247c2101"/><anchor xml:id="beg0247c2101" n="0247c2101"/>大<anchor xml:id="end0247c2101"/>身。遍一切大者。真如一切
 <lb n="0247c22" ed="T"/>法不差別故。文言即非大身者。離諸相身。名
 <lb n="0247c23" ed="T"/>大身者。是真如體。就第二結成大身內有四。
 <lb n="0247c24" ed="T"/>初結成大義。二佛言下。審定可不。三世尊已
@@ -1249,15 +1253,23 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>彰</corr><sic>影</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>當</corr><sic>常</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>大</corr><sic>太</sic></choice>
+<app from="#beg0244c1201" to="#end0244c1201"><lem wit="#wit1" resp="#resp2">彰</lem><rdg wit="#wit2">影</rdg></app>
+<app from="#beg0247b1301" to="#end0247b1301"><lem wit="#wit1" resp="#resp2">當</lem><rdg wit="#wit2">常</rdg></app>
+<app from="#beg0247c2101" to="#end0247c2101"><lem wit="#wit1" resp="#resp2">大</lem><rdg wit="#wit2">太</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0239001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0239001">【原】光緒二十六年刊大谷大學藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0244c1201" resp="#resp2" type="add" target="#nkr_note_add_0244c1201">彰【CB】，影【大】</note>
+<note n="0247b1301" resp="#resp2" type="add" target="#nkr_note_add_0247b1301">當【CB】，常【大】</note>
+<note n="0247c2101" resp="#resp2" type="add" target="#nkr_note_add_0247c2101">大【CB】，太【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

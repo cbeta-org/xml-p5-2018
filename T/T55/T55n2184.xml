@@ -15,8 +15,7 @@
 		<edition>$Revision: 1.18 $<date>$Date: 2011/04/21 07:02:33 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.eva</name></respStmt>
-		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>3卷</extent>
 	<publicationStmt>
@@ -36,6 +35,7 @@
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
 		<witness xml:id="wit2">【甲】</witness>
+		<witness xml:id="wit3">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -261,7 +261,7 @@ Added comment  for Emacs
 <lb ed="T" n="1165c20"/>兩本。或支品為別翻。四十餘家。紛然久矣開
 <lb ed="T" n="1165c21"/>元中。始有大法師。厥號智昇。刊落訛謬刪簡
 <lb ed="T" n="1165c22"/>重複。總成一書。曰開元釋教錄。凡二十卷。最
-<lb ed="T" n="1165c23"/>為<anchor xml:id="nkr_note_orig_1165015" n="1165015"/><anchor xml:id="beg1165015" n="1165015"/>精<anchor xml:id="end1165015"/>要。議者以為。經法之譜。無出昇之右
+<lb ed="T" n="1165c23"/>為<anchor xml:id="nkr_note_orig_1165015" n="1165015"/><anchor xml:id="nkr_note_mod_1165015" n="1165015"/><anchor xml:id="beg1165015" n="1165015"/>精<anchor xml:id="end1165015"/>要。議者以為。經法之譜。無出昇之右
 <lb ed="T" n="1165c24"/>矣。住持遺教莫大焉。予甞竊謂。經論雖備。而
 <lb ed="T" n="1165c25"/>章疏或廢。則流衍無由矣。輒効昇公護法之
 <lb ed="T" n="1165c26"/>志。搜訪教迹以為己任。孜孜不捨。僅二十載
@@ -286,7 +286,7 @@ Added comment  for Emacs
 <lb ed="T" n="1166a15"/><item xml:id="itemT55p1166a1501">搜玄記五卷　智儼述</item>
 <lb ed="T" n="1166a16"/><item xml:id="itemT55p1166a1601">探玄記二十卷</item>
 <lb ed="T" n="1166a17"/><item xml:id="itemT55p1166a1701">略疏十二卷　已上　法藏述</item>
-<lb ed="T" n="1166a18"/><item xml:id="itemT55p1166a1801">刊定記二<anchor xml:id="nkr_note_orig_1166001" n="1166001"/><anchor xml:id="beg1166001" n="1166001"/>十<anchor xml:id="end1166001"/>卷　慧苑述</item>
+<lb ed="T" n="1166a18"/><item xml:id="itemT55p1166a1801">刊定記二<anchor xml:id="nkr_note_orig_1166001" n="1166001"/><anchor xml:id="nkr_note_mod_1166001" n="1166001"/><anchor xml:id="beg1166001" n="1166001"/>十<anchor xml:id="end1166001"/>卷　慧苑述</item>
 <lb ed="T" n="1166a19"/><item xml:id="itemT55p1166a1901">刊定記纂釋二十一卷<note place="inline">或十三卷</note><note place="inline">法詵創造正覺再修</note></item>
 <lb ed="T" n="1166a20"/><item xml:id="itemT55p1166a2001">疏二十卷<note place="inline">本十九卷今開第二</note>　宗一述</item>
 <lb ed="T" n="1166a21"/><item xml:id="itemT55p1166a2101">疏三十一卷　法銑述</item>
@@ -311,7 +311,7 @@ Added comment  for Emacs
 <lb ed="T" n="1166b10"/><item xml:id="itemT55p1166b1001">論四十卷　李通玄述</item>
 <lb ed="T" n="1166b11"/><item xml:id="itemT55p1166b1101">合論一百二十卷<note place="inline">志寧將通玄論注於經下</note></item>
 <lb ed="T" n="1166b12"/><item xml:id="itemT55p1166b1201">合論音義十二卷　恒遂集</item>
-<lb ed="T" n="1166b13"/><item xml:id="itemT55p1166b1301">大不思議論一百卷<note place="inline">前分四十卷流通<anchor xml:id="nkr_note_orig_1166002" n="1166002"/><anchor xml:id="beg1166002" n="1166002"/>訖<anchor xml:id="end1166002"/>餘未見</note>　德素述</item>
+<lb ed="T" n="1166b13"/><item xml:id="itemT55p1166b1301">大不思議論一百卷<note place="inline">前分四十卷流通<anchor xml:id="nkr_note_orig_1166002" n="1166002"/><anchor xml:id="nkr_note_mod_1166002" n="1166002"/><anchor xml:id="beg1166002" n="1166002"/>訖<anchor xml:id="end1166002"/>餘未見</note>　德素述</item>
 <lb ed="T" n="1166b14"/><item xml:id="itemT55p1166b1401">法界觀一卷<note place="inline">旋澓頌附</note>　法順<note place="inline">俗姓杜氏世稱杜順</note>述</item>
 <lb ed="T" n="1166b15"/><item xml:id="itemT55p1166b1501">法界玄鏡一卷　澄觀述</item>
 <lb ed="T" n="1166b16"/><item xml:id="itemT55p1166b1601">玄鏡議記二卷科一卷　德素述</item>
@@ -422,7 +422,7 @@ Added comment  for Emacs
 <lb ed="T" n="1167c01"/>言或是大教濫觴。務在隨機耳。將來君
 <lb ed="T" n="1167c02"/>子。宜加潤色。</item></list></item>
 <lb ed="T" n="1167c03"/><item xml:id="itemT55p1167c0301">釋名章一卷　義融述</item>
-<lb ed="T" n="1167c04"/><item xml:id="itemT55p1167c0401">開<anchor xml:id="nkr_note_orig_1167001" n="1167001"/><anchor xml:id="beg1167001" n="1167001"/>定<anchor xml:id="end1167001"/>決疑三十卷</item>
+<lb ed="T" n="1167c04"/><item xml:id="itemT55p1167c0401">開<anchor xml:id="nkr_note_orig_1167001" n="1167001"/><anchor xml:id="nkr_note_mod_1167001" n="1167001"/><anchor xml:id="beg1167001" n="1167001"/>定<anchor xml:id="end1167001"/>決疑三十卷</item>
 <lb ed="T" n="1167c05"/><item xml:id="itemT55p1167c0501">要決十二卷<note place="inline">或六卷</note></item>
 <lb ed="T" n="1167c06"/><item xml:id="itemT55p1167c0601">真流還源樂圖一卷　已上　緣起述</item>
 <lb ed="T" n="1167c07"/><item xml:id="itemT55p1167c0701">海印三昧論一卷　明晶述</item>
@@ -470,7 +470,7 @@ Added comment  for Emacs
 <lb ed="T" n="1168a19"/><item xml:id="itemT55p1168a1901">寄海東華嚴大德書一卷　賢首</item>
 <lb ed="T" n="1168a20"/><item xml:id="itemT55p1168a2001">修門人書一卷　圭峯上清涼</item></list></item>
 <lb ed="T" n="1168a21"/><item xml:id="itemT55p1168a2101">大涅槃經
-<lb ed="T" n="1168a22"/><list><item xml:id="itemT55p1168a2201">義記二十<anchor xml:id="nkr_note_orig_1168001" n="1168001"/><anchor xml:id="beg1168001" n="1168001"/>卷<anchor xml:id="end1168001"/>　慧遠述</item>
+<lb ed="T" n="1168a22"/><list><item xml:id="itemT55p1168a2201">義記二十<anchor xml:id="nkr_note_orig_1168001" n="1168001"/><anchor xml:id="nkr_note_mod_1168001" n="1168001"/><anchor xml:id="beg1168001" n="1168001"/>卷<anchor xml:id="end1168001"/>　慧遠述</item>
 <lb ed="T" n="1168a23"/><item xml:id="itemT55p1168a2301">科四卷　亡名</item>
 <lb ed="T" n="1168a24"/><item xml:id="itemT55p1168a2401">圓旨鈔十四卷科五卷　<g ref="#CB05883">𧦬</g>空述</item>
 <lb ed="T" n="1168a25"/><item xml:id="itemT55p1168a2501">後分疏一卷　良愿述</item>
@@ -504,7 +504,7 @@ Added comment  for Emacs
 <lb ed="T" n="1168b23"/><item xml:id="itemT55p1168b2301">毘盧神變經
 <lb ed="T" n="1168b24"/><list><item xml:id="itemT55p1168b2401">義釋十四卷　一行述</item>
 <lb ed="T" n="1168b25"/><item xml:id="itemT55p1168b2501">科五卷大科一卷</item>
-<lb ed="T" n="1168b26"/><item xml:id="itemT55p1168b2601">演<anchor xml:id="nkr_note_orig_1168004" n="1168004"/><anchor xml:id="beg1168004" n="1168004"/>密<anchor xml:id="end1168004"/>十卷　已上　覺苑述</item>
+<lb ed="T" n="1168b26"/><item xml:id="itemT55p1168b2601">演<anchor xml:id="nkr_note_orig_1168004" n="1168004"/><anchor xml:id="nkr_note_mod_1168004" n="1168004"/><anchor xml:id="beg1168004" n="1168004"/>密<anchor xml:id="end1168004"/>十卷　已上　覺苑述</item>
 <lb ed="T" n="1168b27"/><item xml:id="itemT55p1168b2701">胎藏教三卷　文一詳定</item></list></item>
 <lb ed="T" n="1168b28"/><item xml:id="itemT55p1168b2801">法華經
 <lb ed="T" n="1168b29"/><list><item xml:id="itemT55p1168b2901">注七卷<note place="inline">本文題下不見人名目錄云僧叡述待勘</note></item>
@@ -605,7 +605,7 @@ Added comment  for Emacs
 <lb ed="T" n="1169c04"/><item xml:id="itemT55p1169c0401">注十卷　法朗述</item>
 <lb ed="T" n="1169c05"/><item xml:id="itemT55p1169c0501">集解十卷</item>
 <lb ed="T" n="1169c06"/><item xml:id="itemT55p1169c0601">文句二卷</item>
-<lb ed="T" n="1169c07"/><item xml:id="itemT55p1169c0701"><anchor xml:id="nkr_note_orig_1169001" n="1169001"/><anchor xml:id="beg1169001" n="1169001"/>熏聞<anchor xml:id="end1169001"/>記五卷</item>
+<lb ed="T" n="1169c07"/><item xml:id="itemT55p1169c0701"><anchor xml:id="nkr_note_orig_1169001" n="1169001"/><anchor xml:id="nkr_note_mod_1169001" n="1169001"/><anchor xml:id="beg1169001" n="1169001"/>熏聞<anchor xml:id="end1169001"/>記五卷</item>
 <lb ed="T" n="1169c08"/><item xml:id="itemT55p1169c0801">說題一卷</item>
 <lb ed="T" n="1169c09"/><item xml:id="itemT55p1169c0901">說題科一卷　已上　仁岳述</item>
 <lb ed="T" n="1169c10"/><item xml:id="itemT55p1169c1001">說題通要二卷　慈梵述</item>
@@ -641,7 +641,7 @@ Added comment  for Emacs
 <lb ed="T" n="1170a10"/><item xml:id="itemT55p1170a1001">玄論七卷　已上　智顗述</item>
 <lb ed="T" n="1170a11"/><item xml:id="itemT55p1170a1101">廣疏記六卷</item>
 <lb ed="T" n="1170a12"/><item xml:id="itemT55p1170a1201">略疏十卷　已上　湛然述</item>
-<lb ed="T" n="1170a13"/><item xml:id="itemT55p1170a1301"><anchor xml:id="nkr_note_orig_1170001" n="1170001"/><anchor xml:id="beg1170001" n="1170001"/>垂<anchor xml:id="end1170001"/>裕記十卷科六卷　智圓述</item>
+<lb ed="T" n="1170a13"/><item xml:id="itemT55p1170a1301"><anchor xml:id="nkr_note_orig_1170001" n="1170001"/><anchor xml:id="nkr_note_mod_1170001" n="1170001"/><anchor xml:id="beg1170001" n="1170001"/>垂<anchor xml:id="end1170001"/>裕記十卷科六卷　智圓述</item>
 <lb ed="T" n="1170a14"/><item xml:id="itemT55p1170a1401">疏十二卷<note place="inline">或六卷</note>　吉藏述</item>
 <lb ed="T" n="1170a15"/><item xml:id="itemT55p1170a1501">資聖疏法相圖一卷　道幽<note place="inline">或作道由述待勘</note></item>
 <lb ed="T" n="1170a16"/><item xml:id="itemT55p1170a1601">疏七卷　神楷述</item>
@@ -742,7 +742,7 @@ Added comment  for Emacs
 <lb ed="T" n="1171a21"/><item xml:id="itemT55p1171a2101">顯宗記二卷　澄惑述</item>
 <lb ed="T" n="1171a22"/><item xml:id="itemT55p1171a2201">義鈔一卷<note place="inline">淨澄述澄或作隆令安刪定</note></item>
 <lb ed="T" n="1171a23"/><item xml:id="itemT55p1171a2301">科一卷　志延述</item>
-<lb ed="T" n="1171a24"/><item xml:id="itemT55p1171a2401">義光鈔二<anchor xml:id="nkr_note_orig_1171001" n="1171001"/><anchor xml:id="beg1171001" n="1171001"/>卷<anchor xml:id="end1171001"/>　惠涉述</item>
+<lb ed="T" n="1171a24"/><item xml:id="itemT55p1171a2401">義光鈔二<anchor xml:id="nkr_note_orig_1171001" n="1171001"/><anchor xml:id="nkr_note_mod_1171001" n="1171001"/><anchor xml:id="beg1171001" n="1171001"/>卷<anchor xml:id="end1171001"/>　惠涉述</item>
 <lb ed="T" n="1171a25"/><item xml:id="itemT55p1171a2501">略鈔一卷科一卷　道歡述</item>
 <lb ed="T" n="1171a26"/><item xml:id="itemT55p1171a2601">顯正記一卷科一卷　仲希述</item>
 <lb ed="T" n="1171a27"/><item xml:id="itemT55p1171a2701">古迹記一卷　太賢述</item>
@@ -753,7 +753,7 @@ Added comment  for Emacs
 <lb ed="T" n="1171b02"/><item xml:id="itemT55p1171b0201">詒謀鈔一卷　已上　智圓述</item>
 <lb ed="T" n="1171b03"/><item xml:id="itemT55p1171b0301">疏一卷</item>
 <lb ed="T" n="1171b04"/><item xml:id="itemT55p1171b0401">環中鈔二卷科一卷　已上　靈鑑述</item>
-<lb ed="T" n="1171b05"/><item xml:id="itemT55p1171b0501">注一卷　智<anchor xml:id="nkr_note_orig_1171002" n="1171002"/><anchor xml:id="beg1171002" n="1171002"/>昭<anchor xml:id="end1171002"/>述</item></list></item>
+<lb ed="T" n="1171b05"/><item xml:id="itemT55p1171b0501">注一卷　智<anchor xml:id="nkr_note_orig_1171002" n="1171002"/><anchor xml:id="nkr_note_mod_1171002" n="1171002"/><anchor xml:id="beg1171002" n="1171002"/>昭<anchor xml:id="end1171002"/>述</item></list></item>
 <lb ed="T" n="1171b06"/><item xml:id="itemT55p1171b0601">六波羅蜜經
 <lb ed="T" n="1171b07"/><list><item xml:id="itemT55p1171b0701">疏十卷</item>
 <lb ed="T" n="1171b08"/><item xml:id="itemT55p1171b0801">隨疏義苑十卷　已上　道弘述</item></list></item>
@@ -767,7 +767,7 @@ Added comment  for Emacs
 <lb ed="T" n="1171b16"/><item xml:id="itemT55p1171b1601">不增不減經　疏一卷　元曉述</item>
 <lb ed="T" n="1171b17"/><item xml:id="itemT55p1171b1701">諸法無行經　疏五卷　曇雅述</item>
 <lb ed="T" n="1171b18"/><item xml:id="itemT55p1171b1801">般舟三昧經　疏一卷　元曉述</item>
-<lb ed="T" n="1171b19"/><item xml:id="itemT55p1171b1901">注思益經十卷　賢明<anchor xml:id="nkr_note_orig_1171003" n="1171003"/><anchor xml:id="beg1171003" n="1171003"/>述<anchor xml:id="end1171003"/></item>
+<lb ed="T" n="1171b19"/><item xml:id="itemT55p1171b1901">注思益經十卷　賢明<anchor xml:id="nkr_note_orig_1171003" n="1171003"/><anchor xml:id="nkr_note_mod_1171003" n="1171003"/><anchor xml:id="beg1171003" n="1171003"/>述<anchor xml:id="end1171003"/></item>
 <lb ed="T" n="1171b20"/><item xml:id="itemT55p1171b2001">解深密經
 <lb ed="T" n="1171b21"/><list><item xml:id="itemT55p1171b2101">疏三卷　元曉述</item>
 <lb ed="T" n="1171b22"/><item xml:id="itemT55p1171b2201">疏七卷　圓測述</item></list></item>
@@ -845,10 +845,10 @@ Added comment  for Emacs
 <lb ed="T" n="1172b04"/><item xml:id="itemT55p1172b0401">古迹記一卷　太賢述</item></list></item>
 <lb ed="T" n="1172b05"/><item xml:id="itemT55p1172b0501">彌勒成佛經古迹記一卷　太賢述</item>
 <lb ed="T" n="1172b06"/><item xml:id="itemT55p1172b0601">彌勒經述贊三卷<note place="inline">雖釋三經總為一部</note>
-<lb ed="T" n="1172b07"/><list><item xml:id="itemT55p1172b0701"><anchor xml:id="nkr_note_orig_1172001" n="1172001"/><anchor xml:id="beg1172001" n="1172001"/>逐<anchor xml:id="end1172001"/>義述文四卷　已上　憬興述</item></list></item>
+<lb ed="T" n="1172b07"/><list><item xml:id="itemT55p1172b0701"><anchor xml:id="nkr_note_orig_1172001" n="1172001"/><anchor xml:id="nkr_note_mod_1172001" n="1172001"/><anchor xml:id="beg1172001" n="1172001"/>逐<anchor xml:id="end1172001"/>義述文四卷　已上　憬興述</item></list></item>
 <lb ed="T" n="1172b08"/><item xml:id="itemT55p1172b0801">藥師經
 <lb ed="T" n="1172b09"/><list><item xml:id="itemT55p1172b0901">疏一卷　靖邁述</item>
-<lb ed="T" n="1172b10"/><item xml:id="itemT55p1172b1001">疏一卷<anchor xml:id="nkr_note_orig_1172002" n="1172002"/><anchor xml:id="beg1172002" n="1172002"/>遁<anchor xml:id="end1172002"/>倫述</item>
+<lb ed="T" n="1172b10"/><item xml:id="itemT55p1172b1001">疏一卷<anchor xml:id="nkr_note_orig_1172002" n="1172002"/><anchor xml:id="nkr_note_mod_1172002" n="1172002"/><anchor xml:id="beg1172002" n="1172002"/>遁<anchor xml:id="end1172002"/>倫述</item>
 <lb ed="T" n="1172b11"/><item xml:id="itemT55p1172b1101">疏一卷　憬興述</item>
 <lb ed="T" n="1172b12"/><item xml:id="itemT55p1172b1201">古迹記一卷　太賢述</item>
 <lb ed="T" n="1172b13"/><item xml:id="itemT55p1172b1301">集異鈔一卷　神雄述</item>
@@ -873,7 +873,7 @@ Added comment  for Emacs
 <lb ed="T" n="1172c02"/><item xml:id="itemT55p1172c0201">疏一卷<note place="inline">淨源移本疏注於經下</note></item>
 <lb ed="T" n="1172c03"/><item xml:id="itemT55p1172c0301">摭華鈔二卷科一卷</item>
 <lb ed="T" n="1172c04"/><item xml:id="itemT55p1172c0401">禮讚文一卷　已上　淨源重刊</item>
-<lb ed="T" n="1172c05"/><item xml:id="itemT55p1172c0501">餘義一卷<anchor xml:id="nkr_note_orig_1172003" n="1172003"/><anchor xml:id="beg1172003" n="1172003"/>日<anchor xml:id="end1172003"/>新錄</item>
+<lb ed="T" n="1172c05"/><item xml:id="itemT55p1172c0501">餘義一卷<anchor xml:id="nkr_note_orig_1172003" n="1172003"/><anchor xml:id="nkr_note_mod_1172003" n="1172003"/><anchor xml:id="beg1172003" n="1172003"/>日<anchor xml:id="end1172003"/>新錄</item>
 <lb ed="T" n="1172c06"/><item xml:id="itemT55p1172c0601">疏一卷</item>
 <lb ed="T" n="1172c07"/><item xml:id="itemT55p1172c0701">補闕鈔二卷科一卷</item>
 <lb ed="T" n="1172c08"/><item xml:id="itemT55p1172c0801">方法一卷</item>
@@ -1040,7 +1040,7 @@ Added comment  for Emacs
 <lb ed="T" n="1174b19"/><item xml:id="itemT55p1174b1901">科一卷</item>
 <lb ed="T" n="1174b20"/><item xml:id="itemT55p1174b2001">翼聖紀一卷　已上　法明述</item>
 <lb ed="T" n="1174b21"/><item xml:id="itemT55p1174b2101">量處輕重儀一卷　道宣述</item>
-<lb ed="T" n="1174b22"/><item xml:id="itemT55p1174b2201">輕重<anchor xml:id="beg_1" type="cb-app"/>采<anchor xml:id="end_1"/>英記二卷</item>
+<lb ed="T" n="1174b22"/><item xml:id="itemT55p1174b2201">輕重<anchor xml:id="nkr_note_add_1174b2201" n="1174b2201"/><anchor xml:id="beg1174b2201" n="1174b2201"/>采<anchor xml:id="end1174b2201"/>英記二卷</item>
 <lb ed="T" n="1174b23"/><item xml:id="itemT55p1174b2301">釋門歸敬儀一卷</item>
 <lb ed="T" n="1174b24"/><item xml:id="itemT55p1174b2401">教誡新學比丘行護律儀一卷
 <lb ed="T" n="1174b25"/>　已上　道宣述</item>
@@ -1054,7 +1054,7 @@ Added comment  for Emacs
 <lb ed="T" n="1174c03"/><item xml:id="itemT55p1174c0301">衣鉢名義章一卷</item>
 <lb ed="T" n="1174c04"/><item xml:id="itemT55p1174c0401">六念五觀章一卷　已上　允堪述</item>
 <lb ed="T" n="1174c05"/><item xml:id="itemT55p1174c0501">施食須知一卷　仁岳述</item>
-<lb ed="T" n="1174c06"/><item xml:id="itemT55p1174c0601">律宗行事儀二卷　<anchor xml:id="nkr_note_orig_1174001" n="1174001"/><anchor xml:id="beg1174001" n="1174001"/>擇<anchor xml:id="end1174001"/>其述</item>
+<lb ed="T" n="1174c06"/><item xml:id="itemT55p1174c0601">律宗行事儀二卷　<anchor xml:id="nkr_note_orig_1174001" n="1174001"/><anchor xml:id="nkr_note_mod_1174001" n="1174001"/><anchor xml:id="beg1174001" n="1174001"/>擇<anchor xml:id="end1174001"/>其述</item>
 <lb ed="T" n="1174c07"/><item xml:id="itemT55p1174c0701">佛制比丘六物圖一卷　元照述</item>
 <lb ed="T" n="1174c08"/><item xml:id="itemT55p1174c0801">五戒觀相文一卷　亡名</item>
 <lb ed="T" n="1174c09"/><item xml:id="itemT55p1174c0901">釋門自鏡錄三卷　懷信述</item>
@@ -1150,7 +1150,7 @@ Added comment  for Emacs
 <lb ed="T" n="1175c09"/><item xml:id="itemT55p1175c0901">廣述六卷　神雄述</item>
 <lb ed="T" n="1175c10"/><item xml:id="itemT55p1175c1001">宗要一卷　元曉述</item>
 <lb ed="T" n="1175c11"/><item xml:id="itemT55p1175c1101">別章三卷　圓測述</item>
-<lb ed="T" n="1175c12"/><item xml:id="itemT55p1175c1201">要決二卷　<anchor xml:id="nkr_note_orig_1175001" n="1175001"/><anchor xml:id="beg1175001" n="1175001"/>遁<anchor xml:id="end1175001"/>倫述</item>
+<lb ed="T" n="1175c12"/><item xml:id="itemT55p1175c1201">要決二卷　<anchor xml:id="nkr_note_orig_1175001" n="1175001"/><anchor xml:id="nkr_note_mod_1175001" n="1175001"/><anchor xml:id="beg1175001" n="1175001"/>遁<anchor xml:id="end1175001"/>倫述</item>
 <lb ed="T" n="1175c13"/><item xml:id="itemT55p1175c1301">決擇一卷　太賢述</item></list></item>
 <lb ed="T" n="1175c14"/><item xml:id="itemT55p1175c1401">百法論
 <lb ed="T" n="1175c15"/><list><item xml:id="itemT55p1175c1501">決頌一卷</item>
@@ -1169,8 +1169,8 @@ Added comment  for Emacs
 <lb ed="T" n="1175c28"/><item xml:id="itemT55p1175c2801">記一卷　亡名</item></list></item>
 <lb ed="T" n="1175c29"/><item xml:id="itemT55p1175c2901">因明論
 <pb ed="T" xml:id="T55.2184.1176a" n="1176a"/>
-<lb ed="T" n="1176a01"/><list><item xml:id="itemT55p1176a0101">疏三卷　窺基<anchor xml:id="nkr_note_orig_1176001" n="1176001"/><anchor xml:id="beg1176001" n="1176001"/>述<anchor xml:id="end1176001"/></item>
-<lb ed="T" n="1176a02"/><item xml:id="itemT55p1176a0201">纂要一卷　<anchor xml:id="nkr_note_orig_1176002" n="1176002"/><anchor xml:id="beg1176002" n="1176002"/>惠沼續<anchor xml:id="end1176002"/></item>
+<lb ed="T" n="1176a01"/><list><item xml:id="itemT55p1176a0101">疏三卷　窺基<anchor xml:id="nkr_note_orig_1176001" n="1176001"/><anchor xml:id="nkr_note_mod_1176001" n="1176001"/><anchor xml:id="beg1176001" n="1176001"/>述<anchor xml:id="end1176001"/></item>
+<lb ed="T" n="1176a02"/><item xml:id="itemT55p1176a0201">纂要一卷　<anchor xml:id="nkr_note_orig_1176002" n="1176002"/><anchor xml:id="nkr_note_mod_1176002" n="1176002"/><anchor xml:id="beg1176002" n="1176002"/>惠沼續<anchor xml:id="end1176002"/></item>
 <lb ed="T" n="1176a03"/><item xml:id="itemT55p1176a0301">義斷一卷</item>
 <lb ed="T" n="1176a04"/><item xml:id="itemT55p1176a0401">二量章一卷　已上　慧沼述</item>
 <lb ed="T" n="1176a05"/><item xml:id="itemT55p1176a0501">記二卷　智周述</item>
@@ -1211,7 +1211,7 @@ Added comment  for Emacs
 <lb ed="T" n="1176b10"/><item xml:id="itemT55p1176b1001">科一卷　大科一卷</item>
 <lb ed="T" n="1176b11"/><item xml:id="itemT55p1176b1101">鈔三卷　已上　志隱述</item>
 <lb ed="T" n="1176b12"/><item xml:id="itemT55p1176b1201">疏二十卷　惠景述</item>
-<lb ed="T" n="1176b13"/><item xml:id="itemT55p1176b1301">疏二十四卷　<anchor xml:id="beg_2" type="star"/>遁<anchor xml:id="end_2"/>倫述</item>
+<lb ed="T" n="1176b13"/><item xml:id="itemT55p1176b1301">疏二十四卷　<anchor xml:id="beg_1" type="star"/>遁<anchor xml:id="end_1"/>倫述</item>
 <lb ed="T" n="1176b14"/><item xml:id="itemT55p1176b1401">疏十卷</item>
 <lb ed="T" n="1176b15"/><item xml:id="itemT55p1176b1501">劫彼羅義章一卷　已上　神泰述</item>
 <lb ed="T" n="1176b16"/><item xml:id="itemT55p1176b1601">疏十七卷　玄一述</item>
@@ -1307,7 +1307,7 @@ Added comment  for Emacs
 <lb ed="T" n="1177b16"/><item xml:id="itemT55p1177b1601">順正理論
 <lb ed="T" n="1177b17"/><list><item xml:id="itemT55p1177b1701">述記五卷　元裕述</item>
 <lb ed="T" n="1177b18"/><item xml:id="itemT55p1177b1801">鈔二卷　極太述</item></list></item>
-<lb ed="T" n="1177b19"/><item xml:id="itemT55p1177b1901"><anchor xml:id="nkr_note_orig_1177001" n="1177001"/><anchor xml:id="beg1177001" n="1177001"/>藏<anchor xml:id="end1177001"/>阿毘曇心論疏一卷　智藏述</item>
+<lb ed="T" n="1177b19"/><item xml:id="itemT55p1177b1901"><anchor xml:id="nkr_note_orig_1177001" n="1177001"/><anchor xml:id="nkr_note_mod_1177001" n="1177001"/><anchor xml:id="beg1177001" n="1177001"/>藏<anchor xml:id="end1177001"/>阿毘曇心論疏一卷　智藏述</item>
 <lb ed="T" n="1177b20"/><item xml:id="itemT55p1177b2001">異部宗輪論疏一卷　窺基述</item>
 <lb ed="T" n="1177b21"/><item xml:id="itemT55p1177b2101">肇論一卷　僧肇述
 <lb ed="T" n="1177b22"/><list><item xml:id="itemT55p1177b2201">註一卷<note place="inline">亡名或云叡法師注待勘</note></item>
@@ -1334,7 +1334,7 @@ Added comment  for Emacs
 <lb ed="T" n="1177c13"/><item xml:id="itemT55p1177c1301">大乘心路章二卷</item></list></item>
 <lb ed="T" n="1177c14"/><item xml:id="itemT55p1177c1401">廣釋本母頌三卷</item>
 <lb ed="T" n="1177c15"/><item xml:id="itemT55p1177c1501">大乘一味章一卷　已上　太賢述
-<lb ed="T" n="1177c16"/><list><item xml:id="itemT55p1177c1601">記三卷　<anchor xml:id="nkr_note_orig_1177002" n="1177002"/><anchor xml:id="beg1177002" n="1177002"/>科<anchor xml:id="end1177002"/>見述</item></list></item>
+<lb ed="T" n="1177c16"/><list><item xml:id="itemT55p1177c1601">記三卷　<anchor xml:id="nkr_note_orig_1177002" n="1177002"/><anchor xml:id="nkr_note_mod_1177002" n="1177002"/><anchor xml:id="beg1177002" n="1177002"/>科<anchor xml:id="end1177002"/>見述</item></list></item>
 <lb ed="T" n="1177c17"/><item xml:id="itemT55p1177c1701">二諦章一卷　亡名</item>
 <lb ed="T" n="1177c18"/><item xml:id="itemT55p1177c1801">大乘取義章十卷<note place="inline">或五卷</note>　景育述</item>
 <lb ed="T" n="1177c19"/><item xml:id="itemT55p1177c1901">十門和諍論二卷</item>
@@ -1376,7 +1376,7 @@ Added comment  for Emacs
 <lb ed="T" n="1178a25"/><item xml:id="itemT55p1178a2501">指濫一卷　繼齊述</item>
 <lb ed="T" n="1178a26"/><item xml:id="itemT55p1178a2601">義學雜編六卷　仁岳述</item>
 <lb ed="T" n="1178a27"/><item xml:id="itemT55p1178a2701">經體章一卷　尚賢述</item>
-<lb ed="T" n="1178a28"/><item xml:id="itemT55p1178a2801">圓事理<anchor xml:id="nkr_note_orig_1178001" n="1178001"/><anchor xml:id="beg1178001" n="1178001"/>該<anchor xml:id="end1178001"/>一卷科一卷　元淨述</item>
+<lb ed="T" n="1178a28"/><item xml:id="itemT55p1178a2801">圓事理<anchor xml:id="nkr_note_orig_1178001" n="1178001"/><anchor xml:id="nkr_note_mod_1178001" n="1178001"/><anchor xml:id="beg1178001" n="1178001"/>該<anchor xml:id="end1178001"/>一卷科一卷　元淨述</item>
 <lb ed="T" n="1178a29"/><item xml:id="itemT55p1178a2901">圓教解行集要一卷　惠才述</item>
 <pb ed="T" xml:id="T55.2184.1178b" n="1178b"/>
 <lb ed="T" n="1178b01"/><item xml:id="itemT55p1178b0101">天台法數十卷　智親編</item>
@@ -1390,7 +1390,7 @@ Added comment  for Emacs
 <lb ed="T" n="1178b09"/><item xml:id="itemT55p1178b0901">安身事心論一卷</item>
 <lb ed="T" n="1178b10"/><item xml:id="itemT55p1178b1001">求道譬喻論一卷</item>
 <lb ed="T" n="1178b11"/><item xml:id="itemT55p1178b1101">初章一卷　已上　元曉述</item>
-<lb ed="T" n="1178b12"/><item xml:id="itemT55p1178b1201">雜記九卷　<anchor xml:id="beg_3" type="star"/>遁<anchor xml:id="end_3"/>倫述</item>
+<lb ed="T" n="1178b12"/><item xml:id="itemT55p1178b1201">雜記九卷　<anchor xml:id="beg_2" type="star"/>遁<anchor xml:id="end_2"/>倫述</item>
 <lb ed="T" n="1178b13"/><item xml:id="itemT55p1178b1301">法門名相集一卷　李師正述</item>
 <lb ed="T" n="1178b14"/><item xml:id="itemT55p1178b1401">入道禪門祕要一卷　智儼述</item>
 <lb ed="T" n="1178b15"/><item xml:id="itemT55p1178b1501">入道出世要法二卷<note place="inline">或一卷</note></item>
@@ -1419,7 +1419,7 @@ Added comment  for Emacs
 <lb ed="T" n="1178c08"/><cb:juan fun="close" n="3"><cb:jhead>新編諸宗教藏總錄卷第三</cb:jhead></cb:juan>
 <lb ed="T" n="1178c09"/>
 <lb ed="T" n="1178c10"/><cb:div type="w"><p xml:id="pT55p1178c1001">安元二年丙申六月四日以仁和寺華嚴院法
-<lb ed="T" n="1178c11"/>橋<anchor xml:id="nkr_note_orig_1178002" n="1178002"/><anchor xml:id="beg1178002" n="1178002"/>景雅<anchor xml:id="end1178002"/>御本書<anchor xml:id="nkr_note_orig_1178003" n="1178003"/><anchor xml:id="beg1178003" n="1178003"/>寫了<anchor xml:id="end1178003"/>　　　　明　空</p>
+<lb ed="T" n="1178c11"/>橋<anchor xml:id="nkr_note_orig_1178002" n="1178002"/><anchor xml:id="nkr_note_mod_1178002" n="1178002"/><anchor xml:id="beg1178002" n="1178002"/>景雅<anchor xml:id="end1178002"/>御本書<anchor xml:id="nkr_note_orig_1178003" n="1178003"/><anchor xml:id="nkr_note_mod_1178003" n="1178003"/><anchor xml:id="beg1178003" n="1178003"/>寫了<anchor xml:id="end1178003"/>　　　　明　空</p>
 <lb ed="T" n="1178c12"/><p xml:id="pT55p1178c1201">寬永二十有一年七月日。以栂尾法鼓臺之
 <lb ed="T" n="1178c13"/>本。寫于禪堂院。陳簡蠹編多失文畫。或推而
 <lb ed="T" n="1178c14"/>補苴焉。或疑而闕如焉。且又此錄本未為盡
@@ -1449,16 +1449,16 @@ Added comment  for Emacs
 <app from="#beg1172001" to="#end1172001"><lem wit="#wit1">逐</lem><rdg resp="#resp1" wit="#wit2">遂</rdg></app>
 <app from="#beg1172002" to="#end1172002"><lem wit="#wit1">遁</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">道</rdg></app>
 <app from="#beg1172003" to="#end1172003"><lem wit="#wit1">日</lem><rdg resp="#resp1" wit="#wit2" type="variantRemark">田</rdg></app>
-<choice cb:resp="#resp4" cb:from="#beg_1" cb:to="#end_1"><corr>采</corr><sic>釆</sic></choice>
+<app from="#beg1174b2201" to="#end1174b2201"><lem wit="#wit3" resp="#resp3">采</lem><rdg wit="#wit1">釆</rdg></app>
 <app from="#beg1174001" to="#end1174001"><lem wit="#wit1">擇</lem><rdg resp="#resp1" wit="#wit2">釋</rdg></app>
 <app from="#beg1175001" to="#end1175001"><lem wit="#wit1">遁</lem><rdg resp="#resp1" wit="#wit2">道</rdg></app>
 <app from="#beg1176001" to="#end1176001"><lem wit="#wit1">述</lem><rdg resp="#resp1" wit="#wit2">述惠沼續</rdg></app>
 <app from="#beg1176002" to="#end1176002"><lem wit="#wit1">惠沼續</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
-<app from="#beg_2" to="#end_2" corresp="#1175001"><lem wit="#wit1">遁</lem><rdg resp="#resp1" wit="#wit2">道</rdg></app>
+<app from="#beg_1" to="#end_1" corresp="#1175001"><lem wit="#wit1">遁</lem><rdg resp="#resp1" wit="#wit2">道</rdg></app>
 <app from="#beg1177001" to="#end1177001"><lem wit="#wit1">藏</lem><rdg resp="#resp1" wit="#wit2">雜</rdg></app>
 <app from="#beg1177002" to="#end1177002"><lem wit="#wit1">科</lem><rdg resp="#resp1" wit="#wit2">利</rdg></app>
 <app from="#beg1178001" to="#end1178001"><lem wit="#wit1">該</lem><rdg resp="#resp1" wit="#wit2">說</rdg></app>
-<app from="#beg_3" to="#end_3" corresp="#1175001"><lem wit="#wit1">遁</lem><rdg resp="#resp1" wit="#wit2">道</rdg></app>
+<app from="#beg_2" to="#end_2" corresp="#1175001"><lem wit="#wit1">遁</lem><rdg resp="#resp1" wit="#wit2">道</rdg></app>
 <app from="#beg1178002" to="#end1178002"><lem wit="#wit1">景雅</lem><rdg resp="#resp1" wit="#wit2"><space quantity="0"/></rdg></app>
 <app from="#beg1178003" to="#end1178003"><lem wit="#wit1">寫了</lem><rdg resp="#resp1" wit="#wit2">之</rdg></app>
 </p>
@@ -1466,8 +1466,31 @@ Added comment  for Emacs
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="1168002" resp="#resp2" type="mod" target="#nkr_note_mod_1168002">（<choice cb:resp="#resp3"><corr>隨</corr><sic>隋</sic></choice>疏…述）十字∞（後分…述）九字【甲】</note>
-<note n="1168003" resp="#resp2" type="mod" target="#nkr_note_mod_1168003">（<choice cb:resp="#resp3"><corr>隨</corr><sic>隋</sic></choice>疏…述）十字∞（後分…述）九字【甲】</note>
+<note n="1165015" resp="#resp2" type="mod" target="#nkr_note_mod_1165015">精【大】，擇【甲】</note>
+<note n="1166001" resp="#resp2" type="mod" target="#nkr_note_mod_1166001">十【大】，十八【甲】</note>
+<note n="1166002" resp="#resp2" type="mod" target="#nkr_note_mod_1166002">訖【大】，說【甲】</note>
+<note n="1167001" resp="#resp2" type="mod" target="#nkr_note_mod_1167001">定【大】，宗【甲】</note>
+<note n="1168001" resp="#resp2" type="mod" target="#nkr_note_mod_1168001">卷【大】，卷或四十卷【甲】</note>
+<note n="1168002" resp="#resp2" type="mod" target="#nkr_note_mod_1168002">（隨疏…述）十字【大】∞（後分…述）九字【甲】</note>
+<note n="1168003" resp="#resp2" type="mod" target="#nkr_note_mod_1168003">（後分…述）九字【大】∞（隨疏…述）十字【甲】</note>
+<note n="1168004" resp="#resp2" type="mod" target="#nkr_note_mod_1168004">密【大】，密鈔【甲】</note>
+<note n="1169001" resp="#resp2" type="mod" target="#nkr_note_mod_1169001">熏聞【大】，聞熏【甲】</note>
+<note n="1170001" resp="#resp2" type="mod" target="#nkr_note_mod_1170001">垂【大】，乘【甲】</note>
+<note n="1171001" resp="#resp2" type="mod" target="#nkr_note_mod_1171001">卷【大】，卷科一卷【甲】</note>
+<note n="1171002" resp="#resp2" type="mod" target="#nkr_note_mod_1171002">昭【大】，照【甲】</note>
+<note n="1171003" resp="#resp2" type="mod" target="#nkr_note_mod_1171003">述【大】，注【甲】</note>
+<note n="1172001" resp="#resp2" type="mod" target="#nkr_note_mod_1172001">逐【大】，遂【甲】</note>
+<note n="1172002" resp="#resp2" type="mod" target="#nkr_note_mod_1172002">遁【大】，道【校異-甲】</note>
+<note n="1172003" resp="#resp2" type="mod" target="#nkr_note_mod_1172003">日【大】，田【校異-甲】</note>
+<note n="1174001" resp="#resp2" type="mod" target="#nkr_note_mod_1174001">擇【大】，釋【甲】</note>
+<note n="1175001" resp="#resp2" type="mod" target="#nkr_note_mod_1175001">遁【大】＊，道【甲】＊</note>
+<note n="1176001" resp="#resp2" type="mod" target="#nkr_note_mod_1176001">述【大】，述惠沼續【甲】</note>
+<note n="1176002" resp="#resp2" type="mod" target="#nkr_note_mod_1176002">惠沼續【大】，〔－〕【甲】</note>
+<note n="1177001" resp="#resp2" type="mod" target="#nkr_note_mod_1177001">藏【大】，雜【甲】</note>
+<note n="1177002" resp="#resp2" type="mod" target="#nkr_note_mod_1177002">科【大】，利【甲】</note>
+<note n="1178001" resp="#resp2" type="mod" target="#nkr_note_mod_1178001">該【大】，說【甲】</note>
+<note n="1178002" resp="#resp2" type="mod" target="#nkr_note_mod_1178002">景雅【大】，〔－〕【甲】</note>
+<note n="1178003" resp="#resp2" type="mod" target="#nkr_note_mod_1178003">寫了【大】，之【甲】</note>
 <note n="1178004" resp="#resp2" type="mod" target="#nkr_note_mod_1178004">此次行甲本有以他本校合了六字並花押（CBETA 按：大正藏校勘欄有「04 此次行甲本有以他本校合了六字並花押」之校勘條目，但此頁內文中缺相對應之校勘符號[04]，故將此校勘條目置於本頁內文最後。）</note>
 </p>
 </cb:div>
@@ -1503,6 +1526,12 @@ Added comment  for Emacs
 <note n="1178002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1178002">〔景雅〕－【甲】</note>
 <note n="1178003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_1178003">寫了＝之【甲】</note>
 <note n="1178004" resp="#resp1" place="foot" type="orig" target="#nkr_note_orig_1178004">此次行甲本有以他本校合了六字並花押</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="1174b2201" resp="#resp2" type="add" target="#nkr_note_add_1174b2201">采【CB】，釆【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

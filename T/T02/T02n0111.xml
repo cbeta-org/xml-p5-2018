@@ -13,9 +13,9 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.12 $<date>$Date: 2012/08/27 03:13:58 $</date>新式標點版</edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>Taisho</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,10 +33,11 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 2, No. 111</bibl>
 	<listWit>
-		<witness xml:id="wit1">【大】</witness>
-		<witness xml:id="wit2">【宋】</witness>
-		<witness xml:id="wit3">【元】</witness>
-		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+		<witness xml:id="wit3">【宋】</witness>
+		<witness xml:id="wit4">【元】</witness>
+		<witness xml:id="wit5">【明】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -128,7 +129,7 @@ Added comment  for Emacs
 <milestone n="1" unit="juan"/>
 <lb n="0504b24" ed="T"/>
 <lb n="0504b25" ed="T"/><cb:docNumber>No. 111 [No. 99(449-450), No. 101(20)]</cb:docNumber><cb:div type="jing">
-<lb n="0504b26" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title>佛說相應<anchor xml:id="beg_1" type="cb-app"/>相<anchor xml:id="end_1"/>可經</title></cb:jhead></cb:juan>
+<lb n="0504b26" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><title>佛說相應<anchor xml:id="nkr_note_add_0504b2601" n="0504b2601"/><anchor xml:id="beg0504b2601" n="0504b2601"/>相<anchor xml:id="end0504b2601"/>可經</title></cb:jhead></cb:juan>
 <lb n="0504b27" ed="T"/>
 <lb n="0504b28" ed="T"/><byline cb:type="Translator">西晉<anchor xml:id="nkr_note_orig_0504003" n="0504003"/><anchor xml:id="nkr_note_mod_0504003" n="0504003"/><anchor xml:id="beg0504003" n="0504003"/>沙門<anchor xml:id="end0504003"/>法炬譯</byline>
 <lb n="0504b29" ed="T"/><p xml:id="pT02p0504b2901">佛在舍衛國請諸比丘，比丘即到。佛告比丘，
@@ -153,32 +154,39 @@ Added comment  for Emacs
 <lb n="0504c18" ed="T"/>自守者，不自守者俱，相類、相聚、相應、相可；自
 <lb n="0504c19" ed="T"/>守者，自守者俱，相類、相聚、相應、相可。」</p><p xml:id="pT02p0504c1915" rend="inline">佛說：「比
 <lb n="0504c20" ed="T"/>丘！如是慧人當分別是因緣，可行者行之，不
-<lb n="0504c21" ed="T"/>可行者莫行。」</p><p xml:id="pT02p0504c2106" rend="inline">佛說如是。比丘受<anchor xml:id="nkr_note_orig_0504005" n="0504005"/><anchor xml:id="beg0504005" n="0504005"/>行<anchor xml:id="end0504005"/>著意。</p>
+<lb n="0504c21" ed="T"/>可行者莫行。」</p><p xml:id="pT02p0504c2106" rend="inline">佛說如是。比丘受<anchor xml:id="nkr_note_orig_0504005" n="0504005"/><anchor xml:id="nkr_note_mod_0504005" n="0504005"/><anchor xml:id="beg0504005" n="0504005"/>行<anchor xml:id="end0504005"/>著意。</p>
 <lb n="0504c22" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>佛說相應相可經</cb:jhead></cb:juan></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>相<note type="cf1">K19n0729_p0658a01</note></corr><sic><space quantity="0"/></sic></choice>
-<app from="#beg0504003" to="#end0504003"><lem wit="#wit1">沙門</lem><rdg resp="#resp2" wit="#wit2 #wit3">釋</rdg><rdg resp="#resp2" wit="#wit4">三藏法師</rdg></app>
-<app from="#beg0504004" to="#end0504004"><lem wit="#wit1">類、相聚</lem><rdg resp="#resp2" wit="#wit2 #wit3 #wit4">聚相類</rdg></app>
-<app from="#beg0504005" to="#end0504005"><lem wit="#wit1">行</lem><rdg resp="#resp2" wit="#wit4">行者</rdg></app>
+<app from="#beg0504b2601" to="#end0504b2601"><lem wit="#wit1" resp="#resp2">相<note type="cf1">K19n0729_p0658a01</note></lem><rdg wit="#wit2"><space quantity="0"/></rdg></app>
+<app from="#beg0504003" to="#end0504003"><lem wit="#wit2">沙門</lem><rdg resp="#resp3" wit="#wit3 #wit4">釋</rdg><rdg resp="#resp3" wit="#wit5">三藏法師</rdg></app>
+<app from="#beg0504004" to="#end0504004"><lem wit="#wit2">類、相聚</lem><rdg resp="#resp3" wit="#wit3 #wit4 #wit5">聚相類</rdg></app>
+<app from="#beg0504005" to="#end0504005"><lem wit="#wit2">行</lem><rdg resp="#resp3" wit="#wit5">行者</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0504003" resp="#resp3" type="mod" target="#nkr_note_mod_0504003">沙門＝釋【宋】【元】，＝三藏法師【明】</note>
-<note n="0504004" resp="#resp3" type="mod" target="#nkr_note_mod_0504004">類相聚＝聚相類【宋】【元】【明】</note>
+<note n="0504003" resp="#resp1" type="mod" target="#nkr_note_mod_0504003">沙門【大】，釋【宋】【元】，三藏法師【明】</note>
+<note n="0504004" resp="#resp1" type="mod" target="#nkr_note_mod_0504004">類相聚【大】，聚相類【宋】【元】【明】</note>
+<note n="0504005" resp="#resp1" type="mod" target="#nkr_note_mod_0504005">行【大】，行者【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
-<note n="0504003" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0504003">沙門＝釋【宋】【元】，三藏法師【明】</note>
-<note n="0504004" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0504004">類相聚＝聚相類【三】</note>
-<note n="0504005" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0504005">行＋（者）【明】</note>
+<note n="0504003" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0504003">沙門＝釋【宋】【元】，三藏法師【明】</note>
+<note n="0504004" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0504004">類相聚＝聚相類【三】</note>
+<note n="0504005" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0504005">行＋（者）【明】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0504b2601" resp="#resp1" type="add" target="#nkr_note_add_0504b2601">相【CB】，［－］【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

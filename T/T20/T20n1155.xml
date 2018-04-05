@@ -14,8 +14,9 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2009/04/23 08:01:22 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.say</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,6 +33,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 20, No. 1155</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -457,7 +462,7 @@ Added comment  for Emacs
 <lb n="0646b07" ed="T"/><note place="inline">入</note>第<note place="inline">帝釋帝釋</note>尾<g ref="#CB03442">󰵲</g>帝<note place="inline">引</note>尾<g ref="#CB03442">󰵲</g>帝<note place="inline">引梵王梵王</note>尾誐多摩攞
 <lb n="0646b08" ed="T"/><note place="inline">大自在天大自在天</note>尾戍馱<g ref="#CB00576">𩕳</g><note place="inline">天帝將軍天帝將軍</note>乞史<note place="inline">二合</note>抳乞史
 <lb n="0646b09" ed="T"/><note place="inline">二合</note>抳<note place="inline">童男童女童男童女</note>薩嚩播<note place="inline">引</note>跛<note place="inline">天龍天龍</note>尾舜第<note place="inline">引夜叉夜叉</note>
-<lb n="0646b10" ed="T"/>麼攞尾<g ref="#CB03442">󰵲</g>多<note place="inline">引乾闥婆敬愛</note>帝惹嚩底<note place="inline">阿修羅阿修羅</note>嚩<anchor xml:id="beg_1" type="cb-app"/>日<anchor xml:id="end_1"/>羅嚩
+<lb n="0646b10" ed="T"/>麼攞尾<g ref="#CB03442">󰵲</g>多<note place="inline">引乾闥婆敬愛</note>帝惹嚩底<note place="inline">阿修羅阿修羅</note>嚩<anchor xml:id="nkr_note_add_0646b1001" n="0646b1001"/><anchor xml:id="beg0646b1001" n="0646b1001"/>日<anchor xml:id="end0646b1001"/>羅嚩
 <lb n="0646b11" ed="T"/>底<note place="inline">迦樓羅迦樓羅</note>怛<g ref="#CB02735">󰪯</g><note place="inline">二合引</note>路枳野<note place="inline">二合</note><note place="inline">毘盧遮那護念</note>地瑟恥帝<note place="inline">增益
 <lb n="0646b12" ed="T"/>成就</note>娑縛<note place="inline">二合</note>賀<note place="inline">引息災成就</note>薩嚩<note place="inline">二合</note>怛他<g ref="#CB03442">󰵲</g>多沒<note place="inline">引</note>
 <lb n="0646b13" ed="T"/>馱<note place="inline">阿閦佛金剛波羅密護念</note>毘色訖帝<note place="inline">二合</note><note place="inline">增益成就</note>娑婆<note place="inline">二合</note>賀
@@ -550,7 +555,7 @@ Added comment  for Emacs
 <lb n="0647b13" ed="T"/>真言。一切諸佛不得是真言不成佛。外道
 <lb n="0647b14" ed="T"/>婆羅門得是真言成佛速。所以者何。昔摩
 <lb n="0647b15" ed="T"/>竭陀國有一婆羅門。名俱博婆羅門。不見佛
-<lb n="0647b16" ed="T"/>不聞法。不六<anchor xml:id="beg_2" type="cb-app"/>波<anchor xml:id="end_2"/>羅蜜行。不四無量住。日日殺
+<lb n="0647b16" ed="T"/>不聞法。不六<anchor xml:id="nkr_note_add_0647b1601" n="0647b1601"/><anchor xml:id="beg0647b1601" n="0647b1601"/>波<anchor xml:id="end0647b1601"/>羅蜜行。不四無量住。日日殺
 <lb n="0647b17" ed="T"/>食猪羊熊鹿鵝鴨龜等類。各日日五十或一
 <lb n="0647b18" ed="T"/>百生。二百五十年命過。即去人間到閻羅王
 <lb n="0647b19" ed="T"/>宮。即閻羅王白帝釋言。此罪人賜何地獄。
@@ -625,7 +630,7 @@ Added comment  for Emacs
 <lb n="0648a28" ed="T"/>生安樂</note></p>
 <pb n="0648b" xml:id="T20.1155.0648b" ed="T"/>
 <lb n="0648b01" ed="T"/><p xml:id="pT20p0648b0101">一切佛心印真言</p>
-<lb n="0648b02" ed="T"/><p cb:type="dharani" xml:id="pT20p0648b0201">唵<note place="inline">引</note>嚩<anchor xml:id="beg_3" type="cb-app"/>日<anchor xml:id="end_3"/>囉<note place="inline">二合</note>嚩底<note place="inline">三世諸佛</note>嚩<anchor xml:id="beg_4" type="cb-app"/>日<anchor xml:id="end_4"/>囉<note place="inline">二合</note>鉢囉
+<lb n="0648b02" ed="T"/><p cb:type="dharani" xml:id="pT20p0648b0201">唵<note place="inline">引</note>嚩<anchor xml:id="nkr_note_add_0648b0201" n="0648b0201"/><anchor xml:id="beg0648b0201" n="0648b0201"/>日<anchor xml:id="end0648b0201"/>囉<note place="inline">二合</note>嚩底<note place="inline">三世諸佛</note>嚩<anchor xml:id="nkr_note_add_0648b0202" n="0648b0202"/><anchor xml:id="beg0648b0202" n="0648b0202"/>日<anchor xml:id="end0648b0202"/>囉<note place="inline">二合</note>鉢囉
 <lb n="0648b03" ed="T"/><note place="inline">二合</note>底瑟恥<note place="inline">二合</note>帝<note place="inline">引</note>秣<note place="inline">詩聿反</note>第<note place="inline">引</note>薩嚩怛他<note place="inline">引</note>
 <lb n="0648b04" ed="T"/>誐多母捺囉<note place="inline">二合</note><note place="inline">一切智印成就六波羅密</note>地瑟姹<note place="inline">二合引</note>曩<note place="inline">引</note>地瑟
 <lb n="0648b05" ed="T"/>恥<note place="inline">二合</note>帝麼賀<note place="inline">引</note>母怛<g ref="#CB03272">𭋸</g>娑<note place="inline">二合</note>賀<note place="inline">一切諸法靈驗現前成就</note></p>
@@ -633,7 +638,7 @@ Added comment  for Emacs
 <lb n="0648b07" ed="T"/><p cb:type="dharani" xml:id="pT20p0648b0701">唵<note place="inline">引</note>母<g ref="#CB00576">𩕳</g>母<g ref="#CB00576">𩕳</g><note place="inline">一切如來皆集會</note>母<g ref="#CB00576">𩕳</g>縛<g ref="#CB03947">󰽫</g><note place="inline">流出智水</note>阿<note place="inline">上</note>鼻
 <lb n="0648b08" ed="T"/>詵<note place="inline">去</note>左覩<g ref="#CB00805">𤚥</g><note place="inline">引一切如來歸金色解</note>薩縛怛他<note place="inline">引</note><g ref="#CB03442">󰵲</g>他<note place="inline">智水灌頂</note>
 <lb n="0648b09" ed="T"/>薩縛尾儞野<note place="inline">二合</note>鼻曬<note place="inline">引</note>四剡<note place="inline">引</note><note place="inline">洗百六十身煩惱所知障</note>麼賀
-<lb n="0648b10" ed="T"/><note place="inline">引</note>縛<anchor xml:id="beg_5" type="cb-app"/>日<anchor xml:id="end_5"/>羅<note place="inline">二合</note>賀縛左<note place="inline">永斷生死一切苦</note>母捺羅<note place="inline">二合</note>母
+<lb n="0648b10" ed="T"/><note place="inline">引</note>縛<anchor xml:id="nkr_note_add_0648b1001" n="0648b1001"/><anchor xml:id="beg0648b1001" n="0648b1001"/>日<anchor xml:id="end0648b1001"/>羅<note place="inline">二合</note>賀縛左<note place="inline">永斷生死一切苦</note>母捺羅<note place="inline">二合</note>母
 <lb n="0648b11" ed="T"/>捺哩<note place="inline">二合</note>帶<note place="inline">引入我</note>薩縛多他<note place="inline">去引</note>誐多紇哩<note place="inline">二合</note>
 <lb n="0648b12" ed="T"/>乃夜地瑟恥<note place="inline">二合</note>多縛曰<g ref="#CB03947">󰽫</g><note place="inline">二合</note>娑婆<note place="inline">二合</note>賀<note place="inline">等同
 <lb n="0648b13" ed="T"/>如來遍法界身</note></p>
@@ -734,17 +739,27 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>日</corr><sic>曰</sic></choice>
-<choice cb:resp="#resp2 resp3" cb:from="#beg_2" cb:to="#end_2"><corr>波</corr><sic>婆</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_3" cb:to="#end_3"><corr>日</corr><sic>曰</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_4" cb:to="#end_4"><corr>日</corr><sic>曰</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_5" cb:to="#end_5"><corr>日</corr><sic>曰</sic></choice>
+<app from="#beg0646b1001" to="#end0646b1001"><lem wit="#wit1" resp="#resp3">日</lem><rdg wit="#wit2">曰</rdg></app>
+<app from="#beg0647b1601" to="#end0647b1601"><lem wit="#wit1" resp="#resp3 resp4">波</lem><rdg wit="#wit2">婆</rdg></app>
+<app from="#beg0648b0201" to="#end0648b0201"><lem wit="#wit1" resp="#resp3">日</lem><rdg wit="#wit2">曰</rdg></app>
+<app from="#beg0648b0202" to="#end0648b0202"><lem wit="#wit1" resp="#resp3">日</lem><rdg wit="#wit2">曰</rdg></app>
+<app from="#beg0648b1001" to="#end0648b1001"><lem wit="#wit1" resp="#resp3">日</lem><rdg wit="#wit2">曰</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0644002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0644002">元永二年寫東寺三密藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0646b1001" resp="#resp2" type="add" target="#nkr_note_add_0646b1001">日【CB】，曰【大】</note>
+<note n="0647b1601" resp="#resp2" type="add" target="#nkr_note_add_0647b1601">波【CB】，婆【大】</note>
+<note n="0648b0201" resp="#resp2" type="add" target="#nkr_note_add_0648b0201">日【CB】，曰【大】</note>
+<note n="0648b0202" resp="#resp2" type="add" target="#nkr_note_add_0648b0202">日【CB】，曰【大】</note>
+<note n="0648b1001" resp="#resp2" type="add" target="#nkr_note_add_0648b1001">日【CB】，曰【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

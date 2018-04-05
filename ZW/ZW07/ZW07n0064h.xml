@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2011/09/20 03:00:27 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>ZangWai</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 7, No. 64h</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -153,7 +158,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml; 執行校注插入 XML 作業。
 <lb ed="ZW" n="0364a01"/>日念誦佛菩薩之名的功德，但某日某神下界的淵源是很清楚
 <lb ed="ZW" n="0364a02"/>的。此類儀範的繁簡不同模式，相當清晰地反映出其演化的
 <lb ed="ZW" n="0364a03"/>軌迹。結合一些相關的經籍，可以概括出其遞進的過程。從
-<lb ed="ZW" n="0364a04"/>此類經本中聯<anchor xml:id="beg_1" type="cb-app"/>繫<anchor xml:id="end_1"/>於玄奘法師與開元皇帝的傳說、載記等等，
+<lb ed="ZW" n="0364a04"/>此類經本中聯<anchor xml:id="nkr_note_add_0364a0401" n="0364a0401"/><anchor xml:id="beg0364a0401" n="0364a0401"/>繫<anchor xml:id="end0364a0401"/>於玄奘法師與開元皇帝的傳說、載記等等，
 <lb ed="ZW" n="0364a05"/>可推知其不會產生在初、唐盛時，說法最為完備的《地藏菩
 <lb ed="ZW" n="0364a06"/>薩十齋日》，約形成於盛唐以後，並在相當時段內延續。以
 <lb ed="ZW" n="0364a07"/>下我們就約略地梳理其遞進的過程。當然，其中有些簡單形
@@ -358,7 +363,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml; 執行校注插入 XML 作業。
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>繫</corr><sic>係</sic></choice>
+<app from="#beg0364a0401" to="#end0364a0401"><lem wit="#wit1" resp="#resp3">繫</lem><rdg wit="#wit2">係</rdg></app>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
@@ -376,6 +381,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml; 執行校注插入 XML 作業。
 <note n="0369001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0369001">「禮佛」，原文無，據文意補。</note>
 <note n="0370001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0370001">《大正藏》第13卷第783頁中。</note>
 <note n="0371001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0371001">《卍續藏》第150冊第772頁上至中。臺灣新文豐出版公司，1976年。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0364a0401" resp="#resp2" type="add" target="#nkr_note_add_0364a0401">繫【CB】，係【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

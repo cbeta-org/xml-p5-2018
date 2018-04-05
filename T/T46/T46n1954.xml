@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.6 $<date>$Date: 2009/04/23 08:12:24 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -143,7 +144,7 @@ Added comment  for Emacs
 <lb n="0988c29" ed="T"/>語密之真言。依佛心密之正智。為有情三密
 <pb n="0989a" xml:id="T46.1954.0989a" ed="T"/>
 <lb n="0989a01" ed="T"/>之度門。成無上三身之果位。示教示歸。稽首
-<lb n="0989a02" ed="T"/>世尊大慈悲者。開演法門無<anchor xml:id="nkr_note_orig_0989001" n="0989001"/><anchor xml:id="beg0989001" n="0989001"/>教<anchor xml:id="end0989001"/>。斯乃普應
+<lb n="0989a02" ed="T"/>世尊大慈悲者。開演法門無<anchor xml:id="nkr_note_orig_0989001" n="0989001"/><anchor xml:id="nkr_note_mod_0989001" n="0989001"/><anchor xml:id="beg0989001" n="0989001"/>教<anchor xml:id="end0989001"/>。斯乃普應
 <lb n="0989a03" ed="T"/>群心。大略八萬四千。總攝在其三藏。未入正
 <lb n="0989a04" ed="T"/>法者。令入正法。故說修多羅藏也。入正法者。
 <lb n="0989a05" ed="T"/>令受持學處。故說微奈耶藏。已受持學處者。
@@ -164,7 +165,7 @@ Added comment  for Emacs
 <lb n="0989a20" ed="T"/>持諸法了。諸法共依一演。一字生無量字入
 <lb n="0989a21" ed="T"/>一字。</p>
 <lb n="0989a22" ed="T"/><p xml:id="pT46p0989a2201">字體本空。實性無窮。執持情剎。法佛真宮。無
-<lb n="0989a23" ed="T"/>邊聖會。互即重重。或收或教。<anchor xml:id="nkr_note_orig_0989002" n="0989002"/><anchor xml:id="beg0989002" n="0989002"/>殊<anchor xml:id="end0989002"/>圓月貫。
+<lb n="0989a23" ed="T"/>邊聖會。互即重重。或收或教。<anchor xml:id="nkr_note_orig_0989002" n="0989002"/><anchor xml:id="nkr_note_mod_0989002" n="0989002"/><anchor xml:id="beg0989002" n="0989002"/>殊<anchor xml:id="end0989002"/>圓月貫。
 <lb n="0989a24" ed="T"/>心鏡照明。菩提果滿。成濟無住。真常不斷。</p>
 <lb n="0989a25" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>根本佛法碑</cb:jhead></cb:juan></cb:div>
 </body>
@@ -174,6 +175,13 @@ Added comment  for Emacs
 <p>
 <app from="#beg0989001" to="#end0989001"><lem resp="#resp1" wit="#wit1">教</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">數</rdg></app>
 <app from="#beg0989002" to="#end0989002"><lem resp="#resp1" wit="#wit1">殊</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark">珠</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0989001" resp="#resp2" type="mod" target="#nkr_note_mod_0989001">教【大】，數【考偽-原】</note>
+<note n="0989002" resp="#resp2" type="mod" target="#nkr_note_mod_0989002">殊【大】，珠【考偽-原】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

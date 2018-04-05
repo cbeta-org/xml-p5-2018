@@ -13,9 +13,9 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.14 $<date>$Date: 2012/08/27 03:13:58 $</date>新式標點版</edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>Taisho</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,13 +33,13 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 2, No. 116</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【麗-CB】</witness>
 		<witness xml:id="wit3">【大】</witness>
 		<witness xml:id="wit4">【宋】</witness>
 		<witness xml:id="wit5">【元】</witness>
 		<witness xml:id="wit6">【明】</witness>
-		<witness xml:id="wit7">【磧砂】</witness>
+		<witness xml:id="wit7">【磧-CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -148,7 +148,7 @@ Added comment  for Emacs
 <lb n="0507b15" ed="T"/>賢者阿難閑居獨思：「世有三香，一曰根香，
 <lb n="0507b16" ed="T"/>二曰枝香，三曰華香，是三品香唯隨風香不
 <lb n="0507b17" ed="T"/>能逆風，寧有雅香隨風逆風者乎？」賢者阿難
-<lb n="0507b18" ed="T"/>獨處思惟<anchor xml:id="beg_1" type="cb-app"/>此<anchor xml:id="end_1"/>義所歸，不知所趣，即從坐起往
+<lb n="0507b18" ed="T"/>獨處思惟<anchor xml:id="nkr_note_add_0507b1801" n="0507b1801"/><anchor xml:id="beg0507b1801" n="0507b1801"/>此<anchor xml:id="end0507b1801"/>義所歸，不知所趣，即從坐起往
 <lb n="0507b19" ed="T"/>詣佛所，稽首<anchor xml:id="nkr_note_orig_0507008" n="0507008"/><anchor xml:id="nkr_note_mod_0507008" n="0507008"/><anchor xml:id="beg0507008" n="0507008"/>佛<anchor xml:id="end0507008"/>足下，<anchor xml:id="nkr_note_orig_0507009" n="0507009"/><anchor xml:id="nkr_note_mod_0507009" n="0507009"/><anchor xml:id="beg0507009" n="0507009"/>長跪叉手<anchor xml:id="end0507009"/><anchor xml:id="nkr_note_orig_0507010" n="0507010"/><anchor xml:id="nkr_note_mod_0507010" n="0507010"/><anchor xml:id="beg0507010" n="0507010"/>而<anchor xml:id="end0507010"/>白佛言：
 <lb n="0507b20" ed="T"/>「我獨處思惟，世有三香，一曰根香，二曰枝香，
 <lb n="0507b21" ed="T"/>三曰華香，此三品香唯能隨風不能逆風，寧
@@ -168,7 +168,7 @@ Added comment  for Emacs
 <lb n="0507c05" ed="T"/><l>不息名栴檀，</l><l>眾雨一切香。</l>
 <lb n="0507c06" ed="T"/><l>志性能和雅，</l><l>爾乃逆風香，</l>
 <lb n="0507c07" ed="T"/><l>正士名丈夫，</l><l>普熏于十方。</l>
-<lb n="0507c08" ed="T"/><l>木<anchor xml:id="nkr_note_orig_0507016" n="0507016"/><anchor xml:id="beg0507016" n="0507016"/>蜜<anchor xml:id="end0507016"/>及栴檀，</l><l>青蓮諸雨香，</l>
+<lb n="0507c08" ed="T"/><l>木<anchor xml:id="nkr_note_orig_0507016" n="0507016"/><anchor xml:id="nkr_note_mod_0507016" n="0507016"/><anchor xml:id="beg0507016" n="0507016"/>蜜<anchor xml:id="end0507016"/>及栴檀，</l><l>青蓮諸雨香，</l>
 <lb n="0507c09" ed="T"/><l>一切此眾香，</l><l>戒香最無上。</l>
 <lb n="0507c10" ed="T"/><l>是等清淨<anchor xml:id="nkr_note_orig_0507017" n="0507017"/><anchor xml:id="nkr_note_mod_0507017" n="0507017"/><anchor xml:id="beg0507017" n="0507017"/>者<anchor xml:id="end0507017"/>，</l><l>所行無放逸，</l>
 <lb n="0507c11" ed="T"/><l>不知魔徑路，</l><l>不見所歸趣。</l>
@@ -197,82 +197,89 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg_1" to="#end_1"><lem wit="#wit1 #wit2" resp="#resp1">此<note type="cf1">K19n0713_p0613a08</note></lem><rdg wit="#wit3">於</rdg></app>
-<app from="#beg0507008" to="#end0507008"><lem wit="#wit3">佛</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
-<app from="#beg0507009" to="#end0507009"><lem wit="#wit3">長跪叉手</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
-<app from="#beg0507010" to="#end0507010"><lem wit="#wit3">而</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">前</rdg></app>
-<app from="#beg0507011" to="#end0507011"><lem wit="#wit3">香</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">意</rdg></app>
-<app from="#beg0507012" to="#end0507012"><lem wit="#wit3">淫</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">婬</rdg></app>
-<app from="#beg0507013" to="#end0507013"><lem wit="#wit3">妬</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
-<app from="#beg0507014" to="#end0507014"><lem wit="#wit3">三尊</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">三寶</rdg></app>
-<app from="#beg0507015" to="#end0507015"><lem wit="#wit3">奉行十</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">及奉行</rdg></app>
-<app from="#beg0507016" to="#end0507016"><lem wit="#wit3">蜜</lem><rdg resp="#resp2" wit="#wit5 #wit6">櫁</rdg></app>
-<app from="#beg0507017" to="#end0507017"><lem wit="#wit3">者</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">戒</rdg></app>
-<app from="#beg0507018" to="#end0507018"><lem wit="#wit3">經</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">維</rdg></app>
-<app from="#beg0507019" to="#end0507019"><lem wit="#wit3">不</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">無</rdg></app>
-<app from="#beg0507020" to="#end0507020"><lem wit="#wit3">生</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">盜媱</rdg></app>
-<app from="#beg0507021" to="#end0507021"><lem wit="#wit3">橫</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">限</rdg></app>
-<app from="#beg0507022" to="#end0507022"><lem wit="#wit3">妄</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">忘</rdg></app>
-<app from="#beg0507023" to="#end0507023"><lem wit="#wit3">婬色者</lem><rdg resp="#resp1" wit="#wit7">婬妷者<note type="cf1">Q18_p0852b04</note></rdg><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">婬失者</rdg></app>
-<app from="#beg0507024" to="#end0507024"><lem wit="#wit3">人</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
-<app from="#beg0507025" to="#end0507025"><lem wit="#wit3">妻</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">他妻</rdg></app>
-<app from="#beg0507026" to="#end0507026"><lem wit="#wit3">輒</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">可</rdg></app>
-<app from="#beg0507027" to="#end0507027"><lem wit="#wit3">有別離</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">別離業</rdg></app>
-<app from="#beg0507028" to="#end0507028"><lem wit="#wit3">語</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">言</rdg></app>
-<app from="#beg0507029" to="#end0507029"><lem wit="#wit3">喜</lem><rdg resp="#resp2" wit="#wit4 #wit5 #wit6">然</rdg></app>
+<app from="#beg0507b1801" to="#end0507b1801"><lem wit="#wit1 #wit2" resp="#resp2">此<note type="cf1">K19n0713_p0613a08</note></lem><rdg wit="#wit3">於</rdg></app>
+<app from="#beg0507008" to="#end0507008"><lem wit="#wit3">佛</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0507009" to="#end0507009"><lem wit="#wit3">長跪叉手</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0507010" to="#end0507010"><lem wit="#wit3">而</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">前</rdg></app>
+<app from="#beg0507011" to="#end0507011"><lem wit="#wit3">香</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">意</rdg></app>
+<app from="#beg0507012" to="#end0507012"><lem wit="#wit3">淫</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">婬</rdg></app>
+<app from="#beg0507013" to="#end0507013"><lem wit="#wit3">妬</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0507014" to="#end0507014"><lem wit="#wit3">三尊</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">三寶</rdg></app>
+<app from="#beg0507015" to="#end0507015"><lem wit="#wit3">奉行十</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">及奉行</rdg></app>
+<app from="#beg0507016" to="#end0507016"><lem wit="#wit3">蜜</lem><rdg resp="#resp3" wit="#wit5 #wit6">櫁</rdg></app>
+<app from="#beg0507017" to="#end0507017"><lem wit="#wit3">者</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">戒</rdg></app>
+<app from="#beg0507018" to="#end0507018"><lem wit="#wit3">經</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">維</rdg></app>
+<app from="#beg0507019" to="#end0507019"><lem wit="#wit3">不</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">無</rdg></app>
+<app from="#beg0507020" to="#end0507020"><lem wit="#wit3">生</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">盜媱</rdg></app>
+<app from="#beg0507021" to="#end0507021"><lem wit="#wit3">橫</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">限</rdg></app>
+<app from="#beg0507022" to="#end0507022"><lem wit="#wit3">妄</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">忘</rdg></app>
+<app from="#beg0507023" to="#end0507023"><lem wit="#wit3">婬色者</lem><rdg resp="#resp2" wit="#wit7">婬妷者<note type="cf1">Q18_p0852b04</note></rdg><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">婬失者</rdg></app>
+<app from="#beg0507024" to="#end0507024"><lem wit="#wit3">人</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6"><space quantity="0"/></rdg></app>
+<app from="#beg0507025" to="#end0507025"><lem wit="#wit3">妻</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">他妻</rdg></app>
+<app from="#beg0507026" to="#end0507026"><lem wit="#wit3">輒</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">可</rdg></app>
+<app from="#beg0507027" to="#end0507027"><lem wit="#wit3">有別離</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">別離業</rdg></app>
+<app from="#beg0507028" to="#end0507028"><lem wit="#wit3">語</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">言</rdg></app>
+<app from="#beg0507029" to="#end0507029"><lem wit="#wit3">喜</lem><rdg resp="#resp3" wit="#wit4 #wit5 #wit6">然</rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
 <head>CBETA 校註</head>
 <p>
-<note n="0507008" resp="#resp3" type="mod" target="#nkr_note_mod_0507008">〔佛〕－【宋】【元】【明】</note>
-<note n="0507009" resp="#resp3" type="mod" target="#nkr_note_mod_0507009">〔長跪叉手〕－【宋】【元】【明】</note>
-<note n="0507010" resp="#resp3" type="mod" target="#nkr_note_mod_0507010">而＝前【宋】【元】【明】</note>
-<note n="0507011" resp="#resp3" type="mod" target="#nkr_note_mod_0507011">香＝意【宋】【元】【明】</note>
-<note n="0507012" resp="#resp3" type="mod" target="#nkr_note_mod_0507012">淫＝婬【宋】【元】【明】</note>
-<note n="0507013" resp="#resp3" type="mod" target="#nkr_note_mod_0507013">〔妬〕－【宋】【元】【明】</note>
-<note n="0507014" resp="#resp3" type="mod" target="#nkr_note_mod_0507014">三尊＝三寶【宋】【元】【明】</note>
-<note n="0507015" resp="#resp3" type="mod" target="#nkr_note_mod_0507015">奉行十＝及奉行【宋】【元】【明】</note>
-<note n="0507017" resp="#resp3" type="mod" target="#nkr_note_mod_0507017">者＝戒【宋】【元】【明】</note>
-<note n="0507018" resp="#resp3" type="mod" target="#nkr_note_mod_0507018">經＝維【宋】【元】【明】</note>
-<note n="0507019" resp="#resp3" type="mod" target="#nkr_note_mod_0507019">不＝無【宋】【元】【明】</note>
-<note n="0507020" resp="#resp3" type="mod" target="#nkr_note_mod_0507020">生＝盜媱【宋】【元】【明】</note>
-<note n="0507021" resp="#resp3" type="mod" target="#nkr_note_mod_0507021">橫＝限【宋】【元】【明】</note>
-<note n="0507022" resp="#resp3" type="mod" target="#nkr_note_mod_0507022">妄＝忘【宋】【元】【明】</note>
-<note n="0507023" resp="#resp3" type="mod" target="#nkr_note_mod_0507023">婬色者＝婬失者【宋】【元】【明】，＝婬妷者【磧砂-CB】</note>
-<note n="0507024" resp="#resp3" type="mod" target="#nkr_note_mod_0507024">〔人〕－【宋】【元】【明】</note>
-<note n="0507025" resp="#resp3" type="mod" target="#nkr_note_mod_0507025">（他）＋妻【宋】【元】【明】</note>
-<note n="0507026" resp="#resp3" type="mod" target="#nkr_note_mod_0507026">輒＝可【宋】【元】【明】</note>
-<note n="0507027" resp="#resp3" type="mod" target="#nkr_note_mod_0507027">有別離＝別離業【宋】【元】【明】</note>
-<note n="0507028" resp="#resp3" type="mod" target="#nkr_note_mod_0507028">語＝言【宋】【元】【明】</note>
-<note n="0507029" resp="#resp3" type="mod" target="#nkr_note_mod_0507029">喜＝然【宋】【元】【明】</note>
+<note n="0507008" resp="#resp1" type="mod" target="#nkr_note_mod_0507008">佛【大】，〔－〕【宋】【元】【明】</note>
+<note n="0507009" resp="#resp1" type="mod" target="#nkr_note_mod_0507009">長跪叉手【大】，〔－〕【宋】【元】【明】</note>
+<note n="0507010" resp="#resp1" type="mod" target="#nkr_note_mod_0507010">而【大】，前【宋】【元】【明】</note>
+<note n="0507011" resp="#resp1" type="mod" target="#nkr_note_mod_0507011">香【大】，意【宋】【元】【明】</note>
+<note n="0507012" resp="#resp1" type="mod" target="#nkr_note_mod_0507012">淫【大】，婬【宋】【元】【明】</note>
+<note n="0507013" resp="#resp1" type="mod" target="#nkr_note_mod_0507013">妬【大】，〔－〕【宋】【元】【明】</note>
+<note n="0507014" resp="#resp1" type="mod" target="#nkr_note_mod_0507014">三尊【大】，三寶【宋】【元】【明】</note>
+<note n="0507015" resp="#resp1" type="mod" target="#nkr_note_mod_0507015">奉行十【大】，及奉行【宋】【元】【明】</note>
+<note n="0507016" resp="#resp1" type="mod" target="#nkr_note_mod_0507016">蜜【大】，櫁【元】【明】</note>
+<note n="0507017" resp="#resp1" type="mod" target="#nkr_note_mod_0507017">者【大】，戒【宋】【元】【明】</note>
+<note n="0507018" resp="#resp1" type="mod" target="#nkr_note_mod_0507018">經【大】，維【宋】【元】【明】</note>
+<note n="0507019" resp="#resp1" type="mod" target="#nkr_note_mod_0507019">不【大】，無【宋】【元】【明】</note>
+<note n="0507020" resp="#resp1" type="mod" target="#nkr_note_mod_0507020">生【大】，盜媱【宋】【元】【明】</note>
+<note n="0507021" resp="#resp1" type="mod" target="#nkr_note_mod_0507021">橫【大】，限【宋】【元】【明】</note>
+<note n="0507022" resp="#resp1" type="mod" target="#nkr_note_mod_0507022">妄【大】，忘【宋】【元】【明】</note>
+<note n="0507023" resp="#resp1" type="mod" target="#nkr_note_mod_0507023">婬色者【大】，婬失者【宋】【元】【明】，婬妷者【磧-CB】</note>
+<note n="0507024" resp="#resp1" type="mod" target="#nkr_note_mod_0507024">人【大】，〔－〕【宋】【元】【明】</note>
+<note n="0507025" resp="#resp1" type="mod" target="#nkr_note_mod_0507025">妻【大】，他妻【宋】【元】【明】</note>
+<note n="0507026" resp="#resp1" type="mod" target="#nkr_note_mod_0507026">輒【大】，可【宋】【元】【明】</note>
+<note n="0507027" resp="#resp1" type="mod" target="#nkr_note_mod_0507027">有別離【大】，別離業【宋】【元】【明】</note>
+<note n="0507028" resp="#resp1" type="mod" target="#nkr_note_mod_0507028">語【大】，言【宋】【元】【明】</note>
+<note n="0507029" resp="#resp1" type="mod" target="#nkr_note_mod_0507029">喜【大】，然【宋】【元】【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
-<note n="0507008" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507008">〔佛〕－【三】</note>
-<note n="0507009" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507009">〔長跪叉手〕－【三】</note>
-<note n="0507010" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507010">而＝前【三】</note>
-<note n="0507011" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507011">香＝意【三】</note>
-<note n="0507012" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507012">淫＝婬【三】</note>
-<note n="0507013" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507013">〔妬〕－【三】</note>
-<note n="0507014" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507014">三尊＝三寶【三】</note>
-<note n="0507015" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507015">奉行十＝及奉行【三】</note>
-<note n="0507016" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507016">蜜＝櫁【元】【明】</note>
-<note n="0507017" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507017">者＝戒【三】</note>
-<note n="0507018" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507018">經＝維【三】</note>
-<note n="0507019" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507019">不＝無【三】</note>
-<note n="0507020" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507020">生＝盜媱【三】</note>
-<note n="0507021" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507021">橫＝限【三】</note>
-<note n="0507022" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507022">妄＝忘【三】</note>
-<note n="0507023" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507023">婬色者＝婬失者【三】</note>
-<note n="0507024" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507024">〔人〕－【三】</note>
-<note n="0507025" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507025">（他）＋妻【三】</note>
-<note n="0507026" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507026">輒＝可【三】</note>
-<note n="0507027" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507027">有別離＝別離業【三】</note>
-<note n="0507028" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507028">語＝言【三】</note>
-<note n="0507029" resp="#resp2" type="orig" place="foot text" target="#nkr_note_orig_0507029">喜＝然【三】</note>
+<note n="0507008" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507008">〔佛〕－【三】</note>
+<note n="0507009" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507009">〔長跪叉手〕－【三】</note>
+<note n="0507010" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507010">而＝前【三】</note>
+<note n="0507011" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507011">香＝意【三】</note>
+<note n="0507012" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507012">淫＝婬【三】</note>
+<note n="0507013" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507013">〔妬〕－【三】</note>
+<note n="0507014" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507014">三尊＝三寶【三】</note>
+<note n="0507015" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507015">奉行十＝及奉行【三】</note>
+<note n="0507016" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507016">蜜＝櫁【元】【明】</note>
+<note n="0507017" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507017">者＝戒【三】</note>
+<note n="0507018" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507018">經＝維【三】</note>
+<note n="0507019" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507019">不＝無【三】</note>
+<note n="0507020" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507020">生＝盜媱【三】</note>
+<note n="0507021" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507021">橫＝限【三】</note>
+<note n="0507022" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507022">妄＝忘【三】</note>
+<note n="0507023" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507023">婬色者＝婬失者【三】</note>
+<note n="0507024" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507024">〔人〕－【三】</note>
+<note n="0507025" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507025">（他）＋妻【三】</note>
+<note n="0507026" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507026">輒＝可【三】</note>
+<note n="0507027" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507027">有別離＝別離業【三】</note>
+<note n="0507028" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507028">語＝言【三】</note>
+<note n="0507029" resp="#resp3" type="orig" place="foot text" target="#nkr_note_orig_0507029">喜＝然【三】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0507b1801" resp="#resp1" type="add" target="#nkr_note_add_0507b1801">此【CB】【麗-CB】，於【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

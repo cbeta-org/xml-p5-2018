@@ -14,6 +14,7 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:15:19 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -207,7 +208,7 @@ Added comment  for Emacs
 <lb n="1174c18" ed="T"/>邪執既除依階趣正故有第三發趣道相。本
 <lb n="1174c19" ed="T"/>覺虛通目之為道<note place="inline">問。何者是本覺　答。本覺者根本真如。在凡時則是本覺。若知後成佛
 <lb n="1174c20" ed="T"/>則名始覺。因之為道者。答。目亦名心眼。亦名定惠道者。則無分別平等一如</note>起行向之名
-<lb n="1174c21" ed="T"/>為發趣<note place="inline">問。起行向之向何處去。答。只取無上菩提。過去佛亦行此道<anchor xml:id="nkr_note_orig_1174004" n="1174004"/><anchor xml:id="beg1174004" n="1174004"/>德<anchor xml:id="end1174004"/>成正覺。未來佛亦行此道<anchor xml:id="fxT85p1174c01"/>德
+<lb n="1174c21" ed="T"/>為發趣<note place="inline">問。起行向之向何處去。答。只取無上菩提。過去佛亦行此道<anchor xml:id="nkr_note_orig_1174004" n="1174004"/><anchor xml:id="nkr_note_mod_1174004" n="1174004"/><anchor xml:id="beg1174004" n="1174004"/>德<anchor xml:id="end1174004"/>成正覺。未來佛亦行此道<anchor xml:id="fxT85p1174c01"/>德
 <lb n="1174c22" ed="T"/>成正覺</note>趣之狀名之為相。似教宣示名為分別。</p>
 <lb n="1174c23" ed="T"/><p xml:id="pT85p1174c2301">論顯示正義者依一心法有二種門　述曰。次
 <lb n="1174c24" ed="T"/>下第三依名辨相。辨此三名即分為三。初釋
@@ -500,6 +501,12 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg1174004" to="#end1174004"><lem resp="#resp1" wit="#wit1">德</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">得</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="1174004" resp="#resp2" type="mod" target="#nkr_note_mod_1174004">德【大】＊，得【考偽-大】＊</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">

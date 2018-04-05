@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.3 $<date>$Date: 2010/03/10 03:47:52 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>ZangWai</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Buddhist Texts not contained in the Tripiṭaka Vol. 9, No. 77</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【藏外】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -281,7 +286,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="ZW" n="0390a11"/><p xml:id="pZW09p0390a1101" rend="margin-left:0em;text-indent:2em">今區別所疑，注之於錄。并近世妄撰，亦標于末。並依
 <lb ed="ZW" n="0390a12"/>倚雜經，而自製名題。進不聞遠適外域，退不見承譯西賓。
 <lb ed="ZW" n="0390a13"/>我聞興於戶牖，印可出於胸懷。誑誤後學，良足寒心。既躬
-<lb ed="ZW" n="0390a14"/>所見聞，寧敢默已。<anchor xml:id="beg_1" type="cb-app"/>嗚<anchor xml:id="end_1"/>呼來葉，慎而察焉。<anchor xml:id="nkr_note_orig_0390001" n="0390001"/></p>
+<lb ed="ZW" n="0390a14"/>所見聞，寧敢默已。<anchor xml:id="nkr_note_add_0390a1401" n="0390a1401"/><anchor xml:id="beg0390a1401" n="0390a1401"/>嗚<anchor xml:id="end0390a1401"/>呼來葉，慎而察焉。<anchor xml:id="nkr_note_orig_0390001" n="0390001"/></p>
 <lb ed="ZW" n="0390a15"/>
 <lb ed="ZW" n="0390a16"/><p xml:id="pZW09p0390a1601" rend="margin-left:0em;text-indent:2em">僧祐在這裡對疑偽經的特點、產生途徑、鑒別方式都提
 <lb ed="ZW" n="0390a17"/>出自己的意見。這在佛教文獻學史上是一大貢獻。因不屬本
@@ -1118,7 +1123,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="ZW" n="0422a20"/>周錄》收歸入藏。甚至直到開元年間仍然存在，被智昇所見。
 <lb ed="ZW" n="0422a21"/>此時距離僧法的生活時代已經有200多年，我們不能不佩服
 <lb ed="ZW" n="0422a22"/>宗教力量的巨大。</p>
-<lb ed="ZW" n="0422a23"/><p xml:id="pZW09p0422a2301" rend="margin-left:0em;text-indent:2em">由於這些經典<anchor xml:id="beg_2" type="cb-app"/>譯<anchor xml:id="end_2"/>經全部亡佚，我們現在無法對它們作出
+<lb ed="ZW" n="0422a23"/><p xml:id="pZW09p0422a2301" rend="margin-left:0em;text-indent:2em">由於這些經典<anchor xml:id="nkr_note_add_0422a2301" n="0422a2301"/><anchor xml:id="beg0422a2301" n="0422a2301"/>譯<anchor xml:id="end0422a2301"/>經全部亡佚，我們現在無法對它們作出
 <lb ed="ZW" n="0422a24"/>更為詳細的研究。目前敦煌遺書的整理還沒有完成。我們寄
 <lb ed="ZW" n="0422a25"/>希望於將來的發現。</p></cb:div>
 </body>
@@ -1126,8 +1131,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>嗚</corr><sic>鳴</sic></choice>
-<choice cb:resp="#resp2" cb:from="#beg_2" cb:to="#end_2"><corr>譯</corr><sic>益</sic></choice>
+<app from="#beg0390a1401" to="#end0390a1401"><lem wit="#wit1" resp="#resp3">嗚</lem><rdg wit="#wit2">鳴</rdg></app>
+<app from="#beg0422a2301" to="#end0422a2301"><lem wit="#wit1" resp="#resp3">譯</lem><rdg wit="#wit2">益</rdg></app>
 </p>
 </cb:div>
 <cb:div type="zangwai-notes">
@@ -1215,6 +1220,13 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <note n="0421001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0421001">《大正藏》，第49卷第55頁下。</note>
 <note n="0421002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0421002">《大正藏》，第49卷第61頁中。</note>
 <note n="0421003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0421003">《大正藏》，第49卷第74頁下。</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0390a1401" resp="#resp2" type="add" target="#nkr_note_add_0390a1401">嗚【CB】，鳴【藏外】</note>
+<note n="0422a2301" resp="#resp2" type="add" target="#nkr_note_add_0422a2301">譯【CB】，益【藏外】</note>
 </p>
 </cb:div>
 </back></text></TEI>

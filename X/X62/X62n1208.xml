@@ -13,7 +13,8 @@
 		</titleStmt>
 	<editionStmt>
 		<edition>$Revision: 1.5 $<date>$Date: 2009/04/22 09:01:56 $</date></edition>
-		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +31,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Manji Shinsan Dainihon Zokuzōkyō Vol. 62, No. 1208</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【卍續】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -238,7 +243,7 @@ Revision 1.1  2005/07/04 01:43:13  ray
 <lb ed="X" n="0818a06"/><lb ed="R110" n="0678a07"/>執。迅速還源得自由。</p>
 <lb ed="X" n="0818a07"/><lb ed="R110" n="0678a08"/><p xml:id="pX62p0818a0701">上品上生花自開。巍巍端坐紫金臺。三心圓證無生
 <lb ed="X" n="0818a08"/><lb ed="R110" n="0678a09"/>忍。不枉翹勤授記來。</p>
-<lb ed="X" n="0818a09"/><lb ed="R110" n="0678a10"/><p xml:id="pX62p0818a0901">不容議論豈容思。信口稱揚<anchor xml:id="beg_1" type="cb-app"/>已<anchor xml:id="end_1"/>覺遲。一念無生真淨
+<lb ed="X" n="0818a09"/><lb ed="R110" n="0678a10"/><p xml:id="pX62p0818a0901">不容議論豈容思。信口稱揚<anchor xml:id="nkr_note_add_0818a0901" n="0818a0901"/><anchor xml:id="beg0818a0901" n="0818a0901"/>已<anchor xml:id="end0818a0901"/>覺遲。一念無生真淨
 <lb ed="X" n="0818a10"/><lb ed="R110" n="0678a11"/>土。唯心之旨少人知。</p>
 <lb ed="X" n="0818a11"/><lb ed="R110" n="0678a12"/><p xml:id="pX62p0818a1101">南無阿彌陀。佛有甚奇怪。不過稱虗名。誘人出三界。</p>
 <lb ed="X" n="0818a12"/><lb ed="R110" n="0678a13"/><p xml:id="pX62p0818a1201">南無阿彌陀。佛無有奇特。我法妙難思。止止不須說。</p>
@@ -285,7 +290,7 @@ Revision 1.1  2005/07/04 01:43:13  ray
 <lb ed="X" n="0818c03"/><lb ed="R110" n="0679a16"/>我劬勞。罔極之恩。深固高厚。生不供甘旨。歿不克
 <lb ed="X" n="0818c04"/><lb ed="R110" n="0679a17"/>烝嘗。真世間之大罪人也。每一念興。不勝悲噎涕
 <lb ed="X" n="0818c05"/><lb ed="R110" n="0679a18"/>淚。噫生我者父母。成我者師友。將近耳順之年。唯
-<lb ed="X" n="0818c06"/><lb ed="R110" n="0679b01"/>是追遠之心不能<anchor xml:id="beg_2" type="cb-app"/>已已<anchor xml:id="end_2"/>。遂作孝思篇。以自警云。</p></cb:div>
+<lb ed="X" n="0818c06"/><lb ed="R110" n="0679b01"/>是追遠之心不能<anchor xml:id="nkr_note_add_0818c0601" n="0818c0601"/><anchor xml:id="beg0818c0601" n="0818c0601"/>已已<anchor xml:id="end0818c0601"/>。遂作孝思篇。以自警云。</p></cb:div>
 <lb ed="X" n="0818c07"/><lb ed="R110" n="0679b02"/><cb:div type="other"><cb:mulu type="其他" level="1">偈頌下</cb:mulu><p xml:id="pX62p0818c0701">學道如登萬仞山。孤峯頂上絕躋攀。直須行到無行
 <lb ed="X" n="0818c08"/><lb ed="R110" n="0679b03"/>處。始覺天地非人間。</p>
 <lb ed="X" n="0818c09"/><lb ed="R110" n="0679b04"/><p xml:id="pX62p0818c0901">向上本來無一物。菩提非樹鏡非臺。行深般若波羅
@@ -314,8 +319,15 @@ Revision 1.1  2005/07/04 01:43:13  ray
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp1" cb:from="#beg_1" cb:to="#end_1"><corr>已</corr><sic>巳</sic></choice>
-<choice cb:resp="#resp1" cb:from="#beg_2" cb:to="#end_2"><corr>已已</corr><sic>巳巳</sic></choice>
+<app from="#beg0818a0901" to="#end0818a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0818c0601" to="#end0818c0601"><lem wit="#wit1" resp="#resp2">已已</lem><rdg wit="#wit2">巳巳</rdg></app>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0818a0901" resp="#resp1" type="add" target="#nkr_note_add_0818a0901">已【CB】，巳【卍續】</note>
+<note n="0818c0601" resp="#resp1" type="add" target="#nkr_note_add_0818c0601">已已【CB】，巳巳【卍續】</note>
 </p>
 </cb:div>
 </back></text></TEI>

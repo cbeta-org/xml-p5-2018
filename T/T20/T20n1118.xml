@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2010/05/04 08:41:35 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -36,6 +37,7 @@
 		<witness xml:id="wit2">【宋】</witness>
 		<witness xml:id="wit3">【元】</witness>
 		<witness xml:id="wit4">【明】</witness>
+		<witness xml:id="wit5">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -139,11 +141,11 @@ Added comment  for Emacs
 <lb n="0507a03" ed="T"/><cb:docNumber>No. 1118</cb:docNumber>
 <lb n="0507a04" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><cb:jhead><anchor xml:id="nkr_note_orig_0507001" n="0507001"/>佛說十八臂陀羅尼經</cb:jhead></cb:juan>
 <lb n="0507a05" ed="T"/>
-<lb n="0507a06" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0507002" n="0507002"/><anchor xml:id="beg0507002" n="0507002"/>西天譯經<anchor xml:id="end0507002"/>三<anchor xml:id="nkr_note_orig_0507003" n="0507003"/><anchor xml:id="beg0507003" n="0507003"/>藏<anchor xml:id="end0507003"/><anchor xml:id="nkr_note_orig_0507004" n="0507004"/><anchor xml:id="beg0507004" n="0507004"/>朝散大夫試光祿卿
+<lb n="0507a06" ed="T"/><byline cb:type="Translator"><anchor xml:id="nkr_note_orig_0507002" n="0507002"/><anchor xml:id="nkr_note_mod_0507002" n="0507002"/><anchor xml:id="beg0507002" n="0507002"/>西天譯經<anchor xml:id="end0507002"/>三<anchor xml:id="nkr_note_orig_0507003" n="0507003"/><anchor xml:id="nkr_note_mod_0507003" n="0507003"/><anchor xml:id="beg0507003" n="0507003"/>藏<anchor xml:id="end0507003"/><anchor xml:id="nkr_note_orig_0507004" n="0507004"/><anchor xml:id="nkr_note_mod_0507004" n="0507004"/><anchor xml:id="beg0507004" n="0507004"/>朝散大夫試光祿卿
 <lb n="0507a07" ed="T"/>明教大師臣<anchor xml:id="end0507004"/>法賢奉　詔譯</byline>
-<lb n="0507a08" ed="T"/><cb:div type="jing"><p xml:id="pT20p0507a0801">爾時世尊告阿難言。世間眾生昧<anchor xml:id="nkr_note_orig_0507005" n="0507005"/><anchor xml:id="beg0507005" n="0507005"/>於<anchor xml:id="end0507005"/>實智。輪
+<lb n="0507a08" ed="T"/><cb:div type="jing"><p xml:id="pT20p0507a0801">爾時世尊告阿難言。世間眾生昧<anchor xml:id="nkr_note_orig_0507005" n="0507005"/><anchor xml:id="nkr_note_mod_0507005" n="0507005"/><anchor xml:id="beg0507005" n="0507005"/>於<anchor xml:id="end0507005"/>實智。輪
 <lb n="0507a09" ed="T"/>迴三界不知苦本。恣身口意造四重罪如是
-<lb n="0507a10" ed="T"/>之人深可憐愍。我有十八<anchor xml:id="beg_1" type="cb-app"/>臂<anchor xml:id="end_1"/>大陀羅尼。若有
+<lb n="0507a10" ed="T"/>之人深可憐愍。我有十八<anchor xml:id="nkr_note_add_0507a1001" n="0507a1001"/><anchor xml:id="beg0507a1001" n="0507a1001"/>臂<anchor xml:id="end0507a1001"/>大陀羅尼。若有
 <lb n="0507a11" ed="T"/>眾生得此陀羅尼常持誦者。是人所作根本
 <lb n="0507a12" ed="T"/>罪業皆悉除滅。復能積集無量功德。爾時世
 <lb n="0507a13" ed="T"/>尊即說十八臂陀羅尼曰。</p>
@@ -177,7 +179,16 @@ Added comment  for Emacs
 <app from="#beg0507003" to="#end0507003"><lem wit="#wit1">藏</lem><rdg resp="#resp1" wit="#wit2 #wit3">藏法師</rdg></app>
 <app cb:word-count="13" from="#beg0507004" to="#end0507004"><lem wit="#wit1">朝散大夫試光祿卿<lb n="0507a07" ed="T"/>明教大師臣</lem><rdg resp="#resp1" wit="#wit2 #wit3"><space quantity="0"/></rdg></app>
 <app from="#beg0507005" to="#end0507005"><lem wit="#wit1">於</lem><rdg resp="#resp1" wit="#wit4">于</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>臂<note type="cf1">T20n1118_p0507a04</note><note type="cf2">T20n1118_p0507a13</note></corr><sic>腎</sic></choice>
+<app from="#beg0507a1001" to="#end0507a1001"><lem wit="#wit5" resp="#resp3">臂<note type="cf1">T20n1118_p0507a04</note><note type="cf2">T20n1118_p0507a13</note></lem><rdg wit="#wit1">腎</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0507002" resp="#resp2" type="mod" target="#nkr_note_mod_0507002">西天譯經【大】，〔－〕【宋】【元】，宋西天譯經【明】</note>
+<note n="0507003" resp="#resp2" type="mod" target="#nkr_note_mod_0507003">藏【大】，藏法師【宋】【元】</note>
+<note n="0507004" resp="#resp2" type="mod" target="#nkr_note_mod_0507004">（朝散…臣）十三字【大】，〔－〕【宋】【元】</note>
+<note n="0507005" resp="#resp2" type="mod" target="#nkr_note_mod_0507005">於【大】，于【明】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -188,6 +199,12 @@ Added comment  for Emacs
 <note n="0507003" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0507003">藏＋（法師）【宋】【元】</note>
 <note n="0507004" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0507004">〔朝散…臣〕十三字－【宋】【元】</note>
 <note n="0507005" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0507005">於＝于【明】</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0507a1001" resp="#resp2" type="add" target="#nkr_note_add_0507a1001">臂【CB】，腎【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

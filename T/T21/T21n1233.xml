@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:01:44 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,8 +33,8 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 21, No. 1233</bibl>
 	<listWit>
-		<witness xml:id="wit1">【CBETA】</witness>
-		<witness xml:id="wit2">【麗】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【麗-CB】</witness>
 		<witness xml:id="wit3">【大】</witness>
 	</listWit>
 	</sourceDesc>
@@ -399,7 +400,7 @@ Added comment  for Emacs
 <lb n="0173b02" ed="T"/>得勝。爾時帝釋天主。即以此無能勝陀羅尼。
 <lb n="0173b03" ed="T"/>書於金葉安旗幟頭。復與相戰。時天眾得勝。
 <lb n="0173b04" ed="T"/>阿蘇羅軍尋即退散。即說呪曰。</p>
-<lb n="0173b05" ed="T"/><p cb:type="dharani" xml:id="pT21p0173b0501">怛<note place="inline">上</note>儞也<note place="inline">二合</note>他<note place="inline">去引一</note>沒素謎<note place="inline">二</note><anchor xml:id="beg_1" type="cb-app"/>嚩<anchor xml:id="end_1"/>素迦囉帝
+<lb n="0173b05" ed="T"/><p cb:type="dharani" xml:id="pT21p0173b0501">怛<note place="inline">上</note>儞也<note place="inline">二合</note>他<note place="inline">去引一</note>沒素謎<note place="inline">二</note><anchor xml:id="nkr_note_add_0173b0501" n="0173b0501"/><anchor xml:id="beg0173b0501" n="0173b0501"/>嚩<anchor xml:id="end0173b0501"/>素迦囉帝
 <lb n="0173b06" ed="T"/><note place="inline">三</note>曩<note place="inline">引</note>虞<note place="inline">上</note>那哩佐<note place="inline">四</note>迦播哩抳<note place="inline">五</note>娑嚩<note place="inline">二合引</note>賀
 <lb n="0173b07" ed="T"/><note place="inline">引六</note></p>
 <lb n="0173b08" ed="T"/><p xml:id="pT21p0173b0801">佛告舍利子。我不見有諸天及魔羅等。乃至
@@ -418,13 +419,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg_1" to="#end_1"><lem resp="#resp2" wit="#wit1 #wit2">嚩<note type="cf1">K33n1110_p0919a22</note></lem><rdg wit="#wit3"><g ref="#CB02389">𭌯</g></rdg></app>
+<app from="#beg0173b0501" to="#end0173b0501"><lem resp="#resp3" wit="#wit1 #wit2">嚩<note type="cf1">K33n1110_p0919a22</note></lem><rdg wit="#wit3"><g ref="#CB02389">𭌯</g></rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0171015" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0171015">【原】麗本，此經宋元明三本俱缺</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0173b0501" resp="#resp2" type="add" target="#nkr_note_add_0173b0501">嚩【CB】【麗-CB】，<g ref="#CB02389">𭌯</g>【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

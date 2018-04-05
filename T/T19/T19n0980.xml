@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.8 $<date>$Date: 2009/04/23 08:00:04 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -31,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 19, No. 980</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -153,7 +158,7 @@ Added comment  for Emacs
 <lb n="0410c14" ed="T"/>印。安住千葉白蓮華。身色如白光。遍身成
 <lb n="0410c15" ed="T"/>火光。四角畫四明王。東南角畫不動金剛。西
 <lb n="0410c16" ed="T"/>南角馬頭金剛。西北角六足金剛。東北角藥
-<lb n="0410c17" ed="T"/>叉金剛。畫此四忿怒王。各執器<anchor xml:id="beg_1" type="cb-app"/>杖<anchor xml:id="end_1"/>。現極猛利
+<lb n="0410c17" ed="T"/>叉金剛。畫此四忿怒王。各執器<anchor xml:id="nkr_note_add_0410c1701" n="0410c1701"/><anchor xml:id="beg0410c1701" n="0410c1701"/>杖<anchor xml:id="end0410c1701"/>。現極猛利
 <lb n="0410c18" ed="T"/>勢。次畫八方天王。各卛眷屬恭敬圍繞。若有
 <lb n="0410c19" ed="T"/>真言行者欲供養者。於淨室及山林靜靜處。
 <lb n="0410c20" ed="T"/>燒香散時花。念誦真言五十萬遍。我及八佛
@@ -182,13 +187,19 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>杖<note type="cf1">T19n0981_p0411b29</note></corr><sic>扙</sic></choice>
+<app from="#beg0410c1701" to="#end0410c1701"><lem wit="#wit1" resp="#resp3">杖<note type="cf1">T19n0981_p0411b29</note></lem><rdg wit="#wit2">扙</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0410002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0410002">【原】康元二年寫東寺三密藏本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0410c1701" resp="#resp2" type="add" target="#nkr_note_add_0410c1701">杖【CB】，扙【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

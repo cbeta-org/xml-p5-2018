@@ -14,7 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.10 $<date>$Date: 2010/10/25 08:22:38 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
-		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -33,6 +34,7 @@
 		<bibl>Taishō Tripiṭaka Vol. 19, No. 1001</bibl>
 	<listWit>
 		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit2">【CB】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -164,7 +166,7 @@ Added comment  for Emacs
 <lb n="0602b02" ed="T"/><cb:docNumber>No. 1001</cb:docNumber>
 <lb n="0602b03" ed="T"/><cb:juan n="001" fun="open"><cb:mulu n="001" type="卷"></cb:mulu><anchor xml:id="nkr_note_orig_0602011" n="0602011"/><cb:jhead>法華曼荼羅威儀形色法經</cb:jhead></cb:juan>
 <lb n="0602b04" ed="T"/>
-<lb n="0602b05" ed="T"/><cb:div type="other"><p xml:id="pT19p0602b0501">證成妙法<anchor xml:id="nkr_note_orig_0602012" n="0602012"/><anchor xml:id="beg0602012" n="0602012"/>自<anchor xml:id="end0602012"/>蓮華經王八葉蓮華上湧出寶
+<lb n="0602b05" ed="T"/><cb:div type="other"><p xml:id="pT19p0602b0501">證成妙法<anchor xml:id="nkr_note_orig_0602012" n="0602012"/><anchor xml:id="nkr_note_mod_0602012" n="0602012"/><anchor xml:id="beg0602012" n="0602012"/>自<anchor xml:id="end0602012"/>蓮華經王八葉蓮華上湧出寶
 <lb n="0602b06" ed="T"/>塔中兩足婆誐鑁八大菩薩等及三重方壇三
 <lb n="0602b07" ed="T"/>摩耶眷屬妙威儀形色滿願會方位幖幟曼荼
 <lb n="0602b08" ed="T"/>羅八平等大會成就法花三昧現世入初地決
@@ -208,7 +210,7 @@ Added comment  for Emacs
 <lb n="0602c16" ed="T"/>南門置毘樓勒叉天王。西門置毘樓博叉天
 <lb n="0602c17" ed="T"/>王。北門置大梵天王。門南置天帝釋。於南門
 <lb n="0602c18" ed="T"/>東置大自在天。門西置難陀龍王。於西門南
-<lb n="0602c19" ed="T"/>置妙法<anchor xml:id="nkr_note_orig_0602013" n="0602013"/><anchor xml:id="beg0602013" n="0602013"/>竪<anchor xml:id="end0602013"/>那羅王。門北置樂音乾闥婆王。於
+<lb n="0602c19" ed="T"/>置妙法<anchor xml:id="nkr_note_orig_0602013" n="0602013"/><anchor xml:id="nkr_note_mod_0602013" n="0602013"/><anchor xml:id="beg0602013" n="0602013"/>竪<anchor xml:id="end0602013"/>那羅王。門北置樂音乾闥婆王。於
 <lb n="0602c20" ed="T"/>北門西置羅喉阿修羅王。門東置如意伽樓
 <lb n="0602c21" ed="T"/>羅王。於東北隅聖烏芻沙摩金剛。東南方隅
 <lb n="0602c22" ed="T"/>置聖軍吒利金剛。西南方隅置聖不動尊金
@@ -374,7 +376,7 @@ Added comment  for Emacs
 <lb n="0604c02" ed="T"/><l>左定拳押膝</l><l>右惠蓮上鉢</l></lg>
 <lb n="0604c03" ed="T"/><p xml:id="pT19p0604c0301">西門南寶月菩薩</p>
 <lb n="0604c04" ed="T"/><lg xml:id="lgT19p0604c0401"><l>頂上五髻冠</l><l>身相茂黃色</l>
-<lb n="0604c05" ed="T"/><l>左定縛<anchor xml:id="beg_1" type="cb-app"/>日<anchor xml:id="end_1"/>羅</l><l>右惠拳押膝</l></lg>
+<lb n="0604c05" ed="T"/><l>左定縛<anchor xml:id="nkr_note_add_0604c0501" n="0604c0501"/><anchor xml:id="beg0604c0501" n="0604c0501"/>日<anchor xml:id="end0604c0501"/>羅</l><l>右惠拳押膝</l></lg>
 <lb n="0604c06" ed="T"/><p xml:id="pT19p0604c0601">北滿月菩薩</p>
 <lb n="0604c07" ed="T"/><lg xml:id="lgT19p0604c0701"><l>頂上五髻冠</l><l>身相深黃色</l>
 <lb n="0604c08" ed="T"/><l>左上青雲月</l><l>古惠施無畏</l></lg>
@@ -526,7 +528,14 @@ Added comment  for Emacs
 <p>
 <app from="#beg0602012" to="#end0602012"><lem resp="#resp1" wit="#wit1">自</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">白</rdg></app>
 <app from="#beg0602013" to="#end0602013"><lem resp="#resp1" wit="#wit1">竪</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark">緊</rdg></app>
-<choice cb:resp="#resp2" cb:from="#beg_1" cb:to="#end_1"><corr>日</corr><sic>曰</sic></choice>
+<app from="#beg0604c0501" to="#end0604c0501"><lem wit="#wit2" resp="#resp3">日</lem><rdg wit="#wit1">曰</rdg></app>
+</p>
+</cb:div>
+<cb:div type="cbeta-notes">
+<head>CBETA 校註</head>
+<p>
+<note n="0602012" resp="#resp2" type="mod" target="#nkr_note_mod_0602012">自【大】＊，白【考偽-大】＊</note>
+<note n="0602013" resp="#resp2" type="mod" target="#nkr_note_mod_0602013">竪【大】，緊【考偽-大】</note>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -538,6 +547,12 @@ Added comment  for Emacs
 <note n="0604001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0604001">原本註曰大黑又作白肉</note>
 <note n="0605001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0605001">色下脫文乎</note>
 <note n="0605002" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0605002">水下脫文乎</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0604c0501" resp="#resp2" type="add" target="#nkr_note_add_0604c0501">日【CB】，曰【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>
