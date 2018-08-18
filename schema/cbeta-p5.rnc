@@ -386,6 +386,7 @@ att.global.attributes =
   att.global.attribute.xmllang,
   att.global.attribute.rend,
   att.global.attribute.rendition,
+  att.global.attribute.style,
   att.global.attribute.xmlbase
 att.global.attribute.xmlid =
   
@@ -418,6 +419,8 @@ att.global.attribute.rendition =
   attribute rendition {
     list { xsd:anyURI+ }
   }?
+att.global.attribute.style =
+  attribute style { text }?
 att.global.attribute.xmlbase =
   
   ## provides a base URI reference with which applications can
@@ -1057,6 +1060,7 @@ tei_p =
     ##                                     types of paragraphs, for example those containing a dharani, a
     ##                                     dedication, etc.
     attribute ns1:type { text }?,
+    attribute ns1:place { text }?,
     att.global.attributes,
     att.declaring.attributes,
     empty
@@ -1254,6 +1258,7 @@ tei_term =
   ##         technical term.
   element term {
     tei_macro.phraseSeq,
+    attribute ns1:behaviour { text }?,
     att.global.attributes,
     att.declaring.attributes,
     att.typed.attributes,
@@ -3169,6 +3174,7 @@ tei_text =
      (tei_body | tei_group),
      tei_model.global*,
      (tei_back, tei_model.global*)?),
+    attribute ns1:behaviour { text }?,
     att.global.attributes,
     att.declaring.attributes,
     att.typed.attributes,
