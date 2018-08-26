@@ -4,7 +4,7 @@
 <fileDesc>
 		<titleStmt>
 			<title>Qianlong Edition of the Canon (Shinwenfeng Edition), Electronic version, No. 1652 明覺聰禪師語錄</title>
-			<title>Qianlong Edition of the Canon, Electronic version, No. 1652 明覺聰禪師語錄</title>
+			<title xml:lang="zh-Hant">乾隆大藏經（新文豐版）數位版, No. 1652 明覺聰禪師語錄</title>
 			<author>清 性聰撰述 寂空．方醒等編次</author>
 			<respStmt>
 				<resp>Electronic Version by</resp>
@@ -2239,8 +2239,9 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 </revisionDesc>
 </teiHeader>
 <text><body>
+<milestone unit="juan" n="1"/>
 <pb ed="L" xml:id="L158.1652.0003a" n="0003a"/>
-<lb ed="L" n="0003a01"/><milestone unit="juan" n="1"/><cb:mulu type="卷" n="1"></cb:mulu><cb:juan fun="open" n="1"><cb:jhead>明覺聰禪師語錄卷第一　　　　貌一</cb:jhead></cb:juan>
+<lb ed="L" n="0003a01"/><cb:mulu type="卷" n="1"></cb:mulu><cb:juan fun="open" n="1"><cb:jhead>明覺聰禪師語錄卷第一　　　　貌一</cb:jhead></cb:juan>
 <lb ed="L" n="0003a02"/><byline cb:type="editor">嗣法門人寂空編</byline>
 <lb ed="L" n="0003a03"/><cb:div type="other"><cb:mulu type="其他" level="1">敕書</cb:mulu><head>敕書</head>
 <lb ed="L" n="0003a04"/><p xml:id="pL158p0003a0401">皇帝敕諭朕惟迦文啟教妙覺之理獨隆法
@@ -2424,7 +2425,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0008b06" type="honorific"/>皇上化導天下之至意弘昭普覺立教度人
 <lb ed="L" n="0008b07"/>之盛者矣猗歟休哉若<note place="inline">簡</note>畧無知識妄繪
 <lb ed="L" n="0008b08"/>虛空尚望師之有以破除瘴礙也。</p>
-<lb ed="L" n="0008b09"/><p style="margin-left:1em;text-indent:-1em" xml:id="pL158p0008b0901">順治十六年季春資政大夫禮部尚書宛
+<lb ed="L" n="0008b09"/><p xml:id="pL158p0008b0901" style="margin-left:1em;text-indent:-1em">順治十六年季春資政大夫禮部尚書宛
 <lb ed="L" n="0008b10"/>平王崇簡薰<g ref="#CB02963">󰮓</g>撰</p></cb:div>
 <lb ed="L" n="0008b11"/><cb:div type="other"><cb:mulu type="其他" level="2">金之俊序</cb:mulu><head>序</head>
 <lb ed="L" n="0008b12"/><p xml:id="pL158p0008b1201">楞嚴經云但有言說都無實義然則一千
@@ -2614,10 +2615,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0014b04"/><p xml:id="pL158p0014b0401">目錄終</p></cb:div>
 <lb ed="L" n="0014b05"/><cb:juan fun="close" n="1"><cb:jhead>明覺聰禪師語錄卷第一</cb:jhead></cb:juan>
 <lb ed="L" n="0014b06"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0014b07"/><cb:div type="note"><entry><form>氓</form><cb:def><p style="margin-left:1em" xml:id="pL158p0014b0702" cb:place="inline"><note place="inline">眉庚切音萌民也</note>。</p></cb:def></entry><entry cb:place="inline"><form>企</form><cb:def><p style="margin-left:1em" xml:id="pL158p0014b0710" cb:place="inline"><note place="inline">去冀切音<term cb:behaviour="no-norm">噐</term>舉踵而望也</note>。</p></cb:def></entry><entry cb:place="inline"><form>聿</form><cb:def><p style="margin-left:1em" xml:id="pL158p0014b0721" cb:place="inline"><note place="inline">以律切雲入聲
-<lb ed="L" n="0014b08"/>遂也</note>。</p></cb:def></entry><entry cb:place="inline"><form>畛</form><cb:def><p style="margin-left:1em" xml:id="pL158p0014b0804" cb:place="inline"><note place="inline">止忍切音軫田間道也</note>。</p></cb:def></entry><entry cb:place="inline"><form>逌</form><cb:def><p style="margin-left:1em" xml:id="pL158p0014b0814" cb:place="inline"><note place="inline">于求切音由與攸同</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0014b07"/><cb:div type="note"><entry><form>氓</form><cb:def><p xml:id="pL158p0014b0702" style="margin-left:1em" cb:place="inline"><note place="inline">眉庚切音萌民也</note>。</p></cb:def></entry><entry cb:place="inline"><form>企</form><cb:def><p xml:id="pL158p0014b0710" style="margin-left:1em" cb:place="inline"><note place="inline">去冀切音<term cb:behaviour="no-norm">噐</term>舉踵而望也</note>。</p></cb:def></entry><entry cb:place="inline"><form>聿</form><cb:def><p xml:id="pL158p0014b0721" style="margin-left:1em" cb:place="inline"><note place="inline">以律切雲入聲
+<lb ed="L" n="0014b08"/>遂也</note>。</p></cb:def></entry><entry cb:place="inline"><form>畛</form><cb:def><p xml:id="pL158p0014b0804" style="margin-left:1em" cb:place="inline"><note place="inline">止忍切音軫田間道也</note>。</p></cb:def></entry><entry cb:place="inline"><form>逌</form><cb:def><p xml:id="pL158p0014b0814" style="margin-left:1em" cb:place="inline"><note place="inline">于求切音由與攸同</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="2"/>
 <pb ed="L" xml:id="L158.1652.0015a" n="0015a"/>
-<lb ed="L" n="0015a01"/><milestone unit="juan" n="2"/><cb:mulu type="卷" n="2"></cb:mulu><cb:juan fun="open" n="2"><cb:jhead>明覺聰禪師語錄卷第二　　　　貌二</cb:jhead></cb:juan>
+<lb ed="L" n="0015a01"/><cb:mulu type="卷" n="2"></cb:mulu><cb:juan fun="open" n="2"><cb:jhead>明覺聰禪師語錄卷第二　　　　貌二</cb:jhead></cb:juan>
 <lb ed="L" n="0015a02"/><byline cb:type="editor">嗣法門人方醒編</byline>
 <lb ed="L" n="0015a03"/><cb:div type="other"><cb:mulu type="其他" level="1">北京皇城內萬善殿語錄</cb:mulu><head>北京皇城內萬善殿語錄</head>
 <lb ed="L" n="0015a04"/><p xml:id="pL158p0015a0401">順治十五年師在延壽寺應禪期於九月
@@ -3044,10 +3046,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0028a09"/><cb:juan fun="close" n="2"><cb:jhead>明覺聰禪師語錄卷第二</cb:jhead></cb:juan>
 <lb ed="L" n="0028a10"/>
 <lb ed="L" n="0028a11"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0028a12"/><cb:div type="note"><entry><form><term cb:behaviour="no-norm">爕</term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0028a1202" cb:place="inline"><note place="inline">俗燮字</note>。</p></cb:def></entry><entry cb:place="inline"><form>劃</form><cb:def><p style="margin-left:1em" xml:id="pL158p0028a1206" cb:place="inline"><note place="inline">霍國切音畫剖也</note>。</p></cb:def></entry><entry cb:place="inline"><form>驤</form><cb:def><p style="margin-left:1em" xml:id="pL158p0028a1214" cb:place="inline"><note place="inline">息良切音湘馬低昂騰躍也</note>。</p></cb:def></entry>
-<lb ed="L" n="0028a13"/><entry><form>彀</form><cb:def><p style="margin-left:1em" xml:id="pL158p0028a1302" cb:place="inline"><note place="inline">居候切音姤矢持滿也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0028a12"/><cb:div type="note"><entry><form><term cb:behaviour="no-norm">爕</term></form><cb:def><p xml:id="pL158p0028a1202" style="margin-left:1em" cb:place="inline"><note place="inline">俗燮字</note>。</p></cb:def></entry><entry cb:place="inline"><form>劃</form><cb:def><p xml:id="pL158p0028a1206" style="margin-left:1em" cb:place="inline"><note place="inline">霍國切音畫剖也</note>。</p></cb:def></entry><entry cb:place="inline"><form>驤</form><cb:def><p xml:id="pL158p0028a1214" style="margin-left:1em" cb:place="inline"><note place="inline">息良切音湘馬低昂騰躍也</note>。</p></cb:def></entry>
+<lb ed="L" n="0028a13"/><entry><form>彀</form><cb:def><p xml:id="pL158p0028a1302" style="margin-left:1em" cb:place="inline"><note place="inline">居候切音姤矢持滿也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="3"/>
 <pb ed="L" xml:id="L158.1652.0028b" n="0028b"/>
-<lb ed="L" n="0028b01"/><milestone unit="juan" n="3"/><cb:mulu type="卷" n="3"></cb:mulu><cb:juan fun="open" n="3"><cb:jhead>明覺聰禪師語錄卷第三　　　　貌三</cb:jhead></cb:juan>
+<lb ed="L" n="0028b01"/><cb:mulu type="卷" n="3"></cb:mulu><cb:juan fun="open" n="3"><cb:jhead>明覺聰禪師語錄卷第三　　　　貌三</cb:jhead></cb:juan>
 <lb ed="L" n="0028b02"/><byline cb:type="editor">嗣法門人海屋編</byline>
 <lb ed="L" n="0028b03"/><cb:div type="other"><cb:mulu type="其他" level="1">燕京順天府愍忠禪寺語錄二</cb:mulu><head>燕京順天府愍忠禪寺語錄</head>
 <lb ed="L" n="0028b04"/><p xml:id="pL158p0028b0401">舉法如為首座上堂僧問唱演宗乘須敏
@@ -3506,11 +3509,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0042b09"/>
 <lb ed="L" n="0042b10"/><cb:juan fun="close" n="3"><cb:jhead>明覺聰禪師語錄卷第三</cb:jhead></cb:juan>
 <lb ed="L" n="0042b11"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0042b12"/><cb:div type="note"><entry><form><term cb:behaviour="no-norm"><g ref="#CB15409">𠿕</g></term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0042b1202" cb:place="inline"><note place="inline">苦弔切音竅不安妥也</note>。</p></cb:def></entry><entry cb:place="inline"><form>吻</form><cb:def><p style="margin-left:1em" xml:id="pL158p0042b1212" cb:place="inline"><note place="inline">武粉切音刎口脣邊曰吻</note>。</p></cb:def></entry><entry cb:place="inline"><form>濼</form><cb:def><p style="margin-left:1em" xml:id="pL158p0042b1223" cb:place="inline"><note place="inline">弼各切音
-<lb ed="L" n="0042b13"/>薄陂澤也</note>。</p></cb:def></entry><entry cb:place="inline"><form>桎梏</form><cb:def><p style="margin-left:1em" xml:id="pL158p0042b1307" cb:place="inline"><note place="inline">上職日切音質足械也下古祿切音谷手械也</note>。</p></cb:def></entry><entry cb:place="inline"><form>蜒蚰</form>
-<lb ed="L" n="0042b14"/><cb:def><p style="margin-left:1em" xml:id="pL158p0042b1401"><note place="inline">上夷然切音延下于求切音尤蜒蚰蟲名</note>。</p></cb:def></entry><entry cb:place="inline"><form>戩</form><cb:def><p style="margin-left:1em" xml:id="pL158p0042b1418" cb:place="inline"><note place="inline">子淺切音剪福祥也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0042b12"/><cb:div type="note"><entry><form><term cb:behaviour="no-norm"><g ref="#CB15409">𠿕</g></term></form><cb:def><p xml:id="pL158p0042b1202" style="margin-left:1em" cb:place="inline"><note place="inline">苦弔切音竅不安妥也</note>。</p></cb:def></entry><entry cb:place="inline"><form>吻</form><cb:def><p xml:id="pL158p0042b1212" style="margin-left:1em" cb:place="inline"><note place="inline">武粉切音刎口脣邊曰吻</note>。</p></cb:def></entry><entry cb:place="inline"><form>濼</form><cb:def><p xml:id="pL158p0042b1223" style="margin-left:1em" cb:place="inline"><note place="inline">弼各切音
+<lb ed="L" n="0042b13"/>薄陂澤也</note>。</p></cb:def></entry><entry cb:place="inline"><form>桎梏</form><cb:def><p xml:id="pL158p0042b1307" style="margin-left:1em" cb:place="inline"><note place="inline">上職日切音質足械也下古祿切音谷手械也</note>。</p></cb:def></entry><entry cb:place="inline"><form>蜒蚰</form>
+<lb ed="L" n="0042b14"/><cb:def><p xml:id="pL158p0042b1401" style="margin-left:1em"><note place="inline">上夷然切音延下于求切音尤蜒蚰蟲名</note>。</p></cb:def></entry><entry cb:place="inline"><form>戩</form><cb:def><p xml:id="pL158p0042b1418" style="margin-left:1em" cb:place="inline"><note place="inline">子淺切音剪福祥也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="4"/>
 <pb ed="L" xml:id="L158.1652.0043a" n="0043a"/>
-<lb ed="L" n="0043a01"/><milestone unit="juan" n="4"/><cb:mulu type="卷" n="4"></cb:mulu><cb:juan fun="open" n="4"><cb:jhead>明覺聰禪師語錄卷第四　　　　貌四</cb:jhead></cb:juan>
+<lb ed="L" n="0043a01"/><cb:mulu type="卷" n="4"></cb:mulu><cb:juan fun="open" n="4"><cb:jhead>明覺聰禪師語錄卷第四　　　　貌四</cb:jhead></cb:juan>
 <lb ed="L" n="0043a02"/><byline cb:type="editor">嗣法門人海屋編</byline>
 <lb ed="L" n="0043a03"/><cb:div type="other"><cb:mulu type="其他" level="1">燕京順天府愍忠禪寺語錄三</cb:mulu><head>燕京順天府愍忠禪寺語錄</head>
 <lb ed="L" n="0043a04"/><p xml:id="pL158p0043a0401">侍御何公請上堂僧問三教本來無異路
@@ -4071,10 +4075,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0060a15"/><cb:juan fun="close" n="4"><cb:jhead>明覺聰禪師語錄卷第四</cb:jhead></cb:juan>
 <pb ed="L" xml:id="L158.1652.0060b" n="0060b"/>
 <lb ed="L" n="0060b01"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0060b02"/><cb:div type="note"><entry><form><term cb:behaviour="no-norm"><g ref="#CB07292">𨶑</g></term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0060b0202" cb:place="inline"><note place="inline">傾入聲寂靜貌</note>。</p></cb:def></entry><entry cb:place="inline"><form>攫</form><cb:def><p style="margin-left:1em" xml:id="pL158p0060b0209" cb:place="inline"><note place="inline">匡入聲爪持也撲取也</note>。</p></cb:def></entry><entry cb:place="inline"><form>簉</form><cb:def><p style="margin-left:1em" xml:id="pL158p0060b0219" cb:place="inline"><note place="inline">初救切篘去聲衝也</note>。</p></cb:def></entry>
-<lb ed="L" n="0060b03"/><entry><form>馗</form><cb:def><p style="margin-left:1em" xml:id="pL158p0060b0302" cb:place="inline"><note place="inline">渠為切音逵人名也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB06107">𥲤</g></term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0060b0311" cb:place="inline"><note place="inline">渠上聲鐘架也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB30339">󷚃</g></term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0060b0318" cb:place="inline"><note place="inline">徒協切音牒細毛布也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0060b02"/><cb:div type="note"><entry><form><term cb:behaviour="no-norm"><g ref="#CB07292">𨶑</g></term></form><cb:def><p xml:id="pL158p0060b0202" style="margin-left:1em" cb:place="inline"><note place="inline">傾入聲寂靜貌</note>。</p></cb:def></entry><entry cb:place="inline"><form>攫</form><cb:def><p xml:id="pL158p0060b0209" style="margin-left:1em" cb:place="inline"><note place="inline">匡入聲爪持也撲取也</note>。</p></cb:def></entry><entry cb:place="inline"><form>簉</form><cb:def><p xml:id="pL158p0060b0219" style="margin-left:1em" cb:place="inline"><note place="inline">初救切篘去聲衝也</note>。</p></cb:def></entry>
+<lb ed="L" n="0060b03"/><entry><form>馗</form><cb:def><p xml:id="pL158p0060b0302" style="margin-left:1em" cb:place="inline"><note place="inline">渠為切音逵人名也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB06107">𥲤</g></term></form><cb:def><p xml:id="pL158p0060b0311" style="margin-left:1em" cb:place="inline"><note place="inline">渠上聲鐘架也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB30339">󷚃</g></term></form><cb:def><p xml:id="pL158p0060b0318" style="margin-left:1em" cb:place="inline"><note place="inline">徒協切音牒細毛布也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="5"/>
 <pb ed="L" xml:id="L158.1652.0061a" n="0061a"/>
-<lb ed="L" n="0061a01"/><milestone unit="juan" n="5"/><cb:mulu type="卷" n="5"></cb:mulu><cb:juan fun="open" n="5"><cb:jhead>明覺聰禪師語錄卷第五　　　　貌五</cb:jhead></cb:juan>
+<lb ed="L" n="0061a01"/><cb:mulu type="卷" n="5"></cb:mulu><cb:juan fun="open" n="5"><cb:jhead>明覺聰禪師語錄卷第五　　　　貌五</cb:jhead></cb:juan>
 <lb ed="L" n="0061a02"/><byline cb:type="editor">嗣法門人海淳編</byline>
 <lb ed="L" n="0061a03"/><cb:div type="other"><cb:mulu type="其他" level="1">再住錦山觀音禪寺語錄</cb:mulu><head>再住錦山觀音禪寺語錄</head>
 <lb ed="L" n="0061a04"/><p xml:id="pL158p0061a0401">進院上堂拋磚引玉價重連城點鐵成金
@@ -4528,10 +4533,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0075a04"/>峰前疊翠如螺髻江上楊花似蝶飛。</p></cb:div>
 <lb ed="L" n="0075a05"/><cb:juan fun="close" n="5"><cb:jhead>明覺聰禪師語錄卷第五</cb:jhead></cb:juan>
 <lb ed="L" n="0075a06"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0075a07"/><cb:div type="note"><entry><form>咿</form><cb:def><p style="margin-left:1em" xml:id="pL158p0075a0702" cb:place="inline"><note place="inline">於宜切音伊聲也</note>。</p></cb:def></entry><entry cb:place="inline"><form>肓</form><cb:def><p style="margin-left:1em" xml:id="pL158p0075a0710" cb:place="inline"><note place="inline">呼光切音<term cb:behaviour="no-norm"><g ref="#CB22129">󵙱</g></term>心上鬲也</note>。</p></cb:def></entry><entry cb:place="inline"><form>圉</form><cb:def><p style="margin-left:1em" xml:id="pL158p0075a0720" cb:place="inline"><note place="inline">偶許切音語垂
-<lb ed="L" n="0075a08"/>也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB05465">㞘</g></term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0075a0803" cb:place="inline"><note place="inline">都木切臀也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0075a07"/><cb:div type="note"><entry><form>咿</form><cb:def><p xml:id="pL158p0075a0702" style="margin-left:1em" cb:place="inline"><note place="inline">於宜切音伊聲也</note>。</p></cb:def></entry><entry cb:place="inline"><form>肓</form><cb:def><p xml:id="pL158p0075a0710" style="margin-left:1em" cb:place="inline"><note place="inline">呼光切音<term cb:behaviour="no-norm"><g ref="#CB22129">󵙱</g></term>心上鬲也</note>。</p></cb:def></entry><entry cb:place="inline"><form>圉</form><cb:def><p xml:id="pL158p0075a0720" style="margin-left:1em" cb:place="inline"><note place="inline">偶許切音語垂
+<lb ed="L" n="0075a08"/>也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB05465">㞘</g></term></form><cb:def><p xml:id="pL158p0075a0803" style="margin-left:1em" cb:place="inline"><note place="inline">都木切臀也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="6"/>
 <pb ed="L" xml:id="L158.1652.0075b" n="0075b"/>
-<lb ed="L" n="0075b01"/><milestone unit="juan" n="6"/><cb:mulu type="卷" n="6"></cb:mulu><cb:juan fun="open" n="6"><cb:jhead>明覺聰禪師語錄卷第六　　　　貌六</cb:jhead></cb:juan>
+<lb ed="L" n="0075b01"/><cb:mulu type="卷" n="6"></cb:mulu><cb:juan fun="open" n="6"><cb:jhead>明覺聰禪師語錄卷第六　　　　貌六</cb:jhead></cb:juan>
 <lb ed="L" n="0075b02"/><byline cb:type="editor">嗣法門人明德編</byline>
 <lb ed="L" n="0075b03"/><cb:div type="other"><cb:mulu type="其他" level="1">杭州府錢塘縣廣福禪院語錄</cb:mulu><head>杭州府錢塘縣廣福禪院語錄</head>
 <lb ed="L" n="0075b04"/><p xml:id="pL158p0075b0401">順治甲午年師受護法來坤宇居士等請
@@ -4990,10 +4996,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0089b09"/>
 <lb ed="L" n="0089b10"/><cb:juan fun="close" n="6"><cb:jhead>明覺聰禪師語錄卷第六</cb:jhead></cb:juan>
 <lb ed="L" n="0089b11"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0089b12"/><cb:div type="note"><entry><form>埠</form><cb:def><p style="margin-left:1em" xml:id="pL158p0089b1202" cb:place="inline"><note place="inline">同步舶船埠頭水瀕也</note>。</p></cb:def></entry><entry cb:place="inline"><form>醨</form><cb:def><p style="margin-left:1em" xml:id="pL158p0089b1212" cb:place="inline"><note place="inline">鄰溪切音離薄酒也</note>。</p></cb:def></entry><entry cb:place="inline"><form>簸</form><cb:def><p style="margin-left:1em" xml:id="pL158p0089b1221" cb:place="inline"><note place="inline">波上聲揚米去
-<lb ed="L" n="0089b13"/>糠也</note>。</p></cb:def></entry><entry cb:place="inline"><form><anchor xml:id="nkr_note_add_0089b1301" n="0089b1301"/><anchor xml:id="beg0089b1301" n="0089b1301"/><term cb:behaviour="no-norm">筯</term><anchor xml:id="end0089b1301"/></form><cb:def><p style="margin-left:1em" xml:id="pL158p0089b1308" cb:place="inline"><note place="inline">治據切音住匙<anchor xml:id="nkr_note_add_0089b1302" n="0089b1302"/><anchor xml:id="beg0089b1302" n="0089b1302"/><term cb:behaviour="no-norm">筯</term><anchor xml:id="end0089b1302"/>也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0089b12"/><cb:div type="note"><entry><form>埠</form><cb:def><p xml:id="pL158p0089b1202" style="margin-left:1em" cb:place="inline"><note place="inline">同步舶船埠頭水瀕也</note>。</p></cb:def></entry><entry cb:place="inline"><form>醨</form><cb:def><p xml:id="pL158p0089b1212" style="margin-left:1em" cb:place="inline"><note place="inline">鄰溪切音離薄酒也</note>。</p></cb:def></entry><entry cb:place="inline"><form>簸</form><cb:def><p xml:id="pL158p0089b1221" style="margin-left:1em" cb:place="inline"><note place="inline">波上聲揚米去
+<lb ed="L" n="0089b13"/>糠也</note>。</p></cb:def></entry><entry cb:place="inline"><form><anchor xml:id="nkr_note_add_0089b1301" n="0089b1301"/><anchor xml:id="beg0089b1301" n="0089b1301"/><term cb:behaviour="no-norm">筯</term><anchor xml:id="end0089b1301"/></form><cb:def><p xml:id="pL158p0089b1308" style="margin-left:1em" cb:place="inline"><note place="inline">治據切音住匙<anchor xml:id="nkr_note_add_0089b1302" n="0089b1302"/><anchor xml:id="beg0089b1302" n="0089b1302"/><term cb:behaviour="no-norm">筯</term><anchor xml:id="end0089b1302"/>也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="7"/>
 <pb ed="L" xml:id="L158.1652.0090a" n="0090a"/>
-<lb ed="L" n="0090a01"/><milestone unit="juan" n="7"/><cb:mulu type="卷" n="7"></cb:mulu><cb:juan fun="open" n="7"><cb:jhead>明覺聰禪師語錄卷第七　　　　貌七</cb:jhead></cb:juan>
+<lb ed="L" n="0090a01"/><cb:mulu type="卷" n="7"></cb:mulu><cb:juan fun="open" n="7"><cb:jhead>明覺聰禪師語錄卷第七　　　　貌七</cb:jhead></cb:juan>
 <lb ed="L" n="0090a02"/><byline cb:type="editor">嗣法門人德正編</byline>
 <lb ed="L" n="0090a03"/><cb:div type="other"><cb:mulu type="其他" level="1">燕京順天府海會寺語錄二</cb:mulu><head>燕京順天府海會寺語錄</head>
 <lb ed="L" n="0090a04"/><p xml:id="pL158p0090a0401">上堂僧問天地玄黃一盞燈日月盈昃照
@@ -5500,11 +5507,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0105b09"/>雲。</p></cb:div>
 <lb ed="L" n="0105b10"/><cb:juan fun="close" n="7"><cb:jhead>明覺聰禪師語錄卷第七</cb:jhead></cb:juan>
 <lb ed="L" n="0105b11"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0105b12"/><cb:div type="note"><entry><form>橄欖</form><cb:def><p style="margin-left:1em" xml:id="pL158p0105b1203" cb:place="inline"><note place="inline">上古坎切音感下魯敢切音覽果名</note>。</p></cb:def></entry><entry cb:place="inline"><form>罅</form><cb:def><p style="margin-left:1em" xml:id="pL158p0105b1218" cb:place="inline"><note place="inline">虛訝切去聲裂也孔<term cb:behaviour="no-norm">嘑</term>
-<lb ed="L" n="0105b13"/>也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB05171">㫰</g></term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0105b1303" cb:place="inline"><note place="inline">即宕切音浪曬<term cb:behaviour="no-norm"><g ref="#CB05171">㫰</g></term>也</note>。</p></cb:def></entry><entry cb:place="inline"><form>黛</form><cb:def><p style="margin-left:1em" xml:id="pL158p0105b1312" cb:place="inline"><note place="inline">徒耐切音代青黛似空青而色深也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm">虬</term></form>
-<lb ed="L" n="0105b14"/><cb:def><p style="margin-left:1em" xml:id="pL158p0105b1401"><note place="inline">渠尤切音求龍無角者也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0105b12"/><cb:div type="note"><entry><form>橄欖</form><cb:def><p xml:id="pL158p0105b1203" style="margin-left:1em" cb:place="inline"><note place="inline">上古坎切音感下魯敢切音覽果名</note>。</p></cb:def></entry><entry cb:place="inline"><form>罅</form><cb:def><p xml:id="pL158p0105b1218" style="margin-left:1em" cb:place="inline"><note place="inline">虛訝切去聲裂也孔<term cb:behaviour="no-norm">嘑</term>
+<lb ed="L" n="0105b13"/>也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB05171">㫰</g></term></form><cb:def><p xml:id="pL158p0105b1303" style="margin-left:1em" cb:place="inline"><note place="inline">即宕切音浪曬<term cb:behaviour="no-norm"><g ref="#CB05171">㫰</g></term>也</note>。</p></cb:def></entry><entry cb:place="inline"><form>黛</form><cb:def><p xml:id="pL158p0105b1312" style="margin-left:1em" cb:place="inline"><note place="inline">徒耐切音代青黛似空青而色深也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm">虬</term></form>
+<lb ed="L" n="0105b14"/><cb:def><p xml:id="pL158p0105b1401" style="margin-left:1em"><note place="inline">渠尤切音求龍無角者也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="8"/>
 <pb ed="L" xml:id="L158.1652.0106a" n="0106a"/>
-<lb ed="L" n="0106a01"/><milestone unit="juan" n="8"/><cb:mulu type="卷" n="8"></cb:mulu><cb:juan fun="open" n="8"><cb:jhead>明覺聰禪師語錄卷第八　　　　貌八</cb:jhead></cb:juan>
+<lb ed="L" n="0106a01"/><cb:mulu type="卷" n="8"></cb:mulu><cb:juan fun="open" n="8"><cb:jhead>明覺聰禪師語錄卷第八　　　　貌八</cb:jhead></cb:juan>
 <lb ed="L" n="0106a02"/><byline cb:type="editor">嗣法門人法璽編</byline>
 <lb ed="L" n="0106a03"/><cb:div type="other"><cb:mulu type="其他" level="1">燕京順天府延壽禪寺語錄</cb:mulu><head>燕京順天府延壽禪寺語錄</head>
 <lb ed="L" n="0106a04"/><p xml:id="pL158p0106a0401">順治十五年師在海會寺受固山額真金
@@ -6022,10 +6030,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0122a04"/>
 <lb ed="L" n="0122a05"/><cb:juan fun="close" n="8"><cb:jhead>明覺聰禪師語錄卷第八</cb:jhead></cb:juan>
 <lb ed="L" n="0122a06"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0122a07"/><cb:div type="note"><entry><form>氛</form><cb:def><p style="margin-left:1em" xml:id="pL158p0122a0702" cb:place="inline"><note place="inline">符分切音汾氣也</note>。</p></cb:def></entry><entry cb:place="inline"><form>蒞</form><cb:def><p style="margin-left:1em" xml:id="pL158p0122a0710" cb:place="inline"><note place="inline">與<term cb:behaviour="no-norm">莅</term>同臨也</note>。</p></cb:def></entry><entry cb:place="inline"><form>炫</form><cb:def><p style="margin-left:1em" xml:id="pL158p0122a0716" cb:place="inline"><note place="inline">熒絹切音眩耀光也</note>。</p></cb:def></entry><entry cb:place="inline"><form>翊</form>
-<lb ed="L" n="0122a08"/><cb:def><p style="margin-left:1em" xml:id="pL158p0122a0801"><note place="inline">逸職切音弋輔也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB08263">󲁇</g></term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0122a0809" cb:place="inline"><note place="inline">杜結切音絰<term cb:behaviour="no-norm"><g ref="#CB22186">㼎</g></term>蔓也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0122a07"/><cb:div type="note"><entry><form>氛</form><cb:def><p xml:id="pL158p0122a0702" style="margin-left:1em" cb:place="inline"><note place="inline">符分切音汾氣也</note>。</p></cb:def></entry><entry cb:place="inline"><form>蒞</form><cb:def><p xml:id="pL158p0122a0710" style="margin-left:1em" cb:place="inline"><note place="inline">與<term cb:behaviour="no-norm">莅</term>同臨也</note>。</p></cb:def></entry><entry cb:place="inline"><form>炫</form><cb:def><p xml:id="pL158p0122a0716" style="margin-left:1em" cb:place="inline"><note place="inline">熒絹切音眩耀光也</note>。</p></cb:def></entry><entry cb:place="inline"><form>翊</form>
+<lb ed="L" n="0122a08"/><cb:def><p xml:id="pL158p0122a0801" style="margin-left:1em"><note place="inline">逸職切音弋輔也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB08263">󲁇</g></term></form><cb:def><p xml:id="pL158p0122a0809" style="margin-left:1em" cb:place="inline"><note place="inline">杜結切音絰<term cb:behaviour="no-norm"><g ref="#CB22186">㼎</g></term>蔓也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="9"/>
 <pb ed="L" xml:id="L158.1652.0122b" n="0122b"/>
-<lb ed="L" n="0122b01"/><milestone unit="juan" n="9"/><cb:mulu type="卷" n="9"></cb:mulu><cb:juan fun="open" n="9"><cb:jhead>明覺聰禪師語錄卷第九　　　　貌九</cb:jhead></cb:juan>
+<lb ed="L" n="0122b01"/><cb:mulu type="卷" n="9"></cb:mulu><cb:juan fun="open" n="9"><cb:jhead>明覺聰禪師語錄卷第九　　　　貌九</cb:jhead></cb:juan>
 <lb ed="L" n="0122b02"/><byline cb:type="editor">嗣法門人法璽編</byline>
 <lb ed="L" n="0122b03"/><cb:div type="other"><cb:mulu type="其他" level="1">福建邵武府安國禪寺語錄二</cb:mulu><head>福建邵武府安國禪寺語錄</head>
 <lb ed="L" n="0122b04"/><p xml:id="pL158p0122b0401">總鎮馬蘭谷為女保安請上堂僧問雕弓
@@ -6580,10 +6589,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0139b09"/>不辜負天下人。</p></cb:div>
 <lb ed="L" n="0139b10"/><cb:juan fun="close" n="9"><cb:jhead>明覺聰禪師語錄卷第九</cb:jhead></cb:juan>
 <lb ed="L" n="0139b11"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0139b12"/><cb:div type="note"><entry><form>鎧</form><cb:def><p style="margin-left:1em" xml:id="pL158p0139b1202" cb:place="inline"><note place="inline">丁亥切音愷甲也</note>。</p></cb:def></entry><entry cb:place="inline"><form>爬</form><cb:def><p style="margin-left:1em" xml:id="pL158p0139b1210" cb:place="inline"><note place="inline">蒲巴切音琶搔也</note>。</p></cb:def></entry><entry cb:place="inline"><form>鷸</form><cb:def><p style="margin-left:1em" xml:id="pL158p0139b1218" cb:place="inline"><note place="inline">允律切音聿知天將
-<lb ed="L" n="0139b13"/>雨鳥也</note>。</p></cb:def></entry><entry cb:place="inline"><form>橐</form><cb:def><p style="margin-left:1em" xml:id="pL158p0139b1305" cb:place="inline"><note place="inline">他各切音拓囊也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0139b12"/><cb:div type="note"><entry><form>鎧</form><cb:def><p xml:id="pL158p0139b1202" style="margin-left:1em" cb:place="inline"><note place="inline">丁亥切音愷甲也</note>。</p></cb:def></entry><entry cb:place="inline"><form>爬</form><cb:def><p xml:id="pL158p0139b1210" style="margin-left:1em" cb:place="inline"><note place="inline">蒲巴切音琶搔也</note>。</p></cb:def></entry><entry cb:place="inline"><form>鷸</form><cb:def><p xml:id="pL158p0139b1218" style="margin-left:1em" cb:place="inline"><note place="inline">允律切音聿知天將
+<lb ed="L" n="0139b13"/>雨鳥也</note>。</p></cb:def></entry><entry cb:place="inline"><form>橐</form><cb:def><p xml:id="pL158p0139b1305" style="margin-left:1em" cb:place="inline"><note place="inline">他各切音拓囊也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="10"/>
 <pb ed="L" xml:id="L158.1652.0140a" n="0140a"/>
-<lb ed="L" n="0140a01"/><milestone unit="juan" n="10"/><cb:mulu type="卷" n="10"></cb:mulu><cb:juan fun="open" n="10"><cb:jhead>明覺聰禪師語錄卷第十　　　　貌十</cb:jhead></cb:juan>
+<lb ed="L" n="0140a01"/><cb:mulu type="卷" n="10"></cb:mulu><cb:juan fun="open" n="10"><cb:jhead>明覺聰禪師語錄卷第十　　　　貌十</cb:jhead></cb:juan>
 <lb ed="L" n="0140a02"/><byline cb:type="editor">嗣法門人成秀編</byline>
 <lb ed="L" n="0140a03"/><cb:div type="other"><cb:mulu type="其他" level="1">示眾二</cb:mulu><head>示眾</head>
 <lb ed="L" n="0140a04"/><p xml:id="pL158p0140a0401">示眾今朝正月十有八衲僧脚下熱火發
@@ -7112,10 +7122,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0156a15"/><cb:juan fun="close" n="10"><cb:jhead>明覺聰禪師語錄卷第十</cb:jhead></cb:juan>
 <pb ed="L" xml:id="L158.1652.0156b" n="0156b"/>
 <lb ed="L" n="0156b01"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0156b02"/><cb:div type="note"><entry><form>聵</form><cb:def><p style="margin-left:1em" xml:id="pL158p0156b0202" cb:place="inline"><note place="inline">歸謂切音貴目無精也</note>。</p></cb:def></entry><entry cb:place="inline"><form>躔</form><cb:def><p style="margin-left:1em" xml:id="pL158p0156b0212" cb:place="inline"><note place="inline">呈延切音廛踐也</note>。</p></cb:def></entry><entry cb:place="inline"><form>蠻</form><cb:def><p style="margin-left:1em" xml:id="pL158p0156b0220" cb:place="inline"><note place="inline">謨還切音獌南
-<lb ed="L" n="0156b03"/>夷也</note>。</p></cb:def></entry><entry cb:place="inline"><form>蘊</form><cb:def><p style="margin-left:1em" xml:id="pL158p0156b0304" cb:place="inline"><note place="inline">委粉切音縕積也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0156b02"/><cb:div type="note"><entry><form>聵</form><cb:def><p xml:id="pL158p0156b0202" style="margin-left:1em" cb:place="inline"><note place="inline">歸謂切音貴目無精也</note>。</p></cb:def></entry><entry cb:place="inline"><form>躔</form><cb:def><p xml:id="pL158p0156b0212" style="margin-left:1em" cb:place="inline"><note place="inline">呈延切音廛踐也</note>。</p></cb:def></entry><entry cb:place="inline"><form>蠻</form><cb:def><p xml:id="pL158p0156b0220" style="margin-left:1em" cb:place="inline"><note place="inline">謨還切音獌南
+<lb ed="L" n="0156b03"/>夷也</note>。</p></cb:def></entry><entry cb:place="inline"><form>蘊</form><cb:def><p xml:id="pL158p0156b0304" style="margin-left:1em" cb:place="inline"><note place="inline">委粉切音縕積也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="11"/>
 <pb ed="L" xml:id="L158.1652.0157a" n="0157a"/>
-<lb ed="L" n="0157a01"/><milestone unit="juan" n="11"/><cb:mulu type="卷" n="11"></cb:mulu><cb:juan fun="open" n="11"><cb:jhead>明覺聰禪師語錄卷第十一　　　辨一</cb:jhead></cb:juan>
+<lb ed="L" n="0157a01"/><cb:mulu type="卷" n="11"></cb:mulu><cb:juan fun="open" n="11"><cb:jhead>明覺聰禪師語錄卷第十一　　　辨一</cb:jhead></cb:juan>
 <lb ed="L" n="0157a02"/><byline cb:type="editor">嗣法門人音<g ref="#CB00343">𩒺</g>編</byline>
 <lb ed="L" n="0157a03"/><cb:div type="other"><cb:mulu type="其他" level="1">小參二</cb:mulu><head>小叅</head>
 <lb ed="L" n="0157a04"/><p xml:id="pL158p0157a0401">晚叅拈拄杖卓云打破威音空界突出無
@@ -7586,7 +7597,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0171b05"/>來迦葉欲白椎<g ref="#CB11462">𢷤</g>出纔拈椎乃見百千萬
 <lb ed="L" n="0171b06"/>億文殊迦葉盡其神力椎不能舉世尊遂
 <lb ed="L" n="0171b07"/>問迦葉汝擬<g ref="#CB11462">𢷤</g>那個文殊迦葉無對。</p></cb:div>
-<lb ed="L" n="0171b08"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0171b0801">拈云文殊三處度夏不安本分好與三
+<lb ed="L" n="0171b08"/><cb:div type="commentary"><p xml:id="pL158p0171b0801" style="margin-left:1em">拈云文殊三處度夏不安本分好與三
 <lb ed="L" n="0171b09"/>十棒迦葉欲<g ref="#CB11462">𢷤</g>伊當靣錯過亦好與三
 <lb ed="L" n="0171b10"/>十棒世尊當斷不斷返招其亂也好與
 <lb ed="L" n="0171b11"/>三十棒錦山恁麼批判且道具甚麼手
@@ -7596,14 +7607,14 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0171b15"/>即便廻避雖然如是回顧東西總皆是佛
 <pb ed="L" xml:id="L158.1652.0172a" n="0172a"/>
 <lb ed="L" n="0172a01"/>遂以手掩靣于十指端總皆是佛。</p></cb:div>
-<lb ed="L" n="0172a02"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0172a0201">拈云婆子眼空四海傍若無人宛有丈
+<lb ed="L" n="0172a02"/><cb:div type="commentary"><p xml:id="pL158p0172a0201" style="margin-left:1em">拈云婆子眼空四海傍若無人宛有丈
 <lb ed="L" n="0172a03"/>夫氣槩是則固是將手掩靣不欲見佛
 <lb ed="L" n="0172a04"/>殊不知此處無銀三十兩不見道夾路
 <lb ed="L" n="0172a05"/>桃花風雨後馬蹄無處避殘紅。</p></cb:div>
 <lb ed="L" n="0172a06"/><cb:div type="orig"><p xml:id="pL158p0172a0601">阿難問迦葉師兄世尊傳金襴袈裟外別
 <lb ed="L" n="0172a07"/>傳個甚麼迦葉召阿難難應諾迦葉云倒
 <lb ed="L" n="0172a08"/>却門前剎竿着。</p></cb:div>
-<lb ed="L" n="0172a09"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0172a0901">拈云阿難扶起迦葉推倒兩個無孔鐵
+<lb ed="L" n="0172a09"/><cb:div type="commentary"><p xml:id="pL158p0172a0901" style="margin-left:1em">拈云阿難扶起迦葉推倒兩個無孔鐵
 <lb ed="L" n="0172a10"/>鎚就中有個恰好且道那個恰好以手
 <lb ed="L" n="0172a11"/>搖云明破則不堪。</p></cb:div>
 <lb ed="L" n="0172a12"/><cb:div type="orig"><p xml:id="pL158p0172a1201">惠忠國師因西天大耳三藏到京云得他
@@ -7616,7 +7627,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0172b03"/>尚是一國之師何得向天津橋上看弄猢
 <lb ed="L" n="0172b04"/>猻忠第三次問藏良久罔知去處忠叱云
 <lb ed="L" n="0172b05"/>這野狐精他心通在甚麼處三藏無對。</p></cb:div>
-<lb ed="L" n="0172b06"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0172b0601">拈云精金不煉爭見光輝至寶不酧孰
+<lb ed="L" n="0172b06"/><cb:div type="commentary"><p xml:id="pL158p0172b0601" style="margin-left:1em">拈云精金不煉爭見光輝至寶不酧孰
 <lb ed="L" n="0172b07"/>辯真偽所以忠國師頂<g ref="#CB00576">𩕳</g>七縱八橫毫
 <lb ed="L" n="0172b08"/>髮能辯三藏具爍迦羅眼覿靣難瞞當
 <lb ed="L" n="0172b09"/>時只解慎初不解護末待他第三問便
@@ -7629,7 +7640,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="L" xml:id="L158.1652.0173a" n="0173a"/>
 <lb ed="L" n="0173a01"/>未審過在甚麼處門云飯袋子江西湖南
 <lb ed="L" n="0173a02"/>便恁麼去洞山大悟。</p></cb:div>
-<lb ed="L" n="0173a03"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0173a0301">拈云雲門車不橫推理無曲斷洞山被
+<lb ed="L" n="0173a03"/><cb:div type="commentary"><p xml:id="pL158p0173a0301" style="margin-left:1em">拈云雲門車不橫推理無曲斷洞山被
 <lb ed="L" n="0173a04"/>人輕輕一拶便乃從空放下敢問諸人
 <lb ed="L" n="0173a05"/>且道放下處意作麼生入林不動草入
 <lb ed="L" n="0173a06"/>水不動波阿呵呵野狐俱屏跡獅子奮
@@ -7638,23 +7649,24 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0173a09"/>
 <lb ed="L" n="0173a10"/><cb:juan fun="close" n="11"><cb:jhead>明覺聰禪師語錄卷第十一</cb:jhead></cb:juan>
 <lb ed="L" n="0173a11"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0173a12"/><cb:div type="note"><entry><form>碔砆</form><cb:def><p style="margin-left:1em" xml:id="pL158p0173a1203" cb:place="inline"><note place="inline">上罔甫切音武下甫無切音膚碔砆石次玉也</note>。</p></cb:def></entry><entry cb:place="inline"><form>唬</form><cb:def><p style="margin-left:1em" xml:id="pL158p0173a1222" cb:place="inline"><note place="inline">虛訝切音赫<term cb:behaviour="no-norm">嗁</term>
-<lb ed="L" n="0173a13"/>聲也</note>。</p></cb:def></entry><entry cb:place="inline"><form>蠆</form><cb:def><p style="margin-left:1em" xml:id="pL158p0173a1304" cb:place="inline"><note place="inline">丑邁切音<term cb:behaviour="no-norm">慸</term>螫<term cb:behaviour="no-norm"><g ref="#CB08704">󲈀</g></term></note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0173a12"/><cb:div type="note"><entry><form>碔砆</form><cb:def><p xml:id="pL158p0173a1203" style="margin-left:1em" cb:place="inline"><note place="inline">上罔甫切音武下甫無切音膚碔砆石次玉也</note>。</p></cb:def></entry><entry cb:place="inline"><form>唬</form><cb:def><p xml:id="pL158p0173a1222" style="margin-left:1em" cb:place="inline"><note place="inline">虛訝切音赫<term cb:behaviour="no-norm">嗁</term>
+<lb ed="L" n="0173a13"/>聲也</note>。</p></cb:def></entry><entry cb:place="inline"><form>蠆</form><cb:def><p xml:id="pL158p0173a1304" style="margin-left:1em" cb:place="inline"><note place="inline">丑邁切音<term cb:behaviour="no-norm">慸</term>螫<term cb:behaviour="no-norm"><g ref="#CB08704">󲈀</g></term></note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="12"/>
 <pb ed="L" xml:id="L158.1652.0173b" n="0173b"/>
-<lb ed="L" n="0173b01"/><milestone unit="juan" n="12"/><cb:mulu type="卷" n="12"></cb:mulu><cb:juan fun="open" n="12"><cb:jhead>明覺聰禪師語錄卷第十二　　　辨一</cb:jhead></cb:juan>
+<lb ed="L" n="0173b01"/><cb:mulu type="卷" n="12"></cb:mulu><cb:juan fun="open" n="12"><cb:jhead>明覺聰禪師語錄卷第十二　　　辨一</cb:jhead></cb:juan>
 <lb ed="L" n="0173b02"/><byline cb:type="editor">嗣法門人海鯨編</byline>
 <lb ed="L" n="0173b03"/><cb:div type="other"><cb:mulu type="其他" level="1">拈古二</cb:mulu><head>拈古</head>
 <lb ed="L" n="0173b04"/><cb:div type="orig"><p xml:id="pL158p0173b0401">雲門因僧問如何是超佛越祖之談門云
 <lb ed="L" n="0173b05"/>餬餅後妙喜云雲門直是好一枚餬餅要
 <lb ed="L" n="0173b06"/>且無超佛越祖之談底道理。</p></cb:div>
-<lb ed="L" n="0173b07"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0173b0701">拈云妙喜只知其一不知其二殊不知
+<lb ed="L" n="0173b07"/><cb:div type="commentary"><p xml:id="pL158p0173b0701" style="margin-left:1em">拈云妙喜只知其一不知其二殊不知
 <lb ed="L" n="0173b08"/>雲門一枚餬餅具臨濟玄要賓主洞山
 <lb ed="L" n="0173b09"/>君臣偏正乃至百千法門無量妙義總
 <lb ed="L" n="0173b10"/>不出者枚餬餅諸人還委悉麼苟或未
 <lb ed="L" n="0173b11"/>然且向餬餅裏咬嚼。</p></cb:div>
 <lb ed="L" n="0173b12"/><cb:div type="orig"><p xml:id="pL158p0173b1201">文殊普賢夜半起佛見法見被世尊貶向
 <lb ed="L" n="0173b13"/>鐵圍山。</p></cb:div>
-<lb ed="L" n="0173b14"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0173b1401">拈云世尊為三界之師爭奈無大人器
+<lb ed="L" n="0173b14"/><cb:div type="commentary"><p xml:id="pL158p0173b1401" style="margin-left:1em">拈云世尊為三界之師爭奈無大人器
 <lb ed="L" n="0173b15"/>量若是錦山一任他起六十二見終不
 <pb ed="L" xml:id="L158.1652.0174a" n="0174a"/>
 <lb ed="L" n="0174a01"/>動着他一毫何謂無明實性即佛性幻
@@ -7664,14 +7676,14 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0174a05"/>驢遠云某甲是驢胃州云我是驢糞遠云
 <lb ed="L" n="0174a06"/>我是糞中蟲州云汝在彼中作甚麼遠云
 <lb ed="L" n="0174a07"/>我在彼中過夏州云把將餬餅來。</p></cb:div>
-<lb ed="L" n="0174a08"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0174a0801">拈云趙州與文遠大似村童闘百草有
+<lb ed="L" n="0174a08"/><cb:div type="commentary"><p xml:id="pL158p0174a0801" style="margin-left:1em">拈云趙州與文遠大似村童闘百草有
 <lb ed="L" n="0174a09"/>甚奇特趙州雖然贏得個餬餅也是乞
 <lb ed="L" n="0174a10"/>兒貪小利。</p></cb:div>
 <lb ed="L" n="0174a11"/><cb:div type="orig"><p xml:id="pL158p0174a1101">巖頭初叅德山入門便問是凡是聖山便
 <lb ed="L" n="0174a12"/>喝頭禮拜後洞山聞云若不是奯公大難
 <lb ed="L" n="0174a13"/>承當頭聞云洞山老漢不識好惡錯下名
 <lb ed="L" n="0174a14"/>言我當時一手擡一手搦。</p></cb:div>
-<lb ed="L" n="0174a15"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0174a1501">拈云德山殺人不眨眼氣宇大于王巖
+<lb ed="L" n="0174a15"/><cb:div type="commentary"><p xml:id="pL158p0174a1501" style="margin-left:1em">拈云德山殺人不眨眼氣宇大于王巖
 <pb ed="L" xml:id="L158.1652.0174b" n="0174b"/>
 <lb ed="L" n="0174b01"/>頭是煆過精金應無變色洞山惡語傷
 <lb ed="L" n="0174b02"/>人痛如刀割三老任是作家未免遭人
@@ -7682,7 +7694,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0174b07"/>庵後出却於山下哭上僧喝云猶作者個
 <lb ed="L" n="0174b08"/>去就主便搥胸云可惜先師一場埋沒僧
 <lb ed="L" n="0174b09"/>云苦苦主云庵主今日被人瞞也。</p></cb:div>
-<lb ed="L" n="0174b10"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0174b1001">拈云者僧却有孟德之才且無孔明之
+<lb ed="L" n="0174b10"/><cb:div type="commentary"><p xml:id="pL158p0174b1001" style="margin-left:1em">拈云者僧却有孟德之才且無孔明之
 <lb ed="L" n="0174b11"/>見覆盆頗有韓信之計惜無蒯通之明
 <lb ed="L" n="0174b12"/>我當時見者僧從山下哭上但問云上
 <lb ed="L" n="0174b13"/>座喪父母耶見伊眼目定動連棒趂下
@@ -7693,7 +7705,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0175a02"/>一圓相方乃燒香次作女人拜首座云休
 <lb ed="L" n="0175a03"/>捏怪岐云首座作麼生座云和尚捏怪岐
 <lb ed="L" n="0175a04"/>云兔子喫牛奶。</p></cb:div>
-<lb ed="L" n="0175a05"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0175a0501">拈云楊岐親覲慈明三十載竊些殘羹
+<lb ed="L" n="0175a05"/><cb:div type="commentary"><p xml:id="pL158p0175a0501" style="margin-left:1em">拈云楊岐親覲慈明三十載竊些殘羹
 <lb ed="L" n="0175a06"/>餿飯忌日伎倆俱露將此供養報德酬
 <lb ed="L" n="0175a07"/>恩美則美矣爭奈首座忍俊不禁雖然
 <lb ed="L" n="0175a08"/>直不藏曲也是其父攘羊而子證之。</p></cb:div>
@@ -7705,7 +7717,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0175a14"/>聞大悟便掩祖口云只消唱到者裏演大
 <lb ed="L" n="0175a15"/>笑。</p></cb:div>
 <pb ed="L" xml:id="L158.1652.0175b" n="0175b"/>
-<lb ed="L" n="0175b01"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0175b0101">拈云可笑演祖不改舊鄉談操蜀音打
+<lb ed="L" n="0175b01"/><cb:div type="commentary"><p xml:id="pL158p0175b0101" style="margin-left:1em">拈云可笑演祖不改舊鄉談操蜀音打
 <lb ed="L" n="0175b02"/>蜀皷知他是佛意是祖意宗泰無端好
 <lb ed="L" n="0175b03"/>聽曲調不覺渾身墮在聲色裏了當平
 <lb ed="L" n="0175b04"/>生直至而今轉身不得諸人還肯錦山
@@ -7716,7 +7728,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0175b09"/>尚受一切人欽仰今日坐位却被人奪却
 <lb ed="L" n="0175b10"/>操云三日後若來即受救在米果三日後
 <lb ed="L" n="0175b11"/>來云前日遭賊。</p></cb:div>
-<lb ed="L" n="0175b12"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0175b1201">拈云金州用蕭曹之計張陷虎之機米
+<lb ed="L" n="0175b12"/><cb:div type="commentary"><p xml:id="pL158p0175b1201" style="margin-left:1em">拈云金州用蕭曹之計張陷虎之機米
 <lb ed="L" n="0175b13"/>和尚貪他羊羔不覺渾身墮穽法喜若
 <lb ed="L" n="0175b14"/>作米和尚見不排坐位但云和尚用心
 <lb ed="L" n="0175b15"/>不臧見伊擬議便把操位掇退非惟自
@@ -7725,7 +7737,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0176a02"/><cb:div type="orig"><p xml:id="pL158p0176a0201">皷山晏示眾云皷山門下不得咳<g ref="#CB04394">𠻳</g>時有
 <lb ed="L" n="0176a03"/>僧咳<g ref="#CB04394">𠻳</g>一聲皷云作什麼僧云傷風晏云
 <lb ed="L" n="0176a04"/>傷風即得。</p></cb:div>
-<lb ed="L" n="0176a05"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0176a0501">拈云大小皷山把斷要津不通凡聖則
+<lb ed="L" n="0176a05"/><cb:div type="commentary"><p xml:id="pL158p0176a0501" style="margin-left:1em">拈云大小皷山把斷要津不通凡聖則
 <lb ed="L" n="0176a06"/>不無爭奈輕輕被人拶着却又龍頭蛇
 <lb ed="L" n="0176a07"/>尾而今莫有為皷山作主底麼。</p></cb:div>
 <lb ed="L" n="0176a08"/><cb:div type="orig"><p xml:id="pL158p0176a0801">芙蓉楷因僧問胡家曲調不墮五音韻出
@@ -7733,7 +7745,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0176a10"/>天明僧云恁麼則一句曲含千古韻滿堂
 <lb ed="L" n="0176a11"/>雲水盡知音楷云無舌兒童能繼和僧云
 <lb ed="L" n="0176a12"/>作家宗師人天眼目楷云禁取兩片皮。</p></cb:div>
-<lb ed="L" n="0176a13"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0176a1301">拈云大凡提唱宗乘要明旨趣還他芙
+<lb ed="L" n="0176a13"/><cb:div type="commentary"><p xml:id="pL158p0176a1301" style="margin-left:1em">拈云大凡提唱宗乘要明旨趣還他芙
 <lb ed="L" n="0176a14"/>蓉作家可謂答這僧話當頭不犯善避
 <lb ed="L" n="0176a15"/>來鋒足稱賞矣若論具衲僧牙爪猛虎
 <pb ed="L" xml:id="L158.1652.0176b" n="0176b"/>
@@ -7746,7 +7758,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0176b07"/>底佛<g ref="#CB14081">𣗳</g>云祇這也還難僧遶禪床一帀而
 <lb ed="L" n="0176b08"/>出<g ref="#CB14081">𣗳</g>云善能祇對僧便喝<g ref="#CB14081">𣗳</g>云老僧不識
 <lb ed="L" n="0176b09"/>子僧云要識作麼<g ref="#CB14081">𣗳</g>敲床三下。</p></cb:div>
-<lb ed="L" n="0176b10"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0176b1001">拈云棗<g ref="#CB14081">𣗳</g>平白地上拈起一<g ref="#CB02133">󰡕</g>頭直使
+<lb ed="L" n="0176b10"/><cb:div type="commentary"><p xml:id="pL158p0176b1001" style="margin-left:1em">拈云棗<g ref="#CB14081">𣗳</g>平白地上拈起一<g ref="#CB02133">󰡕</g>頭直使
 <lb ed="L" n="0176b11"/>須彌搖動海水沸騰者僧慣經洶浪善
 <lb ed="L" n="0176b12"/>識風帆撥轉船頭別行一路錦山不肯
 <lb ed="L" n="0176b13"/>坐觀成敗拔劍相助攪動滄溟與彼魚
@@ -7755,13 +7767,13 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="L" xml:id="L158.1652.0177a" n="0177a"/>
 <lb ed="L" n="0177a01"/><cb:div type="orig"><p xml:id="pL158p0177a0101">南泉坐次一僧問訊叉手而立泉云太俗
 <lb ed="L" n="0177a02"/>生僧合掌泉云太僧生僧無語。</p></cb:div>
-<lb ed="L" n="0177a03"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0177a0301">拈云叉手合掌左邊半斤右邊八兩縱
+<lb ed="L" n="0177a03"/><cb:div type="commentary"><p xml:id="pL158p0177a0301" style="margin-left:1em">拈云叉手合掌左邊半斤右邊八兩縱
 <lb ed="L" n="0177a04"/>饒直下翻身也是野狐伎倆。</p></cb:div>
 <lb ed="L" n="0177a05"/><cb:div type="orig"><p xml:id="pL158p0177a0501">麻谷問臨濟大悲千眼阿那個是正眼濟
 <lb ed="L" n="0177a06"/>云大悲千手眼阿那個是正眼速道速道
 <lb ed="L" n="0177a07"/>谷拽濟下禪床谷却坐濟云不審谷便喝
 <lb ed="L" n="0177a08"/>濟拽谷下禪床濟便坐谷出去濟歸方丈。</p></cb:div>
-<lb ed="L" n="0177a09"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0177a0901">拈云擊節扣關衝樓跨竈一挨一拶機
+<lb ed="L" n="0177a09"/><cb:div type="commentary"><p xml:id="pL158p0177a0901" style="margin-left:1em">拈云擊節扣關衝樓跨竈一挨一拶機
 <lb ed="L" n="0177a10"/>奪超羣還他二老好手若論大悲正眼
 <lb ed="L" n="0177a11"/>驢年未夢見在。</p></cb:div>
 <lb ed="L" n="0177a12"/><cb:div type="orig"><p xml:id="pL158p0177a1201">祇林和尚每叱文殊普賢皆為精魅常持
@@ -7771,7 +7783,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="L" xml:id="L158.1652.0177b" n="0177b"/>
 <lb ed="L" n="0177b01"/>兒家僧云十二年後因甚不降魔林云賊
 <lb ed="L" n="0177b02"/>不打貧兒家。</p></cb:div>
-<lb ed="L" n="0177b03"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0177b0301">拈云銅頭鐵額望風遠避鶻眼龍睛無
+<lb ed="L" n="0177b03"/><cb:div type="commentary"><p xml:id="pL158p0177b0301" style="margin-left:1em">拈云銅頭鐵額望風遠避鶻眼龍睛無
 <lb ed="L" n="0177b04"/>處摸索叱佛祖如奴婢降魔魅遠遁潛
 <lb ed="L" n="0177b05"/>還他祇林敏手格調甚高雖十二年用
 <lb ed="L" n="0177b06"/>劍刃上事要求知<anchor xml:id="nkr_note_add_0177b0601" n="0177b0601"/><anchor xml:id="beg0177b0601" n="0177b0601"/>己<anchor xml:id="end0177b0601"/>並無半個徒勞用
@@ -7782,7 +7794,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0177b11"/>山打云須是我打你始得僧云諸方有明
 <lb ed="L" n="0177b12"/>眼人在山云汝天然有眼僧以手劈開胸
 <lb ed="L" n="0177b13"/>云猫山云黃河三千年一度清。</p></cb:div>
-<lb ed="L" n="0177b14"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0177b1401">拈云獅子擊象金翅<anchor xml:id="nkr_note_add_0177b1401" n="0177b1401"/><anchor xml:id="beg0177b1401" n="0177b1401"/>搏<anchor xml:id="end0177b1401"/>龍行脚若無超
+<lb ed="L" n="0177b14"/><cb:div type="commentary"><p xml:id="pL158p0177b1401" style="margin-left:1em">拈云獅子擊象金翅<anchor xml:id="nkr_note_add_0177b1401" n="0177b1401"/><anchor xml:id="beg0177b1401" n="0177b1401"/>搏<anchor xml:id="end0177b1401"/>龍行脚若無超
 <lb ed="L" n="0177b15"/>方眼入門不識賓主句安敢到他爐鞲
 <pb ed="L" xml:id="L158.1652.0178a" n="0178a"/>
 <lb ed="L" n="0178a01"/>之所殊不知者僧是煆過底精金羙璞
@@ -7793,7 +7805,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0178a06"/>踏僧歸位立溪云汝與麼我不與麼汝不
 <lb ed="L" n="0178a07"/>與麼我却與麼僧擬再進語溪又與一踏
 <lb ed="L" n="0178a08"/>云三十年後吾道大行。</p></cb:div>
-<lb ed="L" n="0178a09"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0178a0901">拈云者僧叅禪鹵<g ref="#CB12130">󲽢</g>學識顢頇雖然設
+<lb ed="L" n="0178a09"/><cb:div type="commentary"><p xml:id="pL158p0178a0901" style="margin-left:1em">拈云者僧叅禪鹵<g ref="#CB12130">󲽢</g>學識顢頇雖然設
 <lb ed="L" n="0178a10"/>個問端不妨孤峻只解恁麼來不會恁
 <lb ed="L" n="0178a11"/>麼去若是個漢不消一踏瓦解冰消管
 <lb ed="L" n="0178a12"/>教幽溪口啞去在。</p></cb:div>
@@ -7802,7 +7814,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0178a15"/>座云莫道和尚無言好州便一掌云合是
 <pb ed="L" xml:id="L158.1652.0178b" n="0178b"/>
 <lb ed="L" n="0178b01"/>堂頭老漢喫。</p></cb:div>
-<lb ed="L" n="0178b02"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0178b0201">拈云趙州一問平地上<g ref="#CB01732">𣯫</g><g ref="#CB01732">𣯫</g>南泉歸方
+<lb ed="L" n="0178b02"/><cb:div type="commentary"><p xml:id="pL158p0178b0201" style="margin-left:1em">拈云趙州一問平地上<g ref="#CB01732">𣯫</g><g ref="#CB01732">𣯫</g>南泉歸方
 <lb ed="L" n="0178b03"/>丈死水不藏龍首座雖路見不平爭奈
 <lb ed="L" n="0178b04"/>失錢遭罪或有人問安國明頭合暗頭
 <lb ed="L" n="0178b05"/>合但云當堂不正坐那赴兩頭機且道
@@ -7811,7 +7823,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0178b08"/>團團似鏡菱角尖尖尖似錐僧云學人不
 <lb ed="L" n="0178b09"/>會山云風吹柳絮毛毬走雨打梨花夾蝶
 <lb ed="L" n="0178b10"/>飛。</p></cb:div>
-<lb ed="L" n="0178b11"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0178b1101">拈云夾山答者僧話不妨攢花簇錦巧
+<lb ed="L" n="0178b11"/><cb:div type="commentary"><p xml:id="pL158p0178b1101" style="margin-left:1em">拈云夾山答者僧話不妨攢花簇錦巧
 <lb ed="L" n="0178b12"/>妙尖新要且不曾答出相似句聰上座
 <lb ed="L" n="0178b13"/>忍俊不禁也要露些面目與諸方檢責
 <lb ed="L" n="0178b14"/>如何是相似句奇恠石頭形似虎火燒
@@ -7823,7 +7835,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0179a04"/>作砍勢檗遂與一掌丈吟吟而笑便歸陞
 <lb ed="L" n="0179a05"/>堂謂眾云大雄山下有一大蟲汝等諸人
 <lb ed="L" n="0179a06"/>也須要看百丈今日親遭一口。</p></cb:div>
-<lb ed="L" n="0179a07"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0179a0701">拈云作家相見機如掣電眼似流星騐
+<lb ed="L" n="0179a07"/><cb:div type="commentary"><p xml:id="pL158p0179a0701" style="margin-left:1em">拈云作家相見機如掣電眼似流星騐
 <lb ed="L" n="0179a08"/>人有險崖之句全提有拔山之威黃檗
 <lb ed="L" n="0179a09"/>若無百丈爭見汗馬功高百丈若無黃
 <lb ed="L" n="0179a10"/>檗那知歷代功臣雖然父子相知水乳
@@ -7837,7 +7849,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0179b02"/>義語今請上座打殺老僧埋向坑中便請
 <lb ed="L" n="0179b03"/>上座若不打殺老僧上座自打殺埋此坑
 <lb ed="L" n="0179b04"/>中始得僧束裝行李潛去。</p></cb:div>
-<lb ed="L" n="0179b05"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0179b0501">拈云善迹者謂迹之所莫能迹善言者
+<lb ed="L" n="0179b05"/><cb:div type="commentary"><p xml:id="pL158p0179b0501" style="margin-left:1em">拈云善迹者謂迹之所莫能迹善言者
 <lb ed="L" n="0179b06"/>謂言之所莫能言若據山僧檢點將來
 <lb ed="L" n="0179b07"/>夾山大似靈龜曳尾自取喪身之兆者
 <lb ed="L" n="0179b08"/>僧親入虎穴敲牙弄爪賞他大膽有般
@@ -7850,7 +7862,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0179b15"/>祇對看紹近前臼便打情知你同坑無異
 <pb ed="L" xml:id="L158.1652.0180a" n="0180a"/>
 <lb ed="L" n="0180a01"/>土。</p></cb:div>
-<lb ed="L" n="0180a02"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0180a0201">拈云者僧擎頭戴角破浪衝關倒嶽傾
+<lb ed="L" n="0180a02"/><cb:div type="commentary"><p xml:id="pL158p0180a0201" style="margin-left:1em">拈云者僧擎頭戴角破浪衝關倒嶽傾
 <lb ed="L" n="0180a03"/>湫危亡不顧却有些衲僧氣槩烏臼雖
 <lb ed="L" n="0180a04"/>行閫外威權檢點將來性命却落在者
 <lb ed="L" n="0180a05"/>僧手裏具擇法眼者試辨看。</p></cb:div>
@@ -7858,7 +7870,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0180a07"/>過東萸云作甚麼州云探水萸云我者裏
 <lb ed="L" n="0180a08"/>一滴也無探個甚麼州以拄杖靠壁便出
 <lb ed="L" n="0180a09"/>法堂。</p></cb:div>
-<lb ed="L" n="0180a10"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0180a1001">拈云者二老漢同門出入宿世冤家一
+<lb ed="L" n="0180a10"/><cb:div type="commentary"><p xml:id="pL158p0180a1001" style="margin-left:1em">拈云者二老漢同門出入宿世冤家一
 <lb ed="L" n="0180a11"/>人把住封疆不通消息一人直上峯頂
 <lb ed="L" n="0180a12"/>暗透重關四面懸崖轉身有路雖然如
 <lb ed="L" n="0180a13"/>是祇如趙州拄杖靠壁便去意作麼生
@@ -7866,7 +7878,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0180a15"/><cb:div type="orig"><p xml:id="pL158p0180a1501">臨濟侍德山次山云今日困濟云者老漢
 <pb ed="L" xml:id="L158.1652.0180b" n="0180b"/>
 <lb ed="L" n="0180b01"/>寐語作麼山便打濟掀倒禪床。</p></cb:div>
-<lb ed="L" n="0180b02"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0180b0201">拈云德山有吞吐天地之氣打破虛空
+<lb ed="L" n="0180b02"/><cb:div type="commentary"><p xml:id="pL158p0180b0201" style="margin-left:1em">拈云德山有吞吐天地之氣打破虛空
 <lb ed="L" n="0180b03"/>底鉗鎚臨濟有包藏宇宙之機揭飜海
 <lb ed="L" n="0180b04"/>嶽底威力二俱作家有縱有奪不是沙
 <lb ed="L" n="0180b05"/>場經戰久揭天犪皷喪紅塵。</p></cb:div>
@@ -7876,7 +7888,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0180b09"/>更有夜行人霞謂古寺何不訓誨行者得
 <lb ed="L" n="0180b10"/>與麼無理寺云淨地上不要點污人家男
 <lb ed="L" n="0180b11"/>女霞云幾不合問過老漢。</p></cb:div>
-<lb ed="L" n="0180b12"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0180b1201">拈云古寺門深似海峻若丘山非是作
+<lb ed="L" n="0180b12"/><cb:div type="commentary"><p xml:id="pL158p0180b1201" style="margin-left:1em">拈云古寺門深似海峻若丘山非是作
 <lb ed="L" n="0180b13"/>家難入閫奧所以欲觀其人先觀所使
 <lb ed="L" n="0180b14"/>更有超師之作丹霞智劍過人機鋒敏
 <lb ed="L" n="0180b15"/><g ref="#CB15162">㨗</g>到者裏却被行者鈍置一上當時若
@@ -7889,7 +7901,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0181a06"/>矣猶欠點眼在頭云莫要點眼麼長云便
 <lb ed="L" n="0181a07"/>請頭垂下一足長禮拜頭云子見甚麼道
 <lb ed="L" n="0181a08"/>理便禮拜長云如紅爐一點雪。</p></cb:div>
-<lb ed="L" n="0181a09"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0181a0901">拈云長髭好不丈夫人人鼻孔遼天個
+<lb ed="L" n="0181a09"/><cb:div type="commentary"><p xml:id="pL158p0181a0901" style="margin-left:1em">拈云長髭好不丈夫人人鼻孔遼天個
 <lb ed="L" n="0181a10"/>個舌頭拖地可惜一舖功德被人點污
 <lb ed="L" n="0181a11"/>了也當時若是出格道流待他垂下一
 <lb ed="L" n="0181a12"/>足便掀倒禪床不為分外若是如何若
@@ -7900,7 +7912,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0181b01"/>手中吾云甚處得來僧無對吾云容汝三
 <lb ed="L" n="0181b02"/>日下一轉語僧亦無對吾拈劍肩上作舞
 <lb ed="L" n="0181b03"/>云恁麼始得後雲峯恱拈云邪法難扶。</p></cb:div>
-<lb ed="L" n="0181b04"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0181b0401">拈云大眾將今視古宗師橫拈倒弄或
+<lb ed="L" n="0181b04"/><cb:div type="commentary"><p xml:id="pL158p0181b0401" style="margin-left:1em">拈云大眾將今視古宗師橫拈倒弄或
 <lb ed="L" n="0181b05"/>擎叉或弄蛇或輥毬或放狗各具一種
 <lb ed="L" n="0181b06"/>神通三昧收放自繇因甚道吾手提木
 <lb ed="L" n="0181b07"/>劍作舞雲峯喚作邪法難扶還是肯他
@@ -7910,7 +7922,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0181b11"/>修羅王惡發把須彌山一摑<g ref="#CB01387">𨁝</g>跳上天報
 <lb ed="L" n="0181b12"/>帝釋為甚麼却向日本國裏藏身鑑云莫
 <lb ed="L" n="0181b13"/>恁麼心行好門云汝道築着又作麼生。</p></cb:div>
-<lb ed="L" n="0181b14"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0181b1401">拈云雲門慣用白拈手叚或時藏身處
+<lb ed="L" n="0181b14"/><cb:div type="commentary"><p xml:id="pL158p0181b1401" style="margin-left:1em">拈云雲門慣用白拈手叚或時藏身處
 <lb ed="L" n="0181b15"/>沒踪跡或時沒踪跡處<anchor xml:id="nkr_note_add_0181b1501" n="0181b1501"/><anchor xml:id="beg0181b1501" n="0181b1501"/>已<anchor xml:id="end0181b1501"/>藏身自合知
 <pb ed="L" xml:id="L158.1652.0182a" n="0182a"/>
 <lb ed="L" n="0182a01"/>機識變殊不知却被巴陵覷破賊身已
@@ -7920,7 +7932,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0182a05"/><g ref="#CB01223">㖿</g>深師叔救取老僧深云和尚有甚麼病
 <lb ed="L" n="0182a06"/>招舉頭一覷云咦眼子烏<g ref="#CB02976">𠷈</g><g ref="#CB02976">𠷈</g>地依前是
 <lb ed="L" n="0182a07"/>舊時深上座乃轉身面壁。</p></cb:div>
-<lb ed="L" n="0182a08"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0182a0801">拈云諸方盡謂明招是獨眼龍權衡佛
+<lb ed="L" n="0182a08"/><cb:div type="commentary"><p xml:id="pL158p0182a0801" style="margin-left:1em">拈云諸方盡謂明招是獨眼龍權衡佛
 <lb ed="L" n="0182a09"/>祖龜鑑宗乘尚且一疾不能自作主張
 <lb ed="L" n="0182a10"/>却被國泰一拶慚惶面壁迄今轉身不
 <lb ed="L" n="0182a11"/>得且道面壁意作麼生酒逢知<anchor xml:id="nkr_note_add_0182a1101" n="0182a1101"/><anchor xml:id="beg0182a1101" n="0182a1101"/>己<anchor xml:id="end0182a1101"/>千盃
@@ -7930,7 +7942,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0182a15"/>喫個什麼峯遂將盆覆却山云據子因緣
 <pb ed="L" xml:id="L158.1652.0182b" n="0182b"/>
 <lb ed="L" n="0182b01"/>合在德山。</p></cb:div>
-<lb ed="L" n="0182b02"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0182b0201">拈云洞山垂<g ref="#CB02133">󰡕</g>千尺意在深潭雪峯不
+<lb ed="L" n="0182b02"/><cb:div type="commentary"><p xml:id="pL158p0182b0201" style="margin-left:1em">拈云洞山垂<g ref="#CB02133">󰡕</g>千尺意在深潭雪峯不
 <lb ed="L" n="0182b03"/>貪香餌味可謂碧潭龍當時若會石女
 <lb ed="L" n="0182b04"/>停機夜色向午木人轉路月影移央於
 <lb ed="L" n="0182b05"/>此君臣道合父子投機必為他家種草
@@ -7942,7 +7954,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0182b11"/>云道甚麼牛擬開口濟便打一坐具牛作
 <lb ed="L" n="0182b12"/>倒勢濟又打一坐具牛云今日不着便遂
 <lb ed="L" n="0182b13"/>歸方丈。</p></cb:div>
-<lb ed="L" n="0182b14"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0182b1401">拈云大眾看者兩員戰將射鵰絕技脫
+<lb ed="L" n="0182b14"/><cb:div type="commentary"><p xml:id="pL158p0182b1401" style="margin-left:1em">拈云大眾看者兩員戰將射鵰絕技脫
 <lb ed="L" n="0182b15"/>兔奇謀羽檄交馳縱奪可羨一人有生
 <pb ed="L" xml:id="L158.1652.0183a" n="0183a"/>
 <lb ed="L" n="0183a01"/>殺之權一人善布陣之法雖然陣勢已
@@ -7951,7 +7963,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0183a04"/>露頂溪云如何是末山主尼云非男女相
 <lb ed="L" n="0183a05"/>溪喝云何不變去尼云不是神不是鬼變
 <lb ed="L" n="0183a06"/>個甚麼。</p></cb:div>
-<lb ed="L" n="0183a07"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0183a0701">拈云直下便喝震動須彌菸菟戴角何
+<lb ed="L" n="0183a07"/><cb:div type="commentary"><p xml:id="pL158p0183a0701" style="margin-left:1em">拈云直下便喝震動須彌菸菟戴角何
 <lb ed="L" n="0183a08"/>不變去是法住法位世間相常住簡約
 <lb ed="L" n="0183a09"/>而精明神通而莫測落霞孤鶩齊飛秋
 <lb ed="L" n="0183a10"/>水長天一色。</p></cb:div>
@@ -7959,7 +7971,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0183a12"/>前復退後空云父母俱亡畧不慚顏僧呵
 <lb ed="L" n="0183a13"/>呵大笑空云少間與闍黎舉哀其僧乃打
 <lb ed="L" n="0183a14"/>筋斗而出空云蒼天蒼天。</p></cb:div>
-<lb ed="L" n="0183a15"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0183a1501">拈云者漢平地上布偃月龍蛇陣要擒
+<lb ed="L" n="0183a15"/><cb:div type="commentary"><p xml:id="pL158p0183a1501" style="margin-left:1em">拈云者漢平地上布偃月龍蛇陣要擒
 <pb ed="L" xml:id="L158.1652.0183b" n="0183b"/>
 <lb ed="L" n="0183b01"/>豪傑英才誰不知者僧解劍刃上轉身
 <lb ed="L" n="0183b02"/>弓弦上走馬不能收入彀中其知善戰
@@ -7971,7 +7983,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0183b08"/>不然子且還老僧草鞋錢老僧然後還江
 <lb ed="L" n="0183b09"/>陵米價月云與麼不識和尚未審江陵米
 <lb ed="L" n="0183b10"/>作麼生價山云善能哮吼。</p></cb:div>
-<lb ed="L" n="0183b11"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0183b1101">拈云夾山善能琢玉鏤金攢花鋪錦月
+<lb ed="L" n="0183b11"/><cb:div type="commentary"><p xml:id="pL158p0183b1101" style="margin-left:1em">拈云夾山善能琢玉鏤金攢花鋪錦月
 <lb ed="L" n="0183b12"/>輪步步登高着着有路機峻敏<g ref="#CB15162">㨗</g>互奪
 <lb ed="L" n="0183b13"/>互存謂是作家若到海會門下棒打折
 <lb ed="L" n="0183b14"/>也未放過伊何故為人須為徹殺人要
@@ -7982,7 +7994,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0184a03"/>地州遂與一踏踏倒却向涅槃堂云悔悔
 <lb ed="L" n="0184a04"/>泉令侍者問悔個甚麼州云悔不更與兩
 <lb ed="L" n="0184a05"/>踏。</p></cb:div>
-<lb ed="L" n="0184a06"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0184a0601">拈云南泉慣唱無腔曲趙州善打氊拍
+<lb ed="L" n="0184a06"/><cb:div type="commentary"><p xml:id="pL158p0184a0601" style="margin-left:1em">拈云南泉慣唱無腔曲趙州善打氊拍
 <lb ed="L" n="0184a07"/>板雖然曲調甚高未免一場巇嶮廣福
 <lb ed="L" n="0184a08"/>即不然或有人問如何是類但以兩手
 <lb ed="L" n="0184a09"/>捏拳作角勢放在額上且與南泉以手
@@ -7993,7 +8005,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0184a14"/>安否僧云有信相寄道了脫履拋向面前
 <lb ed="L" n="0184a15"/>峯休去。</p></cb:div>
 <pb ed="L" xml:id="L158.1652.0184b" n="0184b"/>
-<lb ed="L" n="0184b01"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0184b0101">拈云靈雲寄書相識滿天下知心能幾
+<lb ed="L" n="0184b01"/><cb:div type="commentary"><p xml:id="pL158p0184b0101" style="margin-left:1em">拈云靈雲寄書相識滿天下知心能幾
 <lb ed="L" n="0184b02"/>人誰不知雪峯祇有受璧之心且無割
 <lb ed="L" n="0184b03"/>城之意當時若是安國見僧脫出履拋
 <lb ed="L" n="0184b04"/>向面前劈脊便棒何謂重賞之下必有
@@ -8002,7 +8014,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0184b07"/>三下却豎一指仰亦以兩手相交過各撥
 <lb ed="L" n="0184b08"/>三下却向胸前豎一指覆一手以目視瞻
 <lb ed="L" n="0184b09"/>溈山休去。</p></cb:div>
-<lb ed="L" n="0184b10"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0184b1001">拈云圓機體用密旨無差暗去明投明
+<lb ed="L" n="0184b10"/><cb:div type="commentary"><p xml:id="pL158p0184b1001" style="margin-left:1em">拈云圓機體用密旨無差暗去明投明
 <lb ed="L" n="0184b11"/>來暗合雖則父子經文緯武射策全施
 <lb ed="L" n="0184b12"/>檢點將來大似靴裏動指。</p></cb:div>
 <lb ed="L" n="0184b13"/><cb:div type="orig"><p xml:id="pL158p0184b1301">黃檗一日普請鋤茶園檗後至臨濟問訊
@@ -8012,7 +8024,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0185a01"/>呼維那拽起我來那扶起曰和尚爭容得
 <lb ed="L" n="0185a02"/>這風顛漢無禮檗却打維那濟自钁此云
 <lb ed="L" n="0185a03"/>諸方火葬我這裏活埋。</p></cb:div>
-<lb ed="L" n="0185a04"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0185a0401">拈云黃檗大似阿修羅王身披鎧甲氣
+<lb ed="L" n="0185a04"/><cb:div type="commentary"><p xml:id="pL158p0185a0401" style="margin-left:1em">拈云黃檗大似阿修羅王身披鎧甲氣
 <lb ed="L" n="0185a05"/>湧波騰背負須彌手擎日月橫行四天
 <lb ed="L" n="0185a06"/>下誰敢當頭視伊善則善矣祗如黃檗
 <lb ed="L" n="0185a07"/>被臨濟推倒因甚却打維那不見道做
@@ -8028,7 +8040,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0185b01"/>擲向地上曰昨日底昨日底主云昨日底
 <lb ed="L" n="0185b02"/>是甚麼泉於沙彌背上拍一下曰賺我來
 <lb ed="L" n="0185b03"/>賺我來拂袖便行。</p></cb:div>
-<lb ed="L" n="0185b04"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0185b0401">拈云者捏死蛇頭漢只可無佛處稱尊
+<lb ed="L" n="0185b04"/><cb:div type="commentary"><p xml:id="pL158p0185b0401" style="margin-left:1em">拈云者捏死蛇頭漢只可無佛處稱尊
 <lb ed="L" n="0185b05"/>不能向異類中行當時若具衲僧手眼
 <lb ed="L" n="0185b06"/>奔流度刃之機見趙州設拜便震威一
 <lb ed="L" n="0185b07"/>喝待他眼目定動直推出庵門豈不俊
@@ -8036,12 +8048,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0185b09"/><cb:div type="orig"><p xml:id="pL158p0185b0901">趙州到黃檗檗見來便閉方丈門州乃把
 <lb ed="L" n="0185b10"/>火於法堂內呌曰救火救火檗開門捉住
 <lb ed="L" n="0185b11"/>曰道道州曰賊過後張弓。</p></cb:div>
-<lb ed="L" n="0185b12"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0185b1201">拈云兩個漆桶擦痒一擦便骨出。</p></cb:div>
+<lb ed="L" n="0185b12"/><cb:div type="commentary"><p xml:id="pL158p0185b1201" style="margin-left:1em">拈云兩個漆桶擦痒一擦便骨出。</p></cb:div>
 <lb ed="L" n="0185b13"/><cb:div type="orig"><p xml:id="pL158p0185b1301">慈明和尚或時方丈內安一盆水劄一口
 <lb ed="L" n="0185b14"/>劍下面着一緉草鞋膝上橫按拄杖入門
 <lb ed="L" n="0185b15"/>便指擬議便打。</p></cb:div>
 <pb ed="L" xml:id="L158.1652.0186a" n="0186a"/>
-<lb ed="L" n="0186a01"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0186a0101">拈云作家宗匠慣用格外之機不落時
+<lb ed="L" n="0186a01"/><cb:div type="commentary"><p xml:id="pL158p0186a0101" style="margin-left:1em">拈云作家宗匠慣用格外之機不落時
 <lb ed="L" n="0186a02"/>人窠臼可謂超宗異目海會當時若見
 <lb ed="L" n="0186a03"/>一脚趯飜待伊打便接杖云盲枷瞎棒
 <lb ed="L" n="0186a04"/>打某甲不得管教懡<g ref="#CB01334">㦬</g>歸方丈。</p></cb:div>
@@ -8049,7 +8061,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0186a06"/>師西來意州云恰遇山僧洗脚濟近前作
 <lb ed="L" n="0186a07"/>聽勢州云會即便會<g ref="#CB01493">㗖</g>啄作麼濟便歸方
 <lb ed="L" n="0186a08"/>丈州云三十年行脚今日錯為人下註脚。</p></cb:div>
-<lb ed="L" n="0186a09"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0186a0901">拈云臨濟具通天手眼有驗龍蛇之機
+<lb ed="L" n="0186a09"/><cb:div type="commentary"><p xml:id="pL158p0186a0901" style="margin-left:1em">拈云臨濟具通天手眼有驗龍蛇之機
 <lb ed="L" n="0186a10"/>趙州獨蹈大方有跨海之勇二俱作家
 <lb ed="L" n="0186a11"/>一縱一奪不犯鋒鋩各有出身之路如
 <lb ed="L" n="0186a12"/>何是出身之路坐斷十方猶點額密移
@@ -8059,7 +8071,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="L" xml:id="L158.1652.0186b" n="0186b"/>
 <lb ed="L" n="0186b01"/>妙祖直上覷士禮拜祖歸方丈士隨後云
 <lb ed="L" n="0186b02"/>弄巧成拙。</p></cb:div>
-<lb ed="L" n="0186b03"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0186b0301">拈云龐公機鋒峻<g ref="#CB15162">㨗</g>海口舌鎗馬師眼
+<lb ed="L" n="0186b03"/><cb:div type="commentary"><p xml:id="pL158p0186b0301" style="margin-left:1em">拈云龐公機鋒峻<g ref="#CB15162">㨗</g>海口舌鎗馬師眼
 <lb ed="L" n="0186b04"/>似流星曲垂提獎酬唱宗乘還他二老
 <lb ed="L" n="0186b05"/>若會不昧本來人總是一隊黑漆桶。</p></cb:div>
 <lb ed="L" n="0186b06"/><cb:div type="orig"><p xml:id="pL158p0186b0601">王延彬太尉因到昭慶煎茶次朗上座與
@@ -8069,7 +8081,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0186b10"/>一時尉拂袖便行昭云朗上座吃却昭慶
 <lb ed="L" n="0186b11"/>飯了却向外邊打野榸朗云上座作麼生
 <lb ed="L" n="0186b12"/>昭云非人得其便。</p></cb:div>
-<lb ed="L" n="0186b13"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0186b1301">拈云太尉拈出倚天長劍逼人毛骨悚
+<lb ed="L" n="0186b13"/><cb:div type="commentary"><p xml:id="pL158p0186b1301" style="margin-left:1em">拈云太尉拈出倚天長劍逼人毛骨悚
 <lb ed="L" n="0186b14"/>然朗上座有舌戰羣儒之才善退圍兵
 <lb ed="L" n="0186b15"/>之法明昭更用<g ref="#CB12175">󲾏</g>旗奪皷英雄奔流度
 <pb ed="L" xml:id="L158.1652.0187a" n="0187a"/>
@@ -8080,7 +8092,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0187a05"/>便請閑以手挃頭上却展手云還奈何麼
 <lb ed="L" n="0187a06"/>僧無對後到疎山堂內舉一僧云諸人還
 <lb ed="L" n="0187a07"/>會麼眾無對僧云天下人不奈大庾嶺何。</p></cb:div>
-<lb ed="L" n="0187a08"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0187a0801">拈云烽火連三月家書抵萬金羅山欲
+<lb ed="L" n="0187a08"/><cb:div type="commentary"><p xml:id="pL158p0187a0801" style="margin-left:1em">拈云烽火連三月家書抵萬金羅山欲
 <lb ed="L" n="0187a09"/>附鴻音疎山大似寄人不的當被渠到
 <lb ed="L" n="0187a10"/>處揭露與明眼人識破以致家醜外揚。</p></cb:div>
 <lb ed="L" n="0187a11"/><cb:div type="orig"><p xml:id="pL158p0187a1101">丹霞因過一院值凝寒於殿中見木佛乃
@@ -8089,14 +8101,14 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0187a14"/>佛何有舍利霞云既無舍利更請兩尊燒
 <lb ed="L" n="0187a15"/>院主自後眉毛墮落。</p></cb:div>
 <pb ed="L" xml:id="L158.1652.0187b" n="0187b"/>
-<lb ed="L" n="0187b01"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0187b0101">拈云丹霞燒木佛也是小兒伎倆院主
+<lb ed="L" n="0187b01"/><cb:div type="commentary"><p xml:id="pL158p0187b0101" style="margin-left:1em">拈云丹霞燒木佛也是小兒伎倆院主
 <lb ed="L" n="0187b02"/>眉毛墮落因禍得福雖然如是祇如丹
 <lb ed="L" n="0187b03"/>霞拄杖撥<g ref="#CB01926">󰞆</g>覓舍利還有也無不見道
 <lb ed="L" n="0187b04"/>有智人前不得說夢。</p></cb:div>
 <lb ed="L" n="0187b05"/><cb:div type="orig"><p xml:id="pL158p0187b0501">灌溪初叅臨濟濟扭住溪云領也濟托開
 <lb ed="L" n="0187b06"/>云且放你一頓溪後示眾云我見臨濟和
 <lb ed="L" n="0187b07"/>尚無言語直至如今飽不饑。</p></cb:div>
-<lb ed="L" n="0187b08"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0187b0801">拈云臨濟大似金翅鳥王直取龍吞檢
+<lb ed="L" n="0187b08"/><cb:div type="commentary"><p xml:id="pL158p0187b0801" style="margin-left:1em">拈云臨濟大似金翅鳥王直取龍吞檢
 <lb ed="L" n="0187b09"/>點將來也是虎頭蛇尾當時見灌溪云
 <lb ed="L" n="0187b10"/>領也再徵之汝領個什麼待他擬議連
 <lb ed="L" n="0187b11"/>棒趂出直使知恩有地。</p></cb:div>
@@ -8105,17 +8117,18 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0187b14"/>打云一二三四五州便具威儀上方丈適
 <lb ed="L" n="0187b15"/>來謝和尚相救。</p></cb:div>
 <pb ed="L" xml:id="L158.1652.0188a" n="0188a"/>
-<lb ed="L" n="0188a01"/><cb:div type="commentary"><p style="margin-left:1em" xml:id="pL158p0188a0101">拈云趙州家富飯飽弄箸南泉救人就
+<lb ed="L" n="0188a01"/><cb:div type="commentary"><p xml:id="pL158p0188a0101" style="margin-left:1em">拈云趙州家富飯飽弄箸南泉救人就
 <lb ed="L" n="0188a02"/>窠打刼雖父子敲唱俱隨未免傍觀者
 <lb ed="L" n="0188a03"/>醜。</p></cb:div></cb:div>
 <lb ed="L" n="0188a04"/>
 <lb ed="L" n="0188a05"/><cb:juan fun="close" n="12"><cb:jhead>明覺聰禪師語錄卷第十二</cb:jhead></cb:juan>
 <lb ed="L" n="0188a06"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0188a07"/><cb:div type="note"><entry><form>蒯</form><cb:def><p style="margin-left:1em" xml:id="pL158p0188a0702" cb:place="inline"><note place="inline">苦夬切音快姓漢有蒯通</note>。</p></cb:def></entry><entry cb:place="inline"><form>鹵</form><cb:def><p style="margin-left:1em" xml:id="pL158p0188a0713" cb:place="inline"><note place="inline">郎古切音魯鹵莽輕脫苟且也</note>。</p></cb:def></entry><entry cb:place="inline"><form>顢</form><cb:def><p style="margin-left:1em" xml:id="pL158p0188a0726" cb:place="inline"><note place="inline">謨官
-<lb ed="L" n="0188a08"/>切音瞞顢頇大面也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB08240">󲀰</g></term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0188a0810" cb:place="inline"><note place="inline">渠追切音逵牛名</note>。</p></cb:def></entry><entry cb:place="inline"><form>髭</form><cb:def><p style="margin-left:1em" xml:id="pL158p0188a0818" cb:place="inline"><note place="inline">津私切咨口上毛曰髭</note>。</p></cb:def></entry>
-<lb ed="L" n="0188a09"/><entry><form>菸</form><cb:def><p style="margin-left:1em" xml:id="pL158p0188a0902" cb:place="inline"><note place="inline">音烏楚人謂虎為菸菟</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB30180">󷗤</g></term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0188a0912" cb:place="inline"><note place="inline">虛宜切音希山相對而危險也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0188a07"/><cb:div type="note"><entry><form>蒯</form><cb:def><p xml:id="pL158p0188a0702" style="margin-left:1em" cb:place="inline"><note place="inline">苦夬切音快姓漢有蒯通</note>。</p></cb:def></entry><entry cb:place="inline"><form>鹵</form><cb:def><p xml:id="pL158p0188a0713" style="margin-left:1em" cb:place="inline"><note place="inline">郎古切音魯鹵莽輕脫苟且也</note>。</p></cb:def></entry><entry cb:place="inline"><form>顢</form><cb:def><p xml:id="pL158p0188a0726" style="margin-left:1em" cb:place="inline"><note place="inline">謨官
+<lb ed="L" n="0188a08"/>切音瞞顢頇大面也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB08240">󲀰</g></term></form><cb:def><p xml:id="pL158p0188a0810" style="margin-left:1em" cb:place="inline"><note place="inline">渠追切音逵牛名</note>。</p></cb:def></entry><entry cb:place="inline"><form>髭</form><cb:def><p xml:id="pL158p0188a0818" style="margin-left:1em" cb:place="inline"><note place="inline">津私切咨口上毛曰髭</note>。</p></cb:def></entry>
+<lb ed="L" n="0188a09"/><entry><form>菸</form><cb:def><p xml:id="pL158p0188a0902" style="margin-left:1em" cb:place="inline"><note place="inline">音烏楚人謂虎為菸菟</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB30180">󷗤</g></term></form><cb:def><p xml:id="pL158p0188a0912" style="margin-left:1em" cb:place="inline"><note place="inline">虛宜切音希山相對而危險也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="13"/>
 <pb ed="L" xml:id="L158.1652.0188b" n="0188b"/>
-<lb ed="L" n="0188b01"/><milestone unit="juan" n="13"/><cb:mulu type="卷" n="13"></cb:mulu><cb:juan fun="open" n="13"><cb:jhead>明覺聰禪師語錄卷第十三　　　辨三</cb:jhead></cb:juan>
+<lb ed="L" n="0188b01"/><cb:mulu type="卷" n="13"></cb:mulu><cb:juan fun="open" n="13"><cb:jhead>明覺聰禪師語錄卷第十三　　　辨三</cb:jhead></cb:juan>
 <lb ed="L" n="0188b02"/><byline cb:type="editor">嗣法門人戒弘編</byline>
 <lb ed="L" n="0188b03"/><cb:div type="other"><cb:mulu type="其他" level="1">頌古</cb:mulu><head>頌古</head>
 <lb ed="L" n="0188b04"/><cb:div type="orig"><p xml:id="pL158p0188b0401">世尊初生下廼以一手指天一手指地周
@@ -8665,10 +8678,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0205b04"/>
 <lb ed="L" n="0205b05"/><cb:juan fun="close" n="13"><cb:jhead>明覺聰禪師語錄卷第十三</cb:jhead></cb:juan>
 <lb ed="L" n="0205b06"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0205b07"/><cb:div type="note"><entry><form>罅</form><cb:def><p style="margin-left:1em" xml:id="pL158p0205b0702" cb:place="inline"><note place="inline">呼訝切音嚇裂也</note>。</p></cb:def></entry><entry cb:place="inline"><form>嶄</form><cb:def><p style="margin-left:1em" xml:id="pL158p0205b0710" cb:place="inline"><note place="inline">士減切音劖山高峻貌</note>。</p></cb:def></entry><entry cb:place="inline"><form>鈐</form><cb:def><p style="margin-left:1em" xml:id="pL158p0205b0720" cb:place="inline"><note place="inline">其淹切音箝矛
-<lb ed="L" n="0205b08"/>其柄謂之鈐</note>。</p></cb:def></entry><entry cb:place="inline"><form>呴</form><cb:def><p style="margin-left:1em" xml:id="pL158p0205b0807" cb:place="inline"><note place="inline">吁句切音昫魚相呴以濕又吐沫也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0205b07"/><cb:div type="note"><entry><form>罅</form><cb:def><p xml:id="pL158p0205b0702" style="margin-left:1em" cb:place="inline"><note place="inline">呼訝切音嚇裂也</note>。</p></cb:def></entry><entry cb:place="inline"><form>嶄</form><cb:def><p xml:id="pL158p0205b0710" style="margin-left:1em" cb:place="inline"><note place="inline">士減切音劖山高峻貌</note>。</p></cb:def></entry><entry cb:place="inline"><form>鈐</form><cb:def><p xml:id="pL158p0205b0720" style="margin-left:1em" cb:place="inline"><note place="inline">其淹切音箝矛
+<lb ed="L" n="0205b08"/>其柄謂之鈐</note>。</p></cb:def></entry><entry cb:place="inline"><form>呴</form><cb:def><p xml:id="pL158p0205b0807" style="margin-left:1em" cb:place="inline"><note place="inline">吁句切音昫魚相呴以濕又吐沫也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="14"/>
 <pb ed="L" xml:id="L158.1652.0206a" n="0206a"/>
-<lb ed="L" n="0206a01"/><milestone unit="juan" n="14"/><cb:mulu type="卷" n="14"></cb:mulu><cb:juan fun="open" n="14"><cb:jhead>明覺聰禪師語錄卷第十四　　　辨四</cb:jhead></cb:juan>
+<lb ed="L" n="0206a01"/><cb:mulu type="卷" n="14"></cb:mulu><cb:juan fun="open" n="14"><cb:jhead>明覺聰禪師語錄卷第十四　　　辨四</cb:jhead></cb:juan>
 <lb ed="L" n="0206a02"/><byline cb:type="editor">嗣法門人戒受編</byline>
 <lb ed="L" n="0206a03"/><cb:div type="other"><cb:mulu type="其他" level="1">問答機緣</cb:mulu><head>問答機緣</head>
 <lb ed="L" n="0206a04" type="honorific"/><p xml:id="pL158p0206a0401">上問如何是佛法大意師云自世尊覩明星
@@ -9238,8 +9252,9 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0223b08"/>杖一齊打散。</p></cb:div>
 <lb ed="L" n="0223b09"/>
 <lb ed="L" n="0223b10"/><cb:juan fun="close" n="14"><cb:jhead>明覺聰禪師語錄卷第十四</cb:jhead></cb:juan>
+<milestone unit="juan" n="15"/>
 <pb ed="L" xml:id="L158.1652.0224a" n="0224a"/>
-<lb ed="L" n="0224a01"/><milestone unit="juan" n="15"/><cb:mulu type="卷" n="15"></cb:mulu><cb:juan fun="open" n="15"><cb:jhead>明覺聰禪師語錄卷第十五　　　辨五</cb:jhead></cb:juan>
+<lb ed="L" n="0224a01"/><cb:mulu type="卷" n="15"></cb:mulu><cb:juan fun="open" n="15"><cb:jhead>明覺聰禪師語錄卷第十五　　　辨五</cb:jhead></cb:juan>
 <lb ed="L" n="0224a02"/><byline cb:type="editor">嗣法門人戒恒編</byline>
 <lb ed="L" n="0224a03"/><cb:div type="other"><cb:mulu type="其他" level="1">法語</cb:mulu><head>法語</head>
 <lb ed="L" n="0224a04"/><cb:div type="other"><cb:mulu type="其他" level="2">上問</cb:mulu><p xml:id="pL158p0224a0401">皇太后請話頭參禪一日工夫緊切忽然境
@@ -9736,10 +9751,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0239a15"/><cb:juan fun="close" n="15"><cb:jhead>明覺聰禪師語錄卷第十五</cb:jhead></cb:juan>
 <pb ed="L" xml:id="L158.1652.0239b" n="0239b"/>
 <lb ed="L" n="0239b01"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0239b02"/><cb:div type="note"><entry><form><term cb:behaviour="no-norm"><g ref="#CB05222">𩪸</g></term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0239b0202" cb:place="inline"><note place="inline">狼敵切音歷骨病</note>。</p></cb:def></entry><entry cb:place="inline"><form>洄</form><cb:def><p style="margin-left:1em" xml:id="pL158p0239b0210" cb:place="inline"><note place="inline">胡隈切音回逆流而上也</note>。</p></cb:def></entry><entry cb:place="inline"><form>侔</form><cb:def><p style="margin-left:1em" xml:id="pL158p0239b0221" cb:place="inline"><note place="inline">莫候切音謀齊
-<lb ed="L" n="0239b03"/>等也</note>。</p></cb:def></entry><entry cb:place="inline"><form>觱</form><cb:def><p style="margin-left:1em" xml:id="pL158p0239b0304" cb:place="inline"><note place="inline">壁吉切音必<term cb:behaviour="no-norm">羗</term>人所吹以驚馬者</note>。</p></cb:def></entry><entry cb:place="inline"><form>葺</form><cb:def><p style="margin-left:1em" xml:id="pL158p0239b0318" cb:place="inline"><note place="inline">七入切音緝修補也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0239b02"/><cb:div type="note"><entry><form><term cb:behaviour="no-norm"><g ref="#CB05222">𩪸</g></term></form><cb:def><p xml:id="pL158p0239b0202" style="margin-left:1em" cb:place="inline"><note place="inline">狼敵切音歷骨病</note>。</p></cb:def></entry><entry cb:place="inline"><form>洄</form><cb:def><p xml:id="pL158p0239b0210" style="margin-left:1em" cb:place="inline"><note place="inline">胡隈切音回逆流而上也</note>。</p></cb:def></entry><entry cb:place="inline"><form>侔</form><cb:def><p xml:id="pL158p0239b0221" style="margin-left:1em" cb:place="inline"><note place="inline">莫候切音謀齊
+<lb ed="L" n="0239b03"/>等也</note>。</p></cb:def></entry><entry cb:place="inline"><form>觱</form><cb:def><p xml:id="pL158p0239b0304" style="margin-left:1em" cb:place="inline"><note place="inline">壁吉切音必<term cb:behaviour="no-norm">羗</term>人所吹以驚馬者</note>。</p></cb:def></entry><entry cb:place="inline"><form>葺</form><cb:def><p xml:id="pL158p0239b0318" style="margin-left:1em" cb:place="inline"><note place="inline">七入切音緝修補也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="16"/>
 <pb ed="L" xml:id="L158.1652.0240a" n="0240a"/>
-<lb ed="L" n="0240a01"/><milestone unit="juan" n="16"/><cb:mulu type="卷" n="16"></cb:mulu><cb:juan fun="open" n="16"><cb:jhead>明覺聰禪師語錄卷第十六　　　辨六</cb:jhead></cb:juan>
+<lb ed="L" n="0240a01"/><cb:mulu type="卷" n="16"></cb:mulu><cb:juan fun="open" n="16"><cb:jhead>明覺聰禪師語錄卷第十六　　　辨六</cb:jhead></cb:juan>
 <lb ed="L" n="0240a02"/><byline cb:type="editor">嗣法門人戒恒編</byline>
 <lb ed="L" n="0240a03"/><cb:div type="other"><cb:mulu type="其他" level="1">偈二</cb:mulu><head>偈</head>
 <lb ed="L" n="0240a04"/><cb:div type="other"><cb:mulu type="其他" level="2">送天申禪師之金粟</cb:mulu><head>送天申禪師之金粟</head>
@@ -10236,11 +10252,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0255a15"/><cb:juan fun="close" n="16"><cb:jhead>明覺聰禪師語錄卷第十六</cb:jhead></cb:juan>
 <pb ed="L" xml:id="L158.1652.0255b" n="0255b"/>
 <lb ed="L" n="0255b01"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0255b02"/><cb:div type="note"><entry><form>鷦</form><cb:def><p style="margin-left:1em" xml:id="pL158p0255b0202" cb:place="inline"><note place="inline">茲消切音焦鷦鷯小鳥也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm">蠧</term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0255b0213" cb:place="inline"><note place="inline">都故切音妒木中蟲也</note>。</p></cb:def></entry><entry cb:place="inline"><form>穗</form><cb:def><p style="margin-left:1em" xml:id="pL158p0255b0223" cb:place="inline"><note place="inline">徐醉切音
-<lb ed="L" n="0255b03"/>遂禾成秀也</note>。</p></cb:def></entry><entry cb:place="inline"><form>弢</form><cb:def><p style="margin-left:1em" xml:id="pL158p0255b0307" cb:place="inline"><note place="inline">他刀切音叨弓衣也</note>。</p></cb:def></entry><entry cb:place="inline"><form>鼷</form><cb:def><p style="margin-left:1em" xml:id="pL158p0255b0316" cb:place="inline"><note place="inline">胡<term cb:behaviour="no-norm">鷄</term>切音奚小鼠也</note>。</p></cb:def></entry><entry cb:place="inline"><form>沌</form><cb:def><p style="margin-left:1em" xml:id="pL158p0255b0325" cb:place="inline"><note place="inline">徒本
+<lb ed="L" n="0255b02"/><cb:div type="note"><entry><form>鷦</form><cb:def><p xml:id="pL158p0255b0202" style="margin-left:1em" cb:place="inline"><note place="inline">茲消切音焦鷦鷯小鳥也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm">蠧</term></form><cb:def><p xml:id="pL158p0255b0213" style="margin-left:1em" cb:place="inline"><note place="inline">都故切音妒木中蟲也</note>。</p></cb:def></entry><entry cb:place="inline"><form>穗</form><cb:def><p xml:id="pL158p0255b0223" style="margin-left:1em" cb:place="inline"><note place="inline">徐醉切音
+<lb ed="L" n="0255b03"/>遂禾成秀也</note>。</p></cb:def></entry><entry cb:place="inline"><form>弢</form><cb:def><p xml:id="pL158p0255b0307" style="margin-left:1em" cb:place="inline"><note place="inline">他刀切音叨弓衣也</note>。</p></cb:def></entry><entry cb:place="inline"><form>鼷</form><cb:def><p xml:id="pL158p0255b0316" style="margin-left:1em" cb:place="inline"><note place="inline">胡<term cb:behaviour="no-norm">鷄</term>切音奚小鼠也</note>。</p></cb:def></entry><entry cb:place="inline"><form>沌</form><cb:def><p xml:id="pL158p0255b0325" style="margin-left:1em" cb:place="inline"><note place="inline">徒本
 <lb ed="L" n="0255b04"/>切音囤混沌元氣未分也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="17"/>
 <pb ed="L" xml:id="L158.1652.0256a" n="0256a"/>
-<lb ed="L" n="0256a01"/><milestone unit="juan" n="17"/><cb:mulu type="卷" n="17"></cb:mulu><cb:juan fun="open" n="17"><cb:jhead>明覺聰禪師語錄卷第十七　　　辨七</cb:jhead></cb:juan>
+<lb ed="L" n="0256a01"/><cb:mulu type="卷" n="17"></cb:mulu><cb:juan fun="open" n="17"><cb:jhead>明覺聰禪師語錄卷第十七　　　辨七</cb:jhead></cb:juan>
 <lb ed="L" n="0256a02"/><byline cb:type="editor">嗣法門人戒修編</byline>
 <lb ed="L" n="0256a03"/><cb:div type="other"><cb:mulu type="其他" level="1">偈三</cb:mulu><head>偈</head>
 <lb ed="L" n="0256a04"/><cb:div type="other"><cb:mulu type="其他" level="2">山居四首</cb:mulu><head>山居四首</head>
@@ -10711,11 +10728,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0270b05"/>存。</p></cb:div></cb:div>
 <lb ed="L" n="0270b06"/><cb:juan fun="close" n="17"><cb:jhead>明覺聰禪師語錄卷第十七</cb:jhead></cb:juan>
 <lb ed="L" n="0270b07"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0270b08"/><cb:div type="note"><entry><form>籟</form><cb:def><p style="margin-left:1em" xml:id="pL158p0270b0802" cb:place="inline"><note place="inline">落蓋切音賴凡孔竅機括皆曰籟</note>。</p></cb:def></entry><entry cb:place="inline"><form>佼</form><cb:def><p style="margin-left:1em" xml:id="pL158p0270b0816" cb:place="inline"><note place="inline">古巧切音攪好也</note>。</p></cb:def></entry><entry cb:place="inline"><form>樗</form><cb:def><p style="margin-left:1em" xml:id="pL158p0270b0824" cb:place="inline"><note place="inline">丑居
-<lb ed="L" n="0270b09"/>切音攄惡木也</note>。</p></cb:def></entry><entry cb:place="inline"><form>宥</form><cb:def><p style="margin-left:1em" xml:id="pL158p0270b0908" cb:place="inline"><note place="inline">爰救切音又寬也</note>。</p></cb:def></entry><entry cb:place="inline"><form>頫</form><cb:def><p style="margin-left:1em" xml:id="pL158p0270b0916" cb:place="inline"><note place="inline">匪父切音甫低頭也</note>。</p></cb:def></entry><entry cb:place="inline"><form>庥</form><cb:def><p style="margin-left:1em" xml:id="pL158p0270b0925" cb:place="inline"><note place="inline">虛尤
-<lb ed="L" n="0270b10"/>切音休庇蔭也</note>。</p></cb:def></entry><entry cb:place="inline"><form>籲</form><cb:def><p style="margin-left:1em" xml:id="pL158p0270b1008" cb:place="inline"><note place="inline">俞戍切音預呼也</note>。</p></cb:def></entry><entry cb:place="inline"><form>肄</form><cb:def><p style="margin-left:1em" xml:id="pL158p0270b1016" cb:place="inline"><note place="inline">以智切音易習也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0270b08"/><cb:div type="note"><entry><form>籟</form><cb:def><p xml:id="pL158p0270b0802" style="margin-left:1em" cb:place="inline"><note place="inline">落蓋切音賴凡孔竅機括皆曰籟</note>。</p></cb:def></entry><entry cb:place="inline"><form>佼</form><cb:def><p xml:id="pL158p0270b0816" style="margin-left:1em" cb:place="inline"><note place="inline">古巧切音攪好也</note>。</p></cb:def></entry><entry cb:place="inline"><form>樗</form><cb:def><p xml:id="pL158p0270b0824" style="margin-left:1em" cb:place="inline"><note place="inline">丑居
+<lb ed="L" n="0270b09"/>切音攄惡木也</note>。</p></cb:def></entry><entry cb:place="inline"><form>宥</form><cb:def><p xml:id="pL158p0270b0908" style="margin-left:1em" cb:place="inline"><note place="inline">爰救切音又寬也</note>。</p></cb:def></entry><entry cb:place="inline"><form>頫</form><cb:def><p xml:id="pL158p0270b0916" style="margin-left:1em" cb:place="inline"><note place="inline">匪父切音甫低頭也</note>。</p></cb:def></entry><entry cb:place="inline"><form>庥</form><cb:def><p xml:id="pL158p0270b0925" style="margin-left:1em" cb:place="inline"><note place="inline">虛尤
+<lb ed="L" n="0270b10"/>切音休庇蔭也</note>。</p></cb:def></entry><entry cb:place="inline"><form>籲</form><cb:def><p xml:id="pL158p0270b1008" style="margin-left:1em" cb:place="inline"><note place="inline">俞戍切音預呼也</note>。</p></cb:def></entry><entry cb:place="inline"><form>肄</form><cb:def><p xml:id="pL158p0270b1016" style="margin-left:1em" cb:place="inline"><note place="inline">以智切音易習也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="18"/>
 <pb ed="L" xml:id="L158.1652.0271a" n="0271a"/>
-<lb ed="L" n="0271a01"/><milestone unit="juan" n="18"/><cb:mulu type="卷" n="18"></cb:mulu><cb:juan fun="open" n="18"><cb:jhead>明覺聰禪師語錄卷第十八　　　辨八</cb:jhead></cb:juan>
+<lb ed="L" n="0271a01"/><cb:mulu type="卷" n="18"></cb:mulu><cb:juan fun="open" n="18"><cb:jhead>明覺聰禪師語錄卷第十八　　　辨八</cb:jhead></cb:juan>
 <lb ed="L" n="0271a02"/><byline cb:type="editor">嗣法居士明哲編</byline>
 <lb ed="L" n="0271a03"/><cb:div type="other"><cb:mulu type="其他" level="1">書問二</cb:mulu><head>書問</head>
 <lb ed="L" n="0271a04"/><cb:div type="other"><cb:mulu type="其他" level="2">與息齋金太師</cb:mulu><head>與息齋金太師</head>
@@ -11238,11 +11256,12 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0287a09"/>脉通</l></lg></cb:div></cb:div>
 <lb ed="L" n="0287a10"/><cb:juan fun="close" n="18"><cb:jhead>明覺聰禪師語錄卷第十八</cb:jhead></cb:juan>
 <lb ed="L" n="0287a11"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0287a12"/><cb:div type="note"><entry><form>覯</form><cb:def><p style="margin-left:1em" xml:id="pL158p0287a1202" cb:place="inline"><note place="inline">居候切音姤遇見也</note>。</p></cb:def></entry><entry cb:place="inline"><form>躐</form><cb:def><p style="margin-left:1em" xml:id="pL158p0287a1211" cb:place="inline"><note place="inline">力涉切廉入聲踐也踰跨也</note>。</p></cb:def></entry><entry cb:place="inline"><form>穸</form><cb:def><p style="margin-left:1em" xml:id="pL158p0287a1223" cb:place="inline"><note place="inline">祥亦切音
-<lb ed="L" n="0287a13"/>席墓<term cb:behaviour="no-norm">宂</term>幽堂也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB15168">󳭀</g></term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0287a1308" cb:place="inline"><note place="inline">力涉切音獵馬領毛也</note>。</p></cb:def></entry><entry cb:place="inline"><form><anchor xml:id="nkr_note_add_0287a1301" n="0287a1301"/><anchor xml:id="beg0287a1301" n="0287a1301"/>圮<anchor xml:id="end0287a1301"/></form><cb:def><p style="margin-left:1em" xml:id="pL158p0287a1318" cb:place="inline"><note place="inline">普弭切音痞覆也又毀也</note>。</p></cb:def></entry>
-<lb ed="L" n="0287a14"/><entry><form>凸凹</form><cb:def><p style="margin-left:1em" xml:id="pL158p0287a1403" cb:place="inline"><note place="inline">上徒結切音迭高也下於交切音<term cb:behaviour="no-norm"><g ref="#CB08106">㕭</g></term>窊也</note>。</p></cb:def></entry><entry cb:place="inline"><form>屩</form><cb:def><p style="margin-left:1em" xml:id="pL158p0287a1420" cb:place="inline"><note place="inline">訖約切音<term cb:behaviour="no-norm">脚</term>草履也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0287a12"/><cb:div type="note"><entry><form>覯</form><cb:def><p xml:id="pL158p0287a1202" style="margin-left:1em" cb:place="inline"><note place="inline">居候切音姤遇見也</note>。</p></cb:def></entry><entry cb:place="inline"><form>躐</form><cb:def><p xml:id="pL158p0287a1211" style="margin-left:1em" cb:place="inline"><note place="inline">力涉切廉入聲踐也踰跨也</note>。</p></cb:def></entry><entry cb:place="inline"><form>穸</form><cb:def><p xml:id="pL158p0287a1223" style="margin-left:1em" cb:place="inline"><note place="inline">祥亦切音
+<lb ed="L" n="0287a13"/>席墓<term cb:behaviour="no-norm">宂</term>幽堂也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm"><g ref="#CB15168">󳭀</g></term></form><cb:def><p xml:id="pL158p0287a1308" style="margin-left:1em" cb:place="inline"><note place="inline">力涉切音獵馬領毛也</note>。</p></cb:def></entry><entry cb:place="inline"><form><anchor xml:id="nkr_note_add_0287a1301" n="0287a1301"/><anchor xml:id="beg0287a1301" n="0287a1301"/>圮<anchor xml:id="end0287a1301"/></form><cb:def><p xml:id="pL158p0287a1318" style="margin-left:1em" cb:place="inline"><note place="inline">普弭切音痞覆也又毀也</note>。</p></cb:def></entry>
+<lb ed="L" n="0287a14"/><entry><form>凸凹</form><cb:def><p xml:id="pL158p0287a1403" style="margin-left:1em" cb:place="inline"><note place="inline">上徒結切音迭高也下於交切音<term cb:behaviour="no-norm"><g ref="#CB08106">㕭</g></term>窊也</note>。</p></cb:def></entry><entry cb:place="inline"><form>屩</form><cb:def><p xml:id="pL158p0287a1420" style="margin-left:1em" cb:place="inline"><note place="inline">訖約切音<term cb:behaviour="no-norm">脚</term>草履也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="19"/>
 <pb ed="L" xml:id="L158.1652.0287b" n="0287b"/>
-<lb ed="L" n="0287b01"/><milestone unit="juan" n="19"/><cb:mulu type="卷" n="19"></cb:mulu><cb:juan fun="open" n="19"><cb:jhead>明覺聰禪師語錄卷第十九　　　辨九</cb:jhead></cb:juan>
+<lb ed="L" n="0287b01"/><cb:mulu type="卷" n="19"></cb:mulu><cb:juan fun="open" n="19"><cb:jhead>明覺聰禪師語錄卷第十九　　　辨九</cb:jhead></cb:juan>
 <lb ed="L" n="0287b02"/><byline cb:type="editor">嗣法居士海眼編</byline>
 <lb ed="L" n="0287b03"/><cb:div type="other"><cb:mulu type="其他" level="1">贊二</cb:mulu><head>贊</head>
 <lb ed="L" n="0287b04"/><cb:div type="other"><cb:mulu type="其他" level="2">五祖演</cb:mulu><head>五祖演</head>
@@ -11829,10 +11848,11 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0305b09"/><cb:juan fun="close" n="19"><cb:jhead>明覺聰禪師語錄卷第十九</cb:jhead></cb:juan>
 <lb ed="L" n="0305b10"/>
 <lb ed="L" n="0305b11"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0305b12"/><cb:div type="note"><entry><form>鯫</form><cb:def><p style="margin-left:1em" xml:id="pL158p0305b1202" cb:place="inline"><note place="inline">于候切音陬小魚也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm">欝</term></form><cb:def><p style="margin-left:1em" xml:id="pL158p0305b1211" cb:place="inline"><note place="inline">紆勿切氳入聲木叢生也</note>。</p></cb:def></entry><entry cb:place="inline"><form>懲</form><cb:def><p style="margin-left:1em" xml:id="pL158p0305b1222" cb:place="inline"><note place="inline">直陵切音澄<term cb:behaviour="no-norm"><g ref="#CB22178">㣻</g></term>
-<lb ed="L" n="0305b13"/>也</note>。</p></cb:def></entry><entry cb:place="inline"><form>悛</form><cb:def><p style="margin-left:1em" xml:id="pL158p0305b1303" cb:place="inline"><note place="inline">逡綠切音詮改也</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0305b12"/><cb:div type="note"><entry><form>鯫</form><cb:def><p xml:id="pL158p0305b1202" style="margin-left:1em" cb:place="inline"><note place="inline">于候切音陬小魚也</note>。</p></cb:def></entry><entry cb:place="inline"><form><term cb:behaviour="no-norm">欝</term></form><cb:def><p xml:id="pL158p0305b1211" style="margin-left:1em" cb:place="inline"><note place="inline">紆勿切氳入聲木叢生也</note>。</p></cb:def></entry><entry cb:place="inline"><form>懲</form><cb:def><p xml:id="pL158p0305b1222" style="margin-left:1em" cb:place="inline"><note place="inline">直陵切音澄<term cb:behaviour="no-norm"><g ref="#CB22178">㣻</g></term>
+<lb ed="L" n="0305b13"/>也</note>。</p></cb:def></entry><entry cb:place="inline"><form>悛</form><cb:def><p xml:id="pL158p0305b1303" style="margin-left:1em" cb:place="inline"><note place="inline">逡綠切音詮改也</note>。</p></cb:def></entry></cb:div></cb:div>
+<milestone unit="juan" n="20"/>
 <pb ed="L" xml:id="L158.1652.0306a" n="0306a"/>
-<lb ed="L" n="0306a01"/><milestone unit="juan" n="20"/><cb:mulu type="卷" n="20"></cb:mulu><cb:juan fun="open" n="20"><cb:jhead>明覺聰禪師語錄卷第二十　　　辨十</cb:jhead></cb:juan>
+<lb ed="L" n="0306a01"/><cb:mulu type="卷" n="20"></cb:mulu><cb:juan fun="open" n="20"><cb:jhead>明覺聰禪師語錄卷第二十　　　辨十</cb:jhead></cb:juan>
 <lb ed="L" n="0306a02"/><byline cb:type="editor">嗣法居士海眼編</byline>
 <lb ed="L" n="0306a03"/><cb:div type="other"><cb:mulu type="其他" level="1">文</cb:mulu><head>文</head>
 <lb ed="L" n="0306a04"/><cb:div type="other"><cb:mulu type="其他" level="2">祭始祖父母文</cb:mulu><head>祭始祖父母文</head>
@@ -12298,7 +12318,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <pb ed="L" xml:id="L158.1652.0320b" n="0320b"/>
 <lb ed="L" n="0320b01"/><l style="text-indent:1em">破砂盆碎</l><l style="text-indent:1em">正法眼空</l><l style="text-indent:1em">一念萬年</l>
 <lb ed="L" n="0320b02"/><l style="text-indent:1em">奕葉永弘</l><l style="text-indent:1em">嗣熖聯輝</l><l style="text-indent:1em">光燭無窮</l></lg>
-<lb ed="L" n="0320b03"/><p style="margin-left:0em;text-indent:1em" xml:id="pL158p0320b0301">旹
+<lb ed="L" n="0320b03"/><p xml:id="pL158p0320b0301" style="margin-left:0em;text-indent:1em">旹
 <lb ed="L" n="0320b04" type="honorific"/>康熙六年歲次丁未五月朔日</p></cb:div>
 <lb ed="L" n="0320b05"/>
 <lb ed="L" n="0320b06"/>
@@ -12398,8 +12418,8 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="L" n="0323b04"/>
 <lb ed="L" n="0323b05"/><cb:juan fun="close" n="20"><cb:jhead>明覺聰禪師語錄卷第二十</cb:jhead></cb:juan>
 <lb ed="L" n="0323b06"/><cb:div type="w"><head>音釋</head>
-<lb ed="L" n="0323b07"/><cb:div type="note"><entry><form>懇</form><cb:def><p style="margin-left:1em" xml:id="pL158p0323b0702" cb:place="inline"><note place="inline">口狠切音墾至誠所求也</note>。</p></cb:def></entry><entry cb:place="inline"><form>踽</form><cb:def><p style="margin-left:1em" xml:id="pL158p0323b0713" cb:place="inline"><note place="inline">顆羽切音齲<term cb:behaviour="no-norm"><g ref="#CB00562">䟽</g></term>行也</note>。</p></cb:def></entry><entry cb:place="inline"><form>籙</form><cb:def><p style="margin-left:1em" xml:id="pL158p0323b0722" cb:place="inline"><note place="inline">盧谷切音祿籍
-<lb ed="L" n="0323b08"/>也帝王興膺籙受圖順天行誅</note>。</p></cb:def></entry><entry cb:place="inline"><form>盥</form><cb:def><p style="margin-left:1em" xml:id="pL158p0323b0814" cb:place="inline"><note place="inline">古玩切音貫以盤水沃洗曰盥</note>。</p></cb:def></entry></cb:div></cb:div>
+<lb ed="L" n="0323b07"/><cb:div type="note"><entry><form>懇</form><cb:def><p xml:id="pL158p0323b0702" style="margin-left:1em" cb:place="inline"><note place="inline">口狠切音墾至誠所求也</note>。</p></cb:def></entry><entry cb:place="inline"><form>踽</form><cb:def><p xml:id="pL158p0323b0713" style="margin-left:1em" cb:place="inline"><note place="inline">顆羽切音齲<term cb:behaviour="no-norm"><g ref="#CB00562">䟽</g></term>行也</note>。</p></cb:def></entry><entry cb:place="inline"><form>籙</form><cb:def><p xml:id="pL158p0323b0722" style="margin-left:1em" cb:place="inline"><note place="inline">盧谷切音祿籍
+<lb ed="L" n="0323b08"/>也帝王興膺籙受圖順天行誅</note>。</p></cb:def></entry><entry cb:place="inline"><form>盥</form><cb:def><p xml:id="pL158p0323b0814" style="margin-left:1em" cb:place="inline"><note place="inline">古玩切音貫以盤水沃洗曰盥</note>。</p></cb:def></entry></cb:div></cb:div>
 </body>
 <back>
 <cb:div type="apparatus">
