@@ -14,6 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:12:50 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 48, No. 2019A</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -111,14 +117,14 @@ Added comment  for Emacs
 <lb n="0999a03" ed="T"/><cb:div type="xu"><cb:mulu level="1" type="序">真心直說序</cb:mulu><head><anchor xml:id="nkr_note_orig_0999001" n="0999001"/>真心直說序</head>
 <lb n="0999a04" ed="T"/>
 <lb n="0999a05" ed="T"/><p xml:id="pT48p0999a0501">或曰。祖師妙道可得知乎。曰古不云乎。道不
-<lb n="0999a06" ed="T"/>屬知。不屬不知。知是妄想。不知是無計。若真
+<lb n="0999a06" ed="T"/>屬知。不屬不知。知是妄想。不知是無<anchor xml:id="nkr_note_add_0999a0601" n="0999a0601"/><anchor xml:id="beg0999a0601" n="0999a0601"/>記<anchor xml:id="end0999a0601"/>。若真
 <lb n="0999a07" ed="T"/>達不疑之地。猶如太虛寬廓。豈可強是非耶。
 <lb n="0999a08" ed="T"/>或曰。然則諸祖出世無益群生耶。曰佛祖出
 <lb n="0999a09" ed="T"/>頭無法與人。只要眾生自見本性。華嚴云。知
 <lb n="0999a10" ed="T"/>一切法即心自性。成就慧身不由他悟。是故
 <lb n="0999a11" ed="T"/>佛祖不令人泥著文字。只要休歇見自本心。
 <lb n="0999a12" ed="T"/>所以德山入門便棒。臨濟入門便喝。已是探
-<lb n="0999a13" ed="T"/>頭太過。何更立語言哉。或曰。昔聞馬鳴造起。
+<lb n="0999a13" ed="T"/>頭太過。何更立語言哉。或曰。昔聞馬鳴造起
 <lb n="0999a14" ed="T"/>信。六祖演壇經。黃梅傳般若。皆是漸次為人
 <lb n="0999a15" ed="T"/>豈獨無方便於法可乎。曰妙高頂上從來不
 <lb n="0999a16" ed="T"/>許商量。第二峯頭諸祖略容話會。或曰。敢祈
@@ -589,10 +595,22 @@ Added comment  for Emacs
 <lb n="1004b01" ed="T"/><cb:juan n="001" fun="close"><cb:jhead>真心直說終</cb:jhead></cb:juan>
 </body>
 <back>
+<cb:div type="apparatus">
+<head>校註</head>
+<p>
+<app from="#beg0999a0601" to="#end0999a0601"><lem wit="#wit1" resp="#resp3" cb:provider="無語 (2018-09-05)">記<note type="cf1">T47n1997_p0803c25</note></lem><rdg wit="#wit2">計</rdg></app>
+</p>
+</cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0999001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0999001">【原】增上寺報恩藏明本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0999a0601" resp="#resp2" type="add" target="#nkr_note_add_0999a0601">記【CB】，計【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

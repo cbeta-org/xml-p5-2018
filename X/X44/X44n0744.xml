@@ -1754,6 +1754,19 @@
 	<mapping type="unicode">U+21F9F</mapping>
 	<mapping cb:dec="989635" type="PUA">U+F19C3</mapping>
 </char>
+<char xml:id="CB07082">
+	<charName>CBETA CHARACTER CB07082</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[?丳]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>扂</value>
+	</charProp>
+	<mapping type="unicode">U+200BC</mapping>
+	<mapping cb:dec="990122" type="PUA">U+F1BAA</mapping>
+</char>
 <char xml:id="CB07305">
 	<charName>CBETA CHARACTER CB07305</charName>
 	<charProp>
@@ -2469,6 +2482,7 @@
 		<localName>composition</localName>
 		<value>[癲-真+秀]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+3FC9</mapping>
 	<mapping cb:dec="1001366" type="PUA">U+F4796</mapping>
 </char>
 <char xml:id="CB18548">
@@ -5355,7 +5369,7 @@ Revision 1.1  2006/11/06 03:01:22  duncan
 <lb ed="X" n="0437a17"/><lb ed="R070" n="0465a06"/><cb:def><p xml:id="pX44p0437a1701" style="margin-left:1em">郎古切。音魯。謂船上樓櫓也。又進船具。亦名櫓也。</p></cb:def></entry>
 <lb ed="X" n="0437a18"/><lb ed="R070" n="0465a07"/><entry><form>浮瓠船</form>
 <lb ed="X" n="0437a19"/><lb ed="R070" n="0465a08"/><cb:def><p xml:id="pX44p0437a1901" style="margin-left:1em">瓠洪孤切。音胡。瓦器為之。大瓠也。善浮。南方謂之
-<lb ed="X" n="0437a20"/><lb ed="R070" n="0465a09"/>耍舟。</p></cb:def></entry>
+<lb ed="X" n="0437a20"/><lb ed="R070" n="0465a09"/><anchor xml:id="nkr_note_add_0437a2001" n="0437a2001"/><anchor xml:id="beg0437a2001" n="0437a2001"/>要<anchor xml:id="end0437a2001"/>舟。</p></cb:def></entry>
 <lb ed="X" n="0437a21"/><lb ed="R070" n="0465a10"/><entry><form>懸船</form>
 <lb ed="X" n="0437a22"/><lb ed="R070" n="0465a11"/><cb:def><p xml:id="pX44p0437a2201" style="margin-left:1em">懸。胡涓切。音玄。繫也。絕也。挂也。本作縣。俗加其心
 <lb ed="X" n="0437a23"/><lb ed="R070" n="0465a12"/>也。</p></cb:def></entry>
@@ -16301,8 +16315,8 @@ Revision 1.1  2006/11/06 03:01:22  duncan
 <lb ed="X" n="0583a02"/><lb ed="R070" n="0757a18"/><entry><form>牡好</form>
 <lb ed="X" n="0583a03"/><lb ed="R070" n="0757b01"/><cb:def><p xml:id="pX44p0583a0301" style="margin-left:1em">牡。莫偶切。音畝。門關鍵也。說文云。插關下牡也。按
 <lb ed="X" n="0583a04"/><lb ed="R070" n="0757b02"/>為牡好。所以關固。令不可開也。</p></cb:def></entry>
-<lb ed="X" n="0583a05"/><lb ed="R070" n="0757b03"/><entry><form>串戶</form>
-<lb ed="X" n="0583a06"/><lb ed="R070" n="0757b04"/><cb:def><p xml:id="pX44p0583a0601" style="margin-left:1em">串。門串也。蒼頡篇作橝。徒點切。音店。持也。所謂外
+<lb ed="X" n="0583a05"/><lb ed="R070" n="0757b03"/><entry><form><anchor xml:id="nkr_note_add_0583a0501" n="0583a0501"/><anchor xml:id="beg0583a0501" n="0583a0501"/><g ref="#CB07082">𠂼</g><anchor xml:id="end0583a0501"/>戶</form>
+<lb ed="X" n="0583a06"/><lb ed="R070" n="0757b04"/><cb:def><p xml:id="pX44p0583a0601" style="margin-left:1em"><anchor xml:id="nkr_note_add_0583a0601" n="0583a0601"/><anchor xml:id="beg0583a0601" n="0583a0601"/><g ref="#CB07082">𠂼</g><anchor xml:id="end0583a0601"/>。門<anchor xml:id="nkr_note_add_0583a0602" n="0583a0602"/><anchor xml:id="beg0583a0602" n="0583a0602"/><g ref="#CB07082">𠂼</g><anchor xml:id="end0583a0602"/>也。蒼頡篇作橝。徒點切。音店。持也。所謂外
 <lb ed="X" n="0583a07"/><lb ed="R070" n="0757b05"/>戶不橝。是也。摩得勒伽論作扂。云何戶扂。若上下
 <lb ed="X" n="0583a08"/><lb ed="R070" n="0757b06"/>扂者。當俱下<anchor xml:id="nkr_note_add_0583a0801" n="0583a0801"/><anchor xml:id="beg0583a0801" n="0583a0801"/>已<anchor xml:id="end0583a0801"/>去。使房舍堅牢故。防自身故。防臥
 <lb ed="X" n="0583a09"/><lb ed="R070" n="0757b07"/>具故。</p></cb:def></entry>
@@ -25611,6 +25625,7 @@ Revision 1.1  2006/11/06 03:01:22  duncan
 <app from="#beg0436c0601" to="#end0436c0601"><lem wit="#wit1" resp="#resp2">采</lem><rdg wit="#wit2">釆</rdg></app>
 <app from="#beg0436c0701" to="#end0436c0701"><lem wit="#wit1" resp="#resp2">采</lem><rdg wit="#wit2">釆</rdg></app>
 <app from="#beg0436c1401" to="#end0436c1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0437a2001" to="#end0437a2001"><lem wit="#wit1" resp="#resp2" cb:provider="黃翠玉 (2018-06-08)">要</lem><rdg wit="#wit2">耍</rdg></app>
 <app from="#beg0438b1301" to="#end0438b1301"><lem wit="#wit1" resp="#resp2">△</lem><rdg wit="#wit2">●</rdg></app>
 <app from="#beg0438c1501" to="#end0438c1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 <app from="#beg0439c1001" to="#end0439c1001"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
@@ -26120,6 +26135,9 @@ Revision 1.1  2006/11/06 03:01:22  duncan
 <app from="#beg0581b1401" to="#end0581b1401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 <app from="#beg0582b0801" to="#end0582b0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 <app from="#beg0582c0201" to="#end0582c0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0583a0501" to="#end0583a0501"><lem wit="#wit1" resp="#resp2"><g ref="#CB07082">𠂼</g></lem><rdg wit="#wit2">串</rdg></app>
+<app from="#beg0583a0601" to="#end0583a0601"><lem wit="#wit1" resp="#resp2"><g ref="#CB07082">𠂼</g></lem><rdg wit="#wit2">串</rdg></app>
+<app from="#beg0583a0602" to="#end0583a0602"><lem wit="#wit1" resp="#resp2"><g ref="#CB07082">𠂼</g></lem><rdg wit="#wit2">串</rdg></app>
 <app from="#beg0583a0801" to="#end0583a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 <app from="#beg0583a1601" to="#end0583a1601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 <app from="#beg0583a2401" to="#end0583a2401"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
@@ -26709,6 +26727,7 @@ Revision 1.1  2006/11/06 03:01:22  duncan
 <note n="0436c0601" resp="#resp1" type="add" target="#nkr_note_add_0436c0601">采【CB】，釆【卍續】</note>
 <note n="0436c0701" resp="#resp1" type="add" target="#nkr_note_add_0436c0701">采【CB】，釆【卍續】</note>
 <note n="0436c1401" resp="#resp1" type="add" target="#nkr_note_add_0436c1401">已【CB】，巳【卍續】</note>
+<note n="0437a2001" resp="#resp1" type="add" target="#nkr_note_add_0437a2001">要【CB】，耍【卍續】</note>
 <note n="0438b1301" resp="#resp1" type="add" target="#nkr_note_add_0438b1301">△【CB】，●【卍續】</note>
 <note n="0438c1501" resp="#resp1" type="add" target="#nkr_note_add_0438c1501">已【CB】，巳【卍續】</note>
 <note n="0439c1001" resp="#resp1" type="add" target="#nkr_note_add_0439c1001">已【CB】，巳【卍續】</note>
@@ -27218,6 +27237,9 @@ Revision 1.1  2006/11/06 03:01:22  duncan
 <note n="0581b1401" resp="#resp1" type="add" target="#nkr_note_add_0581b1401">已【CB】，巳【卍續】</note>
 <note n="0582b0801" resp="#resp1" type="add" target="#nkr_note_add_0582b0801">已【CB】，巳【卍續】</note>
 <note n="0582c0201" resp="#resp1" type="add" target="#nkr_note_add_0582c0201">已【CB】，巳【卍續】</note>
+<note n="0583a0501" resp="#resp1" type="add" target="#nkr_note_add_0583a0501"><g ref="#CB07082">𠂼</g>【CB】，串【卍續】</note>
+<note n="0583a0601" resp="#resp1" type="add" target="#nkr_note_add_0583a0601"><g ref="#CB07082">𠂼</g>【CB】，串【卍續】</note>
+<note n="0583a0602" resp="#resp1" type="add" target="#nkr_note_add_0583a0602"><g ref="#CB07082">𠂼</g>【CB】，串【卍續】</note>
 <note n="0583a0801" resp="#resp1" type="add" target="#nkr_note_add_0583a0801">已【CB】，巳【卍續】</note>
 <note n="0583a1601" resp="#resp1" type="add" target="#nkr_note_add_0583a1601">已【CB】，巳【卍續】</note>
 <note n="0583a2401" resp="#resp1" type="add" target="#nkr_note_add_0583a2401">已【CB】，巳【卍續】</note>

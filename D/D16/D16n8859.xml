@@ -435,6 +435,15 @@
 	<mapping type="normal_unicode">U+3B30</mapping>
 	<mapping cb:dec="987496" type="PUA">U+F1168</mapping>
 </char>
+<char xml:id="CB04474">
+	<charName>CBETA CHARACTER CB04474</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[泳-永+曶]</value>
+	</charProp>
+	<mapping type="unicode">U+3CF7</mapping>
+	<mapping cb:dec="987514" type="PUA">U+F117A</mapping>
+</char>
 <char xml:id="CB04584">
 	<charName>CBETA CHARACTER CB04584</charName>
 	<charProp>
@@ -12136,7 +12145,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0485b05"/>含寶月超五十五位真菩提路與正觀單複十二反
 <lb ed="D" n="0485b06"/>覆合明修最上乗隨流失念即邪<g ref="#CB07514">𤼵</g>化心開即正染
 <lb ed="D" n="0485b07"/>淨熏變唯有如來能知復牒主客喻令深細審觀汝
-<lb ed="D" n="0485b08"/>坐道塲應前所請安立道塲心精通<g ref="#CB13705">󳖉</g>當處湛然正
+<lb ed="D" n="0485b08"/>坐道塲應前所請安立道塲心精通<anchor xml:id="nkr_note_add_0485b0801" n="0485b0801"/><anchor xml:id="beg0485b0801" n="0485b0801"/><g ref="#CB04474">㳷</g><anchor xml:id="end0485b0801"/>當處湛然正
 <lb ed="D" n="0485b09"/>入三昧六祖云妙湛圓寂體用如如五隂本空六塵
 <lb ed="D" n="0485b10"/>非有不出不入不定不亂禪性無住離住禪寂禪性
 <pb ed="D" xml:id="D16.8859.0486a" n="0486a"/>
@@ -14336,6 +14345,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <app from="#beg0481b0701" to="#end0481b0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 <app from="#beg0482a0701" to="#end0482a0701"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 <app from="#beg0482a0801" to="#end0482a0801"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0485b0801" to="#end0485b0801"><lem wit="#wit1" resp="#resp2"><g ref="#CB04474">㳷</g><note type="cf1">T39n1799_p0948a11</note></lem><rdg wit="#wit2"><g ref="#CB13705">󳖉</g></rdg></app>
 <app from="#beg0490a0201" to="#end0490a0201"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 <app from="#beg0490a0301" to="#end0490a0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 <app from="#beg0490b0301" to="#end0490b0301"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
@@ -14815,6 +14825,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <note n="0481b0701" resp="#resp1" type="add" target="#nkr_note_add_0481b0701">已【CB】，巳【國圖】</note>
 <note n="0482a0701" resp="#resp1" type="add" target="#nkr_note_add_0482a0701">已【CB】，巳【國圖】</note>
 <note n="0482a0801" resp="#resp1" type="add" target="#nkr_note_add_0482a0801">已【CB】，巳【國圖】</note>
+<note n="0485b0801" resp="#resp1" type="add" target="#nkr_note_add_0485b0801"><g ref="#CB04474">㳷</g>【CB】，<g ref="#CB13705">󳖉</g>【國圖】</note>
 <note n="0490a0201" resp="#resp1" type="add" target="#nkr_note_add_0490a0201">已【CB】，巳【國圖】</note>
 <note n="0490a0301" resp="#resp1" type="add" target="#nkr_note_add_0490a0301">已【CB】，巳【國圖】</note>
 <note n="0490b0301" resp="#resp1" type="add" target="#nkr_note_add_0490b0301">已【CB】，巳【國圖】</note>

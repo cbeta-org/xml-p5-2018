@@ -14,6 +14,8 @@
 	<editionStmt>
 		<edition>$Revision: 1.7 $<date>$Date: 2009/04/23 08:12:11 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
+		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -30,6 +32,10 @@
 	</publicationStmt>
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 45, No. 1905</bibl>
+	<listWit>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
+	</listWit>
 	</sourceDesc>
 </fileDesc>
 <encodingDesc>
@@ -66,6 +72,7 @@
 		<localName>composition</localName>
 		<value>[口*(十/田/寸)]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+35D8</mapping>
 	<mapping cb:dec="984869" type="PUA">U+F0725</mapping>
 </char>
 </charDecl>
@@ -211,7 +218,7 @@ Added comment  for Emacs
 <lb n="0912c07" ed="T"/>張手貼新者。上用敷者。若無持負羊毛人。自
 <lb n="0912c08" ed="T"/>持負羊毛。過三由旬者。有持負人自持負過
 <lb n="0912c09" ed="T"/>一里者。若使非親比丘尼擘羊毛者。若畜自
-<lb n="0912c10" ed="T"/>己珠寶目觸教人觸者。若以資財出納求利
+<lb n="0912c10" ed="T"/>己珠寶<anchor xml:id="nkr_note_add_0912c1001" n="0912c1001"/><anchor xml:id="beg0912c1001" n="0912c1001"/>自<anchor xml:id="end0912c1001"/>觸教人觸者。若以資財出納求利
 <lb n="0912c11" ed="T"/>者。若買賣者。第二遍十種竟。</p>
 <lb n="0912c12" ed="T"/><p xml:id="pT45p0912c1201">第三遍十種者</p>
 <lb n="0912c13" ed="T"/><p xml:id="pT45p0912c1301">若應量器不加持畜過十宿者。若自有鉢更
@@ -426,10 +433,22 @@ Added comment  for Emacs
 <lb n="0915a12" ed="T"/>元有五日云。</p></cb:div>
 </body>
 <back>
+<cb:div type="apparatus">
+<head>校註</head>
+<p>
+<app from="#beg0912c1001" to="#end0912c1001"><lem wit="#wit1" resp="#resp3" cb:provider="黃翠玉 (2018-08-28)">自<note type="cf1">T45n1905_p0913b24</note></lem><rdg wit="#wit2">目</rdg></app>
+</p>
+</cb:div>
 <cb:div type="taisho-notes">
 <head>大正 校註</head>
 <p>
 <note n="0912001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0912001">【原】增上寺報恩藏明本</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0912c1001" resp="#resp2" type="add" target="#nkr_note_add_0912c1001">自【CB】，目【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

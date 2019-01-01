@@ -1697,6 +1697,7 @@
 		<localName>composition</localName>
 		<value>[口*(十/田/寸)]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+35D8</mapping>
 	<mapping cb:dec="984869" type="PUA">U+F0725</mapping>
 </char>
 <char xml:id="CB01834">
@@ -2296,6 +2297,7 @@
 		<localName>composition</localName>
 		<value>[病-丙+(ㄙ/月)]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+3F93</mapping>
 	<mapping cb:dec="985514" type="PUA">U+F09AA</mapping>
 </char>
 <char xml:id="CB02475">
@@ -4722,6 +4724,10 @@
 		<localName>composition</localName>
 		<value>[堽-正+止]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>堽</value>
+	</charProp>
 	<mapping cb:dec="990604" type="PUA">U+F1D8C</mapping>
 </char>
 <char xml:id="CB07568">
@@ -5234,6 +5240,7 @@
 		<localName>composition</localName>
 		<value>[秮-口+月]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+414C</mapping>
 	<mapping cb:dec="991086" type="PUA">U+F1F6E</mapping>
 </char>
 <char xml:id="CB08047">
@@ -6470,6 +6477,7 @@
 		<localName>composition</localName>
 		<value>[月*(而/火)]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+815D</mapping>
 	<mapping cb:dec="992293" type="PUA">U+F2425</mapping>
 </char>
 <char xml:id="CB09265">
@@ -7057,6 +7065,7 @@
 		<localName>composition</localName>
 		<value>[穀-(一/禾)+(夕*ㄗ)]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+3C89</mapping>
 	<mapping cb:dec="993301" type="PUA">U+F2815</mapping>
 </char>
 <char xml:id="CB10262">
@@ -7259,6 +7268,7 @@
 		<localName>composition</localName>
 		<value>[干*刀]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+3513</mapping>
 	<mapping cb:dec="993524" type="PUA">U+F28F4</mapping>
 </char>
 <char xml:id="CB10485">
@@ -7460,6 +7470,7 @@
 		<localName>composition</localName>
 		<value>[舟*苻]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+4480</mapping>
 	<mapping cb:dec="993728" type="PUA">U+F29C0</mapping>
 </char>
 <char xml:id="CB10700">
@@ -8147,9 +8158,9 @@
 	</charProp>
 	<charProp>
 		<localName>normalized form</localName>
-		<value>鴥</value>
+		<value>鴆</value>
 	</charProp>
-	<mapping type="normal_unicode">U+9D27</mapping>
+	<mapping type="normal_unicode">U+2B6B2</mapping>
 	<mapping cb:dec="994843" type="PUA">U+F2E1B</mapping>
 </char>
 <char xml:id="CB11827">
@@ -8415,6 +8426,7 @@
 		<localName>composition</localName>
 		<value>[打-丁+羍]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+22BA1</mapping>
 	<mapping cb:dec="995314" type="PUA">U+F2FF2</mapping>
 </char>
 <char xml:id="CB12275">
@@ -8686,6 +8698,7 @@
 		<localName>composition</localName>
 		<value>[踮-占+千]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+28020</mapping>
 	<mapping cb:dec="995635" type="PUA">U+F3133</mapping>
 </char>
 <char xml:id="CB12617">
@@ -8859,6 +8872,7 @@
 		<localName>composition</localName>
 		<value>[飢-几+(公/儿)]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+4B3D</mapping>
 	<mapping cb:dec="995851" type="PUA">U+F320B</mapping>
 </char>
 <char xml:id="CB12825">
@@ -8953,6 +8967,7 @@
 		<localName>composition</localName>
 		<value>[肆-聿+(彰-章+(曼-又+方))]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+4C13</mapping>
 	<mapping cb:dec="996217" type="PUA">U+F3379</mapping>
 </char>
 <char xml:id="CB13243">
@@ -14220,6 +14235,15 @@
 	</charProp>
 	<mapping cb:dec="1017587" type="PUA">U+F86F3</mapping>
 </char>
+<char xml:id="CB34596">
+	<charName>CBETA CHARACTER CB34596</charName>
+	<charProp>
+		<localName>composition</localName>
+		<value>[舟*氾]</value>
+	</charProp>
+	<mapping type="unicode">U+26A32</mapping>
+	<mapping cb:dec="1017636" type="PUA">U+F8724</mapping>
+</char>
 </charDecl>
 </encodingDesc>
 <revisionDesc>
@@ -14976,7 +15000,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0010c04"/><entry><form>衡軛</form><cb:def><p xml:id="pC057p0010c0403" style="margin-left:1em" cb:place="inline">於<g ref="#CB22754">󵣢</g>反車軛也謂轅端<g ref="#CB07398">𡑅</g>牛領
 <lb ed="C" n="0010c05"/>者也。</p></cb:def></entry>
 <lb ed="C" n="0010c06"/><entry><form>兩舷</form><cb:def><p xml:id="pC057p0010c0603" style="margin-left:1em" cb:place="inline">胡田反舩兩緣也埤蒼舩舷也
-<lb ed="C" n="0010c07"/>亦名<g ref="#CB22358">󵝖</g>音扶嚴反。</p></cb:def></entry>
+<lb ed="C" n="0010c07"/>亦名<anchor xml:id="nkr_note_add_0010c0701" n="0010c0701"/><anchor xml:id="beg0010c0701" n="0010c0701"/><g ref="#CB34596">𦨲</g><anchor xml:id="end0010c0701"/>音扶嚴反。</p></cb:def></entry>
 <lb ed="C" n="0010c08"/><entry><form>椽桷</form><cb:def><p xml:id="pC057p0010c0803" style="margin-left:1em" cb:place="inline">馳宣反下古學反椽桷榱橑皆
 <lb ed="C" n="0010c09"/>一物而異名也。</p></cb:def></entry>
 <lb ed="C" n="0010c10"/><entry><form>及奧</form><cb:def><p xml:id="pC057p0010c1003" style="margin-left:1em" cb:place="inline">於報反奧室也尒雅室西南隅
@@ -19684,7 +19708,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0077a22"/><entry><form>近事</form><cb:def><p xml:id="pC057p0077a2203" style="margin-left:1em" cb:place="inline">梵言鄔波索迦此云近事謂親
 <lb ed="C" n="0077a23"/>近三寶而奉事也。</p></cb:def></entry>
 <pb ed="C" xml:id="C057.1163.0077b" n="0077b"/>
-<lb ed="C" n="0077b01"/><entry><form>耄熟</form><cb:def><p xml:id="pC057p0077b0103" style="margin-left:1em" cb:place="inline">古文毫耄二形今作<g ref="#CB04084">𮁠</g>同莫報
+<lb ed="C" n="0077b01"/><entry><form>耄熟</form><cb:def><p xml:id="pC057p0077b0103" style="margin-left:1em" cb:place="inline">古文<g ref="#CB07952">𠅸</g>耄二形今作<g ref="#CB04084">𮁠</g>同莫報
 <lb ed="C" n="0077b02"/>反礼記八十曰耄鄭玄曰耄惛也
 <lb ed="C" n="0077b03"/>亦乱也忘也老熟即惛乱多忘也。</p></cb:def></entry>
 <lb ed="C" n="0077b04"/><entry><form>牧牛</form><cb:def><p xml:id="pC057p0077b0403" style="margin-left:1em" cb:place="inline">莫祿亡福二反三蒼牧養也方
@@ -22876,7 +22900,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="C" n="0126c08"/>年也。</p></cb:def></entry>
 <lb ed="C" n="0126c09"/><entry><form>袤耄</form><cb:def><p xml:id="pC057p0126c0903" style="margin-left:1em" cb:place="inline">字體作<g ref="#CB08902">𤸬</g>同所龜反說文<g ref="#CB08902">𤸬</g>减
 <lb ed="C" n="0126c10"/>也<g ref="#CB02167">󰡷</g>也礼記年五十始<g ref="#CB08902">𤸬</g>瘻懈也
-<lb ed="C" n="0126c11"/>下古文毫耄二形今耗同莫報反
+<lb ed="C" n="0126c11"/>下古文<g ref="#CB07952">𠅸</g>耄二形今耗同莫報反
 <lb ed="C" n="0126c12"/>礼記八十曰耄耄謂惛忘也闇
 <lb ed="C" n="0126c13"/>乱也。</p></cb:def></entry>
 <lb ed="C" n="0126c14"/><entry><form>鳩摩羅設摩</form><cb:def><p xml:id="pC057p0126c1406" style="margin-left:1em" cb:place="inline">此云童寂多造詩詠者
@@ -23359,6 +23383,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <app from="#beg0003c0901" to="#end0003c0901"><lem wit="#wit1" resp="#resp2">鍛</lem><rdg wit="#wit2">鍜</rdg></app>
 <app from="#beg0008a0701" to="#end0008a0701"><lem wit="#wit1" resp="#resp2">沫</lem><rdg wit="#wit2">沬</rdg></app>
 <app from="#beg0010a1201" to="#end0010a1201"><lem wit="#wit1" resp="#resp2">掐</lem><rdg wit="#wit2">搯</rdg></app>
+<app from="#beg0010c0701" to="#end0010c0701"><lem wit="#wit1" resp="#resp2"><g ref="#CB34596">𦨲</g></lem><rdg wit="#wit2"><g ref="#CB22358">󵝖</g></rdg></app>
 <app from="#beg0013c1501" to="#end0013c1501"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 <app from="#beg0015a0701" to="#end0015a0701"><lem wit="#wit1" resp="#resp2">畝</lem><rdg wit="#wit2"><unclear></unclear></rdg></app>
 <app from="#beg0018b1001" to="#end0018b1001"><lem wit="#wit1" resp="#resp2">鍛</lem><rdg wit="#wit2">鍜</rdg></app>
@@ -23410,6 +23435,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <note n="0003c0901" resp="#resp1" type="add" target="#nkr_note_add_0003c0901">鍛【CB】，鍜【中華】</note>
 <note n="0008a0701" resp="#resp1" type="add" target="#nkr_note_add_0008a0701">沫【CB】，沬【中華】</note>
 <note n="0010a1201" resp="#resp1" type="add" target="#nkr_note_add_0010a1201">掐【CB】，搯【中華】</note>
+<note n="0010c0701" resp="#resp1" type="add" target="#nkr_note_add_0010c0701"><g ref="#CB34596">𦨲</g>【CB】，<g ref="#CB22358">󵝖</g>【中華】</note>
 <note n="0013c1501" resp="#resp1" type="add" target="#nkr_note_add_0013c1501">已【CB】，巳【中華】</note>
 <note n="0015a0701" resp="#resp1" type="add" target="#nkr_note_add_0015a0701">畝【CB】，<unclear></unclear>【中華】</note>
 <note n="0018b1001" resp="#resp1" type="add" target="#nkr_note_add_0018b1001">鍛【CB】，鍜【中華】</note>

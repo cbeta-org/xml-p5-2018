@@ -15,6 +15,7 @@
 		<edition>$Revision: 1.9 $<date>$Date: 2009/04/23 08:10:16 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -32,7 +33,8 @@
 	<sourceDesc>
 		<bibl>Taishō Tripiṭaka Vol. 38, No. 1769</bibl>
 	<listWit>
-		<witness xml:id="wit1">【大】</witness>
+		<witness xml:id="wit1">【CB】</witness>
+		<witness xml:id="wit2">【大】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -241,7 +243,7 @@ Added comment  for Emacs
 <lb n="0239c22" ed="T"/>得聞大涅槃經。所以者何。大德之人乃能得
 <lb n="0239c23" ed="T"/>聞如是大事。何等為大。所謂諸佛甚深祕藏
 <lb n="0239c24" ed="T"/>如來之性。以是義故名為大事。解云。今說是
-<lb n="0239c25" ed="T"/>經之時正臨一化之終日究意顯示諸佛大意。
+<lb n="0239c25" ed="T"/>經之時正臨一化之終日究<anchor xml:id="nkr_note_add_0239c2501" n="0239c2501"/><anchor xml:id="beg0239c2501" n="0239c2501"/>竟<anchor xml:id="end0239c2501"/>顯示諸佛大意。
 <lb n="0239c26" ed="T"/>所謂總括成道以來隨機所說一切言教。悉
 <lb n="0239c27" ed="T"/>為示一味之道。普今歸趣無二之性。十方世
 <lb n="0239c28" ed="T"/>一切諸佛悉同是意無二無別。是謂諸佛出
@@ -1671,7 +1673,8 @@ Added comment  for Emacs
 <cb:div type="apparatus">
 <head>校註</head>
 <p>
-<app from="#beg0253001" to="#end0253001"><lem resp="#resp1" wit="#wit1">九地菩薩佛性因故亦是過去現在未來。<lb n="0253a19" ed="T"/>果亦如是</lem><rdg resp="#resp1" wit="#wit1" type="correctionRemark"><space quantity="0"/></rdg></app>
+<app from="#beg0239c2501" to="#end0239c2501"><lem resp="#resp3" wit="#wit1">竟</lem><rdg wit="#wit2">意</rdg></app>
+<app from="#beg0253001" to="#end0253001"><lem resp="#resp1" wit="#wit2">九地菩薩佛性因故亦是過去現在未來。<lb n="0253a19" ed="T"/>果亦如是</lem><rdg resp="#resp1" wit="#wit2" type="correctionRemark"><space quantity="0"/></rdg></app>
 </p>
 </cb:div>
 <cb:div type="cbeta-notes">
@@ -1685,6 +1688,12 @@ Added comment  for Emacs
 <p>
 <note n="0239001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0239001">【原】天治元年寫日光輪王寺藏本</note>
 <note n="0253001" resp="#resp1" place="foot text" type="orig" target="#nkr_note_orig_0253001">〔九地…是〕二十字－？</note>
+</p>
+</cb:div>
+<cb:div type="add-notes">
+<head>新增校註</head>
+<p>
+<note n="0239c2501" resp="#resp2" type="add" target="#nkr_note_add_0239c2501">竟【CB】，意【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>

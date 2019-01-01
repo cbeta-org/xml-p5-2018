@@ -820,6 +820,10 @@
 		<localName>composition</localName>
 		<value>[且/八]</value>
 	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>具</value>
+	</charProp>
 	<mapping cb:dec="997414" type="PUA">U+F3826</mapping>
 </char>
 <char xml:id="CB14548">
@@ -1068,6 +1072,7 @@
 		<localName>composition</localName>
 		<value>[愍-民+牙]</value>
 	</charProp>
+	<mapping type="normal_unicode">U+6117</mapping>
 	<mapping cb:dec="1001114" type="PUA">U+F469A</mapping>
 </char>
 <char xml:id="CB18205">
@@ -1339,6 +1344,10 @@
 	<charProp>
 		<localName>composition</localName>
 		<value>[孑*爪]</value>
+	</charProp>
+	<charProp>
+		<localName>normalized form</localName>
+		<value>孤</value>
 	</charProp>
 	<mapping cb:dec="1006606" type="PUA">U+F5C0E</mapping>
 </char>
@@ -5301,7 +5310,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <lb ed="D" n="0140b06"/>惡業為出離因。亦以善根為地獄因。無有是處。
 <lb ed="D" n="0140b07"/>今亦如是。諸佛大慈<g ref="#CB29978">󷔚</g>歸淨土。若其虚妄無有
 <lb ed="D" n="0140b08"/>是處。十惡破戒。五逆謗法。臨終迴心。剎<g ref="#CB27837">󶲽</g>即生。
-<lb ed="D" n="0140b09"/>最上頓教。不敢<g ref="#CB23566">󵰎</g>疑。逆謗猶生。况其餘乎。一念
+<lb ed="D" n="0140b09"/>最上頓教。不敢<anchor xml:id="nkr_note_add_0140b0901" n="0140b0901"/><anchor xml:id="beg0140b0901" n="0140b0901"/>狐<anchor xml:id="end0140b0901"/>疑。逆謗猶生。况其餘乎。一念
 <pb ed="D" xml:id="D42.8905.0141a" n="0141a"/>
 <lb ed="D" n="0141a01"/>猶攝。况常念乎。十善順六度者。恐以七支為第
 <lb ed="D" n="0141a02"/>二度。以不慳貪為第一度。以不嗔恚為第三度。
@@ -7304,6 +7313,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <app from="#beg0137a0601" to="#end0137a0601"><lem wit="#wit1" resp="#resp2">偏計</lem><rdg wit="#wit2">々々</rdg></app>
 <app from="#beg0138a0601" to="#end0138a0601"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 <app from="#beg0138a0901" to="#end0138a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
+<app from="#beg0140b0901" to="#end0140b0901"><lem wit="#wit1" resp="#resp2">狐</lem><rdg wit="#wit2"><g ref="#CB23566">󵰎</g></rdg></app>
 <app from="#beg0141a0401" to="#end0141a0401"><lem wit="#wit1" resp="#resp2">但</lem><rdg wit="#wit2">伹</rdg></app>
 <app from="#beg0141a0901" to="#end0141a0901"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
 <app from="#beg0142a0101" to="#end0142a0101"><lem wit="#wit1" resp="#resp2">已</lem><rdg wit="#wit2">巳</rdg></app>
@@ -7748,6 +7758,7 @@ modified: 執行 basicx.bat  將 bm 轉 xml
 <note n="0137a0601" resp="#resp1" type="add" target="#nkr_note_add_0137a0601">偏計【CB】，々々【國圖】</note>
 <note n="0138a0601" resp="#resp1" type="add" target="#nkr_note_add_0138a0601">已【CB】，巳【國圖】</note>
 <note n="0138a0901" resp="#resp1" type="add" target="#nkr_note_add_0138a0901">已【CB】，巳【國圖】</note>
+<note n="0140b0901" resp="#resp1" type="add" target="#nkr_note_add_0140b0901">狐【CB】，<g ref="#CB23566">󵰎</g>【國圖】</note>
 <note n="0141a0401" resp="#resp1" type="add" target="#nkr_note_add_0141a0401">但【CB】，伹【國圖】</note>
 <note n="0141a0901" resp="#resp1" type="add" target="#nkr_note_add_0141a0901">已【CB】，巳【國圖】</note>
 <note n="0142a0101" resp="#resp1" type="add" target="#nkr_note_add_0142a0101">已【CB】，巳【國圖】</note>

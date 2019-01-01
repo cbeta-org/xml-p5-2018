@@ -40,8 +40,9 @@
 		<witness xml:id="wit4">【明】</witness>
 		<witness xml:id="wit5">【CB】</witness>
 		<witness xml:id="wit6">【石】</witness>
-		<witness xml:id="wit7">【宮】</witness>
-		<witness xml:id="wit8">【甲】</witness>
+		<witness xml:id="wit7">【麗-CB】</witness>
+		<witness xml:id="wit8">【宮】</witness>
+		<witness xml:id="wit9">【甲】</witness>
 	</listWit>
 	</sourceDesc>
 </fileDesc>
@@ -290,6 +291,7 @@
 		<localName>composition</localName>
 		<value>[常-吊+足]</value>
 	</charProp>
+	<mapping type="unicode">U+47EB</mapping>
 	<mapping cb:dec="984650" type="PUA">U+F064A</mapping>
 </char>
 <char xml:id="CB02370">
@@ -541,8 +543,8 @@ add cvs log
 <lb n="0205a16" ed="T"/>理。可謂化緣斯盡、能事畢功。遂乃跡滅兩
 <lb n="0205a17" ed="T"/>河，人天掩望；影淪雙樹，龍鬼摧心。致使娑
 <lb n="0205a18" ed="T"/>羅林側淚下成泥，哭者身邊血如花樹。</p><p xml:id="pT54p0205a1816" cb:place="inline">大師
-<lb n="0205a19" ed="T"/>唱寂世界空虛，次有弘法應人結集，有五
-<lb n="0205a20" ed="T"/>七之異；持律大將部分，為十八之殊。隨所
+<lb n="0205a19" ed="T"/>唱寂世界空虛，次有弘法應人，結集有五
+<lb n="0205a20" ed="T"/>七之異；持律大將，部分為十八之殊。隨所
 <lb n="0205a21" ed="T"/>見聞三藏各別，著下裙則裙有偏正、披上
 <lb n="0205a22" ed="T"/>服則葉存狹廣；同宿乃異室繩圍兩俱無
 <lb n="0205a23" ed="T"/>過、受食以手執畫地二並亡愆。各有師承，
@@ -697,7 +699,7 @@ add cvs log
 <lb n="0206c24" ed="T"/>各各別踞小床，高可七寸、方纔一尺，藤繩
 <lb n="0206c25" ed="T"/>織內脚圓且輕；卑幼之流小拈隨事。雙足蹋
 <lb n="0206c26" ed="T"/>地，前置盤盂，地以牛糞淨塗、鮮葉布上，
-<lb n="0206c27" ed="T"/>座云一肘互不相觸，未曾見有於大床上
+<lb n="0206c27" ed="T"/>座<anchor xml:id="nkr_note_add_0206c2701" n="0206c2701"/><anchor xml:id="beg0206c2701" n="0206c2701"/>去<anchor xml:id="end0206c2701"/>一肘互不相觸，未曾見有於大床上
 <lb n="0206c28" ed="T"/>跏坐食者。且如聖制，床量長佛八指，以
 <lb n="0206c29" ed="T"/>三倍之長中人二十四指，當笏尺尺半。東
 <pb n="0207a" ed="T" xml:id="T54.2125.0207a"/>
@@ -3207,6 +3209,7 @@ add cvs log
 <app from="#beg0206028" to="#end0206028"><lem wit="#wit1">不合</lem><rdg resp="#resp1" wit="#wit6">合不</rdg></app>
 <app from="#beg0206029" to="#end0206029"><lem wit="#wit1">頒</lem><rdg resp="#resp1" wit="#wit6">領</rdg></app>
 <app from="#beg0206030" to="#end0206030"><lem wit="#wit1">言</lem><rdg resp="#resp1" wit="#wit6">言耳</rdg></app>
+<app from="#beg0206c2701" to="#end0206c2701"><lem resp="#resp4" cb:provider="yifertw (2018-05-08)" wit="#wit5 #wit7">去<note type="cf1">K33n1082_p0675c12</note></lem><rdg wit="#wit1">云</rdg></app>
 <app from="#beg0207001" to="#end0207001"><lem wit="#wit1">來由</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit6">由來</rdg></app>
 <app from="#beg0207002" to="#end0207002"><lem wit="#wit1">于</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">乎</rdg></app>
 <app from="#beg0207003" to="#end0207003"><lem wit="#wit1">菜</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">來</rdg></app>
@@ -3223,7 +3226,7 @@ add cvs log
 <app from="#beg0207014" to="#end0207014"><lem wit="#wit1">并</lem><rdg resp="#resp1" wit="#wit6"><space quantity="0"/></rdg></app>
 <app from="#beg0207015" to="#end0207015"><lem wit="#wit1">惑</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit6">或</rdg></app>
 <app from="#beg0207016" to="#end0207016"><lem wit="#wit1">待</lem><rdg resp="#resp1" wit="#wit6">持</rdg></app>
-<app from="#beg0207017" to="#end0207017"><lem wit="#wit1">掁</lem><rdg resp="#resp1" wit="#wit6 #wit2 #wit3 #wit4"><g ref="#CB01610">󰙊</g></rdg></app>
+<app from="#beg0207017" to="#end0207017"><lem wit="#wit1">掁</lem><rdg resp="#resp1" wit="#wit6 #wit2 #wit3 #wit4"><g ref="#CB01610">䟫</g></rdg></app>
 <app from="#beg0207018" to="#end0207018"><lem wit="#wit1">招</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit6">成</rdg></app>
 <app from="#beg0207019" to="#end0207019"><lem wit="#wit1">儀</lem><rdg resp="#resp1" wit="#wit6">其儀</rdg></app>
 <app from="#beg_7" to="#end_7" corresp="#0207006"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit6"><space quantity="0"/></rdg></app>
@@ -3280,7 +3283,7 @@ add cvs log
 <app from="#beg0209010" to="#end0209010"><lem wit="#wit1">兒</lem><rdg resp="#resp1" wit="#wit6">兒子</rdg></app>
 <app from="#beg0209011" to="#end0209011"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit6">二兒</rdg></app>
 <app from="#beg0209012" to="#end0209012"><lem wit="#wit1">素</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">塑</rdg></app>
-<app from="#beg0209013" to="#end0209013"><lem wit="#wit1">抱</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit7">把</rdg></app>
+<app from="#beg0209013" to="#end0209013"><lem wit="#wit1">抱</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">把</rdg></app>
 <app from="#beg0209014" to="#end0209014"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit6">乃</rdg></app>
 <app from="#beg0209015" to="#end0209015"><lem wit="#wit1">神容</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit6">黑神</rdg></app>
 <app from="#beg0209016" to="#end0209016"><lem wit="#wit1">成</lem><rdg resp="#resp1" wit="#wit6">盛</rdg></app>
@@ -3358,171 +3361,171 @@ add cvs log
 <lb n="0212a22" ed="T"/><item>十四五眾安居</item><item>十五隨意成規</item>
 <lb n="0212a23" ed="T"/><item>十六匙筋合否</item><item>十七知時而禮</item>
 <lb n="0212a24" ed="T"/><item>十八便利之事</item></list></lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
-<app from="#beg0212003" to="#end0212003"><lem wit="#wit1">原</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">察</rdg></app>
+<app from="#beg0212003" to="#end0212003"><lem wit="#wit1">原</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">察</rdg></app>
 <app from="#beg0212004" to="#end0212004"><lem wit="#wit1">製</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">制</rdg></app>
-<app from="#beg0212005" to="#end0212005"><lem wit="#wit1">廣</lem><rdg resp="#resp1" wit="#wit8">旦廣</rdg></app>
+<app from="#beg0212005" to="#end0212005"><lem wit="#wit1">廣</lem><rdg resp="#resp1" wit="#wit9">旦廣</rdg></app>
 <app from="#beg0212006" to="#end0212006"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
-<app from="#beg0212007" to="#end0212007"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit4 #wit8"><space quantity="0"/></rdg></app>
-<app from="#beg_15" to="#end_15" corresp="#0212007"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit4 #wit8"><space quantity="0"/></rdg></app>
+<app from="#beg0212007" to="#end0212007"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit4 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg_15" to="#end_15" corresp="#0212007"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit4 #wit9"><space quantity="0"/></rdg></app>
 <app from="#beg0212008" to="#end0212008"><lem wit="#wit1">羅</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">囉</rdg></app>
-<app from="#beg0212009" to="#end0212009"><lem wit="#wit1">袈裟</lem><rdg resp="#resp1" wit="#wit8">加沙</rdg></app>
-<app from="#beg0212010" to="#end0212010"><lem wit="#wit1">語</lem><rdg resp="#resp1" wit="#wit8">語也</rdg></app>
-<app from="#beg_16" to="#end_16" corresp="#0212007"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit4 #wit8"><space quantity="0"/></rdg></app>
-<app from="#beg0212011" to="#end0212011"><lem wit="#wit1">衣</lem><rdg resp="#resp1" wit="#wit8">依</rdg></app>
-<app from="#beg0212012" to="#end0212012"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">兩</rdg><rdg resp="#resp1" wit="#wit8">一</rdg></app>
+<app from="#beg0212009" to="#end0212009"><lem wit="#wit1">袈裟</lem><rdg resp="#resp1" wit="#wit9">加沙</rdg></app>
+<app from="#beg0212010" to="#end0212010"><lem wit="#wit1">語</lem><rdg resp="#resp1" wit="#wit9">語也</rdg></app>
+<app from="#beg_16" to="#end_16" corresp="#0212007"><lem wit="#wit1">也</lem><rdg resp="#resp1" wit="#wit4 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0212011" to="#end0212011"><lem wit="#wit1">衣</lem><rdg resp="#resp1" wit="#wit9">依</rdg></app>
+<app from="#beg0212012" to="#end0212012"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">兩</rdg><rdg resp="#resp1" wit="#wit9">一</rdg></app>
 <app from="#beg0212013" to="#end0212013"><lem wit="#wit1">兩</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">雙</rdg></app>
-<app from="#beg0212014" to="#end0212014"><lem wit="#wit1">直</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">具</rdg></app>
-<app from="#beg0212015" to="#end0212015"><lem wit="#wit1">毯</lem><rdg resp="#resp1" wit="#wit8">緂</rdg></app>
+<app from="#beg0212014" to="#end0212014"><lem wit="#wit1">直</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">具</rdg></app>
+<app from="#beg0212015" to="#end0212015"><lem wit="#wit1">毯</lem><rdg resp="#resp1" wit="#wit9">緂</rdg></app>
 <app from="#beg0212016" to="#end0212016"><lem wit="#wit1">十</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">什</rdg></app>
-<app from="#beg0212017" to="#end0212017"><lem wit="#wit1">析</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit8">折</rdg></app>
-<app from="#beg_17" to="#end_17" corresp="#0212014"><lem wit="#wit1">直</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">具</rdg></app>
-<app from="#beg0212018" to="#end0212018"><lem wit="#wit1">豫</lem><rdg resp="#resp1" wit="#wit8">預</rdg></app>
-<app from="#beg0212019" to="#end0212019"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">三</rdg></app>
+<app from="#beg0212017" to="#end0212017"><lem wit="#wit1">析</lem><rdg resp="#resp1" wit="#wit3 #wit4 #wit9">折</rdg></app>
+<app from="#beg_17" to="#end_17" corresp="#0212014"><lem wit="#wit1">直</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">具</rdg></app>
+<app from="#beg0212018" to="#end0212018"><lem wit="#wit1">豫</lem><rdg resp="#resp1" wit="#wit9">預</rdg></app>
+<app from="#beg0212019" to="#end0212019"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">三</rdg></app>
 <app from="#beg0212020" to="#end0212020"><lem wit="#wit1">唯</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">准</rdg></app>
 <app from="#beg0212021" to="#end0212021"><lem wit="#wit1">益</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">葢</rdg></app>
-<app from="#beg0212022" to="#end0212022"><lem wit="#wit1">詎</lem><rdg resp="#resp1" wit="#wit8">詐</rdg></app>
-<app from="#beg0212023" to="#end0212023"><lem wit="#wit1">妨</lem><rdg resp="#resp1" wit="#wit8">防</rdg></app>
-<app from="#beg0213001" to="#end0213001"><lem wit="#wit1">投</lem><rdg resp="#resp1" wit="#wit8">捉</rdg></app>
-<app from="#beg0213002" to="#end0213002"><lem wit="#wit1">制</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">判</rdg></app>
-<app from="#beg0213003" to="#end0213003"><lem wit="#wit1">依</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">衣</rdg></app>
+<app from="#beg0212022" to="#end0212022"><lem wit="#wit1">詎</lem><rdg resp="#resp1" wit="#wit9">詐</rdg></app>
+<app from="#beg0212023" to="#end0212023"><lem wit="#wit1">妨</lem><rdg resp="#resp1" wit="#wit9">防</rdg></app>
+<app from="#beg0213001" to="#end0213001"><lem wit="#wit1">投</lem><rdg resp="#resp1" wit="#wit9">捉</rdg></app>
+<app from="#beg0213002" to="#end0213002"><lem wit="#wit1">制</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">判</rdg></app>
+<app from="#beg0213003" to="#end0213003"><lem wit="#wit1">依</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">衣</rdg></app>
 <app from="#beg0213004" to="#end0213004"><lem wit="#wit1">日</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">百</rdg></app>
 <app from="#beg0213005" to="#end0213005"><lem wit="#wit1">自</lem><rdg resp="#resp1" wit="#wit3 #wit4">目</rdg></app>
-<app from="#beg0213006" to="#end0213006"><lem wit="#wit1">導</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8"><space quantity="0"/></rdg></app>
-<app from="#beg0213007" to="#end0213007"><lem wit="#wit1">五條</lem><rdg resp="#resp1" wit="#wit8"><space quantity="0"/></rdg></app>
-<app from="#beg0213008" to="#end0213008"><lem wit="#wit5" resp="#resp4">祛</lem><rdg wit="#wit1">袪</rdg><rdg resp="#resp1" wit="#wit8">社</rdg></app>
-<app from="#beg0213009" to="#end0213009"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8"><space quantity="0"/></rdg></app>
-<app from="#beg0213010" to="#end0213010"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit8">太</rdg></app>
+<app from="#beg0213006" to="#end0213006"><lem wit="#wit1">導</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0213007" to="#end0213007"><lem wit="#wit1">五條</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0213008" to="#end0213008"><lem wit="#wit5" resp="#resp4">祛</lem><rdg wit="#wit1">袪</rdg><rdg resp="#resp1" wit="#wit9">社</rdg></app>
+<app from="#beg0213009" to="#end0213009"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0213010" to="#end0213010"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit9">太</rdg></app>
 <app from="#beg0213011" to="#end0213011"><lem wit="#wit1">鶩</lem><rdg resp="#resp1" wit="#wit2 #wit4">騖</rdg></app>
-<app from="#beg_18" to="#end_18" corresp="#0212023"><lem wit="#wit1">妨</lem><rdg resp="#resp1" wit="#wit8">防</rdg></app>
+<app from="#beg_18" to="#end_18" corresp="#0212023"><lem wit="#wit1">妨</lem><rdg resp="#resp1" wit="#wit9">防</rdg></app>
 <app from="#beg0213012" to="#end0213012"><lem wit="#wit1">邪</lem><rdg resp="#resp1" wit="#wit2">耶</rdg></app>
-<app from="#beg0213013" to="#end0213013"><lem wit="#wit1">還</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">薳</rdg></app>
-<app from="#beg0213014" to="#end0213014"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8"><space quantity="0"/></rdg></app>
-<app from="#beg0213015" to="#end0213015"><lem wit="#wit1">租</lem><rdg resp="#resp1" wit="#wit8">祖</rdg></app>
-<app from="#beg0213016" to="#end0213016"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit8">一鐵</rdg></app>
-<app from="#beg0213017" to="#end0213017"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8"><space quantity="0"/></rdg></app>
-<app from="#beg0213018" to="#end0213018"><lem wit="#wit1">事</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8"><space quantity="0"/></rdg></app>
+<app from="#beg0213013" to="#end0213013"><lem wit="#wit1">還</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">薳</rdg></app>
+<app from="#beg0213014" to="#end0213014"><lem wit="#wit1">法</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0213015" to="#end0213015"><lem wit="#wit1">租</lem><rdg resp="#resp1" wit="#wit9">祖</rdg></app>
+<app from="#beg0213016" to="#end0213016"><lem wit="#wit1">一</lem><rdg resp="#resp1" wit="#wit9">一鐵</rdg></app>
+<app from="#beg0213017" to="#end0213017"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0213018" to="#end0213018"><lem wit="#wit1">事</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9"><space quantity="0"/></rdg></app>
 <app from="#beg0213019" to="#end0213019"><lem wit="#wit1">戶</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">尸</rdg></app>
 <app from="#beg0213020" to="#end0213020"><lem wit="#wit1">呾</lem><rdg resp="#resp1" wit="#wit4">怛</rdg></app>
 <app from="#beg0213021" to="#end0213021"><lem wit="#wit1">羅</lem><rdg resp="#resp1" wit="#wit2 #wit3">囉</rdg></app>
-<app from="#beg0213022" to="#end0213022"><lem wit="#wit1">輿</lem><rdg resp="#resp1" wit="#wit8">與</rdg></app>
-<app from="#beg0213023" to="#end0213023"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8"><space quantity="0"/></rdg></app>
-<app from="#beg0213024" to="#end0213024"><lem wit="#wit1">掛</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">挂</rdg><rdg resp="#resp1" wit="#wit8">桂</rdg></app>
+<app from="#beg0213022" to="#end0213022"><lem wit="#wit1">輿</lem><rdg resp="#resp1" wit="#wit9">與</rdg></app>
+<app from="#beg0213023" to="#end0213023"><lem wit="#wit1">如</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0213024" to="#end0213024"><lem wit="#wit1">掛</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">挂</rdg><rdg resp="#resp1" wit="#wit9">桂</rdg></app>
 <app from="#beg0213025" to="#end0213025"><lem wit="#wit1">求</lem><rdg resp="#resp1" wit="#wit3 #wit4">來</rdg></app>
 <app from="#beg0213026" to="#end0213026"><lem wit="#wit1">揵稚</lem><rdg resp="#resp1" wit="#wit2">犍稚</rdg><rdg resp="#resp1" wit="#wit4">楗椎</rdg></app>
-<app from="#beg0214001" to="#end0214001"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit8">二</rdg></app>
+<app from="#beg0214001" to="#end0214001"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit9">二</rdg></app>
 <app from="#beg0214002" to="#end0214002"><lem wit="#wit1">是</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
-<app from="#beg0214003" to="#end0214003"><lem wit="#wit1">論</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">誰</rdg></app>
-<app from="#beg0214004" to="#end0214004"><lem wit="#wit1">則</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8"><space quantity="0"/></rdg></app>
+<app from="#beg0214003" to="#end0214003"><lem wit="#wit1">論</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">誰</rdg></app>
+<app from="#beg0214004" to="#end0214004"><lem wit="#wit1">則</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9"><space quantity="0"/></rdg></app>
 <app from="#beg0214005" to="#end0214005"><lem wit="#wit1">盪</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">蕩</rdg></app>
-<app from="#beg0214006" to="#end0214006"><lem wit="#wit1">舊</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">業</rdg></app>
-<app from="#beg0214007" to="#end0214007"><lem wit="#wit1">現</lem><rdg resp="#resp1" wit="#wit8">見</rdg></app>
-<app from="#beg0214008" to="#end0214008"><lem wit="#wit1">裾</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">裙</rdg></app>
-<app from="#beg0214009" to="#end0214009"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit8">之外</rdg></app>
-<app from="#beg0214010" to="#end0214010"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit8">郡</rdg></app>
+<app from="#beg0214006" to="#end0214006"><lem wit="#wit1">舊</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">業</rdg></app>
+<app from="#beg0214007" to="#end0214007"><lem wit="#wit1">現</lem><rdg resp="#resp1" wit="#wit9">見</rdg></app>
+<app from="#beg0214008" to="#end0214008"><lem wit="#wit1">裾</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">裙</rdg></app>
+<app from="#beg0214009" to="#end0214009"><lem wit="#wit1">之</lem><rdg resp="#resp1" wit="#wit9">之外</rdg></app>
+<app from="#beg0214010" to="#end0214010"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit9">郡</rdg></app>
 <app from="#beg_19" to="#end_19" corresp="#0212004"><lem wit="#wit1">製</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">制</rdg></app>
 <app from="#beg0214011" to="#end0214011"><lem wit="#wit1">同</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">殊</rdg></app>
-<app from="#beg_1a" to="#end_1a" corresp="#0214010"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit8">郡</rdg></app>
-<app from="#beg0214012" to="#end0214012"><lem wit="#wit1">禪</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">褌</rdg></app>
+<app from="#beg_1a" to="#end_1a" corresp="#0214010"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit9">郡</rdg></app>
+<app from="#beg0214012" to="#end0214012"><lem wit="#wit1">禪</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">褌</rdg></app>
 <app from="#beg_1b" to="#end_1b" corresp="#0212004"><lem wit="#wit1">製</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">制</rdg></app>
-<app from="#beg0214013" to="#end0214013"><lem wit="#wit1">者詳</lem><rdg resp="#resp1" wit="#wit8">祥</rdg></app>
-<app from="#beg0214014" to="#end0214014"><lem wit="#wit1"><g ref="#CB00626">㲲</g></lem><rdg resp="#resp1" wit="#wit8">疊</rdg></app>
-<app from="#beg0214015" to="#end0214015"><lem wit="#wit1">底</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">氏</rdg></app>
-<app from="#beg0214016" to="#end0214016"><lem wit="#wit1">吐</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">土</rdg></app>
-<app from="#beg_1c" to="#end_1c" corresp="#0214016"><lem wit="#wit1">吐</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">土</rdg></app>
-<app from="#beg_1d" to="#end_1d" corresp="#0214007"><lem wit="#wit1">現</lem><rdg resp="#resp1" wit="#wit8">見</rdg></app>
-<app from="#beg_1e" to="#end_1e" corresp="#0212023"><lem wit="#wit1">妨</lem><rdg resp="#resp1" wit="#wit8">防</rdg></app>
+<app from="#beg0214013" to="#end0214013"><lem wit="#wit1">者詳</lem><rdg resp="#resp1" wit="#wit9">祥</rdg></app>
+<app from="#beg0214014" to="#end0214014"><lem wit="#wit1"><g ref="#CB00626">㲲</g></lem><rdg resp="#resp1" wit="#wit9">疊</rdg></app>
+<app from="#beg0214015" to="#end0214015"><lem wit="#wit1">底</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">氏</rdg></app>
+<app from="#beg0214016" to="#end0214016"><lem wit="#wit1">吐</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">土</rdg></app>
+<app from="#beg_1c" to="#end_1c" corresp="#0214016"><lem wit="#wit1">吐</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">土</rdg></app>
+<app from="#beg_1d" to="#end_1d" corresp="#0214007"><lem wit="#wit1">現</lem><rdg resp="#resp1" wit="#wit9">見</rdg></app>
+<app from="#beg_1e" to="#end_1e" corresp="#0212023"><lem wit="#wit1">妨</lem><rdg resp="#resp1" wit="#wit9">防</rdg></app>
 <app from="#beg_1f" to="#end_1f" corresp="#0212004"><lem wit="#wit1">製</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">制</rdg></app>
-<app from="#beg0214017" to="#end0214017"><lem wit="#wit1">老者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">考</rdg></app>
-<app from="#beg0214018" to="#end0214018"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">元</rdg></app>
+<app from="#beg0214017" to="#end0214017"><lem wit="#wit1">老者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">考</rdg></app>
+<app from="#beg0214018" to="#end0214018"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">元</rdg></app>
 <app from="#beg_20" to="#end_20" corresp="#0212004"><lem wit="#wit1">製</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">制</rdg></app>
-<app from="#beg0214019" to="#end0214019"><lem wit="#wit1">髆</lem><rdg resp="#resp1" wit="#wit8">膊</rdg></app>
-<app from="#beg_21" to="#end_21" corresp="#0214010"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit8">郡</rdg></app>
+<app from="#beg0214019" to="#end0214019"><lem wit="#wit1">髆</lem><rdg resp="#resp1" wit="#wit9">膊</rdg></app>
+<app from="#beg_21" to="#end_21" corresp="#0214010"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit9">郡</rdg></app>
 <app from="#beg_22" to="#end_22" corresp="#0212004"><lem wit="#wit1">製</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">制</rdg></app>
 <app from="#beg0214020" to="#end0214020"><lem wit="#wit1">墮</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">隨</rdg></app>
 <app from="#beg0214021" to="#end0214021"><lem wit="#wit1">批</lem><rdg resp="#resp1" wit="#wit3 #wit4">比</rdg></app>
-<app from="#beg0214022" to="#end0214022"><lem wit="#wit1">誠可嗟矣</lem><rdg resp="#resp1" wit="#wit8"><space quantity="0"/></rdg></app>
-<app from="#beg0215001" to="#end0215001"><lem wit="#wit1">匪</lem><rdg resp="#resp1" wit="#wit8">非</rdg></app>
+<app from="#beg0214022" to="#end0214022"><lem wit="#wit1">誠可嗟矣</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0215001" to="#end0215001"><lem wit="#wit1">匪</lem><rdg resp="#resp1" wit="#wit9">非</rdg></app>
 <app from="#beg0215002" to="#end0215002"><lem wit="#wit1">艱</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">難</rdg></app>
 <app from="#beg0215004" to="#end0215004"><lem wit="#wit1">蕭然出離</lem><rdg resp="#resp1" wit="#wit3 #wit4">出離蕭然</rdg></app>
-<app from="#beg0215005" to="#end0215005"><lem wit="#wit1">泥</lem><rdg resp="#resp1" wit="#wit8">涅</rdg></app>
-<app from="#beg0215006" to="#end0215006"><lem wit="#wit1">拯</lem><rdg resp="#resp1" wit="#wit8">極</rdg></app>
+<app from="#beg0215005" to="#end0215005"><lem wit="#wit1">泥</lem><rdg resp="#resp1" wit="#wit9">涅</rdg></app>
+<app from="#beg0215006" to="#end0215006"><lem wit="#wit1">拯</lem><rdg resp="#resp1" wit="#wit9">極</rdg></app>
 <app from="#beg0215007" to="#end0215007"><lem wit="#wit1">三</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">法</rdg></app>
-<app from="#beg0215008" to="#end0215008"><lem wit="#wit1"><g ref="#CB01252">𢂁</g></lem><rdg resp="#resp1" wit="#wit8">絇</rdg></app>
-<app from="#beg0215009" to="#end0215009"><lem wit="#wit1">長可</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">可長</rdg></app>
+<app from="#beg0215008" to="#end0215008"><lem wit="#wit1"><g ref="#CB01252">𢂁</g></lem><rdg resp="#resp1" wit="#wit9">絇</rdg></app>
+<app from="#beg0215009" to="#end0215009"><lem wit="#wit1">長可</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">可長</rdg></app>
 <app from="#beg0215010" to="#end0215010"><lem wit="#wit1">反</lem><rdg resp="#resp1" wit="#wit4">交</rdg></app>
 <app from="#beg_23" to="#end_23" corresp="#0212004"><lem wit="#wit1">製</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">制</rdg></app>
 <app from="#beg0215011" to="#end0215011"><lem wit="#wit1">到</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">倒</rdg></app>
-<app from="#beg0215012" to="#end0215012"><lem wit="#wit1">向前</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">前垂</rdg></app>
+<app from="#beg0215012" to="#end0215012"><lem wit="#wit1">向前</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">前垂</rdg></app>
 <app from="#beg0215013" to="#end0215013"><lem wit="#wit1"><g ref="#CB00719">𥯤</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">葦</rdg></app>
 <app from="#beg0215014" to="#end0215014"><lem wit="#wit1">事</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">事益</rdg></app>
-<app from="#beg_24" to="#end_24" corresp="#0212009"><lem wit="#wit1">袈裟</lem><rdg resp="#resp1" wit="#wit8">加沙</rdg></app>
-<app from="#beg_25" to="#end_25" corresp="#0214010"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit8">郡</rdg></app>
-<app from="#beg0215015" to="#end0215015"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit8">針</rdg></app>
-<app from="#beg0215016" to="#end0215016"><lem wit="#wit1">絡</lem><rdg resp="#resp1" wit="#wit8">給</rdg></app>
-<app from="#beg_26" to="#end_26" corresp="#0214019"><lem wit="#wit1">髆</lem><rdg resp="#resp1" wit="#wit8">膊</rdg></app>
+<app from="#beg_24" to="#end_24" corresp="#0212009"><lem wit="#wit1">袈裟</lem><rdg resp="#resp1" wit="#wit9">加沙</rdg></app>
+<app from="#beg_25" to="#end_25" corresp="#0214010"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit9">郡</rdg></app>
+<app from="#beg0215015" to="#end0215015"><lem wit="#wit1">鉢</lem><rdg resp="#resp1" wit="#wit9">針</rdg></app>
+<app from="#beg0215016" to="#end0215016"><lem wit="#wit1">絡</lem><rdg resp="#resp1" wit="#wit9">給</rdg></app>
+<app from="#beg_26" to="#end_26" corresp="#0214019"><lem wit="#wit1">髆</lem><rdg resp="#resp1" wit="#wit9">膊</rdg></app>
 <app from="#beg_27" to="#end_27" corresp="#0212004"><lem wit="#wit1">製</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">制</rdg></app>
 <app from="#beg0215017" to="#end0215017"><lem wit="#wit1">辯</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">辨</rdg></app>
-<app from="#beg0215018" to="#end0215018"><lem wit="#wit1">餘</lem><rdg resp="#resp1" wit="#wit8">餘句</rdg></app>
-<app from="#beg_28" to="#end_28" corresp="#0212009"><lem wit="#wit1">袈裟</lem><rdg resp="#resp1" wit="#wit8">加沙</rdg></app>
-<app from="#beg0215019" to="#end0215019"><lem wit="#wit1">交</lem><rdg resp="#resp1" wit="#wit8">交絡</rdg></app>
-<app from="#beg0215020" to="#end0215020"><lem wit="#wit1">臍</lem><rdg resp="#resp1" wit="#wit8">齊</rdg></app>
-<app from="#beg0215022" to="#end0215022"><lem wit="#wit1">六</lem><rdg resp="#resp1" wit="#wit8">又</rdg></app>
-<app from="#beg0215021" to="#end0215021"><lem wit="#wit1"><note place="inline">勅<note n="0215022" resp="#resp1" type="orig" place="foot text">六＝又【甲】</note><note n="0215022" resp="#resp2" type="mod">六【大】，又【甲】</note><app n="0215022"><lem wit="#wit1">六</lem><rdg resp="#resp1" wit="#wit8">又</rdg></app>反</note></lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
-<app from="#beg_29" to="#end_29" corresp="#0215020"><lem wit="#wit1">臍</lem><rdg resp="#resp1" wit="#wit8">齊</rdg></app>
+<app from="#beg0215018" to="#end0215018"><lem wit="#wit1">餘</lem><rdg resp="#resp1" wit="#wit9">餘句</rdg></app>
+<app from="#beg_28" to="#end_28" corresp="#0212009"><lem wit="#wit1">袈裟</lem><rdg resp="#resp1" wit="#wit9">加沙</rdg></app>
+<app from="#beg0215019" to="#end0215019"><lem wit="#wit1">交</lem><rdg resp="#resp1" wit="#wit9">交絡</rdg></app>
+<app from="#beg0215020" to="#end0215020"><lem wit="#wit1">臍</lem><rdg resp="#resp1" wit="#wit9">齊</rdg></app>
+<app from="#beg0215022" to="#end0215022"><lem wit="#wit1">六</lem><rdg resp="#resp1" wit="#wit9">又</rdg></app>
+<app from="#beg0215021" to="#end0215021"><lem wit="#wit1"><note place="inline">勅<note n="0215022" resp="#resp1" type="orig" place="foot text">六＝又【甲】</note><note n="0215022" resp="#resp2" type="mod">六【大】，又【甲】</note><app n="0215022"><lem wit="#wit1">六</lem><rdg resp="#resp1" wit="#wit9">又</rdg></app>反</note></lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
+<app from="#beg_29" to="#end_29" corresp="#0215020"><lem wit="#wit1">臍</lem><rdg resp="#resp1" wit="#wit9">齊</rdg></app>
 <app from="#beg0215023" to="#end0215023"><lem wit="#wit1">為</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">謂</rdg></app>
 <app from="#beg0215c1401" to="#end0215c1401"><lem wit="#wit5" resp="#resp4">或</lem><rdg wit="#wit1">成</rdg></app>
 <app from="#beg0215024" to="#end0215024"><lem wit="#wit1">荼</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">茶</rdg></app>
-<app from="#beg_2a" to="#end_2a" corresp="#0214010"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit8">郡</rdg></app>
-<app from="#beg_2b" to="#end_2b" corresp="#0214008"><lem wit="#wit1">裾</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">裙</rdg></app>
-<app from="#beg_2c" to="#end_2c" corresp="#0215020"><lem wit="#wit1">臍</lem><rdg resp="#resp1" wit="#wit8">齊</rdg></app>
-<app from="#beg0215025" to="#end0215025"><lem wit="#wit1">儀</lem><rdg resp="#resp1" wit="#wit8">義</rdg></app>
+<app from="#beg_2a" to="#end_2a" corresp="#0214010"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit9">郡</rdg></app>
+<app from="#beg_2b" to="#end_2b" corresp="#0214008"><lem wit="#wit1">裾</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">裙</rdg></app>
+<app from="#beg_2c" to="#end_2c" corresp="#0215020"><lem wit="#wit1">臍</lem><rdg resp="#resp1" wit="#wit9">齊</rdg></app>
+<app from="#beg0215025" to="#end0215025"><lem wit="#wit1">儀</lem><rdg resp="#resp1" wit="#wit9">義</rdg></app>
 <app from="#beg0215026" to="#end0215026"><lem wit="#wit1">踹</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">腨</rdg></app>
 <app from="#beg0215027" to="#end0215027"><lem wit="#wit1">齊</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">劑</rdg></app>
-<app from="#beg0215028" to="#end0215028"><lem wit="#wit1">製</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">制</rdg></app>
+<app from="#beg0215028" to="#end0215028"><lem wit="#wit1">製</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">制</rdg></app>
 <app from="#beg0215029" to="#end0215029"><lem wit="#wit1">申</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">伸</rdg></app>
 <app from="#beg0215030" to="#end0215030"><lem wit="#wit1">告</lem><rdg resp="#resp1" wit="#wit3 #wit4">若</rdg></app>
-<app from="#beg0215031" to="#end0215031"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8"><space quantity="0"/></rdg></app>
-<app from="#beg0215032" to="#end0215032"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8"><space quantity="0"/></rdg></app>
-<app from="#beg_2d" to="#end_2d" corresp="#0214014"><lem wit="#wit1"><g ref="#CB00626">㲲</g></lem><rdg resp="#resp1" wit="#wit8">疊</rdg></app>
-<app from="#beg0215033" to="#end0215033"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8"><space quantity="0"/></rdg></app>
-<app from="#beg0216001" to="#end0216001"><lem wit="#wit1">棘</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">棗</rdg></app>
+<app from="#beg0215031" to="#end0215031"><lem wit="#wit1">有</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0215032" to="#end0215032"><lem wit="#wit1">二</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg_2d" to="#end_2d" corresp="#0214014"><lem wit="#wit1"><g ref="#CB00626">㲲</g></lem><rdg resp="#resp1" wit="#wit9">疊</rdg></app>
+<app from="#beg0215033" to="#end0215033"><lem wit="#wit1">大</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0216001" to="#end0216001"><lem wit="#wit1">棘</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">棗</rdg></app>
 <app from="#beg0216002" to="#end0216002"><lem wit="#wit1">說</lem><rdg resp="#resp1" wit="#wit3 #wit4">說焉</rdg></app>
-<app from="#beg0216003" to="#end0216003"><lem wit="#wit1">知</lem><rdg resp="#resp1" wit="#wit8">胝</rdg></app>
-<app from="#beg_2e" to="#end_2e" corresp="#0215020"><lem wit="#wit1">臍</lem><rdg resp="#resp1" wit="#wit8">齊</rdg></app>
-<app from="#beg_2f" to="#end_2f" corresp="#0215020"><lem wit="#wit1">臍</lem><rdg resp="#resp1" wit="#wit8">齊</rdg></app>
+<app from="#beg0216003" to="#end0216003"><lem wit="#wit1">知</lem><rdg resp="#resp1" wit="#wit9">胝</rdg></app>
+<app from="#beg_2e" to="#end_2e" corresp="#0215020"><lem wit="#wit1">臍</lem><rdg resp="#resp1" wit="#wit9">齊</rdg></app>
+<app from="#beg_2f" to="#end_2f" corresp="#0215020"><lem wit="#wit1">臍</lem><rdg resp="#resp1" wit="#wit9">齊</rdg></app>
 <app from="#beg0216004" to="#end0216004"><lem wit="#wit1"><note place="inline">於協反</note></lem><rdg resp="#resp1" wit="#wit4"><space quantity="0"/></rdg></app>
-<app from="#beg0216005" to="#end0216005"><lem wit="#wit1">肉</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">內</rdg></app>
+<app from="#beg0216005" to="#end0216005"><lem wit="#wit1">肉</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">內</rdg></app>
 <app from="#beg0216006" to="#end0216006"><lem wit="#wit1">飡</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">餐</rdg></app>
-<app from="#beg0216007" to="#end0216007"><lem wit="#wit1">俱</lem><rdg resp="#resp1" wit="#wit8">俱籍</rdg></app>
-<app from="#beg_30" to="#end_30" corresp="#0214010"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit8">郡</rdg></app>
-<app from="#beg0216008" to="#end0216008"><lem wit="#wit1">差</lem><rdg resp="#resp1" wit="#wit8">差矣</rdg></app>
+<app from="#beg0216007" to="#end0216007"><lem wit="#wit1">俱</lem><rdg resp="#resp1" wit="#wit9">俱籍</rdg></app>
+<app from="#beg_30" to="#end_30" corresp="#0214010"><lem wit="#wit1">裙</lem><rdg resp="#resp1" wit="#wit9">郡</rdg></app>
+<app from="#beg0216008" to="#end0216008"><lem wit="#wit1">差</lem><rdg resp="#resp1" wit="#wit9">差矣</rdg></app>
 <app from="#beg0216009" to="#end0216009"><lem wit="#wit1">求</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">營</rdg></app>
-<app from="#beg0216010" to="#end0216010"><lem wit="#wit1">情希</lem><rdg resp="#resp1" wit="#wit8">希情</rdg></app>
-<app from="#beg0216011" to="#end0216011"><lem wit="#wit1">真</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">貞</rdg></app>
-<app from="#beg0216012" to="#end0216012"><lem wit="#wit1">遵</lem><rdg resp="#resp1" wit="#wit8">尊</rdg></app>
-<app from="#beg0216013" to="#end0216013"><lem wit="#wit1">房設靈</lem><rdg resp="#resp1" wit="#wit8">靈設房</rdg></app>
-<app from="#beg0216014" to="#end0216014"><lem wit="#wit1">養</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">尊</rdg></app>
+<app from="#beg0216010" to="#end0216010"><lem wit="#wit1">情希</lem><rdg resp="#resp1" wit="#wit9">希情</rdg></app>
+<app from="#beg0216011" to="#end0216011"><lem wit="#wit1">真</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">貞</rdg></app>
+<app from="#beg0216012" to="#end0216012"><lem wit="#wit1">遵</lem><rdg resp="#resp1" wit="#wit9">尊</rdg></app>
+<app from="#beg0216013" to="#end0216013"><lem wit="#wit1">房設靈</lem><rdg resp="#resp1" wit="#wit9">靈設房</rdg></app>
+<app from="#beg0216014" to="#end0216014"><lem wit="#wit1">養</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">尊</rdg></app>
 <app from="#beg0216015" to="#end0216015"><lem wit="#wit1">式</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4"><space quantity="0"/></rdg></app>
-<app from="#beg0216016" to="#end0216016"><lem wit="#wit1">或</lem><rdg resp="#resp1" wit="#wit8"><space quantity="0"/></rdg></app>
-<app from="#beg0216017" to="#end0216017"><lem wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit8">苫</rdg></app>
-<app from="#beg0216018" to="#end0216018"><lem wit="#wit1">念佛</lem><rdg resp="#resp1" wit="#wit8">浴像</rdg></app>
+<app from="#beg0216016" to="#end0216016"><lem wit="#wit1">或</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg></app>
+<app from="#beg0216017" to="#end0216017"><lem wit="#wit1">苦</lem><rdg resp="#resp1" wit="#wit9">苫</rdg></app>
+<app from="#beg0216018" to="#end0216018"><lem wit="#wit1">念佛</lem><rdg resp="#resp1" wit="#wit9">浴像</rdg></app>
 <app from="#beg0216019" to="#end0216019"><lem wit="#wit1">恩</lem><rdg resp="#resp1" wit="#wit2">息</rdg></app>
-<app from="#beg0216020" to="#end0216020"><lem wit="#wit1">欲</lem><rdg resp="#resp1" wit="#wit8">從</rdg></app>
+<app from="#beg0216020" to="#end0216020"><lem wit="#wit1">欲</lem><rdg resp="#resp1" wit="#wit9">從</rdg></app>
 <app from="#beg0216021" to="#end0216021"><lem wit="#wit1">知</lem><rdg resp="#resp1" wit="#wit3 #wit4">之</rdg></app>
-<app from="#beg0216022" to="#end0216022"><lem wit="#wit1"><g ref="#CB02436">󰦄</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">輿</rdg></app>
-<app from="#beg0216023" to="#end0216023"><lem wit="#wit1">萃</lem><rdg resp="#resp1" wit="#wit8">華</rdg></app>
-<app from="#beg0216024" to="#end0216024"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">去</rdg></app>
-<app from="#beg0216025" to="#end0216025"><lem wit="#wit1">可用</lem><rdg resp="#resp1" wit="#wit8">用可</rdg></app>
-<app from="#beg_31" to="#end_31" corresp="#0214018"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">元</rdg></app>
-<app from="#beg0217001" to="#end0217001"><lem wit="#wit1">然此不得經宿，即須作法也</lem><rdg resp="#resp1" wit="#wit8"><note place="inline">然此不得經宿即須作法也</note></rdg></app>
-<app from="#beg0217002" to="#end0217002"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit8"><space quantity="0"/></rdg></app>
-<app from="#beg_32" to="#end_32" corresp="#0214018"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">元</rdg></app>
+<app from="#beg0216022" to="#end0216022"><lem wit="#wit1"><g ref="#CB02436">󰦄</g></lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">輿</rdg></app>
+<app from="#beg0216023" to="#end0216023"><lem wit="#wit1">萃</lem><rdg resp="#resp1" wit="#wit9">華</rdg></app>
+<app from="#beg0216024" to="#end0216024"><lem wit="#wit1">上</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">去</rdg></app>
+<app from="#beg0216025" to="#end0216025"><lem wit="#wit1">可用</lem><rdg resp="#resp1" wit="#wit9">用可</rdg></app>
+<app from="#beg_31" to="#end_31" corresp="#0214018"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">元</rdg></app>
+<app from="#beg0217001" to="#end0217001"><lem wit="#wit1">然此不得經宿，即須作法也</lem><rdg resp="#resp1" wit="#wit9"><note place="inline">然此不得經宿即須作法也</note></rdg></app>
+<app from="#beg0217002" to="#end0217002"><lem wit="#wit1">界</lem><rdg resp="#resp1" wit="#wit9"><space quantity="0"/></rdg></app>
+<app from="#beg_32" to="#end_32" corresp="#0214018"><lem wit="#wit1">無</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">元</rdg></app>
 <app from="#beg0217003" to="#end0217003"><lem wit="#wit1">者</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">寺</rdg></app>
 <app from="#beg0217004" to="#end0217004"><lem wit="#wit1">不</lem><rdg resp="#resp1" wit="#wit3 #wit4">不合</rdg></app>
 <app from="#beg0217005" to="#end0217005"><lem wit="#wit1">矣</lem><rdg resp="#resp1" wit="#wit3 #wit4"><space quantity="0"/></rdg></app>
-<app from="#beg0217006" to="#end0217006"><lem wit="#wit1">答</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit8">等答</rdg></app>
+<app from="#beg0217006" to="#end0217006"><lem wit="#wit1">答</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4 #wit9">等答</rdg></app>
 <app from="#beg0217c1001" to="#end0217c1001"><lem wit="#wit5" resp="#resp4">己</lem><rdg wit="#wit1">已</rdg></app>
-<app from="#beg0217007" to="#end0217007"><lem wit="#wit1">責</lem><rdg resp="#resp1" wit="#wit8">謮</rdg></app>
+<app from="#beg0217007" to="#end0217007"><lem wit="#wit1">責</lem><rdg resp="#resp1" wit="#wit9">謮</rdg></app>
 <app from="#beg0217008" to="#end0217008"><lem wit="#wit1">善</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">養</rdg></app>
 <app from="#beg0217009" to="#end0217009"><lem wit="#wit1">除</lem><rdg resp="#resp1" wit="#wit3 #wit4">餘</rdg></app>
 <app from="#beg0217010" to="#end0217010"><lem wit="#wit1">痾</lem><rdg resp="#resp1" wit="#wit2 #wit3 #wit4">阿</rdg></app>
@@ -3968,7 +3971,7 @@ add cvs log
 <note n="0207014" resp="#resp2" type="mod" target="#nkr_note_mod_0207014">并【大】，〔－〕【石】</note>
 <note n="0207015" resp="#resp2" type="mod" target="#nkr_note_mod_0207015">惑【大】，或【宋】【元】【明】【石】</note>
 <note n="0207016" resp="#resp2" type="mod" target="#nkr_note_mod_0207016">待【大】，持【石】</note>
-<note n="0207017" resp="#resp2" type="mod" target="#nkr_note_mod_0207017">掁【大】，<g ref="#CB01610">󰙊</g>【石】【宋】【元】【明】</note>
+<note n="0207017" resp="#resp2" type="mod" target="#nkr_note_mod_0207017">掁【大】，<g ref="#CB01610">䟫</g>【石】【宋】【元】【明】</note>
 <note n="0207018" resp="#resp2" type="mod" target="#nkr_note_mod_0207018">招【大】，成【宋】【元】【明】【石】</note>
 <note n="0207019" resp="#resp2" type="mod" target="#nkr_note_mod_0207019">儀【大】，其儀【石】</note>
 <note n="0207020" resp="#resp2" type="mod" target="#nkr_note_mod_0207020">唯【大】，准【宋】【元】【明】</note>
@@ -4619,7 +4622,7 @@ add cvs log
 <note n="0207014" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0207014">〔并〕－【石】</note>
 <note n="0207015" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0207015">惑＝或【三】【石】</note>
 <note n="0207016" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0207016">待＝持【石】</note>
-<note n="0207017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0207017">振＝<g ref="#CB01610">󰙊</g>【石】【三】</note>
+<note n="0207017" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0207017">振＝<g ref="#CB01610">䟫</g>【石】【三】</note>
 <note n="0207018" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0207018">招＝成【三】【石】</note>
 <note n="0207019" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0207019">（其）＋儀【石】</note>
 <note n="0207020" resp="#resp1" type="orig" place="foot text" target="#nkr_note_orig_0207020">唯＝准【三】</note>
@@ -5193,6 +5196,7 @@ add cvs log
 <cb:div type="add-notes">
 <head>新增校註</head>
 <p>
+<note n="0206c2701" resp="#resp2" type="add" target="#nkr_note_add_0206c2701">去【CB】【麗-CB】，云【大】</note>
 <note n="0208a2401" resp="#resp2" type="add" target="#nkr_note_add_0208a2401">濾【CB】，瀘【大】</note>
 <note n="0208b1601" resp="#resp2" type="add" target="#nkr_note_add_0208b1601">濾【CB】，瀘【大】</note>
 <note n="0208b2101" resp="#resp2" type="add" target="#nkr_note_add_0208b2101">濾【CB】，瀘【大】</note>

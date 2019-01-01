@@ -15,6 +15,7 @@
 		<edition>$Revision: 1.12 $<date>$Date: 2009/04/23 08:13:31 $</date></edition>
 		<respStmt xml:id="resp1"><resp>corrections</resp><name>Taisho</name></respStmt>
 		<respStmt xml:id="resp2"><resp>corrections</resp><name>CBETA</name></respStmt>
+		<respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
 	</editionStmt>
 	<extent>1卷</extent>
 	<publicationStmt>
@@ -267,7 +268,7 @@ Added comment  for Emacs
 <lb n="1023c06" ed="T"/>因極視右座功德。冀獲厚襯。齋畢簾下出綵
 <lb n="1023c07" ed="T"/>篚香羅帕籍一物。如朽釘長數寸。僧歸失望
 <lb n="1023c08" ed="T"/>慚惋。數日且意。大臣不容欺己。遂携至西
-<lb n="1023c09" ed="T"/>市。示於啇胡。啇胡見之驚曰。上人安得此物。
+<lb n="1023c09" ed="T"/>市。示於<anchor xml:id="nkr_note_add_1023c0901" n="1023c0901"/><anchor xml:id="beg1023c0901" n="1023c0901"/>商<anchor xml:id="end1023c0901"/>胡。<anchor xml:id="nkr_note_add_1023c0902" n="1023c0902"/><anchor xml:id="beg1023c0902" n="1023c0902"/>商<anchor xml:id="end1023c0902"/>胡見之驚曰。上人安得此物。
 <lb n="1023c10" ed="T"/>必貨此不違價。僧試求百千。胡人大笑曰。未
 <lb n="1023c11" ed="T"/>也。更極意言之。加至五百千。胡人曰。此直一
 <lb n="1023c12" ed="T"/>千萬。遂與之。僧訪其名。曰此寶骨也。</p>
@@ -307,6 +308,8 @@ Added comment  for Emacs
 <head>校註</head>
 <p>
 <app from="#beg1023b2701" to="#end1023b2701"><lem wit="#wit1" resp="#resp2">弗</lem><rdg wit="#wit2">佛</rdg></app>
+<app from="#beg1023c0901" to="#end1023c0901"><lem wit="#wit1" resp="#resp3">商</lem><rdg wit="#wit2">啇</rdg></app>
+<app from="#beg1023c0902" to="#end1023c0902"><lem wit="#wit1" resp="#resp3">商</lem><rdg wit="#wit2">啇</rdg></app>
 </p>
 </cb:div>
 <cb:div type="taisho-notes">
@@ -319,6 +322,8 @@ Added comment  for Emacs
 <head>新增校註</head>
 <p>
 <note n="1023b2701" resp="#resp2" type="add" target="#nkr_note_add_1023b2701">弗【CB】，佛【大】</note>
+<note n="1023c0901" resp="#resp2" type="add" target="#nkr_note_add_1023c0901">商【CB】，啇【大】</note>
+<note n="1023c0902" resp="#resp2" type="add" target="#nkr_note_add_1023c0902">商【CB】，啇【大】</note>
 </p>
 </cb:div>
 </back></text></TEI>
